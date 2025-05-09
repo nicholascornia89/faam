@@ -26,3 +26,15 @@ You can more easily import metadata and hierarchy (lists,items,photos,selections
 - [ ] Have a look at [Canopy IIIF](https://github.com/canopy-iiif/canopy-iiif) and [Tropiiify](https://github.com/arkalab/tropiiify) documentations to set up multiple `IIIF base URLs` for the collection. 
 - [ ] Assign programmatically UUIDs to each item in tropy using the UUID python library. This will become the manifest id later on.
 - [ ] ...
+
+## Nodegoat scripts
+
+### TO-DO
+
+- [ ] Batch import metadata from CSV exports and parse everything into JSON
+
+## RDF scripts
+
+- [ ] Map Nodegoat fields into RDF, using appropriate ontologies and vocabularies.
+- [ ] Convert JSON metadata to Turtle (and XML) RDF.
+- [ ] Consider the creation of custom ontology for 
