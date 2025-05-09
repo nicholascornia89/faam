@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "relatedTo": "https://schema.org/relatedTo",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    }
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#X6ZKdlFw",
+      "creator": "Albrecht Dürer",
+      "title": "Melencolia I",
+      "relatedTo": "hermeticism",
+      "list": [
+        "WOIS-figures"
+      ],
+      "tag": [
+        "angel",
+        "clavis_universalis",
+        "magic_square"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "bc4bfa037d1dd83f8961aecb02b69be9",
+          "color": "rgb(216,216,200,1)",
+          "density": null,
+          "filename": "Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA).jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/home/user/GitHub/whirlpool-of-imaginary-sounds/figures/Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA).jpg",
+          "protocol": "file",
+          "size": 8451722,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 4501,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 3562,
+          "title": "Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA)",
+          "date": "2025-04-22T12:00:00.368Z",
+          "selection": [
+            {
+              "@type": "Selection",
+              "template": "https://tropy.org/v1/templates/selection",
+              "x": 2163,
+              "y": 336,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 833,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 531,
+              "title": {
+                "@type": "text",
+                "@value": "hourglass"
+              },
+              "note": [
+                {
+                  "@type": "Note",
+                  "text": {
+                    "@value": "Example of link and bold.",
+                    "@language": "en"
+                  },
+                  "html": {
+                    "@value": "<p>Example of <a href=\"www.example.org\">link</a>&nbsp;and<strong> bold.</strong></p>",
+                    "@language": "en"
+                  },
+                  "markdown": {
+                    "@value": "Example of [link](www.example.org) and **bold.**",
+                    "@language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "Selection",
+              "template": "https://tropy.org/v1/templates/selection",
+              "x": 2681,
+              "y": 624,
+              "angle": 0,
+              "brightness": 0,
+              "contrast": 0,
+              "height": 617,
+              "hue": 0,
+              "mirror": false,
+              "negative": false,
+              "saturation": 0,
+              "sharpen": 0,
+              "width": 581,
+              "title": {
+                "@type": "text",
+                "@value": "magic_square"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "1.16.2"
+}
