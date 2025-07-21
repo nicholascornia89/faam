@@ -1,6 +1,7 @@
 import json, csv
 from time import gmtime, strftime
 import os
+from copy import deepcopy
 
 
 def csv2dict(csv_filename):  # imports a CSV file as dictionary

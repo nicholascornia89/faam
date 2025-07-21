@@ -18,11 +18,55 @@ def check_id_in_fields(d, id_value, search_fields):
                 if "Object ID" in key:
                     query = list(filter(lambda x: x == id_value, item[key]))
                     if len(query) > 0:
+                        print(f"Found {id_value} in field {field} of {item}")
+                        input()
                         return True
     return False
 
 
 """ This function takes all csv exports and converts them to a unique json file """
+
+
+def import_csv_nodegoat(csv_filename):
+    # convert csv to dictionary
+    csv_dict = csv2dict(csv_filename)
+    # generate list
+    l = []
+    old_ObjID = ""
+    element = {"id": ""}
+    for item in csv_dict:
+        # print("Current item:")
+        # print(item)
+        # input()
+        for field in item.keys():
+            # print(f"Field: {field}")
+            # check if new ObjID <> old_ObjID
+            if field == '''\ufeff"Object ID"''':
+                if item[field] == old_ObjID:
+                    pass
+                else:
+                    # save element and create new one
+                    old_ObjID = item[field]
+                    l.append(element)
+                    element = {}
+                    element["id"] = [old_ObjID]
+
+            else:  # metadata
+                if field not in element:
+                    element[field] = [item[field]]
+                else:
+                    # check duplicate for field
+                    if item[field] not in element[field]:
+                        element[field].append(item[field])
+                    else:
+                        # skip
+                        pass
+
+    return l[1:]
+
+
+""" Given a csv file from Nodegoat export, returns a list without duplicates 
+I assume that the first column will always be 'Nodegoat ID' """
 
 
 def nodegoat_csv2json(data_dir):
@@ -75,51 +119,73 @@ def nodegoat_csv2json(data_dir):
     # append merged manifestation
     d["manifestation"] = manifestation_merged
 
-    """ reduce cities : TOO SLOW!
-
-    print("Reducing number of cities...")
-
-    search_fields = [
-        "music_organization",
-        "agent",
-        "holding_institution",
-        "manifestation",
-    ]
-
-    
-
-    for i in range(len(d["city"])):
-        city_id = d["city"][i]["id"]
-        if check_id_in_fields(d, city_id, search_fields):
-            # keep city
-            pass
-        else:
-            del d["city"][i]
-
-    """
-
-    """ reduce countries: TOO SLOW and not working
+    """ reduce countries """
 
     print("Reducing countries...")
     search_fields = ["music_organization", "agent", "holding_institution"]
 
-    countries_to_be_deleted = []
+    countries_to_be_kept = []  # list of countries ids to be kept
 
-    for i in range(len(d["country"])):
-        country_id = d["country"][i]["id"]
-        if check_id_in_fields(d, country_id, search_fields):
-            # keep country
-            pass
-        else:
-            countries_to_be_deleted.append(country_id)
+    cities_to_be_kept = []  # list of cities ids to be kept
 
-    print(f"There are {len(countries_to_be_deleted)} superfluous countries.")
+    """ gather cities and countries from music_organization object """
+    for item in d["music_organization"]:
+        for city in item["City - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+        for country in item["Country - Object ID"]:
+            if country not in countries_to_be_kept:
+                countries_to_be_kept.append(country)
 
-    for element in countries_to_be_deleted:
-        query = list(filter(lambda x: x[1]["id"] == element, enumerate(d["country"])))
-        del d["country"][query[0][0]]
+    """ gather cities and countries from holding_institution object """
+    for item in d["holding_institution"]:
+        for city in item["place - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+        for country in item["country - Object ID"]:
+            if country not in countries_to_be_kept:
+                countries_to_be_kept.append(country)
 
-    """
+    """ gather cities and countries from agent object """
+    for item in d["agent"]:
+        for city in item["place of birth - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+        for city in item["place of death - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+        for country in item["country of citizenship - Object ID"]:
+            if country not in countries_to_be_kept:
+                countries_to_be_kept.append(country)
+
+    """ gather cities and countries from manifestation object """
+    for item in d["manifestation"]:
+        for city in item["[Agent] Location Reference - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+        for city in item["[Organisation] Location Reference - Object ID"]:
+            if city not in cities_to_be_kept:
+                cities_to_be_kept.append(city)
+
+    print(f"Cities to be kept: {len(cities_to_be_kept)}")
+    print(f"Countries to be kept: {len(countries_to_be_kept)}")
+
+    print("Cleaning up superfluous cities and countries...")
+
+    d_copy_city = deepcopy(d["city"])
+    d_copy_country = deepcopy(d["country"])
+    d["city"] = []
+    d["country"] = []
+
+    # cleaning up cities and countries
+
+    for city in d_copy_city:
+        if city["id"][0] in cities_to_be_kept:
+            d["city"].append(city)
+
+    for country in d_copy_country:
+        if country["id"][0] in countries_to_be_kept:
+            d["country"].append(country)
 
     # Export to JSON
 
@@ -127,45 +193,3 @@ def nodegoat_csv2json(data_dir):
     dict2json(d, os.path.join("tmp", "nodegoat_export.json"))
 
     return
-
-
-""" Given a csv file from Nodegoat export, returns a list without duplicates 
-I assume that the first column will always be 'Nodegoat ID' """
-
-
-def import_csv_nodegoat(csv_filename):
-    # convert csv to dictionary
-    csv_dict = csv2dict(csv_filename)
-    # generate list
-    l = []
-    old_ObjID = ""
-    element = {"id": ""}
-    for item in csv_dict:
-        # print("Current item:")
-        # print(item)
-        # input()
-        for field in item.keys():
-            # print(f"Field: {field}")
-            # check if new ObjID <> old_ObjID
-            if field == '''\ufeff"Object ID"''':
-                if item[field] == old_ObjID:
-                    pass
-                else:
-                    # save element and create new one
-                    old_ObjID = item[field]
-                    l.append(element)
-                    element = {}
-                    element["id"] = [old_ObjID]
-
-            else:  # metadata
-                if field not in element:
-                    element[field] = [item[field]]
-                else:
-                    # check duplicate for field
-                    if item[field] not in element[field]:
-                        element[field].append(item[field])
-                    else:
-                        # skip
-                        pass
-
-    return l[1:]
