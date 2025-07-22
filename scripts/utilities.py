@@ -3,6 +3,10 @@ from time import gmtime, strftime
 import os
 from copy import deepcopy
 
+# Import UUID libraries.
+import uuid
+import shortuuid
+
 
 def csv2dict(csv_filename):  # imports a CSV file as dictionary
     f = open(csv_filename, "r")
@@ -37,3 +41,10 @@ def get_latest_file(basepath):  # returns latest file path in a directory
     files = os.listdir(basepath)
     paths = [os.path.join(basepath, basename) for basename in files]
     return max(paths, key=os.path.getctime)
+
+
+def generate_short_uuid4(length=8):
+    u = uuid.uuid4()
+    s = shortuuid.encode(u)
+
+    return s[:length]

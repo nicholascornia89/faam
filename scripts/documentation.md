@@ -35,7 +35,9 @@ References between objects are constructed by the Nodegoat Object IDs, unique to
 
 ### TO-DO
 
-- [x ] Batch import metadata from CSV exports and parse everything into JSON
+- [x ] Batch import metadata from CSV exports and parse everything into JSON.
+- [x ] Generate unique short UUIDs for each object
+- [ ] Enhance metadata using python Wikibase API (SPARQL)
 
 ## RDF scripts
 
