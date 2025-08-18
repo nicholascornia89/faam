@@ -15,6 +15,18 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [ ] Static site generation using Mkdocs (or Starlight).
 - [ ] Image viewer using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
+## Mkdocs scripts
+
+- [ ] Given JSON dictionary, generate single pages for each entity of the knowledge base.
+
+Some ideas about layout and presentation of data
+
+- [ ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
+- [ ] Include graph representation of metadata using pyvis
+- [ ] Geolocalization
+- [ ] Simple image gallery 
+- [ ] Zoomable images using [pyvips](https://libvips.github.io/pyvips/) and render them using [OpenSeadragon](https://openseadragon.github.io/docs/)
+
 ## Tropy scripts
 
 All scripts to programmatically interact with tropy are available in the `tropy.py` file. I successfully made some test already to export each table to CSV formats via Pandas.
