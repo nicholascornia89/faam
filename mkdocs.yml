@@ -3,7 +3,7 @@ site_author: Nicholas Cornia
 repo_url: https://github.com/nicholascornia89/faam
 nav:
   - Project: index.md
-  - Aknowledgments: aknowledgments.md
+  - Acknowledgements: acknowledgements.md
   - Special Collections: special_collections.md
   - Publications: publications.md
   - Music Annotation Ontology: music_annotation_ontology.md
@@ -14,6 +14,11 @@ plugins:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/glide.core.css
+  - assets/stylesheets/glide.theme..css
+
+#extra_javascript:
+  #- assets/javascripts/
 
 theme:
   name: material
@@ -24,6 +29,10 @@ theme:
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
+    admonition:
+      abstract: fontawesome/solid/book
+      note: fontawesome/solid/note-sticky
+      quote: fontawesome/solid/quote-left
 
   font:
     text: Poppins
@@ -49,18 +58,18 @@ theme:
         name: Switch to light mode
 
 
-
-
       
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    #- navigation.instant
+    #- navigation.instant.prefetch
+    #- navigation.instant.progress
     - search.share
-    - navigation.footer
+    #- navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
-    #- navigation.prune
+    #- navigation.top
+    - toc.follow
+    - toc
 
 copyright: Copyright &copy; 2025 Royal Conservatoire of Antwerp, Artesis Plantijn University College
 
@@ -74,8 +83,11 @@ markdown_extensions:
   - footnotes
   - tables
   - attr_list
+  - admonition
   - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
