@@ -20,17 +20,19 @@ out_dir = "tmp"
 # Collect CSV data into unique JSON file
 d = nodegoat_csv2json(data_dir)
 
-# Assign unique (short)UUID identifiers
+print(d["occupation"][0])
+input()
 
-d = nodegoat_uuid_generator(d)
+# Assign unique (short)UUID identifiers
+print("Assigning unique (short)UUID identifiers to each objects...")
+# d = nodegoat_uuid_generator(d)
 
 # Substitute Nodegoat Object ID referencing with UUIDs
-
-# d = nodegoat_uuid_mapping(d) # TO BE CONTINUED
-
+print("Echaning cross-relationships references with new UUIDs...")
+# d = nodegoat_uuid_mapping(d) # TO BE CHECKED
 # Enhance data via SPARQL queries
-
-# d = SPARQL_enhance_metadata(d) # TO BE CONTINUED
+print("Enhancing data via Wikidata SPARQL queries...")
+# d = enhance_nodegoat_fields(d)  # TO BE CHECKED
 
 # Cleanup unused entities, such as cities, countries and works.
 

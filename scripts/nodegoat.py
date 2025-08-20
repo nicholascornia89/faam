@@ -18,7 +18,7 @@ def import_csv_nodegoat(csv_filename):
     # generate list
     l = []
     old_ObjID = ""
-    element = {"nodegoat_id": ""}
+    element = {"id": "", "nodegoat_id": ""}
     for item in csv_dict:
         # print("Current item:")
         # print(item)
@@ -33,7 +33,7 @@ def import_csv_nodegoat(csv_filename):
                     # save element and create new one
                     old_ObjID = item[field]
                     l.append(element)
-                    element = {}
+                    element = {"id": ""}
                     element["nodegoat_id"] = [old_ObjID]
 
             else:  # metadata
@@ -187,7 +187,13 @@ def nodegoat_objects_list(
     object_list = []
     for object_type in d.keys():
         for obj in d[object_type]:
-            object_list.append({"nodegoat_id": obj["nodegoat_id"], "type": object_type})
+            object_list.append(
+                {
+                    "id": obj["id"],
+                    "nodegoat_id": obj["nodegoat_id"][0],
+                    "type": object_type,
+                }
+            )
     return object_list
 
 
@@ -196,11 +202,24 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
 
     object_list = nodegoat_objects_list(d)
 
+    print(f"Exmple Object list: {object_list[0]}")
+    input()
+
     for object_type in d.keys():
+        print(f"Current object type: {object_type}")
+        # select fields to be updated
+        to_be_updated_fields = []
+        for field in d[object_type][0].keys():
+            if "Object ID" in field:
+                to_be_updated_fields.append(field)
+
+        print(f"Fields to be updated: {to_be_updated_fields}")
+
         for obj in d[object_type]:
-            for field in obj.keys():
-                if "Object ID" in field:
-                    for reference in obj[field]:
+            for field in to_be_updated_fields:
+                uuid_field = []
+                for reference in obj[field]:
+                    if reference != "":
                         # lookup for object in object_list
                         query = list(
                             filter(
@@ -208,16 +227,20 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
                                 object_list,
                             )
                         )
+                        try:
+                            uuid_field.append(query[0]["id"])
+                        except IndexError:
+                            print(f"Missing reference: {reference} for object!")
 
-                        nodegoat_id = query[0]["nodegoat_id"]
+                        # rename field
+                        uuid_field_name = field.split(" - ")[0]
+                        # substitute new UUID field with to old one with Object IDs
+                        obj["uuid_field"] = uuid_field
 
-                        type = query[0]["type"]
+                # delete old field with 'Object ID' in it
+                obj.pop(field, None)
 
-                        query = list(
-                            filter(lambda x: x["nodegoat_id"] == nodegoat_id, d[type])
-                        )
-
-                        uuid = query[0]["id"]
+    return d
 
 
 def nodegoat_export2JSON(d, out_dir):
