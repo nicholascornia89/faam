@@ -21,10 +21,10 @@ This documentation describes the different functions and scripts for the FAAM pr
 
 Some ideas about layout and presentation of data
 
-- [ ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
+- [x ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
 - [ ] Include graph representation of metadata using pyvis
 - [ ] Geolocalization
-- [ ] Simple image gallery 
+- [ ] Simple image carousel tool like [Glide](https://glidejs.com/docs/) or [Swiper](https://swiperjs.com/get-started) (see [Demos](https://swiperjs.com/demos))
 - [ ] Zoomable images using [pyvips](https://libvips.github.io/pyvips/) and render them using [OpenSeadragon](https://openseadragon.github.io/docs/)
 
 ## Tropy scripts

@@ -17,14 +17,12 @@ def import_csv_nodegoat(csv_filename):
     csv_dict = csv2dict(csv_filename)
     # generate list
     l = []
+    # record last Object ID
     old_ObjID = ""
+    # initialise empty element
     element = {"id": "", "nodegoat_id": ""}
     for item in csv_dict:
-        # print("Current item:")
-        # print(item)
-        # input()
         for field in item.keys():
-            # print(f"Field: {field}")
             # check if new ObjID <> old_ObjID
             if field == '''\ufeff"Object ID"''':
                 if item[field] == old_ObjID:
@@ -47,6 +45,9 @@ def import_csv_nodegoat(csv_filename):
                         # skip
                         pass
 
+    # append last element (more elegant solution is needed...
+    l.append(element)
+    # we return from the second element, not considering the first empty one.
     return l[1:]
 
 
@@ -190,20 +191,24 @@ def nodegoat_objects_list(
             object_list.append(
                 {
                     "id": obj["id"],
-                    "nodegoat_id": obj["nodegoat_id"][0],
+                    "nodegoat_id": int(obj["nodegoat_id"][0]),
+                    "Wikidata QID": "",
                     "type": object_type,
                 }
             )
-    return object_list
+            if "Wikidata QID" in obj.keys():
+                object_list[-1]["Wikidata QID"] = obj["Wikidata QID"][0]
+
+    return sorted(object_list, key=lambda x: x["nodegoat_id"])
 
 
 def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UUID
     # generate object list of all types
-
     object_list = nodegoat_objects_list(d)
 
-    print(f"Exmple Object list: {object_list[0]}")
-    input()
+    nodegoat_ids = []
+    for obj in object_list:
+        nodegoat_ids.append(obj["nodegoat_id"])
 
     for object_type in d.keys():
         print(f"Current object type: {object_type}")
@@ -220,13 +225,11 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
                 uuid_field = []
                 for reference in obj[field]:
                     if reference != "":
-                        # lookup for object in object_list
-                        query = list(
-                            filter(
-                                lambda x: x["nodegoat_id"] == reference,
-                                object_list,
-                            )
-                        )
+                        # bisection method to retrieve UUID given nodegoat ID
+                        start = time.time()
+                        index = bisect_left(nodegoat_ids, int(reference))
+                        end = time.time()
+                        query = [object_list[index]]
                         try:
                             uuid_field.append(query[0]["id"])
                         except IndexError:
@@ -235,7 +238,12 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
                         # rename field
                         uuid_field_name = field.split(" - ")[0]
                         # substitute new UUID field with to old one with Object IDs
-                        obj["uuid_field"] = uuid_field
+                        obj[uuid_field_name] = uuid_field
+                    else:
+                        # keep key in case of empty reference
+                        uuid_field_name = field.split(" - ")[0]
+                        # substitute new UUID field with to old one with Object IDs
+                        obj[uuid_field_name] = [""]
 
                 # delete old field with 'Object ID' in it
                 obj.pop(field, None)
