@@ -7,6 +7,7 @@ import sys
 
 sys.path.append(".")
 from utilities import *
+from nodegoat import *
 
 from wikibase_api import Wikibase
 
@@ -41,7 +42,7 @@ def wikidata_objects_list(
 
 	return sorted(wikidata_object_list, key=lambda x: x["Wikidata id"])
 
-def enhance_nodegoat_fields(d):
+def enhance_nodegoat_fields(d,out_dir):
 	# generate wikidata object list and their ids for bisect search
 	wikidata_object_list = wikidata_objects_list(d)
 	wikidata_ids = []
@@ -52,6 +53,7 @@ def enhance_nodegoat_fields(d):
 	new_wikidata_items = []
 
 	# get all objects according to type, assuming each object has a field called "Wikidata QID"
+	countdown_start = time.time()
 	for object_type in d.keys():
 		print(f"Current object type: {object_type}")
 		print("It might take a while...")
@@ -64,6 +66,12 @@ def enhance_nodegoat_fields(d):
 				if len(query) > 0:
 					fields_to_be_queried.append(query[0])
 			for obj in d[object_type]:  # enhance every object
+				countdown_check = time.time()
+				if countdown_check - countdown_start > 20: # backup data until now
+					print("Backing up new data until now...")
+					nodegoat_export2JSON(d, out_dir)
+					countdown_start = time.time()
+
 				#print(f"Current object: {obj["Wikidata QID"][0]}")
 				if obj["Wikidata QID"][0] != "":  # check if Wikidata QID is present
 					qid = obj["Wikidata QID"][0]
@@ -128,7 +136,51 @@ def enhance_nodegoat_fields(d):
 			print(new_wikidata_items)
 
 	return d
-							
+
+def create_new_ids_after_wikidata_enhance(d):
+	# we have to check again if a new QID in a field should get a new item with unique UUID
+
+	# get Wikidata object list
+	wikidata_object_list = wikidata_objects_list(d)
+	wikidata_ids = []
+	for obj in wikidata_object_list:
+		wikidata_ids.append(obj["Wikidata id"])
+
+	new_wikidata_ids = []
+
+	for object_type in d.keys():
+		if "Wikidata QID" in d[object_type][0].keys():
+			fields_to_be_checked = []
+			for field in nodegoat2wd:
+				if field["nodegoat_field"] in d[object_type][0].keys():
+					fields_to_be_checked.append(field["nodegoat_field"])
+
+			print(f"Fields to be checked: {fields_to_be_checked}")
+			input()
+			for obj in d[object_type]:
+				for field in fields_to_be_checked:
+					# check every statement
+					for statement in field:
+						if statement[0] == "Q":
+							try:
+								index = bisect_left(wikidata_ids,int(statement[1:]))
+								if statement != wikidata_object_list[index]["Wikidata id"]: 
+									# if not present, add to new Wikidata items list
+									new_wikidata_ids.append(statement)
+							except Exception:
+								# case where the UUID starts with Q
+								pass
+
+			print(f"New Wikidata IDs: {new_wikidata_ids}")
+
+
+
+
+
+
+
+
+
 def test_wb_query():
 	# Example: Adolf Ruthardt data
 	qid = "Q4401191"

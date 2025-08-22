@@ -31,9 +31,6 @@ if "y" in answer:
     # Substitute Nodegoat Object ID referencing with UUIDs
     print("Echaning cross-relationships references with new UUIDs...")
     d = nodegoat_uuid_mapping(d)
-    # Enhance data via SPARQL queries
-    print("Enhancing data via Wikidata SPARQL queries...")
-    # d = enhance_nodegoat_fields(d)  # TO BE CHECKED
 
     # Cleanup unused entities, such as cities, countries and works.
     d = nodegoat_cleaup_superfluous_objects(d)
@@ -44,6 +41,15 @@ if "y" in answer:
 
 else:  # import data from latest JSON backup
     d = load_nodegoat_JSON(out_dir)
+
+    create_new_ids_after_wikidata_enhance(d)
+
+    # Enhance data via SPARQL queries
+    print("Enhancing data via Wikidata SPARQL queries...")
+    d = enhance_nodegoat_fields(d, out_dir)  # TO BE CHECKED
+
+    # Export to JSON
+    nodegoat_export2JSON(d, out_dir)
 
 
 # RDF

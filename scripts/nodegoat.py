@@ -106,19 +106,32 @@ def nodegoat_csv2json(data_dir):
 
 
 def nodegoat_cleaup_superfluous_objects(d):
-    print("Reducing countries...")
-    search_fields = ["music_organization", "agent", "holding_institution"]
+    print("Reducing superfluous items...")
 
     countries_to_be_kept = []  # list of countries ids to be kept
 
     cities_to_be_kept = []  # list of cities ids to be kept
 
+    works_to_be_kept = []  # list of works ids to be kept
+
+    """gather works to be kept"""
+
+    for item in d["musical_work"]:
+        for work in item["based on"]:
+            if work not in works_to_be_kept:
+                works_to_be_kept.append(work)
+
+    for item in d["manifestation"]:
+        for work in item["Musical Works"]:
+            if work not in works_to_be_kept:
+                works_to_be_kept.append(work)
+
     """ gather cities and countries from music_organization object """
     for item in d["music_organization"]:
-        for city in item["City"]:
+        for city in item["place"]:
             if city not in cities_to_be_kept:
                 cities_to_be_kept.append(city)
-        for country in item["Country"]:
+        for country in item["country"]:
             if country not in countries_to_be_kept:
                 countries_to_be_kept.append(country)
 
@@ -157,23 +170,28 @@ def nodegoat_cleaup_superfluous_objects(d):
 
     print(f"Cities to be kept: {len(cities_to_be_kept)}")
     print(f"Countries to be kept: {len(countries_to_be_kept)}")
-
-    print("Cleaning up superfluous cities and countries...")
+    print(f"Works to be kept: {len(works_to_be_kept)}")
 
     d_copy_city = deepcopy(d["city"])
     d_copy_country = deepcopy(d["country"])
+    d_copy_work = deepcopy(d["musical_work"])
     d["city"] = []
     d["country"] = []
+    d["musical_work"] = []
 
-    # cleaning up cities and countries
+    # cleaning up
 
     for city in d_copy_city:
-        if city["nodegoat_id"][0] in cities_to_be_kept:
+        if city["id"] in cities_to_be_kept:
             d["city"].append(city)
 
     for country in d_copy_country:
-        if country["nodegoat_id"][0] in countries_to_be_kept:
+        if country["id"] in countries_to_be_kept:
             d["country"].append(country)
+
+    for work in d_copy_work:
+        if work["id"] in works_to_be_kept:
+            d["musical_work"].append(work)
 
     return d
 
@@ -217,14 +235,14 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
         nodegoat_ids.append(obj["nodegoat_id"])
 
     for object_type in d.keys():
-        print(f"Current object type: {object_type}")
+        # print(f"Current object type: {object_type}")
         # select fields to be updated
         to_be_updated_fields = []
         for field in d[object_type][0].keys():
             if "Object ID" in field:
                 to_be_updated_fields.append(field)
 
-        print(f"Fields to be updated: {to_be_updated_fields}")
+        # print(f"Fields to be updated: {to_be_updated_fields}")
 
         for obj in d[object_type]:
             for field in to_be_updated_fields:
