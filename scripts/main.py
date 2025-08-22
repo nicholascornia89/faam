@@ -17,26 +17,33 @@ from tropy import *
 data_dir = "nodegoat_data"
 out_dir = "tmp"
 
-# Collect CSV data into unique JSON file
-d = nodegoat_csv2json(data_dir)
+print("Would you like to generate a new JSON file? y/n")
+answer = input()
 
-# Assign unique (short)UUID identifiers
-print("Assigning unique (short)UUID identifiers to each objects...")
-d = nodegoat_uuid_generator(d)
+if "y" in answer:
+    # Collect CSV data into unique JSON file
+    d = nodegoat_csv2json(data_dir)
 
-# Substitute Nodegoat Object ID referencing with UUIDs
-print("Echaning cross-relationships references with new UUIDs...")
-d = nodegoat_uuid_mapping(d)
-# Enhance data via SPARQL queries
-print("Enhancing data via Wikidata SPARQL queries...")
-d = enhance_nodegoat_fields(d)  # TO BE CHECKED
+    # Assign unique (short)UUID identifiers
+    print("Assigning unique (short)UUID identifiers to each objects...")
+    d = nodegoat_uuid_generator(d)
 
-# Cleanup unused entities, such as cities, countries and works.
-d = nodegoat_cleaup_superfluous_objects(d)
+    # Substitute Nodegoat Object ID referencing with UUIDs
+    print("Echaning cross-relationships references with new UUIDs...")
+    d = nodegoat_uuid_mapping(d)
+    # Enhance data via SPARQL queries
+    print("Enhancing data via Wikidata SPARQL queries...")
+    # d = enhance_nodegoat_fields(d)  # TO BE CHECKED
 
-# Export to JSON
+    # Cleanup unused entities, such as cities, countries and works.
+    d = nodegoat_cleaup_superfluous_objects(d)
 
-nodegoat_export2JSON(d, out_dir)
+    # Export to JSON
+
+    nodegoat_export2JSON(d, out_dir)
+
+else:  # import data from latest JSON backup
+    d = load_nodegoat_JSON(out_dir)
 
 
 # RDF

@@ -12,7 +12,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [ ] Assign permanent URI to ontology using w3id.org or purl.org.
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
-- [ ] Static site generation using Mkdocs (or Starlight).
+- [x ] Static site generation using Mkdocs (or Starlight).
 - [ ] Image viewer using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
 ## Mkdocs scripts
@@ -22,7 +22,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 Some ideas about layout and presentation of data
 
 - [x ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
-- [ ] Include graph representation of metadata using pyvis
+- [ ] Include graph representation of metadata using pyvis or similar library
 - [ ] Geolocalization
 - [ ] Simple image carousel tool like [Glide](https://glidejs.com/docs/) or [Swiper](https://swiperjs.com/get-started) (see [Demos](https://swiperjs.com/demos))
 - [ ] Zoomable images using [pyvips](https://libvips.github.io/pyvips/) and render them using [OpenSeadragon](https://openseadragon.github.io/docs/)
@@ -49,7 +49,7 @@ References between objects are constructed by the Nodegoat Object IDs, unique to
 
 - [x ] Batch import metadata from CSV exports and parse everything into JSON.
 - [x ] Generate unique short UUIDs for each object
-- [ ] Enhance metadata using python Wikibase API (SPARQL)
+- [x ] Enhance metadata using python Wikibase API (SPARQL)
 
 ## RDF scripts
 

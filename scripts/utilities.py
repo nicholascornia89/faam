@@ -35,7 +35,7 @@ def dict2json(d, json_filename):  # export a dictionary to JSON file
 
 
 def get_current_date():
-    return strftime("%Y-%m-%d", gmtime())
+    return time.strftime("%Y-%m-%d", time.gmtime())
 
 
 def get_latest_file(basepath):  # returns latest file path in a directory

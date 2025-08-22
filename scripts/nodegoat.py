@@ -12,6 +12,12 @@ from utilities import *
 """ This function takes all csv exports and converts them to a unique json file """
 
 
+def load_nodegoat_JSON(out_dir):
+    nodegoat_json_filename = get_latest_file(out_dir)
+    print(f"Loading Nodegoat JSON file: {nodegoat_json_filename}")
+    return json2dict(nodegoat_json_filename)
+
+
 def import_csv_nodegoat(csv_filename):
     # convert csv to dictionary
     csv_dict = csv2dict(csv_filename)
@@ -109,41 +115,41 @@ def nodegoat_cleaup_superfluous_objects(d):
 
     """ gather cities and countries from music_organization object """
     for item in d["music_organization"]:
-        for city in item["City - Object ID"]:
+        for city in item["City"]:
             if city not in cities_to_be_kept:
                 cities_to_be_kept.append(city)
-        for country in item["Country - Object ID"]:
+        for country in item["Country"]:
             if country not in countries_to_be_kept:
                 countries_to_be_kept.append(country)
 
     """ gather cities and countries from holding_institution object """
     for item in d["holding_institution"]:
-        for city in item["place - Object ID"]:
+        for city in item["place"]:
             if city not in cities_to_be_kept:
                 cities_to_be_kept.append(city)
-        for country in item["country - Object ID"]:
+        for country in item["country"]:
             if country not in countries_to_be_kept:
                 countries_to_be_kept.append(country)
 
     """ gather cities and countries from agent object """
     for item in d["agent"]:
-        for city in item["place of birth - Object ID"]:
+        for city in item["place of birth"]:
             if city not in cities_to_be_kept:
                 cities_to_be_kept.append(city)
-        for city in item["place of death - Object ID"]:
+        for city in item["place of death"]:
             if city not in cities_to_be_kept:
                 cities_to_be_kept.append(city)
-        for country in item["country of citizenship - Object ID"]:
+        for country in item["country of citizenship"]:
             if country not in countries_to_be_kept:
                 countries_to_be_kept.append(country)
 
     """ gather cities and countries from manifestation object """
     for item in d["manifestation"]:
         try:
-            for city in item["[Agent] Location Reference - Object ID"]:
+            for city in item["[Agent] Location Reference"]:
                 if city not in cities_to_be_kept:
                     cities_to_be_kept.append(city)
-            for city in item["[Organisation] Location Reference - Object ID"]:
+            for city in item["[Organisation] Location Reference"]:
                 if city not in cities_to_be_kept:
                     cities_to_be_kept.append(city)
         except KeyError:

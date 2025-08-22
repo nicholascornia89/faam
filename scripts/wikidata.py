@@ -54,6 +54,7 @@ def enhance_nodegoat_fields(d):
 	# get all objects according to type, assuming each object has a field called "Wikidata QID"
 	for object_type in d.keys():
 		print(f"Current object type: {object_type}")
+		print("It might take a while...")
 		if "Wikidata QID" in d[object_type][0].keys():
 			print(f"Enhancing {object_type} statements via SPARQL query...")
 			# generate list of fields to be queried to Wikidata for the object type
@@ -63,6 +64,7 @@ def enhance_nodegoat_fields(d):
 				if len(query) > 0:
 					fields_to_be_queried.append(query[0])
 			for obj in d[object_type]:  # enhance every object
+				#print(f"Current object: {obj["Wikidata QID"][0]}")
 				if obj["Wikidata QID"][0] != "":  # check if Wikidata QID is present
 					qid = obj["Wikidata QID"][0]
 					#print(f"Current object {qid}:")
@@ -77,32 +79,30 @@ def enhance_nodegoat_fields(d):
 									# print(statement)
 									# input()
 									try:
-										values_list.append(
-											statement["mainsnak"]["datavalue"]["value"]["id"]
-										)
-										
-									except KeyError:
-										# case datatype is not item
-										try:
-											if (
-												"time"
-												in statement["mainsnak"]["datavalue"][
-													"value"
-												].keys()
-											):
-												values_list.append(
-													statement["mainsnak"]["datavalue"]["value"][
-														"time"
-													][1:11]
-												)
-											else: # string type, we hope
+										if statement != "": # skip empty statements
+											if statement["mainsnak"]["datatype"] == "external-id":
 												values_list.append(statement["mainsnak"]["datavalue"]["value"])
-										except Exception:
-											pass
-									except TypeError:
-										pass
+											#if "id" in statement["mainsnak"]["datavalue"]["value"].keys(): # item case
+											elif statement["mainsnak"]["datatype"] == "wikibase-item":
+												values_list.append(
+												statement["mainsnak"]["datavalue"]["value"]["id"]
+											)
+											elif statement["mainsnak"]["datatype"] == "time":
+											#elif "time" in statement["mainsnak"]["datavalue"]["value"].keys(): # date case
+												values_list.append(
+														statement["mainsnak"]["datavalue"]["value"][
+															"time"
+														][1:11]
+													)
+											else:
+												print(f"Unknown type for {statement} for {obj} ")
+												input()
+									except Exception:
+										print (f"Error for {statement} for {obj} ")
+										values_list.append("")
+										input()
 
-
+									
 								# update object fields with new list
 								if len(values_list) >0:
 									obj[field["nodegoat_field"]] = values_list
