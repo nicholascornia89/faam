@@ -9,9 +9,9 @@ sys.path.append(".")
 from utilities import *
 from nodegoat import *
 
+# modules for interacting with Wikidata via SPARQL
 from wikibase_api import Wikibase
-
-# from SPARQLWrapper import SPARQLWrapper, JSON
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 # Load Wikidata (as default)
 wb = Wikibase()
@@ -51,6 +51,9 @@ def enhance_nodegoat_fields(d,out_dir):
 
 	# list of new Wikidata IDs not previously present in the database.
 	new_wikidata_items = []
+
+	# Wikimedia redirect base url:
+	wikimedia_base_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/"
 
 	# get all objects according to type, assuming each object has a field called "Wikidata QID"
 	countdown_start = time.time()
@@ -96,12 +99,14 @@ def enhance_nodegoat_fields(d,out_dir):
 												statement["mainsnak"]["datavalue"]["value"]["id"]
 											)
 											elif statement["mainsnak"]["datatype"] == "time":
-											#elif "time" in statement["mainsnak"]["datavalue"]["value"].keys(): # date case
 												values_list.append(
 														statement["mainsnak"]["datavalue"]["value"][
 															"time"
 														][1:11]
 													)
+											elif statement["mainsnak"]["datatype"] == "commonsMedia": # image case
+												values_list.append(wikimedia_base_url + statement["mainsnak"]["datavalue"]["value"])
+
 											else:
 												print(f"Unknown type for {statement} for {obj} ")
 												input()
@@ -115,7 +120,7 @@ def enhance_nodegoat_fields(d,out_dir):
 								if len(values_list) >0:
 									obj[field["nodegoat_field"]] = values_list
 									print(f"Updating object {obj["Wikidata QID"][0]} values of {field} to {obj[field["nodegoat_field"]]}")
-									# check if the Wikidata QIDs are present in the Nodegoat database already
+									''' check if the Wikidata QIDs are present in the Nodegoat database already
 									for qid in obj[field["nodegoat_field"]]:
 										try:
 											if qid != "" and qid[0] == "Q":
@@ -130,10 +135,11 @@ def enhance_nodegoat_fields(d,out_dir):
 										except KeyError:
 											print(f"Error for values list: {values_list} for {obj} ")
 											input()
+									'''
 
 								
-			print(f"Current number of new Wikidata items = {len(new_wikidata_items)}")
-			print(new_wikidata_items)
+			#print(f"Current number of new Wikidata items = {len(new_wikidata_items)}")
+			#print(new_wikidata_items)
 
 	return d
 
@@ -155,8 +161,7 @@ def create_new_ids_after_wikidata_enhance(d):
 				if field["nodegoat_field"] in d[object_type][0].keys():
 					fields_to_be_checked.append(field["nodegoat_field"])
 
-			print(f"Fields to be checked: {fields_to_be_checked}")
-			input()
+			#print(f"Fields to be checked: {fields_to_be_checked}")
 			for obj in d[object_type]:
 				for field in fields_to_be_checked:
 					# check every statement
@@ -164,20 +169,88 @@ def create_new_ids_after_wikidata_enhance(d):
 						if statement[0] == "Q":
 							try:
 								index = bisect_left(wikidata_ids,int(statement[1:]))
-								if statement != wikidata_object_list[index]["Wikidata id"]: 
+								if statement != wikidata_object_list[index]["Wikidata QID"]: 
 									# if not present, add to new Wikidata items list
 									new_wikidata_ids.append(statement)
 							except Exception:
 								# case where the UUID starts with Q
 								pass
 
-			print(f"New Wikidata IDs: {new_wikidata_ids}")
+	print(f"New Wikidata IDs: {new_wikidata_ids}")
+
+	return new_wikidata_ids
+
+# This script redirects the Wikidata image URL to the corresponing Wikimedia raw image.
+def change_wikimedia_image_url(d,base_url,old_base_url):
+
+	for object_type in d:
+		if "image" in d[object_type][0].keys():
+			for obj in d[object_type]:
+				for img in obj["image"]:
+					if old_base_url in img and base_url not in img:
+						# get image filename
+						filename = img.split(old_base_url)[1]
+						# change space to underscore
+						filename = filename.replace(" ", "_")
+						# update image URL
+						print(f"Updating image URL for {obj['id']} to {base_url + filename}")
+						img = base_url + filename
+
+	return d
+
+def query_externalid(extid,pid):
+	#Returns QID associated with External ID with property PID
+	sparql = SPARQLWrapper("https://query.wikidata.org/sparql",agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")
+	#sparql.setCredentials("Nicholas.cornia","Nby%cmt8")
+	sparql.setQuery(
+	"""SELECT ?item ?itemLabel ?extid
+		WHERE {
+		?item wdt:"""+pid+""" ?extid .
+	  	VALUES ?geoname { """+extid+""" }
+	  	
+	  	SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+		}
+	""")
+	sparql.setReturnFormat(JSON)
+	results = sparql.query().convert()
+	try:
+		qid = results["results"]["bindings"][0]["item"]["value"][31:]
+		label = results["results"]["bindings"][0]["itemLabel"]["value"]
+	except Exception:
+		qid = ""
+		label = ""
+	return qid,label
 
 
 
 
+# Get Wikidata qid and label from GeoNames ID field
+def external2wikidataqid(d,mapping_filename):
+	# import mapping of external IDs
+	mapping = csv2dict(mapping_filename)
 
+	# get all objects according to type, assuming each object has a field called "GeoNames ID"
+	for object_type in d.keys():
+		# mapping fields
+		mapping_fields = []
+		for field in mapping:
+			if field["nodegoat_field"] in d[object_type].keys():
+				mapping_fields.append(field)
+		# enhance objects with Wikidata QID from external identifiers
+		if len(mapping_fields) > 0:
+			for obj in d[object_type]:
+				if obj["Wikidata QID"][0] == "":  # empty QID
+					for field in mapping_fields:
+						if obj[field["nodegoat_field"]][0] != "":
+							qid, label = query_externalid(obj[field["nodegoat_field"]][0],field["pid"])
+						if qid != "":
+							obj["Wikidata QID"] = [qid]
+							obj["Wikidata Label"] = [label]
+							print(f"Updated object {obj['id']} with Wikidata QID {qid} and label {label}")
 
+				
+
+	return d
 
 
 

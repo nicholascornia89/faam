@@ -17,6 +17,8 @@ from tropy import *
 data_dir = "nodegoat_data"
 out_dir = "tmp"
 
+externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mapping.csv")
+
 print("Would you like to generate a new JSON file? y/n")
 answer = input()
 
@@ -42,7 +44,31 @@ if "y" in answer:
 else:  # import data from latest JSON backup
     d = load_nodegoat_JSON(out_dir)
 
-    create_new_ids_after_wikidata_enhance(d)
+    # Generate object list and export it to file
+    print("Generating object list...")
+    object_list_filename = os.path.join(
+        "tmp", "object-list-" + get_current_date() + ".json"
+    )
+    wikidata_object_list = wikidata_objects_list(d)
+
+    dict2json(wikidata_object_list, object_list_filename)
+
+    # Record items to be added TO BE CONTINUED
+    dict2json(
+        create_new_ids_after_wikidata_enhance(d),
+        os.path.join("tmp", "new_wikidata_ids-" + get_current_date() + ".json"),
+    )
+
+    # Wikimedia image URLs redirect TO BE CHECKED
+    d = change_wikimedia_image_url(
+        d,
+        base_url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+        old_base_url="https://commons.wikimedia.org/wiki/File:",
+    )
+
+    # Retrieve Wikidata QID from external identifiers TO BE CHECKED
+
+    d = external2wikidataqid(d, externalids2wd_mapping_filename)
 
     # Enhance data via SPARQL queries
     print("Enhancing data via Wikidata SPARQL queries...")
