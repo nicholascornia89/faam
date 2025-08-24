@@ -12,12 +12,6 @@ from utilities import *
 """ This function takes all csv exports and converts them to a unique json file """
 
 
-def load_nodegoat_JSON(out_dir):
-    nodegoat_json_filename = get_latest_file(out_dir)
-    print(f"Loading Nodegoat JSON file: {nodegoat_json_filename}")
-    return json2dict(nodegoat_json_filename)
-
-
 def import_csv_nodegoat(csv_filename):
     # convert csv to dictionary
     csv_dict = csv2dict(csv_filename)

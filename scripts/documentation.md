@@ -17,7 +17,10 @@ This documentation describes the different functions and scripts for the FAAM pr
 
 ## Mkdocs scripts
 
-- [ ] Given JSON dictionary, generate single pages for each entity of the knowledge base.
+- [ ] Import metadata from `nodegoat_export` and `object-list`
+- [ ] Generate pages (.md) for each item in `object-list` and save it in `docs/kb/` 
+- [ ] For each page add tag = object_type, title = id
+- [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
 
 Some ideas about layout and presentation of data
 

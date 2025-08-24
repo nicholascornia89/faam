@@ -34,6 +34,12 @@ def dict2json(d, json_filename):  # export a dictionary to JSON file
     json.dump(d, json_file, indent=2, ensure_ascii=False)
 
 
+def load_latest_JSON(out_dir):
+    latest_json_filename = get_latest_file(out_dir)
+    print(f"Loading JSON file: {latest_json_filename}")
+    return json2dict(latest_json_filename)
+
+
 def get_current_date():
     return time.strftime("%Y-%m-%d", time.gmtime())
 

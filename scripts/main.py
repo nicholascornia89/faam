@@ -9,6 +9,7 @@ sys.path.append(".")
 from utilities import *
 from nodegoat import *
 from wikidata import *
+from mkdocs import *
 from rdf import *
 from tropy import *
 
@@ -39,25 +40,23 @@ if "y" in answer:
 
     # Export to JSON
 
-    nodegoat_export2JSON(d, out_dir)
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
 else:  # import data from latest JSON backup
-    d = load_nodegoat_JSON(out_dir)
+    d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
     # Generate object list and export it to file
     print("Generating object list...")
     object_list_filename = os.path.join(
-        "tmp", "object-list-" + get_current_date() + ".json"
+        "tmp", "object-list", "object-list-" + get_current_date() + ".json"
     )
     wikidata_object_list = wikidata_objects_list(d)
 
     dict2json(wikidata_object_list, object_list_filename)
 
-    # Record items to be added TO BE CONTINUED
-    dict2json(
-        create_new_ids_after_wikidata_enhance(d),
-        os.path.join("tmp", "new_wikidata_ids-" + get_current_date() + ".json"),
-    )
+    print("Change references from QIDs to FAAM UUIDs...")
+    input()
+    d = qid2uuid_mapping(d)
 
     # Wikimedia image URLs redirect TO BE CHECKED
     d = change_wikimedia_image_url(
@@ -67,15 +66,19 @@ else:  # import data from latest JSON backup
     )
 
     # Retrieve Wikidata QID from external identifiers TO BE CHECKED
-
-    d = external2wikidataqid(d, externalids2wd_mapping_filename)
+    print("Retrieving Wikidata QID from external identifiers...")
+    d = external2wikidataqid(
+        d, os.path.join(out_dir, "nodegoat_export"), externalids2wd_mapping_filename
+    )
 
     # Enhance data via SPARQL queries
     print("Enhancing data via Wikidata SPARQL queries...")
-    d = enhance_nodegoat_fields(d, out_dir)  # TO BE CHECKED
+    d = enhance_nodegoat_fields(
+        d, os.path.join(out_dir, "nodegoat_export")
+    )  # TO BE CHECKD
 
     # Export to JSON
-    nodegoat_export2JSON(d, out_dir)
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
 
 # RDF
