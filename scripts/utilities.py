@@ -3,6 +3,7 @@ import time
 import os
 from copy import deepcopy
 from bisect import bisect_left
+import pandas as pd
 
 # Import UUID libraries.
 import uuid

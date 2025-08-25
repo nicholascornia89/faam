@@ -20,7 +20,7 @@ out_dir = "tmp"
 
 externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mapping.csv")
 
-print("Would you like to generate a new JSON file? y/n")
+print("Would you like to generate a new JSON file from Nodegoat data? y/n")
 answer = input()
 
 if "y" in answer:
@@ -42,21 +42,32 @@ if "y" in answer:
 
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
-else:  # import data from latest JSON backup
+print("Would you like to enrich data via Wikidata SPARQL queries? y/n")
+answer = input()
+if "y" in answer:  # import data from latest JSON backup
     d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
     # Generate object list and export it to file
     print("Generating object list...")
     object_list_filename = os.path.join(
-        "tmp", "object-list", "object-list-" + get_current_date() + ".json"
+        "tmp", "objects_list", "objects_list-" + get_current_date() + ".json"
     )
     wikidata_object_list = wikidata_objects_list(d)
+    dict2json(wikidata_object_list, object_list_filename)
 
+    print("Importing new objects...")
+    d, wikidata_object_list = import_new_objects_from_wd(
+        d, wikidata_object_list, out_dir
+    )
+
+    # Export everything to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
     dict2json(wikidata_object_list, object_list_filename)
 
     print("Change references from QIDs to FAAM UUIDs...")
-    input()
     d = qid2uuid_mapping(d)
+    # Export to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
     # Wikimedia image URLs redirect TO BE CHECKED
     d = change_wikimedia_image_url(
@@ -64,6 +75,8 @@ else:  # import data from latest JSON backup
         base_url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
         old_base_url="https://commons.wikimedia.org/wiki/File:",
     )
+    # Export to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
     # Retrieve Wikidata QID from external identifiers TO BE CHECKED
     print("Retrieving Wikidata QID from external identifiers...")
@@ -73,13 +86,19 @@ else:  # import data from latest JSON backup
 
     # Enhance data via SPARQL queries
     print("Enhancing data via Wikidata SPARQL queries...")
-    d = enhance_nodegoat_fields(
-        d, os.path.join(out_dir, "nodegoat_export")
-    )  # TO BE CHECKD
+    d = enhance_nodegoat_fields(d, os.path.join(out_dir, "nodegoat_export"))
 
     # Export to JSON
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+    # Update object list
+    wikidata_object_list = wikidata_objects_list(d)
+    dict2json(wikidata_object_list, object_list_filename)
 
+print("Generating Markdown pages from data...")
+# Mkdocs
+d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
+objects_list = wikidata_objects_list(d)
+generate_pages(d, objects_list, out_dir)
 
 # RDF
 

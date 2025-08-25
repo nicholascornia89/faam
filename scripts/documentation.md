@@ -7,20 +7,27 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [x ] Import metadata from Nodegoat publication export or export CSV function into JSON file.
 - [ ] Map FAAM fields to external vocabularies.
 - [ ] Convert Nodegoat data to RDF ontology using RDFlib.
-- [ ] Enrich metadata using Wikidata SPARQL endpoint.
+- [x ] Enrich metadata using Wikidata SPARQL endpoint.
 - [ ] Create FAAM Ontology using RDFlib or Protegé.
 - [ ] Assign permanent URI to ontology using w3id.org or purl.org.
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
-- [x ] Static site generation using Mkdocs (or Starlight).
-- [ ] Image viewer using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
+- [ ] Static site generation using Mkdocs (or Starlight).
+- [ ] Image viewer carousel using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
 ## Mkdocs scripts
+
+### TO-DO
 
 - [ ] Import metadata from `nodegoat_export` and `object-list`
 - [ ] Generate pages (.md) for each item in `object-list` and save it in `docs/kb/` 
 - [ ] For each page add tag = object_type, title = id
 - [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
+- [ ] Record each page metadata in separate `id`.json file.
+
+Extra
+
+- [ ] Integrate JavaScript to populate lists in pages programmatically, with seach filter.
 
 Some ideas about layout and presentation of data
 
@@ -55,6 +62,8 @@ References between objects are constructed by the Nodegoat Object IDs, unique to
 - [x ] Enhance metadata using python Wikibase API (SPARQL)
 
 ## RDF scripts
+
+### TO-DO
 
 - [ ] Map Nodegoat fields into RDF, using appropriate ontologies and vocabularies.
 - [ ] Convert JSON metadata to Turtle (and XML) RDF.

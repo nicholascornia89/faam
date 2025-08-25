@@ -270,7 +270,7 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
 
 
 def nodegoat_export2JSON(d, out_dir):
-    print("Exporting Nodegoat data to tmp folder...")
+    # print("Exporting Nodegoat data to tmp folder...")
     dict2json(
         d, os.path.join(out_dir, "nodegoat_export-" + get_current_date() + ".json")
     )

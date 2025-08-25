@@ -38,7 +38,17 @@ def wikidata_objects_list(
 							"type": object_type,
 						}
 					)
-			
+		else: # no wikidata element
+			for obj in d[object_type]:
+				wikidata_object_list.append(
+						{
+							"id": obj["id"],
+							"nodegoat_id": int(obj["nodegoat_id"][0]),
+							"Wikidata QID": "",
+							"Wikidata id": 0,
+							"type": object_type,
+						}
+					)
 
 	return sorted(wikidata_object_list, key=lambda x: x["Wikidata id"])
 
@@ -58,8 +68,7 @@ def enhance_nodegoat_fields(d,out_dir):
 	# get all objects according to type, assuming each object has a field called "Wikidata QID"
 	countdown_start = time.time()
 	for object_type in d.keys():
-		print(f"Current object type: {object_type}")
-		print("It might take a while...")
+		print(f"Current object type: {object_type} (It might take a while...)")
 		if "Wikidata QID" in d[object_type][0].keys():
 			print(f"Enhancing {object_type} statements via SPARQL query...")
 			# generate list of fields to be queried to Wikidata for the object type
@@ -71,7 +80,7 @@ def enhance_nodegoat_fields(d,out_dir):
 			for obj in d[object_type]:  # enhance every object
 				countdown_check = time.time()
 				if countdown_check - countdown_start > 20: # backup data until now
-					print("Backing up new data until now...")
+					#print("Backing up new data until now...")
 					nodegoat_export2JSON(d, out_dir)
 					countdown_start = time.time()
 
@@ -147,8 +156,9 @@ def enhance_nodegoat_fields(d,out_dir):
 # If QIDs are in fields, change them to corresponding FAAM UUID.
 def qid2uuid_mapping(d):
 	new_wikidata_qids = []
+	new_wikidata_objects = []
 	# import object_list
-	object_list = load_latest_JSON(os.path.join("tmp","object-list"))
+	object_list = load_latest_JSON(os.path.join("tmp","objects_list"))
 	# generate wikdiata_ids list
 	wikidata_ids_list = []
 	for item in object_list:
@@ -156,12 +166,12 @@ def qid2uuid_mapping(d):
 
 	# check every object type
 	for object_type in d.keys():
-		print(f"Current object type: {object_type}")
+		#print(f"Current object type: {object_type}")
 		fields_to_be_checked = []
 		for item in nodegoat2wd:
 			if item["nodegoat_field"] in d[object_type][0].keys():
 				fields_to_be_checked.append(item["nodegoat_field"])
-		print(f"Fields to be checked: {fields_to_be_checked}")
+		#print(f"Fields to be checked: {fields_to_be_checked}")
 		if len(fields_to_be_checked) >0:
 			# check every object
 			for obj in d[object_type]:
@@ -174,29 +184,79 @@ def qid2uuid_mapping(d):
 								# search UUID corresponding to QID
 								index = bisect_left(wikidata_ids_list,int(statement[1:]))
 								qid = object_list[index]["Wikidata QID"]
+								#print(f"Retrieved QID:{qid}")
 								if qid == statement:
 									# if QID is present, replace it with UUID
 									obj[field][i] = object_list[index]["id"]
-									print(f"Replacing QID {qid} with UUID {statement} in object {obj['id']} for field {field}")
+									#print(f"Replacing QID {qid} with UUID {statement} in object {obj['id']} for field {field}")
 								else: # qid not present in FAAM knowledge base
-									print(f"QID {statement} not present in FAAM knowledge base for object {obj['id']} for field {field}")
-									new_wikidata_qids.append(statement)
+									#print(f"QID {statement} not present in FAAM knowledge base for object {obj['id']} for field {field}")
+									if statement not in new_wikidata_qids:
+										new_wikidata_qids.append(statement)
+										field_info = list(filter(lambda x: x["nodegoat_field"] == field,nodegoat2wd))
+										statement_type = field_info[0]["object_type"]
+										new_wikidata_objects.append({"id": "", "nodegoat_id": 0, "Wikidata QID": statement, "Wikidata id": int(statement[1:]), "type": statement_type })
 						except Exception:
-							print(f'Error for {statement}.')
+							#print(f'Error for {statement}')
 							pass
 
 	print(f"Export missing QIDs...")
+	dict2csv(
+		new_wikidata_qids,
+		os.path.join(
+			"tmp",
+			"new_wikidata_ids",
+			"new_wikidata_ids-" + get_current_date() + ".csv",
+		),
+	)
 	dict2json(
-        new_wikidata_qids,
-        os.path.join(
-            "tmp",
-            "new_wikidata_ids",
-            "new_wikidata_ids-" + get_current_date() + ".json",
-        ),
-    )
+		new_wikidata_objects,
+		os.path.join(
+			"tmp",
+			"new_wikidata_objects",
+			"new_wikidata_objects-" + get_current_date() + ".json",
+		),
+	)
 
 	return d
 								
+
+def import_new_objects_from_wd(d,objects_list,out_dir):
+	objects_wikidata_ids = []
+	for item in objects_list:
+		objects_wikidata_ids.append(item["Wikidata id"])
+
+	# import new_wikidata_objects file
+	new_wikidata_objects = load_latest_JSON(os.path.join(out_dir,"new_wikidata_objects"))
+
+	for item in new_wikidata_objects:
+		# check if object is already present
+		index = bisect_left(objects_wikidata_ids,item["Wikidata id"])
+		if objects_list[index]["Wikidata QID"] != item["Wikidata QID"]:
+			# add new object to objects_list
+			uuid = generate_short_uuid4(length=8)
+			objects_list.append({
+								    "id": uuid,
+								    "nodegoat_id": 0,
+								    "Wikidata QID": item["Wikidata QID"],
+								    "Wikidata id": item["Wikidata id"],
+								    "type": item["type"]
+								  },)
+			# add new item to dictionary NOT WORKING
+			for field in d[item["type"]][0].keys():
+				# reset all fields
+				d[item["type"]][-1][field] = [""]
+
+			# update id and QID of new object
+			d[item["type"]][-1]["id"] = uuid
+			d[item["type"]][-1]["nodegoat_id"] = ["0"]
+			d[item["type"]][-1]["Wikidata QID"] = [item["Wikidata QID"]]
+			print(f"New object {d[item["type"]][-1]} imported.")
+
+
+	# Sort according to wikidata id
+
+	return d,sorted(objects_list, key=lambda x: x["Wikidata id"])
 
 
 # This script redirects the Wikidata image URL to the corresponing Wikimedia raw image.
@@ -225,9 +285,9 @@ def query_externalid(extid,pid):
 	"""SELECT ?item ?itemLabel ?extid
 		WHERE {
 		?item wdt:"""+pid+""" ?extid .
-	  	VALUES ?extid { \""""+extid+"""\" }
-	  	
-	  	SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+		VALUES ?extid { \""""+extid+"""\" }
+		
+		SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 		}
 	""")
 	sparql.setReturnFormat(JSON)
