@@ -10,6 +10,7 @@ from utilities import *
 from nodegoat import *
 from wikidata import *
 from mkdocs import *
+from faam_kb import *
 from rdf import *
 from tropy import *
 
@@ -19,6 +20,10 @@ data_dir = "nodegoat_data"
 out_dir = "tmp"
 
 externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mapping.csv")
+
+# print("Test WikibaseIntegrator")
+# wikibaseintegrator_test()
+# input()
 
 print("Would you like to generate a new JSON file from Nodegoat data? y/n")
 answer = input()
@@ -55,8 +60,11 @@ if "y" in answer:  # import data from latest JSON backup
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
+    """
+    # Query very demanding!
     print("Updating description and aliases from Wikidata...")
-    query_descriptions_and_aliases(d)
+    d = query_descriptions_and_aliases(d, os.path.join(out_dir, "nodegoat_export"))
+	"""
 
     print("Importing new objects...")
     d, wikidata_object_list = import_new_objects_from_wd(
@@ -96,6 +104,17 @@ if "y" in answer:  # import data from latest JSON backup
     # Update object list
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
+
+print("Generating FAAM knowledge base")
+d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
+faam_kb = generate_faam_kb(d)
+
+faam_kb_filename = os.path.join(
+    "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+)
+
+dict2json(faam_kb, faam_kb_filename)
+
 
 print("Generating Markdown pages from data...")
 # Mkdocs

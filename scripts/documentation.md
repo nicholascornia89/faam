@@ -96,10 +96,10 @@ Structure of JSON serialization
 	"items": [
 				{
 					"metadata": {
-						"id": "FAAM UUID",
+						"id": [{"type": "id", "value": "FAAM UUID"}],
 						"nodegoat_id": "old Nodegoat ID",
 						"qid": "Wikidata QID",
-						"type": "object type for templating"
+						"object_type": [{"type": "schema", "value": "object_type"}],
 						"label": "preferred label",
 						"aliases": ["alternative labels"],
 						"description": "short string"
@@ -107,11 +107,11 @@ Structure of JSON serialization
 
 					"statements": {
 									"property_name": [
-										{"label": "label_to be_shown", "data_type": "string", "value": "string value"},
-										{"label": "label_to be_shown", "data_type": "externalid", "value": "id with baseurl"},
-										{"label": "label_to be_shown", "data_type": "item", "value": "uuid"},
-										{"label": "label_to be_shown", "data_type": "date", "value": "date"},
-										{"label": "label_to be_shown", "data_type": "url", "value": "url"}
+										{"type": "string", "value": "string value"},
+										{"type": "externalid", "value": "id with baseurl"},
+										{"type": "item", "value": "uuid"},
+										{"type": "date", "value": "date"},
+										{"type": "url", "value": "url"}
 
 									
 									]
@@ -136,8 +136,6 @@ Structure of JSON serialization
 						"GitHub": {"label": "GitHub images", "url": "url to GitHub repository"}
 	
 						}
-			},
-				...
-		]
+					...
 }
 ```

@@ -10,15 +10,47 @@ from utilities import *
 from nodegoat import *
 
 # modules for interacting with Wikidata via SPARQL
-from wikibase_api import Wikibase
+# this module is not working anymore :( 
+#from wikibase_api import Wikibase
+from wikibaseintegrator import wbi_login,WikibaseIntegrator
+from wikibaseintegrator.wbi_config import config as wbi_config
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-# Load Wikidata (as default)
-headers = {
-	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11"
-}
+credentials = json2dict(os.path.join("credentials","wikidata_credentials.json"))
 
-wb = Wikibase(headers=headers)
+# Using Wikibase integrator
+"""
+login = wbi_login.Login(
+	mediawiki_api_url="https://www.wikidata.org/w/api.php",
+	user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
+	user=credentials["bot_username"],
+	password=credentials["bot_password"]
+	)
+
+wb = WikibaseIntegrator(login=login,is_bot=False)
+"""
+# Set User Agent
+wbi_config['USER_AGENT'] = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11"
+wb = WikibaseIntegrator()
+
+def wikibaseintegrator_test():
+	"""
+	entity = wb.item.get("Q1339")
+	print(wb_get_property_data("Q1339","P214"))
+	print(wb_get_property_data("Q1339","P569"))
+	print(wb_get_property_data("Q1339","P27"))
+	print(wb_get_property_data("Q1339","P18"))
+	"""
+	entity = wb.item.get("Q831474")
+	description = entity.descriptions.get("en").value
+	aliases = entity.aliases.get("en")
+	label = entity.labels.get('en').value
+	print(f"Description: {description} \n Aliases: {aliases} \n Label: {label}")
+
+
+	
+
+
 
 # Import fields to Wikidata properties mapping
 
@@ -74,7 +106,7 @@ def enhance_nodegoat_fields(d,out_dir):
 	for object_type in d.keys():
 		print(f"Current object type: {object_type} (It might take a while...)")
 		if "Wikidata QID" in d[object_type][0].keys():
-			print(f"Enhancing {object_type} statements via SPARQL query...")
+			#print(f"Enhancing {object_type} statements via SPARQL query...")
 			# generate list of fields to be queried to Wikidata for the object type
 			fields_to_be_queried = []
 			for field in d[object_type][0].keys():
@@ -84,7 +116,7 @@ def enhance_nodegoat_fields(d,out_dir):
 			for obj in d[object_type]:  # enhance every object
 				countdown_check = time.time()
 				if countdown_check - countdown_start > 20: # backup data until now
-					#print("Backing up new data until now...")
+					print("Backing up new data until now...")
 					nodegoat_export2JSON(d, out_dir)
 					countdown_start = time.time()
 
@@ -96,66 +128,17 @@ def enhance_nodegoat_fields(d,out_dir):
 						if obj[field["nodegoat_field"]][0] == "":  # if field is empty
 							query = wb_get_property_data(
 								qid, field["wd_property"]
-							)  # query property data
-							if len(query) >= 1:
-								values_list = []
-								for statement in query:
-									# print(statement)
-									# input()
-									try:
-										if statement != "": # skip empty statements
-											if statement["mainsnak"]["datatype"] == "external-id":
-												values_list.append(statement["mainsnak"]["datavalue"]["value"])
-											#if "id" in statement["mainsnak"]["datavalue"]["value"].keys(): # item case
-											elif statement["mainsnak"]["datatype"] == "wikibase-item":
-												values_list.append(
-												statement["mainsnak"]["datavalue"]["value"]["id"]
-											)
-											elif statement["mainsnak"]["datatype"] == "time":
-												values_list.append(
-														statement["mainsnak"]["datavalue"]["value"][
-															"time"
-														][1:11]
-													)
-											elif statement["mainsnak"]["datatype"] == "commonsMedia": # image case
-												values_list.append(wikimedia_base_url + statement["mainsnak"]["datavalue"]["value"].replace(" ","_"))
+							)
+							try:
+								if query[0] != "":
+									obj[field["nodegoat_field"]] = query
+									print(f'Enhanced object {obj["id"]} for field {field["nodegoat_field"]} with value {query}')
+							except IndexError:
+								pass
 
-											else:
-												print(f"Unknown type for {statement} for {obj} ")
-												input()
-									except Exception:
-										print (f"Error for {statement} for {obj} ")
-										values_list.append("")
-										#input()
-
-									
-								# update object fields with new list
-								if len(values_list) >0:
-									obj[field["nodegoat_field"]] = values_list
-									print(f"Updating object {obj["Wikidata QID"][0]} values of {field} to {obj[field["nodegoat_field"]]}")
-									''' check if the Wikidata QIDs are present in the Nodegoat database already
-									for qid in obj[field["nodegoat_field"]]:
-										try:
-											if qid != "" and qid[0] == "Q":
-												# bisect search
-												index = bisect_left(wikidata_ids,int(qid[1:]))
-												query = wikidata_object_list[index]
-												if query == qid:
-													pass 
-												else:
-													# if not present, add to new Wikidata items list
-													new_wikidata_items.append(qid)
-										except KeyError:
-											print(f"Error for values list: {values_list} for {obj} ")
-											input()
-									'''
-
-								
-			#print(f"Current number of new Wikidata items = {len(new_wikidata_items)}")
-			#print(new_wikidata_items)
+							
 
 	return d
-
 
 # If QIDs are in fields, change them to corresponding FAAM UUID.
 def qid2uuid_mapping(d):
@@ -264,31 +247,37 @@ def import_new_objects_from_wd(d,objects_list,out_dir):
 
 
 # Returns a description string for a given QID
-def query_descriptions_and_aliases(d):
+def query_descriptions_and_aliases(d,out_dir):
+	countdown_start = time.time()
 	for object_type in d.keys():
 		if "Wikidata QID" in d[object_type][0].keys():
 			for obj in d[object_type]:
+				countdown_check = time.time()
+				if countdown_check - countdown_start > 20: # backup data until now
+					print("Backing up new data until now...")
+					nodegoat_export2JSON(d, out_dir)
+					countdown_start = time.time()
 				if obj["Wikidata QID"][0] != "":
-					qid = obj["Wikidata QID"][0]
-					print(f"Current QID: {qid}")
-					try:
-						description = wb.entity.get(qid)["entities"][qid]["descriptions"]["en"]["value"]
-						aliases_query = wb.entity.get(qid)["entities"][qid]["aliases"]["en"]
-						label = wb.entity.get(qid)["entities"][qid]["labels"]["en"]["value"]
-						print(f"Query results: Label: {label} \n Description: {description} \n Aliases: {aliases_query}")
-						input()
-						aliases = []
-						for alias in aliases_query:
-							aliases.append(alias["value"])
-						obj["Wikidata Description"] = [description]
-						obj["Wikidata Aliases"] = aliases
-						obj["Wikidata Label"] = [label]
-						print(f"Updated metadata for {obj['id']} to Label: {label} \n Description: {description} \n Aliases: {aliases}")
-						input()
-					except Exception:
-						obj["Wikidata Description"] = [""]
-						obj["Wikidata Aliases"] = [""]
-						obj["Wikidata Label"] = [""]
+					# at least one statement is empty
+					if "Wikidata Description" not in obj.keys():
+						qid = obj["Wikidata QID"][0]
+						print(f"Current QID: {qid}")
+						entity = wb.item.get(qid)
+						try:
+							description = entity.descriptions.get("en").value
+							aliases_query = entity.aliases.get("en")
+							label = entity.labels.get('en').value
+							aliases = []
+							if aliases_query is None:
+								aliases = [""]
+							else:
+								for alias in aliases_query:
+									aliases.append(str(alias))
+							obj["Wikidata Description"] = [description]
+							obj["Wikidata Aliases"] = aliases
+							obj["Wikidata Label"] = [label]
+						except AttributeError:
+							pass	
 
 	return d
 
@@ -381,8 +370,30 @@ def test_wb_query():
 
 
 
+# Query using WikibaseIntegrator
+def wb_get_property_data(qid,pid):
+	entity = wb.item.get(qid)
+	try:
+		query = []
+		prop_values = entity.claims.get(pid)
+		#print(f"Property: {pid}")
+		for prop_value in prop_values:
+			print(prop_value.mainsnak.datavalue["type"])
+			if prop_value.mainsnak.datavalue['type'] == "time":
+				query.append(prop_value.mainsnak.datavalue['value']["time"][1:11])
+			elif prop_value.mainsnak.datavalue['type'] == "wikibase-entityid":
+				query.append(prop_value.mainsnak.datavalue['value']["id"])
+			else:
+				#print("value case")
+				query.append(prop_value.mainsnak.datavalue['value'])	
 
-def wb_get_property_data(qid, pid):
+		return query
+	except Exception:
+		return [""]
+
+
+# Query using wikibase-api (NOT WORKING)
+def wb_get_property_data_old(qid, pid):
 	# get entity profile given property
 	try:
 		entity = wb.entity.get(qid)["entities"][qid]

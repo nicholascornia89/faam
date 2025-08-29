@@ -47,7 +47,7 @@ def generate_page_rdf(obj, file_path, nodegoat2rdf_mapping):
 
 def generate_pages(d, objects_list, out_dir):
     # generate directory for Markdown pages
-    pages_dir = os.path.join(out_dir, "pages-" + get_current_date())
+    pages_dir = os.path.join(out_dir, "pages")
     if not os.path.exists(pages_dir):
         os.makedirs(pages_dir)
 
