@@ -14,7 +14,11 @@ from wikibase_api import Wikibase
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 # Load Wikidata (as default)
-wb = Wikibase()
+headers = {
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11"
+}
+
+wb = Wikibase(headers=headers)
 
 # Import fields to Wikidata properties mapping
 
@@ -266,16 +270,25 @@ def query_descriptions_and_aliases(d):
 			for obj in d[object_type]:
 				if obj["Wikidata QID"][0] != "":
 					qid = obj["Wikidata QID"][0]
+					print(f"Current QID: {qid}")
 					try:
-						description = wb.description.get(qid,language="en")
-						aliases = wb.alias.get(qid,language="en")
+						description = wb.entity.get(qid)["entities"][qid]["descriptions"]["en"]["value"]
+						aliases_query = wb.entity.get(qid)["entities"][qid]["aliases"]["en"]
+						label = wb.entity.get(qid)["entities"][qid]["labels"]["en"]["value"]
+						print(f"Query results: Label: {label} \n Description: {description} \n Aliases: {aliases_query}")
+						input()
+						aliases = []
+						for alias in aliases_query:
+							aliases.append(alias["value"])
 						obj["Wikidata Description"] = [description]
 						obj["Wikidata Aliases"] = aliases
-						print(f"Updated description and aliases for {obj['id']} to \n {description} \n {aliases}")
+						obj["Wikidata Label"] = [label]
+						print(f"Updated metadata for {obj['id']} to Label: {label} \n Description: {description} \n Aliases: {aliases}")
 						input()
 					except Exception:
 						obj["Wikidata Description"] = [""]
 						obj["Wikidata Aliases"] = [""]
+						obj["Wikidata Label"] = [""]
 
 	return d
 
@@ -362,7 +375,12 @@ def external2wikidataqid(d,out_dir,mapping_filename):
 def test_wb_query():
 	# Example: Adolf Ruthardt data
 	qid = "Q4401191"
-	return wb.entity.get(qid)["entities"][qid]["labels"]
+	entity = wb.entity.get(qid)["entities"][qid]
+	print(entity)
+	input()
+
+
+
 
 def wb_get_property_data(qid, pid):
 	# get entity profile given property
