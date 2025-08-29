@@ -55,6 +55,9 @@ if "y" in answer:  # import data from latest JSON backup
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
+    print("Updating description and aliases from Wikidata...")
+    query_descriptions_and_aliases(d)
+
     print("Importing new objects...")
     d, wikidata_object_list = import_new_objects_from_wd(
         d, wikidata_object_list, out_dir
@@ -98,7 +101,7 @@ print("Generating Markdown pages from data...")
 # Mkdocs
 d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 objects_list = wikidata_objects_list(d)
-generate_pages(d, objects_list, out_dir)
+# generate_pages(d, objects_list, out_dir)
 
 # RDF
 

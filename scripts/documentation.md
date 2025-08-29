@@ -25,6 +25,23 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
 - [ ] Record each page metadata in separate `id`.json file.
 
+### Data Types
+
+| name | description | markdown serialization |
+|------|-------------|------------------------|
+| string | general text | paragraph |
+| externalid | hyperlink with base url | [externalid](baseurl/id) |
+| date | date | YYYY-MM-DD |
+| image | image url | ![alt text](imageurl) |
+| item | link to another page | [item](item.md) |
+| html | HTML code | <div> code </div> |
+| statement | table with multiple values | only for agent, including role, date and location |
+
+### Templates
+
+Templates are organized by object type and provide a ordered list of appereance of statements and cross-references
+
+
 Extra
 
 - [ ] Integrate JavaScript to populate lists in pages programmatically, with seach filter.
@@ -61,10 +78,66 @@ References between objects are constructed by the Nodegoat Object IDs, unique to
 - [x ] Generate unique short UUIDs for each object
 - [x ] Enhance metadata using python Wikibase API (SPARQL)
 
-## RDF scripts
+## FAAM Knowledge base scripts
 
 ### TO-DO
 
-- [ ] Map Nodegoat fields into RDF, using appropriate ontologies and vocabularies.
+- [ ] Generate for each item a dedicated JSON, CSVs and RDF serializations for download and query.
+- [x ] Map Nodegoat fields into RDF, using appropriate ontologies and vocabularies.
 - [ ] Convert JSON metadata to Turtle (and XML) RDF.
 - [ ] Consider the creation of custom ontology for specific properties. 
+
+### Item data structure
+
+```json
+Structure of JSON serialization
+
+{
+	"items": [
+				{
+					"metadata": {
+						"id": "FAAM UUID",
+						"nodegoat_id": "old Nodegoat ID",
+						"qid": "Wikidata QID",
+						"type": "object type for templating"
+						"label": "preferred label",
+						"aliases": ["alternative labels"],
+						"description": "short string"
+						},
+
+					"statements": {
+									"property_name": [
+										{"label": "label_to be_shown", "data_type": "string", "value": "string value"},
+										{"label": "label_to be_shown", "data_type": "externalid", "value": "id with baseurl"},
+										{"label": "label_to be_shown", "data_type": "item", "value": "uuid"},
+										{"label": "label_to be_shown", "data_type": "date", "value": "date"},
+										{"label": "label_to be_shown", "data_type": "url", "value": "url"}
+
+									
+									]
+
+
+						},
+
+					"cross-references": {
+									"property_name": [  
+														{"label": "label_to be_shown", "data_type": "data_type", "value": "value", "thumb": ""},
+														{"label": "label_to be_shown", "data_type": "data_type", "value": "value", "thumb": "url to .gif file"},
+														]
+
+						
+				
+					},
+
+					"resources": {
+						"JSON": {"label": "JSON", "url": "url to .json file"},
+						"RDF": {"label": "RDF Turtle", "url": "url to .ttl file"},
+						"CSV" : {"label": "CSV", "url": "url to .csv file"},
+						"GitHub": {"label": "GitHub images", "url": "url to GitHub repository"}
+	
+						}
+			},
+				...
+		]
+}
+```

@@ -259,6 +259,27 @@ def import_new_objects_from_wd(d,objects_list,out_dir):
 	return d,sorted(objects_list, key=lambda x: x["Wikidata id"])
 
 
+# Returns a description string for a given QID
+def query_descriptions_and_aliases(d):
+	for object_type in d.keys():
+		if "Wikidata QID" in d[object_type][0].keys():
+			for obj in d[object_type]:
+				if obj["Wikidata QID"][0] != "":
+					qid = obj["Wikidata QID"][0]
+					try:
+						description = wb.description.get(qid,language="en")
+						aliases = wb.alias.get(qid,language="en")
+						obj["Wikidata Description"] = [description]
+						obj["Wikidata Aliases"] = aliases
+						print(f"Updated description and aliases for {obj['id']} to \n {description} \n {aliases}")
+						input()
+					except Exception:
+						obj["Wikidata Description"] = [""]
+						obj["Wikidata Aliases"] = [""]
+
+	return d
+
+
 # This script redirects the Wikidata image URL to the corresponing Wikimedia raw image.
 def change_wikimedia_image_url(d,base_url,old_base_url):
 	print("Changing Wikimedia image URLs...")
@@ -280,7 +301,6 @@ def change_wikimedia_image_url(d,base_url,old_base_url):
 def query_externalid(extid,pid):
 	#Returns QID associated with External ID with property PID
 	sparql = SPARQLWrapper("https://query.wikidata.org/sparql",agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")
-	#sparql.setCredentials("Nicholas.cornia","Nby%cmt8")
 	sparql.setQuery(
 	"""SELECT ?item ?itemLabel ?extid
 		WHERE {

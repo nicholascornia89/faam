@@ -1,0 +1,132 @@
+{
+
+	"title": {
+		"format": "heading",
+		"level": 1, 
+		"content": [
+			{"property": "label"},
+			{"property": "id"}
+			]
+
+	}, 
+		
+
+	"resource_buttons": {
+		"format": "button",
+		"content": [
+			{"label": "JSON", "property": "JSON", "icon": ":material-code-json"},
+			{"label": "RDF Turtle", "property": "RDF", "icon": ":material-cable-data"},
+			{"label": "CSV", "property": "CSV", "icon": ":material-table"},
+		]
+	},
+
+	"item_image": {
+		"format": "image",
+		"attributes": {
+			"style": "float: left;", 
+			"width": 250, 
+			"height": 200
+			},
+		"redirect_image": "../assets/images/faam-logo-gold.png",
+		"content": [{
+			"property": "image"
+		}]
+
+		}, 
+
+	"metadata": {
+		"format": "quote",
+		"icon": "abstract",
+		"collapse": "!!!",
+		"label": "metadata",
+		"data_format": "table",
+		"headings": ["property","value"],
+		"align": "center",
+		"content": [
+			{"label": "FAAM UUID", "property": "id"},
+			{"label": "Wikidata QID", "property": "qid"},
+			{"label": "preferred label", "property": "label"},
+			{"label": "aliases", "property": "aliases"},
+			{"label": "description", "property": "description"},
+
+		]
+
+
+		},
+
+	"statements": {
+		"format": "heading",
+		"level": 2,
+		"content": [
+			{"label": "## Statements"},
+		]
+
+	},
+		
+	"related_to": {
+		"format": "quote",
+		"icon": "quote",
+		"collapse": "???",
+		"data_format": "list",
+		"label": "raleted to",
+		"content": [
+			{"property": "related to"}
+		]
+	},
+
+
+	"idenfiers": {
+		"format": "heading",
+		"level": 2,
+		"content": [
+			{"label": "## Identifiers"},
+		]
+
+	},
+
+	"imslp_id": {
+		"format": "quote",
+		"icon": "info",
+		"collapse": "!!!",
+		"data_format": "paragraph",
+		"label": "IMSLP ID",
+		"content": [
+			{"property": "IMSLP ID"}
+		]
+	},
+
+	"cross-references": {
+		"format": "heading",
+		"level": 2,
+		"content": [
+			{"label": "## Cross-references"},
+		]
+
+	},
+
+	"manifestations": {
+		"format": "quote",
+		"icon": "note",
+		"collapse": "???",
+		"data_format": "grid",
+		"label": "manifestations",
+		"attributes": {
+			"style": "float: left;", 
+			"width": 150, 
+			"height": 150
+			},
+		"redirect_image": "../assets/images/faam-logo-gold.png",
+		"content": [
+			{"property": "thumb"},
+			{"property": "label"},
+			{"property": "FAAM-ID"},
+			{"property": "keyword"},
+			{"property": "instrumentation"},
+			{"property": "score format"}
+		]
+	},
+
+
+
+
+}
