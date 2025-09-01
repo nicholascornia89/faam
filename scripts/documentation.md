@@ -5,11 +5,11 @@ This documentation describes the different functions and scripts for the FAAM pr
 ## Objectives
 
 - [x ] Import metadata from Nodegoat publication export or export CSV function into JSON file.
-- [ ] Map FAAM fields to external vocabularies.
+- [x ] Map FAAM fields to external vocabularies.
 - [ ] Convert Nodegoat data to RDF ontology using RDFlib.
 - [x ] Enrich metadata using Wikidata SPARQL endpoint.
 - [ ] Create FAAM Ontology using RDFlib or Protegé.
-- [ ] Assign permanent URI to ontology using w3id.org or purl.org.
+- [x ] Assign permanent URI to ontology using w3id.org or purl.org.
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
 - [ ] Static site generation using Mkdocs (or Starlight).
@@ -19,7 +19,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 
 ### TO-DO
 
-- [ ] Import metadata from `nodegoat_export` and `object-list`
+- [x ] Import metadata from `nodegoat_export` and `object-list`
 - [ ] Generate pages (.md) for each item in `object-list` and save it in `docs/kb/` 
 - [ ] For each page add tag = object_type, title = id
 - [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
@@ -121,8 +121,8 @@ Structure of JSON serialization
 
 					"cross-references": {
 									"property_name": [  
-														{"label": "label_to be_shown", "data_type": "data_type", "value": "value", "thumb": ""},
-														{"label": "label_to be_shown", "data_type": "data_type", "value": "value", "thumb": "url to .gif file"},
+														{"label": "label_to be_shown", "type": "type", "value": "value", "thumb": ""},
+														{"label": "label_to be_shown", "type": "type", "value": "value", "thumb": "url to .gif file"},
 														]
 
 						
@@ -130,10 +130,10 @@ Structure of JSON serialization
 					},
 
 					"resources": {
-						"JSON": {"label": "JSON", "url": "url to .json file"},
-						"RDF": {"label": "RDF Turtle", "url": "url to .ttl file"},
-						"CSV" : {"label": "CSV", "url": "url to .csv file"},
-						"GitHub": {"label": "GitHub images", "url": "url to GitHub repository"}
+						"JSON": [{"label": "JSON","type": "url",  "value": "url to .json file"}],
+						"RDF": [{"label": "RDF","type": "url",  "value": "url to .ttl file"}],
+						"CSV" : [{"label": "CSV","type": "url",  "value": "url to .csv file"}],
+						"GitHub": [{"label": "GitHub images","type": "url",  "value": "url to GitHub repository directory"}]
 	
 						}
 					...
