@@ -18,15 +18,15 @@ used by,statements,item,used by,http://www.wikidata.org/entity/P1535,
 Official website,statements,url,website,http://schema.org/url,
 Copyright,statements,string,copyright,http://schema.org/copyrightNotice,
 abbreviation,metadata,string,abbreviation,http://www.wikidata.org/entity/P1813,
-IMSLP ID,statements,externalid,IMSLP ID,http://www.wikidata.org/entity/P839,"https://imslp.org/wiki/"""
-RISM ID,statements,externalid,RISM ID,http://www.wikidata.org/entity/P5504,"https://rism.online/"""
-VIAF ID,statements,externalid,VIAF ID,http://www.wikidata.org/entity/P214,"https://viaf.org/viaf/"""
+IMSLP ID,statements,externalid,IMSLP ID,http://www.wikidata.org/entity/P839,https://imslp.org/wiki/
+RISM ID,statements,externalid,RISM ID,http://www.wikidata.org/entity/P5504,https://rism.online/
+VIAF ID,statements,externalid,VIAF ID,http://www.wikidata.org/entity/P214,https://viaf.org/viaf/
 CPDL ID,statements,externalid,CPDL ID,http://www.wikidata.org/entity/P2000,https://www.cpdl.org/wiki/index.php/
 Form of creative work,statements,item,form of creative work,http://www.wikidata.org/entity/P7937,
 composer,statements,item,creator,http://schema.org/creator,
 arranger,statements,item,adapted by,http://www.wikidata.org/entity/P5202,
 based on,statements,item,based on,http://schema.org/isBasedOn,
-image,statements,image,image,http://schema.org/image,
+image,resources,image,image,http://schema.org/image,https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/
 date of birth,statements,date,date of birth,http://schema.org/birthDate,
 date of death,statements,date,date of death,http://schema.org/deathDate,
 role,statements,item,role,,

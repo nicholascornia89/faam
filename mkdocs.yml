@@ -60,16 +60,14 @@ theme:
 
       
   features:
-    #- navigation.instant
-    #- navigation.instant.prefetch
-    #- navigation.instant.progress
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
     - search.share
-    #- navigation.footer
-    - navigation.tabs
-    - navigation.tabs.sticky
-    #- navigation.top
-    - toc.follow
-    - toc
+    - toc.integrate
 
 copyright: Copyright &copy; 2025 Royal Conservatoire of Antwerp, Artesis Plantijn University College
 

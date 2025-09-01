@@ -21,6 +21,8 @@ out_dir = "tmp"
 
 externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mapping.csv")
 
+nodegoat2faam_kb_filename = os.path.join("mapping", "nodegoat2faam_kb_mapping.csv")
+
 # print("Test WikibaseIntegrator")
 # wikibaseintegrator_test()
 # input()
@@ -105,9 +107,20 @@ if "y" in answer:  # import data from latest JSON backup
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
-print("Generating FAAM knowledge base")
+# FAAM kb script
+
 d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
-faam_kb = generate_faam_kb(d)
+
+print("Change references from QIDs to FAAM UUIDs...")
+d = qid2uuid_mapping(d)
+# Export to JSON
+nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+
+input()
+
+print("Generating FAAM knowledge base")
+
+faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
 
 faam_kb_filename = os.path.join(
     "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
@@ -115,12 +128,13 @@ faam_kb_filename = os.path.join(
 
 dict2json(faam_kb, faam_kb_filename)
 
+input()
 
 print("Generating Markdown pages from data...")
 # Mkdocs
 d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
-objects_list = wikidata_objects_list(d)
-# generate_pages(d, objects_list, out_dir)
+generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir)
+
 
 # RDF
 
