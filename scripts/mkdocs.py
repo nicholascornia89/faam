@@ -109,6 +109,11 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 								statements_list.append(sneakmd.Inline(statement["value"]).link(f"./{statement["id"]}.md"))
 							else:
 								statements_list.append(sneakmd.Inline(statement["value"]))
+
+						# create unordered list
+						doc.add_unordered_list(statements_list)
+					elif block["data_format"] == "table":
+						
 								
 
 
