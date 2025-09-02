@@ -12,7 +12,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [x ] Assign permanent URI to ontology using w3id.org or purl.org.
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
-- [ ] Static site generation using Mkdocs (or Starlight).
+- [ ] Static site generation using Mkdocs.
 - [ ] Image viewer carousel using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
 ## Mkdocs scripts
@@ -20,8 +20,8 @@ This documentation describes the different functions and scripts for the FAAM pr
 ### TO-DO
 
 - [x ] Import metadata from `nodegoat_export` and `object-list`
-- [ ] Generate pages (.md) for each item in `object-list` and save it in `docs/kb/` 
-- [ ] For each page add tag = object_type, title = id
+- [ ] Generate pages (.md) for each item in `faam_kb` and save it in `docs/kb/` 
+- [x ] For each page add tag = object_type, title = id
 - [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
 - [ ] Record each page metadata in separate `id`.json file.
 
@@ -29,6 +29,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 
 | name | description | markdown serialization |
 |------|-------------|------------------------|
+| id | identifier for FAAM | reference for page name |
 | string | general text | paragraph |
 | externalid | hyperlink with base url | [externalid](baseurl/id) |
 | date | date | YYYY-MM-DD |
@@ -36,6 +37,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 | item | link to another page | [item](item.md) |
 | html | HTML code | <div> code </div> |
 | statement | table with multiple values | only for agent, including role, date and location |
+| qualifier | column associated with statement table | only for agent, including role, date and location |
 
 ### Templates
 
@@ -89,53 +91,16 @@ References between objects are constructed by the Nodegoat Object IDs, unique to
 
 ### Item data structure
 
+__TO DO__
+
 ```json
-Structure of JSON serialization
-
-{
-	"items": [
-				{
-					"metadata": {
-						"id": [{"type": "id", "value": "FAAM UUID"}],
-						"nodegoat_id": "old Nodegoat ID",
-						"qid": "Wikidata QID",
-						"object_type": [{"type": "schema", "value": "object_type"}],
-						"label": "preferred label",
-						"aliases": ["alternative labels"],
-						"description": "short string"
-						},
-
-					"statements": {
-									"property_name": [
-										{"type": "string", "value": "string value"},
-										{"type": "externalid", "value": "id with baseurl"},
-										{"type": "item", "value": "uuid"},
-										{"type": "date", "value": "date"},
-										{"type": "url", "value": "url"}
-
-									
-									]
-
-
-						},
-
-					"cross-references": {
-									"property_name": [  
-														{"label": "label_to be_shown", "type": "type", "value": "value", "thumb": ""},
-														{"label": "label_to be_shown", "type": "type", "value": "value", "thumb": "url to .gif file"},
-														]
-
-						
-				
-					},
-
-					"resources": {
-						"JSON": [{"label": "JSON","type": "url",  "value": "url to .json file"}],
-						"RDF": [{"label": "RDF","type": "url",  "value": "url to .ttl file"}],
-						"CSV" : [{"label": "CSV","type": "url",  "value": "url to .csv file"}],
-						"GitHub": [{"label": "GitHub images","type": "url",  "value": "url to GitHub repository directory"}]
-	
-						}
-					...
-}
 ```
+
+## JavaScript visualizations
+
+### TO-DO
+
+- [ ] GitHub API -> list of images form folder associated to FAAM manifestation ID
+- [ ] Image carousel as separate HTML file for each manifestation. Then embedded via `<iframe>`
+- [ ] Network graph visualization via pyvis also from external HTML file.
+- [ ] Filter option for Cross-references using javascript code and FAAM UUID JSON file.

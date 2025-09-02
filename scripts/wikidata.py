@@ -229,7 +229,9 @@ def import_new_objects_from_wd(d,objects_list,out_dir):
 								    "Wikidata id": item["Wikidata id"],
 								    "type": item["type"]
 								  },)
-			# add new item to dictionary NOT WORKING
+			# add new item to dictionary
+			d[item["type"]].append({})
+
 			for field in d[item["type"]][0].keys():
 				# reset all fields
 				d[item["type"]][-1][field] = [""]

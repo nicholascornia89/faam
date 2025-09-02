@@ -14,7 +14,7 @@ from faam_kb import *
 from rdf import *
 from tropy import *
 
-# Nodegoat
+# Data
 
 data_dir = "nodegoat_data"
 out_dir = "tmp"
@@ -23,14 +23,14 @@ externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mappin
 
 nodegoat2faam_kb_filename = os.path.join("mapping", "nodegoat2faam_kb_mapping.csv")
 
-# print("Test WikibaseIntegrator")
-# wikibaseintegrator_test()
-# input()
 
-print("Would you like to generate a new JSON file from Nodegoat data? y/n")
-answer = input()
+# Nodegoat
+def nodegoat_import():
+    print(
+        "This script generates a new JSON file from Nodegoat CSV export in nodegoat_data folder.\n Press enter to continue..."
+    )
+    input()
 
-if "y" in answer:
     # Collect CSV data into unique JSON file
     d = nodegoat_csv2json(data_dir)
 
@@ -49,9 +49,14 @@ if "y" in answer:
 
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
-print("Would you like to enrich data via Wikidata SPARQL queries? y/n")
-answer = input()
-if "y" in answer:  # import data from latest JSON backup
+
+# Wikidata
+def wikidata_SPARQL_enhance():
+    print(
+        "This script will enhance the latest nodegoat_export JSON serialization via Wikidata queries.\n Press enter to continue..."
+    )
+    input()
+
     d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
     # Generate object list and export it to file
@@ -62,12 +67,6 @@ if "y" in answer:  # import data from latest JSON backup
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
-    """
-    # Query very demanding!
-    print("Updating description and aliases from Wikidata...")
-    d = query_descriptions_and_aliases(d, os.path.join(out_dir, "nodegoat_export"))
-	"""
-
     print("Importing new objects...")
     d, wikidata_object_list = import_new_objects_from_wd(
         d, wikidata_object_list, out_dir
@@ -77,12 +76,16 @@ if "y" in answer:  # import data from latest JSON backup
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
     dict2json(wikidata_object_list, object_list_filename)
 
-    print("Change references from QIDs to FAAM UUIDs...")
+    print("Change references from QIDs to FAAM UUIDs...")  # NOT WORKING PROPERLY...
     d = qid2uuid_mapping(d)
     # Export to JSON
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
-    # Wikimedia image URLs redirect TO BE CHECKED
+    # Query very demanding!
+    print("Updating description and aliases from Wikidata...")
+    d = query_descriptions_and_aliases(d, os.path.join(out_dir, "nodegoat_export"))
+
+    # Wikimedia image URLs redirect
     d = change_wikimedia_image_url(
         d,
         base_url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
@@ -107,39 +110,41 @@ if "y" in answer:  # import data from latest JSON backup
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
-# FAAM kb script
 
-d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
+# FAAM Knowledge base
+def faam_kb():
+    # FAAM kb script
 
-print("Change references from QIDs to FAAM UUIDs...")
-d = qid2uuid_mapping(d)
-# Export to JSON
-nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+    d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
-input()
+    print("Change references from QIDs to FAAM UUIDs...")
+    d = qid2uuid_mapping(d)
+    # Export to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
-print("Generating FAAM knowledge base")
+    print("Generating FAAM knowledge base")
 
-faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
+    faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
 
-faam_kb_filename = os.path.join(
-    "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
-)
+    faam_kb_filename = os.path.join(
+        "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+    )
 
-dict2json(faam_kb, faam_kb_filename)
-
-input()
-
-print("Generating Markdown pages from data...")
-# Mkdocs
-d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
-generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir)
+    dict2json(faam_kb, faam_kb_filename)
 
 
-# RDF
+# Mkdocs pages
+def mkdocs_pages():
+    print("Generating Markdown pages from data...")
+    # Mkdocs
+    d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
+    generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
-# Tropy
-database_filename = "test.tpy"
 
-# It works. Results are stored in tmp directory
-# export_tropy_tables(database_filename)
+################################
+## CODE ##
+################################
+
+wikidata_SPARQL_enhance()
+# faam_kb()
+# mkdocs_pages()
