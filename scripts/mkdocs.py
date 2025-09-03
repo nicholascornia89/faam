@@ -113,7 +113,8 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						# create unordered list
 						doc.add_unordered_list(statements_list)
 					elif block["data_format"] == "table":
-						
+						### TO BE CONTINUED
+						pass
 								
 
 

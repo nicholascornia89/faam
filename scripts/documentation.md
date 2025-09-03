@@ -74,6 +74,10 @@ You can more easily import metadata and hierarchy (lists,items,photos,selections
 We have exported all data from Nodegoat using the CSV export function for each Object type, available in the `nodegoat_data` folder. The `nodegoat.py` script parses these CSV files into a unique JSON structure available in the `tmp` folder.
 References between objects are constructed by the Nodegoat Object IDs, unique to each entry of the database.
 
+### Note: Concerning Sub-Objects alignment
+
+When working with sub-objects, like locations and dates associated with a given object, make sure to align the statements by changing the `elif` formulation on line 37 to the Object type you need to exclude from the other metadata. This option allows you to repeat values that otherwise would be omitted. The final result will produce lists of equal length for the object and its sub-objects. 
+
 ### TO-DO
 
 - [x ] Batch import metadata from CSV exports and parse everything into JSON.

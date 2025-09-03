@@ -5,6 +5,7 @@ import sys
 
 sys.path.append(".")
 from utilities import *
+from nodegoat import *
 
 """
 Structure of JSON serialization
@@ -113,9 +114,8 @@ def external_ids_base_url(faam_kb, faam_kb_mapping):
 
 		return faam_kb
 
-
-def qids2faamuudis(faam_kb):
-	# generate QID list
+def generate_qid_list(faam_kb):
+	# generate list ordered according to QID 
 	qid_list = []
 	item_list = []
 	for item in faam_kb["items"]:
@@ -123,8 +123,154 @@ def qids2faamuudis(faam_kb):
 			if item["metadata"]["qid"][0]["value"] != "":
 				qid_list.append(int(item["metadata"]["qid"][0]["value"][1:]))
 				item_list.append(
-					{"id": item["id"], "qid": item["metadata"]["qid"][0]["value"]}
+					{"id": item["id"], "qid": item["metadata"]["qid"][0]["value"], "qid_number": int(item["metadata"]["qid"][0]["value"][1:]) }
 				)
+
+	# order list
+	qid_list = sort(qid_list)
+	item_list = sort(item_list,key="qid_number")
+
+	print(f"Lists has been ordered by QID value (see first 10 values): \n {qid_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
+	input()
+
+	return qid_list,item_list
+
+def generate_nodegoat_list(faam_kb):
+	# generate list ordered according to nodegoat Object ID
+	nodegoat_list = []
+	item_list = []
+	for item in faam_kb["items"]:
+		if "nodegoat_id" in item["metadata"].keys():
+			if item["metadata"]["nodegoat_id"][0]["value"] != "0":
+				nodegoat_list.append(int(item["metadata"]["nodegoat_id"][0]["value"]))
+				item_list.append(
+					{"id": item["id"], "nodegoat_id": nodegoat_list[-1]}
+				)
+
+	# order list
+	nodegoat_list = sort(nodegoat_list)
+	item_list = sort(item_list,key="nodegoat_id")
+
+	print(f"Lists has been ordered by nodegoat Object ID value (see first 10 values): \n {nodegoat_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
+	input()
+
+	return nodegoat_list,item_list
+
+def fix_subobjects_order(faam_kb,nodegoat_csv_path,nodegoat2faam_kb_filename):
+	# homogenization and fixing order for Objects with Sub-Objects, like Agent with location and point in time
+
+	# 1. Import anew data from nodegoat_csv path with function `nodegoat.import_csv_nodegoat`
+	nodegoat_import = import_csv_nodegoat(nodegoat_csv_path)
+
+	# 2. Convert nodegoat IDs to FAAM UUIDs
+	nodegoat_list,item_list = generate_nodegoat_list(faam_kb)
+	print(f"Example Object: {nodegoat_import[0]}")
+	input()
+	# set list of fields to be manipulated
+	fields = ["[Agent] Agent", "[Agent] Role", "[Agent] Location Reference" ...]
+	for obj in nodegoat_import:
+		for key in fields:
+			if "Object ID" in key:
+				for statement in obj[key]:
+					index = bisect_left(nodegoat_list,int(obj['''\ufeff"Object ID"''']))
+					uuid = item_list[index]["id"]
+					statement = uuid
+	# 3. Substitute fields in FAAM Knowledge Base 
+
+
+	#### TO BE CONTINUED !!!!
+
+
+
+
+
+
+
+
+
+def generate_uuid_list(faam_kb):
+
+	# generate UUID list
+	uuid_list = []
+	item_list = []
+	for item in sorted_faam_kb["items"]:
+		# record the integer version of the UUID
+		uuid_list.append(shortuuid.decode(item["id"]).int)
+		item_list.append(
+			{"id": int(item["id"]),
+			"uuid_int": uuid_list[-1], 
+			"qid": item["metadata"]["qid"][0]["value"], 
+			"qid_number": int(item["metadata"]["qid"][0]["value"][1:]),
+			"" 
+			"label": item["metadata"]["label"][0]["value"] }
+		)
+
+	# order list
+	uuid_list = sort(uuid_list)
+	item_list = sort(item_list,key="uuid_int")
+
+	print(f"Lists has been ordered by UUID value (see first 10 values): \n {uuid_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
+	input()
+
+	return uuid_list,item_list
+
+def add_label_to_statement(faam_kb):
+
+	# generate UUID list
+
+	uuid_list,item_list = generate_uuid_list(faam_kb)
+
+	for item in faam_kb["items"]:
+		for key in item["statements"]:
+			if item["statements"][key][0]["data_type"] == "item":
+				for statement in item["statements"][key]:
+					if statement["value"] != "":
+						#convert uuid to integer
+						uuid_int = shortuuid.decode(statement["value"]).int
+						# perform bisect_left search
+						index = bisect_left(uuid_list,uuid_int)
+						if item_list[index]["id"] == statement["value"]:
+							statement["label"] = item_list[index]["label"]
+						else:
+							print(f"UUID not found for {item["id"]}, statement {statement} ")
+							input()
+							pass
+			elif item["statements"][key][0]["data_type"] == "statement":
+				# adapt statement
+				for statement in item["statements"][key]:
+					if statement["value"] != "":
+						#convert uuid to integer
+						uuid_int = shortuuid.decode(statement["value"]).int
+						# perform bisect_left search
+						index = bisect_left(uuid_list,uuid_int)
+						if item_list[index]["id"] == statement["value"]:
+							statement["label"] = item_list[index]["label"]
+						else:
+							print(f"UUID not found for {item["id"]}, statement {statement} ")
+							input()
+							pass
+				# adapt qualifiers
+					for qualifier in statement["qualifiers"]:
+						#convert uuid to integer
+						uuid_int = shortuuid.decode(qualifier["value"]).int
+						# perform bisect_left search
+						index = bisect_left(uuid_list,uuid_int)
+						if item_list[index]["id"] == qualifier["value"]:
+							qualifier["label"] = item_list[index]["label"]
+						else:
+							print(f"UUID not found for {item["id"]}, statement {statement} ")
+							input()
+							pass
+
+
+	return faam_kb	
+
+
+
+def qids2faamuudis(faam_kb):
+	
+	# Ordered lists for bisect query filter
+	qid_list,item_list = generate_qid_list(faam_kb)
 
 	changed_qids = []
 
@@ -158,6 +304,7 @@ def qids2faamuudis(faam_kb):
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
 def generate_faam_kb(d, nodegoat2faam_kb_filename):
 	count_no_label = 0
+	incongruent_qualifiers_list = []
 	# Import mapping
 	faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)
 	faam_kb = {"items": []}
@@ -199,15 +346,20 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 							qualifier_fields = field_mapping["qualifiers"].split(",")
 							while i < statement_number:
 								qualifiers = []
-								print(f"List of qualifiers: {qualifier_fields}")
+								print(f"Current id: {item["id"]} \n List of qualifiers: {qualifier_fields}")
 								for qualifier_field in qualifier_fields:
+									print(f"Qualifier values: {obj[qualifier_field]}")
 									qualifier_field_mapping = list(
 									filter(lambda x: x["nodegoat_field"] == qualifier_field, faam_kb_mapping))[0]
-									qualifier_number = len(item["statements"][qualifier_field])
+									qualifier_number = len(obj[qualifier_field])
 									if qualifier_number == statement_number:
-										qualifiers.append({"type": qualifier_field_mapping["data_type"], "value": item["statements"][qualifier_field][i]})
+										qualifiers.append({
+											"type": qualifier_field_mapping["data_type"],
+											"property": qualifier_field_mapping["faam_property"], 
+											"value": obj[qualifier_field][i]})
 									else:
 										print(f"Incongruent number of qualifiers and statements for item {item["id"]}")
+										incongruent_qualifiers_list.append(item["id"])
 
 								print(f"Qualifiers for {field} with statement {statement}: \n {qualifiers}")
 								input()
@@ -227,6 +379,7 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 									]
 
 								i +=1
+
 								
 							
 
@@ -274,5 +427,7 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 	faam_kb = external_ids_base_url(faam_kb, faam_kb_mapping)
 
 	faam_kb = qids2faamuudis(faam_kb)
+
+	faam_kb = add_label_to_statement(faam_kb)
 
 	return faam_kb

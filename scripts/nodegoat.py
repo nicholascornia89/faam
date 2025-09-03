@@ -34,7 +34,17 @@ def import_csv_nodegoat(csv_filename):
                     element = {"id": ""}
                     element["nodegoat_id"] = [old_ObjID]
 
-            else:  # metadata
+            elif (
+                "[Agent]" in field or "[Organisation]" in field
+            ):  # metadata as compound object type with references for [Agent] and [Organisation]
+                if field not in element:
+                    element[field] = [item[field]]
+                else:
+                    # I am explicitly repeating fields to guarantee matching between references.
+                    element[field].append(item[field])
+
+            else:
+                # normal metadata
                 if field not in element:
                     element[field] = [item[field]]
                 else:

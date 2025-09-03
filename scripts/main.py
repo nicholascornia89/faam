@@ -145,6 +145,8 @@ def mkdocs_pages():
 ## CODE ##
 ################################
 
-wikidata_SPARQL_enhance()
+
+# nodegoat_import()
+# wikidata_SPARQL_enhance()
 # faam_kb()
 # mkdocs_pages()
