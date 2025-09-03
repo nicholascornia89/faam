@@ -127,11 +127,11 @@ def generate_qid_list(faam_kb):
 				)
 
 	# order list
-	qid_list = sort(qid_list)
-	item_list = sort(item_list,key="qid_number")
+	qid_list = sorted(qid_list)
+	item_list = sorted(item_list,key=lambda x: x["qid_number"])
 
-	print(f"Lists has been ordered by QID value (see first 10 values): \n {qid_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
-	input()
+	#print(f"Lists has been ordered by QID value (see first 10 values): \n {qid_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
+	#input()
 
 	return qid_list,item_list
 
@@ -148,71 +148,102 @@ def generate_nodegoat_list(faam_kb):
 				)
 
 	# order list
-	nodegoat_list = sort(nodegoat_list)
-	item_list = sort(item_list,key="nodegoat_id")
+	nodegoat_list = sorted(nodegoat_list)
+	item_list = sorted(item_list,key=lambda x: x["nodegoat_id"])
 
-	print(f"Lists has been ordered by nodegoat Object ID value (see first 10 values): \n {nodegoat_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
-	input()
+	#print(f"Lists has been ordered by nodegoat Object ID value (see first 10 values): \n {nodegoat_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
+	#input()
 
 	return nodegoat_list,item_list
-
-def fix_subobjects_order(faam_kb,nodegoat_csv_path,nodegoat2faam_kb_filename):
-	# homogenization and fixing order for Objects with Sub-Objects, like Agent with location and point in time
-
-	# 1. Import anew data from nodegoat_csv path with function `nodegoat.import_csv_nodegoat`
-	nodegoat_import = import_csv_nodegoat(nodegoat_csv_path)
-
-	# 2. Convert nodegoat IDs to FAAM UUIDs
-	nodegoat_list,item_list = generate_nodegoat_list(faam_kb)
-	print(f"Example Object: {nodegoat_import[0]}")
-	input()
-	# set list of fields to be manipulated
-	fields = ["[Agent] Agent", "[Agent] Role", "[Agent] Location Reference" ...]
-	for obj in nodegoat_import:
-		for key in fields:
-			if "Object ID" in key:
-				for statement in obj[key]:
-					index = bisect_left(nodegoat_list,int(obj['''\ufeff"Object ID"''']))
-					uuid = item_list[index]["id"]
-					statement = uuid
-	# 3. Substitute fields in FAAM Knowledge Base 
-
-
-	#### TO BE CONTINUED !!!!
-
-
-
-
-
-
-
-
 
 def generate_uuid_list(faam_kb):
 
 	# generate UUID list
 	uuid_list = []
 	item_list = []
-	for item in sorted_faam_kb["items"]:
+	for item in faam_kb["items"]:
 		# record the integer version of the UUID
 		uuid_list.append(shortuuid.decode(item["id"]).int)
 		item_list.append(
-			{"id": int(item["id"]),
+			{"id": item["id"],
 			"uuid_int": uuid_list[-1], 
-			"qid": item["metadata"]["qid"][0]["value"], 
-			"qid_number": int(item["metadata"]["qid"][0]["value"][1:]),
-			"" 
 			"label": item["metadata"]["label"][0]["value"] }
 		)
 
 	# order list
-	uuid_list = sort(uuid_list)
-	item_list = sort(item_list,key="uuid_int")
+	uuid_list = sorted(uuid_list)
+	item_list = sorted(item_list,key=lambda x: x["uuid_int"])
 
-	print(f"Lists has been ordered by UUID value (see first 10 values): \n {uuid_list[0:9]} \n {item_list[0:9]} \n Press enter to continue...")
-	input()
+	#print(f"Lists has been ordered by UUID value (see first 10 values): \n {uuid_list[0:9]} \n {item_list[0:9]}")
 
 	return uuid_list,item_list
+
+def fix_subobjects_statements(d,nodegoat_csv_path,nodegoat2faam_kb_filename):
+	# homogenization and fixing order for Objects with Sub-Objects, like Agent with location and point in time
+
+	# import mapping
+	faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)
+
+	# 1. Import anew data from nodegoat_csv path with function `nodegoat.import_csv_nodegoat`
+	nodegoat_import = import_csv_nodegoat(nodegoat_csv_path)
+
+	# import nodegoat_object list for fast bisect query
+	nodegoat_object_list = nodegoat_objects_list(d)
+	nodegoat_list = []
+	for obj in nodegoat_object_list:
+		nodegoat_list.append(obj["nodegoat_id"])
+
+
+	# 2. Convert nodegoat IDs to FAAM UUIDs
+	# set list of fields to be manipulated
+	fix_fields = []
+	for element in faam_kb_mapping:
+		if element["data_type"] == "statement" or element["data_type"] == "qualifier":
+			# exclude time
+			if "Date Start" in element["nodegoat_field"]:
+				fix_fields.append(element["nodegoat_field"])
+			else: # add Object ID	
+				fix_fields.append(element["nodegoat_field"]+" - Object ID")
+
+	print(f"Fields to be fixed: {fix_fields}")
+
+	for obj in nodegoat_import:
+		# get object FAAM UUID
+		index = bisect_left(nodegoat_list,int(obj['nodegoat_id'][0]))
+		obj_uuid = nodegoat_object_list[index]["id"]
+		object_type = nodegoat_object_list[index]["type"]
+
+		#retrieve position of object within object_type list
+		d_object = list(filter(lambda x: x[1]["id"] == obj_uuid, enumerate(d[object_type])))
+		object_index = d_object[0][0]
+
+		#print(f"Previous version object: {d[object_type][object_index]}")
+
+		# substitute all statements in
+		for key in fix_fields:
+			# main statements
+			statements_list = []
+			for statement in obj[key]:
+				if statement != "":
+					if "Date Start" in key:
+						statements_list.append(statement)
+					else:
+						index = bisect_left(nodegoat_list,int(statement))
+						uuid = nodegoat_object_list[index]["id"]
+						statements_list.append(uuid)
+				else:
+					statements_list.append("")
+
+
+			nodegoat_field = key.replace(" - Object ID","")
+			# update dictionary d
+			d[object_type][object_index][nodegoat_field] = statements_list
+
+
+		#print(f"Updated version object: {d[object_type][object_index]}")
+
+
+	return d	
 
 def add_label_to_statement(faam_kb):
 
@@ -222,7 +253,7 @@ def add_label_to_statement(faam_kb):
 
 	for item in faam_kb["items"]:
 		for key in item["statements"]:
-			if item["statements"][key][0]["data_type"] == "item":
+			if item["statements"][key][0]["type"] == "item":
 				for statement in item["statements"][key]:
 					if statement["value"] != "":
 						#convert uuid to integer
@@ -235,7 +266,7 @@ def add_label_to_statement(faam_kb):
 							print(f"UUID not found for {item["id"]}, statement {statement} ")
 							input()
 							pass
-			elif item["statements"][key][0]["data_type"] == "statement":
+			elif item["statements"][key][0]["type"] == "statement":
 				# adapt statement
 				for statement in item["statements"][key]:
 					if statement["value"] != "":
@@ -265,8 +296,6 @@ def add_label_to_statement(faam_kb):
 
 	return faam_kb	
 
-
-
 def qids2faamuudis(faam_kb):
 	
 	# Ordered lists for bisect query filter
@@ -284,16 +313,16 @@ def qids2faamuudis(faam_kb):
 						if statement["value"][0] == "Q":
 							try:
 								qid_number = int(statement["value"][1:])
-								qid_number = int(qid_number)
 								index = bisect_left(qid_list, qid_number)
 								qid = "Q" + str(qid_number)
-								print(f"Query {qid} with result {item_list[index]}")
-								input()
+								#print(f"Query {qid} with result {item_list[index]}")
+								#input()
 								if item_list[index]["qid"] == "Q" + str(qid_number):
 									# replace QID with FAAM UUID
 									statement["value"] = item_list[index]["id"]
 									changed_qids.append(item_list[index]["qid"])
 							except Exception:
+
 								pass
 
 	print(f"Changed QID statements {len(changed_qids)}: \n {changed_qids}")
@@ -304,7 +333,6 @@ def qids2faamuudis(faam_kb):
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
 def generate_faam_kb(d, nodegoat2faam_kb_filename):
 	count_no_label = 0
-	incongruent_qualifiers_list = []
 	# Import mapping
 	faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)
 	faam_kb = {"items": []}
@@ -312,6 +340,7 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 		for obj in d[object_type]:
 			item = {
 				"id": obj["id"],
+				"uuid_num": shortuuid.decode(obj["id"]).int,
 				"metadata": {},
 				"statements": {},
 				"cross-references": {},
@@ -334,75 +363,51 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 				if field == "id":
 					item["metadata"]["id"] = [{"type": "id", "value": obj["id"]}]
 				# rest of statements
-				else:
-					# I am assuming that there are equal number of qualifiers as statement of type `statement`. Unfortunately there might be problems with multiple roles assigned to one agent!
-					for statement in obj[field]:
-						if field_mapping["data_type"] == "statement":
-							# append qualifiers
-
-							############# TO BE TESTED! #################
-							statement_number = len(obj[field])
-							i = 0
-							qualifier_fields = field_mapping["qualifiers"].split(",")
-							while i < statement_number:
-								qualifiers = []
-								print(f"Current id: {item["id"]} \n List of qualifiers: {qualifier_fields}")
-								for qualifier_field in qualifier_fields:
-									print(f"Qualifier values: {obj[qualifier_field]}")
-									qualifier_field_mapping = list(
-									filter(lambda x: x["nodegoat_field"] == qualifier_field, faam_kb_mapping))[0]
-									qualifier_number = len(obj[qualifier_field])
-									if qualifier_number == statement_number:
-										qualifiers.append({
+				elif field_mapping["data_type"] == "statement":
+					# append qualifiers
+					qualifier_keys = field_mapping["qualifiers"].split(",")
+					for i in range(len(obj[field])):
+						qualifiers = []
+						for qualifier_key in qualifier_keys:
+							qualifier_field_mapping = list(
+									filter(lambda x: x["nodegoat_field"] == qualifier_key, faam_kb_mapping))[0]
+							qualifiers.append({
 											"type": qualifier_field_mapping["data_type"],
 											"property": qualifier_field_mapping["faam_property"], 
-											"value": obj[qualifier_field][i]})
-									else:
-										print(f"Incongruent number of qualifiers and statements for item {item["id"]}")
-										incongruent_qualifiers_list.append(item["id"])
+											"value": obj[qualifier_key][i]
+											})
+						# append statement with qualifiers to item in FAAM kb
+						try:
+							item[field_mapping["category"]][field_mapping["faam_property"]].append(
+								{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers})
+						except KeyError:
+							# key not yet created
+							item[field_mapping["category"]][field_mapping["faam_property"]] = [{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers}]
 
-								print(f"Qualifiers for {field} with statement {statement}: \n {qualifiers}")
-								input()
 
-								try:
-									item[field_mapping["category"]][
-										field_mapping["faam_property"]
-									].append(
-										{"type": field_mapping["data_type"], "value": statement, "qualifiers": qualifiers}
-									)
-								except KeyError:
-									# key not yet created
-									item[field_mapping["category"]][
-										field_mapping["faam_property"]
-									] = [
-										{"type": field_mapping["data_type"], "value": statement, "qualifiers": qualifiers}
-									]
 
-								i +=1
 
 								
-							
+				elif field_mapping["data_type"] == "qualifier":
+					# qualifiers are already appended to the corresponding statement
+					pass
 
-
-						elif field_mapping["data_type"] == "qualifier":
-							# qualifiers are appended to the corresponding statement
-							pass
-
-						else: # not nested data type statement
-							# I am appending multiple nodegoat fields that maps to a unique faam property
-							try:
-								item[field_mapping["category"]][
-									field_mapping["faam_property"]
-								].append(
-									{"type": field_mapping["data_type"], "value": statement}
-								)
-							except KeyError:
-								# key not yet created
-								item[field_mapping["category"]][
-									field_mapping["faam_property"]
-								] = [
-									{"type": field_mapping["data_type"], "value": statement}
-								]
+				else: # not nested data type statement
+					# I am appending multiple nodegoat fields that maps to a unique faam property
+					for statement in obj[field]:
+						try:
+							item[field_mapping["category"]][
+								field_mapping["faam_property"]
+							].append(
+								{"type": field_mapping["data_type"], "value": statement}
+							)
+						except KeyError:
+							# key not yet created
+							item[field_mapping["category"]][
+								field_mapping["faam_property"]
+							] = [
+								{"type": field_mapping["data_type"], "value": statement}
+							]
 
 
 			# assign label value from Wikidata Label if absent

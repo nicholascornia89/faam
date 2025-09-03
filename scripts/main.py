@@ -117,10 +117,15 @@ def faam_kb():
 
     d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
-    print("Change references from QIDs to FAAM UUIDs...")
-    d = qid2uuid_mapping(d)
-    # Export to JSON
+    """
+    print("Fix Nodegoat sub-objects statements:")
+    d = fix_subobjects_statements(
+        d, os.path.join(data_dir, "manifestation_agents.csv"), nodegoat2faam_kb_filename
+    )
+
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+
+    """
 
     print("Generating FAAM knowledge base")
 
@@ -148,5 +153,5 @@ def mkdocs_pages():
 
 # nodegoat_import()
 # wikidata_SPARQL_enhance()
-# faam_kb()
+faam_kb()
 # mkdocs_pages()
