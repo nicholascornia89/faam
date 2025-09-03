@@ -329,7 +329,6 @@ def qids2faamuudis(faam_kb):
 
 	return faam_kb
 
-
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
 def generate_faam_kb(d, nodegoat2faam_kb_filename):
 	count_no_label = 0

@@ -145,7 +145,7 @@ def qid2uuid_mapping(d):
 	new_wikidata_qids = []
 	new_wikidata_objects = []
 	# import object_list
-	object_list = load_latest_JSON(os.path.join("tmp","objects_list"))
+	object_list = wikidata_objects_list(d)
 	# generate wikdiata_ids list
 	wikidata_ids_list = []
 	for item in object_list:
@@ -208,7 +208,9 @@ def qid2uuid_mapping(d):
 	return d
 								
 
-def import_new_objects_from_wd(d,objects_list,out_dir):
+def import_new_objects_from_wd(d,out_dir):
+
+	objects_list = wikidata_objects_list(d)
 	objects_wikidata_ids = []
 	for item in objects_list:
 		objects_wikidata_ids.append(item["Wikidata id"])

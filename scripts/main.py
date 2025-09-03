@@ -68,9 +68,7 @@ def wikidata_SPARQL_enhance():
     dict2json(wikidata_object_list, object_list_filename)
 
     print("Importing new objects...")
-    d, wikidata_object_list = import_new_objects_from_wd(
-        d, wikidata_object_list, out_dir
-    )
+    d, wikidata_object_list = import_new_objects_from_wd(d, out_dir)
 
     # Export everything to JSON
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
@@ -118,6 +116,27 @@ def faam_kb():
     d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
     """
+    print("Importing new objects...")
+    d, wikidata_object_list = import_new_objects_from_wd(d, out_dir)
+
+    # Export everything to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+    dict2json(
+        wikidata_object_list,
+        os.path.join(
+            out_dir, "objects_list", "object_list-" + get_current_date() + ".json"
+        ),
+    )
+
+    print("Change references from QIDs to FAAM UUIDs...")  # NOT WORKING PROPERLY...
+    d = qid2uuid_mapping(d)
+    # Export to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+
+    input()
+    """
+
+    """
     print("Fix Nodegoat sub-objects statements:")
     d = fix_subobjects_statements(
         d, os.path.join(data_dir, "manifestation_agents.csv"), nodegoat2faam_kb_filename
@@ -152,6 +171,6 @@ def mkdocs_pages():
 
 
 # nodegoat_import()
-# wikidata_SPARQL_enhance()
-faam_kb()
+wikidata_SPARQL_enhance()
+# faam_kb()
 # mkdocs_pages()
