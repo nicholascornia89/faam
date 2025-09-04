@@ -135,15 +135,12 @@ def faam_kb():
 
     input()
     """
-
     """
     print("Fix Nodegoat sub-objects statements:")
     d = fix_subobjects_statements(
         d, os.path.join(data_dir, "manifestation_agents.csv"), nodegoat2faam_kb_filename
     )
-
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
-
     """
 
     print("Generating FAAM knowledge base")

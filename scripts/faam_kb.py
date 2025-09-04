@@ -256,18 +256,23 @@ def add_label_to_statement(faam_kb):
 			if item["statements"][key][0]["type"] == "item":
 				for statement in item["statements"][key]:
 					if statement["value"] != "":
-						#convert uuid to integer
-						uuid_int = shortuuid.decode(statement["value"]).int
-						# perform bisect_left search
-						index = bisect_left(uuid_list,uuid_int)
-						if item_list[index]["id"] == statement["value"]:
-							statement["label"] = item_list[index]["label"]
-						else:
-							print(f"UUID not found for {item["id"]}, statement {statement} ")
+						try:
+							#convert uuid to integer
+							uuid_int = shortuuid.decode(statement["value"]).int
+							# perform bisect_left search
+							index = bisect_left(uuid_list,uuid_int)
+							if item_list[index]["id"] == statement["value"]:
+								statement["label"] = item_list[index]["label"]
+							else:
+								print(f"UUID not found for {item["id"]}, statement {statement} ")
+								input()
+								pass
+						except ValueError:
+							print(f"Error for {item["id"]}, statement {statement}")
 							input()
-							pass
 			elif item["statements"][key][0]["type"] == "statement":
 				# adapt statement
+				to_be_deleted_statements_indices = []
 				for statement in item["statements"][key]:
 					if statement["value"] != "":
 						#convert uuid to integer
@@ -280,18 +285,33 @@ def add_label_to_statement(faam_kb):
 							print(f"UUID not found for {item["id"]}, statement {statement} ")
 							input()
 							pass
+					else: # delete statement
+						print(f"Statement {statement} is empty, delete  it...")
+						to_be_deleted_statements_indices.append(statement.index())
 				# adapt qualifiers
 					for qualifier in statement["qualifiers"]:
-						#convert uuid to integer
-						uuid_int = shortuuid.decode(qualifier["value"]).int
-						# perform bisect_left search
-						index = bisect_left(uuid_list,uuid_int)
-						if item_list[index]["id"] == qualifier["value"]:
-							qualifier["label"] = item_list[index]["label"]
+						if qualifier["value"] != "":
+							#convert uuid to integer
+							uuid_int = shortuuid.decode(qualifier["value"]).int
+							# perform bisect_left search
+							index = bisect_left(uuid_list,uuid_int)
+							if item_list[index]["id"] == qualifier["value"]:
+								qualifier["label"] = item_list[index]["label"]
+							else:
+								print(f"UUID not found for {item["id"]}, statement {statement} ")
+								input()
+								pass
+					# delete statement if empty
+					cleaned_statements = []
+					for statement in item["statements"][key]:
+						if statement.index() in to_be_deleted_statements_indices:
+							pass 
 						else:
-							print(f"UUID not found for {item["id"]}, statement {statement} ")
-							input()
-							pass
+							cleaned_statements.append(statement)
+
+					print(f"Old statements: {item["statements"][key]}")
+					print(f"Cleaned statements: {cleaned_statements}")
+					input()
 
 
 	return faam_kb	
@@ -322,7 +342,8 @@ def qids2faamuudis(faam_kb):
 									statement["value"] = item_list[index]["id"]
 									changed_qids.append(item_list[index]["qid"])
 							except Exception:
-
+								print(f"Error for {item["id"]}, statement {statement}")
+								input()
 								pass
 
 	print(f"Changed QID statements {len(changed_qids)}: \n {changed_qids}")
@@ -365,6 +386,7 @@ def generate_faam_kb(d, nodegoat2faam_kb_filename):
 				elif field_mapping["data_type"] == "statement":
 					# append qualifiers
 					qualifier_keys = field_mapping["qualifiers"].split(",")
+					#print(f'Qualifiers keys: {qualifier_keys}')
 					for i in range(len(obj[field])):
 						qualifiers = []
 						for qualifier_key in qualifier_keys:
