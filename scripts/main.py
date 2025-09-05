@@ -141,9 +141,14 @@ def faam_kb():
 
     dict2json(faam_kb, faam_kb_filename)
 
-    # generate pyvis networks and serializations: TO BE CONTINUED
-
+    # generate pyvis networks: TO BE CHECKED
     generate_faam_graphs(faam_kb, graph_attributes_type_filename)
+
+    # generate JSON serialization and append it to FAAM kb: TO BE CHECKED
+    faam_kb = generate_json_items(faam_kb, out_dir)
+
+    # generate RDF serialization and append it: TO BE CONTINUED
+    faam_kb = generate_rdf_items(faam_kb, out_dir, nodegoat2faam_kb_filename)
 
 
 # Mkdocs pages
