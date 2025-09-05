@@ -41,7 +41,7 @@ def wikibaseintegrator_test():
 	print(wb_get_property_data("Q1339","P27"))
 	print(wb_get_property_data("Q1339","P18"))
 	"""
-	entity = wb.item.get("Q831474")
+	entity = wb.item.get("Q135972935")
 	description = entity.descriptions.get("en").value
 	aliases = entity.aliases.get("en")
 	label = entity.labels.get('en').value
@@ -177,7 +177,7 @@ def qid2uuid_mapping(d):
 									obj[field][i] = object_list[index]["id"]
 									#print(f"Replacing QID {qid} with UUID {statement} in object {obj['id']} for field {field}")
 								else: # qid not present in FAAM knowledge base
-									#print(f"QID {statement} not present in FAAM knowledge base for object {obj['id']} for field {field}")
+									print(f"QID {statement} not present in FAAM knowledge base for object {obj['id']} for field {field}")
 									if statement not in new_wikidata_qids:
 										new_wikidata_qids.append(statement)
 										field_info = list(filter(lambda x: x["nodegoat_field"] == field,nodegoat2wd))
@@ -410,3 +410,5 @@ def wb_get_property_data_old(qid, pid):
 	# no qid case
 	except Exception:
 		return [""]
+
+### CODE ###

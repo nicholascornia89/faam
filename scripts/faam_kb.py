@@ -265,15 +265,16 @@ def add_label_to_statement(faam_kb):
 								statement["label"] = item_list[index]["label"]
 							else:
 								print(f"UUID not found for {item["id"]}, statement {statement} ")
-								input()
+								#input()
 								pass
 						except ValueError:
 							print(f"Error for {item["id"]}, statement {statement}")
-							input()
+							#input()
 			elif item["statements"][key][0]["type"] == "statement":
 				# adapt statement
 				to_be_deleted_statements_indices = []
-				for statement in item["statements"][key]:
+				for i in range(len(item["statements"][key])):
+					statement = item["statements"][key][i]
 					if statement["value"] != "":
 						#convert uuid to integer
 						uuid_int = shortuuid.decode(statement["value"]).int
@@ -283,11 +284,11 @@ def add_label_to_statement(faam_kb):
 							statement["label"] = item_list[index]["label"]
 						else:
 							print(f"UUID not found for {item["id"]}, statement {statement} ")
-							input()
+							#input()
 							pass
 					else: # delete statement
 						print(f"Statement {statement} is empty, delete  it...")
-						to_be_deleted_statements_indices.append(statement.index())
+						to_be_deleted_statements_indices.append(i)
 				# adapt qualifiers
 					for qualifier in statement["qualifiers"]:
 						if qualifier["value"] != "":
@@ -299,19 +300,19 @@ def add_label_to_statement(faam_kb):
 								qualifier["label"] = item_list[index]["label"]
 							else:
 								print(f"UUID not found for {item["id"]}, statement {statement} ")
-								input()
+								#input()
 								pass
 					# delete statement if empty
 					cleaned_statements = []
-					for statement in item["statements"][key]:
-						if statement.index() in to_be_deleted_statements_indices:
+					for i in range(len(item["statements"][key])):
+						if i in to_be_deleted_statements_indices:
 							pass 
 						else:
-							cleaned_statements.append(statement)
+							cleaned_statements.append(item["statements"][key][i])
 
-					print(f"Old statements: {item["statements"][key]}")
-					print(f"Cleaned statements: {cleaned_statements}")
-					input()
+					#print(f"Old statements: {item["statements"][key]}")
+					#print(f"Cleaned statements: {cleaned_statements}")
+					#input()
 
 
 	return faam_kb	
@@ -320,6 +321,8 @@ def qids2faamuudis(faam_kb):
 	
 	# Ordered lists for bisect query filter
 	qid_list,item_list = generate_qid_list(faam_kb)
+
+	print(f"QID list length: {len(qid_list)}, {len(item_list)}")
 
 	changed_qids = []
 
@@ -341,17 +344,23 @@ def qids2faamuudis(faam_kb):
 									# replace QID with FAAM UUID
 									statement["value"] = item_list[index]["id"]
 									changed_qids.append(item_list[index]["qid"])
-							except Exception:
-								print(f"Error for {item["id"]}, statement {statement}")
-								input()
+							except ValueError:
+								#print(f"Error for {item["id"]}, statement {statement}")
+								#input()
 								pass
+							except IndexError:
+								print(f"Error for {item["id"]}, statement {statement}")
+								print(f"Index: {index}")
+								pass
+
+							
 
 	print(f"Changed QID statements {len(changed_qids)}: \n {changed_qids}")
 
 	return faam_kb
 
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
-def generate_faam_kb(d, nodegoat2faam_kb_filename):
+def generate_faam_kb(d,nodegoat2faam_kb_filename):
 	count_no_label = 0
 	# Import mapping
 	faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)

@@ -4,43 +4,193 @@ Scritpts to generate Mkdocs Markdown documentation pages
 """
 
 import sys
+# Markdown module
 import snakemd
+# graph visualization modules 
+from pyvis.network import Network
+import networkx as nx
+import matplotlib
+import matplotlib.pyplot
 
 sys.path.append(".")
 from utilities import *
+from faam_kb import *
+
+# Pyvis functions
+
+def add_node_faam(item,net,graph_attributes_type):
+	# append new item to node
+	attributes = list(filter(lambda x: x["type"] == item["metadata"]["type"][0]["value"]),graph_attributes_type)[0]
+	if "thumb" in item["resources"]:
+		image = f"""<img src="{item["resources"]["thumb"][0]["base_url"]}{item["resources"]["thumb"][0]["value"]}" width="250" height="200">"""
+	elif "image" in item["resources"]:
+		image = f"""<img src="{item["resources"]["image"][0]["base_url"]}{item["resources"]["image"][0]["value"]}" width="250" height="200">"""
+	else:
+		image = "<p></p>"
+	title = (
+	            """
+			<body>
+			<h3> <a href='./"""
+	            + item["id"]
+	            + """.md'>"""
+	            + item["metadata"]["label"][0]["value"]
+	            + """</a></h3>
+			<p>"""
+	            + item["metadata"]["description"][0]["value"]
+	            + """</p>"""
+	            + image +
+				"""
+			</body>
+			"""
+	        )
+	node_list.append(uuid_int)
+	net.add_node(item["id"],
+					label = item["metadata"]["label"][0]["value"],
+					color= color,
+					value= 100,
+					title = title
+					)
+
+	return net
+
+def generate_network(faam_kb,graph_attributes_type_filename):
+	# generate integer list for bisect query
+	uuid_list,item_list = generate_uuid_list(faam_kb)
+	nodes_list = []
+	graph_attributes_type = csv2dict(graph_attributes_type_filename)
+	# initialize network
+	net = nx.Graph()
+	# GENERATE NODES
+	for item in faam_kb["items"]:
+		# get integer representation of item id
+		uuid_int = shortuuid.decode(item["id"]).int
+		# query value in uuid_list
+		try:
+			index = bisect_left(node_list,uuid_int)
+			if item["id"] == item_list[index]["id"]:
+				# already present
+				pass
+			else:
+				net = add_node_faam(item,net,graph_attributes_type)
+				
+		except IndexError: # item not in list
+			net = add_node_faam(item,net,graph_attributes_type)
+
+	# ADD EDGES
+
+	for item in faam_kb["items"]:
+		for prop in item["statements"]:
+			if prop[0]["type"] == "item":
+				for statement in prop:
+					net.add_edge(item["id"], prop["value"], weight=10)
+
+			if prop[0]["type"] == "statement": # consider all qualifiers
+				for statement in prop:
+					for qual in prop["qualifiers"]:
+						if qual["type"] == "item":
+							net.add_edge(item["id"], qual["value"], weight=5)
+
+	# Save Network serialization
+
+	net_dict = nx.node_link_data(net, edges="links")
+	dict2json(net_dict,os.path.join(out_dir,"pyvis_graph","network-"+get_current-date()+".json"))
+	return net
+
+def pyvis_visualization(net,net_filename):
+	layout = nx.spring_layout(net)
+	visualization=Network(height="1200px", width="1200px", bgcolor="#1C1A19", font_color="#f8f7f4", directed=False,select_menu=False,filter_menu=False,notebook=False)
+	visualization.barnes_hut()
+	visualization.from_nx(net)
+	visualization.toggle_physics(False)
+	visualization.show_buttons(filter_=['nodes','physics'])
+	#for i in visualization.nodes:
+			#node_id = i["id"]
+			#if node_id in layout:
+				#i["x"], i["y"] = layout[node_id][0]*1000, layout[node_id][1]*1000
+	options = """
+			var options = {
+   					"configure": {
+						"enabled": false
+   							},
+  					"edges": {
+					"color": {
+	  				"inherit": true
+						},
+					"smooth": false
+  					},
+  					"physics": {
+					"barnesHut": {
+	  				"gravitationalConstant": -12050
+					},
+					"minVelocity": 0.75
+  					}
+					}
+				"""
+	visualization.set_options(options)
+	#visualization.show(net_filename+'.html',notebook=False)
+	#input()
+	#visualization.write_html(name='example.html',notebook=False,open_browser=False)
+	visualization.save_graph(net_filename+'.html')
+
+def generate_distance_matrix(net,max_dist):
+	print("Distance matrix operations...")
+	distances = dict(nx.all_pairs_shortest_path_length(net,cutoff=max_dist))
+	return distances
+
+def pyvis_visualization_local(center_node,net,distances,base_path):
+	sub_net_nodes = []
+	print("Generating subgraph...")
+	for node in distances[center_node]:
+			sub_net_nodes.append(node)
+	sub_net = net.subgraph(sub_net_nodes)
+	print("Getting labels...")
+	labels = nx.get_node_attributes(sub_net, "label")
+	print("Render visualization...")
+	print(sub_net.nodes())
+	print(sub_net.edges())
+	pyvis_visualization(sub_net,base_path+str(center_node))
+
+def generate_faam_graphs(faam_kb,graph_attributes_type_filename):
+	# generate whole network
+	print("Generating network...")
+	net = generate_network(faam_kb,graph_attributes_type_filename)
+	# generate distance matrix
+	print("Generating distance matrix. It might take a while!")
+	distances = generate_distance_matrix(net,max_dist=2)
+	print("Generating individual graph visualizations in HTML using pyvis...")
+
+	for node in net:
+		pyvis_visualization_local(node,net,distances,os.path.join(out_dir,"networks",f"{node}_graph.html"))
+
+
 
 # Generate Markdown page for each object in object_list
 
 """generate a JSON file with all metadata related to a specific object. 
 This file could be used for dynamic rendering van lists (via Javascript) and
 export option for users."""
+def generate_json_items(faam_kb,out_dir):
+	for item in faam_kb["items"]:
+		data = item
+		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
+		item["resources"]["JSON"] = [
+			{
+				"type": "url",
+				"base_url": "./",
+				"value": item["id"]+".json"
 
+			}
+		]
 
-def generate_page_json(obj, file_path):
-	# save object metadata in `metadata` key.
-	data = {}
-	data["metadata"] = obj
-	# generate graph representation according to D3.js standards
-	graph = {}
-	"""example of node
-	{"id": "id for links", "label": "text on node", "group": "type node", "description": "text when hovered", "size": 100, "url": "hyperlink" }
-
-	"""
-	nodes = []
-	"""example of link (edges)
-	{"source": "node id", "target": "node id"}
-	"""
-	links = []
-
-	for field in obj:
-		# TO BE CONTINUED
-		pass
+	return faam_kb
 
 
 """generate Turtle RDF serialization of metadata according to Nodegoat2LOD mapping"""
+def generate_rdf_items(faam_kb,out_dir,nodegoat2faam_kb_filename):
+	# TO BE CONTINUED
+	pass
 
-
-def generate_page_rdf(obj, file_path, nodegoat2rdf_mapping):
+def generate_csv_items(faam_kb,out_dir):
 	# TO BE CONTINUED
 	pass
 
@@ -92,13 +242,25 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 					image_statement = item[block["content"][0]["category"]][
 						block["content"][0]["property"]
 					]
-					doc.add_raw(
-						f"""<img style="{block["attributes"]["style"]}" src="{image_statement[0]["base_url"]}{image_statement[0]["value"]}" width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}">"""
-					)
+					if image_statement != "":
+						doc.add_raw(
+							f"""<img style="{block["attributes"]["style"]}" src="{image_statement[0]["base_url"]}{image_statement[0]["value"]}" width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}">"""
+						)
+					else: # add default image if empty
+						doc.add_raw(
+							f"""<img style="{block["attributes"]["style"]}" src="{block["redirect_image"]}" width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}">"""
+						)
 				elif block["format"] == "button":
-					pass
+					for button in block["content"]:
+						if "GitHub" in button["label"]:
+							githuburl = item["resources"]["GitHub"][0]["value"]
+							doc.add_raw(f"""[{button["label"]} {button["icon"]}]({githuburl}){{.md-button}}""") 
+						else: # file serializations
+							doc.add_raw(f"""[{button["label"]} {button["icon"]}](./{item["id"]}{button["extension"]}){{.md-button}}""")
+
 				# statements
 				elif block["format"] == "quote":
+					doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
 					if block["data_format"] == "list":
 						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 						statements_list = []
@@ -106,19 +268,48 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 							# check if item (hyperlink needed), otherwise only string
 							if statement["type"] == "item":
 								# I am assuming all items have FAAM UUID
-								statements_list.append(sneakmd.Inline(statement["value"]).link(f"./{statement["id"]}.md"))
+								statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
 							else:
 								statements_list.append(sneakmd.Inline(statement["value"]))
 
-						# create unordered list
-						doc.add_unordered_list(statements_list)
+						# create unordered list. p.s. Tab is fundamental for layout structuring
+						for element in statements_list:
+							doc.add_raw(f"""	- {element}""")
 					elif block["data_format"] == "table":
-						### TO BE CONTINUED
-						pass
-								
+						headings = []
+						for element in block["content"]:
+							if element["type"] == "statement":
+								headings.append(element["label"])
+								# append qualifiers in `qualifiers` key
+								for qual in element["qualifiers"]:
+									headings.append(qual)
+
+						# I am assuming uniform length statements!
+						table_raws = []
+						for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
+							raw = []
+							for heading in headings: # assume heading = property and qualifiers key
+								if statement["type"] == "statement":
+									raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+									for qual in statement["qualifiers"]:
+										if qual in headings:
+											if qual["type"] == "item":
+												raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+											else:
+												raw.append(sneakmd.Inline(qual["value"]))
+							table_raws.append(raw)
+
+						# alignment (center)
+						table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
+
+						# append table to document
+
+						doc.add_table(headings,table_raws,aling=table_align)
 
 
 
+						
+						
 			# save .md file
 			doc.dump(item["id"], directory=pages_dir)
 			input()

@@ -18,9 +18,9 @@
 		"resource_buttons": {
 			"format": "button",
 			"content": [
-				{"category": "resources", "label": "JSON", "property": "JSON", "icon": ":material-code-json:"},
-				{"category": "resources", "label": "RDF Turtle", "property": "RDF", "icon": ":material-cable-data:"},
-				{"category": "resources", "label": "CSV", "property": "CSV", "icon": ":material-table:"}
+				{"category": "resources", "label": "JSON", "property": "JSON", "icon": ":material-code-json:", "type": "url", "extension": ".json"},
+				{"category": "resources", "label": "RDF Turtle", "property": "RDF", "icon": ":material-cable-data:", "type": "url", "extension": ".ttl"},
+				{"category": "resources", "label": "CSV", "property": "CSV", "icon": ":material-table:", "type": "url", "extension": ".csv"}
 			]
 		},
 
@@ -48,11 +48,11 @@
 			"table_headings": ["property","value"],
 			"align": "center",
 			"content": [
-				{"category": "metadata", "label": "FAAM UUID", "property": "id"},
-				{"category": "metadata", "label": "Wikidata QID", "property": "qid"},
-				{"category": "metadata", "label": "preferred label", "property": "label"},
-				{"category": "metadata", "label": "aliases", "property": "aliases"},
-				{"category": "metadata","label": "description", "property": "description"}
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "Wikidata QID", "property": "qid", "type": "id"},
+				{"category": "metadata", "label": "preferred label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "description", "property": "description", "type": "string"}
 
 			]
 
@@ -132,6 +132,95 @@
 		}
 
 
+
+
+	},
+
+	"manifestation":{
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"resource_buttons": {
+			"format": "button",
+			"content": [
+				{"category": "resources", "label": "GitHub images", "property": "GitHub", "icon": ":simple-github:", "type": "url", "extension": ""},
+				{"category": "resources", "label": "JSON", "property": "JSON", "icon": ":material-code-json:", "type": "url", "extension": ".json"},
+				{"category": "resources", "label": "RDF Turtle", "property": "RDF", "icon": ":material-cable-data:", "type": "url", "extension": ".ttl"},
+				{"category": "resources", "label": "CSV", "property": "CSV", "icon": ":material-table:", "type": "url", "extension": ".csv"}
+			]
+		},
+
+		"item_image": {
+			"format": "image",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 250, 
+				"height": 200
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png",
+			"content": [{
+				"category": "resources",
+				"property": "thumb"
+			}]
+
+			}, 
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "FAAM manifestation ID", "property": "FAAM manifestation ID", "type": "id"},
+				{"category": "metadata", "label": "title", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "permalink", "property": "permalink", "type": "url"},
+				{"category": "metadata","label": "provenance", "property": "provenance", "type": "item"}
+
+			]
+
+
+			},
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"agent": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "???",
+			"label": "related agent",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "statements", "label": "agent", "property": "agent", "type": "statement", "qualifiers":  ["role","place","date"]}
+			]
+
+
+			},
+
+
+		}
 
 
 	}
