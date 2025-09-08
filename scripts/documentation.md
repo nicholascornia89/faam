@@ -100,6 +100,15 @@ __TO DO__
 ```json
 ```
 
+## RDF serialization
+
+### TO-DO
+
+- [ ] Generate full LOD serialization from FAAM KB JSON dictionary
+- [ ] Generate single serializations for each entity/item
+- [ ] Describe specific FAAM properties to GitHub page URL http://nicholascornia89.github.io/faam/property/{property_name}
+- [ ] FAAM entities to http://nicholascornia89.github.io/faam/entity/{id}
+
 ## JavaScript visualizations
 
 ### TO-DO

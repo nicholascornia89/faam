@@ -18,9 +18,9 @@ from faam_kb import *
 
 # Pyvis functions
 
-def add_node_faam(item,net,graph_attributes_type):
+def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list):
 	# append new item to node
-	attributes = list(filter(lambda x: x["type"] == item["metadata"]["type"][0]["value"]),graph_attributes_type)[0]
+	attributes = list(filter(lambda x: x["type"] == item["metadata"]["object_type"][0]["value"],graph_attributes_type))[0]
 	if "thumb" in item["resources"]:
 		image = f"""<img src="{item["resources"]["thumb"][0]["base_url"]}{item["resources"]["thumb"][0]["value"]}" width="250" height="200">"""
 	elif "image" in item["resources"]:
@@ -43,15 +43,15 @@ def add_node_faam(item,net,graph_attributes_type):
 			</body>
 			"""
 	        )
-	node_list.append(uuid_int)
+	nodes_list.append(uuid_int)
 	net.add_node(item["id"],
 					label = item["metadata"]["label"][0]["value"],
-					color= color,
-					value= 100,
+					color= attributes["color_code"],
+					value= attributes["value"],
 					title = title
 					)
 
-	return net
+	return net,nodes_list
 
 def generate_network(faam_kb,graph_attributes_type_filename):
 	# generate integer list for bisect query
@@ -66,15 +66,15 @@ def generate_network(faam_kb,graph_attributes_type_filename):
 		uuid_int = shortuuid.decode(item["id"]).int
 		# query value in uuid_list
 		try:
-			index = bisect_left(node_list,uuid_int)
+			index = bisect_left(nodes_list,uuid_int)
 			if item["id"] == item_list[index]["id"]:
 				# already present
 				pass
 			else:
-				net = add_node_faam(item,net,graph_attributes_type)
+				net,nodes_list = add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list)
 				
 		except IndexError: # item not in list
-			net = add_node_faam(item,net,graph_attributes_type)
+			net,nodes_list = add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list)
 
 	# ADD EDGES
 
@@ -169,7 +169,7 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename):
 """generate a JSON file with all metadata related to a specific object. 
 This file could be used for dynamic rendering van lists (via Javascript) and
 export option for users."""
-def generate_json_items(faam_kb,out_dir):
+def generate_json_items(faam_kb,nodegoat2faam_kb,out_dir):
 	for item in faam_kb["items"]:
 		data = item
 		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
@@ -181,21 +181,65 @@ def generate_json_items(faam_kb,out_dir):
 
 			}
 		]
+		# generate RDF Turtle serialization
+		generate_rdf_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".ttl"))
+		item["resources"]["RDF"] = [
+			{
+				"type": "url",
+				"base_url": "./",
+				"value": item["id"]+".ttl"
+			}
+
+		]
+		# generate CSV serialization
+		generate_csv_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".ttl"),separator="|")
+		item["resources"]["CSV"] = [
+			{
+				"type": "url",
+				"base_url": "./",
+				"value": item["id"]+".csv"
+			}
+
+		]
 
 	return faam_kb
 
-
 """generate Turtle RDF serialization of metadata according to Nodegoat2LOD mapping"""
-def generate_rdf_items(faam_kb,out_dir,nodegoat2faam_kb_filename):
+def generate_rdf_item(item,nodegoat2faam_kb,file_path):
 	# TO BE CONTINUED
 	pass
 
-def generate_csv_items(faam_kb,out_dir):
-	# TO BE CONTINUED
+def generate_csv_item(item,nodegoat2faam_kb,file_path,separator):
+	# serialize JSON item to CSV
+	csv_dict = []
+	for category in item.keys():
+		for faam_property in item[category].keys():
+			for statement in item[category][faam_property]:
+				try:
+					if statement["type"] == "string" or statement["type"] == "id" :
+						csv_dict.append({
+							"category": category,
+							"faam_property": faam_property,
+							"type": statement[0]["type"],
+							"value": statement["value"]
+							})
+					elif statement["type"] == "externalid":
+						csv_dict.append({
+							"category": category,
+							"faam_property": faam_property,
+							"type": statement[0]["type"],
+							"value": statement["value"],
+							"base_url": statement["base_url"]
+							})
+				except IndexError: # case of not list keys such as id and uuid_num
+					pass
+
 	pass
 
 
-def generate_pages(faam_kb, nodegoat2faam_kb, out_dir):
+def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
+	# import mapping
+	nodegoat2faam_kb = csv2dict(nodegoat2faam_kb_filename)
 	# generate directory for Markdown pages
 	pages_dir = os.path.join(out_dir, "pages")
 	# Templates are stored in a JSON file with Markdown blocks

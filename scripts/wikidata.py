@@ -396,19 +396,4 @@ def wb_get_property_data(qid,pid):
 		return [""]
 
 
-# Query using wikibase-api (NOT WORKING)
-def wb_get_property_data_old(qid, pid):
-	# get entity profile given property
-	try:
-		entity = wb.entity.get(qid)["entities"][qid]
-		properties_list = entity["claims"].keys()
-		# look for property
-		if pid in properties_list:
-			return entity["claims"][pid]
-		else:
-			return [""]
-	# no qid case
-	except Exception:
-		return [""]
-
 ### CODE ###

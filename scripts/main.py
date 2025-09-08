@@ -165,6 +165,6 @@ def mkdocs_pages():
 
 
 # nodegoat_import()
-wikidata_SPARQL_enhance()
+# wikidata_SPARQL_enhance()
 faam_kb()
 # mkdocs_pages()

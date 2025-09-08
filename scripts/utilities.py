@@ -19,9 +19,9 @@ def csv2dict(csv_filename):  # imports a CSV file as dictionary
     return d["items"]
 
 
-def dict2csv(d, csv_filename):
+def dict2csv(d, csv_filename, separator=","):
     df = pd.DataFrame(data=d)
-    df.to_csv(csv_filename, sep=",", index=False)
+    df.to_csv(csv_filename, sep=separator, index=False)
 
 
 def json2dict(json_filename):  # imports a JSON file as dictionary

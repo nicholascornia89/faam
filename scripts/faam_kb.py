@@ -6,6 +6,7 @@ import sys
 sys.path.append(".")
 from utilities import *
 from nodegoat import *
+from wikidata import *
 
 """
 Structure of JSON serialization
@@ -75,7 +76,6 @@ def images_base_url(
 				item["resources"]["thumb"][0]["base_url"] = faam_thumbs_base_url
 			if key == "image":
 				# make sure redirects to Wikimedia Commons
-
 				item["resources"]["image"][0]["base_url"] = wikimedia_common_base_url
 				if wikimedia_common_base_url in item["resources"]["image"][0]["value"]:
 					# keep only filename
@@ -264,12 +264,23 @@ def add_label_to_statement(faam_kb):
 							if item_list[index]["id"] == statement["value"]:
 								statement["label"] = item_list[index]["label"]
 							else:
-								print(f"UUID not found for {item["id"]}, statement {statement} ")
-								#input()
+								print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+								entity = wb.item.get(statement["value"])
+								statement["label"] = entity.labels.get('en').value
+								statement["type"] = "externalid"
+								statement["base_url"] = "http://www.wikidata.org/entity/"
+								print(f"New statement: {statement}")
+								input()
 								pass
 						except ValueError:
-							print(f"Error for {item["id"]}, statement {statement}")
-							#input()
+							print(f"Error for {item["id"]}, statement {statement}. Getting label from Wikidata...")
+							entity = wb.item.get(statement["value"])
+							statement["label"] = entity.labels.get('en').value
+							statement["type"] = "externalid"
+							statement["base_url"] = "http://www.wikidata.org/entity/"
+							print(f"New statement: {statement}")
+							input()
+
 			elif item["statements"][key][0]["type"] == "statement":
 				# adapt statement
 				to_be_deleted_statements_indices = []
@@ -283,8 +294,13 @@ def add_label_to_statement(faam_kb):
 						if item_list[index]["id"] == statement["value"]:
 							statement["label"] = item_list[index]["label"]
 						else:
-							print(f"UUID not found for {item["id"]}, statement {statement} ")
-							#input()
+							print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+							entity = wb.item.get(statement["value"])
+							statement["label"] = entity.labels.get('en').value
+							statement["type"] = "externalid"
+							statement["base_url"] = "http://www.wikidata.org/entity/"
+							print(f"New statement: {statement}")
+							input()
 							pass
 					else: # delete statement
 						print(f"Statement {statement} is empty, delete  it...")
@@ -463,6 +479,6 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 
 	faam_kb = qids2faamuudis(faam_kb)
 
-	faam_kb = add_label_to_statement(faam_kb)
+	#faam_kb = add_label_to_statement(faam_kb)
 
 	return faam_kb
