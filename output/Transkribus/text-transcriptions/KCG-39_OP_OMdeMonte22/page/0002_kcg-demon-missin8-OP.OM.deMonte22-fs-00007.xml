@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.23.1:model_id=51170:date=22_02_2025_11:26</Creator>
+        <Created>2025-02-21T16:38:58.260+01:00</Created>
+        <LastChange>2025-02-22T11:26:52.202+01:00</LastChange>
+        <TranskribusMetadata docId="7039034" pageId="91997361" pageNr="2" tsid="230764730" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=KDWBPYTRPPKBTLKGSLGATZDP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IXDVFGVYHITXYWKHTDYMNTZH" imageId="76789606"/>
+    </Metadata>
+    <Page imageFilename="0002_kcg-demon-missin8-OP.OM.deMonte22-fs-00007.jpg" imageWidth="2561" imageHeight="3784">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316171417" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+                <RegionRefIndexed index="1" regionRef="tr_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="298,355 1283,355 1283,1702 298,1702"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="699,409 708,406 717,412 729,411 756,437 768,427 779,426 779,373 770,376 761,372 754,374 725,355 708,365 699,365"/>
+                <Baseline points="704,405 749,405 781,405"/>
+                <TextEquiv>
+                    <Unicode>in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="293,409 350,422 362,431 387,415 407,420 419,410 431,419 448,418 445,369 409,362 382,371 365,359 350,363 314,347 290,355"/>
+                <Baseline points="298,408 343,405 387,411 432,414 450,411"/>
+                <TextEquiv>
+                    <Unicode>dans le désire</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="1194,1724 1207,1726 1212,1722 1236,1733 1247,1731 1257,1736 1268,1730 1281,1731 1281,1612 1273,1612 1252,1629 1242,1629 1228,1619 1219,1621 1211,1613 1194,1613"/>
+                <Baseline points="1199,1692 1244,1692 1283,1692"/>
+                <TextEquiv>
+                    <Unicode>&lt;INS&gt;</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_2" custom="readingOrder {index:1;}">
+            <Coords points="492,3247 1217,3247 1217,3334 492,3334"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="490,3366 662,3329 766,3324 842,3355 1215,3329 1211,3241 1005,3267 484,3229"/>
+                <Baseline points="492,3297 537,3297 581,3300 626,3300 671,3300 716,3303 760,3312 805,3312 850,3312 895,3312 940,3318 984,3315 1029,3318 1074,3321 1119,3324 1163,3321 1208,3324 1217,3324"/>
+                <TextEquiv>
+                    <Unicode> -    F.T.K</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

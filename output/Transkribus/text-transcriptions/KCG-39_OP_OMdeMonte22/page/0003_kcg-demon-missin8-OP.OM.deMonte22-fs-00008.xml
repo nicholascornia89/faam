@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.23.1:model_id=51170:date=22_02_2025_11:26</Creator>
+        <Created>2025-02-21T16:38:58.374+01:00</Created>
+        <LastChange>2025-02-22T11:26:52.322+01:00</LastChange>
+        <TranskribusMetadata docId="7039034" pageId="91997178" pageNr="3" tsid="230764731" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=JVNNPUUDHGACVPMVTTFACSXM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YJPBWLTPOJOLVIZEQQZVEFBW" imageId="76789607"/>
+    </Metadata>
+    <Page imageFilename="0003_kcg-demon-missin8-OP.OM.deMonte22-fs-00008.jpg" imageWidth="2561" imageHeight="3784">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316171688" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="561,1430 1912,1430 1912,1976 561,1976"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="551,1499 1910,1511 1910,1420 1851,1413 1570,1452 1340,1411 1033,1411 906,1457 551,1428"/>
+                <Baseline points="561,1483 605,1483 650,1486 695,1483 740,1483 784,1483 829,1483 874,1480 919,1480 963,1483 1008,1486 1053,1486 1098,1486 1142,1486 1187,1486 1232,1486 1277,1486 1322,1486 1366,1489 1411,1489 1456,1489 1501,1489 1545,1489 1590,1486 1635,1489 1680,1489 1724,1489 1769,1486 1814,1489 1859,1489 1903,1492 1912,1489"/>
+                <TextEquiv>
+                    <Unicode>Benevolo « Fundationis Academia Belga »</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="1026,1649 1107,1683 1311,1646 1413,1673 1475,1665 1474,1590 1460,1585 1431,1600 1362,1589 1303,1629 1234,1582 1026,1611"/>
+                <Baseline points="1035,1641 1080,1641 1125,1641 1169,1644 1214,1644 1259,1644 1304,1644 1348,1644 1393,1644 1438,1644 1480,1644"/>
+                <TextEquiv>
+                    <Unicode>subsidio edita</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="835,1829 1655,1815 1643,1742 1338,1769 1104,1732 835,1761"/>
+                <Baseline points="844,1808 889,1805 934,1808 978,1808 1023,1811 1068,1811 1113,1808 1157,1808 1202,1811 1247,1808 1292,1811 1336,1811 1381,1811 1426,1811 1471,1811 1515,1811 1560,1811 1605,1814 1650,1811 1659,1811"/>
+                <TextEquiv>
+                    <Unicode>PHILIPPI DE MONTE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="695,1979 1795,1979 1793,1920 1732,1913 693,1915"/>
+                <Baseline points="704,1960 749,1957 793,1960 838,1960 883,1960 928,1960 972,1960 1017,1960 1062,1960 1107,1960 1151,1960 1196,1960 1241,1960 1286,1963 1330,1960 1375,1963 1420,1963 1465,1963 1510,1963 1554,1966 1599,1963 1644,1966 1689,1963 1733,1966 1778,1966 1799,1966"/>
+                <TextEquiv>
+                    <Unicode>Missa « Sine nomine 8 vocum »</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
