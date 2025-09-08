@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:08.469+02:00</Created>
+        <LastChange>2025-04-16T15:19:30.188+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571636" pageNr="13" tsid="240830677" status="FINAL" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=YAQDFXMKDCKDEJDWLBZHYWSE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JKOLAZTOBQDJFWQAXTQONEJB" imageId="64131577"/>
+    </Metadata>
+    <Page imageFilename="0013_cul-ziehn-manhar1-31924022305480-mt-00063.jpg" imageWidth="2096" imageHeight="3071">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316018534" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_85"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+                <RegionRefIndexed index="4" regionRef="r_9"/>
+                <RegionRefIndexed index="5" regionRef="r_4"/>
+                <RegionRefIndexed index="6" regionRef="r_18"/>
+                <RegionRefIndexed index="7" regionRef="r_5"/>
+                <RegionRefIndexed index="8" regionRef="r_27"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="718,133 1434,133 1434,219 718,219"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_85" custom="readingOrder {index:1;} structure {type:page-number;}">
+            <Coords points="1926,6 2039,6 2039,75 1926,75"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="821,219 1344,219 1344,306 821,306"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="105,310 2054,310 2054,668 105,668"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:4;} structure {type:music-system;}">
+            <Coords points="101,672 2009,672 2009,1137 101,1137"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="122,1135 2021,1135 2021,1452 122,1452"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:6;} structure {type:heading;}">
+            <Coords points="851,1588 1257,1588 1257,1678 851,1678"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="141,1713 1991,1697 2009,2213 141,2204"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_27" custom="readingOrder {index:8;} structure {type:music-system;}">
+            <Coords points="87,2224 1999,2224 1999,2921 87,2921"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

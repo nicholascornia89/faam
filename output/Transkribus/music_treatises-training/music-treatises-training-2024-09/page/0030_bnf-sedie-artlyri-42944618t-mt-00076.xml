@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:10.333+02:00</Created>
+        <LastChange>2024-10-04T17:08:32.900+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571645" pageNr="30" tsid="191292495" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=DUZHLKLNJOFCHVESWWZTQLOD&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BKCSQDPILSGFNVXXHTIAEFEI" imageId="64131586"/>
+    </Metadata>
+    <Page imageFilename="0030_bnf-sedie-artlyri-42944618t-mt-00076.jpg" imageWidth="4267" imageHeight="5596">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316022149" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_75"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_74"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+                <RegionRefIndexed index="4" regionRef="r_73"/>
+                <RegionRefIndexed index="5" regionRef="r_28"/>
+                <RegionRefIndexed index="6" regionRef="r_4"/>
+                <RegionRefIndexed index="7" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_75" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="607,494 780,494 780,620 607,620"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="1345,1163 1912,1183 1911,1331 1345,1331"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_74" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="1535,562 2909,562 2909,870 1535,870"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;} structure {type:music-system;}">
+            <Coords points="1865,1560 2726,1579 2730,1764 1865,1764"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_73" custom="readingOrder {index:4;} structure {type:heading;}">
+            <Coords points="1797,2964 2649,2964 2649,3249 1797,3249"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_28" custom="readingOrder {index:5;} structure {type:music-system;}">
+            <Coords points="550,3884 3838,3884 3838,4758 550,4758"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:6;} structure {type:music-system;}">
+            <Coords points="2807,1441 3773,1441 3773,1642 2807,1642"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:7;} structure {type:music-system;}">
+            <Coords points="1037,1416 1717,1443 1716,1615 1037,1615"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

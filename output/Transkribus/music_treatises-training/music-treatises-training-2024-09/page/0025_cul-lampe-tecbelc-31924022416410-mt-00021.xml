@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:09.803+02:00</Created>
+        <LastChange>2024-10-04T16:56:46.388+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571623" pageNr="25" tsid="191288912" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=WFVKOKGMNTFFPCANFAANJTQI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GBWQSCTSYLCQTQURYUEZWSZB" imageId="64131599"/>
+    </Metadata>
+    <Page imageFilename="0025_cul-lampe-tecbelc-31924022416410-mt-00021.jpg" imageWidth="1792" imageHeight="2617">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316021351" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_4"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_2"/>
+                <RegionRefIndexed index="3" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_4" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="856,99 939,99 939,176 856,176"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="703,752 1117,752 1117,927 703,927"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;} structure {type:music-system;}">
+            <Coords points="177,933 1634,933 1634,1343 177,1343"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:3;} structure {type:heading;}">
+            <Coords points="488,1618 1313,1618 1313,1716 488,1716"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

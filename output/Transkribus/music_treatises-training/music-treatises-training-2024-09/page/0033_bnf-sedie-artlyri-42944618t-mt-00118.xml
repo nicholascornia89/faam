@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:10.725+02:00</Created>
+        <LastChange>2024-10-04T17:13:08.977+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571627" pageNr="33" tsid="191293895" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=XKQKTIZDEJQLBUANXMUMHBBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VYYIUCUWLWMMGXLVEIAZMFDL" imageId="64131603"/>
+    </Metadata>
+    <Page imageFilename="0033_bnf-sedie-artlyri-42944618t-mt-00118.jpg" imageWidth="4267" imageHeight="5642">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316022800" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_196"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_195"/>
+                <RegionRefIndexed index="3" regionRef="r_140"/>
+                <RegionRefIndexed index="4" regionRef="r_141"/>
+                <RegionRefIndexed index="5" regionRef="r_2"/>
+                <RegionRefIndexed index="6" regionRef="r_213"/>
+                <RegionRefIndexed index="7" regionRef="r_142"/>
+                <RegionRefIndexed index="8" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_196" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="598,526 752,526 752,614 598,614"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="565,1324 910,1348 1117,1312 1632,1341 2392,1355 3785,1348 3785,1754 565,1754"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_195" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="1936,1807 2496,1807 2496,1929 1936,1929"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_140" custom="readingOrder {index:3;} structure {type:diagram;}">
+            <Coords points="887,1092 3693,1092 3693,1336 887,1336"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_141" custom="readingOrder {index:4;} structure {type:diagram;}">
+            <Coords points="1009,2586 3686,2586 3686,2894 1009,2894"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:5;} structure {type:music-system;}">
+            <Coords points="760,2882 1947,2910 3780,2909 3794,3323 757,3323"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_213" custom="readingOrder {index:6;} structure {type:heading;}">
+            <Coords points="1622,3360 2772,3360 2772,3488 1622,3488"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_142" custom="readingOrder {index:7;} structure {type:diagram;}">
+            <Coords points="988,4208 3720,4208 3720,4544 981,4486"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:8;} structure {type:music-system;}">
+            <Coords points="744,4492 3774,4543 3784,4966 744,4966"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

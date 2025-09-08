@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:07.832+02:00</Created>
+        <LastChange>2025-04-16T15:15:44.721+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571615" pageNr="8" tsid="240830219" status="FINAL" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=ISKICPGRTRTTHOEMZKSBCGLK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GJQIFEVSAPGTDTIHJWGIWDBK" imageId="64131591"/>
+    </Metadata>
+    <Page imageFilename="0008_bnf-gomis-metchan-430193363-mt-00012.jpg" imageWidth="4267" imageHeight="5621">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316017563" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_15"/>
+                <RegionRefIndexed index="1" regionRef="r_3"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_4"/>
+                <RegionRefIndexed index="4" regionRef="r_2"/>
+                <RegionRefIndexed index="5" regionRef="r_14"/>
+                <RegionRefIndexed index="6" regionRef="r_44"/>
+                <RegionRefIndexed index="7" regionRef="r_45"/>
+                <RegionRefIndexed index="8" regionRef="r_46"/>
+                <RegionRefIndexed index="9" regionRef="r_47"/>
+                <RegionRefIndexed index="10" regionRef="r_48"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_15" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="683,525 802,525 802,649 683,649"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="1236,602 3271,602 3271,1069 1236,1069"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:figure;}">
+            <Coords points="711,1107 3787,1107 3787,1566 711,1566"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="1348,1562 3116,1562 3116,1703 1348,1703"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:4;} structure {type:figure;}">
+            <Coords points="645,1709 3832,1709 3824,3353 645,3349"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_14" custom="readingOrder {index:5;} structure {type:heading;}">
+            <Coords points="1995,3409 2450,3409 2450,3552 1995,3552"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_44" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="778,3549 3743,3549 3743,3843 778,3843"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_45" custom="readingOrder {index:7;} structure {type:heading;}">
+            <Coords points="2013,3855 2452,3855 2452,3978 2013,3978"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_46" custom="readingOrder {index:8;} structure {type:figure;}">
+            <Coords points="692,3970 3387,3970 3387,4367 692,4367"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_47" custom="readingOrder {index:9;} structure {type:paragraph;}">
+            <Coords points="664,4382 3774,4382 3774,4814 664,4814"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_48" custom="readingOrder {index:10;} structure {type:footer;}">
+            <Coords points="1969,4847 2380,4847 2380,4962 1969,4962"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

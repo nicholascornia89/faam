@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-28T16:25:37.193+01:00</Created>
+        <LastChange>2025-04-02T10:18:48.728+02:00</LastChange>
+        <TranskribusMetadata docId="7667996" pageId="94170762" pageNr="22" tsid="238683738" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=XXRRAUDAIOBVQCBEWRPGRIXB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZZMWDSAOVCNSTFFPFRDIOYVM" imageId="78787968"/>
+    </Metadata>
+    <Page imageFilename="0022_utl-maraf-carumet-4769254-mt-00026.jpg" imageWidth="1423" imageHeight="2269">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316034208" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:figure;}">
+            <Coords points="78,125 1292,125 1292,2003 80,1988"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:footnote;}">
+            <Coords points="157,2003 1221,2003 1221,2165 157,2165"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

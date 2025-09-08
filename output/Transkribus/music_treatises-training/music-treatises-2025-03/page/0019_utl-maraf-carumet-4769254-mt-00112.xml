@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-28T16:25:36.922+01:00</Created>
+        <LastChange>2025-04-02T10:22:06.235+02:00</LastChange>
+        <TranskribusMetadata docId="7667996" pageId="94170788" pageNr="19" tsid="238684602" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=GJWOEKBXSUPJEIKXORGTNWRL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UTMPJKQQVYSWUHVCGUJVQLCT" imageId="78788054"/>
+    </Metadata>
+    <Page imageFilename="0019_utl-maraf-carumet-4769254-mt-00112.jpg" imageWidth="1423" imageHeight="2269">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316033791" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_90"/>
+                <RegionRefIndexed index="3" regionRef="r_91"/>
+                <RegionRefIndexed index="4" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="173,106 243,106 243,171 173,171"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:header;}">
+            <Coords points="259,98 1303,98 1303,178 259,178"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_90" custom="readingOrder {index:2;} structure {type:figure;}">
+            <Coords points="165,570 785,570 785,984 165,984"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_91" custom="readingOrder {index:3;} structure {type:footnote;}">
+            <Coords points="203,982 769,982 769,1075 203,1075"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="163,185 1314,185 1306,1980 148,1982 168,1078 785,1080 777,562 168,558"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

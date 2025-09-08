@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:12.106+02:00</Created>
+        <LastChange>2024-10-04T17:19:29.146+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571632" pageNr="41" tsid="191294389" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=UCAJLYRAKQMMIZPLWQTYGTNT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UPGBYWMVYACIOKUYDIUQJKMA" imageId="64131608"/>
+    </Metadata>
+    <Page imageFilename="0041_bsb-bernh-altmusz-991125040489707356-mt-00056.jpg" imageWidth="6646" imageHeight="11063">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316024738" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="3011,545 3309,545 3309,806 3011,806"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="504,2146 5803,2146 5803,5271 504,5271"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

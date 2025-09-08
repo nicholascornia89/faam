@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-10T12:40:13.802+02:00</Created>
+        <LastChange>2025-04-14T17:11:01.018+02:00</LastChange>
+        <TranskribusMetadata docId="3221049" pageId="74773189" pageNr="26" tsid="240670754" status="FINAL" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=OBZTLIUDTWCNHSIAMKCIICQW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RAQOSPNHPCDPMDCYXRMWFSSS" imageId="60574537"/>
+    </Metadata>
+    <Page imageFilename="0026_utl-fello-engmads-978107756-mt-00021.jpg" imageWidth="2525" imageHeight="3933">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316012958" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_2"/>
+                <RegionRefIndexed index="1" regionRef="r_4"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_5"/>
+                <RegionRefIndexed index="4" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_2" custom="readingOrder {index:0;} structure {type:header;}">
+            <Coords points="592,256 2110,256 2110,417 592,417"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="288,433 2446,433 2446,943 288,943"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:music-system;}">
+            <Coords points="323,934 2436,934 2436,2868 323,2868"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="291,2878 2436,2878 2436,3587 291,3587"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:4;} structure {type:page-number;}">
+            <Coords points="1329,3590 1458,3590 1458,3692 1329,3692"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

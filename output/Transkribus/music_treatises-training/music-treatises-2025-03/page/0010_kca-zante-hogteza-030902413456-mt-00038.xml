@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-28T16:25:36.066+01:00</Created>
+        <LastChange>2025-04-02T10:11:21.540+02:00</LastChange>
+        <TranskribusMetadata docId="7667996" pageId="94170758" pageNr="10" tsid="238682274" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=ZTEVSPTJPBKEIUELUESVVFMJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FOMQWMRSKWFRJPIUBPGJPCEI" imageId="78787964"/>
+    </Metadata>
+    <Page imageFilename="0010_kca-zante-hogteza-030902413456-mt-00038.jpg" imageWidth="1824" imageHeight="2997">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316031216" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+                <RegionRefIndexed index="3" regionRef="r_23"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="1011,235 1113,235 1113,325 1011,325"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="412,369 1713,369 1713,1556 412,1556"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;} structure {type:figure;}">
+            <Coords points="412,1557 1716,1563 1734,2431 489,2429"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_23" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="508,2438 1727,2438 1727,2546 508,2546"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

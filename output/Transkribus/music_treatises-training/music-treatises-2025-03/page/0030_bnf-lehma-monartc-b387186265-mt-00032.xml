@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-28T16:25:37.923+01:00</Created>
+        <LastChange>2025-04-02T10:33:01.314+02:00</LastChange>
+        <TranskribusMetadata docId="7667996" pageId="94170766" pageNr="30" tsid="238687474" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=OSFFNYGDBPQGJAHVLKPQLCBW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KWKXEGMPQUCZNXBOFWEYFLBD" imageId="78787972"/>
+    </Metadata>
+    <Page imageFilename="0030_bnf-lehma-monartc-b387186265-mt-00032.jpg" imageWidth="4267" imageHeight="5525">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316035695" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_54"/>
+                <RegionRefIndexed index="2" regionRef="r_55"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="2258,754 2391,754 2391,838 2258,838"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_54" custom="readingOrder {index:1;} structure {type:figure;}">
+            <Coords points="849,1579 1779,1612 1818,2639 849,2639"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_55" custom="readingOrder {index:2;} structure {type:footnote;}">
+            <Coords points="1114,2637 1611,2637 1611,2776 1114,2776"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="866,2853 1859,2859 1786,1598 859,1557 824,881 3835,881 3835,4837 824,4837"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

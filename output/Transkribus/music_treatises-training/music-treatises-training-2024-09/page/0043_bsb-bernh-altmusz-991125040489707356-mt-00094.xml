@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:12.708+02:00</Created>
+        <LastChange>2024-10-04T18:24:12.293+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571733" pageNr="43" tsid="191308304" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=NFBXTDVAWONLVZQRKBXICUQW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KOBHZQSEDODZYSAFFCNEXGOK" imageId="64131609"/>
+    </Metadata>
+    <Page imageFilename="0043_bsb-bernh-altmusz-991125040489707356-mt-00094.jpg" imageWidth="6588" imageHeight="11025">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316025623" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_18"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_18" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="2964,526 3217,526 3217,811 2964,811"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="523,3258 5766,3258 5766,4492 523,4492"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:music-system;}">
+            <Coords points="457,5796 5782,5796 5782,6859 457,6859"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-10T12:36:44.625+02:00</Created>
+        <LastChange>2025-04-11T15:09:13.872+02:00</LastChange>
+        <TranskribusMetadata docId="3221049" pageId="74772776" pageNr="14" tsid="240478450" status="FINAL" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=YDTTLQNQUXIKYMPNNFRXJKHP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UFFADTSCIXXIKRASNCUKKEWN" imageId="60574251"/>
+    </Metadata>
+    <Page imageFilename="0014_kca-kuffe-traiped-030902800223-mt-00022.jpg" imageWidth="2493" imageHeight="3531">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316009386" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_97"/>
+                <RegionRefIndexed index="1" regionRef="r"/>
+                <RegionRefIndexed index="2" regionRef="r_37"/>
+                <RegionRefIndexed index="3" regionRef="r_50"/>
+                <RegionRefIndexed index="4" regionRef="r_2"/>
+                <RegionRefIndexed index="5" regionRef="r_51"/>
+                <RegionRefIndexed index="6" regionRef="r_52"/>
+                <RegionRefIndexed index="7" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_97" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="388,318 467,318 467,376 388,376"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:1;} structure {type:music-system;}">
+            <Coords points="374,390 507,406 577,324 1225,302 1217,815 374,815"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_37" custom="readingOrder {index:2;} structure {type:music-system;}">
+            <Coords points="1227,299 2345,299 2345,825 1224,819"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_50" custom="readingOrder {index:3;} structure {type:music-system;}">
+            <Coords points="376,834 2345,834 2345,1324 376,1324"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="374,1348 2403,1348 2403,1780 374,1780"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_51" custom="readingOrder {index:5;} structure {type:music-system;}">
+            <Coords points="381,1809 2358,1809 2358,2664 381,2664"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_52" custom="readingOrder {index:6;} structure {type:music-system;}">
+            <Coords points="379,2681 2378,2681 2378,3212 379,3212"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:7;} structure {type:footer;}">
+            <Coords points="1217,3215 1531,3215 1531,3279 1217,3279"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

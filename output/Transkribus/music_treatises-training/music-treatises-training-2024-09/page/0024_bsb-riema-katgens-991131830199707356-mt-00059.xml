@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-09-18T15:19:09.698+02:00</Created>
+        <LastChange>2024-10-04T16:55:37.614+02:00</LastChange>
+        <TranskribusMetadata docId="4206449" pageId="78571642" pageNr="24" tsid="191289328" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=TXIQAVODOEOCIWLKCKBVXPTY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EXXFMDALKYBQZSAGCPIRMLQJ" imageId="64131583"/>
+    </Metadata>
+    <Page imageFilename="0024_bsb-riema-katgens-991131830199707356-mt-00059.jpg" imageWidth="5900" imageHeight="8700">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316021181" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_4"/>
+                <RegionRefIndexed index="1" regionRef="r_3"/>
+                <RegionRefIndexed index="2" regionRef="r"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r_4" custom="readingOrder {index:0;} structure {type:page-number;}">
+            <Coords points="945,414 1251,414 1251,698 945,698"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="1784,414 4495,414 4495,681 1784,681"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r" custom="readingOrder {index:2;} structure {type:music-system;}">
+            <Coords points="1879,2146 4339,2146 4339,3041 1879,3041"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:music-system;}">
+            <Coords points="2015,3870 4241,3870 4241,4878 2015,4878"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
