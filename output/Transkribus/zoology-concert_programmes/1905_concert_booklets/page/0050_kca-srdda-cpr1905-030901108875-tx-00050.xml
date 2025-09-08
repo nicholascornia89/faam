@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.18.1:model_id=51170:date=16_10_2024_03:44</Creator>
+        <Created>2024-10-15T15:44:26.946+02:00</Created>
+        <LastChange>2024-10-16T03:44:41.763+02:00</LastChange>
+        <TranskribusMetadata docId="4642292" pageId="80335776" pageNr="50" tsid="193989938" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=BVWJDBTTCHGVRHYNHBGANHEC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WWAKBJYBCMXRFOANEZCSNDQD" imageId="65796429"/>
+    </Metadata>
+    <Page imageFilename="0050_kca-srdda-cpr1905-030901108875-tx-00050.jpg" imageWidth="2056" imageHeight="3270">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315680039" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="tr_1" custom="readingOrder {index:0;}">
+            <Coords points="814,1499 814,1604 1318,1604 1318,1499"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="810,1545 924,1530 974,1547 1253,1533 1317,1549 1316,1496 1212,1502 1133,1473 1076,1504 940,1482 875,1506 809,1490"/>
+                <Baseline points="814,1527 839,1527 864,1527 889,1529 914,1529 940,1528 965,1527 990,1527 1015,1527 1040,1527 1066,1527 1091,1527 1116,1527 1141,1527 1166,1527 1192,1528 1217,1530 1242,1530 1267,1530 1292,1530 1318,1530"/>
+                <TextEquiv>
+                    <Unicode>Imp. F. JANSSENS-ANTHONIS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="984,1624 1014,1610 1052,1610 1071,1619 1083,1608 1092,1611 1105,1601 1122,1604 1137,1597 1135,1551 1126,1548 1074,1564 1035,1558 1014,1545 994,1563 981,1558"/>
+                <Baseline points="987,1584 1012,1584 1037,1584 1063,1586 1088,1587 1113,1587 1139,1590"/>
+                <TextEquiv>
+                    <Unicode>Anvers.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
