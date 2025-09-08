@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-06-12T17:23:16.421+02:00</Created>
+        <LastChange>2023-06-16T14:57:25.758+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="1469044" pageId="56221695" pageNr="19" tsid="127111872" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=RIDBTRVLOFNDSTLNVMWBJPJE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UXXXXHORGADDAAUEPAZGAHLV" imageId="45365989"/>
+    </Metadata>
+    <Page imageFilename="0019_kca-conse-ex99t08-nd-tx-00019.jpg" imageWidth="1919" imageHeight="2937">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315431301" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="680,1294 1319,1294 1319,1376 680,1376"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="688,1365 1305,1361 1305,1346 688,1350"/>
+                <Baseline points="688,1365 1305,1361"/>
+                <TextEquiv>
+                    <Unicode>BERICHT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="173,1416 1841,1416 1841,1696 173,1696"/>
+            <TextLine id="l_11" custom="readingOrder {index:0;}">
+                <Coords points="273,1489 1823,1485 1822,1470 273,1474"/>
+                <Baseline points="273,1489 1823,1485"/>
+                <TextEquiv>
+                    <Unicode>De voortzetting der Leerlingen-Voordracht der "Schoolafdeling,,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:1;}">
+                <Coords points="180,1550 1672,1539 1671,1524 180,1535"/>
+                <Baseline points="180,1550 1672,1539"/>
+                <TextEquiv>
+                    <Unicode>ullen plaats vinden op Zondagen : 17-24 Juni en 1-8 en 15 Juli.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:2;}">
+                <Coords points="276,1626 1815,1619 1815,1604 276,1611"/>
+                <Baseline points="276,1626 1815,1619"/>
+                <TextEquiv>
+                    <Unicode>De Leerlingen-Voordrachten der "Conservatoriumafdeling,, op</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_20" custom="readingOrder {index:3;}">
+                <Coords points="174,1687 767,1685 767,1670 174,1672"/>
+                <Baseline points="174,1687 767,1685"/>
+                <TextEquiv>
+                    <Unicode>Zondagen 22 en 29 Juli.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

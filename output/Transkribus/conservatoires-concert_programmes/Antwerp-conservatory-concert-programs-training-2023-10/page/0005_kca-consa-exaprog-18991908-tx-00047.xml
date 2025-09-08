@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-28T10:53:15.733+02:00</Created>
+        <LastChange>2023-09-28T11:13:57.426+02:00</LastChange>
+        <TranskribusMetadata docId="1590293" pageId="60170278" pageNr="5" tsid="135887604" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=FGKFGHMOAPQSIAPTSCIAFBIF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OXIDDKOMWOUSBKVPPOKGGBPG" imageId="48590068"/>
+    </Metadata>
+    <Page imageFilename="0005_kca-consa-exaprog-18991908-tx-00047.jpg" imageWidth="1908" imageHeight="2947">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315493206" caption="Regions reading order">
+                <RegionRefIndexed index="2" regionRef="region_1695892157909_206"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TableRegion id="Table_1695892180899_212" custom="readingOrder {index:0;}">
+            <Coords points="85,534 1818,534 1818,2831 85,2831"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="TableCell_1695892239213_258">
+                <Coords points="85,534 85,1377 983,1377 1310,1374 1306,1277 1026,1241 989,1162 1395,1132 1403,1066 968,1053 962,910 1624,866 1599,733 983,534"/>
+                <CornerPts>0 1 2 13</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="2" id="TableCell_1695892339320_280">
+                <Coords points="983,534 1599,733 1624,866 962,910 968,1053 1403,1066 1395,1132 989,1162 1026,1241 1306,1277 1310,1374 983,1377 1311,1377 1818,1377 1818,534 1311,534"/>
+                <CornerPts>0 11 13 14</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="2" id="TableCell_1695892352605_285">
+                <Coords points="85,1377 85,1910 998,1910 1311,1910 1311,1377 983,1377"/>
+                <CornerPts>0 1 3 4</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="2" rowSpan="1" colSpan="1" id="TableCell_1695892234631_244">
+                <Coords points="1311,1377 1311,1910 1818,1910 1818,1377"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="TableCell_1695892239232_270">
+                <Coords points="85,1910 85,2831 998,2831 1311,2828 1318,2693 1019,2647 995,2534 1354,2519 1354,2463 1203,2344 991,2339 987,2078 1139,2082 1324,2075 1534,2056 1641,2009 1647,1912 998,1910"/>
+                <CornerPts>0 1 2 17</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="2" id="TableCell_1695892426438_291">
+                <Coords points="998,1910 1647,1912 1641,2009 1534,2056 1324,2075 1139,2082 987,2078 991,2339 1203,2344 1354,2463 1354,2519 995,2534 1019,2647 1318,2693 1311,2828 998,2831 1311,2831 1818,2831 1818,1910 1311,1910"/>
+                <CornerPts>0 15 17 18</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <SeparatorRegion id="Separator_1695892162464_209" custom="readingOrder {index:1;}">
+            <Coords points="755,392 1033,392 1033,472 755,472"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="region_1695892157909_206" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="552,175 1319,175 1319,324 552,324"/>
+        </TextRegion>
+    </Page>
+</PcGts>

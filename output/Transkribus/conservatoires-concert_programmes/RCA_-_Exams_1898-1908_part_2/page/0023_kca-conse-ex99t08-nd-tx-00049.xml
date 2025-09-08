@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-06-16T15:37:18.504+02:00</Created>
+        <LastChange>2023-06-16T15:47:48.603+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="1473960" pageId="56412787" pageNr="23" tsid="127124085" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=BRUJIMDQAMVNXIIZBVLJWZRI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RQIBQUPLDGFRMUIHLUYOKFJT" imageId="45531082"/>
+    </Metadata>
+    <Page imageFilename="0023_kca-conse-ex99t08-nd-tx-00049.jpg" imageWidth="1881" imageHeight="3015">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315442636" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="244,364 1652,364 1652,524 244,524"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="202,610 1710,610 1710,2408 202,2408"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:2;}">
+            <Coords points="854,568 1026,568 1026,572 854,572"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:3;}">
+            <Coords points="872,2578 1338,2578 1338,2594 872,2594"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:4;}">
+            <Coords points="580,2584 940,2584 940,2592 580,2592"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:5;}">
+            <Coords points="458,2996 598,2996 598,3002 458,3002"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

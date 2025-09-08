@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-06-16T15:37:17.56+02:00</Created>
+        <LastChange>2023-06-16T15:46:41.305+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="1473960" pageId="56412761" pageNr="18" tsid="127123994" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=MMLLUDLHKXGQWJDIQAMDSNCQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YDJAUWGMOVWVZTQMMCIMCGBM" imageId="45531056"/>
+    </Metadata>
+    <Page imageFilename="0018_kca-conse-ex99t08-nd-tx-00044.jpg" imageWidth="1955" imageHeight="3018">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315441421" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_21"/>
+                <RegionRefIndexed index="2" regionRef="r_26"/>
+                <RegionRefIndexed index="3" regionRef="r_3_1"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="1783,736 258,736 258,205 1783,205"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_21" custom="readingOrder {index:1;}">
+            <Coords points="1793,1344 261,1344 261,743 1793,743"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_26" custom="readingOrder {index:2;}">
+            <Coords points="1797,1714 261,1714 261,1362 1797,1362"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_3_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="14,2018 1764,2018 1764,2372 14,2372"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:4;}">
+            <Coords points="52,2618 1838,2618 1838,2638 52,2638"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="r_4_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="270,2682 1726,2682 1726,2844 270,2844"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:6;}">
+            <Coords points="824,2966 1230,2966 1230,2972 824,2972"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:7;}">
+            <Coords points="26,2978 1628,2978 1628,3018 26,3018"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:8;}">
+            <Coords points="1950,2782 1955,2782 1955,3018 1950,3018"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:9;}">
+            <Coords points="1634,1034 1696,1034 1696,1046 1634,1046"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:10;}">
+            <Coords points="1192,1266 1250,1266 1250,1276 1192,1276"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

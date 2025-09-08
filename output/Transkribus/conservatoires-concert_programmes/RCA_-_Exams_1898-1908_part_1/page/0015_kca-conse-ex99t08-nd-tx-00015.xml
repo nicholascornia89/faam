@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-06-12T17:23:15.971+02:00</Created>
+        <LastChange>2023-06-16T12:19:57.079+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="1469044" pageId="56221691" pageNr="15" tsid="127088641" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=UNVLGGVCEMVQTRTKICLRZULB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GRJKQOLVIQVRHMPGLJAHUJCL" imageId="45365985"/>
+    </Metadata>
+    <Page imageFilename="0015_kca-conse-ex99t08-nd-tx-00015.jpg" imageWidth="1974" imageHeight="2945">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315429934" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_3_1"/>
+                <RegionRefIndexed index="3" regionRef="r_37"/>
+                <RegionRefIndexed index="4" regionRef="r_8_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="654,388 1414,388 1414,492 654,492"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="662,472 1406,470 1406,455 662,457"/>
+                <Baseline points="662,472 1406,470"/>
+                <TextEquiv>
+                    <Unicode>PROGRAMMA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="352,676 1684,676 1684,1314 352,1314"/>
+            <TextLine id="l_27" custom="readingOrder {index:0;} MusicalWork {offset:0; length:8;}">
+                <Coords points="785,744 1256,741 1256,726 785,729"/>
+                <Baseline points="785,744 1256,741"/>
+                <TextEquiv>
+                    <Unicode>DE RHIJN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_30" custom="readingOrder {index:1;}">
+                <Coords points="685,840 1330,846 1330,831 685,825"/>
+                <Baseline points="685,840 1330,846"/>
+                <TextEquiv>
+                    <Unicode>Zanggedicht in drij afdeelingen,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_33" custom="readingOrder {index:2;} person {offset:9; length:17;} person {offset:39; length:12;}">
+                <Coords points="360,906 1675,916 1676,901 360,891"/>
+                <Baseline points="360,906 1675,916"/>
+                <TextEquiv>
+                    <Unicode>Tekst van Julius De Geyter  Muziek van Peter Benoit</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_36" custom="readingOrder {index:3;}">
+                <Coords points="664,978 1377,976 1377,961 664,963"/>
+                <Baseline points="664,978 1377,976"/>
+                <TextEquiv>
+                    <Unicode>Voorgedragen door de leerlingen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_39" custom="readingOrder {index:4;} MusicInstrument {offset:8; length:12;}">
+                <Coords points="528,1037 1471,1041 1471,1026 528,1022"/>
+                <Baseline points="528,1037 1471,1041"/>
+                <TextEquiv>
+                    <Unicode>van het gemengd koor en de leerlingen-solisten.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_42" custom="readingOrder {index:5;}">
+                <Coords points="858,1103 1185,1109 1185,1094 859,1088"/>
+                <Baseline points="858,1103 1185,1109"/>
+                <TextEquiv>
+                    <Unicode>150 uitvoerders</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_45" custom="readingOrder {index:6;} person {offset:15; length:16;}">
+                <Coords points="671,1165 1362,1167 1362,1152 671,1150"/>
+                <Baseline points="671,1165 1362,1167"/>
+                <TextEquiv>
+                    <Unicode>Leeraar : Heer Hendrik Fontaine.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_48" custom="readingOrder {index:7;} MusicInstrument {offset:0; length:8;} person {offset:22; length:16;}">
+                <Coords points="548,1234 1475,1232 1475,1217 548,1219"/>
+                <Baseline points="548,1234 1475,1232"/>
+                <TextEquiv>
+                    <Unicode>Harpiste : Leeraar Jw Honorina Zelliën.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_51" custom="readingOrder {index:8;} MusicInstrument {offset:12; length:10;} person {offset:24; length:13;}">
+                <Coords points="628,1298 1411,1296 1411,1281 628,1283"/>
+                <Baseline points="628,1298 1411,1296"/>
+                <TextEquiv>
+                    <Unicode>Begeleider (Pianoforte) Gustaaf Brees.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_3_1" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="284,1416 1726,1416 1726,1704 284,1704"/>
+            <TextLine id="l_63" custom="readingOrder {index:0;}">
+                <Coords points="863,1465 1185,1468 1185,1453 863,1450"/>
+                <Baseline points="863,1465 1185,1468"/>
+                <TextEquiv>
+                    <Unicode>PERSONEN :</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_66" custom="readingOrder {index:1;}">
+                <Coords points="1003,1533 1051,1533 1051,1518 1003,1518"/>
+                <Baseline points="1003,1533 1051,1533"/>
+                <TextEquiv>
+                    <Unicode>I.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_54" custom="readingOrder {index:2;} person {offset:30; length:11;}">
+                <Coords points="294,1593 1497,1598 1497,1583 294,1578"/>
+                <Baseline points="294,1593 1497,1598"/>
+                <TextEquiv>
+                    <Unicode>Torendochter(Sopraan) .... Jw ROSA TISSEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_57" custom="readingOrder {index:3;} person {offset:28; length:20;}">
+                <Coords points="294,1641 1716,1646 1716,1631 294,1626"/>
+                <Baseline points="294,1641 1716,1646"/>
+                <TextEquiv>
+                    <Unicode>Scheldezoon (Tenor) .... Hr EUGEEN VAN DEN BOSCH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_60" custom="readingOrder {index:4;}">
+                <Coords points="291,1686 758,1693 759,1678 291,1671"/>
+                <Baseline points="291,1686 758,1693"/>
+                <TextEquiv>
+                    <Unicode>GROOT KOOR (gemengd)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_37" custom="readingOrder {index:3;}">
+            <Coords points="1751,2349 284,2349 284,1708 1751,1708"/>
+            <TextLine id="l_69" custom="readingOrder {index:0;}">
+                <Coords points="984,1754 1061,1757 1062,1742 985,1739"/>
+                <Baseline points="984,1754 1061,1757"/>
+                <TextEquiv>
+                    <Unicode>II.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_72" custom="readingOrder {index:1;} person {offset:29; length:14;}">
+                <Coords points="289,1821 1615,1821 1615,1806 289,1806"/>
+                <Baseline points="289,1821 1615,1821"/>
+                <TextEquiv>
+                    <Unicode>Een Student (Tenor) ..... Hr Eugeen Wouters</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_75" custom="readingOrder {index:2;} person {offset:26; length:21;}">
+                <Coords points="290,1869 1717,1874 1717,1859 290,1854"/>
+                <Baseline points="290,1869 1717,1874"/>
+                <TextEquiv>
+                    <Unicode>Een Student (Bas) ..... Hr Gustaaf Van Elsacker</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_78" custom="readingOrder {index:3;} person {offset:27; length:22;}">
+                <Coords points="290,1917 1729,1920 1729,1905 290,1902"/>
+                <Baseline points="290,1917 1729,1920"/>
+                <TextEquiv>
+                    <Unicode>Frauenlob (Bariton) .... Hr Semester Vanderheyden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_81" custom="readingOrder {index:4;} person {offset:27; length:20;}">
+                <Coords points="287,1965 1728,1970 1728,1955 287,1950"/>
+                <Baseline points="287,1965 1728,1970"/>
+                <TextEquiv>
+                    <Unicode>,, Hij ” (Tenor) ...... Hr Eugeen Van den Bosch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_84" custom="readingOrder {index:5;}">
+                <Coords points="285,2014 1496,2016 1496,2001 285,1999"/>
+                <Baseline points="285,2014 1496,2016"/>
+                <TextEquiv>
+                    <Unicode>,, Zij ” (Sopraan) ..... Jw Rosa Tissen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_87" custom="readingOrder {index:6;}">
+                <Coords points="289,2055 1609,2057 1609,2042 289,2040"/>
+                <Baseline points="289,2055 1609,2057"/>
+                <TextEquiv>
+                    <Unicode>Kunstenaar (Tenor) ..... Hr Eugeen Wouters</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_90" custom="readingOrder {index:7;}">
+                <Coords points="289,2103 1724,2108 1724,2093 289,2088"/>
+                <Baseline points="289,2103 1724,2108"/>
+                <TextEquiv>
+                    <Unicode>Kunstenaar (Bariton) ..... Hr Semester Vanderheyden</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_93" custom="readingOrder {index:8;}">
+                <Coords points="287,2151 1721,2155 1721,2140 287,2136"/>
+                <Baseline points="287,2151 1721,2155"/>
+                <TextEquiv>
+                    <Unicode>Kunstenaar (Bas) ..... Hr Gustaaf Van Elsacker</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_96" custom="readingOrder {index:9;}">
+                <Coords points="395,2218 1653,2218 1653,2203 395,2203"/>
+                <Baseline points="395,2218 1653,2218"/>
+                <TextEquiv>
+                    <Unicode>Groepen van Koren : Studenten — Professors — Engelschen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_99" custom="readingOrder {index:10;}">
+                <Coords points="324,2274 1712,2268 1711,2253 324,2259"/>
+                <Baseline points="324,2274 1712,2268"/>
+                <TextEquiv>
+                    <Unicode>— Duitschers — Franschen — Frankforters — Kunstenaars. —</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_102" custom="readingOrder {index:11;}">
+                <Coords points="771,2326 1232,2322 1232,2307 771,2311"/>
+                <Baseline points="771,2326 1232,2322"/>
+                <TextEquiv>
+                    <Unicode>Groot Koor (gemengd)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_8_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="287,2325 1756,2334 1726,2558 282,2558"/>
+            <TextLine id="l_114" custom="readingOrder {index:0;}">
+                <Coords points="968,2376 1067,2381 1067,2366 969,2361"/>
+                <Baseline points="968,2376 1067,2381"/>
+                <TextEquiv>
+                    <Unicode>III.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_105" custom="readingOrder {index:1;}">
+                <Coords points="286,2450 1533,2450 1533,2435 286,2435"/>
+                <Baseline points="286,2450 1533,2450"/>
+                <TextEquiv>
+                    <Unicode>Torendochter ...... Jw ROSA TISSEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_108" custom="readingOrder {index:2;}">
+                <Coords points="284,2495 1718,2498 1718,2483 284,2480"/>
+                <Baseline points="284,2495 1718,2498"/>
+                <TextEquiv>
+                    <Unicode>Scheldezoon ...... Hr Eugeen Van den Bosch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_111" custom="readingOrder {index:3;}">
+                <Coords points="291,2546 764,2550 764,2535 291,2531"/>
+                <Baseline points="291,2546 764,2550"/>
+                <TextEquiv>
+                    <Unicode>Groot Koor (gemengd)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:5;}">
+            <Coords points="92,2936 344,2936 344,2945 92,2945"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:6;}">
+            <Coords points="652,1948 1108,1948 1108,1958 652,1958"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:7;}">
+            <Coords points="824,1808 840,1808 840,2212 824,2212"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:8;}">
+            <Coords points="916,1810 930,1810 930,2100 916,2100"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:9;}">
+            <Coords points="1096,1808 1112,1808 1112,2146 1096,2146"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

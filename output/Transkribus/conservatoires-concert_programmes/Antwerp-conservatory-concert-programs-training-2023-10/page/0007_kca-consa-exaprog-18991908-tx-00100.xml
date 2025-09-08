@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-28T10:53:15.793+02:00</Created>
+        <LastChange>2023-09-28T11:28:41.831+02:00</LastChange>
+        <TranskribusMetadata docId="1590293" pageId="60170280" pageNr="7" tsid="135889248" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=HHRURKOCRNARGTFBIDARBKQR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EWDGKAJXABHJREIOZZZTDZHL" imageId="48590070"/>
+    </Metadata>
+    <Page imageFilename="0007_kca-consa-exaprog-18991908-tx-00100.jpg" imageWidth="1875" imageHeight="2986">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315493528" caption="Regions reading order">
+                <RegionRefIndexed index="4" regionRef="region_1695893305283_437"/>
+                <RegionRefIndexed index="5" regionRef="region_1695893301500_434"/>
+                <RegionRefIndexed index="6" regionRef="region_1695893298843_431"/>
+                <RegionRefIndexed index="7" regionRef="region_1695893295242_428"/>
+                <RegionRefIndexed index="8" regionRef="region_1695893293123_425"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <SeparatorRegion id="Separator_1695893317777_449" custom="readingOrder {index:0;}">
+            <Coords points="744,2219 1140,2219 1140,2348 744,2348"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695893315548_446" custom="readingOrder {index:1;}">
+            <Coords points="729,1844 1125,1844 1125,1945 729,1945"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695893313494_443" custom="readingOrder {index:2;}">
+            <Coords points="661,990 1229,990 1229,1085 661,1085"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695893311435_440" custom="readingOrder {index:3;}">
+            <Coords points="704,692 1162,692 1162,778 704,778"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="region_1695893305283_437" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="183,136 1712,136 1712,685 183,685"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695893301500_434" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="307,797 1568,797 1568,949 307,949"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695893298843_431" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="89,1095 1794,1095 1794,1804 89,1804"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695893295242_428" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="376,2016 1478,2016 1478,2181 376,2181"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695893293123_425" custom="readingOrder {index:8;} structure {type:paragraph;}">
+            <Coords points="322,2577 1574,2577 1574,2829 322,2829"/>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.1.0:model_id=39995:lm=none:date=12_06_2023_17:11</Creator>
+        <Created>2023-06-12T17:06:25.319+02:00</Created>
+        <LastChange>2023-06-13T15:35:02.290+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: 
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="1469044" pageId="56221680" pageNr="4" tsid="126846017" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=BCDVPUTRXATJVCURBXBGUOHP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MLLMLMZBJDYORIZZOBMQDIYB" imageId="45365974"/>
+    </Metadata>
+    <Page imageFilename="0004_kca-conse-ex99t08-nd-tx-00004.jpg" imageWidth="1890" imageHeight="3019">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315427220" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_3_1"/>
+                <RegionRefIndexed index="3" regionRef="r_4_1"/>
+                <RegionRefIndexed index="4" regionRef="r_5_1"/>
+                <RegionRefIndexed index="5" regionRef="r_6_1"/>
+                <RegionRefIndexed index="6" regionRef="r_7_1"/>
+                <RegionRefIndexed index="7" regionRef="r_8_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="168,382 1646,382 1646,1192 168,1192"/>
+            <TextLine id="l" custom="readingOrder {index:0;} MusicalWork {offset:6; length:25;}">
+                <Coords points="168,445 1281,458 1279,394 1151,343 831,388 168,373"/>
+                <Baseline points="178,443 1283,450"/>
+                <Word id="l_w1" custom="readingOrder {index:0;}">
+                    <Coords points="164,403 164,463 205,463 205,403 164,403 164,403 164,403 164,403 164,403"/>
+                    <TextEquiv>
+                        <Unicode>5°</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_w2" custom="readingOrder {index:1;}">
+                    <Coords points="226,403 226,463 268,463 268,403 226,403 226,403 226,403 226,403 226,403"/>
+                    <TextEquiv>
+                        <Unicode>a)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_w3" custom="readingOrder {index:2;}">
+                    <Coords points="289,404 289,464 641,464 641,404 289,404 289,404 289,404 289,404 289,404"/>
+                    <TextEquiv>
+                        <Unicode>VERTELSEL</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_w4" custom="readingOrder {index:3;}">
+                    <Coords points="682,406 682,466 730,466 730,406 682,406 682,406 682,406 682,406 682,406"/>
+                    <TextEquiv>
+                        <Unicode>IN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_w5" custom="readingOrder {index:4;}">
+                    <Coords points="786,407 786,467 951,467 951,407 786,407 786,407 786,407 786,407 786,407"/>
+                    <TextEquiv>
+                        <Unicode>TWEE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_w6" custom="readingOrder {index:5;}">
+                    <Coords points="993,409 993,469 1269,469 1269,409 993,409 993,409 993,409 993,409 993,409"/>
+                    <TextEquiv>
+                        <Unicode>STROFEN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>5° a) VERTELSEL IN TWEE STROFEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_35" custom="readingOrder {index:1;} MusicalWork {offset:3; length:8;} MusicInstrument {offset:17; length:5;} person {offset:24; length:12;}">
+                <Coords points="220,565 1528,573 1528,499 1415,475 1232,478 1142,541 703,465 220,492"/>
+                <Baseline points="230,549 1530,554"/>
+                <Word id="l_35_w1" custom="readingOrder {index:0;}">
+                    <Coords points="216,509 216,569 255,569 255,509 216,509 216,509 216,509 216,509 216,509"/>
+                    <TextEquiv>
+                        <Unicode>b)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w2" custom="readingOrder {index:1;}">
+                    <Coords points="275,509 275,569 608,569 608,509 275,509 275,509 275,509 275,509 275,509"/>
+                    <TextEquiv>
+                        <Unicode>MENUETTO</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w3" custom="readingOrder {index:2;}">
+                    <Coords points="745,511 745,571 837,571 837,511 745,511 745,511 745,511 745,511 745,511"/>
+                    <TextEquiv>
+                        <Unicode>voor</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w4" custom="readingOrder {index:3;}">
+                    <Coords points="857,511 857,571 988,571 988,511 857,511 857,511 857,511 857,511 857,511"/>
+                    <TextEquiv>
+                        <Unicode>Viool.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1190,512 1190,572 1236,572 1236,512 1190,512 1190,512 1190,512 1190,512 1190,512"/>
+                    <TextEquiv>
+                        <Unicode>J.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1256,513 1256,573 1308,573 1308,513 1256,513 1256,513 1256,513 1256,513 1256,513"/>
+                    <TextEquiv>
+                        <Unicode>B.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_35_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1334,513 1334,573 1511,573 1511,513 1334,513 1334,513 1334,513 1334,513 1334,513"/>
+                    <TextEquiv>
+                        <Unicode>COLYNS</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>b) MENUETTO voor Viool. J. B. COLYNS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_38" custom="readingOrder {index:2;} person {offset:3; length:12;} person {offset:32; length:6;}">
+                <Coords points="318,663 441,686 669,657 769,697 895,661 1192,659 1192,593 1153,582 912,618 810,586 714,616 318,588"/>
+                <Baseline points="329,658 1196,660"/>
+                <Word id="l_38_w1" custom="readingOrder {index:0;}">
+                    <Coords points="317,618 317,678 363,678 363,618 317,618 317,618 317,618 317,618 317,618"/>
+                    <TextEquiv>
+                        <Unicode>Hr</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w2" custom="readingOrder {index:1;}">
+                    <Coords points="382,618 382,678 495,678 495,618 382,618 382,618 382,618 382,618 382,618"/>
+                    <TextEquiv>
+                        <Unicode>PETer</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w3" custom="readingOrder {index:2;}">
+                    <Coords points="518,618 518,678 682,678 682,618 518,618 518,618 518,618 518,618 518,618"/>
+                    <TextEquiv>
+                        <Unicode>SaENeN.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w4" custom="readingOrder {index:3;}">
+                    <Coords points="696,618 696,678 709,678 709,618 696,618 696,618 696,618 696,618 696,618"/>
+                    <TextEquiv>
+                        <Unicode>—</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w5" custom="readingOrder {index:4;}">
+                    <Coords points="757,619 757,679 920,679 920,619 757,619 757,619 757,619 757,619 757,619"/>
+                    <TextEquiv>
+                        <Unicode>Leeraar</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w6" custom="readingOrder {index:5;}">
+                    <Coords points="939,619 939,679 953,679 953,619 939,619 939,619 939,619 939,619 939,619"/>
+                    <TextEquiv>
+                        <Unicode>:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w7" custom="readingOrder {index:6;}">
+                    <Coords points="967,619 967,679 1019,679 1019,619 967,619 967,619 967,619 967,619 967,619"/>
+                    <TextEquiv>
+                        <Unicode>Hr</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_38_w8" custom="readingOrder {index:7;}">
+                    <Coords points="1037,619 1037,679 1202,679 1202,619 1037,619 1037,619 1037,619 1037,619 1037,619"/>
+                    <TextEquiv>
+                        <Unicode>COLYXS.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Hr PETER SAENEN. — Leeraar : Hr COLYNS.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_41" custom="readingOrder {index:3;} MusicalWork {offset:6; length:14;} person {offset:25; length:12;wikiData:Q20972487;}">
+                <Coords points="170,789 1575,778 1575,691 902,748 791,689 350,703 171,657"/>
+                <Baseline points="180,766 1580,760"/>
+                <Word id="l_41_w1" custom="readingOrder {index:0;}">
+                    <Coords points="172,725 172,785 209,785 209,725 172,725 172,725 172,725 172,725 172,725"/>
+                    <TextEquiv>
+                        <Unicode>6°</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w2" custom="readingOrder {index:1;}">
+                    <Coords points="227,725 227,785 271,785 271,725 227,725 227,725 227,725 227,725 227,725"/>
+                    <TextEquiv>
+                        <Unicode>a)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w3" custom="readingOrder {index:2;}">
+                    <Coords points="290,724 290,784 831,784 831,724 290,724 290,724 290,724 290,724 290,724"/>
+                    <TextEquiv>
+                        <Unicode>VOORJAARSAVOND</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w4" custom="readingOrder {index:3;}">
+                    <Coords points="956,722 956,782 974,782 974,722 956,722 956,722 956,722 956,722 956,722"/>
+                    <TextEquiv>
+                        <Unicode>.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1062,722 1062,782 1086,782 1086,722 1062,722 1062,722 1062,722 1062,722 1062,722"/>
+                    <TextEquiv>
+                        <Unicode>.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1192,721 1192,781 1398,781 1398,721 1192,721 1192,721 1192,721 1192,721 1192,721"/>
+                    <TextEquiv>
+                        <Unicode>EDWARD</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_41_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1428,720 1428,780 1578,780 1578,720 1428,720 1428,720 1428,720 1428,720 1428,720"/>
+                    <TextEquiv>
+                        <Unicode>BLAES</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>6° a) VOORJAARSAVOND . . EDWARD BLAES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_44" custom="readingOrder {index:4;} person {offset:10; length:13;wikiData:Q112597684;}">
+                <Coords points="397,927 450,908 554,923 699,865 750,899 806,861 936,891 936,804 620,791 548,821 397,787"/>
+                <Baseline points="407,861 940,859"/>
+                <Word id="l_44_w1" custom="readingOrder {index:0;}">
+                    <Coords points="396,820 396,880 590,880 590,820 396,820 396,820 396,820 396,820 396,820"/>
+                    <TextEquiv>
+                        <Unicode>(Dichter:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_44_w2" custom="readingOrder {index:1;}">
+                    <Coords points="610,820 610,880 668,880 668,820 610,820 610,820 610,820 610,820 610,820"/>
+                    <TextEquiv>
+                        <Unicode>JAN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_44_w3" custom="readingOrder {index:2;}">
+                    <Coords points="702,819 702,879 940,879 940,819 702,819 702,819 702,819 702,819 702,819"/>
+                    <TextEquiv>
+                        <Unicode>BOUCHERIJ).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>(Dichter: JAN BOUCHERIJ).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_47" custom="readingOrder {index:5;} MusicalWork {offset:3; length:24;} person {offset:28; length:14;wikiData:Q1817822;}">
+                <Coords points="207,1013 458,995 552,1044 752,997 891,1030 983,997 1628,1008 1628,931 1505,910 1313,944 925,899 207,927"/>
+                <Baseline points="217,994 1632,994"/>
+                <Word id="l_47_w1" custom="readingOrder {index:0;}">
+                    <Coords points="209,954 209,1014 629,1014 629,954 209,954 209,954 209,954 209,954 209,954"/>
+                    <TextEquiv>
+                        <Unicode>b)HETROOSJE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_47_w2" custom="readingOrder {index:1;}">
+                    <Coords points="661,954 661,1014 765,1014 765,954 661,954 661,954 661,954 661,954 661,954"/>
+                    <TextEquiv>
+                        <Unicode>UIT</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_47_w3" custom="readingOrder {index:2;}">
+                    <Coords points="791,954 791,1014 1127,1014 1127,954 791,954 791,954 791,954 791,954 791,954"/>
+                    <TextEquiv>
+                        <Unicode>DERHEIDE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_47_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1178,954 1178,1014 1340,1014 1340,954 1178,954 1178,954 1178,954 1178,954 1178,954"/>
+                    <TextEquiv>
+                        <Unicode>KAREL</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_47_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1372,954 1372,1014 1617,1014 1617,954 1372,954 1372,954 1372,954 1372,954 1372,954"/>
+                    <TextEquiv>
+                        <Unicode>MESTDAGH</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>b) HET ROOSJE UIT DER HEIDE KAREL MESTDAGH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_50" custom="readingOrder {index:6;} person {offset:11; length:14;wikiData:Q2546317;}">
+                <Coords points="397,1098 833,1089 872,1110 910,1089 1008,1106 1008,1045 946,1049 919,1023 590,1045 456,1013 397,1034"/>
+                <Baseline points="407,1087 1010,1089"/>
+                <Word id="l_50_w1" custom="readingOrder {index:0;}">
+                    <Coords points="391,1047 391,1107 559,1107 559,1047 391,1047 391,1047 391,1047 391,1047 391,1047"/>
+                    <TextEquiv>
+                        <Unicode>(Dichter</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_50_w2" custom="readingOrder {index:1;}">
+                    <Coords points="578,1047 578,1107 593,1107 593,1047 578,1047 578,1047 578,1047 578,1047 578,1047"/>
+                    <TextEquiv>
+                        <Unicode>:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_50_w3" custom="readingOrder {index:2;}">
+                    <Coords points="613,1047 613,1107 766,1107 766,1047 613,1047 613,1047 613,1047 613,1047 613,1047"/>
+                    <TextEquiv>
+                        <Unicode>EUGEEN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_50_w4" custom="readingOrder {index:3;}">
+                    <Coords points="795,1048 795,1108 874,1108 874,1048 795,1048 795,1048 795,1048 795,1048 795,1048"/>
+                    <TextEquiv>
+                        <Unicode>VAN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_50_w5" custom="readingOrder {index:4;}">
+                    <Coords points="904,1048 904,1108 1018,1108 1018,1048 904,1048 904,1048 904,1048 904,1048 904,1048"/>
+                    <TextEquiv>
+                        <Unicode>OYE).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>(Dichter : EUGEEN VAN OYE).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_53" custom="readingOrder {index:7;} person {offset:2; length:20;}">
+                <Coords points="315,1192 477,1181 527,1213 697,1245 729,1224 827,1240 878,1219 878,1119 810,1143 693,1117 315,1140"/>
+                <Baseline points="325,1180 880,1180"/>
+                <Word id="l_53_w1" custom="readingOrder {index:0;}">
+                    <Coords points="314,1140 314,1200 342,1200 342,1140 314,1140 314,1140 314,1140 314,1140 314,1140"/>
+                    <TextEquiv>
+                        <Unicode>Jw</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_53_w2" custom="readingOrder {index:1;}">
+                    <Coords points="379,1140 379,1200 525,1200 525,1140 379,1140 379,1140 379,1140 379,1140 379,1140"/>
+                    <TextEquiv>
+                        <Unicode>JOANNA</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_53_w3" custom="readingOrder {index:2;}">
+                    <Coords points="558,1140 558,1200 708,1200 708,1140 558,1140 558,1140 558,1140 558,1140 558,1140"/>
+                    <TextEquiv>
+                        <Unicode>VANDEN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_53_w4" custom="readingOrder {index:3;}">
+                    <Coords points="732,1140 732,1200 882,1200 882,1140 732,1140 732,1140 732,1140 732,1140 732,1140"/>
+                    <TextEquiv>
+                        <Unicode>BERGII.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Jw JOANNA VANDEN BERGH.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="168,1256 772,1256 772,1436 168,1436"/>
+            <TextLine id="l_56" custom="readingOrder {index:0;} MusicalWork {offset:6; length:11;}">
+                <Coords points="171,1341 744,1326 746,1247 173,1255"/>
+                <Baseline points="182,1327 748,1319"/>
+                <Word id="l_56_w1" custom="readingOrder {index:0;}">
+                    <Coords points="173,1286 173,1346 207,1346 207,1286 173,1286 173,1286 173,1286 173,1286 173,1286"/>
+                    <TextEquiv>
+                        <Unicode>70</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_56_w2" custom="readingOrder {index:1;}">
+                    <Coords points="226,1286 226,1346 273,1346 273,1286 226,1286 226,1286 226,1286 226,1286 226,1286"/>
+                    <TextEquiv>
+                        <Unicode>a)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_56_w3" custom="readingOrder {index:2;}">
+                    <Coords points="292,1282 292,1342 735,1342 735,1282 292,1282 292,1282 292,1282 292,1282 292,1282"/>
+                    <TextEquiv>
+                        <Unicode>LICHTGAANDE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>7° a) LICHTGAANDE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_59" custom="readingOrder {index:1;} MusicalWork {offset:3; length:11;}">
+                <Coords points="213,1437 247,1449 307,1422 401,1422 456,1445 567,1422 633,1445 656,1424 680,1441 748,1434 748,1360 708,1341 631,1366 548,1347 510,1366 495,1351 478,1366 407,1351 384,1371 354,1354 213,1364"/>
+                <Baseline points="223,1423 752,1420"/>
+                <Word id="l_59_w1" custom="readingOrder {index:0;}">
+                    <Coords points="216,1382 216,1442 257,1442 257,1382 216,1382 216,1382 216,1382 216,1382 216,1382"/>
+                    <TextEquiv>
+                        <Unicode>b)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_59_w2" custom="readingOrder {index:1;}">
+                    <Coords points="271,1381 271,1441 743,1441 743,1381 271,1381 271,1381 271,1381 271,1381 271,1381"/>
+                    <TextEquiv>
+                        <Unicode>KLOKKENSPEI</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>b) KLOKKENSPEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_3_1" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="800,1296 1672,1296 1672,1408 800,1408"/>
+            <TextLine id="l_62" custom="readingOrder {index:0;} MusicInstrument {offset:4; length:12;} person {offset:20; length:13;}">
+                <Coords points="806,1362 1656,1351 1656,1300 1294,1273 1145,1311 806,1309"/>
+                <Baseline points="817,1353 1660,1351"/>
+                <Word id="l_62_w1" custom="readingOrder {index:0;}">
+                    <Coords points="806,1312 806,1372 884,1372 884,1312 806,1312 806,1312 806,1312 806,1312 806,1312"/>
+                    <TextEquiv>
+                        <Unicode>voor</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_62_w2" custom="readingOrder {index:1;}">
+                    <Coords points="905,1312 905,1372 1165,1372 1165,1312 905,1312 905,1312 905,1312 905,1312 905,1312"/>
+                    <TextEquiv>
+                        <Unicode>Clavecymbel</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_62_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1196,1312 1196,1372 1259,1372 1259,1312 1196,1312 1196,1312 1196,1312 1196,1312 1196,1312"/>
+                    <TextEquiv>
+                        <Unicode>M.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_62_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1274,1311 1274,1371 1353,1371 1353,1311 1274,1311 1274,1311 1274,1311 1274,1311 1274,1311"/>
+                    <TextEquiv>
+                        <Unicode>VAN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_62_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1389,1311 1389,1371 1467,1371 1467,1311 1389,1311 1389,1311 1389,1311 1389,1311 1389,1311"/>
+                    <TextEquiv>
+                        <Unicode>DEN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_62_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1499,1311 1499,1371 1649,1371 1649,1311 1499,1311 1499,1311 1499,1311 1499,1311 1499,1311"/>
+                    <TextEquiv>
+                        <Unicode>GHEYN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>voor Clavecymbel M. VAN DEN GHEYN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_65" custom="readingOrder {index:1;} place {offset:8; length:7;} date {offset:16; length:4;wikiData:Q6913;} place {offset:25; length:7;wikiData:Q118958;} date {offset:33; length:4;wikiData:Q7756;}">
+                <Coords points="1079,1405 1236,1403 1321,1454 1424,1445 1467,1466 1524,1428 1633,1434 1622,1349 1564,1368 1526,1351 1079,1362"/>
+                <Baseline points="1090,1401 1638,1399"/>
+                <Word id="l_65_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1075,1360 1075,1420 1135,1420 1135,1360 1075,1360 1075,1360 1075,1360 1075,1360 1075,1360"/>
+                    <TextEquiv>
+                        <Unicode>geb.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1149,1360 1149,1420 1170,1420 1170,1360 1149,1360 1149,1360 1149,1360 1149,1360 1149,1360"/>
+                    <TextEquiv>
+                        <Unicode>te</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1191,1360 1191,1420 1303,1420 1303,1360 1191,1360 1191,1360 1191,1360 1191,1360 1191,1360"/>
+                    <TextEquiv>
+                        <Unicode>Thienen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1324,1360 1324,1420 1376,1420 1376,1360 1324,1360 1324,1360 1324,1360 1324,1360 1324,1360"/>
+                    <TextEquiv>
+                        <Unicode>1721</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1394,1359 1394,1419 1404,1419 1404,1359 1394,1359 1394,1359 1394,1359 1394,1359 1394,1359"/>
+                    <TextEquiv>
+                        <Unicode>7</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1425,1359 1425,1419 1443,1419 1443,1359 1425,1359 1425,1359 1425,1359 1425,1359 1425,1359"/>
+                    <TextEquiv>
+                        <Unicode>te</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1460,1359 1460,1419 1558,1419 1558,1359 1460,1359 1460,1359 1460,1359 1460,1359 1460,1359"/>
+                    <TextEquiv>
+                        <Unicode>Leuven</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_65_w8" custom="readingOrder {index:7;}">
+                    <Coords points="1576,1359 1576,1419 1632,1419 1632,1359 1576,1359 1576,1359 1576,1359 1576,1359 1576,1359"/>
+                    <TextEquiv>
+                        <Unicode>1785</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>geb. te Thienen 1721 + te Leuven 1785</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_1" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="286,1470 1566,1470 1566,1538 286,1538"/>
+            <TextLine id="l_68" custom="readingOrder {index:0;} MusicalWork {offset:0; length:4;} MusicInstrument {offset:11; length:10;} person {offset:25; length:12;wikiData:Q733063;}">
+                <Coords points="290,1530 818,1571 902,1528 1221,1560 1541,1528 1541,1486 1343,1443 1061,1513 512,1494 381,1420 290,1430"/>
+                <Baseline points="301,1526 1544,1526"/>
+                <Word id="l_68_w1" custom="readingOrder {index:0;}">
+                    <Coords points="285,1486 285,1546 467,1546 467,1486 285,1486 285,1486 285,1486 285,1486 285,1486"/>
+                    <TextEquiv>
+                        <Unicode>LUIM,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_68_w2" custom="readingOrder {index:1;}">
+                    <Coords points="501,1486 501,1546 587,1546 587,1486 501,1486 501,1486 501,1486 501,1486 501,1486"/>
+                    <TextEquiv>
+                        <Unicode>voor</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_68_w3" custom="readingOrder {index:2;}">
+                    <Coords points="610,1486 610,1546 815,1546 815,1486 610,1486 610,1486 610,1486 610,1486 610,1486"/>
+                    <TextEquiv>
+                        <Unicode>Pianoforte</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_68_w4" custom="readingOrder {index:3;}">
+                    <Coords points="843,1486 843,1546 980,1546 980,1486 843,1486 843,1486 843,1486 843,1486 843,1486"/>
+                    <TextEquiv>
+                        <Unicode>..</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_68_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1191,1486 1191,1546 1339,1546 1339,1486 1191,1486 1191,1486 1191,1486 1191,1486 1191,1486"/>
+                    <TextEquiv>
+                        <Unicode>PETER</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_68_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1373,1486 1373,1546 1544,1546 1544,1486 1373,1486 1373,1486 1373,1486 1373,1486 1373,1486"/>
+                    <TextEquiv>
+                        <Unicode>BENOIT</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>LUIM, voor Pianoforte .. PETER BENOIT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_5_1" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="326,1574 1162,1574 1162,1636 326,1636"/>
+            <TextLine id="l_71" custom="readingOrder {index:0;} person {offset:3; length:10;} person {offset:29; length:6;}">
+                <Coords points="324,1648 379,1631 631,1703 1142,1665 1142,1577 1049,1584 989,1547 942,1582 829,1560 686,1592 324,1565"/>
+                <Baseline points="335,1627 1145,1625"/>
+                <Word id="l_71_w1" custom="readingOrder {index:0;}">
+                    <Coords points="322,1586 322,1646 349,1646 349,1586 322,1586 322,1586 322,1586 322,1586 322,1586"/>
+                    <TextEquiv>
+                        <Unicode>Jw</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_71_w2" custom="readingOrder {index:1;}">
+                    <Coords points="381,1586 381,1646 642,1646 642,1586 381,1586 381,1586 381,1586 381,1586 381,1586"/>
+                    <TextEquiv>
+                        <Unicode>JULIaHan.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_71_w3" custom="readingOrder {index:2;}">
+                    <Coords points="656,1586 656,1646 669,1646 669,1586 656,1586 656,1586 656,1586 656,1586 656,1586"/>
+                    <TextEquiv>
+                        <Unicode>—</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_71_w4" custom="readingOrder {index:3;}">
+                    <Coords points="710,1585 710,1645 899,1645 899,1585 710,1585 710,1585 710,1585 710,1585 710,1585"/>
+                    <TextEquiv>
+                        <Unicode>Leeraar:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_71_w5" custom="readingOrder {index:4;}">
+                    <Coords points="917,1585 917,1645 930,1645 930,1585 917,1585 917,1585 917,1585 917,1585 917,1585"/>
+                    <TextEquiv>
+                        <Unicode>J</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_71_w6" custom="readingOrder {index:5;}">
+                    <Coords points="989,1585 989,1645 1152,1645 1152,1585 989,1585 989,1585 989,1585 989,1585 989,1585"/>
+                    <TextEquiv>
+                        <Unicode>LAENEN.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Jw JULIA HAHN. — Leeraar: Jw LAENEN.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_6_1" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="164,1690 1674,1690 1674,2154 164,2154"/>
+            <TextLine id="l_74" custom="readingOrder {index:0;} MusicalWork {offset:6; length:20;} person {offset:27; length:17;}">
+                <Coords points="175,1780 1643,1771 1643,1701 1599,1684 175,1699"/>
+                <Baseline points="186,1758 1646,1755"/>
+                <Word id="l_74_w1" custom="readingOrder {index:0;}">
+                    <Coords points="177,1717 177,1777 208,1777 208,1717 177,1717 177,1717 177,1717 177,1717 177,1717"/>
+                    <TextEquiv>
+                        <Unicode>8°</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w2" custom="readingOrder {index:1;}">
+                    <Coords points="227,1717 227,1777 277,1777 277,1717 227,1717 227,1717 227,1717 227,1717 227,1717"/>
+                    <TextEquiv>
+                        <Unicode>a)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w3" custom="readingOrder {index:2;}">
+                    <Coords points="290,1717 290,1777 391,1777 391,1717 290,1717 290,1717 290,1717 290,1717 290,1717"/>
+                    <TextEquiv>
+                        <Unicode>EEN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w4" custom="readingOrder {index:3;}">
+                    <Coords points="448,1717 448,1777 788,1777 788,1717 448,1717 448,1717 448,1717 448,1717 448,1717"/>
+                    <TextEquiv>
+                        <Unicode>LIEDJEVAN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w5" custom="readingOrder {index:4;}">
+                    <Coords points="832,1716 832,1776 1066,1776 1066,1716 832,1716 832,1716 832,1716 832,1716 832,1716"/>
+                    <TextEquiv>
+                        <Unicode>GOÉTHE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1179,1715 1179,1775 1318,1775 1318,1715 1179,1715 1179,1715 1179,1715 1179,1715 1179,1715"/>
+                    <TextEquiv>
+                        <Unicode>JozeF</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_74_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1343,1715 1343,1775 1639,1775 1639,1715 1343,1715 1343,1715 1343,1715 1343,1715 1343,1715"/>
+                    <TextEquiv>
+                        <Unicode>HUYBRecht</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>8° a) EEN LIEDJEVAN GOËTHE JOZEFF HUYBRECHTS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_77" custom="readingOrder {index:1;} person {offset:11; length:10;}">
+                <Coords points="386,1871 507,1852 885,1869 883,1807 605,1808 543,1790 478,1803 384,1784"/>
+                <Baseline points="396,1850 891,1857"/>
+                <Word id="l_77_w1" custom="readingOrder {index:0;}">
+                    <Coords points="384,1811 384,1871 557,1871 557,1811 384,1811 384,1811 384,1811 384,1811 384,1811"/>
+                    <TextEquiv>
+                        <Unicode>(Dichter</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_77_w2" custom="readingOrder {index:1;}">
+                    <Coords points="573,1812 573,1872 589,1872 589,1812 573,1812 573,1812 573,1812 573,1812 573,1812"/>
+                    <TextEquiv>
+                        <Unicode>:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_77_w3" custom="readingOrder {index:2;}">
+                    <Coords points="605,1813 605,1873 662,1873 662,1813 605,1813 605,1813 605,1813 605,1813 605,1813"/>
+                    <TextEquiv>
+                        <Unicode>II.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_77_w4" custom="readingOrder {index:3;}">
+                    <Coords points="684,1815 684,1875 895,1875 895,1815 684,1815 684,1815 684,1815 684,1815 684,1815"/>
+                    <TextEquiv>
+                        <Unicode>TOLLENS).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>(Dichter : H. TOLLENS).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_80" custom="readingOrder {index:2;} MusicalWork {offset:3; length:17;} person {offset:23; length:10;}">
+                <Coords points="202,1963 695,1957 878,1997 1499,1959 1499,1888 1209,1891 1066,1938 836,1876 202,1891"/>
+                <Baseline points="212,1959 1504,1957"/>
+                <Word id="l_80_w1" custom="readingOrder {index:0;}">
+                    <Coords points="204,1918 204,1978 969,1978 969,1918 204,1918 204,1918 204,1918 204,1918 204,1918"/>
+                    <TextEquiv>
+                        <Unicode>b)VISSCHERSLIEDEKEN.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_80_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1187,1917 1187,1977 1264,1977 1264,1917 1187,1917 1187,1917 1187,1917 1187,1917 1187,1917"/>
+                    <TextEquiv>
+                        <Unicode>JAN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_80_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1302,1917 1302,1977 1482,1977 1482,1917 1302,1917 1302,1917 1302,1917 1302,1917 1302,1917"/>
+                    <TextEquiv>
+                        <Unicode>BLOCKX</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>b) VISSCHERSLIEDEKEN.. JAN BLOCKX</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_83" custom="readingOrder {index:3;} person {offset:11; length:11;}">
+                <Coords points="392,2057 701,2057 774,2098 895,2066 927,2076 916,1980 835,2016 705,2006 686,1987 510,2004 460,1976 392,2004"/>
+                <Baseline points="403,2054 931,2060"/>
+                <Word id="l_83_w1" custom="readingOrder {index:0;}">
+                    <Coords points="391,2014 391,2074 557,2074 557,2014 391,2014 391,2014 391,2014 391,2014 391,2014"/>
+                    <TextEquiv>
+                        <Unicode>(Dichter</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_83_w2" custom="readingOrder {index:1;}">
+                    <Coords points="575,2016 575,2076 590,2076 590,2016 575,2016 575,2016 575,2016 575,2016 575,2016"/>
+                    <TextEquiv>
+                        <Unicode>:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_83_w3" custom="readingOrder {index:2;}">
+                    <Coords points="617,2018 617,2078 931,2078 931,2018 617,2018 617,2018 617,2018 617,2018 617,2018"/>
+                    <TextEquiv>
+                        <Unicode>DAUTZENBERG).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>(Dichter : DAUTZENBERG).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_86" custom="readingOrder {index:4;} person {offset:3; length:16;}">
+                <Coords points="318,2155 437,2164 480,2146 629,2198 672,2176 802,2212 802,2091 682,2108 648,2087 603,2110 318,2080"/>
+                <Baseline points="328,2144 807,2144"/>
+                <Word id="l_86_w1" custom="readingOrder {index:0;}">
+                    <Coords points="317,2104 317,2164 372,2164 372,2104 317,2104 317,2104 317,2104 317,2104 317,2104"/>
+                    <TextEquiv>
+                        <Unicode>Hr</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_86_w2" custom="readingOrder {index:1;}">
+                    <Coords points="387,2104 387,2164 432,2164 432,2104 387,2104 387,2104 387,2104 387,2104 387,2104"/>
+                    <TextEquiv>
+                        <Unicode>S.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_86_w3" custom="readingOrder {index:2;}">
+                    <Coords points="452,2104 452,2164 601,2164 601,2104 452,2104 452,2104 452,2104 452,2104 452,2104"/>
+                    <TextEquiv>
+                        <Unicode>VANDER</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_86_w4" custom="readingOrder {index:3;}">
+                    <Coords points="627,2104 627,2164 812,2164 812,2104 627,2104 627,2104 627,2104 627,2104 627,2104"/>
+                    <TextEquiv>
+                        <Unicode>HIeYDEN.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Hr S. VANDER HEYDEN.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_7_1" custom="readingOrder {index:6;} structure {type:paragraph;}">
+            <Coords points="162,2218 1670,2218 1670,2396 162,2396"/>
+            <TextLine id="l_89" custom="readingOrder {index:0;} MusicalWork {offset:3; length:35;}">
+                <Coords points="151,2287 450,2317 742,2279 1029,2342 1143,2281 1661,2285 1663,2195 599,2236 301,2223 153,2168"/>
+                <Baseline points="161,2284 1667,2273"/>
+                <Word id="l_89_w1" custom="readingOrder {index:0;}">
+                    <Coords points="147,2243 147,2303 188,2303 188,2243 147,2243 147,2243 147,2243 147,2243 147,2243"/>
+                    <TextEquiv>
+                        <Unicode>9°</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_89_w2" custom="readingOrder {index:1;}">
+                    <Coords points="262,2242 262,2302 560,2302 560,2242 262,2242 262,2242 262,2242 262,2242 262,2242"/>
+                    <TextEquiv>
+                        <Unicode>FANTAZIJ</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_89_w3" custom="readingOrder {index:2;}">
+                    <Coords points="601,2240 601,2300 669,2300 669,2240 601,2240 601,2240 601,2240 601,2240 601,2240"/>
+                    <TextEquiv>
+                        <Unicode>OP</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_89_w4" custom="readingOrder {index:3;}">
+                    <Coords points="716,2238 716,2298 1082,2298 1082,2238 716,2238 716,2238 716,2238 716,2238 716,2238"/>
+                    <TextEquiv>
+                        <Unicode>VLAAMSCHE</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_89_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1136,2235 1136,2295 1645,2295 1645,2235 1136,2235 1136,2235 1136,2235 1136,2235 1136,2235"/>
+                    <TextEquiv>
+                        <Unicode>VOLKSLIEDEREN</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>9° FANTAZIJ OP VLAAMSCHE VOLKSLIEDEREN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_92" custom="readingOrder {index:1;} person {offset:0; length:13;}">
+                <Coords points="1162,2421 1236,2407 1268,2417 1356,2392 1413,2398 1443,2381 1565,2390 1567,2328 1520,2342 1388,2293 1366,2308 1272,2300 1245,2319 1164,2300"/>
+                <Baseline points="1172,2388 1570,2381"/>
+                <Word id="l_92_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1163,2346 1163,2406 1299,2406 1299,2346 1163,2346 1163,2346 1163,2346 1163,2346 1163,2346"/>
+                    <TextEquiv>
+                        <Unicode>JoZEF</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_92_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1340,2343 1340,2403 1570,2403 1570,2343 1340,2343 1340,2343 1340,2343 1340,2343 1340,2343"/>
+                    <TextEquiv>
+                        <Unicode>BOSIERS.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>JOZEF BOSIERS.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_8_1" custom="readingOrder {index:7;} structure {type:paragraph;}">
+            <Coords points="324,2416 1228,2416 1228,2572 324,2572"/>
+            <TextLine id="l_95" custom="readingOrder {index:0;} MusicInstrument {offset:5; length:10;} MusicInstrument {offset:17; length:13;} MusicInstrument {offset:34; length:4;}">
+                <Coords points="333,2481 1202,2488 1202,2421 1008,2400 929,2428 454,2411 333,2451"/>
+                <Baseline points="344,2474 1206,2471"/>
+                <Word id="l_95_w1" custom="readingOrder {index:0;}">
+                    <Coords points="332,2433 332,2493 428,2493 428,2433 332,2433 332,2433 332,2433 332,2433 332,2433"/>
+                    <TextEquiv>
+                        <Unicode>voor</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_95_w2" custom="readingOrder {index:1;}">
+                    <Coords points="453,2433 453,2493 699,2493 699,2433 453,2433 453,2433 453,2433 453,2433 453,2433"/>
+                    <TextEquiv>
+                        <Unicode>Pianoforte,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_95_w3" custom="readingOrder {index:2;}">
+                    <Coords points="719,2432 719,2492 1005,2492 1005,2432 719,2432 719,2432 719,2432 719,2432 719,2432"/>
+                    <TextEquiv>
+                        <Unicode>Strijkkwintet</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_95_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1025,2431 1025,2491 1060,2491 1060,2431 1025,2431 1025,2431 1025,2431 1025,2431 1025,2431"/>
+                    <TextEquiv>
+                        <Unicode>en</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_95_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1091,2431 1091,2491 1212,2491 1212,2431 1091,2431 1091,2431 1091,2431 1091,2431 1091,2431"/>
+                    <TextEquiv>
+                        <Unicode>Harp.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>voor Pianoforte, Strijkkwintet en Harp.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_98" custom="readingOrder {index:1;} person {offset:2; length:14;} person {offset:32; length:7;}">
+                <Coords points="320,2628 401,2628 450,2588 618,2637 840,2564 1027,2613 1207,2588 1207,2496 968,2526 320,2500"/>
+                <Baseline points="330,2564 1213,2562"/>
+                <Word id="l_98_w1" custom="readingOrder {index:0;}">
+                    <Coords points="319,2523 319,2583 365,2583 365,2523 319,2523 319,2523 319,2523 319,2523 319,2523"/>
+                    <TextEquiv>
+                        <Unicode>Hr</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w2" custom="readingOrder {index:1;}">
+                    <Coords points="383,2523 383,2583 485,2583 485,2523 383,2523 383,2523 383,2523 383,2523 383,2523"/>
+                    <TextEquiv>
+                        <Unicode>JoZer</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w3" custom="readingOrder {index:2;}">
+                    <Coords points="513,2523 513,2583 717,2583 717,2523 513,2523 513,2523 513,2523 513,2523 513,2523"/>
+                    <TextEquiv>
+                        <Unicode>WATELrr.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w4" custom="readingOrder {index:3;}">
+                    <Coords points="730,2523 730,2583 740,2583 740,2523 730,2523 730,2523 730,2523 730,2523 730,2523"/>
+                    <TextEquiv>
+                        <Unicode>—</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w5" custom="readingOrder {index:4;}">
+                    <Coords points="786,2522 786,2582 971,2582 971,2522 786,2522 786,2522 786,2522 786,2522 786,2522"/>
+                    <TextEquiv>
+                        <Unicode>Leeraar:</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w6" custom="readingOrder {index:5;}">
+                    <Coords points="990,2522 990,2582 1040,2582 1040,2522 990,2522 990,2522 990,2522 990,2522 990,2522"/>
+                    <TextEquiv>
+                        <Unicode>IIr</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="l_98_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1059,2522 1059,2582 1202,2582 1202,2522 1059,2522 1059,2522 1059,2522 1059,2522 1059,2522"/>
+                    <TextEquiv>
+                        <Unicode>BOSIErs</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Hr JOZEF WATELET. — Leeraar: Hr BOSIERS.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:8;}">
+            <Coords points="310,2998 1890,2998 1890,3019 310,3019"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:9;}">
+            <Coords points="704,2022 846,2022 846,2032 704,2032"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
