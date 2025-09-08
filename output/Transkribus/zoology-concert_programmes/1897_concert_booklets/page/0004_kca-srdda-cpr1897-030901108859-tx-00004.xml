@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=20_11_2023_10:36</Creator>
+        <Created>2023-11-13T18:51:47.284022</Created>
+        <LastChange>2024-02-15T11:32:51.569+01:00</LastChange>
+        <TranskribusMetadata docId="1599536" pageId="60352286" pageNr="4" tsid="148834766" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=KLROGAYPIFIYSTHITSVJQUBJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EMFHUPUULHFJAULQTGKBCRZY" imageId="48736444"/>
+    </Metadata>
+    <Page imageFilename="0004_kca-srdda-cpr1897-030901108859-tx-00004.jpg" imageWidth="1935" imageHeight="3007">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315549315" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1226"/>
+                <RegionRefIndexed index="2" regionRef="r_1247"/>
+                <RegionRefIndexed index="3" regionRef="r_1268"/>
+                <RegionRefIndexed index="4" regionRef="r_1289"/>
+                <RegionRefIndexed index="5" regionRef="r_1310"/>
+                <RegionRefIndexed index="6" regionRef="r_1331"/>
+                <RegionRefIndexed index="7" regionRef="r_1352"/>
+                <RegionRefIndexed index="9" regionRef="r_1739"/>
+                <RegionRefIndexed index="10" regionRef="r_1760"/>
+                <RegionRefIndexed index="11" regionRef="r_1793"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="305,156 1744,156 1744,344 305,344"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="315,251 1689,255 1689,235 315,231"/>
+                <Baseline points="315,246 1689,250"/>
+                <TextEquiv>
+                    <Unicode>Koninklijke Maatschappij van Dierkunde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1409" custom="readingOrder {index:1;}">
+                <Coords points="753,335 1225,337 1225,317 753,315"/>
+                <Baseline points="753,330 1225,332"/>
+                <TextEquiv>
+                    <Unicode>VAN ANTWERPEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1226" custom="readingOrder {index:1;}">
+            <Coords points="493,443 1525,443 1525,541 493,541"/>
+            <TextLine id="l_1434" custom="readingOrder {index:0;} date {offset:0; length:21;wikiData:Q69251138;}">
+                <Coords points="538,525 1452,527 1452,507 538,505"/>
+                <Baseline points="538,520 1452,522"/>
+                <TextEquiv>
+                    <Unicode>DONDERDAG 13 MEI 1897</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1247" custom="readingOrder {index:2;}">
+            <Coords points="785,565 1159,565 1159,622 785,622"/>
+            <TextLine id="l_1459" custom="readingOrder {index:0;}">
+                <Coords points="806,607 1145,611 1145,591 806,587"/>
+                <Baseline points="806,602 1145,606"/>
+                <TextEquiv>
+                    <Unicode>te 8 ure 's avonds</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1268" custom="readingOrder {index:3;}">
+            <Coords points="278,629 1738,629 1738,872 278,872"/>
+            <TextLine id="l_1484" custom="readingOrder {index:0;}">
+                <Coords points="295,860 432,848 487,830 536,803 1094,809 1158,815 1217,858 1360,864 1380,821 1671,809 1671,789 1369,800 1351,844 1222,838 1164,795 1095,789 532,783 481,811 429,828 294,840"/>
+                <Baseline points="295,855 432,843 487,825 536,798 1094,804 1158,810 1217,853 1360,859 1380,816 1671,804"/>
+                <TextEquiv>
+                    <Unicode>Synfonisch Concert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1289" custom="readingOrder {index:4;}">
+            <Coords points="393,890 1603,890 1603,1052 393,1052"/>
+            <TextLine id="l_1557" custom="readingOrder {index:0;}">
+                <Coords points="581,962 1389,958 1389,938 581,942"/>
+                <Baseline points="581,957 1389,953"/>
+                <TextEquiv>
+                    <Unicode>door het Orkest der Maatschappij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1582" custom="readingOrder {index:1;} person {offset:24; length:15;wikiData:Q2750289;}">
+                <Coords points="411,1036 1579,1040 1579,1020 411,1016"/>
+                <Baseline points="411,1031 1579,1035"/>
+                <TextEquiv>
+                    <Unicode>onder de leiding van M. EDWARD KEURVELS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1310" custom="readingOrder {index:5;}">
+            <Coords points="769,1117 1227,1117 1227,1180 769,1180"/>
+            <TextLine id="l_1607" custom="readingOrder {index:0;}">
+                <Coords points="785,1171 1192,1171 1192,1151 785,1151"/>
+                <Baseline points="785,1166 1192,1166"/>
+                <TextEquiv>
+                    <Unicode>PROGRAMMA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1331" custom="readingOrder {index:6;}">
+            <Coords points="793,1256 1192,1256 1192,1311 793,1311"/>
+            <TextLine id="l_1632" custom="readingOrder {index:0;}">
+                <Coords points="833,1306 1156,1304 1156,1284 833,1286"/>
+                <Baseline points="833,1301 1156,1299"/>
+                <TextEquiv>
+                    <Unicode>EERSTE DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1352" custom="readingOrder {index:7;}">
+            <Coords points="748,1336 1260,1336 1260,1399 748,1399"/>
+            <TextLine id="l_1657" custom="readingOrder {index:0;}">
+                <Coords points="779,1388 1217,1390 1217,1370 779,1368"/>
+                <Baseline points="779,1383 1217,1385"/>
+                <TextEquiv>
+                    <Unicode>(Hollandscge Meesters)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TableRegion id="t1" custom="readingOrder {index:8;}">
+            <Coords points="232,1409 1740,1411 1740,2468 232,2468"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c1">
+                <Coords points="232,1409 232,1498 1196,1500 1196,1410"/>
+                <TextLine id="t1c1_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="227,1491 561,1485 620,1508 1009,1477 1009,1456 861,1430 778,1444 754,1422 584,1446 439,1418 403,1444 227,1422"/>
+                    <Baseline points="237,1471 267,1473 297,1471 327,1471 357,1473 387,1473 417,1473 447,1473 477,1473 507,1471 537,1471 567,1471 597,1471 627,1471 657,1473 687,1471 717,1469 747,1471 777,1471 807,1471 837,1473 867,1471 897,1473 927,1475 957,1475 987,1475 1185,1483"/>
+                    <TextEquiv>
+                        <Unicode>1. Koninginne-Marsch</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c2">
+                <Coords points="1196,1410 1196,1500 1740,1501 1740,1411"/>
+                <TextLine id="t1c2_tl_1" custom="readingOrder {index:0;} person {offset:0; length:20;wikiData:Q40854046;}">
+                    <Coords points="1072,1473 1201,1467 1258,1503 1318,1485 1358,1503 1396,1477 1492,1513 1539,1484 1592,1506 1639,1484 1737,1503 1737,1423 1613,1432 1553,1410 1467,1430 1425,1410 1317,1429 1248,1410 1181,1448 1072,1449"/>
+                    <Baseline points="1231,1469 1261,1469 1291,1471 1321,1469 1351,1469 1381,1467 1411,1469 1441,1467 1471,1467 1501,1467 1531,1467 1561,1467 1591,1465 1621,1467 1651,1467 1681,1465 1711,1465 1741,1467"/>
+                    <TextEquiv>
+                        <Unicode>EM. VON BRUCKEN-FOCK.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c3">
+                <Coords points="232,1498 232,1596 1196,1597 1196,1500"/>
+                <TextLine id="l_2122" custom="readingOrder {index:0;}">
+                    <Coords points="236,1576 1175,1580 1175,1560 236,1556"/>
+                    <Baseline points="236,1571 1175,1575"/>
+                    <TextEquiv>
+                        <Unicode>2. Dramatisch openingsstuk ...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c4">
+                <Coords points="1196,1500 1196,1597 1740,1597 1740,1501"/>
+                <TextLine id="l_2073" custom="readingOrder {index:0;}">
+                    <Coords points="1208,1567 1621,1565 1621,1545 1207,1547"/>
+                    <Baseline points="1208,1562 1621,1560"/>
+                    <TextEquiv>
+                        <Unicode>MARTEN BOUMAN.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c5">
+                <Coords points="232,1596 232,1689 1196,1689 1196,1597"/>
+                <TextLine id="l_2220" custom="readingOrder {index:0;}">
+                    <Coords points="241,1665 1186,1671 1186,1651 241,1645"/>
+                    <Baseline points="241,1660 1186,1666"/>
+                    <TextEquiv>
+                        <Unicode>3. Vertelsel (karakterschets) ....</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c6">
+                <Coords points="1196,1597 1196,1689 1740,1689 1740,1597"/>
+                <TextLine id="l_2159" custom="readingOrder {index:0;} person {offset:0; length:13;wikiData:Q21001257;}">
+                    <Coords points="1215,1660 1591,1660 1591,1640 1215,1640"/>
+                    <Baseline points="1215,1655 1591,1655"/>
+                    <TextEquiv>
+                        <Unicode>ED. DE HARTOG.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c7">
+                <Coords points="232,1689 232,1799 1196,1793 1196,1689"/>
+                <TextLine id="t1c7_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="225,1757 723,1778 985,1754 1019,1785 1033,1706 950,1726 811,1697 768,1718 642,1683 580,1723 513,1725 361,1695 225,1745"/>
+                    <Baseline points="235,1757 255,1757 285,1757 315,1753 345,1751 375,1753 405,1751 435,1751 465,1753 495,1751 525,1751 555,1749 585,1749 615,1749 645,1749 675,1747 705,1749 735,1749 765,1749 795,1747 825,1747 855,1747 885,1749 915,1751 945,1751 975,1753 1005,1753 1196,1763"/>
+                    <TextEquiv>
+                        <Unicode>4 Freia (symfonisch gedicht)..</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c8">
+                <Coords points="1196,1689 1196,1793 1740,1790 1740,1689"/>
+                <TextLine id="t1c8_tl_1" custom="readingOrder {index:0;} person {offset:0; length:13;wikiData:Q2081404;}">
+                    <Coords points="1146,1771 1193,1749 1286,1768 1339,1756 1434,1800 1497,1799 1551,1763 1584,1768 1584,1704 1539,1692 1454,1701 1436,1716 1360,1716 1270,1689 1203,1725 1146,1730"/>
+                    <Baseline points="1227,1745 1257,1745 1287,1745 1317,1745 1347,1745 1377,1745 1407,1745 1437,1745 1467,1745 1497,1745 1527,1743 1557,1743 1587,1745"/>
+                    <TextEquiv>
+                        <Unicode>GODFRIED MANN.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c9">
+                <Coords points="232,1799 232,2183 1196,2181 1196,1793"/>
+                <TextLine id="l_2657" custom="readingOrder {index:0;}">
+                    <Coords points="241,2166 1178,2162 1178,2142 241,2146"/>
+                    <Baseline points="241,2161 1178,2157"/>
+                    <TextEquiv>
+                        <Unicode>5. De Elzenkoning (openingstuk) ..</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c10">
+                <Coords points="1196,1793 1196,2181 1740,2180 1740,1790"/>
+                <TextLine id="l_2245" custom="readingOrder {index:0;} person {offset:0; length:12;wikiData:Q733063;}">
+                    <Coords points="1209,2151 1548,2153 1548,2133 1209,2131"/>
+                    <Baseline points="1209,2146 1548,2148"/>
+                    <TextEquiv>
+                        <Unicode>PETER BENOIT.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c11">
+                <Coords points="232,2183 232,2272 1196,2272 1196,2181"/>
+                <TextLine id="l_2608" custom="readingOrder {index:0;}">
+                    <Coords points="240,2256 1181,2258 1181,2238 240,2236"/>
+                    <Baseline points="240,2251 1181,2253"/>
+                    <TextEquiv>
+                        <Unicode>6. Boheemsche Danswijze ...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c12">
+                <Coords points="1196,2181 1196,2272 1740,2272 1740,2180"/>
+                <TextLine id="l_2270" custom="readingOrder {index:0;} person {offset:0; length:15;wikiData:Q124540833;}">
+                    <Coords points="1209,2249 1624,2244 1624,2224 1209,2229"/>
+                    <Baseline points="1209,2244 1624,2239"/>
+                    <TextEquiv>
+                        <Unicode>ALEX. STADTFELD.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c13">
+                <Coords points="232,2272 232,2362 1196,2362 1196,2272"/>
+                <TextLine id="l_2522" custom="readingOrder {index:0;}">
+                    <Coords points="236,2351 1181,2345 1181,2325 236,2331"/>
+                    <Baseline points="236,2346 1181,2340"/>
+                    <TextEquiv>
+                        <Unicode>7. Fantasie op canadische wijzen...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c14">
+                <Coords points="1196,2272 1196,2362 1740,2362 1740,2272"/>
+                <TextLine id="l_2295" custom="readingOrder {index:0;} person {offset:0; length:11;wikiData:Q958774;}">
+                    <Coords points="1213,2331 1518,2335 1518,2315 1214,2311"/>
+                    <Baseline points="1213,2326 1518,2330"/>
+                    <TextEquiv>
+                        <Unicode>PAUL GILSON.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c15">
+                <Coords points="232,2362 232,2468 1196,2468 1196,2362"/>
+                <TextLine id="t1c15_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="234,2468 341,2456 427,2479 468,2449 503,2479 584,2485 654,2448 929,2444 929,2403 885,2417 800,2377 675,2394 553,2374 506,2406 480,2386 289,2403 269,2386 234,2405"/>
+                    <Baseline points="243,2433 273,2435 303,2433 333,2433 363,2435 393,2437 423,2437 453,2435 483,2435 513,2435 543,2433 573,2433 603,2431 633,2431 663,2429 693,2429 723,2429 753,2429 783,2429 813,2431 843,2431 873,2431 903,2431 1189,2434"/>
+                    <TextEquiv>
+                        <Unicode>8. Memlinc-Marsch</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c16">
+                <Coords points="1196,2362 1196,2468 1740,2468 1740,2362"/>
+                <TextLine id="l_2449" custom="readingOrder {index:0;} person {offset:0; length:10;wikiData:Q2453577;}">
+                    <Coords points="1221,2431 1525,2431 1524,2411 1221,2411"/>
+                    <Baseline points="1221,2426 1525,2426"/>
+                    <TextEquiv>
+                        <Unicode>H. WAELPUT.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TextRegion id="r_1739" custom="readingOrder {index:9;}">
+            <Coords points="809,1876 1172,1876 1172,1923 809,1923"/>
+            <TextLine id="l_1826" custom="readingOrder {index:0;}">
+                <Coords points="818,1918 1150,1918 1150,1898 818,1898"/>
+                <Baseline points="818,1913 1150,1913"/>
+                <TextEquiv>
+                    <Unicode>TWEEDE DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1760" custom="readingOrder {index:10;}">
+            <Coords points="780,1960 1192,1960 1192,2008 780,2008"/>
+            <TextLine id="l_1851" custom="readingOrder {index:0;}">
+                <Coords points="795,2000 1182,2001 1182,1981 795,1979"/>
+                <Baseline points="795,1995 1182,1996"/>
+                <TextEquiv>
+                    <Unicode>(Vlaamsche Meester).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1793" custom="readingOrder {index:11;}">
+            <Coords points="216,2563 1813,2563 1813,2906 216,2906"/>
+            <TextLine id="l_1876" custom="readingOrder {index:0;}">
+                <Coords points="460,2623 1519,2613 1519,2593 459,2603"/>
+                <Baseline points="460,2618 1519,2608"/>
+                <TextEquiv>
+                    <Unicode>Zondag 16 mei, te 8 ure 's avonds Synfonisch Concert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1901" custom="readingOrder {index:1;}">
+                <Coords points="673,2682 1313,2678 1313,2658 673,2662"/>
+                <Baseline points="673,2677 1313,2673"/>
+                <TextEquiv>
+                    <Unicode>door het Orkest der Maatschappij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1926" custom="readingOrder {index:2;}">
+                <Coords points="232,2772 1744,2756 1744,2736 232,2751"/>
+                <Baseline points="232,2767 1744,2751"/>
+                <TextEquiv>
+                    <Unicode>Niet ingenome stoelen of plaatsen mogen onder geen woorwendsel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1951" custom="readingOrder {index:3;}">
+                <Coords points="322,2831 795,2819 794,2799 322,2811"/>
+                <Baseline points="322,2826 795,2814"/>
+                <TextEquiv>
+                    <Unicode>voorbehouden worden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1976" custom="readingOrder {index:4;}">
+                <Coords points="741,2895 1251,2890 1251,2870 741,2875"/>
+                <Baseline points="741,2890 1251,2885"/>
+                <TextEquiv>
+                    <Unicode>Drukk. CL. THIBAULT, Gratiekapelstr. 7.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

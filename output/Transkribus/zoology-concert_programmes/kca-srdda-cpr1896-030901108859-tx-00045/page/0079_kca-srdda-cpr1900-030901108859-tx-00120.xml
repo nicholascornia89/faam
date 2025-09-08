@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-20T10:10:46.419+02:00</Created>
+        <LastChange>2023-09-28T09:47:44.991+02:00</LastChange>
+        <TranskribusMetadata docId="1552273" pageId="59880679" pageNr="79" tsid="135875155" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=NCGNDUBEISPHGJPUTNOPIJRV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KGTGWWPNGIIDRJRLCFJFNGFR" imageId="48330931"/>
+    </Metadata>
+    <Page imageFilename="0079_kca-srdda-cpr1900-030901108859-tx-00120.jpg" imageWidth="1734" imageHeight="2432">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315463193" caption="Regions reading order">
+                <RegionRefIndexed index="2" regionRef="region_1695887236150_2303"/>
+                <RegionRefIndexed index="3" regionRef="region_1695887244742_2306"/>
+                <RegionRefIndexed index="4" regionRef="region_1695887250278_2309"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <SeparatorRegion id="Separator_1695887262206_2315" custom="readingOrder {index:0;}">
+            <Coords points="365,412 1529,412 1529,532 365,532"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695887256195_2312" custom="readingOrder {index:1;}">
+            <Coords points="381,1933 1534,1933 1534,1976 381,1976"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="region_1695887236150_2303" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="430,273 1478,273 1478,389 430,389"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887244742_2306" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="305,561 1613,561 1613,1885 305,1885"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887250278_2309" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="414,1973 1512,1973 1512,2089 414,2089"/>
+        </TextRegion>
+    </Page>
+</PcGts>

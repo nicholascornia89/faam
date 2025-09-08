@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-08-30T13:56:57.243+02:00</Created>
+        <LastChange>2023-09-20T09:53:54.294+02:00</LastChange>
+        <TranskribusMetadata docId="1552273" pageId="59253822" pageNr="20" tsid="135330435" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=IEWULZTTPGVDNDRQNQDQNHXS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HAOZSOLLRZFZXNYBTRXYWMYZ" imageId="47838140"/>
+    </Metadata>
+    <Page imageFilename="0020_kca-srdda-cpr1896-030901108859-tx-00020.jpg" imageWidth="1990" imageHeight="3007">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315452516" caption="Regions reading order">
+                <RegionRefIndexed index="1" regionRef="region_1695196390889_3022"/>
+                <RegionRefIndexed index="2" regionRef="region_1695196394723_3025"/>
+                <RegionRefIndexed index="9" regionRef="region_1695196182563_2880"/>
+                <RegionRefIndexed index="10" regionRef="region_1695196186447_2883"/>
+                <RegionRefIndexed index="11" regionRef="region_1695196190061_2886"/>
+                <RegionRefIndexed index="12" regionRef="region_1695196206422_2889"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <SeparatorRegion id="Separator_1695196413002_3029" custom="readingOrder {index:0;}">
+            <Coords points="264,2528 1772,2512 1863,2528 1863,2572 264,2572"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="region_1695196390889_3022" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="245,2204 1857,2204 1857,2487 245,2487"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695196394723_3025" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="256,2583 1784,2559 1826,2583 1826,2740 256,2740"/>
+        </TextRegion>
+        <TableRegion id="Table_1695196242009_2907" custom="readingOrder {index:3;}">
+            <Coords points="253,1184 1822,1184 1822,2195 253,2195"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="TableCell_1695196255416_2922">
+                <Coords points="253,1184 253,1258 1463,1261 1429,1187"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="TableCell_1695196255423_2928">
+                <Coords points="1429,1187 1463,1261 1822,1253 1822,1184"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" id="TableCell_1695196256299_2934">
+                <Coords points="253,1258 253,1317 1399,1319 1497,1315 1463,1261"/>
+                <CornerPts>0 1 2 4</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="1" rowSpan="1" colSpan="1" id="TableCell_1695196256306_2940">
+                <Coords points="1463,1261 1497,1315 1399,1319 1822,1317 1822,1253"/>
+                <CornerPts>0 2 3 4</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196274028_2963">
+                <Coords points="253,1317 253,1424 1425,1392 1399,1319"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196274037_2969">
+                <Coords points="1399,1319 1425,1392 1823,1395 1822,1317"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196276113_2975">
+                <Coords points="253,1424 253,1473 1376,1474 1371,1422 1425,1392"/>
+                <CornerPts>0 1 2 4</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196276121_2981">
+                <Coords points="1425,1392 1371,1422 1376,1474 1822,1473 1823,1395"/>
+                <CornerPts>0 2 3 4</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196279487_2987">
+                <Coords points="253,1473 253,2127 1285,2127 1564,2127 1562,1795 1557,1545 1557,1546 1451,1528 1376,1474"/>
+                <CornerPts>0 1 2 8</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="1" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196279494_2993">
+                <Coords points="1376,1474 1451,1528 1557,1545 1557,1546 1562,1795 1564,2127 1285,2127 1822,2127 1822,1473"/>
+                <CornerPts>0 6 7 8</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196279487_2985">
+                <Coords points="253,2127 253,2195 1285,2195 1285,2127"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="1" rowSpan="1" colSpan="1" leftBorderVisible="false" rightBorderVisible="false" topBorderVisible="false" bottomBorderVisible="false" id="TableCell_1695196279494_2991">
+                <Coords points="1285,2127 1285,2195 1822,2195 1822,2127"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <ImageRegion id="Image_1695196229265_2904" custom="readingOrder {index:4;}">
+            <Coords points="1368,939 1462,939 1462,1031 1368,1031"/>
+        </ImageRegion>
+        <ImageRegion id="Image_1695196227301_2901" custom="readingOrder {index:5;}">
+            <Coords points="599,942 695,942 695,1034 599,1034"/>
+        </ImageRegion>
+        <SeparatorRegion id="Separator_1695196222569_2898" custom="readingOrder {index:6;}">
+            <Coords points="658,1038 1389,1038 1389,1079 658,1079"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695196218984_2895" custom="readingOrder {index:7;}">
+            <Coords points="659,893 1396,893 1396,939 659,939"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="Separator_1695196215844_2892" custom="readingOrder {index:8;}">
+            <Coords points="660,374 1389,374 1389,433 660,433"/>
+        </SeparatorRegion>
+        <TextRegion type="paragraph" id="region_1695196182563_2880" custom="readingOrder {index:9;} structure {type:paragraph;}">
+            <Coords points="359,218 1710,218 1710,357 359,357"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695196186447_2883" custom="readingOrder {index:10;} structure {type:paragraph;}">
+            <Coords points="242,431 1838,431 1838,890 242,890"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695196190061_2886" custom="readingOrder {index:11;} structure {type:paragraph;}">
+            <Coords points="708,946 1354,946 1354,1040 708,1040"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695196206422_2889" custom="readingOrder {index:12;} structure {type:paragraph;}">
+            <Coords points="652,1089 1421,1089 1421,1179 652,1179"/>
+        </TextRegion>
+    </Page>
+</PcGts>

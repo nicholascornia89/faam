@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-20T10:10:30.155+02:00</Created>
+        <LastChange>2023-09-28T09:45:42.697+02:00</LastChange>
+        <TranskribusMetadata docId="1552273" pageId="59880675" pageNr="77" tsid="135875125" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=YJKADKSAUJRAKWDGSAYXSTZZ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GZYEYLLEMYJRUCTYBJCTOSYJ" imageId="48330927"/>
+    </Metadata>
+    <Page imageFilename="0077_kca-srdda-cpr1900-030901108859-tx-00046.jpg" imageWidth="1857" imageHeight="2846">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315462888" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1695887129901_2270"/>
+                <RegionRefIndexed index="1" regionRef="region_1695887135773_2273"/>
+                <RegionRefIndexed index="2" regionRef="region_1695887139068_2276"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="region_1695887129901_2270" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="657,1604 1379,1604 1379,1715 657,1715"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887135773_2273" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="706,1734 1639,1734 1639,1821 706,1821"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887139068_2276" custom="readingOrder {index:2;} structure {type:paragraph;}">
+            <Coords points="370,1803 1685,1803 1685,2549 370,2549"/>
+        </TextRegion>
+        <ImageRegion id="Image_1695887118693_2267" custom="readingOrder {index:3;}">
+            <Coords points="651,475 1388,475 1388,1539 651,1539"/>
+        </ImageRegion>
+    </Page>
+</PcGts>

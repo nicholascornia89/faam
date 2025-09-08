@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=20_11_2023_10:17</Creator>
+        <Created>2023-11-13T18:51:47.284022</Created>
+        <LastChange>2023-11-20T10:17:35.056+01:00</LastChange>
+        <TranskribusMetadata docId="1599533" pageId="60352273" pageNr="42" tsid="140172299" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=GHWZTVXCTIVMGNOFPBHPDXGP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RVVEULYGBBVODAHHFLTGGBUI" imageId="48736431"/>
+    </Metadata>
+    <Page imageFilename="0042_kca-srdda-cpr1896-030901108859-tx-00042.jpg" imageWidth="2040" imageHeight="3003">
+        <TableRegion id="t1" custom="readingOrder {index:0;}">
+            <Coords points="24179,1215 642,2399 1446,2392 1733,1101"/>
+            <TableCell row="0" col="0" colSpan="1" orientation="0.0" id="t1c1">
+                <Coords points="24179,1215 24035,1222 1708,1212 1733,1101"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" colSpan="1" orientation="0.0" id="t1c2">
+                <Coords points="24035,1222 27420,1052 1698,1259 1708,1212"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" colSpan="1" orientation="0.0" id="t1c3">
+                <Coords points="27420,1052 20534,1398 1680,1338 1698,1259"/>
+                <TextLine id="t1c3_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1527,1314 1567,1313 1579,1323 1611,1311 1640,1321 1680,1314 1695,1326 1717,1315 1796,1326 1827,1317 1826,1277 1817,1281 1800,1267 1753,1264 1725,1279 1677,1261 1662,1271 1639,1261 1596,1264 1578,1275 1558,1262 1526,1259"/>
+                    <Baseline points="1531,1301 1576,1304 1620,1307 1665,1304 1710,1307 1755,1307 1800,1307 1829,1304"/>
+                    <TextEquiv>
+                        <Unicode>EricORERA</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" colSpan="1" orientation="0.0" id="t1c4">
+                <Coords points="20534,1398 5000,2180 1487,2206 1680,1338"/>
+                <TextLine id="t1c4_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1499,1364 1539,1383 1551,1374 1589,1378 1628,1401 1697,1363 1743,1394 1792,1401 1821,1390 1820,1328 1803,1320 1753,1337 1725,1322 1690,1334 1667,1321 1632,1339 1581,1337 1543,1315 1498,1323"/>
+                    <Baseline points="1504,1361 1549,1364 1594,1364 1638,1361 1683,1361 1728,1364 1773,1364 1817,1367 1823,1364"/>
+                    <TextEquiv>
+                        <Unicode>Manuel GIRó</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" colSpan="1" orientation="0.0" id="t1c5">
+                <Coords points="5000,2180 3075,2277 1470,2285 1487,2206"/>
+                <TextLine id="t1c5_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="1468,2281 1579,2280 1613,2294 1656,2278 1802,2286 1829,2278 1830,2235 1772,2231 1749,2218 1714,2233 1672,2211 1636,2222 1613,2215 1563,2237 1469,2215"/>
+                    <Baseline points="1474,2271 1519,2271 1564,2271 1608,2271 1653,2271 1698,2271 1743,2271 1788,2271 1832,2268"/>
+                    <TextEquiv>
+                        <Unicode>Tomâs Baerón</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" colSpan="1" orientation="0.0" id="t1c6">
+                <Coords points="3075,2277 642,2399 1446,2392 1470,2285"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+    </Page>
+</PcGts>

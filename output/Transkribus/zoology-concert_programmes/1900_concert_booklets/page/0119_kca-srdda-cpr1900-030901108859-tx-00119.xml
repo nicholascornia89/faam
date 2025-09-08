@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.18.1:model_id=51170:date=16_10_2024_01:15</Creator>
+        <Created>2024-10-15T16:45:51.211+02:00</Created>
+        <LastChange>2024-10-16T01:15:57.580+02:00</LastChange>
+        <TranskribusMetadata docId="4643631" pageId="80341844" pageNr="119" tsid="193982927" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=AAAOJSAFSJKVTRITFIXLEGBK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZAMOTZXEGNCXQKSMTPTAPCYF" imageId="65802569"/>
+    </Metadata>
+    <Page imageFilename="0119_kca-srdda-cpr1900-030901108859-tx-00119.jpg" imageWidth="1606" imageHeight="2346">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315802743" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_2"/>
+                <RegionRefIndexed index="1" regionRef="tr_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_2" custom="readingOrder {index:0;}">
+            <Coords points="200,134 1374,134 1374,444 200,444"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="198,208 226,190 240,197 251,185 306,217 323,212 339,219 373,207 408,215 394,65 357,75 340,69 314,75 292,66 269,75 185,78"/>
+                <Baseline points="200,184 230,190 260,190 290,196 320,198 350,198 380,204 410,206"/>
+                <TextEquiv>
+                    <Unicode>CIE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="652,198 661,197 676,187 692,202 698,204 705,199 712,204 727,193 732,193 738,122 729,122 718,131 698,125 674,141 672,138 656,139"/>
+                <Baseline points="656,204 674,202 704,198 734,198"/>
+                <TextEquiv>
+                    <Unicode>19</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="971,271 1335,265 1330,74 1299,80 1255,65 1237,79 1176,69 1147,83 1089,66 1031,81 966,72"/>
+                <Baseline points="974,204 1004,204 1034,206 1064,200 1094,204 1124,198 1154,204 1166,205 1166,205 1198,204 1228,204 1258,210 1288,214 1318,212 1334,204"/>
+                <TextEquiv>
+                    <Unicode>ZOOLW</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="264,302 277,300 282,295 299,289 308,295 315,295 327,288 333,294 342,292 343,260 312,258 307,263 266,263"/>
+                <Baseline points="270,288 284,282 314,280 344,282"/>
+                <TextEquiv>
+                    <Unicode>8.50</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1260,364 1276,357 1283,348 1303,352 1311,344 1331,346 1342,334 1358,339 1372,334 1367,262 1253,268"/>
+                <Baseline points="1262,322 1292,322 1322,326 1352,328 1374,328"/>
+                <TextEquiv>
+                    <Unicode>3/2</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="1170,449 1221,450 1240,442 1249,450 1296,425 1336,423 1359,436 1366,353 1318,344 1218,406 1211,401 1173,410"/>
+                <Baseline points="1176,434 1182,434 1212,426 1242,420 1272,416 1302,418 1332,416 1362,420"/>
+                <TextEquiv>
+                    <Unicode>Ee</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1" custom="readingOrder {index:1;}">
+            <Coords points="214,1054 972,1054 972,2218 214,2218"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="206,1135 219,1137 232,1132 254,1141 268,1133 270,1137 282,1132 295,1138 316,1135 329,1020 297,1026 276,1005 244,1005 222,999"/>
+                <Baseline points="214,1114 230,1114 260,1112 290,1106 320,1104"/>
+                <TextEquiv>
+                    <Unicode>21/4.49</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="446,1139 532,1133 544,1139 565,1134 577,1138 595,1133 592,1073 584,1070 576,1077 556,1072 528,1052 507,1075 479,1094 463,1091 444,1097"/>
+                <Baseline points="450,1112 480,1114 510,1116 540,1118 570,1120 596,1118"/>
+                <TextEquiv>
+                    <Unicode>1er</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="745,1138 762,1140 767,1134 779,1133 788,1139 818,1135 829,1139 836,1134 847,1139 857,1137 848,1053 832,1048 822,1052 803,1038 789,1034 760,1068 739,1077"/>
+                <Baseline points="748,1118 778,1122 808,1126 838,1128 858,1130"/>
+                <TextEquiv>
+                    <Unicode>G.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="625,2216 666,2210 680,2219 727,2208 792,2224 825,2212 848,2223 874,2209 895,2222 970,2212 970,2190 931,2169 856,2191 824,2176 760,2190 722,2176 625,2187"/>
+                <Baseline points="630,2204 660,2206 690,2206 720,2206 750,2206 780,2206 810,2208 840,2206 870,2206 900,2206 930,2206 960,2206 972,2204"/>
+                <TextEquiv>
+                    <Unicode>ANVERS. - INPR. CL. THIBAUT.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

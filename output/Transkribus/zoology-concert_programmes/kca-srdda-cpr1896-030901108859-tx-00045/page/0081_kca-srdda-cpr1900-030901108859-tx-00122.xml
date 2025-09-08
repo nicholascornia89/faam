@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-20T10:11:07.111+02:00</Created>
+        <LastChange>2023-09-28T09:53:49.628+02:00</LastChange>
+        <TranskribusMetadata docId="1552273" pageId="59880682" pageNr="81" tsid="135877670" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=MYSRKXXJVLHEMGJWWFYAGPZI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DRLZUWMDDUJKPRKYPTWMOQUV" imageId="48330934"/>
+    </Metadata>
+    <Page imageFilename="0081_kca-srdda-cpr1900-030901108859-tx-00122.jpg" imageWidth="1547" imageHeight="2282">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315463489" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1695887625251_2479"/>
+                <RegionRefIndexed index="3" regionRef="region_1695887558073_2456"/>
+                <RegionRefIndexed index="4" regionRef="region_1695887562040_2459"/>
+                <RegionRefIndexed index="5" regionRef="region_1695887587919_2470"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="region_1695887625251_2479" custom="readingOrder {index:0;} structure {type:paragraph;}">
+            <Coords points="1033,382 1213,495 1466,751 1426,804 1366,821 1014,444"/>
+        </TextRegion>
+        <ImageRegion id="Image_1695887605328_2476" custom="readingOrder {index:1;}">
+            <Coords points="606,1295 982,1295 982,1737 606,1737"/>
+        </ImageRegion>
+        <ImageRegion id="Image_1695887600881_2473" custom="readingOrder {index:2;}">
+            <Coords points="84,41 1504,41 1504,2165 84,2165"/>
+        </ImageRegion>
+        <TextRegion type="paragraph" id="region_1695887558073_2456" custom="readingOrder {index:3;} structure {type:paragraph;}">
+            <Coords points="131,89 1475,89 1475,230 131,230"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887562040_2459" custom="readingOrder {index:4;} structure {type:paragraph;}">
+            <Coords points="602,1732 971,1732 971,1814 602,1814"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="region_1695887587919_2470" custom="readingOrder {index:5;} structure {type:paragraph;}">
+            <Coords points="616,2157 994,2157 994,2218 616,2218"/>
+        </TextRegion>
+    </Page>
+</PcGts>

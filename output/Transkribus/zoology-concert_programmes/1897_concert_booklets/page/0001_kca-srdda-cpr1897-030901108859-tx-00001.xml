@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.7.0:model_id=51170:date=20_11_2023_10:36</Creator>
+        <Created>2023-11-13T18:51:47.284022</Created>
+        <LastChange>2024-02-15T10:47:41.895+01:00</LastChange>
+        <TranskribusMetadata docId="1599536" pageId="60352283" pageNr="1" tsid="148831988" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=GMXMTQRIGMYGNSZQMPRFLCWM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RLOBHWWYCBTJKBNUEGTWGKEW" imageId="48736441"/>
+    </Metadata>
+    <Page imageFilename="0001_kca-srdda-cpr1897-030901108859-tx-00001.jpg" imageWidth="1967" imageHeight="3003">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315548785" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2254"/>
+                <RegionRefIndexed index="2" regionRef="r_2275"/>
+                <RegionRefIndexed index="3" regionRef="r_2296"/>
+                <RegionRefIndexed index="4" regionRef="r_2317"/>
+                <RegionRefIndexed index="5" regionRef="r_2338"/>
+                <RegionRefIndexed index="6" regionRef="r_2359"/>
+                <RegionRefIndexed index="8" regionRef="r_2380"/>
+                <RegionRefIndexed index="9" regionRef="r_2765"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="322,161 1748,161 1748,340 322,340"/>
+            <TextLine id="l_2474" custom="readingOrder {index:0;}">
+                <Coords points="352,263 1703,255 1703,235 352,243"/>
+                <Baseline points="352,258 1703,250"/>
+                <TextEquiv>
+                    <Unicode>Koninklijke Maatschappij van Dierkunde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2499" custom="readingOrder {index:1;}">
+                <Coords points="799,335 1268,337 1268,317 799,315"/>
+                <Baseline points="799,330 1268,332"/>
+                <TextEquiv>
+                    <Unicode>VAN ANTWERPEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2254" custom="readingOrder {index:1;}">
+            <Coords points="593,451 1431,451 1431,547 593,547"/>
+            <TextLine id="l_2524" custom="readingOrder {index:0;} date {offset:0; length:17;wikiData:Q69251125;}">
+                <Coords points="638,528 1381,528 1381,508 638,508"/>
+                <Baseline points="638,523 1381,523"/>
+                <TextEquiv>
+                    <Unicode>ZONDAG 2 MEI 1897</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2275" custom="readingOrder {index:2;}">
+            <Coords points="824,569 1198,569 1198,620 824,620"/>
+            <TextLine id="l_2549" custom="readingOrder {index:0;}">
+                <Coords points="834,607 1180,610 1180,590 834,587"/>
+                <Baseline points="834,602 1180,605"/>
+                <TextEquiv>
+                    <Unicode>te 8 ure 's avonds</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2296" custom="readingOrder {index:3;}">
+            <Coords points="312,638 1751,638 1751,870 312,870"/>
+            <TextLine id="l_2574" custom="readingOrder {index:0;}">
+                <Coords points="386,858 623,819 834,803 1127,793 1233,848 1381,863 1414,849 1484,820 1712,808 1711,788 1481,800 1409,830 1378,843 1238,829 1130,774 833,783 622,799 383,838"/>
+                <Baseline points="386,853 623,814 834,798 1127,788 1233,843 1381,858 1414,844 1484,815 1712,803"/>
+                <TextEquiv>
+                    <Unicode>Synfonisch Concert</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2317" custom="readingOrder {index:4;}">
+            <Coords points="425,890 1640,890 1640,1060 425,1060"/>
+            <TextLine id="l_2641" custom="readingOrder {index:0;}">
+                <Coords points="620,959 1426,960 1426,940 620,939"/>
+                <Baseline points="620,954 1426,955"/>
+                <TextEquiv>
+                    <Unicode>door het Orkest der Maatschappij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2666" custom="readingOrder {index:1;} person {offset:24; length:15;wikiData:Q2750289;}">
+                <Coords points="449,1038 1602,1040 1602,1020 449,1018"/>
+                <Baseline points="449,1033 1602,1035"/>
+                <TextEquiv>
+                    <Unicode>onder de leiding van M. EDWARD KEURVELS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2338" custom="readingOrder {index:5;}">
+            <Coords points="792,1126 1269,1126 1269,1191 792,1191"/>
+            <TextLine id="l_2691" custom="readingOrder {index:0;}">
+                <Coords points="816,1184 1237,1182 1236,1162 816,1164"/>
+                <Baseline points="816,1179 1237,1177"/>
+                <TextEquiv>
+                    <Unicode>PROGRAMMA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2359" custom="readingOrder {index:6;}">
+            <Coords points="848,1266 1211,1266 1211,1322 848,1322"/>
+            <TextLine id="l_2728" custom="readingOrder {index:0;}">
+                <Coords points="870,1315 1191,1317 1191,1297 870,1295"/>
+                <Baseline points="870,1310 1191,1312"/>
+                <TextEquiv>
+                    <Unicode>EERSTE DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TableRegion id="t1" custom="readingOrder {index:7;}">
+            <Coords points="264,1340 1796,1340 1796,2420 264,2420"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c1">
+                <Coords points="264,1340 264,1431 1344,1429 1344,1340"/>
+                <TextLine id="l_1740" custom="readingOrder {index:0;}">
+                    <Coords points="278,1408 899,1411 1323,1406 1323,1386 899,1391 278,1388"/>
+                    <Baseline points="278,1403 899,1406 1323,1401"/>
+                    <TextEquiv>
+                        <Unicode>1. Hochzeits-Marsch...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c2">
+                <Coords points="1344,1340 1344,1429 1796,1428 1796,1340"/>
+                <TextLine id="l" custom="readingOrder {index:0;} person {offset:0; length:15;wikiData:Q46096;}">
+                    <Coords points="1350,1400 1760,1400 1760,1380 1350,1380"/>
+                    <Baseline points="1350,1395 1760,1395"/>
+                    <TextEquiv>
+                        <Unicode>F. MENDELSSOHN.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c3">
+                <Coords points="264,1431 264,1512 1344,1509 1344,1429"/>
+                <TextLine id="t1c3_tl_2" custom="readingOrder {index:0;}">
+                    <Coords points="268,1521 313,1541 463,1498 650,1534 983,1515 983,1463 960,1459 888,1480 744,1441 685,1465 398,1435 326,1470 268,1455"/>
+                    <Baseline points="279,1489 309,1491 339,1491 369,1491 399,1489 429,1491 459,1491 489,1489 519,1489 549,1487 579,1489 609,1489 639,1489 669,1489 699,1489 729,1489 759,1489 789,1489 819,1487 849,1489 863,1489 876,1491 907,1491 937,1491 967,1491 1327,1491"/>
+                    <TextEquiv>
+                        <Unicode>2. Jubel-Ouverture</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c4">
+                <Coords points="1344,1429 1344,1509 1796,1508 1796,1428"/>
+                <TextLine id="t1c4_tl_1" custom="readingOrder {index:0;} person {offset:0; length:16;wikiData:Q154812;}">
+                    <Coords points="1338,1506 1379,1496 1398,1508 1470,1506 1502,1491 1603,1506 1632,1493 1653,1511 1720,1515 1742,1508 1744,1433 1683,1452 1632,1433 1530,1452 1498,1452 1470,1433 1431,1446 1398,1433 1361,1452 1340,1444"/>
+                    <Baseline points="1351,1483 1359,1481 1389,1483 1419,1483 1449,1483 1479,1483 1509,1483 1539,1481 1569,1483 1599,1481 1629,1483 1659,1479 1689,1479 1719,1479 1749,1479"/>
+                    <TextEquiv>
+                        <Unicode>C. M. VON WEBER.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c5">
+                <Coords points="264,1512 264,1622 1344,1622 1344,1509"/>
+                <TextLine id="t1c5_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="268,1584 508,1595 583,1632 653,1593 776,1588 959,1621 1026,1586 1258,1601 1308,1584 1308,1547 1089,1567 798,1521 717,1556 409,1552 348,1524 268,1549"/>
+                    <Baseline points="279,1579 309,1581 339,1581 369,1581 399,1581 429,1581 459,1583 489,1581 519,1581 549,1581 579,1581 609,1581 639,1581 669,1581 699,1581 729,1579 759,1581 789,1579 819,1581 849,1581 879,1579 909,1579 939,1579 969,1579 999,1581 1029,1581 1059,1581 1089,1581 1119,1583 1149,1583 1179,1583 1209,1583 1239,1583 1259,1581 1265,1581 1283,1579 1313,1579"/>
+                    <TextEquiv>
+                        <Unicode>3. Hungaarsche Dansen</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c6">
+                <Coords points="1344,1509 1344,1622 1796,1622 1796,1508"/>
+                <TextLine id="t1c6_tl_1" custom="readingOrder {index:0;} person {offset:0; length:12;wikiData:Q7294;}">
+                    <Coords points="1366,1591 1402,1573 1461,1562 1517,1584 1556,1565 1599,1575 1621,1569 1632,1578 1655,1569 1655,1504 1630,1493 1610,1509 1580,1513 1509,1504 1500,1511 1482,1498 1470,1508 1418,1511 1366,1500"/>
+                    <Baseline points="1377,1559 1389,1561 1419,1561 1449,1561 1479,1561 1509,1561 1539,1559 1569,1559 1599,1559 1629,1559 1659,1557"/>
+                    <TextEquiv>
+                        <Unicode>JOH. BRAHMS.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c6_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="1385,1632 1461,1629 1476,1638 1502,1629 1521,1636 1534,1629 1604,1636 1629,1629 1630,1569 1606,1575 1556,1565 1506,1582 1489,1567 1459,1562 1448,1571 1441,1565 1387,1576"/>
+                    <Baseline points="1397,1603 1425,1603 1455,1603 1485,1601 1515,1601 1545,1601 1575,1603 1605,1603 1635,1601"/>
+                    <TextEquiv>
+                        <Unicode>1833 - 1897.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c7">
+                <Coords points="264,1622 264,1781 1344,1779 1344,1622"/>
+                <TextLine id="t1c7_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="274,1692 1258,1688 1258,1653 1024,1645 951,1614 772,1653 274,1623"/>
+                    <Baseline points="283,1679 303,1681 333,1679 363,1677 393,1679 423,1679 453,1677 483,1679 513,1677 543,1677 573,1677 603,1677 633,1677 663,1675 693,1675 723,1675 753,1675 783,1673 813,1673 843,1675 873,1675 903,1673 933,1673 963,1673 993,1673 1023,1673 1053,1673 1083,1671 1113,1673 1143,1673 1173,1673 1203,1675 1233,1675 1263,1673"/>
+                    <TextEquiv>
+                        <Unicode>4. Napolitaansche tafereelen.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c7_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="400,1746 1301,1751 1329,1742 1329,1690 400,1696"/>
+                    <Baseline points="411,1725 433,1725 463,1725 493,1723 523,1723 553,1723 583,1723 613,1723 643,1723 673,1725 703,1723 733,1723 763,1723 793,1723 823,1721 853,1721 883,1721 913,1721 943,1721 973,1721 1003,1721 1033,1721 1063,1721 1093,1721 1123,1719 1153,1719 1183,1719 1213,1719 1243,1717 1273,1717 1303,1717 1333,1717"/>
+                    <TextEquiv>
+                        <Unicode>A) De Dans. n) De Processie en de Improvisator.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c7_tl_3" custom="readingOrder {index:2;}">
+                    <Coords points="402,1789 424,1798 439,1787 471,1791 506,1781 581,1809 651,1800 651,1733 575,1740 557,1729 504,1742 488,1733 402,1740"/>
+                    <Baseline points="413,1767 415,1765 445,1767 475,1767 505,1765 535,1767 565,1765 595,1765 625,1765 655,1765"/>
+                    <TextEquiv>
+                        <Unicode>e) Het Feest.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c8">
+                <Coords points="1344,1622 1344,1779 1796,1778 1796,1622"/>
+                <TextLine id="t1c8_tl_1" custom="readingOrder {index:0;} person {offset:0; length:12;wikiData:Q194436;}">
+                    <Coords points="1355,1694 1396,1703 1437,1675 1465,1690 1519,1675 1537,1692 1552,1683 1645,1692 1647,1630 1614,1638 1502,1630 1482,1640 1454,1629 1357,1630"/>
+                    <Baseline points="1365,1677 1381,1673 1411,1671 1441,1669 1471,1669 1501,1669 1531,1667 1561,1667 1591,1667 1621,1667 1651,1669"/>
+                    <TextEquiv>
+                        <Unicode>J. MASSENET.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c9">
+                <Coords points="264,1781 264,1997 1344,1996 1344,1779"/>
+                <TextLine id="l_1904" custom="readingOrder {index:0;}">
+                    <Coords points="273,1981 1321,1985 1321,1965 273,1961"/>
+                    <Baseline points="273,1976 1321,1980"/>
+                    <TextEquiv>
+                        <Unicode>5. Tannhauser (Openingstuk)...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="4" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c10">
+                <Coords points="1344,1779 1344,1996 1796,1995 1796,1778"/>
+                <TextLine id="l_1843" custom="readingOrder {index:0;} person {offset:0; length:12;wikiData:Q1511;}">
+                    <Coords points="1350,1975 1713,1972 1713,1952 1350,1955"/>
+                    <Baseline points="1350,1970 1713,1967"/>
+                    <TextEquiv>
+                        <Unicode>RICH WAGNER.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c11">
+                <Coords points="264,1997 264,2173 1344,2173 1344,1996"/>
+                <TextLine id="l_2039" custom="readingOrder {index:0;}">
+                    <Coords points="282,2072 1275,2065 1275,2045 281,2052"/>
+                    <Baseline points="282,2067 1275,2060"/>
+                    <TextEquiv>
+                        <Unicode>6 Ballet van het zangspel Henry VIII.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c11_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="400,2127 685,2107 704,2124 761,2109 972,2129 1011,2111 1063,2131 1078,2081 921,2064 895,2083 841,2068 592,2088 564,2068 400,2092"/>
+                    <Baseline points="411,2109 421,2111 451,2111 481,2109 511,2107 541,2109 571,2109 601,2107 631,2107 661,2107 691,2105 721,2105 751,2105 781,2105 811,2105 841,2105 871,2105 901,2105 931,2105 961,2103 991,2103 1021,2103 1051,2101 1081,2103"/>
+                    <TextEquiv>
+                        <Unicode>A) Inleiding en intocht der Stammen.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c11_tl_3" custom="readingOrder {index:2;}">
+                    <Coords points="402,2157 519,2178 664,2170 677,2183 698,2166 758,2159 825,2178 847,2172 849,2124 743,2111 705,2126 685,2109 618,2127 590,2114 510,2127 491,2114 462,2133 432,2118 404,2129"/>
+                    <Baseline points="413,2151 429,2151 459,2149 489,2151 519,2149 549,2149 579,2149 609,2147 639,2147 669,2145 699,2145 729,2145 759,2145 789,2145 819,2143 849,2145"/>
+                    <TextEquiv>
+                        <Unicode>B) Dans der Zigeunerin.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="5" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c12">
+                <Coords points="1344,1996 1344,2173 1796,2173 1796,1995"/>
+                <TextLine id="l_1978" custom="readingOrder {index:0;} person {offset:0; length:17;wikiData:Q150445;}">
+                    <Coords points="1357,2065 1764,2058 1764,2038 1357,2045"/>
+                    <Baseline points="1357,2060 1764,2053"/>
+                    <TextEquiv>
+                        <Unicode>CAM. SAINT-SAËNS.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c13">
+                <Coords points="264,2173 264,2268 1344,2268 1344,2173"/>
+                <TextLine id="t1c13_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="281,2260 428,2247 597,2280 882,2234 983,2284 1013,2258 1098,2260 1100,2198 890,2178 744,2204 283,2193"/>
+                    <Baseline points="291,2239 293,2241 323,2237 353,2237 383,2237 413,2237 443,2237 473,2237 503,2237 533,2237 563,2235 593,2235 623,2233 653,2233 683,2233 713,2233 743,2233 773,2233 803,2233 833,2231 863,2231 893,2229 923,2229 953,2229 983,2229 1013,2229 1043,2231 1073,2231 1343,2238"/>
+                    <TextEquiv>
+                        <Unicode>7. Chenonceaux (Walsenreeks) ...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="6" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c14">
+                <Coords points="1344,2173 1344,2268 1796,2268 1796,2173"/>
+                <TextLine id="l_2112" custom="readingOrder {index:0;} person {offset:0; length:12; continued:true;wikiData:Q18414262;}">
+                    <Coords points="1361,2239 1647,2234 1647,2214 1360,2219"/>
+                    <Baseline points="1361,2234 1647,2229"/>
+                    <TextEquiv>
+                        <Unicode>G. MICHIELS.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="0" rowSpan="1" colSpan="1" orientation="0.0" id="t1c15">
+                <Coords points="264,2268 264,2420 1328,2419 1344,2268"/>
+                <TextLine id="t1c15_tl_1" custom="readingOrder {index:0;}">
+                    <Coords points="277,2351 342,2328 389,2360 718,2358 769,2332 808,2362 1035,2347 1068,2371 1145,2334 1310,2332 1327,2276 1197,2252 1085,2291 862,2256 724,2297 277,2284"/>
+                    <Baseline points="287,2325 309,2327 339,2327 369,2327 399,2329 429,2329 459,2329 489,2329 519,2329 549,2327 579,2325 609,2325 639,2327 669,2325 699,2325 729,2323 759,2323 789,2323 819,2323 849,2321 879,2321 909,2321 939,2321 969,2319 999,2319 1029,2319 1059,2319 1089,2319 1119,2319 1149,2319 1179,2319 1209,2319 1239,2317 1269,2317 1299,2315 1329,2317"/>
+                    <TextEquiv>
+                        <Unicode>8. Wijdingsmarsch van het zangspel Le</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="t1c15_tl_2" custom="readingOrder {index:1;}">
+                    <Coords points="393,2421 473,2427 521,2449 584,2420 631,2436 661,2431 715,2397 795,2416 795,2360 735,2371 700,2349 674,2358 629,2340 557,2364 439,2349 393,2366"/>
+                    <Baseline points="403,2395 433,2393 463,2393 493,2395 523,2393 553,2393 583,2393 613,2393 643,2393 673,2391 703,2393 733,2393 763,2395 793,2395 1315,2397"/>
+                    <TextEquiv>
+                        <Unicode>Prophète...</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="7" col="1" rowSpan="1" colSpan="1" orientation="0.0" id="t1c16">
+                <Coords points="1344,2268 1328,2419 1796,2420 1796,2268"/>
+                <TextLine id="l_2161" custom="readingOrder {index:0;} person {offset:0; length:12;wikiData:Q105237;}">
+                    <Coords points="1345,2394 1675,2390 1675,2370 1344,2374"/>
+                    <Baseline points="1345,2389 1675,2385"/>
+                    <TextEquiv>
+                        <Unicode>G. MEYERBER.</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TextRegion id="r_2380" custom="readingOrder {index:8;}">
+            <Coords points="840,1807 1224,1807 1224,1858 840,1858"/>
+            <TextLine id="l_2437" custom="readingOrder {index:0;}">
+                <Coords points="868,1854 1182,1854 1182,1834 868,1834"/>
+                <Baseline points="868,1849 1182,1849"/>
+                <TextEquiv>
+                    <Unicode>TWEEDE DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2765" custom="readingOrder {index:9;}">
+            <Coords points="286,2527 1835,2504 1837,2787 271,2801"/>
+            <TextLine id="l_2798" custom="readingOrder {index:0;}">
+                <Coords points="358,2587 1677,2563 1677,2543 358,2567"/>
+                <Baseline points="358,2582 1677,2558"/>
+                <TextEquiv>
+                    <Unicode>Donderdag 6 mei, te 8 ure 's avonds, uitvoering van belgische werken.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2823" custom="readingOrder {index:1;}">
+                <Coords points="284,2659 953,2653 1787,2638 1787,2618 953,2633 283,2639"/>
+                <Baseline points="284,2654 953,2648 1787,2633"/>
+                <TextEquiv>
+                    <Unicode>Niet ingenome stoelen of plaatsen mogen onder geen woorwendsel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2854" custom="readingOrder {index:2;}">
+                <Coords points="362,2714 836,2704 835,2684 362,2694"/>
+                <Baseline points="362,2709 836,2699"/>
+                <TextEquiv>
+                    <Unicode>voorbehouden worden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2879" custom="readingOrder {index:3;}">
+                <Coords points="779,2767 1280,2759 1280,2739 779,2747"/>
+                <Baseline points="779,2762 1280,2754"/>
+                <TextEquiv>
+                    <Unicode>Drukk. CL. THIBAULT, Gratiekapelstr. 7.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
