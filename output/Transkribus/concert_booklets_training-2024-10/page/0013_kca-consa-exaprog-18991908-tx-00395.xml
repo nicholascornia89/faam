@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-10-15T15:12:36.928+02:00</Created>
+        <LastChange>2024-11-08T10:38:50.139+01:00</LastChange>
+        <TranskribusMetadata docId="4642092" pageId="80333450" pageNr="13" tsid="200234628" status="DONE" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=BWFSODFENXDQVRGWVAECQZSP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IHMMGNUHZRUCMWNDWMUTEXXE" imageId="65794184"/>
+    </Metadata>
+    <Page imageFilename="0013_kca-consa-exaprog-18991908-tx-00395.jpg" imageWidth="1987" imageHeight="2838">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316077167" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_34"/>
+                <RegionRefIndexed index="2" regionRef="r_18"/>
+                <RegionRefIndexed index="3" regionRef="r_2"/>
+                <RegionRefIndexed index="4" regionRef="r_33"/>
+                <RegionRefIndexed index="5" regionRef="r_32"/>
+                <RegionRefIndexed index="6" regionRef="r_19"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:has_librettist;}">
+                <RegionRef regionRef="r"/>
+                <RegionRef regionRef="r_34"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_librettist;}">
+                <RegionRef regionRef="r_2"/>
+                <RegionRef regionRef="r_33"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:musical_piece;}">
+            <Coords points="776,310 1309,310 1309,393 776,393"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_34" custom="readingOrder {index:1;} structure {type:librettist;}">
+            <Coords points="1410,444 1713,444 1713,502 1410,502"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_18" custom="readingOrder {index:2;}">
+            <Coords points="705,534 1458,534 1458,1051 705,1051"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:3;} structure {type:musical_piece;}">
+            <Coords points="825,1234 1264,1234 1264,1318 825,1318"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_33" custom="readingOrder {index:4;} structure {type:librettist;}">
+            <Coords points="1619,1351 1877,1351 1877,1417 1619,1417"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_32" custom="readingOrder {index:5;}">
+            <Coords points="1030,1454 1931,1454 1931,2101 1030,2101"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_19" custom="readingOrder {index:6;}">
+            <Coords points="212,1459 998,1455 998,2108 206,2100"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

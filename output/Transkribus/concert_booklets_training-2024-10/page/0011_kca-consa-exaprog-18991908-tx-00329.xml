@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-10-15T15:12:36.671+02:00</Created>
+        <LastChange>2024-11-06T16:18:56.973+01:00</LastChange>
+        <TranskribusMetadata docId="4642092" pageId="80333426" pageNr="11" tsid="199626805" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=RIMQPFNLJCOOOELDXOXAYHTM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VBISPXWRSTHSLJDGUNPJLFGV" imageId="65794180"/>
+    </Metadata>
+    <Page imageFilename="0011_kca-consa-exaprog-18991908-tx-00329.jpg" imageWidth="1844" imageHeight="2816">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316076890" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_5"/>
+                <RegionRefIndexed index="2" regionRef="r_9"/>
+                <RegionRefIndexed index="3" regionRef="r_26"/>
+                <RegionRefIndexed index="4" regionRef="r_131"/>
+                <RegionRefIndexed index="5" regionRef="r_133"/>
+                <RegionRefIndexed index="6" regionRef="r_137"/>
+                <RegionRefIndexed index="7" regionRef="r_141"/>
+                <RegionRefIndexed index="8" regionRef="r_145"/>
+                <RegionRefIndexed index="9" regionRef="r_139"/>
+                <RegionRefIndexed index="10" regionRef="r_143"/>
+                <RegionRefIndexed index="11" regionRef="r_135"/>
+                <RegionRefIndexed index="12" regionRef="r_23"/>
+                <RegionRefIndexed index="13" regionRef="r_8"/>
+                <RegionRefIndexed index="14" regionRef="r_7"/>
+                <RegionRefIndexed index="15" regionRef="r_6"/>
+                <RegionRefIndexed index="16" regionRef="r_25"/>
+                <RegionRefIndexed index="17" regionRef="r_130"/>
+                <RegionRefIndexed index="18" regionRef="r_134"/>
+                <RegionRefIndexed index="19" regionRef="r_136"/>
+                <RegionRefIndexed index="20" regionRef="r_140"/>
+                <RegionRefIndexed index="21" regionRef="r_144"/>
+                <RegionRefIndexed index="22" regionRef="r_142"/>
+                <RegionRefIndexed index="23" regionRef="r_132"/>
+                <RegionRefIndexed index="24" regionRef="r_138"/>
+                <RegionRefIndexed index="25" regionRef="r_22"/>
+                <RegionRefIndexed index="26" regionRef="r_4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations>
+            <Relation type="link" custom="relationName {value:has_composer;}">
+                <RegionRef regionRef="r_4"/>
+                <RegionRef regionRef="r_5"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_composer;}">
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_9"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_performer;}">
+                <RegionRef regionRef="r_6"/>
+                <RegionRef regionRef="r_7"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_teacher;}">
+                <RegionRef regionRef="r_7"/>
+                <RegionRef regionRef="r_8"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_performer;}">
+                <RegionRef regionRef="r_22"/>
+                <RegionRef regionRef="r_25"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_composer;}">
+                <RegionRef regionRef="r_22"/>
+                <RegionRef regionRef="r_23"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_teacher;}">
+                <RegionRef regionRef="r_25"/>
+                <RegionRef regionRef="r_26"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_composer;}">
+                <RegionRef regionRef="r_130"/>
+                <RegionRef regionRef="r_131"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_performer;}">
+                <RegionRef regionRef="r_130"/>
+                <RegionRef regionRef="r_132"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_teacher;}">
+                <RegionRef regionRef="r_132"/>
+                <RegionRef regionRef="r_133"/>
+            </Relation>
+            <Relation type="link" custom="relationName {value:has_composer;}">
+                <RegionRef/>
+                <RegionRef regionRef="r_142"/>
+            </Relation>
+        </Relations>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="574,273 1230,278 1233,358 572,358"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="572,347 1232,358 1233,328 572,317"/>
+                <Baseline points="572,347 1232,358"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_5" custom="readingOrder {index:1;} structure {type:composer;}">
+            <Coords points="1284,643 1621,643 1621,706 1284,706"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:2;} structure {type:composer;}">
+            <Coords points="1261,792 1610,792 1610,851 1261,851"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_26" custom="readingOrder {index:3;} structure {type:teacher;}">
+            <Coords points="1034,1076 1453,1076 1453,1133 1034,1133"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_131" custom="readingOrder {index:4;} structure {type:composer;}">
+            <Coords points="991,1171 1612,1171 1612,1230 991,1230"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_133" custom="readingOrder {index:5;} structure {type:teacher;}">
+            <Coords points="1177,1239 1439,1239 1439,1292 1177,1292"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_137" custom="readingOrder {index:6;} structure {type:teacher;}">
+            <Coords points="931,1397 1543,1397 1543,1455 931,1455"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_141" custom="readingOrder {index:7;} structure {type:teacher;}">
+            <Coords points="1014,1619 1438,1619 1438,1685 1014,1685"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_145" custom="readingOrder {index:8;} structure {type:teacher;}">
+            <Coords points="1039,1836 1438,1836 1438,1906 1039,1906"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_139" custom="readingOrder {index:9;} structure {type:composer;}">
+            <Coords points="1145,1561 1615,1561 1615,1622 1145,1622"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_143" custom="readingOrder {index:10;} structure {type:composer;}">
+            <Coords points="1242,1712 1618,1712 1618,1789 1242,1789"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_135" custom="readingOrder {index:11;} structure {type:composer;}">
+            <Coords points="1196,1330 1620,1330 1620,1393 1196,1393"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_23" custom="readingOrder {index:12;} structure {type:composer;}">
+            <Coords points="1247,955 1611,955 1611,1013 1247,1013"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_8" custom="readingOrder {index:13;} structure {type:teacher;}">
+            <Coords points="1046,858 1506,858 1506,913 1046,913"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_7" custom="readingOrder {index:14;} structure {type:performer;}">
+            <Coords points="304,857 781,857 781,918 304,918"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_6" custom="readingOrder {index:15;} structure {type:musical_piece;}">
+            <Coords points="277,795 977,795 977,851 277,851"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_25" custom="readingOrder {index:16;} structure {type:performer;}">
+            <Coords points="340,1066 784,1066 784,1129 340,1129"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_130" custom="readingOrder {index:17;} structure {type:musical_piece;}">
+            <Coords points="282,1169 898,1169 898,1227 282,1227"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_134" custom="readingOrder {index:18;} structure {type:musical_piece;}">
+            <Coords points="275,1327 789,1327 789,1404 275,1404"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_136" custom="readingOrder {index:19;} structure {type:performer;}">
+            <Coords points="274,1405 684,1405 684,1455 274,1455"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_140" custom="readingOrder {index:20;} structure {type:performer;}">
+            <Coords points="360,1610 771,1610 771,1677 360,1677"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_144" custom="readingOrder {index:21;} structure {type:performer;}">
+            <Coords points="362,1836 791,1836 791,1906 362,1906"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_142" custom="readingOrder {index:22;} structure {type:musical_piece;}">
+            <Coords points="277,1711 1228,1711 1228,1826 277,1826"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_132" custom="readingOrder {index:23;} structure {type:performer;}">
+            <Coords points="425,1237 929,1237 929,1288 425,1288"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_138" custom="readingOrder {index:24;} structure {type:musical_piece;}">
+            <Coords points="276,1492 1362,1492 1362,1554 276,1554"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_22" custom="readingOrder {index:25;} structure {type:musical_piece;}">
+            <Coords points="279,950 1182,950 1229,1019 1413,1025 1448,1064 1104,1062 828,1068 340,1065 279,1013"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:26;} structure {type:musical_piece;}">
+            <Coords points="284,634 1238,634 1231,697 299,693"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

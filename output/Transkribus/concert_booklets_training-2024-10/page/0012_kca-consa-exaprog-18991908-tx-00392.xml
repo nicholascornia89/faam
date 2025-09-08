@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-10-15T15:12:36.802+02:00</Created>
+        <LastChange>2024-11-08T10:38:59.544+01:00</LastChange>
+        <TranskribusMetadata docId="4642092" pageId="80333428" pageNr="12" tsid="200235353" status="DONE" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=FVTQCRUICGUQFXJCFWEGOOEC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DHURVHUXRXEIKGGFSMWOGNGC" imageId="65794182"/>
+    </Metadata>
+    <Page imageFilename="0012_kca-consa-exaprog-18991908-tx-00392.jpg" imageWidth="1917" imageHeight="2908">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316077008" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="257,505 1617,505 1617,786 257,786"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="197,1399 1715,1399 1715,1745 197,1745"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;} structure {type:date;}">
+            <Coords points="529,1790 1512,1790 1512,1891 529,1891"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

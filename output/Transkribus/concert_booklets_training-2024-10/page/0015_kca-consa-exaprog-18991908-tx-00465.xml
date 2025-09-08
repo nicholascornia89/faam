@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-10-15T15:12:37.223+02:00</Created>
+        <LastChange>2024-11-08T10:39:50.028+01:00</LastChange>
+        <TranskribusMetadata docId="4642092" pageId="80333469" pageNr="15" tsid="200235655" status="DONE" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=TQRQGZMDCCIELTOUTMRHZTCX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MDKQNEDPQMHVSPUTBRPMGGNQ" imageId="65794186"/>
+    </Metadata>
+    <Page imageFilename="0015_kca-consa-exaprog-18991908-tx-00465.jpg" imageWidth="2022" imageHeight="2999">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757316077441" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_2"/>
+                <RegionRefIndexed index="2" regionRef="r_3"/>
+                <RegionRefIndexed index="3" regionRef="r_4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="191,214 1683,214 1683,548 191,548"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:1;} structure {type:heading;}">
+            <Coords points="103,915 1795,915 1795,1338 103,1338"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_3" custom="readingOrder {index:2;} structure {type:heading;}">
+            <Coords points="247,1475 1626,1475 1626,1653 247,1653"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_4" custom="readingOrder {index:3;} structure {type:date;}">
+            <Coords points="367,1818 1624,1818 1624,1917 367,1917"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
