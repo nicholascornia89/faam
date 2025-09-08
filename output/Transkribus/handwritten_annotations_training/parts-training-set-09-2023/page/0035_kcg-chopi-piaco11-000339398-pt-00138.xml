@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-08T11:50:32.585+02:00</Created>
+        <LastChange>2023-09-13T15:32:09.585+02:00</LastChange>
+        <TranskribusMetadata docId="1563742" pageId="59488199" pageNr="35" tsid="134906052" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=NWWKRXMMWBWMMFCZUHCJVMBL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KXTTOIWBTAICWJAHHPAAYACA" imageId="48006144"/>
+    </Metadata>
+    <Page imageFilename="0035_kcg-chopi-piaco11-000339398-pt-00138.jpg" imageWidth="2484" imageHeight="3176">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315568391" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1694611874651_892"/>
+                <RegionRefIndexed index="1" regionRef="region_1694611888633_895"/>
+                <RegionRefIndexed index="2" regionRef="region_1694611906312_898"/>
+                <RegionRefIndexed index="3" regionRef="region_1694611908314_901"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1694611874651_892" custom="readingOrder {index:0;} structure {type:handwritten-annotation;}">
+            <Coords points="48,72 255,68 264,199 53,497 0,506 14,72"/>
+        </TextRegion>
+        <TextRegion id="region_1694611888633_895" custom="readingOrder {index:1;} structure {type:handwritten-annotation;}">
+            <Coords points="1378,70 1673,102 2379,138 2375,424 2272,465 2066,320 1725,356 1462,304 1442,404 1315,338"/>
+        </TextRegion>
+        <TextRegion id="region_1694611906312_898" custom="readingOrder {index:2;} structure {type:handwritten-annotation;}">
+            <Coords points="1384,1023 1472,1023 1472,1092 1384,1092"/>
+        </TextRegion>
+        <TextRegion id="region_1694611908314_901" custom="readingOrder {index:3;} structure {type:handwritten-annotation;}">
+            <Coords points="1437,1091 1523,1091 1523,1239 1437,1239"/>
+        </TextRegion>
+    </Page>
+</PcGts>

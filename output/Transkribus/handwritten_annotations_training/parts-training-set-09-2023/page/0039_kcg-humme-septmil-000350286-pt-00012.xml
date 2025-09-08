@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-08T11:50:32.674+02:00</Created>
+        <LastChange>2023-09-13T15:48:15.749+02:00</LastChange>
+        <TranskribusMetadata docId="1563742" pageId="59488203" pageNr="39" tsid="134907152" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=OVYKGQWMKPRWXNIAHVUPOVPH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WBYWBSRGWXAQCUNHMRLUPVBS" imageId="48006148"/>
+    </Metadata>
+    <Page imageFilename="0039_kcg-humme-septmil-000350286-pt-00012.jpg" imageWidth="2536" imageHeight="3037">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315570910" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1694612816361_1547"/>
+                <RegionRefIndexed index="1" regionRef="region_1694612818529_1550"/>
+                <RegionRefIndexed index="2" regionRef="region_1694612821123_1553"/>
+                <RegionRefIndexed index="3" regionRef="region_1694612840848_1560"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1694612816361_1547" custom="readingOrder {index:0;} structure {type:handwritten-annotation;}">
+            <Coords points="53,83 369,83 369,307 53,307"/>
+        </TextRegion>
+        <TextRegion id="region_1694612818529_1550" custom="readingOrder {index:1;} structure {type:handwritten-annotation;}">
+            <Coords points="683,63 1058,62 1058,239 683,240"/>
+        </TextRegion>
+        <TextRegion id="region_1694612821123_1553" custom="readingOrder {index:2;} structure {type:handwritten-annotation;}">
+            <Coords points="1724,115 2055,115 2055,269 1724,269"/>
+        </TextRegion>
+        <TextRegion id="region_1694612840848_1560" custom="readingOrder {index:3;} structure {type:handwritten-annotation;}">
+            <Coords points="2113,88 2372,88 2372,278 2113,278"/>
+        </TextRegion>
+    </Page>
+</PcGts>

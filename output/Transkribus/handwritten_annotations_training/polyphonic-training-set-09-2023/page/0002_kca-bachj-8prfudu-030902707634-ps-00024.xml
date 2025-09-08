@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-08T11:59:14.588+02:00</Created>
+        <LastChange>2023-09-13T10:17:19.689+02:00</LastChange>
+        <TranskribusMetadata docId="1563748" pageId="59488245" pageNr="2" tsid="134875485" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=MAVITQMYAHRJGQQETXYDLBOL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GVAXHFBEOURRJSISGNVCTLTW" imageId="48006188"/>
+    </Metadata>
+    <Page imageFilename="0002_kca-bachj-8prfudu-030902707634-ps-00024.jpg" imageWidth="4338" imageHeight="3255">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315608304" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1694593006812_1652"/>
+                <RegionRefIndexed index="1" regionRef="region_1694592995124_1648"/>
+                <RegionRefIndexed index="2" regionRef="region_1694592984300_1644"/>
+                <RegionRefIndexed index="3" regionRef="region_1694592982708_1641"/>
+                <RegionRefIndexed index="4" regionRef="region_1694593015780_1655"/>
+                <RegionRefIndexed index="5" regionRef="region_1694592980772_1638"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1694593006812_1652" custom="readingOrder {index:0;} structure {type:handwritten-annotation;}">
+            <Coords points="133,2201 550,2201 550,2795 133,2795"/>
+        </TextRegion>
+        <TextRegion id="region_1694592995124_1648" custom="readingOrder {index:1;} structure {type:handwritten-annotation;}">
+            <Coords points="1251,1130 1460,1130 1460,1284 1251,1284"/>
+        </TextRegion>
+        <TextRegion id="region_1694592984300_1644" custom="readingOrder {index:2;} structure {type:handwritten-annotation;}">
+            <Coords points="2798,1357 2910,1357 2910,1435 2798,1435"/>
+        </TextRegion>
+        <TextRegion id="region_1694592982708_1641" custom="readingOrder {index:3;} structure {type:handwritten-annotation;}">
+            <Coords points="2883,990 2951,990 2951,1175 2883,1175"/>
+        </TextRegion>
+        <TextRegion id="region_1694593015780_1655" custom="readingOrder {index:4;} structure {type:handwritten-annotation;}">
+            <Coords points="3179,1641 3444,1641 3444,1787 3179,1787"/>
+        </TextRegion>
+        <TextRegion id="region_1694592980772_1638" custom="readingOrder {index:5;} structure {type:handwritten-annotation;}">
+            <Coords points="3619,696 3694,696 3694,790 3619,790"/>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2023-09-08T11:59:14.648+02:00</Created>
+        <LastChange>2023-09-13T10:36:45.789+02:00</LastChange>
+        <TranskribusMetadata docId="1563748" pageId="59488249" pageNr="6" tsid="134876976" status="GT" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=HVXWVCBNEFWYJOAQWBIIFNNT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EALEWSATUUGAMOEFPBZFREUS" imageId="48006192"/>
+    </Metadata>
+    <Page imageFilename="0006_kca-benoi-convolu-030902146890-ps-00014.jpg" imageWidth="2462" imageHeight="3159">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315613903" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1694594158761_1999"/>
+                <RegionRefIndexed index="1" regionRef="region_1694594165913_2002"/>
+                <RegionRefIndexed index="2" regionRef="region_1694594181618_2008"/>
+                <RegionRefIndexed index="3" regionRef="region_1694594175273_2005"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1694594158761_1999" custom="readingOrder {index:0;} structure {type:handwritten-annotation;}">
+            <Coords points="420,2469 857,2498 1078,2496 1073,2536 890,2542 1102,2593 1090,2628 618,2551 396,2513"/>
+        </TextRegion>
+        <TextRegion id="region_1694594165913_2002" custom="readingOrder {index:1;} structure {type:handwritten-annotation;}">
+            <Coords points="1113,2576 1180,2474 1212,2472 1242,2587 1186,2595 1182,2554 1129,2633"/>
+        </TextRegion>
+        <TextRegion id="region_1694594181618_2008" custom="readingOrder {index:2;} structure {type:handwritten-annotation;}">
+            <Coords points="1140,2950 1386,2933 1411,2966 1406,3001 1223,3044 1150,3065"/>
+        </TextRegion>
+        <TextRegion id="region_1694594175273_2005" custom="readingOrder {index:3;} structure {type:handwritten-annotation;}">
+            <Coords points="1336,2560 1651,2498 1960,2469 2199,2445 2189,2481 2286,2465 2426,2469 2442,2531 1941,2558 1314,2598"/>
+        </TextRegion>
+    </Page>
+</PcGts>
