@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=TrHtr:version=2.18.1:model_id=51170:date=16_10_2024_05:36</Creator>
+        <Created>2024-10-15T15:15:24.846+02:00</Created>
+        <LastChange>2024-10-16T05:36:34.270+02:00</LastChange>
+        <TranskribusMetadata docId="4641973" pageId="80334489" pageNr="249" tsid="193993592" status="IN_PROGRESS" userId="131016" imgUrl="https://files.transkribus.eu/Get?id=MYJVLMNQGPJBUZDSBNVMRVGL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NZMOWGQXKXKSEBCSATYJUOCQ" imageId="65795032"/>
+    </Metadata>
+    <Page imageFilename="0249_kca-srdda-cpr1904-030901108875-tx-00249.jpg" imageWidth="2056" imageHeight="3270">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757315651015" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="tr_2"/>
+                <RegionRefIndexed index="1" regionRef="tr_1"/>
+                <RegionRefIndexed index="2" regionRef="tr_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="tr_2" custom="readingOrder {index:0;}">
+            <Coords points="223,278 1772,278 1772,1269 223,1269"/>
+            <TextLine id="tr_2_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="478,348 1308,381 1609,350 1609,284 1561,271 973,288 760,249 478,275"/>
+                <Baseline points="489,331 534,331 578,328 623,328 668,331 713,334 757,334 802,334 847,334 892,334 936,334 981,334 1026,334 1071,337 1115,337 1160,337 1205,334 1250,334 1294,334 1339,334 1384,334 1429,334 1473,334 1518,337 1563,337 1608,337 1614,337"/>
+                <TextEquiv>
+                    <Unicode>Koninklijke Maatschappij van Dierkunde</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="830,464 902,456 940,469 969,445 1006,456 1107,440 1142,460 1208,440 1261,465 1292,458 1292,370 1242,388 1200,366 1121,388 1059,377 984,394 867,370 830,390"/>
+                <Baseline points="841,429 886,429 930,432 975,432 1020,432 1065,432 1109,432 1154,432 1199,432 1244,432 1288,432 1297,432"/>
+                <TextEquiv>
+                    <Unicode>VAN ANTWERPEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="332,541 1283,519 1490,563 1745,530 1767,467 330,454"/>
+                <Baseline points="340,501 384,501 429,504 474,504 519,504 563,507 608,504 653,507 698,504 742,504 787,507 832,507 877,507 921,510 966,510 1011,510 1056,510 1100,510 1145,510 1190,510 1235,510 1279,510 1324,513 1369,513 1414,513 1458,513 1503,516 1548,513 1593,513 1637,513 1682,513 1727,513 1772,510"/>
+                <TextEquiv>
+                    <Unicode>kauppuudestoimin Uuodentuun kauppaa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="379,597 1710,636 1710,564 1622,550 379,555"/>
+                <Baseline points="390,596 435,599 480,599 525,599 569,602 614,602 659,599 704,599 748,602 793,602 838,602 883,602 927,605 972,602 1017,602 1062,602 1106,605 1151,605 1196,608 1241,608 1285,605 1330,605 1375,605 1420,608 1464,608 1509,608 1554,608 1599,608 1643,608 1688,611 1715,611"/>
+                <TextEquiv>
+                    <Unicode>Zondag 25 December 1904, te 3½ uren ’snamiddags</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="326,830 429,880 702,828 1710,845 1695,695 1371,696 1312,749 1253,717 1184,753 1114,698 731,698 700,733 438,700 326,757"/>
+                <Baseline points="337,811 381,808 426,811 471,808 516,811 560,811 605,811 650,811 695,811 739,811 784,814 829,811 874,814 918,814 963,814 1008,814 1053,817 1097,817 1142,820 1187,820 1232,814 1276,811 1321,814 1366,814 1411,814 1455,817 1500,817 1545,817 1590,817 1635,817 1679,817 1715,820"/>
+                <TextEquiv>
+                    <Unicode>Symlonisch Concer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="931,933 940,933 955,922 969,933 990,935 993,938 1008,927 1012,931 1023,931 1024,891 1010,892 1004,896 990,885 980,885 973,892 962,881 953,887 942,878 933,878"/>
+                <Baseline points="942,915 984,915 1029,912"/>
+                <TextEquiv>
+                    <Unicode> affdt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="356,936 634,991 781,951 1750,968 1726,876 1275,903 1198,861 1015,931 762,867 356,898"/>
+                <Baseline points="366,936 411,936 456,936 501,936 545,939 590,939 635,936 680,936 725,936 769,936 814,936 859,939 904,939 948,939 993,942 1038,942 1083,939 1127,942 1172,942 1217,942 1262,942 1306,945 1351,945 1396,945 1441,945 1485,945 1530,945 1575,945 1620,948 1664,945 1709,945 1754,945"/>
+                <TextEquiv>
+                    <Unicode>DOOR HET ORKEST DER MAATSCHAPPIJ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="213,984 222,984 258,962 275,969 288,964 302,966 302,861 286,858 277,863 253,848 246,854 238,854 224,869 213,869"/>
+                <Baseline points="223,948 268,951 307,948"/>
+                <TextEquiv>
+                    <Unicode>9</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="487,1023 1559,1061 1616,1037 1614,964 1244,997 1021,951 940,995 486,991"/>
+                <Baseline points="498,1020 543,1020 587,1020 632,1020 677,1020 722,1020 766,1020 811,1020 856,1023 901,1023 945,1023 990,1023 1035,1023 1080,1026 1124,1026 1169,1026 1214,1026 1259,1026 1303,1026 1348,1026 1393,1026 1438,1026 1482,1026 1527,1026 1572,1029 1617,1029 1620,1029"/>
+                <TextEquiv>
+                    <Unicode>onder de leiding van M. ED kan DeurveLS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="773,1100 836,1120 938,1101 988,1123 1076,1105 1250,1103 1301,1121 1340,1109 1340,1068 1288,1061 1253,1079 1189,1061 1167,1076 1138,1063 843,1072 810,1056 773,1076"/>
+                <Baseline points="784,1091 829,1094 874,1094 918,1094 963,1094 1008,1097 1053,1097 1097,1097 1142,1097 1187,1097 1232,1100 1276,1100 1321,1100 1342,1100"/>
+                <TextEquiv>
+                    <Unicode>EN MET DE MEDKWERKING VAN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="398,1204 522,1176 755,1228 964,1178 1501,1237 1728,1206 1713,1127 1308,1121 1268,1154 1089,1105 940,1140 610,1085 396,1125"/>
+                <Baseline points="405,1178 450,1175 495,1175 540,1178 584,1175 629,1178 674,1175 719,1178 763,1178 808,1178 853,1178 898,1178 942,1178 987,1178 1032,1181 1077,1181 1121,1181 1166,1184 1211,1184 1256,1184 1300,1184 1345,1187 1390,1187 1435,1187 1479,1187 1524,1187 1569,1187 1614,1187 1658,1187 1703,1187 1730,1190"/>
+                <TextEquiv>
+                    <Unicode>Mr BERNARD TEN CATE, Orgelist,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_2_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="520,1274 1591,1277 1576,1206 1512,1237 519,1213"/>
+                <Baseline points="528,1247 572,1250 617,1250 662,1250 707,1250 751,1253 796,1253 841,1253 886,1253 930,1256 975,1256 1020,1256 1065,1256 1109,1256 1154,1256 1199,1256 1244,1259 1288,1259 1333,1259 1378,1259 1423,1259 1467,1259 1512,1259 1557,1259 1593,1259"/>
+                <TextEquiv>
+                    <Unicode>Laureaat van het Koninklijk Conservatorium van Brussel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_1" custom="readingOrder {index:1;}">
+            <Coords points="331,1307 1799,1307 1799,2528 331,2528"/>
+            <TextLine id="tr_1_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="999,1391 1030,1393 1035,1387 1045,1389 1048,1385 1057,1395 1067,1395 1083,1378 1101,1382 1098,1283 1081,1281 1074,1286 1067,1281 1057,1286 1054,1283 1041,1294 1023,1288 995,1294"/>
+                <Baseline points="1008,1357 1053,1360 1097,1360 1106,1360"/>
+                <TextEquiv>
+                    <Unicode>st.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="804,1510 854,1515 896,1497 971,1526 1013,1499 1065,1510 1136,1499 1158,1517 1272,1501 1272,1418 1198,1440 1121,1422 1096,1437 1032,1415 988,1431 918,1400 804,1415"/>
+                <Baseline points="814,1491 829,1488 874,1485 918,1485 963,1488 1008,1488 1053,1488 1097,1488 1142,1488 1187,1488 1232,1488 1276,1488"/>
+                <TextEquiv>
+                    <Unicode>programma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="984,1620 997,1622 1017,1611 1043,1624 1054,1618 1065,1624 1078,1616 1087,1622 1151,1629 1147,1561 1134,1559 1127,1567 1110,1556 1100,1561 1063,1556 1048,1565 1043,1559 1037,1567 1026,1561 999,1567 980,1563"/>
+                <Baseline points="993,1590 1038,1590 1083,1593 1127,1596 1154,1596"/>
+                <TextEquiv>
+                    <Unicode>1e DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="321,1684 544,1686 583,1712 658,1686 722,1713 924,1690 944,1682 944,1649 872,1622 808,1646 596,1640 500,1591 484,1609 405,1592 319,1618"/>
+                <Baseline points="331,1670 375,1673 420,1670 465,1670 510,1667 554,1670 599,1670 644,1673 689,1670 733,1673 778,1673 823,1673 868,1673 912,1676 948,1679"/>
+                <TextEquiv>
+                    <Unicode>I. Freyschütz-Ouvertüre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="1343,1693 1446,1713 1495,1688 1530,1708 1565,1691 1724,1712 1794,1695 1794,1635 1688,1649 1653,1633 1569,1655 1503,1653 1486,1638 1404,1649 1387,1633 1343,1646"/>
+                <Baseline points="1354,1682 1399,1685 1444,1685 1488,1682 1533,1682 1578,1685 1623,1685 1667,1685 1712,1685 1757,1685 1799,1685"/>
+                <TextEquiv>
+                    <Unicode>C. M. VONWEBER</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="328,1750 663,1748 753,1770 793,1748 859,1763 958,1750 957,1717 869,1693 777,1713 685,1695 574,1713 533,1691 495,1708 326,1702"/>
+                <Baseline points="337,1733 381,1736 426,1736 471,1736 516,1739 560,1739 605,1739 650,1739 695,1739 739,1742 784,1739 829,1742 874,1742 918,1742 963,1745"/>
+                <TextEquiv>
+                    <Unicode>2. Der fliegende Holländer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="973,1767 1026,1765 1056,1789 1092,1785 1112,1796 1226,1767 1244,1781 1294,1789 1292,1702 1220,1712 1131,1664 971,1658"/>
+                <Baseline points="984,1748 1029,1745 1074,1748 1118,1748 1163,1748 1208,1748 1253,1751 1297,1754"/>
+                <TextEquiv>
+                    <Unicode>(bloemlezing)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1334,1767 1365,1765 1396,1783 1433,1757 1471,1768 1506,1756 1528,1772 1563,1759 1609,1783 1655,1761 1717,1772 1717,1715 1695,1710 1658,1721 1618,1706 1596,1713 1567,1691 1457,1719 1373,1697 1334,1704"/>
+                <Baseline points="1345,1748 1390,1748 1435,1751 1479,1748 1524,1748 1569,1748 1614,1751 1658,1748 1703,1751 1721,1751"/>
+                <TextEquiv>
+                    <Unicode>RICH. WAGNER</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_9" custom="readingOrder {index:8;}">
+                <Coords points="321,1812 916,1820 1010,1854 1041,1843 1039,1763 940,1789 898,1767 570,1781 443,1754 321,1781"/>
+                <Baseline points="331,1805 375,1805 420,1805 465,1805 510,1805 554,1805 599,1805 644,1808 689,1808 733,1808 778,1811 823,1811 868,1811 912,1814 957,1814 1002,1814 1044,1816"/>
+                <TextEquiv>
+                    <Unicode>3. a) Toccata in C dur (orgel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_10" custom="readingOrder {index:9;}">
+                <Coords points="1334,1843 1402,1822 1429,1832 1471,1822 1508,1849 1550,1832 1581,1854 1618,1832 1649,1838 1684,1827 1684,1785 1658,1789 1638,1774 1611,1785 1519,1768 1455,1790 1334,1767"/>
+                <Baseline points="1345,1822 1375,1816 1420,1816 1464,1816 1509,1816 1554,1816 1599,1816 1643,1816 1688,1816"/>
+                <TextEquiv>
+                    <Unicode>JOH. S. BACH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_11" custom="readingOrder {index:10;}">
+                <Coords points="392,1878 696,1895 748,1919 815,1889 986,1922 1140,1917 1121,1836 960,1858 896,1832 826,1854 392,1832"/>
+                <Baseline points="402,1873 447,1876 492,1873 537,1876 581,1873 626,1876 671,1876 716,1879 760,1879 805,1879 850,1879 895,1879 939,1882 984,1882 1029,1882 1074,1882 1118,1885 1142,1888"/>
+                <TextEquiv>
+                    <Unicode>b) Aanroeping (orgel en orkest)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_12" custom="readingOrder {index:11;}">
+                <Coords points="1347,1891 1451,1922 1508,1917 1539,1895 1598,1895 1627,1911 1644,1906 1644,1854 1501,1849 1482,1840 1404,1853 1371,1836 1347,1840"/>
+                <Baseline points="1357,1882 1402,1885 1447,1885 1491,1885 1536,1885 1581,1885 1626,1885 1649,1885"/>
+                <TextEquiv>
+                    <Unicode>TH. RITTER</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_13" custom="readingOrder {index:12;}">
+                <Coords points="326,1961 623,1955 731,1986 980,1957 1195,1968 1195,1908 326,1915"/>
+                <Baseline points="337,1945 381,1942 426,1942 471,1942 516,1942 560,1945 605,1945 650,1945 695,1945 739,1945 784,1948 829,1948 874,1948 918,1951 963,1951 1008,1951 1053,1951 1097,1951 1142,1951 1187,1954 1199,1954"/>
+                <TextEquiv>
+                    <Unicode>4. Plechtige optocht (orgel en orkest)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_14" custom="readingOrder {index:13;}">
+                <Coords points="1338,1974 1409,1966 1437,1983 1462,1961 1506,1975 1526,1961 1572,1975 1699,1977 1699,1922 1680,1917 1644,1922 1587,1900 1548,1900 1514,1926 1418,1909 1402,1919 1338,1889"/>
+                <Baseline points="1348,1951 1393,1954 1438,1954 1482,1954 1527,1954 1572,1954 1617,1954 1661,1954 1703,1954"/>
+                <TextEquiv>
+                    <Unicode>PETER BENOIT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_15" custom="readingOrder {index:14;}">
+                <Coords points="977,2034 988,2032 1004,2045 1026,2034 1057,2043 1081,2036 1110,2051 1136,2040 1153,2043 1151,1994 1092,1997 1076,1992 1065,1997 1059,1992 1045,2007 1023,1990 990,2001 975,1999"/>
+                <Baseline points="987,2025 1032,2025 1077,2028 1121,2031 1157,2028"/>
+                <TextEquiv>
+                    <Unicode>2e DEEL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_16" custom="readingOrder {index:15;}">
+                <Coords points="328,2135 381,2115 445,2135 597,2117 691,2146 749,2124 922,2151 1054,2131 1052,2096 1002,2074 839,2082 810,2052 773,2082 612,2014 401,2062 326,2049"/>
+                <Baseline points="337,2106 381,2106 426,2109 471,2109 516,2109 560,2109 605,2109 650,2109 695,2109 739,2112 784,2115 829,2115 874,2115 918,2112 963,2115 1008,2118 1053,2121 1056,2121"/>
+                <TextEquiv>
+                    <Unicode>5. Esclarmonde (orkestsuite)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_17" custom="readingOrder {index:16;}">
+                <Coords points="1329,2151 1380,2140 1393,2153 1407,2142 1431,2151 1444,2140 1508,2155 1536,2139 1558,2151 1611,2150 1629,2168 1644,2153 1666,2159 1668,2071 1497,2089 1457,2074 1426,2078 1376,2034 1330,2038"/>
+                <Baseline points="1339,2124 1357,2124 1402,2121 1447,2118 1491,2118 1536,2121 1581,2121 1626,2118 1670,2121"/>
+                <TextEquiv>
+                    <Unicode>J. MASSENET</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_18" custom="readingOrder {index:17;}">
+                <Coords points="476,2203 777,2183 834,2206 889,2184 935,2212 980,2192 1074,2214 1310,2204 1290,2140 927,2153 788,2126 689,2146 603,2118 476,2139"/>
+                <Baseline points="486,2172 531,2172 575,2172 620,2172 665,2175 710,2175 754,2175 799,2175 844,2175 889,2175 933,2175 978,2178 1023,2178 1068,2178 1112,2180 1157,2178 1202,2178 1247,2178 1291,2183 1315,2186"/>
+                <TextEquiv>
+                    <Unicode>a) Bruiloft; b) Het Toovereiland; c) Oproeping</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_19" custom="readingOrder {index:18;}">
+                <Coords points="326,2245 786,2241 852,2281 927,2250 1059,2283 1176,2270 1165,2197 1015,2217 693,2195 669,2215 376,2173 326,2195"/>
+                <Baseline points="337,2231 381,2234 426,2234 471,2234 516,2234 560,2234 605,2237 650,2237 695,2240 739,2240 784,2240 829,2240 874,2240 918,2240 963,2240 1008,2243 1053,2243 1097,2243 1142,2243 1181,2243"/>
+                <TextEquiv>
+                    <Unicode>6. allegro uit de 5e Symfonie (orgel)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_20" custom="readingOrder {index:19;}">
+                <Coords points="1343,2294 1385,2283 1406,2300 1422,2291 1446,2302 1471,2289 1484,2298 1512,2274 1581,2287 1657,2256 1712,2274 1710,2186 1660,2188 1611,2162 1561,2175 1517,2155 1473,2166 1411,2208 1378,2192 1341,2210"/>
+                <Baseline points="1351,2240 1396,2243 1441,2246 1485,2246 1530,2246 1575,2246 1620,2246 1664,2246 1709,2246 1715,2246"/>
+                <TextEquiv>
+                    <Unicode>CH. M. WIDOR</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_21" custom="readingOrder {index:20;}">
+                <Coords points="321,2322 401,2305 577,2342 649,2314 702,2351 881,2311 1012,2333 1070,2314 1182,2349 1180,2272 1154,2265 1098,2285 753,2258 319,2276"/>
+                <Baseline points="331,2309 375,2303 420,2303 465,2303 510,2303 554,2306 599,2306 644,2306 689,2306 733,2306 778,2306 823,2306 868,2306 912,2309 957,2309 1002,2309 1047,2309 1091,2312 1136,2312 1181,2312 1187,2312"/>
+                <TextEquiv>
+                    <Unicode>7. a) De geheimzinnige dreve (orgel)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_22" custom="readingOrder {index:21;}">
+                <Coords points="1334,2419 1387,2412 1563,2421 1618,2390 1616,2278 1591,2285 1563,2311 1514,2313 1503,2302 1475,2313 1426,2305 1417,2313 1380,2287 1352,2313 1332,2316"/>
+                <Baseline points="1345,2368 1390,2368 1435,2368 1479,2371 1524,2371 1569,2371 1614,2371 1623,2368"/>
+                <TextEquiv>
+                    <Unicode>O. LEBEAU</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_23" custom="readingOrder {index:22;}">
+                <Coords points="387,2371 491,2404 528,2379 742,2404 773,2382 850,2419 944,2380 1026,2386 1063,2419 1235,2401 1233,2346 1100,2329 894,2351 387,2333"/>
+                <Baseline points="396,2371 441,2371 486,2371 531,2371 575,2371 620,2371 665,2371 710,2371 754,2374 799,2374 844,2377 889,2377 933,2377 978,2377 1023,2377 1068,2377 1112,2377 1157,2380 1202,2377 1238,2377"/>
+                <TextEquiv>
+                    <Unicode>b) Meditatie op een Ave Maria van</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_24" custom="readingOrder {index:23;}">
+                <Coords points="497,2479 572,2456 603,2479 905,2468 925,2487 982,2448 1230,2463 1217,2391 1176,2419 946,2401 891,2426 784,2393 663,2415 495,2395"/>
+                <Baseline points="504,2440 548,2440 593,2440 638,2440 683,2440 727,2443 772,2443 817,2443 862,2446 907,2446 951,2446 996,2446 1041,2446 1086,2446 1130,2446 1175,2446 1220,2449 1235,2452"/>
+                <TextEquiv>
+                    <Unicode>P. Benoit (harp, viool en orgel)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_1_tl_25" custom="readingOrder {index:24;}">
+                <Coords points="321,2512 1660,2538 1660,2479 1493,2456 1332,2494 1204,2452 1136,2487 321,2461"/>
+                <Baseline points="331,2506 375,2506 420,2506 465,2506 510,2506 554,2506 599,2506 644,2509 689,2509 733,2509 778,2509 823,2509 868,2509 912,2509 957,2512 1002,2512 1047,2515 1091,2515 1136,2515 1181,2515 1226,2515 1271,2515 1315,2518 1360,2518 1405,2515 1450,2515 1494,2515 1539,2515 1584,2515 1629,2515 1664,2518"/>
+                <TextEquiv>
+                    <Unicode>8. Godsdienstige marsch (orgel en orkest) CH. GOUROD</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="tr_3" custom="readingOrder {index:2;}">
+            <Coords points="331,2557 1799,2557 1799,2981 331,2981"/>
+            <TextLine id="tr_3_tl_1" custom="readingOrder {index:0;}">
+                <Coords points="370,2628 1779,2633 1779,2595 1660,2573 370,2576"/>
+                <Baseline points="381,2607 426,2607 471,2610 516,2610 560,2613 605,2610 650,2613 695,2613 739,2613 784,2613 829,2613 874,2613 918,2613 963,2613 1008,2613 1053,2613 1097,2616 1142,2616 1187,2616 1232,2616 1276,2616 1321,2616 1366,2619 1411,2616 1455,2616 1500,2616 1545,2616 1590,2616 1635,2619 1679,2619 1724,2616 1769,2619 1784,2616"/>
+                <TextEquiv>
+                    <Unicode>Woensdag, 28 dezer, te 8 1/2 uren s'avonds: Buitengewoon Concert. Uitvoe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_2" custom="readingOrder {index:1;}">
+                <Coords points="321,2672 1794,2686 1770,2630 319,2633"/>
+                <Baseline points="331,2658 375,2658 420,2658 465,2658 510,2658 554,2658 599,2658 644,2658 689,2661 733,2661 778,2661 823,2661 868,2661 912,2661 957,2664 1002,2661 1047,2661 1091,2664 1136,2664 1181,2664 1226,2664 1271,2664 1315,2664 1360,2664 1405,2664 1450,2664 1494,2664 1539,2664 1584,2664 1629,2667 1673,2667 1718,2667 1763,2667 1796,2667"/>
+                <TextEquiv>
+                    <Unicode>ring van werken van den heer RICARDO CASTRO, Toondichter en Pianist, met de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_3" custom="readingOrder {index:2;}">
+                <Coords points="321,2727 1789,2725 1789,2681 1691,2675 321,2672"/>
+                <Baseline points="331,2706 375,2709 420,2706 465,2706 510,2709 554,2709 599,2709 644,2709 689,2709 733,2709 778,2709 823,2709 868,2712 912,2709 957,2709 1002,2712 1047,2712 1091,2712 1136,2709 1181,2712 1226,2712 1271,2712 1315,2712 1360,2712 1405,2712 1450,2712 1494,2712 1539,2715 1584,2715 1629,2715 1673,2715 1718,2715 1763,2715 1793,2718"/>
+                <TextEquiv>
+                    <Unicode>medewerking van Mej’s E. Desmaisons en M. Chabry (Zangeressen, MM. Latour</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_4" custom="readingOrder {index:3;}">
+                <Coords points="326,2773 1794,2789 1794,2729 1745,2725 326,2729"/>
+                <Baseline points="337,2756 381,2756 426,2756 471,2759 516,2756 560,2756 605,2756 650,2756 695,2756 739,2756 784,2756 829,2756 874,2759 918,2759 963,2759 1008,2759 1053,2759 1097,2759 1142,2759 1187,2759 1232,2759 1276,2762 1321,2759 1366,2759 1411,2759 1455,2762 1500,2762 1545,2762 1590,2762 1635,2762 1679,2762 1724,2762 1769,2765 1799,2765"/>
+                <TextEquiv>
+                    <Unicode>(tenor), Surlémont, Van den Eynden en Borkmans (bassen), Marx Lœvensohn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_5" custom="readingOrder {index:4;}">
+                <Coords points="326,2826 1790,2831 1748,2774 326,2773"/>
+                <Baseline points="337,2807 381,2804 426,2807 471,2807 516,2807 560,2804 605,2804 650,2804 695,2807 739,2807 784,2807 829,2807 874,2807 918,2807 963,2807 1008,2807 1053,2807 1097,2807 1142,2807 1187,2807 1232,2810 1276,2807 1321,2807 1366,2810 1411,2810 1455,2810 1500,2810 1545,2810 1590,2810 1635,2810 1679,2813 1724,2810 1769,2813 1793,2813"/>
+                <TextEquiv>
+                    <Unicode>(cellist), Mors (violist), en een Gemengd Koor samengesteld uit leden der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_6" custom="readingOrder {index:5;}">
+                <Coords points="321,2875 643,2853 684,2879 938,2857 1363,2881 1343,2820 321,2822"/>
+                <Baseline points="331,2852 375,2855 420,2855 465,2855 510,2855 554,2855 599,2855 644,2852 689,2855 733,2855 778,2855 823,2855 868,2855 912,2855 957,2855 1002,2858 1047,2858 1091,2858 1136,2855 1181,2858 1226,2858 1271,2858 1315,2858 1360,2861 1366,2861"/>
+                <TextEquiv>
+                    <Unicode>maatschappijen “ Cœcilia „ en „ Orphéon „ van Brussel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_7" custom="readingOrder {index:6;}">
+                <Coords points="356,2910 519,2948 594,2914 717,2912 779,2919 821,2954 949,2916 1012,2937 1110,2921 1094,2873 356,2881"/>
+                <Baseline points="366,2903 411,2903 456,2903 501,2906 545,2906 590,2903 635,2903 680,2906 725,2906 769,2903 814,2906 859,2903 904,2906 948,2906 993,2903 1038,2906 1083,2906 1115,2908"/>
+                <TextEquiv>
+                    <Unicode>Zondag, 1 Januari 1905 : Geen concert.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_8" custom="readingOrder {index:7;}">
+                <Coords points="1103,2978 1182,2994 1473,2981 1503,3002 1558,2972 1622,2991 1767,2983 1765,2899 1699,2927 1570,2905 1402,2927 1261,2925 1187,2888 1147,2916 1101,2892"/>
+                <Baseline points="1112,2965 1157,2965 1202,2968 1247,2968 1291,2968 1336,2968 1381,2968 1426,2968 1470,2968 1515,2968 1560,2968 1605,2968 1649,2971 1694,2968 1739,2968 1769,2971"/>
+                <TextEquiv>
+                    <Unicode>Drukk. F. Janssens-Anthonis. — Antwerpen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>
