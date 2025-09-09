@@ -112,11 +112,46 @@ def nodegoat_csv2json(data_dir):
 def nodegoat_cleaup_superfluous_objects(d):
     print("Reducing superfluous items...")
 
+    cities = []
+    for city in d["city"]:
+        cities.append(city["id"])
+
+    countries = []
+    for country in d["country"]:
+        countries.append(country["id"])
+
+    works = []
+    for work in d["musical_work"]:
+        works.append(work["id"])
+
     countries_to_be_kept = []  # list of countries ids to be kept
 
     cities_to_be_kept = []  # list of cities ids to be kept
 
     works_to_be_kept = []  # list of works ids to be kept
+
+    for item in d["manifestation"]:
+        for note in item["Notes"]:
+            if note != "":
+                if note in cities:
+                    cities_to_be_kept.append(note)
+                elif note in works:
+                    works_to_be_kept.append(note)
+                elif note in countries:
+                    countries_to_be_kept.append(note)
+                else:
+                    pass
+
+        for sections in item["Sections"]:
+            if sections != "":
+                if sections in cities:
+                    cities_to_be_kept.append(sections)
+                elif sections in works:
+                    works_to_be_kept.append(sections)
+                elif sections in countries:
+                    countries_to_be_kept.append(sections)
+                else:
+                    pass
 
     """gather works to be kept"""
 
@@ -254,9 +289,7 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
                 for reference in obj[field]:
                     if reference != "":
                         # bisection method to retrieve UUID given nodegoat ID
-                        start = time.time()
                         index = bisect_left(nodegoat_ids, int(reference))
-                        end = time.time()
                         query = [object_list[index]]
                         try:
                             uuid_field.append(query[0]["id"])

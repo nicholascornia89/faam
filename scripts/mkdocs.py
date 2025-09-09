@@ -53,7 +53,7 @@ def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list):
 
 	return net,nodes_list
 
-def generate_network(faam_kb,graph_attributes_type_filename):
+def generate_network(faam_kb,graph_attributes_type_filename,out_dir):
 	# generate integer list for bisect query
 	uuid_list,item_list = generate_uuid_list(faam_kb)
 	nodes_list = []
@@ -79,21 +79,21 @@ def generate_network(faam_kb,graph_attributes_type_filename):
 	# ADD EDGES
 
 	for item in faam_kb["items"]:
-		for prop in item["statements"]:
-			if prop[0]["type"] == "item":
-				for statement in prop:
-					net.add_edge(item["id"], prop["value"], weight=10)
+		for prop in item["statements"].keys():
+			if item["statements"][prop][0]["type"] == "item":
+				for statement in item["statements"][prop]:
+					net.add_edge(item["id"], statement["value"], weight=10)
 
-			if prop[0]["type"] == "statement": # consider all qualifiers
-				for statement in prop:
-					for qual in prop["qualifiers"]:
+			if item["statements"][prop][0]["type"] == "statement": # consider all qualifiers
+				for statement in item["statements"][prop]:
+					for qual in statement["qualifiers"]:
 						if qual["type"] == "item":
-							net.add_edge(item["id"], qual["value"], weight=5)
+							net.add_edge(statement["value"], qual["value"], weight=5)
 
 	# Save Network serialization
 
 	net_dict = nx.node_link_data(net, edges="links")
-	dict2json(net_dict,os.path.join(out_dir,"pyvis_graph","network-"+get_current-date()+".json"))
+	dict2json(net_dict,os.path.join(out_dir,"pyvis_graph","network-"+get_current_date()+".json"))
 	return net
 
 def pyvis_visualization(net,net_filename):
@@ -130,7 +130,7 @@ def pyvis_visualization(net,net_filename):
 	#visualization.show(net_filename+'.html',notebook=False)
 	#input()
 	#visualization.write_html(name='example.html',notebook=False,open_browser=False)
-	visualization.save_graph(net_filename+'.html')
+	visualization.save_graph(net_filename+".html")
 
 def generate_distance_matrix(net,max_dist):
 	print("Distance matrix operations...")
@@ -146,21 +146,21 @@ def pyvis_visualization_local(center_node,net,distances,base_path):
 	print("Getting labels...")
 	labels = nx.get_node_attributes(sub_net, "label")
 	print("Render visualization...")
-	print(sub_net.nodes())
-	print(sub_net.edges())
-	pyvis_visualization(sub_net,base_path+str(center_node))
+	#print(sub_net.nodes())
+	#print(sub_net.edges())
+	pyvis_visualization(sub_net,os.path.join(base_path,str(center_node)))
 
-def generate_faam_graphs(faam_kb,graph_attributes_type_filename):
+def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 	# generate whole network
 	print("Generating network...")
-	net = generate_network(faam_kb,graph_attributes_type_filename)
+	net = generate_network(faam_kb,graph_attributes_type_filename,out_dir)
 	# generate distance matrix
 	print("Generating distance matrix. It might take a while!")
 	distances = generate_distance_matrix(net,max_dist=2)
 	print("Generating individual graph visualizations in HTML using pyvis...")
 
 	for node in net:
-		pyvis_visualization_local(node,net,distances,os.path.join(out_dir,"networks",f"{node}_graph.html"))
+		pyvis_visualization_local(node,net,distances,os.path.join(out_dir,"networks"))
 
 
 
@@ -169,7 +169,7 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename):
 """generate a JSON file with all metadata related to a specific object. 
 This file could be used for dynamic rendering van lists (via Javascript) and
 export option for users."""
-def generate_json_items(faam_kb,nodegoat2faam_kb,out_dir):
+def generate_resource_items(faam_kb,nodegoat2faam_kb,out_dir):
 	for item in faam_kb["items"]:
 		data = item
 		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
@@ -192,7 +192,7 @@ def generate_json_items(faam_kb,nodegoat2faam_kb,out_dir):
 
 		]
 		# generate CSV serialization
-		generate_csv_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".ttl"),separator="|")
+		generate_csv_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".csv"),separator="|")
 		item["resources"]["CSV"] = [
 			{
 				"type": "url",
@@ -209,32 +209,57 @@ def generate_rdf_item(item,nodegoat2faam_kb,file_path):
 	# TO BE CONTINUED
 	pass
 
-def generate_csv_item(item,nodegoat2faam_kb,file_path,separator):
+def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 	# serialize JSON item to CSV
 	csv_dict = []
 	for category in item.keys():
 		for faam_property in item[category].keys():
 			for statement in item[category][faam_property]:
 				try:
-					if statement["type"] == "string" or statement["type"] == "id" :
+					if statement["type"] in ["string","id","date","html"] :
 						csv_dict.append({
 							"category": category,
 							"faam_property": faam_property,
-							"type": statement[0]["type"],
+							"type": statement["type"],
 							"value": statement["value"]
 							})
-					elif statement["type"] == "externalid":
+					elif statement["type"] in ["externalid","image"]:
 						csv_dict.append({
 							"category": category,
 							"faam_property": faam_property,
-							"type": statement[0]["type"],
+							"type": statement["type"],
 							"value": statement["value"],
 							"base_url": statement["base_url"]
 							})
+					elif statement["type"] == "item":
+						csv_dict.append({
+							"category": category,
+							"faam_property": faam_property,
+							"type": statement["type"],
+							"value": statement["value"],
+							"label": statement["label"]
+							})
+					elif statement["type"] == "statement":
+						qualifiers = ""
+						for qual in statement["qualifiers"]:
+							qualifiers = qualifiers + qual["value"] + separator
+						# get rid of last separator
+						if len(qualifiers) > 1:
+							qualifiers = qualifiers[:-1]
+						csv_dict.append({
+							"category": category,
+							"faam_property": faam_property,
+							"type": statement["type"],
+							"value": statement["value"],
+							"label": statement["label"],
+							"qualifiers": qualifiers
+							}) 
 				except IndexError: # case of not list keys such as id and uuid_num
 					pass
 
-	pass
+	# generate CSV file
+	dict2csv(csv_dict,file_path)
+
 
 
 def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
@@ -279,8 +304,10 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 				if block["format"] == "heading":
 					if key == "title":
 						doc.add_heading(f"{item["metadata"]["label"][0]["value"]} ({item["id"]})")
+						doc.add_raw("""---""")
 					else:	
 						doc.add_heading(block["content"][0]["label"], block["level"])
+						doc.add_raw("""---""")
 				# images
 				elif block["format"] == "image":
 					image_statement = item[block["content"][0]["category"]][

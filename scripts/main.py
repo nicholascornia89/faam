@@ -142,7 +142,7 @@ def faam_kb():
     dict2json(faam_kb, faam_kb_filename)
 
     # generate pyvis networks: TO BE CHECKED
-    generate_faam_graphs(faam_kb, graph_attributes_type_filename)
+    generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
     # generate JSON serialization and append it to FAAM kb: TO BE CHECKED
     faam_kb = generate_json_items(faam_kb, out_dir)
@@ -165,6 +165,6 @@ def mkdocs_pages():
 
 
 # nodegoat_import()
-# wikidata_SPARQL_enhance()
-faam_kb()
+wikidata_SPARQL_enhance()
+# faam_kb()
 # mkdocs_pages()

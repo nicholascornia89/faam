@@ -283,7 +283,6 @@ def add_label_to_statement(faam_kb):
 
 			elif item["statements"][key][0]["type"] == "statement":
 				# adapt statement
-				to_be_deleted_statements_indices = []
 				for i in range(len(item["statements"][key])):
 					statement = item["statements"][key][i]
 					if statement["value"] != "":
@@ -302,36 +301,46 @@ def add_label_to_statement(faam_kb):
 							print(f"New statement: {statement}")
 							input()
 							pass
-					else: # delete statement
-						print(f"Statement {statement} is empty, delete  it...")
-						to_be_deleted_statements_indices.append(i)
+
 				# adapt qualifiers
 					for qualifier in statement["qualifiers"]:
 						if qualifier["value"] != "":
 							#convert uuid to integer
-							uuid_int = shortuuid.decode(qualifier["value"]).int
-							# perform bisect_left search
-							index = bisect_left(uuid_list,uuid_int)
-							if item_list[index]["id"] == qualifier["value"]:
-								qualifier["label"] = item_list[index]["label"]
-							else:
-								print(f"UUID not found for {item["id"]}, statement {statement} ")
-								#input()
-								pass
-					# delete statement if empty
-					cleaned_statements = []
-					for i in range(len(item["statements"][key])):
-						if i in to_be_deleted_statements_indices:
-							pass 
-						else:
-							cleaned_statements.append(item["statements"][key][i])
+							if qualifier["type"] == "item":
+								try:
+									uuid_int = shortuuid.decode(qualifier["value"]).int
+									# perform bisect_left search
+									index = bisect_left(uuid_list,uuid_int)
+									if item_list[index]["id"] == qualifier["value"]:
+										qualifier["label"] = item_list[index]["label"]
+									else:
+										print(f"UUID not found for {item["id"]}, statement {statement} ")
+										#input()
+										pass
+								except ValueError: # QID case
+									print(f"UUID not found for {item["id"]}, qualifier {qualifier}. Getting label from Wikidata... ")
+									entity = wb.item.get(qualifier["value"])
+									qualifier["label"] = entity.labels.get('en').value
+									qualifier["type"] = "externalid"
+									qualifier["base_url"] = "http://www.wikidata.org/entity/"
+									print(f"New qualifier: {qualifier}")
+									input()
+							
 
-					#print(f"Old statements: {item["statements"][key]}")
-					#print(f"Cleaned statements: {cleaned_statements}")
-					#input()
 
 
 	return faam_kb	
+
+def remove_empty_statements(faam_kb):
+
+	for item in faam_kb["items"]:
+		for category in item.keys():
+			for prop in item[category].keys():
+				for statement in item[category][prop]:
+					if statement["value"] == "":
+						item[category][prop].remove(statement)
+
+	return faam_kb
 
 def qids2faamuudis(faam_kb):
 	
@@ -386,7 +395,7 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 			item = {
 				"id": obj["id"],
 				"uuid_num": shortuuid.decode(obj["id"]).int,
-				"metadata": {},
+				"metadata": {"label": [{"type": "string", "value": ""}], "description": [{"type": "string", "value": ""}]}, # setting ddescription and label to empty string
 				"statements": {},
 				"cross-references": {},
 				"resources": {},
@@ -479,6 +488,8 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 
 	faam_kb = qids2faamuudis(faam_kb)
 
-	#faam_kb = add_label_to_statement(faam_kb)
+	faam_kb = add_label_to_statement(faam_kb)
+
+	faam_kb = remove_empty_statements(faam_kb)
 
 	return faam_kb
