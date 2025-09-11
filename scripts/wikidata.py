@@ -397,3 +397,5 @@ def wb_get_property_data(qid,pid):
 
 
 ### CODE ###
+
+#wikibaseintegrator_test()

@@ -164,12 +164,11 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 
 
 
-# Generate Markdown page for each object in object_list
-
 """generate a JSON file with all metadata related to a specific object. 
 This file could be used for dynamic rendering van lists (via Javascript) and
 export option for users."""
-def generate_resource_items(faam_kb,nodegoat2faam_kb,out_dir):
+def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
+	nodegoat2faam_kb = csv2dict(nodegoat2faam_kb_filename)
 	for item in faam_kb["items"]:
 		data = item
 		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
@@ -260,7 +259,30 @@ def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 	# generate CSV file
 	dict2csv(csv_dict,file_path)
 
+# Image Carousel using GitHub API
 
+def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED 
+	for item in faam_kb["items"]:
+		if item["metadata"]["object_type"][0]["value"] == "manifestation":
+			# get GitHub repository from resources
+			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/nicholascornia89/","")
+			print(f"GitHub path: {GitHub_path}")
+
+			# call API for list of images.
+
+			# render raw images form GitHub https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
+
+			# add images to carousel using HTML code
+
+			pass
+
+
+
+
+
+
+
+# Generate Markdown page for each object in object_list
 
 def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
 	# import mapping
@@ -329,6 +351,10 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						else: # file serializations
 							doc.add_raw(f"""[{button["label"]} {button["icon"]}](./{item["id"]}{button["extension"]}){{.md-button}}""")
 
+				elif block["format"] == "embed":
+					for embed in block["content"]:
+						doc.add_raw(f"""<iframe src="{embed["base_url"]}{item[embed["category"]["property"]]["value"]}{embed["extension"]}" height="{block["attributes"]["heigth"]}" width="{block["attributes"]["width"]}" title="{item[embed["category"]["property"]]["value"]}"></iframe>""")
+
 				# statements
 				elif block["format"] == "quote":
 					doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
@@ -336,12 +362,15 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 						statements_list = []
 						for statement in statements:
-							# check if item (hyperlink needed), otherwise only string
-							if statement["type"] == "item":
-								# I am assuming all items have FAAM UUID
-								statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-							else:
-								statements_list.append(sneakmd.Inline(statement["value"]))
+							if statement["value"] != "":
+								# check if item (hyperlink needed), otherwise only string
+								if statement["type"] == "item":
+									# I am assuming all items have FAAM UUID
+									statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+								elif statement["type"] == "externalid":
+									statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
+								else:
+									statements_list.append(sneakmd.Inline(statement["value"]))
 
 						# create unordered list. p.s. Tab is fundamental for layout structuring
 						for element in statements_list:
@@ -360,14 +389,15 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
 							raw = []
 							for heading in headings: # assume heading = property and qualifiers key
-								if statement["type"] == "statement":
-									raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-									for qual in statement["qualifiers"]:
-										if qual in headings:
-											if qual["type"] == "item":
-												raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
-											else:
-												raw.append(sneakmd.Inline(qual["value"]))
+								if statement["value"] != "":
+									if statement["type"] == "statement":
+										raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+										for qual in statement["qualifiers"]:
+											if qual in headings:
+												if qual["type"] == "item":
+													raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+												else:
+													raw.append(sneakmd.Inline(qual["value"]))
 							table_raws.append(raw)
 
 						# alignment (center)

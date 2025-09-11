@@ -6,7 +6,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 
 - [x ] Import metadata from Nodegoat publication export or export CSV function into JSON file.
 - [x ] Map FAAM fields to external vocabularies.
-- [ ] Convert Nodegoat data to RDF ontology using RDFlib.
+- [x ] Convert Nodegoat data to RDF ontology using RDFlib.
 - [x ] Enrich metadata using Wikidata SPARQL endpoint.
 - [ ] Create FAAM Ontology using RDFlib or Protegé.
 - [x ] Assign permanent URI to ontology using w3id.org or purl.org.
@@ -22,7 +22,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [x ] Import metadata from `nodegoat_export` and `object-list`
 - [ ] Generate pages (.md) for each item in `faam_kb` and save it in `docs/kb/` 
 - [x ] For each page add tag = object_type, title = id
-- [ ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
+- [x ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
 - [ ] Record each page metadata in separate `id`.json file.
 
 ### Data Types
@@ -51,7 +51,7 @@ Extra
 Some ideas about layout and presentation of data
 
 - [x ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
-- [ ] Include graph representation of metadata using pyvis or similar library
+- [x ] Include graph representation of metadata using pyvis or similar library
 - [ ] Geolocalization
 - [ ] Simple image carousel tool like [Glide](https://glidejs.com/docs/) or [Swiper](https://swiperjs.com/get-started) (see [Demos](https://swiperjs.com/demos))
 - [ ] Zoomable images using [pyvips](https://libvips.github.io/pyvips/) and render them using [OpenSeadragon](https://openseadragon.github.io/docs/)
@@ -88,7 +88,7 @@ When working with sub-objects, like locations and dates associated with a given 
 
 ### TO-DO
 
-- [ ] Generate for each item a dedicated JSON, CSVs and RDF serializations for download and query.
+- [x ] Generate for each item a dedicated JSON, CSVs and RDF serializations for download and query.
 - [x ] Map Nodegoat fields into RDF, using appropriate ontologies and vocabularies.
 - [ ] Convert JSON metadata to Turtle (and XML) RDF.
 - [ ] Consider the creation of custom ontology for specific properties. 

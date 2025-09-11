@@ -59,6 +59,20 @@
 
 			},
 
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 1200, 
+				"height": 800
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"},
+			]
+
+		},
+
 		"statements": {
 			"format": "heading",
 			"level": 2,
@@ -67,15 +81,70 @@
 			]
 
 		},
-			
+
+		"instance of": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "instance of",
+			"content": [
+				{"category": "statements", "property": "instance of"}
+			]
+		},
+		
 		"related_to": {
 			"format": "quote",
 			"icon": "quote",
-			"collapse": "???",
+			"collapse": "!!!",
 			"data_format": "list",
 			"label": "raleted to",
 			"content": [
 				{"category": "statements", "property": "related to"}
+			]
+		},
+
+		"instrument": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "instrument",
+			"content": [
+				{"category": "statements", "property": "instrument"}
+			]
+		},
+
+		"occupation": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "occupation",
+			"content": [
+				{"category": "statements", "property": "occupation"}
+			]
+		},
+
+		"educated at": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "educated at",
+			"content": [
+				{"category": "statements", "property": "educated at"}
+			]
+		},
+
+		"employer": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "employer",
+			"content": [
+				{"category": "statements", "property": "employer"}
 			]
 		},
 
@@ -97,6 +166,39 @@
 			"label": "IMSLP ID",
 			"content": [
 				{"category": "statements", "property": "IMSLP ID"}
+			]
+		},
+
+		"viaf_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "paragraph",
+			"label": "VIAF ID",
+			"content": [
+				{"category": "statements", "property": "VIAF ID"}
+			]
+		},
+
+		"rism_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "paragraph",
+			"label": "RISM ID",
+			"content": [
+				{"category": "statements", "property": "RISM ID"}
+			]
+		},
+
+		"cpdl_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "paragraph",
+			"label": "Choral Wiki ID",
+			"content": [
+				{"category": "statements", "property": "CDPL ID"}
 			]
 		},
 

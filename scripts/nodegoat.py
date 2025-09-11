@@ -304,7 +304,8 @@ def nodegoat_uuid_mapping(d):  # substitute object ID referencing with (short)UU
                         # keep key in case of empty reference
                         uuid_field_name = field.split(" - ")[0]
                         # substitute new UUID field with to old one with Object IDs
-                        obj[uuid_field_name] = [""]
+                        uuid_field.append(reference)
+                        obj[uuid_field_name] = uuid_field
 
                 # delete old field with 'Object ID' in it
                 obj.pop(field, None)

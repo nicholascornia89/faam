@@ -131,6 +131,14 @@ def faam_kb():
 
     d = mapping_qid2uuid(d)
 
+    """ not WORKING!
+    d = fix_subobjects_statements(
+        d,
+        os.path.join("nodegoat_data", "manifestation_agent.csv"),
+        nodegoat2faam_kb_filename,
+    )
+    """
+
     print("Generating FAAM knowledge base")
 
     faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
@@ -145,10 +153,11 @@ def faam_kb():
     generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
     # generate JSON serialization and append it to FAAM kb: TO BE CHECKED
-    faam_kb = generate_json_items(faam_kb, out_dir)
+    faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
-    # generate RDF serialization and append it: TO BE CONTINUED
-    faam_kb = generate_rdf_items(faam_kb, out_dir, nodegoat2faam_kb_filename)
+    github_api_repo = "https://api.github.com/repos/nicholascornia89/"
+    # TO BE CONTINUED
+    # generate_image_carousels(faam_kb,github_api_repo)
 
 
 # Mkdocs pages
