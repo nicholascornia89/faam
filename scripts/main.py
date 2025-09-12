@@ -127,30 +127,29 @@ def wikidata_SPARQL_enhance():
 def faam_kb():
     # FAAM kb script
 
-    d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
+    print(f"Would you like to generate a new FAAM kb? y/n")
+    answer = input()
 
-    d = mapping_qid2uuid(d)
+    if answer == "y":
+        d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
 
-    """ not WORKING!
-    d = fix_subobjects_statements(
-        d,
-        os.path.join("nodegoat_data", "manifestation_agent.csv"),
-        nodegoat2faam_kb_filename,
-    )
-    """
+        d = mapping_qid2uuid(d)
 
-    print("Generating FAAM knowledge base")
+        print("Generating FAAM knowledge base")
 
-    faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
+        faam_kb = generate_faam_kb(d, nodegoat2faam_kb_filename)
 
-    faam_kb_filename = os.path.join(
-        "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
-    )
+        faam_kb_filename = os.path.join(
+            "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+        )
 
-    dict2json(faam_kb, faam_kb_filename)
+        dict2json(faam_kb, faam_kb_filename)
+
+    else:
+        faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
     # generate pyvis networks: TO BE CHECKED
-    generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+    # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
     # generate JSON serialization and append it to FAAM kb: TO BE CHECKED
     faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
@@ -174,6 +173,6 @@ def mkdocs_pages():
 
 
 # nodegoat_import()
-wikidata_SPARQL_enhance()
-# faam_kb()
+# wikidata_SPARQL_enhance()
+faam_kb()
 # mkdocs_pages()

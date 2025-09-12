@@ -1,0 +1,111 @@
+{
+  "id": "QUx7S6Yg",
+  "uuid_num": 43932001089179,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "natural sign"
+      },
+      {
+        "type": "string",
+        "value": "natural sign"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      },
+      {
+        "type": "string",
+        "value": "musical sign (accidental) cancelling previous accidentals returning the frequency of the note to the natural/original value"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "QUx7S6Yg"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002350"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q747691",
+        "base_url": "http://wwww.wikidata.org/entity/"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "♮"
+      },
+      {
+        "type": "string",
+        "value": "♮-sign"
+      },
+      {
+        "type": "string",
+        "value": "natural"
+      },
+      {
+        "type": "string",
+        "value": "natural sign"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "aCRY7SgN",
+        "label": "accidental"
+      }
+    ],
+    "type": [
+      {
+        "type": "item",
+        "value": "N2f5NSgz",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "Cf64Khds",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "fkHJwpoD",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "GoiPpGap",
+        "label": "performing artist"
+      },
+      {
+        "type": "item",
+        "value": "45qo3Fj3",
+        "label": "music editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {}
+}

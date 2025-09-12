@@ -1,0 +1,109 @@
+{
+  "id": "J6ERsasy",
+  "uuid_num": 31423017954064,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "metronome mark"
+      },
+      {
+        "type": "string",
+        "value": "metronome mark"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      },
+      {
+        "type": "string",
+        "value": "musical notation indicating the tempo of a piece in a objective manner"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "J6ERsasy"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992212"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q124518125",
+        "base_url": "http://wwww.wikidata.org/entity/"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "metronome mark"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "WT9AcUBt",
+        "label": "tempo"
+      },
+      {
+        "type": "item",
+        "value": "XutP4SZN",
+        "label": "chronometry"
+      }
+    ],
+    "type": [
+      {
+        "type": "item",
+        "value": "N2f5NSgz",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "72sFir89",
+        "label": "duration"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "fkHJwpoD",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2ZAuwsSp",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "45qo3Fj3",
+        "label": "music editor"
+      },
+      {
+        "type": "item",
+        "value": "GoiPpGap",
+        "label": "performing artist"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {}
+}

@@ -39,6 +39,20 @@ This documentation describes the different functions and scripts for the FAAM pr
 | statement | table with multiple values | only for agent, including role, date and location |
 | qualifier | column associated with statement table | only for agent, including role, date and location |
 
+### Object types
+
+| name | description |
+| ---- | ---- |
+| city | item used for the `place` property |
+| country | item used for the `nationality` property |
+| music_organization | item similar to agent, but tighted to a physical location |
+| keyword | subjects linked to Wikidata |
+| agent | persons and organizations acting on a manifestation |
+| score_complexity | level of complexity of a manifestation |
+| score_format | format of a manifestation |
+| manifestation | a score, or collection of scores tied to a library record, with unique identifier |
+| musical_instrument | music instrument or voice involved in a manifestation |
+
 ### Templates
 
 Templates are organized by object type and provide a ordered list of appereance of statements and cross-references

@@ -1,0 +1,83 @@
+{
+  "id": "CFKULSen",
+  "uuid_num": 20005335380708,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": ""
+      },
+      {
+        "type": "string",
+        "value": "instrument substitution"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "CFKULSen"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992186"
+      }
+    ],
+    "qid": []
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "gzWrwBKc",
+        "label": "instrumentation"
+      }
+    ],
+    "type": [
+      {
+        "type": "item",
+        "value": "BH3QSV35",
+        "label": "musical concept"
+      },
+      {
+        "type": "item",
+        "value": "aB3G93He",
+        "label": "musical technique"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "k5PWRY6Q",
+        "label": "timbre"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "2ZAuwsSp",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "GoiPpGap",
+        "label": "performing artist"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {}
+}

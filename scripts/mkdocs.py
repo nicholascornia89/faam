@@ -80,12 +80,11 @@ def generate_network(faam_kb,graph_attributes_type_filename,out_dir):
 
 	for item in faam_kb["items"]:
 		for prop in item["statements"].keys():
-			if item["statements"][prop][0]["type"] == "item":
-				for statement in item["statements"][prop]:
+			for statement in item["statements"][prop]:
+				if statement["type"] == "item":
 					net.add_edge(item["id"], statement["value"], weight=10)
 
-			if item["statements"][prop][0]["type"] == "statement": # consider all qualifiers
-				for statement in item["statements"][prop]:
+				if statement["type"] == "statement":
 					for qual in statement["qualifiers"]:
 						if qual["type"] == "item":
 							net.add_edge(statement["value"], qual["value"], weight=5)
@@ -120,7 +119,7 @@ def pyvis_visualization(net,net_filename):
   					},
   					"physics": {
 					"barnesHut": {
-	  				"gravitationalConstant": -12050
+	  				"gravitationalConstant": -120050
 					},
 					"minVelocity": 0.75
   					}
@@ -139,13 +138,13 @@ def generate_distance_matrix(net,max_dist):
 
 def pyvis_visualization_local(center_node,net,distances,base_path):
 	sub_net_nodes = []
-	print("Generating subgraph...")
+	#print("Generating subgraph...")
 	for node in distances[center_node]:
 			sub_net_nodes.append(node)
 	sub_net = net.subgraph(sub_net_nodes)
-	print("Getting labels...")
+	#print("Getting labels...")
 	labels = nx.get_node_attributes(sub_net, "label")
-	print("Render visualization...")
+	#print("Render visualization...")
 	#print(sub_net.nodes())
 	#print(sub_net.edges())
 	pyvis_visualization(sub_net,os.path.join(base_path,str(center_node)))
@@ -157,7 +156,7 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 	# generate distance matrix
 	print("Generating distance matrix. It might take a while!")
 	distances = generate_distance_matrix(net,max_dist=2)
-	print("Generating individual graph visualizations in HTML using pyvis...")
+	print("Generating individual graph visualizations in HTML using pyvis...It might take a while.")
 
 	for node in net:
 		pyvis_visualization_local(node,net,distances,os.path.join(out_dir,"networks"))
@@ -212,49 +211,79 @@ def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 	# serialize JSON item to CSV
 	csv_dict = []
 	for category in item.keys():
-		for faam_property in item[category].keys():
-			for statement in item[category][faam_property]:
-				try:
-					if statement["type"] in ["string","id","date","html"] :
-						csv_dict.append({
-							"category": category,
-							"faam_property": faam_property,
-							"type": statement["type"],
-							"value": statement["value"]
-							})
-					elif statement["type"] in ["externalid","image"]:
-						csv_dict.append({
-							"category": category,
-							"faam_property": faam_property,
-							"type": statement["type"],
-							"value": statement["value"],
-							"base_url": statement["base_url"]
-							})
-					elif statement["type"] == "item":
-						csv_dict.append({
-							"category": category,
-							"faam_property": faam_property,
-							"type": statement["type"],
-							"value": statement["value"],
-							"label": statement["label"]
-							})
-					elif statement["type"] == "statement":
-						qualifiers = ""
-						for qual in statement["qualifiers"]:
-							qualifiers = qualifiers + qual["value"] + separator
-						# get rid of last separator
-						if len(qualifiers) > 1:
-							qualifiers = qualifiers[:-1]
-						csv_dict.append({
-							"category": category,
-							"faam_property": faam_property,
-							"type": statement["type"],
-							"value": statement["value"],
-							"label": statement["label"],
-							"qualifiers": qualifiers
-							}) 
-				except IndexError: # case of not list keys such as id and uuid_num
-					pass
+		if category not in ["id","uuid_num"]:
+			for faam_property in item[category].keys():
+				for statement in item[category][faam_property]:
+					try:
+						if statement["type"] in ["string","id","date","html"] :
+							csv_dict.append({
+								"category": category,
+								"faam_property": faam_property,
+								"type": statement["type"],
+								"value": statement["value"]
+								})
+						elif statement["type"] in ["externalid","image"]:
+							try:
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"],
+									"base_url": statement["base_url"]
+									})
+							except KeyError:
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"]
+									})
+
+						elif statement["type"] == "item":
+							try: 
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"],
+									"label": statement["label"]
+									})
+							except KeyError:
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"]
+									})
+
+						elif statement["type"] == "statement":
+							qualifiers = ""
+							for qual in statement["qualifiers"]:
+								qualifiers = qualifiers + qual["value"] + separator
+							# get rid of last separator
+							if len(qualifiers) > 1:
+								qualifiers = qualifiers[:-1]
+							try:
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"],
+									"label": statement["label"],
+									"qualifiers": qualifiers
+									})
+							except KeyError:
+								print(f'Id: {item["id"]} \n statement without label: {statement}')
+								csv_dict.append({
+									"category": category,
+									"faam_property": faam_property,
+									"type": statement["type"],
+									"value": statement["value"],
+									"qualifiers": qualifiers
+									})
+
+					except IndexError: # case of not list keys such as id and uuid_num
+						pass
 
 	# generate CSV file
 	dict2csv(csv_dict,file_path)
@@ -359,24 +388,46 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 
 				# statements
 				elif block["format"] == "quote":
-					doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+					#doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+					if block["data_format"] == "string":
+						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+						if len(statements) > 0: # append block only if statements are not empty
+							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+							statements_list = []
+							for statement in statements:
+								if statement["value"] != "":
+									# check if item (hyperlink needed), otherwise only string
+									if statement["type"] == "item":
+										# I am assuming all items have FAAM UUID
+										statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+									elif statement["type"] == "externalid":
+										statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
+									else:
+										statements_list.append(sneakmd.Inline(statement["value"]))
+
+							# create unordered list. p.s. Tab is fundamental for layout structuring
+							for element in statements_list:
+								doc.add_raw(f"""	{element}""")
+
 					if block["data_format"] == "list":
 						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
-						statements_list = []
-						for statement in statements:
-							if statement["value"] != "":
-								# check if item (hyperlink needed), otherwise only string
-								if statement["type"] == "item":
-									# I am assuming all items have FAAM UUID
-									statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-								elif statement["type"] == "externalid":
-									statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
-								else:
-									statements_list.append(sneakmd.Inline(statement["value"]))
+						if len(statements) > 0:
+							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+							statements_list = []
+							for statement in statements:
+								if statement["value"] != "":
+									# check if item (hyperlink needed), otherwise only string
+									if statement["type"] == "item":
+										# I am assuming all items have FAAM UUID
+										statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+									elif statement["type"] == "externalid":
+										statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
+									else:
+										statements_list.append(sneakmd.Inline(statement["value"]))
 
-						# create unordered list. p.s. Tab is fundamental for layout structuring
-						for element in statements_list:
-							doc.add_raw(f"""	- {element}""")
+							# create unordered list. p.s. Tab is fundamental for layout structuring
+							for element in statements_list:
+								doc.add_raw(f"""	- {element}""")
 					elif block["data_format"] == "table":
 						headings = []
 						for element in block["content"]:
@@ -386,28 +437,32 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 								for qual in element["qualifiers"]:
 									headings.append(qual)
 
-						# I am assuming uniform length statements!
-						table_raws = []
-						for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
-							raw = []
-							for heading in headings: # assume heading = property and qualifiers key
-								if statement["value"] != "":
-									if statement["type"] == "statement":
-										raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-										for qual in statement["qualifiers"]:
-											if qual in headings:
-												if qual["type"] == "item":
-													raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
-												else:
-													raw.append(sneakmd.Inline(qual["value"]))
-							table_raws.append(raw)
+						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+						if len(statements) > 0:
+							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
 
-						# alignment (center)
-						table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
+							# I am assuming uniform length statements!
+							table_raws = []
+							for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
+								raw = []
+								for heading in headings: # assume heading = property and qualifiers key
+									if statement["value"] != "":
+										if statement["type"] == "statement":
+											raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+											for qual in statement["qualifiers"]:
+												if qual in headings:
+													if qual["type"] == "item":
+														raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+													else:
+														raw.append(sneakmd.Inline(qual["value"]))
+								table_raws.append(raw)
 
-						# append table to document
+							# alignment (center)
+							table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
 
-						doc.add_table(headings,table_raws,aling=table_align)
+							# append table to document
+
+							doc.add_table(headings,table_raws,aling=table_align)
 
 
 

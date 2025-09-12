@@ -297,6 +297,43 @@
 
 			},
 
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 1200, 
+				"height": 800
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"},
+			]
+
+		},
+
+		"note": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "===",
+			"label": "note",
+			"data_format": "string",
+			"content": [
+				{"category": "statements", "property": "note", "type": "html"}
+			]
+			},
+
+		"sections": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "===",
+			"label": "sections",
+			"data_format": "string",
+			"content": [
+				{"category": "statements", "property": "sections", "type": "html"}
+			]
+			},
+
+
 		"statements": {
 			"format": "heading",
 			"level": 2,
@@ -305,6 +342,39 @@
 			]
 
 		},
+
+		"keyword": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "???",
+			"label": "keyword",
+			"data_format": "list",
+			"content": [
+				{"category": "statements", "property": "keyword", "type": "item"}
+			]
+			},
+
+		"instrumentation": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "???",
+			"label": "instrumentation",
+			"data_format": "list",
+			"content": [
+				{"category": "statements", "property": "instrumentation", "type": "item"}
+			]
+			},
+
+		"musical_work": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "???",
+			"label": "musical work",
+			"data_format": "list",
+			"content": [
+				{"category": "statements", "property": "musical work", "type": "item"}
+			]
+			},
 
 		"agent": {
 			"format": "quote",
@@ -322,7 +392,81 @@
 			},
 
 
+		"annotations": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Annotations"}
+			]
+
+		},
+
+		"handwritten_annotation": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "???",
+			"label": "handwritten annotation",
+			"data_format": "list",
+			"content": [
+				{"category": "statements", "property": "handwritten annotation", "type": "item"}
+			]
+			},
+
+		"editorial_annotation": {
+			"format": "quote",
+			"icon": "",
+			"collapse": "???",
+			"label": "editorial annotation",
+			"data_format": "list",
+			"content": [
+				{"category": "statements", "property": "editorial annotation", "type": "item"}
+			]
+			},
+
+		"digital_score": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Digital Score"}
+			]
+
+		},
+
+		"carousel_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 1200, 
+				"height": 800
+				},
+			"label": "carousel view digital score",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/carousel/"},
+			]
+
 		}
+
+		},
+
+	"occupation": {},
+
+	"city": {},
+
+	"country": {},
+
+	"keyword": {},
+
+	"holding_institution": {},
+
+	"music_organization": {},
+
+	"annotation_type": {},
+
+	"score_complexity": {},
+
+	"score_format": {},
+
+	"musical_instrument": {}
 
 
 	}

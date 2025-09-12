@@ -1,0 +1,103 @@
+{
+  "id": "6cyBEJLr",
+  "uuid_num": 9018859521756,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "fingering"
+      },
+      {
+        "type": "string",
+        "value": "fingering"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      },
+      {
+        "type": "string",
+        "value": "choice of which fingers and hand positions to use when playing certain musical instruments"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "6cyBEJLr"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992107"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q608487",
+        "base_url": "http://wwww.wikidata.org/entity/"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "stopping"
+      },
+      {
+        "type": "string",
+        "value": "fingering"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "gyJdd63T",
+        "label": "musical instrument part"
+      }
+    ],
+    "type": [
+      {
+        "type": "item",
+        "value": "BH3QSV35",
+        "label": "musical concept"
+      },
+      {
+        "type": "item",
+        "value": "N2f5NSgz",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "k5PWRY6Q",
+        "label": "timbre"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "45qo3Fj3",
+        "label": "music editor"
+      },
+      {
+        "type": "item",
+        "value": "GoiPpGap",
+        "label": "performing artist"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {}
+}
