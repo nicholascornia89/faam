@@ -203,8 +203,7 @@ def fix_subobjects_statements(d,nodegoat_csv_path,nodegoat2faam_kb_filename):
 			if "Date Start" in element["nodegoat_field"]:
 				fix_fields.append(element["nodegoat_field"])
 			else: # add Object ID not needed?	
-				#fix_fields.append(element["nodegoat_field"]+" - Object ID")
-				fix_fields.append(element["nodegoat_field"])
+				fix_fields.append(element["nodegoat_field"]+" - Object ID")
 
 	print(f"Fields to be fixed: {fix_fields}")
 

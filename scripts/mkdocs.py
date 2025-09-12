@@ -274,6 +274,8 @@ def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED
 
 			# add images to carousel using HTML code
 
+			# Have a look at https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28
+
 			pass
 
 

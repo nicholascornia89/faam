@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{biblatex}
+%\usepackage{natbib}
+%\bibliographystyle{abbrvnat}
+\usepackage[margin=3 cm]{geometry}
+\usepackage[
+%notes,
+natbib=true,
+backend=biber,
+eprint = false,
+url = false,
+doi = false,
+%style=apa,
+style=authoryear-ibid,
+citestyle=authoryear-ibid
+]{biblatex}
+\setlength\bibitemsep{\baselineskip}
+\addbibresource{ap-onderzoek.bib}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linkcolor=black,
+    filecolor=blue,      
+    urlcolor=blue,
+}
+
+
+\title{ Recollecting lost performances: an analysis of musicians' handwritten annotations.}
+\author{
+Nicholas Cornia, Hannah Aelvoet \\ Royal Conservatoire Antwerp, Labo XIX \& XX \\ nicholas.cornia@ap.be, hannah.aelvoet@ap.be
+ \and 
+ Jos\'{e} Oramas \\ University of Antwerp, imec-IDLab \\ jose.oramas@uantwerpen.be  }
+
+\date{13/03/2023}
+
+\begin{document}
+
+\maketitle
+
+%\onecolumn
+
+\section*{Abstract}
+
+Thanks to the invention of audio recordings, we can revive the performance of iconic musicians of the past such as singers, instrumental soloists and conductors by just pressing \emph{play} on our electronic devices. Unfortunately, the musicians of the pre-recording era do not enjoy such a privilege: scholars and performers have to rely on indirect sources, such as treatises, reports and historical instruments, to reconstruct their forgotten sound.
+\\ \\
+Handwritten annotations left on musical scores are a valuable source of information to recollect trends in the performance practice of musicians. Their marks allow us to reenact the rehearsal process and the interaction between performers, such as indications gave by a conductor or teacher. Furthermore, annotations give us insights in how musicians interacted with the written medium of the score. The process of annotation can be seen as a form of support for the memory, providing musicians visual cues for agreements made during the rehearsal process. Also, annotations reveal which sort of information for the performer is missing, or left free for interpretation, in the score engraved by the editor and composer.
+\\ \\
+The contributor would like to present the state of the FAAM project, a digital research platform mapping the rich performance practice of musicians of the late 19th century through the hints and traces left by their annotations on the score. This multidisciplinary Digital Humanities project involves the collaboration of musicologists, librarians, musicians and computer scientists from several institutions around the globe. Of particular interest is the way machines memorize and process music notation, the main topic of Optical Music Recognition (OMR), a sub-field of Computer Vision.
+\\ \\
+The \emph{Flemish Archive for Annotated Music} corpus is mainly formed by scores coming from the Heritage Library of Antwerp Conservatoire, but it is rapidly including records from other fellow institutions, like the Library of Ghent Conservatoire, the Historic American Sheet Music collection at Duke University, institutions embracing the RISM database and the DARIAH project.
+
+A series of concrete case studies, the workflow, state of the art and challenges related to this ambitious project will be presented to the community. 
+
+
+
+\newpage
+
+%References
+\printbibliography [title = {References}]
+
+
+
+\end{document}
