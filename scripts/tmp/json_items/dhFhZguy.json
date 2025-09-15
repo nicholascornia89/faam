@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Dutch composer and oboist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Frédéric Bonzon"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "16343309",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "16343309"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1926-05-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -135,14 +128,14 @@
       {
         "type": "item",
         "value": "dRNbpmYx",
-        "label": ""
+        "label": "'s-Hertogenbosch"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fbUgmbB9",
-        "label": ""
+        "label": "Berchem"
       }
     ],
     "instrument": [],

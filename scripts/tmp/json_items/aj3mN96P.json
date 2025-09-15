@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Provisional Theatre"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "theatre in 19th-century Prague"
       }
     ],
     "object_type": [
@@ -47,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "5rRqvsj3",
+        "label": "Prague"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7pXkvEco",
+        "label": "Czech Republic"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

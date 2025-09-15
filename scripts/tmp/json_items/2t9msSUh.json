@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Battista Casali"
       }
     ],
@@ -63,26 +55,30 @@
       {
         "type": "externalid",
         "value": "24792901",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24792901"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000607",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000607"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Casali,_Giovanni_Battista",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Casali,_Giovanni_Battista"
       },
       {
         "type": "externalid",
         "value": "Category:Category:Casali,_Giovanni_Battista",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Category:Casali,_Giovanni_Battista"
       }
     ],
     "date of birth": [
@@ -97,7 +93,7 @@
         "value": "1792-07-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -142,14 +138,14 @@
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

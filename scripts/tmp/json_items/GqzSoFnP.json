@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian university professor, librarian, musicologist and music historian (1874–1966)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Charles Van den Borren"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "41847517",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "41847517"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30064396",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30064396"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1966-01-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -157,14 +151,14 @@
       {
         "type": "item",
         "value": "c84owCWQ",
-        "label": ""
+        "label": "Ixelles - Elsene"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "2J2Wm7TU",
-        "label": ""
+        "label": "Uccle - Ukkel"
       }
     ],
     "instrument": [],
@@ -186,7 +180,7 @@
       {
         "type": "item",
         "value": "76JNvqtK",
-        "label": ""
+        "label": "University of Liège"
       }
     ]
   },

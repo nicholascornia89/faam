@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Christoph Bach III"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Organist in Ohrdruf"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,108 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "277822",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "277822"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30017037",
+        "base_url": "https://rism.online/",
+        "label": "people/30017037"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1671-06-16"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1721-02-22"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "UuMrn3b8",
+        "label": "cantor"
+      },
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "gAsXeyQR",
+        "label": "Erfurt"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "DvPLbL4h",
+        "label": "Ohrdruf"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "25N4d8pj",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

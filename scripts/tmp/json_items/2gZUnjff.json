@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Friedrich Hofmeister"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "6359690",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "6359690"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/95955",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/95955"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Hofmeister,_Friedrich",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hofmeister,_Friedrich"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1864-09-30"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -158,14 +153,14 @@
       {
         "type": "item",
         "value": "gh4toWCh",
-        "label": ""
+        "label": "Strehla"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "FUnXsBhT",
-        "label": ""
+        "label": "Reudnitz"
       }
     ],
     "instrument": [],

@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Julius Sachs"
       }
     ],
@@ -50,21 +46,24 @@
       {
         "type": "externalid",
         "value": "77075347",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "77075347"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/74553",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/74553"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Sachs,_Julius",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Sachs,_Julius"
       }
     ],
     "date of birth": [
@@ -79,7 +78,7 @@
         "value": "1887"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

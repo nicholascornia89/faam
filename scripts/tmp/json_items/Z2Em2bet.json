@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Flemish composer"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "44483332",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44483332"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Kerle,_Jacobus_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Kerle,_Jacobus_de"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1591-01-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,14 +130,14 @@
       {
         "type": "item",
         "value": "JMSWfyLQ",
-        "label": ""
+        "label": "Ypres"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5rRqvsj3",
-        "label": ""
+        "label": "Prague"
       }
     ],
     "instrument": [

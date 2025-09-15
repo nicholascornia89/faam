@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1853-1904)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "42107229",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42107229"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/67079",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/67079"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Rousseau,_Samuel_Alexandre",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Rousseau,_Samuel_Alexandre"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1904-10-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "LkfroUuP",
-        "label": ""
+        "label": "Neuve-Maison"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

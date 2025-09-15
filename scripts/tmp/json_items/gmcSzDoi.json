@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Auguste Bazille"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French composer and organist (1828–1891)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,113 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "49489589",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "49489589"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Bazille,_Auguste",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bazille,_Auguste"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1828-05-27"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1891-04-18"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "maRQGDCy",
+        "label": "former 5th arrondissement of Paris"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "dCNvjvRi",
+        "label": "Colombes"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "educated at": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Auguste_Bazille.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian actor and voice actor (1919-1973)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Carlo D'Angelo"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "66135876",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66135876"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1973-06-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -98,7 +91,7 @@
       {
         "type": "item",
         "value": "HS9jsWgz",
-        "label": ""
+        "label": "voice actor"
       },
       {
         "type": "item",
@@ -141,7 +134,7 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [],
@@ -150,7 +143,7 @@
       {
         "type": "item",
         "value": "aW9NkRvK",
-        "label": ""
+        "label": "University of Milan"
       }
     ],
     "employer": []

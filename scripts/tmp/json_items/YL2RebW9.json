@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Michelangelo Gasparini"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer and singer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,105 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "2761915",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2761915"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30001238",
+        "base_url": "https://rism.online/",
+        "label": "people/30001238"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Gasparini,_Michelangelo",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gasparini,_Michelangelo"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1670-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1732-01-01"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "n9MN9cLo",
+        "label": "opera singer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "7L3SCe2M",
+        "label": "Republic of Venice"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "nKexL6pz",
+        "label": "Lucca"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "MDWRhZ8K",
+        "label": "Venice"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "KJkThvsq",
+        "label": "voice"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "7px3Rymk",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

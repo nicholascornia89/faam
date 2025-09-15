@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musician"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "14997634",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "14997634"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/4127",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/4127"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Baillot,_Pierre",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Baillot,_Pierre"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1842-09-15"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,19 +130,19 @@
       {
         "type": "item",
         "value": "GooGFyTS",
-        "label": ""
+        "label": "Passy"
       },
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

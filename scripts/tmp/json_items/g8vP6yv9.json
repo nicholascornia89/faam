@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1812-1891)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "305465461",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "305465461"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30019051",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30019051"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Eykens,_J.",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Eykens,_J."
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1891-10-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

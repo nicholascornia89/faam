@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Stamitz"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Czech composer and violinist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,130 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "71579385",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "71579385"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30003032",
+        "base_url": "https://rism.online/",
+        "label": "people/30003032"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Stamitz,_Johann",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Stamitz,_Johann"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1717-06-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1757-03-27"
+      },
+      {
+        "type": "date",
+        "value": "1757-03-30"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "VPUDk9Pe",
+        "label": "philosopher"
+      },
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "axY3tPPa",
+        "label": "Kingdom of Bohemia"
+      },
+      {
+        "type": "item",
+        "value": "RavSUyPb",
+        "label": ""
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ABisdepC",
+        "label": "Havlíčkův Brod"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "kbDNt9VZ",
+        "label": "Mannheim"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "kmH76UmB",
+        "label": "Charles University"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +173,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Jan_Václav_Stamic_(1717-1757).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

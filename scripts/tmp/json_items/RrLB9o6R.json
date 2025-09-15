@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean-Joseph Mouret"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "42104905",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42104905"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004590",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004590"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Mouret,_Jean-Joseph",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mouret,_Jean-Joseph"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1738-12-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +138,14 @@
       {
         "type": "item",
         "value": "APQePnaZ",
-        "label": ""
+        "label": "Avignon"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "3nFdp2Lm",
-        "label": ""
+        "label": "Charenton-le-Pont"
       }
     ],
     "instrument": [],

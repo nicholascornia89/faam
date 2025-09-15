@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Prague"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the Czech Republic"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Prague"
+      },
+      {
+        "type": "string",
+        "value": "Praha"
+      },
+      {
+        "type": "string",
+        "value": "Hlavní město Praha"
+      },
+      {
+        "type": "string",
+        "value": "City of Prague"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3067696",
+        "base_url": "https://www.geonames.org/",
+        "label": "3067696"
       }
     ]
   },

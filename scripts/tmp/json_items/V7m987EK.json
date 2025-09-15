@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer, teacher and Franciscan friar"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "14959843",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "14959843"
       }
     ],
     "RISM ID": [],
@@ -75,7 +72,8 @@
       {
         "type": "externalid",
         "value": "Category:Viadana,_Lodovico_da",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Viadana,_Lodovico_da"
       }
     ],
     "date of birth": [
@@ -90,7 +88,7 @@
         "value": "1627-05-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +134,14 @@
       {
         "type": "item",
         "value": "FFzEA63c",
-        "label": ""
+        "label": "Viadana"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "gz6on8Ur",
-        "label": ""
+        "label": "Gualtieri"
       }
     ],
     "instrument": [],

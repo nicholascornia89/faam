@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian music publisher and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Tobias Haslinger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "61747464",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61747464"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/51850",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/51850"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Haslinger,_Tobias",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Haslinger,_Tobias"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1842-06-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -158,14 +153,14 @@
       {
         "type": "item",
         "value": "bwJNdqQS",
-        "label": ""
+        "label": "Bad Zell"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [],

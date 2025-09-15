@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Jean-Vital Jammes"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French opera singer (1825–1893)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,101 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "1152636038920050568",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "1152636038920050568"
+      },
+      {
+        "type": "externalid",
+        "value": "280808067",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "280808067"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1825-04-28"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1893-06-13"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "n9MN9cLo",
+        "label": "opera singer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "cvhcZoLZ",
+        "label": "Le Passage"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "GLRvpdZj",
+        "label": "Marseille"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "KJkThvsq",
+        "label": "voice"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "YTxZ8vfN",
+        "label": "Conservatoire National Supérieur de Musique et de Danse"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Jean-Vital_Jammes.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

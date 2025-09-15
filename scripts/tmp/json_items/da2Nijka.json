@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Michael Pamer"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian composer and conductor (1782-1827)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,99 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "34024417",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34024417"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30002432",
+        "base_url": "https://rism.online/",
+        "label": "people/30002432"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Pamer,_Michael",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pamer,_Michael"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1782-09-03"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1827-09-04"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ax8YnTVJ",
+        "label": "Neulerchenfeld"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "WPtesvXp",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +143,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Michael-pamer.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Gaetano Greco"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,130 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "65710054",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "65710054"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30004536",
+        "base_url": "https://rism.online/",
+        "label": "people/30004536"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Greco,_Gaetano",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Greco,_Gaetano"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1657-01-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1728-01-01"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4UgAZMRB",
+        "label": "Kingdom of Naples"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "RjXv6xhJ",
+        "label": "Naples"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "RjXv6xhJ",
+        "label": "Naples"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
+      },
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Z5KnCH39",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "ihgFa3Q2",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

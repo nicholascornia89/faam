@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Alexis de Garaudé"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "French composer (1821-1854)"
       }
     ],
     "object_type": [
@@ -50,7 +46,8 @@
       {
         "type": "externalid",
         "value": "39724607",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39724607"
       }
     ],
     "RISM ID": [],
@@ -58,7 +55,8 @@
       {
         "type": "externalid",
         "value": "Category:Garaudé,_Albert_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Garaudé,_Albert_de"
       }
     ],
     "date of birth": [
@@ -73,7 +71,7 @@
         "value": "1854-08-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -108,7 +106,7 @@
       {
         "type": "item",
         "value": "WHUuzgFU",
-        "label": ""
+        "label": "accompanist"
       }
     ],
     "sex or gender": [
@@ -129,14 +127,14 @@
       {
         "type": "item",
         "value": "dLJ5EaPC",
-        "label": ""
+        "label": "Choisy-le-Roi"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

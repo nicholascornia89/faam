@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "American conductor (1899-1990)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "61730425",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61730425"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Janssen,_Werner",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Janssen,_Werner"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1990-09-19"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

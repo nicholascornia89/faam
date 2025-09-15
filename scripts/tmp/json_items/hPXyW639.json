@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Budapest University of Technology and Economics"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "university in Hungary"
       }
     ],
     "object_type": [
@@ -47,16 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "jRhzWGcf",
+        "label": "Budapest"
+      },
+      {
+        "type": "item",
+        "value": "HXU5jfkq",
+        "label": "Budapest District XI"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer, musician and organ builder"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "John Bull"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "54331967",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54331967"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004671",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004671"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Bull,_John",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bull,_John"
       }
     ],
     "date of birth": [
@@ -96,7 +91,7 @@
         "value": "1628-03-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,7 +126,7 @@
       {
         "type": "item",
         "value": "2KTqhXma",
-        "label": ""
+        "label": "music professor"
       },
       {
         "type": "item",
@@ -162,14 +157,14 @@
       {
         "type": "item",
         "value": "PkiCCPXq",
-        "label": ""
+        "label": "Somerset"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "jGe3vcFB",
-        "label": ""
+        "label": "Antwerp"
       }
     ],
     "instrument": [
@@ -191,7 +186,7 @@
       {
         "type": "item",
         "value": "ekhDjWNi",
-        "label": ""
+        "label": "Gresham College"
       }
     ]
   },

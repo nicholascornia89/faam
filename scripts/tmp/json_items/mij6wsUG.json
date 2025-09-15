@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pierre Gaviniès"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French violin maker, violinist and composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,109 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "37180896",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "37180896"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30013799",
+        "base_url": "https://rism.online/",
+        "label": "people/30013799"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Gaviniès,_Pierre",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gaviniès,_Pierre"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1728-05-11"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1800-09-08"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3vFtsNzx",
+        "label": "Bordeaux"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Pierre_Gaviniès_d'après_Pierre_Guérin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

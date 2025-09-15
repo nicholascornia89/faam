@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English music historian (1726-1814)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Charles Burney"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "15109973",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "15109973"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/118331",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/118331"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Burney,_Charles",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Burney,_Charles"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1814-04-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -156,14 +151,14 @@
       {
         "type": "item",
         "value": "GpJQbzxw",
-        "label": ""
+        "label": "Shrewsbury"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "L57L7BPR",
-        "label": ""
+        "label": "Chelsea"
       }
     ],
     "instrument": [

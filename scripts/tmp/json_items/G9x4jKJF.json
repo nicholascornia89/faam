@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "William Chaumet"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "15046335",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "15046335"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41001738",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41001738"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Chaumet,_William",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Chaumet,_William"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1903-10-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "3vFtsNzx",
-        "label": ""
+        "label": "Bordeaux"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "bZtKhUuR",
-        "label": ""
+        "label": "Saint-Médard-en-Jalles"
       }
     ],
     "instrument": [],

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bernardo Pasquini"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian Baroque composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,133 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "71578999",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "71578999"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30002442",
+        "base_url": "https://rism.online/",
+        "label": "people/30002442"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Pasquini,_Bernardo",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pasquini,_Bernardo"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1637-12-07"
+      },
+      {
+        "type": "date",
+        "value": "1637-12-08"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1710-11-22"
+      },
+      {
+        "type": "date",
+        "value": "1710-11-21"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "LcwfzPiG",
+        "label": "harpsichordist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "LvqMie9F",
+        "label": "Massa e Cozzile"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "fZUC7W4e",
+        "label": "Rome"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      },
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "7twdxt5v",
+        "label": "musical instrument"
+      },
+      {
+        "type": "item",
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "iwXZYTeP",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +177,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Bernardo_Pasquini.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

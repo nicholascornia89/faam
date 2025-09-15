@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1782-1871)"
       }
     ],
@@ -71,21 +67,24 @@
       {
         "type": "externalid",
         "value": "7573044",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7573044"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/38000",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/38000"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Auber,_Daniel_François_Esprit",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Auber,_Daniel_François_Esprit"
       }
     ],
     "date of birth": [
@@ -100,7 +99,7 @@
         "value": "1871-05-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -149,14 +148,14 @@
       {
         "type": "item",
         "value": "UHSXAavW",
-        "label": ""
+        "label": "Caen"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       }
     ],
     "instrument": [],

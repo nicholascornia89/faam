@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Charles Lenepveu"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French composer (1840–1910)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,138 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "76583370",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76583370"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Lenepveu,_Charles-Ferdinand",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lenepveu,_Charles-Ferdinand"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1840-10-04"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1910-08-16"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      },
+      {
+        "type": "item",
+        "value": "T6WHrEiP",
+        "label": "theorist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "7vRaX8eL",
+        "label": "Rouen"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Hk3mGA9F",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "aMECmgpH",
+        "label": "Ambroise Thomas"
+      },
+      {
+        "type": "item",
+        "value": "GJgQ5fuw",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      },
+      {
+        "type": "item",
+        "value": "n4i8wujm",
+        "label": "Lycée Pierre-Corneille"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Charles_Lenepveu.jpg",
+        "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      },
+      {
+        "type": "image",
+        "value": "Charles_Lenepveu_(Alphonse_Terpereau,_1875).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

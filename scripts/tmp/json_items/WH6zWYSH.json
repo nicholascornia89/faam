@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pierre Joseph D'Hollander"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "priest, theologian, professor and honorary canon (1804 - 1866)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -58,20 +45,82 @@
     "VIAF ID": [],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1804-03-27"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1866-10-16"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "ZnHbmhfu",
+        "label": "Catholic priest"
+      },
+      {
+        "type": "item",
+        "value": "agnuLCvL",
+        "label": "theologian"
+      },
+      {
+        "type": "item",
+        "value": "n8RY6FTC",
+        "label": "professor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3LLWNxeK",
+        "label": "Tielt"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "PKMmukjk",
+        "label": "Bruges"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "educated at": [
+      {
+        "type": "item",
+        "value": "CwDDX6Fv",
+        "label": "Catholic University of Leuven"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "idrnRoaA",
+        "label": "Bruges seminary"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

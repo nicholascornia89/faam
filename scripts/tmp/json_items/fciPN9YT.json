@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Würzburg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in the region of Franconia, Northern Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,44 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Würzburg"
+      },
+      {
+        "type": "string",
+        "value": "Kreisfreie Stadt Würzburg"
+      },
+      {
+        "type": "string",
+        "value": "Wörtzburch"
+      },
+      {
+        "type": "string",
+        "value": "Wuerzburg"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2805615",
+        "base_url": "https://www.geonames.org/",
+        "label": "2805615"
+      },
+      {
+        "type": "externalid",
+        "value": "6556942",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556942"
+      },
+      {
+        "type": "externalid",
+        "value": "3220897",
+        "base_url": "https://www.geonames.org/",
+        "label": "3220897"
       }
     ]
   },

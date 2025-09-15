@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Royal Irish Academy of Music"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "music conservatory in Dublin, Ireland"
       }
     ],
     "object_type": [
@@ -47,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "TUzS2eS4",
+        "label": "Dublin"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CcZxt72Q",
+        "label": "Ireland"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

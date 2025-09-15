@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian harpist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jules-Joseph Godefroid"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "32261588",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32261588"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30019633",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30019633"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Godefroid,_Jules",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Godefroid,_Jules"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1840-02-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "oA2NfFLQ",
-        "label": ""
+        "label": "Namur"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hochschule für Musik und Tanz Köln"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "music college in Cologne, Germany"
       }
     ],
     "object_type": [
@@ -47,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "Pzwp7nCK",
+        "label": "Altstadt-Nord"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

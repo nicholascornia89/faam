@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Church of Saint-Sulpice"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "building in Paris, France (1646-)"
       }
     ],
     "object_type": [
@@ -47,16 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "RVEuCHaP",
+        "label": "Quartier de l'Odéon"
+      },
+      {
+        "type": "item",
+        "value": "SZFa8mvk",
+        "label": "6th arrondissement of Paris"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

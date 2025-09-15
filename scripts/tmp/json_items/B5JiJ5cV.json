@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Marco Enrico Bossi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian organist, composer, improviser and pedagogue. (1861–1925)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,127 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "71577216",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "71577216"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/26961",
+        "base_url": "https://rism.online/",
+        "label": "people/26961"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Bossi,_Marco_Enrico",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bossi,_Marco_Enrico"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1861-04-25"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1925-02-20"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "U2kVMjrS",
+        "label": "Salò"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "DPFefDZS",
+        "label": "Atlantic Ocean"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "JyRXgAHe",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "n2FoQ43a",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "hVjFqx3N",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "RTU8hLY4",
+        "label": "Milan Conservatory"
+      },
+      {
+        "type": "item",
+        "value": "YxmE2DX5",
+        "label": "Conservatorio Giovanni Battista Martini"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +170,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Marco_Enrico_Bossi,_1905.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

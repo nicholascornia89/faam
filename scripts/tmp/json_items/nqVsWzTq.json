@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Andre Robberechts"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Belgian composer (1797–1860)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,23 +42,128 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "2758152744521427850002",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2758152744521427850002"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30019734",
+        "base_url": "https://rism.online/",
+        "label": "people/30019734"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Robberechts,_Andre",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Robberechts,_Andre"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1797-12-16"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1860-05-23"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Beq72mMD",
+        "label": "Brussels metropolitan area"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "eukJ9RHS",
+        "label": "Pierre Baillot"
+      },
+      {
+        "type": "item",
+        "value": "oJGctqdB",
+        "label": "Anton Reicha"
+      },
+      {
+        "type": "item",
+        "value": "Lo57rLFq",
+        "label": "Giovanni Battista Viotti"
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "Yj5tRovx",
+        "label": "Royal Conservatory of Brussels"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

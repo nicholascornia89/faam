@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Ignaz Ladurner"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French pianist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,23 +42,113 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "7733771",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7733771"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/477296",
+        "base_url": "https://rism.online/",
+        "label": "people/477296"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Ladurner,_Ignace_Antoine",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ladurner,_Ignace_Antoine"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1766-08-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1839-03-04"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "SchRGWWb",
+        "label": "Aldein"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NAXcyuWb",
+        "label": "Massy"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "jDVcqbT9",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "YTxZ8vfN",
+        "label": "Conservatoire National Supérieur de Musique et de Danse"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

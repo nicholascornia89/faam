@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Flemish writer and poet (1865-1932)"
       }
     ],
@@ -79,7 +75,8 @@
       {
         "type": "externalid",
         "value": "21077845",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "21077845"
       }
     ],
     "RISM ID": [],
@@ -87,7 +84,8 @@
       {
         "type": "externalid",
         "value": "Category:Lambrechts,_Lambrecht",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lambrechts,_Lambrecht"
       }
     ],
     "date of birth": [
@@ -102,7 +100,7 @@
         "value": "1932-08-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,14 +145,14 @@
       {
         "type": "item",
         "value": "AA36FJAY",
-        "label": ""
+        "label": "Hoeselt"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "instrument": [],

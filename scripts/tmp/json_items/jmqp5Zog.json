@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer and conductor (1852-1928)"
       }
     ],
@@ -75,21 +71,24 @@
       {
         "type": "externalid",
         "value": "173606162",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "173606162"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/40206420",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/40206420"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Marie,_Gabriel_Prosper",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Marie,_Gabriel_Prosper"
       }
     ],
     "date of birth": [
@@ -104,7 +103,7 @@
         "value": "1928-08-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -149,14 +148,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "7yytR87q",
-        "label": ""
+        "label": "Puigcerdà"
       }
     ],
     "instrument": [],

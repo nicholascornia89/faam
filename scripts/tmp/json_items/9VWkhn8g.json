@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johannes Verhulst"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dutch composer and conductor (1816–1891)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,105 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "56802598",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56802598"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/139749",
+        "base_url": "https://rism.online/",
+        "label": "people/139749"
+      },
+      {
+        "type": "externalid",
+        "value": "people/40216534",
+        "base_url": "https://rism.online/",
+        "label": "people/40216534"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Verhulst,_Johannes",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Verhulst,_Johannes"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1816-03-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1891-01-17"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "ZvjsCjDf",
+        "label": "Kingdom of the Netherlands"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "EmMG4HwD",
+        "label": "The Hague"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "EmMG4HwD",
+        "label": "The Hague"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "SGrSvda8",
+        "label": "Felix Mendelssohn"
+      }
+    ],
     "educated at": [],
     "employer": []
   },

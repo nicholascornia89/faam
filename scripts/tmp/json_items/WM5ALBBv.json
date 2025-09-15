@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Paul Hippolyte Camus"
       }
     ],
@@ -50,21 +46,24 @@
       {
         "type": "externalid",
         "value": "7698864",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7698864"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30087158",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30087158"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Camus,_Paul_Hippolyte",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Camus,_Paul_Hippolyte"
       }
     ],
     "date of birth": [
@@ -79,7 +78,7 @@
         "value": "1850-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

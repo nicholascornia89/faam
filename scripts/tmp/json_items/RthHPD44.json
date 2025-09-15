@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1874-1956)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "2232255",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2232255"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Trémisot,_Édouard",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Trémisot,_Édouard"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1952-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "62291556",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "62291556"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/9550",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/9550"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Pessard,_Émile",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pessard,_Émile"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1917-02-10"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -152,24 +151,24 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       },
       {
         "type": "item",
         "value": "Zmnqa2iW",
-        "label": ""
+        "label": "place Charles-Dullin"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       },
       {
         "type": "item",
         "value": "gu4ortUT",
-        "label": ""
+        "label": "rue Richer"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian musician (1836-1884)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Louis Brassin"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "27821531",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "27821531"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41308",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41308"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Brassin,_Louis",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Brassin,_Louis"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1884-05-05"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -163,14 +158,14 @@
       {
         "type": "item",
         "value": "ZZV3jTLe",
-        "label": ""
+        "label": "Aachen"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "AzqRtNds",
-        "label": ""
+        "label": "Saint Petersburg"
       }
     ],
     "instrument": [

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bonn"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Germany and capital of former West Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bonn"
+      },
+      {
+        "type": "string",
+        "value": "Bonn, Germany"
+      },
+      {
+        "type": "string",
+        "value": "Bonn, West Germany"
+      },
+      {
+        "type": "string",
+        "value": "Federal City of Bonn"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3247450",
+        "base_url": "https://www.geonames.org/",
+        "label": "3247450"
       }
     ]
   },

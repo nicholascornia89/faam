@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1770–1827)"
       }
     ],
@@ -91,21 +87,24 @@
       {
         "type": "externalid",
         "value": "32182557",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32182557"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/11035",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/11035"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Beethoven,_Ludwig_van",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Beethoven,_Ludwig_van"
       }
     ],
     "date of birth": [
@@ -120,7 +119,7 @@
         "value": "1827-03-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -163,7 +162,7 @@
       {
         "type": "item",
         "value": "7FHEdxoD",
-        "label": ""
+        "label": "improviser"
       },
       {
         "type": "item",
@@ -199,14 +198,14 @@
       {
         "type": "item",
         "value": "TC6JZ66W",
-        "label": ""
+        "label": "Bonn"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

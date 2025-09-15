@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stanislao Mattei"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian Conventual Franciscan, composer and music theorist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,108 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "79200339",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "79200339"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30002130",
+        "base_url": "https://rism.online/",
+        "label": "people/30002130"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Mattei,_Stanislao",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mattei,_Stanislao"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1750-02-10"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1825-05-12"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "3tKkjrbV",
+        "label": "religious"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "RZra3Qhj",
+        "label": "Bologna"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "RZra3Qhj",
+        "label": "Bologna"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "FEbTxAZY",
+        "label": "Giovanni Battista Martini"
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +152,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Станислао_Маттеи.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

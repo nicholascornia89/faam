@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Albert Fuchs"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "composer (1858-1910)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,91 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "62310625",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "62310625"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30035746",
+        "base_url": "https://rism.online/",
+        "label": "people/30035746"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Fuchs,_Albert",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Fuchs,_Albert"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1858-08-06"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1910-02-15"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "nRMPrHtA",
+        "label": "Basel"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "MCyXT4P3",
+        "label": "Dresden"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

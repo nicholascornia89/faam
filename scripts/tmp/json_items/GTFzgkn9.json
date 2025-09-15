@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian-French composer"
       }
     ],
@@ -67,12 +63,14 @@
       {
         "type": "externalid",
         "value": "30298169",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "30298169"
       },
       {
         "type": "externalid",
         "value": "12573165",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12573165"
       }
     ],
     "RISM ID": [],
@@ -80,7 +78,8 @@
       {
         "type": "externalid",
         "value": "Category:Le_Borne,_Fernand",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Le_Borne,_Fernand"
       }
     ],
     "date of birth": [
@@ -103,7 +102,7 @@
         "value": "1929-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -152,14 +151,14 @@
       {
         "type": "item",
         "value": "6kcwZdMC",
-        "label": ""
+        "label": "Charleroi"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

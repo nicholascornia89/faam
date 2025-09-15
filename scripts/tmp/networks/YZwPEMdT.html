@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AzqRtNds", "label": "Saint Petersburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AzqRtNds.md\u0027\u003eSaint Petersburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efederal city and former capital of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nyaj8Ndp", "label": "Saint Petersburg Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nyaj8Ndp.md\u0027\u003eSaint Petersburg Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic school in Saint Petersburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JiCYXnik", "label": "Workers\u0027 Youth Theatre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JiCYXnik.md\u0027\u003eWorkers\u0027 Youth Theatre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet theatre type\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CTPKvYNp", "label": "Dmitri Shostakovich", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CTPKvYNp.md\u0027\u003eDmitri Shostakovich\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet composer and pianist (1906-1975)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "k6cnSQnL", "label": "Maximilian Steinberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./k6cnSQnL.md\u0027\u003eMaximilian Steinberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1883-1946)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Steinberg_Maximilian_(1915).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gPEqEwhs", "label": "Nikolay Sokolov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gPEqEwhs.md\u0027\u003eNikolay Sokolov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1859\u20131922)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sokolov_NA.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SkDjMP4R", "label": "Alexander Ossovsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SkDjMP4R.md\u0027\u003eAlexander Ossovsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusicologist, Russian writer (1871-1957)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "RHfvaKqY", "label": "pianist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RHfvaKqY.md\u0027\u003epianist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UczDSGy2", "label": "Leonid Nikolayev", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UczDSGy2.md\u0027\u003eLeonid Nikolayev\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian musician (1878\u20131942)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "g9CmHRXM", "label": "Alexandra Rozanova", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./g9CmHRXM.md\u0027\u003eAlexandra Rozanova\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "b4zDfA2N", "label": "Ignatiy Glyasser", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./b4zDfA2N.md\u0027\u003eIgnatiy Glyasser\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZtWvjSdn", "label": "Maria Yudina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZtWvjSdn.md\u0027\u003eMaria Yudina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSoviet pianist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Maria_Yudina.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GoXpNrsh", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GoXpNrsh.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "NcRBkJKT", "label": "screenwriter", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NcRBkJKT.md\u0027\u003escreenwriter\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewriter who writes for films, TV shows, comics and games\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Vq7JhbTF", "label": "Soviet Union", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Vq7JhbTF.md\u0027\u003eSoviet Union\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer country in Eurasia (1922\u20131991)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Djq8DaQv", "label": "Moscow Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Djq8DaQv.md\u0027\u003eMoscow Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehigher musical education institution in Moscow\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6sZ9jk46", "label": "Meyerhold State Theatre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6sZ9jk46.md\u0027\u003eMeyerhold State Theatre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etheatre in Moscow (1920\u20131938)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZwquHrbe", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZwquHrbe.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "KZLqHwSf", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KZLqHwSf.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "6XD3homi", "label": "music educator", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6XD3homi.md\u0027\u003emusic educator\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacademic title\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "VAnkqco6", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VAnkqco6.md\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "WKTLcAet", "label": "Russian Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WKTLcAet.md\u0027\u003eRussian Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eformer empire in Eurasia and North America (1721\u20131917)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fgyBiYxY", "label": "Moscow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fgyBiYxY.md\u0027\u003eMoscow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital and most populous city of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "2e3yeRss", "label": "choreographer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2e3yeRss.md\u0027\u003echoreographer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who creates choreographies\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "ZX7Jzf9y", "label": "university teacher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZX7Jzf9y.md\u0027\u003euniversity teacher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson teaching at a university or college\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "RU9hU5Pa", "label": "classical composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RU9hU5Pa.md\u0027\u003eclassical composer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who composes classical music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "U5ovsTg3", "label": "librettist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./U5ovsTg3.md\u0027\u003elibrettist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eauthor of the libretto (words) of an opera or a similar extended musical composition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YZwPEMdT", "label": "director", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YZwPEMdT.md\u0027\u003edirector\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edirector of a creative work\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "gLanGdJR", "label": "politician", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gLanGdJR.md\u0027\u003epolitician\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who holds or seeks positions in government\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "NQdMfdiH", "label": "jazz musician", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NQdMfdiH.md\u0027\u003ejazz musician\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays jazz\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}]);
+                  edges = new vis.DataSet([{"from": "AzqRtNds", "to": "nyaj8Ndp", "width": 10}, {"from": "AzqRtNds", "to": "JiCYXnik", "width": 10}, {"from": "AzqRtNds", "to": "CTPKvYNp", "width": 10}, {"from": "AzqRtNds", "to": "k6cnSQnL", "width": 10}, {"from": "AzqRtNds", "to": "gPEqEwhs", "width": 10}, {"from": "AzqRtNds", "to": "SkDjMP4R", "width": 10}, {"from": "RHfvaKqY", "to": "CTPKvYNp", "width": 10}, {"from": "RHfvaKqY", "to": "UczDSGy2", "width": 10}, {"from": "RHfvaKqY", "to": "g9CmHRXM", "width": 10}, {"from": "RHfvaKqY", "to": "b4zDfA2N", "width": 10}, {"from": "RHfvaKqY", "to": "ZtWvjSdn", "width": 10}, {"from": "GoXpNrsh", "to": "CTPKvYNp", "width": 10}, {"from": "GoXpNrsh", "to": "UczDSGy2", "width": 10}, {"from": "GoXpNrsh", "to": "k6cnSQnL", "width": 10}, {"from": "GoXpNrsh", "to": "ZtWvjSdn", "width": 10}, {"from": "NcRBkJKT", "to": "CTPKvYNp", "width": 10}, {"from": "Vq7JhbTF", "to": "Djq8DaQv", "width": 10}, {"from": "Vq7JhbTF", "to": "nyaj8Ndp", "width": 10}, {"from": "Vq7JhbTF", "to": "JiCYXnik", "width": 10}, {"from": "Vq7JhbTF", "to": "6sZ9jk46", "width": 10}, {"from": "Vq7JhbTF", "to": "CTPKvYNp", "width": 10}, {"from": "Vq7JhbTF", "to": "UczDSGy2", "width": 10}, {"from": "Vq7JhbTF", "to": "k6cnSQnL", "width": 10}, {"from": "Vq7JhbTF", "to": "SkDjMP4R", "width": 10}, {"from": "Vq7JhbTF", "to": "ZtWvjSdn", "width": 10}, {"from": "SkDjMP4R", "to": "CTPKvYNp", "width": 10}, {"from": "SkDjMP4R", "to": "ZwquHrbe", "width": 10}, {"from": "SkDjMP4R", "to": "KZLqHwSf", "width": 10}, {"from": "SkDjMP4R", "to": "6XD3homi", "width": 10}, {"from": "SkDjMP4R", "to": "VAnkqco6", "width": 10}, {"from": "SkDjMP4R", "to": "WKTLcAet", "width": 10}, {"from": "ZtWvjSdn", "to": "CTPKvYNp", "width": 10}, {"from": "ZtWvjSdn", "to": "ZwquHrbe", "width": 10}, {"from": "ZtWvjSdn", "to": "6XD3homi", "width": 10}, {"from": "ZtWvjSdn", "to": "WKTLcAet", "width": 10}, {"from": "ZtWvjSdn", "to": "fgyBiYxY", "width": 10}, {"from": "ZtWvjSdn", "to": "UczDSGy2", "width": 10}, {"from": "ZtWvjSdn", "to": "k6cnSQnL", "width": 10}, {"from": "ZtWvjSdn", "to": "nyaj8Ndp", "width": 10}, {"from": "ZtWvjSdn", "to": "Djq8DaQv", "width": 10}, {"from": "b4zDfA2N", "to": "CTPKvYNp", "width": 10}, {"from": "b4zDfA2N", "to": "ZwquHrbe", "width": 10}, {"from": "2e3yeRss", "to": "CTPKvYNp", "width": 10}, {"from": "2e3yeRss", "to": "k6cnSQnL", "width": 10}, {"from": "UczDSGy2", "to": "CTPKvYNp", "width": 10}, {"from": "UczDSGy2", "to": "ZwquHrbe", "width": 10}, {"from": "UczDSGy2", "to": "KZLqHwSf", "width": 10}, {"from": "UczDSGy2", "to": "VAnkqco6", "width": 10}, {"from": "UczDSGy2", "to": "WKTLcAet", "width": 10}, {"from": "UczDSGy2", "to": "Djq8DaQv", "width": 10}, {"from": "UczDSGy2", "to": "nyaj8Ndp", "width": 10}, {"from": "fgyBiYxY", "to": "JiCYXnik", "width": 10}, {"from": "fgyBiYxY", "to": "6sZ9jk46", "width": 10}, {"from": "fgyBiYxY", "to": "CTPKvYNp", "width": 10}, {"from": "gPEqEwhs", "to": "CTPKvYNp", "width": 10}, {"from": "gPEqEwhs", "to": "ZwquHrbe", "width": 10}, {"from": "gPEqEwhs", "to": "KZLqHwSf", "width": 10}, {"from": "gPEqEwhs", "to": "6XD3homi", "width": 10}, {"from": "gPEqEwhs", "to": "ZX7Jzf9y", "width": 10}, {"from": "gPEqEwhs", "to": "VAnkqco6", "width": 10}, {"from": "gPEqEwhs", "to": "WKTLcAet", "width": 10}, {"from": "gPEqEwhs", "to": "nyaj8Ndp", "width": 10}, {"from": "ZX7Jzf9y", "to": "CTPKvYNp", "width": 10}, {"from": "ZX7Jzf9y", "to": "k6cnSQnL", "width": 10}, {"from": "JiCYXnik", "to": "CTPKvYNp", "width": 10}, {"from": "RU9hU5Pa", "to": "CTPKvYNp", "width": 10}, {"from": "U5ovsTg3", "to": "CTPKvYNp", "width": 10}, {"from": "VAnkqco6", "to": "CTPKvYNp", "width": 10}, {"from": "VAnkqco6", "to": "k6cnSQnL", "width": 10}, {"from": "KZLqHwSf", "to": "CTPKvYNp", "width": 10}, {"from": "KZLqHwSf", "to": "k6cnSQnL", "width": 10}, {"from": "WKTLcAet", "to": "Djq8DaQv", "width": 10}, {"from": "WKTLcAet", "to": "nyaj8Ndp", "width": 10}, {"from": "WKTLcAet", "to": "CTPKvYNp", "width": 10}, {"from": "WKTLcAet", "to": "k6cnSQnL", "width": 10}, {"from": "nyaj8Ndp", "to": "CTPKvYNp", "width": 10}, {"from": "nyaj8Ndp", "to": "k6cnSQnL", "width": 10}, {"from": "YZwPEMdT", "to": "CTPKvYNp", "width": 10}, {"from": "g9CmHRXM", "to": "CTPKvYNp", "width": 10}, {"from": "g9CmHRXM", "to": "ZwquHrbe", "width": 10}, {"from": "gLanGdJR", "to": "CTPKvYNp", "width": 10}, {"from": "k6cnSQnL", "to": "CTPKvYNp", "width": 10}, {"from": "k6cnSQnL", "to": "ZwquHrbe", "width": 10}, {"from": "k6cnSQnL", "to": "6XD3homi", "width": 10}, {"from": "6XD3homi", "to": "CTPKvYNp", "width": 10}, {"from": "6sZ9jk46", "to": "CTPKvYNp", "width": 10}, {"from": "Djq8DaQv", "to": "CTPKvYNp", "width": 10}, {"from": "CTPKvYNp", "to": "ZwquHrbe", "width": 10}, {"from": "CTPKvYNp", "to": "NQdMfdiH", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

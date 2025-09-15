@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1858–1948)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Georges Hüe"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "76580122",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76580122"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30073649",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30073649"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Hüe,_Georges",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hüe,_Georges"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1948-06-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

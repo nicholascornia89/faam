@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer, conductor and violinist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Ludwig Wilhelm Maurer"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "72156035",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "72156035"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/86260",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/86260"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Maurer,_Ludwig_Wilhelm",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Maurer,_Ludwig_Wilhelm"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1878-10-25"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "SNTscv2E",
-        "label": ""
+        "label": "Potsdam"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "AzqRtNds",
-        "label": ""
+        "label": "Saint Petersburg"
       }
     ],
     "instrument": [

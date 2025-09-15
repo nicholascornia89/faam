@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Joseph Menter"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German cellist and music educator (1808-1856)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,20 +42,91 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "20443226",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "20443226"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/89261",
+        "base_url": "https://rism.online/",
+        "label": "people/89261"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1808-01-17"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1856-04-18"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "dg4VBYfA",
+        "label": "cellist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "krnWa7Sb",
+        "label": "Kingdom of Bavaria"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "dFfe2Qe3",
+        "label": "Deutenkofen"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "M2keqc3n",
+        "label": "Munich"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "4oyT6BBG",
+        "label": "cello"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
     "employer": []
@@ -78,7 +136,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Joseph_Menter_Litho.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

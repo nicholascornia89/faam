@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musician and publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Alphonse Leduc"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "59289373",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59289373"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30072043",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30072043"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Leduc,_Alphonse",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Leduc,_Alphonse"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1868-06-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -158,19 +153,19 @@
       {
         "type": "item",
         "value": "g8fQXctT",
-        "label": ""
+        "label": "Nantes"
       },
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

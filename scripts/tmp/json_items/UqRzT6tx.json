@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer, singer and kapellmeister"
       }
     ],
@@ -71,7 +67,8 @@
       {
         "type": "externalid",
         "value": "59269648",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59269648"
       }
     ],
     "RISM ID": [],
@@ -79,7 +76,8 @@
       {
         "type": "externalid",
         "value": "Category:Giovannelli,_Ruggiero",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Giovannelli,_Ruggiero"
       }
     ],
     "date of birth": [
@@ -94,7 +92,7 @@
         "value": "1625-01-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -122,14 +120,14 @@
       {
         "type": "item",
         "value": "NxhcNMK5",
-        "label": ""
+        "label": "Velletri"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1776-1800)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Hyacinthe Jadin"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "42025571",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42025571"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30011759",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30011759"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Jadin,_Hyacinthe",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Jadin,_Hyacinthe"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1800-09-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,14 +141,14 @@
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

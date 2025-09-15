@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Siena"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Tuscany, Italy and capital of the province of Siena"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Siena"
+      },
+      {
+        "type": "string",
+        "value": "Sienna"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6541466",
+        "base_url": "https://www.geonames.org/",
+        "label": "6541466"
       }
     ]
   },

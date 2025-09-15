@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1862-1904)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Paul Delmet"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "27251554",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "27251554"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016698",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016698"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Delmet,_Paul",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Delmet,_Paul"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1904-10-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "DfJQqzuV",
-        "label": ""
+        "label": "18th arrondissement of Paris"
       }
     ],
     "instrument": [

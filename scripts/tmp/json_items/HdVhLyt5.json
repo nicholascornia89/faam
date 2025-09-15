@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Gottfried Schicht"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer and conductor (1753-1823)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,110 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "51955039",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "51955039"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/123454",
+        "base_url": "https://rism.online/",
+        "label": "people/123454"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Schicht,_Johann_Gottfried",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schicht,_Johann_Gottfried"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1753-09-29"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1823-02-16"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "iTUB2E3m",
+        "label": "choir director"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "EjofKZsr",
+        "label": "Kingdom of Saxony"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "SysCLkun",
+        "label": "Bogatynia"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Sehd9KtP",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +154,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Johann_Gottfried_Schicht.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

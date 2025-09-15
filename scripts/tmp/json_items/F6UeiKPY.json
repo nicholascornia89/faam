@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alejandro Odero"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,16 +42,45 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "87560567",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "87560567"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1851-01-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1897-01-01"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
     "occupation": [],
-    "sex or gender": [],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
     "place of birth": [],
     "place of death": [],

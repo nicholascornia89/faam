@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "The Second Saint Petersburg Gymnasium"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "gymnasium school in Saint Petersburg, Russia"
       }
     ],
     "object_type": [
@@ -47,16 +39,33 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "AzqRtNds",
+        "label": "Saint Petersburg"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CaPmHone",
+        "label": "Russia"
+      },
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      },
+      {
+        "type": "item",
+        "value": "Vq7JhbTF",
+        "label": "Soviet Union"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

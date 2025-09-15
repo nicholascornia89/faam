@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Paul Grümmer"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German musician (1879-1965)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,126 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "76637790",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76637790"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30112841",
+        "base_url": "https://rism.online/",
+        "label": "people/30112841"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Grümmer,_Paul",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Grümmer,_Paul"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1879-02-26"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1965-10-30"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "dg4VBYfA",
+        "label": "cellist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "DuoqPFbs",
+        "label": "Gera"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "3V44BAGC",
+        "label": "Zug"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "4oyT6BBG",
+        "label": "cello"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "UA77Bx9k",
+        "label": "Julius Klengel"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "3wN8PmuS",
+        "label": "University of Music and Theatre Leipzig"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "hn6sVeFM",
+        "label": "University of Music and Performing Arts Vienna"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Paul_Grümmer.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

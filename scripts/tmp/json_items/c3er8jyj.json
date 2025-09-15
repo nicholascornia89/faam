@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "London Borough of Harrow"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "borough in the London Region in England"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "London Borough of Harrow"
+      },
+      {
+        "type": "string",
+        "value": "Harrow"
+      },
+      {
+        "type": "string",
+        "value": "Harrow (unparished area)"
+      },
+      {
+        "type": "string",
+        "value": "Municipal Borough of Harrow"
+      },
+      {
+        "type": "string",
+        "value": "LB Harrow"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3333151",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333151"
       }
     ]
   },

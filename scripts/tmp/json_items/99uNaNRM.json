@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "István Thomán"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "(1862–1940 classical pianist, piano teacher"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,124 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "164766088",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "164766088"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Thomán,_István",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Thomán,_István"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1862-11-04"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1940-09-22"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "7WBM7mQu",
+        "label": "classical pianist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "HeX4B45e",
+        "label": "Humenné"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "jRhzWGcf",
+        "label": "Budapest"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "ewwggKDh",
+        "label": "Franz Liszt"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "8sZeyZjb",
+        "label": "Franz Liszt Academy of Music"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "8sZeyZjb",
+        "label": "Franz Liszt Academy of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Thomán_István.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Francesco Azopardi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Maltese composer (1748-1809)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,130 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "39574150",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39574150"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30023484",
+        "base_url": "https://rism.online/",
+        "label": "people/30023484"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Azopardi,_Francesco",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Azopardi,_Francesco"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1748-05-05"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1809-02-06"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "YGte9NCo",
+        "label": "Rabat"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "YGte9NCo",
+        "label": "Rabat"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "n4SQLZpV",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "4NVP657a",
+        "label": "Conservatorio di Sant'Onofrio in Capuana"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "DCpP4dvU",
+        "label": "St. Paul's Cathedral"
+      },
+      {
+        "type": "item",
+        "value": "LmeqQXV8",
+        "label": "St. John's Co-Cathedral"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Rabat_Maltese_2017_02.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Nuremberg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in the German state of Bavaria"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Nuremberg"
+      },
+      {
+        "type": "string",
+        "value": "Nürnberg"
+      },
+      {
+        "type": "string",
+        "value": "Kreisfreie Stadt Nürnberg"
+      },
+      {
+        "type": "string",
+        "value": "Nüremberg"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6556832",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556832"
       }
     ]
   },

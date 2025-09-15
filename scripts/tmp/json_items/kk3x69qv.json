@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bergamo"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "comune in Lombardy, Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bergamo"
+      },
+      {
+        "type": "string",
+        "value": "City of Bergamo"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6542116",
+        "base_url": "https://www.geonames.org/",
+        "label": "6542116"
       }
     ]
   },

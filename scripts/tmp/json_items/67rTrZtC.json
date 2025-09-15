@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Paolo Colonna"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "19878132",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19878132"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000704",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000704"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Colonna,_Giovanni_Paolo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Colonna,_Giovanni_Paolo"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1695-11-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -138,14 +133,14 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [

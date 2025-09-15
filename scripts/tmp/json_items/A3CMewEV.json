@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "British sculptor (1834-1890)"
       }
     ],
@@ -103,7 +99,8 @@
       {
         "type": "externalid",
         "value": "42635243",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42635243"
       }
     ],
     "RISM ID": [],
@@ -120,7 +117,7 @@
         "value": "1890-12-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -169,7 +166,7 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [

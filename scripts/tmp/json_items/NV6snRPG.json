@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer and musicologist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jakob Quadflieg"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "20822070",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "20822070"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30015238",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30015238"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Quadflieg,_Jakob",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Quadflieg,_Jakob"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1915-02-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +120,14 @@
       {
         "type": "item",
         "value": "ZZV3jTLe",
-        "label": ""
+        "label": "Aachen"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "jx8Qoocy",
-        "label": ""
+        "label": "Elberfeld"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musician and editor"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Theodor de Witt"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "69711324",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69711324"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/159321",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/159321"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Witt,_Theodor_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Witt,_Theodor_de"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1855-12-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "WsTBHVg9",
-        "label": ""
+        "label": "Wesel"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

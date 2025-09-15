@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Unter Sankt Veit"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "quarter of Vienna"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Unter Sankt Veit"
+      },
+      {
+        "type": "string",
+        "value": "Unter St. Veit"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2601119",
+        "base_url": "https://www.geonames.org/",
+        "label": "2601119"
       }
     ]
   },

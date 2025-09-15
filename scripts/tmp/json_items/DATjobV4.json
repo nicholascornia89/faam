@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Van den vos Reynaerde"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "the Middle Dutch version of the story of Reynard"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,12 +43,25 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "183077266",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "183077266"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],
     "adapted by": [],
-    "based on": []
+    "based on": [
+      {
+        "type": "item",
+        "value": "5KArs2kV",
+        "label": ""
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

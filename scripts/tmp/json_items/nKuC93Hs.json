@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giuseppe Antonio Bernabei"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "89179154",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "89179154"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004603",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004603"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Bernabei,_Giuseppe_Antonio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bernabei,_Giuseppe_Antonio"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1732-03-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,14 +132,14 @@
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "M2keqc3n",
-        "label": ""
+        "label": "Munich"
       }
     ],
     "instrument": [],

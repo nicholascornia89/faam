@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1706-1785)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "22327261",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22327261"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41444",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41444"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Galuppi,_Baldassare",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Galuppi,_Baldassare"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1785-01-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -140,14 +139,14 @@
       {
         "type": "item",
         "value": "GVaZri9i",
-        "label": ""
+        "label": "Burano"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [

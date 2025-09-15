@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Brooklyn"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "borough of New York City, New York, United States"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Brooklyn"
+      },
+      {
+        "type": "string",
+        "value": "Brooklyn, New York City"
+      },
+      {
+        "type": "string",
+        "value": "Brooklyn, New York"
+      },
+      {
+        "type": "string",
+        "value": "Brooklyn, New York City, New York"
+      },
+      {
+        "type": "string",
+        "value": "Brooklyn, NY"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "5110302",
+        "base_url": "https://www.geonames.org/",
+        "label": "5110302"
       }
     ]
   },

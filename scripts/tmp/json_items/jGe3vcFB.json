@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Antwerp"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in the province of Antwerp, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Antwerp"
+      },
+      {
+        "type": "string",
+        "value": "City of Antwerp"
+      },
+      {
+        "type": "string",
+        "value": "Anvers"
+      },
+      {
+        "type": "string",
+        "value": "Antwerpen"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2803139",
+        "base_url": "https://www.geonames.org/",
+        "label": "2803139"
       }
     ]
   },

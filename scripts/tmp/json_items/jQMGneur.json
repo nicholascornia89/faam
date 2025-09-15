@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "The Trickster of Seville and the Stone Guest"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "play by Tirso de Molina"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,7 +43,14 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "178225099",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "178225099"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],

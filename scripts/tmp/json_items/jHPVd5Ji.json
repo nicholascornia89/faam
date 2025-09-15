@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "music publisher"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "129030469",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "129030469"
       }
     ],
     "RISM ID": [],
@@ -71,12 +68,13 @@
       {
         "type": "externalid",
         "value": "Novello",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Novello"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

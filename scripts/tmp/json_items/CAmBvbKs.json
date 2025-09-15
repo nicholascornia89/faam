@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Fortunato Santini"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "66729697",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66729697"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Santini,_Fortunato",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Santini,_Fortunato"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1861-09-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -120,14 +114,14 @@
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

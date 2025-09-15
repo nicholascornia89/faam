@@ -90,23 +90,23 @@ def external_ids_base_url(faam_kb, faam_kb_mapping):
 	# externalid
 	for item in faam_kb["items"]:
 		for key in item["metadata"].keys():
-			if item["metadata"][key][0]["type"] == "externalid":
-				# lookup base url for statement
-				query = list(
-					filter(lambda x: x["faam_property"] == key, faam_kb_mapping)
-				)
-				base_url = query[0]["base_url"]
-				for statement in item["metadata"][key]:
+			for statement in item["metadata"][key]:
+				if statement["type"] == "externalid":
+					# lookup base url for statement
+					query = list(
+						filter(lambda x: x["faam_property"] == key, faam_kb_mapping)
+					)
+					base_url = query[0]["base_url"]
 					statement["base_url"] = base_url
 
 		for key in item["statements"].keys():
-			if item["statements"][key][0]["type"] == "externalid":
-				# lookup base url for statement
-				query = list(
-					filter(lambda x: x["faam_property"] == key, faam_kb_mapping)
-				)
-				base_url = query[0]["base_url"]
-				for statement in item["statements"][key]:
+			for statement in item["statements"][key]:
+				if statement["type"] == "externalid":
+					# lookup base url for statement
+					query = list(
+						filter(lambda x: x["faam_property"] == key, faam_kb_mapping)
+					)
+					base_url = query[0]["base_url"]
 					statement["base_url"] = base_url
 
 	return faam_kb
@@ -117,11 +117,12 @@ def generate_qid_list(faam_kb):
 	item_list = []
 	for item in faam_kb["items"]:
 		if "qid" in item["metadata"].keys():
-			if item["metadata"]["qid"][0]["value"] != "":
-				qid_list.append(int(item["metadata"]["qid"][0]["value"][1:]))
-				item_list.append(
-					{"id": item["id"], "qid": item["metadata"]["qid"][0]["value"], "qid_number": int(item["metadata"]["qid"][0]["value"][1:]) }
-				)
+			for qid in item["metadata"]["qid"]:
+				if qid["value"] != "":
+					qid_list.append(int(qid["value"][1:]))
+					item_list.append(
+						{"id": item["id"], "qid": qid["value"], "qid_number": int(qid["value"][1:]) }
+					)
 
 	# order list
 	qid_list = sorted(qid_list)
@@ -237,8 +238,8 @@ def fix_subobjects_statements(d,nodegoat_csv_path,nodegoat2faam_kb_filename):
 			d[object_type][object_index][nodegoat_field] = statements_list
 
 
-		print(f"Updated version object: {d[object_type][object_index]}")
-		input()
+		#print(f"Updated version object: {d[object_type][object_index]}")
+		#input()
 
 
 	return d	
@@ -258,7 +259,7 @@ def add_label_to_statement(faam_kb): # TO BE CHECKED!
 		if current_time - starting_time > 5:
 			print("Backing up new data until now...")
 			faam_kb_filename = os.path.join(
-			    "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+				"tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
 			)
 
 			dict2json(faam_kb, faam_kb_filename)
@@ -269,6 +270,53 @@ def add_label_to_statement(faam_kb): # TO BE CHECKED!
 					if statement["value"] != "":
 						if statement["type"] == "item":
 							try:
+								#convert uuid to integer
+								uuid_int = shortuuid.decode(statement["value"]).int
+								# perform bisect_left search
+								index = bisect_left(uuid_list,uuid_int)
+								try:
+									if item_list[index]["id"] == statement["value"]:
+										statement["label"] = item_list[index]["label"]
+									else:
+										print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+										entity = wb.item.get(statement["value"])
+										statement["label"] = entity.labels.get('en').value
+										statement["type"] = "externalid"
+										statement["base_url"] = "http://www.wikidata.org/entity/"
+										#print(f"New statement: {statement}")
+										#input()
+								except IndexError:
+									print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+									entity = wb.item.get(statement["value"])
+									statement["label"] = entity.labels.get('en').value
+									statement["type"] = "externalid"
+									statement["base_url"] = "http://www.wikidata.org/entity/"
+									#print(f"New statement: {statement}")
+									#input()
+							except ValueError:
+								print(f"Error for {item["id"]}, statement {statement}. Getting label from Wikidata...")
+								entity = wb.item.get(statement["value"])
+								statement["label"] = entity.labels.get('en').value
+								statement["type"] = "externalid"
+								statement["base_url"] = "http://www.wikidata.org/entity/"
+								#print(f"New statement: {statement}")
+								#input()
+
+						elif statement["type"] == "externalid":
+							if statement["value"] != "":
+								if statement["value"][0] == "Q": # wikidata
+									try:
+										entity = wb.item.get(statement["value"])
+										statement["label"] = entity.labels.get('en').value
+									except ValueError:
+										pass
+								else: # other external id, use value as label
+									statement["label"] = statement["value"]
+
+
+						elif statement["type"] == "statement":
+							# adapt statement
+							if statement["value"] != "":
 								#convert uuid to integer
 								uuid_int = shortuuid.decode(statement["value"]).int
 								# perform bisect_left search
@@ -284,70 +332,88 @@ def add_label_to_statement(faam_kb): # TO BE CHECKED!
 									#print(f"New statement: {statement}")
 									#input()
 									pass
-							except ValueError:
-								print(f"Error for {item["id"]}, statement {statement}. Getting label from Wikidata...")
-								entity = wb.item.get(statement["value"])
-								statement["label"] = entity.labels.get('en').value
-								statement["type"] = "externalid"
-								statement["base_url"] = "http://www.wikidata.org/entity/"
-								#print(f"New statement: {statement}")
-								#input()
 
-					elif statement["type"] == "externalid":
-						if statement["value"] != "":
-							if statement["value"][0] == "Q": # wikidata
-								entity = wb.item.get(statement["value"])
-								statement["label"] = entity.labels.get('en').value
-							else: # other external id, use value as label
-								statement["label"] = statement["value"]
-
-
-					elif statement["type"] == "statement":
-						# adapt statement
-						if statement["value"] != "":
-							#convert uuid to integer
-							uuid_int = shortuuid.decode(statement["value"]).int
-							# perform bisect_left search
-							index = bisect_left(uuid_list,uuid_int)
-							if item_list[index]["id"] == statement["value"]:
-								statement["label"] = item_list[index]["label"]
-							else:
-								print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
-								entity = wb.item.get(statement["value"])
-								statement["label"] = entity.labels.get('en').value
-								statement["type"] = "externalid"
-								statement["base_url"] = "http://www.wikidata.org/entity/"
-								#print(f"New statement: {statement}")
-								#input()
-								pass
-
-						# adapt qualifiers
-						for qualifier in statement["qualifiers"]:
-							if qualifier["value"] != "":
-								#convert uuid to integer
-								if qualifier["type"] == "item":
-									try:
-										uuid_int = shortuuid.decode(qualifier["value"]).int
-										# perform bisect_left search
-										index = bisect_left(uuid_list,uuid_int)
-										if item_list[index]["id"] == qualifier["value"]:
-											qualifier["label"] = item_list[index]["label"]
-										else:
-											print(f"UUID not found for {item["id"]}, statement {statement} ")
+							# adapt qualifiers
+							for qualifier in statement["qualifiers"]:
+								if qualifier["value"] != "":
+									#convert uuid to integer
+									if qualifier["type"] == "item":
+										try:
+											uuid_int = shortuuid.decode(qualifier["value"]).int
+											# perform bisect_left search
+											index = bisect_left(uuid_list,uuid_int)
+											if item_list[index]["id"] == qualifier["value"]:
+												qualifier["label"] = item_list[index]["label"]
+											else:
+												print(f"UUID not found for {item["id"]}, statement {statement} ")
+												entity = wb.item.get(qualifier["value"])
+												qualifier["label"] = entity.labels.get('en').value
+												qualifier["type"] = "externalid"
+												qualifier["base_url"] = "http://www.wikidata.org/entity/"
+												#input()
+												pass
+										except ValueError: # QID case
+											print(f"UUID not found for {item["id"]}, qualifier {qualifier}. Getting label from Wikidata... ")
 											entity = wb.item.get(qualifier["value"])
 											qualifier["label"] = entity.labels.get('en').value
 											qualifier["type"] = "externalid"
 											qualifier["base_url"] = "http://www.wikidata.org/entity/"
+											#print(f"New qualifier: {qualifier}")
 											#input()
-											pass
-									except ValueError: # QID case
-										print(f"UUID not found for {item["id"]}, qualifier {qualifier}. Getting label from Wikidata... ")
-										entity = wb.item.get(qualifier["value"])
-										qualifier["label"] = entity.labels.get('en').value
-										qualifier["type"] = "externalid"
-										qualifier["base_url"] = "http://www.wikidata.org/entity/"
-										#print(f"New qualifier: {qualifier}")
-										#input()
+
+		for key in ["label","description","aliases"]: #retrieve Descriptions, Labels and Aliases if not present
+			try:
+				if item["metadata"][key][0]["value"] == "": # Wikidata query
+					try:
+						qid = item["metadata"]["qid"][0]["value"]
+						if qid != "":
+							entity = wb.item.get(qid)
+							if key == "label":
+								try:
+									label = entity.labels.get('en').value
+									#print(f"Label retrieved: {label}")
+									item["metadata"]["label"] = [{"type": "string", "value": label}]
+								except AttributeError: # None type
+									pass
+							elif key == "description":
+								try:  
+									description = entity.descriptions.get('en').value
+									#print(f"Description retrieved: {description}")
+									item["metadata"]["description"] = [{"type": "string", "value": description}]
+								except AttributeError: # None value
+									pass
+							else: # aliases case
+								aliases_query = entity.aliases.get('en')
+								try:
+									aliases = [alias.value for alias in aliases_query]
+									#print(f"Aliases retrieved: {aliases}")
+									item["metadata"]["aliases"] = []
+									for alias in aliases:
+										item["metadata"]["aliases"].append({
+											"type": "string",
+											"value": alias
+											})
+
+								except AttributeError: # None value
+									pass
+
+								except TypeError: # None value
+									pass
+					except IndexError: # no QID
+						pass
+			except IndexError: # empty metadata, it shoud be aliases
+				if key != "aliases":
+					print(f"Error for {item["metadata"]}")
+				pass
+
+			except KeyError:
+				pass		
+
+
+		#print(f"Getting metadata from Wikidata for {item["metadata"]} ")
+		#input()
+
+
 
 
 	return faam_kb	
@@ -361,6 +427,12 @@ def remove_empty_statements(faam_kb):
 						for statement in item[category][prop]:
 							if statement["value"] == "":
 								item[category][prop].remove(statement)
+					else:
+						for statement in item[category][prop]:
+							if statement["value"] == "":
+								if len(item[category][prop]) > 1: # keep at least one empty statement
+									item[category][prop].remove(statement)
+
 
 	return faam_kb
 
@@ -376,8 +448,8 @@ def qids2faamuudis(faam_kb):
 	# Check if items statements have QIDs instead of FAAM UUIDs.
 	for item in faam_kb["items"]:
 		for key in item["statements"].keys():
-			if item["statements"][key][0]["type"] == "item":
-				for statement in item["statements"][key]:
+			for statement in item["statements"][key]:
+				if statement["type"] == "item":
 					# check if value is Wikidata QID
 					if statement["value"] != "":
 						if statement["value"][0] == "Q":

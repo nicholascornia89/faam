@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Ambrosius Bach"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German musician, father to Johann Sebastian Bach (1645-1695)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,133 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "72547809",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "72547809"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/20001067",
+        "base_url": "https://rism.online/",
+        "label": "people/20001067"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1645-02-24"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1695-02-24"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "QJZQ3Huw",
+        "label": "trumpeter"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "X6trH6qe",
+        "label": "alta cappella"
+      },
+      {
+        "type": "item",
+        "value": "Zjirnr4X",
+        "label": "court musician"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "gAsXeyQR",
+        "label": "Erfurt"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "7Ckw4QJc",
+        "label": "Eisenach"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "ZzdCbB2M",
+        "label": "trumpet"
+      },
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "7YbFiVJF",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +177,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Johann_Ambrosius_Bach.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

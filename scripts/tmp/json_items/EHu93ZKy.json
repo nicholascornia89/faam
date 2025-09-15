@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "27253076",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "27253076"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30002848",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30002848"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Scarlatti,_Alessandro",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Scarlatti,_Alessandro"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1725-10-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -129,14 +128,14 @@
       {
         "type": "item",
         "value": "UwKHjDYx",
-        "label": ""
+        "label": "Palermo"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "instrument": [

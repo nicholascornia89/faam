@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Henry Cooke"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "British composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,84 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "46536435",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "46536435"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30011714",
+        "base_url": "https://rism.online/",
+        "label": "people/30011714"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1616-01-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1672-01-01"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "ATuDQeEo",
+        "label": "actor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "KhQnYkWy",
+        "label": "Lichfield"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "bvGat57Q",
+        "label": "Hampton Court Palace"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Russian composer (1882–1971)"
       }
     ],
@@ -103,21 +99,24 @@
       {
         "type": "externalid",
         "value": "17309155",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17309155"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/132137",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/132137"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Stravinsky,_Igor",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Stravinsky,_Igor"
       }
     ],
     "date of birth": [
@@ -132,7 +131,7 @@
         "value": "1971-04-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -201,12 +200,12 @@
       {
         "type": "item",
         "value": "8FnrVUvj",
-        "label": ""
+        "label": "Lomonosov"
       },
       {
         "type": "item",
         "value": "AzqRtNds",
-        "label": ""
+        "label": "Saint Petersburg"
       }
     ],
     "place of death": [
@@ -239,12 +238,12 @@
       {
         "type": "item",
         "value": "26sE4HQd",
-        "label": ""
+        "label": "Saint Petersburg State University"
       },
       {
         "type": "item",
         "value": "cmSbhehf",
-        "label": ""
+        "label": "The Second Saint Petersburg Gymnasium"
       }
     ],
     "employer": []

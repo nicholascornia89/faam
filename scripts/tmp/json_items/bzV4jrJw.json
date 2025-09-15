@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Scottish musician and composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "10147210",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10147210"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30010968",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30010968"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Moffat,_Alfred",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Moffat,_Alfred"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1950-06-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -144,7 +143,7 @@
       {
         "type": "item",
         "value": "GEzwLpRX",
-        "label": ""
+        "label": "Fulham"
       }
     ],
     "instrument": [],

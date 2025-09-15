@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Greenwich"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in south-east London, England, UK"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Greenwich"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2647937",
+        "base_url": "https://www.geonames.org/",
+        "label": "2647937"
       }
     ]
   },

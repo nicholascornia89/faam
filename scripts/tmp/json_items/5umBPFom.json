@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hiller"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "family name"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -60,7 +47,13 @@
     "IMSLP ID": [],
     "date of birth": [],
     "date of death": [],
-    "type": [],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "GuPLWsc5",
+        "label": ""
+      }
+    ],
     "role": [],
     "related to": [],
     "occupation": [],

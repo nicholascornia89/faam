@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Kees Otten"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dutch recorder player (1924-2008)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,103 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "69118027",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69118027"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30103286",
+        "base_url": "https://rism.online/",
+        "label": "people/30103286"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1924-11-28"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "2008-09-25"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "CvesCe9h",
+        "label": "recorder player"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "ZvjsCjDf",
+        "label": "Kingdom of the Netherlands"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3W4qGneS",
+        "label": "Amsterdam"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "3W4qGneS",
+        "label": "Amsterdam"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "kXphhxXP",
+        "label": "recorder"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "f4jQCEHi",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +147,12 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "KeesOtten1967.jpg",
+        "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      },
+      {
+        "type": "image",
+        "value": "Kees_Otten_(1967).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musician (1815–1888)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean-Delphin Alard"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "17490084",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17490084"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016267",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016267"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Alard,_Jean_Delphin",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Alard,_Jean_Delphin"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1888-02-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -153,14 +148,14 @@
       {
         "type": "item",
         "value": "QJnY2m4D",
-        "label": ""
+        "label": "Bayonne"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "QLw6oE8n",
-        "label": ""
+        "label": "rue Christophe-Colomb"
       }
     ],
     "instrument": [

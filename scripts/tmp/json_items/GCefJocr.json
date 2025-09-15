@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Frédéric Nicolas Duvernoy"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "composer and French horn player (1765-1838)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,129 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "311244685",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "311244685"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/26142",
+        "base_url": "https://rism.online/",
+        "label": "people/26142"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Duvernoy,_Frédéric",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Duvernoy,_Frédéric"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1765-10-16"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1838-07-29"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "n8RY6FTC",
+        "label": "professor"
+      },
+      {
+        "type": "item",
+        "value": "93wApfkY",
+        "label": "horn player"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "VgTkhpUp",
+        "label": "Montbéliard"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NNCtKcUB",
+        "label": "former 2nd arrondissement of Paris"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "6KRAsBPw",
+        "label": "natural horn"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Portrait_du_corniste_Frédéric_Nicolas_Duvernoy_(1765-1838).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

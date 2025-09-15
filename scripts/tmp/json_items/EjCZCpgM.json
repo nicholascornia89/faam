@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Czech-born French music publisher (1872-1927)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "32265449",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32265449"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30072754",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30072754"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1927-09-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -120,14 +118,14 @@
       {
         "type": "item",
         "value": "B3o3EKWs",
-        "label": ""
+        "label": "Opava"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

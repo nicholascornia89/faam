@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hondschoote"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Nord, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Hondschoote"
+      },
+      {
+        "type": "string",
+        "value": "Hondschote"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3013174",
+        "base_url": "https://www.geonames.org/",
+        "label": "3013174"
       }
     ]
   },

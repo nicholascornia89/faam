@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Shiraz"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Fars Province, Iran"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Shiraz"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "115019",
+        "base_url": "https://www.geonames.org/",
+        "label": "115019"
       }
     ]
   },

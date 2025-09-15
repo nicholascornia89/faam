@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "51874287",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "51874287"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000141",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000141"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ariosti,_Attilio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ariosti,_Attilio"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1729-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -154,7 +153,7 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "place of death": [

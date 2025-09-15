@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Aimée Van de Wiele"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Belgian composer, musicologist and music educator (1907–1991)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,23 +42,127 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "116640318",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "116640318"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/41021593",
+        "base_url": "https://rism.online/",
+        "label": "people/41021593"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1904-03-08"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1991-11-02"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "LcwfzPiG",
+        "label": "harpsichordist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "ge9ACHGn",
+        "label": "female"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "a2XD2AJf",
+        "label": "Saint-Gilles - Sint-Gillis"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "2J2Wm7TU",
+        "label": "Uccle - Ukkel"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Bbuh5pNe",
+        "label": "Wanda Landowska"
+      },
+      {
+        "type": "item",
+        "value": "CY94RXsC",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "Yj5tRovx",
+        "label": "Royal Conservatory of Brussels"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

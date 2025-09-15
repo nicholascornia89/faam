@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Aberdeen"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Scottish parish in Aberdeen, Scotland, UK"
       }
     ],
     "object_type": [
@@ -43,16 +39,19 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
-  },
-  "statements": {
-    "GeoNames ID": [
+    "aliases": [
       {
-        "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "type": "string",
+        "value": "Aberdeen"
+      },
+      {
+        "type": "string",
+        "value": "City Parish of Aberdeen"
       }
     ]
+  },
+  "statements": {
+    "GeoNames ID": []
   },
   "cross-references": {},
   "resources": {}

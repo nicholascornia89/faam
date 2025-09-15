@@ -6,17 +6,9 @@
       {
         "type": "string",
         "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -47,16 +39,17 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
     "place": [],
-    "country": []
+    "country": [
+      {
+        "type": "item",
+        "value": "Sqb9t6ZW",
+        "label": "Romania"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

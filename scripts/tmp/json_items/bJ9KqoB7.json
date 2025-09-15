@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French physician"
       }
     ],
@@ -67,17 +63,20 @@
       {
         "type": "externalid",
         "value": "61628800",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61628800"
       },
       {
         "type": "externalid",
         "value": "68497373",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "68497373"
       },
       {
         "type": "externalid",
         "value": "249930834",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "249930834"
       }
     ],
     "RISM ID": [],
@@ -85,7 +84,8 @@
       {
         "type": "externalid",
         "value": "Category:Brunel,_Raoul",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Brunel,_Raoul"
       }
     ],
     "date of birth": [
@@ -100,7 +100,7 @@
         "value": "1944-07-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

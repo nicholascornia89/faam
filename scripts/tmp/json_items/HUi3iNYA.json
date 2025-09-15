@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French mathematician and music publisher (1798-1850)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "20457151",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "20457151"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30040259",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30040259"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Troupenas",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Troupenas"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1850-04"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -140,14 +139,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

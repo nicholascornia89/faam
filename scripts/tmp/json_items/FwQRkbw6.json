@@ -6,17 +6,9 @@
       {
         "type": "string",
         "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -47,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "AzqRtNds",
+        "label": "Saint Petersburg"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

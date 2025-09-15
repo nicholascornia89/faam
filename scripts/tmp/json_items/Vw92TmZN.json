@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian conductor (1885-1936)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "77605354",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "77605354"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1936-05-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -124,7 +121,7 @@
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "place of death": [],

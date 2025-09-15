@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Nikolay Zinin"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Russian chemist (1812-1880)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,121 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "42603925",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42603925"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1812-08-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1880-02-06"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "5bzipsqn",
+        "label": "organic chemist"
+      },
+      {
+        "type": "item",
+        "value": "cUKtquSX",
+        "label": "inventor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "UyxNwK3C",
+        "label": "Shusha"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "AzqRtNds",
+        "label": "Saint Petersburg"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "9iFvEF3Q",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "fk3MYepY",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "8eKpFuoV",
+        "label": "Kazan Federal University"
+      },
+      {
+        "type": "item",
+        "value": "AiwhS5Wd",
+        "label": "Kazan Imperial University"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "AiwhS5Wd",
+        "label": "Kazan Imperial University"
+      },
+      {
+        "type": "item",
+        "value": "NHzc9vUP",
+        "label": "Imperial Academy of Medical Surgery"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Nikolai_Nikolajewitsch_Sinin.JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1781-1841)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "10004444",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10004444"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/20187",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/20187"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Blangini,_Joseph_Marie_Felix",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Blangini,_Joseph_Marie_Felix"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1841-12-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,19 +140,19 @@
       {
         "type": "item",
         "value": "fJHycLeJ",
-        "label": ""
+        "label": "Turin"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       },
       {
         "type": "item",
         "value": "NNCtKcUB",
-        "label": ""
+        "label": "former 2nd arrondissement of Paris"
       }
     ],
     "instrument": [

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Swiss composer (1900–1955)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Willy Burkhard"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "59268930",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59268930"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30015938",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30015938"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Burkhard,_Willy",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Burkhard,_Willy"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1955-06-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "VERBWMZS",
-        "label": ""
+        "label": "Evilard"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "FRBy4DNc",
-        "label": ""
+        "label": "Zurich"
       }
     ],
     "instrument": [],

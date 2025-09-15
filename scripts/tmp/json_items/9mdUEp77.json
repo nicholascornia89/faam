@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alfredo Soffredini"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,120 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "25456367",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "25456367"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/40205995",
+        "base_url": "https://rism.online/",
+        "label": "people/40205995"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1854-01-01"
+      },
+      {
+        "type": "date",
+        "value": "1854-09-07"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1923-01-01"
+      },
+      {
+        "type": "date",
+        "value": "1923-03-12"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "kHp8wFpn",
+        "label": "director"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "Mk6HJN99",
+        "label": "music critic"
+      },
+      {
+        "type": "item",
+        "value": "hNwBKzRd",
+        "label": "lyricist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "93omka7i",
+        "label": "Livorno"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "6rg7mVNX",
+        "label": "Milan"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "n2FoQ43a",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "njnGrri2",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

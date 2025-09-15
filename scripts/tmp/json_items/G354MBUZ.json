@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French music publishing company"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Chabal"
       }
     ],
@@ -65,12 +57,13 @@
       {
         "type": "externalid",
         "value": "Chabal",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Chabal"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

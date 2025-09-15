@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Orlando Furioso"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "epic Italian poem by Ludovico Ariosto"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,12 +43,30 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "179842618",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "179842618"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],
     "adapted by": [],
-    "based on": []
+    "based on": [
+      {
+        "type": "item",
+        "value": "CTQF8hmd",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "A5Jw5Qf7",
+        "label": ""
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

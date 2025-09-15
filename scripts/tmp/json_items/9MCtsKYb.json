@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musicologist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Franz Espagne"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "17977499",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17977499"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/57976",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/57976"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Espagne,_Franz",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Espagne,_Franz"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1878-05-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,7 +132,7 @@
       {
         "type": "item",
         "value": "GVS6AmQ6",
-        "label": ""
+        "label": "Münster"
       }
     ],
     "place of death": [],

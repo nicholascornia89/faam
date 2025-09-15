@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "City of Edinburgh"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "council area in Scotland"
       }
     ],
     "object_type": [
@@ -43,14 +39,40 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "City of Edinburgh"
+      },
+      {
+        "type": "string",
+        "value": "Edinburgh"
+      },
+      {
+        "type": "string",
+        "value": "Edinburgh City"
+      },
+      {
+        "type": "string",
+        "value": "City of Edinburgh district"
+      },
+      {
+        "type": "string",
+        "value": "City of Edinburgh"
+      },
+      {
+        "type": "string",
+        "value": "Edinburgh district"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3333229",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333229"
       }
     ]
   },

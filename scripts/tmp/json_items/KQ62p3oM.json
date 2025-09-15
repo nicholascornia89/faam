@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1861-1921)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "288374847",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "288374847"
       }
     ],
     "RISM ID": [],
@@ -80,7 +77,7 @@
         "value": "1921-02-05"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +111,14 @@
       {
         "type": "item",
         "value": "Kt85qhP5",
-        "label": ""
+        "label": "Beaune"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

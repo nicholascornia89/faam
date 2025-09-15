@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Georg Albrechtsberger"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian music educator, composer and organist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,125 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "44565176",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44565176"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/1061",
+        "base_url": "https://rism.online/",
+        "label": "people/1061"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Albrechtsberger,_Johann_Georg",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Albrechtsberger,_Johann_Georg"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1736-02-03"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1809-03-07"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "Ygb8LLjd",
+        "label": "pedagogue"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "VUFwcLCo",
+        "label": "Klosterneuburg"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "hXBUPcyb",
+        "label": "Stiftsgymnasium Melk"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +168,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Johann_Georg_Albrechtsberger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

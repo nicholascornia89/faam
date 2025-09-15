@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French violist"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "52454053",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "52454053"
       }
     ],
     "RISM ID": [],
@@ -80,7 +77,7 @@
         "value": "1887-07-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -124,14 +121,14 @@
       {
         "type": "item",
         "value": "3vFtsNzx",
-        "label": ""
+        "label": "Bordeaux"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "instrument": [],

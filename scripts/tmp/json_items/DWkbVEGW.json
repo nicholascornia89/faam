@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Eutin"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality of Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Eutin"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2928381",
+        "base_url": "https://www.geonames.org/",
+        "label": "2928381"
+      },
+      {
+        "type": "externalid",
+        "value": "6557340",
+        "base_url": "https://www.geonames.org/",
+        "label": "6557340"
       }
     ]
   },

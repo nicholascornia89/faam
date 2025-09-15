@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "100249909",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100249909"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Asola,_Giammateo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Asola,_Giammateo"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1609-10-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -130,14 +128,14 @@
       {
         "type": "item",
         "value": "bzwH2j9G",
-        "label": ""
+        "label": "Verona"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [],

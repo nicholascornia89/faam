@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Oxford"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Oxfordshire, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Oxford"
+      },
+      {
+        "type": "string",
+        "value": "Oxford, England"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2640729",
+        "base_url": "https://www.geonames.org/",
+        "label": "2640729"
       }
     ]
   },

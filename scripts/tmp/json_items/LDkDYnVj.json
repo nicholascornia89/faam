@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Antoine Elwart"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French composer (1808-1877)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,135 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "61812320",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61812320"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30016593",
+        "base_url": "https://rism.online/",
+        "label": "people/30016593"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Elwart,_Antoine",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Elwart,_Antoine"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1808-11-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1877-10-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "DfJQqzuV",
+        "label": "18th arrondissement of Paris"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "4tDcUzEt",
+        "label": "François-Joseph Fétis"
+      },
+      {
+        "type": "item",
+        "value": "WwUe7BXs",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "3ZGzegqc",
+        "label": "Hector Berlioz"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Elwart,_Antoine,_Nadar_Gallica.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

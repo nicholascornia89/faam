@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Tobias Matthay"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "British pianist, teacher and composer (1858–1945)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,143 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "64768159",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64768159"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Matthay,_Tobias",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Matthay,_Tobias"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1858-02-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1945-12-15"
+      },
+      {
+        "type": "date",
+        "value": "1945-12-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "bsTArmEN",
+        "label": "London"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "WCNFWL5w",
+        "label": "Haslemere"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "RpCXGcCR",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "oTTqR825",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "XWpq95LS",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "AdrWLpRK",
+        "label": "Royal Academy of Music"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "AdrWLpRK",
+        "label": "Royal Academy of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Tobias_Matthay_-_Project_Gutenberg_eText_15604.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

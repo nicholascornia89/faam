@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1864–1945)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Alessandro Longo"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "24867266",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24867266"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30027307",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30027307"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Longo,_Alessandro",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Longo,_Alessandro"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1945-11-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -148,14 +143,14 @@
       {
         "type": "item",
         "value": "26UMUpY9",
-        "label": ""
+        "label": "Amantea"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "instrument": [

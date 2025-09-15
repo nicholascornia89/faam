@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1864-1897)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Alix Fournier"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "167628823",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "167628823"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1897-09-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +107,14 @@
       {
         "type": "item",
         "value": "ehs37s48",
-        "label": ""
+        "label": "10th arrondissement of Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NbV9WMFn",
-        "label": ""
+        "label": "Joinville-le-Pont"
       }
     ],
     "instrument": [],

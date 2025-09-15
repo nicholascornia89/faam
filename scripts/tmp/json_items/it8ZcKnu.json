@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Omer Létourneau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Canadian musician (1891-1983)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,151 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "79200608",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "79200608"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1891-03-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1983-08-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "K6gPySVi",
+        "label": "music publisher"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "6ipjmaTm",
+        "label": "Canada"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "gkzin6tT",
+        "label": "Quebec City"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "gkzin6tT",
+        "label": "Quebec City"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      },
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "dAcNUP7c",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "SZ9ScDSC",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "duMotfbq",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "VepUvbsF",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "d97ewwH5",
+        "label": "Amédée Gastoué"
+      },
+      {
+        "type": "item",
+        "value": "92wkH66Y",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "TUKXtASw",
+        "label": "Laval University"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Omer_Létourneau.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

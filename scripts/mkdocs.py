@@ -190,7 +190,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 
 		]
 		# generate CSV serialization
-		generate_csv_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".csv"),separator="|")
+		generate_csv_item(item,nodegoat2faam_kb,os.path.join(out_dir,"csv_items",item["id"]+".csv"),separator="|")
 		item["resources"]["CSV"] = [
 			{
 				"type": "url",
@@ -273,7 +273,7 @@ def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 									"qualifiers": qualifiers
 									})
 							except KeyError:
-								print(f'Id: {item["id"]} \n statement without label: {statement}')
+								#print(f'Id: {item["id"]} \n statement without label: {statement}')
 								csv_dict.append({
 									"category": category,
 									"faam_property": faam_property,
@@ -290,20 +290,29 @@ def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 
 # Image Carousel using GitHub API
 
-def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED 
+def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED AND CHECKED
+	# get GitHub credentials
+	credentials = json2dict(os.path.join("credentials","github_credentials.json"))
+	auth = Auth.Token(credentials["access_token"])
+	g = Github(auth=auth)
+
 	for item in faam_kb["items"]:
 		if item["metadata"]["object_type"][0]["value"] == "manifestation":
 			# get GitHub repository from resources
-			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/nicholascornia89/","")
-			print(f"GitHub path: {GitHub_path}")
+			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/","").replace("tree/main/","")
+			user_name = GitHub_path.split("/")[0]
+			repo_name = GitHub_path.split("/")[1]
+			print(f"GitHub path: {GitHub_path} \n Repository name: {repo_name}")
+			repo = g.get_repo(GitHub_path)
+			contents = repo.get_contents("")
 
-			# call API for list of images.
+			raw_images = [] # generate raw images URL for carousel
+			for image in contants:
+				raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/{image.path}")
 
-			# render raw images form GitHub https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
+			print(f"Raw URL for images: {raw_images}")
 
-			# add images to carousel using HTML code
-
-			# Have a look at https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28
+			input()
 
 			pass
 

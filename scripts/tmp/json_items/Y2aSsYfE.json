@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Franz Xaver Gleichauf"
       }
     ],
@@ -50,21 +46,24 @@
       {
         "type": "externalid",
         "value": "74609029",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74609029"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30024163",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30024163"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Gleichauf,_Franz_Xaver",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gleichauf,_Franz_Xaver"
       }
     ],
     "date of birth": [
@@ -79,7 +78,7 @@
         "value": "1856-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

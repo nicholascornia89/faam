@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Francesco Morlacchi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer (1784-1841)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,131 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "49488291",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "49488291"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/93653",
+        "base_url": "https://rism.online/",
+        "label": "people/93653"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Morlacchi,_Francesco",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Morlacchi,_Francesco"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1784-06-14"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1841-10-28"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "LayxH4uU",
+        "label": "Perugia"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "GgL3oDUu",
+        "label": "Innsbruck"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "ib4pWeEv",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "6LF7QVv2",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "YxmE2DX5",
+        "label": "Conservatorio Giovanni Battista Martini"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +174,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Francesco_morlacchi.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "54342929",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54342929"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/143099",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/143099"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Traetta,_Tommaso",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Traetta,_Tommaso"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1779-04-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -130,14 +129,14 @@
       {
         "type": "item",
         "value": "WQgCZ7fz",
-        "label": ""
+        "label": "Bitonto"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [],

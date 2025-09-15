@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French choreographer and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antoine Banès"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "64272899",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64272899"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Banès,_Antoine",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Banès,_Antoine"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1924-01-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +119,14 @@
       {
         "type": "item",
         "value": "ehs37s48",
-        "label": ""
+        "label": "10th arrondissement of Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5QzfLDJP",
-        "label": ""
+        "label": "Neuilly-sur-Seine"
       }
     ],
     "instrument": [],

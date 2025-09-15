@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Opera by Gioachino Rossini"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "L'inganno felice"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "L'inganno_felice_(Rossini,_Gioacchino)",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "L'inganno_felice_(Rossini,_Gioacchino)"
       }
     ],
     "VIAF ID": [
       {
         "type": "externalid",
         "value": "174017130",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "174017130"
       }
     ],
     "CPDL ID": [],

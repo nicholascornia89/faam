@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1812–1883)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Friedrich von Flotow"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "24787083",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24787083"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/63626",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/63626"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Flotow,_Friedrich_von",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Flotow,_Friedrich_von"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1883-01-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,19 +138,19 @@
       {
         "type": "item",
         "value": "2HBZ742R",
-        "label": ""
+        "label": "Sanitz"
       },
       {
         "type": "item",
         "value": "FaNx4NhS",
-        "label": ""
+        "label": "Teutendorf"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "nN8cbD9h",
-        "label": ""
+        "label": "Darmstadt"
       }
     ],
     "instrument": [],
@@ -182,7 +177,7 @@
       {
         "type": "item",
         "value": "g69gFaGY",
-        "label": ""
+        "label": "Mecklenburg State Theatre"
       }
     ]
   },

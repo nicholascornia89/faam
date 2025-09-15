@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Théophile Laforge"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French musician (1863–1918)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,146 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "173361162",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "173361162"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/41009024",
+        "base_url": "https://rism.online/",
+        "label": "people/41009024"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Laforge,_Theophile_Edouard",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Laforge,_Theophile_Edouard"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1863-03-06"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1918-10-31"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "jmrmjM9v",
+        "label": "violist"
+      },
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "DfJQqzuV",
+        "label": "18th arrondissement of Paris"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "WsKgSBQG",
+        "label": "viola"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Exg8rm7n",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      },
+      {
+        "type": "item",
+        "value": "CEgVDYH8",
+        "label": "Paris Opera"
+      },
+      {
+        "type": "item",
+        "value": "NfeajmNo",
+        "label": "Orchestre de la Société des Concerts du Conservatoire"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Théophile_Laforge.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

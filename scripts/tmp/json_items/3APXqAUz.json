@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Sint-Truiden"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Sint-Truiden"
+      },
+      {
+        "type": "string",
+        "value": "Saint Trond"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2786546",
+        "base_url": "https://www.geonames.org/",
+        "label": "2786546"
       }
     ]
   },

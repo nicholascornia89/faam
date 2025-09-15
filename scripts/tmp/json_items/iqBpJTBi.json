@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "61811668",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61811668"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000568",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000568"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Cannicciari,_Pompeo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Cannicciari,_Pompeo"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1744-12-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -152,14 +151,14 @@
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

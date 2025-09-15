@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alessandro Capece"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,78 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "88869375",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "88869375"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30004954",
+        "base_url": "https://rism.online/",
+        "label": "people/30004954"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1575-00-00"
+      }
+    ],
     "date of death": [],
-    "type": [],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "L7bRkYff",
+        "label": "chapelmaster"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Xy2XddKy",
+        "label": "Tarano"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "RjXv6xhJ",
+        "label": "Naples"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

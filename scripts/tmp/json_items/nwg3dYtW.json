@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "American conductor (1906–1973)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Safford Cape"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "54347619",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54347619"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1973-03-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -151,14 +144,14 @@
       {
         "type": "item",
         "value": "ZuPoS9As",
-        "label": ""
+        "label": "Denver"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Beq72mMD",
-        "label": ""
+        "label": "Brussels metropolitan area"
       }
     ],
     "instrument": [],
@@ -168,7 +161,7 @@
       {
         "type": "item",
         "value": "Lm4yiSLc",
-        "label": ""
+        "label": "Pro Musica Antiqua"
       }
     ]
   },

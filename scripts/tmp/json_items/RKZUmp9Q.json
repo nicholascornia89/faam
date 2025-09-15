@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Cairo"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of Egypt"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Cairo"
+      },
+      {
+        "type": "string",
+        "value": "al-Qāhira"
+      },
+      {
+        "type": "string",
+        "value": "Qahira"
+      },
+      {
+        "type": "string",
+        "value": "Cairo, Egypt"
+      },
+      {
+        "type": "string",
+        "value": "ghahere"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "360630",
+        "base_url": "https://www.geonames.org/",
+        "label": "360630"
       }
     ]
   },

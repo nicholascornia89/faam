@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Julius Benedict"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German-born composer and conductor"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,120 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "34642565",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34642565"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/12153",
+        "base_url": "https://rism.online/",
+        "label": "people/12153"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Benedict,_Julius",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Benedict,_Julius"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1804-11-27"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1885-06-05"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "dXNhzHja",
+        "label": "Kingdom of Württemberg"
+      },
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "WCvLUC56",
+        "label": "Stuttgart"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "bsTArmEN",
+        "label": "London"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "kZj58UuH",
+        "label": "Johann Nepomuk Hummel"
+      },
+      {
+        "type": "item",
+        "value": "XYEb9h53",
+        "label": "Carl Maria von Weber"
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +164,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Sir_Julius_Benedict.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

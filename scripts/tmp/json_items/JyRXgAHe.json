@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Amilcare Ponchielli"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer (1834-1886)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,156 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "10034325",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10034325"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/1653417",
+        "base_url": "https://rism.online/",
+        "label": "people/1653417"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Ponchielli,_Amilcare",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ponchielli,_Amilcare"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1834-08-31"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1886-01-16"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "n8RY6FTC",
+        "label": "professor"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      },
+      {
+        "type": "item",
+        "value": "CwkwAGsF",
+        "label": "Kingdom of Lombardy–Venetia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "BEsEkBdi",
+        "label": "Paderno Ponchielli"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "6rg7mVNX",
+        "label": "Milan"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "njnGrri2",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "RTU8hLY4",
+        "label": "Milan Conservatory"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "RTU8hLY4",
+        "label": "Milan Conservatory"
+      },
+      {
+        "type": "item",
+        "value": "QKU7QpMw",
+        "label": "Bergamo Cathedral"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

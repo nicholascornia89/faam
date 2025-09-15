@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1850-1907)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Anton Urspruch"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "30310141",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "30310141"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/132444",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/132444"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Urspruch,_Anton",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Urspruch,_Anton"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1907-01-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "SptwZTXr",
-        "label": ""
+        "label": "Frankfurt"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "SptwZTXr",
-        "label": ""
+        "label": "Frankfurt"
       }
     ],
     "instrument": [
@@ -175,7 +170,7 @@
       {
         "type": "item",
         "value": "NkSwdbTS",
-        "label": ""
+        "label": "Hoch Conservatory"
       }
     ]
   },

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Otto Nicolai"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "(1810-1849) composer and conductor"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,145 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "24788088",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24788088"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/100329",
+        "base_url": "https://rism.online/",
+        "label": "people/100329"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Nicolai,_Otto",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Nicolai,_Otto"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1810-06-09"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1849-05-11"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "fkNftdFp",
+        "label": "singer"
+      },
+      {
+        "type": "item",
+        "value": "WVAdy2Fe",
+        "label": "music director"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "YUq8HaDb",
+        "label": "Kingdom of Prussia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "5eewCidM",
+        "label": "Königsberg"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      },
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "KJkThvsq",
+        "label": "voice"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "c5kbPQTK",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "X86zgwSc",
+        "label": "Frederick William IV of Prussia"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Otto_Nicolai.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

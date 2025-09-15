@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "42026205",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42026205"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/1578",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/1578"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Paër,_Ferdinando",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Paër,_Ferdinando"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1839-05-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "6rQmfJtC",
-        "label": ""
+        "label": "Parma"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Henri Hirschmann"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "17486864",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17486864"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/403000",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/403000"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Hirschmann,_Henri",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hirschmann,_Henri"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1961-11-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "DCa9ZUTC",
-        "label": ""
+        "label": "Saint-Mandé"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "HZJV4pgr",
-        "label": ""
+        "label": "17th arrondissement of Paris"
       }
     ],
     "instrument": [],

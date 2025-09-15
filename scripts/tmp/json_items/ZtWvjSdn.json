@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Maria Yudina"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Soviet pianist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,174 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "198024",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "198024"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Yudina,_Maria",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Yudina,_Maria"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1899-08-28"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1970-11-19"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "7WBM7mQu",
+        "label": "classical pianist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "ge9ACHGn",
+        "label": "female"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      },
+      {
+        "type": "item",
+        "value": "Vq7JhbTF",
+        "label": "Soviet Union"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "S5wUmRMi",
+        "label": "Nevel"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "fgyBiYxY",
+        "label": "Moscow"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "GJZiFLeN",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "UczDSGy2",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "ggByVFma",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "YCCdZN4e",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "M2ECeB7G",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "k6cnSQnL",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "XB9ty59L",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "7yYSJHSB",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "EGwUVMY2",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "nyaj8Ndp",
+        "label": "Saint Petersburg Conservatory"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "Djq8DaQv",
+        "label": "Moscow Conservatory"
+      },
+      {
+        "type": "item",
+        "value": "MxoiNexv",
+        "label": "Gnessin Russian Academy of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Maria_Yudina.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

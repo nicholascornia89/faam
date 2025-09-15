@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musician (1842–1907)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "74117609",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74117609"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Duvernoy,_Victor_Alphonse",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Duvernoy,_Victor_Alphonse"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1907-03-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +123,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

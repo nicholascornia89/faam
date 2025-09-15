@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "American composer (1917-2003)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "114188420",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "114188420"
       }
     ],
     "RISM ID": [],
@@ -80,7 +77,7 @@
         "value": "2003-02-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -113,7 +110,7 @@
       {
         "type": "item",
         "value": "n8RY6FTC",
-        "label": ""
+        "label": "professor"
       }
     ],
     "sex or gender": [
@@ -134,14 +131,14 @@
       {
         "type": "item",
         "value": "FZ36oJ9H",
-        "label": ""
+        "label": "Portland"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "ZouoVzMY",
-        "label": ""
+        "label": "Lafayette"
       }
     ],
     "instrument": [],

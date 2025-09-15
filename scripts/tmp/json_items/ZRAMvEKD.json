@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jonathan Fentum"
       }
     ],
@@ -50,7 +46,8 @@
       {
         "type": "externalid",
         "value": "302372678",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "302372678"
       }
     ],
     "RISM ID": [],
@@ -67,7 +64,7 @@
         "value": "1784"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

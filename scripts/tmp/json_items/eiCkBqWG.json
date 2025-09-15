@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Rieti"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian comune"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Rieti"
+      },
+      {
+        "type": "string",
+        "value": "Rieti (Italy)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6541462",
+        "base_url": "https://www.geonames.org/",
+        "label": "6541462"
       }
     ]
   },

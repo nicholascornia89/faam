@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian author, librarian and anti-colonial thinker"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "54277595",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54277595"
       }
     ],
     "RISM ID": [],
@@ -80,7 +77,7 @@
         "value": "1944-12-10"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

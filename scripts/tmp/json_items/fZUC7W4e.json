@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Rome"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital and largest city of Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Rome"
+      },
+      {
+        "type": "string",
+        "value": "The Eternal City"
+      },
+      {
+        "type": "string",
+        "value": "Roma"
+      },
+      {
+        "type": "string",
+        "value": "Rome, Italy"
+      },
+      {
+        "type": "string",
+        "value": "City of Seven Hills"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3169070",
+        "base_url": "https://www.geonames.org/",
+        "label": "3169070"
       }
     ]
   },

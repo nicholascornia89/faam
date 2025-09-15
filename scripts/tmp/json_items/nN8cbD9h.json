@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Darmstadt"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Hesse, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Darmstadt"
+      },
+      {
+        "type": "string",
+        "value": "Darmstadt, Hesse"
+      },
+      {
+        "type": "string",
+        "value": "Darmstadt, Germany"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3220962",
+        "base_url": "https://www.geonames.org/",
+        "label": "3220962"
       }
     ]
   },

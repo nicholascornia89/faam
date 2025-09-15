@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian violinist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Biagio Marini"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "87537897",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "87537897"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30006398",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30006398"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Marini,_Biagio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Marini,_Biagio"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1663-03-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "6krP3pJ4",
-        "label": ""
+        "label": "Brescia"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [

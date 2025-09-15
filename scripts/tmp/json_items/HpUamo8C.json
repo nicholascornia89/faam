@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1779-1867)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Johann Caspar Aiblinger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "57412332",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "57412332"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/1040",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/1040"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Aiblinger,_Johann_Kaspar",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Aiblinger,_Johann_Kaspar"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1867-05-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -153,14 +148,14 @@
       {
         "type": "item",
         "value": "5RGeRyr9",
-        "label": ""
+        "label": "Wasserburg am Inn"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "M2keqc3n",
-        "label": ""
+        "label": "Munich"
       }
     ],
     "instrument": [

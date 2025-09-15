@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Lea Mendelssohn Bartholdy"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "(1777-1842)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,81 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "17985071",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17985071"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/88794",
+        "base_url": "https://rism.online/",
+        "label": "people/88794"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1777-03-26"
+      },
+      {
+        "type": "date",
+        "value": "1777-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1842-12-12"
+      },
+      {
+        "type": "date",
+        "value": "1842-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
     "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "ge9ACHGn",
+        "label": "female"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],
@@ -78,7 +127,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "1823_Hensel_Lea_Mendelssohn.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

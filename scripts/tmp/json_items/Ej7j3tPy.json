@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian soprano of the 18th century"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Anna Maria Strada"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "170082185",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "170082185"
       }
     ],
     "RISM ID": [],
@@ -75,7 +68,7 @@
         "value": "1800-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -103,7 +96,7 @@
       {
         "type": "item",
         "value": "kk3x69qv",
-        "label": ""
+        "label": "Bergamo"
       }
     ],
     "place of death": [],

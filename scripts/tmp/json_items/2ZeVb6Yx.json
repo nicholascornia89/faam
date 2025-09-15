@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Swiss harpsichordist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antoinette Vischer"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "74039167",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74039167"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30113903",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30113903"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1973-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -120,14 +114,14 @@
       {
         "type": "item",
         "value": "nRMPrHtA",
-        "label": ""
+        "label": "Basel"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "nRMPrHtA",
-        "label": ""
+        "label": "Basel"
       }
     ],
     "instrument": [

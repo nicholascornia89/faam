@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer and conductor, 1875–1941"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Lodewijk Ontrop"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "290366028",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "290366028"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1941-11-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +118,14 @@
       {
         "type": "item",
         "value": "jGe3vcFB",
-        "label": ""
+        "label": "Antwerp"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "KPLfiruv",
-        "label": ""
+        "label": "Edegem"
       }
     ],
     "instrument": [

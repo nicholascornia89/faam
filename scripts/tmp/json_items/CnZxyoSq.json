@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Düsseldorf"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the German federated state of North Rhine-Westphalia"
       }
     ],
     "object_type": [
@@ -43,14 +39,40 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Düsseldorf"
+      },
+      {
+        "type": "string",
+        "value": "Dusseldorf"
+      },
+      {
+        "type": "string",
+        "value": "Duesseldorf"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2934246",
+        "base_url": "https://www.geonames.org/",
+        "label": "2934246"
+      },
+      {
+        "type": "externalid",
+        "value": "3231903",
+        "base_url": "https://www.geonames.org/",
+        "label": "3231903"
+      },
+      {
+        "type": "externalid",
+        "value": "6553022",
+        "base_url": "https://www.geonames.org/",
+        "label": "6553022"
       }
     ]
   },

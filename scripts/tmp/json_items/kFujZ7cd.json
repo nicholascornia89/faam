@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian violinist and composer."
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Joseph Mayseder"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "66732449",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66732449"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/98214",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/98214"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Mayseder,_Joseph",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mayseder,_Joseph"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1863-11-21"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

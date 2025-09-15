@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "15 Nov 1848 - 16 Jan 1900"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Charles de Sivry"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "76518318",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76518318"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Sivry,_Charles_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Sivry,_Charles_de"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1900-01-15"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +119,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

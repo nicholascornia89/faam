@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "largest city in California, United States"
       }
     ],
@@ -103,12 +99,14 @@
       {
         "type": "externalid",
         "value": "5368361",
-        "base_url": "https://www.geonames.org/"
+        "base_url": "https://www.geonames.org/",
+        "label": "5368361"
       },
       {
         "type": "externalid",
         "value": "US",
-        "base_url": "https://www.geonames.org/"
+        "base_url": "https://www.geonames.org/",
+        "label": "US"
       }
     ]
   },

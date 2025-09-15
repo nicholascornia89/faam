@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Queen of Scotland from 1542 to 1567"
       }
     ],
@@ -91,21 +87,24 @@
       {
         "type": "externalid",
         "value": "104722318",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "104722318"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/383962",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/383962"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Stuart_(Queen_of_Scots),_Mary",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Stuart_(Queen_of_Scots),_Mary"
       }
     ],
     "date of birth": [
@@ -120,7 +119,7 @@
         "value": "1587-02-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -150,22 +149,22 @@
       {
         "type": "item",
         "value": "QFAgWENE",
-        "label": ""
+        "label": "sovereign"
       },
       {
         "type": "item",
         "value": "GWbeMfT5",
-        "label": ""
+        "label": "aristocrat"
       },
       {
         "type": "item",
         "value": "hQYtufgL",
-        "label": ""
+        "label": "queen regnant"
       },
       {
         "type": "item",
         "value": "Ka45oSxR",
-        "label": ""
+        "label": "queen consort"
       }
     ],
     "sex or gender": [
@@ -191,19 +190,19 @@
       {
         "type": "item",
         "value": "Z8ZWqAEw",
-        "label": ""
+        "label": "Linlithgow Palace"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "eKdrmvEd",
-        "label": ""
+        "label": "Fotheringhay Castle"
       },
       {
         "type": "item",
         "value": "NNMcTPBx",
-        "label": ""
+        "label": "Northamptonshire"
       }
     ],
     "instrument": [],

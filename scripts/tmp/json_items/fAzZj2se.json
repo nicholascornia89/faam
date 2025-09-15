@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian impresario (1702-1759)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Pietro Mingotti"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "226062684",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "226062684"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1759-04-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -113,14 +106,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "9KauCKbh",
-        "label": ""
+        "label": "Copenhagen"
       }
     ],
     "instrument": [],

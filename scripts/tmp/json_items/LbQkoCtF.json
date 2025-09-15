@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Baden-Baden"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Baden-Württemberg, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Baden-Baden"
+      },
+      {
+        "type": "string",
+        "value": "Baden Baden"
+      },
+      {
+        "type": "string",
+        "value": "Baden-Baden, Germany"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2953504",
+        "base_url": "https://www.geonames.org/",
+        "label": "2953504"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian musician (1879-1964)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "60458171",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "60458171"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30085966",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30085966"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1964-03-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

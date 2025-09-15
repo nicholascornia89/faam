@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian violinist and composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "69124242",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69124242"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000734",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000734"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Corelli,_Arcangelo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Corelli,_Arcangelo"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1713-01-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +135,14 @@
       {
         "type": "item",
         "value": "dW5ZQZDR",
-        "label": ""
+        "label": "Fusignano"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [

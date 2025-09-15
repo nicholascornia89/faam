@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pietro Alessandro Guglielmi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian opera composer (1728–1804)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,20 +42,97 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "44565225",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44565225"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30001398",
+        "base_url": "https://rism.online/",
+        "label": "people/30001398"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Guglielmi,_Pietro_Alessandro",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Guglielmi,_Pietro_Alessandro"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1728-12-09"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1804-11-19"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "LcwfzPiG",
+        "label": "harpsichordist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "dJvJvubK",
+        "label": "Massa"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "fZUC7W4e",
+        "label": "Rome"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
     "employer": []
@@ -78,7 +142,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Pietro_Alessandro_Guglielmi.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

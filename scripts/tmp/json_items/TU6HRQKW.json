@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer and violinist (1692-1770)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giuseppe Tartini"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "66653168",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66653168"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/162506",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/162506"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Tartini,_Giuseppe",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Tartini,_Giuseppe"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1770-02-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,19 +141,19 @@
       {
         "type": "item",
         "value": "Ezy4TzLG",
-        "label": ""
+        "label": "Piran"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "B67rejNf",
-        "label": ""
+        "label": "Padua"
       },
       {
         "type": "item",
         "value": "NFHAoKLb",
-        "label": ""
+        "label": "Trieste"
       }
     ],
     "instrument": [

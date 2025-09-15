@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Nikolai Zaremba"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Russian composer (1821-1879)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,123 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "2666971",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2666971"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Zaremba,_Nikolay",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Zaremba,_Nikolay"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1821-06-12"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1879-04-08"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "oTS3pt2J",
+        "label": "Ludza County"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "AzqRtNds",
+        "label": "Saint Petersburg"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "JtUPecCD",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "26sE4HQd",
+        "label": "Saint Petersburg State University"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "nyaj8Ndp",
+        "label": "Saint Petersburg Conservatory"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Nicolai_Zaremba_(1821-1879).JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

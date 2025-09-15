@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Adam Liszt"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "father of Franz Liszt"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,20 +42,89 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "88250035",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "88250035"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1776-12-16"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1827-08-28"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "dg4VBYfA",
+        "label": "cellist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "FPDTfb7a",
+        "label": "Austrian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "RRAtyef6",
+        "label": "Edelstal"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "7Seu8RXR",
+        "label": "Boulogne-sur-Mer"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "4oyT6BBG",
+        "label": "cello"
+      },
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
     "employer": []
@@ -78,7 +134,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Adam_Liszt.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

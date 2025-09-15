@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Regensburg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Regensburg"
+      },
+      {
+        "type": "string",
+        "value": "Ratisbo"
+      },
+      {
+        "type": "string",
+        "value": "Ratisbon"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2849483",
+        "base_url": "https://www.geonames.org/",
+        "label": "2849483"
+      },
+      {
+        "type": "externalid",
+        "value": "6556611",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556611"
       }
     ]
   },

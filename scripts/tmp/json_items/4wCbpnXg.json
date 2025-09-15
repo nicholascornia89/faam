@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1877-1967)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Albert Dupuis"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "32084275",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32084275"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1967-09-19"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +107,14 @@
       {
         "type": "item",
         "value": "g2yaMxpU",
-        "label": ""
+        "label": "Verviers"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Beq72mMD",
-        "label": ""
+        "label": "Brussels metropolitan area"
       }
     ],
     "instrument": [

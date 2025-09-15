@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian conductor and composer (1777-1852)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "23902980",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "23902980"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016590",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016590"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1852-05-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +123,14 @@
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Beq72mMD",
-        "label": ""
+        "label": "Brussels metropolitan area"
       }
     ],
     "instrument": [

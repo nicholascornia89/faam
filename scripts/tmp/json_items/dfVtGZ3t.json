@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1510-1587)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Vincenzo Ruffo"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "56797555",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56797555"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30002765",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30002765"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ruffo,_Vincenzo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ruffo,_Vincenzo"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1587-02-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +138,14 @@
       {
         "type": "item",
         "value": "bzwH2j9G",
-        "label": ""
+        "label": "Verona"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "UsGuXsqR",
-        "label": ""
+        "label": "Sacile"
       }
     ],
     "instrument": [],

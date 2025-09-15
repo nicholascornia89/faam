@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German music publishing company"
       }
     ],
@@ -75,7 +71,8 @@
       {
         "type": "externalid",
         "value": "127272364",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "127272364"
       }
     ],
     "RISM ID": [],
@@ -83,12 +80,13 @@
       {
         "type": "externalid",
         "value": "N._Simrock",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "N._Simrock"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

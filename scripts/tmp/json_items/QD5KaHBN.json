@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Spandau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "locality of the borough Spandau of Berlin, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Spandau"
+      },
+      {
+        "type": "string",
+        "value": "Berlin-Spandau"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "7290252",
+        "base_url": "https://www.geonames.org/",
+        "label": "7290252"
       }
     ]
   },

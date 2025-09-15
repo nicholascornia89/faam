@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "British musicologist, librarian and librettist (1855-1927)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "William Barclay Squire"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "74677932",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74677932"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/355762",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/355762"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Squire,_William_Barclay",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Squire,_William_Barclay"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1927-01-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

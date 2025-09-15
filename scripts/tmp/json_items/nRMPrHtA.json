@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Basel"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city on the Rhine in Switzerland"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Basel"
+      },
+      {
+        "type": "string",
+        "value": "Basle"
+      },
+      {
+        "type": "string",
+        "value": "Basel BS"
+      },
+      {
+        "type": "string",
+        "value": "Bâle"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "7285161",
+        "base_url": "https://www.geonames.org/",
+        "label": "7285161"
       }
     ]
   },

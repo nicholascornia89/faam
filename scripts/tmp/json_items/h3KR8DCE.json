@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1878-1914)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "29717779",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "29717779"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Dupont,_Gabriel",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dupont,_Gabriel"
       }
     ],
     "date of birth": [
@@ -94,7 +92,7 @@
         "value": "1914-08-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -128,14 +126,14 @@
       {
         "type": "item",
         "value": "UHSXAavW",
-        "label": ""
+        "label": "Caen"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "8TCtEEzv",
-        "label": ""
+        "label": "Le Vésinet"
       }
     ],
     "instrument": [],

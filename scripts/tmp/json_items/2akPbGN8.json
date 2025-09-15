@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Dutch musician and piano builder (1796-1879)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jan Hendrik Paling"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "284080598",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "284080598"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1879-02-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -151,14 +144,14 @@
       {
         "type": "item",
         "value": "hko29Ada",
-        "label": ""
+        "label": "Woerden"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "kx6vRxnY",
-        "label": ""
+        "label": "Rotterdam"
       }
     ],
     "instrument": [
@@ -174,7 +167,7 @@
       {
         "type": "item",
         "value": "aU2NZmii",
-        "label": ""
+        "label": "Maatschappij tot Bevordering der Toonkunst"
       }
     ]
   },

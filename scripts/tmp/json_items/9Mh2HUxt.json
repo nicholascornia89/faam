@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Geneva"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Switzerland and capital of its canton"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Geneva"
+      },
+      {
+        "type": "string",
+        "value": "Genève"
+      },
+      {
+        "type": "string",
+        "value": "Geneva GE"
+      },
+      {
+        "type": "string",
+        "value": "Geneve"
+      },
+      {
+        "type": "string",
+        "value": "Genf"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "7285902",
+        "base_url": "https://www.geonames.org/",
+        "label": "7285902"
       }
     ]
   },

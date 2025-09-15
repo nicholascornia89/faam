@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Raimund Dreyschock"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,109 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "758232",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "758232"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/22508",
+        "base_url": "https://rism.online/",
+        "label": "people/22508"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Dreyschock,_Raimund",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dreyschock,_Raimund"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1824-08-30"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1869-02-06"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3MKjjFLz",
+        "label": "Žáky"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "educated at": [
+      {
+        "type": "item",
+        "value": "6TP5v4Co",
+        "label": "Prague Conservatory"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "3wN8PmuS",
+        "label": "University of Music and Theatre Leipzig"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Raymund_Dreyschock.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

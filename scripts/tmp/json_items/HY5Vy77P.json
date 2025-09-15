@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Gebstedt"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "human settlement in Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Gebstedt"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6550237",
+        "base_url": "https://www.geonames.org/",
+        "label": "6550237"
+      },
+      {
+        "type": "externalid",
+        "value": "2922140",
+        "base_url": "https://www.geonames.org/",
+        "label": "2922140"
       }
     ]
   },

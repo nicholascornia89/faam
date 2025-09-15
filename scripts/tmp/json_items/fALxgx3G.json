@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Washington, D.C."
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the United States of America"
       }
     ],
     "object_type": [
@@ -43,14 +39,58 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Washington, D.C."
+      },
+      {
+        "type": "string",
+        "value": "Washington, District of Columbia"
+      },
+      {
+        "type": "string",
+        "value": "D.C. Washington"
+      },
+      {
+        "type": "string",
+        "value": "The District"
+      },
+      {
+        "type": "string",
+        "value": "District of Columbia"
+      },
+      {
+        "type": "string",
+        "value": "City of Washington, D.C."
+      },
+      {
+        "type": "string",
+        "value": "Washington City, D.C."
+      },
+      {
+        "type": "string",
+        "value": "Nation's Capital (D.C.)"
+      },
+      {
+        "type": "string",
+        "value": "Federal City (D.C.)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "4140963",
+        "base_url": "https://www.geonames.org/",
+        "label": "4140963"
+      },
+      {
+        "type": "externalid",
+        "value": "11789030",
+        "base_url": "https://www.geonames.org/",
+        "label": "11789030"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French bassoonist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "François-René Gebauer"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "12493776",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12493776"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30009003",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30009003"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Gebauer,_François_René",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gebauer,_François_René"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1845-06-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -156,14 +151,14 @@
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

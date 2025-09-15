@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Nicola Sala"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian opera composer and music theorist (1713-1801)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,98 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "15090570",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "15090570"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30004062",
+        "base_url": "https://rism.online/",
+        "label": "people/30004062"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Sala,_Nicola",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Sala,_Nicola"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1713-04-07"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1801-08-31"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "jTXQeZhA",
+        "label": "Tocco Caudio"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "RjXv6xhJ",
+        "label": "Naples"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "MQUfYDtZ",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "hqqFixhi",
+        "label": "Leonardo Leo"
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +142,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "NicolaSala.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

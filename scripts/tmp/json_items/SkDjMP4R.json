@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alexander Ossovsky"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Musicologist, Russian writer (1871-1957)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,117 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "166700300",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "166700300"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Ossovsky,_Aleksandr",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ossovsky,_Aleksandr"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1871-03-19"
+      },
+      {
+        "type": "date",
+        "value": "1871-03-31"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1957-07-31"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "Mk6HJN99",
+        "label": "music critic"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      },
+      {
+        "type": "item",
+        "value": "Vq7JhbTF",
+        "label": "Soviet Union"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "aTojEvXV",
+        "label": "Chișinău"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "AzqRtNds",
+        "label": "Saint Petersburg"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "jQ7Vm9xz",
+        "label": "Moscow State University"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1858-1937)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "116814298",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "116814298"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/50041643",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/50041643"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Bonis,_Mel",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bonis,_Mel"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1937-03-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -130,14 +129,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "V57gkwBL",
-        "label": ""
+        "label": "Sarcelles"
       }
     ],
     "instrument": [],

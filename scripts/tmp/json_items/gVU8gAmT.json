@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Province of Naples"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "former province in Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Province of Naples"
+      },
+      {
+        "type": "string",
+        "value": "Naples province"
+      },
+      {
+        "type": "string",
+        "value": "Napoli province"
+      },
+      {
+        "type": "string",
+        "value": "provincia di Napoli"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3172391",
+        "base_url": "https://www.geonames.org/",
+        "label": "3172391"
       }
     ]
   },

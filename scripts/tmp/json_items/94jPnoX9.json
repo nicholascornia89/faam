@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer and pianist (1843-1890)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "169293298",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "169293298"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/40208777",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/40208777"
       }
     ],
     "IMSLP ID": [],
@@ -102,7 +100,7 @@
         "value": "1892-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +139,14 @@
       {
         "type": "item",
         "value": "cpyirmAF",
-        "label": ""
+        "label": "Crescentino"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fJHycLeJ",
-        "label": ""
+        "label": "Turin"
       }
     ],
     "instrument": [],

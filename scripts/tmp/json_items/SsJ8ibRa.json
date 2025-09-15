@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Vincenzo Lavigna"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,118 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "52039050",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "52039050"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30004979",
+        "base_url": "https://rism.online/",
+        "label": "people/30004979"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1776-02-21"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1836-09-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "LcwfzPiG",
+        "label": "harpsichordist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4UgAZMRB",
+        "label": "Kingdom of Naples"
+      },
+      {
+        "type": "item",
+        "value": "CwkwAGsF",
+        "label": "Kingdom of Lombardy–Venetia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Rh3ZXCoe",
+        "label": "Altamura"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "6rg7mVNX",
+        "label": "Milan"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "8RjTgR64",
+        "label": "Giovanni Paisiello"
+      },
+      {
+        "type": "item",
+        "value": "hZNMi7Wf",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "LmJM6gyA",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

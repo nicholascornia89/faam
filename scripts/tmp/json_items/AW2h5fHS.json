@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Friedrich Wieck"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German piano teacher, music critic and music educator (1785-1873)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,141 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "54189504",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54189504"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/135542",
+        "base_url": "https://rism.online/",
+        "label": "people/135542"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Wieck,_Friedrich",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Wieck,_Friedrich"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1785-08-18"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1873-10-06"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "Mk6HJN99",
+        "label": "music critic"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "ExzzpMsG",
+        "label": "Electorate of Saxony"
+      },
+      {
+        "type": "item",
+        "value": "EjofKZsr",
+        "label": "Kingdom of Saxony"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3fiJcHJ6",
+        "label": "Pretzsch (Elbe)"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "TtHw8r4M",
+        "label": "Loschwitz"
+      },
+      {
+        "type": "item",
+        "value": "MCyXT4P3",
+        "label": "Dresden"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "63DtDHAt",
+        "label": "Thomasschule zu Leipzig"
+      },
+      {
+        "type": "item",
+        "value": "LeDRi6Md",
+        "label": "Martin Luther University Halle-Wittenberg"
+      },
+      {
+        "type": "item",
+        "value": "iwDjCoWQ",
+        "label": "Johann-Walter-Gymnasium Torgau"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +184,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Friedrich_Wieck_age_45.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

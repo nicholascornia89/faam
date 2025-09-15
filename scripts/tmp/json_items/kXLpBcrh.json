@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Arnold Schoenberg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian-Jewish American composer (1874-1951)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,170 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "12492826",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12492826"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/86683",
+        "base_url": "https://rism.online/",
+        "label": "people/86683"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Schoenberg,_Arnold",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schoenberg,_Arnold"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1874-09-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1951-07-13"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RU9hU5Pa",
+        "label": "classical composer"
+      },
+      {
+        "type": "item",
+        "value": "cZjUN9f7",
+        "label": "painter"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "HFXn6pSD",
+        "label": "writer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "JoNf8FqJ",
+        "label": "music teacher"
+      },
+      {
+        "type": "item",
+        "value": "iHPTEWSN",
+        "label": "artist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "kyFWDzyM",
+        "label": "Austria"
+      },
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      },
+      {
+        "type": "item",
+        "value": "hukgqSRn",
+        "label": "Austria–Hungary"
+      },
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "fQCekjVZ",
+        "label": "Los Angeles"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "96yEBVHi",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "TJ6MCytv",
+        "label": "Prussian Academy of Arts"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Arnold_schönberg_man_ray.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Albrecht Agthe"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German music teacher and composer (1790–1873)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,106 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "301640367",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "301640367"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30006500",
+        "base_url": "https://rism.online/",
+        "label": "people/30006500"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1790-04-14"
+      },
+      {
+        "type": "date",
+        "value": "1790-07-13"
+      },
+      {
+        "type": "date",
+        "value": "1790-04-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1873-10-08"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "5VsN9kHM",
+        "label": "Duchy of Anhalt"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "iURePiWc",
+        "label": "Ballenstedt"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "NjrsgrZ2",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

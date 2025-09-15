@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bernhard Molique"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German violinist and composer (1802-1869)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,130 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "69119325",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69119325"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/112821",
+        "base_url": "https://rism.online/",
+        "label": "people/112821"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Molique,_Bernhard",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Molique,_Bernhard"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1802-10-07"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1869-05-10"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6phaDvy8",
+        "label": "concertmaster"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "krnWa7Sb",
+        "label": "Kingdom of Bavaria"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "3oTvMzYS",
+        "label": "Nuremberg"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "JbU9xwpr",
+        "label": "Bad Cannstatt"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "BDD9vX4R",
+        "label": "Louis Spohr"
+      },
+      {
+        "type": "item",
+        "value": "D9ofkwtP",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "5ua6v78H",
+        "label": "University of London"
+      },
+      {
+        "type": "item",
+        "value": "AdrWLpRK",
+        "label": "Royal Academy of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Bernhard_Molique_passport.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

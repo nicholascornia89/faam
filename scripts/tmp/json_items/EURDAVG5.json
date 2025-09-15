@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1819-1900)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "44567876",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44567876"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004973",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004973"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Deffès,_Pierre-Louis",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Deffès,_Pierre-Louis"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1900-05-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +125,14 @@
       {
         "type": "item",
         "value": "a4MQJeZH",
-        "label": ""
+        "label": "Toulouse"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "a4MQJeZH",
-        "label": ""
+        "label": "Toulouse"
       }
     ],
     "instrument": [],

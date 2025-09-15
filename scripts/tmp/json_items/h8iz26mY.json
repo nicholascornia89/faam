@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musician and publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Friedrich Wilhelm Arnold"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "56660592",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56660592"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/21012",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/21012"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1864-02-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",
@@ -144,7 +138,7 @@
       {
         "type": "item",
         "value": "jx8Qoocy",
-        "label": ""
+        "label": "Elberfeld"
       }
     ],
     "instrument": [],

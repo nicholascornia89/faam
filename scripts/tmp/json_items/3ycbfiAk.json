@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Oosterhout"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in the Netherlands"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Oosterhout"
+      },
+      {
+        "type": "string",
+        "value": "Gemeente Oosterhout"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2749447",
+        "base_url": "https://www.geonames.org/",
+        "label": "2749447"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian music publisher"
       }
     ],
@@ -64,7 +60,8 @@
       {
         "type": "externalid",
         "value": "people/30064795",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30064795"
       }
     ],
     "IMSLP ID": [],
@@ -75,7 +72,7 @@
       }
     ],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "La somnambule, ou L'arrivée d'un nouveau seigneur"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "ballet"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,13 +42,33 @@
     ]
   },
   "statements": {
-    "IMSLP ID": [],
-    "VIAF ID": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "La_somnambule_(Hérold,_Ferdinand)",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "La_somnambule_(Hérold,_Ferdinand)"
+      }
+    ],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "180097364",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "180097364"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],
     "adapted by": [],
-    "based on": []
+    "based on": [
+      {
+        "type": "item",
+        "value": "KHdxZ53s",
+        "label": ""
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

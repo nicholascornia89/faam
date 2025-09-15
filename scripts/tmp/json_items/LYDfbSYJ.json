@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Province of Antwerp"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "province in Flanders, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Province of Antwerp"
+      },
+      {
+        "type": "string",
+        "value": "Antwerp"
+      },
+      {
+        "type": "string",
+        "value": "Antwerp (province)"
+      },
+      {
+        "type": "string",
+        "value": "Antwerpen"
+      },
+      {
+        "type": "string",
+        "value": "BE-VAN"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2803136",
+        "base_url": "https://www.geonames.org/",
+        "label": "2803136"
       }
     ]
   },

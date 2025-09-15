@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stedelijk Conservatorium Brugge"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -47,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
-    "place": [],
-    "country": []
+    "place": [
+      {
+        "type": "item",
+        "value": "PKMmukjk",
+        "label": "Bruges"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

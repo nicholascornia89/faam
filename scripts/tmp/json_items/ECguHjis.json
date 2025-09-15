@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Gesualdo"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian comune"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Gesualdo"
+      },
+      {
+        "type": "string",
+        "value": "Gesualdo, Campania"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6538783",
+        "base_url": "https://www.geonames.org/",
+        "label": "6538783"
       }
     ]
   },

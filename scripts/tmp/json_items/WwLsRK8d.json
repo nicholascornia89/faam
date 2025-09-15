@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Wilhelm Hanser"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,20 +42,94 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "170654719",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "170654719"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30014697",
+        "base_url": "https://rism.online/",
+        "label": "people/30014697"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1738-09-12"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1789-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1796-01-23"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "AodAADnt",
+        "label": "Rot an der Rot"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Hq6nHncr",
+        "label": "Bad Schussenried"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
     "employer": []
@@ -78,7 +139,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Schussenried_Chorherr_Wilhelm_Hanser_1792.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

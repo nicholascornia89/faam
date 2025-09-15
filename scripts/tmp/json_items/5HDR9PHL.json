@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Carl Faust"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "37666545",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "37666545"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41749",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41749"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Faust,_Carl",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Faust,_Carl"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1892-09-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,7 +126,7 @@
       {
         "type": "item",
         "value": "FEcvrDWL",
-        "label": ""
+        "label": "Nysa"
       }
     ],
     "place of death": [],

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stanisław Moniuszko"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Polish composer (1819–1872)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,170 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "66653621",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66653621"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30008351",
+        "base_url": "https://rism.online/",
+        "label": "people/30008351"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Moniuszko,_Stanisław",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Moniuszko,_Stanisław"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1819-05-05"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1872-06-04"
+      },
+      {
+        "type": "date",
+        "value": "1872-04-04"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      },
+      {
+        "type": "item",
+        "value": "JoNf8FqJ",
+        "label": "music teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      },
+      {
+        "type": "item",
+        "value": "JRTTuQvY",
+        "label": "Poland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "FcFxN4KG",
+        "label": "Ubieĺ"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "QCaqDkhb",
+        "label": "Warsaw"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "fF6g528G",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "NrhSvYux",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "JH7mMgtv",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "FniXKbBD",
+        "label": "Minsk men's gymnasium"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "X8LwLGC9",
+        "label": "Chopin University of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

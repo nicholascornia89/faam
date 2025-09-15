@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer and double bass player"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Charles Labro"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "15035610",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "15035610"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Labro,_Charles",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Labro,_Charles"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1882-05-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

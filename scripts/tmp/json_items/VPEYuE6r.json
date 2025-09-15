@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Queens"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "borough in New York City, New York, United States"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Queens"
+      },
+      {
+        "type": "string",
+        "value": "Queens, New York City"
+      },
+      {
+        "type": "string",
+        "value": "Queens, New York"
+      },
+      {
+        "type": "string",
+        "value": "Queens, NY"
+      },
+      {
+        "type": "string",
+        "value": "Queens, New York City, New York"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "5133273",
+        "base_url": "https://www.geonames.org/",
+        "label": "5133273"
       }
     ]
   },

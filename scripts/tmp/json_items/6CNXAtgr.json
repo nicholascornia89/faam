@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Cambridgeshire"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "non-metropolitan county (county council area; excludes Peterborough)"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Cambridgeshire"
+      },
+      {
+        "type": "string",
+        "value": "Cambridgeshire (non-metropolitan county)"
+      },
+      {
+        "type": "string",
+        "value": "Cambridgeshire (county council area)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2653940",
+        "base_url": "https://www.geonames.org/",
+        "label": "2653940"
       }
     ]
   },

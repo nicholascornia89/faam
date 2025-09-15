@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Swiss composer and conductor (1866-1943)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Gustave Doret"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "64271409",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64271409"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/3145724",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/3145724"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Doret,_Gustave",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Doret,_Gustave"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1943-04-19"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "fzyFkVof",
-        "label": ""
+        "label": "Aigle"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "BZCpCk45",
-        "label": ""
+        "label": "Lausanne"
       }
     ],
     "instrument": [],

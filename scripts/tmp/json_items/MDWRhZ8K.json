@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Venice"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of Veneto, Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,40 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Venice"
+      },
+      {
+        "type": "string",
+        "value": "Serenissima"
+      },
+      {
+        "type": "string",
+        "value": "Venezia"
+      },
+      {
+        "type": "string",
+        "value": "Venexia"
+      },
+      {
+        "type": "string",
+        "value": "Venetia"
+      },
+      {
+        "type": "string",
+        "value": "Venice, Italy"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6542284",
+        "base_url": "https://www.geonames.org/",
+        "label": "6542284"
       }
     ]
   },

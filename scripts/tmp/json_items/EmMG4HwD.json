@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "city and municipality in the Netherlands, seat of the Dutch government"
       }
     ],
@@ -75,12 +71,14 @@
       {
         "type": "externalid",
         "value": "2747373",
-        "base_url": "https://www.geonames.org/"
+        "base_url": "https://www.geonames.org/",
+        "label": "2747373"
       },
       {
         "type": "externalid",
         "value": "NL",
-        "base_url": "https://www.geonames.org/"
+        "base_url": "https://www.geonames.org/",
+        "label": "NL"
       }
     ]
   },

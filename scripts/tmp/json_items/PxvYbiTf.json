@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French harpmaker"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jacques Georges Cousineau"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "56878837",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56878837"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016419",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016419"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Cousineau,_Jacques-Georges",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Cousineau,_Jacques-Georges"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1836-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -105,7 +100,7 @@
       {
         "type": "item",
         "value": "KgUWntLU",
-        "label": ""
+        "label": "harp maker"
       },
       {
         "type": "item",
@@ -141,14 +136,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

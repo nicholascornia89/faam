@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English cellist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "James Cervetto"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "22405297",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22405297"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30012137",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30012137"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Cervetto,_James",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Cervetto,_James"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1837-01-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

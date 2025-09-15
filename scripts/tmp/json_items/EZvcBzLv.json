@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Rudolf Reinecke"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,75 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "95654025",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "95654025"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30048939",
+        "base_url": "https://rism.online/",
+        "label": "people/30048939"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1795-11-22"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1883-08-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "4wGJZSfp",
+        "label": "Hamburg"
+      }
+    ],
     "place of death": [],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "9cTQKdQg",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hoste da Reggio"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,85 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "90680472",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "90680472"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30014253",
+        "base_url": "https://rism.online/",
+        "label": "people/30014253"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Da_Reggia,_Hoste",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Da_Reggia,_Hoste"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1520-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1569-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "cZjUN9f7",
+        "label": "painter"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ktSqXA3x",
+        "label": "Reggio Emilia"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "kk3x69qv",
+        "label": "Bergamo"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

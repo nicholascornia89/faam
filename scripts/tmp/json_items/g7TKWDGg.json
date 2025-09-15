@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hampstead"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "area of north London, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Hampstead"
+      },
+      {
+        "type": "string",
+        "value": "Hampstead Village"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2647553",
+        "base_url": "https://www.geonames.org/",
+        "label": "2647553"
       }
     ]
   },

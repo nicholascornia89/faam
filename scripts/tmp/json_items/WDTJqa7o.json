@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Reims"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Marne, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Reims"
+      },
+      {
+        "type": "string",
+        "value": "Rheims"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2984114",
+        "base_url": "https://www.geonames.org/",
+        "label": "2984114"
       }
     ]
   },

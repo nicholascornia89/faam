@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -71,21 +67,24 @@
       {
         "type": "externalid",
         "value": "34644165",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34644165"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/1886",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/1886"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Paladilhe,_Émile",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Paladilhe,_Émile"
       }
     ],
     "date of birth": [
@@ -104,7 +103,7 @@
         "value": "1926-01-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -138,14 +137,14 @@
       {
         "type": "item",
         "value": "3Xmxx77S",
-        "label": ""
+        "label": "Montpellier"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Dec9g7vT",
-        "label": ""
+        "label": "2nd arrondissement of Paris"
       }
     ],
     "instrument": [],

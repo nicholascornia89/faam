@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "August Eberhard Müller"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,110 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "74116879",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74116879"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/158391",
+        "base_url": "https://rism.online/",
+        "label": "people/158391"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Müller,_August_Eberhard",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Müller,_August_Eberhard"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1767-12-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1817-12-03"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "iTUB2E3m",
+        "label": "choir director"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "mHWM6Yah",
+        "label": "Kingdom of Hanover"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "mxvRUzgo",
+        "label": "Northeim"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "b8F9LEaG",
+        "label": "Weimar"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "9Wx3p7Mp",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +154,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "August_Eberhard_Müller.JPEG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

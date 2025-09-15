@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alcalá de Henares"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city of Spain in the Community of Madrid"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Alcalá de Henares"
+      },
+      {
+        "type": "string",
+        "value": "Alcala de Henares"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6359231",
+        "base_url": "https://www.geonames.org/",
+        "label": "6359231"
       }
     ]
   },

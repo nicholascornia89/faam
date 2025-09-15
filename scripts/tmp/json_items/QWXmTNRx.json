@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1762-1842)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "5212353",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "5212353"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/113333",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/113333"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Momigny,_Jérôme-Joseph_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Momigny,_Jérôme-Joseph_de"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1842-08-25"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,14 +146,14 @@
       {
         "type": "item",
         "value": "bSicGJwx",
-        "label": ""
+        "label": "Philippeville"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "6aXomDbL",
-        "label": ""
+        "label": "Saint-Maurice"
       }
     ],
     "instrument": [],

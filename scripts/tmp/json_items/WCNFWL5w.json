@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Haslemere"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Surrey, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Haslemere"
+      },
+      {
+        "type": "string",
+        "value": "Haslemere, Surrey"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2647365",
+        "base_url": "https://www.geonames.org/",
+        "label": "2647365"
+      },
+      {
+        "type": "externalid",
+        "value": "7294169",
+        "base_url": "https://www.geonames.org/",
+        "label": "7294169"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Émile Köhler"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "69238392",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69238392"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Kohler,_Emile",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Kohler,_Emile"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1934-04-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +119,14 @@
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDZCyvUu",
-        "label": ""
+        "label": "12th arrondissement of Paris"
       }
     ],
     "instrument": [],

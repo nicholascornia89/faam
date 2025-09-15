@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "author"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "writer of an original work"
       }
     ],
     "object_type": [
@@ -50,7 +42,15 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
+        "value": "contributor"
+      },
+      {
+        "type": "string",
+        "value": "authors"
+      },
+      {
+        "type": "string",
+        "value": "contributors"
       }
     ]
   },

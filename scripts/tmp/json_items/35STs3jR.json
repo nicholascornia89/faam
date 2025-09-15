@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dessau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city, district of Dessau-Roßlau"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Dessau"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2937959",
+        "base_url": "https://www.geonames.org/",
+        "label": "2937959"
       }
     ]
   },

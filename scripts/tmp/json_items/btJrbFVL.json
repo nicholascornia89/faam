@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "opera singer (1697-1781)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Faustina Bordoni"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "9820191",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "9820191"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30028324",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30028324"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1781-11-04"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +119,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Victoria"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "state of Australia"
       }
     ],
     "object_type": [
@@ -43,14 +39,44 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Victoria"
+      },
+      {
+        "type": "string",
+        "value": "VIC"
+      },
+      {
+        "type": "string",
+        "value": "Victoria, Australia"
+      },
+      {
+        "type": "string",
+        "value": "State of Victoria"
+      },
+      {
+        "type": "string",
+        "value": "State of VIC"
+      },
+      {
+        "type": "string",
+        "value": "Vic."
+      },
+      {
+        "type": "string",
+        "value": "AU-VIC"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2145234",
+        "base_url": "https://www.geonames.org/",
+        "label": "2145234"
       }
     ]
   },

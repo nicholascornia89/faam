@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer and organist (1564-1612)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Hans Leo Hassler"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "76500260",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76500260"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/52044",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/52044"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Hassler,_Hans_Leo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hassler,_Hans_Leo"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1612-06-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "3oTvMzYS",
-        "label": ""
+        "label": "Nuremberg"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "SptwZTXr",
-        "label": ""
+        "label": "Frankfurt"
       }
     ],
     "instrument": [

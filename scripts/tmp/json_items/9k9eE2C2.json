@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "19th C German art dealer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Alfred Coppenrath"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "10603239",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10603239"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/67608",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/67608"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1887-11-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

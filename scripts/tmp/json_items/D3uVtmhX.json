@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer active in England"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "100249426",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100249426"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Cervetto,_Giacobbe_Basevi",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Cervetto,_Giacobbe_Basevi"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1783-01-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

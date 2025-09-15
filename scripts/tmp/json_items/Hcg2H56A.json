@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1868 - 1944)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "12728334",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12728334"
       }
     ],
     "RISM ID": [],
@@ -75,7 +72,8 @@
       {
         "type": "externalid",
         "value": "Category:Charlier,_Théo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Charlier,_Théo"
       }
     ],
     "date of birth": [
@@ -90,7 +88,7 @@
         "value": "1944-10-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

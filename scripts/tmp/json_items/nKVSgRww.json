@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Moulins"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Allier, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Moulins"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6453548",
+        "base_url": "https://www.geonames.org/",
+        "label": "6453548"
+      },
+      {
+        "type": "externalid",
+        "value": "2991481",
+        "base_url": "https://www.geonames.org/",
+        "label": "2991481"
       }
     ]
   },

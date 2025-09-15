@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Ingolstadt"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Ingolstadt"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3220833",
+        "base_url": "https://www.geonames.org/",
+        "label": "3220833"
+      },
+      {
+        "type": "externalid",
+        "value": "2895992",
+        "base_url": "https://www.geonames.org/",
+        "label": "2895992"
+      },
+      {
+        "type": "externalid",
+        "value": "6556096",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556096"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian composer (1850-1893)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Johann Schrammel"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "24788401",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24788401"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30075506",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30075506"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Schrammel,_Johann",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schrammel,_Johann"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1893-06-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

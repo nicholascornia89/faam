@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Metz"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Grand Est, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Metz"
+      },
+      {
+        "type": "string",
+        "value": "Divodurum"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2994160",
+        "base_url": "https://www.geonames.org/",
+        "label": "2994160"
       }
     ]
   },

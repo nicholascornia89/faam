@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English music publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Henry Playford"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "42680649",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42680649"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41011369",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41011369"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Playford,_Henry",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Playford,_Henry"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1709-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

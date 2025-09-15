@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Harmonious Society"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -47,16 +39,17 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ]
+    "aliases": []
   },
   "statements": {
     "place": [],
-    "country": []
+    "country": [
+      {
+        "type": "item",
+        "value": "ChU6uTpu",
+        "label": "Sweden"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

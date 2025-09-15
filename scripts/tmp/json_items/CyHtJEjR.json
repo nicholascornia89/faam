@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian musician (1803–1888)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "54319969",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54319969"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30005973",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30005973"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Herz,_Henri",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Herz,_Henri"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1888-01-05"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

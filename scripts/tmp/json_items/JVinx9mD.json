@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Oscar de Lagoanère"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "307380417",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "307380417"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30019590",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30019590"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Lagoanère,_Oscar_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lagoanère,_Oscar_de"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1918-05-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

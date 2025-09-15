@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German music publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Bartholf Senff"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "7654599",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7654599"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30052856",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30052856"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1900-06-25"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

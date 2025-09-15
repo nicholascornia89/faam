@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Joachim Raff"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Swiss composer (1822-1882)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,136 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "34644328",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34644328"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/32686",
+        "base_url": "https://rism.online/",
+        "label": "people/32686"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Raff,_Joachim",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Raff,_Joachim"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1822-05-27"
+      },
+      {
+        "type": "date",
+        "value": "1822-01-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1882-06-24"
+      },
+      {
+        "type": "date",
+        "value": "1882-06-25"
+      },
+      {
+        "type": "date",
+        "value": "1882-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "PSGLuAgw",
+        "label": "Lachen"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "SptwZTXr",
+        "label": "Frankfurt"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "MQ2YMABS",
+        "label": "Frankfurt University of Music and Performing Arts"
+      },
+      {
+        "type": "item",
+        "value": "NkSwdbTS",
+        "label": "Hoch Conservatory"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Jjraffportrait.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pomponio Nenna"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,88 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "202273",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "202273"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30013880",
+        "base_url": "https://rism.online/",
+        "label": "people/30013880"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Nenna,_Pomponio",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Nenna,_Pomponio"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1556-06-13"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1608-07-25"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "d2bDJVLe",
+        "label": "Bari"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "fZUC7W4e",
+        "label": "Rome"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Bhe5mAUF",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

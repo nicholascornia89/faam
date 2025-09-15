@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hollywood"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "neighborhood in Los Angeles, California, United States"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Hollywood"
+      },
+      {
+        "type": "string",
+        "value": "Hollywood, Los Angeles"
+      },
+      {
+        "type": "string",
+        "value": "Hollywood, California"
+      },
+      {
+        "type": "string",
+        "value": "Hollywood, CA"
+      },
+      {
+        "type": "string",
+        "value": "Tinseltown"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "5357527",
+        "base_url": "https://www.geonames.org/",
+        "label": "5357527"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French writer (1776–1852)"
       }
     ],
@@ -87,21 +83,24 @@
       {
         "type": "externalid",
         "value": "27059297",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "27059297"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30101726",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30101726"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Gay,_Sophie",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gay,_Sophie"
       }
     ],
     "date of birth": [
@@ -124,7 +123,7 @@
         "value": "1852-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -154,7 +153,7 @@
       {
         "type": "item",
         "value": "CQNHyGNV",
-        "label": ""
+        "label": "salonnière"
       },
       {
         "type": "item",
@@ -200,14 +199,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NNCtKcUB",
-        "label": ""
+        "label": "former 2nd arrondissement of Paris"
       }
     ],
     "instrument": [],

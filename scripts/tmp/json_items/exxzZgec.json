@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Kassel"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Hesse, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Kassel"
+      },
+      {
+        "type": "string",
+        "value": "Cassel"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3220995",
+        "base_url": "https://www.geonames.org/",
+        "label": "3220995"
+      },
+      {
+        "type": "externalid",
+        "value": "2892518",
+        "base_url": "https://www.geonames.org/",
+        "label": "2892518"
       }
     ]
   },

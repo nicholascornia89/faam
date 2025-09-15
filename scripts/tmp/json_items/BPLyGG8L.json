@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1901–1981)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Ernst Pepping"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "116416740",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "116416740"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/7917",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/7917"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1981-02-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -130,14 +124,14 @@
       {
         "type": "item",
         "value": "5Dbk5oy3",
-        "label": ""
+        "label": "Duisburg"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "QD5KaHBN",
-        "label": ""
+        "label": "Spandau"
       }
     ],
     "instrument": [],

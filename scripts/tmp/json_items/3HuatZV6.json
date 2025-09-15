@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Swiss composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "54196135",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54196135"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/88650",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/88650"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Nägeli,_Hans_Georg",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Nägeli,_Hans_Georg"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1836-12-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +130,14 @@
       {
         "type": "item",
         "value": "o6UMHpqP",
-        "label": ""
+        "label": "Wetzikon"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "FRBy4DNc",
-        "label": ""
+        "label": "Zurich"
       }
     ],
     "instrument": [],

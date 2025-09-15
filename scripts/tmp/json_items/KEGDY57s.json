@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer and conductor"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "7654612",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7654612"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/83138",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/83138"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Schneider,_Friedrich",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schneider,_Friedrich"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1853-11-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "fmeVrVkZ",
-        "label": ""
+        "label": "Waltersdorf (Großschönau)"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "35STs3jR",
-        "label": ""
+        "label": "Dessau"
       }
     ],
     "instrument": [

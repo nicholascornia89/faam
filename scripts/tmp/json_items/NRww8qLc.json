@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Nagels Verlag"
       }
     ],
@@ -63,14 +55,15 @@
       {
         "type": "externalid",
         "value": "126572947",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "126572947"
       }
     ],
     "RISM ID": [],
     "IMSLP ID": [],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "GBgJfRbK",

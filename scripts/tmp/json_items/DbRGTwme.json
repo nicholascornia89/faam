@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer, writer, advocate, magistrate, and teacher"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "41878404",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "41878404"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30002070",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30002070"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Marcello,_Benedetto",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Marcello,_Benedetto"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1739-07-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "6krP3pJ4",
-        "label": ""
+        "label": "Brescia"
       }
     ],
     "instrument": [],

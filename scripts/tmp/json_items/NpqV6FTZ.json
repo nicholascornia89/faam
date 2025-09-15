@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "42026042",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42026042"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/89350",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/89350"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Mercadante,_Saverio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mercadante,_Saverio"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1870-12-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,14 +131,14 @@
       {
         "type": "item",
         "value": "Rh3ZXCoe",
-        "label": ""
+        "label": "Altamura"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "instrument": [],

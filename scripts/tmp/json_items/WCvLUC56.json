@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stuttgart"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city on the Neckar river and capital of the federal state Baden-Württemberg, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Stuttgart"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6690189",
+        "base_url": "https://www.geonames.org/",
+        "label": "6690189"
       }
     ]
   },

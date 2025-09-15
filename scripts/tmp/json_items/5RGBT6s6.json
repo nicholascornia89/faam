@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "musical publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Kistner"
       }
     ],
@@ -65,12 +57,13 @@
       {
         "type": "externalid",
         "value": "Kistner",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Kistner"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

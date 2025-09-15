@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Rotterdam"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in South Holland, the Netherlands"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Rotterdam"
+      },
+      {
+        "type": "string",
+        "value": "R'dam"
+      },
+      {
+        "type": "string",
+        "value": "Roffa"
+      },
+      {
+        "type": "string",
+        "value": "Rotjeknor"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2747891",
+        "base_url": "https://www.geonames.org/",
+        "label": "2747891"
       }
     ]
   },

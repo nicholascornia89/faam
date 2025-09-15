@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Francisco de Peñalosa"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Spanish composer (1470-1528)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,79 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "100221683",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100221683"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Peñalosa,_Francisco_de",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Peñalosa,_Francisco_de"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1470-01-01"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1528-04-01"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ifWKKPUE",
+        "label": "Talavera de la Reina"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "oA9XiCdV",
+        "label": "Seville"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

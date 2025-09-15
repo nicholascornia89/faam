@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian opera composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Michele Carafa"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "61792392",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61792392"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000580",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000580"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Carafa,_Michele",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Carafa,_Michele"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1872-07-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +136,14 @@
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],
@@ -173,7 +168,7 @@
       {
         "type": "item",
         "value": "7V3uJzNi",
-        "label": ""
+        "label": "Nunziatella military academy"
       }
     ],
     "employer": [

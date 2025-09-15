@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Carlo Maria Clari"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "66729771",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66729771"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30003801",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30003801"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Clari,_Giovanni_Carlo_Maria",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Clari,_Giovanni_Carlo_Maria"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1754-05-16"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,14 +127,14 @@
       {
         "type": "item",
         "value": "gk2ffUgP",
-        "label": ""
+        "label": "Pisa"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "gk2ffUgP",
-        "label": ""
+        "label": "Pisa"
       }
     ],
     "instrument": [],

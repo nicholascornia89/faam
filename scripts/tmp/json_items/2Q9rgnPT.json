@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer and singer (1858–1935)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Isidore de Lara"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "87112731",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "87112731"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30073671",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30073671"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:De_Lara,_Isidore",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:De_Lara,_Isidore"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1935-09-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,7 +138,7 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Russian musician and composer (1786-1854)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Iwan Müller"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "50053502",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "50053502"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/178834",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/178834"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Müller,_Iwan",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Müller,_Iwan"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1854-02-04"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "UjA9gjzf",
-        "label": ""
+        "label": "Tallinn"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "8r3gNCpr",
-        "label": ""
+        "label": "Bückeburg"
       }
     ],
     "instrument": [

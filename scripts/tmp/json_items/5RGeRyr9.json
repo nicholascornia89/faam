@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Wasserburg am Inn"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Wasserburg am Inn"
+      },
+      {
+        "type": "string",
+        "value": "Wasserburg/Inn"
+      },
+      {
+        "type": "string",
+        "value": "Wasserburg a.Inn"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2813755",
+        "base_url": "https://www.geonames.org/",
+        "label": "2813755"
+      },
+      {
+        "type": "externalid",
+        "value": "6559206",
+        "base_url": "https://www.geonames.org/",
+        "label": "6559206"
       }
     ]
   },

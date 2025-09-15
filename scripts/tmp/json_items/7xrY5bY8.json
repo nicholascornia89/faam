@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "musical instrument maker and music publisher"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "268462293",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "268462293"
       }
     ],
     "RISM ID": [],
@@ -71,12 +68,13 @@
       {
         "type": "externalid",
         "value": "Goulding_&_Co.",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Goulding_&_Co."
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

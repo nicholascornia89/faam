@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Saint Peter"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "first pope of the Catholic Church, patriarch of Antioch, and apostle of Jesus Christ"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,84 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "13581141",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "13581141"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "0001-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "0065-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "f8aguTyK",
+        "label": "presbyter"
+      },
+      {
+        "type": "item",
+        "value": "Zrk3wwvA",
+        "label": "fisher"
+      },
+      {
+        "type": "item",
+        "value": "VdPURPxD",
+        "label": "Catholic bishop"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "E76CjKAd",
+        "label": "Bethsaida"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "US4HddAS",
+        "label": "Roma"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "3NRGbrQy",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +128,12 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Pope-peter_pprubens.jpg",
+        "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      },
+      {
+        "type": "image",
+        "value": "Saint_Peter-Sinai_(6th_Century).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

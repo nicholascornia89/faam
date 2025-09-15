@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer and violinist (1678-1741)"
       }
     ],
@@ -79,21 +75,24 @@
       {
         "type": "externalid",
         "value": "42027007",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42027007"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30003267",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30003267"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Vivaldi,_Antonio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Vivaldi,_Antonio"
       }
     ],
     "date of birth": [
@@ -108,7 +107,7 @@
         "value": "1741-07-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -182,14 +181,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

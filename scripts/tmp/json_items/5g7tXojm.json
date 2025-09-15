@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Carl Philipp Emanuel Bach"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer (1714–1788)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,162 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "204566",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "204566"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/2561",
+        "base_url": "https://rism.online/",
+        "label": "people/2561"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Bach,_Carl_Philipp_Emanuel",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bach,_Carl_Philipp_Emanuel"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1714-03-08"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1788-12-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "LcwfzPiG",
+        "label": "harpsichordist"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "Wm5MWZbA",
+        "label": "teacher"
+      },
+      {
+        "type": "item",
+        "value": "AD3QZxBK",
+        "label": "musicographer"
+      },
+      {
+        "type": "item",
+        "value": "cf2PYjhA",
+        "label": "independent publisher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "b8F9LEaG",
+        "label": "Weimar"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "4wGJZSfp",
+        "label": "Hamburg"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "QhRQ5LW9",
+        "label": "Johann Sebastian Bach"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "cc2zjtBZ",
+        "label": "Leipzig University"
+      },
+      {
+        "type": "item",
+        "value": "a4LRzWMY",
+        "label": "Alma Mater Viadrina"
+      },
+      {
+        "type": "item",
+        "value": "63DtDHAt",
+        "label": "Thomasschule zu Leipzig"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +205,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Carl_Philipp_Emanuel_Bach.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

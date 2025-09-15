@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Lausanne"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the canton of Vaud, Switzerland"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Lausanne"
+      },
+      {
+        "type": "string",
+        "value": "Lausanne VD"
+      },
+      {
+        "type": "string",
+        "value": "Olympic Capital"
+      },
+      {
+        "type": "string",
+        "value": "City of Lausanne"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "7286283",
+        "base_url": "https://www.geonames.org/",
+        "label": "7286283"
       }
     ]
   },

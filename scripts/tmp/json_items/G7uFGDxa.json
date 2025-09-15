@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "John Blow"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "76580506",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76580506"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004114",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004114"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Blow,_John",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Blow,_John"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1708-10-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,7 +141,7 @@
       {
         "type": "item",
         "value": "CuFa9Dvw",
-        "label": ""
+        "label": "England"
       },
       {
         "type": "item",
@@ -158,14 +153,14 @@
       {
         "type": "item",
         "value": "LaQkB8UE",
-        "label": ""
+        "label": "Nottinghamshire"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "oTv4LRbp",
-        "label": ""
+        "label": "City of Westminster"
       }
     ],
     "instrument": [

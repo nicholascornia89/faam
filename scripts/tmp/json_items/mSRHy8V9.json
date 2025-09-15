@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Josef Suk"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Czech composer and violinist (1874-1935)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,146 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "29720022",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "29720022"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/138202",
+        "base_url": "https://rism.online/",
+        "label": "people/138202"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Suk,_Josef",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Suk,_Josef"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1874-01-04"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1935-05-29"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "kCmhpUgt",
+        "label": "Czechoslovakia"
+      },
+      {
+        "type": "item",
+        "value": "hukgqSRn",
+        "label": "Austria–Hungary"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "KwZrezRC",
+        "label": "Křečovice"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "3ywoYy7i",
+        "label": "Benešov"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "QxJM2hye",
+        "label": "Antonín Dvořák"
+      },
+      {
+        "type": "item",
+        "value": "YdZGAbDA",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "RmHfVZFW",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "6TP5v4Co",
+        "label": "Prague Conservatory"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "6TP5v4Co",
+        "label": "Prague Conservatory"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Josef_Suk(1).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

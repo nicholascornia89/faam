@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian singer and music educator"
       }
     ],
@@ -63,19 +59,22 @@
       {
         "type": "externalid",
         "value": "122243044",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "122243044"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30019736",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30019736"
       },
       {
         "type": "externalid",
         "value": "people/30065471",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30065471"
       }
     ],
     "IMSLP ID": [],
@@ -91,7 +90,7 @@
         "value": "1858-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

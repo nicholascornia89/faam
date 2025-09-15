@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Trier"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Rhineland-Palatinate, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Trier"
+      },
+      {
+        "type": "string",
+        "value": "Augusta Treverorum"
+      },
+      {
+        "type": "string",
+        "value": "Triers"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3247911",
+        "base_url": "https://www.geonames.org/",
+        "label": "3247911"
+      },
+      {
+        "type": "externalid",
+        "value": "2821164",
+        "base_url": "https://www.geonames.org/",
+        "label": "2821164"
       }
     ]
   },

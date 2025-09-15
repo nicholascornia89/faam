@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musician"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Carl Gottlieb Reissiger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "76501272",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76501272"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/43584",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/43584"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Reissiger,_Carl_Gottlieb",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Reissiger,_Carl_Gottlieb"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1859-11-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,7 +141,7 @@
       {
         "type": "item",
         "value": "fSMHiyHU",
-        "label": ""
+        "label": "Bad Belzig"
       }
     ],
     "place of death": [

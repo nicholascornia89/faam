@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Adolf Rebner"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian musician (1876–1967)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,108 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "305306917",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "305306917"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1876-11-21"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1967-06-19"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "kyFWDzyM",
+        "label": "Austria"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LbQkoCtF",
+        "label": "Baden-Baden"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "WsKgSBQG",
+        "label": "viola"
+      },
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "4RGMUZvJ",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "GsxuDHT7",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "hn6sVeFM",
+        "label": "University of Music and Performing Arts Vienna"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +151,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Adolf_Rebner.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

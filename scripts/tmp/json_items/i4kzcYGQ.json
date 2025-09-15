@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Żelazowa Wola"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Żelazowa Wola"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "753401",
+        "base_url": "https://www.geonames.org/",
+        "label": "753401"
       }
     ]
   },

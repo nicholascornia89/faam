@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Elberfeld"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "former independent city in Germany, now part of Wuppertal"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Elberfeld"
+      },
+      {
+        "type": "string",
+        "value": "Elberfeld, Germany"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2931276",
+        "base_url": "https://www.geonames.org/",
+        "label": "2931276"
       }
     ]
   },

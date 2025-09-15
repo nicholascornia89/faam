@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Renaissance and early Baroque composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Carolus Andreae"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "57723674",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "57723674"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1627-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

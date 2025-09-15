@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Aachen"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in North Rhine-Westphalia, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,38 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Aachen"
+      },
+      {
+        "type": "string",
+        "value": "Oche"
+      },
+      {
+        "type": "string",
+        "value": "Aix-la-Chapelle"
+      },
+      {
+        "type": "string",
+        "value": "Aix la Chapelle"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3247449",
+        "base_url": "https://www.geonames.org/",
+        "label": "3247449"
+      },
+      {
+        "type": "externalid",
+        "value": "6553047",
+        "base_url": "https://www.geonames.org/",
+        "label": "6553047"
       }
     ]
   },

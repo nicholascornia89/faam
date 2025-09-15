@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pieter Benoit"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Belgian priest and teacher (1820-1892)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -58,20 +45,123 @@
     "VIAF ID": [],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1820-11-02"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1892-09-05"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "chjXaQXC",
+        "label": "school teacher"
+      },
+      {
+        "type": "item",
+        "value": "ZnHbmhfu",
+        "label": "Catholic priest"
+      },
+      {
+        "type": "item",
+        "value": "RvhD6Aot",
+        "label": "curate"
+      },
+      {
+        "type": "item",
+        "value": "mf7Xa4ej",
+        "label": "parson"
+      },
+      {
+        "type": "item",
+        "value": "5TRtWmAC",
+        "label": "vicar general"
+      },
+      {
+        "type": "item",
+        "value": "kHp8wFpn",
+        "label": "director"
+      },
+      {
+        "type": "item",
+        "value": "DsBnSY9x",
+        "label": "canon"
+      },
+      {
+        "type": "item",
+        "value": "LTKmPdYZ",
+        "label": "secretary"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "AGDH7jfF",
+        "label": "Kuurne"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Rj7Nton2",
+        "label": "Salford"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "educated at": [
+      {
+        "type": "item",
+        "value": "XVkxnYpp",
+        "label": "Klein Seminarie Roeselare"
+      },
+      {
+        "type": "item",
+        "value": "idrnRoaA",
+        "label": "Bruges seminary"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "izRvWynq",
+        "label": "Episcopal College Our-Lady Ter Duinen"
+      },
+      {
+        "type": "item",
+        "value": "KAmWZkT3",
+        "label": "William Turner"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

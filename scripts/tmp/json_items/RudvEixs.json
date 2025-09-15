@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German violinist (1845–1908)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "49418571",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "49418571"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/139015",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/139015"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Wilhelmj,_August",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Wilhelmj,_August"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1908-01-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -157,7 +156,7 @@
       {
         "type": "item",
         "value": "NavGSVtT",
-        "label": ""
+        "label": "Usingen"
       }
     ],
     "place of death": [

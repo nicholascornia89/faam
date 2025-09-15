@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Lille"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city and commune in Nord, Hauts-de-France, Northern France"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Lille"
+      },
+      {
+        "type": "string",
+        "value": "Rijsel"
+      },
+      {
+        "type": "string",
+        "value": "Lile"
+      },
+      {
+        "type": "string",
+        "value": "Rysel"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2998324",
+        "base_url": "https://www.geonames.org/",
+        "label": "2998324"
       }
     ]
   },

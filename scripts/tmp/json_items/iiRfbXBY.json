@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer and priest"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "121906007",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "121906007"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000743",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000743"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Corsi_da_Celano,_Giuseppe",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Corsi_da_Celano,_Giuseppe"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1691-03-10"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,19 +142,19 @@
       {
         "type": "item",
         "value": "Bg3GsiDZ",
-        "label": ""
+        "label": "Celano"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "ecEQcVkf",
-        "label": ""
+        "label": "Ancona"
       },
       {
         "type": "item",
         "value": "G2X8HVJj",
-        "label": ""
+        "label": "Modena"
       }
     ],
     "instrument": [],

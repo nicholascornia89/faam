@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Johann Konrad Schlick"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German cellist"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,20 +42,93 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "37184081",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "37184081"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30002881",
+        "base_url": "https://rism.online/",
+        "label": "people/30002881"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1748-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1759-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1818-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1825-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "dg4VBYfA",
+        "label": "cellist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "BPtk3Ff7",
+        "label": "Mansbach"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "ScUfF43A",
+        "label": "Gotha"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "4oyT6BBG",
+        "label": "cello"
+      }
+    ],
     "influenced by": [],
     "educated at": [],
     "employer": []

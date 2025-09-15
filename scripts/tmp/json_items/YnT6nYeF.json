@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer and flutist."
       }
     ],
@@ -71,21 +67,24 @@
       {
         "type": "externalid",
         "value": "42048084",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42048084"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/175365",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/175365"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Popp,_Wilhelm",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Popp,_Wilhelm"
       }
     ],
     "date of birth": [
@@ -100,7 +99,7 @@
         "value": "1903-06-25"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,14 +131,14 @@
       {
         "type": "item",
         "value": "RQdhXRpf",
-        "label": ""
+        "label": "Duchy of Saxe-Coburg and Gotha"
       }
     ],
     "place of birth": [
       {
         "type": "item",
         "value": "FtPY5QXR",
-        "label": ""
+        "label": "Coburg"
       }
     ],
     "place of death": [

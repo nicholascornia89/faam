@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1796–1867)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Pacini"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "32261416",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32261416"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/1525",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/1525"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Pacini,_Giovanni",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pacini,_Giovanni"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1867-12-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "jAq4wzYr",
-        "label": ""
+        "label": "Catania"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "4bjm7V5L",
-        "label": ""
+        "label": "Pescia"
       }
     ],
     "instrument": [],

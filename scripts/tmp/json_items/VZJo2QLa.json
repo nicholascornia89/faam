@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Gregor Aichinger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "34721102",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34721102"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004854",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004854"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Aichinger,_Gregor",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Aichinger,_Gregor"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1628-01-21"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -142,14 +137,14 @@
       {
         "type": "item",
         "value": "QzrXGqBY",
-        "label": ""
+        "label": "Regensburg"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "JRowCwu6",
-        "label": ""
+        "label": "Augsburg"
       }
     ],
     "instrument": [

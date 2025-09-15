@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Charles Steggall"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "British hymn writer and composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,94 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "51886903",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "51886903"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30023365",
+        "base_url": "https://rism.online/",
+        "label": "people/30023365"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Steggall,_Charles",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Steggall,_Charles"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1826-06-03"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1905-06-07"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "BEhTQbfh",
+        "label": "hymnwriter"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
     "place of birth": [],
     "place of death": [],
-    "instrument": [],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "kTTbLR4W",
+        "label": "Trinity College"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +137,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Charles_Steggall.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

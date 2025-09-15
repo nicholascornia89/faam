@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Spanish composer"
       }
     ],
@@ -87,21 +83,24 @@
       {
         "type": "externalid",
         "value": "42025164",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42025164"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30010920",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30010920"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Falla,_Manuel_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Falla,_Manuel_de"
       }
     ],
     "date of birth": [
@@ -116,7 +115,7 @@
         "value": "1946-11-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -161,7 +160,7 @@
       {
         "type": "item",
         "value": "UTnDAxY6",
-        "label": ""
+        "label": "Alta Gracia"
       }
     ],
     "instrument": [
@@ -202,7 +201,7 @@
       {
         "type": "item",
         "value": "UeYzEz2A",
-        "label": ""
+        "label": "Madrid Royal Conservatory"
       }
     ],
     "employer": []

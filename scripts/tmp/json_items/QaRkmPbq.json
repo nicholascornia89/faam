@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "2nd arrondissement of Lyon"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "arrondissement of Lyon, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "2nd arrondissement of Lyon"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6543968",
+        "base_url": "https://www.geonames.org/",
+        "label": "6543968"
       }
     ]
   },

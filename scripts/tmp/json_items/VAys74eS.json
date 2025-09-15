@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian composer and pianist (1778–1858)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "59270445",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59270445"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/96329",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/96329"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Neukomm,_Sigismund",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Neukomm,_Sigismund"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1858-04-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -140,14 +139,14 @@
       {
         "type": "item",
         "value": "h3Vsg2MJ",
-        "label": ""
+        "label": "Salzburg"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [
@@ -173,7 +172,7 @@
       {
         "type": "item",
         "value": "BWpmBBNC",
-        "label": ""
+        "label": "University of Salzburg"
       }
     ],
     "employer": []

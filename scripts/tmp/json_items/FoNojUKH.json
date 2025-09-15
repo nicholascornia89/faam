@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Virgilio Mazzocchi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian Baroque composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,93 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "22336755",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22336755"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30002149",
+        "base_url": "https://rism.online/",
+        "label": "people/30002149"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Mazzocchi,_Virgilio",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mazzocchi,_Virgilio"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1597-07-22"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1646-10-03"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "iTUB2E3m",
+        "label": "choir director"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "mLrkafme",
+        "label": "Civita Castellana"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "mLrkafme",
+        "label": "Civita Castellana"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "AkMdFi3Y",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

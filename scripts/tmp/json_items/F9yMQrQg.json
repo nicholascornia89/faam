@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Brussels"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "largest city of Belgium"
       }
     ],
     "object_type": [
@@ -43,16 +39,27 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
-  },
-  "statements": {
-    "GeoNames ID": [
+    "aliases": [
       {
-        "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "type": "string",
+        "value": "Brussels"
+      },
+      {
+        "type": "string",
+        "value": "BXL"
+      },
+      {
+        "type": "string",
+        "value": "Comic Strip Capital"
+      },
+      {
+        "type": "string",
+        "value": "Capital of Europe"
       }
     ]
+  },
+  "statements": {
+    "GeoNames ID": []
   },
   "cross-references": {},
   "resources": {}

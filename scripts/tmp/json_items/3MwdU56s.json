@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Prelude and Fugue in C major, BWV 846"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Piece by Johann Sebastian Bach"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,8 +42,22 @@
     ]
   },
   "statements": {
-    "IMSLP ID": [],
-    "VIAF ID": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Prelude_and_Fugue_in_C_major,_BWV_846_(Bach,_Johann_Sebastian)",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Prelude_and_Fugue_in_C_major,_BWV_846_(Bach,_Johann_Sebastian)"
+      }
+    ],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "200776687",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "200776687"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],

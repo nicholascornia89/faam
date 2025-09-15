@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Philipp Schmutzer"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,88 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "25363671",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "25363671"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/82336",
+        "base_url": "https://rism.online/",
+        "label": "people/82336"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1821-12-31"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1898-11-17"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "FPDTfb7a",
+        "label": "Austrian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "e4wHsZVv",
+        "label": "Chotovice"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "XhPEF8fx",
+        "label": "Feldkirch"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
-    "educated at": [],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "6TP5v4Co",
+        "label": "Prague Conservatory"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},

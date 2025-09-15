@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Petergof"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Russia"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Petergof"
+      },
+      {
+        "type": "string",
+        "value": "Petrodvorets"
+      },
+      {
+        "type": "string",
+        "value": "Peterhof"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "510291",
+        "base_url": "https://www.geonames.org/",
+        "label": "510291"
+      },
+      {
+        "type": "externalid",
+        "value": "510225",
+        "base_url": "https://www.geonames.org/",
+        "label": "510225"
       }
     ]
   },

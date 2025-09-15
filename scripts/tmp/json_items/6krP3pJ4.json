@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Brescia"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian city in Lombardy"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Brescia"
+      },
+      {
+        "type": "string",
+        "value": "Lioness of Italy"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6542113",
+        "base_url": "https://www.geonames.org/",
+        "label": "6542113"
       }
     ]
   },

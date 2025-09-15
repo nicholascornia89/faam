@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "King of France and Navarre (r. 1610–1643)"
       }
     ],
@@ -91,21 +87,24 @@
       {
         "type": "externalid",
         "value": "64008583",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64008583"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30024475",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30024475"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:King_of_France,_Louis_XIII",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:King_of_France,_Louis_XIII"
       }
     ],
     "date of birth": [
@@ -120,7 +119,7 @@
         "value": "1643-05-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -171,14 +170,14 @@
       {
         "type": "item",
         "value": "RgKJJk5H",
-        "label": ""
+        "label": "Fontainebleau"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Be9SLZJc",
-        "label": ""
+        "label": "Saint-Germain-en-Laye"
       }
     ],
     "instrument": [],

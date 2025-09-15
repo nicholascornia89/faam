@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "opera by Jules Massenet"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Manon"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "Manon (Massenet, Jules)",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Manon (Massenet, Jules)"
       }
     ],
     "VIAF ID": [
       {
         "type": "externalid",
         "value": "185493912",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "185493912"
       }
     ],
     "CPDL ID": [],

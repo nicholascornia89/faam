@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musician (1856–1918)"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "39800175",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39800175"
       }
     ],
     "RISM ID": [],
@@ -71,7 +68,8 @@
       {
         "type": "externalid",
         "value": "Category:Scharwenka-Stresow,_Marianne",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Scharwenka-Stresow,_Marianne"
       }
     ],
     "date of birth": [
@@ -86,7 +84,7 @@
         "value": "1918-10-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

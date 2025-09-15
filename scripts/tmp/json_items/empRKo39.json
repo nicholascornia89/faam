@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Émile Tavan"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "163172516",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "163172516"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30071124",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30071124"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Tavan,_Émile",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Tavan,_Émile"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1929-12-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,19 +121,19 @@
       {
         "type": "item",
         "value": "5ABpvHR3",
-        "label": ""
+        "label": "Aix-en-Provence"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MTcJ5vph",
-        "label": ""
+        "label": "Gassicourt"
       },
       {
         "type": "item",
         "value": "BdnMXXDW",
-        "label": ""
+        "label": "Mantes-la-Jolie"
       }
     ],
     "instrument": [],

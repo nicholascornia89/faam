@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Franz Alexander Pössinger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "7807145",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7807145"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30002547",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30002547"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Pössinger,_Franz_Alexander",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pössinger,_Franz_Alexander"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1827-08-19"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +136,14 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

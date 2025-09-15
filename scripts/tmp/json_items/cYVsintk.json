@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German theologian and musician"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "18337287",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "18337287"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/265844",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/265844"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Bäuerle,_Hermann",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bäuerle,_Hermann"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1936-05-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -152,7 +151,7 @@
       {
         "type": "item",
         "value": "dMJL2EVT",
-        "label": ""
+        "label": "Ebersberg"
       }
     ],
     "place of death": [],

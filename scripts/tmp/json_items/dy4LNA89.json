@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "penman, poet, lyricist (1792-1870)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Émile Barateau"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "87051988",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "87051988"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30026028",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30026028"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Barateau,_Émile",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Barateau,_Émile"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1870-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -121,7 +116,7 @@
       {
         "type": "item",
         "value": "hNwBKzRd",
-        "label": ""
+        "label": "lyricist"
       }
     ],
     "sex or gender": [
@@ -142,14 +137,14 @@
       {
         "type": "item",
         "value": "3vFtsNzx",
-        "label": ""
+        "label": "Bordeaux"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

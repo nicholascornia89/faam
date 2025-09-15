@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer"
       }
     ],
@@ -75,21 +71,24 @@
       {
         "type": "externalid",
         "value": "19866122",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19866122"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/477616",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/477616"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Martini,_Jean_Paul_Egide",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Martini,_Jean_Paul_Egide"
       }
     ],
     "date of birth": [
@@ -104,7 +103,7 @@
         "value": "1816-02-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -153,14 +152,14 @@
       {
         "type": "item",
         "value": "HHev6dyU",
-        "label": ""
+        "label": "Freystadt"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

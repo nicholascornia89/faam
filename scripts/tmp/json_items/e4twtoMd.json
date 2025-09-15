@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian historian, linguist, publisher and archivist (1841-1922)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "66600101",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66600101"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1922-07-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -163,7 +160,7 @@
       {
         "type": "item",
         "value": "9qYZwgcH",
-        "label": ""
+        "label": "State Archives in Bruges"
       }
     ]
   },

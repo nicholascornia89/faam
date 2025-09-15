@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1823-1889)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Karel Miry"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "60229908",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "60229908"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30019941",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30019941"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Miry,_Karel",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Miry,_Karel"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1889-10-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -142,14 +137,14 @@
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "instrument": [

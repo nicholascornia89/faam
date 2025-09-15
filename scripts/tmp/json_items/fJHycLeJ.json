@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Turin"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city and commune in Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Turin"
+      },
+      {
+        "type": "string",
+        "value": "Torino"
+      },
+      {
+        "type": "string",
+        "value": "Turin, Italy"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3165525",
+        "base_url": "https://www.geonames.org/",
+        "label": "3165525"
       }
     ]
   },

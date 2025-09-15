@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Charles Villiers Stanford"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Irish composer, music teacher, and conductor (1852–1924)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,186 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "32184797",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "32184797"
+      },
+      {
+        "type": "externalid",
+        "value": "6957158491042611920001",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "6957158491042611920001"
+      },
+      {
+        "type": "externalid",
+        "value": "7686149296292680670005",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7686149296292680670005"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/40215954",
+        "base_url": "https://rism.online/",
+        "label": "people/40215954"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Stanford,_Charles_Villiers",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Stanford,_Charles_Villiers"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1852-09-30"
+      },
+      {
+        "type": "date",
+        "value": "1852-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1924-03-29"
+      },
+      {
+        "type": "date",
+        "value": "1924-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RU9hU5Pa",
+        "label": "classical composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "CcZxt72Q",
+        "label": "Ireland"
+      },
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      },
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "TUzS2eS4",
+        "label": "Dublin"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "bsTArmEN",
+        "label": "London"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "ZNicm3vH",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "AXdy8YbX",
+        "label": "Ernst Pauer"
+      },
+      {
+        "type": "item",
+        "value": "evAUyung",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "kTTbLR4W",
+        "label": "Trinity College"
+      },
+      {
+        "type": "item",
+        "value": "NdnVZAwo",
+        "label": "Queens' College"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "aCkQF5gd",
+        "label": "University of Cambridge"
+      },
+      {
+        "type": "item",
+        "value": "Gokp7gYh",
+        "label": "Royal College of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Charles_Villiers_Stanford_c1894bw.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

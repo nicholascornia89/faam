@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "La Flèche"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Sarthe, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "La Flèche"
+      },
+      {
+        "type": "string",
+        "value": "Montrouge"
+      },
+      {
+        "type": "string",
+        "value": "Sainte-Colombe (réunie à La Flèche)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3009443",
+        "base_url": "https://www.geonames.org/",
+        "label": "3009443"
       }
     ]
   },

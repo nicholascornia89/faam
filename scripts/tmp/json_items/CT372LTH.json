@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1891-1984)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Marinus de Jong"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "71816766",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "71816766"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1984-06-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -140,14 +133,14 @@
       {
         "type": "item",
         "value": "3ycbfiAk",
-        "label": ""
+        "label": "Oosterhout"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "jGe3vcFB",
-        "label": ""
+        "label": "Antwerp"
       }
     ],
     "instrument": [],

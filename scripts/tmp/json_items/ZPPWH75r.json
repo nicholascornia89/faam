@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1873-1949)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "74946517",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74946517"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/40201676",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/40201676"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Rabaud,_Henri",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Rabaud,_Henri"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1949-09-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,19 +130,19 @@
       {
         "type": "item",
         "value": "8K6XfXuE",
-        "label": ""
+        "label": "8th arrondissement of Paris"
       },
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],
@@ -185,12 +184,12 @@
       {
         "type": "item",
         "value": "G5FSnBWi",
-        "label": ""
+        "label": "Boston Symphony Orchestra"
       },
       {
         "type": "item",
         "value": "SHH6kQFm",
-        "label": ""
+        "label": "Pasdeloup Orchestra"
       }
     ]
   },

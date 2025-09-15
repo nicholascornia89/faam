@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Potsdam"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the German state of Brandenburg"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Potsdam"
+      },
+      {
+        "type": "string",
+        "value": "Imperial City of Potsdam"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2852458",
+        "base_url": "https://www.geonames.org/",
+        "label": "2852458"
+      },
+      {
+        "type": "externalid",
+        "value": "7602560",
+        "base_url": "https://www.geonames.org/",
+        "label": "7602560"
       }
     ]
   },

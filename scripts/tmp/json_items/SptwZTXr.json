@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Frankfurt"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Hesse, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,64 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Frankfurt"
+      },
+      {
+        "type": "string",
+        "value": "Frankfurt/Main"
+      },
+      {
+        "type": "string",
+        "value": "Frankfurt (Main)"
+      },
+      {
+        "type": "string",
+        "value": "Kreisfreie Stadt Frankfurt am Main"
+      },
+      {
+        "type": "string",
+        "value": "Frankfort-on-the-Main"
+      },
+      {
+        "type": "string",
+        "value": "Frankfurt, Germany"
+      },
+      {
+        "type": "string",
+        "value": "Frankfurt am Main, Germany"
+      },
+      {
+        "type": "string",
+        "value": "Frankfurt am Main"
+      },
+      {
+        "type": "string",
+        "value": "Francfort"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2925533",
+        "base_url": "https://www.geonames.org/",
+        "label": "2925533"
+      },
+      {
+        "type": "externalid",
+        "value": "6553153",
+        "base_url": "https://www.geonames.org/",
+        "label": "6553153"
+      },
+      {
+        "type": "externalid",
+        "value": "3220968",
+        "base_url": "https://www.geonames.org/",
+        "label": "3220968"
       }
     ]
   },

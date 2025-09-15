@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Mechelen"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in the province of Antwerp, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Mechelen"
+      },
+      {
+        "type": "string",
+        "value": "Mechlin"
+      },
+      {
+        "type": "string",
+        "value": "Malines"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2791538",
+        "base_url": "https://www.geonames.org/",
+        "label": "2791538"
       }
     ]
   },

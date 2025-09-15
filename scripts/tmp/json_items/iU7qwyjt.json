@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "King of France and Navarre; first French monarch of the House of Bourbon (1553-1610)"
       }
     ],
@@ -83,14 +79,16 @@
       {
         "type": "externalid",
         "value": "59094245",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59094245"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/318306",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/318306"
       }
     ],
     "IMSLP ID": [],
@@ -106,7 +104,7 @@
         "value": "1610-05-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -157,14 +155,14 @@
       {
         "type": "item",
         "value": "JSBHjxXa",
-        "label": ""
+        "label": "Château de Pau"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

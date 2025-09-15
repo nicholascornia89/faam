@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CyHtJEjR", "label": "Henri Herz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CyHtJEjR.md\u0027\u003eHenri Herz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian musician (1803\u20131888)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Herz,_Henri,_par_Mayer_et_Pierson,_BNF_Gallica.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oJGctqdB", "label": "Anton Reicha", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oJGctqdB.md\u0027\u003eAnton Reicha\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech-born French composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NA5EnjbE", "label": "Conservatoire de Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NA5EnjbE.md\u0027\u003eConservatoire de Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic and dance school in Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "RHfvaKqY", "label": "pianist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RHfvaKqY.md\u0027\u003epianist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JeE2Dvbq", "label": "Louis-Barth\u00e9l\u00e9my Pradher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JeE2Dvbq.md\u0027\u003eLouis-Barth\u00e9l\u00e9my Pradher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, pianist and music educator\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis-Barth\u00e9l\u00e9my_Pradher_par_Godefroy_Engelmann.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CsojejG2", "label": "Xavier Boisselot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CsojejG2.md\u0027\u003eXavier Boisselot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eComposer and piano maker (1811-1893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "NTVdRo4W", "label": "Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NTVdRo4W.md\u0027\u003eParis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city and largest city of France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GoXpNrsh", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GoXpNrsh.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "5QzfLDJP", "label": "Neuilly-sur-Seine", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5QzfLDJP.md\u0027\u003eNeuilly-sur-Seine\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommune in Hauts-de-Seine, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "gem3mqZh", "label": "piano maker", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gem3mqZh.md\u0027\u003epiano maker\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprofession\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2akPbGN8", "label": "Jan Hendrik Paling", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2akPbGN8.md\u0027\u003eJan Hendrik Paling\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch musician and piano builder (1796-1879)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9T5X8LJX", "label": "Gustave Faes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9T5X8LJX.md\u0027\u003eGustave Faes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian piano maker and music publisher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3Xmxx77S", "label": "Montpellier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3Xmxx77S.md\u0027\u003eMontpellier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in H\u00e9rault, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZwquHrbe", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZwquHrbe.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2fXfbLCV", "label": "music publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2fXfbLCV.md\u0027\u003emusic publishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that licenses compositions, collects royalties and distributes them to the composers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GBgJfRbK", "label": "publishing company", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GBgJfRbK.md\u0027\u003epublishing company\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecompany that prints and distributes pressed goods or electronic media\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HwcYgL5C", "label": "salon music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HwcYgL5C.md\u0027\u003esalon music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epopular music genre in Europe during the 19th century\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MaWnCnVw", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MaWnCnVw.md\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "9joWzZuU", "label": "opera composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9joWzZuU.md\u0027\u003eopera composer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer of operas\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "VAnkqco6", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VAnkqco6.md\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "ZvjsCjDf", "label": "Kingdom of the Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZvjsCjDf.md\u0027\u003eKingdom of the Netherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etranscontinental sovereign state and constitutional monarchy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "NiVZSUEc", "label": "Batavian Republic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NiVZSUEc.md\u0027\u003eBatavian Republic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003erepublic of the Netherlands in Western Europe between 1795\u20131806\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "6ZFENHKx", "label": "Kingdom of the Netherlands", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6ZFENHKx.md\u0027\u003eKingdom of the Netherlands\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etranscontinental sovereign state and constitutional monarchy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "hko29Ada", "label": "Woerden", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hko29Ada.md\u0027\u003eWoerden\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "kx6vRxnY", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kx6vRxnY.md\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in South Holland, the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RXg4snEH", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RXg4snEH.md\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aU2NZmii", "label": "Maatschappij tot Bevordering der Toonkunst", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aU2NZmii.md\u0027\u003eMaatschappij tot Bevordering der Toonkunst\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Jr6p4UHj", "label": "Rotterdam", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Jr6p4UHj.md\u0027\u003eRotterdam\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the Netherlands\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Eqo9Fq2n", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Eqo9Fq2n.md\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QbfXawnE", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QbfXawnE.md\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "n45TWq7D", "label": "Holy Roman Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./n45TWq7D.md\u0027\u003eHoly Roman Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emulti-ethnic complex of territories in Western and Central Europe (800/962\u20131806)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Ba3nT5xs", "label": "Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ba3nT5xs.md\u0027\u003eAntwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in Antwerp municipality, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "KZLqHwSf", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KZLqHwSf.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "fkHJwpoD", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fkHJwpoD.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4TFAyrfj", "label": "Daniel H\u00fcnten", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4TFAyrfj.md\u0027\u003eDaniel H\u00fcnten\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1760-1823)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "LD8HW7Tp", "label": "Vienna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LD8HW7Tp.md\u0027\u003eVienna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of and state in Austria\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fSR8RnuW", "label": "Le pr\u00e9 aux clercs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fSR8RnuW.md\u0027\u003eLe pr\u00e9 aux clercs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Ferdinand H\u00e9rold\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "", "to": "", "width": 1}, {"from": "", "to": "CyHtJEjR", "width": 1}, {"from": "", "to": "oJGctqdB", "width": 1}, {"from": "", "to": "NA5EnjbE", "width": 1}, {"from": "RHfvaKqY", "to": "JeE2Dvbq", "width": 1}, {"from": "RHfvaKqY", "to": "CsojejG2", "width": 10}, {"from": "RHfvaKqY", "to": "CyHtJEjR", "width": 1}, {"from": "NTVdRo4W", "to": "JeE2Dvbq", "width": 1}, {"from": "NTVdRo4W", "to": "CsojejG2", "width": 10}, {"from": "NTVdRo4W", "to": "oJGctqdB", "width": 1}, {"from": "NTVdRo4W", "to": "CyHtJEjR", "width": 1}, {"from": "GoXpNrsh", "to": "JeE2Dvbq", "width": 1}, {"from": "GoXpNrsh", "to": "CsojejG2", "width": 10}, {"from": "GoXpNrsh", "to": "CyHtJEjR", "width": 1}, {"from": "5QzfLDJP", "to": "CsojejG2", "width": 10}, {"from": "gem3mqZh", "to": "2akPbGN8", "width": 1}, {"from": "gem3mqZh", "to": "CsojejG2", "width": 10}, {"from": "gem3mqZh", "to": "CyHtJEjR", "width": 10}, {"from": "gem3mqZh", "to": "9T5X8LJX", "width": 1}, {"from": "3Xmxx77S", "to": "CsojejG2", "width": 10}, {"from": "2akPbGN8", "to": "ZwquHrbe", "width": 1}, {"from": "2akPbGN8", "to": "2fXfbLCV", "width": 1}, {"from": "2akPbGN8", "to": "GBgJfRbK", "width": 1}, {"from": "2akPbGN8", "to": "HwcYgL5C", "width": 1}, {"from": "2akPbGN8", "to": "MaWnCnVw", "width": 1}, {"from": "2akPbGN8", "to": "9joWzZuU", "width": 1}, {"from": "2akPbGN8", "to": "VAnkqco6", "width": 1}, {"from": "2akPbGN8", "to": "ZvjsCjDf", "width": 1}, {"from": "2akPbGN8", "to": "NiVZSUEc", "width": 1}, {"from": "2akPbGN8", "to": "6ZFENHKx", "width": 1}, {"from": "2akPbGN8", "to": "hko29Ada", "width": 1}, {"from": "2akPbGN8", "to": "kx6vRxnY", "width": 1}, {"from": "2akPbGN8", "to": "RXg4snEH", "width": 1}, {"from": "2akPbGN8", "to": "aU2NZmii", "width": 1}, {"from": "2akPbGN8", "to": "Jr6p4UHj", "width": 1}, {"from": "Eqo9Fq2n", "to": "NA5EnjbE", "width": 1}, {"from": "Eqo9Fq2n", "to": "JeE2Dvbq", "width": 1}, {"from": "Eqo9Fq2n", "to": "CsojejG2", "width": 10}, {"from": "Eqo9Fq2n", "to": "oJGctqdB", "width": 1}, {"from": "Eqo9Fq2n", "to": "CyHtJEjR", "width": 1}, {"from": "QbfXawnE", "to": "9T5X8LJX", "width": 1}, {"from": "n45TWq7D", "to": "CyHtJEjR", "width": 1}, {"from": "Ba3nT5xs", "to": "9T5X8LJX", "width": 1}, {"from": "oJGctqdB", "to": "ZwquHrbe", "width": 1}, {"from": "oJGctqdB", "to": "KZLqHwSf", "width": 1}, {"from": "oJGctqdB", "to": "VAnkqco6", "width": 1}, {"from": "oJGctqdB", "to": "NA5EnjbE", "width": 1}, {"from": "oJGctqdB", "to": "CyHtJEjR", "width": 1}, {"from": "oJGctqdB", "to": "fkHJwpoD", "width": 1}, {"from": "VAnkqco6", "to": "JeE2Dvbq", "width": 1}, {"from": "VAnkqco6", "to": "CsojejG2", "width": 10}, {"from": "VAnkqco6", "to": "CyHtJEjR", "width": 1}, {"from": "VAnkqco6", "to": "4TFAyrfj", "width": 1}, {"from": "LD8HW7Tp", "to": "CyHtJEjR", "width": 1}, {"from": "9T5X8LJX", "to": "2fXfbLCV", "width": 1}, {"from": "9T5X8LJX", "to": "ZwquHrbe", "width": 1}, {"from": "9T5X8LJX", "to": "GBgJfRbK", "width": 1}, {"from": "9T5X8LJX", "to": "9joWzZuU", "width": 1}, {"from": "KZLqHwSf", "to": "JeE2Dvbq", "width": 1}, {"from": "KZLqHwSf", "to": "CsojejG2", "width": 10}, {"from": "KZLqHwSf", "to": "CyHtJEjR", "width": 1}, {"from": "KZLqHwSf", "to": "4TFAyrfj", "width": 1}, {"from": "JeE2Dvbq", "to": "ZwquHrbe", "width": 1}, {"from": "JeE2Dvbq", "to": "NA5EnjbE", "width": 1}, {"from": "JeE2Dvbq", "to": "CyHtJEjR", "width": 1}, {"from": "fkHJwpoD", "to": "CyHtJEjR", "width": 1}, {"from": "RXg4snEH", "to": "4TFAyrfj", "width": 1}, {"from": "CsojejG2", "to": "ZwquHrbe", "width": 10}, {"from": "CsojejG2", "to": "NA5EnjbE", "width": 10}, {"from": "CyHtJEjR", "to": "fSR8RnuW", "width": 10}, {"from": "CyHtJEjR", "to": "ZwquHrbe", "width": 1}, {"from": "CyHtJEjR", "to": "4TFAyrfj", "width": 1}, {"from": "CyHtJEjR", "to": "NA5EnjbE", "width": 1}, {"from": "ZwquHrbe", "to": "4TFAyrfj", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

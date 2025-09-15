@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bergen Municipality"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in Vestland, Norway"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bergen Municipality"
+      },
+      {
+        "type": "string",
+        "value": "Bergen kommune"
+      },
+      {
+        "type": "string",
+        "value": "Bergen"
+      },
+      {
+        "type": "string",
+        "value": "City of Bergen"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3161733",
+        "base_url": "https://www.geonames.org/",
+        "label": "3161733"
       }
     ]
   },

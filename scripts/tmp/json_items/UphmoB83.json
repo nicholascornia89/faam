@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Taranto"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian comune"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Taranto"
+      },
+      {
+        "type": "string",
+        "value": "Taras"
+      },
+      {
+        "type": "string",
+        "value": "Tarentum"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6542154",
+        "base_url": "https://www.geonames.org/",
+        "label": "6542154"
       }
     ]
   },

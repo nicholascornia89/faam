@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "rue La Fayette"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "street in Paris, France"
       }
     ],
     "object_type": [
@@ -43,16 +39,19 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
-  },
-  "statements": {
-    "GeoNames ID": [
+    "aliases": [
       {
-        "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "type": "string",
+        "value": "rue La Fayette"
+      },
+      {
+        "type": "string",
+        "value": "Rue La Fayette"
       }
     ]
+  },
+  "statements": {
+    "GeoNames ID": []
   },
   "cross-references": {},
   "resources": {}

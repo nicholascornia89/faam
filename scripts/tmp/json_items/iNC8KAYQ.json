@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1807-1866)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "61734771",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61734771"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/147751",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/147751"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Servais,_Adrien-François",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Servais,_Adrien-François"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1866-11-26"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "Z8wZfTRB",
-        "label": ""
+        "label": "Halle"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "KnBA877n",
-        "label": ""
+        "label": "Villa Servais"
       }
     ],
     "instrument": [

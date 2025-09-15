@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dordrecht"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city and municipality in South Holland, the Netherlands"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Dordrecht"
+      },
+      {
+        "type": "string",
+        "value": "Dort"
+      },
+      {
+        "type": "string",
+        "value": "Dordt"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2756668",
+        "base_url": "https://www.geonames.org/",
+        "label": "2756668"
+      },
+      {
+        "type": "externalid",
+        "value": "2756669",
+        "base_url": "https://www.geonames.org/",
+        "label": "2756669"
       }
     ]
   },

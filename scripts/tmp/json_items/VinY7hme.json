@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Royal Borough of Kensington and Chelsea"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "royal borough in the London Region in England"
       }
     ],
     "object_type": [
@@ -43,14 +39,40 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Royal Borough of Kensington and Chelsea"
+      },
+      {
+        "type": "string",
+        "value": "RBKC"
+      },
+      {
+        "type": "string",
+        "value": "Kensington and Chelsea"
+      },
+      {
+        "type": "string",
+        "value": "Kensington and Chelsea Royal Borough"
+      },
+      {
+        "type": "string",
+        "value": "London Borough of Kensington and Chelsea"
+      },
+      {
+        "type": "string",
+        "value": "Kensington and Chelsea (unparished area)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3333157",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333157"
       }
     ]
   },

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dublin"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital and largest city of Ireland"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Dublin"
+      },
+      {
+        "type": "string",
+        "value": "Dublin city"
+      },
+      {
+        "type": "string",
+        "value": "City of Dublin"
+      },
+      {
+        "type": "string",
+        "value": "Baile Átha Cliath"
+      },
+      {
+        "type": "string",
+        "value": "Dublin, Ireland"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2964574",
+        "base_url": "https://www.geonames.org/",
+        "label": "2964574"
       }
     ]
   },

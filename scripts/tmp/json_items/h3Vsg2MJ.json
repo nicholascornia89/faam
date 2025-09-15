@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Salzburg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Austria, eponymous capital city of the federal state of Salzburg"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Salzburg"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2766818",
+        "base_url": "https://www.geonames.org/",
+        "label": "2766818"
+      },
+      {
+        "type": "externalid",
+        "value": "7871495",
+        "base_url": "https://www.geonames.org/",
+        "label": "7871495"
+      },
+      {
+        "type": "externalid",
+        "value": "2766824",
+        "base_url": "https://www.geonames.org/",
+        "label": "2766824"
       }
     ]
   },

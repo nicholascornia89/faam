@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Arthur De Greef"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Belgian musician (1862-1940)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,144 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "196291",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "196291"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Greef,_Arthur_de",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Greef,_Arthur_de"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1862-10-10"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1940-08-29"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Y9vCDEAG",
+        "label": "Leuven"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Beq72mMD",
+        "label": "Brussels metropolitan area"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "fV34aLHP",
+        "label": "Louis Brassin"
+      },
+      {
+        "type": "item",
+        "value": "JcVpwzmZ",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "Jhb5rrXW",
+        "label": "François-Auguste Gevaert"
+      },
+      {
+        "type": "item",
+        "value": "ewwggKDh",
+        "label": "Franz Liszt"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "Yj5tRovx",
+        "label": "Royal Conservatory of Brussels"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "Yj5tRovx",
+        "label": "Royal Conservatory of Brussels"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Arthur_De_Greef.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

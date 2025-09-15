@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Carlo Bassini"
       }
     ],
@@ -50,7 +46,8 @@
       {
         "type": "externalid",
         "value": "53908783",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "53908783"
       }
     ],
     "RISM ID": [],
@@ -58,7 +55,8 @@
       {
         "type": "externalid",
         "value": "Category:Bassini,_Carlo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bassini,_Carlo"
       }
     ],
     "date of birth": [
@@ -73,7 +71,7 @@
         "value": "1870-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

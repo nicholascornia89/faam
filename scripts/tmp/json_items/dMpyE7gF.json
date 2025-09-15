@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French opera singer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean-Blaise Martin"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "56875549",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56875549"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30104255",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30104255"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1837-10-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -142,14 +136,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "9HBfkBPm",
-        "label": ""
+        "label": "Ternand"
       }
     ],
     "instrument": [

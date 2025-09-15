@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French music publisher"
       }
     ],
@@ -63,26 +59,29 @@
       {
         "type": "externalid",
         "value": "130752329",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "130752329"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "institutions/51000045",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "institutions/51000045"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Richault",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Richault"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

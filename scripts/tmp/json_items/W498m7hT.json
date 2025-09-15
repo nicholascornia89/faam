@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Gustav Hermann Unger"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "22391278",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22391278"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/130186",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/130186"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Unger,_Hermann",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Unger,_Hermann"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1958-12-31"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +121,14 @@
       {
         "type": "item",
         "value": "DUC8fkj2",
-        "label": ""
+        "label": "Kamenz"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "62eKJkdm",
-        "label": ""
+        "label": "Cologne"
       }
     ],
     "instrument": [],

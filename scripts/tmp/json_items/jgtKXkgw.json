@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer, musicologist and music critic"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Henri Quittard"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "74116366",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74116366"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30029041",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30029041"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Quittard,_Henri_Charles_Etienne",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Quittard,_Henri_Charles_Etienne"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1919-07-21"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -148,14 +143,14 @@
       {
         "type": "item",
         "value": "DuikDHDP",
-        "label": ""
+        "label": "Clermont-Ferrand"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],
@@ -170,7 +165,7 @@
       {
         "type": "item",
         "value": "YNT9Zryt",
-        "label": ""
+        "label": "Lycée Carnot"
       }
     ],
     "employer": []

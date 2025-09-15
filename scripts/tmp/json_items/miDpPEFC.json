@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French music publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Maurice Senart"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "7653277",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7653277"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41024836",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41024836"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1962-05-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,7 +126,7 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [],

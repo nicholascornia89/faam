@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Altona"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "borough of Hamburg, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Altona"
+      },
+      {
+        "type": "string",
+        "value": "Hamburg-Altona"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2911296",
+        "base_url": "https://www.geonames.org/",
+        "label": "2911296"
       }
     ]
   },

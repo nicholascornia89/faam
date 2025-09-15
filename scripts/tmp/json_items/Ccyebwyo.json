@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "librarian (1864-1934)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Eugène Bacha"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "66831697",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66831697"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1934-12-14"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -108,14 +101,14 @@
       {
         "type": "item",
         "value": "oAADJcBU",
-        "label": ""
+        "label": "Liège"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "2J2Wm7TU",
-        "label": ""
+        "label": "Uccle - Ukkel"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1844–1908)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Louis Varney"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "44486677",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44486677"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/135899",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/135899"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Varney,_Louis",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Varney,_Louis"
       }
     ],
     "date of birth": [
@@ -96,7 +91,7 @@
         "value": "1908-08-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -135,14 +130,14 @@
       {
         "type": "item",
         "value": "Vmibabgf",
-        "label": ""
+        "label": "New Orleans"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       }
     ],
     "instrument": [],

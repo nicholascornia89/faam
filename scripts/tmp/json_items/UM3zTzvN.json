@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian musician and writer on musical topics (1841-1924)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Victor-Charles Mahillon"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "2513205",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2513205"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/275236",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/275236"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Mahillon,_Victor-Charles",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mahillon,_Victor-Charles"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1924-06-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,14 +142,14 @@
       {
         "type": "item",
         "value": "Beq72mMD",
-        "label": ""
+        "label": "Brussels metropolitan area"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RCb5UNJq",
-        "label": ""
+        "label": "Saint-Jean-Cap-Ferrat"
       }
     ],
     "instrument": [],

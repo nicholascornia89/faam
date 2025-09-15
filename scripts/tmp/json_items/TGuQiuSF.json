@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Harutyun Avgeryan"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "(1774-1854)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,86 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "294562169",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "294562169"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1774-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1774-06-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1854-11-24"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "Qsf8NGZd",
+        "label": "linguist"
+      },
+      {
+        "type": "item",
+        "value": "ZcyAFkGJ",
+        "label": "lexicographer"
+      },
+      {
+        "type": "item",
+        "value": "PYZ62SCP",
+        "label": "translator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "KtiJicQt",
+        "label": "Ottoman Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "9tYw9FNL",
+        "label": "Ankara"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "MDWRhZ8K",
+        "label": "Venice"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],
@@ -78,7 +132,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Bayron's_visit_to_San_Lazzaro_by_Aivazovsky_(1899).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

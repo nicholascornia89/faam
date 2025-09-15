@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Friedrich Wilhelm Zachow"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,127 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "71579827",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "71579827"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30005928",
+        "base_url": "https://rism.online/",
+        "label": "people/30005928"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Zachow,_Friedrich_Wilhelm",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Zachow,_Friedrich_Wilhelm"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1663-11-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1712-08-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "7QJpBFA4",
+        "label": "Halle (Saale)"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "jbyzdoRE",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "d3aSk9gt",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "VN32RZwx",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "63DtDHAt",
+        "label": "Thomasschule zu Leipzig"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},

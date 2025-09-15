@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Adolf Pollitzer"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hungarian musician (1832–1900)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,110 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "17651473",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17651473"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Pollitzer,_Adolf",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pollitzer,_Adolf"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1832-07-23"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1900-11-14"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "DbwW2oA4",
+        "label": "Pest"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "bsTArmEN",
+        "label": "London"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "kWsk5kdB",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "PkP9awjP",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "hn6sVeFM",
+        "label": "University of Music and Performing Arts Vienna"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +153,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Adolf_Pollitzer_(1832–1900).png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

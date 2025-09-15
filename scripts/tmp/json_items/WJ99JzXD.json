@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stratford-upon-Avon"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Warwickshire, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Stratford-upon-Avon"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2636713",
+        "base_url": "https://www.geonames.org/",
+        "label": "2636713"
+      },
+      {
+        "type": "externalid",
+        "value": "7297427",
+        "base_url": "https://www.geonames.org/",
+        "label": "7297427"
       }
     ]
   },

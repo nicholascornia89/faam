@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French university located in Montpellier, founded in 2015"
       }
     ],
@@ -59,7 +55,13 @@
     ]
   },
   "statements": {
-    "place": [],
+    "place": [
+      {
+        "type": "item",
+        "value": "3Xmxx77S",
+        "label": "Montpellier"
+      }
+    ],
     "country": [
       {
         "type": "item",

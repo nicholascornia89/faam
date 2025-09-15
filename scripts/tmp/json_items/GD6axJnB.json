@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dendermonde"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in East Flanders, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Dendermonde"
+      },
+      {
+        "type": "string",
+        "value": "Termonde"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2799646",
+        "base_url": "https://www.geonames.org/",
+        "label": "2799646"
       }
     ]
   },

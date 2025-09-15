@@ -12,8 +12,8 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [x ] Assign permanent URI to ontology using w3id.org or purl.org.
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
-- [ ] Static site generation using Mkdocs.
-- [ ] Image viewer carousel using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
+- [x ] Static site generation using Mkdocs.
+- [x ] Image viewer carousel using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
 ## Mkdocs scripts
 
@@ -23,7 +23,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [ ] Generate pages (.md) for each item in `faam_kb` and save it in `docs/kb/` 
 - [x ] For each page add tag = object_type, title = id
 - [x ] Use [Markdown generator library](https://github.com/TheRenegadeCoder/SnakeMD) to record information according to template.
-- [ ] Record each page metadata in separate `id`.json file.
+- [x ] Record each page metadata in separate `id`.json file.
 
 ### Data Types
 
@@ -67,7 +67,7 @@ Some ideas about layout and presentation of data
 - [x ] Test [generic grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids) or [card grids](https://squidfunk.github.io/mkdocs-material/reference/grids/#using-generic-grids)
 - [x ] Include graph representation of metadata using pyvis or similar library
 - [ ] Geolocalization
-- [ ] Simple image carousel tool like [Glide](https://glidejs.com/docs/) or [Swiper](https://swiperjs.com/get-started) (see [Demos](https://swiperjs.com/demos))
+- [x ] Simple image carousel tool like [Glide](https://glidejs.com/docs/) or [Swiper](https://swiperjs.com/get-started) (see [Demos](https://swiperjs.com/demos))
 - [ ] Zoomable images using [pyvips](https://libvips.github.io/pyvips/) and render them using [OpenSeadragon](https://openseadragon.github.io/docs/)
 
 ## Tropy scripts

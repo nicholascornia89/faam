@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian printing company"
       }
     ],
@@ -63,20 +59,22 @@
       {
         "type": "externalid",
         "value": "311777548",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "311777548"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "institutions/30061033",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "institutions/30061033"
       }
     ],
     "IMSLP ID": [],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

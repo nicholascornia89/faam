@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian violinist (1801–1848)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Joseph Ghys"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "19949270",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19949270"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/62115",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/62115"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ghys,_Joseph",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ghys,_Joseph"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1848-08-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -148,14 +143,14 @@
       {
         "type": "item",
         "value": "nPpdkcAP",
-        "label": ""
+        "label": "Ghent"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "AzqRtNds",
-        "label": ""
+        "label": "Saint Petersburg"
       }
     ],
     "instrument": [

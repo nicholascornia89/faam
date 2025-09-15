@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian pianist and composer (1825-1898)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "22341381",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22341381"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/117798",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/117798"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Schulhoff,_Julius",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schulhoff,_Julius"
       }
     ],
     "date of birth": [
@@ -108,7 +107,7 @@
         "value": "1898-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -157,7 +156,7 @@
       {
         "type": "item",
         "value": "5rRqvsj3",
-        "label": ""
+        "label": "Prague"
       }
     ],
     "place of death": [

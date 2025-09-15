@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bayreuth"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "medium-sized town in northern Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bayreuth"
+      },
+      {
+        "type": "string",
+        "value": "Baireuth"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2951825",
+        "base_url": "https://www.geonames.org/",
+        "label": "2951825"
+      },
+      {
+        "type": "externalid",
+        "value": "6556726",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556726"
       }
     ]
   },

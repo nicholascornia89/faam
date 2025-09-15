@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Neuburg an der Donau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Neuburg an der Donau"
+      },
+      {
+        "type": "string",
+        "value": "Neuburg/Donau"
+      },
+      {
+        "type": "string",
+        "value": "Neuburg a.d.Donau"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2866070",
+        "base_url": "https://www.geonames.org/",
+        "label": "2866070"
+      },
+      {
+        "type": "externalid",
+        "value": "6559196",
+        "base_url": "https://www.geonames.org/",
+        "label": "6559196"
       }
     ]
   },

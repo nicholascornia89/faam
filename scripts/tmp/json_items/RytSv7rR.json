@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "American composer (1894–1976)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "59274464",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59274464"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1976-11-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +140,14 @@
       {
         "type": "item",
         "value": "7DXXTxLk",
-        "label": ""
+        "label": "Knox County"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "dxfaFyRu",
-        "label": ""
+        "label": "Belmont"
       }
     ],
     "instrument": [

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer, conductor and pianist"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "107639675",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "107639675"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/76321",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/76321"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Goldschmidt,_Otto",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Goldschmidt,_Otto"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1907-02-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

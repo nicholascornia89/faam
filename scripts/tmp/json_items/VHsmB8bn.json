@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Troyes"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Aube, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Troyes"
+      },
+      {
+        "type": "string",
+        "value": "Troyes, Aube"
+      },
+      {
+        "type": "string",
+        "value": "Troyes, Aube France"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2971549",
+        "base_url": "https://www.geonames.org/",
+        "label": "2971549"
       }
     ]
   },

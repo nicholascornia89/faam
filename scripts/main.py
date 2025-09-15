@@ -12,6 +12,7 @@ from wikidata import *
 from mkdocs import *
 from faam_kb import *
 from rdf import *
+from statistics import *
 from tropy import *
 
 # Data
@@ -148,15 +149,42 @@ def faam_kb():
     else:
         faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
-    # generate pyvis networks: TO BE CHECKED
-    # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+        faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)
 
-    # generate JSON serialization and append it to FAAM kb: TO BE CHECKED
-    faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
+        # return basic statistics
+        print("Some statistics...")
+        basic_statistics(faam_kb)
 
-    github_api_repo = "https://api.github.com/repos/nicholascornia89/"
-    # TO BE CONTINUED
-    # generate_image_carousels(faam_kb,github_api_repo)
+        print(
+            "Would you like to improve data via Wikidata queries? (Time consuming) y/n"
+        )
+        answer = input()
+
+        if answer == "y":
+            print(f"Improving MediaWiki image URLs...")
+            faam_kb = images_base_url(faam_kb)
+
+            print(f"Improving External ID URLs...")
+            faam_kb = external_ids_base_url(faam_kb, faam_kb_mapping)
+
+            print(f"Mapping QIDs to FAAM UUIDs...")
+            faam_kb = qids2faamuudis(faam_kb)
+
+            print(f"Remove empty statements...")
+            faam_kb = remove_empty_statements(faam_kb)
+
+            print(f"Adding labels to each statement and qualifier...")
+            faam_kb = add_label_to_statement(faam_kb)
+
+        # generate JSON serialization and append it to FAAM kb
+        faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
+
+        # generate pyvis networks: TO BE CHECKED
+        generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+
+        github_api_repo = "https://api.github.com/repos/nicholascornia89/"
+        # TO BE CONTINUED
+        generate_image_carousels(faam_kb, github_api_repo)
 
 
 # Mkdocs pages

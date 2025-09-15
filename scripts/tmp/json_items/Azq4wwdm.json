@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German bookseller and auctioneer (1775-1840)"
       }
     ],
@@ -71,7 +67,8 @@
       {
         "type": "externalid",
         "value": "8142726",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "8142726"
       }
     ],
     "RISM ID": [],
@@ -88,7 +85,7 @@
         "value": "1840-03-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -127,14 +124,14 @@
       {
         "type": "item",
         "value": "CnZxyoSq",
-        "label": ""
+        "label": "Düsseldorf"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "62eKJkdm",
-        "label": ""
+        "label": "Cologne"
       }
     ],
     "instrument": [],

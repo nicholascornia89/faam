@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Gabrieli"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "37101750",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "37101750"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30001186",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30001186"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Gabrieli,_Giovanni",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gabrieli,_Giovanni"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1612-08-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [

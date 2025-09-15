@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hanau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Main-Kinzig-Kreis in Hesse, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Hanau"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2911007",
+        "base_url": "https://www.geonames.org/",
+        "label": "2911007"
+      },
+      {
+        "type": "externalid",
+        "value": "6557738",
+        "base_url": "https://www.geonames.org/",
+        "label": "6557738"
       }
     ]
   },

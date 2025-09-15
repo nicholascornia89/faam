@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer and conductor (1660-1744)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "74036950",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74036950"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000563",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000563"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Campra,_André",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Campra,_André"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1744-06-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -138,14 +137,14 @@
       {
         "type": "item",
         "value": "5ABpvHR3",
-        "label": ""
+        "label": "Aix-en-Provence"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "instrument": [
@@ -161,7 +160,7 @@
       {
         "type": "item",
         "value": "PuHUWBAB",
-        "label": ""
+        "label": "Académie Royale de Musique"
       }
     ]
   },

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Trieste"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city and seaport in northeastern Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Trieste"
+      },
+      {
+        "type": "string",
+        "value": "Trst"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3165186",
+        "base_url": "https://www.geonames.org/",
+        "label": "3165186"
       }
     ]
   },

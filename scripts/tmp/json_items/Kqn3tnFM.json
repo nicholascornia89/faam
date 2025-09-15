@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French flautist, composer and conductor"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean Rémusat"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "39645772",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39645772"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30024098",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30024098"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Remusat,_Jean",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Remusat,_Jean"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1880-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

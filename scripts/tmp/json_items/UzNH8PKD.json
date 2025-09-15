@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Thessaloniki"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Macedonia, Greece"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Thessaloniki"
+      },
+      {
+        "type": "string",
+        "value": "Thessalonica"
+      },
+      {
+        "type": "string",
+        "value": "Salonica"
+      },
+      {
+        "type": "string",
+        "value": "Saloniki"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "734077",
+        "base_url": "https://www.geonames.org/",
+        "label": "734077"
       }
     ]
   },

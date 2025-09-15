@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -63,7 +59,8 @@
       {
         "type": "externalid",
         "value": "103249310",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "103249310"
       }
     ],
     "RISM ID": [],
@@ -80,7 +77,7 @@
         "value": "1911-05-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +111,14 @@
       {
         "type": "item",
         "value": "djKbyqEB",
-        "label": ""
+        "label": "Nancy"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "dCUVSHS2",
-        "label": ""
+        "label": "Courbevoie"
       }
     ],
     "instrument": [],

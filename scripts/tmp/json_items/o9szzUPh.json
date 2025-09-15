@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Aberdeen City"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "council area of Scotland"
       }
     ],
     "object_type": [
@@ -43,14 +39,36 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Aberdeen City"
+      },
+      {
+        "type": "string",
+        "value": "City of Aberdeen"
+      },
+      {
+        "type": "string",
+        "value": "City of Aberdeen district"
+      },
+      {
+        "type": "string",
+        "value": "Aberdeen"
+      },
+      {
+        "type": "string",
+        "value": "Aberdeen district"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3333224",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333224"
       }
     ]
   },

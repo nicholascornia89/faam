@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musicologist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Heinrich Christoph Koch"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "9985355",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "9985355"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30003845",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30003845"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Koch,_Heinrich_Christoph",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Koch,_Heinrich_Christoph"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1816-03-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +126,14 @@
       {
         "type": "item",
         "value": "dnJGvAQM",
-        "label": ""
+        "label": "Rudolstadt"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "dnJGvAQM",
-        "label": ""
+        "label": "Rudolstadt"
       }
     ],
     "instrument": [

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Theodor Kroyer"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German musicologist (1873-1945)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,23 +42,127 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "42106898",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42106898"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/56365",
+        "base_url": "https://rism.online/",
+        "label": "people/56365"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Kroyer,_Theodor",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Kroyer,_Theodor"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1873-09-09"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1945-01-12"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "M2keqc3n",
+        "label": "Munich"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "2ieQsQLv",
+        "label": "Wiesbaden"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "gLB9UFcw",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "4mYssfUB",
+        "label": "Josef Rheinberger"
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "cc2zjtBZ",
+        "label": "Leipzig University"
+      },
+      {
+        "type": "item",
+        "value": "cfUrJYvb",
+        "label": "Heidelberg University"
+      },
+      {
+        "type": "item",
+        "value": "Gwm9ve42",
+        "label": "Ludwig-Maximilians-Universität München"
+      },
+      {
+        "type": "item",
+        "value": "8zbbVqAH",
+        "label": "University of Cologne"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musician and composer of comic operas (Muret 1753 - Paris 1809)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "14869144",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "14869144"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/27764",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/27764"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Dalayrac,_Nicolas",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dalayrac,_Nicolas"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1809-11-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -140,14 +139,14 @@
       {
         "type": "item",
         "value": "d2NPELEj",
-        "label": ""
+        "label": "Muret"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

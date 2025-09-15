@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Odesa"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Odesa"
+      },
+      {
+        "type": "string",
+        "value": "Odessa"
+      },
+      {
+        "type": "string",
+        "value": "Odesa, Ukraine"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "698740",
+        "base_url": "https://www.geonames.org/",
+        "label": "698740"
       }
     ]
   },

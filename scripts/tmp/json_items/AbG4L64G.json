@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1861-1910)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "10114096",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10114096"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30073659",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30073659"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Missa,_Edmond",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Missa,_Edmond"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1910-01-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +125,14 @@
       {
         "type": "item",
         "value": "WDTJqa7o",
-        "label": ""
+        "label": "Reims"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

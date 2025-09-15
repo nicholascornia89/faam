@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Pietro Grassi Florio; b. before 1740; d. June 20, 1795 in London; Italian"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "43006889",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "43006889"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30013791",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30013791"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1795-06-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

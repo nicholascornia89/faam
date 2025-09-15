@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian musician (1871–1938)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Oreste Ravanello"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "69177868",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69177868"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30015643",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30015643"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ravanello,_Oreste",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ravanello,_Oreste"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1938-07-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -148,14 +143,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "B67rejNf",
-        "label": ""
+        "label": "Padua"
       }
     ],
     "instrument": [

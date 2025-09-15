@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1892–1974)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Darius Milhaud"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "42026090",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "42026090"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/104931",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/104931"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Milhaud,_Darius",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Milhaud,_Darius"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1974-06-22"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -171,19 +166,19 @@
       {
         "type": "item",
         "value": "GLRvpdZj",
-        "label": ""
+        "label": "Marseille"
       },
       {
         "type": "item",
         "value": "5ABpvHR3",
-        "label": ""
+        "label": "Aix-en-Provence"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "9Mh2HUxt",
-        "label": ""
+        "label": "Geneva"
       }
     ],
     "instrument": [

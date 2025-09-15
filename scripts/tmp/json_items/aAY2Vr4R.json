@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian Baroque composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antonio Lotti"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "100314273",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100314273"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/123588",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/123588"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Lotti,_Antonio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lotti,_Antonio"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1740-01-05"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MDWRhZ8K",
-        "label": ""
+        "label": "Venice"
       }
     ],
     "instrument": [

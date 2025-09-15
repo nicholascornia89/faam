@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Tadolini"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "64198504",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64198504"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/477625",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/477625"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Tadolini,_Giovanni",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Tadolini,_Giovanni"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1872-11-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,14 +141,14 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [],

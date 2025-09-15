@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Phèdre"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "tragedy by Jean Racine"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,12 +43,31 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "184070613",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "184070613"
+      },
+      {
+        "type": "externalid",
+        "value": "5277163709882329700000",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "5277163709882329700000"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],
     "adapted by": [],
-    "based on": []
+    "based on": [
+      {
+        "type": "item",
+        "value": "axruaUEe",
+        "label": ""
+      }
+    ]
   },
   "cross-references": {},
   "resources": {}

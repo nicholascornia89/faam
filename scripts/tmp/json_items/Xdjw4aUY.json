@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1836-1916)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "66731460",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66731460"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41007815",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41007815"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Anthiome,_Eugène",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Anthiome,_Eugène"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1916-07-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +130,14 @@
       {
         "type": "item",
         "value": "kKTMbrRV",
-        "label": ""
+        "label": "Lorient"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "instrument": [],

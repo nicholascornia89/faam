@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Casa Rossini"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Museum in Pesaro, Italy"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Casa Rossini"
+      },
+      {
+        "type": "string",
+        "value": "Birthplace of Gioacchino Rossini"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "10282648",
+        "base_url": "https://www.geonames.org/",
+        "label": "10282648"
       }
     ]
   },

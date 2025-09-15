@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer and pianist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Ferdinand Beyer"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "12572276",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12572276"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30008241",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30008241"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Beyer,_Ferdinand",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Beyer,_Ferdinand"
       }
     ],
     "date of birth": [
@@ -108,7 +103,7 @@
         "value": "1863-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,7 +142,7 @@
       {
         "type": "item",
         "value": "H8QfPnhQ",
-        "label": ""
+        "label": "Querfurt"
       }
     ],
     "place of death": [

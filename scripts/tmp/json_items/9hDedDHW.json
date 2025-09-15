@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Charles Louis Maucourt"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,98 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "3329247",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "3329247"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30010175",
+        "base_url": "https://rism.online/",
+        "label": "people/30010175"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Maucourt,_Charles_Louis",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Maucourt,_Charles_Louis"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1760-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1825-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "L7bRkYff",
+        "label": "chapelmaster"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "SuF5ESAU",
+        "label": "Brunswick"
+      }
+    ],
     "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "4vGszNyA",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

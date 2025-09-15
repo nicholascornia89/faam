@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "American conductor (1883-1961)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Archibald Thompson Davison"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "34450152",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34450152"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30027403",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30027403"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Davison,_Archibald_Thompson",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Davison,_Archibald_Thompson"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1961-02-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

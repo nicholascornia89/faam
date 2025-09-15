@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Ostend"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "coastal city in West Flanders, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Ostend"
+      },
+      {
+        "type": "string",
+        "value": "Ostende"
+      },
+      {
+        "type": "string",
+        "value": "Oostende"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2789788",
+        "base_url": "https://www.geonames.org/",
+        "label": "2789788"
       }
     ]
   },

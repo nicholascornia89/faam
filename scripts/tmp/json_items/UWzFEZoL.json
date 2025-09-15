@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musicologist (1865–1931)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Peter Wagner"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "19948019",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19948019"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/326545",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/326545"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1931-10-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -142,14 +136,14 @@
       {
         "type": "item",
         "value": "SsnKEgXK",
-        "label": ""
+        "label": "Trier"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "aWjCijvc",
-        "label": ""
+        "label": "Fribourg"
       }
     ],
     "instrument": [],
@@ -159,7 +153,7 @@
       {
         "type": "item",
         "value": "YhZPvh4f",
-        "label": ""
+        "label": "University of Fribourg"
       }
     ]
   },

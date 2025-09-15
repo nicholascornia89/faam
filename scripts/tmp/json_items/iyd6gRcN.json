@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian composer (1732–1809)"
       }
     ],
@@ -75,21 +71,24 @@
       {
         "type": "externalid",
         "value": "95146280",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "95146280"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/55803",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/55803"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Haydn,_Joseph",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Haydn,_Joseph"
       }
     ],
     "date of birth": [
@@ -104,7 +103,7 @@
         "value": "1809-05-31"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -165,7 +164,7 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

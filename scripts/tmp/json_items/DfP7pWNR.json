@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Besançon"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Doubs, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Besançon"
+      },
+      {
+        "type": "string",
+        "value": "Besac"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3033123",
+        "base_url": "https://www.geonames.org/",
+        "label": "3033123"
       }
     ]
   },

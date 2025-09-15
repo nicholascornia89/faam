@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer (1864–1952)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Giovanni Tebaldini"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "76744430",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76744430"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30017141",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30017141"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Tebaldini,_Giovanni",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Tebaldini,_Giovanni"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1952-05-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -146,14 +141,14 @@
       {
         "type": "item",
         "value": "6krP3pJ4",
-        "label": ""
+        "label": "Brescia"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "2ByiDDRy",
-        "label": ""
+        "label": "San Benedetto del Tronto"
       }
     ],
     "instrument": [

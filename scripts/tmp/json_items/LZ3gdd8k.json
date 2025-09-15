@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Siegfried Wilhelm Dehn"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German musicologist (1799–1858)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,114 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "39642649",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39642649"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/5559",
+        "base_url": "https://rism.online/",
+        "label": "people/5559"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Dehn,_Siegfried_Wilhelm",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dehn,_Siegfried_Wilhelm"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1799-02-24"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1858-04-12"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "9jaW5gj6",
+        "label": "librarian"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "N3DQMCdv",
+        "label": "music theorist"
+      },
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "4wGJZSfp",
+        "label": "Hamburg"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Sbd6d3hc",
+        "label": "Altona"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "hKtzPUAn",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "eFjivgq8",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +158,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Siegfried_Wilhelm_Dehn.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

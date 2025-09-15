@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Vincenzo Gambaro"
       }
     ],
@@ -50,14 +46,16 @@
       {
         "type": "externalid",
         "value": "2,77E+34",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2,77E+34"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30007241",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30007241"
       }
     ],
     "IMSLP ID": [],
@@ -73,7 +71,7 @@
         "value": "1828"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -111,14 +109,14 @@
       {
         "type": "item",
         "value": "KBhkLubU",
-        "label": ""
+        "label": "Genoa"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

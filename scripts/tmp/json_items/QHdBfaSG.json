@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Limerick"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Ireland in the province of Munster"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Limerick"
+      },
+      {
+        "type": "string",
+        "value": "Limerick City"
+      },
+      {
+        "type": "string",
+        "value": "Limrick"
+      },
+      {
+        "type": "string",
+        "value": "Limmerick"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2962943",
+        "base_url": "https://www.geonames.org/",
+        "label": "2962943"
       }
     ]
   },

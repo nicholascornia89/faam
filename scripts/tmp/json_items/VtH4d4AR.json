@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Canterbury"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "cathedral city in Kent, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Canterbury"
+      },
+      {
+        "type": "string",
+        "value": "Canterbury, United Kingdom"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2653877",
+        "base_url": "https://www.geonames.org/",
+        "label": "2653877"
       }
     ]
   },

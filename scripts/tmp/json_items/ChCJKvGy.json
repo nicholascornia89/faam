@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Hans Dagobert Bruger"
       }
     ],
@@ -50,21 +46,24 @@
       {
         "type": "externalid",
         "value": "8148411",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "8148411"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/78182",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/78182"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Bruger,_Hans_Dagobert",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bruger,_Hans_Dagobert"
       }
     ],
     "date of birth": [
@@ -79,7 +78,7 @@
         "value": "1932-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

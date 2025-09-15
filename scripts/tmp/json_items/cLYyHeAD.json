@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean Maillard"
       }
     ],
@@ -63,15 +55,24 @@
       {
         "type": "externalid",
         "value": "133738033",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "133738033"
       }
     ],
-    "RISM ID": [],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30005466",
+        "base_url": "https://rism.online/",
+        "label": "people/30005466"
+      }
+    ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Maillard,_Jean",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Maillard,_Jean"
       }
     ],
     "date of birth": [
@@ -86,7 +87,7 @@
         "value": "1570"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

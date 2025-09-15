@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1870-1958)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Florent Schmitt"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "12492803",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12492803"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41010094",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41010094"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Schmitt,_Florent",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Schmitt,_Florent"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1958-08-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +131,14 @@
       {
         "type": "item",
         "value": "f3ToHPQG",
-        "label": ""
+        "label": "Blâmont"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5QzfLDJP",
-        "label": ""
+        "label": "Neuilly-sur-Seine"
       }
     ],
     "instrument": [],

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Denver"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "consolidated city-county and capital of Colorado, United States"
       }
     ],
     "object_type": [
@@ -43,14 +39,50 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Denver"
+      },
+      {
+        "type": "string",
+        "value": "City and County of Denver"
+      },
+      {
+        "type": "string",
+        "value": "Denver, Colorado"
+      },
+      {
+        "type": "string",
+        "value": "Mile High City"
+      },
+      {
+        "type": "string",
+        "value": "Queen City of the Plains"
+      },
+      {
+        "type": "string",
+        "value": "Queen City of the West"
+      },
+      {
+        "type": "string",
+        "value": "Denver, CO"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "5419384",
+        "base_url": "https://www.geonames.org/",
+        "label": "5419384"
+      },
+      {
+        "type": "externalid",
+        "value": "11788668",
+        "base_url": "https://www.geonames.org/",
+        "label": "11788668"
       }
     ]
   },

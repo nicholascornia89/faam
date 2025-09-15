@@ -41,7 +41,7 @@ def wikibaseintegrator_test():
 	print(wb_get_property_data("Q1339","P27"))
 	print(wb_get_property_data("Q1339","P18"))
 	"""
-	entity = wb.item.get("Q135972935")
+	entity = wb.item.get("Q1002228")
 	description = entity.descriptions.get("en").value
 	aliases = entity.aliases.get("en")
 	label = entity.labels.get('en').value

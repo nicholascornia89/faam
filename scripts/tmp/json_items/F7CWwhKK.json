@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "100995617",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100995617"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000135",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000135"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Araja,_Francesco",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Araja,_Francesco"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1770-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,14 +124,14 @@
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [],

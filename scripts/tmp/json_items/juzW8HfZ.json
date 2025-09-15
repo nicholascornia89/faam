@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Wilhelm Würfel"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Czech conductor, music educator, composer and pianist (1790–1832)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,23 +42,147 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "79391615",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "79391615"
+      },
+      {
+        "type": "externalid",
+        "value": "84518164",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "84518164"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30008441",
+        "base_url": "https://rism.online/",
+        "label": "people/30008441"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Würfel,_Václav_Vilém",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Würfel,_Václav_Vilém"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1790-05-06"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1832-03-23"
+      },
+      {
+        "type": "date",
+        "value": "1832-04-23"
+      },
+      {
+        "type": "date",
+        "value": "1852-04-22"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "XWQcePaU",
+        "label": "Margraviate of Moravia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ZGHSqvs4",
+        "label": "Plaňany"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "RXg4snEH",
+        "label": "organ"
+      },
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Y7oinjoB",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "X8LwLGC9",
+        "label": "Chopin University of Music"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Ghent"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in the province of East Flanders, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Ghent"
+      },
+      {
+        "type": "string",
+        "value": "Gent"
+      },
+      {
+        "type": "string",
+        "value": "Gand"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2797657",
+        "base_url": "https://www.geonames.org/",
+        "label": "2797657"
       }
     ]
   },

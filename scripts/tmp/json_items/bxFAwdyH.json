@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1795–1859)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "22405002",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22405002"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/2417",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/2417"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Panseron,_Auguste_Mathieu",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Panseron,_Auguste_Mathieu"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1859-07-29"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -131,14 +130,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

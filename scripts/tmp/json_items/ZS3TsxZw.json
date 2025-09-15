@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Elisabeth Alberdingk Thijm"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "writer, translator and patron (1863-1952)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,76 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "24868523",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "24868523"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1863-02-21"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1952-10-27"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "Juo3wTsn",
+        "label": "author"
+      },
+      {
+        "type": "item",
+        "value": "RFftLK9d",
+        "label": "patron of the arts"
+      },
+      {
+        "type": "item",
+        "value": "PYZ62SCP",
+        "label": "translator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "ge9ACHGn",
+        "label": "female"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Y9vCDEAG",
+        "label": "Leuven"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LSbWETiG",
+        "label": "Vlierbeek"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

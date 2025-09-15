@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "61660163",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61660163"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/101056",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/101056"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Méhul,_Etienne_Nicolas",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Méhul,_Etienne_Nicolas"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1817-10-18"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -135,14 +134,14 @@
       {
         "type": "item",
         "value": "V8YN5wKK",
-        "label": ""
+        "label": "Givet"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

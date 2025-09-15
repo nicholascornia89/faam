@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Philadelphia"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "largest city in Pennsylvania, United States"
       }
     ],
     "object_type": [
@@ -43,14 +39,54 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Philadelphia"
+      },
+      {
+        "type": "string",
+        "value": "Philly"
+      },
+      {
+        "type": "string",
+        "value": "City of Brotherly Love"
+      },
+      {
+        "type": "string",
+        "value": "Cradle of Liberty"
+      },
+      {
+        "type": "string",
+        "value": "Philadelphia, Pennsylvania"
+      },
+      {
+        "type": "string",
+        "value": "City of Philadelphia"
+      },
+      {
+        "type": "string",
+        "value": "Philadelphia, PA"
+      },
+      {
+        "type": "string",
+        "value": "Philadelphia, Pa."
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "4560349",
+        "base_url": "https://www.geonames.org/",
+        "label": "4560349"
+      },
+      {
+        "type": "externalid",
+        "value": "4560347",
+        "base_url": "https://www.geonames.org/",
+        "label": "4560347"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "56796786",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56796786"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/20000322",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/20000322"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Leo,_Leonardo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Leo,_Leonardo"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1744-10-31"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -138,14 +137,14 @@
       {
         "type": "item",
         "value": "8BpaFRB2",
-        "label": ""
+        "label": "San Vito dei Normanni"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "instrument": [
@@ -171,7 +170,7 @@
       {
         "type": "item",
         "value": "ZwsvmkK2",
-        "label": ""
+        "label": "Conservatorio della Pietà dei Turchini"
       }
     ],
     "employer": []

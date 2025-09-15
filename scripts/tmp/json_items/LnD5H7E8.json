@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Lorenzo Gibelli"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,103 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "7629148451587315970005",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "7629148451587315970005"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/40211390",
+        "base_url": "https://rism.online/",
+        "label": "people/40211390"
+      },
+      {
+        "type": "externalid",
+        "value": "people/41015414",
+        "base_url": "https://rism.online/",
+        "label": "people/41015414"
+      }
+    ],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1718-11-24"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1812-11-05"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      },
+      {
+        "type": "item",
+        "value": "fkNftdFp",
+        "label": "singer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "RZra3Qhj",
+        "label": "Bologna"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "RZra3Qhj",
+        "label": "Bologna"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "KJkThvsq",
+        "label": "voice"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "FEbTxAZY",
+        "label": "Giovanni Battista Martini"
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +147,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Lorenzo_Gibelli_by_A_Marchi.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

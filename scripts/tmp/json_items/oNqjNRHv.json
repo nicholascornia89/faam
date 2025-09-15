@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Vasily Safonov"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Russian pianist, teacher, conductor and composer (1852-1918)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,154 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "19868467",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19868467"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Safonov,_Vasily",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Safonov,_Vasily"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1852-01-25"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1918-02-27"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "7WBM7mQu",
+        "label": "classical pianist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "Ygb8LLjd",
+        "label": "pedagogue"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "bxib3r7h",
+        "label": "Ishcherskaya"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "bg2RmUNS",
+        "label": "Kislovodsk"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "QyZk6uZM",
+        "label": "Theodor Leschetizky"
+      },
+      {
+        "type": "item",
+        "value": "2WYGTAb5",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "fV34aLHP",
+        "label": "Louis Brassin"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "8SVogDjV",
+        "label": "The First Saint-Petersburg Gymnasium"
+      },
+      {
+        "type": "item",
+        "value": "ccQRNgJx",
+        "label": "Imperial Alexander Lyceum"
+      },
+      {
+        "type": "item",
+        "value": "nyaj8Ndp",
+        "label": "Saint Petersburg Conservatory"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "Djq8DaQv",
+        "label": "Moscow Conservatory"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Василий_Сафронов.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

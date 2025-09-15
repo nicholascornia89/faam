@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Augsburg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Augsburg"
+      },
+      {
+        "type": "string",
+        "value": "Kreisfreie Stadt Augsburg"
+      },
+      {
+        "type": "string",
+        "value": "Mixed Imperial City of Augsburg"
+      },
+      {
+        "type": "string",
+        "value": "Auguste Vindelicor"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6557107",
+        "base_url": "https://www.geonames.org/",
+        "label": "6557107"
       }
     ]
   },

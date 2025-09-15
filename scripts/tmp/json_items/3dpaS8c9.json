@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French university teacher and flutist (1812-1896)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Louis Dorus"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "80354448",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "80354448"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Dorus,_Louis",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dorus,_Louis"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1896-06-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,14 +141,14 @@
       {
         "type": "item",
         "value": "T4a8frFq",
-        "label": ""
+        "label": "Valenciennes"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "2MVFnAod",
-        "label": ""
+        "label": "Étretat"
       }
     ],
     "instrument": [

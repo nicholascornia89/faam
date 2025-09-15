@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian opera singer (1685-1756)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antonio Bernacchi"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "5250697",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "5250697"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004918",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004918"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1756-03-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,14 +131,14 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [

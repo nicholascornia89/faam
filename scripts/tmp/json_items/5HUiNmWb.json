@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bernardino de Ribera"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,90 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "19348030",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "19348030"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1520-01-01"
+      },
+      {
+        "type": "date",
+        "value": "1520-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1580-01-01"
+      },
+      {
+        "type": "date",
+        "value": "1580-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "L7bRkYff",
+        "label": "chapelmaster"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "ct9wJYQc",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Sh5NhSqC",
+        "label": "Xàtiva"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "9WcfaESd",
+        "label": ""
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

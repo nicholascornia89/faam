@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer (1857-1934)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "76499978",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "76499978"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/45128",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/45128"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Elgar,_Edward",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Elgar,_Edward"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1934-02-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +135,14 @@
       {
         "type": "item",
         "value": "Bq3Ruwuq",
-        "label": ""
+        "label": "Lower Broadheath"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "b5w3t6xN",
-        "label": ""
+        "label": "Worcester"
       }
     ],
     "instrument": [
@@ -164,14 +163,14 @@
       {
         "type": "item",
         "value": "mfP6VeEX",
-        "label": ""
+        "label": "New College Worcester"
       }
     ],
     "employer": [
       {
         "type": "item",
         "value": "oFgBBgba",
-        "label": ""
+        "label": "University of Birmingham"
       }
     ]
   },

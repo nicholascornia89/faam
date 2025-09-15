@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Stratford-on-Avon"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "district in Warwickshire, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Stratford-on-Avon"
+      },
+      {
+        "type": "string",
+        "value": "Stratford-on-Avon District"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "7290649",
+        "base_url": "https://www.geonames.org/",
+        "label": "7290649"
       }
     ]
   },

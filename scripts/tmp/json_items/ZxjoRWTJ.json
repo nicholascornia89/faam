@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Emil Hegar"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "(1843-1921)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,120 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "33110915",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "33110915"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30043986",
+        "base_url": "https://rism.online/",
+        "label": "people/30043986"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Hegar,_Emil",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hegar,_Emil"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1843-01-03"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1921-06-13"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "dg4VBYfA",
+        "label": "cellist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "nRMPrHtA",
+        "label": "Basel"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "nRMPrHtA",
+        "label": "Basel"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "4oyT6BBG",
+        "label": "cello"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "jK3acqwb",
+        "label": "Friedrich Grützmacher"
+      },
+      {
+        "type": "item",
+        "value": "M8yE9fi5",
+        "label": "Karl Davydov"
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "3wN8PmuS",
+        "label": "University of Music and Theatre Leipzig"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "3wN8PmuS",
+        "label": "University of Music and Theatre Leipzig"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Emil_Hegar.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hans Richter"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian-Hungarian orchestral and operatic conductor (1843-1916)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,97 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "59272058",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59272058"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1843-04-04"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1916-12-05"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "c7kbySiv",
+        "label": "Győr"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LDjom53b",
+        "label": "Bayreuth"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "fmwa7nC3",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "hn6sVeFM",
+        "label": "University of Music and Performing Arts Vienna"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +140,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Hans_Richter_portrait_photo.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Vaduz"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital of Liechtenstein"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Vaduz"
+      },
+      {
+        "type": "string",
+        "value": "Vaduz, Liechtenstein"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3042030",
+        "base_url": "https://www.geonames.org/",
+        "label": "3042030"
+      },
+      {
+        "type": "externalid",
+        "value": "3042031",
+        "base_url": "https://www.geonames.org/",
+        "label": "3042031"
       }
     ]
   },

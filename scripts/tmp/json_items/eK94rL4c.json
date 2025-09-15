@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Rain"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Rain"
+      },
+      {
+        "type": "string",
+        "value": "Rain (Lech)"
+      },
+      {
+        "type": "string",
+        "value": "Rain/Lech"
+      },
+      {
+        "type": "string",
+        "value": "Rain, Swabia"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6558426",
+        "base_url": "https://www.geonames.org/",
+        "label": "6558426"
       }
     ]
   },

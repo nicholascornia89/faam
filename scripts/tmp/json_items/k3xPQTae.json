@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French musicologist (1886-1966)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "106969241",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "106969241"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1966-08-31"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -124,14 +121,14 @@
       {
         "type": "item",
         "value": "KAroVj9f",
-        "label": ""
+        "label": "Pont-de-Roide-Vermondans"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

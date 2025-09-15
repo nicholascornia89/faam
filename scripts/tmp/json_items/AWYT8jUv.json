@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French music publisher"
       }
     ],
@@ -75,26 +71,29 @@
       {
         "type": "externalid",
         "value": "126051786",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "126051786"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "institutions/30060563",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "institutions/30060563"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Enoch",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Enoch"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

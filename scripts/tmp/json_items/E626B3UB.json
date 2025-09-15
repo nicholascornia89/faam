@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer, pianist and conductor"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Georges de Lausnay"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "64194745",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64194745"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1964-10-17"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

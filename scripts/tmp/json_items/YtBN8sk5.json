@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German footballer (1906-1983)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Richard Hofmann"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "20475096",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "20475096"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1983-05-05"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +107,14 @@
       {
         "type": "item",
         "value": "FxffyDAt",
-        "label": ""
+        "label": "Meerane"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "cZvZKQEF",
-        "label": ""
+        "label": "Freital"
       }
     ],
     "instrument": [],

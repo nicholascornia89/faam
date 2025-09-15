@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "İzmir"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in İzmir Province, Turkey"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "İzmir"
+      },
+      {
+        "type": "string",
+        "value": "Izmir"
+      },
+      {
+        "type": "string",
+        "value": "Smyrna"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "311046",
+        "base_url": "https://www.geonames.org/",
+        "label": "311046"
       }
     ]
   },

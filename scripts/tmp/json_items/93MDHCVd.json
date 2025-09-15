@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French classicist and translator (1814–1894)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Eugène Talbot"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "14777152",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "14777152"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1894-09-20"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -113,7 +106,7 @@
       {
         "type": "item",
         "value": "m6hZYfG7",
-        "label": ""
+        "label": "preface author"
       },
       {
         "type": "item",
@@ -139,14 +132,14 @@
       {
         "type": "item",
         "value": "dVe6rwSC",
-        "label": ""
+        "label": "Chartres"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "Znbc3ZqB",
-        "label": ""
+        "label": "Le Pouliguen"
       }
     ],
     "instrument": [],
@@ -155,7 +148,7 @@
       {
         "type": "item",
         "value": "o2zUpMcE",
-        "label": ""
+        "label": "Faculty of Arts of Paris"
       }
     ],
     "employer": []

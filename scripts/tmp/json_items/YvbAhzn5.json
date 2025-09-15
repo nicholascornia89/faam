@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer of the Renaissance, born 1548 or 1549, died 29 July 1621"
       }
     ],
@@ -87,21 +83,24 @@
       {
         "type": "externalid",
         "value": "197705",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "197705"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004659",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004659"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Soriano,_Francesco",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Soriano,_Francesco"
       }
     ],
     "date of birth": [
@@ -116,7 +115,7 @@
         "value": "1621-07-19"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -172,14 +171,14 @@
       {
         "type": "item",
         "value": "RdNJQnUt",
-        "label": ""
+        "label": "Soriano nel Cimino"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "fZUC7W4e",
-        "label": ""
+        "label": "Rome"
       }
     ],
     "instrument": [],

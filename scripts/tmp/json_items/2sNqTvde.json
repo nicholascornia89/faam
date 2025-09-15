@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Barcelona"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Catalonia, Spain"
       }
     ],
     "object_type": [
@@ -43,14 +39,48 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Barcelona"
+      },
+      {
+        "type": "string",
+        "value": "BCN"
+      },
+      {
+        "type": "string",
+        "value": "B'na"
+      },
+      {
+        "type": "string",
+        "value": "Barcelona, Spain"
+      },
+      {
+        "type": "string",
+        "value": "Barcelona, Catalonia"
+      },
+      {
+        "type": "string",
+        "value": "Barcelona City"
+      },
+      {
+        "type": "string",
+        "value": "Barcelona"
+      },
+      {
+        "type": "string",
+        "value": "City of Barcelona"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6356055",
+        "base_url": "https://www.geonames.org/",
+        "label": "6356055"
       }
     ]
   },

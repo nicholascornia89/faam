@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "16th-century Flemish composer"
       }
     ],
@@ -75,21 +71,24 @@
       {
         "type": "externalid",
         "value": "59349417",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "59349417"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000686",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000686"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Clemens_non_Papa,_Jacobus",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Clemens_non_Papa,_Jacobus"
       }
     ],
     "date of birth": [
@@ -104,7 +103,7 @@
         "value": "1555-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -155,19 +154,19 @@
       {
         "type": "item",
         "value": "6RZoyJeq",
-        "label": ""
+        "label": "Middelburg"
       },
       {
         "type": "item",
         "value": "JMSWfyLQ",
-        "label": ""
+        "label": "Ypres"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "DiMrFRwq",
-        "label": ""
+        "label": "Diksmuide"
       }
     ],
     "instrument": [],

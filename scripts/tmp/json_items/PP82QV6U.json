@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1901-1976)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Raymond Chevreuille"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "68774422",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "68774422"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1976-05-09"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -98,12 +91,12 @@
       {
         "type": "item",
         "value": "jd7d86Yw",
-        "label": ""
+        "label": "audio engineer"
       },
       {
         "type": "item",
         "value": "Qa6CGFCN",
-        "label": ""
+        "label": "tonmeister"
       }
     ],
     "sex or gender": [
@@ -131,7 +124,7 @@
       {
         "type": "item",
         "value": "6kcwZdMC",
-        "label": ""
+        "label": "Charleroi"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French singer and composer"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "292756913",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "292756913"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30001220",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30001220"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1833"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -125,7 +123,7 @@
       {
         "type": "item",
         "value": "3vFtsNzx",
-        "label": ""
+        "label": "Bordeaux"
       }
     ],
     "place of death": [],

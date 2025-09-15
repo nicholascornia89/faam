@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Dutch composer"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "34787193",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34787193"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30011931",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30011931"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1797-09-03"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -132,7 +130,7 @@
       {
         "type": "item",
         "value": "9T48q4GP",
-        "label": ""
+        "label": "IJsselstein"
       }
     ],
     "instrument": [],

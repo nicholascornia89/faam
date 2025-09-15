@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Joannes Brans"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Dutch teacher and Belgian school director and inspector"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -58,16 +45,67 @@
     "VIAF ID": [],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1796-12-27"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1862-11-13"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "YJXYuK6r",
+        "label": "head teacher"
+      },
+      {
+        "type": "item",
+        "value": "2znXfacf",
+        "label": "school inspector"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "ZvjsCjDf",
+        "label": "Kingdom of the Netherlands"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "JwHbbEG6",
+        "label": "Amsterdam"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "PKMmukjk",
+        "label": "Bruges"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

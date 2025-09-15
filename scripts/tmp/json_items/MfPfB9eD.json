@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian violinist and music editor"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Marcel Lejeune"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "79773608",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "79773608"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1978-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

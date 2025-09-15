@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hans Adolf Eduard Driesch"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German philosopher and biologist (1867 - 1941)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,140 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "66593001",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66593001"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1867-10-28"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1941-04-16"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "PhNcMCfn",
+        "label": "biologist"
+      },
+      {
+        "type": "item",
+        "value": "7QbPxufV",
+        "label": "zoologist"
+      },
+      {
+        "type": "item",
+        "value": "VPUDk9Pe",
+        "label": "philosopher"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "T5D6K3Dc",
+        "label": "German Empire"
+      },
+      {
+        "type": "item",
+        "value": "gNEuU89R",
+        "label": "Weimar Republic"
+      },
+      {
+        "type": "item",
+        "value": "RRn6anD6",
+        "label": "Nazi Germany"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "BaCfrKav",
+        "label": "Bad Kreuznach"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "educated at": [
+      {
+        "type": "item",
+        "value": "3QEVHhBS",
+        "label": "Friedrich Schiller University Jena"
+      },
+      {
+        "type": "item",
+        "value": "6p6B8bq8",
+        "label": "University of Freiburg"
+      },
+      {
+        "type": "item",
+        "value": "Qa3Njq76",
+        "label": "Gelehrtenschule des Johanneums"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "cc2zjtBZ",
+        "label": "Leipzig University"
+      },
+      {
+        "type": "item",
+        "value": "cfUrJYvb",
+        "label": "Heidelberg University"
+      },
+      {
+        "type": "item",
+        "value": "8zbbVqAH",
+        "label": "University of Cologne"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Driesch1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

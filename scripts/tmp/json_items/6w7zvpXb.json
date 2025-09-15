@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Book of Genesis"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "the first book of the Bible"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,7 +43,32 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "316751363",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "316751363"
+      },
+      {
+        "type": "externalid",
+        "value": "316388201",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "316388201"
+      },
+      {
+        "type": "externalid",
+        "value": "9583155044757872520009",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "9583155044757872520009"
+      },
+      {
+        "type": "externalid",
+        "value": "8745148523920720970004",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "8745148523920720970004"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],

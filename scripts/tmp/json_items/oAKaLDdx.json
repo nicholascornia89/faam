@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "66731753",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66731753"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30097008",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30097008"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1892-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

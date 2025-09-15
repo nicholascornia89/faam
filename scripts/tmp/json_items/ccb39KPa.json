@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Francisco Tárrega"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Spanish composer and classical guitarist (1852-1909)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,132 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "61733213",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61733213"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30101058",
+        "base_url": "https://rism.online/",
+        "label": "people/30101058"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Tárrega,_Francisco",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Tárrega,_Francisco"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1852-11-21"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1909-12-15"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "2T3aA4hC",
+        "label": "guitarist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "Un8MtxgS",
+        "label": "classical guitarist"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "RgbJis4S",
+        "label": "Villarreal"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "2sNqTvde",
+        "label": "Barcelona"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "2pgcwfpN",
+        "label": "classical guitar"
+      },
+      {
+        "type": "item",
+        "value": "ESwP43qy",
+        "label": "guitar"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "Me3Fmvnt",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "e6sNjZcy",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "UeYzEz2A",
+        "label": "Madrid Royal Conservatory"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +175,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Francisco_tarrega_retrato.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

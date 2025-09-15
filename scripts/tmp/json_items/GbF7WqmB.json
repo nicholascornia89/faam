@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German music publisher (1798–1871)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "66730515",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66730515"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/133509",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/133509"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1871-02-25"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -149,7 +147,7 @@
       {
         "type": "item",
         "value": "LbQkoCtF",
-        "label": ""
+        "label": "Baden-Baden"
       }
     ],
     "instrument": [],

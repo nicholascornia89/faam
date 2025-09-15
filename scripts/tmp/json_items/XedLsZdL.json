@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French historian"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Émile Travers"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "98265881",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "98265881"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "1913-11-28"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +107,14 @@
       {
         "type": "item",
         "value": "UHSXAavW",
-        "label": ""
+        "label": "Caen"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "UHSXAavW",
-        "label": ""
+        "label": "Caen"
       }
     ],
     "instrument": [],

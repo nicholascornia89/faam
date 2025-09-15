@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Persian poet and mystic"
       }
     ],
@@ -127,21 +123,24 @@
       {
         "type": "externalid",
         "value": "56731778",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56731778"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30048075",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30048075"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ḥāfiẓ",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ḥāfiẓ"
       }
     ],
     "date of birth": [
@@ -156,7 +155,7 @@
         "value": "1389"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -174,7 +173,7 @@
       {
         "type": "item",
         "value": "hNwBKzRd",
-        "label": ""
+        "label": "lyricist"
       },
       {
         "type": "item",
@@ -205,14 +204,14 @@
       {
         "type": "item",
         "value": "A4jTrnoc",
-        "label": ""
+        "label": "Shiraz"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "A4jTrnoc",
-        "label": ""
+        "label": "Shiraz"
       }
     ],
     "instrument": [],

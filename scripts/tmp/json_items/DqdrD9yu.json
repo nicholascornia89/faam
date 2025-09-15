@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Alcestis"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "ancient Greek tragedy by Euripides"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,7 +43,32 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "316879680",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "316879680"
+      },
+      {
+        "type": "externalid",
+        "value": "181151072",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "181151072"
+      },
+      {
+        "type": "externalid",
+        "value": "105158790618838851129",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "105158790618838851129"
+      },
+      {
+        "type": "externalid",
+        "value": "315239712",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "315239712"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],

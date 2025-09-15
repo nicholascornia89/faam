@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Maastricht"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city, municipality and capital of province Limburg, the Netherlands"
       }
     ],
     "object_type": [
@@ -43,14 +39,34 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Maastricht"
+      },
+      {
+        "type": "string",
+        "value": "Mastrique"
+      },
+      {
+        "type": "string",
+        "value": "Maestricht"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2751282",
+        "base_url": "https://www.geonames.org/",
+        "label": "2751282"
+      },
+      {
+        "type": "externalid",
+        "value": "2751283",
+        "base_url": "https://www.geonames.org/",
+        "label": "2751283"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "composer (1802-1861)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "61696402",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61696402"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/40205996",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/40205996"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Niedermeyer,_Louis",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Niedermeyer,_Louis"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1861-03-15"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,19 +135,19 @@
       {
         "type": "item",
         "value": "oE2525rj",
-        "label": ""
+        "label": "Nyon"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       },
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

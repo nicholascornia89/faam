@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Charles Delioux"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "56877093",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "56877093"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Delioux,_Charles",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Delioux,_Charles"
       }
     ],
     "date of birth": [
@@ -94,7 +88,7 @@
         "value": "1915-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -133,19 +127,19 @@
       {
         "type": "item",
         "value": "kKTMbrRV",
-        "label": ""
+        "label": "Lorient"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       },
       {
         "type": "item",
         "value": "HZJV4pgr",
-        "label": ""
+        "label": "17th arrondissement of Paris"
       }
     ],
     "instrument": [],

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Hans Bronsart von Schellendorff"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer (1830-1913)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,146 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "62333906",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "62333906"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30008259",
+        "base_url": "https://rism.online/",
+        "label": "people/30008259"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Bronsart_von_Schellendorff,_Hans",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bronsart_von_Schellendorff,_Hans"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1830-02-11"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1913-11-03"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "YUq8HaDb",
+        "label": "Kingdom of Prussia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "M2keqc3n",
+        "label": "Munich"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "ewwggKDh",
+        "label": "Franz Liszt"
+      },
+      {
+        "type": "item",
+        "value": "LZ3gdd8k",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "5yoX9z4P",
+        "label": "Humboldt-Universität zu Berlin"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "PN7EzPTi",
+        "label": "Hanover State Symphony Orchestra"
+      },
+      {
+        "type": "item",
+        "value": "2ZtTvxLM",
+        "label": "Hanover State Opera"
+      },
+      {
+        "type": "item",
+        "value": "DnSFuKZC",
+        "label": "Hanover State Ballet"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Hans_Bronsart_von_Schellendorff.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

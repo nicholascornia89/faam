@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1868-1952)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Lodewijk Mortelmans"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "44591385",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "44591385"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Mortelmans,_Lodewijk",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Mortelmans,_Lodewijk"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1952-06-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -150,14 +144,14 @@
       {
         "type": "item",
         "value": "jGe3vcFB",
-        "label": ""
+        "label": "Antwerp"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "jGe3vcFB",
-        "label": ""
+        "label": "Antwerp"
       }
     ],
     "instrument": [

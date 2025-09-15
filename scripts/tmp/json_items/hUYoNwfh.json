@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German singing teacher"
       }
     ],
@@ -65,12 +61,13 @@
       {
         "type": "externalid",
         "value": "Category:Bach, Albert Bernhard/Translator",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bach, Albert Bernhard/Translator"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

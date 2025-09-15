@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Gustav Zanger"
       }
     ],
@@ -50,14 +46,16 @@
       {
         "type": "externalid",
         "value": "2156593",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "2156593"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30080902",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30080902"
       }
     ],
     "IMSLP ID": [],
@@ -73,7 +71,7 @@
         "value": "1889-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

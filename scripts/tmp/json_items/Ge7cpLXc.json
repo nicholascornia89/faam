@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1852-1925)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Edmond Laurens"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "29793526",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "29793526"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/40206343",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/40206343"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Laurens,_Edmond",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Laurens,_Edmond"
       }
     ],
     "date of birth": [
@@ -100,7 +95,7 @@
         "value": "1925-00-00"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -134,19 +129,19 @@
       {
         "type": "item",
         "value": "hUXGkADj",
-        "label": ""
+        "label": "Bergerac"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       },
       {
         "type": "item",
         "value": "Q3ebu4Po",
-        "label": ""
+        "label": "14th arrondissement of Paris"
       }
     ],
     "instrument": [],

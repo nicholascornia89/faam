@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1661-1741)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Henri Desmarets"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "10032994",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10032994"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30000830",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30000830"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Desmarets,_Henri",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Desmarets,_Henri"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1741-09-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +138,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "TdajHKQU",
-        "label": ""
+        "label": "Lunéville"
       }
     ],
     "instrument": [],

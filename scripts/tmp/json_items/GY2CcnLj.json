@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "NewYork–Presbyterian Hospital"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "hospital in Manhattan, New York City"
       }
     ],
     "object_type": [
@@ -43,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
-  },
-  "statements": {
-    "GeoNames ID": [
+    "aliases": [
       {
-        "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "type": "string",
+        "value": "NewYork–Presbyterian Hospital"
+      },
+      {
+        "type": "string",
+        "value": "New York-Presbyterian Hospital"
+      },
+      {
+        "type": "string",
+        "value": "Columbia Presbyterian hospital"
       }
     ]
+  },
+  "statements": {
+    "GeoNames ID": []
   },
   "cross-references": {},
   "resources": {}

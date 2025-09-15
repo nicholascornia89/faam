@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French violinist, conductor, composer (1766-1831)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Rodolphe Kreutzer"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "54250851",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54250851"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/53845",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/53845"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Kreutzer,_Rodolphe",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Kreutzer,_Rodolphe"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1831-01-06"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -156,14 +151,14 @@
       {
         "type": "item",
         "value": "mNQbQBie",
-        "label": ""
+        "label": "Versailles"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "9Mh2HUxt",
-        "label": ""
+        "label": "Geneva"
       }
     ],
     "instrument": [

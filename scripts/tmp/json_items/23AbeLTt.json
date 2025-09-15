@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Port Louis"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of Mauritius"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Port Louis"
+      },
+      {
+        "type": "string",
+        "value": "Port-Louis"
+      },
+      {
+        "type": "string",
+        "value": "Porlwi"
+      },
+      {
+        "type": "string",
+        "value": "Polwi"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "934154",
+        "base_url": "https://www.geonames.org/",
+        "label": "934154"
       }
     ]
   },

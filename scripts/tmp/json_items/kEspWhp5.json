@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer (1943-2013)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Michael Vetter"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "46948067",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "46948067"
       }
     ],
     "RISM ID": [],
@@ -80,7 +73,7 @@
         "value": "2013-12-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -124,14 +117,14 @@
       {
         "type": "item",
         "value": "LkcGy7oq",
-        "label": ""
+        "label": "Oberstdorf"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "M2keqc3n",
-        "label": ""
+        "label": "Munich"
       }
     ],
     "instrument": [

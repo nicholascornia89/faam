@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Province of Granada"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "province of Spain"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Province of Granada"
+      },
+      {
+        "type": "string",
+        "value": "Provincia de Granada"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2517115",
+        "base_url": "https://www.geonames.org/",
+        "label": "2517115"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "5119173",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "5119173"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/135452",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/135452"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Thomas,_Ambroise",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Thomas,_Ambroise"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1896-02-12"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +140,14 @@
       {
         "type": "item",
         "value": "PDouTdyD",
-        "label": ""
+        "label": "Metz"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "6TF5Bjnj",
-        "label": ""
+        "label": "rue du Conservatoire"
       }
     ],
     "instrument": [],

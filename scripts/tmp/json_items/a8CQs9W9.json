@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Cambridge"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Middlesex County, Massachusetts, United States of America"
       }
     ],
     "object_type": [
@@ -43,14 +39,32 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Cambridge"
+      },
+      {
+        "type": "string",
+        "value": "Cambridge, Massachusetts"
+      },
+      {
+        "type": "string",
+        "value": "Cambridge, MA"
+      },
+      {
+        "type": "string",
+        "value": "Cambridge, Mass."
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "4931972",
+        "base_url": "https://www.geonames.org/",
+        "label": "4931972"
       }
     ]
   },

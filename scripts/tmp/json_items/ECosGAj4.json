@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "(1805-1889)"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "49956577",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "49956577"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30075641",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30075641"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1889-08-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -119,14 +117,14 @@
       {
         "type": "item",
         "value": "VqvPqabN",
-        "label": ""
+        "label": "Krušovice"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "WCvLUC56",
-        "label": ""
+        "label": "Stuttgart"
       }
     ],
     "instrument": [],

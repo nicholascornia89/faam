@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer (1659–1695)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Henry Purcell"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "5118737",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "5118737"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/33668",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/33668"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Purcell,_Henry",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Purcell,_Henry"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1695-11-21"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,7 +132,7 @@
       {
         "type": "item",
         "value": "Juo3wTsn",
-        "label": ""
+        "label": "author"
       }
     ],
     "sex or gender": [
@@ -158,14 +153,14 @@
       {
         "type": "item",
         "value": "DMDLFgCg",
-        "label": ""
+        "label": "Westminster"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "DMDLFgCg",
-        "label": ""
+        "label": "Westminster"
       }
     ],
     "instrument": [
@@ -206,7 +201,7 @@
       {
         "type": "item",
         "value": "PFwoN6Jy",
-        "label": ""
+        "label": "Westminster School"
       }
     ],
     "employer": []

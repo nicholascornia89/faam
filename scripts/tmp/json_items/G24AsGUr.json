@@ -5,10 +5,6 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Gustave Legouix"
       }
     ],
@@ -50,22 +46,26 @@
       {
         "type": "externalid",
         "value": "45152742889327730090",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "45152742889327730090"
       },
       {
         "type": "externalid",
         "value": "14155707093022412093",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "14155707093022412093"
       },
       {
         "type": "externalid",
         "value": "98884467",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "98884467"
       },
       {
         "type": "externalid",
         "value": "6886160668054603560008",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "6886160668054603560008"
       }
     ],
     "RISM ID": [],
@@ -86,7 +86,7 @@
         "value": "1916-08-24"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +126,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "JvV7vxxQ",
-        "label": ""
+        "label": "Montfermeil"
       }
     ],
     "instrument": [],

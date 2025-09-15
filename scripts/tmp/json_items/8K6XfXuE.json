@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "8th arrondissement of Paris"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "administrative district of Paris"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "8th arrondissement of Paris"
+      },
+      {
+        "type": "string",
+        "value": "Paris 8"
+      },
+      {
+        "type": "string",
+        "value": "75008"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3020270",
+        "base_url": "https://www.geonames.org/",
+        "label": "3020270"
       }
     ]
   },

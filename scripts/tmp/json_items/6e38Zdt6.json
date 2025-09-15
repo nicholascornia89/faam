@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German composer, pianist and conductor (1873-1916)"
       }
     ],
@@ -71,21 +67,24 @@
       {
         "type": "externalid",
         "value": "34644344",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "34644344"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/39452",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/39452"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Reger,_Max",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Reger,_Max"
       }
     ],
     "date of birth": [
@@ -100,7 +99,7 @@
         "value": "1916-05-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -164,7 +163,7 @@
       {
         "type": "item",
         "value": "dbPjVZtT",
-        "label": ""
+        "label": "Brand"
       }
     ],
     "place of death": [

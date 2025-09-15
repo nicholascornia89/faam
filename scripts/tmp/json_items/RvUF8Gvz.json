@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Nikolai Rubinstein"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Russian pianist, conductor and composer (1835-1881)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,173 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "52512631",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "52512631"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/67521",
+        "base_url": "https://rism.online/",
+        "label": "people/67521"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Rubinstein,_Nikolay",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Rubinstein,_Nikolay"
+      },
+      {
+        "type": "externalid",
+        "value": "Category:Rubinstein,_Nikolai_Grigoryevich",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Rubinstein,_Nikolai_Grigoryevich"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1835-06-02"
+      },
+      {
+        "type": "date",
+        "value": "1835-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1835-06-14"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1881-03-11"
+      },
+      {
+        "type": "date",
+        "value": "1881-00-00"
+      },
+      {
+        "type": "date",
+        "value": "1881-03-23"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "fgyBiYxY",
+        "label": "Moscow"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "LZ3gdd8k",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "82wmXrwP",
+        "label": "Theodor Kullak"
+      },
+      {
+        "type": "item",
+        "value": "hCB9JKwa",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "cJBJuBu7",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "bRWxgYHR",
+        "label": "Moscow Imperial University, Faculty of Law"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "Djq8DaQv",
+        "label": "Moscow Conservatory"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Nikolai_Rubinstein_1872.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

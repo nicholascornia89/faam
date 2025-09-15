@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Saint-Jean-Cap-Ferrat"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Alpes-Maritimes, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Saint-Jean-Cap-Ferrat"
+      },
+      {
+        "type": "string",
+        "value": "Sant Joan de Cap Ferrat"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2979369",
+        "base_url": "https://www.geonames.org/",
+        "label": "2979369"
       }
     ]
   },

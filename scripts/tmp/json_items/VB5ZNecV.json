@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Spanish composer of the Renaissance"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Francisco Guerrero"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "46901530",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "46901530"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30001394",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30001394"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Guerrero,_Francisco",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Guerrero,_Francisco"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1599-11-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +138,14 @@
       {
         "type": "item",
         "value": "oA9XiCdV",
-        "label": ""
+        "label": "Seville"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "oA9XiCdV",
-        "label": ""
+        "label": "Seville"
       }
     ],
     "instrument": [

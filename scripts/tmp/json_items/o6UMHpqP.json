@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Wetzikon"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Swiss municipality and city"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Wetzikon"
+      },
+      {
+        "type": "string",
+        "value": "Wetzikon ZH"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2658010",
+        "base_url": "https://www.geonames.org/",
+        "label": "2658010"
       }
     ]
   },

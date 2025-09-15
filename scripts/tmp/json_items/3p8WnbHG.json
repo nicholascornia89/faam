@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Castellammare di Stabia"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian comune"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Castellammare di Stabia"
+      },
+      {
+        "type": "string",
+        "value": "Castellamare"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6541903",
+        "base_url": "https://www.geonames.org/",
+        "label": "6541903"
       }
     ]
   },

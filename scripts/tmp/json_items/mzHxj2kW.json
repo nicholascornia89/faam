@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Spanish composer (1791-1836)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "74116544",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74116544"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016403",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016403"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Gomis,_José_Melchor",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Gomis,_José_Melchor"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1836-07-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -147,14 +146,14 @@
       {
         "type": "item",
         "value": "ZwBHTewm",
-        "label": ""
+        "label": "Ontinyent"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

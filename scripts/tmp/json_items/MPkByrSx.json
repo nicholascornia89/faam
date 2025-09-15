@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "musicologist"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Otto Vrieslander"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "37694056",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "37694056"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41001561",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41001561"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1950-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Olpe"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in North Rhine-Westphalia, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Olpe"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6557690",
+        "base_url": "https://www.geonames.org/",
+        "label": "6557690"
+      },
+      {
+        "type": "externalid",
+        "value": "2857306",
+        "base_url": "https://www.geonames.org/",
+        "label": "2857306"
       }
     ]
   },

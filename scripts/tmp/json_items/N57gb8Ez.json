@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bergen"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Norwegian city in Vestland, Norway"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bergen"
+      },
+      {
+        "type": "string",
+        "value": "Bjørgvin"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3161732",
+        "base_url": "https://www.geonames.org/",
+        "label": "3161732"
       }
     ]
   },

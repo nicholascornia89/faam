@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer, poet and theatre director"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "64125370",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64125370"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1848-04-16"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",
@@ -149,14 +146,14 @@
       {
         "type": "item",
         "value": "Z7kiYEC3",
-        "label": ""
+        "label": "Saint-Valery-sur-Somme"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [],

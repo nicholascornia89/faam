@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Château de Pau"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Castle in Pau, France"
       }
     ],
     "object_type": [
@@ -43,16 +39,23 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
-  },
-  "statements": {
-    "GeoNames ID": [
+    "aliases": [
       {
-        "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "type": "string",
+        "value": "Château de Pau"
+      },
+      {
+        "type": "string",
+        "value": "Pau Castle"
+      },
+      {
+        "type": "string",
+        "value": "Chateau de Pau"
       }
     ]
+  },
+  "statements": {
+    "GeoNames ID": []
   },
   "cross-references": {},
   "resources": {}

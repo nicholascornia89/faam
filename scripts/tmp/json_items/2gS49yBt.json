@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Schwabach"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Bavaria, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Schwabach"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2835537",
+        "base_url": "https://www.geonames.org/",
+        "label": "2835537"
+      },
+      {
+        "type": "externalid",
+        "value": "6556833",
+        "base_url": "https://www.geonames.org/",
+        "label": "6556833"
       }
     ]
   },

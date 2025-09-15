@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Antonio Salieri"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer and teacher (1750–1825)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,159 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "17408816",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17408816"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/76967",
+        "base_url": "https://rism.online/",
+        "label": "people/76967"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Salieri,_Antonio",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Salieri,_Antonio"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1750-08-18"
+      },
+      {
+        "type": "date",
+        "value": "1750-08-19"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1825-05-07"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "YYyZX3aY",
+        "label": "musicologist"
+      },
+      {
+        "type": "item",
+        "value": "6XD3homi",
+        "label": "music educator"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "7L3SCe2M",
+        "label": "Republic of Venice"
+      },
+      {
+        "type": "item",
+        "value": "FPDTfb7a",
+        "label": "Austrian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "MxC3kT6L",
+        "label": "Legnago"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "LD8HW7Tp",
+        "label": "Vienna"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "HW3s5Tj2",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "k2uaFQcA",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "bkXoB4qF",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "hkmp7km9",
+        "label": "Giovanni Battista Pescetti"
+      },
+      {
+        "type": "item",
+        "value": "TU6HRQKW",
+        "label": "Giuseppe Tartini"
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "hn6sVeFM",
+        "label": "University of Music and Performing Arts Vienna"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Antonio_Salieri_painted_by_Joseph_Willibrord_Mähler.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

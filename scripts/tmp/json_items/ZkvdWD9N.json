@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Dutch musician"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Wilbert Hazelzet"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "17407600",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "17407600"
       }
     ],
     "RISM ID": [],
@@ -75,7 +68,7 @@
       }
     ],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Michael Haydn"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Austrian composer, brother of Joseph Haydn, (1737-1806)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,118 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "74037803",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74037803"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/55810",
+        "base_url": "https://rism.online/",
+        "label": "people/55810"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Haydn,_Michael",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Haydn,_Michael"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1737-09-14"
+      },
+      {
+        "type": "date",
+        "value": "1737-09-17"
+      },
+      {
+        "type": "date",
+        "value": "1737-09-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1806-08-10"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RU9hU5Pa",
+        "label": "classical composer"
+      },
+      {
+        "type": "item",
+        "value": "PGamAZRD",
+        "label": "organist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "JNvuisFr",
+        "label": "Habsburg monarchy"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "CT8AQbkX",
+        "label": ""
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "h3Vsg2MJ",
+        "label": "Salzburg"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "J32Mk8QV",
+        "label": "pipe organ"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "EWFfqgzm",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },
@@ -78,7 +162,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Michaelhaydn1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

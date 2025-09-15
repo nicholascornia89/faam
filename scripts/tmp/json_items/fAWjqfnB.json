@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "9,88E+34",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "9,88E+34"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004862",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004862"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Boni,_Pietro_Giuseppe_Gaetano",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Boni,_Pietro_Giuseppe_Gaetano"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1750"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -127,7 +126,7 @@
       {
         "type": "item",
         "value": "RZra3Qhj",
-        "label": ""
+        "label": "Bologna"
       }
     ],
     "instrument": [],

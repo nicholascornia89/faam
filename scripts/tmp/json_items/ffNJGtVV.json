@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "musical sign (accidental) raising the pitch of a note by one chromatic semitone (factor 2^(1/12))"
       }
     ],
@@ -82,7 +78,7 @@
         "label": "accidental"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "N2f5NSgz",

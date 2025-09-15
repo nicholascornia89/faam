@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "81511075",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "81511075"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1993-07-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

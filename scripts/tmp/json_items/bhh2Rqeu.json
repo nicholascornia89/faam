@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian music theorist and composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "61812562",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61812562"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30013620",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30013620"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Pasquali,_Nicolo",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Pasquali,_Nicolo"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1757-10-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

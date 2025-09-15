@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Agostino Bendinelli"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,73 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "4369151353529952720000",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "4369151353529952720000"
+      }
+    ],
     "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Bendinelli,_Agostino",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Bendinelli,_Agostino"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1635-04-26"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1703-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "nKexL6pz",
+        "label": "Lucca"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "nKexL6pz",
+        "label": "Lucca"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

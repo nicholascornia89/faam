@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "British musician (1895-1967)"
       }
     ],
@@ -67,7 +63,8 @@
       {
         "type": "externalid",
         "value": "310501814",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "310501814"
       }
     ],
     "RISM ID": [],
@@ -84,7 +81,7 @@
         "value": "1967-11-13"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

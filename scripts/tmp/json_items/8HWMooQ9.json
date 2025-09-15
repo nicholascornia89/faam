@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Jules Duprato"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "French composer (1827–1892)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,125 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "66731730",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66731730"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/40219219",
+        "base_url": "https://rism.online/",
+        "label": "people/40219219"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Duprato,_Jules",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Duprato,_Jules"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1827-08-20"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1892-05-20"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KTqhXma",
+        "label": "music professor"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "KeKatfhk",
+        "label": "Nîmes"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "hynSFhcz",
+        "label": "rue Catherine-de-La-Rochefoucauld"
+      }
+    ],
     "instrument": [],
-    "influenced by": [],
-    "educated at": [],
-    "employer": []
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "AtwPfJ6K",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ],
+    "employer": [
+      {
+        "type": "item",
+        "value": "NA5EnjbE",
+        "label": "Conservatoire de Paris"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Jules_Duprato.png",
+        "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      },
+      {
+        "type": "image",
+        "value": "Jules_Duprato_by_Gustave_Boulanger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

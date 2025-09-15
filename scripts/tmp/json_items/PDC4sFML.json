@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Ferdinand Hiller"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer and conductor (1811–1885)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,30 +42,149 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "95188829",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "95188829"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/81888",
+        "base_url": "https://rism.online/",
+        "label": "people/81888"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Hiller,_Ferdinand",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Hiller,_Ferdinand"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1811-10-24"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1885-05-11"
+      },
+      {
+        "type": "date",
+        "value": "1885-05-10"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "ZX7Jzf9y",
+        "label": "university teacher"
+      },
+      {
+        "type": "item",
+        "value": "6NxLtWgR",
+        "label": "critic"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "YUq8HaDb",
+        "label": "Kingdom of Prussia"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "SptwZTXr",
+        "label": "Frankfurt"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "62eKJkdm",
+        "label": "Cologne"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "QRwETu3H",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "kZj58UuH",
+        "label": "Johann Nepomuk Hummel"
+      },
+      {
+        "type": "item",
+        "value": "49TYy5KT",
+        "label": ""
+      }
+    ],
     "educated at": [],
-    "employer": []
+    "employer": [
+      {
+        "type": "item",
+        "value": "gUzBpRiX",
+        "label": "Hochschule für Musik und Tanz Köln"
+      }
+    ]
   },
   "cross-references": {},
   "resources": {
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Ferdinand_Hiller2.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

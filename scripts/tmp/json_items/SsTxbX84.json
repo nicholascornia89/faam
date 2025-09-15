@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer (1843–1917)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "69123822",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "69123822"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30024376",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30024376"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Lefebvre,_Charles",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lefebvre,_Charles"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1917-09-08"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -136,14 +135,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "TuiL9GBR",
-        "label": ""
+        "label": "Aix-les-Bains"
       }
     ],
     "instrument": [],

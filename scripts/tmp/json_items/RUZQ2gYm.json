@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Swiss composer (1901-1989)"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "64060997",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64060997"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/50035286",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/50035286"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Beck,_Conrad",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Beck,_Conrad"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1989-10-31"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -126,14 +125,14 @@
       {
         "type": "item",
         "value": "KEjmz8NL",
-        "label": ""
+        "label": "Lohn"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "nRMPrHtA",
-        "label": ""
+        "label": "Basel"
       }
     ],
     "instrument": [],

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Opole"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city with powiat rights of Poland"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Opole"
+      },
+      {
+        "type": "string",
+        "value": "Oppeln"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3090048",
+        "base_url": "https://www.geonames.org/",
+        "label": "3090048"
       }
     ]
   },

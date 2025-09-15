@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Menen"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in West Flanders, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Menen"
+      },
+      {
+        "type": "string",
+        "value": "Menin"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2791344",
+        "base_url": "https://www.geonames.org/",
+        "label": "2791344"
       }
     ]
   },

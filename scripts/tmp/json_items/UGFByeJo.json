@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Anton Stamitz"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "German composer"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,21 +42,129 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "98768018",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "98768018"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/30003031",
+        "base_url": "https://rism.online/",
+        "label": "people/30003031"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Stamitz,_Anton",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Stamitz,_Anton"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1750-11-27"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1809-01-01"
+      },
+      {
+        "type": "date",
+        "value": "1800-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "2KT5AU2p",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "irSPevuD",
+        "label": "violinist"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "FPDTfb7a",
+        "label": "Austrian Empire"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "ABisdepC",
+        "label": "Havlíčkův Brod"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "NTVdRo4W",
+        "label": "Paris"
+      },
+      {
+        "type": "item",
+        "value": "mNQbQBie",
+        "label": "Versailles"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "VZE4bgeN",
+        "label": "violin"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "kJLLR8EA",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "ZVbzDtJ4",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "aZG5Ckk8",
+        "label": ""
+      }
+    ],
     "educated at": [],
     "employer": []
   },

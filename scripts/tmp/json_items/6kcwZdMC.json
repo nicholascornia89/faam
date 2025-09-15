@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Charleroi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in Wallonia, Belgium"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Charleroi"
+      },
+      {
+        "type": "string",
+        "value": "Chålerwè"
+      },
+      {
+        "type": "string",
+        "value": "Tchålerwè"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2800482",
+        "base_url": "https://www.geonames.org/",
+        "label": "2800482"
       }
     ]
   },

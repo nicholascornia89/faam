@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Amsterdam"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipality in the Netherlands, containing the cities of Amsterdam and Weesp"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Amsterdam"
+      },
+      {
+        "type": "string",
+        "value": "Amsterdam municipality"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2759793",
+        "base_url": "https://www.geonames.org/",
+        "label": "2759793"
       }
     ]
   },

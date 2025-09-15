@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Austrian composer and publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Anton Diabelli"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "10033017",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "10033017"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/9700",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/9700"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Diabelli,_Anton",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Diabelli,_Anton"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1858-04-07"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +136,14 @@
       {
         "type": "item",
         "value": "eTRGnddE",
-        "label": ""
+        "label": "Mattsee"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "instrument": [

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Choisy-le-Roi"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "commune in Val-de-Marne, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Choisy-le-Roi"
+      },
+      {
+        "type": "string",
+        "value": "Choisy-sur-Seine"
+      },
+      {
+        "type": "string",
+        "value": "CLR"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3025055",
+        "base_url": "https://www.geonames.org/",
+        "label": "3025055"
       }
     ]
   },

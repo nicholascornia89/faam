@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Spanish composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "100166082",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "100166082"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30002254",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30002254"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Morales,_Cristóbal_de",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Morales,_Cristóbal_de"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1553"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -143,14 +142,14 @@
       {
         "type": "item",
         "value": "oA9XiCdV",
-        "label": ""
+        "label": "Seville"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "aUZVVTcx",
-        "label": ""
+        "label": "Marchena"
       }
     ],
     "instrument": [],

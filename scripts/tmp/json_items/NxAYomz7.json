@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "pianist and composer (1822-1899)"
       }
     ],
@@ -67,21 +63,24 @@
       {
         "type": "externalid",
         "value": "74118088",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "74118088"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/41281",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/41281"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Ehrlich,_Heinrich",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Ehrlich,_Heinrich"
       }
     ],
     "date of birth": [
@@ -96,7 +95,7 @@
         "value": "1899-12-30"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -160,7 +159,7 @@
       {
         "type": "item",
         "value": "LD8HW7Tp",
-        "label": ""
+        "label": "Vienna"
       }
     ],
     "place of death": [

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Palermo"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "Italian city, capital of Sicily"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Palermo"
+      },
+      {
+        "type": "string",
+        "value": "Palermo, Italy"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6542127",
+        "base_url": "https://www.geonames.org/",
+        "label": "6542127"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Belgian composer (1892-1918)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Georges Antoine"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "54352698",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "54352698"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Antoine,_Georges",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Antoine,_Georges"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1918-11-15"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -120,7 +114,7 @@
       {
         "type": "item",
         "value": "oAADJcBU",
-        "label": ""
+        "label": "Liège"
       }
     ],
     "place of death": [

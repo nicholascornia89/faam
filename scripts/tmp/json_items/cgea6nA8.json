@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bernardus Nachtergaele"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -58,16 +45,81 @@
     "VIAF ID": [],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1784-01-31"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1850-11-28"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "VFgcCTwt",
+        "label": "educator"
+      },
+      {
+        "type": "item",
+        "value": "ZnHbmhfu",
+        "label": "Catholic priest"
+      },
+      {
+        "type": "item",
+        "value": "RvhD6Aot",
+        "label": "curate"
+      },
+      {
+        "type": "item",
+        "value": "YJXYuK6r",
+        "label": "head teacher"
+      },
+      {
+        "type": "item",
+        "value": "kHp8wFpn",
+        "label": "director"
+      },
+      {
+        "type": "item",
+        "value": "99WGUK6y",
+        "label": "spiritual director"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
     "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "9EJpARFv",
+        "label": "Waregem"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "FF8aDsue",
+        "label": "Roeselare"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],
@@ -78,7 +130,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Bernard_Nachtergaele,_PA03099.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "English composer and pianist (b.1882)"
       }
     ],
@@ -63,12 +59,14 @@
       {
         "type": "externalid",
         "value": "64272230",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "64272230"
       },
       {
         "type": "externalid",
         "value": "306431052",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "306431052"
       }
     ],
     "RISM ID": [],
@@ -85,7 +83,7 @@
         "value": "1901-01-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

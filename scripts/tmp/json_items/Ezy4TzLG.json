@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Piran"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "coastal town of Slovenia"
       }
     ],
     "object_type": [
@@ -43,14 +39,30 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Piran"
+      },
+      {
+        "type": "string",
+        "value": "Pirano"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3193340",
+        "base_url": "https://www.geonames.org/",
+        "label": "3193340"
+      },
+      {
+        "type": "externalid",
+        "value": "3193341",
+        "base_url": "https://www.geonames.org/",
+        "label": "3193341"
       }
     ]
   },

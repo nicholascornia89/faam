@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer and conductor (1860–1908)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Georges Marty"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "39575575",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "39575575"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/50036251",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/50036251"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Marty,_Georges",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Marty,_Georges"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1908-10-11"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,14 +136,14 @@
       {
         "type": "item",
         "value": "ehs37s48",
-        "label": ""
+        "label": "10th arrondissement of Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5FBtSF63",
-        "label": ""
+        "label": "9th arrondissement of Paris"
       }
     ],
     "instrument": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Dutch musician (1881-1962)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Egon Petri"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "12492447",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "12492447"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/13544",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/13544"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Petri,_Egon",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Petri,_Egon"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1962-05-27"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -156,14 +151,14 @@
       {
         "type": "item",
         "value": "7VPhvige",
-        "label": ""
+        "label": "Hanover"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "8xpdqEb3",
-        "label": ""
+        "label": "Berkeley"
       }
     ],
     "instrument": [

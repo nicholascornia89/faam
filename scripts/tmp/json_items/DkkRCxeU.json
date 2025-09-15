@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "7th arrondissement of Paris"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "municipal arrondissement in Île-de-France, France"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "7th arrondissement of Paris"
+      },
+      {
+        "type": "string",
+        "value": "7e arrondissement de Paris"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2988760",
+        "base_url": "https://www.geonames.org/",
+        "label": "2988760"
       }
     ]
   },

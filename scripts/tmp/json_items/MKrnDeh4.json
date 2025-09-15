@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French baritone"
       }
     ],
@@ -67,14 +63,16 @@
       {
         "type": "externalid",
         "value": "133152742898827731173",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "133152742898827731173"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30044440",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30044440"
       }
     ],
     "IMSLP ID": [],
@@ -90,7 +88,7 @@
         "value": "1909-06-16"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -120,7 +118,7 @@
       {
         "type": "item",
         "value": "n8RY6FTC",
-        "label": ""
+        "label": "professor"
       },
       {
         "type": "item",
@@ -146,14 +144,14 @@
       {
         "type": "item",
         "value": "Hyo5RL5i",
-        "label": ""
+        "label": "Suresnes"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "5QzfLDJP",
-        "label": ""
+        "label": "Neuilly-sur-Seine"
       }
     ],
     "instrument": [
@@ -180,7 +178,7 @@
       {
         "type": "item",
         "value": "QaJicP98",
-        "label": ""
+        "label": "National Conservatory of Music of America"
       },
       {
         "type": "item",

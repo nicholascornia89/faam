@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Detmold"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "city in North Rhine-Westphalia, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,26 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Detmold"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2937936",
+        "base_url": "https://www.geonames.org/",
+        "label": "2937936"
+      },
+      {
+        "type": "externalid",
+        "value": "6547480",
+        "base_url": "https://www.geonames.org/",
+        "label": "6547480"
       }
     ]
   },

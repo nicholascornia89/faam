@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Psalms"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "book of the Bible, has five books"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -56,7 +43,20 @@
   },
   "statements": {
     "IMSLP ID": [],
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "189399370",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "189399370"
+      },
+      {
+        "type": "externalid",
+        "value": "180246870",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "180246870"
+      }
+    ],
     "CPDL ID": [],
     "form of creative work": [],
     "creator": [],

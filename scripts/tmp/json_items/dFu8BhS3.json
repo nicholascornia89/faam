@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian singer and opera singer"
       }
     ],
@@ -63,14 +59,16 @@
       {
         "type": "externalid",
         "value": "41713316",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "41713316"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/20000420",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/20000420"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +84,7 @@
         "value": "1808-10-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +112,14 @@
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "MFmrxsjA",
-        "label": ""
+        "label": "Neuburg an der Donau"
       }
     ],
     "instrument": [

@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Southwark"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "district of Central London, England"
       }
     ],
     "object_type": [
@@ -43,14 +39,28 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Southwark"
+      },
+      {
+        "type": "string",
+        "value": "Borough"
+      },
+      {
+        "type": "string",
+        "value": "The Borough"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2637299",
+        "base_url": "https://www.geonames.org/",
+        "label": "2637299"
       }
     ]
   },

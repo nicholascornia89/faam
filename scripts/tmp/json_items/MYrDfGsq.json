@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "book by François Couperin"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "L'art de toucher le clavecin"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "L'Art de toucher le clavecin (Couperin, François)",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "L'Art de toucher le clavecin (Couperin, François)"
       }
     ],
     "VIAF ID": [
       {
         "type": "externalid",
         "value": "185250979",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "185250979"
       }
     ],
     "CPDL ID": [],

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Félicie Rameau"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "297431253",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "297431253"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30016716",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30016716"
       }
     ],
     "IMSLP ID": [],
@@ -81,7 +75,7 @@
         "value": "1895"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",

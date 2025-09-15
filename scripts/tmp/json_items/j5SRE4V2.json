@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian violinist and composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antonio Lolli"
       }
     ],
@@ -63,7 +55,8 @@
       {
         "type": "externalid",
         "value": "6,47E+34",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "6,47E+34"
       }
     ],
     "RISM ID": [],
@@ -71,7 +64,8 @@
       {
         "type": "externalid",
         "value": "Category:Lolli,_Antonio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lolli,_Antonio"
       }
     ],
     "date of birth": [
@@ -86,7 +80,7 @@
         "value": "1802-08-10"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -114,14 +108,14 @@
       {
         "type": "item",
         "value": "kk3x69qv",
-        "label": ""
+        "label": "Bergamo"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "UwKHjDYx",
-        "label": ""
+        "label": "Palermo"
       }
     ],
     "instrument": [

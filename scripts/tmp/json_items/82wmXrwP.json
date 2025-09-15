@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "German musician (1818-1882)"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Theodor Kullak"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "15036522",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "15036522"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/61249",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/61249"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Kullak,_Theodor",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Kullak,_Theodor"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1882-03-01"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -141,7 +136,7 @@
       {
         "type": "item",
         "value": "CzMA7evQ",
-        "label": ""
+        "label": "Krotoszyn"
       }
     ],
     "place of death": [

@@ -5,18 +5,10 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Pedro Fernández de Castilleja"
       }
     ],
     "description": [
-      {
-        "type": "string",
-        "value": ""
-      },
       {
         "type": "string",
         "value": ""
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,19 +42,93 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "63653350",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "63653350"
+      },
+      {
+        "type": "externalid",
+        "value": "169850925",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "169850925"
+      }
+    ],
     "RISM ID": [],
     "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1487-00-00"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1574-00-00"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "PUmeYeCQ",
+        "label": "musician"
+      },
+      {
+        "type": "item",
+        "value": "WF4NSijn",
+        "label": "poet"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      },
+      {
+        "type": "item",
+        "value": "6WQk6YRw",
+        "label": "Crown of Castile"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "iWkCVVn8",
+        "label": "Castilleja de la Cuesta"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "oA9XiCdV",
+        "label": "Seville"
+      }
+    ],
     "instrument": [],
     "influenced by": [],
     "educated at": [],

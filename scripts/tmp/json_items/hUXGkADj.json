@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Bergerac"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "French commune in Dordogne, Nouvelle-Aquitaine"
       }
     ],
     "object_type": [
@@ -43,14 +39,38 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bergerac"
+      },
+      {
+        "type": "string",
+        "value": "Brageirac"
+      },
+      {
+        "type": "string",
+        "value": "Brajairac"
+      },
+      {
+        "type": "string",
+        "value": "Bergerac, New Aquitaine"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "6455004",
+        "base_url": "https://www.geonames.org/",
+        "label": "6455004"
+      },
+      {
+        "type": "externalid",
+        "value": "3033391",
+        "base_url": "https://www.geonames.org/",
+        "label": "3033391"
       }
     ]
   },

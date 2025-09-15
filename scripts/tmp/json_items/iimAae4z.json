@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Kent"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "non-metropolitan county in South East England, UK (doesn't include Medway)"
       }
     ],
     "object_type": [
@@ -43,14 +39,20 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Kent"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3333158",
+        "base_url": "https://www.geonames.org/",
+        "label": "3333158"
       }
     ]
   },

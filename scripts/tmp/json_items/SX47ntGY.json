@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French music publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Brandus et Cie"
       }
     ],
@@ -63,26 +55,29 @@
       {
         "type": "externalid",
         "value": "125835740",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "125835740"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "institutions/30080942",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "institutions/30080942"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Brandus",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Brandus"
       }
     ],
     "date of birth": [],
     "date of death": [],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "2fXfbLCV",

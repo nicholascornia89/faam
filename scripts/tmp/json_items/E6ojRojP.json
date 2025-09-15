@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Francesco Durante"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "61731627",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "61731627"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/20000440",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/20000440"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Durante,_Francesco",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Durante,_Francesco"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1755-09-30"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -138,14 +133,14 @@
       {
         "type": "item",
         "value": "W2Neip84",
-        "label": ""
+        "label": "Frattamaggiore"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "RjXv6xhJ",
-        "label": ""
+        "label": "Naples"
       }
     ],
     "instrument": [],

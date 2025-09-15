@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Vienna"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital of and state in Austria"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Vienna"
+      },
+      {
+        "type": "string",
+        "value": "Vienna, Austria"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "2761369",
+        "base_url": "https://www.geonames.org/",
+        "label": "2761369"
       }
     ]
   },

@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French Baroque composer and violinist"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "66652866",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "66652866"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30012255",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30012255"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Rebel,_Jean-Féry",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Rebel,_Jean-Féry"
       }
     ],
     "date of birth": [
@@ -92,7 +91,7 @@
         "value": "1747-01-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -148,14 +147,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [
@@ -182,7 +181,7 @@
       {
         "type": "item",
         "value": "PuHUWBAB",
-        "label": ""
+        "label": "Académie Royale de Musique"
       }
     ]
   },

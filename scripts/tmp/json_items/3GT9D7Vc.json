@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French composer"
       }
     ],
@@ -63,21 +59,24 @@
       {
         "type": "externalid",
         "value": "22327787",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "22327787"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/65446",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/65446"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Lalo,_Édouard",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Lalo,_Édouard"
       }
     ],
     "date of birth": [
@@ -100,7 +99,7 @@
         "value": "1892-04-23"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -139,14 +138,14 @@
       {
         "type": "item",
         "value": "Rtqhs3sc",
-        "label": ""
+        "label": "Lille"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "HZJV4pgr",
-        "label": ""
+        "label": "17th arrondissement of Paris"
       }
     ],
     "instrument": [
@@ -182,7 +181,7 @@
       {
         "type": "item",
         "value": "KRuujjMV",
-        "label": ""
+        "label": "Regional Conservatory of Lille"
       }
     ],
     "employer": []

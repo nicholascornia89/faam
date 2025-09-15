@@ -5,17 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Oldenburg"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "town in Lower Saxony, Germany"
       }
     ],
     "object_type": [
@@ -43,14 +39,24 @@
         "base_url": "http://wwww.wikidata.org/entity/"
       }
     ],
-    "aliases": []
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Oldenburg"
+      },
+      {
+        "type": "string",
+        "value": "Oldenburg (Oldb)"
+      }
+    ]
   },
   "statements": {
     "GeoNames ID": [
       {
         "type": "externalid",
-        "value": "",
-        "base_url": "https://www.geonames.org/"
+        "value": "3221095",
+        "base_url": "https://www.geonames.org/",
+        "label": "3221095"
       }
     ]
   },

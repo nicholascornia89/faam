@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Italian composer"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Antonio Cifra"
       }
     ],
@@ -63,21 +55,24 @@
       {
         "type": "externalid",
         "value": "89090383",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "89090383"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/30004964",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/30004964"
       }
     ],
     "IMSLP ID": [
       {
         "type": "externalid",
         "value": "Category:Cifra,_Antonio",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Cifra,_Antonio"
       }
     ],
     "date of birth": [
@@ -92,7 +87,7 @@
         "value": "1629-10-02"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,14 +132,14 @@
       {
         "type": "item",
         "value": "D247TEPs",
-        "label": ""
+        "label": "Province of Latina"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NFucdNg8",
-        "label": ""
+        "label": "Loreto"
       }
     ],
     "instrument": [],

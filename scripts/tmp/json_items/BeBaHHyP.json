@@ -15,10 +15,6 @@
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "French violinist and music publisher"
       }
     ],
@@ -43,10 +39,6 @@
     "aliases": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
         "value": "Jean-Jérôme Imbault"
       }
     ],
@@ -63,14 +55,16 @@
       {
         "type": "externalid",
         "value": "107542259",
-        "base_url": "https://viaf.org/viaf/"
+        "base_url": "https://viaf.org/viaf/",
+        "label": "107542259"
       }
     ],
     "RISM ID": [
       {
         "type": "externalid",
         "value": "people/253781",
-        "base_url": "https://rism.online/"
+        "base_url": "https://rism.online/",
+        "label": "people/253781"
       }
     ],
     "IMSLP ID": [],
@@ -86,7 +80,7 @@
         "value": "1832-04-15"
       }
     ],
-    "type": [
+    "instance of": [
       {
         "type": "item",
         "value": "ZwquHrbe",
@@ -137,14 +131,14 @@
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "place of death": [
       {
         "type": "item",
         "value": "NTVdRo4W",
-        "label": ""
+        "label": "Paris"
       }
     ],
     "instrument": [

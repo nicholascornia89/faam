@@ -5,21 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Luigi Dallapiccola"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
-      },
-      {
-        "type": "string",
-        "value": ""
+        "value": "Italian composer (1904–1975)"
       }
     ],
     "object_type": [
@@ -40,12 +32,7 @@
         "value": "0"
       }
     ],
-    "aliases": [
-      {
-        "type": "string",
-        "value": ""
-      }
-    ],
+    "aliases": [],
     "qid": [
       {
         "type": "externalid",
@@ -55,22 +42,122 @@
     ]
   },
   "statements": {
-    "VIAF ID": [],
-    "RISM ID": [],
-    "IMSLP ID": [],
-    "date of birth": [],
-    "date of death": [],
-    "type": [],
+    "VIAF ID": [
+      {
+        "type": "externalid",
+        "value": "68977874",
+        "base_url": "https://viaf.org/viaf/",
+        "label": "68977874"
+      }
+    ],
+    "RISM ID": [
+      {
+        "type": "externalid",
+        "value": "people/1731",
+        "base_url": "https://rism.online/",
+        "label": "people/1731"
+      }
+    ],
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "Category:Dallapiccola,_Luigi",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "Category:Dallapiccola,_Luigi"
+      }
+    ],
+    "date of birth": [
+      {
+        "type": "date",
+        "value": "1904-02-03"
+      }
+    ],
+    "date of death": [
+      {
+        "type": "date",
+        "value": "1975-02-19"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "ZwquHrbe",
+        "label": "human"
+      }
+    ],
     "role": [],
     "related to": [],
-    "occupation": [],
-    "sex or gender": [],
-    "nationality": [],
-    "place of birth": [],
-    "place of death": [],
-    "instrument": [],
-    "influenced by": [],
-    "educated at": [],
+    "occupation": [
+      {
+        "type": "item",
+        "value": "RHfvaKqY",
+        "label": "pianist"
+      },
+      {
+        "type": "item",
+        "value": "KZLqHwSf",
+        "label": "composer"
+      }
+    ],
+    "sex or gender": [
+      {
+        "type": "item",
+        "value": "VAnkqco6",
+        "label": "male"
+      }
+    ],
+    "nationality": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      },
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      }
+    ],
+    "place of birth": [
+      {
+        "type": "item",
+        "value": "FWqFj5hV",
+        "label": "Pazin"
+      }
+    ],
+    "place of death": [
+      {
+        "type": "item",
+        "value": "8Xy54PC2",
+        "label": "Florence"
+      }
+    ],
+    "instrument": [
+      {
+        "type": "item",
+        "value": "GoXpNrsh",
+        "label": "piano"
+      }
+    ],
+    "influenced by": [
+      {
+        "type": "item",
+        "value": "fs633mk2",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "J6PFEZo8",
+        "label": ""
+      }
+    ],
+    "educated at": [
+      {
+        "type": "item",
+        "value": "ZohuQfMv",
+        "label": "Conservatorio Luigi Cherubini"
+      }
+    ],
     "employer": []
   },
   "cross-references": {},
@@ -78,7 +165,7 @@
     "image": [
       {
         "type": "image",
-        "value": "",
+        "value": "Luigi-Dallapiccola.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
       }
     ]
