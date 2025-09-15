@@ -180,11 +180,17 @@ def faam_kb():
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
         # generate pyvis networks: TO BE CHECKED
-        generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+        # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
         github_api_repo = "https://api.github.com/repos/nicholascornia89/"
         # TO BE CONTINUED
         generate_image_carousels(faam_kb, github_api_repo)
+
+        faam_kb_filename = os.path.join(
+            "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+        )
+
+        dict2json(faam_kb, faam_kb_filename)
 
 
 # Mkdocs pages
