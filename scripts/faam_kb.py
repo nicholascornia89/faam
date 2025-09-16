@@ -244,7 +244,7 @@ def fix_subobjects_statements(d,nodegoat_csv_path,nodegoat2faam_kb_filename):
 
 	return d	
 
-def add_label_to_statement(faam_kb): # TO BE CHECKED!
+def add_label_to_statement(faam_kb):
 
 	# generate UUID list
 

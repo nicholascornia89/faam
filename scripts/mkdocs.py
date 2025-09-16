@@ -12,9 +12,18 @@ import networkx as nx
 import matplotlib
 import matplotlib.pyplot
 
+# GitHub API
+from github import Github, Auth
+
+# Dominate Generate HTML page
+import dominate
+from dominate.tags import *
+from dominate.util import raw
+
 sys.path.append(".")
 from utilities import *
 from faam_kb import *
+from rdf import *
 
 # Pyvis functions
 
@@ -169,22 +178,20 @@ export option for users."""
 def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 	nodegoat2faam_kb = csv2dict(nodegoat2faam_kb_filename)
 	for item in faam_kb["items"]:
-		data = item
-		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
 		item["resources"]["JSON"] = [
 			{
 				"type": "url",
-				"base_url": "./",
+				"base_url": "../json/",
 				"value": item["id"]+".json"
 
 			}
 		]
 		# generate RDF Turtle serialization
-		generate_rdf_item(item,nodegoat2faam_kb,os.path.join(out_dir,"pages",item["id"]+".ttl"))
+		generate_rdf_item(item,nodegoat2faam_kb,os.path.join(out_dir,"rdf_items",item["id"]+".ttl"))
 		item["resources"]["RDF"] = [
 			{
 				"type": "url",
-				"base_url": "./",
+				"base_url": "../rdf/",
 				"value": item["id"]+".ttl"
 			}
 
@@ -194,18 +201,16 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["CSV"] = [
 			{
 				"type": "url",
-				"base_url": "./",
+				"base_url": "../csv/",
 				"value": item["id"]+".csv"
 			}
 
 		]
 
-	return faam_kb
+		data = item
+		dict2json(data,os.path.join(out_dir,"json_items",f"{item["id"]}.json"))
 
-"""generate Turtle RDF serialization of metadata according to Nodegoat2LOD mapping"""
-def generate_rdf_item(item,nodegoat2faam_kb,file_path):
-	# TO BE CONTINUED
-	pass
+	return faam_kb
 
 def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 	# serialize JSON item to CSV
@@ -290,7 +295,7 @@ def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
 
 # Image Carousel using GitHub API
 
-def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED AND CHECKED
+def generate_image_carousel(faam_kb,github_repo_url):
 	# get GitHub credentials
 	credentials = json2dict(os.path.join("credentials","github_credentials.json"))
 	auth = Auth.Token(credentials["access_token"])
@@ -299,26 +304,103 @@ def generate_image_carousel(faam_kb,github_repo_url): # TO BE CONTINUED AND CHEC
 	for item in faam_kb["items"]:
 		if item["metadata"]["object_type"][0]["value"] == "manifestation":
 			# get GitHub repository from resources
-			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/","").replace("tree/main/","")
+			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/","")
 			user_name = GitHub_path.split("/")[0]
 			repo_name = GitHub_path.split("/")[1]
-			print(f"GitHub path: {GitHub_path} \n Repository name: {repo_name}")
-			repo = g.get_repo(GitHub_path)
-			contents = repo.get_contents("")
+			path_name = GitHub_path.replace(f"{user_name}/{repo_name}/tree/main/","")
+			print(f"GitHub path: {GitHub_path}")
+			repo = g.get_repo(f"{user_name}/{repo_name}")
+			contents = repo.get_contents(path_name)
 
 			raw_images = [] # generate raw images URL for carousel
-			for image in contants:
+			for image in contents:
 				raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/{image.path}")
 
-			print(f"Raw URL for images: {raw_images}")
+			#print(f"Raw URL for images: {raw_images}")
 
-			input()
+			# generate a HTML page with image carousel using Dominate
 
-			pass
+			# generate new page
+			doc = dominate.document(title=item["metadata"]["FAAM manifestation ID"][0]["value"])
 
 
+			# generate head
+			with doc.head:
+				meta(charset="utf-8")
+				meta(name="viewport", content="width=device-width, initial-scale=1")
+				link(
+					href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+					rel="stylesheet",
+				)
+				link(href="https://getbootstrap.com/docs/5.2/assets/css/docs.css", rel="stylesheet")
+				script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js")
+
+			# generate style
+
+			doc.add(style(raw(""".background-faam {
+  									background-color: #1e1d1d;
+  						}""")))
+
+			# generate body
+
+			with doc:
+				with div(cls="background-faam"):
+					img(src="https://raw.githubusercontent.com/nicholascornia89/faam/main/overrides/assets/images/faam-logo_full-gold.png", width="200" ,height="100")
+
+					with div(id="carouselExampleIndicators", cls="carousel slide", data_interval="false"):
+						with div(cls="carousel-indicators"):
+							for i in range(len(raw_images)):
+								if i == 0:
+									button(
+										type="button",
+										cls="active",
+										data_bs_target="#carouselExampleIndicators",
+										data_bs_slide_to=f"{i}",
+										aria_current="true",
+										aria_label=f"Slide {i+1}",
+									)
+								else:
+									button(
+										type="button",
+										cls="",
+										data_bs_target="#carouselExampleIndicators",
+										data_bs_slide_to=f"{i}",
+										aria_current="false",
+										aria_label=f"Slide {i+1}",
+									)
+
+						with div(cls="carousel-inner"):
+							for i in range(len(raw_images)):
+								if i == 0:
+									with div(cls="carousel-item active"):
+										img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
+								else:
+									with div(cls="carousel-item"):
+										img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
+
+						with button(
+							cls="carousel-control-prev",
+							type="button",
+							data_bs_target="#carouselExampleIndicators",
+							data_bs_slide="prev",
+						):
+							span(cls="carousel-control-prev-icon", aria_hidden="true")
+							span("Previous", cls="visually-hidden")
+
+						with button(
+							cls="carousel-control-next",
+							type="button",
+							data_bs_target="#carouselExampleIndicators",
+							data_bs_slide="next",
+						):
+							span(cls="carousel-control-next-icon", aria_hidden="true")
+							span("Next", cls="visually-hidden")
 
 
+			# save HTML page
+
+			with open(os.path.join("tmp","image_carousels",f"{item["id"]}.html"), "w") as f:
+				f.write(doc.render(pretty=True))
 
 
 
@@ -361,7 +443,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 			# go through the listed blocks in template
 			for key in item_template.keys():
 				block = item_template[key]
-				print(f"Current block: \n {block} \n")
+				#print(f"Current block: \n {block} \n")
 				# headings
 				if block["format"] == "heading":
 					if key == "title":
@@ -393,7 +475,11 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 
 				elif block["format"] == "embed":
 					for embed in block["content"]:
-						doc.add_raw(f"""<iframe src="{embed["base_url"]}{item[embed["category"]["property"]]["value"]}{embed["extension"]}" height="{block["attributes"]["heigth"]}" width="{block["attributes"]["width"]}" title="{item[embed["category"]["property"]]["value"]}"></iframe>""")
+						cat = embed["category"]
+						prop = embed["property"]
+						width = block["attributes"]["width"]
+						height = block["attributes"]["height"]
+						doc.add_raw(f"""<iframe src="{embed["base_url"]}{item[cat][prop][0]["value"]}{embed["extension"]}" height="{height}" width="{width}" title="{item[cat][prop][0]["value"]}"></iframe>""")
 
 				# statements
 				elif block["format"] == "quote":
@@ -439,39 +525,65 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 								doc.add_raw(f"""	- {element}""")
 					elif block["data_format"] == "table":
 						headings = []
-						for element in block["content"]:
-							if element["type"] == "statement":
+						# case with statement and qualifiers
+						if "qualifiers" in block["content"][0].keys():
+							for element in block["content"]:
+								if element["type"] == "statement":
+									headings.append(element["label"])
+									# append qualifiers in `qualifiers` key
+									for qual in element["qualifiers"]:
+										headings.append(qual)
+
+							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+							if len(statements) > 0:
+								doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+
+								# I am assuming uniform length statements!
+								table_raws = []
+								for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
+									raw = []
+									for heading in headings: # assume heading = property and qualifiers key
+										if statement["value"] != "":
+											if statement["type"] == "statement":
+												raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+												for qual in statement["qualifiers"]:
+													if qual in headings:
+														if qual["type"] == "item":
+															raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+														else:
+															raw.append(sneakmd.Inline(qual["value"]))
+									table_raws.append(raw)
+
+						else: # case with normal items
+							for element in block["content"]:
 								headings.append(element["label"])
-								# append qualifiers in `qualifiers` key
-								for qual in element["qualifiers"]:
-									headings.append(qual)
 
-						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
-						if len(statements) > 0:
-							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+							if len(statements) > 0:
+								doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
 
-							# I am assuming uniform length statements!
-							table_raws = []
-							for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
-								raw = []
-								for heading in headings: # assume heading = property and qualifiers key
-									if statement["value"] != "":
-										if statement["type"] == "statement":
-											raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-											for qual in statement["qualifiers"]:
-												if qual in headings:
-													if qual["type"] == "item":
-														raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
-													else:
-														raw.append(sneakmd.Inline(qual["value"]))
+								# I am assuming uniform length statements!
+								table_raws = []
+								for i in range(len(item[block["content"][0]["category"]][block["content"][0]["property"]])):
+									raw = []
+									for element in block["content"]:
+										current_item = item[element["category"]][element["property"]][i]
+										if current_item["type"] == "item":
+											raw.append(snakemd.Inline(current_item["label"]).link(f"./{current_item["value"]}.md"))
+
+										elif current_item["type"] == "externalid":
+											raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+
+										else: # string and date cases
+											raw.append(snakemd.Inline(current_item["value"]))
 								table_raws.append(raw)
 
-							# alignment (center)
-							table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
+						# alignment (center)
+						table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
 
-							# append table to document
+						# append table to document
 
-							doc.add_table(headings,table_raws,aling=table_align)
+						doc.add_table(headings,table_raws,align=table_align)		
 
 
 

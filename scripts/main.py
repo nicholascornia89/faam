@@ -151,10 +151,6 @@ def faam_kb():
 
         faam_kb_mapping = csv2dict(nodegoat2faam_kb_filename)
 
-        # return basic statistics
-        print("Some statistics...")
-        basic_statistics(faam_kb)
-
         print(
             "Would you like to improve data via Wikidata queries? (Time consuming) y/n"
         )
@@ -177,14 +173,23 @@ def faam_kb():
             faam_kb = add_label_to_statement(faam_kb)
 
         # generate JSON serialization and append it to FAAM kb
+        """print("Generating JSON, CSV and RDF resources for each item...")
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
+
+        faam_kb_filename = os.path.join(
+            "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+        )
+
+        dict2json(faam_kb, faam_kb_filename)
 
         # generate pyvis networks: TO BE CHECKED
         # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
+        print("Generating image carousels for each manifestation...")
         github_api_repo = "https://api.github.com/repos/nicholascornia89/"
-        # TO BE CONTINUED
-        generate_image_carousels(faam_kb, github_api_repo)
+        generate_image_carousel(faam_kb, github_api_repo)
+
+        """
 
         faam_kb_filename = os.path.join(
             "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
@@ -195,9 +200,15 @@ def faam_kb():
 
 # Mkdocs pages
 def mkdocs_pages():
+    faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
+
+    # return basic statistics
+    print("Some statistics...")
+    basic_statistics(faam_kb)
+    annotations_statistics(faam_kb)
+
     print("Generating Markdown pages from data...")
     # Mkdocs
-    d = load_latest_JSON(os.path.join(out_dir, "nodegoat_export"))
     generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
 
@@ -208,5 +219,5 @@ def mkdocs_pages():
 
 # nodegoat_import()
 # wikidata_SPARQL_enhance()
-faam_kb()
-# mkdocs_pages()
+# faam_kb()
+mkdocs_pages()

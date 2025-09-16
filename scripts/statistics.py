@@ -85,3 +85,29 @@ def basic_statistics(faam_kb):  # returns the number of items
     print(
         f"Empty statements: {number_empty_statements} \n Empty labels: {100*float(number_empty_labels)/number_of_items}% \n Empty descriptions: {100*float(number_empty_descriptions)/number_of_items}% "
     )
+
+
+def annotations_statistics(faam_kb):
+    manifestations = list(
+        filter(
+            lambda x: x["metadata"]["object_type"][0]["value"] == "manifestation",
+            faam_kb["items"],
+        )
+    )
+
+    number_of_manifestations = len(manifestations)
+    number_of_handwritten_annotations = 0
+    number_of_editorial_annotations = 0
+    for manifestation in manifestations:
+        number_of_handwritten_annotations += len(
+            manifestation["statements"]["handwritten annotation"]
+        )
+        number_of_editorial_annotations += len(
+            manifestation["statements"]["editorial annotation"]
+        )
+
+    print(f"Number of manifestations: {number_of_manifestations}")
+
+    print(f"Number of handwritten annotations: {number_of_handwritten_annotations}")
+
+    print(f"Number of editorial annotations: {number_of_editorial_annotations}")

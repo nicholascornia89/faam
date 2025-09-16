@@ -40,13 +40,20 @@ FAAM_NAMESPACES = [
 ]
 
 
-def add_item2lod_graph(g, s, o, p):
+"""generate Turtle RDF serialization of metadata according to Nodegoat2LOD mapping"""
+
+
+def generate_rdf_item(item, nodegoat2faam_kb, file_path):  # TO BE CONTINUED
+    # initialization graph
+
+    for category in item.keys():
+        for prop in item[category]:
+            pass
+
     # I need to add each statement in the faam_kb item to the RDF Graph
     # make sure to correctly state subject, predicate and object and their datatype
 
     # Considere reification for qualifiers!
-
-    # TO BE CONTINUED #
 
     return g
 
