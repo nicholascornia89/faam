@@ -11,6 +11,7 @@ from nodegoat import *
 from wikidata import *
 from mkdocs import *
 from faam_kb import *
+from data_visualization import *
 from rdf import *
 from statistics import *
 from tropy import *
@@ -124,6 +125,23 @@ def wikidata_SPARQL_enhance():
     dict2json(wikidata_object_list, object_list_filename)
 
 
+# Data visualization
+
+
+def data_visualization():
+    faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
+
+    # WEBP version to be checked!
+    print("Generating image carousels for each manifestation...")
+    github_api_repo = "https://api.github.com/repos/nicholascornia89"
+    repo_name = "faam"
+    generate_image_carousel(faam_kb, github_api_repo, repo_name)
+
+    # generate pyvis networks
+    print("Generating graph networks visualizations...")
+    generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+
+
 # FAAM Knowledge base
 def faam_kb():
     # FAAM kb script
@@ -173,24 +191,10 @@ def faam_kb():
             faam_kb = add_label_to_statement(faam_kb)
 
         # generate JSON serialization and append it to FAAM kb
-        """print("Generating JSON, CSV and RDF resources for each item...")
+        print("Generating JSON, CSV and RDF resources for each item...")
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
-        faam_kb_filename = os.path.join(
-            "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
-        )
-
-        dict2json(faam_kb, faam_kb_filename)
-
-        # generate pyvis networks: TO BE CHECKED
-        # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
-
-        print("Generating image carousels for each manifestation...")
-        github_api_repo = "https://api.github.com/repos/nicholascornia89/"
-        generate_image_carousel(faam_kb, github_api_repo)
-
-        """
-
+        # saving JSON file
         faam_kb_filename = os.path.join(
             "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
         )

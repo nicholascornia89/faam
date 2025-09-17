@@ -19,7 +19,7 @@ from utilities import *
 
 # Repositories
 
-working_dir = os.path.join("tmp", "images")
+working_dir = os.path.join("tmp", "images_to_be_processed")
 
 
 def convert_directories(quality=10):
@@ -39,9 +39,9 @@ def convert_directories(quality=10):
             print(f"Time taken: {diff.seconds} s")
 
         """ remove previous images
-		for f in os.listdir(os.path.join(working_dir, d, "images")):
-			os.remove(f)
-		"""
+        for f in os.listdir(os.path.join(working_dir, d, "images")):
+            os.remove(f)
+        """
 
 
 ### CODE ###
@@ -49,8 +49,17 @@ def convert_directories(quality=10):
 # convert_directories()
 
 
-def conversion_file(f, quality=10):
-    img = pyvips.Image.new_from_file(f, access="sequential")
+def conversion_file(f, quality=10, treshold=10000):
+    # check image size, webp treshold 16383x16383 pixels
+    if os.stat(f).st_size > treshold:
+        # print(f"Need to resize {f} first...")
+        # I had to reduce the size to 10.000 pixels to let it work.
+        img = pyvips.Image.thumbnail(f, treshold, height=treshold, size="both")
+    else:
+        # load image in pyvips
+        img = pyvips.Image.new_from_file(f, access="sequential")
+
+    # webp conversion
     webpname = f.replace(".jpg", ".webp")
     img.write_to_file(webpname, Q=quality)
 
@@ -58,15 +67,21 @@ def conversion_file(f, quality=10):
 # Converting images using multiprocessing
 
 if __name__ == "__main__":
+    number_directories = len(os.listdir(working_dir))
+    processed = 0
     for d in os.listdir(working_dir):
         print(f"Converting images in {d} directory...")
-        start_time = datetime.datetime.now()
         current_directory = os.path.join(working_dir, d, "images")
-        # print(f"Current directory path: {current_directory}")
         files = glob(current_directory + "/*.jpg")
-        # print(f"list of files: {files}")
+        files_to_be_converted = []
+        for file in files:
+            if file.endswith(".jpg"):
+                if os.path.isfile(file.replace(".jpg", ".webp")) is False:
+                    files_to_be_converted.append(file)
+
+        start_time = datetime.datetime.now()
         with Pool(12) as pool:
-            pool.map(conversion_file, files)
+            pool.map(conversion_file, files_to_be_converted)
 
         # remove previous JPEG images
         for f in files:
@@ -75,3 +90,5 @@ if __name__ == "__main__":
         end_time = datetime.datetime.now()
         diff = end_time - start_time
         print(f"Time taken: {diff.seconds} s")
+        processed += 1
+        print(f"Process completed: {100*float(processed)/number_directories}%")
