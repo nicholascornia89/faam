@@ -146,6 +146,11 @@ def data_visualization():
 def faam_kb():
     # FAAM kb script
 
+    # saving JSON file
+    faam_kb_filename = os.path.join(
+        "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+    )
+
     print(f"Would you like to generate a new FAAM kb? y/n")
     answer = input()
 
@@ -187,8 +192,26 @@ def faam_kb():
             print(f"Remove empty statements...")
             faam_kb = remove_empty_statements(faam_kb)
 
+            # adding Wikidata label to each qid statement
+            print("Adding Wikidata labels to each QID...")
+            faam_kb = add_label_to_qid_metadata(faam_kb)
+
             print(f"Adding labels to each statement and qualifier...")
             faam_kb = add_label_to_statement(faam_kb)
+
+        # adding country statement in cities
+        print("Adding country statement to cities...")
+        faam_kb = add_country_to_cities(faam_kb)
+
+        dict2json(faam_kb, faam_kb_filename)
+        input()
+
+        # adding cross_referencies
+        print("Adding cross_references to each item...")
+        cross_reference_mapping = json2dict(
+            os.path.join("mapping", "cross_reference_mapping.json")
+        )
+        faam_kb = cross_references(faam_kb, cross_reference_mapping)
 
         # generate JSON serialization and append it to FAAM kb
         print("Generating JSON, CSV and RDF resources for each item...")
@@ -223,5 +246,6 @@ def mkdocs_pages():
 
 # nodegoat_import()
 # wikidata_SPARQL_enhance()
-# faam_kb()
-mkdocs_pages()
+faam_kb()
+# data_visualization()
+# mkdocs_pages()

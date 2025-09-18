@@ -215,7 +215,6 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 
 				# statements
 				elif block["format"] == "quote":
-					#doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
 					if block["data_format"] == "string":
 						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 						if len(statements) > 0: # append block only if statements are not empty
@@ -257,7 +256,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 								doc.add_raw(f"""	- {element}""")
 					elif block["data_format"] == "table":
 						headings = []
-						# case with statement and qualifiers
+						# generate headings case with statement and qualifiers
 						if "qualifiers" in block["content"][0].keys():
 							for element in block["content"]:
 								if element["type"] == "statement":
@@ -304,7 +303,15 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 											raw.append(snakemd.Inline(current_item["label"]).link(f"./{current_item["value"]}.md"))
 
 										elif current_item["type"] == "externalid":
-											raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+											if "wikidata.org" in current_item["base_url"]:
+												try:
+													raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+												except KeyError:
+													print(f"QID without label: {current_item["value"]}")
+													raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+
+											else:
+												raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
 
 										else: # string and date cases
 											raw.append(snakemd.Inline(current_item["value"]))
@@ -312,10 +319,9 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 
 						# alignment (center)
 						table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
-
 						# append table to document
+						doc.add_table(headings,table_raws,align=table_align,indent=4)
 
-						doc.add_table(headings,table_raws,align=table_align)		
 
 
 

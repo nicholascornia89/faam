@@ -418,6 +418,31 @@ def add_label_to_statement(faam_kb):
 
 	return faam_kb	
 
+def add_label_to_qid_metadata(faam_kb):
+
+	starting_time = time.time()
+
+	for item in faam_kb["items"]:
+		current_time = time.time()
+		if current_time - starting_time > 10:
+			print("Backing up new data until now...")
+			faam_kb_filename = os.path.join(
+				"tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+			)
+
+			dict2json(faam_kb, faam_kb_filename)
+			starting_time = time.time()
+		try:
+			qid = item["metadata"]["qid"][0]["value"]
+			if qid != "":
+				entity = wb.item.get(qid)
+				label = entity.labels.get('en').value
+				item["metadata"]["qid"][0]["label"] = label
+		except Exception:
+			pass
+	return faam_kb
+
+
 def remove_empty_statements(faam_kb):
 	for item in faam_kb["items"]:
 		for category in item.keys():
@@ -477,6 +502,134 @@ def qids2faamuudis(faam_kb):
 	print(f"Changed QID statements {len(changed_qids)}: \n {changed_qids}")
 
 	return faam_kb
+
+def add_country_to_cities(faam_kb,pid="P17"):
+	# filter cities
+	cities = list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == "city", faam_kb["items"]))
+	# generate QID list for fast retrieval
+	qid_list,item_list = generate_qid_list(faam_kb)
+
+	countries_not_in_faam = 0
+	progress = 0
+	number_of_countries = len(list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == "country", faam_kb["items"])))
+	number_of_cities = len(cities)
+	for city in cities:
+		progress +=1
+		# get qid
+		country = {"type": "item", "value": ""}
+		qid = city["metadata"]["qid"][0]["value"]
+		if qid != "":
+			if "country" in city["statements"].keys():
+				pass # skip
+			else:
+				# retrieve QID and add country
+				country_qid = wb_get_property_data(qid,pid)[0]
+				if country_qid != "":
+					# retrive country FAAM UUID, if not found keep Wikidata
+					try:
+						index = bisect_left(qid_list,int(country_qid[1:]))
+						if item_list[index]["qid"] == country_qid:
+							country["value"] = item_list[index]["id"]
+							country["label"] = faam_kb["items"][index]["metadata"]["label"][0]["value"]
+							# add country statement
+							city["statements"]["country"] = [country]
+							print(f"Added country {country} to city {city["metadata"]["label"][0]["value"]}")
+						else:
+							countries_not_in_faam +=1
+							entity = wb.item.get(country_qid)
+							label = entity.labels.get("en").value
+							city["statements"]["country"] = {"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }
+					except IndexError:
+						countries_not_in_faam +=1
+						entity = wb.item.get(country_qid)
+						label = entity.labels.get("en").value
+						city["statements"]["country"] = {"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }
+		print(f"Progress: {100*float(progress)/number_of_cities}%")
+
+	print(f"Countries not in FAAM kb ratio: {100*float(countries_not_in_faam)/number_of_countries}%")
+
+	return faam_kb
+
+
+				
+
+def cross_references(faam_kb,cross_reference_mapping): # adding cross-references according to object_type
+
+
+	# TO BE TESTED
+
+	# filter faam kb according to category to ease search
+	faam_categories = {}
+	for category in cross_reference_mapping.keys():
+		faam_categories[category] = list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == category, faam_kb["items"]))
+	number_of_items = len(faam_kb["items"])
+	progress = 0
+	for item in faam_kb["items"]:
+		progress +=1
+		cross_reference_types = cross_reference_mapping[item["metadata"]["object_type"][0]["value"]]
+		cross_reference = {}
+		for cross_ref in cross_reference_types:
+			# retrieve items that have the current item as reference in a statement or metadata
+			for prop in cross_ref["property"]:
+				if "qualifier" in cross_ref.keys(): # qualifiers version
+					# search match through filtered faam kb
+					for cat_item in faam_categories[cross_ref["object_type"]]:
+						for statement in cat_item[cross_ref["category"]][prop]:
+							for qualifier in statement["qualifiers"]:
+								if qualifier["property"] == cross_ref["qualifier"]:
+									if qualifier["value"] == item["id"]:
+										try:
+											cross_reference[cross_ref["object_type"]].append({
+												"id": cat_item["id"],
+												"label": cat_item["metadata"]["label"][0]["value"],
+												"description": cat_item["metadata"]["description"][0]["value"]
+												})
+											if cross_ref["object_type"] == "manifestation":
+												cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+											if cross_ref["object_type"] == "agent":
+												cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+										except Exception:
+											cross_reference[cross_ref["object_type"]] = {
+												"id": cat_item["id"],
+												"label": cat_item["metadata"]["label"][0]["value"],
+												"description": cat_item["metadata"]["description"][0]["value"]
+												}
+											if cross_ref["object_type"] == "manifestation":
+												cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+											if cross_ref["object_type"] == "agent":
+												cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+					
+					
+				else: # normal item version
+					# search match through filtered faam kb
+					for cat_item in faam_categories[cross_ref["object_type"]]:
+						for statement in cat_item[cross_ref["category"]][prop]:
+							if statement["value"] == item["id"]:
+								try:
+									cross_reference[cross_ref["object_type"]].append({
+										"id": cat_item["id"],
+										"label": cat_item["metadata"]["label"][0]["value"],
+										"description": cat_item["metadata"]["description"][0]["value"]
+										})
+									if cross_ref["object_type"] == "manifestation":
+										cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+									if cross_ref["object_type"] == "agent":
+										cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+								except Exception:
+									cross_reference[cross_ref["object_type"]] = {
+										"id": cat_item["id"],
+										"label": cat_item["metadata"]["label"][0]["value"],
+										"description": cat_item["metadata"]["description"][0]["value"]
+										}
+									if cross_ref["object_type"] == "manifestation":
+										cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+									if cross_ref["object_type"] == "agent":
+										cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+
+		print(f"Progress: {100*float(progress)/number_of_items}%")
+	return faam_kb
+
+
 
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
 def generate_faam_kb(d,nodegoat2faam_kb_filename):
