@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q55674575",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Johann Matthias Heberle"
       }
     ]
   },
@@ -139,13 +140,105 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Gok5r2Zp",
+        "type": "item",
+        "label": "Messe \"Beatus qui intelligit\" für sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737359707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "k7Ank5K2",
+        "type": "item",
+        "label": "Palestrina's Messe für die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erklärenden Einl. vers.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078131189707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "4ezAJSG4",
+        "type": "item",
+        "label": "Missa pro defunctis",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Azq4wwdm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Azq4wwdm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Azq4wwdm.csv"
       }
     ]
   }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q947291",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Vasily Safonov"
       }
     ]
   },
@@ -184,13 +185,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZVpXBLkA",
+        "type": "item",
+        "label": "Alexander Scriabin",
+        "description": "Russian composer and pianist (1872–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Skrjabin_Alexander.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Василий_Сафронов.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oNqjNRHv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oNqjNRHv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oNqjNRHv.csv"
       }
     ]
   }

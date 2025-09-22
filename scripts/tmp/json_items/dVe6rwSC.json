@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q130272",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Chartres"
       }
     ],
     "aliases": [
@@ -54,8 +55,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3026467"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "93MDHCVd",
+        "type": "item",
+        "label": "Eugène Talbot",
+        "description": "French classicist and translator (1814–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "iD9U2oze",
+        "type": "item",
+        "label": "Louis-François Chaft",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dVe6rwSC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dVe6rwSC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dVe6rwSC.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q210205",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pest"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3046446"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "KhN7hGqf",
+        "type": "item",
+        "label": "Stephen Heller",
+        "description": "Classical pianist and composer (1813–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Stephen_Heller_by_Charles_Vogt.jpg"
+        }
+      },
+      {
+        "id": "n8vdphJi",
+        "type": "item",
+        "label": "Adolf Pollitzer",
+        "description": "Hungarian musician (1832–1900)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Pollitzer_(1832–1900).png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DbwW2oA4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DbwW2oA4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DbwW2oA4.csv"
+      }
+    ]
+  }
 }

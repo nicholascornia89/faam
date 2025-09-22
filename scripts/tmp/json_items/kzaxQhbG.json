@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q452636",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cornélie van Zanten"
       }
     ]
   },
@@ -189,13 +190,47 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jymN9E9y",
+        "type": "item",
+        "label": "Hoogere techniek van den zang: paedagogische leidraad",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902413456.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kzaxQhbG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kzaxQhbG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kzaxQhbG.csv"
       }
     ]
   }

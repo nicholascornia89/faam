@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:e4twtoMd a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3p8SJJYZ,
+        faamentity:XVkxnYpp ;
+    schema1:birthDate "1841-07-04"^^xsd:string ;
+    schema1:birthPlace faamentity:PKMmukjk ;
+    schema1:deathDate "1922-07-09"^^xsd:string ;
+    schema1:deathPlace faamentity:PKMmukjk ;
+    schema1:description "Belgian historian, linguist, publisher and archivist (1841-1922)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2360914>,
+        "16002821"^^xsd:string,
+        "e4twtoMd"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Edouard Louis Gailliard"^^xsd:string,
+        "Edward Gailliard"^^xsd:string,
+        "Edward Louis Gailliard"^^xsd:string ;
+    skos:prefLabel "Edward Gailliard"^^xsd:string ;
+    wd:P108 faamentity:9qYZwgcH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:66600101 ;
+    wd:P31 faamentity:2fXfbLCV,
+        faamentity:ZwquHrbe ;
+    wd:P737 faamentity:XsuqSVq8 ;
+    schema:hasOccupation faamentity:9joWzZuU .
+

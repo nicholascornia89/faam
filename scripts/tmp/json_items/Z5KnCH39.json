@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3768088",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Salvatore"
       }
     ]
   },
@@ -60,13 +61,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "LvEGnT5o",
+        "type": "item",
+        "label": "Gaetano Greco",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "YNsL9ZnM",
+        "type": "item",
+        "label": "Francesco Provenzale",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Z5KnCH39.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Z5KnCH39.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Z5KnCH39.csv"
       }
     ]
   }

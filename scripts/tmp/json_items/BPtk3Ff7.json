@@ -36,14 +36,57 @@
       {
         "type": "externalid",
         "value": "Q1891078",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mansbach"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "KrRdGjNy",
+        "type": "item",
+        "label": "Johann Konrad Schlick",
+        "description": "German cellist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BPtk3Ff7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BPtk3Ff7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BPtk3Ff7.csv"
+      }
+    ]
+  }
 }

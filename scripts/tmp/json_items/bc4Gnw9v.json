@@ -36,14 +36,57 @@
       {
         "type": "externalid",
         "value": "Q841403",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint-Hippolyte"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SEPoLobZ",
+        "type": "item",
+        "label": "Claude Goudimel",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Goudimel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bc4Gnw9v.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bc4Gnw9v.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bc4Gnw9v.csv"
+      }
+    ]
+  }
 }

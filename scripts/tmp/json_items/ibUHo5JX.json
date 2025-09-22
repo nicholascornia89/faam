@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q654693",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "beat"
       }
     ],
     "aliases": [
@@ -52,5 +53,27 @@
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ibUHo5JX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ibUHo5JX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ibUHo5JX.csv"
+      }
+    ]
+  }
 }

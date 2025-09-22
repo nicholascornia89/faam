@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1257344",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Six moments musicaux"
       }
     ]
   },
@@ -76,6 +77,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iqZVS59n",
+        "type": "item",
+        "label": "Moment musical : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904482400.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nVQSNpy8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nVQSNpy8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nVQSNpy8.csv"
+      }
+    ]
+  }
 }

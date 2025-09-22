@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q209814",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Guebwiller"
       }
     ],
     "aliases": [
@@ -54,8 +55,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3014433"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CFFWdJSJ",
+        "type": "item",
+        "label": "Jean-Baptiste Weckerlin",
+        "description": "French composer and music publisher (1821–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png"
+        }
+      },
+      {
+        "id": "CFFWdJSJ",
+        "type": "item",
+        "label": "Jean-Baptiste Weckerlin",
+        "description": "French composer and music publisher (1821–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CXQbqvo3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CXQbqvo3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CXQbqvo3.csv"
+      }
+    ]
+  }
 }

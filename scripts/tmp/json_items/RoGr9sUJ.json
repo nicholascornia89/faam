@@ -36,12 +36,44 @@
       {
         "type": "externalid",
         "value": "Q3249551",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "process"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "k4aUnbrD",
+        "type": "item",
+        "label": "comparison",
+        "description": "a method of examination or evaluation of two or more entities to deduce their similarities and differences"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RoGr9sUJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RoGr9sUJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RoGr9sUJ.csv"
+      }
+    ]
+  }
 }

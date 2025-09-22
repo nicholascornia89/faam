@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VpGnP2vs a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1773-05-16"^^xsd:string ;
+    schema1:birthPlace faamentity:9pJkMrot,
+        faamentity:kev7uDrz ;
+    schema1:deathDate "1818-03-23"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "Maltese composer (1773–1818)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q736805>,
+        "15995903"^^xsd:string,
+        "VpGnP2vs"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Niccolò Isonard"^^xsd:string,
+        "Nicolas Isouard"^^xsd:string,
+        "Nicolò Isouard"^^xsd:string ;
+    skos:prefLabel "Nicolas Isouard"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39428131 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30001597> ;
+    wd:P737 faamentity:9ajFz72e,
+        faamentity:Dmow9aSA,
+        faamentity:hdk8wLQj,
+        faamentity:kRsWqt6L,
+        faamentity:n4SQLZpV ;
+    wd:P839 <https://imslp.org/wiki/Category:Isouard,_Nicolo> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

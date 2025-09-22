@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q687822",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Iphigénie en Tauride"
       }
     ]
   },
@@ -100,6 +101,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jBbcDzfH",
+        "type": "item",
+        "label": "Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-26137450b.gif"
+        }
+      },
+      {
+        "id": "Z6qQuRjz",
+        "type": "item",
+        "label": "Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345536.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cMtvTYhd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cMtvTYhd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cMtvTYhd.csv"
+      }
+    ]
+  }
 }

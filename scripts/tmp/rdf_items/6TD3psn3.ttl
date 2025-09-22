@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6TD3psn3 a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1570-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:DT7RNfst ;
+    schema1:deathDate "1615-08-07"^^xsd:string ;
+    schema1:deathPlace faamentity:b8F9LEaG ;
+    schema1:description "German singer and composer (1570–1615)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q702277>,
+        "16004058"^^xsd:string,
+        "6TD3psn3"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Melchior Fuchs"^^xsd:string,
+        "Melchior Vulpius"^^xsd:string ;
+    skos:prefLabel "Melchior Vulpis"^^xsd:string,
+        "Melchior Vulpius"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:51878649 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Vulpius,_Melchior> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:fkNftdFp .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:29kbMdjY a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "Central Asian Persianate Turco-Mongol empire (1370–1507)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q484195>,
+        "16004407"^^xsd:string,
+        "29kbMdjY"^^xsd:string ;
+    skos:altLabel "Gurkani"^^xsd:string,
+        "Timurid Empire"^^xsd:string,
+        "Timurid empire"^^xsd:string ;
+    skos:prefLabel "Timurid Empire"^^xsd:string .
+

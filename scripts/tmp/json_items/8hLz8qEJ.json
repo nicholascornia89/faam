@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2499193",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "andante"
       }
     ],
     "aliases": [
@@ -90,6 +91,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "67xzWFPr",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "ZvSPPzQL",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "eugMw9AU",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903755269.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8hLz8qEJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8hLz8qEJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8hLz8qEJ.csv"
+      }
+    ]
+  }
 }

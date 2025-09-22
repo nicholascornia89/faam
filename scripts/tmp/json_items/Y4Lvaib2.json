@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q313970",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Anton Arensky"
       }
     ]
   },
@@ -188,13 +189,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZVpXBLkA",
+        "type": "item",
+        "label": "Alexander Scriabin",
+        "description": "Russian composer and pianist (1872–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Skrjabin_Alexander.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Arensky_Anton_Postcard-1910.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Y4Lvaib2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Y4Lvaib2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Y4Lvaib2.csv"
       }
     ]
   }

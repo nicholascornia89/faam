@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,34 +76,40 @@
     "provenance": [
       {
         "type": "item",
-        "value": "TrYWxDhL"
+        "value": "TrYWxDhL",
+        "label": "Orpheus Institute"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "RXg4snEH"
+        "value": "RXg4snEH",
+        "label": "organ"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "UxDTZZko"
+        "value": "UxDTZZko",
+        "label": "Faust"
       }
     ],
     "agent": [
@@ -112,7 +120,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -124,7 +133,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Eugène Ketterer"
       },
       {
         "type": "statement",
@@ -133,19 +143,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Éditions Choudens"
       },
       {
         "type": "statement",
@@ -154,7 +167,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -166,7 +180,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -175,7 +190,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -187,7 +203,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Auguste Durand"
       },
       {
         "type": "statement",
@@ -196,7 +213,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -208,35 +226,42 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Charles Gounod"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -253,6 +278,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p8/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bXZcYBkb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bXZcYBkb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bXZcYBkb.csv"
       }
     ]
   }

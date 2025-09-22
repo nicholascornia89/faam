@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nkGN3PLJ a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:identifier "16002734"^^xsd:string,
+        "nkGN3PLJ"^^xsd:string ;
+    skos:prefLabel "Ave Maria, IGP 116"^^xsd:string ;
+    wd:P5202 faamentity:6ng5YJy5,
+        faamentity:9MCtsKYb ;
+    wd:P7937 faamentity:Z5LXHFLR,
+        faamentity:eijiWF3A ;
+    wd:P839 <https://imslp.org/wiki/Ave_Maria,_IGP_116_(Palestrina,_Giovanni_Pierluigi_da)> .
+

@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:n7zaDq2T a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1838-10-25"^^xsd:string ;
+    schema1:birthPlace faamentity:Hy5s6d4x,
+        faamentity:NTVdRo4W ;
+    schema1:deathDate "1875-06-03"^^xsd:string ;
+    schema1:deathPlace faamentity:Nca5HHBK ;
+    schema1:description "French composer (1838–1875)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q56158>,
+        "16005345"^^xsd:string,
+        "n7zaDq2T"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Georges Bizet"^^xsd:string ;
+    skos:prefLabel "Georges Bizet"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:10032551,
+        viaf:305420338 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20057> ;
+    wd:P737 faamentity:8myGWNp8,
+        faamentity:AWqDraUS,
+        faamentity:U6xhouYu,
+        faamentity:cmzT8tYL,
+        faamentity:h2ff8YKo ;
+    wd:P839 <https://imslp.org/wiki/Category:Bizet,_Georges> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:RU9hU5Pa .
+

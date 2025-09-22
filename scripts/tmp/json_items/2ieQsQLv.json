@@ -36,14 +36,57 @@
       {
         "type": "externalid",
         "value": "Q1721",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wiesbaden"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RzJ2dN9s",
+        "type": "item",
+        "label": "Theodor Kroyer",
+        "description": "German musicologist (1873-1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2ieQsQLv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2ieQsQLv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2ieQsQLv.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q209857",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Lombardy–Venetia"
       }
     ],
     "aliases": [
@@ -69,6 +70,61 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4bKCnwtk",
+        "type": "item",
+        "label": "Gaetano Donizetti",
+        "description": "Italian opera composer (1797–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png"
+        }
+      },
+      {
+        "id": "JyRXgAHe",
+        "type": "item",
+        "label": "Amilcare Ponchielli",
+        "description": "Italian composer (1834-1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg"
+        }
+      },
+      {
+        "id": "SsJ8ibRa",
+        "type": "item",
+        "label": "Vincenzo Lavigna",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CwkwAGsF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CwkwAGsF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CwkwAGsF.csv"
+      }
+    ]
+  }
 }

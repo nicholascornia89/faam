@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q102728",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ypres"
       }
     ],
     "aliases": [
@@ -58,8 +59,68 @@
         "base_url": "https://www.geonames.org/",
         "label": "2795101"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Z2Em2bet",
+        "type": "item",
+        "label": "Jacobus de Kerle",
+        "description": "Flemish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "EkHj4fV2",
+        "type": "item",
+        "label": "Jacob Clemens non Papa",
+        "description": "16th-century Flemish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "gLrNG87i",
+        "type": "item",
+        "label": "Sint-Vincentiuscollege (Ieper)",
+        "description": "school"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JMSWfyLQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JMSWfyLQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JMSWfyLQ.csv"
+      }
+    ]
+  }
 }

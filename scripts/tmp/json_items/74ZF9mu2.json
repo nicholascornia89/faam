@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q42203",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hail Mary"
       }
     ]
   },
@@ -50,6 +51,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "GDa6J37w",
+        "type": "item",
+        "label": "Ave Maria",
+        "description": "composition by Bach and Gounod"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "74ZF9mu2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "74ZF9mu2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "74ZF9mu2.csv"
+      }
+    ]
+  }
 }

@@ -66,7 +66,8 @@
       {
         "type": "externalid",
         "value": "Q146113",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Piano Sonata No. 8"
       }
     ]
   },
@@ -111,6 +112,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "S7iDFQg4",
+        "type": "item",
+        "label": "La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-13908155m.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nQqPe6ft.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nQqPe6ft.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nQqPe6ft.csv"
+      }
+    ]
+  }
 }

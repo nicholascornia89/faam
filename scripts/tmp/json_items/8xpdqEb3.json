@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q484678",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Berkeley"
       }
     ],
     "aliases": [
@@ -70,8 +71,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "5327684"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Em25RCQc",
+        "type": "item",
+        "label": "Egon Petri",
+        "description": "Dutch musician (1881-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Petri_Egon.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8xpdqEb3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8xpdqEb3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8xpdqEb3.csv"
+      }
+    ]
+  }
 }

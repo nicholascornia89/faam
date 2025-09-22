@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gx49Me59 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Collegiate research university in Oxford, England (Est. 1096)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q34433>,
+        "15991101"^^xsd:string,
+        "gx49Me59"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55,
+        faamentity:bSPC7zMk ;
+    skos:altLabel "Oxf"^^xsd:string,
+        "Oxford"^^xsd:string,
+        "Oxford University"^^xsd:string,
+        "Oxon."^^xsd:string,
+        "The University of Oxford"^^xsd:string,
+        "Univ. of Oxford"^^xsd:string,
+        "Universitas Oxoniensis"^^xsd:string,
+        "University of Oxford"^^xsd:string ;
+    skos:prefLabel "University of Oxford"^^xsd:string .
+

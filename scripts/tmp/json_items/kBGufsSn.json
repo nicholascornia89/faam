@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q588375",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nicolas-Joseph Hüllmandel"
       }
     ]
   },
@@ -60,13 +61,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "jDVcqbT9",
+        "type": "item",
+        "label": "Hélène de Montgeroult",
+        "description": "French pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_de_la_mère_de_His_de_la_Salle,_Madame_Hélène_de_Montgeroult_-_par_COSWAY_Richard.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kBGufsSn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kBGufsSn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kBGufsSn.csv"
       }
     ]
   }

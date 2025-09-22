@@ -1,0 +1,57 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RKeHAPQQ a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "04-06-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:4ZvdnZdj ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:RsT39XGW,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005522"^^xsd:string,
+        "ORP-20143988p19"^^xsd:string,
+        "RKeHAPQQ"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Ecoutez Ceci"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3197
+L'Illustration, N. 3197"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"RKeHAPQQ-13203b3c-c5df-4ad1-824a-55f041b7c0ee"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"RKeHAPQQ-3489ffc0-5ea1-4574-b72e-b73a97f98cf9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"RKeHAPQQ-5f3d62a4-d0aa-4d9a-b932-19887e70841d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"RKeHAPQQ-a608d02c-6728-468b-89a7-897426efa9c3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "04-06-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:RsT39XGW a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

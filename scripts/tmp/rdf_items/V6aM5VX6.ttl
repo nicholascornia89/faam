@@ -1,0 +1,83 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:V6aM5VX6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3WB3MVBB,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:AzBrFumG,
+        faamentity:B7WuhvkL,
+        faamentity:RePdmToB,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:bsgSL8K5,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:Z5LXHFLR,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6ng5YJy5,
+        faamentity:Ddx923Ut,
+        faamentity:R5a3QLVs,
+        faamentity:XVpibGGu ;
+    schema1:hasPart faamentity:RP5y5atX ;
+    schema1:identifier "15992693"^^xsd:string,
+        "KCA-030901761509"^^xsd:string,
+        "V6aM5VX6"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC,
+        faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7048592/N"^^schema1:url ;
+    skos:prefLabel "Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification"^^xsd:string ;
+    wd:P217 "MM-KA-OLVKA-archief-977"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ .
+
+schema1:contributor a rdf:predicate .
+
+"V6aM5VX6-0563b8dc-6045-4173-845a-1e8c380aebcc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"V6aM5VX6-4b55e587-b974-4d91-9893-6613bd22f621"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"V6aM5VX6-50eb1664-ce00-4fd1-b3a9-4bc0a6f51769"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"V6aM5VX6-e2be36a2-d80d-426a-9b57-f5bb387123c2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"V6aM5VX6-e4d28ade-a19c-40b3-9a19-bf4ed12dc670"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"V6aM5VX6-e84d3e43-aa0a-433e-a18c-c6d9d58b3da5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:6ng5YJy5 a rdf:object .
+
+faamentity:Ddx923Ut a rdf:object .
+
+faamentity:R5a3QLVs a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

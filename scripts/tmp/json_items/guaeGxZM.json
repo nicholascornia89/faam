@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q12887",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Schaerbeek - Schaarbeek"
       }
     ],
     "aliases": [
@@ -74,8 +75,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "2787149"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HxRxXr56",
+        "type": "item",
+        "label": "Pierre François Riga",
+        "description": "Belgian musician (1831-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "2dS4SEkW",
+        "type": "item",
+        "label": "Emmanuel Hiel",
+        "description": "Belgian poet, writer and politician (1834–1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hiel,_Emmanuel_(1834-1899);_dichter_en_schrijver,_Nauwens,_Joseph,_Felixarchief,_12_12840.jpg"
+        }
+      },
+      {
+        "id": "gGoGDDre",
+        "type": "item",
+        "label": "Henry Weyts",
+        "description": "Belgian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AHz5Dq7p",
+        "type": "item",
+        "label": "Gustave Huberti",
+        "description": "Belgian composer and musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustave_Huberti.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "guaeGxZM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "guaeGxZM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "guaeGxZM.csv"
+      }
+    ]
+  }
 }

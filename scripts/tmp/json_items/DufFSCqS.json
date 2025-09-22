@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1248924",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tetbury"
       }
     ],
     "aliases": [
@@ -64,8 +65,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "7298580"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "96fzPcRu",
+        "type": "item",
+        "label": "Westonbirt School",
+        "description": "school in Gloucestershire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DufFSCqS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DufFSCqS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DufFSCqS.csv"
+      }
+    ]
+  }
 }

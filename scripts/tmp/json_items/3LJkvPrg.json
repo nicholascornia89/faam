@@ -53,17 +53,20 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,30 +81,35 @@
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "g7hgtzmM"
+        "value": "g7hgtzmM",
+        "label": "orchestra"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "BMxhdpSF"
+        "value": "BMxhdpSF",
+        "label": "Manon"
       }
     ],
     "agent": [
@@ -112,7 +120,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -124,7 +133,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Émile Tavan"
       },
       {
         "type": "statement",
@@ -133,7 +143,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -145,17 +156,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jules Massenet"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -173,6 +187,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904722326/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3LJkvPrg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3LJkvPrg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3LJkvPrg.csv"
       }
     ]
   }

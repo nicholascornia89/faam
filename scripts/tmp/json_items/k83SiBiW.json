@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q445275",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "alto saxophone"
       }
     ],
     "aliases": [
@@ -71,6 +72,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gtPNTrPG",
+        "type": "item",
+        "label": "Légende du Doudou",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902639415.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "k83SiBiW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "k83SiBiW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "k83SiBiW.csv"
+      }
+    ]
+  }
 }

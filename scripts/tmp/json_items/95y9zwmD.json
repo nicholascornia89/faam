@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q366727",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antonio Sacchini"
       }
     ]
   },
@@ -170,13 +171,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "S2f7p85R",
+        "type": "item",
+        "label": "Oedipe a Colone : Opéra en trois Actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000743948.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "NZyRvv74",
+        "type": "item",
+        "label": "Henri Montan Berton",
+        "description": "French composer, teacher, and writer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "HenriMontanBerton.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "iKKd2k8N",
+        "type": "item",
+        "label": "Œdipe à Colone",
+        "description": "opera by Antonio Sacchini"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Antonio_Sacchini.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "95y9zwmD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "95y9zwmD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "95y9zwmD.csv"
       }
     ]
   }

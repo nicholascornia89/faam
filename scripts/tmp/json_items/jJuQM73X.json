@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q223936",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Italy"
       }
     ],
     "aliases": []
@@ -44,6 +45,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ib4pWeEv",
+        "type": "item",
+        "label": "Niccolò Antonio Zingarelli",
+        "description": "Italian composer (1752–1837)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicola_Antonio_Zingarelli.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jJuQM73X.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jJuQM73X.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jJuQM73X.csv"
+      }
+    ]
+  }
 }

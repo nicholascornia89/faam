@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q368264",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles Villiers Stanford"
       }
     ]
   },
@@ -216,13 +217,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "BZmcnPSo",
+        "type": "item",
+        "label": "Gustav Holst",
+        "description": "British composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg"
+        }
+      },
+      {
+        "id": "8pUcCa9Y",
+        "type": "item",
+        "label": "Leopold Stokowski",
+        "description": "British-born American conductor (1882–1977)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopold_Stokowski_LOC_26447u.jpg"
+        }
+      },
+      {
+        "id": "LWZyiZtS",
+        "type": "item",
+        "label": "Walford Davies",
+        "description": "British composer (1869–1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Walford_Davies_001.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Charles_Villiers_Stanford_c1894bw.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZXDf3hB6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZXDf3hB6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZXDf3hB6.csv"
       }
     ]
   }

@@ -36,14 +36,58 @@
       {
         "type": "externalid",
         "value": "Q5465",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cape Town"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q258",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "South Africa"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GQV7k7JN",
+        "type": "item",
+        "label": "Mátyás Seiber",
+        "description": "British-Hungarian composer (1905–1960)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mátyás_Seiber.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8CZrvEFn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8CZrvEFn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8CZrvEFn.csv"
+      }
+    ]
+  }
 }

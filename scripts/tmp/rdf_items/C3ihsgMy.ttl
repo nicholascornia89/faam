@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:C3ihsgMy a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "focus of academic study leading to a degree"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4671286>,
+        "16005797"^^xsd:string,
+        "C3ihsgMy"^^xsd:string ;
+    skos:altLabel "academic major"^^xsd:string,
+        "field of study"^^xsd:string,
+        "main discipline"^^xsd:string,
+        "main field of study"^^xsd:string,
+        "main speciality of study"^^xsd:string,
+        "major"^^xsd:string,
+        "major concentration"^^xsd:string,
+        "major discipline"^^xsd:string,
+        "speciality of study"^^xsd:string,
+        "university discipline"^^xsd:string,
+        "university major"^^xsd:string ;
+    skos:prefLabel "academic major"^^xsd:string .
+

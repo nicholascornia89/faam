@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q4061451",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Imperial Alexander Lyceum"
       }
     ],
     "aliases": []
@@ -45,6 +46,41 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "oNqjNRHv",
+        "type": "item",
+        "label": "Vasily Safonov",
+        "description": "Russian pianist, teacher, conductor and composer (1852-1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Василий_Сафронов.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ccQRNgJx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ccQRNgJx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ccQRNgJx.csv"
+      }
+    ]
+  }
 }

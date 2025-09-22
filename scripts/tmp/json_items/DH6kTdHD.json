@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q34624",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Gabrieli"
       }
     ]
   },
@@ -158,13 +159,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4FpHAKUW",
+        "type": "item",
+        "label": "Heinrich Schütz",
+        "description": "German composer and organist (1585–1672)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Schutz.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DH6kTdHD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DH6kTdHD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DH6kTdHD.csv"
       }
     ]
   }

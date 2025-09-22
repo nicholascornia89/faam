@@ -36,14 +36,57 @@
       {
         "type": "externalid",
         "value": "Q846593",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Senglea"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "kVX9a4Qm",
+        "label": "Malta"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "n4SQLZpV",
+        "type": "item",
+        "label": "Michelangelo Vella",
+        "description": "Maltese composer and organist (1710-1792)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "b4RPMtTi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "b4RPMtTi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "b4RPMtTi.csv"
+      }
+    ]
+  }
 }

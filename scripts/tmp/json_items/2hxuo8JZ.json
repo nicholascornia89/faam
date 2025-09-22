@@ -48,13 +48,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -76,110 +78,134 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "MCVLnYka"
+        "value": "MCVLnYka",
+        "label": "espressivo"
       },
       {
         "type": "item",
-        "value": "3Vvybq56"
+        "value": "3Vvybq56",
+        "label": "affect"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "9dz9ydpz"
+        "value": "9dz9ydpz",
+        "label": "legato"
       },
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "kmMxdth8"
+        "value": "kmMxdth8",
+        "label": "bar number"
       },
       {
         "type": "item",
-        "value": "iWuVLJam"
+        "value": "iWuVLJam",
+        "label": "rallentando"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "jTMjFsDj"
+        "value": "jTMjFsDj",
+        "label": "Cecilian Movement"
       },
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "2FQ4SCuS"
+        "value": "2FQ4SCuS",
+        "label": "polyphony"
       },
       {
         "type": "item",
-        "value": "Z5LXHFLR"
+        "value": "Z5LXHFLR",
+        "label": "motet"
       },
       {
         "type": "item",
-        "value": "eCYL2PkE"
+        "value": "eCYL2PkE",
+        "label": "liturgical music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "2BmcW9yN"
+        "value": "2BmcW9yN",
+        "label": "O bone Jesu"
       }
     ],
     "agent": [
@@ -190,7 +216,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -202,7 +229,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Philippe de Monte"
       },
       {
         "type": "statement",
@@ -211,7 +239,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -223,7 +252,8 @@
             "property": "date",
             "value": "1927"
           }
-        ]
+        ],
+        "label": "Jules Van Nuffel"
       },
       {
         "type": "statement",
@@ -232,39 +262,46 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "PKMmukjk"
+            "value": "PKMmukjk",
+            "label": "Bruges"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1927"
           }
-        ]
+        ],
+        "label": "Éditions Desclée de Brouwer"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "PKMmukjk"
+        "value": "PKMmukjk",
+        "label": "Bruges"
       }
     ]
   },
@@ -281,6 +318,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-39.OP.OM.deMonte24/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2hxuo8JZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2hxuo8JZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2hxuo8JZ.csv"
       }
     ]
   }

@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZDCoj7Zy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:UfinksVv,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:8wb95JHQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:Lk5zS6N5 ;
+    schema1:identifier "15992314"^^xsd:string,
+        "KCA-030901410586"^^xsd:string,
+        "ZDCoj7Zy"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7014841/N"^^schema1:url ;
+    skos:prefLabel "Concertstuk: harmonie-fanfare"^^xsd:string ;
+    wd:P217 "MM-OH-HAEYE-concert-4"^^xsd:string ;
+    wd:P870 faamentity:4AUBYBXJ,
+        faamentity:8CmeUX2q,
+        faamentity:GCEGkwjT,
+        faamentity:L2scRLou,
+        faamentity:LLZNd3A2,
+        faamentity:MFQUhgoe,
+        faamentity:MV3uErvy,
+        faamentity:XTrkzryj .
+
+schema1:contributor a rdf:predicate .
+
+"ZDCoj7Zy-7766a0c6-79ec-4c38-bce9-f59b4b944883"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"ZDCoj7Zy-97cfc742-8b51-4f37-8d8b-71bea1c41825"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:Lk5zS6N5 a rdf:object .
+

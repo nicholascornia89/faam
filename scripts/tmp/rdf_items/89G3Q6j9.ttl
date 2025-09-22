@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:89G3Q6j9 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q734324>,
+        "15991042"^^xsd:string,
+        "89G3Q6j9"^^xsd:string ;
+    schema1:location faamentity:SuF5ESAU,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Braunschweig University of Technology"^^xsd:string,
+        "TU Braunschweig"^^xsd:string,
+        "Technical University of Braunschweig"^^xsd:string,
+        "Technische Universität Braunschweig"^^xsd:string,
+        "University of Braunschweig – Institute of Technology"^^xsd:string,
+        "University of Brunswick – Institute of Technology"^^xsd:string,
+        "tu-braunschweig.de"^^xsd:string ;
+    skos:prefLabel "TU Braunschweig"^^xsd:string,
+        "Technical University of Braunschweig"^^xsd:string .
+

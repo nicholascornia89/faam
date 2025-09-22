@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3131948",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Walford Davies"
       }
     ]
   },
@@ -184,13 +185,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8pUcCa9Y",
+        "type": "item",
+        "label": "Leopold Stokowski",
+        "description": "British-born American conductor (1882–1977)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopold_Stokowski_LOC_26447u.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Walford_Davies_001.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LWZyiZtS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LWZyiZtS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LWZyiZtS.csv"
       }
     ]
   }

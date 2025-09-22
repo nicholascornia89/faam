@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:F3U3jAot a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:RePdmToB,
+        faamentity:YWfofDz3 ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez ;
+    schema1:hasPart faamentity:7Yh87s6n ;
+    schema1:identifier "16002632"^^xsd:string,
+        "F3U3jAot"^^xsd:string,
+        "KCA-030902413019"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12935675/N"^^schema1:url ;
+    skos:prefLabel "Aria uit het Voicespel Isa: voor soprano-stem met klavierbegeleiding"^^xsd:string ;
+    wd:P217 "MM-ZL-BENOI-isa-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"F3U3jAot-d1d5345c-d8cc-47f8-b2cf-1d08c1cfb035"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"F3U3jAot-d9c2c9bc-bf75-4b15-8f42-425f140404ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+

@@ -53,21 +53,25 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       },
       {
         "type": "item",
-        "value": "j3pK6Dqo"
+        "value": "j3pK6Dqo",
+        "label": "Lithographic quality"
       }
     ]
   },
@@ -86,84 +90,102 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "bsgSL8K5"
+        "value": "bsgSL8K5",
+        "label": "Rehearsal letter"
       },
       {
         "type": "item",
-        "value": "3zoajAt8"
+        "value": "3zoajAt8",
+        "label": "rest measure count"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "8Ki8U5U4"
+        "value": "8Ki8U5U4",
+        "label": "underline"
       },
       {
         "type": "item",
-        "value": "YWfofDz3"
+        "value": "YWfofDz3",
+        "label": "bounding"
       },
       {
         "type": "item",
-        "value": "CFKULSen"
+        "value": "CFKULSen",
+        "label": "instrument substitution"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "FHTHb7Dq"
+        "value": "FHTHb7Dq",
+        "label": "overture"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       },
       {
         "type": "item",
-        "value": "WsKgSBQG"
+        "value": "WsKgSBQG",
+        "label": "viola"
       },
       {
         "type": "item",
-        "value": "4oyT6BBG"
+        "value": "4oyT6BBG",
+        "label": "cello"
       },
       {
         "type": "item",
-        "value": "5cucf8tb"
+        "value": "5cucf8tb",
+        "label": "double bass"
       },
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "KBJYMAjV"
+        "value": "KBJYMAjV",
+        "label": "Anacréon"
       }
     ],
     "agent": [
@@ -174,19 +196,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1836"
           }
-        ]
+        ],
+        "label": "Émile Wambach"
       },
       {
         "type": "statement",
@@ -195,7 +220,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -207,23 +233,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Luigi Cherubini"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -240,6 +270,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000339227/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RQtXw622.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RQtXw622.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RQtXw622.csv"
       }
     ]
   }

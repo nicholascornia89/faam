@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q464769",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "rhapsody"
       }
     ],
     "aliases": [
@@ -51,6 +52,141 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UYXqd6VW",
+        "type": "item",
+        "label": "Rhapsody in blue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-0309044064458.gif"
+        }
+      },
+      {
+        "id": "TwXcUUpX",
+        "type": "item",
+        "label": "Ungarische Rhapsodie no. 2 : cadenza",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702856.gif"
+        }
+      },
+      {
+        "id": "7tg6X9Yq",
+        "type": "item",
+        "label": "Ungarische Rhapsodien Band 1",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702864.gif"
+        }
+      },
+      {
+        "id": "N4GQvQGD",
+        "type": "item",
+        "label": "Ungarische Rhapsodien Band 2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702872.gif"
+        }
+      },
+      {
+        "id": "Z3FQHVpH",
+        "type": "item",
+        "label": "Ungarische Rhapsodie no. 12 : Klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904692388.gif"
+        }
+      },
+      {
+        "id": "jR3dHHJw",
+        "type": "item",
+        "label": "Clavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904673826.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "HPEi2ZXz",
+        "type": "item",
+        "label": "Hungarian Rhapsody No. 5",
+        "description": "composition by Franz Liszt"
+      },
+      {
+        "id": "ALxZyw3o",
+        "type": "item",
+        "label": "Rhapsody in Blue",
+        "description": "1924 composition by George Gershwin"
+      },
+      {
+        "id": "aqQnqnyG",
+        "type": "item",
+        "label": "Hungarian Rhapsody No. 12",
+        "description": "composition by Franz Liszt"
+      },
+      {
+        "id": "H5h65tyR",
+        "type": "item",
+        "label": "Hungarian Rhapsody No. 11",
+        "description": "composition for piano by Franz Liszt"
+      },
+      {
+        "id": "TJLhhgzR",
+        "type": "item",
+        "label": "Hungarian Rhapsody No. 10",
+        "description": "composition by Franz Liszt"
+      },
+      {
+        "id": "VNeZWWGb",
+        "type": "item",
+        "label": "Hungarian Rhapsody No. 9",
+        "description": "composition by Franz Liszt"
+      },
+      {
+        "id": "Xh7GzWjm",
+        "type": "item",
+        "label": "Hungarian Roidy No. 2",
+        "description": "Musical piece by Franz Liszt"
+      },
+      {
+        "id": "Nvwe34wr",
+        "type": "item",
+        "label": "Four Pieces for Piano, Op. 119",
+        "description": "set of piano pieces by Johannes Brahms"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "G5pwZLWh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "G5pwZLWh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "G5pwZLWh.csv"
+      }
+    ]
+  }
 }

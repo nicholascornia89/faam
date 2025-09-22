@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q23311",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "City of London"
       }
     ],
     "aliases": [
@@ -80,8 +81,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2643744"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "6mtFubGL",
+        "type": "item",
+        "label": "Guildhall School of Music and Drama",
+        "description": "school in City of London, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kLoeFCLf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kLoeFCLf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kLoeFCLf.csv"
+      }
+    ]
+  }
 }

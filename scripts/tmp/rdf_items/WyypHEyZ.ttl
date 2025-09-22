@@ -1,0 +1,86 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WyypHEyZ a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj,
+        faamentity:nzEPJYVN ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4WGmC6Zt,
+        faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005701"^^xsd:string,
+        "DPF-202502050"^^xsd:string,
+        "WyypHEyZ"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement."^^xsd:string ;
+    skosref:note "Supplément à la Musica Sacra 1913-1914 No. 8b."^^rdf:HTML ;
+    wd:P217 "ms-1913-08"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"WyypHEyZ-08892818-b869-41e0-8c52-77418c090b77"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"WyypHEyZ-0e2985a6-c1f7-4a72-89a5-af6919c0d91b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"WyypHEyZ-22ffb315-953a-4a0b-8310-982044aec0cc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"WyypHEyZ-3db98cf6-ba07-4777-8f39-1b762e96ff56"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"WyypHEyZ-4dec9e81-f918-487b-a71a-ab82f95166f7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"WyypHEyZ-9ed01c3f-3501-4b43-a861-73c0a485787e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+faamentity:4WGmC6Zt a rdf:object .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

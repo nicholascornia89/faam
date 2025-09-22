@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q213914",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bernhard Romberg"
       }
     ]
   },
@@ -167,13 +168,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "F3ffhsSZ",
+        "type": "item",
+        "label": "Trois Trios : d'une Difficulté Progressive pour le Violoncelle, Viola et Violoncelle : Oeuv. 38",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735370.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Bernhard_Romberg.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ir4xgcDx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ir4xgcDx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ir4xgcDx.csv"
       }
     ]
   }

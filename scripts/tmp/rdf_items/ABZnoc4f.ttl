@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ABZnoc4f a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2619680>,
+        "15996311"^^xsd:string,
+        "ABZnoc4f"^^xsd:string ;
+    skos:altLabel "Desclée & Cie"^^xsd:string,
+        "Desclée De Brouwer en Co"^^xsd:string,
+        "Desclée de Brouwer"^^xsd:string,
+        "Editions Desclee de Brouwer"^^xsd:string,
+        "Éditions Desclée de Brouwer"^^xsd:string ;
+    skos:prefLabel "Éditions Desclée de Brouwer"^^xsd:string ;
+    wd:P214 viaf:147000965 ;
+    wd:P31 faamentity:2fXfbLCV .
+

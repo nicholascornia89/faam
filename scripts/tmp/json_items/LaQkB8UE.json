@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q23092",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nottinghamshire"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "11609044"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G7uFGDxa",
+        "type": "item",
+        "label": "John Blow",
+        "description": "English composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_Blow_1687.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LaQkB8UE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LaQkB8UE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LaQkB8UE.csv"
+      }
+    ]
+  }
 }

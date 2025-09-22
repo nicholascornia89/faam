@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UwyYcmGR a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "1918–1922 sovereign state in Eurasia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2305208>,
+        "0"^^xsd:string,
+        "UwyYcmGR"^^xsd:string ;
+    skos:prefLabel "Russian Socialist Federative Soviet Republic"^^xsd:string .
+

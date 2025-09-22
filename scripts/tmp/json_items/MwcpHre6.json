@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1920935",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ivo Mortelmans"
       }
     ]
   },
@@ -153,13 +154,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "dQcyvxX5",
+        "type": "item",
+        "label": "Missa Jesu Bone Pastor. Ad duas voces aequales organo comitante",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502009.gif"
+        }
+      },
+      {
+        "id": "NAd2Jo9W",
+        "type": "item",
+        "label": "Missa Gregoriana. Ad duas voces aequales comitante organo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502012.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MwcpHre6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MwcpHre6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MwcpHre6.csv"
       }
     ]
   }

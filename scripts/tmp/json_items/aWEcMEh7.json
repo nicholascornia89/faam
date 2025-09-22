@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "j3pK6Dqo"
+        "value": "j3pK6Dqo",
+        "label": "Lithographic quality"
       }
     ]
   },
@@ -82,82 +84,100 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "K9MgTT3J"
+        "value": "K9MgTT3J",
+        "label": "cut"
       },
       {
         "type": "item",
-        "value": "UfinksVv"
+        "value": "UfinksVv",
+        "label": "ossia"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "WuWcWk4u"
+        "value": "WuWcWk4u",
+        "label": "ritenuto"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       },
       {
         "type": "item",
-        "value": "Z8fp8xPh"
+        "value": "Z8fp8xPh",
+        "label": "pizzicato"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "ZebrbN4o"
+        "value": "ZebrbN4o",
+        "label": "rondo"
       },
       {
         "type": "item",
-        "value": "6kwYh3HH"
+        "value": "6kwYh3HH",
+        "label": "chamber music"
       },
       {
         "type": "item",
-        "value": "KvY9ZvU4"
+        "value": "KvY9ZvU4",
+        "label": "fantasia"
       },
       {
         "type": "item",
-        "value": "adAmqPwn"
+        "value": "adAmqPwn",
+        "label": "duet"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -169,7 +189,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -181,7 +202,8 @@
             "property": "date",
             "value": "1915"
           }
-        ]
+        ],
+        "label": "Ludovic Bouserez"
       },
       {
         "type": "statement",
@@ -190,7 +212,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -202,7 +225,8 @@
             "property": "date",
             "value": "1915"
           }
-        ]
+        ],
+        "label": "Ludovic Bouserez"
       },
       {
         "type": "statement",
@@ -211,7 +235,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -223,21 +248,25 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": []
@@ -255,6 +284,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902500674/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aWEcMEh7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aWEcMEh7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aWEcMEh7.csv"
       }
     ]
   }

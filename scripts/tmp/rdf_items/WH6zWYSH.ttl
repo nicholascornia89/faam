@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WH6zWYSH a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:CwDDX6Fv ;
+    schema1:birthDate "1804-03-27"^^xsd:string ;
+    schema1:birthPlace faamentity:3LLWNxeK ;
+    schema1:deathDate "1866-10-16"^^xsd:string ;
+    schema1:deathPlace faamentity:PKMmukjk ;
+    schema1:description "priest, theologian, professor and honorary canon (1804 - 1866)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q125865575>,
+        "0"^^xsd:string,
+        "WH6zWYSH"^^xsd:string ;
+    skos:prefLabel "Pierre Joseph D'Hollander"^^xsd:string ;
+    wd:P108 faamentity:idrnRoaA ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:ZnHbmhfu,
+        faamentity:agnuLCvL,
+        faamentity:n8RY6FTC .
+

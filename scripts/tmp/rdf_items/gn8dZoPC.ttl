@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gn8dZoPC a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:Di2mC26w,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:NjSVdz7G,
+        faamentity:ZebrbN4o,
+        faamentity:hxYumS2J,
+        faamentity:iGdvDP28 ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:E6Vr8dnr,
+        faamentity:W2HnH5EL,
+        faamentity:avBR35Dq,
+        faamentity:gxs4hnJq,
+        faamentity:iyd6gRcN ;
+    schema1:identifier "15992732"^^xsd:string,
+        "KCG-000329752"^^xsd:string,
+        "gn8dZoPC"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000329752"^^schema1:url ;
+    skos:prefLabel "Pot-pourri : En B fa si [pour piano]"^^xsd:string ;
+    wd:P217 "DS-1516-(10)"^^xsd:string ;
+    wd:P870 faamentity:KpADqoUN .
+
+schema1:contributor a rdf:predicate .
+
+"gn8dZoPC-1a0339e4-854a-4057-93a6-c6e7ae0c26e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"gn8dZoPC-386554a3-fe5f-42c1-8980-c73fed1aadba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"gn8dZoPC-4adf2879-ff62-4381-87c4-3e5c197459f6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"gn8dZoPC-a95d7a59-cf54-4169-a429-b66511531763"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"gn8dZoPC-e61a34fb-25d9-4582-84cd-fc91f9865501"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"gn8dZoPC-fa1ceb93-b13d-493f-95cf-9165373990f9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:E6Vr8dnr a rdf:object .
+
+faamentity:W2HnH5EL a rdf:object .
+
+faamentity:avBR35Dq a rdf:object .
+
+faamentity:gxs4hnJq a rdf:object .
+
+faamentity:iyd6gRcN a rdf:object .
+

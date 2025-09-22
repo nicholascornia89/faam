@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q67199986",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 377"
       }
     ]
   },
@@ -116,6 +117,101 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "LJDsFJST",
+        "type": "item",
+        "label": "Sonate N. 60 (Bourrée dite d'Aranjuez.)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP69445.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "hVVczLv9",
+        "type": "item",
+        "label": "Sonate n° 60 [i.e. 377] : bourrée (dite d'Aranjuez) / Domenico Scarlatti...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-432579086.gif"
+        }
+      },
+      {
+        "id": "XS4uFbwC",
+        "type": "item",
+        "label": "29 sonatas",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903597976.gif"
+        }
+      },
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7CmNLA8Q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7CmNLA8Q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7CmNLA8Q.csv"
+      }
+    ]
+  }
 }

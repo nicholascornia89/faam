@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3661158",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Casa Rossini"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "10282648"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WVwrkfen",
+        "type": "item",
+        "label": "Gioachino Rossini",
+        "description": "Italian opera composer (1792–1868)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "anhHP8Qv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "anhHP8Qv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "anhHP8Qv.csv"
+      }
+    ]
+  }
 }

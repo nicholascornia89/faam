@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q546",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Trieste"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3165186"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TU6HRQKW",
+        "type": "item",
+        "label": "Giuseppe Tartini",
+        "description": "Italian composer and violinist (1692-1770)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Tartini_(Tartini_House).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NFHAoKLb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NFHAoKLb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NFHAoKLb.csv"
+      }
+    ]
+  }
 }

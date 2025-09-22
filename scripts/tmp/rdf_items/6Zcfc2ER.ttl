@@ -1,0 +1,99 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Zcfc2ER a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:DqMNcjpW,
+        faamentity:J6ERsasy,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:Vk2JQSuo,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam,
+        faamentity:oPdg4LDz ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:FSduWvy5 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BkX9pctu,
+        faamentity:Na5pMDjZ,
+        faamentity:diZHfNq6 ;
+    schema1:hasPart faamentity:54z9cVfW,
+        faamentity:CDBgmkXL,
+        faamentity:Kp8jxSVv,
+        faamentity:bLnUjgnB ;
+    schema1:identifier "16005603"^^xsd:string,
+        "6Zcfc2ER"^^xsd:string,
+        "KCA-030903514815"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Pièces pour le Clavecin par Domenico Scarlatti"^^xsd:string ;
+    wd:P217 "TP79482"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"6Zcfc2ER-0be9e236-8627-470f-93ea-a912e134f360"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"6Zcfc2ER-30043bb4-bf4a-431f-87f6-f3b97dbd3ecc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"6Zcfc2ER-482cb35a-2fbd-4418-a33c-d4a553f5b84d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"6Zcfc2ER-4b8b4235-8f7c-4139-bd44-94079cdf7391"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"6Zcfc2ER-6798c7df-336c-409b-bbba-b6819dc30109"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"6Zcfc2ER-683bbb0b-3010-4721-a600-43964e8e0388"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"6Zcfc2ER-83de9475-2b87-4317-951d-f37a9aec42e4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"6Zcfc2ER-970e7999-743c-4fa2-9a14-0cf4b0913ca0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"6Zcfc2ER-9b91bc5b-90fc-410a-835c-08d486e4b629"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"6Zcfc2ER-bf32d4ce-7c62-486a-8f9a-c028d3240249"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"6Zcfc2ER-cc0cd565-6099-4778-adee-ec8f2ce5965c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"6Zcfc2ER-fbfb64e0-f8e4-44a7-9d08-217769db896b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:Na5pMDjZ a rdf:object .
+
+faamentity:diZHfNq6 a rdf:object .
+

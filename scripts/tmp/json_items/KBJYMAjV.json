@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q4750726",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Anacréon"
       }
     ]
   },
@@ -87,6 +88,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RQtXw622",
+        "type": "item",
+        "label": "Ouverture d'Anacréon ou l'Amour Fugitif : A Grand Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000339227.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KBJYMAjV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KBJYMAjV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KBJYMAjV.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1439593",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fotheringhay Castle"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6286664"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RSZ5FfYQ",
+        "type": "item",
+        "label": "Mary, Queen of Scots",
+        "description": "Queen of Scotland from 1542 to 1567",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mary_Queen_of_Scots_Blairs_Museum.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eKdrmvEd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eKdrmvEd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eKdrmvEd.csv"
+      }
+    ]
+  }
 }

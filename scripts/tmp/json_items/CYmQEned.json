@@ -56,6 +56,51 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "WbGCMSar",
+        "type": "item",
+        "label": "Beatrijs : sinfonisch poema",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903772819.gif"
+        }
+      },
+      {
+        "id": "bmXFKX2M",
+        "type": "item",
+        "label": "Beatrijs : sinfonisch poema",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903900642.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CYmQEned.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CYmQEned.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CYmQEned.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N2f5NSgz a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "graphic writing of musical parameters"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q233861>,
+        "15992106"^^xsd:string,
+        "N2f5NSgz"^^xsd:string ;
+    skos:altLabel "music notation"^^xsd:string,
+        "musical notation"^^xsd:string,
+        "musical notation system"^^xsd:string ;
+    skos:prefLabel "musical notation"^^xsd:string .
+

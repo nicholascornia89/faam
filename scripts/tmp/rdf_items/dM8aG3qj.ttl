@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dM8aG3qj a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "pattern of human activity and symbolism associated with Iran and its people"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q953291>,
+        "16002512"^^xsd:string,
+        "dM8aG3qj"^^xsd:string ;
+    skos:altLabel "Iran culture"^^xsd:string,
+        "Iranian culture"^^xsd:string,
+        "Persian culture"^^xsd:string,
+        "culture in Iran"^^xsd:string,
+        "culture of Iran"^^xsd:string ;
+    skos:prefLabel "culture of Iran"^^xsd:string .
+

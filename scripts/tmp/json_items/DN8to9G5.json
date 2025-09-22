@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q54805195",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "La Monnaie/De Munt"
       }
     ],
     "aliases": [
@@ -64,6 +65,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HkAYDsB2",
+        "type": "item",
+        "label": "Mathieu Crickboom",
+        "description": "Belgian violinist (1871–1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mathieu_Crickboom_1905.jpg"
+        }
+      },
+      {
+        "id": "Mus6HtS9",
+        "type": "item",
+        "label": "Moreau-Sainti",
+        "description": "French opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Moreau_by_Mlle_Athalante.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DN8to9G5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DN8to9G5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DN8to9G5.csv"
+      }
+    ]
+  }
 }

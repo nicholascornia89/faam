@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,89 +79,108 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "9dz9ydpz"
+        "value": "9dz9ydpz",
+        "label": "legato"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "c5cZmF37"
+        "value": "c5cZmF37",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "DqMNcjpW"
+        "value": "DqMNcjpW",
+        "label": "trill"
       },
       {
         "type": "item",
-        "value": "B7WuhvkL"
+        "value": "B7WuhvkL",
+        "label": "fermata"
       },
       {
         "type": "item",
-        "value": "iWuVLJam"
+        "value": "iWuVLJam",
+        "label": "rallentando"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "ZdpNGGJP"
+        "value": "ZdpNGGJP",
+        "label": "arpeggio"
       },
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "FDCuefHz"
+        "value": "FDCuefHz",
+        "label": "Bavarian State Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "K3Ds589T"
+        "value": "K3Ds589T",
+        "label": "fugue"
       },
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "EVwxTS96"
+        "value": "EVwxTS96",
+        "label": "Chromatic Fantasia and Fugue"
       }
     ],
     "agent": [
@@ -170,19 +191,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Km6ATdgQ"
+            "value": "Km6ATdgQ",
+            "label": "Berlin"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Maurice Schlesinger"
       },
       {
         "type": "statement",
@@ -191,19 +215,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Lsbh2rCR"
+            "value": "Lsbh2rCR",
+            "label": "Vienna"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Tobias Haslinger"
       },
       {
         "type": "statement",
@@ -212,7 +239,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -224,7 +252,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Franz Liszt"
       },
       {
         "type": "statement",
@@ -233,7 +262,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -245,35 +275,42 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Johann Sebastian Bach"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "Km6ATdgQ"
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
       },
       {
         "type": "item",
-        "value": "Lsbh2rCR"
+        "value": "Lsbh2rCR",
+        "label": "Vienna"
       }
     ]
   },
@@ -290,6 +327,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991076574139707356/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dy9TNmQe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dy9TNmQe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dy9TNmQe.csv"
       }
     ]
   }

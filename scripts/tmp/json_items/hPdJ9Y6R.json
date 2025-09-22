@@ -6,10 +6,6 @@
       {
         "type": "string",
         "value": "precentor"
-      },
-      {
-        "type": "string",
-        "value": "lyricist"
       }
     ],
     "description": [
@@ -40,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1031332",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "precentor"
       }
     ],
     "aliases": [
@@ -55,6 +52,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mqiFhZrV",
+        "type": "item",
+        "label": "Jacques Arcadelt",
+        "description": "Netherlandish composer of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jarcadelt.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hPdJ9Y6R.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hPdJ9Y6R.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hPdJ9Y6R.csv"
+      }
+    ]
+  }
 }

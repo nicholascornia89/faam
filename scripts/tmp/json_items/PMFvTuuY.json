@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q3387717",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "theatrical director"
       }
     ],
     "aliases": [
@@ -71,6 +72,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GnrSEm6g",
+        "type": "item",
+        "label": "Charles Laffillé",
+        "description": "French composer, poet and theatre director",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "G3ncrNcs",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "hCRg4nwk",
+        "type": "item",
+        "label": "Xavier de Courville",
+        "description": "French writer and historian (1894-1984)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "TJCUXStt",
+        "type": "item",
+        "label": "Farinelli",
+        "description": "Italian singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PMFvTuuY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PMFvTuuY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PMFvTuuY.csv"
+      }
+    ]
+  }
 }

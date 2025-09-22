@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1782545",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Conservatorio Luigi Cherubini"
       }
     ],
     "aliases": []
@@ -45,6 +46,41 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "R2g2c8W5",
+        "type": "item",
+        "label": "Luigi Dallapiccola",
+        "description": "Italian composer (1904–1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigi-Dallapiccola.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZohuQfMv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZohuQfMv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZohuQfMv.csv"
+      }
+    ]
+  }
 }

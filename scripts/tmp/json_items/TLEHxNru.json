@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1235720",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Republic of Lucca"
       }
     ],
     "aliases": []
@@ -44,6 +45,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SESz5K2M",
+        "type": "item",
+        "label": "Luigi Boccherini",
+        "description": "Italian composer and cellist (1743–1805)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "LBoccherini.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TLEHxNru.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TLEHxNru.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TLEHxNru.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q52982",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fusignano"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6536752"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mUtv9AJc",
+        "type": "item",
+        "label": "Arcangelo Corelli",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arcangelo_Corelli,_portrait_by_Hugh_Howard_(1697)_-_2.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dW5ZQZDR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dW5ZQZDR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dW5ZQZDR.csv"
+      }
+    ]
+  }
 }

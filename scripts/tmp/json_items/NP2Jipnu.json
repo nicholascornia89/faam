@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q270633",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Torhout"
       }
     ],
     "aliases": [
@@ -54,8 +55,64 @@
         "base_url": "https://www.geonames.org/",
         "label": "2785365"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FSEwRZh3",
+        "type": "item",
+        "label": "Eugeen van Oye",
+        "description": "Belgian doctor, writer, poet and publicist (1840-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugeen_van_Oye_-_Statue_in_Gistel.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "AtSr3v9v",
+        "type": "item",
+        "label": "Sint-Jozefsinstituut Torhout",
+        "description": ""
+      },
+      {
+        "id": "k3zQmgub",
+        "type": "item",
+        "label": "Normaalschool Torhout",
+        "description": "school in Torhout for the training of teaching staff"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NP2Jipnu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NP2Jipnu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NP2Jipnu.csv"
+      }
+    ]
+  }
 }

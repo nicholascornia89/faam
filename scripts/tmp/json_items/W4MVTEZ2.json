@@ -84,13 +84,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "73ip3aC7",
+        "type": "item",
+        "label": "12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903238001.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "C5U4ydvp",
+        "type": "item",
+        "label": "Twelve Little Preludes",
+        "description": "19th-century compilation of short musical pieces"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "W4MVTEZ2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "W4MVTEZ2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "W4MVTEZ2.csv"
       }
     ]
   }

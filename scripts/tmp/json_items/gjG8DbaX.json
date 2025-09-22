@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q88565625",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le trésor des demoiselles"
       }
     ],
     "aliases": [
@@ -66,6 +67,151 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "dPegGfds",
+        "type": "item",
+        "label": "Les Fauvettes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p18.gif"
+        }
+      },
+      {
+        "id": "SXQZdEJk",
+        "type": "item",
+        "label": "Fantaisie sur le Carillonneur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p22.gif"
+        }
+      },
+      {
+        "id": "JkxXKfb6",
+        "type": "item",
+        "label": "L'emploi de ma journée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p25.gif"
+        }
+      },
+      {
+        "id": "afFp7K29",
+        "type": "item",
+        "label": "En écoutant avec son coeur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p26.gif"
+        }
+      },
+      {
+        "id": "TYwX4URq",
+        "type": "item",
+        "label": "Songe de Bonheur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p32.gif"
+        }
+      },
+      {
+        "id": "R7insBVv",
+        "type": "item",
+        "label": "Le Bouquet",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p33.gif"
+        }
+      },
+      {
+        "id": "Ps6svLTg",
+        "type": "item",
+        "label": "Le Livre du coeur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p34.gif"
+        }
+      },
+      {
+        "id": "BnWi866J",
+        "type": "item",
+        "label": "La Pervenche",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p35.gif"
+        }
+      },
+      {
+        "id": "9BgKwYti",
+        "type": "item",
+        "label": "Dieu le voit",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p36.gif"
+        }
+      },
+      {
+        "id": "WUgjW6tg",
+        "type": "item",
+        "label": "Le Pinson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p40.gif"
+        }
+      },
+      {
+        "id": "JEKxzL8K",
+        "type": "item",
+        "label": "Thalie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p44.gif"
+        }
+      },
+      {
+        "id": "7DWvstHv",
+        "type": "item",
+        "label": "Captivité",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p45.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gjG8DbaX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gjG8DbaX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gjG8DbaX.csv"
+      }
+    ]
+  }
 }

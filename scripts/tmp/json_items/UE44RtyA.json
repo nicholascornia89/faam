@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q593644",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "chemist"
       }
     ],
     "aliases": [
@@ -47,6 +48,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "b76YWHCN",
+        "type": "item",
+        "label": "Alexander Borodin",
+        "description": "Russian composer, doctor and chemist (1833–1887)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Borodin.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UE44RtyA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UE44RtyA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UE44RtyA.csv"
+      }
+    ]
+  }
 }

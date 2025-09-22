@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q457569",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Blâmont"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3032429"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "keJfejyV",
+        "type": "item",
+        "label": "Florent Schmitt",
+        "description": "French composer (1870-1958)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Florent_Schmitt_1900.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "f3ToHPQG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "f3ToHPQG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "f3ToHPQG.csv"
+      }
+    ]
+  }
 }

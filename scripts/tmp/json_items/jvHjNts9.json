@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q11131",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hazebrouck"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6438285"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hRufYENT",
+        "type": "item",
+        "label": "Stanislas Verroust",
+        "description": "French composer, teacher and oboist (1814-1863)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "hRufYENT",
+        "type": "item",
+        "label": "Stanislas Verroust",
+        "description": "French composer, teacher and oboist (1814-1863)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jvHjNts9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jvHjNts9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jvHjNts9.csv"
+      }
+    ]
+  }
 }

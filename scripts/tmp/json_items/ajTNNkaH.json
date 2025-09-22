@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q10282",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pamplona"
       }
     ],
     "aliases": [
@@ -70,8 +71,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6359749"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PxvuntZk",
+        "type": "item",
+        "label": "Pablo de Sarasate",
+        "description": "Spanish violinist and composer (1844–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pablo_de_Sarasate_1906.jpg"
+        }
+      },
+      {
+        "id": "fJvgJxTY",
+        "type": "item",
+        "label": "Theobald I of Navarre",
+        "description": "King of Navarre from 1234 to 1253",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thibault_IV_Comte_de_Champagne.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ajTNNkaH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ajTNNkaH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ajTNNkaH.csv"
+      }
+    ]
+  }
 }

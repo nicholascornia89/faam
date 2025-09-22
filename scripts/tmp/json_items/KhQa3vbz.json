@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1110282",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Teatro San Angelo"
       }
     ],
     "aliases": [
@@ -66,6 +67,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Key74Nv2",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KhQa3vbz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KhQa3vbz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KhQa3vbz.csv"
+      }
+    ]
+  }
 }

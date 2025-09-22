@@ -53,17 +53,20 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,80 +81,98 @@
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "KWVSVF8L"
+        "value": "KWVSVF8L",
+        "label": "exoticism"
       },
       {
         "type": "item",
-        "value": "hCL8ZYQY"
+        "value": "hCL8ZYQY",
+        "label": "symphonic music"
       },
       {
         "type": "item",
-        "value": "4ZvdnZdj"
+        "value": "4ZvdnZdj",
+        "label": "programme music"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       },
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       },
       {
         "type": "item",
-        "value": "WsKgSBQG"
+        "value": "WsKgSBQG",
+        "label": "viola"
       },
       {
         "type": "item",
-        "value": "4oyT6BBG"
+        "value": "4oyT6BBG",
+        "label": "cello"
       },
       {
         "type": "item",
-        "value": "5cucf8tb"
+        "value": "5cucf8tb",
+        "label": "double bass"
       },
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       },
       {
         "type": "item",
-        "value": "4AUBYBXJ"
+        "value": "4AUBYBXJ",
+        "label": "clarinet"
       },
       {
         "type": "item",
-        "value": "MFQUhgoe"
+        "value": "MFQUhgoe",
+        "label": "oboe"
       },
       {
         "type": "item",
-        "value": "GCEGkwjT"
+        "value": "GCEGkwjT",
+        "label": "bassoon"
       },
       {
         "type": "item",
-        "value": "N3AKKugd"
+        "value": "N3AKKugd",
+        "label": "horn"
       },
       {
         "type": "item",
-        "value": "THzPKTSp"
+        "value": "THzPKTSp",
+        "label": "cornet"
       },
       {
         "type": "item",
-        "value": "L2scRLou"
+        "value": "L2scRLou",
+        "label": "trombone"
       },
       {
         "type": "item",
-        "value": "VmGgcspg"
+        "value": "VmGgcspg",
+        "label": "cymbal"
       }
     ],
     "musical work": [],
@@ -163,7 +184,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -175,13 +197,15 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jean de Smetsky"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -199,6 +223,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904381131/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7oEXe7Ys.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7oEXe7Ys.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7oEXe7Ys.csv"
       }
     ]
   }

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fzrskT2v a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1480-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:Wbp99pf7 ;
+    schema1:deathDate "1547-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:PKMmukjk ;
+    schema1:description "Franco-Flemish composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q722322>,
+        "16002731"^^xsd:string,
+        "fzrskT2v"^^xsd:string ;
+    skos:altLabel "Jean Richafort"^^xsd:string ;
+    skos:prefLabel "Jean Richafort"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:107536201 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:Vm3JWtge ;
+    wd:P839 <https://imslp.org/wiki/Category:Richafort,_Jean> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

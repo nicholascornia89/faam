@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MsRLyJ64 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "composition by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11915167>,
+        "16005756"^^xsd:string,
+        "MsRLyJ64"^^xsd:string ;
+    skos:altLabel "BWV 1057"^^xsd:string,
+        "Concerto for Harpsichord in F Major, BWV 1057"^^xsd:string,
+        "Harpsichord Concerto No.6 in F major, BWV 1057"^^xsd:string ;
+    skos:prefLabel "Harpsichord Concerto No.6 in F major, BWV 1057"^^xsd:string ;
+    wd:P5202 faamentity:cCRS4yYP ;
+    wd:P7937 faamentity:KbQW9nkn ;
+    wd:P839 <https://imslp.org/wiki/Harpsichord_Concerto_No.6_in_F_major,_BWV_1057_(Bach,_Johann_Sebastian)> .
+

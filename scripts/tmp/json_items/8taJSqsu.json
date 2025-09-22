@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q42185521",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stradella"
       }
     ]
   },
@@ -50,6 +51,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "TwWYpCrK",
+        "type": "item",
+        "label": "Alessandro Stradella",
+        "description": "opera by Friedrich von Flotow"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8taJSqsu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8taJSqsu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8taJSqsu.csv"
+      }
+    ]
+  }
 }

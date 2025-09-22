@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q6581823",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Southern Netherlands"
       }
     ],
     "aliases": [
@@ -57,6 +58,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Z2Em2bet",
+        "type": "item",
+        "label": "Jacobus de Kerle",
+        "description": "Flemish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NNSwkgnQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NNSwkgnQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NNSwkgnQ.csv"
+      }
+    ]
+  }
 }

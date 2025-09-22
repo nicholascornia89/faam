@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3817964",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "L'art de toucher le clavecin"
       }
     ]
   },
@@ -90,6 +91,61 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bHzuA4nb",
+        "type": "item",
+        "label": "Couperin's Werke. 1,1: Clavierstücke : livre I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076926199707356.gif"
+        }
+      },
+      {
+        "id": "aw3Ufoxw",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290521.gif"
+        }
+      },
+      {
+        "id": "SjjfyqFL",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MYrDfGsq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MYrDfGsq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MYrDfGsq.csv"
+      }
+    ]
+  }
 }

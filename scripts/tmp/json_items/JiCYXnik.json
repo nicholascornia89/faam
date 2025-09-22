@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q8034764",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Workers' Youth Theatre"
       }
     ],
     "aliases": [
@@ -75,6 +76,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CTPKvYNp",
+        "type": "item",
+        "label": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist (1906-1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JiCYXnik.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JiCYXnik.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JiCYXnik.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,108 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BxUZpGCB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:59RimmuX,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:Z8fp8xPh,
+        faamentity:byLEfakR,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:fPsPgkcQ,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:bsgSL8K5 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    faamprop:sections """<ul>
+<li> N.1 </li>
+<li> N.2 </li>
+<li> N.3 </li>
+<li> N.4 </li>
+<li> N.5 </li>
+<li> N.6 </li>
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8gZHuqVq,
+        faamentity:Hgxretvk,
+        faamentity:JEZ5AweR,
+        faamentity:TYtCu3ys ;
+    schema1:hasPart faamentity:UDND8rKp,
+        faamentity:a2CihXAp ;
+    schema1:identifier "16003987"^^xsd:string,
+        "BxUZpGCB"^^xsd:string,
+        "KCG-000750767"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000750767"^^schema1:url ;
+    skos:prefLabel "Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée"^^xsd:string ;
+    skosref:related faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN ;
+    wd:P217 "DS-4338"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"BxUZpGCB-08584f80-54fc-40f3-a594-ad35fe265557"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BxUZpGCB-101f0c20-8b55-4327-8ae0-8970bd9eeef8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BxUZpGCB-33dbad04-71b5-4a5d-bd1d-d57359ceb362"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BxUZpGCB-55f23647-e876-467e-81ce-f84be573126d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BxUZpGCB-798542ec-c1f0-4b38-9374-6aa03e022a1f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BxUZpGCB-9eb59c0a-2455-440f-b4d8-1cb1ed608ba6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BxUZpGCB-b8ef4fdd-08d6-4ca1-aab3-aef585c89a2b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BxUZpGCB-dc9a371e-6567-4905-85fa-f45771586ca3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:8gZHuqVq a rdf:object .
+
+faamentity:Hgxretvk a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q13122",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dendermonde"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2799646"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2dS4SEkW",
+        "type": "item",
+        "label": "Emmanuel Hiel",
+        "description": "Belgian poet, writer and politician (1834–1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hiel,_Emmanuel_(1834-1899);_dichter_en_schrijver,_Nauwens,_Joseph,_Felixarchief,_12_12840.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GD6axJnB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GD6axJnB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GD6axJnB.csv"
+      }
+    ]
+  }
 }

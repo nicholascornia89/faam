@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WzZm6ugw a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1840-04-05"^^xsd:string ;
+    schema1:birthPlace faamentity:g8fQXctT ;
+    schema1:deathDate "1886-04-06"^^xsd:string ;
+    schema1:deathPlace faamentity:VGqBNPrY ;
+    schema1:description "French composer (1840-1886)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2430552>,
+        "0"^^xsd:string,
+        "WzZm6ugw"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Théodore Ritter"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:79201227 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30022640> ;
+    wd:P737 faamentity:3ZGzegqc,
+        faamentity:ewwggKDh ;
+    wd:P839 <https://imslp.org/wiki/Category:Ritter,_Théodore> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

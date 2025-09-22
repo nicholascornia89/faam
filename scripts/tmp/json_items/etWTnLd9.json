@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q271014",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tsentralny District"
       }
     ],
     "aliases": [
@@ -54,8 +55,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "8521324"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CaPmHone",
+        "label": "Russia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "cRgrMCwf",
+        "type": "item",
+        "label": "Saint Peter's School",
+        "description": "secondary school in Russia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "etWTnLd9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "etWTnLd9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "etWTnLd9.csv"
+      }
+    ]
+  }
 }

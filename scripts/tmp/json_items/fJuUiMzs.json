@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q161741",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "1st arrondissement of Paris"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6269531"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "66RojzbP",
+        "type": "item",
+        "label": "Paul Dukas",
+        "description": "French composer (1865–1935)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Dukas_01.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fJuUiMzs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fJuUiMzs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fJuUiMzs.csv"
+      }
+    ]
+  }
 }

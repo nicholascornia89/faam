@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q106000",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph Küffner"
       }
     ]
   },
@@ -152,13 +153,87 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "hquMT8gR",
+        "type": "item",
+        "label": "32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000352632.gif"
+        }
+      },
+      {
+        "id": "mSgTWimc",
+        "type": "item",
+        "label": "seizième Potpourri : pour Piano et Flute ou Violon",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750008.gif"
+        }
+      },
+      {
+        "id": "mSgTWimc",
+        "type": "item",
+        "label": "seizième Potpourri : pour Piano et Flute ou Violon",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750008.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "HfUJD7Ez",
+        "type": "item",
+        "label": "Sizième Potpurri pour Piano et Flûte ou Violon, Op. 213",
+        "description": ""
+      },
+      {
+        "id": "2BXKC8Vu",
+        "type": "item",
+        "label": "Le comte Ory",
+        "description": "opera by Gioachino Rossini"
+      },
+      {
+        "id": "4sXtxEvM",
+        "type": "item",
+        "label": "Gustave III",
+        "description": "opera by Daniel-François-Esprit Auber"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UxebPh37.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UxebPh37.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UxebPh37.csv"
       }
     ]
   }

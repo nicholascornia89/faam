@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3338919",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "New College Worcester"
       }
     ],
     "aliases": []
@@ -62,6 +63,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5DhejGJ6",
+        "type": "item",
+        "label": "Edward Elgar",
+        "description": "English composer (1857-1934)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edward_Elgar_1857_-_1934.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mfP6VeEX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mfP6VeEX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mfP6VeEX.csv"
+      }
+    ]
+  }
 }

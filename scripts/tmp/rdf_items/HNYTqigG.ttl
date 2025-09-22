@@ -1,0 +1,81 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HNYTqigG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3Vvybq56,
+        faamentity:6sMfgEow,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:CVNQjFrR,
+        faamentity:DqMNcjpW,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:Rxa2vGNJ,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:U5dHgcL4,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3dza8bNk,
+        faamentity:JvF3PApd,
+        faamentity:MbXCYU7Y ;
+    schema1:hasPart faamentity:KUiMAQ5a,
+        faamentity:RCoqaGgD ;
+    schema1:identifier "16003994"^^xsd:string,
+        "HNYTqigG"^^xsd:string,
+        "KCG-000344649"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000344649"^^schema1:url ;
+    skos:prefLabel "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:"^^xsd:string ;
+    wd:P217 "A-1461 (21), A-1461 (BIS8)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"HNYTqigG-36157e22-dac3-4e8a-a39d-82774dc9b13f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"HNYTqigG-9903edf4-aa2c-4c67-91dc-75a4b1566d83"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HNYTqigG-c2e407ab-2147-4594-b7c6-a600c7acbdd1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HNYTqigG-e0320c95-9b3a-40db-a8bd-1d9215ca5545"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HNYTqigG-f8df2f77-5634-4d24-8dd7-237a810fe152"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HNYTqigG-fced8e9e-0595-437c-b10a-67f21a276c38"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:3dza8bNk a rdf:object .
+
+faamentity:JvF3PApd a rdf:object .
+
+faamentity:MbXCYU7Y a rdf:object .
+

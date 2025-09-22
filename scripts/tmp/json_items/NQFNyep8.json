@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q596160",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Eugène Ketterer"
       }
     ]
   },
@@ -167,13 +168,75 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bXZcYBkb",
+        "type": "item",
+        "label": "Faust, Opéra en 5 Actes, de Ch. Gounod",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p8.gif"
+        }
+      },
+      {
+        "id": "Dfn9CZ5w",
+        "type": "item",
+        "label": "Armonia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p30.gif"
+        }
+      },
+      {
+        "id": "Dfn9CZ5w",
+        "type": "item",
+        "label": "Armonia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p30.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "UxDTZZko",
+        "type": "item",
+        "label": "Faust",
+        "description": "grand opera in five acts by Charles Gounod"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Eugène_Ketterer_1864.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NQFNyep8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NQFNyep8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NQFNyep8.csv"
       }
     ]
   }

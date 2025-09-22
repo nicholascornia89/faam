@@ -66,7 +66,8 @@
       {
         "type": "externalid",
         "value": "Q20721",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Luigi Cherubini"
       }
     ]
   },
@@ -198,13 +199,87 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RQtXw622",
+        "type": "item",
+        "label": "Ouverture d'Anacréon ou l'Amour Fugitif : A Grand Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000339227.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Ur67Wrqk",
+        "type": "item",
+        "label": "Michele Carafa",
+        "description": "Italian opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Michele_Carafa_by_Antoine_Maurin.jpg"
+        }
+      },
+      {
+        "id": "U6xhouYu",
+        "type": "item",
+        "label": "Fromental Halévy",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg"
+        }
+      },
+      {
+        "id": "h2ff8YKo",
+        "type": "item",
+        "label": "Pierre-Joseph-Guillaume Zimmermann",
+        "description": "French pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre_Zimmermann.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "KBJYMAjV",
+        "type": "item",
+        "label": "Anacréon",
+        "description": "opera by Cherubini"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jean-Auguste-Dominique_Ingres_-_Luigi_Cherubini_-_Google_Art_Project.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FbNe7Pgk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FbNe7Pgk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FbNe7Pgk.csv"
       }
     ]
   }

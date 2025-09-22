@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q23140",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Warwickshire"
       }
     ],
     "aliases": [
@@ -64,8 +65,52 @@
         "base_url": "https://www.geonames.org/",
         "label": "11609021"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "Xdy4dVUF",
+        "type": "item",
+        "label": "Rugby School",
+        "description": "private school in Rugby, Warwickshire, England"
+      },
+      {
+        "id": "FypRZttR",
+        "type": "item",
+        "label": "King Edward VI School, Stratford-upon-Avon",
+        "description": "school in Warwickshire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9QCTxByH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9QCTxByH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9QCTxByH.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,74 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mCuCRJ4V a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:B7WuhvkL,
+        faamentity:CFKULSen,
+        faamentity:CPJ2a2C2,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:UfinksVv,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam,
+        faamentity:oPdg4LDz ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GQ9LXzE7,
+        faamentity:QhRQ5LW9,
+        faamentity:jK3acqwb ;
+    schema1:hasPart faamentity:SUQCCDgx ;
+    schema1:identifier "16005046"^^xsd:string,
+        "BNF-42826443c"^^xsd:string,
+        "mCuCRJ4V"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42826443c"^^schema1:url ;
+    skos:prefLabel "Trois Sonates pour piano et viola da gamba ou violoncelle, composées par J. Seb. Bach. Edition nouvelle, revue, doigtée et enrichie de notes sur l'exécution par Fr. Grützmacher"^^xsd:string ;
+    wd:P217 "VMG-6571"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"mCuCRJ4V-0e607fd2-8d44-4abd-9846-13bcfbaad7ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"mCuCRJ4V-6e9183a5-c24d-4e51-95ae-8c959b345372"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"mCuCRJ4V-9dfbc6ab-6230-4a2a-a3fd-c1b02e463618"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+faamentity:GQ9LXzE7 a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:jK3acqwb a rdf:object .
+

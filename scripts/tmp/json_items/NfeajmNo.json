@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2537853",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Orchestre de la Société des Concerts du Conservatoire"
       }
     ],
     "aliases": []
@@ -45,6 +46,41 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EzYHqpj2",
+        "type": "item",
+        "label": "Théophile Laforge",
+        "description": "French musician (1863–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Théophile_Laforge.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NfeajmNo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NfeajmNo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NfeajmNo.csv"
+      }
+    ]
+  }
 }

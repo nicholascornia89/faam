@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1340262",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Chopin University of Music"
       }
     ],
     "aliases": [
@@ -78,6 +79,91 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YgFSCMaH",
+        "type": "item",
+        "label": "Stanisław Moniuszko",
+        "description": "Polish composer (1819–1872)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg"
+        }
+      },
+      {
+        "id": "CQyGQhkV",
+        "type": "item",
+        "label": "Józef Elsner",
+        "description": "Polish composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Józef_Elsner.PNG"
+        }
+      },
+      {
+        "id": "juzW8HfZ",
+        "type": "item",
+        "label": "Wilhelm Würfel",
+        "description": "Czech conductor, music educator, composer and pianist (1790–1832)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "JhNXweKy",
+        "type": "item",
+        "label": "Elisabeth Chojnacka",
+        "description": "Polish harpsichordist (1939–2017)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Elisabeth_CHOJNACKA_1972.jpg"
+        }
+      },
+      {
+        "id": "Bbuh5pNe",
+        "type": "item",
+        "label": "Wanda Landowska",
+        "description": "(1879-1959) Polish-French harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg"
+        }
+      },
+      {
+        "id": "B8C32cCH",
+        "type": "item",
+        "label": "Frédéric Chopin",
+        "description": "Polish composer and pianist (1810–1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frederic_Chopin_photo.jpeg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "X8LwLGC9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "X8LwLGC9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "X8LwLGC9.csv"
+      }
+    ]
+  }
 }

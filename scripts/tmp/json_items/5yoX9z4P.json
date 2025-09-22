@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q152087",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Humboldt-Universität zu Berlin"
       }
     ],
     "aliases": [
@@ -94,6 +95,81 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "APHLApec",
+        "type": "item",
+        "label": "Adolf Bernhard Marx",
+        "description": "German composer and musicologist (1795–1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Bernhard_Marx.jpg"
+        }
+      },
+      {
+        "id": "c5kbPQTK",
+        "type": "item",
+        "label": "Carl Friedrich Zelter",
+        "description": "German composer (1758-1832)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl-Friedrich-Zelter.jpeg"
+        }
+      },
+      {
+        "id": "ejpyTMJt",
+        "type": "item",
+        "label": "Willibald Alexis",
+        "description": "German historical novelist (1798–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Willibald_Alexis.jpg"
+        }
+      },
+      {
+        "id": "SGrSvda8",
+        "type": "item",
+        "label": "Felix Mendelssohn",
+        "description": "German composer, pianist, organist and conductor of Jewish descent (1809–1847)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mendelssohn_Bartholdy.jpg"
+        }
+      },
+      {
+        "id": "jUsVtv53",
+        "type": "item",
+        "label": "Hans Bronsart von Schellendorff",
+        "description": "German composer (1830-1913)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hans_Bronsart_von_Schellendorff.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5yoX9z4P.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5yoX9z4P.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5yoX9z4P.csv"
+      }
+    ]
+  }
 }

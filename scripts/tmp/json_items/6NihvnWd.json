@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q189015",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ruggero Leoncavallo"
       }
     ]
   },
@@ -191,13 +192,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "55nTv4UP",
+        "type": "item",
+        "label": "Sérénade Française. \"Mon Gentil Pierrot\"",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p68.gif"
+        }
+      },
+      {
+        "id": "55nTv4UP",
+        "type": "item",
+        "label": "Sérénade Française. \"Mon Gentil Pierrot\"",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p68.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Zonder_titel_PK-F-MM.5862_-_recto.tiff",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6NihvnWd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6NihvnWd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6NihvnWd.csv"
       }
     ]
   }

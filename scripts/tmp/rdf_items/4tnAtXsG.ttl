@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4tnAtXsG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1826-01-01"^^xsd:string ;
+    schema1:deathDate "1853-01-01"^^xsd:string ;
+    schema1:description "Belgian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124540833>,
+        "15996277"^^xsd:string,
+        "4tnAtXsG"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Alexander Stadfeld"^^xsd:string ;
+    skos:prefLabel "Alexander Stadfeld"^^xsd:string ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

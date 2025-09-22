@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q157035",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bückeburg"
       }
     ],
     "aliases": [
@@ -60,8 +61,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6558445"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WVVuC38d",
+        "type": "item",
+        "label": "Iwan Müller",
+        "description": "Russian musician and composer (1786-1854)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Iwan_Müller.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8r3gNCpr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8r3gNCpr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8r3gNCpr.csv"
+      }
+    ]
+  }
 }

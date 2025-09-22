@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Di2mC26w a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:XtPVttT2,
+        faamentity:k5PWRY6Q ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical symbol indicating the player to put the sustain pedal down"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124518660>,
+        "15992230"^^xsd:string,
+        "Di2mC26w"^^xsd:string ;
+    skos:altLabel "engage pedal"^^xsd:string,
+        "pedal mark"^^xsd:string ;
+    skos:prefLabel "engage pedal"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:gyJdd63T ;
+    wd:P31 faamentity:N2f5NSgz .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q23675262",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles Hambitzer"
       }
     ]
   },
@@ -119,13 +120,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JnMHxB4U",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      },
+      {
+        "id": "GwJt3vGU",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Charles_Hambitzer.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "C7LuuAQG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "C7LuuAQG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "C7LuuAQG.csv"
       }
     ]
   }

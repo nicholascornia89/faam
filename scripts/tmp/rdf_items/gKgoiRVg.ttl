@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gKgoiRVg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3wN8PmuS,
+        faamentity:cc2zjtBZ ;
+    schema1:birthDate "1907-10-12"^^xsd:string ;
+    schema1:birthPlace faamentity:GKcJxAtt ;
+    schema1:deathDate "1987-09-05"^^xsd:string ;
+    schema1:deathPlace faamentity:XMsiEivS ;
+    schema1:description "German composer and conductor (1907–1987)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q694204>,
+        "15996094"^^xsd:string,
+        "gKgoiRVg"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Wolfgang Fortner"^^xsd:string ;
+    skos:prefLabel "Wolfgang Fortner"^^xsd:string ;
+    wd:P108 faamentity:Z2kzA6v7,
+        faamentity:adFwt7Cm ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:113885876 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30074801> ;
+    wd:P737 faamentity:E3TYHdg6,
+        faamentity:MFt7tvH9,
+        faamentity:RzJ2dN9s,
+        faamentity:oQCAcEAL ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:ZX7Jzf9y .
+

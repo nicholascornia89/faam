@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q7564035",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sotto voce"
       }
     ],
     "aliases": [
@@ -100,6 +101,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "o9yHFhFa",
+        "type": "item",
+        "label": "Charles VI : opera in 5 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348150.gif"
+        }
+      },
+      {
+        "id": "e3GfisZP",
+        "type": "item",
+        "label": "Supplément à la Musica sacra, 1886-87 N.8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502045.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CAJrKY2K.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CAJrKY2K.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CAJrKY2K.csv"
+      }
+    ]
+  }
 }

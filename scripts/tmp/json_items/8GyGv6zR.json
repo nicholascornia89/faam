@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q42716",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint-Étienne"
       }
     ],
     "aliases": [
@@ -82,8 +83,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2980291"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PRxF4srB",
+        "type": "item",
+        "label": "Jean-Baptiste Thibaut",
+        "description": "French theologian (1872-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "EzxGVoaq",
+        "type": "item",
+        "label": "Jules Massenet",
+        "description": "French composer (1842–1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Massenet_by_Eugène_Pirou,_edit_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8GyGv6zR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8GyGv6zR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8GyGv6zR.csv"
+      }
+    ]
+  }
 }

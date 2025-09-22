@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q9899",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Amsterdam"
       }
     ],
     "aliases": [
@@ -58,8 +59,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "2759793"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JASyyfcM",
+        "type": "item",
+        "label": "Kees Otten",
+        "description": "Dutch recorder player (1924-2008)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "KeesOtten1967.jpg"
+        }
+      },
+      {
+        "id": "JASyyfcM",
+        "type": "item",
+        "label": "Kees Otten",
+        "description": "Dutch recorder player (1924-2008)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "KeesOtten1967.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "ewC4voHF",
+        "type": "item",
+        "label": "Ignatius Gymnasium",
+        "description": "secondary school in Amsterdam, Netherlands"
+      },
+      {
+        "id": "ZrwVaN6Q",
+        "type": "item",
+        "label": "University of Amsterdam",
+        "description": "public university in Amsterdam, Netherlands"
+      },
+      {
+        "id": "Ycr8zWYn",
+        "type": "item",
+        "label": "Conservatorium van Amsterdam",
+        "description": "Dutch academy of music"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3W4qGneS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3W4qGneS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3W4qGneS.csv"
+      }
+    ]
+  }
 }

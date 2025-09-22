@@ -53,21 +53,25 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       },
       {
         "type": "item",
-        "value": "j3pK6Dqo"
+        "value": "j3pK6Dqo",
+        "label": "Lithographic quality"
       }
     ]
   },
@@ -86,52 +90,62 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       },
       {
         "type": "item",
-        "value": "d2uUDsVY"
+        "value": "d2uUDsVY",
+        "label": "variation"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "NjSVdz7G"
+        "value": "NjSVdz7G",
+        "label": "romance"
       },
       {
         "type": "item",
-        "value": "6kwYh3HH"
+        "value": "6kwYh3HH",
+        "label": "chamber music"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "N3AKKugd"
+        "value": "N3AKKugd",
+        "label": "horn"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "SZSoBuLq"
+        "value": "SZSoBuLq",
+        "label": "Horn Solo No.12, Op.55"
       }
     ],
     "agent": [
@@ -142,19 +156,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1846"
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -163,7 +180,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -175,23 +193,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jacques François Gallay"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -208,6 +230,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000345311/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KNrKDcYq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KNrKDcYq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KNrKDcYq.csv"
       }
     ]
   }

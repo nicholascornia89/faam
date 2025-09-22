@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AazD6R5i a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "type of classical female singing voice whose vocal range lies between the soprano and the contralto voice"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q186506>,
+        "15990843"^^xsd:string,
+        "AazD6R5i"^^xsd:string ;
+    skos:altLabel "mezzo"^^xsd:string,
+        "mezzo-soprano"^^xsd:string,
+        "mezzo-soprano voice"^^xsd:string,
+        "mezzosoprano"^^xsd:string,
+        "mezzosoprán"^^xsd:string ;
+    skos:prefLabel "mezzo-soprano"^^xsd:string .
+

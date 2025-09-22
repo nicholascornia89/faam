@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q322427",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Moritz Moszkowski"
       }
     ]
   },
@@ -188,13 +189,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "S8BVmapD",
+        "type": "item",
+        "label": "Près du Berceau",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p82.gif"
+        }
+      },
+      {
+        "id": "S8BVmapD",
+        "type": "item",
+        "label": "Près du Berceau",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p82.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Moritz_Moszkowski.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2cYc43Nw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2cYc43Nw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2cYc43Nw.csv"
       }
     ]
   }

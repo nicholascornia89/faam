@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q194172",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "nocturne"
       }
     ],
     "aliases": [
@@ -55,6 +56,105 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "nkMiKVJu",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901436383.gif"
+        }
+      },
+      {
+        "id": "ANJ4ZHsP",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711642.gif"
+        }
+      },
+      {
+        "id": "3fvsLZj8",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711626.gif"
+        }
+      },
+      {
+        "id": "eT53PMhY",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711634.gif"
+        }
+      },
+      {
+        "id": "2zuqzq6z",
+        "type": "item",
+        "label": "(Preludio) circa 1740",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA106.gif"
+        }
+      },
+      {
+        "id": "JreYnvTD",
+        "type": "item",
+        "label": "Notturno Op. 37, Nr. 1 : für Violine und Orchester",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904862957.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "UTw6kArf",
+        "type": "item",
+        "label": "Nocturnes, Op. 9",
+        "description": "set of compositions for piano by Frédéric Chopin"
+      },
+      {
+        "id": "bXxmkmLp",
+        "type": "item",
+        "label": "Nocturne No. 11 in G minor, Op. 37, No. 1",
+        "description": "composition by Chopin"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TF4BzPKq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TF4BzPKq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TF4BzPKq.csv"
+      }
+    ]
+  }
 }

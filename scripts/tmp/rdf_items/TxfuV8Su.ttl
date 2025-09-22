@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TxfuV8Su a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:cc2zjtBZ ;
+    schema1:birthDate "1810-06-08"^^xsd:string ;
+    schema1:birthPlace faamentity:BicgTrSh ;
+    schema1:deathDate "1856-07-29"^^xsd:string ;
+    schema1:deathPlace faamentity:TC6JZ66W,
+        faamentity:Y9tnaiTR ;
+    schema1:description "German composer, pianist and critic (1810–1856)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7351>,
+        "15995987"^^xsd:string,
+        "TxfuV8Su"^^xsd:string ;
+    schema1:nationality faamentity:EjofKZsr ;
+    skos:altLabel "Robert Alexander Schumann"^^xsd:string,
+        "Robert Kurt Schumann"^^xsd:string,
+        "Robert Schumann"^^xsd:string ;
+    skos:prefLabel "Robert Schumann"^^xsd:string ;
+    wd:P108 faamentity:3wN8PmuS ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7575259 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/131206> ;
+    wd:P737 faamentity:AW2h5fHS,
+        faamentity:SCjuhjvs,
+        faamentity:aHAMDNza ;
+    wd:P839 <https://imslp.org/wiki/Category:Schumann,_Robert> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:Mk6HJN99,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY .
+

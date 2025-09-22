@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aPwNiEyS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1650-01-01"^^xsd:string,
+        "1657-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:B67rejNf ;
+    schema1:deathDate "1716-01-01"^^xsd:string,
+        "1716-10-01"^^xsd:string ;
+    schema1:deathPlace faamentity:kk3x69qv ;
+    schema1:description "Italian composer, violinist and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q465565>,
+        "0"^^xsd:string,
+        "aPwNiEyS"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:prefLabel "Giovanni Battista Bassani"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH,
+        faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:59274832 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20000415> ;
+    wd:P737 faamentity:7px3Rymk,
+        faamentity:Z8JaXWXZ ;
+    wd:P839 <https://imslp.org/wiki/Category:Bassani,_Giovanni_Battista> ;
+    schema:hasOccupation faamentity:9joWzZuU,
+        faamentity:KZLqHwSf,
+        faamentity:L26MfUKx,
+        faamentity:PGamAZRD,
+        faamentity:irSPevuD .
+

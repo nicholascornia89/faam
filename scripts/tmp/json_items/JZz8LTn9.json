@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q4297700",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mikhailovskaya Military Artillery Academy"
       }
     ],
     "aliases": [
@@ -66,6 +67,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TPCAgtpj",
+        "type": "item",
+        "label": "César Cui",
+        "description": "Russian composer and army officer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Cui_CuiIP_Frontispiece_600.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JZz8LTn9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JZz8LTn9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JZz8LTn9.csv"
+      }
+    ]
+  }
 }

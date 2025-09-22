@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FZ36oJ9H a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city and county seat of Multnomah County, Oregon, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6106>,
+        "0"^^xsd:string,
+        "FZ36oJ9H"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:altLabel "Beervana"^^xsd:string,
+        "Bridgetown"^^xsd:string,
+        "City of Portland"^^xsd:string,
+        "City of Roses"^^xsd:string,
+        "PDX"^^xsd:string,
+        "Portland"^^xsd:string,
+        "Portland, OR"^^xsd:string,
+        "Portland, Oregon"^^xsd:string,
+        "Rip City"^^xsd:string,
+        "Rose City"^^xsd:string,
+        "Stumptown"^^xsd:string ;
+    skos:prefLabel "Portland"^^xsd:string ;
+    wd:P1566 gn:5746545 .
+

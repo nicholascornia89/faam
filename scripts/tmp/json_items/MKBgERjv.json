@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q180853",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "pavane"
       }
     ],
     "aliases": [
@@ -51,6 +52,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "LYmACy4R",
+        "type": "item",
+        "label": "Pavane : pour une infante défunte : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902737524.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "8DrR4tSL",
+        "type": "item",
+        "label": "Pavane pour une infante défunte, M.19",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MKBgERjv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MKBgERjv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MKBgERjv.csv"
+      }
+    ]
+  }
 }

@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -73,50 +75,60 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "F4ZEniBQ"
+        "value": "F4ZEniBQ",
+        "label": "clef"
       },
       {
         "type": "item",
-        "value": "YCgBhPNn"
+        "value": "YCgBhPNn",
+        "label": "octave sign"
       },
       {
         "type": "item",
-        "value": "Di2mC26w"
+        "value": "Di2mC26w",
+        "label": "engage pedal"
       },
       {
         "type": "item",
-        "value": "NFazQXR2"
+        "value": "NFazQXR2",
+        "label": "release pedal"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "UzHv4AkZ"
+        "value": "UzHv4AkZ",
+        "label": "Christmas music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -128,7 +140,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -140,7 +153,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Emmanuel Durlet"
       },
       {
         "type": "statement",
@@ -149,7 +163,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -161,17 +176,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": []
@@ -185,6 +203,27 @@
         "base_url": "../assets/images/thumbs/"
       }
     ],
-    "GitHub": []
+    "GitHub": [],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EvJouxrd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EvJouxrd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EvJouxrd.csv"
+      }
+    ]
   }
 }

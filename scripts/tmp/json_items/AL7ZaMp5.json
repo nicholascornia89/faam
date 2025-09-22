@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3268957",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lycée Thiers"
       }
     ],
     "aliases": []
@@ -57,6 +58,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G2M2kJyy",
+        "type": "item",
+        "label": "Ernest Reyer",
+        "description": "French opera composer and music critic (1823–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ernest_Reyer_par_Carjat.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AL7ZaMp5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AL7ZaMp5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AL7ZaMp5.csv"
+      }
+    ]
+  }
 }

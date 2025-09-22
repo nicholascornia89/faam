@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q9858",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oosterhout"
       }
     ],
     "aliases": [
@@ -58,8 +59,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2749447"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CT372LTH",
+        "type": "item",
+        "label": "Marinus de Jong",
+        "description": "Belgian composer (1891-1984)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://www.svm.be/files/Componisten/DE-JONG-Marinus-FOTO1-KCA-D181.1.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3ycbfiAk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3ycbfiAk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3ycbfiAk.csv"
+      }
+    ]
+  }
 }

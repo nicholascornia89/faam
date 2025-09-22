@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q4127845",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "The Second Saint Petersburg Gymnasium"
       }
     ],
     "aliases": []
@@ -67,6 +68,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nKP9cAbn",
+        "type": "item",
+        "label": "Igor Stravinsky",
+        "description": "Russian composer (1882–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Igor_Stravinsky_LOC_32392u.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cmSbhehf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cmSbhehf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cmSbhehf.csv"
+      }
+    ]
+  }
 }

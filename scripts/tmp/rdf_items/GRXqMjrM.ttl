@@ -1,0 +1,69 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GRXqMjrM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:AeKhRWCB,
+        faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:VMA2AmEN,
+        faamentity:Wpq9sxzm,
+        faamentity:YWfofDz3 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """<ol>
+<li> Mazurka </li>
+<li> Herderslied - Pastorale </li>
+<li> Sprookje - Fabliau </li>
+<li> Processie - Procession </li>
+<li> Treurzang - Élégie </li>
+<li> Gavotte </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:Q2zJnYLw ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:8sxhcmoV,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:RzK5Rhjw ;
+    schema1:identifier "15992379"^^xsd:string,
+        "GRXqMjrM"^^xsd:string,
+        "KCA-030901805900"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6722456/N"^^schema1:url ;
+    skos:prefLabel "Kinderdeuntjes"^^xsd:string ;
+    wd:P217 "MM-TP-DEBOE-kinderd-1/2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"GRXqMjrM-234f23e7-c925-43dc-a9a0-caac74c4749e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"GRXqMjrM-3f47aa1b-2b89-484b-9986-8c937a7bf07d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"GRXqMjrM-45053b59-d83f-44a2-975b-ed14be67a4f1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:8sxhcmoV a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

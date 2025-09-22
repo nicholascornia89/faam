@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q13373",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lucca"
       }
     ],
     "aliases": [
@@ -62,8 +63,90 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542121"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JdYVjNkJ",
+        "type": "item",
+        "label": "Giacomo Puccini",
+        "description": "Italian opera composer (1858–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoPuccini.jpg"
+        }
+      },
+      {
+        "id": "SESz5K2M",
+        "type": "item",
+        "label": "Luigi Boccherini",
+        "description": "Italian composer and cellist (1743–1805)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "LBoccherini.jpg"
+        }
+      },
+      {
+        "id": "YL2RebW9",
+        "type": "item",
+        "label": "Michelangelo Gasparini",
+        "description": "Italian composer and singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "A8XnwcqE",
+        "type": "item",
+        "label": "Agostino Bendinelli",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "A8XnwcqE",
+        "type": "item",
+        "label": "Agostino Bendinelli",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nKexL6pz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nKexL6pz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nKexL6pz.csv"
+      }
+    ]
+  }
 }

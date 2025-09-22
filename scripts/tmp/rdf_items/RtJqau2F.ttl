@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RtJqau2F a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:h4nueHLU ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124767360>,
+        "16002635"^^xsd:string,
+        "RtJqau2F"^^xsd:string ;
+    skos:prefLabel "Impromptu No.6, Op.86"^^xsd:string ;
+    wd:P214 viaf:293617886 ;
+    wd:P7937 faamentity:6PUP9Ffx,
+        faamentity:UH39mw6n ;
+    wd:P839 <https://imslp.org/wiki/Impromptu_No.6,_Op.86_(Fauré,_Gabriel)> .
+

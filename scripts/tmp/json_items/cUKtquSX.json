@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q205375",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "inventor"
       }
     ],
     "aliases": [
@@ -51,6 +52,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9MRyDvyA",
+        "type": "item",
+        "label": "Paul Otlet",
+        "description": "Belgian author, librarian and anti-colonial thinker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Otlet_à_son_bureau_(cropped).jpg"
+        }
+      },
+      {
+        "id": "c6Coaci7",
+        "type": "item",
+        "label": "Luigi Torchi",
+        "description": "Italian inventor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Nvtm4QjH",
+        "type": "item",
+        "label": "Nikolay Zinin",
+        "description": "Russian chemist (1812-1880)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai_Nikolajewitsch_Sinin.JPG"
+        }
+      },
+      {
+        "id": "2uhMqN5s",
+        "type": "item",
+        "label": "Bedřich Diviš Weber",
+        "description": "Czech music educator and composer (1766-1842)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "D_weber.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cUKtquSX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cUKtquSX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cUKtquSX.csv"
+      }
+    ]
+  }
 }

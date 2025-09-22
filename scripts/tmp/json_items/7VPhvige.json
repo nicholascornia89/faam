@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1715",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hanover"
       }
     ],
     "aliases": [
@@ -70,8 +71,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "6559065"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Em25RCQc",
+        "type": "item",
+        "label": "Egon Petri",
+        "description": "Dutch musician (1881-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Petri_Egon.jpg"
+        }
+      },
+      {
+        "id": "9Mwj9miz",
+        "type": "item",
+        "label": "Georg Goltermann",
+        "description": "German cellist, conductor, and composer (1824–1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "eukMENJn",
+        "type": "item",
+        "label": "Karl Klindworth",
+        "description": "German musician (1830–1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Karl_Klindworth.jpg"
+        }
+      },
+      {
+        "id": "ZhQpEEdD",
+        "type": "item",
+        "label": "Ignaz Lachner",
+        "description": "German composer and conductor (1807-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Lachner_1882.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7VPhvige.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7VPhvige.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7VPhvige.csv"
+      }
+    ]
+  }
 }

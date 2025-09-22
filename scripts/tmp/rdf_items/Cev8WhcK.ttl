@@ -1,0 +1,91 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Cev8WhcK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:YRq3pSH7,
+        faamentity:byLEfakR,
+        faamentity:c5cZmF37,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:B7WuhvkL,
+        faamentity:EgH6igGS,
+        faamentity:Pcc4PpDc,
+        faamentity:RePdmToB,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:Wpq9sxzm,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J,
+        faamentity:np4kPXiE ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5ymmKpXF,
+        faamentity:75au65Fy,
+        faamentity:SX47ntGY,
+        faamentity:dqzZNPaF ;
+    schema1:hasPart faamentity:TSvTRY9g ;
+    schema1:identifier "15992643"^^xsd:string,
+        "Cev8WhcK"^^xsd:string,
+        "KCG-000122150"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000122150"^^schema1:url ;
+    skos:prefLabel "ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance \"Va! va! va, dit-elle\""^^xsd:string ;
+    wd:P217 "II651"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"Cev8WhcK-06b39247-089c-42e8-b5aa-280f569d97a8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"Cev8WhcK-2f43c146-12c6-41c5-992c-86c5a82c85b5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"Cev8WhcK-703d6bce-028d-4942-a358-dab84491f0de"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"Cev8WhcK-8a5f2c5d-5412-4242-a7eb-0cdcbcce1342"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"Cev8WhcK-9b1517c9-35b8-420a-8ef5-4386beb5c816"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"Cev8WhcK-bc382d7d-a702-4c5d-bea4-3ebdbb02cf3b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:5ymmKpXF a rdf:object .
+
+faamentity:75au65Fy a rdf:object .
+
+faamentity:SX47ntGY a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+

@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DxseiyXx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:J6ERsasy,
+        faamentity:LiFYdNgN,
+        faamentity:UfinksVv,
+        faamentity:oPdg4LDz ;
+    faamprop:handwritten_annotation faamentity:RePdmToB,
+        faamentity:aCRY7SgN,
+        faamentity:jCuFYGDc,
+        faamentity:oPdg4LDz ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:4Ug7EdNp,
+        faamentity:FSduWvy5,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:AxpTCbUg,
+        faamentity:QhRQ5LW9,
+        faamentity:bZLR8ET6 ;
+    schema1:hasPart faamentity:5Tv2yEi3 ;
+    schema1:identifier "15992686"^^xsd:string,
+        "DxseiyXx"^^xsd:string,
+        "KCG-000332191"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000332191"^^schema1:url ;
+    skos:prefLabel "6 Suites : voor cello alleen : BWV 1007-1012"^^xsd:string ;
+    wd:P217 "A2602"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG .
+
+schema1:contributor a rdf:predicate .
+
+"DxseiyXx-17294eb8-c6b5-4a9c-8776-18f78ed9cb4b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"DxseiyXx-729382e2-887b-41be-8701-3360fc7833b8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"DxseiyXx-818b0f57-e3f4-409f-9ec2-01dbbec9b739"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"DxseiyXx-8a3f245a-b0bb-4d4f-af86-53b8af489004"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:AxpTCbUg a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:bZLR8ET6 a rdf:object .
+

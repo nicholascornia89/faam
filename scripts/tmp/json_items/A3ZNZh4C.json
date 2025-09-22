@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3076542",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Karel Miry"
       }
     ]
   },
@@ -170,13 +171,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "P8izEtpf",
+        "type": "item",
+        "label": "TANTUM ERGO",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000357175.gif"
+        }
+      },
+      {
+        "id": "hQR8XGzr",
+        "type": "item",
+        "label": "Concerto : pour le violon Avec Accompagnement de 2 Violons, Alto, Flûte, 2 Hautbois, 2 Clarinettes, 2 cors, 2 Bassons, 2 trompettes, Timballe, Violoncelle et Basse : Op. 61",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333156.gif"
+        }
+      },
+      {
+        "id": "XSyeZBMC",
+        "type": "item",
+        "label": "Symphonie : à grand Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000743756.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "A3ZNZh4C.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "A3ZNZh4C.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "A3ZNZh4C.csv"
       }
     ]
   }

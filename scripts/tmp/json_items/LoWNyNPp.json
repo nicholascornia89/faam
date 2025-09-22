@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q132188613",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Eugène Ploix Editeur"
       }
     ]
   },
@@ -95,13 +96,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "2u7BcRdH",
+        "type": "item",
+        "label": "Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-428267676.gif"
+        }
+      },
+      {
+        "id": "mVJPHXS5",
+        "type": "item",
+        "label": "Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-428267676_1.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LoWNyNPp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LoWNyNPp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LoWNyNPp.csv"
       }
     ]
   }

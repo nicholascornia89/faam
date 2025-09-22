@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TMdHggRf a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:SU2CV5XY ;
+    schema1:description "opera by Daniel Auber"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q470773>,
+        "16000768"^^xsd:string,
+        "TMdHggRf"^^xsd:string ;
+    skos:altLabel "La muette de Portici"^^xsd:string ;
+    skos:prefLabel "La muette de Portici"^^xsd:string ;
+    wd:P214 viaf:306069393 ;
+    wd:P5202 faamentity:7MVtJkCQ,
+        faamentity:NCUrhkez ;
+    wd:P7937 faamentity:hxYumS2J ;
+    wd:P839 <https://imslp.org/wiki/La_muette_de_Portici_(Auber,_Daniel_François_Esprit)> .
+

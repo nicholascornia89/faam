@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ET7zZex5 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:7xnazpfU ;
+    schema1:identifier "16002398"^^xsd:string,
+        "ET7zZex5"^^xsd:string ;
+    skos:prefLabel "3 Pieces, Op.11"^^xsd:string ;
+    wd:P7937 faamentity:RHxmTGG2 ;
+    wd:P839 <https://imslp.org/wiki/3_Pieces,_Op.11_(Popper,_David)> .
+

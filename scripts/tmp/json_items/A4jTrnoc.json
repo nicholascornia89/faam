@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6397066",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Shiraz"
       }
     ],
     "aliases": [
@@ -54,8 +55,61 @@
         "base_url": "https://www.geonames.org/",
         "label": "115019"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q794",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Iran"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XCKZs7Xv",
+        "type": "item",
+        "label": "Hafez",
+        "description": "Persian poet and mystic",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mohammad_Shams_al-Din_Hafez.jpg"
+        }
+      },
+      {
+        "id": "XCKZs7Xv",
+        "type": "item",
+        "label": "Hafez",
+        "description": "Persian poet and mystic",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mohammad_Shams_al-Din_Hafez.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "A4jTrnoc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "A4jTrnoc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "A4jTrnoc.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q628",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bergamo"
       }
     ],
     "aliases": [
@@ -58,8 +59,130 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542116"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4bKCnwtk",
+        "type": "item",
+        "label": "Gaetano Donizetti",
+        "description": "Italian opera composer (1797–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png"
+        }
+      },
+      {
+        "id": "AfK8TVfp",
+        "type": "item",
+        "label": "Pietro Locatelli",
+        "description": "Italian Baroque composer and violinist (1695-1764)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portret_van_Pietro_Antonio_Locatelli,_RP-P-1910-1512.jpg"
+        }
+      },
+      {
+        "id": "j5SRE4V2",
+        "type": "item",
+        "label": "Antonio Lolli",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Antonio_Lolli.jpg"
+        }
+      },
+      {
+        "id": "Ej7j3tPy",
+        "type": "item",
+        "label": "Anna Maria Strada",
+        "description": "Italian soprano of the 18th century",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anna_Maria_Strada_(Johannes_Verelst_1732).jpg"
+        }
+      },
+      {
+        "id": "PhesSdSV",
+        "type": "item",
+        "label": "Alfredo Piatti",
+        "description": "Italian cellist (1822-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alfredo_Piatti_(before_1901)_-_Archivio_storico_Ricordi_FOTO001575.jpg"
+        }
+      },
+      {
+        "id": "4bKCnwtk",
+        "type": "item",
+        "label": "Gaetano Donizetti",
+        "description": "Italian opera composer (1797–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png"
+        }
+      },
+      {
+        "id": "7BZrn9Vg",
+        "type": "item",
+        "label": "Hoste da Reggio",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "JCc6TJvm",
+        "type": "item",
+        "label": "Johann Simon Mayr",
+        "description": "German composer (1763–1845)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Simon_Mayr_by_Winter.jpg"
+        }
+      },
+      {
+        "id": "aPwNiEyS",
+        "type": "item",
+        "label": "Giovanni Battista Bassani",
+        "description": "Italian composer, violinist and organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kk3x69qv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kk3x69qv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kk3x69qv.csv"
+      }
+    ]
+  }
 }

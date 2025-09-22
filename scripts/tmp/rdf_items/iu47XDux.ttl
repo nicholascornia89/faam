@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iu47XDux a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1793-08-10"^^xsd:string ;
+    schema1:birthPlace faamentity:KZ75JYvi ;
+    schema1:deathDate "1861-04-18"^^xsd:string ;
+    schema1:deathPlace faamentity:Km6ATdgQ ;
+    schema1:description "German composer (1793-1861)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q216391>,
+        "16002788"^^xsd:string,
+        "iu47XDux"^^xsd:string ;
+    schema1:nationality faamentity:XEAQezdW,
+        faamentity:YUq8HaDb,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "August Neithardt"^^xsd:string,
+        "Heinrich August Neithardt"^^xsd:string ;
+    skos:prefLabel "August Neithardt"^^xsd:string ;
+    wd:P1303 faamentity:N3AKKugd ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42601199 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/91605> ;
+    wd:P839 <https://imslp.org/wiki/Category:Neithardt,_Heinrich_August> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

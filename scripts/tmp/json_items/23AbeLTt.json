@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3929",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Port Louis"
       }
     ],
     "aliases": [
@@ -66,8 +67,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "934154"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q1027",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mauritius"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Gq9k3jXy",
+        "type": "item",
+        "label": "Francis Thomé",
+        "description": "French pianist and composer (1850-1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "CFP-2_Thomé.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "23AbeLTt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "23AbeLTt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "23AbeLTt.csv"
+      }
+    ]
+  }
 }

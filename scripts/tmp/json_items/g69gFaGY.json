@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1915756",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mecklenburg State Theatre"
       }
     ],
     "aliases": []
@@ -51,6 +52,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WamgprKg",
+        "type": "item",
+        "label": "Friedrich von Flotow",
+        "description": "German composer (1812–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_von_Flotow_1866.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "g69gFaGY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "g69gFaGY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "g69gFaGY.csv"
+      }
+    ]
+  }
 }

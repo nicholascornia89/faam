@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q192315",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pierre Gassendi"
       }
     ]
   },
@@ -200,7 +201,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GFYMUaVf",
+        "type": "item",
+        "label": "François Bernier",
+        "description": "French physician and traveller",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -212,6 +226,27 @@
         "type": "image",
         "value": "Portrait_of_Pierre_Gassendi_by_Claude_Mellan.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8m2m6WLH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8m2m6WLH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8m2m6WLH.csv"
       }
     ]
   }

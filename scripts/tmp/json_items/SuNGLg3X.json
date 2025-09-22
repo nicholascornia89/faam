@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q742180",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "viola d'amore"
       }
     ],
     "aliases": [
@@ -55,6 +56,83 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Hy9ZASPZ",
+        "type": "item",
+        "label": "3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920086.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Key74Nv2",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      },
+      {
+        "id": "A64KF2Nm",
+        "type": "item",
+        "label": "Henri Casadesus",
+        "description": "violist, viola d'amore player, composer, and music publisher (1879-1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Société_des_Instruments_anciens,_fondée_par_Casadesus.jpg"
+        }
+      },
+      {
+        "id": "TJCUXStt",
+        "type": "item",
+        "label": "Farinelli",
+        "description": "Italian singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg"
+        }
+      },
+      {
+        "id": "FcHPEbBt",
+        "type": "item",
+        "label": "Attilio Ariosti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Attilius_Ariosti.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SuNGLg3X.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SuNGLg3X.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SuNGLg3X.csv"
+      }
+    ]
+  }
 }

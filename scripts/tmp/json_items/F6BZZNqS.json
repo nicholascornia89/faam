@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,82 +79,99 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "QJ92QxQv"
+        "value": "QJ92QxQv",
+        "label": "staccato"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "c5cZmF37"
+        "value": "c5cZmF37",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "WuWcWk4u"
+        "value": "WuWcWk4u",
+        "label": "ritenuto"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "2HBuTSVV"
+        "value": "2HBuTSVV",
+        "label": "ballade"
       },
       {
         "type": "item",
-        "value": "jvhZafsd"
+        "value": "jvhZafsd",
+        "label": "piano cycle"
       },
       {
         "type": "item",
-        "value": "4ZvdnZdj"
+        "value": "4ZvdnZdj",
+        "label": "programme music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "JpQ4iY5H"
+        "value": "JpQ4iY5H",
+        "label": "Contes et Ballades, Op.34"
       }
     ],
     "agent": [
@@ -163,7 +182,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -175,7 +195,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -184,7 +205,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -196,7 +218,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Peter Benoit"
       },
       {
         "type": "statement",
@@ -205,39 +228,46 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "9k2MygHr"
+            "value": "9k2MygHr",
+            "label": "City of Brussels"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jean Baptiste Katto"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "9k2MygHr"
+        "value": "9k2MygHr",
+        "label": "City of Brussels"
       }
     ]
   },
@@ -254,6 +284,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902415188/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "F6BZZNqS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "F6BZZNqS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "F6BZZNqS.csv"
       }
     ]
   }

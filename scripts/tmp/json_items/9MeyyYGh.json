@@ -53,17 +53,20 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,42 +81,50 @@
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FHTHb7Dq"
+        "value": "FHTHb7Dq",
+        "label": "overture"
       },
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       },
       {
         "type": "item",
-        "value": "HwcYgL5C"
+        "value": "HwcYgL5C",
+        "label": "salon music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       },
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "EJh9zzZE"
+        "value": "EJh9zzZE",
+        "label": "Montano et Stephanie"
       }
     ],
     "agent": [
@@ -124,7 +135,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -136,13 +148,15 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Henri Montan Berton"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -160,6 +174,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000334887/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9MeyyYGh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9MeyyYGh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9MeyyYGh.csv"
       }
     ]
   }

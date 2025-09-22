@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q941882",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "mute"
       }
     ],
     "aliases": [
@@ -90,6 +91,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "4ZUfQxpn",
+        "type": "item",
+        "label": "Symphony No. 3, Movement V",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768406.gif"
+        }
+      },
+      {
+        "id": "U2oiTpTx",
+        "type": "item",
+        "label": "Toccate: pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901805850.gif"
+        }
+      },
+      {
+        "id": "SgaSWrp3",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904192645.gif"
+        }
+      },
+      {
+        "id": "PCrppWGu",
+        "type": "item",
+        "label": "Le Nozze di Figaro : komische opera in 4 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000359978.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9XeBLVBn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9XeBLVBn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9XeBLVBn.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,95 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8rzV3wbR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:B7WuhvkL,
+        faamentity:Di2mC26w,
+        faamentity:McMWybdZ,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:UDva945b,
+        faamentity:UfinksVv,
+        faamentity:WT9AcUBt,
+        faamentity:Wpq9sxzm,
+        faamentity:WtvibJFF,
+        faamentity:YCgBhPNn,
+        faamentity:ZdpNGGJP,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:6PUP9Ffx,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8gCqf5Kb,
+        faamentity:WVwrkfen,
+        faamentity:eCz67vzY ;
+    schema1:hasPart faamentity:Db69iKdd,
+        faamentity:djDjePrU,
+        faamentity:jQabkSat ;
+    schema1:identifier "16003999"^^xsd:string,
+        "8rzV3wbR"^^xsd:string,
+        "KCG-000750013"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000750013"^^schema1:url ;
+    skos:prefLabel "1er trio : pour Harpe Flute et COr: op. 14"^^xsd:string ;
+    skosref:related faamentity:MV3uErvy,
+        faamentity:N3AKKugd,
+        faamentity:aQgptH4L ;
+    wd:P217 "V-B-00439 (12)-HA"^^xsd:string ;
+    wd:P870 faamentity:aQgptH4L .
+
+schema1:contributor a rdf:predicate .
+
+"8rzV3wbR-0663e472-731f-4e48-b55b-6c62d84a79a2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-41f9f320-da1b-42de-9d3c-15f82121fa55"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-437ec095-219f-4385-b356-29277aa6c320"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-4feafb93-4a2a-4d48-8ca0-3754d7c91772"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"8rzV3wbR-7a3e5114-8145-41f1-b3b9-82ebb930bd88"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-955b5fb0-c58e-4d0e-9422-7e67ee2ad982"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-db68055e-5be3-4aea-bf43-4dc67220c7a1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"8rzV3wbR-f184ec6d-76d1-4cc2-b97a-0b4c699fb23d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8rzV3wbR-fb281f82-edcd-4a91-9012-4d5658a0673d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:8gCqf5Kb a rdf:object .
+
+faamentity:WVwrkfen a rdf:object .
+
+faamentity:eCz67vzY a rdf:object .
+

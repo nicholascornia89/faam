@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q815948",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gistel"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2797518"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FSEwRZh3",
+        "type": "item",
+        "label": "Eugeen van Oye",
+        "description": "Belgian doctor, writer, poet and publicist (1840-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugeen_van_Oye_-_Statue_in_Gistel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VLj5Dbki.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VLj5Dbki.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VLj5Dbki.csv"
+      }
+    ]
+  }
 }

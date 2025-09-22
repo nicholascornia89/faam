@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q391037",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hermann A. Korff"
       }
     ]
   },
@@ -140,13 +141,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "gKgoiRVg",
+        "type": "item",
+        "label": "Wolfgang Fortner",
+        "description": "German composer and conductor (1907–1987)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Hermann_August_Korff_-_Jb._d._Sächs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oQCAcEAL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oQCAcEAL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oQCAcEAL.csv"
       }
     ]
   }

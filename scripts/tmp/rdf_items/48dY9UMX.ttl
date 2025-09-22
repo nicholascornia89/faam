@@ -1,0 +1,76 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:48dY9UMX a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:Di2mC26w,
+        faamentity:DqMNcjpW,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:Skma2JzR,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:YCgBhPNn,
+        faamentity:c5cZmF37 ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:SnxsnGvi,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:YCgBhPNn,
+        faamentity:YWfofDz3,
+        faamentity:aCRY7SgN,
+        faamentity:e9t5BdLA ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:KvY9ZvU4,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:AWYT8jUv ;
+    schema1:hasPart faamentity:2JHqWVYb ;
+    schema1:identifier "15992371"^^xsd:string,
+        "48dY9UMX"^^xsd:string,
+        "KCA-030901506086"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7082748/N"^^schema1:url ;
+    skos:prefLabel "Quatrième fantasia (fantastique), op. 20"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-fanta4-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"48dY9UMX-0aa86537-70e2-4490-8a0b-67fc0642eb61"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"48dY9UMX-0cf663f4-33c3-4b43-83a5-003c9f4cf25c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"48dY9UMX-c709f382-0660-4cb8-8253-a4705e69ae08"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:AWYT8jUv a rdf:object .
+

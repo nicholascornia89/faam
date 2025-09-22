@@ -1,0 +1,33 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9xhmEXQx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Gq9k3jXy ;
+    schema1:identifier "16005381"^^xsd:string,
+        "9xhmEXQx"^^xsd:string,
+        "ORP-20143703p22"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Entracte-Pizzicato - Op. 39"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"9xhmEXQx-f7c9b4a9-e0f4-4a99-aca3-5c8b6599176b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Gq9k3jXy a rdf:object .
+

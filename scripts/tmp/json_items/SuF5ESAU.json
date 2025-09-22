@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2773",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brunswick"
       }
     ],
     "aliases": [
@@ -58,8 +59,88 @@
         "base_url": "https://www.geonames.org/",
         "label": "3221011"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HYB4oG2D",
+        "type": "item",
+        "label": "Louis Köhler",
+        "description": "German composer and conductor (1820-1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Köhler.jpg"
+        }
+      },
+      {
+        "id": "BDD9vX4R",
+        "type": "item",
+        "label": "Louis Spohr",
+        "description": "German composer, violinist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludwig_Spohr_portrait.jpg"
+        }
+      },
+      {
+        "id": "9hDedDHW",
+        "type": "item",
+        "label": "Charles Louis Maucourt",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "5diPhKZ6",
+        "type": "item",
+        "label": "Friedrich Conrad Griepenkerl",
+        "description": "German philosopher, educationist, musicologist and musician (1782-1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Konrad_Griepenkerl_(1782-1849).JPG"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "89G3Q6j9",
+        "type": "item",
+        "label": "TU Braunschweig",
+        "description": "university"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SuF5ESAU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SuF5ESAU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SuF5ESAU.csv"
+      }
+    ]
+  }
 }

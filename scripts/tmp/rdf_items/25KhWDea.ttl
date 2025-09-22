@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:25KhWDea a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school of academic secondary education in Munich, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2576235>,
+        "16004768"^^xsd:string,
+        "25KhWDea"^^xsd:string ;
+    schema1:location faamentity:c6NjxaW9,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Wilhelmsgymnasium"^^xsd:string ;
+    skos:prefLabel "Wilhelmsgymnasium"^^xsd:string .
+

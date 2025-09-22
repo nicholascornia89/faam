@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q708557",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Georg Joseph Vogler"
       }
     ]
   },
@@ -154,13 +155,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5ymmKpXF",
+        "type": "item",
+        "label": "Giacomo Meyerbeer",
+        "description": "German-French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Meyerbeer_d'après_P._Petit_b_1865.jpg"
+        }
+      },
+      {
+        "id": "2uhMqN5s",
+        "type": "item",
+        "label": "Bedřich Diviš Weber",
+        "description": "Czech music educator and composer (1766-1842)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "D_weber.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Georg_Joseph_Vogler.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "K9sJXiWg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "K9sJXiWg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "K9sJXiWg.csv"
       }
     ]
   }

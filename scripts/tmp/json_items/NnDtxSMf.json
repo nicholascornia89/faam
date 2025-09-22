@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q20135",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grand Duchy of Hesse"
       }
     ],
     "aliases": []
@@ -44,6 +45,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2eg9E4Mu",
+        "type": "item",
+        "label": "Peter Cornelius",
+        "description": "German composer (1824–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_cornelius.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NnDtxSMf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NnDtxSMf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NnDtxSMf.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,77 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TCizsSNo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:27q2kct9,
+        faamentity:B7WuhvkL,
+        faamentity:CPJ2a2C2,
+        faamentity:MCVLnYka,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:YCgBhPNn,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:7CVJQfN3,
+        faamentity:RbWwE5fT,
+        faamentity:WVwrkfen ;
+    schema1:hasPart faamentity:2cBugNQ6,
+        faamentity:knDcPRD9 ;
+    schema1:identifier "16003997"^^xsd:string,
+        "KCG-000749979"^^xsd:string,
+        "TCizsSNo"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000749979"^^schema1:url ;
+    skos:prefLabel "Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini"^^xsd:string ;
+    wd:P217 "V-B-00439(2)-HA"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:N3AKKugd .
+
+schema1:contributor a rdf:predicate .
+
+"TCizsSNo-11728254-1036-432b-ac36-366fccc578e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TCizsSNo-33ab186b-a2fb-44b1-ae79-4562103e36d2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TCizsSNo-7bb6b647-2f3e-48d6-872a-99da534e90cd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"TCizsSNo-a2176a56-cb2d-406d-9c5d-807c4755d5b8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"TCizsSNo-e874ab8e-fac7-40cf-a95e-24fc5e82ea51"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TCizsSNo-f1a78a32-3fef-440e-b2b4-bd612df135a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:7CVJQfN3 a rdf:object .
+
+faamentity:RbWwE5fT a rdf:object .
+
+faamentity:WVwrkfen a rdf:object .
+

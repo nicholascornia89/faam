@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G9x4jKJF a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1842-04-26"^^xsd:string ;
+    schema1:birthPlace faamentity:3vFtsNzx ;
+    schema1:deathDate "1903-10-28"^^xsd:string ;
+    schema1:deathPlace faamentity:bZtKhUuR ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q38228156>,
+        "16005287"^^xsd:string,
+        "G9x4jKJF"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "William Chaumet"^^xsd:string ;
+    skos:prefLabel "William Chaumet"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:15046335 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/41001738> ;
+    wd:P839 <https://imslp.org/wiki/Category:Chaumet,_William> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

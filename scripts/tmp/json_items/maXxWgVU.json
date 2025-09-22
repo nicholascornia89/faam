@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q338339",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Philharmonic Academy of Bologna"
       }
     ],
     "aliases": []
@@ -45,6 +46,41 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SaJB9vhW",
+        "type": "item",
+        "label": "Luigi Torchi",
+        "description": "Italian musicologist (1858–1920)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigi_Torchi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "maXxWgVU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "maXxWgVU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "maXxWgVU.csv"
+      }
+    ]
+  }
 }

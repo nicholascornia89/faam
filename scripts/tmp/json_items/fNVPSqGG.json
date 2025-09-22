@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q277029",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Philippe de Monte"
       }
     ]
   },
@@ -164,13 +165,117 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "WyeWqztp",
+        "type": "item",
+        "label": "Missa sine nomine (in F) quam quatuor vocibus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM66159.gif"
+        }
+      },
+      {
+        "id": "npJCP9E2",
+        "type": "item",
+        "label": "Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM165637.gif"
+        }
+      },
+      {
+        "id": "HkJ7xztX",
+        "type": "item",
+        "label": "Philippi de Monte. VIII Magnificat",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte23.gif"
+        }
+      },
+      {
+        "id": "2hxuo8JZ",
+        "type": "item",
+        "label": "Philippi de Monte. Motetum \"O bone Jesu\" tripartitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OM.deMonte24.gif"
+        }
+      },
+      {
+        "id": "b9uqSRn7",
+        "type": "item",
+        "label": "Philippi de Monte. Missa \"Sine nomine\" 6 vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte21.gif"
+        }
+      },
+      {
+        "id": "P8ZXC9MF",
+        "type": "item",
+        "label": "Philippi de Monte. Missa \"Sine nomine\". quamocto vocibus conscriptam",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte22.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "2BmcW9yN",
+        "type": "item",
+        "label": "O bone Jesu",
+        "description": ""
+      },
+      {
+        "id": "b7aaL9Tf",
+        "type": "item",
+        "label": "Missa sine nomine",
+        "description": "mass by Philippe de Monte"
+      },
+      {
+        "id": "D5KWdsCk",
+        "type": "item",
+        "label": "Missa la dolce vista",
+        "description": "parody mass by Philippe de Monte based on the homonymous madrigal"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Philippe_de_Monte_1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fNVPSqGG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fNVPSqGG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fNVPSqGG.csv"
       }
     ]
   }

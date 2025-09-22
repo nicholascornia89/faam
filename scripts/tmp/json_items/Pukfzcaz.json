@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q5992889",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ignazio Prota"
       }
     ]
   },
@@ -120,13 +121,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hBxQjcxL",
+        "type": "item",
+        "label": "Niccolò Jommelli",
+        "description": "Italian composer (1714–1774)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Niccolò_Jommelli.jpg"
+        }
+      },
+      {
+        "id": "RMpUhrzG",
+        "type": "item",
+        "label": "Gennaro Manna",
+        "description": "Italian composer (1715-1779)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gennaro_Manna.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Pukfzcaz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Pukfzcaz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Pukfzcaz.csv"
       }
     ]
   }

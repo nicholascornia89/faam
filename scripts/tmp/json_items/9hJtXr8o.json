@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q7103140",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Orlando Morgan"
       }
     ]
   },
@@ -164,13 +165,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "fE6ANSLQ",
+        "type": "item",
+        "label": "Wohltemperirtes Clavier: the forty-eight preludes & fugues",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902190062.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "B5MkJNa4",
+        "type": "item",
+        "label": "The Well-Tempered Clavier",
+        "description": "collection of solo keyboard music by J.S. Bach"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9hJtXr8o.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9hJtXr8o.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9hJtXr8o.csv"
       }
     ]
   }

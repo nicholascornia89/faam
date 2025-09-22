@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TmXofZ5s a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:AeKhRWCB,
+        faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """<ol>
+<li> Mazurka </li>
+<li> Herderslied - Pastorale </li>
+<li> Sprookje - Fabliau </li>
+<li> Processie - Procession </li>
+<li> Treurzang - Élégie </li>
+<li> Gavotte </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Q2zJnYLw,
+        faamentity:jvhZafsd ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:8sxhcmoV,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:RzK5Rhjw ;
+    schema1:identifier "15992380"^^xsd:string,
+        "KCA-030901805892"^^xsd:string,
+        "TmXofZ5s"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6722456/N"^^schema1:url ;
+    skos:prefLabel "Kinderdeuntjes"^^xsd:string ;
+    wd:P217 "MM-TP-DEBOE-kinderd-1/2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"TmXofZ5s-05ee49c1-f936-4d30-b1a2-05050f724c1f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"TmXofZ5s-ba9f0c95-fb0a-4e94-bdf6-82fd939734ff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"TmXofZ5s-cee3c8ef-b337-4198-b3fb-41a0aec20898"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:8sxhcmoV a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

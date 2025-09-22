@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EdhQjxwo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:CPJ2a2C2,
+        faamentity:DqMNcjpW,
+        faamentity:J6ERsasy,
+        faamentity:d2uUDsVY,
+        faamentity:fkm6BFV4,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:7okV5828,
+        faamentity:U5dHgcL4 ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:XVpibGGu,
+        faamentity:eukJ9RHS ;
+    schema1:hasPart faamentity:L4X8nDFE ;
+    schema1:identifier "15992739"^^xsd:string,
+        "EdhQjxwo"^^xsd:string,
+        "KCG-000332412"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs,
+        faamentity:GKcJxAtt ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000332412"^^schema1:url ;
+    skos:prefLabel "Vive Henri 4! : Air varié pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Flûte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27"^^xsd:string ;
+    wd:P217 "DS6143"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"EdhQjxwo-3df0a5c2-dfb7-4843-8c22-bd80ee8a4b62"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"EdhQjxwo-84124b93-2b17-4fb4-bb46-1baf76e6facc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"EdhQjxwo-dcb92f03-bc76-415c-b609-fc00accc2164"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+
+faamentity:eukJ9RHS a rdf:object .
+

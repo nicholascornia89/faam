@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q179351",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "City of Westminster"
       }
     ],
     "aliases": [
@@ -62,8 +63,74 @@
         "base_url": "https://www.geonames.org/",
         "label": "3333218"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nYJ7XFXn",
+        "type": "item",
+        "label": "Lord Byron",
+        "description": "English Romantic poet and lyricist (1788–1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Byron_1813_by_Phillips.jpg"
+        }
+      },
+      {
+        "id": "G7uFGDxa",
+        "type": "item",
+        "label": "John Blow",
+        "description": "English composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_Blow_1687.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "AdrWLpRK",
+        "type": "item",
+        "label": "Royal Academy of Music",
+        "description": "conservatoire in London"
+      },
+      {
+        "id": "PFwoN6Jy",
+        "type": "item",
+        "label": "Westminster School",
+        "description": "public school in Westminster, London, England"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oTv4LRbp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oTv4LRbp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oTv4LRbp.csv"
+      }
+    ]
+  }
 }

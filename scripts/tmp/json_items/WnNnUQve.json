@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -81,55 +83,66 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "X6bVrZbx"
+        "value": "X6bVrZbx",
+        "label": "diagram"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "9dz9ydpz"
+        "value": "9dz9ydpz",
+        "label": "legato"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "oRCgdJrk"
+        "value": "oRCgdJrk",
+        "label": "University of Michigan Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "Vm5DPnGE"
+        "value": "Vm5DPnGE",
+        "label": "vocal pedagogy"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -141,7 +154,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -153,7 +167,8 @@
             "property": "date",
             "value": "1899"
           }
-        ]
+        ],
+        "label": "Anna Lankow"
       },
       {
         "type": "statement",
@@ -162,35 +177,41 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GKcJxAtt"
+            "value": "GKcJxAtt",
+            "label": "Leipzig"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1903"
           }
-        ]
+        ],
+        "label": "Breitkopf & Härtel"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GKcJxAtt"
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
       }
     ]
   },
@@ -207,6 +228,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UML-62718187/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WnNnUQve.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WnNnUQve.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WnNnUQve.csv"
       }
     ]
   }

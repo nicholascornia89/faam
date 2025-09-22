@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q94886469",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Robert Forberg"
       }
     ]
   },
@@ -116,13 +117,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "hzNE4Evx",
+        "type": "item",
+        "label": "Sonate : n° IV a moll: für Orgel, op. 98",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127948.gif"
+        }
+      },
+      {
+        "id": "KnwS9Rxv",
+        "type": "item",
+        "label": "Concerte für Waldhorn: mit Begleitung d. Orchesters. 2: No. 2, Op. 105: Es-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991072273939707356.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kaxviS8H.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kaxviS8H.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kaxviS8H.csv"
       }
     ]
   }

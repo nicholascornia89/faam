@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YHB3uyH5 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:9dz9ydpz,
+        faamentity:K9MgTT3J,
+        faamentity:SnxsnGvi,
+        faamentity:WuWcWk4u,
+        faamentity:aCRY7SgN,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:65rhe5Po,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:6dmLtwU9 ;
+    schema1:hasPart faamentity:7M45nt3C ;
+    schema1:identifier "15992637"^^xsd:string,
+        "KCG-000352838"^^xsd:string,
+        "YHB3uyH5"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000352838"^^schema1:url ;
+    skos:prefLabel "1er Concertino : pour la contre basse"^^xsd:string ;
+    wd:P217 "II1362"^^xsd:string ;
+    wd:P870 faamentity:5cucf8tb,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"YHB3uyH5-3045a6a7-af5c-4746-b700-4eacae55a21b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:8LdweD7c .
+
+"YHB3uyH5-789206f3-ff58-4419-90f1-96301a4c2604"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:6dmLtwU9 a rdf:object .
+

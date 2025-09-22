@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DS9HvPwY a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "position of a particular instant in time"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q186408>,
+        "15996291"^^xsd:string,
+        "DS9HvPwY"^^xsd:string ;
+    skos:altLabel "date"^^xsd:string,
+        "given moment"^^xsd:string,
+        "instant"^^xsd:string,
+        "moment"^^xsd:string,
+        "point in time"^^xsd:string,
+        "time point"^^xsd:string,
+        "timepoint"^^xsd:string ;
+    skos:prefLabel "date"^^xsd:string,
+        "point in time"^^xsd:string ;
+    wd:P1535 faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:VHot2K6A,
+        faamentity:aYEKTzTB .
+

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Y5KJWcCx a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1843-12-25"^^xsd:string ;
+    schema1:birthPlace faamentity:5eewCidM ;
+    schema1:deathDate "1895-00-00"^^xsd:string,
+        "1895-11-26"^^xsd:string ;
+    schema1:deathPlace faamentity:62eKJkdm ;
+    schema1:description "German composer, violinist and music pedagogue (1843-1895)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11925018>,
+        "0"^^xsd:string,
+        "Y5KJWcCx"^^xsd:string ;
+    schema1:nationality faamentity:T5D6K3Dc ;
+    skos:prefLabel "Gustav Jensen"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:64775232 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/111213> ;
+    wd:P839 <https://imslp.org/wiki/Category:Jensen,_Gustav> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:irSPevuD .
+

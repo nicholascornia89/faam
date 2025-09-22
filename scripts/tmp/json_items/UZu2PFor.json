@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q4773904",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "anthropologist"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "29ovPana",
+        "type": "item",
+        "label": "Julien Tiersot",
+        "description": "French musicologist, composer and pioneer in ethnomusicology (1857-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Julien_Tiersot_1911-1912.jpg"
+        }
+      },
+      {
+        "id": "GFYMUaVf",
+        "type": "item",
+        "label": "François Bernier",
+        "description": "French physician and traveller",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UZu2PFor.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UZu2PFor.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UZu2PFor.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1792",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gdańsk"
       }
     ],
     "aliases": [
@@ -70,8 +71,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3099434"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "JRTTuQvY",
+        "label": "Poland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Fjo5GQb8",
+        "type": "item",
+        "label": "Hanno Blaschke",
+        "description": "German singer (1927–2017)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hanno_Blaschke_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gDM76TkH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gDM76TkH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gDM76TkH.csv"
+      }
+    ]
+  }
 }

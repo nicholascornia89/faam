@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q12996",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ostend"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2789788"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "BDREhVLW",
+        "type": "item",
+        "label": "Leo De Barse",
+        "description": "Belgian horn player and music teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "BDREhVLW",
+        "type": "item",
+        "label": "Leo De Barse",
+        "description": "Belgian horn player and music teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RBgFPTgv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RBgFPTgv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RBgFPTgv.csv"
+      }
+    ]
+  }
 }

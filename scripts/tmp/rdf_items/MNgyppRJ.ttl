@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MNgyppRJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian composer and music educator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15821718>,
+        "0"^^xsd:string,
+        "MNgyppRJ"^^xsd:string ;
+    skos:prefLabel "Josef Lechthaler"^^xsd:string .
+

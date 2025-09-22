@@ -36,14 +36,53 @@
       {
         "type": "externalid",
         "value": "Q330026",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Budapest District XI"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "hPXyW639",
+        "type": "item",
+        "label": "Budapest University of Technology and Economics",
+        "description": "university in Hungary"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HXU5jfkq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HXU5jfkq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HXU5jfkq.csv"
+      }
+    ]
+  }
 }

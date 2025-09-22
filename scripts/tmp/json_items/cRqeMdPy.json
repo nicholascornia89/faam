@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q119138280",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Theater an der Wien"
       }
     ],
     "aliases": []
@@ -45,6 +46,41 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "f2aM5oy8",
+        "type": "item",
+        "label": "Ignaz von Seyfried",
+        "description": "Austrian musician (1776–1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Seyfried.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cRqeMdPy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cRqeMdPy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cRqeMdPy.csv"
+      }
+    ]
+  }
 }

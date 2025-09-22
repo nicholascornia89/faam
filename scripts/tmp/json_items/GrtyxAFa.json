@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q204622",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "19th arrondissement of Paris"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3029372"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "A64KF2Nm",
+        "type": "item",
+        "label": "Henri Casadesus",
+        "description": "violist, viola d'amore player, composer, and music publisher (1879-1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Société_des_Instruments_anciens,_fondée_par_Casadesus.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GrtyxAFa.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GrtyxAFa.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GrtyxAFa.csv"
+      }
+    ]
+  }
 }

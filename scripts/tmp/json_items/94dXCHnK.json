@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q163966",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bezirk Mitte"
       }
     ],
     "aliases": [
@@ -54,8 +55,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2870912"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "8YCmuZ44",
+        "type": "item",
+        "label": "Museum für Naturkunde - Leibniz Institute for Evolution and Biodiversity Science",
+        "description": "natural history museum in Berlin, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "94dXCHnK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "94dXCHnK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "94dXCHnK.csv"
+      }
+    ]
+  }
 }

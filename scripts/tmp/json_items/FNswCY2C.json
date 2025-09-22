@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q371227",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hebrew Melodies"
       }
     ]
   },
@@ -50,6 +51,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "BUmDkniz",
+        "type": "item",
+        "label": "Kol Nidrei",
+        "description": "Musical composition by Max Bruch"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FNswCY2C.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FNswCY2C.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FNswCY2C.csv"
+      }
+    ]
+  }
 }

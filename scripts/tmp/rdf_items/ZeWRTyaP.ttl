@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZeWRTyaP a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "conservatory in The Hague, Netherlands"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q18245>,
+        "15991064"^^xsd:string,
+        "ZeWRTyaP"^^xsd:string ;
+    schema1:location faamentity:EmMG4HwD,
+        faamentity:gMTAFTct ;
+    skos:altLabel "Royal Conservatory of The Hague"^^xsd:string ;
+    skos:prefLabel "Royal Conservatory of The Hague"^^xsd:string .
+

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q320464",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Baptiste Faure"
       }
     ]
   },
@@ -190,13 +191,85 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "f4Gmv7Ln",
+        "type": "item",
+        "label": "Ave Maria",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jean-Baptiste_Faure_as_Hamlet_by_Charles_Reutlinger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Dx9bBNEt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Dx9bBNEt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Dx9bBNEt.csv"
       }
     ]
   }

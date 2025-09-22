@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q109242022",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Quentin Durward"
       }
     ]
   },
@@ -77,6 +78,81 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "EysxGesA",
+        "type": "item",
+        "label": "Quentin Durward : opéra comique en 3 actes : trio chanté par MM. Jourdan, Faure et Barrielle",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902587564.gif"
+        }
+      },
+      {
+        "id": "HmhzwhS3",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456373.gif"
+        }
+      },
+      {
+        "id": "MZvj9E2Y",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456399.gif"
+        }
+      },
+      {
+        "id": "HmhzwhS3",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456373.gif"
+        }
+      },
+      {
+        "id": "MZvj9E2Y",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456399.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hDU4mEPG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hDU4mEPG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hDU4mEPG.csv"
+      }
+    ]
+  }
 }

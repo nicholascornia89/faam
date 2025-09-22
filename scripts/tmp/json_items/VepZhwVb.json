@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1429182",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ach wie flüchtig, ach wie nichtig, BWV 26"
       }
     ]
   },
@@ -97,6 +98,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cxiv8enB",
+        "type": "item",
+        "label": "9 Tenor-Arien : aus versch. Cantaten ; mit Begl. d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076576549707356.gif"
+        }
+      },
+      {
+        "id": "VvR8cfyB",
+        "type": "item",
+        "label": "Ach wie flüchtig, ach wie nichtig",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991106268029707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VepZhwVb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VepZhwVb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VepZhwVb.csv"
+      }
+    ]
+  }
 }

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q710199",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stephen Heller"
       }
     ]
   },
@@ -168,7 +169,20 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mhfKDCM7",
+        "type": "item",
+        "label": "Album dédié à la Jeunesse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p12.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -180,6 +194,27 @@
         "type": "image",
         "value": "Stephen_Heller.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KhN7hGqf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KhN7hGqf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KhN7hGqf.csv"
       }
     ]
   }

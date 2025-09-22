@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hUYoNwfh a rdfs:Resource ;
+    faamprop:related_to faamentity:Vm5DPnGE ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "German singing teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130418583>,
+        "16004167"^^xsd:string,
+        "hUYoNwfh"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV ;
+    skos:altLabel "Albert B. Bach"^^xsd:string,
+        "Albert Bernhard Bach"^^xsd:string ;
+    skos:prefLabel "Albert Bernhard Bach"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:UFbn5C35 ;
+    wd:P839 <https://imslp.org/wiki/Category:Bach,_Albert_Bernhard/Translator> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:fkNftdFp .
+

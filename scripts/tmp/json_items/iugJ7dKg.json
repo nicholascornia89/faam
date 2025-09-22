@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1281618",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sculptor"
       }
     ],
     "aliases": [
@@ -59,6 +60,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "A3CMewEV",
+        "type": "item",
+        "label": "Joseph Edgar Boehm",
+        "description": "British sculptor (1834-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carte_de_Visite_of_Joseph_Edgar_Boehm,_1860s.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iugJ7dKg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iugJ7dKg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iugJ7dKg.csv"
+      }
+    ]
+  }
 }

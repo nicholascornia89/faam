@@ -36,12 +36,44 @@
       {
         "type": "externalid",
         "value": "Q1665268",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "command"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "NefNH6k2",
+        "type": "item",
+        "label": "Volti subito",
+        "description": "direction to turn the page quickly"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QLtzCLPh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QLtzCLPh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QLtzCLPh.csv"
+      }
+    ]
+  }
 }

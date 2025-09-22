@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q279272",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Musikdrama"
       }
     ],
     "aliases": [
@@ -56,5 +57,27 @@
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VmFFXKLQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VmFFXKLQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VmFFXKLQ.csv"
+      }
+    ]
+  }
 }

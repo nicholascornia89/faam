@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q156199",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Electorate of Saxony"
       }
     ],
     "aliases": [
@@ -61,6 +62,79 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4FpHAKUW",
+        "type": "item",
+        "label": "Heinrich Schütz",
+        "description": "German composer and organist (1585–1672)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Schutz.jpg"
+        }
+      },
+      {
+        "id": "AW2h5fHS",
+        "type": "item",
+        "label": "Friedrich Wieck",
+        "description": "German piano teacher, music critic and music educator (1785-1873)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Wieck_age_45.jpg"
+        }
+      },
+      {
+        "id": "VMWZq6tU",
+        "type": "item",
+        "label": "Johann Christian Bach",
+        "description": "German composer (1735–1782)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Christian_Bach_by_Thomas_Gainsborough.jpg"
+        }
+      },
+      {
+        "id": "4ZEanoNh",
+        "type": "item",
+        "label": "Christian Gottlob Neefe",
+        "description": "German composer and conductor (1748–1789)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Christian_Gottlob_Neefe's_Portrait.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "GKcJxAtt",
+        "type": "item",
+        "label": "Leipzig",
+        "description": "largest city in Saxony, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ExzzpMsG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ExzzpMsG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ExzzpMsG.csv"
+      }
+    ]
+  }
 }

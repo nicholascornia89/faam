@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q187851",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "recorder"
       }
     ],
     "aliases": [
@@ -87,6 +88,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      },
+      {
+        "id": "2tkZfvvc",
+        "type": "item",
+        "label": "Arnold Dolmetsch",
+        "description": "French musician and instrument maker in England (1858-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold_Dolmetsch.jpg"
+        }
+      },
+      {
+        "id": "kEspWhp5",
+        "type": "item",
+        "label": "Michael Vetter",
+        "description": "German composer (1943-2013)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "JASyyfcM",
+        "type": "item",
+        "label": "Kees Otten",
+        "description": "Dutch recorder player (1924-2008)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "KeesOtten1967.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kXphhxXP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kXphhxXP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kXphhxXP.csv"
+      }
+    ]
+  }
 }

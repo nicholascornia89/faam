@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q313917",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fromental Halévy"
       }
     ]
   },
@@ -199,13 +200,191 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZexyEj4Q",
+        "type": "item",
+        "label": "La juive : opéra en cinq actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903467311.gif"
+        }
+      },
+      {
+        "id": "o9yHFhFa",
+        "type": "item",
+        "label": "Charles VI : opera in 5 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348150.gif"
+        }
+      },
+      {
+        "id": "9HbvzGss",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur la romance de Guido et Ginévra d'Halévy Op. 72",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000372227.gif"
+        }
+      },
+      {
+        "id": "MzCNpEDy",
+        "type": "item",
+        "label": "Convoluut : Valentine Degive-Ledelier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-03090443184.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "cmzT8tYL",
+        "type": "item",
+        "label": "Antoine-François Marmontel",
+        "description": "French pianist, teacher and musicographer (1816–1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "A-F_Marmontel.jpg"
+        }
+      },
+      {
+        "id": "7BXaCKg3",
+        "type": "item",
+        "label": "Émile Paladilhe",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Paladilhe.jpg"
+        }
+      },
+      {
+        "id": "n7zaDq2T",
+        "type": "item",
+        "label": "Georges Bizet",
+        "description": "French composer (1838–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georges_bizet.jpg"
+        }
+      },
+      {
+        "id": "CFFWdJSJ",
+        "type": "item",
+        "label": "Jean-Baptiste Weckerlin",
+        "description": "French composer and music publisher (1821–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png"
+        }
+      },
+      {
+        "id": "fwkPUZ3v",
+        "type": "item",
+        "label": "Charles Renaud de Vilbac",
+        "description": "French composer and organist (1829–1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "2JC9tGWC",
+        "type": "item",
+        "label": "Camille Saint-Saëns",
+        "description": "French composer, organist, conductor and pianist (1835–1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Camille_Saint-Saens_b_Meurisse_1921.jpg"
+        }
+      },
+      {
+        "id": "9eEbeRLM",
+        "type": "item",
+        "label": "Ernest Guiraud",
+        "description": "French composer and music teacher (1837-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ernest_Guiraud.jpg"
+        }
+      },
+      {
+        "id": "57TxaobZ",
+        "type": "item",
+        "label": "François Bazin",
+        "description": "French opera composer (1816–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François_Bazin_par_Carjat_BNF_Gallica.png"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "hBVXWZca",
+        "type": "item",
+        "label": "La reine de Chypre",
+        "description": "opera by Jacques Fromental Halévy"
+      },
+      {
+        "id": "ENaXRgqk",
+        "type": "item",
+        "label": "La Juive",
+        "description": "opera by Fromental Halévy"
+      },
+      {
+        "id": "FsbPS3ct",
+        "type": "item",
+        "label": "Guido et Ginevra",
+        "description": "opera by Jacques Fromental Halévy"
+      },
+      {
+        "id": "Vy7ymJFS",
+        "type": "item",
+        "label": "Charles VI",
+        "description": "opera by Jacques Fromental Halévy"
+      },
+      {
+        "id": "6baZHNCw",
+        "type": "item",
+        "label": "Les mousquetaires de la reine",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "U6xhouYu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "U6xhouYu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "U6xhouYu.csv"
       }
     ]
   }

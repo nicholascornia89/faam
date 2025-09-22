@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q173219",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tournai"
       }
     ],
     "aliases": [
@@ -72,8 +73,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "BE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "jKcRhkCr",
+        "type": "item",
+        "label": "Jean-Baptiste Moens",
+        "description": "Belgian stamp dealer and philatelist (1833-1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste-Moens.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3CH4Jm7e.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3CH4Jm7e.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3CH4Jm7e.csv"
+      }
+    ]
+  }
 }

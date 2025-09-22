@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1028181",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "painter"
       }
     ],
     "aliases": [
@@ -51,6 +52,101 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SGrSvda8",
+        "type": "item",
+        "label": "Felix Mendelssohn",
+        "description": "German composer, pianist, organist and conductor of Jewish descent (1809–1847)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mendelssohn_Bartholdy.jpg"
+        }
+      },
+      {
+        "id": "oGLLYmS7",
+        "type": "item",
+        "label": "Giovanni Briccio",
+        "description": "Italian painter, playwright and musician (1579-1645)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "A3CMewEV",
+        "type": "item",
+        "label": "Joseph Edgar Boehm",
+        "description": "British sculptor (1834-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carte_de_Visite_of_Joseph_Edgar_Boehm,_1860s.jpg"
+        }
+      },
+      {
+        "id": "4VemroKG",
+        "type": "item",
+        "label": "Francesco Rosselli",
+        "description": "Italian painter (1445-1510)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Rosselli_-_The_Sibyls-_The_Phrygian_Sibyl_-_1943.388_-_Cleveland_Museum_of_Art.tif"
+        }
+      },
+      {
+        "id": "JnMHxB4U",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      },
+      {
+        "id": "7BZrn9Vg",
+        "type": "item",
+        "label": "Hoste da Reggio",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kXLpBcrh",
+        "type": "item",
+        "label": "Arnold Schoenberg",
+        "description": "Austrian-Jewish American composer (1874-1951)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold_schönberg_man_ray.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cZjUN9f7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cZjUN9f7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cZjUN9f7.csv"
+      }
+    ]
+  }
 }

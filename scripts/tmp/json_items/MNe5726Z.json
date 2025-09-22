@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1141032",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Manon Lescaut"
       }
     ]
   },
@@ -57,6 +58,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "BMxhdpSF",
+        "type": "item",
+        "label": "Manon",
+        "description": "opera by Jules Massenet"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MNe5726Z.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MNe5726Z.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MNe5726Z.csv"
+      }
+    ]
+  }
 }

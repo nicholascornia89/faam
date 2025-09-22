@@ -1,0 +1,56 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Qo3pdive a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:LiFYdNgN,
+        faamentity:VMA2AmEN ;
+    faamprop:handwritten_annotation faamentity:8Ki8U5U4 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:2FQ4SCuS,
+        faamentity:9farY66Z,
+        faamentity:FSduWvy5,
+        faamentity:jArGUTgq,
+        faamentity:n8dr8Tqi ;
+    dcterms:provenance faamentity:PmoGKNnr ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:E7JVkcFS,
+        faamentity:RaWYp422 ;
+    schema1:identifier "15992765"^^xsd:string,
+        "Qo3pdive"^^xsd:string,
+        "UTL-978107756"^^xsd:string ;
+    schema1:location faamentity:bsTArmEN ;
+    schema1:url "https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106383021406196"^^schema1:url ;
+    skos:prefLabel "The English madrigal school : a guide to its practical use"^^xsd:string ;
+    wd:P217 "ML2631 .F48 1920 MUSI N"^^xsd:string ;
+    wd:P870 faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"Qo3pdive-37e94114-2983-4324-9788-17aebfcb02e6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:bsTArmEN .
+
+"Qo3pdive-63036afc-ef11-4f31-af85-094cfbd97108"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:bsTArmEN .
+
+faamentity:E7JVkcFS a rdf:object .
+
+faamentity:RaWYp422 a rdf:object .
+

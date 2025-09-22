@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,79 +80,96 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "HXG9NWiG"
+        "value": "HXG9NWiG",
+        "label": "bowing"
       },
       {
         "type": "item",
-        "value": "euCa8A2S"
+        "value": "euCa8A2S",
+        "label": "string"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "oPdg4LDz"
+        "value": "oPdg4LDz",
+        "label": "slur"
       },
       {
         "type": "item",
-        "value": "JnGFsz6r"
+        "value": "JnGFsz6r",
+        "label": "pointer"
       },
       {
         "type": "item",
-        "value": "YWfofDz3"
+        "value": "YWfofDz3",
+        "label": "bounding"
       },
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "E2chmtzQ"
+        "value": "E2chmtzQ",
+        "label": "sonata"
       },
       {
         "type": "item",
-        "value": "mWJuSmyV"
+        "value": "mWJuSmyV",
+        "label": "guitar music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "2pgcwfpN"
+        "value": "2pgcwfpN",
+        "label": "classical guitar"
       },
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       }
     ],
     "musical work": [],
@@ -162,7 +181,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -174,7 +194,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Mauro Giuliani"
       },
       {
         "type": "statement",
@@ -183,19 +204,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "oHDxN5yJ"
+            "value": "oHDxN5yJ",
+            "label": "Dorst"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1956"
           }
-        ]
+        ],
+        "label": "Musikverlag Wilhelm Zimmermann"
       },
       {
         "type": "statement",
@@ -204,7 +228,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -216,27 +241,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "oHDxN5yJ"
+        "value": "oHDxN5yJ",
+        "label": "Dorst"
       }
     ]
   },
@@ -253,6 +283,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902194585/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4Eusi5SX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4Eusi5SX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4Eusi5SX.csv"
       }
     ]
   }

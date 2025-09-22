@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q456",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lyon"
       }
     ],
     "aliases": [
@@ -72,8 +73,110 @@
         "base_url": "https://www.geonames.org/",
         "label": "FR"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PhcJTGVF",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      },
+      {
+        "id": "5MAp6eem",
+        "type": "item",
+        "label": "Edmond Audran",
+        "description": "French composer (1840–1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edmond_Audran.jpg"
+        }
+      },
+      {
+        "id": "ARvMcwAo",
+        "type": "item",
+        "label": "Jean-Baptiste Arban",
+        "description": "French cornetist, conductor, composer and pedagogue (1825–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Baptiste_Arban_Disderi_BNF_Gallica.jpg"
+        }
+      },
+      {
+        "id": "RthHPD44",
+        "type": "item",
+        "label": "Édouard Trémisot",
+        "description": "French composer (1874-1956)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "jDVcqbT9",
+        "type": "item",
+        "label": "Hélène de Montgeroult",
+        "description": "French pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_de_la_mère_de_His_de_la_Salle,_Madame_Hélène_de_Montgeroult_-_par_COSWAY_Richard.jpg"
+        }
+      },
+      {
+        "id": "GTpQEbzC",
+        "type": "item",
+        "label": "Alexandre Luigini",
+        "description": "French composer (1850–1906)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigini,_Alexandre,_Nadar,_Gallica.jpg"
+        }
+      },
+      {
+        "id": "SEPoLobZ",
+        "type": "item",
+        "label": "Claude Goudimel",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Goudimel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LNDqDQov.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LNDqDQov.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LNDqDQov.csv"
+      }
+    ]
+  }
 }

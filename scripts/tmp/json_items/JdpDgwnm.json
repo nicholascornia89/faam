@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,77 +74,93 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "Rfoj9dh4"
+        "value": "Rfoj9dh4",
+        "label": "Instrument Cue"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "3zoajAt8"
+        "value": "3zoajAt8",
+        "label": "rest measure count"
       },
       {
         "type": "item",
-        "value": "iWuVLJam"
+        "value": "iWuVLJam",
+        "label": "rallentando"
       },
       {
         "type": "item",
-        "value": "Vk2JQSuo"
+        "value": "Vk2JQSuo",
+        "label": "ad libitum"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "T7T22EAb"
+        "value": "T7T22EAb",
+        "label": "private collection"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "grii8mVz"
+        "value": "grii8mVz",
+        "label": "O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales."
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "7U54uqaV"
+        "value": "7U54uqaV",
+        "label": "period composition"
       },
       {
         "type": "item",
-        "value": "jTMjFsDj"
+        "value": "jTMjFsDj",
+        "label": "Cecilian Movement"
       },
       {
         "type": "item",
-        "value": "eCYL2PkE"
+        "value": "eCYL2PkE",
+        "label": "liturgical music"
       },
       {
         "type": "item",
-        "value": "eijiWF3A"
+        "value": "eijiWF3A",
+        "label": "ballet"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       },
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       }
     ],
     "musical work": [],
@@ -154,7 +172,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -166,7 +185,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "August De Boeck"
       },
       {
         "type": "statement",
@@ -175,7 +195,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
@@ -187,7 +208,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Georges Oertel"
       },
       {
         "type": "statement",
@@ -196,7 +218,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
@@ -208,21 +231,25 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Florian Heyerick"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       }
     ],
     "place": []
@@ -240,6 +267,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502042/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JdpDgwnm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JdpDgwnm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JdpDgwnm.csv"
       }
     ]
   }

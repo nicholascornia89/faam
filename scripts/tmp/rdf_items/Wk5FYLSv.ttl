@@ -1,0 +1,73 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wk5FYLSv a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1899"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:MCVLnYka,
+        faamentity:Rg6UtZ34,
+        faamentity:UDva945b,
+        faamentity:UfinksVv,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:mQvT2Zdb ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections "Volume I"^^rdf:HTML ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:BnDGmWVX,
+        faamentity:FSduWvy5,
+        faamentity:K3Ds589T ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:QhRQ5LW9,
+        faamentity:diZHfNq6 ;
+    schema1:hasPart faamentity:B5MkJNa4 ;
+    schema1:identifier "16004386"^^xsd:string,
+        "KCA-03090507942"^^xsd:string,
+        "Wk5FYLSv"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7084782/N"^^schema1:url ;
+    skos:prefLabel "Le clavecin bien tempéré = Das wohltemperirte Clavier = The welltempered clavichord"^^xsd:string ;
+    wd:P217 "MM-TP-BACH-claveci-2"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"Wk5FYLSv-6592e3e7-a489-4b61-80b9-4be85936d287"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"Wk5FYLSv-666810f0-eac4-4cf6-a5e5-87ca95caf710"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1899"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"Wk5FYLSv-8658c6cb-ed91-411a-8ccc-3b5a0015a2f3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:diZHfNq6 a rdf:object .
+

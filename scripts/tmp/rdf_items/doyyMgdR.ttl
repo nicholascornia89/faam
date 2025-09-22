@@ -1,0 +1,61 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:doyyMgdR a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1873"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:93vh2DpZ,
+        faamentity:HXG9NWiG,
+        faamentity:J6ERsasy,
+        faamentity:Rxa2vGNJ,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:euCa8A2S,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:2FVr93JH,
+        faamentity:4Ug7EdNp,
+        faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:KuuXg9DS ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Y4Su8bEC,
+        faamentity:oJV7Jiqq ;
+    schema1:identifier "16005034"^^xsd:string,
+        "BSL-1677119489"^^xsd:string,
+        "doyyMgdR"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "http://resolver.staatsbibliothek-berlin.de/SBB000299F700000000"^^schema1:url ;
+    skos:prefLabel "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43"^^xsd:string ;
+    wd:P217 "DMS 35695"^^xsd:string ;
+    wd:P870 faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"doyyMgdR-350c5676-8124-47ca-885e-2e5d3f1baf52"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1873"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"doyyMgdR-4071ec04-390c-49b9-9034-07cfa9185424"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Y4Su8bEC a rdf:object .
+
+faamentity:oJV7Jiqq a rdf:object .
+

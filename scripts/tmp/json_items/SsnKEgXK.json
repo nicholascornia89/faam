@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3138",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Trier"
       }
     ],
     "aliases": [
@@ -68,8 +69,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2821164"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "UWzFEZoL",
+        "type": "item",
+        "label": "Peter Wagner",
+        "description": "German musicologist (1865–1931)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_Wagner_(1865–1931)_1927_©_Georg_Fayer_(1891–1950)_OeNB_10449435.jpg"
+        }
+      },
+      {
+        "id": "VsAY6UsF",
+        "type": "item",
+        "label": "Stephan Lück",
+        "description": "dom kapellmeister (1806–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SsnKEgXK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SsnKEgXK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SsnKEgXK.csv"
+      }
+    ]
+  }
 }

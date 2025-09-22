@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -78,70 +80,85 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "bsgSL8K5"
+        "value": "bsgSL8K5",
+        "label": "Rehearsal letter"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "WuWcWk4u"
+        "value": "WuWcWk4u",
+        "label": "ritenuto"
       },
       {
         "type": "item",
-        "value": "Pcc4PpDc"
+        "value": "Pcc4PpDc",
+        "label": "alternative lyrics"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "8k46HDJU"
+        "value": "8k46HDJU",
+        "label": "cantata"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "YmTjo9Ww"
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
       },
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       }
     ],
     "musical work": [],
@@ -153,31 +170,36 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": "03-09-1891"
           }
-        ]
+        ],
+        "label": "Jozef Van der Meulen"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -194,6 +216,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126678/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6XZjHJMe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6XZjHJMe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6XZjHJMe.csv"
       }
     ]
   }

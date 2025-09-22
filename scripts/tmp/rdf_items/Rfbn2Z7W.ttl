@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rfbn2Z7W a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city and county seat of Cook County, Illinois, United States of America"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1297>,
+        "0"^^xsd:string,
+        "Rfbn2Z7W"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:altLabel "Chi-Raq"^^xsd:string,
+        "Chi-Town"^^xsd:string,
+        "Chicago"^^xsd:string,
+        "Chicago, IL"^^xsd:string,
+        "Chicago, Illinois"^^xsd:string,
+        "Chitown"^^xsd:string,
+        "City by the Lake"^^xsd:string,
+        "City of Broad Shoulders"^^xsd:string,
+        "City of Chicago"^^xsd:string,
+        "The Queen of the West"^^xsd:string,
+        "The Second City"^^xsd:string,
+        "The Windy City"^^xsd:string ;
+    skos:prefLabel "Chicago"^^xsd:string ;
+    wd:P1566 gn:4887398 .
+

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q467394",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "La favorite"
       }
     ]
   },
@@ -79,6 +80,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "MN2LbyLc",
+        "type": "item",
+        "label": "Les Délices de l'Opéra",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "o6sbdUv4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "o6sbdUv4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "o6sbdUv4.csv"
+      }
+    ]
+  }
 }

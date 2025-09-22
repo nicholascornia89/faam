@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q21166956",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "lutenist"
       }
     ],
     "aliases": [
@@ -63,6 +64,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9cYDWKTP",
+        "type": "item",
+        "label": "Giovanni Picchi",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Picchi_Nobiltà_di_Dame.png"
+        }
+      },
+      {
+        "id": "FDcCPyib",
+        "type": "item",
+        "label": "Walter Gerwig",
+        "description": "German lutenist and composer (1899–1966)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RhAbfNfN",
+        "type": "item",
+        "label": "Julian Bream",
+        "description": "English classical guitarist and lutenist (1933–2020)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Julian_Bream_1964.JPG"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QAgfD3Wn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QAgfD3Wn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QAgfD3Wn.csv"
+      }
+    ]
+  }
 }

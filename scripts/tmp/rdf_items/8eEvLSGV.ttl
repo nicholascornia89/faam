@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8eEvLSGV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1922-10-29"^^xsd:string ;
+    schema1:birthPlace faamentity:93omka7i ;
+    schema1:deathDate "2010-11-01"^^xsd:string ;
+    schema1:deathPlace faamentity:J5z5NyYZ ;
+    schema1:description "Italian violinist (1922–2010)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q331076>,
+        "15995894"^^xsd:string,
+        "8eEvLSGV"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:RNVCZ5PK ;
+    skos:altLabel "Roberto Michelucci"^^xsd:string ;
+    skos:prefLabel "Roberto Michelucci"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:114533831 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:6phaDvy8,
+        faamentity:irSPevuD .
+

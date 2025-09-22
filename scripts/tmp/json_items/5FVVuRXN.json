@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q964987",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "music of Spain"
       }
     ],
     "aliases": [
@@ -63,6 +64,69 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Sxkn8vYk",
+        "type": "item",
+        "label": "Fantaisie en Trio : Sur un Air Espagnol : Composée pour Piano haut-bois & Basson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000337150.gif"
+        }
+      },
+      {
+        "id": "3egpNF6g",
+        "type": "item",
+        "label": "Alborada del gracioso",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903088141.gif"
+        }
+      },
+      {
+        "id": "FN2wmMHT",
+        "type": "item",
+        "label": "Alborada del gracioso",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902377727.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bn54YNH4",
+        "type": "item",
+        "label": "Serenata andaluza, Op.28",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5FVVuRXN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5FVVuRXN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5FVVuRXN.csv"
+      }
+    ]
+  }
 }

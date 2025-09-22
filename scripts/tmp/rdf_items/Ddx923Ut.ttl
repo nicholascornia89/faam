@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ddx923Ut a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1525"^^xsd:string ;
+    schema1:birthPlace faamentity:HSJtk9Nz ;
+    schema1:deathDate "1594-02-02"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian Renaissance composer (c. 1525–1594)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q179277>,
+        "15996128"^^xsd:string,
+        "Ddx923Ut"^^xsd:string ;
+    schema1:nationality faamentity:HixucMeq ;
+    skos:altLabel "Giovanni Pierluigi da Palestrina"^^xsd:string,
+        "Giovanni Pierluigi de Palestrina"^^xsd:string,
+        "Giovanni da Palestrina"^^xsd:string ;
+    skos:prefLabel "Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:92280854 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/1904> ;
+    wd:P737 faamentity:5M3r422c,
+        faamentity:9zKc7hx6,
+        faamentity:LYtqYZzJ,
+        faamentity:SEPoLobZ,
+        faamentity:Xy5sJiPo,
+        faamentity:gmQncoJ8 ;
+    wd:P839 <https://imslp.org/wiki/Category:Palestrina,_Giovanni_Pierluigi_da> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:L7bRkYff,
+        faamentity:PGamAZRD,
+        faamentity:fkNftdFp,
+        faamentity:iTUB2E3m .
+

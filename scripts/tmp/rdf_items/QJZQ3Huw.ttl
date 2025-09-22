@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QJZQ3Huw a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who plays the trumpet"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12377274>,
+        "15990913"^^xsd:string,
+        "QJZQ3Huw"^^xsd:string ;
+    skos:altLabel "trumpet player"^^xsd:string,
+        "trumpeter"^^xsd:string,
+        "trumpetist"^^xsd:string ;
+    skos:prefLabel "sculptor"^^xsd:string,
+        "trumpeter"^^xsd:string .
+

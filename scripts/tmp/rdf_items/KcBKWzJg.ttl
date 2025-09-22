@@ -1,0 +1,128 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KcBKWzJg a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1843"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6sMfgEow,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:aCRY7SgN,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:2M4g9hQk ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6TD3psn3,
+        faamentity:6jjjeotd,
+        faamentity:6vGGSSEm,
+        faamentity:7iHH9CTg,
+        faamentity:AZL2k82C,
+        faamentity:CJgFHXHi,
+        faamentity:E6ojRojP,
+        faamentity:ZP69BbYP,
+        faamentity:d9ivtsWG,
+        faamentity:h9FmqTaf,
+        faamentity:iRwK3XP2 ;
+    schema1:identifier "16004035"^^xsd:string,
+        "BNE-bdh0000161241"^^xsd:string,
+        "KcBKWzJg"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://bdh.bne.es/bnesearch/detalle/bdh0000161241"^^schema1:url ;
+    skos:prefLabel "Recueil des morceaux de musique ancienne. [Sixième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale, religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la direction de Mr. Le Prince de la Moskowa"^^xsd:string ;
+    skosref:note "The digitization is incomplete."^^rdf:HTML ;
+    skosref:related faamentity:6jjjeotd,
+        faamentity:6vGGSSEm,
+        faamentity:7iHH9CTg,
+        faamentity:Ap3ZKq5X,
+        faamentity:E6ojRojP,
+        faamentity:H9L5avFm,
+        faamentity:NMpDRXik,
+        faamentity:RtiKJ8jP,
+        faamentity:SP6C94Nm,
+        faamentity:ZGSFHvJC,
+        faamentity:ZP69BbYP,
+        faamentity:h9FmqTaf,
+        faamentity:iRwK3XP2 ;
+    wd:P217 "M/1030"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"KcBKWzJg-23da40b2-a1d8-485d-87e5-a2dc6d1f4ce9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1843"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"KcBKWzJg-496baa75-a9cd-4e88-b54e-3fb8241c71c7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-501879cd-1ba7-4e3a-8da0-a3bf886c65c4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-53cce4c2-d129-415f-8b18-bab29d517d53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-725c7d26-08aa-495b-9cb6-0784108524df"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-72c8b17a-803e-405f-be6b-c64d9565a854"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-9accc27a-f5e6-4a2d-ae77-4470fb0d8432"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-a2fd9d47-08c7-4c50-8c3e-24d00200edc1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-da438560-1401-4935-a5a7-bbc1b5a1c3df"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-ef7d96bc-0d9c-419a-a957-2129cf824f9e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KcBKWzJg-f4c2f373-7424-46a7-86eb-0e6a9362bea3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:6TD3psn3 a rdf:object .
+
+faamentity:AZL2k82C a rdf:object .
+
+faamentity:CJgFHXHi a rdf:object .
+
+faamentity:d9ivtsWG a rdf:object .
+
+faamentity:6jjjeotd a rdf:object .
+
+faamentity:6vGGSSEm a rdf:object .
+
+faamentity:7iHH9CTg a rdf:object .
+
+faamentity:E6ojRojP a rdf:object .
+
+faamentity:ZP69BbYP a rdf:object .
+
+faamentity:h9FmqTaf a rdf:object .
+
+faamentity:iRwK3XP2 a rdf:object .
+

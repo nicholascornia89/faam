@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,26 +79,31 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "3Vvybq56"
+        "value": "3Vvybq56",
+        "label": "affect"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
@@ -105,7 +112,8 @@
     "musical work": [
       {
         "type": "item",
-        "value": "B5MkJNa4"
+        "value": "B5MkJNa4",
+        "label": "The Well-Tempered Clavier"
       }
     ],
     "agent": [
@@ -116,7 +124,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -128,7 +137,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Johann Sebastian Bach"
       },
       {
         "type": "statement",
@@ -137,7 +147,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -149,7 +160,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Blanche Selva"
       },
       {
         "type": "statement",
@@ -158,19 +170,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Maurice Senart"
       },
       {
         "type": "statement",
@@ -179,47 +194,56 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1915"
           }
-        ]
+        ],
+        "label": "Éditions Durand-Salabert-Eschig"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       },
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -236,6 +260,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000549373/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PmhfiL5s.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PmhfiL5s.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PmhfiL5s.csv"
       }
     ]
   }

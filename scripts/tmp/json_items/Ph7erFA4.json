@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q110452794",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "form of creative work"
       }
     ],
     "aliases": [
@@ -88,5 +89,27 @@
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ph7erFA4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ph7erFA4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ph7erFA4.csv"
+      }
+    ]
+  }
 }

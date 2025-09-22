@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -73,88 +75,107 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "eHYWo9ba"
+        "value": "eHYWo9ba",
+        "label": "translation"
       },
       {
         "type": "item",
-        "value": "bZxRjBKt"
+        "value": "bZxRjBKt",
+        "label": "brackets"
       },
       {
         "type": "item",
-        "value": "K9MgTT3J"
+        "value": "K9MgTT3J",
+        "label": "cut"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "3Vvybq56"
+        "value": "3Vvybq56",
+        "label": "affect"
       },
       {
         "type": "item",
-        "value": "bsgSL8K5"
+        "value": "bsgSL8K5",
+        "label": "Rehearsal letter"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "9iGipYaN"
+        "value": "9iGipYaN",
+        "label": "glissando"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "MCVLnYka"
+        "value": "MCVLnYka",
+        "label": "espressivo"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "YphSVUxe"
+        "value": "YphSVUxe",
+        "label": "Letterenhuis"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "BZa5CHMu"
+        "value": "BZa5CHMu",
+        "label": "medievalism"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "UXJzsyJZ"
+        "value": "UXJzsyJZ",
+        "label": "Reinaert de Vos"
       }
     ],
     "agent": [
@@ -165,7 +186,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -177,7 +199,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -186,7 +209,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -198,17 +222,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "August De Boeck"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -226,6 +253,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/LHA-200037/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mtU2xsuV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mtU2xsuV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mtU2xsuV.csv"
       }
     ]
   }

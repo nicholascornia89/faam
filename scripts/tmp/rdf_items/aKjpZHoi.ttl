@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aKjpZHoi a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "central figure leading construction projects"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1340643>,
+        "0"^^xsd:string,
+        "aKjpZHoi"^^xsd:string ;
+    skos:altLabel "architect"^^xsd:string,
+        "builder"^^xsd:string,
+        "magister operum"^^xsd:string,
+        "master mason"^^xsd:string,
+        "master of the works"^^xsd:string ;
+    skos:prefLabel "master builder"^^xsd:string .
+

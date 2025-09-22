@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q185040",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mily Balakirev"
       }
     ]
   },
@@ -195,13 +196,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Tmgjn2jz",
+        "type": "item",
+        "label": "Nikolai Rimsky-Korsakov",
+        "description": "Russian composer (1844–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai_A._Rimsky-Korsakov.jpg"
+        }
+      },
+      {
+        "id": "g9CmHRXM",
+        "type": "item",
+        "label": "Alexandra Rozanova",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Милий_Балакирев.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "X5maQDjs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "X5maQDjs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "X5maQDjs.csv"
       }
     ]
   }

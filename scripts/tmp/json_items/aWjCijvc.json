@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q36378",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fribourg"
       }
     ],
     "aliases": [
@@ -90,8 +91,58 @@
         "base_url": "https://www.geonames.org/",
         "label": "7285870"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "UWzFEZoL",
+        "type": "item",
+        "label": "Peter Wagner",
+        "description": "German musicologist (1865–1931)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_Wagner_(1865–1931)_1927_©_Georg_Fayer_(1891–1950)_OeNB_10449435.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "YhZPvh4f",
+        "type": "item",
+        "label": "University of Fribourg",
+        "description": "university in the city of Fribourg, Switzerland"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aWjCijvc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aWjCijvc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aWjCijvc.csv"
+      }
+    ]
+  }
 }

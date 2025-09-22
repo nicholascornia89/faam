@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RPFX4byT a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1801-06-29"^^xsd:string ;
+    schema1:birthPlace faamentity:fZUC7W4e ;
+    schema1:deathDate "1863-06-12"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian composer, musicologist and Roman Catholic priest (1801–1863)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3388075>,
+        "15996222"^^xsd:string,
+        "RPFX4byT"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "Pietro Alfieri"^^xsd:string ;
+    skos:prefLabel "Pietro Alfieri"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39367398 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/28910> ;
+    wd:P839 <https://imslp.org/wiki/Category:Alfieri,_Pietro> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PYZ62SCP,
+        faamentity:YYyZX3aY,
+        faamentity:fDme3Yoe .
+

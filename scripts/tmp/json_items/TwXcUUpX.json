@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -82,90 +84,109 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "Di2mC26w"
+        "value": "Di2mC26w",
+        "label": "engage pedal"
       },
       {
         "type": "item",
-        "value": "NFazQXR2"
+        "value": "NFazQXR2",
+        "label": "release pedal"
       },
       {
         "type": "item",
-        "value": "WuWcWk4u"
+        "value": "WuWcWk4u",
+        "label": "ritenuto"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "XutP4SZN"
+        "value": "XutP4SZN",
+        "label": "chronometry"
       },
       {
         "type": "item",
-        "value": "4PAdXGNC"
+        "value": "4PAdXGNC",
+        "label": "alternative melody"
       },
       {
         "type": "item",
-        "value": "km3mrogw"
+        "value": "km3mrogw",
+        "label": "dashed line"
       },
       {
         "type": "item",
-        "value": "YRq3pSH7"
+        "value": "YRq3pSH7",
+        "label": "cadenza"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "G5pwZLWh"
+        "value": "G5pwZLWh",
+        "label": "rhapsody"
       },
       {
         "type": "item",
-        "value": "Z2VUu6Sy"
+        "value": "Z2VUu6Sy",
+        "label": "virtuoso"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "Xh7GzWjm"
+        "value": "Xh7GzWjm",
+        "label": "Hungarian Roidy No. 2"
       }
     ],
     "agent": [
@@ -176,7 +197,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -188,7 +210,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Franz Liszt"
       },
       {
         "type": "statement",
@@ -197,19 +220,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "nkxLRFG5"
+            "value": "nkxLRFG5",
+            "label": "Mainz"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1906"
           }
-        ]
+        ],
+        "label": "Schott Music"
       },
       {
         "type": "statement",
@@ -218,7 +244,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -230,7 +257,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Eugen d'Albert"
       },
       {
         "type": "statement",
@@ -239,7 +267,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -251,31 +280,37 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Marinus de Jong"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "nkxLRFG5"
+        "value": "nkxLRFG5",
+        "label": "Mainz"
       }
     ]
   },
@@ -292,6 +327,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904702856/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TwXcUUpX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TwXcUUpX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TwXcUUpX.csv"
       }
     ]
   }

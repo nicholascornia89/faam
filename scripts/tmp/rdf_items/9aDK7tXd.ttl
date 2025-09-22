@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9aDK7tXd a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6sMfgEow,
+        faamentity:A4NPbBsi,
+        faamentity:B7WuhvkL,
+        faamentity:CPJ2a2C2,
+        faamentity:DqMNcjpW,
+        faamentity:MCVLnYka,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:c5cZmF37,
+        faamentity:d2uUDsVY,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:U5dHgcL4 ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MbXCYU7Y,
+        faamentity:NCUrhkez ;
+    schema1:hasPart faamentity:ixybZAFD ;
+    schema1:identifier "16004003"^^xsd:string,
+        "9aDK7tXd"^^xsd:string,
+        "KCG-000370144"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000370144"^^schema1:url ;
+    skos:prefLabel "Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres"^^xsd:string ;
+    skosref:related faamentity:98W5cKAM,
+        faamentity:GoXpNrsh,
+        faamentity:JGR5Pepj,
+        faamentity:MC3zkBjR,
+        faamentity:MV3uErvy,
+        faamentity:PgChiKQz ;
+    wd:P217 "A1461 (bis2), A1461 (12)"^^xsd:string ;
+    wd:P870 faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"9aDK7tXd-4501270f-57c5-4b6a-ae98-941fa9fb0882"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"9aDK7tXd-6adb69cc-ef7e-4a82-8d37-8e7d4f83ea1b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:MbXCYU7Y a rdf:object .
+
+faamentity:NCUrhkez a rdf:object .
+

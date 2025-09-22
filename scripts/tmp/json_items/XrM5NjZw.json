@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q661877",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Guntramsdorf"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "7872978"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kyFWDzyM",
+        "label": "Austria"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TYkHUzeq",
+        "type": "item",
+        "label": "Leopoldine Blahetka",
+        "description": "composer (1809-1885)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopoldine_Blahetka.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XrM5NjZw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XrM5NjZw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XrM5NjZw.csv"
+      }
+    ]
+  }
 }

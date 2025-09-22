@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kHp8wFpn a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who leads a particular area of a company or organization"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1162163>,
+        "15990896"^^xsd:string,
+        "kHp8wFpn"^^xsd:string ;
+    skos:altLabel "boss"^^xsd:string,
+        "chief"^^xsd:string,
+        "company director"^^xsd:string,
+        "corporate director"^^xsd:string,
+        "director"^^xsd:string,
+        "head"^^xsd:string ;
+    skos:prefLabel "academic musician"^^xsd:string,
+        "director"^^xsd:string .
+

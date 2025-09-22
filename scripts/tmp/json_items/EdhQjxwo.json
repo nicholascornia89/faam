@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,52 +74,62 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "d2uUDsVY"
+        "value": "d2uUDsVY",
+        "label": "variation"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "DqMNcjpW"
+        "value": "DqMNcjpW",
+        "label": "trill"
       },
       {
         "type": "item",
-        "value": "fkm6BFV4"
+        "value": "fkm6BFV4",
+        "label": "sforzando"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "U5dHgcL4"
+        "value": "U5dHgcL4",
+        "label": "theme and variation"
       },
       {
         "type": "item",
-        "value": "7okV5828"
+        "value": "7okV5828",
+        "label": "dedication"
       }
     ],
     "instrumentation": [],
     "musical work": [
       {
         "type": "item",
-        "value": "L4X8nDFE"
+        "value": "L4X8nDFE",
+        "label": "Air varié 'Vive Henri 4!', Op.27"
       }
     ],
     "agent": [
@@ -128,7 +140,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -140,7 +153,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Pierre Baillot"
       },
       {
         "type": "statement",
@@ -149,19 +163,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Ba3nT5xs"
+            "value": "Ba3nT5xs",
+            "label": "Antwerp"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Schott Music"
       },
       {
         "type": "statement",
@@ -170,43 +187,51 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GKcJxAtt"
+            "value": "GKcJxAtt",
+            "label": "Leipzig"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Breitkopf & Härtel"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "Ba3nT5xs"
+        "value": "Ba3nT5xs",
+        "label": "Antwerp"
       },
       {
         "type": "item",
-        "value": "GKcJxAtt"
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
       }
     ]
   },
@@ -223,6 +248,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000332412/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EdhQjxwo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EdhQjxwo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EdhQjxwo.csv"
       }
     ]
   }

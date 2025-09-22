@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3687243",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Conservatorio di Sant'Onofrio in Capuana"
       }
     ],
     "aliases": []
@@ -45,6 +46,61 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "U6od7iv8",
+        "type": "item",
+        "label": "Girolamo Abos",
+        "description": "Maltese-Italian composer (1715–1760)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Dmow9aSA",
+        "type": "item",
+        "label": "Francesco Azopardi",
+        "description": "Maltese composer (1748-1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rabat_Maltese_2017_02.jpg"
+        }
+      },
+      {
+        "id": "RMpUhrzG",
+        "type": "item",
+        "label": "Gennaro Manna",
+        "description": "Italian composer (1715-1779)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gennaro_Manna.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4NVP657a.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4NVP657a.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4NVP657a.csv"
+      }
+    ]
+  }
 }

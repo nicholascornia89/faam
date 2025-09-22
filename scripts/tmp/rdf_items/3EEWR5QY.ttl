@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3EEWR5QY a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "creative work first published after the death of its creator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q17518461>,
+        "16002341"^^xsd:string,
+        "3EEWR5QY"^^xsd:string ;
+    skos:altLabel "posthumous album"^^xsd:string,
+        "posthumous material"^^xsd:string,
+        "posthumous publication"^^xsd:string,
+        "posthumous release"^^xsd:string,
+        "posthumous work"^^xsd:string,
+        "work published posthumously"^^xsd:string ;
+    skos:prefLabel "posthumous work"^^xsd:string .
+

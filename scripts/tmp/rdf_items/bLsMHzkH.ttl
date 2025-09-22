@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bLsMHzkH a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in Oceania"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q408>,
+        "15998627"^^xsd:string,
+        "bLsMHzkH"^^xsd:string ;
+    skos:altLabel "AU"^^xsd:string,
+        "AUS"^^xsd:string,
+        "Aussieland"^^xsd:string,
+        "Australia"^^xsd:string,
+        "Commonwealth of Australia"^^xsd:string,
+        "Down Under"^^xsd:string,
+        "New Holland"^^xsd:string,
+        "New Hollandia"^^xsd:string,
+        "Nova Hollandia"^^xsd:string,
+        "Oz"^^xsd:string,
+        "Stralia"^^xsd:string,
+        "Straya"^^xsd:string,
+        "Stria"^^xsd:string,
+        "The Commonwealth of Australia"^^xsd:string ;
+    skos:prefLabel "Australia"^^xsd:string .
+

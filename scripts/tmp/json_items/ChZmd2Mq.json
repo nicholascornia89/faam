@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q159605",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tivoli"
       }
     ],
     "aliases": [
@@ -54,8 +55,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6539764"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "d9ivtsWG",
+        "type": "item",
+        "label": "Giovanni Maria Nanino",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Maria_Nanino_C.jpg"
+        }
+      },
+      {
+        "id": "R3DoQqcH",
+        "type": "item",
+        "label": "Francesco Manelli",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Manelli,_CP1428.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ChZmd2Mq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ChZmd2Mq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ChZmd2Mq.csv"
+      }
+    ]
+  }
 }

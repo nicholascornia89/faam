@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q50662",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Goethe University Frankfurt"
       }
     ],
     "aliases": [
@@ -86,6 +87,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XBjGQVps",
+        "type": "item",
+        "label": "Theodor W. Adorno",
+        "description": "German philosopher, sociologist and theorist (1903–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_W._Adorno.jpg"
+        }
+      },
+      {
+        "id": "oQCAcEAL",
+        "type": "item",
+        "label": "Hermann A. Korff",
+        "description": "German literary historian (1882–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hermann_August_Korff_-_Jb._d._Sächs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg"
+        }
+      },
+      {
+        "id": "XBjGQVps",
+        "type": "item",
+        "label": "Theodor W. Adorno",
+        "description": "German philosopher, sociologist and theorist (1903–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_W._Adorno.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "isT2xDMy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "isT2xDMy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "isT2xDMy.csv"
+      }
+    ]
+  }
 }

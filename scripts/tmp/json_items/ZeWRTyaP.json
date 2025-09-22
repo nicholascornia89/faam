@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q18245",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Royal Conservatory of The Hague"
       }
     ],
     "aliases": [
@@ -66,6 +67,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      },
+      {
+        "id": "ZkvdWD9N",
+        "type": "item",
+        "label": "Wilbert Hazelzet",
+        "description": "Dutch musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "iXwwx7LJ",
+        "type": "item",
+        "label": "Sigiswald Kuijken",
+        "description": "Belgian musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sigiswald_Kuijken.JPG"
+        }
+      },
+      {
+        "id": "Kvc5mMTu",
+        "type": "item",
+        "label": "Ton Koopman",
+        "description": "Dutch conductor, organist and harpsichordist, born 2 October 1944",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZeWRTyaP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZeWRTyaP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZeWRTyaP.csv"
+      }
+    ]
+  }
 }

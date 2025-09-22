@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:K3Ds589T a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "contrapuntal musical form based on a subject that recurs in imitation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q181014>,
+        "15990688"^^xsd:string,
+        "K3Ds589T"^^xsd:string ;
+    skos:altLabel "fuga"^^xsd:string,
+        "fugal"^^xsd:string,
+        "fuge"^^xsd:string,
+        "fughetta"^^xsd:string,
+        "fugue"^^xsd:string ;
+    skos:prefLabel "fugue"^^xsd:string .
+

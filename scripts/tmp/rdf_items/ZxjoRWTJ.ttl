@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZxjoRWTJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3wN8PmuS ;
+    schema1:birthDate "1843-01-03"^^xsd:string ;
+    schema1:birthPlace faamentity:nRMPrHtA ;
+    schema1:deathDate "1921-06-13"^^xsd:string ;
+    schema1:deathPlace faamentity:nRMPrHtA ;
+    schema1:description "(1843-1921)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4497049>,
+        "0"^^xsd:string,
+        "ZxjoRWTJ"^^xsd:string ;
+    skos:prefLabel "Emil Hegar"^^xsd:string ;
+    wd:P108 faamentity:3wN8PmuS ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:33110915 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30043986> ;
+    wd:P737 faamentity:M8yE9fi5,
+        faamentity:jK3acqwb ;
+    wd:P839 <https://imslp.org/wiki/Category:Hegar,_Emil> ;
+    schema:hasOccupation faamentity:dg4VBYfA .
+

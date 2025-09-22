@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:926v682B a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who plays the viola d'amore"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20083902>,
+        "15990972"^^xsd:string,
+        "926v682B"^^xsd:string ;
+    skos:altLabel "viola d'amore player"^^xsd:string ;
+    skos:prefLabel "lutenist"^^xsd:string,
+        "viola d'amore player"^^xsd:string .
+

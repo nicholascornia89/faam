@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1681637",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jan Blockx"
       }
     ]
   },
@@ -163,13 +164,121 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "DBeMRbkA",
+        "type": "item",
+        "label": "Sérénade de Milenka: pour ténor: (ton original)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902357919.gif"
+        }
+      },
+      {
+        "id": "ivrdot5A",
+        "type": "item",
+        "label": "Sérénade de Milenka: pour ténor: (ton original)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902357885.gif"
+        }
+      },
+      {
+        "id": "HH8UJB4M",
+        "type": "item",
+        "label": "Lied van Reinilde: voor soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902741211.gif"
+        }
+      },
+      {
+        "id": "LHZV5gxh",
+        "type": "item",
+        "label": "Lied van Reinilde: voor mezzo-soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902357943.gif"
+        }
+      },
+      {
+        "id": "AxuesXLt",
+        "type": "item",
+        "label": "Lied van Reinilde: voor soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902762449.gif"
+        }
+      },
+      {
+        "id": "gPQSCUUP",
+        "type": "item",
+        "label": "Princesse d'Auberge: lied de Reinilde: pour mezzo-soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902269767.gif"
+        }
+      },
+      {
+        "id": "W65enS6f",
+        "type": "item",
+        "label": "Princesse d'Auberge",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p51.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "iDr4o25a",
+        "type": "item",
+        "label": "De Herbergprinses",
+        "description": "opera by Jan Blockx"
+      },
+      {
+        "id": "McV2xEAi",
+        "type": "item",
+        "label": "Milenka",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/2/23/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MGWwFDSr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MGWwFDSr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MGWwFDSr.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q332342",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Trinity College"
       }
     ],
     "aliases": [
@@ -78,6 +79,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nYJ7XFXn",
+        "type": "item",
+        "label": "Lord Byron",
+        "description": "English Romantic poet and lyricist (1788–1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Byron_1813_by_Phillips.jpg"
+        }
+      },
+      {
+        "id": "cRd3QHBx",
+        "type": "item",
+        "label": "Charles Steggall",
+        "description": "British hymn writer and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Steggall.jpg"
+        }
+      },
+      {
+        "id": "ZXDf3hB6",
+        "type": "item",
+        "label": "Charles Villiers Stanford",
+        "description": "Irish composer, music teacher, and conductor (1852–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Villiers_Stanford_c1894bw.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kTTbLR4W.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kTTbLR4W.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kTTbLR4W.csv"
+      }
+    ]
+  }
 }

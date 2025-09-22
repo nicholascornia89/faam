@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q207593",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Muret"
       }
     ],
     "aliases": [
@@ -58,8 +59,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2991153"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TQdg6qjY",
+        "type": "item",
+        "label": "Jacques-Jules Bouffil",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "W2HnH5EL",
+        "type": "item",
+        "label": "Nicolas Dalayrac",
+        "description": "French musician and composer of comic operas (Muret 1753 - Paris 1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicolas_Dalayrac.jpg"
+        }
+      },
+      {
+        "id": "3kUPUbFX",
+        "type": "item",
+        "label": "Jacques-Jules Bouffil",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "d2NPELEj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "d2NPELEj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "d2NPELEj.csv"
+      }
+    ]
+  }
 }

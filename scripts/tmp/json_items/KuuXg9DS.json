@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q170109",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Berlin State Library"
       }
     ],
     "abbreviation": [
@@ -96,6 +97,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Y3m7q8sc",
+        "type": "item",
+        "label": "Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-848545451.gif"
+        }
+      },
+      {
+        "id": "doyyMgdR",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KuuXg9DS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KuuXg9DS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KuuXg9DS.csv"
+      }
+    ]
+  }
 }

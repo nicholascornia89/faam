@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Exg8rm7n a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1809-07-14"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1901-01-24"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French classical violinist and composer (1809-1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4426800>,
+        "0"^^xsd:string,
+        "Exg8rm7n"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Eugène Sauzay"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42604305 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:eukJ9RHS,
+        faamentity:oJGctqdB ;
+    wd:P839 <https://imslp.org/wiki/Category:Sauzay,_Eugène> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:irSPevuD .
+

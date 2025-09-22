@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TmBznamT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:5fpte3tE,
+        faamentity:8Ki8U5U4,
+        faamentity:JnGFsz6r,
+        faamentity:YWfofDz3 ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:7CCCzcRR ;
+    schema1:identifier "15992343"^^xsd:string,
+        "KCA-030904338792"^^xsd:string,
+        "TmBznamT"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12958873/N"^^schema1:url ;
+    skos:prefLabel "Cours pratique et théorique d'harmonie"^^xsd:string ;
+    wd:P217 "MM-TH-SARLY-courspr-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"TmBznamT-63adf410-9925-45ad-aa03-fd9d6547663f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"TmBznamT-dfcd851f-cc25-4d0a-88c1-fbb1496eefda"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:7CCCzcRR a rdf:object .
+

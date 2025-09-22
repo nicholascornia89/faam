@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1065302",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles Lebouc"
       }
     ]
   },
@@ -168,13 +169,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "LtwRNnYy",
+        "type": "item",
+        "label": "Villanelle : pour Flûte (ou Hautbois) et Violoncelle : Op. 12",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735537.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Ww7c4sWG",
+        "type": "item",
+        "label": "Villanelle Op. 12",
+        "description": "composition by Charles Lebouc"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Charles_Lebouc.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RnyE4sLC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RnyE4sLC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RnyE4sLC.csv"
       }
     ]
   }

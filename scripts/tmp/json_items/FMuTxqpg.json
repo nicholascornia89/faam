@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q181894",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pietro Mascagni"
       }
     ]
   },
@@ -167,7 +168,42 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "M8jJSvGz",
+        "type": "item",
+        "label": "Amica",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p47.gif"
+        }
+      },
+      {
+        "id": "M8jJSvGz",
+        "type": "item",
+        "label": "Amica",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p47.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Pgr56ZRF",
+        "type": "item",
+        "label": "Edward Kilenyi",
+        "description": "American musician, teacher of George Gershwin",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -179,6 +215,27 @@
         "type": "image",
         "value": "Pietro_Mascagni_1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FMuTxqpg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FMuTxqpg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FMuTxqpg.csv"
       }
     ]
   }

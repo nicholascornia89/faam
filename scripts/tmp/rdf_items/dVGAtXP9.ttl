@@ -1,0 +1,84 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dVGAtXP9 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:6Nae3vhx,
+        faamentity:8Ki8U5U4,
+        faamentity:A4NPbBsi,
+        faamentity:B6QDYYs9,
+        faamentity:B7WuhvkL,
+        faamentity:JnGFsz6r,
+        faamentity:K9MgTT3J,
+        faamentity:RePdmToB,
+        faamentity:Rxa2vGNJ,
+        faamentity:SnxsnGvi,
+        faamentity:WtvibJFF,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:ch89W2mx,
+        faamentity:d2uUDsVY,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6e38Zdt6,
+        faamentity:8kXMFJLT,
+        faamentity:QhRQ5LW9 ;
+    schema1:hasPart faamentity:cDRRPnck ;
+    schema1:identifier "15992682"^^xsd:string,
+        "KCG-000749031"^^xsd:string,
+        "dVGAtXP9"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000749031"^^schema1:url ;
+    skos:prefLabel "Ouverture : in H moll"^^xsd:string ;
+    wd:P217 "SEC-3-(1)-onderdeel 1"^^xsd:string ;
+    wd:P870 faamentity:3Sa6bp7X,
+        faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"dVGAtXP9-1541cd56-9ca5-423d-99ac-81ad88ebf5ae"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"dVGAtXP9-cad88b80-b8e5-47f1-9eef-14f967795c45"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"dVGAtXP9-d5f1f1cd-cd77-42e4-83c0-29ab2edf0692"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1913"^^xsd:string ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:8LdweD7c .
+
+"dVGAtXP9-fb8a3b63-4216-4c96-876a-ae7fde61bab8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:6e38Zdt6 a rdf:object .
+
+faamentity:8kXMFJLT a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+

@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZVpXBLkA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Djq8DaQv ;
+    schema1:birthDate "1871-12-25"^^xsd:string,
+        "1872-01-06"^^xsd:string ;
+    schema1:birthPlace faamentity:fgyBiYxY ;
+    schema1:deathDate "1915-04-14"^^xsd:string,
+        "1915-04-27"^^xsd:string ;
+    schema1:deathPlace faamentity:fgyBiYxY ;
+    schema1:description "Russian composer and pianist (1872–1915)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q185647>,
+        "16005334"^^xsd:string,
+        "ZVpXBLkA"^^xsd:string ;
+    schema1:nationality faamentity:WKTLcAet ;
+    skos:altLabel "Aleksandr Nikolaevich Skryabin"^^xsd:string,
+        "Aleksandr Nikolayevich Skryabin"^^xsd:string,
+        "Alexander Scriabin"^^xsd:string,
+        "Alexander Skryabin"^^xsd:string,
+        "Scriabin"^^xsd:string ;
+    skos:prefLabel "Alexander Scriabin"^^xsd:string ;
+    wd:P108 faamentity:Djq8DaQv ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71579242 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30090681> ;
+    wd:P737 faamentity:ADiRegNH,
+        faamentity:Y4Lvaib2,
+        faamentity:YojCFfbu,
+        faamentity:oNqjNRHv ;
+    wd:P839 <https://imslp.org/wiki/Category:Scriabin,_Aleksandr> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:ZX7Jzf9y .
+

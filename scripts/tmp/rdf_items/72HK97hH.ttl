@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:72HK97hH a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:9gmeBrxi,
+        faamentity:gtEXXeoW ;
+    schema1:birthDate "1751"^^xsd:string ;
+    schema1:deathDate "1826-05-27"^^xsd:string ;
+    schema1:description "German opera singer, harpsichordist, conductor and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5040022>,
+        "15996138"^^xsd:string,
+        "72HK97hH"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Carl David Stegmann"^^xsd:string ;
+    skos:prefLabel "Carl David Stegmann"^^xsd:string ;
+    wd:P1303 faamentity:KJkThvsq,
+        faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:37688337 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/123796> ;
+    wd:P839 <https://imslp.org/wiki/Category:Stegmann,_Carl_David> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:n9MN9cLo .
+

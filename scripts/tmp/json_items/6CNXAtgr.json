@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q21272276",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cambridgeshire"
       }
     ],
     "aliases": [
@@ -62,8 +63,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2653940"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "D6najEwq",
+        "type": "item",
+        "label": "King's College School",
+        "description": "school in Cambridgeshire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6CNXAtgr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6CNXAtgr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6CNXAtgr.csv"
+      }
+    ]
+  }
 }

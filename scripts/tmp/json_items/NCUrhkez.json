@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1685004",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Louis Tulou"
       }
     ]
   },
@@ -175,13 +176,161 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Dh7UK4mk",
+        "type": "item",
+        "label": "Air Varié : Pour Flûte Avec accompagnement de deux violons Alto et Basse : Cet air varié est arrangé Pour Flûte et Harpe",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370112.gif"
+        }
+      },
+      {
+        "id": "Lnsb6ZLw",
+        "type": "item",
+        "label": "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370141.gif"
+        }
+      },
+      {
+        "id": "KqyqNtYK",
+        "type": "item",
+        "label": "DUO BRILLANT: composé sur les motifs de la Sonnambule de Bellini/par J. Benedict & C. De Bériot;arrangé pour flûte et piano par Tulou. : Voor fluit en piano.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333995.gif"
+        }
+      },
+      {
+        "id": "CaR74wnb",
+        "type": "item",
+        "label": "5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370132.gif"
+        }
+      },
+      {
+        "id": "Aeb2iAaE",
+        "type": "item",
+        "label": "L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370115.gif"
+        }
+      },
+      {
+        "id": "dHV3E4Yr",
+        "type": "item",
+        "label": "Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331423.gif"
+        }
+      },
+      {
+        "id": "9aDK7tXd",
+        "type": "item",
+        "label": "Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370144.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "N8sEtZ9K",
+        "type": "item",
+        "label": "Jules Demersseman",
+        "description": "French composer and flutist (1833-1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Demersseman.jpg"
+        }
+      },
+      {
+        "id": "DSm6cEeM",
+        "type": "item",
+        "label": "Eugène Walckiers",
+        "description": "French composer (1793–1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Walckiers.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ixybZAFD",
+        "type": "item",
+        "label": "Récréations musicales, Op.65",
+        "description": ""
+      },
+      {
+        "id": "Mp4pU3yE",
+        "type": "item",
+        "label": "Grand Solo No.5 Op.79",
+        "description": "composition by Jean-Louis Tulou"
+      },
+      {
+        "id": "SKKposdf",
+        "type": "item",
+        "label": "L'Angelus Op. 46",
+        "description": "composition by Jean-Louis Tulou"
+      },
+      {
+        "id": "TMdHggRf",
+        "type": "item",
+        "label": "La muette de Portici",
+        "description": "opera by Daniel Auber"
+      },
+      {
+        "id": "JYfVs3ok",
+        "type": "item",
+        "label": "La sonnambula",
+        "description": "opera by Vincenzo Bellini"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jean-Louis_Tulou.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NCUrhkez.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NCUrhkez.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NCUrhkez.csv"
       }
     ]
   }

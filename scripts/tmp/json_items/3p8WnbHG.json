@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6737",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Castellammare di Stabia"
       }
     ],
     "aliases": [
@@ -58,8 +59,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6541903"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "3HwLu67M",
+        "type": "item",
+        "label": "Luigi Denza",
+        "description": "Italian composer (1846-1922)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigi_Denza_(before_1922)_-_Archivio_storico_Ricordi_FOTO001319.jpg"
+        }
+      },
+      {
+        "id": "5eke3MxL",
+        "type": "item",
+        "label": "Michele Esposito",
+        "description": "Italian-born musical composer and pianist; active in Ireland (1855-1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Michele_Esposito.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3p8WnbHG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3p8WnbHG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3p8WnbHG.csv"
+      }
+    ]
+  }
 }

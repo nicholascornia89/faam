@@ -53,17 +53,20 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       },
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -76,94 +79,114 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "HXG9NWiG"
+        "value": "HXG9NWiG",
+        "label": "bowing"
       },
       {
         "type": "item",
-        "value": "5fpte3tE"
+        "value": "5fpte3tE",
+        "label": "vertical break"
       },
       {
         "type": "item",
-        "value": "Rxa2vGNJ"
+        "value": "Rxa2vGNJ",
+        "label": "repeat sign"
       },
       {
         "type": "item",
-        "value": "kmMxdth8"
+        "value": "kmMxdth8",
+        "label": "bar number"
       },
       {
         "type": "item",
-        "value": "bsgSL8K5"
+        "value": "bsgSL8K5",
+        "label": "Rehearsal letter"
       },
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "JnGFsz6r"
+        "value": "JnGFsz6r",
+        "label": "pointer"
       },
       {
         "type": "item",
-        "value": "4PAdXGNC"
+        "value": "4PAdXGNC",
+        "label": "alternative melody"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "FHTHb7Dq"
+        "value": "FHTHb7Dq",
+        "label": "overture"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "g7hgtzmM"
+        "value": "g7hgtzmM",
+        "label": "orchestra"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "gvB7xdLy"
+        "value": "gvB7xdLy",
+        "label": "Charlotte Corday"
       }
     ],
     "agent": [
@@ -174,7 +197,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -186,7 +210,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -195,7 +220,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -207,7 +233,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -216,7 +243,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -228,21 +256,25 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Peter Benoit"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -260,6 +292,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902126744/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "A4co5axR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "A4co5axR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "A4co5axR.csv"
       }
     ]
   }

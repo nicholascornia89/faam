@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q456204",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marie Gabriel Augustin Savard"
       }
     ]
   },
@@ -142,13 +143,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EzxGVoaq",
+        "type": "item",
+        "label": "Jules Massenet",
+        "description": "French composer (1842–1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Massenet_by_Eugène_Pirou,_edit_(cropped).jpg"
+        }
+      },
+      {
+        "id": "SE3Z4qym",
+        "type": "item",
+        "label": "Charles Lenepveu",
+        "description": "French composer (1840–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Lenepveu.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "MarieGabrielAugustinSavard.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Hk3mGA9F.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Hk3mGA9F.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Hk3mGA9F.csv"
       }
     ]
   }

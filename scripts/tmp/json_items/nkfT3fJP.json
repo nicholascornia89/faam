@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q12019693",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hlahol Prague"
       }
     ],
     "aliases": []
@@ -57,6 +58,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XBN6osjn",
+        "type": "item",
+        "label": "Bedřich Smetana",
+        "description": "Czech composer (1824–1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FriedrichSmetana.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nkfT3fJP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nkfT3fJP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nkfT3fJP.csv"
+      }
+    ]
+  }
 }

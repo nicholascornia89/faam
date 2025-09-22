@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1419737",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Guildhall School of Music and Drama"
       }
     ],
     "aliases": [
@@ -78,6 +79,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2Q9rgnPT",
+        "type": "item",
+        "label": "Isidore de Lara",
+        "description": "English composer and singer (1858–1935)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Isidore_de_Lara.jpg"
+        }
+      },
+      {
+        "id": "9hJtXr8o",
+        "type": "item",
+        "label": "Orlando Morgan",
+        "description": "English music teacher, composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9hJtXr8o",
+        "type": "item",
+        "label": "Orlando Morgan",
+        "description": "English music teacher, composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6mtFubGL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6mtFubGL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6mtFubGL.csv"
+      }
+    ]
+  }
 }

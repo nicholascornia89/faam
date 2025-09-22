@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q317855",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hochschule für Musik Detmold"
       }
     ],
     "aliases": [
@@ -70,6 +71,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "gKgoiRVg",
+        "type": "item",
+        "label": "Wolfgang Fortner",
+        "description": "German composer and conductor (1907–1987)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "adFwt7Cm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "adFwt7Cm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "adFwt7Cm.csv"
+      }
+    ]
+  }
 }

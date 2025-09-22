@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q632743",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "The Barber of Seville"
       }
     ]
   },
@@ -57,6 +58,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "MqLxdPPf",
+        "type": "item",
+        "label": "The Barber of Seville",
+        "description": "1816 opera by Gioachino Rossini"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4zf9oPNq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4zf9oPNq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4zf9oPNq.csv"
+      }
+    ]
+  }
 }

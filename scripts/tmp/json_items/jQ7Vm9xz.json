@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q13164",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Moscow State University"
       }
     ],
     "aliases": []
@@ -45,6 +46,51 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YojCFfbu",
+        "type": "item",
+        "label": "Nikolai Zverev",
+        "description": "Russian classical pianist (1833–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai-Zverev.jpg"
+        }
+      },
+      {
+        "id": "SkDjMP4R",
+        "type": "item",
+        "label": "Alexander Ossovsky",
+        "description": "Musicologist, Russian writer (1871-1957)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jQ7Vm9xz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jQ7Vm9xz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jQ7Vm9xz.csv"
+      }
+    ]
+  }
 }

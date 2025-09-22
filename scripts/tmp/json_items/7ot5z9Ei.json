@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q373712",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "octet"
       }
     ],
     "aliases": [
@@ -51,6 +52,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7XY7PdWV",
+        "type": "item",
+        "label": "Ottetto : Pour quatre Violons, deux Altos, deux Violoncelles : Oeuv. 20",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356945.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7ot5z9Ei.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7ot5z9Ei.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7ot5z9Ei.csv"
+      }
+    ]
+  }
 }

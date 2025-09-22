@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,77 +79,93 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "UfinksVv"
+        "value": "UfinksVv",
+        "label": "ossia"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "ZdpNGGJP"
+        "value": "ZdpNGGJP",
+        "label": "arpeggio"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "YCgBhPNn"
+        "value": "YCgBhPNn",
+        "label": "octave sign"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "iXCr874G"
+        "value": "iXCr874G",
+        "label": "Miniaturen : voor klavier"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "UGSpFRmF"
+        "value": "UGSpFRmF",
+        "label": "piano music"
       },
       {
         "type": "item",
-        "value": "jvhZafsd"
+        "value": "jvhZafsd",
+        "label": "piano cycle"
       },
       {
         "type": "item",
-        "value": "4ZvdnZdj"
+        "value": "4ZvdnZdj",
+        "label": "programme music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -159,7 +177,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -171,7 +190,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Lodewijk Mortelmans"
       },
       {
         "type": "statement",
@@ -180,19 +200,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Ba3nT5xs"
+            "value": "Ba3nT5xs",
+            "label": "Antwerp"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Metropolis (Oud-Huis G. Prop)"
       },
       {
         "type": "statement",
@@ -201,7 +224,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -213,27 +237,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "Ba3nT5xs"
+        "value": "Ba3nT5xs",
+        "label": "Antwerp"
       }
     ]
   },
@@ -250,6 +279,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903079199/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "94k9UmMK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "94k9UmMK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "94k9UmMK.csv"
       }
     ]
   }

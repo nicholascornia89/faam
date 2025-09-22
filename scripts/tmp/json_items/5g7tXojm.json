@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q76428",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Carl Philipp Emanuel Bach"
       }
     ]
   },
@@ -200,13 +201,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QDP83SXs",
+        "type": "item",
+        "label": "Jan Ladislav Dussek",
+        "description": "Czech composer and pianist (1760–1812)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jan_Ladislav_Dussek.jpg"
+        }
+      },
+      {
+        "id": "VMWZq6tU",
+        "type": "item",
+        "label": "Johann Christian Bach",
+        "description": "German composer (1735–1782)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Christian_Bach_by_Thomas_Gainsborough.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Carl_Philipp_Emanuel_Bach.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5g7tXojm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5g7tXojm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5g7tXojm.csv"
       }
     ]
   }

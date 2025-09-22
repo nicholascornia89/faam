@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2JC9tGWC a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1835-10-09"^^xsd:string ;
+    schema1:birthPlace faamentity:Rx6rH67Y ;
+    schema1:deathDate "1921-12-16"^^xsd:string ;
+    schema1:deathPlace faamentity:VYgzyfpR ;
+    schema1:description "French composer, organist, conductor and pianist (1835–1921)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q150445>,
+        "15996054"^^xsd:string,
+        "2JC9tGWC"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Camille Saint-Saens"^^xsd:string,
+        "Camille Saint-Saëns"^^xsd:string,
+        "Charles-Camille Saint-Saëns"^^xsd:string,
+        "Saint-Saens"^^xsd:string,
+        "Saint-Saëns"^^xsd:string ;
+    skos:prefLabel "Camille Saint-Saëns"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh,
+        faamentity:J32Mk8QV,
+        faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7575200 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/76734> ;
+    wd:P737 faamentity:AWqDraUS,
+        faamentity:U6xhouYu ;
+    wd:P839 <https://imslp.org/wiki/Category:Saint-Saëns,_Camille> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:JoNf8FqJ,
+        faamentity:KZLqHwSf,
+        faamentity:Mk6HJN99,
+        faamentity:PGamAZRD,
+        faamentity:RHfvaKqY .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q767562",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Chaumes-en-Brie"
       }
     ],
     "aliases": [
@@ -54,8 +55,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6443603"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "gMbbXrG8",
+        "type": "item",
+        "label": "Louis Couperin",
+        "description": "French Baroque composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "mtN6KyyB",
+        "type": "item",
+        "label": "Charles Couperin",
+        "description": "French organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lefebvre_Charles_Couperin.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6zQcSf66.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6zQcSf66.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6zQcSf66.csv"
+      }
+    ]
+  }
 }

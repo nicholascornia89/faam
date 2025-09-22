@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q189544",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Adolphe Adam"
       }
     ]
   },
@@ -197,13 +198,119 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "evtmNNan",
+        "type": "item",
+        "label": "Le farfadet : opéra comique en un acte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902614640.gif"
+        }
+      },
+      {
+        "id": "UTd3aX7j",
+        "type": "item",
+        "label": "Le châlet : opéra-comique en un acte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901706033.gif"
+        }
+      },
+      {
+        "id": "mCDApWwM",
+        "type": "item",
+        "label": "Le Chalet : Opéra-comique en un acte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000742404.gif"
+        }
+      },
+      {
+        "id": "T5A6HKea",
+        "type": "item",
+        "label": "Rondo du Hussard de Felsheim : Varié pour le Cor avec accompagnement de Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750004.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "PH2vUbe5",
+        "type": "item",
+        "label": "Léo Delibes",
+        "description": "French composer (1836–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Delibes_Leo_Luckhard.png"
+        }
+      },
+      {
+        "id": "JvF3PApd",
+        "type": "item",
+        "label": "Loïsa Puget",
+        "description": "French composer (1810–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Loïsa_Puget_by_Marie-Alexandre_Alophe.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "53J5573G",
+        "type": "item",
+        "label": "Le chalet",
+        "description": "opera by Adolphe Adam"
+      },
+      {
+        "id": "C46xJxdV",
+        "type": "item",
+        "label": "Le farfadet",
+        "description": "opera by Adolphe Adam"
+      },
+      {
+        "id": "cfLuZKT4",
+        "type": "item",
+        "label": "Le hussard de Felsheim",
+        "description": "opera by Adolphe Adam"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Adolphe_Adam.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nDdUxPEa.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nDdUxPEa.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nDdUxPEa.csv"
       }
     ]
   }

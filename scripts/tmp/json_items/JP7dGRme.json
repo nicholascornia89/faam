@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q48811",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "mordent"
       }
     ],
     "aliases": [
@@ -100,6 +101,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "5Zjxjmnn",
+        "type": "item",
+        "label": "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332135.gif"
+        }
+      },
+      {
+        "id": "4eqHUQT2",
+        "type": "item",
+        "label": "Sonate n° 51 : menuet en si ♭ [pour piano] / Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43257971z.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JP7dGRme.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JP7dGRme.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JP7dGRme.csv"
+      }
+    ]
+  }
 }

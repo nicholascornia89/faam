@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Y6qTFpMi a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TYtCu3ys ;
+    schema1:identifier "16004359"^^xsd:string,
+        "Y6qTFpMi"^^xsd:string ;
+    skos:prefLabel "3 Études Caractéristiques pour violon, Op.37"^^xsd:string ;
+    wd:P214 viaf:5892156858660949780008 ;
+    wd:P7937 faamentity:CmqENXaQ .
+

@@ -1,0 +1,94 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XpkeH85Z a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:RePdmToB,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:aCRY7SgN,
+        faamentity:bsgSL8K5,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:KYiqCjW2,
+        faamentity:MEjPi9ot,
+        faamentity:fBYBjEvT,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4FpHAKUW,
+        faamentity:GQ9LXzE7,
+        faamentity:mvgRcySN ;
+    schema1:hasPart faamentity:MymXfGEj,
+        faamentity:ZJBnGFib,
+        faamentity:m2bfDrD3 ;
+    schema1:identifier "16005045"^^xsd:string,
+        "BSB-991078508549707356"^^xsd:string,
+        "XpkeH85Z"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00130016"^^schema1:url ;
+    skos:prefLabel "3 Psalmen : für Doppelchor"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 7891"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"XpkeH85Z-000e9635-b57a-427c-abcf-119fac85059a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"XpkeH85Z-0ed6ed12-aae4-482d-8e3d-9656ad241ba5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"XpkeH85Z-3e071475-a9a4-4437-8a38-f961cb871305"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"XpkeH85Z-675185d8-6b5a-4b19-8a0f-7bf47b41462c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"XpkeH85Z-874a22dd-9dbe-4f95-a416-839709af29f9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"XpkeH85Z-9a236886-2ae3-4e91-9b28-d401b966cca6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"XpkeH85Z-9d07bbcd-6c34-4dd3-b45f-113befe2d702"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"XpkeH85Z-c70d0988-4ce2-4623-aa6f-67a9c35f81b3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"XpkeH85Z-d289b683-d665-4532-8c9c-b3f85161f249"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:4FpHAKUW a rdf:object .
+
+faamentity:GQ9LXzE7 a rdf:object .
+
+faamentity:mvgRcySN a rdf:object .
+

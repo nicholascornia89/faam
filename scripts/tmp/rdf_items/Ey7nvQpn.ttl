@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ey7nvQpn a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who describes and lists books and other publications"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q10429346>,
+        "15990961"^^xsd:string,
+        "Ey7nvQpn"^^xsd:string ;
+    skos:altLabel "bibliographer"^^xsd:string ;
+    skos:prefLabel "bibliographer"^^xsd:string,
+        "jurist"^^xsd:string .
+

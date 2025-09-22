@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q42187855",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Choral Fantasy in C Minor, Op. 80"
       }
     ]
   },
@@ -85,6 +86,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "6Nob9gt6",
+        "type": "item",
+        "label": "Fantasie für Pianoforte, Orchester und Chor, op. 80",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903242334.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "enJYsLJp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "enJYsLJp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "enJYsLJp.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eb9wVggM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1840-01-01"^^xsd:string,
+        "1840-11-03"^^xsd:string ;
+    schema1:birthPlace faamentity:4ThPm5if ;
+    schema1:deathDate "1912-01-01"^^xsd:string,
+        "1912-01-17"^^xsd:string ;
+    schema1:deathPlace faamentity:9Mh2HUxt ;
+    schema1:description "Swiss musicologist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57093649>,
+        "16005263"^^xsd:string,
+        "eb9wVggM"^^xsd:string ;
+    schema1:nationality faamentity:jN8Vq8mU ;
+    skos:altLabel "Antoine Dechevrens"^^xsd:string ;
+    skos:prefLabel "Antoine Dechevrens"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:44289320 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y,
+        faamentity:agnuLCvL .
+

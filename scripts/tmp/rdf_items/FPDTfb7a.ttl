@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FPDTfb7a a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "Central European multinational Empire from 1804 to 1867"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q131964>,
+        "15998370"^^xsd:string,
+        "FPDTfb7a"^^xsd:string ;
+    skos:altLabel "Austria"^^xsd:string,
+        "Austrian Empire"^^xsd:string,
+        "Kaiserthum Österreich"^^xsd:string ;
+    skos:prefLabel "Austrian Empire"^^xsd:string .
+

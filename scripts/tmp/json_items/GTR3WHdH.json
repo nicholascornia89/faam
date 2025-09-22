@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -78,42 +80,50 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "4PAdXGNC"
+        "value": "4PAdXGNC",
+        "label": "alternative melody"
       },
       {
         "type": "item",
-        "value": "9dz9ydpz"
+        "value": "9dz9ydpz",
+        "label": "legato"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "YmTjo9Ww"
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
       }
     ],
     "musical work": [],
@@ -125,7 +135,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -137,13 +148,15 @@
             "property": "date",
             "value": "1964"
           }
-        ]
+        ],
+        "label": "August Verbesselt"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -161,6 +174,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901519410/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GTR3WHdH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GTR3WHdH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GTR3WHdH.csv"
       }
     ]
   }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q34404",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "New Orleans"
       }
     ],
     "aliases": [
@@ -62,8 +63,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "4335045"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "niT7Psik",
+        "type": "item",
+        "label": "Louis Varney",
+        "description": "French composer (1844–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Varney.jpg"
+        }
+      },
+      {
+        "id": "9eEbeRLM",
+        "type": "item",
+        "label": "Ernest Guiraud",
+        "description": "French composer and music teacher (1837-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ernest_Guiraud.jpg"
+        }
+      },
+      {
+        "id": "kxmQq6b5",
+        "type": "item",
+        "label": "Charles Lucien Lambert",
+        "description": "American composer (1828–1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Vmibabgf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Vmibabgf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Vmibabgf.csv"
+      }
+    ]
+  }
 }

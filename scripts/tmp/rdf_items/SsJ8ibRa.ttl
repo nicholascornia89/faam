@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SsJ8ibRa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1776-02-21"^^xsd:string ;
+    schema1:birthPlace faamentity:Rh3ZXCoe ;
+    schema1:deathDate "1836-09-14"^^xsd:string ;
+    schema1:deathPlace faamentity:6rg7mVNX ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2526926>,
+        "0"^^xsd:string,
+        "SsJ8ibRa"^^xsd:string ;
+    schema1:nationality faamentity:4UgAZMRB,
+        faamentity:CwkwAGsF ;
+    skos:prefLabel "Vincenzo Lavigna"^^xsd:string ;
+    wd:P1303 faamentity:YmTjo9Ww ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:52039050 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30004979> ;
+    wd:P737 faamentity:8RjTgR64,
+        faamentity:LmJM6gyA,
+        faamentity:hZNMi7Wf ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG .
+

@@ -1,0 +1,77 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dy9TNmQe a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:A4NPbBsi,
+        faamentity:B7WuhvkL,
+        faamentity:DqMNcjpW,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:ZdpNGGJP,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:K3Ds589T ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3ffJFTDp,
+        faamentity:GbF7WqmB,
+        faamentity:QhRQ5LW9,
+        faamentity:ewwggKDh ;
+    schema1:hasPart faamentity:EVwxTS96 ;
+    schema1:identifier "16004025"^^xsd:string,
+        "BSB-991076574139707356"^^xsd:string,
+        "dy9TNmQe"^^xsd:string ;
+    schema1:location faamentity:Km6ATdgQ,
+        faamentity:Lsbh2rCR ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00133716"^^schema1:url ;
+    skos:prefLabel "Fantasia chromatica"^^xsd:string ;
+    skosref:note "This piece is part of \"Anthologie classique tirée des oeuvres de Bach, Scarlatti, Händel, Mozart etc. : pour le piano seul ; No. 32\""^^rdf:HTML ;
+    wd:P217 "2 Mus.pr. 8594"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"dy9TNmQe-3ca9ac1a-20a0-4091-a9ae-b7d6fefc4ab7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Km6ATdgQ .
+
+"dy9TNmQe-4d05e6c1-2709-44e7-a997-722a2df93a8a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"dy9TNmQe-4f6b7aca-8ec0-429c-aa3e-2b5b596cb0bc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"dy9TNmQe-9e14170f-6f45-4bca-a22b-a64de3cb9b42"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Lsbh2rCR .
+
+faamentity:3ffJFTDp a rdf:object .
+
+faamentity:GbF7WqmB a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:ewwggKDh a rdf:object .
+

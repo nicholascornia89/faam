@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q2622524",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Humoresques, Op. 101"
       }
     ]
   },
@@ -98,6 +99,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3sBRPvLk",
+        "type": "item",
+        "label": "Humoreska, op. 101 no. 7 = Célèbre humoresque",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902758835.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L22MWk6s.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L22MWk6s.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L22MWk6s.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q189737",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "timpani"
       }
     ],
     "aliases": [
@@ -87,6 +88,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "MgFpSmdu",
+        "type": "item",
+        "label": "Capricio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902419677.gif"
+        }
+      },
+      {
+        "id": "MMWBwTQo",
+        "type": "item",
+        "label": "Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333241.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZTbXrTCC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZTbXrTCC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZTbXrTCC.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BrJqqTHK a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:description "motet by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310762>,
+        "16002010"^^xsd:string,
+        "BrJqqTHK"^^xsd:string ;
+    skos:altLabel "Popule meus"^^xsd:string ;
+    skos:prefLabel "Popule meus"^^xsd:string,
+        "Popule meus, IGP 76"^^xsd:string ;
+    wd:P214 viaf:176995664 ;
+    wd:P5202 faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE ;
+    wd:P839 <https://imslp.org/wiki/Popule_meus,_IGP_76_(Palestrina,_Giovanni_Pierluigi_da)> .
+

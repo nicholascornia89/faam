@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q111220136",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saxon State Library"
       }
     ],
     "abbreviation": [
@@ -88,6 +89,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JvMaPT6R",
+        "type": "item",
+        "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SLD-512657440.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XyGK9UFw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XyGK9UFw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XyGK9UFw.csv"
+      }
+    ]
+  }
 }

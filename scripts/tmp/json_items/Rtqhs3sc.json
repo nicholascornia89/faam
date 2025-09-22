@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q648",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lille"
       }
     ],
     "aliases": [
@@ -66,8 +67,68 @@
         "base_url": "https://www.geonames.org/",
         "label": "2998324"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "3GT9D7Vc",
+        "type": "item",
+        "label": "Edouard Lalo",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Édouard_Lalo2.jpeg"
+        }
+      },
+      {
+        "id": "Q7fj8f5L",
+        "type": "item",
+        "label": "Auguste Franchomme",
+        "description": "French musician (1808-1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Auguste_Franchomme.png"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "KRuujjMV",
+        "type": "item",
+        "label": "Regional Conservatory of Lille",
+        "description": "music school in France"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Rtqhs3sc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Rtqhs3sc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Rtqhs3sc.csv"
+      }
+    ]
+  }
 }

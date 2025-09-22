@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1116",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Province of Antwerp"
       }
     ],
     "aliases": [
@@ -70,8 +71,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2803136"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Guxn48TU",
+        "type": "item",
+        "label": "Lodewijk de Vocht",
+        "description": "Belgian conductor and composer (1887-1977)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Opname_Dit_is_uw_leven_,_Jo_Vincent_en_de_Belgische_dirigent_L._de_Vocht,_Bestanddeelnr_911-0376.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LYDfbSYJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LYDfbSYJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LYDfbSYJ.csv"
+      }
+    ]
+  }
 }

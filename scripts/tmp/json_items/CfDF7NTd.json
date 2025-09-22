@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q10373279",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Twelve Violin Sonatas, Op.5"
       }
     ]
   },
@@ -95,6 +96,71 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gSRR7ifb",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902751301.gif"
+        }
+      },
+      {
+        "id": "gasDxG8C",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902751319.gif"
+        }
+      },
+      {
+        "id": "eMHKbtvi",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920292.gif"
+        }
+      },
+      {
+        "id": "aU5fiv9F",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920300.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CfDF7NTd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CfDF7NTd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CfDF7NTd.csv"
+      }
+    ]
+  }
 }

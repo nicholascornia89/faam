@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q67199921",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 95"
       }
     ]
   },
@@ -115,6 +116,71 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "RNyipx7o",
+        "type": "item",
+        "label": "Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-29805.gif"
+        }
+      },
+      {
+        "id": "oCna5zHY",
+        "type": "item",
+        "label": "Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22768.gif"
+        }
+      },
+      {
+        "id": "CdQ6Cvwj",
+        "type": "item",
+        "label": "Pièces pour le Clavecin par Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903514823.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "86oWbfJV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "86oWbfJV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "86oWbfJV.csv"
+      }
+    ]
+  }
 }

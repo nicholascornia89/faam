@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2833",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Freiburg im Breisgau"
       }
     ],
     "aliases": [
@@ -70,8 +71,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2925177"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "Z2kzA6v7",
+        "type": "item",
+        "label": "Hochschule für Musik Freiburg",
+        "description": "institution of higher education in Freiburg, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mWtUsUVy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mWtUsUVy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mWtUsUVy.csv"
+      }
+    ]
+  }
 }

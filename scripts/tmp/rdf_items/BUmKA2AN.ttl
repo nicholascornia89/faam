@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BUmKA2AN a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© National Museum in Kraków"^^xsd:string ;
+    schema1:description "museum in Krakow, Poland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q195311>,
+        "15992250"^^xsd:string,
+        "BUmKA2AN"^^xsd:string ;
+    schema1:location faamentity:Hz6qkXNY,
+        faamentity:JRTTuQvY ;
+    schema1:url "https://mnk.pl/"^^schema1:url,
+        "https://zbiory.mnk.pl/en/home-page"^^schema1:url ;
+    skos:altLabel "Muzeum Narodowe w Krakowie"^^xsd:string,
+        "National Museum Krakow"^^xsd:string,
+        "National Museum in Krakow"^^xsd:string,
+        "National Museum in Kraków"^^xsd:string,
+        "National Museum, Krakow"^^xsd:string ;
+    skos:prefLabel "National Museum in Kraków"^^xsd:string ;
+    wd:P1813 "KNM"^^xsd:string .
+

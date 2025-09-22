@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -79,28 +81,33 @@
     "provenance": [
       {
         "type": "item",
-        "value": "Uafe5zh7"
+        "value": "Uafe5zh7",
+        "label": "Ohio State University Libraries"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "Vm5DPnGE"
+        "value": "Vm5DPnGE",
+        "label": "vocal pedagogy"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -112,19 +119,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "iXuvmnqs"
+            "value": "iXuvmnqs",
+            "label": "Edinburgh"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1894"
           }
-        ]
+        ],
+        "label": "Blackwood & Sons"
       },
       {
         "type": "statement",
@@ -133,7 +143,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -145,23 +156,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Albert Bernhard Bach"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "iXuvmnqs"
+        "value": "iXuvmnqs",
+        "label": "Edinburgh"
       }
     ]
   },
@@ -178,6 +193,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/OSU-b5903614/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NFa7mgAM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NFa7mgAM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NFa7mgAM.csv"
       }
     ]
   }

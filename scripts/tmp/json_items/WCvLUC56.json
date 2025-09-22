@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1022",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stuttgart"
       }
     ],
     "aliases": [
@@ -54,8 +55,88 @@
         "base_url": "https://www.geonames.org/",
         "label": "6690189"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "3n35LkqQ",
+        "type": "item",
+        "label": "Adolf Ruthardt",
+        "description": "German piano teacher, composer and music editor (1849-1934)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "AdolfRuthardt.jpg"
+        }
+      },
+      {
+        "id": "Mx377MbJ",
+        "type": "item",
+        "label": "Julius Benedict",
+        "description": "German-born composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sir_Julius_Benedict.jpg"
+        }
+      },
+      {
+        "id": "ECosGAj4",
+        "type": "item",
+        "label": "Wenzel Neukirchner",
+        "description": "(1805-1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AAxNjhw4",
+        "type": "item",
+        "label": "Leonhard Lechner",
+        "description": "composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "EfdYCB4q",
+        "type": "item",
+        "label": "State University of Music and Performing Arts Stuttgart",
+        "description": "music school"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WCvLUC56.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WCvLUC56.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WCvLUC56.csv"
+      }
+    ]
+  }
 }

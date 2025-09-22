@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q597",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lisbon"
       }
     ],
     "aliases": [
@@ -58,8 +59,58 @@
         "base_url": "https://www.geonames.org/",
         "label": "2267057"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Ars8m6Hw",
+        "label": "Portugal"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cfzp2svu",
+        "type": "item",
+        "label": "Giovanni Giorgi",
+        "description": "Italian/Portuguese composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Giorgi_Caricature_1719.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "Vp4ewFKn",
+        "type": "item",
+        "label": "Lisbon Theatre and Film School",
+        "description": "film school"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fQFR87Nk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fQFR87Nk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fQFR87Nk.csv"
+      }
+    ]
+  }
 }

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q66891",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Grützmacher"
       }
     ]
   },
@@ -168,13 +169,99 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "dkJpBvpv",
+        "type": "item",
+        "label": "6 Sonaten für Violoncell und unbezifferten Baß. 4: 4, No. 4 in Es-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991048047199707356.gif"
+        }
+      },
+      {
+        "id": "mCuCRJ4V",
+        "type": "item",
+        "label": "Trois Sonates pour piano et viola da gamba ou violoncelle, composées par J. Seb. Bach. Edition nouvelle, revue, doigtée et enrichie de notes sur l'exécution par Fr. Grützmacher",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-42826443c.gif"
+        }
+      },
+      {
+        "id": "de3nTRM6",
+        "type": "item",
+        "label": "6 Sonaten für Violoncell und unbezifferten Baß. 1, No. 1 in A-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991048046999707356.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "ZxjoRWTJ",
+        "type": "item",
+        "label": "Emil Hegar",
+        "description": "(1843-1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emil_Hegar.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "5Tv2yEi3",
+        "type": "item",
+        "label": "Cello Suites",
+        "description": "six suites for unaccompanied cello composed by J. S. Bach"
+      },
+      {
+        "id": "SUQCCDgx",
+        "type": "item",
+        "label": "Viola da Gamba Sonatas (BWV 1027-1029)",
+        "description": "Sonatas for bass viol composed by J.S. Bach"
+      },
+      {
+        "id": "ffJTehbT",
+        "type": "item",
+        "label": "Cello Sonata in A major, G.13",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FriedrichGrützmacher.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jK3acqwb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jK3acqwb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jK3acqwb.csv"
       }
     ]
   }

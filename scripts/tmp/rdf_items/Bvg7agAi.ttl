@@ -1,0 +1,69 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Bvg7agAi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:A4NPbBsi,
+        faamentity:NsEoE4RP,
+        faamentity:VMA2AmEN,
+        faamentity:WtvibJFF,
+        faamentity:YRq3pSH7 ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:YWfofDz3,
+        faamentity:e9t5BdLA ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """[h=1]5me Suite[/h]
+<ol>
+<li> Conte </li>
+<li> Ballade </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:2HBuTSVV ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:BkX9pctu ;
+    schema1:hasPart faamentity:JpQ4iY5H ;
+    schema1:identifier "15992370"^^xsd:string,
+        "Bvg7agAi"^^xsd:string,
+        "KCA-030902565487"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6805674/N"^^schema1:url ;
+    skos:prefLabel "5e suite"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-conte5-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"Bvg7agAi-63e0ac5e-9f2c-4ccb-8ab4-f81087b5f673"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"Bvg7agAi-b5f869be-d1b2-4f0f-a49e-9ca4ac83b92e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"Bvg7agAi-cb08e26b-d91b-44bd-92d6-d125bfb066b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+

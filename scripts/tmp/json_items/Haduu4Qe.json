@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q607368",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tobias Matthay"
       }
     ]
   },
@@ -173,13 +174,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "P8rt2kWi",
+        "type": "item",
+        "label": "George Aitken",
+        "description": "English composer and pianist (b.1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AjWuCB4c",
+        "type": "item",
+        "label": "Harriet Cohen",
+        "description": "British musician (1895-1967)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Harriet_Cohen_1920_Alexander_Binder_001.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Tobias_Matthay_-_Project_Gutenberg_eText_15604.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Haduu4Qe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Haduu4Qe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Haduu4Qe.csv"
       }
     ]
   }

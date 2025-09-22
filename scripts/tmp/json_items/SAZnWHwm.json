@@ -36,12 +36,44 @@
       {
         "type": "externalid",
         "value": "Q186081",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "time interval"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "BRfMZMpE",
+        "type": "item",
+        "label": "bar",
+        "description": "time unit in rhythmic musical notation"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SAZnWHwm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SAZnWHwm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SAZnWHwm.csv"
+      }
+    ]
+  }
 }

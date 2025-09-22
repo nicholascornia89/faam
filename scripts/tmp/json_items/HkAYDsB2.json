@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1908638",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mathieu Crickboom"
       }
     ]
   },
@@ -168,13 +169,97 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cZMdaLaB",
+        "type": "item",
+        "label": "CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331903.gif"
+        }
+      },
+      {
+        "id": "2k4BmwAx",
+        "type": "item",
+        "label": "1er concerto en la mineur : réduction pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902488649.gif"
+        }
+      },
+      {
+        "id": "TtLk4SCR",
+        "type": "item",
+        "label": "Sonate en ré majeur nr 4 : pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902480737.gif"
+        }
+      },
+      {
+        "id": "VCGXtJVz",
+        "type": "item",
+        "label": "Sonate en ré majeur nr 4 : pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902480745.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "cFVvHs9Z",
+        "type": "item",
+        "label": "Violin Sonata in D major, HWV 371",
+        "description": ""
+      },
+      {
+        "id": "PtVavKho",
+        "type": "item",
+        "label": "Violin Concerto in A minor, BWV 1041",
+        "description": "violin concerto by Johann Sebastian Bach"
+      },
+      {
+        "id": "ixNgtbqv",
+        "type": "item",
+        "label": "Concerto for Two Violins",
+        "description": "BWV 1043 by Johann Sebastian Bach"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Mathieu_Crickboom_1905.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HkAYDsB2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HkAYDsB2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HkAYDsB2.csv"
       }
     ]
   }

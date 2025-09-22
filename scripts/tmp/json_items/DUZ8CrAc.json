@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q111135487",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "La dolce vista, che da gli occhi move"
       }
     ]
   },
@@ -50,6 +51,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "D5KWdsCk",
+        "type": "item",
+        "label": "Missa la dolce vista",
+        "description": "parody mass by Philippe de Monte based on the homonymous madrigal"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DUZ8CrAc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DUZ8CrAc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DUZ8CrAc.csv"
+      }
+    ]
+  }
 }

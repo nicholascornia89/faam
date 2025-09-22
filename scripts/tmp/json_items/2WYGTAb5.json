@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q2717812",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nikolai Zaremba"
       }
     ]
   },
@@ -153,13 +154,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nZyewNFB",
+        "type": "item",
+        "label": "Pyotr Ilyich Tchaikovsky",
+        "description": "Russian composer (1840–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Porträt_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg"
+        }
+      },
+      {
+        "id": "oNqjNRHv",
+        "type": "item",
+        "label": "Vasily Safonov",
+        "description": "Russian pianist, teacher, conductor and composer (1852-1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Василий_Сафронов.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nicolai_Zaremba_(1821-1879).JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2WYGTAb5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2WYGTAb5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2WYGTAb5.csv"
       }
     ]
   }

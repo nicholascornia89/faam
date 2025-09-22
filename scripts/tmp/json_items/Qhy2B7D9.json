@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q153529",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Duchy of Milan"
       }
     ],
     "aliases": []
@@ -44,6 +45,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "V6Tg8jV9",
+        "type": "item",
+        "label": "Giovanni Battista Sammartini",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Battista_Sammartini,_portrait_by_Riccardi_(detail).jpg"
+        }
+      },
+      {
+        "id": "kvJdJkvL",
+        "type": "item",
+        "label": "Marc'Antonio Ingegneri",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Qhy2B7D9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Qhy2B7D9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Qhy2B7D9.csv"
+      }
+    ]
+  }
 }

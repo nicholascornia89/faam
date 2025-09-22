@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YCgBhPNn a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "Music symbol referring to a phrase or a section of music to be played one octave higher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126950966>,
+        "15992174"^^xsd:string,
+        "YCgBhPNn"^^xsd:string ;
+    skos:altLabel "8va"^^xsd:string,
+        "octave sign"^^xsd:string ;
+    skos:prefLabel "octave sign"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P31 faamentity:N2f5NSgz .
+

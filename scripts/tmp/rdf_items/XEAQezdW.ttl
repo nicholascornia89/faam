@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XEAQezdW a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "principality"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q639100>,
+        "16004422"^^xsd:string,
+        "XEAQezdW"^^xsd:string ;
+    skos:altLabel "Principality of Reuss-Gera"^^xsd:string,
+        "Principality of the Reuss Junior Line"^^xsd:string,
+        "Reuss-Gera"^^xsd:string ;
+    skos:prefLabel "Principality of Reuss-Gera"^^xsd:string .
+

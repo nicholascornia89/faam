@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q10780",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grimma"
       }
     ],
     "aliases": [
@@ -54,8 +55,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "6550866"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "QG8CneJ9",
+        "type": "item",
+        "label": "Gymnasium St. Augustin",
+        "description": "school"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bgKMqxZV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bgKMqxZV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bgKMqxZV.csv"
+      }
+    ]
+  }
 }

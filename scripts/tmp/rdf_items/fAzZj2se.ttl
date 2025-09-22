@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fAzZj2se a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1702-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1759-04-28"^^xsd:string ;
+    schema1:deathPlace faamentity:9KauCKbh ;
+    schema1:description "Italian impresario (1702-1759)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7193008>,
+        "15995860"^^xsd:string,
+        "fAzZj2se"^^xsd:string ;
+    skos:altLabel "Pietro Mingotti"^^xsd:string ;
+    skos:prefLabel "Pietro Mingotti"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:226062684 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:JH4gpUQc,
+        faamentity:WKmszhX8 .
+

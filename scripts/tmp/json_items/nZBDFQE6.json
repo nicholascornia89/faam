@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q872222",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Opéra-Comique"
       }
     ],
     "aliases": [
@@ -64,6 +65,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "S3La3UWp",
+        "type": "item",
+        "label": "Ferdinand Hérold",
+        "description": "French composer (1791–1833)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Herold_by_Maurin.jpg"
+        }
+      },
+      {
+        "id": "Mus6HtS9",
+        "type": "item",
+        "label": "Moreau-Sainti",
+        "description": "French opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Moreau_by_Mlle_Athalante.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nZBDFQE6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nZBDFQE6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nZBDFQE6.csv"
+      }
+    ]
+  }
 }

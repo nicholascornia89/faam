@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q933351",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alfred Bruneau"
       }
     ]
   },
@@ -177,7 +178,90 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "2uPDQuy3",
+        "type": "item",
+        "label": "Le Nouveau-né",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p53.gif"
+        }
+      },
+      {
+        "id": "2uPDQuy3",
+        "type": "item",
+        "label": "Le Nouveau-né",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p53.gif"
+        }
+      },
+      {
+        "id": "D2J7BY9F",
+        "type": "item",
+        "label": "Les Amants fidèles ou Le Cierge dans le paradis",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p33.gif"
+        }
+      },
+      {
+        "id": "D2J7BY9F",
+        "type": "item",
+        "label": "Les Amants fidèles ou Le Cierge dans le paradis",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p33.gif"
+        }
+      },
+      {
+        "id": "3GZwb6wt",
+        "type": "item",
+        "label": "L'Enfant-Roi",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p42.gif"
+        }
+      },
+      {
+        "id": "3GZwb6wt",
+        "type": "item",
+        "label": "L'Enfant-Roi",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p42.gif"
+        }
+      },
+      {
+        "id": "hBvrZRKc",
+        "type": "item",
+        "label": "Nais Micoulin",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p72.gif"
+        }
+      },
+      {
+        "id": "hBvrZRKc",
+        "type": "item",
+        "label": "Nais Micoulin",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p72.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -189,6 +273,27 @@
         "type": "image",
         "value": "Alfred_Bruneau_1923.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mVRB2g58.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mVRB2g58.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mVRB2g58.csv"
       }
     ]
   }

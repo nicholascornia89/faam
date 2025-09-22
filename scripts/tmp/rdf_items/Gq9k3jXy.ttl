@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gq9k3jXy a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1850-01-01"^^xsd:string,
+        "1850-10-18"^^xsd:string ;
+    schema1:birthPlace faamentity:23AbeLTt ;
+    schema1:deathDate "1909-01-01"^^xsd:string,
+        "1909-11-16"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French pianist and composer (1850-1909)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q445852>,
+        "16005227"^^xsd:string,
+        "Gq9k3jXy"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Francis Thome"^^xsd:string,
+        "Francis Thomé"^^xsd:string,
+        "François-Lucien-Joseph Thomé"^^xsd:string ;
+    skos:prefLabel "Francis Thomé"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12493043 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30018799> ;
+    wd:P839 <https://imslp.org/wiki/Category:Thomé,_Francis> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

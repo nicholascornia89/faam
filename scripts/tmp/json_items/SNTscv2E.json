@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1711",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Potsdam"
       }
     ],
     "aliases": [
@@ -64,8 +65,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "7602560"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "7MVtJkCQ",
+        "type": "item",
+        "label": "Ludwig Wilhelm Maurer",
+        "description": "German composer, conductor and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludwig_Wilhelm_Maurer.jpg"
+        }
+      },
+      {
+        "id": "UXj95jQQ",
+        "type": "item",
+        "label": "Ludwig Wilhelm Maurer",
+        "description": "German composer, conductor and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludwig_Wilhelm_Maurer.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SNTscv2E.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SNTscv2E.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SNTscv2E.csv"
+      }
+    ]
+  }
 }

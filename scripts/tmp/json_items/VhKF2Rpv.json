@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q692",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "William Shakespeare"
       }
     ]
   },
@@ -184,13 +185,43 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "Lv4AiKXL",
+        "type": "item",
+        "label": "Romeo and Juliet",
+        "description": "tragedy by William Shakespeare"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Shakespeare.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VhKF2Rpv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VhKF2Rpv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VhKF2Rpv.csv"
       }
     ]
   }

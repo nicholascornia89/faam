@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q517107",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rudolstadt"
       }
     ],
     "aliases": [
@@ -54,8 +55,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6551155"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "fTDmDCt3",
+        "type": "item",
+        "label": "Heinrich Christoph Koch",
+        "description": "German musicologist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "fTDmDCt3",
+        "type": "item",
+        "label": "Heinrich Christoph Koch",
+        "description": "German musicologist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dnJGvAQM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dnJGvAQM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dnJGvAQM.csv"
+      }
+    ]
+  }
 }

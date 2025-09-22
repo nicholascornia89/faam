@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q27957934",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Twelve Little Preludes"
       }
     ]
   },
@@ -86,6 +87,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "73ip3aC7",
+        "type": "item",
+        "label": "12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903238001.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "C5U4ydvp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "C5U4ydvp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "C5U4ydvp.csv"
+      }
+    ]
+  }
 }

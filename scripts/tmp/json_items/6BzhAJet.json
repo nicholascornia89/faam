@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q907635",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marsalforn"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2562753"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kVX9a4Qm",
+        "label": "Malta"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "bDP89aJt",
+        "type": "item",
+        "label": "Francesco Masini",
+        "description": "Maltese lawyer and politician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_masini.JPG"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6BzhAJet.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6BzhAJet.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6BzhAJet.csv"
+      }
+    ]
+  }
 }

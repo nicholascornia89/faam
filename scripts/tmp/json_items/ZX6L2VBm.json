@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q42196505",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Three-Part Inventions"
       }
     ]
   },
@@ -80,6 +81,51 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZjwUa5f2",
+        "type": "item",
+        "label": "Inventionen: Inventios 2 et 3 voix = Inventions in 2 & 3 parts",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901096443.gif"
+        }
+      },
+      {
+        "id": "5Zjxjmnn",
+        "type": "item",
+        "label": "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332135.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZX6L2VBm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZX6L2VBm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZX6L2VBm.csv"
+      }
+    ]
+  }
 }

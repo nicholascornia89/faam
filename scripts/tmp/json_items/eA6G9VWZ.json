@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q207295",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Uusikaupunki"
       }
     ],
     "aliases": [
@@ -58,8 +59,61 @@
         "base_url": "https://www.geonames.org/",
         "label": "633222"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q33",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Finland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eA6G9VWZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eA6G9VWZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eA6G9VWZ.csv"
+      }
+    ]
+  }
 }

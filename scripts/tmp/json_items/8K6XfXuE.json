@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q270230",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "8th arrondissement of Paris"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3020270"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZPPWH75r",
+        "type": "item",
+        "label": "Henri Rabaud",
+        "description": "French composer (1873-1949)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Rabaud.jpg"
+        }
+      },
+      {
+        "id": "oMsr3FcM",
+        "type": "item",
+        "label": "Alexandre Georges",
+        "description": "French organist and composer (1850–1938)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre_Georges_1903.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8K6XfXuE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8K6XfXuE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8K6XfXuE.csv"
+      }
+    ]
+  }
 }

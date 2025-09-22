@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q211025",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "march"
       }
     ],
     "aliases": [
@@ -59,6 +60,131 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "4CMbya6k",
+        "type": "item",
+        "label": "Treurmarsch: uit het lyrisch drama Charlotte Corday",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901620267.gif"
+        }
+      },
+      {
+        "id": "oFrMgrov",
+        "type": "item",
+        "label": "Marsch, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904386114.gif"
+        }
+      },
+      {
+        "id": "9uhfWYAo",
+        "type": "item",
+        "label": "Rubens-marsch: op motiven der Rubens-cantate",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902146544.gif"
+        }
+      },
+      {
+        "id": "2zLb8ZxK",
+        "type": "item",
+        "label": "Morceau de Concert : Op. 14",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000741173.gif"
+        }
+      },
+      {
+        "id": "b2dSijvv",
+        "type": "item",
+        "label": "QUATRE MORCEAUX CLASSIQUES",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000369609.gif"
+        }
+      },
+      {
+        "id": "XTwyaLbV",
+        "type": "item",
+        "label": "Six morceaux caractéristiques",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p5.gif"
+        }
+      },
+      {
+        "id": "B75PmxqS",
+        "type": "item",
+        "label": "Album Musica N. 31",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p9.gif"
+        }
+      },
+      {
+        "id": "628wS73C",
+        "type": "item",
+        "label": "Mes Adieux, Mache Militaire",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p14.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Eva9vAVJ",
+        "type": "item",
+        "label": "Rubensmars",
+        "description": ""
+      },
+      {
+        "id": "dH9fiTQM",
+        "type": "item",
+        "label": "Morceau de concert, Op.14",
+        "description": ""
+      },
+      {
+        "id": "JFqr2kAi",
+        "type": "item",
+        "label": "2 Morceaux, Op.38",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hDjDJrVY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hDjDJrVY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hDjDJrVY.csv"
+      }
+    ]
+  }
 }

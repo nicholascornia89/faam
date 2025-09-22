@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q131080",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Holy Week"
       }
     ],
     "aliases": [
@@ -51,6 +52,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "RFmUxJ4H",
+        "type": "item",
+        "label": "Incipit lamentatio, IGA 1",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7qeVhem6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7qeVhem6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7qeVhem6.csv"
+      }
+    ]
+  }
 }

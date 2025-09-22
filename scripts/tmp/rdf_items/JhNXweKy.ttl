@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JhNXweKy a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:X8LwLGC9 ;
+    schema1:birthDate "1939-09-10"^^xsd:string ;
+    schema1:birthPlace faamentity:QCaqDkhb ;
+    schema1:deathDate "2017-05-28"^^xsd:string ;
+    schema1:deathPlace faamentity:MGhHm55B ;
+    schema1:description "Polish harpsichordist (1939–2017)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2574241>,
+        "15996160"^^xsd:string,
+        "JhNXweKy"^^xsd:string ;
+    schema1:nationality faamentity:JRTTuQvY ;
+    skos:altLabel "Elisabeth Chojnacka"^^xsd:string,
+        "Elżbieta Chojnacka"^^xsd:string ;
+    skos:prefLabel "Elisabeth Chojnacka"^^xsd:string ;
+    wd:P108 faamentity:7n8LGkCJ ;
+    wd:P1303 faamentity:YmTjo9Ww ;
+    wd:P21 faamentity:ge9ACHGn ;
+    wd:P214 viaf:51874740 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:mmUZBCaV ;
+    schema:hasOccupation faamentity:LcwfzPiG .
+

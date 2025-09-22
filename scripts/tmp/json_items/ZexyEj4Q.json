@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -73,64 +75,77 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "K9MgTT3J"
+        "value": "K9MgTT3J",
+        "label": "cut"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "SCgZ76Ps"
+        "value": "SCgZ76Ps",
+        "label": "time signature"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "4PAdXGNC"
+        "value": "4PAdXGNC",
+        "label": "alternative melody"
       },
       {
         "type": "item",
-        "value": "8Ki8U5U4"
+        "value": "8Ki8U5U4",
+        "label": "underline"
       },
       {
         "type": "item",
-        "value": "B7WuhvkL"
+        "value": "B7WuhvkL",
+        "label": "fermata"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       },
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "ENaXRgqk"
+        "value": "ENaXRgqk",
+        "label": "La Juive"
       }
     ],
     "agent": [
@@ -141,7 +156,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -153,7 +169,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Fromental Halévy"
       },
       {
         "type": "statement",
@@ -162,19 +179,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Henry Lemoine"
       },
       {
         "type": "statement",
@@ -183,19 +203,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "9k2MygHr"
+            "value": "9k2MygHr",
+            "label": "City of Brussels"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Henry Lemoine"
       },
       {
         "type": "statement",
@@ -204,7 +227,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -216,35 +240,42 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       },
       {
         "type": "item",
-        "value": "9k2MygHr"
+        "value": "9k2MygHr",
+        "label": "City of Brussels"
       }
     ]
   },
@@ -261,6 +292,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030903467311/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZexyEj4Q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZexyEj4Q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZexyEj4Q.csv"
       }
     ]
   }

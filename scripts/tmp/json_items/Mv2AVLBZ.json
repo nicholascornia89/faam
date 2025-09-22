@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q287208",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wie schön leuchtet der Morgenstern"
       }
     ]
   },
@@ -57,6 +58,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "XhupmYqT",
+        "type": "item",
+        "label": "Wie schön leuchtet der Morgenstern, BWV 1",
+        "description": "church cantata by Johann Sebastian Bach"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Mv2AVLBZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Mv2AVLBZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Mv2AVLBZ.csv"
+      }
+    ]
+  }
 }

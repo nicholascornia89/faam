@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q5489",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Troyes"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2971549"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "fJvgJxTY",
+        "type": "item",
+        "label": "Theobald I of Navarre",
+        "description": "King of Navarre from 1234 to 1253",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thibault_IV_Comte_de_Champagne.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VHsmB8bn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VHsmB8bn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VHsmB8bn.csv"
+      }
+    ]
+  }
 }

@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,66 +74,80 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "byLEfakR"
+        "value": "byLEfakR",
+        "label": "marcato"
       },
       {
         "type": "item",
-        "value": "27q2kct9"
+        "value": "27q2kct9",
+        "label": "leggiero"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "9dz9ydpz"
+        "value": "9dz9ydpz",
+        "label": "legato"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "65rhe5Po"
+        "value": "65rhe5Po",
+        "label": "concerto"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       },
       {
         "type": "item",
-        "value": "A865BeAb"
+        "value": "A865BeAb",
+        "label": "capriccio"
       }
     ],
     "instrumentation": [],
@@ -144,7 +160,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -156,7 +173,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -165,19 +183,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Chs. De Vylder"
       },
       {
         "type": "statement",
@@ -186,7 +207,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -198,27 +220,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Georges Haakman"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -235,6 +262,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902505335/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Q9imb3ax.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Q9imb3ax.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Q9imb3ax.csv"
       }
     ]
   }

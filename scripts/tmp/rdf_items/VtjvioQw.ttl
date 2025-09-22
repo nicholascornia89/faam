@@ -1,0 +1,76 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VtjvioQw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:NsEoE4RP,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:5fpte3tE,
+        faamentity:9dz9ydpz,
+        faamentity:SnxsnGvi,
+        faamentity:WtvibJFF,
+        faamentity:aCRY7SgN ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """[h=1]4me Suite[/h]
+<ol>
+<li> Ballade </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:2HBuTSVV,
+        faamentity:jvhZafsd ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:BkX9pctu,
+        faamentity:gsuieG5Z ;
+    schema1:hasPart faamentity:JpQ4iY5H ;
+    schema1:identifier "15992368"^^xsd:string,
+        "KCA-030902565479"^^xsd:string,
+        "VtjvioQw"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12916996/N"^^schema1:url ;
+    skos:prefLabel "4e Suite"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-conte4-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"VtjvioQw-6878a871-9273-424f-be80-6be2c35e5fea"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"VtjvioQw-73117f3f-1e53-44a0-8972-1ce302c59d6f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"VtjvioQw-90753c84-6bd2-4526-b9b3-bc883df24993"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"VtjvioQw-c4839c9c-0662-4a8b-9d8b-6189d39b7650"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:gsuieG5Z a rdf:object .
+

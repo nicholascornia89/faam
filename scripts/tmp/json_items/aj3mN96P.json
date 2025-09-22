@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1763605",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Provisional Theatre"
       }
     ],
     "aliases": []
@@ -57,6 +58,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QxJM2hye",
+        "type": "item",
+        "label": "Antonín Dvořák",
+        "description": "Czech composer (1841–1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dvorak.jpg"
+        }
+      },
+      {
+        "id": "XBN6osjn",
+        "type": "item",
+        "label": "Bedřich Smetana",
+        "description": "Czech composer (1824–1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FriedrichSmetana.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aj3mN96P.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aj3mN96P.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aj3mN96P.csv"
+      }
+    ]
+  }
 }

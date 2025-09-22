@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9cYDWKTP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1571-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1643-05-17"^^xsd:string ;
+    schema1:deathPlace faamentity:MDWRhZ8K ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1388720>,
+        "15995826"^^xsd:string,
+        "9cYDWKTP"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:altLabel "Giovanni Matteo Picchi"^^xsd:string,
+        "Giovanni Picchi"^^xsd:string ;
+    skos:prefLabel "Giovanni Picchi"^^xsd:string ;
+    wd:P1303 faamentity:YmTjo9Ww ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:29719043 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30011516> ;
+    wd:P839 <https://imslp.org/wiki/Category:Picchi,_Giovanni> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:PGamAZRD,
+        faamentity:QAgfD3Wn .
+

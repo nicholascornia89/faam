@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q87",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alexandria"
       }
     ],
     "aliases": [
@@ -74,8 +75,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "361058"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q79",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Egypt"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YHNPY8uA",
+        "type": "item",
+        "label": "Vittorio Rieti",
+        "description": "Italian composer (1898–1994)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "b5j6RN8p.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "b5j6RN8p.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "b5j6RN8p.csv"
+      }
+    ]
+  }
 }

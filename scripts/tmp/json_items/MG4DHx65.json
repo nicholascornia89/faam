@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2250960",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "method"
       }
     ],
     "aliases": [
@@ -63,6 +64,65 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "asHocX25",
+        "type": "item",
+        "label": "Méthode de violon divisée en 3 parties, op. 102",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-428466571.gif"
+        }
+      },
+      {
+        "id": "Em8n5oka",
+        "type": "item",
+        "label": "Vollständige theoretisch-practische Pianoforte-Schule op. 500. Von dem ersten Anfange bis zur höchsten Ausbildung fortschreitend",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20137318.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "4NCyWQMW",
+        "type": "item",
+        "label": "Pianoforte-Schule, Op.500",
+        "description": ""
+      },
+      {
+        "id": "Pkef3RPz",
+        "type": "item",
+        "label": "Violin Concerto in D major, Op. 61",
+        "description": "concerto composed by Beethoven in 1806"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MG4DHx65.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MG4DHx65.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MG4DHx65.csv"
+      }
+    ]
+  }
 }

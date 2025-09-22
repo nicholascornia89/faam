@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EcqLntZR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:DqMNcjpW,
+        faamentity:Rg6UtZ34,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:WtvibJFF,
+        faamentity:YCgBhPNn,
+        faamentity:YRq3pSH7,
+        faamentity:e9t5BdLA,
+        faamentity:euCa8A2S ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:KvY9ZvU4,
+        faamentity:MaWnCnVw,
+        faamentity:NjSVdz7G ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2gZUnjff,
+        faamentity:7MVtJkCQ ;
+    schema1:hasPart faamentity:jQQxuLxA ;
+    schema1:identifier "15992660"^^xsd:string,
+        "EcqLntZR"^^xsd:string,
+        "KCG-000735234"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000735234"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62"^^xsd:string ;
+    skosref:note "Dedicated to Charles Möser."^^rdf:HTML ;
+    wd:P217 "DS-1048"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"EcqLntZR-0dc4fbea-9f87-4f2d-84b1-1f7e6a41dc54"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"EcqLntZR-1c58bd27-f7a7-4b89-9b73-e3dedd268ffb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:2gZUnjff a rdf:object .
+
+faamentity:7MVtJkCQ a rdf:object .
+

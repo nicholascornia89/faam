@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PEXAkqP3 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1801-09-12"^^xsd:string ;
+    schema1:birthPlace faamentity:fJHycLeJ ;
+    schema1:deathDate "1861-06-06"^^xsd:string ;
+    schema1:deathPlace faamentity:fJHycLeJ ;
+    schema1:description "Italian composer and music educator (1801-1861)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q709173>,
+        "15995635"^^xsd:string,
+        "PEXAkqP3"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "Giuseppe Concone"^^xsd:string,
+        "Paolo Giuseppe Gioacchino Concone"^^xsd:string ;
+    skos:prefLabel "Giuseppe Concone"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:169356068 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Concone,_Giuseppe> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:Wm5MWZbA .
+

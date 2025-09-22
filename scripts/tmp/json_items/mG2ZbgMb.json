@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,73 +80,88 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "8Ki8U5U4"
+        "value": "8Ki8U5U4",
+        "label": "underline"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "WMmcDubA"
+        "value": "WMmcDubA",
+        "label": "La Mascotte : opéra-comique en 3 actes"
       },
       {
         "type": "item",
-        "value": "aDHubnxW"
+        "value": "aDHubnxW",
+        "label": "La Mascotte : opéra-comique en 3 actes"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "nXoxoAuY"
+        "value": "nXoxoAuY",
+        "label": "operetta"
       },
       {
         "type": "item",
-        "value": "esaMkm2v"
+        "value": "esaMkm2v",
+        "label": "opéra comique"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       },
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "i3xfEHDr"
+        "value": "i3xfEHDr",
+        "label": "La mascotte"
       }
     ],
     "agent": [
@@ -155,7 +172,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -167,7 +185,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Edmond Audran"
       },
       {
         "type": "statement",
@@ -176,19 +195,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Montgredien et Cie"
       },
       {
         "type": "statement",
@@ -197,7 +219,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -209,27 +232,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -246,6 +274,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030901706736/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mG2ZbgMb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mG2ZbgMb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mG2ZbgMb.csv"
       }
     ]
   }

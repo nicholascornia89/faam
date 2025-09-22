@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EPFg9kEt a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "liberal arts and sciences college located in Oakland, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q638859>,
+        "15991079"^^xsd:string,
+        "EPFg9kEt"^^xsd:string ;
+    schema1:location faamentity:5st32aRw,
+        faamentity:LbfJnd9y ;
+    skos:altLabel "Mills College"^^xsd:string,
+        "Mills College at Northeastern University"^^xsd:string,
+        "Northeastern University Oakland"^^xsd:string ;
+    skos:prefLabel "Mills College at Northeastern"^^xsd:string,
+        "Mills College at Northeastern University"^^xsd:string .
+

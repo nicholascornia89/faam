@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q16",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Canada"
       }
     ],
     "aliases": [
@@ -53,6 +54,55 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "it8ZcKnu",
+        "type": "item",
+        "label": "Omer Létourneau",
+        "description": "Canadian musician (1891-1983)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Omer_Létourneau.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "3M3RTF8D",
+        "type": "item",
+        "label": "Toronto",
+        "description": "capital and largest city of the province of Ontario, Canada"
+      },
+      {
+        "id": "gkzin6tT",
+        "type": "item",
+        "label": "Quebec City",
+        "description": "capital city of the province of Quebec, Canada"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6ipjmaTm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6ipjmaTm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6ipjmaTm.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q134550",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "transliteration"
       }
     ],
     "aliases": [
@@ -79,6 +80,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Bcw2utug",
+        "type": "item",
+        "label": "Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902642138.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5cGY6iAh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5cGY6iAh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5cGY6iAh.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ph7erFA4 a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "Wikidata metaclass"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110452794>,
+        "15998736"^^xsd:string,
+        "Ph7erFA4"^^xsd:string ;
+    skos:altLabel "album format"^^xsd:string,
+        "album type"^^xsd:string,
+        "artistic form"^^xsd:string,
+        "creative form"^^xsd:string,
+        "creative format"^^xsd:string,
+        "form of creative work"^^xsd:string,
+        "format of creative work"^^xsd:string,
+        "literary form"^^xsd:string,
+        "painted format (landscape, portrait, tondo)"^^xsd:string,
+        "physical format"^^xsd:string ;
+    skos:prefLabel "form of creative work"^^xsd:string .
+

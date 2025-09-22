@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q30974",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rouen"
       }
     ],
     "aliases": [
@@ -58,8 +59,110 @@
         "base_url": "https://www.geonames.org/",
         "label": "2982652"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NQFNyep8",
+        "type": "item",
+        "label": "Eugène Ketterer",
+        "description": "French composer and pianist (1831-1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Ketterer_1864.jpg"
+        }
+      },
+      {
+        "id": "he9gB9A7",
+        "type": "item",
+        "label": "Marcel Dupré",
+        "description": "French organist and composer (1886–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupre.jpg"
+        }
+      },
+      {
+        "id": "WnfHS9Lr",
+        "type": "item",
+        "label": "François Adrien Boieldieu",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Léon_Riesener_-_Portrait_de_François-Adrien_Boieldieu.jpg"
+        }
+      },
+      {
+        "id": "SE3Z4qym",
+        "type": "item",
+        "label": "Charles Lenepveu",
+        "description": "French composer (1840–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Lenepveu.jpg"
+        }
+      },
+      {
+        "id": "UoWcqY4w",
+        "type": "item",
+        "label": "Charles Broche",
+        "description": "French composer (1752-1803)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "CharlesBroche.jpg"
+        }
+      },
+      {
+        "id": "2ScauwuK",
+        "type": "item",
+        "label": "Amédée Méreaux",
+        "description": "French musicologist, pianist, and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Amédée_Méreaux_1.jpg"
+        }
+      },
+      {
+        "id": "UoWcqY4w",
+        "type": "item",
+        "label": "Charles Broche",
+        "description": "French composer (1752-1803)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "CharlesBroche.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7vRaX8eL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7vRaX8eL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7vRaX8eL.csv"
+      }
+    ]
+  }
 }

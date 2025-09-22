@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hDnxTWiE a rdfs:Resource ;
+    faamprop:related_to faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3wN8PmuS ;
+    schema1:birthDate "1839-07-17"^^xsd:string ;
+    schema1:birthPlace faamentity:Qa2xQbUi ;
+    schema1:deathDate "1916-09-10"^^xsd:string ;
+    schema1:deathPlace faamentity:Km6ATdgQ ;
+    schema1:description "German composer, conductor, pianist and teacher (1839–1916)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q213751>,
+        "16002564"^^xsd:string,
+        "hDnxTWiE"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Frederick Gernsheim"^^xsd:string,
+        "Friedrich Gernsheim"^^xsd:string ;
+    skos:prefLabel "Friedrich Gernsheim"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:69130836 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/59512> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gernsheim,_Friedrich> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf .
+

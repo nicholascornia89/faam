@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4mYssfUB a rdfs:Resource ;
+    faamprop:related_to faamentity:A85JP7AT ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:HJ8vtiNm ;
+    schema1:birthDate "1839-03-17"^^xsd:string ;
+    schema1:birthPlace faamentity:3NGTY3YK ;
+    schema1:deathDate "1901-11-25"^^xsd:string ;
+    schema1:deathPlace faamentity:M2keqc3n ;
+    schema1:description "Liechtensteiner organist and composer (1839-1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q365555>,
+        "16004147"^^xsd:string,
+        "4mYssfUB"^^xsd:string ;
+    schema1:nationality faamentity:LzSwGMNj,
+        faamentity:kyFWDzyM ;
+    skos:altLabel "Josef Gabriel Rheinberger"^^xsd:string,
+        "Josef Rheinberger"^^xsd:string,
+        "Joseph Gabriel Rheinberger"^^xsd:string,
+        "Joseph Rheinberger"^^xsd:string ;
+    skos:prefLabel "Josef Rheinberger"^^xsd:string ;
+    wd:P108 faamentity:HJ8vtiNm ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:197428 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/50377> ;
+    wd:P737 faamentity:NDwTXxR8,
+        faamentity:b7tJgoTE ;
+    wd:P839 <https://imslp.org/wiki/Category:Rheinberger,_Josef_Gabriel> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

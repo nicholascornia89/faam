@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GTTB7Xre a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Eastman School of Music, University of Rochester"^^xsd:string ;
+    schema1:description "American music library of the Eastman School of Music, Rochester, NY"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7507201>,
+        "16004996"^^xsd:string,
+        "GTTB7Xre"^^xsd:string ;
+    schema1:location faamentity:Kc2G7PtW,
+        faamentity:LbfJnd9y ;
+    schema1:url "https://www.esm.rochester.edu/sibley/"^^schema1:url ;
+    skos:altLabel "Sibley Music Library"^^xsd:string ;
+    skos:prefLabel "Sibley Music Library"^^xsd:string ;
+    wd:P1813 "SML"^^xsd:string .
+

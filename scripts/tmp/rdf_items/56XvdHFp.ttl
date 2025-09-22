@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:56XvdHFp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:J6ERsasy,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:3WB3MVBB,
+        faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:JnGFsz6r,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:WtvibJFF,
+        faamentity:YWfofDz3,
+        faamentity:eHYWo9ba ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:CmqENXaQ,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:82EyBJXP,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:LUXqqC2Y ;
+    schema1:identifier "16002621"^^xsd:string,
+        "56XvdHFp"^^xsd:string,
+        "KCA-030901832342"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6729143/N"^^schema1:url ;
+    skos:prefLabel "25 études, op. 100"^^xsd:string ;
+    wd:P217 "MM-TPO-BURGM-stud100-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"56XvdHFp-3b6d4518-8cb4-48a7-8ff8-19477df3f8b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"56XvdHFp-70151730-c08d-4b84-aa9b-a8cb45d632e2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"56XvdHFp-b1e0e100-584d-4964-831d-3c316c285c46"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:82EyBJXP a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

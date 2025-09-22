@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nKuC93Hs a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1649-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:fZUC7W4e ;
+    schema1:deathDate "1732-03-09"^^xsd:string ;
+    schema1:deathPlace faamentity:M2keqc3n ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q832353>,
+        "16005084"^^xsd:string,
+        "nKuC93Hs"^^xsd:string ;
+    skos:altLabel "Giuseppe Antonio Bernabei"^^xsd:string ;
+    skos:prefLabel "Giuseppe Antonio Bernabei"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:89179154 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30004603> ;
+    wd:P839 <https://imslp.org/wiki/Category:Bernabei,_Giuseppe_Antonio> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q123281721",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Collège des Godrans"
       }
     ],
     "aliases": [
@@ -66,6 +67,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NTqtYmnQ",
+        "type": "item",
+        "label": "Jean-Philippe Rameau",
+        "description": "French composer and music theorist (1683–1764)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Attribué_à_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bzrjNP8o.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bzrjNP8o.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bzrjNP8o.csv"
+      }
+    ]
+  }
 }

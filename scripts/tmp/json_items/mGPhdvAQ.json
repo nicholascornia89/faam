@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1053313",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jerusalem Delivered"
       }
     ]
   },
@@ -76,6 +77,43 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "JW4ookdN",
+        "type": "item",
+        "label": "Rinaldo",
+        "description": "opera by George Frideric Handel"
+      },
+      {
+        "id": "ZVMhtF7s",
+        "type": "item",
+        "label": "Armida",
+        "description": "opera by Gioacchino Rossini"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mGPhdvAQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mGPhdvAQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mGPhdvAQ.csv"
+      }
+    ]
+  }
 }

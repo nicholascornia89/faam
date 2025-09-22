@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1706833",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph Daussoigne-Méhul"
       }
     ]
   },
@@ -171,7 +172,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eShK9Xad",
+        "type": "item",
+        "label": "César Franck",
+        "description": "Belgian-French composer and organist (1822–1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "César_Franck_by_Pierre_Petit.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -183,6 +197,27 @@
         "type": "image",
         "value": "Joseph_Daussoigne-Mehul.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iNbTsAKd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iNbTsAKd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iNbTsAKd.csv"
       }
     ]
   }

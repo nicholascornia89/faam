@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q18931911",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "theorist"
       }
     ],
     "aliases": [
@@ -55,6 +56,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NTqtYmnQ",
+        "type": "item",
+        "label": "Jean-Philippe Rameau",
+        "description": "French composer and music theorist (1683–1764)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Attribué_à_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg"
+        }
+      },
+      {
+        "id": "Jhb5rrXW",
+        "type": "item",
+        "label": "François-Auguste Gevaert",
+        "description": "Belgian composer (1828–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg"
+        }
+      },
+      {
+        "id": "SE3Z4qym",
+        "type": "item",
+        "label": "Charles Lenepveu",
+        "description": "French composer (1840–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Lenepveu.jpg"
+        }
+      },
+      {
+        "id": "VgVrgSE7",
+        "type": "item",
+        "label": "Pietro Ray",
+        "description": "Italian composer and music teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "T6WHrEiP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "T6WHrEiP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "T6WHrEiP.csv"
+      }
+    ]
+  }
 }

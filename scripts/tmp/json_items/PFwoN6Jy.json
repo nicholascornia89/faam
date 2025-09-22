@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1341516",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Westminster School"
       }
     ],
     "aliases": []
@@ -57,6 +58,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RBBCPiXz",
+        "type": "item",
+        "label": "Henry Purcell",
+        "description": "English composer (1659–1695)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henry_Purcell_by_John_Closterman.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PFwoN6Jy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PFwoN6Jy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PFwoN6Jy.csv"
+      }
+    ]
+  }
 }

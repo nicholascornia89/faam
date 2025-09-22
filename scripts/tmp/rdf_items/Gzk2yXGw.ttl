@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gzk2yXGw a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1647-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:bsTArmEN ;
+    schema1:deathDate "1674-07-14"^^xsd:string ;
+    schema1:deathPlace faamentity:77aNUeoc ;
+    schema1:description "English composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q941345>,
+        "0"^^xsd:string,
+        "Gzk2yXGw"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV ;
+    skos:prefLabel "Pelham Humfrey"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39562082 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30004142> ;
+    wd:P737 faamentity:2Myfzcub ;
+    wd:P839 <https://imslp.org/wiki/Category:Humfrey,_Pelham> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

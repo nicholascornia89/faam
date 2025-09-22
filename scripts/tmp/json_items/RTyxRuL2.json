@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3166112",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Henri Levasseur"
       }
     ]
   },
@@ -151,13 +152,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Q7fj8f5L",
+        "type": "item",
+        "label": "Auguste Franchomme",
+        "description": "French musician (1808-1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Auguste_Franchomme.png"
+        }
+      },
+      {
+        "id": "bxFAwdyH",
+        "type": "item",
+        "label": "Auguste Panseron",
+        "description": "French composer (1795–1859)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Auguste_Mathieu_Panseron.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RTyxRuL2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RTyxRuL2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RTyxRuL2.csv"
       }
     ]
   }

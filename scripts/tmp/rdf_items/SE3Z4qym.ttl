@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SE3Z4qym a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE,
+        faamentity:n4i8wujm ;
+    schema1:birthDate "1840-10-04"^^xsd:string ;
+    schema1:birthPlace faamentity:7vRaX8eL ;
+    schema1:deathDate "1910-08-16"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer (1840–1910)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q371459>,
+        "0"^^xsd:string,
+        "SE3Z4qym"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Charles Lenepveu"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:76583370 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:GJgQ5fuw,
+        faamentity:Hk3mGA9F,
+        faamentity:aMECmgpH ;
+    wd:P839 <https://imslp.org/wiki/Category:Lenepveu,_Charles-Ferdinand> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:T6WHrEiP,
+        faamentity:ZX7Jzf9y .
+

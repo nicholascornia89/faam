@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q209842",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Paris"
       }
     ],
     "aliases": [
@@ -64,6 +65,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hhpbeMET",
+        "type": "item",
+        "label": "Giordano Bruno",
+        "description": "Italian Dominican friar, philosopher and mathematician (1548–1600)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giordano_Bruno.jpg"
+        }
+      },
+      {
+        "id": "k3xPQTae",
+        "type": "item",
+        "label": "Armand Machabey",
+        "description": "French musicologist (1886-1966)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9fLT3Ekd",
+        "type": "item",
+        "label": "George Buchanan",
+        "description": "Scottish historian and humanist scholar; (1506-1582)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anonymous_-_George_Buchanan_(Seòras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7adw8gT6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7adw8gT6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7adw8gT6.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MUS2QF6F a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Roman Catholic seminary in Rome, Italy (1552-)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q868294>,
+        "0"^^xsd:string,
+        "MUS2QF6F"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv ;
+    skos:prefLabel "Collegium Germanicum et Hungaricum"^^xsd:string .
+

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q482177",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Amédée Gastoué"
       }
     ]
   },
@@ -202,13 +203,59 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "hFSRR6it",
+        "type": "item",
+        "label": "Traité d'Harmonisation du Chant Gregorien",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KGR9426.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "it8ZcKnu",
+        "type": "item",
+        "label": "Omer Létourneau",
+        "description": "Canadian musician (1891-1983)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Omer_Létourneau.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "d97ewwH5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "d97ewwH5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "d97ewwH5.csv"
       }
     ]
   }

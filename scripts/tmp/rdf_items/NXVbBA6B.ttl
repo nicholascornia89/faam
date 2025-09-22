@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NXVbBA6B a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Naples"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q691851>,
+        "16004763"^^xsd:string,
+        "NXVbBA6B"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv,
+        faamentity:RjXv6xhJ ;
+    skos:altLabel "Federico II"^^xsd:string,
+        "Naples University"^^xsd:string,
+        "UNINA"^^xsd:string,
+        "Universita degli Studi di Napoli Federico II"^^xsd:string,
+        "University of Naples Federico II"^^xsd:string,
+        "Università degli Studi di Napoli Federico II"^^xsd:string,
+        "Università di Napoli Federico II"^^xsd:string ;
+    skos:prefLabel "University of Naples Federico II"^^xsd:string .
+

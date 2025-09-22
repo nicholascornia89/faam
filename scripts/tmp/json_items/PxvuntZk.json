@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q204503",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pablo de Sarasate"
       }
     ]
   },
@@ -182,13 +183,65 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Y3R6frVx",
+        "type": "item",
+        "label": "Sérénade andalouse: pour violon et piano, op. 28",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901351285.gif"
+        }
+      },
+      {
+        "id": "iWFrgNYy",
+        "type": "item",
+        "label": "Sérénade andalouse: pour violon et piano, op. 28",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901292380.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bn54YNH4",
+        "type": "item",
+        "label": "Serenata andaluza, Op.28",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Pablo_de_Sarasate_1906.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PxvuntZk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PxvuntZk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PxvuntZk.csv"
       }
     ]
   }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1349517",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Adam"
       }
     ]
   },
@@ -155,13 +156,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AWqDraUS",
+        "type": "item",
+        "label": "François Benoist",
+        "description": "French musician (1794–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francois_Benoist.gif"
+        }
+      },
+      {
+        "id": "RocjqkVV",
+        "type": "item",
+        "label": "Friedrich Kalkbrenner",
+        "description": "German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Kalkbrenner_1829.jpg"
+        }
+      },
+      {
+        "id": "iNbTsAKd",
+        "type": "item",
+        "label": "Joseph Daussoigne-Méhul",
+        "description": "French composer (1790-1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Daussoigne-Mehul,_PA00732.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Louis_Adam.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DrKGPaTi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DrKGPaTi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DrKGPaTi.csv"
       }
     ]
   }

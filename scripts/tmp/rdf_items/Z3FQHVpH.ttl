@@ -1,0 +1,79 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z3FQHVpH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:Di2mC26w,
+        faamentity:NFazQXR2,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:YRq3pSH7,
+        faamentity:bZxRjBKt,
+        faamentity:byLEfakR,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:4PAdXGNC,
+        faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:VMA2AmEN,
+        faamentity:gnFRixHz,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:G5pwZLWh,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CT372LTH,
+        faamentity:JEZ5AweR,
+        faamentity:M3sjJXNR,
+        faamentity:ewwggKDh ;
+    schema1:hasPart faamentity:aqQnqnyG ;
+    schema1:identifier "15992690"^^xsd:string,
+        "KCA-030904692388"^^xsd:string,
+        "Z3FQHVpH"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs,
+        faamentity:nkxLRFG5 ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15384261/N"^^schema1:url ;
+    skos:prefLabel "Ungarische Rhapsodie no. 12 : Klavier"^^xsd:string ;
+    wd:P217 "MM-TP-LISZT-rapso12-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"Z3FQHVpH-96538e5f-c11b-4a10-9abd-d24d294be314"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"Z3FQHVpH-97ef38bb-aa60-473e-a772-8af0c9adc69e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"Z3FQHVpH-d63f683b-55a2-4e74-a8b6-c0a5ccdf20c4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Z3FQHVpH-ea9c755f-f020-495a-a736-750646297f54"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:M3sjJXNR a rdf:object .
+
+faamentity:ewwggKDh a rdf:object .
+

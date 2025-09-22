@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i9Tuc2T6 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "actor who appears in films"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q10800557>,
+        "15990938"^^xsd:string,
+        "i9Tuc2T6"^^xsd:string ;
+    skos:altLabel "film actor"^^xsd:string,
+        "film actress"^^xsd:string,
+        "movie actor"^^xsd:string,
+        "movie actress"^^xsd:string ;
+    skos:prefLabel "film actor"^^xsd:string,
+        "stage actor"^^xsd:string .
+

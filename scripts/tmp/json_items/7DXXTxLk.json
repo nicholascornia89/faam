@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q502581",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Knox County"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "4968996"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RytSv7rR",
+        "type": "item",
+        "label": "Walter Piston",
+        "description": "American composer (1894–1976)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7DXXTxLk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7DXXTxLk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7DXXTxLk.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:T5A6HKea a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt,
+        faamentity:d2uUDsVY ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:MaWnCnVw,
+        faamentity:ZebrbN4o,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DM6G4TJ3,
+        faamentity:UgZy7qja,
+        faamentity:nDdUxPEa ;
+    schema1:hasPart faamentity:cfLuZKT4 ;
+    schema1:identifier "15992731"^^xsd:string,
+        "KCG-000750004"^^xsd:string,
+        "T5A6HKea"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000750004"^^schema1:url ;
+    skos:prefLabel "Rondo du Hussard de Felsheim : Varié pour le Cor avec accompagnement de Piano"^^xsd:string ;
+    wd:P217 "V-B-00439 (9)-HA"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:N3AKKugd .
+
+schema1:contributor a rdf:predicate .
+
+"T5A6HKea-271b9ab0-9f36-4534-8dd6-ccedd5df21d3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"T5A6HKea-9ffb6f37-6748-415b-bcd5-642d884e65c8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"T5A6HKea-f983e218-6aea-4910-949d-3bc59b3fb64e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:DM6G4TJ3 a rdf:object .
+
+faamentity:UgZy7qja a rdf:object .
+
+faamentity:nDdUxPEa a rdf:object .
+

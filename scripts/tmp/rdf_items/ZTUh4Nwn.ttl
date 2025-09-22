@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZTUh4Nwn a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "college in the United States known for its liberal and arts education"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q880447>,
+        "15991080"^^xsd:string,
+        "ZTUh4Nwn"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y,
+        faamentity:SfG5iH7i ;
+    skos:altLabel "BMC"^^xsd:string,
+        "Black Mountain College"^^xsd:string,
+        "Black Mountain College Historic District"^^xsd:string ;
+    skos:prefLabel "Black Mountain College"^^xsd:string .
+

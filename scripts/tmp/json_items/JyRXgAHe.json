@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q207390",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Amilcare Ponchielli"
       }
     ]
   },
@@ -186,13 +187,77 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FMuTxqpg",
+        "type": "item",
+        "label": "Pietro Mascagni",
+        "description": "Italian composer known for operas (1863–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pietro_Mascagni_2.jpg"
+        }
+      },
+      {
+        "id": "JdYVjNkJ",
+        "type": "item",
+        "label": "Giacomo Puccini",
+        "description": "Italian opera composer (1858–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoPuccini.jpg"
+        }
+      },
+      {
+        "id": "HubBo3eQ",
+        "type": "item",
+        "label": "Giovanni Tebaldini",
+        "description": "Italian composer (1864–1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Tebaldini.jpg"
+        }
+      },
+      {
+        "id": "B5JiJ5cV",
+        "type": "item",
+        "label": "Marco Enrico Bossi",
+        "description": "Italian organist, composer, improviser and pedagogue. (1861–1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marco_Enrico_Bossi,_1905.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Amilcare_Ponchielli_(before_1886)_-_Archivio_Storico_Ricordi_FOTO000794_-_Restoration.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JyRXgAHe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JyRXgAHe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JyRXgAHe.csv"
       }
     ]
   }

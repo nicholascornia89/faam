@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q124310282",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Missa pro defunctis"
       }
     ]
   },
@@ -122,6 +123,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "k7Ank5K2",
+        "type": "item",
+        "label": "Palestrina's Messe für die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erklärenden Einl. vers.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078131189707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4ezAJSG4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4ezAJSG4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4ezAJSG4.csv"
+      }
+    ]
+  }
 }

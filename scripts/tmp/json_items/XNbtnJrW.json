@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q19659292",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "musical instrument part"
       }
     ],
     "aliases": [
@@ -59,6 +60,73 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Q3ckUqjE",
+        "type": "item",
+        "label": "Maurice Kufferath",
+        "description": "Belgian conductor, musicologist, music critic and librettist (1852-1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maurice_Kufferath.jpg"
+        }
+      }
+    ],
+    "manifestation": [
+      {
+        "id": "Yf5vB2yU",
+        "type": "item",
+        "label": "Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902800223.gif"
+        }
+      }
+    ],
+    "annotation_type": [
+      {
+        "id": "9XeBLVBn",
+        "type": "item",
+        "label": "mute",
+        "description": "device fitted to a musical instrument to alter the sound produced"
+      },
+      {
+        "id": "bmWfNETn",
+        "type": "item",
+        "label": "pedal keyboard",
+        "description": "musical keyboard played with the feet, usually used for low-pitched notes"
+      },
+      {
+        "id": "gyJdd63T",
+        "type": "item",
+        "label": "musical instrument part",
+        "description": "component used in the construction of a musical instrument"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XNbtnJrW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XNbtnJrW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XNbtnJrW.csv"
+      }
+    ]
+  }
 }

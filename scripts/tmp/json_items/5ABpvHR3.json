@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q47465",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Aix-en-Provence"
       }
     ],
     "aliases": [
@@ -66,8 +67,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "6452134"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AAfzVCYS",
+        "type": "item",
+        "label": "André Campra",
+        "description": "French composer and conductor (1660-1744)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg"
+        }
+      },
+      {
+        "id": "922ZsC8W",
+        "type": "item",
+        "label": "Darius Milhaud",
+        "description": "French composer (1892–1974)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Darius_Milhaud_b_Meurisse_1923.jpg"
+        }
+      },
+      {
+        "id": "empRKo39",
+        "type": "item",
+        "label": "Émile Tavan",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5ABpvHR3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5ABpvHR3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5ABpvHR3.csv"
+      }
+    ]
+  }
 }

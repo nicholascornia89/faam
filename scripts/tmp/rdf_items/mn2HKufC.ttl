@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mn2HKufC a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "opera house in Paris, home to the Opéra-Comique company, 3rd theatre building of that name, opened 1898"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q47419907>,
+        "16005761"^^xsd:string,
+        "mn2HKufC"^^xsd:string ;
+    schema1:location faamentity:Eqo9Fq2n,
+        faamentity:GDeKaNeC ;
+    skos:altLabel "Opéra-Comique"^^xsd:string,
+        "Salle Favart"^^xsd:string,
+        "Salle Favart III"^^xsd:string,
+        "Third Salle Favart"^^xsd:string,
+        "Théâtre Favart"^^xsd:string ;
+    skos:prefLabel "Salle Favart"^^xsd:string,
+        "Salle Favart (Théâtre de l'Opéra-Comique)"^^xsd:string .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q202954",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Verviers"
       }
     ],
     "aliases": [
@@ -54,8 +55,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2784822"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4wCbpnXg",
+        "type": "item",
+        "label": "Albert Dupuis",
+        "description": "Belgian composer (1877-1967)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupuis.jpg"
+        }
+      },
+      {
+        "id": "bRQVvHvw",
+        "type": "item",
+        "label": "Henri Vieuxtemps",
+        "description": "Belgian violinist and composer (1820-1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg"
+        }
+      },
+      {
+        "id": "73Yv3tAw",
+        "type": "item",
+        "label": "Joseph Dupont",
+        "description": "Belgian musician (1838-1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Dupont.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "g2yaMxpU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "g2yaMxpU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "g2yaMxpU.csv"
+      }
+    ]
+  }
 }

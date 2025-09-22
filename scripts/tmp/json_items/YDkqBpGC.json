@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,66 +80,80 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "8Ki8U5U4"
+        "value": "8Ki8U5U4",
+        "label": "underline"
       },
       {
         "type": "item",
-        "value": "YWfofDz3"
+        "value": "YWfofDz3",
+        "label": "bounding"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "Wpq9sxzm"
+        "value": "Wpq9sxzm",
+        "label": "solmization"
       },
       {
         "type": "item",
-        "value": "WFgzwULr"
+        "value": "WFgzwULr",
+        "label": "phrase analysis"
       },
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "5fpte3tE"
+        "value": "5fpte3tE",
+        "label": "vertical break"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "CmqENXaQ"
+        "value": "CmqENXaQ",
+        "label": "étude"
       },
       {
         "type": "item",
-        "value": "2FVr93JH"
+        "value": "2FVr93JH",
+        "label": "solo"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -149,7 +165,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -161,7 +178,8 @@
             "property": "date",
             "value": "1961"
           }
-        ]
+        ],
+        "label": "Jean Absil"
       },
       {
         "type": "statement",
@@ -170,7 +188,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -182,17 +201,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": []
@@ -210,6 +232,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902518254/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "YDkqBpGC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "YDkqBpGC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "YDkqBpGC.csv"
       }
     ]
   }

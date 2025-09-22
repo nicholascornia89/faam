@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q2327733",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph Callaerts"
       }
     ]
   },
@@ -158,13 +159,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RQxkwJWv",
+        "type": "item",
+        "label": "Adoration Opus 21",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902687190.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "hgM9wGZk",
+        "type": "item",
+        "label": "Pièces pour orgue, Op.21",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "88YjkHBq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "88YjkHBq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "88YjkHBq.csv"
       }
     ]
   }

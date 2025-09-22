@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XHePfy2r a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Vm3JWtge ;
+    schema1:description "lament composed by Josquin des Prez on the occasion of the death of his predecessor Johannes Ockeghem in February 1497"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1982391>,
+        "16004066"^^xsd:string,
+        "XHePfy2r"^^xsd:string ;
+    skos:altLabel "La Déploration de Johannes Ockeghem"^^xsd:string,
+        "Nymphes des bois"^^xsd:string ;
+    skos:prefLabel "Nymphes des bois"^^xsd:string,
+        "Nymphes des bois / Requiem, NJE 29.18"^^xsd:string ;
+    wd:P214 viaf:177456638 ;
+    wd:P5202 faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:Z5LXHFLR ;
+    wd:P839 <https://imslp.org/wiki/Nymphes_des_bois_/_Requiem,_NJE_29.18_(Josquin_Desprez)> .
+

@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UM3zTzvN a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1841-03-10"^^xsd:string ;
+    schema1:birthPlace faamentity:Beq72mMD ;
+    schema1:deathDate "1924-06-17"^^xsd:string ;
+    schema1:deathPlace faamentity:RCb5UNJq ;
+    schema1:description "Belgian musician and writer on musical topics (1841-1924)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3557082>,
+        "16004254"^^xsd:string,
+        "UM3zTzvN"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Victor-Charles Mahillon"^^xsd:string ;
+    skos:prefLabel "Victor-Charles Mahillon"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:2513205 ;
+    wd:P31 faamentity:2fXfbLCV,
+        faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/275236> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mahillon,_Victor-Charles> ;
+    schema:hasOccupation faamentity:9joWzZuU,
+        faamentity:Gz4CZUCf,
+        faamentity:YYyZX3aY .
+

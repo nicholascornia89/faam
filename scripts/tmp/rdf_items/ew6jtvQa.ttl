@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ew6jtvQa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1708-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:62eKJkdm,
+        faamentity:oAADJcBU ;
+    schema1:deathDate "1782-00-00"^^xsd:string ;
+    schema1:deathPlace faamentity:TC6JZ66W ;
+    schema1:description "German organist, musician and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16191592>,
+        "0"^^xsd:string,
+        "ew6jtvQa"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:prefLabel "Gilles van der Eeden"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:90973589 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

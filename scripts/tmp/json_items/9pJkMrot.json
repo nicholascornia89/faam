@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q44573",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Żebbuġ"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "8299763"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kVX9a4Qm",
+        "label": "Malta"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VpGnP2vs",
+        "type": "item",
+        "label": "Nicolas Isouard",
+        "description": "Maltese composer (1773–1818)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicolas_Isouard_par_Ducarme.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9pJkMrot.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9pJkMrot.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9pJkMrot.csv"
+      }
+    ]
+  }
 }

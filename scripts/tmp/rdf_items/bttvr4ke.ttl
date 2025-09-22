@@ -1,0 +1,71 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bttvr4ke a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1890"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:jCuFYGDc ;
+    faamprop:handwritten_annotation faamentity:DS9HvPwY,
+        faamentity:EgH6igGS,
+        faamentity:SnxsnGvi,
+        faamentity:Z8fp8xPh,
+        faamentity:aCRY7SgN,
+        faamentity:bsgSL8K5,
+        faamentity:ch89W2mx,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:5A76cUYt,
+        faamentity:FHTHb7Dq,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:gvB7xdLy ;
+    schema1:identifier "15992315"^^xsd:string,
+        "KCA-030901609500"^^xsd:string,
+        "bttvr4ke"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6785134/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: drame: ouverture"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-1"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"bttvr4ke-38078b80-a8c3-4a3e-8704-0570b32f1e94"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"bttvr4ke-5a350042-58e2-4291-9bc4-714e1790c737"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1890"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"bttvr4ke-c6d7e666-aa2a-424b-9854-7a34d60424cc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

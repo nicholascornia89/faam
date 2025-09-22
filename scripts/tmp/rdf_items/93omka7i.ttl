@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:93omka7i a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Italy, Central Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6761>,
+        "0"^^xsd:string,
+        "93omka7i"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv ;
+    skos:altLabel "Leghorn"^^xsd:string,
+        "Livorno"^^xsd:string,
+        "Livorno, Italy"^^xsd:string ;
+    skos:prefLabel "Livorno"^^xsd:string ;
+    wd:P1566 gn:6540122 .
+

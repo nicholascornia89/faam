@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q4671286",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "academic major"
       }
     ],
     "aliases": [
@@ -91,6 +92,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "eHYWo9ba",
+        "type": "item",
+        "label": "translation",
+        "description": "transfer of the meaning of something in one language into another"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "C3ihsgMy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "C3ihsgMy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "C3ihsgMy.csv"
+      }
+    ]
+  }
 }

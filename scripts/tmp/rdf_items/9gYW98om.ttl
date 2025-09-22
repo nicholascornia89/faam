@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9gYW98om a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1900-11-08"^^xsd:string ;
+    schema1:birthPlace faamentity:8LdweD7c ;
+    schema1:deathDate "1967-03-03"^^xsd:string ;
+    schema1:description "Belgian conductor and musicologist (1900-1967)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3103111>,
+        "15996309"^^xsd:string,
+        "9gYW98om"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Georges Lonque"^^xsd:string ;
+    skos:prefLabel "Georges Lonque"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:74996366 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

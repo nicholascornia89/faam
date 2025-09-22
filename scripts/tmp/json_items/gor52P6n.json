@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2601319",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Theatre Lyrique"
       }
     ],
     "aliases": [
@@ -66,6 +67,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PH2vUbe5",
+        "type": "item",
+        "label": "Léo Delibes",
+        "description": "French composer (1836–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Delibes_Leo_Luckhard.png"
+        }
+      },
+      {
+        "id": "Kqn3tnFM",
+        "type": "item",
+        "label": "Jean Rémusat",
+        "description": "French flautist, composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gor52P6n.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gor52P6n.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gor52P6n.csv"
+      }
+    ]
+  }
 }

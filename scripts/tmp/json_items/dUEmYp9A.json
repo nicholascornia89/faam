@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1060829",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "concert hall"
       }
     ],
     "aliases": [
@@ -64,5 +65,27 @@
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dUEmYp9A.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dUEmYp9A.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dUEmYp9A.csv"
+      }
+    ]
+  }
 }

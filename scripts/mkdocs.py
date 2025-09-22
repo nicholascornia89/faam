@@ -24,7 +24,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["JSON"] = [
 			{
 				"type": "url",
-				"base_url": "../json/",
+				"base_url": "http://nicholascornia89.github.io/faam/json/",
 				"value": item["id"]+".json"
 
 			}
@@ -34,7 +34,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["RDF"] = [
 			{
 				"type": "url",
-				"base_url": "../rdf/",
+				"base_url": "http://nicholascornia89.github.io/faam/rdf/",
 				"value": item["id"]+".ttl"
 			}
 
@@ -44,7 +44,7 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 		item["resources"]["CSV"] = [
 			{
 				"type": "url",
-				"base_url": "../csv/",
+				"base_url": "http://nicholascornia89.github.io/faam/csv/",
 				"value": item["id"]+".csv"
 			}
 
@@ -55,83 +55,86 @@ def generate_resource_items(faam_kb,nodegoat2faam_kb_filename,out_dir):
 
 	return faam_kb
 
-def generate_csv_item(item,nodegoat2faam_kb,file_path,separator): # TO BE TESTED
+def generate_csv_item(item,nodegoat2faam_kb,file_path,separator):
 	# serialize JSON item to CSV
 	csv_dict = []
 	for category in item.keys():
-		if category not in ["id","uuid_num"]:
+		if category in ["metadata","statements"]:
 			for faam_property in item[category].keys():
-				for statement in item[category][faam_property]:
-					try:
-						if statement["type"] in ["string","id","date","html"] :
-							csv_dict.append({
-								"category": category,
-								"faam_property": faam_property,
-								"type": statement["type"],
-								"value": statement["value"]
-								})
-						elif statement["type"] in ["externalid","image"]:
-							try:
-								csv_dict.append({
-									"category": category,
-									"faam_property": faam_property,
-									"type": statement["type"],
-									"value": statement["value"],
-									"base_url": statement["base_url"]
-									})
-							except KeyError:
+				if faam_property not in ["id","uuid_num"]:
+					for statement in item[category][faam_property]:
+						try:
+							if statement["type"] in ["string","id","date","html"] :
 								csv_dict.append({
 									"category": category,
 									"faam_property": faam_property,
 									"type": statement["type"],
 									"value": statement["value"]
 									})
+							elif statement["type"] in ["externalid","image"]:
+								try:
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"],
+										"base_url": statement["base_url"]
+										})
+								except KeyError:
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"]
+										})
 
-						elif statement["type"] == "item":
-							try: 
-								csv_dict.append({
-									"category": category,
-									"faam_property": faam_property,
-									"type": statement["type"],
-									"value": statement["value"],
-									"label": statement["label"]
-									})
-							except KeyError:
-								csv_dict.append({
-									"category": category,
-									"faam_property": faam_property,
-									"type": statement["type"],
-									"value": statement["value"]
-									})
+							elif statement["type"] == "item":
+								try: 
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"],
+										"label": statement["label"]
+										})
+								except KeyError:
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"]
+										})
 
-						elif statement["type"] == "statement":
-							qualifiers = ""
-							for qual in statement["qualifiers"]:
-								qualifiers = qualifiers + qual["value"] + separator
-							# get rid of last separator
-							if len(qualifiers) > 1:
-								qualifiers = qualifiers[:-1]
-							try:
-								csv_dict.append({
-									"category": category,
-									"faam_property": faam_property,
-									"type": statement["type"],
-									"value": statement["value"],
-									"label": statement["label"],
-									"qualifiers": qualifiers
-									})
-							except KeyError:
-								#print(f'Id: {item["id"]} \n statement without label: {statement}')
-								csv_dict.append({
-									"category": category,
-									"faam_property": faam_property,
-									"type": statement["type"],
-									"value": statement["value"],
-									"qualifiers": qualifiers
-									})
+							elif statement["type"] == "statement":
+								qualifiers = ""
+								for qual in statement["qualifiers"]:
+									qualifiers = qualifiers + qual["value"] + separator
+								# get rid of last separator
+								if len(qualifiers) > 1:
+									qualifiers = qualifiers[:-1]
+								try:
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"],
+										"label": statement["label"],
+										"qualifiers": qualifiers
+										})
+								except KeyError:
+									#print(f'Id: {item["id"]} \n statement without label: {statement}')
+									csv_dict.append({
+										"category": category,
+										"faam_property": faam_property,
+										"type": statement["type"],
+										"value": statement["value"],
+										"qualifiers": qualifiers
+										})
 
-					except IndexError: # case of not list keys such as id and uuid_num
-						pass
+						except Exception: # case of not list keys such as id and uuid_num
+							print(f"Problem for item {item["id"]}")
+							input()
+							pass
 
 	# generate CSV file
 	dict2csv(csv_dict,file_path)

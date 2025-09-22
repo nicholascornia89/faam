@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q958774",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Paul Gilson"
       }
     ]
   },
@@ -178,13 +179,87 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "nkMiKVJu",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901436383.gif"
+        }
+      },
+      {
+        "id": "ANJ4ZHsP",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711642.gif"
+        }
+      },
+      {
+        "id": "3fvsLZj8",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711626.gif"
+        }
+      },
+      {
+        "id": "eT53PMhY",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904711634.gif"
+        }
+      },
+      {
+        "id": "CSHh4kmm",
+        "type": "item",
+        "label": "Chanson Persane",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903591359.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Paul_Gilson.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3qSRoQhb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3qSRoQhb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3qSRoQhb.csv"
       }
     ]
   }

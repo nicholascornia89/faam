@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eB5kUpre a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:8Ki8U5U4,
+        faamentity:9dz9ydpz,
+        faamentity:B7WuhvkL,
+        faamentity:HXG9NWiG,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:Wpq9sxzm,
+        faamentity:XutP4SZN,
+        faamentity:YWfofDz3,
+        faamentity:aCRY7SgN,
+        faamentity:d2uUDsVY,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:4Ug7EdNp,
+        faamentity:6kwYh3HH ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:W498m7hT ;
+    schema1:identifier "15992332"^^xsd:string,
+        "KCA-030902813853"^^xsd:string,
+        "eB5kUpre"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14010171/N"^^schema1:url ;
+    skos:prefLabel "Kammersuite : für Streichorchester oder Streichquartett, op. 69"^^xsd:string ;
+    wd:P217 "MM-OS-UNGER-kammers-19"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"eB5kUpre-a766ab8b-22a2-4039-911c-9897a76081e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"eB5kUpre-e740f8ed-7f9f-49dd-a946-5c70afcf2ce2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"eB5kUpre-ed3d4727-bd74-410d-838c-32a6b6cbb268"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:W498m7hT a rdf:object .
+

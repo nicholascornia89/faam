@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q169470",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "physicist"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "KN2VV3At",
+        "type": "item",
+        "label": "Margaret Cavendish, Duchess of Newcastle-upon-Tyne",
+        "description": "English aristocrat, prolific writer, and scientist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Margaret_Cavendish,_Duchess_of_Newcastle,_by_Peter_Lely.jpg"
+        }
+      },
+      {
+        "id": "8m2m6WLH",
+        "type": "item",
+        "label": "Pierre Gassendi",
+        "description": "French philosopher, astronomer, mathematician, priest, and scientist (*1592 – †1655)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "PierreGassendi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "R8oiAZek.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "R8oiAZek.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "R8oiAZek.csv"
+      }
+    ]
+  }
 }

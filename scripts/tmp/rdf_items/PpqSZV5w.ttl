@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PpqSZV5w a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:3Vvybq56,
+        faamentity:FhoqCrfh,
+        faamentity:HXG9NWiG,
+        faamentity:J6ERsasy,
+        faamentity:VMA2AmEN,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:fPsPgkcQ ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:65rhe5Po,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:UXcrTKij ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Key74Nv2,
+        faamentity:M2b4HvjF ;
+    schema1:hasPart faamentity:ZcQNfQpY ;
+    schema1:identifier "15992723"^^xsd:string,
+        "CBM-TORRMsA63"^^xsd:string,
+        "PpqSZV5w"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.63"^^xsd:string ;
+    wd:P870 faamentity:3Sa6bp7X,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"PpqSZV5w-3fbdc986-a9da-441a-9b7a-e7b250c10cf6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"PpqSZV5w-a6b5fe13-2c2b-4763-8b79-a0d4e74d23a8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Key74Nv2 a rdf:object .
+
+faamentity:M2b4HvjF a rdf:object .
+

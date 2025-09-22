@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B8C32cCH a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:X8LwLGC9 ;
+    schema1:birthDate "1810-02-22"^^xsd:string ;
+    schema1:birthPlace faamentity:i4kzcYGQ ;
+    schema1:deathDate "1849-10-17"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "Polish composer and pianist (1810–1849)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1268>,
+        "15995992"^^xsd:string,
+        "B8C32cCH"^^xsd:string ;
+    schema1:nationality faamentity:CMT5inoa,
+        faamentity:Eqo9Fq2n,
+        faamentity:JBHKU6pt,
+        faamentity:JRTTuQvY,
+        faamentity:RZL8TGW9,
+        faamentity:WKTLcAet ;
+    skos:altLabel "Frédéric Chopin"^^xsd:string ;
+    skos:prefLabel "Frédéric Chopin"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71319254 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/51160> ;
+    wd:P737 faamentity:CQyGQhkV,
+        faamentity:YTuNb4Po,
+        faamentity:juzW8HfZ ;
+    wd:P839 <https://imslp.org/wiki/Category:Chopin,_Frédéric> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PUmeYeCQ,
+        faamentity:RBYR5Rtm,
+        faamentity:RHfvaKqY,
+        faamentity:Ygb8LLjd .
+

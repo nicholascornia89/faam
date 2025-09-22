@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hCL8ZYQY a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "type of instrumental composition for symphony orchestra"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3328774>,
+        "15990610"^^xsd:string,
+        "hCL8ZYQY"^^xsd:string ;
+    skos:altLabel "orchestra music"^^xsd:string,
+        "orchestral music"^^xsd:string,
+        "symphonic music"^^xsd:string,
+        "symphony orchestra music"^^xsd:string ;
+    skos:prefLabel "symphonic music"^^xsd:string .
+

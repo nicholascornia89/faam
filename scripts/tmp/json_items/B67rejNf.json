@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q617",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Padua"
       }
     ],
     "aliases": [
@@ -62,8 +63,118 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542281"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "oTnjHFMi",
+        "type": "item",
+        "label": "Giovanni Benedetto Platti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RCJyegGg",
+        "type": "item",
+        "label": "Domenico Dall'Oglio",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "aPwNiEyS",
+        "type": "item",
+        "label": "Giovanni Battista Bassani",
+        "description": "Italian composer, violinist and organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "cUTtYWjy",
+        "type": "item",
+        "label": "Oreste Ravanello",
+        "description": "Italian musician (1871–1938)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "TU6HRQKW",
+        "type": "item",
+        "label": "Giuseppe Tartini",
+        "description": "Italian composer and violinist (1692-1770)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Tartini_(Tartini_House).jpg"
+        }
+      },
+      {
+        "id": "9ekt8dfa",
+        "type": "item",
+        "label": "Costanzo Porta",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Costanzo_Porta.png"
+        }
+      },
+      {
+        "id": "5rphBXeR",
+        "type": "item",
+        "label": "Francesco Antonio Vallotti",
+        "description": "Italian composer, organist and music theorist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Antonio_Vallotti.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "JWYRxyMK",
+        "type": "item",
+        "label": "University of Padua",
+        "description": "university in Italy"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "B67rejNf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "B67rejNf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "B67rejNf.csv"
+      }
+    ]
+  }
 }

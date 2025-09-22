@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q85",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cairo"
       }
     ],
     "aliases": [
@@ -70,8 +71,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "360630"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q79",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Egypt"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5T9oj3bW",
+        "type": "item",
+        "label": "Hans von Bülow",
+        "description": "German conductor and pianist (1830–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RKZUmp9Q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RKZUmp9Q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RKZUmp9Q.csv"
+      }
+    ]
+  }
 }

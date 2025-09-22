@@ -1,0 +1,83 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iXCr874G a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2iBnpzus,
+        faamentity:3ts8CrNB,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:NsEoE4RP,
+        faamentity:Skma2JzR,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:YCgBhPNn,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:VMA2AmEN,
+        faamentity:Wpq9sxzm,
+        faamentity:YWfofDz3 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """Deel / Cahier I
+<ol>
+<li> Landelijke Dans / Danse rustique</li>
+<li> Moeders Slaapliedeken / Berceuse de ma mère</li>
+<li> Lyrisch Oneblik / Moment lyrique</li>
+<li> Vreugde / Joie</li>
+<li> Eenvoud / Simplicité</li>
+<li> Melodisch Interludium / Interlude mélodique</li>
+<li> De Liereman / Le Vieilleur</li>
+<li> Ernstige Overweging / Méditation sérieuse</li>
+<li> Plechtige Stemming / Sentiment solennel</li>
+<li> Weemoedig Slaapliedeken voor Bobby / Berceuse mélancolique pour Bobby</li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:4ZvdnZdj,
+        faamentity:UGSpFRmF,
+        faamentity:jvhZafsd ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:DDcUGWuh,
+        faamentity:kdMNCVkK ;
+    schema1:identifier "15992411"^^xsd:string,
+        "KCA-030904517924"^^xsd:string,
+        "iXCr874G"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13203572/N"^^schema1:url ;
+    skos:prefLabel "Miniaturen : voor klavier"^^xsd:string ;
+    skosref:related faamentity:94k9UmMK ;
+    wd:P217 "MM-TP-MORTE-miniatu-1/2/3"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"iXCr874G-38063668-b9ab-4248-8782-71ee34399651"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"iXCr874G-9b659439-7106-45a3-b9da-ad07dab77004"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"iXCr874G-cd0fc4c2-1327-4780-84ce-9eda5392db99"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:DDcUGWuh a rdf:object .
+
+faamentity:kdMNCVkK a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q32120",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Martin Luther University Halle-Wittenberg"
       }
     ],
     "aliases": [
@@ -92,6 +93,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "APHLApec",
+        "type": "item",
+        "label": "Adolf Bernhard Marx",
+        "description": "German composer and musicologist (1795–1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Bernhard_Marx.jpg"
+        }
+      },
+      {
+        "id": "CFu7TPQo",
+        "type": "item",
+        "label": "George Frideric Handel",
+        "description": "German-British Baroque composer (1685–1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Frideric_Handel_by_Balthasar_Denner.jpg"
+        }
+      },
+      {
+        "id": "AW2h5fHS",
+        "type": "item",
+        "label": "Friedrich Wieck",
+        "description": "German piano teacher, music critic and music educator (1785-1873)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Wieck_age_45.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LeDRi6Md.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LeDRi6Md.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LeDRi6Md.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ccb39KPa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:UeYzEz2A ;
+    schema1:birthDate "1852-11-21"^^xsd:string ;
+    schema1:birthPlace faamentity:RgbJis4S ;
+    schema1:deathDate "1909-12-15"^^xsd:string ;
+    schema1:deathPlace faamentity:2sNqTvde ;
+    schema1:description "Spanish composer and classical guitarist (1852-1909)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q313372>,
+        "0"^^xsd:string,
+        "ccb39KPa"^^xsd:string ;
+    schema1:nationality faamentity:f4z5bdam ;
+    skos:prefLabel "Francisco Tárrega"^^xsd:string ;
+    wd:P1303 faamentity:2pgcwfpN,
+        faamentity:ESwP43qy ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:61733213 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30101058> ;
+    wd:P737 faamentity:Me3Fmvnt,
+        faamentity:e6sNjZcy ;
+    wd:P839 <https://imslp.org/wiki/Category:Tárrega,_Francisco> ;
+    schema:hasOccupation faamentity:2T3aA4hC,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:Un8MtxgS .
+

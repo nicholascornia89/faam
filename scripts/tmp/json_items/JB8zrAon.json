@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q5972139",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le philtre"
       }
     ]
   },
@@ -56,6 +57,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "PfrcdvKx",
+        "type": "item",
+        "label": "L'elisir d'amore",
+        "description": "opera by Gaetano Donizetti"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JB8zrAon.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JB8zrAon.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JB8zrAon.csv"
+      }
+    ]
+  }
 }

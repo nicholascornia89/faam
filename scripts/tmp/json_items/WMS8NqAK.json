@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q656230",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giuseppe Cambini"
       }
     ]
   },
@@ -185,13 +186,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7yycuUFV",
+        "type": "item",
+        "label": "Douze nouveaux quatuors concertants pour deux Violons, Alto, et Violoncelle I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA88.gif"
+        }
+      },
+      {
+        "id": "8AMEDUTn",
+        "type": "item",
+        "label": "Finale Allegro Vivace del V Quartetto",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA83.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WMS8NqAK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WMS8NqAK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WMS8NqAK.csv"
       }
     ]
   }

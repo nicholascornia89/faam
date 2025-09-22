@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q116875405",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Regensburg"
       }
     ],
     "aliases": [
@@ -64,8 +65,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "DE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5kEoh4sP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5kEoh4sP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5kEoh4sP.csv"
+      }
+    ]
+  }
 }

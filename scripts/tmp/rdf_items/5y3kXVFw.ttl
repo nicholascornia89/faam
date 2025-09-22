@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5y3kXVFw a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "opera by Adolphe Adam"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q468633>,
+        "16000990"^^xsd:string,
+        "5y3kXVFw"^^xsd:string ;
+    skos:altLabel "Le postillon de Lonjumeau"^^xsd:string ;
+    skos:prefLabel "Le postillon de Lonjumeau"^^xsd:string ;
+    wd:P214 viaf:186297409 ;
+    wd:P839 <https://imslp.org/wiki/Le_postillon_de_Lonjumeau_(Adam,_Adolphe)> .
+

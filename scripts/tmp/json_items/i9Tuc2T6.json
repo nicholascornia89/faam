@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q10800557",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "film actor"
       }
     ],
     "aliases": [
@@ -64,5 +65,27 @@
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "i9Tuc2T6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "i9Tuc2T6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "i9Tuc2T6.csv"
+      }
+    ]
+  }
 }

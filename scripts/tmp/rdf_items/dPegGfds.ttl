@@ -1,0 +1,45 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dPegGfds a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:HwinuQRS ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:gjG8DbaX,
+        faamentity:joguPKfw ;
+    schema1:identifier "16005400"^^xsd:string,
+        "ORP-20143702p18"^^xsd:string,
+        "dPegGfds"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186"^^schema1:url ;
+    skos:prefLabel "Les Fauvettes"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.004"^^xsd:string ;
+    wd:P870 faamentity:ABS5BA5Q,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"dPegGfds-68e3bc0f-9a66-4c60-8ff6-3c0cac0c0879"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"dPegGfds-9365bc63-3465-482f-88dc-3d6554401f2e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:gjG8DbaX a rdf:object .
+
+faamentity:joguPKfw a rdf:object .
+

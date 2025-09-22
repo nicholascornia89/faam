@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q98907019",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Edmond Laurens"
       }
     ]
   },
@@ -149,13 +150,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KNxfuqzj",
+        "type": "item",
+        "label": "Mascarade. Scènes Fantaisistes. Op. 24 N. 3",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p45.gif"
+        }
+      },
+      {
+        "id": "KNxfuqzj",
+        "type": "item",
+        "label": "Mascarade. Scènes Fantaisistes. Op. 24 N. 3",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p45.gif"
+        }
+      },
+      {
+        "id": "QkQ2wHWY",
+        "type": "item",
+        "label": "Lieder-Walzer N.2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p20.gif"
+        }
+      },
+      {
+        "id": "QkQ2wHWY",
+        "type": "item",
+        "label": "Lieder-Walzer N.2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p20.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ge7cpLXc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ge7cpLXc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ge7cpLXc.csv"
       }
     ]
   }

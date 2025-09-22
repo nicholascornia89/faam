@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q155425",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich von Flotow"
       }
     ]
   },
@@ -181,13 +182,65 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Au3yGbmH",
+        "type": "item",
+        "label": "Stradella. Potpourri, Piano Solo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p1.gif"
+        }
+      },
+      {
+        "id": "2HZj8AnL",
+        "type": "item",
+        "label": "Martha. Potpourri, Piano Solo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p2.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TwWYpCrK",
+        "type": "item",
+        "label": "Alessandro Stradella",
+        "description": "opera by Friedrich von Flotow"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Friedrich_von_Flotow_1866.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WamgprKg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WamgprKg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WamgprKg.csv"
       }
     ]
   }

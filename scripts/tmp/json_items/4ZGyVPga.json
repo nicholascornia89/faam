@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q115927938",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sound concept"
       }
     ],
     "aliases": [
@@ -55,6 +56,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "XNhixQDd",
+        "type": "item",
+        "label": "timbre",
+        "description": "quality of a musical note or sound or tone"
+      },
+      {
+        "id": "WT9AcUBt",
+        "type": "item",
+        "label": "tempo",
+        "description": "musical concept indicating to the speed of interpretation"
+      },
+      {
+        "id": "cVskuK4J",
+        "type": "item",
+        "label": "loudness",
+        "description": "subjective perception of sound pressure"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4ZGyVPga.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4ZGyVPga.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4ZGyVPga.csv"
+      }
+    ]
+  }
 }

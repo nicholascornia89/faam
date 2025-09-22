@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3955",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Weimar"
       }
     ],
     "aliases": [
@@ -54,8 +55,90 @@
         "base_url": "https://www.geonames.org/",
         "label": "2812479"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8rVYArqx",
+        "type": "item",
+        "label": "Georg Otto",
+        "description": "German composer (ca. 1550-1618)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "5g7tXojm",
+        "type": "item",
+        "label": "Carl Philipp Emanuel Bach",
+        "description": "German composer (1714–1788)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Philipp_Emanuel_Bach.jpg"
+        }
+      },
+      {
+        "id": "kZj58UuH",
+        "type": "item",
+        "label": "Johann Nepomuk Hummel",
+        "description": "Austrian composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "JNHummel_2.jpg"
+        }
+      },
+      {
+        "id": "6TD3psn3",
+        "type": "item",
+        "label": "Melchior Vulpius",
+        "description": "German singer and composer (1570–1615)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "W5TTKqNC",
+        "type": "item",
+        "label": "August Eberhard Müller",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_Eberhard_Müller.JPEG"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "b8F9LEaG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "b8F9LEaG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "b8F9LEaG.csv"
+      }
+    ]
+  }
 }

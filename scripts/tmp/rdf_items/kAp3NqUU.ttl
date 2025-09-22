@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kAp3NqUU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:JcEuZJDr ;
+    schema1:birthDate "1756-12-30"^^xsd:string ;
+    schema1:birthPlace faamentity:24cmGpKT ;
+    schema1:deathDate "1808-09-26"^^xsd:string,
+        "1808-09-28"^^xsd:string,
+        "1808-09-29"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp ;
+    schema1:description "Czech violinist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78797>,
+        "0"^^xsd:string,
+        "kAp3NqUU"^^xsd:string ;
+    schema1:nationality faamentity:FPDTfb7a ;
+    skos:prefLabel "Paul Wranitzky"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:27330009 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/143618> ;
+    wd:P737 faamentity:iyd6gRcN ;
+    wd:P839 <https://imslp.org/wiki/Category:Wranitzky,_Paul> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:dwnQ2b9j,
+        faamentity:irSPevuD .
+

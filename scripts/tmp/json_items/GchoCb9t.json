@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q29478",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Faust"
       }
     ]
   },
@@ -63,6 +64,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "UxDTZZko",
+        "type": "item",
+        "label": "Faust",
+        "description": "grand opera in five acts by Charles Gounod"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GchoCb9t.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GchoCb9t.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GchoCb9t.csv"
+      }
+    ]
+  }
 }

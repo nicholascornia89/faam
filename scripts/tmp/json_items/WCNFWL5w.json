@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2449644",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Haslemere"
       }
     ],
     "aliases": [
@@ -64,8 +65,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "7294169"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2tkZfvvc",
+        "type": "item",
+        "label": "Arnold Dolmetsch",
+        "description": "French musician and instrument maker in England (1858-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold_Dolmetsch.jpg"
+        }
+      },
+      {
+        "id": "Haduu4Qe",
+        "type": "item",
+        "label": "Tobias Matthay",
+        "description": "British pianist, teacher and composer (1858–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Tobias_Matthay_-_Project_Gutenberg_eText_15604.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WCNFWL5w.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WCNFWL5w.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WCNFWL5w.csv"
+      }
+    ]
+  }
 }

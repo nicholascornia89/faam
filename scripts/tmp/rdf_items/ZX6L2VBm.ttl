@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZX6L2VBm a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q42196505>,
+        "16002647"^^xsd:string,
+        "ZX6L2VBm"^^xsd:string ;
+    skos:prefLabel "15 Inventions, BWV 772-786"^^xsd:string ;
+    wd:P5202 faamentity:YtBN8sk5 ;
+    wd:P7937 faamentity:9farY66Z,
+        faamentity:dptbXED5 ;
+    wd:P839 <https://imslp.org/wiki/15_Inventions,_BWV_772-786_(Bach,_Johann_Sebastian)> .
+

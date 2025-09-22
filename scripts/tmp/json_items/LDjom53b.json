@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3923",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bayreuth"
       }
     ],
     "aliases": [
@@ -64,8 +65,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "6556726"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mXggP3xB",
+        "type": "item",
+        "label": "Johann Georg Wunderlich",
+        "description": "German composer and musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ewwggKDh",
+        "type": "item",
+        "label": "Franz Liszt",
+        "description": "Hungarian romantic composer and virtuoso pianist (1811–1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Liszt_1858.jpg"
+        }
+      },
+      {
+        "id": "P93DUFe7",
+        "type": "item",
+        "label": "Hans Richter",
+        "description": "Austrian-Hungarian orchestral and operatic conductor (1843-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hans_Richter_portrait_photo.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LDjom53b.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LDjom53b.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LDjom53b.csv"
+      }
+    ]
+  }
 }

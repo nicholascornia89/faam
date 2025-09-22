@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q216",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Vilnius"
       }
     ],
     "aliases": [
@@ -90,8 +91,61 @@
         "base_url": "https://www.geonames.org/",
         "label": "593116"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q37",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lithuania"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TPCAgtpj",
+        "type": "item",
+        "label": "César Cui",
+        "description": "Russian composer and army officer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Cui_CuiIP_Frontispiece_600.jpg"
+        }
+      },
+      {
+        "id": "k6cnSQnL",
+        "type": "item",
+        "label": "Maximilian Steinberg",
+        "description": "Russian composer (1883-1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Steinberg_Maximilian_(1915).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KRRrSBnR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KRRrSBnR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KRRrSBnR.csv"
+      }
+    ]
+  }
 }

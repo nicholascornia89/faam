@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q464955",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Windsor"
       }
     ],
     "aliases": [
@@ -66,8 +67,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2633842"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RaWYp422",
+        "type": "item",
+        "label": "Edmund Fellowes",
+        "description": "British musician (1870–1951)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Gzk2yXGw",
+        "type": "item",
+        "label": "Pelham Humfrey",
+        "description": "English composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "77aNUeoc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "77aNUeoc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "77aNUeoc.csv"
+      }
+    ]
+  }
 }

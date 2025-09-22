@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q11894350",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stabat Mater"
       }
     ]
   },
@@ -133,6 +134,121 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "DXtyRBx2",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43090486d.gif"
+        }
+      },
+      {
+        "id": "JvMaPT6R",
+        "type": "item",
+        "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SLD-512657440.gif"
+        }
+      },
+      {
+        "id": "4sRaszr2",
+        "type": "item",
+        "label": "Stabat mater: motetto a otto voci reali, da capella ; scuola romana, 1555",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991100556509707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "j6xULZ5t",
+        "type": "item",
+        "label": "Stabat mater: Motette für zwei Chöre a capella",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078132959707356.gif"
+        }
+      },
+      {
+        "id": "dAK9o9an",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7618.gif"
+        }
+      },
+      {
+        "id": "DXtyRBx2",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43090486d.gif"
+        }
+      },
+      {
+        "id": "dAK9o9an",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7618.gif"
+        }
+      },
+      {
+        "id": "mxDxGKuU",
+        "type": "item",
+        "label": "In honorem Coredemptricis Generis Humani. 1. Magnificat (ad 2 voc. aeq. et org.). 2. Stabat Mater (ad 3 voc. aeq. et org.). Op. 113 & 114",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502017.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dhLrBjLH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dhLrBjLH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dhLrBjLH.csv"
+      }
+    ]
+  }
 }

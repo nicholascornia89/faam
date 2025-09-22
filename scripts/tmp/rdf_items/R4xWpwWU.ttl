@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:R4xWpwWU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1799-11-14"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1879-07-16"^^xsd:string ;
+    schema1:deathPlace faamentity:4YNCfYTx ;
+    schema1:description "composer and pedagog (1799–1879)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q766115>,
+        "0"^^xsd:string,
+        "R4xWpwWU"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Auguste Barbereau"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39644446 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30016537> ;
+    wd:P737 faamentity:oJGctqdB ;
+    wd:P839 <https://imslp.org/wiki/Category:Barbereau,_Auguste> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:AAY26oc5,
+        faamentity:KZLqHwSf,
+        faamentity:N3DQMCdv .
+

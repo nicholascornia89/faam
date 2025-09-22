@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q27022014",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Il filtro"
       }
     ]
   },
@@ -50,6 +51,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "JB8zrAon",
+        "type": "item",
+        "label": "Le philtre",
+        "description": "French opera by Daniel-François-Esprit Auber"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bYG8FnaW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bYG8FnaW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bYG8FnaW.csv"
+      }
+    ]
+  }
 }

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q130483802",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Félix Renard"
       }
     ]
   },
@@ -114,13 +115,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SgaSWrp3",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904192645.gif"
+        }
+      },
+      {
+        "id": "J6AHAEkf",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904192652.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "EqE74a9L",
+        "type": "item",
+        "label": "Berceuse No.1",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Lt82qzNR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Lt82qzNR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Lt82qzNR.csv"
       }
     ]
   }

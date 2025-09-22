@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VHot2K6A a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "thing that can be contained within a period of time, or change in state (e.g. events, periods, acts)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q26907166>,
+        "0"^^xsd:string,
+        "VHot2K6A"^^xsd:string ;
+    skos:prefLabel "temporal entity"^^xsd:string .
+

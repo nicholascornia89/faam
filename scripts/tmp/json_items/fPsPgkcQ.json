@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q913079",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cantabile"
       }
     ],
     "aliases": [
@@ -90,6 +91,121 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "PpqSZV5w",
+        "type": "item",
+        "label": "25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA63.gif"
+        }
+      },
+      {
+        "id": "4V8tH3Gg",
+        "type": "item",
+        "label": "Fantaisie Chromatique et Fugue : BWV 903",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331890.gif"
+        }
+      },
+      {
+        "id": "ZCwWUaPG",
+        "type": "item",
+        "label": "Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345131.gif"
+        }
+      },
+      {
+        "id": "9kNA9gg5",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902645172.gif"
+        }
+      },
+      {
+        "id": "BxUZpGCB",
+        "type": "item",
+        "label": "Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750767.gif"
+        }
+      },
+      {
+        "id": "mSgTWimc",
+        "type": "item",
+        "label": "seizième Potpourri : pour Piano et Flute ou Violon",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750008.gif"
+        }
+      },
+      {
+        "id": "HnGsLPKk",
+        "type": "item",
+        "label": "Concert-Sonate für Violine mit beziffertem Bass",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991061395849707356.gif"
+        }
+      },
+      {
+        "id": "f5v4P5AC",
+        "type": "item",
+        "label": "12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-39782625z.gif"
+        }
+      },
+      {
+        "id": "BAd8Cnc9",
+        "type": "item",
+        "label": "Audi Filia. Motet à 4 voix mixtes pour la fête d'une vierge.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502037.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fPsPgkcQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fPsPgkcQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fPsPgkcQ.csv"
+      }
+    ]
+  }
 }

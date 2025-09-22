@@ -1,0 +1,42 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3CGcXhFm a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1899"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:YgK4PJwk ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:VYUdXqyx ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:dkeJN8PT ;
+    schema1:identifier "16005785"^^xsd:string,
+        "3CGcXhFm"^^xsd:string,
+        "KCA-conpr_18991918"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Koninklijk Vlaamsch Conservatorium te Antwerpen. Leerlingen-Voordracht (1899-1908)"^^xsd:string ;
+    skosref:note "Concert booklets of conservatoire examinations and public concerts."^^rdf:HTML ;
+    wd:P217 "not available"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"3CGcXhFm-0e98e0f5-b6af-4f4a-a39b-2e36fd0d45f0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1899"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:dkeJN8PT a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q33962",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sanremo"
       }
     ],
     "aliases": [
@@ -58,8 +59,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542207"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eDNoWp8M",
+        "type": "item",
+        "label": "Carlo Pedron",
+        "description": "Italian music teacher and editor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "eDNoWp8M",
+        "type": "item",
+        "label": "Carlo Pedron",
+        "description": "Italian music teacher and editor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "W3R9XVh2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "W3R9XVh2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "W3R9XVh2.csv"
+      }
+    ]
+  }
 }

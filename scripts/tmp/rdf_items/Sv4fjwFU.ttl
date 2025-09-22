@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Sv4fjwFU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1822-01-01"^^xsd:string,
+        "1822-05-27"^^xsd:string ;
+    schema1:birthPlace faamentity:PSGLuAgw ;
+    schema1:deathDate "1882-00-00"^^xsd:string,
+        "1882-06-24"^^xsd:string,
+        "1882-06-25"^^xsd:string ;
+    schema1:deathPlace faamentity:SptwZTXr ;
+    schema1:description "Swiss composer (1822-1882)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q547301>,
+        "0"^^xsd:string,
+        "Sv4fjwFU"^^xsd:string ;
+    schema1:nationality faamentity:jN8Vq8mU ;
+    skos:prefLabel "Joachim Raff"^^xsd:string ;
+    wd:P108 faamentity:MQ2YMABS,
+        faamentity:NkSwdbTS ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:34644328 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/32686> ;
+    wd:P839 <https://imslp.org/wiki/Category:Raff,_Joachim> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

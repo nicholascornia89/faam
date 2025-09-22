@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FPvN2AzX a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "society founded in 1812, Vienna"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q694323>,
+        "15991091"^^xsd:string,
+        "FPvN2AzX"^^xsd:string ;
+    schema1:location faamentity:LD8HW7Tp,
+        faamentity:kyFWDzyM ;
+    skos:altLabel "Gesellschaft der Musikfreunde"^^xsd:string,
+        "Society of Friends of Music in Vienna"^^xsd:string ;
+    skos:prefLabel "Gesellschaft der Musikfreunde"^^xsd:string .
+

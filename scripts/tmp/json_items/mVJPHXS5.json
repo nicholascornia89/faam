@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,34 +76,40 @@
     "provenance": [
       {
         "type": "item",
-        "value": "Y7xwGJo8"
+        "value": "Y7xwGJo8",
+        "label": "Bibliothèque nationale de France"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "BnDGmWVX"
+        "value": "BnDGmWVX",
+        "label": "prelude"
       },
       {
         "type": "item",
-        "value": "K3Ds589T"
+        "value": "K3Ds589T",
+        "label": "fugue"
       },
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "B5MkJNa4"
+        "value": "B5MkJNa4",
+        "label": "The Well-Tempered Clavier"
       }
     ],
     "agent": [
@@ -112,19 +120,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Eugène Ploix Editeur"
       },
       {
         "type": "statement",
@@ -133,7 +144,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -145,7 +157,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Johann Sebastian Bach"
       },
       {
         "type": "statement",
@@ -154,7 +167,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -166,27 +180,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Georges Sporck"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -203,6 +222,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BNF-428267676_1/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mVJPHXS5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mVJPHXS5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mVJPHXS5.csv"
       }
     ]
   }

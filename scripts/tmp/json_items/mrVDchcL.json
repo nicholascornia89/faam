@@ -63,6 +63,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "MCkeYbcR",
+        "type": "item",
+        "label": "Cours pratique et théorique d'harmonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902508966.gif"
+        }
+      },
+      {
+        "id": "XtquhhBM",
+        "type": "item",
+        "label": "Sonate : fur pianoforte und horn, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904766810.gif"
+        }
+      },
+      {
+        "id": "LwJ87kZX",
+        "type": "item",
+        "label": "Sonate : für Pianoforte und Horn, oder Violine oder Violoncell, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904770184.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mrVDchcL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mrVDchcL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mrVDchcL.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i755gqCx a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "human settlement in Verviers, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2393518>,
+        "0"^^xsd:string,
+        "i755gqCx"^^xsd:string ;
+    schema1:location faamentity:QbfXawnE ;
+    skos:altLabel "Hodimont"^^xsd:string ;
+    skos:prefLabel "Hodimont"^^xsd:string .
+

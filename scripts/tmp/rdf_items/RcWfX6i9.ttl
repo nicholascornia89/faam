@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RcWfX6i9 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TYtCu3ys ;
+    schema1:identifier "16002479"^^xsd:string,
+        "RcWfX6i9"^^xsd:string ;
+    skos:prefLabel "Violin Concerto No.2, Op.32"^^xsd:string ;
+    wd:P7937 faamentity:65rhe5Po ;
+    wd:P839 <https://imslp.org/wiki/Violin_Concerto_No.2,_Op.32_(Bériot,_Charles-Auguste_de)> .
+

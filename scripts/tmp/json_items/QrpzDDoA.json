@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q13464",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Foggia"
       }
     ],
     "aliases": [
@@ -64,8 +65,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3176885"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "jhnPwfaL",
+        "type": "item",
+        "label": "Umberto Giordano",
+        "description": "Italian opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Umberto_Giordano_by_Gaetano_Esposito_(color).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QrpzDDoA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QrpzDDoA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QrpzDDoA.csv"
+      }
+    ]
+  }
 }

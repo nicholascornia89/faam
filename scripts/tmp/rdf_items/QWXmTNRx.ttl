@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QWXmTNRx a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1762-01-20"^^xsd:string ;
+    schema1:birthPlace faamentity:bSicGJwx ;
+    schema1:deathDate "1842-08-25"^^xsd:string ;
+    schema1:deathPlace faamentity:6aXomDbL ;
+    schema1:description "Belgian composer (1762-1842)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q709131>,
+        "16002810"^^xsd:string,
+        "QWXmTNRx"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n,
+        faamentity:QbfXawnE ;
+    skos:altLabel "Jerome-Joseph de Momigny"^^xsd:string,
+        "Jérôme-Joseph de Momigny"^^xsd:string ;
+    skos:prefLabel "Jérôme-Joseph de Momigny"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:5212353 ;
+    wd:P31 faamentity:2fXfbLCV,
+        faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/113333> ;
+    wd:P839 <https://imslp.org/wiki/Category:Momigny,_Jérôme-Joseph_de> ;
+    schema:hasOccupation faamentity:9joWzZuU,
+        faamentity:KZLqHwSf .
+

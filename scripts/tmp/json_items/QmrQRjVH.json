@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q14925",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mühlhausen/Thuringia"
       }
     ],
     "aliases": [
@@ -62,8 +63,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "6550973"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "JJCpBZaU",
+        "type": "item",
+        "label": "Saint Blaise",
+        "description": "church building in Muehlhausen, Thuringia, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QmrQRjVH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QmrQRjVH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QmrQRjVH.csv"
+      }
+    ]
+  }
 }

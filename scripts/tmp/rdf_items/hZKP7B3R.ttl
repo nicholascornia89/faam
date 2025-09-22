@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hZKP7B3R a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "high classical male singing voice"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q223166>,
+        "15990821"^^xsd:string,
+        "hZKP7B3R"^^xsd:string ;
+    skos:altLabel "angelical"^^xsd:string,
+        "contra tenor"^^xsd:string,
+        "counter-tenor"^^xsd:string,
+        "countertenor"^^xsd:string,
+        "countertenor voice"^^xsd:string,
+        "tenor angelical"^^xsd:string ;
+    skos:prefLabel "countertenor"^^xsd:string .
+

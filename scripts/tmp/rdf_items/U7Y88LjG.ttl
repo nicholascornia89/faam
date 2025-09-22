@@ -1,0 +1,80 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U7Y88LjG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:A865BeAb,
+        faamentity:FSduWvy5 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6e38Zdt6,
+        faamentity:CT372LTH,
+        faamentity:JEZ5AweR,
+        faamentity:QhRQ5LW9 ;
+    schema1:hasPart faamentity:eiSLX6m5 ;
+    schema1:identifier "15992668"^^xsd:string,
+        "KCA-TP140299"^^xsd:string,
+        "U7Y88LjG"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs,
+        faamentity:nkxLRFG5 ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6787551/N"^^schema1:url ;
+    skos:prefLabel "Capriccio: B dur (abreise)"^^xsd:string ;
+    wd:P217 "TP140299"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"U7Y88LjG-22366714-68da-4181-8053-bd2d995790b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"U7Y88LjG-4b568322-0136-4539-b3f0-65d2953df7b6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"U7Y88LjG-a919764b-4322-42e8-9a36-55a88bdc95d4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"U7Y88LjG-dc8a11f7-ca9b-487f-96dc-c7cd7643b42d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:6e38Zdt6 a rdf:object .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+

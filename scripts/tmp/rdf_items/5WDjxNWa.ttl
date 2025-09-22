@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5WDjxNWa a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AeKhRWCB,
+        faamentity:bsgSL8K5,
+        faamentity:gSHSbZQr,
+        faamentity:iWuVLJam,
+        faamentity:jCuFYGDc,
+        faamentity:oPdg4LDz ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:E2chmtzQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez ;
+    schema1:identifier "15992555"^^xsd:string,
+        "5WDjxNWa"^^xsd:string,
+        "KCA-030901762986"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6735606/N"^^schema1:url ;
+    skos:prefLabel "Sonate: pour trombone"^^xsd:string ;
+    wd:P217 "MM-BB-BENOI-sonat-6"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:L2scRLou,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"5WDjxNWa-4f15f6ca-8b3f-492d-ab77-175d597bd965"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"5WDjxNWa-9b238b09-6bff-46d5-92c9-697d8849777f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+

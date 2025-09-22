@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ckEBt8YY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:Pcc4PpDc,
+        faamentity:RePdmToB,
+        faamentity:eHYWo9ba ;
+    faamprop:role faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8K3yJASt,
+        faamentity:HxdDCV5P,
+        faamentity:PWADDr8B ;
+    schema1:hasPart faamentity:LAfSMPCk ;
+    schema1:identifier "15992274"^^xsd:string,
+        "KCA-030902681235"^^xsd:string,
+        "ckEBt8YY"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13130720/N"^^schema1:url ;
+    skos:prefLabel "Le martyre de Saint Sébastien : mystère en cinq actes"^^xsd:string ;
+    wd:P217 "MM-LEPP-DEBUS-martyre-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"ckEBt8YY-637f2b0e-3a7e-4949-b5a8-738b84198d8c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"ckEBt8YY-a6ec1559-2383-4b47-a5e3-cf794876f501"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+"ckEBt8YY-fd11a3eb-4940-4f83-8dfb-e494cb8d0e09"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+faamentity:8K3yJASt a rdf:object .
+
+faamentity:HxdDCV5P a rdf:object .
+
+faamentity:PWADDr8B a rdf:object .
+

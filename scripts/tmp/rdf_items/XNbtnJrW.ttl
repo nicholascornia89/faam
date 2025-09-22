@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XNbtnJrW a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "component used in the construction of a musical instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q19659292>,
+        "16002650"^^xsd:string,
+        "XNbtnJrW"^^xsd:string ;
+    skos:altLabel "musical instrument component"^^xsd:string,
+        "musical instrument part"^^xsd:string,
+        "part of a musical instrument"^^xsd:string ;
+    skos:prefLabel "musical instrument part"^^xsd:string .
+

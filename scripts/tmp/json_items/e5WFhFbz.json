@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q19974113",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fondation Lambert Darchis"
       }
     ],
     "aliases": []
@@ -51,6 +52,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "igARNUFw",
+        "type": "item",
+        "label": "André Grétry",
+        "description": "composer from present-day Belgium (1741–1813)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "André_Ernest_Modeste_Grétry_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "e5WFhFbz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "e5WFhFbz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "e5WFhFbz.csv"
+      }
+    ]
+  }
 }

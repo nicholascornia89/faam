@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1646181",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Worcester"
       }
     ],
     "aliases": [
@@ -54,8 +55,58 @@
         "base_url": "https://www.geonames.org/",
         "label": "2633563"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5DhejGJ6",
+        "type": "item",
+        "label": "Edward Elgar",
+        "description": "English composer (1857-1934)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edward_Elgar_1857_-_1934.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "mfP6VeEX",
+        "type": "item",
+        "label": "New College Worcester",
+        "description": "school in Worcestershire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "b5w3t6xN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "b5w3t6xN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "b5w3t6xN.csv"
+      }
+    ]
+  }
 }

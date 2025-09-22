@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q374582",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antoine Elwart"
       }
     ]
   },
@@ -165,13 +166,77 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iwzfXpdR",
+        "type": "item",
+        "label": "Victorin de Joncières",
+        "description": "French composer (1839–1903)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joncières,_Victorin_de,_Nadar,_Gallica.jpg"
+        }
+      },
+      {
+        "id": "Xdjw4aUY",
+        "type": "item",
+        "label": "Eugène Anthiome",
+        "description": "French composer (1836-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Anthiome_1900.jpg"
+        }
+      },
+      {
+        "id": "CFFWdJSJ",
+        "type": "item",
+        "label": "Jean-Baptiste Weckerlin",
+        "description": "French composer and music publisher (1821–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png"
+        }
+      },
+      {
+        "id": "ZgEh9LzQ",
+        "type": "item",
+        "label": "Émile Prudent",
+        "description": "Pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Prudent_by_Tournachon_Gaspard_Felix.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Elwart,_Antoine,_Nadar_Gallica.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LDkDYnVj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LDkDYnVj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LDkDYnVj.csv"
       }
     ]
   }

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1509004",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Georges Marty"
       }
     ]
   },
@@ -163,13 +164,97 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RfrTxjGc",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p31.gif"
+        }
+      },
+      {
+        "id": "RfrTxjGc",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p31.gif"
+        }
+      },
+      {
+        "id": "JVe3yVdJ",
+        "type": "item",
+        "label": "Le Sang de la Sirène",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p37.gif"
+        }
+      },
+      {
+        "id": "JVe3yVdJ",
+        "type": "item",
+        "label": "Le Sang de la Sirène",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p37.gif"
+        }
+      },
+      {
+        "id": "BYSTGFEE",
+        "type": "item",
+        "label": "Daria",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p44.gif"
+        }
+      },
+      {
+        "id": "BYSTGFEE",
+        "type": "item",
+        "label": "Daria",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p44.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Georges_Marty.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "em4acBAZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "em4acBAZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "em4acBAZ.csv"
       }
     ]
   }

@@ -1,0 +1,40 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UhmwLQ48 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1947"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:2FVr93JH,
+        faamentity:KWVSVF8L,
+        faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9gYW98om ;
+    schema1:identifier "15996310"^^xsd:string,
+        "KCA-TP173450"^^xsd:string,
+        "UhmwLQ48"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6795208/N"^^schema1:url ;
+    skos:prefLabel "Danse mauresque = Moorse dans"^^xsd:string ;
+    wd:P217 "TP"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"UhmwLQ48-192fb687-0246-4c3a-8a6e-cb7c2e68f372"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1947"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:9gYW98om a rdf:object .
+

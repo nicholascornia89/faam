@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q362639",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ferdinand Hérold"
       }
     ]
   },
@@ -211,13 +212,101 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "m5SRCKmj",
+        "type": "item",
+        "label": "Variations : sur le trio favori Du Pré aux Clercs : voor piano enOrchestra : Opus 76.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349274.gif"
+        }
+      },
+      {
+        "id": "KPETqohV",
+        "type": "item",
+        "label": "Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349202.gif"
+        }
+      },
+      {
+        "id": "KkVjMkQj",
+        "type": "item",
+        "label": "Le Pré aux Clercs",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349198.gif"
+        }
+      },
+      {
+        "id": "4SrPTVqC",
+        "type": "item",
+        "label": "Fantaisie : pour Piano & Flûte obligée : Sur la Romance de Charles de France dite Les Chevaliers de la Fidélité : Op: 78",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334248.gif"
+        }
+      },
+      {
+        "id": "mqBB6Rxe",
+        "type": "item",
+        "label": "POTPOURRI",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000360390.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "AfCFbJ8g",
+        "type": "item",
+        "label": "Charles de France ou Amour et gloire",
+        "description": "opera by François-Adrien Boieldieu"
+      },
+      {
+        "id": "fSR8RnuW",
+        "type": "item",
+        "label": "Le pré aux clercs",
+        "description": "opera by Ferdinand Hérold"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ferdinand_Herold_by_Maurin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "S3La3UWp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "S3La3UWp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "S3La3UWp.csv"
       }
     ]
   }

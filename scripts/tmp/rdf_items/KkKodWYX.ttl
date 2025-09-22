@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KkKodWYX a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:B7WuhvkL,
+        faamentity:CPJ2a2C2,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:oPdg4LDz ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:6kwYh3HH ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:oJGctqdB ;
+    schema1:hasPart faamentity:i8qfx3Dz ;
+    schema1:identifier "15992659"^^xsd:string,
+        "KCG-000363772"^^xsd:string,
+        "KkKodWYX"^^xsd:string ;
+    schema1:location faamentity:nkxLRFG5 ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000363772"^^schema1:url ;
+    skos:prefLabel "Quintetto : pour Flûte, Hautbois, Clarinette, Cor & Basson : Oeuvre 88 n° 6 : Nota: A défaut de hautbois, cette Partie peut s'éxécuter par une flûte avec la Patte en Ut."^^xsd:string ;
+    wd:P217 "DS-1396"^^xsd:string ;
+    wd:P870 faamentity:4AUBYBXJ,
+        faamentity:GCEGkwjT,
+        faamentity:MFQUhgoe,
+        faamentity:MV3uErvy,
+        faamentity:N3AKKugd .
+
+schema1:contributor a rdf:predicate .
+
+"KkKodWYX-44fb1008-d7dd-4a7c-bdc2-c6fc11eb8690"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KkKodWYX-46a8e9a0-0e9a-42d1-8a57-493f662254a6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:oJGctqdB a rdf:object .
+

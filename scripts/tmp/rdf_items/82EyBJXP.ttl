@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:82EyBJXP a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1806-12-04"^^xsd:string ;
+    schema1:birthPlace faamentity:QzrXGqBY ;
+    schema1:deathDate "1874-02-13"^^xsd:string ;
+    schema1:deathPlace faamentity:RgKJJk5H ;
+    schema1:description "German composer (1806–1874)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q62075>,
+        "16002619"^^xsd:string,
+        "82EyBJXP"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n,
+        faamentity:krnWa7Sb,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Friedrich Burgmüller"^^xsd:string,
+        "Johann Friedrich Franz Burgmüller"^^xsd:string ;
+    skos:prefLabel "Friedrich Burgmüller"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:275325 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/117709> ;
+    wd:P839 <https://imslp.org/wiki/Category:Burgmüller,_Friedrich> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

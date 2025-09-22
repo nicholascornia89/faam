@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q85477",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "oratorio"
       }
     ],
     "aliases": [
@@ -59,6 +60,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cxjnEzoZ",
+        "type": "item",
+        "label": "Air de La Création",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348660.gif"
+        }
+      },
+      {
+        "id": "hmAaKBsv",
+        "type": "item",
+        "label": "Air d'église : du célèbre chanteur Stradella : avec accompt. de piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345408.gif"
+        }
+      },
+      {
+        "id": "g3cV4dVD",
+        "type": "item",
+        "label": "Passionsmusik : nach dem Evangelisten Matthäus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076581989707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "RYxyStbs",
+        "type": "item",
+        "label": "Christmas Oratorio",
+        "description": "oratorio by Johann Sebastian Bach"
+      },
+      {
+        "id": "RBrxatwq",
+        "type": "item",
+        "label": "Messiah",
+        "description": "1741 sacred oratorio by Handel"
+      },
+      {
+        "id": "AUKNa2Mj",
+        "type": "item",
+        "label": "The Creation",
+        "description": "oratorio composed by Joseph Haydn"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QHmaK88w.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QHmaK88w.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QHmaK88w.csv"
+      }
+    ]
+  }
 }

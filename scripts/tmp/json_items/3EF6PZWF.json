@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q58483083",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "dramatico-musical work"
       }
     ],
     "aliases": [
@@ -63,6 +64,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KRBCuZqy",
+        "type": "item",
+        "label": "Karel van Gelderland: rol van den hertog",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901779048.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "hDU4mEPG",
+        "type": "item",
+        "label": "Quentin Durward",
+        "description": "comedy in 3 acts composed by François-Auguste Gevaert. First representation in 1858 at Opéra-Comique, Salle Favart, Paris"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3EF6PZWF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3EF6PZWF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3EF6PZWF.csv"
+      }
+    ]
+  }
 }

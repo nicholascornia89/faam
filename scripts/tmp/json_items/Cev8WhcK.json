@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,118 +74,144 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "byLEfakR"
+        "value": "byLEfakR",
+        "label": "marcato"
       },
       {
         "type": "item",
-        "value": "YRq3pSH7"
+        "value": "YRq3pSH7",
+        "label": "cadenza"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "c5cZmF37"
+        "value": "c5cZmF37",
+        "label": "decrescendo"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "TN2gP3Pq"
+        "value": "TN2gP3Pq",
+        "label": "Messa di voce"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "Pcc4PpDc"
+        "value": "Pcc4PpDc",
+        "label": "alternative lyrics"
       },
       {
         "type": "item",
-        "value": "4PAdXGNC"
+        "value": "4PAdXGNC",
+        "label": "alternative melody"
       },
       {
         "type": "item",
-        "value": "B7WuhvkL"
+        "value": "B7WuhvkL",
+        "label": "fermata"
       },
       {
         "type": "item",
-        "value": "Wpq9sxzm"
+        "value": "Wpq9sxzm",
+        "label": "solmization"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       },
       {
         "type": "item",
-        "value": "M9HRWrxt"
+        "value": "M9HRWrxt",
+        "label": "reduction"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       },
       {
         "type": "item",
-        "value": "np4kPXiE"
+        "value": "np4kPXiE",
+        "label": "romance"
       },
       {
         "type": "item",
-        "value": "HwcYgL5C"
+        "value": "HwcYgL5C",
+        "label": "salon music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "TSvTRY9g"
+        "value": "TSvTRY9g",
+        "label": "Robert le diable"
       }
     ],
     "agent": [
@@ -194,7 +222,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -206,7 +235,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Giacomo Meyerbeer"
       },
       {
         "type": "statement",
@@ -215,19 +245,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Brandus et Cie"
       },
       {
         "type": "statement",
@@ -236,7 +269,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -248,7 +282,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Julie Dorus-Gras"
       },
       {
         "type": "statement",
@@ -257,19 +292,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Royal Conservatory of Ghent"
       },
       {
         "type": "statement",
@@ -278,19 +316,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Royal Conservatory of Ghent"
       },
       {
         "type": "statement",
@@ -299,63 +340,76 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       },
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       },
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       },
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -372,6 +426,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000122150/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Cev8WhcK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Cev8WhcK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Cev8WhcK.csv"
       }
     ]
   }

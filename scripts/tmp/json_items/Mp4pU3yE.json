@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q124349397",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grand Solo No.5 Op.79"
       }
     ]
   },
@@ -78,6 +79,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "CaR74wnb",
+        "type": "item",
+        "label": "5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370132.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Mp4pU3yE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Mp4pU3yE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Mp4pU3yE.csv"
+      }
+    ]
+  }
 }

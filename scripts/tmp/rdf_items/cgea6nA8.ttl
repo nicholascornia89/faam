@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cgea6nA8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1784-01-31"^^xsd:string ;
+    schema1:birthPlace faamentity:9EJpARFv ;
+    schema1:deathDate "1850-11-28"^^xsd:string ;
+    schema1:deathPlace faamentity:FF8aDsue ;
+    schema1:description "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q115829742>,
+        "0"^^xsd:string,
+        "cgea6nA8"^^xsd:string ;
+    skos:prefLabel "Bernardus Nachtergaele"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:99WGUK6y,
+        faamentity:RvhD6Aot,
+        faamentity:VFgcCTwt,
+        faamentity:YJXYuK6r,
+        faamentity:ZnHbmhfu,
+        faamentity:kHp8wFpn .
+

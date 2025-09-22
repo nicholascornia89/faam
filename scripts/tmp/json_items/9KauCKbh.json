@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1748",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Copenhagen"
       }
     ],
     "aliases": [
@@ -90,8 +91,91 @@
         "base_url": "https://www.geonames.org/",
         "label": "2618425"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q35",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Denmark"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Dri8qjqH",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "eQQXF9tJ",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "fAzZj2se",
+        "type": "item",
+        "label": "Pietro Mingotti",
+        "description": "Italian impresario (1702-1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Dri8qjqH",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "eQQXF9tJ",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9KauCKbh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9KauCKbh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9KauCKbh.csv"
+      }
+    ]
+  }
 }

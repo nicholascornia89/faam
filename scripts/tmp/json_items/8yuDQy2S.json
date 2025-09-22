@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q186320",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grand Duchy of Baden"
       }
     ],
     "aliases": [
@@ -65,6 +66,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9DcyGgYa",
+        "type": "item",
+        "label": "Friedrich Berr",
+        "description": "German clarinettist, bassoonist and composer (1794–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Fr_Berr.jpg"
+        }
+      },
+      {
+        "id": "4pKZtPQK",
+        "type": "item",
+        "label": "Johann Peter Pixis",
+        "description": "German pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_Kneisel_nach_Cäcilie_Brand_-_Johann_Peter_Pixis_(Lithographie).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8yuDQy2S.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8yuDQy2S.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8yuDQy2S.csv"
+      }
+    ]
+  }
 }

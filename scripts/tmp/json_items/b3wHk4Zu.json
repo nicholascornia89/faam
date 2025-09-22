@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q347871",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sigismond Thalberg"
       }
     ]
   },
@@ -173,13 +174,79 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "nBgzhxce",
+        "type": "item",
+        "label": "La Romanesca : fameux Air de Danse du XVI.e siècle : transcrit pour Piano d'après la Partition originale",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000369479.gif"
+        }
+      },
+      {
+        "id": "Yf5vB2yU",
+        "type": "item",
+        "label": "Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902800223.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "PoskEMCE",
+        "type": "item",
+        "label": "Beniamino Cesi",
+        "description": "Italian musician (1845-1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Beniamino_Cesi.jpg"
+        }
+      },
+      {
+        "id": "NxAYomz7",
+        "type": "item",
+        "label": "Heinrich Ehrlich",
+        "description": "pianist and composer (1822-1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Thalberg,_Sigismund,_Gallica,_Nadar.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "b3wHk4Zu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "b3wHk4Zu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "b3wHk4Zu.csv"
       }
     ]
   }

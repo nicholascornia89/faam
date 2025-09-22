@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q12310971",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bassoonist"
       }
     ],
     "aliases": [
@@ -59,6 +60,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "P5UxSAzZ",
+        "type": "item",
+        "label": "François-René Gebauer",
+        "description": "French bassoonist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9DcyGgYa",
+        "type": "item",
+        "label": "Friedrich Berr",
+        "description": "German clarinettist, bassoonist and composer (1794–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Fr_Berr.jpg"
+        }
+      },
+      {
+        "id": "ECosGAj4",
+        "type": "item",
+        "label": "Wenzel Neukirchner",
+        "description": "(1805-1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "gEUdWpi2",
+        "type": "item",
+        "label": "August Mittag",
+        "description": "* 25.12.1795 Kreischa bei Dresden/D, † 21.11.1867 Wien. Fagottist, Pianist, Pädagoge.",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "N38UzpLK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "N38UzpLK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "N38UzpLK.csv"
+      }
+    ]
+  }
 }

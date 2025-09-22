@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:C96V6zHY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1782-07-26"^^xsd:string ;
+    schema1:birthPlace faamentity:TUzS2eS4 ;
+    schema1:deathDate "1837-01-11"^^xsd:string,
+        "1837-01-23"^^xsd:string ;
+    schema1:deathPlace faamentity:fgyBiYxY ;
+    schema1:description "Irish pianist, composer, and teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q209684>,
+        "0"^^xsd:string,
+        "C96V6zHY"^^xsd:string ;
+    schema1:nationality faamentity:CcZxt72Q,
+        faamentity:WKTLcAet,
+        faamentity:XwNvQgsA ;
+    skos:prefLabel "John Field"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56796078 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/479444> ;
+    wd:P737 faamentity:Gy877bKx,
+        faamentity:PxsQUPPu,
+        faamentity:SLpCAuz4 ;
+    wd:P839 <https://imslp.org/wiki/Category:Field,_John> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:WF4NSijn,
+        faamentity:Wm5MWZbA .
+

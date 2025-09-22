@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q54006791",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jakob and Johannes parish"
       }
     ],
     "aliases": [
@@ -47,8 +48,60 @@
     ]
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "ChU6uTpu",
+        "label": "Sweden"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kLbKoBhH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kLbKoBhH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kLbKoBhH.csv"
+      }
+    ]
+  }
 }

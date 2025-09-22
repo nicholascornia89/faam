@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9mJHGjuh a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "1727 sacred oratorio by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q379111>,
+        "16004080"^^xsd:string,
+        "9mJHGjuh"^^xsd:string ;
+    skos:altLabel "BWV 244"^^xsd:string,
+        "St Matthew Passion"^^xsd:string ;
+    skos:prefLabel "Matthäuspassion, BWV 244"^^xsd:string,
+        "St Matthew Passion"^^xsd:string ;
+    wd:P214 viaf:1371147270361735700006 ;
+    wd:P5202 faamentity:CJgFHXHi,
+        faamentity:D3Vekn6E ;
+    wd:P7937 faamentity:Gz3LUkC5 ;
+    wd:P839 <https://imslp.org/wiki/Matthäuspassion,_BWV_244_(Bach,_Johann_Sebastian)> .
+

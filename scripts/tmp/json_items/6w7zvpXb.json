@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q9184",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Book of Genesis"
       }
     ]
   },
@@ -75,6 +76,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "AUKNa2Mj",
+        "type": "item",
+        "label": "The Creation",
+        "description": "oratorio composed by Joseph Haydn"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6w7zvpXb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6w7zvpXb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6w7zvpXb.csv"
+      }
+    ]
+  }
 }

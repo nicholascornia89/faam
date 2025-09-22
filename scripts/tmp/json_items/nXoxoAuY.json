@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q170384",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "operetta"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "WMmcDubA",
+        "type": "item",
+        "label": "La Mascotte : opéra-comique en 3 actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902614491.gif"
+        }
+      },
+      {
+        "id": "mG2ZbgMb",
+        "type": "item",
+        "label": "La Mascotte : opéra-comique en 3 actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901706736.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nXoxoAuY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nXoxoAuY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nXoxoAuY.csv"
+      }
+    ]
+  }
 }

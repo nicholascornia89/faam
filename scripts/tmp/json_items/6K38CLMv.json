@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q107277627",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le Capitaine Henriot"
       }
     ]
   },
@@ -78,6 +79,51 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "E9ZACfLA",
+        "type": "item",
+        "label": "Le capitaine Henriot",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901603982.gif"
+        }
+      },
+      {
+        "id": "LLSewMGD",
+        "type": "item",
+        "label": "Le capitaine Henriot Duetto",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901603966.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6K38CLMv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6K38CLMv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6K38CLMv.csv"
+      }
+    ]
+  }
 }

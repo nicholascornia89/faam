@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -81,52 +83,62 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "LiFYdNgN"
+        "value": "LiFYdNgN",
+        "label": "comparative study"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "8Ki8U5U4"
+        "value": "8Ki8U5U4",
+        "label": "underline"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "PmoGKNnr"
+        "value": "PmoGKNnr",
+        "label": "University of Toronto Libraries"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "2FQ4SCuS"
+        "value": "2FQ4SCuS",
+        "label": "polyphony"
       },
       {
         "type": "item",
-        "value": "jArGUTgq"
+        "value": "jArGUTgq",
+        "label": "historically informed performance"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       },
       {
         "type": "item",
-        "value": "n8dr8Tqi"
+        "value": "n8dr8Tqi",
+        "label": "madrigal"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       }
     ],
     "musical work": [],
@@ -138,19 +150,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "bsTArmEN"
+            "value": "bsTArmEN",
+            "label": "London"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1910"
           }
-        ]
+        ],
+        "label": "Stainer & Bell"
       },
       {
         "type": "statement",
@@ -159,39 +174,46 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "bsTArmEN"
+            "value": "bsTArmEN",
+            "label": "London"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1910"
           }
-        ]
+        ],
+        "label": "Edmund Fellowes"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "bsTArmEN"
+        "value": "bsTArmEN",
+        "label": "London"
       },
       {
         "type": "item",
-        "value": "bsTArmEN"
+        "value": "bsTArmEN",
+        "label": "London"
       }
     ]
   },
@@ -208,6 +230,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/UTL-978107756/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Qo3pdive.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Qo3pdive.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Qo3pdive.csv"
       }
     ]
   }

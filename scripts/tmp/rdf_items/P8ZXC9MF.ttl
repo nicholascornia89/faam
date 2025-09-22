@@ -1,0 +1,68 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P8ZXC9MF a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1937"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:F9XSfSvU,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:aCRY7SgN,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:DS9HvPwY ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2FQ4SCuS,
+        faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:ABZnoc4f,
+        faamentity:T4vPoxnM,
+        faamentity:fNVPSqGG ;
+    schema1:identifier "16002132"^^xsd:string,
+        "KCG-39.OP.OMdeMonte22"^^xsd:string,
+        "P8ZXC9MF"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Philippi de Monte. Missa \"Sine nomine\". quamocto vocibus conscriptam"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"P8ZXC9MF-0188b418-2619-4c94-933a-8ca88a9d9c28"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"P8ZXC9MF-c60bb963-0924-4000-84a3-abd239ffd832"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1937"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"P8ZXC9MF-f286a0e1-de69-4f99-b5ab-15e3a0fee287"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1937"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:T4vPoxnM a rdf:object .
+
+faamentity:fNVPSqGG a rdf:object .
+

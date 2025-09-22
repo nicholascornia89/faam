@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q53068",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Claudio Monteverdi"
       }
     ]
   },
@@ -222,13 +223,87 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3N6XobBF",
+        "type": "item",
+        "label": "Orfeo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901700127.gif"
+        }
+      },
+      {
+        "id": "AtQ9Cz8i",
+        "type": "item",
+        "label": "Le retour d'Ulysse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901294238.gif"
+        }
+      },
+      {
+        "id": "hKyLhP5w",
+        "type": "item",
+        "label": "Il quarto libro dei madrigali",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902628988.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "C7KyN6cJ",
+        "type": "item",
+        "label": "Q3413638",
+        "description": ""
+      },
+      {
+        "id": "CRfaGGoV",
+        "type": "item",
+        "label": "L'Orfeo",
+        "description": "opera by Claudio Monteverdi, with libretto by Alessandro Striggio"
+      },
+      {
+        "id": "oWTGWujM",
+        "type": "item",
+        "label": "Il ritorno d'Ulisse in patria",
+        "description": "opera by Claudio Monteverdi"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PikNt4Wc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PikNt4Wc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PikNt4Wc.csv"
       }
     ]
   }

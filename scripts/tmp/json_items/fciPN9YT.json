@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2999",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Würzburg"
       }
     ],
     "aliases": [
@@ -78,8 +79,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "3220897"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "UxebPh37",
+        "type": "item",
+        "label": "Joseph Küffner",
+        "description": "German musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kMENeT9w",
+        "type": "item",
+        "label": "Lilli Lehmann",
+        "description": "German operatic soprano (1848–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lilli_Lehmann.jpg"
+        }
+      },
+      {
+        "id": "hpmpSXaU",
+        "type": "item",
+        "label": "Georg Josef Manz",
+        "description": "German publisher (1808–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "K9sJXiWg",
+        "type": "item",
+        "label": "Georg Joseph Vogler",
+        "description": "German composer, organist, teacher and music theorist (1747-1814)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georg_Joseph_Vogler.jpg"
+        }
+      },
+      {
+        "id": "UxebPh37",
+        "type": "item",
+        "label": "Joseph Küffner",
+        "description": "German musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "oTnjHFMi",
+        "type": "item",
+        "label": "Giovanni Benedetto Platti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fciPN9YT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fciPN9YT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fciPN9YT.csv"
+      }
+    ]
+  }
 }

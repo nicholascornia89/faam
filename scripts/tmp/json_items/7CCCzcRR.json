@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q2465979",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Henry Sarly"
       }
     ]
   },
@@ -127,13 +128,69 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "MCkeYbcR",
+        "type": "item",
+        "label": "Cours pratique et théorique d'harmonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902508966.gif"
+        }
+      },
+      {
+        "id": "TmBznamT",
+        "type": "item",
+        "label": "Cours pratique et théorique d'harmonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904338792.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "EtZqfGE5",
+        "type": "item",
+        "label": "August Verbesselt",
+        "description": "Belgian composer and flute player, 1919–2012",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7CCCzcRR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7CCCzcRR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7CCCzcRR.csv"
       }
     ]
   }

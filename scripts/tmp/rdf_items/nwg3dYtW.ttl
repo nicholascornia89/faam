@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nwg3dYtW a rdfs:Resource ;
+    faamprop:related_to faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1906-06-28"^^xsd:string ;
+    schema1:birthPlace faamentity:ZuPoS9As ;
+    schema1:deathDate "1973-03-26"^^xsd:string ;
+    schema1:deathPlace faamentity:Beq72mMD ;
+    schema1:description "American conductor (1906–1973)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3461275>,
+        "16005635"^^xsd:string,
+        "nwg3dYtW"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Safford Cape"^^xsd:string ;
+    skos:prefLabel "Safford Cape"^^xsd:string ;
+    wd:P108 faamentity:Lm4yiSLc ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:54347619 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:C4Jco2kp,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

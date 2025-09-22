@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q693570",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Duchy of Ferrara"
       }
     ],
     "aliases": [
@@ -53,6 +54,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "o5ayUs43",
+        "type": "item",
+        "label": "Girolamo Frescobaldi",
+        "description": "Italian composer (1583–1643)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Girolamo_Frescobaldi_(1583-1643),_engraving_by_Claude_Mellan_(1619).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7QAACiBy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7QAACiBy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7QAACiBy.csv"
+      }
+    ]
+  }
 }

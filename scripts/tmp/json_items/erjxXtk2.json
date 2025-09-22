@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1243705",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Modena and Reggio Emilia"
       }
     ],
     "aliases": [
@@ -91,6 +92,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "aKosLwsg",
+        "type": "item",
+        "label": "Ludovico Antonio Muratori",
+        "description": "Italian priest, writer, librarian, historian and diplomat",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludovico_Antonio_Muratori.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "erjxXtk2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "erjxXtk2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "erjxXtk2.csv"
+      }
+    ]
+  }
 }

@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q50186",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François Couperin"
       }
     ]
   },
@@ -181,13 +182,135 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bHzuA4nb",
+        "type": "item",
+        "label": "Couperin's Werke. 1,1: Clavierstücke : livre I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076926199707356.gif"
+        }
+      },
+      {
+        "id": "aw3Ufoxw",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290521.gif"
+        }
+      },
+      {
+        "id": "SjjfyqFL",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      },
+      {
+        "id": "UiyQ547m",
+        "type": "item",
+        "label": "Pièces d'orgue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901172525.gif"
+        }
+      },
+      {
+        "id": "nkjvrrZM",
+        "type": "item",
+        "label": "François Couperin: Musik für cembalo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-VU15216.gif"
+        }
+      },
+      {
+        "id": "koqkCDDx",
+        "type": "item",
+        "label": "Les chérubins : pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920177.gif"
+        }
+      },
+      {
+        "id": "h2aQvRWc",
+        "type": "item",
+        "label": "Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-18839.gif"
+        }
+      },
+      {
+        "id": "CKzuDRNQ",
+        "type": "item",
+        "label": "La Bourbonnaise",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p9.gif"
+        }
+      },
+      {
+        "id": "CKzuDRNQ",
+        "type": "item",
+        "label": "La Bourbonnaise",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p9.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "MYrDfGsq",
+        "type": "item",
+        "label": "L'art de toucher le clavecin",
+        "description": "book by François Couperin"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "François_Couperin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Z5NoBG6x.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Z5NoBG6x.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Z5NoBG6x.csv"
       }
     ]
   }

@@ -1,0 +1,87 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9kNA9gg5 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:59RimmuX,
+        faamentity:9dz9ydpz,
+        faamentity:DS9HvPwY,
+        faamentity:EgH6igGS,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:fPsPgkcQ,
+        faamentity:gSHSbZQr,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:8Ki8U5U4,
+        faamentity:A4NPbBsi,
+        faamentity:VMA2AmEN,
+        faamentity:WuWcWk4u ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:MEjPi9ot,
+        faamentity:Z5LXHFLR,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ddx923Ut,
+        faamentity:DnCFCwbG,
+        faamentity:MCiewpqP ;
+    schema1:hasPart faamentity:fzpmA8rz ;
+    schema1:identifier "16002773"^^xsd:string,
+        "9kNA9gg5"^^xsd:string,
+        "KCA-030902645172"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12984815/N"^^schema1:url ;
+    skos:prefLabel "[Convoluut]"^^xsd:string ;
+    wd:P217 "MM-KA-OLVKA-archief-554"^^xsd:string ;
+    wd:P870 faamentity:4AUBYBXJ,
+        faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:5yLc7bQJ,
+        faamentity:GCEGkwjT,
+        faamentity:L2scRLou,
+        faamentity:MFQUhgoe,
+        faamentity:MV3uErvy,
+        faamentity:N3AKKugd,
+        faamentity:RXg4snEH,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG,
+        faamentity:ZzdCbB2M .
+
+schema1:contributor a rdf:predicate .
+
+"9kNA9gg5-5cfeb215-45e2-4515-a4a9-1eb1937ef963"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"9kNA9gg5-ae34f384-0841-490f-ab70-96e7bbe30c8a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"9kNA9gg5-c0a0d25d-a731-4b18-ad8f-38870aecce4b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Ddx923Ut a rdf:object .
+
+faamentity:DnCFCwbG a rdf:object .
+
+faamentity:MCiewpqP a rdf:object .
+

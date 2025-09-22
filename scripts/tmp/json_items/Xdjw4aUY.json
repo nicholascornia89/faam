@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1373421",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Eugène Anthiome"
       }
     ]
   },
@@ -173,13 +174,89 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iZ8gTmXo",
+        "type": "item",
+        "label": "Chant d'Avril",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p17.gif"
+        }
+      },
+      {
+        "id": "iZ8gTmXo",
+        "type": "item",
+        "label": "Chant d'Avril",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p17.gif"
+        }
+      },
+      {
+        "id": "EL5rn2vs",
+        "type": "item",
+        "label": "Si vous n'avez rien a me dire. Chanson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p39.gif"
+        }
+      },
+      {
+        "id": "EL5rn2vs",
+        "type": "item",
+        "label": "Si vous n'avez rien a me dire. Chanson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p39.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "CjaU562n",
+        "type": "item",
+        "label": "Maurice Ravel",
+        "description": "French composer (1875-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maurice_Ravel_1925.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Eugène_Anthiome_1900.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Xdjw4aUY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Xdjw4aUY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Xdjw4aUY.csv"
       }
     ]
   }

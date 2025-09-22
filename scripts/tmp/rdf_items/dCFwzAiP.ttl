@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dCFwzAiP a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "English music publishing company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124846558>,
+        "16002344"^^xsd:string,
+        "dCFwzAiP"^^xsd:string ;
+    skos:altLabel "Edwin Ashdown Ltd"^^xsd:string ;
+    skos:prefLabel "Edwin Ashdown Ltd"^^xsd:string ;
+    wd:P214 viaf:3914159035166401380005 ;
+    wd:P31 faamentity:2fXfbLCV .
+

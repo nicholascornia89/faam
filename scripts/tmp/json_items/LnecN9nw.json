@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q993942",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cieplice Śląskie-Zdrój"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3101367"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "JRTTuQvY",
+        "label": "Poland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "h4DJaA7D",
+        "type": "item",
+        "label": "Adolf von Henselt",
+        "description": "German composer and pianist (1814–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_von_Henselt_-_portrait.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LnecN9nw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LnecN9nw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LnecN9nw.csv"
+      }
+    ]
+  }
 }

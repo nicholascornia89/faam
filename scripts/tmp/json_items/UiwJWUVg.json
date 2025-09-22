@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,20 +76,23 @@
     "provenance": [
       {
         "type": "item",
-        "value": "TrYWxDhL"
+        "value": "TrYWxDhL",
+        "label": "Orpheus Institute"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "jvhZafsd"
+        "value": "jvhZafsd",
+        "label": "piano cycle"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -99,7 +104,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -111,13 +117,15 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Adolf Jensen"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -135,6 +143,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/ORP-20143702p3/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UiwJWUVg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UiwJWUVg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UiwJWUVg.csv"
       }
     ]
   }

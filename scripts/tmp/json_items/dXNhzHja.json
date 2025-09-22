@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q159631",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Württemberg"
       }
     ],
     "aliases": [
@@ -57,6 +58,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "h8iz26mY",
+        "type": "item",
+        "label": "Friedrich Wilhelm Arnold",
+        "description": "German musician and publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Friedrich_Wilhelm_Arnold.tif/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png"
+        }
+      },
+      {
+        "id": "Mx377MbJ",
+        "type": "item",
+        "label": "Julius Benedict",
+        "description": "German-born composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sir_Julius_Benedict.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dXNhzHja.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dXNhzHja.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dXNhzHja.csv"
+      }
+    ]
+  }
 }

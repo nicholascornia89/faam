@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q202059",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "London Borough of Lambeth"
       }
     ],
     "aliases": [
@@ -62,8 +63,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "3333163"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "6HW3UYSA",
+        "type": "item",
+        "label": "King's College London",
+        "description": "public research university in London, United Kingdom"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5tyX2KSm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5tyX2KSm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5tyX2KSm.csv"
+      }
+    ]
+  }
 }

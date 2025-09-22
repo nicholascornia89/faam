@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q156080",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Opava"
       }
     ],
     "aliases": [
@@ -58,8 +59,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3068927"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "XWQcePaU",
+        "label": "Margraviate of Moravia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "X6UPfrRz",
+        "type": "item",
+        "label": "Felix Woyrsch",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Woyrsch.jpg"
+        }
+      },
+      {
+        "id": "EjCZCpgM",
+        "type": "item",
+        "label": "Maximilian Eschig",
+        "description": "Czech-born French music publisher (1872-1927)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "B3o3EKWs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "B3o3EKWs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "B3o3EKWs.csv"
+      }
+    ]
+  }
 }

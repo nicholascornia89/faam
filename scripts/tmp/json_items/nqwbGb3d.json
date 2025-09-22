@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1059546",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lycée Louis-le-Grand"
       }
     ],
     "aliases": [
@@ -82,6 +83,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Hgxretvk",
+        "type": "item",
+        "label": "Charles-Wilfrid de Bériot",
+        "description": "French pianist and composer (1833-1914)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg"
+        }
+      },
+      {
+        "id": "GFYMUaVf",
+        "type": "item",
+        "label": "François Bernier",
+        "description": "French physician and traveller",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nqwbGb3d.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nqwbGb3d.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nqwbGb3d.csv"
+      }
+    ]
+  }
 }

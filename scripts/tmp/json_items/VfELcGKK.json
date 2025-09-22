@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q227484",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "piano four hands"
       }
     ],
     "aliases": [
@@ -51,6 +52,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "d9Mej7oi",
+        "type": "item",
+        "label": "Ouverture des Fêtes d'Hébé : ballet de Rameau / arrangée pour piano à 4 mains par Charles Poisot",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43222474s.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VfELcGKK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VfELcGKK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VfELcGKK.csv"
+      }
+    ]
+  }
 }

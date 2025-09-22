@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:75gzAyEU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1545-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:RaQ7zWuA ;
+    schema1:deathDate "1607-09-10"^^xsd:string ;
+    schema1:deathPlace faamentity:RaQ7zWuA ;
+    schema1:description "Italian composer and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q445581>,
+        "0"^^xsd:string,
+        "75gzAyEU"^^xsd:string ;
+    skos:prefLabel "Luzzasco Luzzaschi"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:24787818 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:Wy7KsgFQ,
+        faamentity:fd5N8LtJ ;
+    wd:P839 <https://imslp.org/wiki/Category:Luzzaschi,_Luzzasco> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:PGamAZRD,
+        faamentity:Ygb8LLjd .
+

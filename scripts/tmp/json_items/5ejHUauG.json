@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2054960",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "partimento"
       }
     ],
     "aliases": [
@@ -51,6 +52,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HSztKT9S",
+        "type": "item",
+        "label": "Partimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall'editore dedicata",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-42984522m.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5ejHUauG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5ejHUauG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5ejHUauG.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VsAY6UsF a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1806-01-09"^^xsd:string ;
+    schema1:birthPlace faamentity:fxdbyu58 ;
+    schema1:deathDate "1883-11-03"^^xsd:string ;
+    schema1:deathPlace faamentity:SsnKEgXK ;
+    schema1:description "dom kapellmeister (1806–1883)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q131696805>,
+        "16005018"^^xsd:string,
+        "VsAY6UsF"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Staphan Lück"^^xsd:string,
+        "Stephan Lück"^^xsd:string ;
+    skos:prefLabel "Stephan Lück"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:309561399 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30022191> ;
+    wd:P839 <https://imslp.org/wiki/Category:Lück,_Stephan> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:PUmeYeCQ,
+        faamentity:ZdRr9AgE .
+

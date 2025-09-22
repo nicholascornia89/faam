@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UZmNdakp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:BkX9pctu,
+        faamentity:GZ7PUYBw ;
+    schema1:identifier "16005361"^^xsd:string,
+        "ORP-20143703p2"^^xsd:string,
+        "UZmNdakp"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Le Retour de la Fauvette"^^xsd:string ;
+    skosref:related faamentity:ky3vXHxz ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"UZmNdakp-16ece979-7546-4104-9e4c-71100eae1c68"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"UZmNdakp-b2c19fbc-6344-445e-a989-7f8f5c10af92"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"UZmNdakp-d9fb7a09-ed02-4580-b24c-e629fa600445"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:GZ7PUYBw a rdf:object .
+

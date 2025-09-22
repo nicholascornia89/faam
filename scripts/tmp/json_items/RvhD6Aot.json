@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1753370",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "curate"
       }
     ],
     "aliases": [
@@ -47,6 +48,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eBBeJbhZ",
+        "type": "item",
+        "label": "Pieter Benoit",
+        "description": "Belgian priest and teacher (1820-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "cgea6nA8",
+        "type": "item",
+        "label": "Bernardus Nachtergaele",
+        "description": "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernard_Nachtergaele,_PA03099.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RvhD6Aot.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RvhD6Aot.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RvhD6Aot.csv"
+      }
+    ]
+  }
 }

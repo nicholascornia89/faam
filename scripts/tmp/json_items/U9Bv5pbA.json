@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q240240",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Symphony No. 5"
       }
     ]
   },
@@ -89,6 +90,81 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3fVEC7NN",
+        "type": "item",
+        "label": "Symphony No. 5, I: Trauermarsch",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768457.gif"
+        }
+      },
+      {
+        "id": "egt99ZLh",
+        "type": "item",
+        "label": "Symphony No. 5, II: Stürmisch bewegt, mit größter Vehemenz",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768493.gif"
+        }
+      },
+      {
+        "id": "Xg9FB5Mu",
+        "type": "item",
+        "label": "Symphony No. 5, III: Scherzo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768561.gif"
+        }
+      },
+      {
+        "id": "WxRTBPRp",
+        "type": "item",
+        "label": "Symphony No. 5, IV: Adagietto",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768565.gif"
+        }
+      },
+      {
+        "id": "ThaVNcM5",
+        "type": "item",
+        "label": "Symphony No. 5, V: Rondo-Finale",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768530.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "U9Bv5pbA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "U9Bv5pbA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "U9Bv5pbA.csv"
+      }
+    ]
+  }
 }

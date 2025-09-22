@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q9822",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Breda"
       }
     ],
     "aliases": [
@@ -54,8 +55,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2758400"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "kH9t4qTQ",
+        "type": "item",
+        "label": "Koninklijke Militaire Academie",
+        "description": "Royal Military Academy in Breda, the Netherlands"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XnLmEobs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XnLmEobs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XnLmEobs.csv"
+      }
+    ]
+  }
 }

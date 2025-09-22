@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HS9jsWgz a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who provides voice-overs for a character in films, animation, video games, or in other media"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2405480>,
+        "0"^^xsd:string,
+        "HS9jsWgz"^^xsd:string ;
+    skos:altLabel "dubbing actor"^^xsd:string,
+        "vocal actor"^^xsd:string,
+        "vocal actress"^^xsd:string,
+        "vocal artist"^^xsd:string,
+        "voice actress"^^xsd:string,
+        "voice artist"^^xsd:string,
+        "voice-over artist"^^xsd:string,
+        "voice-over performer"^^xsd:string,
+        "voiceover artist"^^xsd:string ;
+    skos:prefLabel "voice actor"^^xsd:string .
+

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q336692",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rodolphe Kreutzer"
       }
     ]
   },
@@ -184,13 +185,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mEUo8ZXS",
+        "type": "item",
+        "label": "Charles Philippe Lafont",
+        "description": "French violinist and composer (1781–1839)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Charles_Philippe_Lafont_by_Pierre-Roch_Vigneron.jpg"
+        }
+      },
+      {
+        "id": "6iRRnpYK",
+        "type": "item",
+        "label": "Lambert Massart",
+        "description": "Classical violinist (1811–1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lambert_Joseph_Massart_by_Felix_Lacour.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Rodolphe_Kreutzer_by_Riedel.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3jkeFpDj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3jkeFpDj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3jkeFpDj.csv"
       }
     ]
   }

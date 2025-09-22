@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3dpaS8c9 a rdfs:Resource ;
+    faamprop:related_to faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1812-03-01"^^xsd:string ;
+    schema1:birthPlace faamentity:T4a8frFq ;
+    schema1:deathDate "1896-06-09"^^xsd:string ;
+    schema1:deathPlace faamentity:2MVFnAod ;
+    schema1:description "French university teacher and flutist (1812-1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q743998>,
+        "16003983"^^xsd:string,
+        "3dpaS8c9"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n,
+        faamentity:QbfXawnE ;
+    skos:altLabel "Louis Dorus"^^xsd:string ;
+    skos:prefLabel "Louis Dorus"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:MV3uErvy ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:80354448 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Dorus,_Louis> ;
+    schema:hasOccupation faamentity:9jaW5gj6,
+        faamentity:Pk3ci3FT .
+

@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HTcAGdbU a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:J6ERsasy,
+        faamentity:LiFYdNgN,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:4Ug7EdNp,
+        faamentity:FSduWvy5,
+        faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ccyebwyo,
+        faamentity:QhRQ5LW9,
+        faamentity:aNPQBeDQ,
+        faamentity:i3Be6vZK ;
+    schema1:identifier "15992684"^^xsd:string,
+        "HTcAGdbU"^^xsd:string,
+        "KCG-000332208"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000332208"^^schema1:url ;
+    skos:prefLabel "Suite pour luth : Transcrite pour clavecin"^^xsd:string ;
+    wd:P217 "DS-1478"^^xsd:string ;
+    wd:P870 faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"HTcAGdbU-0e22003c-2e70-4a49-a86c-d4083ef71314"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"HTcAGdbU-10bcb21c-d9dd-4373-902f-e23c9b9a8646"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HTcAGdbU-3a34524f-3126-4dbe-844f-42cc1f0d1ddd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"HTcAGdbU-deeea73b-1a8a-45ac-8121-385b31ec38da"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:Ccyebwyo a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:aNPQBeDQ a rdf:object .
+
+faamentity:i3Be6vZK a rdf:object .
+

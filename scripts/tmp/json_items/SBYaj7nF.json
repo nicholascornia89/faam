@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,86 +74,104 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "HXG9NWiG"
+        "value": "HXG9NWiG",
+        "label": "bowing"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "oPdg4LDz"
+        "value": "oPdg4LDz",
+        "label": "slur"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "YWfofDz3"
+        "value": "YWfofDz3",
+        "label": "bounding"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "mWJuSmyV"
+        "value": "mWJuSmyV",
+        "label": "guitar music"
       },
       {
         "type": "item",
-        "value": "65rhe5Po"
+        "value": "65rhe5Po",
+        "label": "concerto"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "g7hgtzmM"
+        "value": "g7hgtzmM",
+        "label": "orchestra"
       },
       {
         "type": "item",
-        "value": "2pgcwfpN"
+        "value": "2pgcwfpN",
+        "label": "classical guitar"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "bE9Zuipi"
+        "value": "bE9Zuipi",
+        "label": "Guitar Concerto No.1, Op.30"
       }
     ],
     "agent": [
@@ -162,7 +182,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -174,7 +195,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Mauro Giuliani"
       },
       {
         "type": "statement",
@@ -183,7 +205,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -195,7 +218,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -204,7 +228,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -216,21 +241,25 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Ennio Porrino"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       }
     ],
     "place": []
@@ -248,6 +277,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030904183586/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SBYaj7nF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SBYaj7nF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SBYaj7nF.csv"
       }
     ]
   }

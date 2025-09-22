@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q28",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hungary"
       }
     ],
     "aliases": [
@@ -64,6 +65,159 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "KhN7hGqf",
+        "type": "item",
+        "label": "Stephen Heller",
+        "description": "Classical pianist and composer (1813–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Stephen_Heller_by_Charles_Vogt.jpg"
+        }
+      },
+      {
+        "id": "7xnazpfU",
+        "type": "item",
+        "label": "David Popper",
+        "description": "Bohemian cellist and composer (1843–1913)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "David_Popper_ca._1860.jpg"
+        }
+      },
+      {
+        "id": "RjvWVtgw",
+        "type": "item",
+        "label": "Béla Bartók",
+        "description": "Hungarian composer and pianist (1881–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartók_Béla_1927.jpg"
+        }
+      },
+      {
+        "id": "XhnHScid",
+        "type": "item",
+        "label": "Ernst Ferand",
+        "description": "Hungarian musicologist (1887-1972)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "TL9nMKLw",
+        "type": "item",
+        "label": "Joseph Joachim",
+        "description": "Hungarian violinist, composer, and teacher (1831–1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Joachim.jpg"
+        }
+      },
+      {
+        "id": "GQV7k7JN",
+        "type": "item",
+        "label": "Mátyás Seiber",
+        "description": "British-Hungarian composer (1905–1960)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mátyás_Seiber.jpg"
+        }
+      },
+      {
+        "id": "Qwm9Ch6L",
+        "type": "item",
+        "label": "László Erkel",
+        "description": "Hungarian pianist and conductor (1845-1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Erkel_László_és_felesége.jpg"
+        }
+      },
+      {
+        "id": "99uNaNRM",
+        "type": "item",
+        "label": "István Thomán",
+        "description": "(1862–1940 classical pianist, piano teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thomán_István.jpg"
+        }
+      },
+      {
+        "id": "P93DUFe7",
+        "type": "item",
+        "label": "Hans Richter",
+        "description": "Austrian-Hungarian orchestral and operatic conductor (1843-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hans_Richter_portrait_photo.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "jRhzWGcf",
+        "type": "item",
+        "label": "Budapest",
+        "description": "capital and largest city of Hungary"
+      },
+      {
+        "id": "DbwW2oA4",
+        "type": "item",
+        "label": "Pest",
+        "description": "eastern part of Budapest, Hungary, former independent city (–1873)"
+      },
+      {
+        "id": "HXU5jfkq",
+        "type": "item",
+        "label": "Budapest District XI",
+        "description": "district in Budapest"
+      },
+      {
+        "id": "iQLjhyLN",
+        "type": "item",
+        "label": "Buda",
+        "description": "western part of Budapest, Hungary, former independent city"
+      },
+      {
+        "id": "c7kbySiv",
+        "type": "item",
+        "label": "Győr",
+        "description": "city in Győr-Moson-Sopron County, Hungary"
+      },
+      {
+        "id": "dz3BLQBv",
+        "type": "item",
+        "label": "Békésszentandrás",
+        "description": "village in Hungary"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nXdVQz6m.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nXdVQz6m.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nXdVQz6m.csv"
+      }
+    ]
+  }
 }

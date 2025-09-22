@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1619820",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Beniamino Cesi"
       }
     ]
   },
@@ -175,13 +176,69 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RuR2W36G",
+        "type": "item",
+        "label": "Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-12107.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "6NihvnWd",
+        "type": "item",
+        "label": "Ruggero Leoncavallo",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Zonder_titel_PK-F-MM.5862_-_recto.tiff"
+        }
+      },
+      {
+        "id": "JUoAzdmd",
+        "type": "item",
+        "label": "Giuseppe Martucci",
+        "description": "Italian musician (1856-1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Martucci_(1856).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Beniamino_Cesi.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PoskEMCE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PoskEMCE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PoskEMCE.csv"
       }
     ]
   }

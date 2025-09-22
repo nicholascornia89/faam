@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eHYWo9ba a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "transfer of the meaning of something in one language into another"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7553>,
+        "15992182"^^xsd:string,
+        "eHYWo9ba"^^xsd:string ;
+    skos:altLabel "translate"^^xsd:string,
+        "translating"^^xsd:string,
+        "translation"^^xsd:string ;
+    skos:prefLabel "translation"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap ;
+    wd:P279 faamentity:KFDFWCUW,
+        faamentity:dRr7D2hh,
+        faamentity:ehu7vkfS ;
+    wd:P31 faamentity:8ayB2PX8,
+        faamentity:C3ihsgMy,
+        faamentity:LdSdkjFh,
+        faamentity:jm9Ur3gb .
+

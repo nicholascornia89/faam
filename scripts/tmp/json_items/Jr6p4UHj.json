@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2680952",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rotterdam"
       }
     ],
     "aliases": [
@@ -68,8 +69,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "NL"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Jr6p4UHj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Jr6p4UHj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Jr6p4UHj.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MYrDfGsq a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Z5NoBG6x ;
+    schema1:description "book by François Couperin"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3817964>,
+        "16002119"^^xsd:string,
+        "MYrDfGsq"^^xsd:string ;
+    skos:altLabel "L'art de toucher le clavecin"^^xsd:string ;
+    skos:prefLabel "L'art de toucher le clavecin"^^xsd:string ;
+    wd:P214 viaf:185250979 ;
+    wd:P7937 faamentity:NjSVdz7G,
+        faamentity:RHxmTGG2 ;
+    wd:P839 <https://imslp.org/wiki/L'Art_de_toucher_le_clavecin_(Couperin,_François)> .
+

@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QsmFbkdg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Yj5tRovx ;
+    schema1:birthDate "1823-01-03"^^xsd:string ;
+    schema1:birthPlace faamentity:SZmbDghY ;
+    schema1:deathDate "1881-01-30"^^xsd:string ;
+    schema1:deathPlace faamentity:hqLX34X7 ;
+    schema1:description "Belgian musician (1823–1881)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q712718>,
+        "15995990"^^xsd:string,
+        "QsmFbkdg"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Jaak Nikolas Lemmens"^^xsd:string,
+        "Jacques-Nicolas Lemmens"^^xsd:string ;
+    skos:prefLabel "Jacques-Nicolas Lemmens"^^xsd:string ;
+    wd:P108 faamentity:Yj5tRovx ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:54277272 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30019601> ;
+    wd:P737 faamentity:4tDcUzEt,
+        faamentity:F7UHqgWH ;
+    wd:P839 <https://imslp.org/wiki/Category:Lemmens,_Jacques-Nicolas> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZToG4HWQ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "street in Augsburg, Bayern, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q100464995>,
+        "15996268"^^xsd:string,
+        "ZToG4HWQ"^^xsd:string ;
+    skos:altLabel "Otto-Nicolai-Straße"^^xsd:string ;
+    skos:prefLabel "Otto Nicolai"^^xsd:string,
+        "Otto-Nicolai-Straße"^^xsd:string ;
+    wd:P31 faamentity:EMsHWpT3 .
+

@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -77,68 +79,82 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       },
       {
         "type": "item",
-        "value": "59RimmuX"
+        "value": "59RimmuX",
+        "label": "arco"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "Z8fp8xPh"
+        "value": "Z8fp8xPh",
+        "label": "pizzicato"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "kmMxdth8"
+        "value": "kmMxdth8",
+        "label": "bar number"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "kyU4WddT"
+        "value": "kyU4WddT",
+        "label": "hymn"
       },
       {
         "type": "item",
-        "value": "hCL8ZYQY"
+        "value": "hCL8ZYQY",
+        "label": "symphonic music"
       },
       {
         "type": "item",
-        "value": "dtY3aub7"
+        "value": "dtY3aub7",
+        "label": "vocal music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       },
       {
         "type": "item",
-        "value": "g7hgtzmM"
+        "value": "g7hgtzmM",
+        "label": "orchestra"
       }
     ],
     "musical work": [],
@@ -150,19 +166,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "8LdweD7c"
+            "value": "8LdweD7c",
+            "label": "Ghent"
           },
           {
             "type": "date",
             "property": "date",
             "value": "25-01-1846"
           }
-        ]
+        ],
+        "label": "Karel Miry"
       },
       {
         "type": "statement",
@@ -171,7 +190,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -183,23 +203,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Martin-Joseph Mengal"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "8LdweD7c"
+        "value": "8LdweD7c",
+        "label": "Ghent"
       }
     ]
   },
@@ -216,6 +240,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000357175/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "P8izEtpf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "P8izEtpf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "P8izEtpf.csv"
       }
     ]
   }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q33470616",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oudewater"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2748979"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PqPMpBAn",
+        "type": "item",
+        "label": "Marius van 't Kruijs",
+        "description": "Dutch composer (1861–1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Marius_van_'t_Kruijs.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BMRFdau4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BMRFdau4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BMRFdau4.csv"
+      }
+    ]
+  }
 }

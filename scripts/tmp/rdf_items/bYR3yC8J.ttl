@@ -1,0 +1,53 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bYR3yC8J a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1947"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:jArGUTgq ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:QhRQ5LW9,
+        faamentity:RVP3W8u4,
+        faamentity:UtTjocXZ ;
+    schema1:identifier "16002814"^^xsd:string,
+        "KCA-030903204235"^^xsd:string,
+        "bYR3yC8J"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12886416/N"^^schema1:url ;
+    skos:prefLabel "Introduction à J.-S. Bach: essai d'esthétique musicale"^^xsd:string ;
+    wd:P217 "MM-ES-SCHLO-introdu-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"bYR3yC8J-b1c25e0a-8650-4dca-92ed-a655cec0ea7d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"bYR3yC8J-c6e5e443-4a68-4ab1-b256-2214c8716c05"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"bYR3yC8J-d17fb265-ba5b-4935-b9b2-fbd06bd0317e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1947"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:RVP3W8u4 a rdf:object .
+
+faamentity:UtTjocXZ a rdf:object .
+

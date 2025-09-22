@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6nXvBM7k a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:XtPVttT2 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "term used in musical notation to indicate a very low degree of sound intensity"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q953127>,
+        "15992196"^^xsd:string,
+        "6nXvBM7k"^^xsd:string ;
+    skos:altLabel "pianissimo"^^xsd:string ;
+    skos:prefLabel "pianissimo"^^xsd:string ;
+    wd:P1535 faamentity:2ZAuwsSp,
+        faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:Tf4mT79v ;
+    wd:P31 faamentity:N2f5NSgz .
+

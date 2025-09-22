@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DqjrpnzV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1778-01-06"^^xsd:string ;
+    schema1:birthPlace faamentity:iGVKUSeh ;
+    schema1:deathDate "1845-03-13"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French dramatist and politician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2277482>,
+        "15995904"^^xsd:string,
+        "DqjrpnzV"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Charles Guillaume Étienne"^^xsd:string,
+        "Charles-Guillaume Etienne"^^xsd:string,
+        "Charles-Guillaume Étienne"^^xsd:string ;
+    skos:prefLabel "Charles-Guillaume Étienne"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7389876 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/152304> ;
+    wd:P839 <https://imslp.org/wiki/Category:Étienne,_Charles_Guillaume> ;
+    schema:hasOccupation faamentity:GGT77UPW,
+        faamentity:HFXn6pSD,
+        faamentity:MWj4YCrh,
+        faamentity:T7iHQfvz,
+        faamentity:gLanGdJR .
+

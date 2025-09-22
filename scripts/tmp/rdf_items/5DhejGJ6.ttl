@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5DhejGJ6 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mfP6VeEX ;
+    schema1:birthDate "1857-06-02"^^xsd:string ;
+    schema1:birthPlace faamentity:Bq3Ruwuq ;
+    schema1:deathDate "1934-02-23"^^xsd:string ;
+    schema1:deathPlace faamentity:b5w3t6xN ;
+    schema1:description "English composer (1857-1934)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q179631>,
+        "16005326"^^xsd:string,
+        "5DhejGJ6"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV,
+        faamentity:MGBpLC55 ;
+    skos:altLabel "Edward Elgar"^^xsd:string,
+        "Edward William Elgar"^^xsd:string ;
+    skos:prefLabel "Edward Elgar"^^xsd:string ;
+    wd:P108 faamentity:oFgBBgba ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:76499978 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/45128> ;
+    wd:P737 faamentity:n8vdphJi ;
+    wd:P839 <https://imslp.org/wiki/Category:Elgar,_Edward> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf .
+

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q329443",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jules Van Nuffel"
       }
     ]
   },
@@ -178,13 +179,175 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "WyeWqztp",
+        "type": "item",
+        "label": "Missa sine nomine (in F) quam quatuor vocibus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM66159.gif"
+        }
+      },
+      {
+        "id": "npJCP9E2",
+        "type": "item",
+        "label": "Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM165637.gif"
+        }
+      },
+      {
+        "id": "HkJ7xztX",
+        "type": "item",
+        "label": "Philippi de Monte. VIII Magnificat",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte23.gif"
+        }
+      },
+      {
+        "id": "2hxuo8JZ",
+        "type": "item",
+        "label": "Philippi de Monte. Motetum \"O bone Jesu\" tripartitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OM.deMonte24.gif"
+        }
+      },
+      {
+        "id": "b9uqSRn7",
+        "type": "item",
+        "label": "Philippi de Monte. Missa \"Sine nomine\" 6 vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte21.gif"
+        }
+      },
+      {
+        "id": "P8ZXC9MF",
+        "type": "item",
+        "label": "Philippi de Monte. Missa \"Sine nomine\". quamocto vocibus conscriptam",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte22.gif"
+        }
+      },
+      {
+        "id": "RLxe32mJ",
+        "type": "item",
+        "label": "Missa in honorem S. Joseph. Ad tres voces aequales a cappella. Opus 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502001.gif"
+        }
+      },
+      {
+        "id": "5NjWHo7R",
+        "type": "item",
+        "label": "Missa in honorem Sanctae Lutgardis",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502004.gif"
+        }
+      },
+      {
+        "id": "JxLYEGzp",
+        "type": "item",
+        "label": "Duo cantus mariani. Ad quatuor voces inaequales comitante organo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502031.gif"
+        }
+      },
+      {
+        "id": "YKdJ8GiQ",
+        "type": "item",
+        "label": "Immaculata conceptio est hodie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502032.gif"
+        }
+      },
+      {
+        "id": "ffgYmBwo",
+        "type": "item",
+        "label": "Electa mea. Responsorium ex officio Imm. Conc. B.M.V.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502033.gif"
+        }
+      },
+      {
+        "id": "2YZND2hC",
+        "type": "item",
+        "label": "Sicut cedrus. Responsorium II Nocturni in officio B.M. Virginis.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502034.gif"
+        }
+      },
+      {
+        "id": "Sr3b5V4v",
+        "type": "item",
+        "label": "Missa Paschalis",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502035.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "2BmcW9yN",
+        "type": "item",
+        "label": "O bone Jesu",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jules_Van_Nuffel.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "T4vPoxnM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "T4vPoxnM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "T4vPoxnM.csv"
       }
     ]
   }

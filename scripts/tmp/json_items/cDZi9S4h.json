@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q60847808",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint-Germain-en-Laye"
       }
     ],
     "aliases": [
@@ -60,8 +61,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2979783"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8K3yJASt",
+        "type": "item",
+        "label": "Claude Debussy",
+        "description": "French classical composer (1862–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Debussy_by_Atelier_Nadar.jpg"
+        }
+      },
+      {
+        "id": "QDP83SXs",
+        "type": "item",
+        "label": "Jan Ladislav Dussek",
+        "description": "Czech composer and pianist (1760–1812)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jan_Ladislav_Dussek.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cDZi9S4h.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cDZi9S4h.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cDZi9S4h.csv"
+      }
+    ]
+  }
 }

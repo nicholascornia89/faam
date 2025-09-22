@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TPCAgtpj a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:ZYMA7a9i ;
+    schema1:birthDate "1835-01-18"^^xsd:string ;
+    schema1:birthPlace faamentity:KRRrSBnR ;
+    schema1:deathDate "1918-03-13"^^xsd:string ;
+    schema1:deathPlace faamentity:AzqRtNds ;
+    schema1:description "Russian composer and army officer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q208546>,
+        "16002361"^^xsd:string,
+        "TPCAgtpj"^^xsd:string ;
+    schema1:nationality faamentity:CaPmHone,
+        faamentity:WKTLcAet ;
+    skos:altLabel "Cesar Cui"^^xsd:string,
+        "César Antonovich Cui"^^xsd:string,
+        "César Antonovitch Cui"^^xsd:string,
+        "César Cui"^^xsd:string,
+        "Cézar Antonovic Cui"^^xsd:string,
+        "Tsezar Antonovich Kyui"^^xsd:string,
+        "Tsezar Kyui"^^xsd:string,
+        "Zesar Kjui"^^xsd:string ;
+    skos:prefLabel "César Cui"^^xsd:string ;
+    wd:P108 faamentity:JZz8LTn9 ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:37101399 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/41007359> ;
+    wd:P737 faamentity:YgFSCMaH ;
+    wd:P839 <https://imslp.org/wiki/Category:Cui,_César> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

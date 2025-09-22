@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q172",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Toronto"
       }
     ],
     "aliases": [
@@ -96,8 +97,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "CA"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "6ipjmaTm",
+        "label": "Canada"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "PmoGKNnr",
+        "type": "item",
+        "label": "University of Toronto Libraries",
+        "description": "library system of the University of Toronto"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3M3RTF8D.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3M3RTF8D.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3M3RTF8D.csv"
+      }
+    ]
+  }
 }

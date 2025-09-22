@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q948347",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Baptiste Rey"
       }
     ]
   },
@@ -148,13 +149,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4tDcUzEt",
+        "type": "item",
+        "label": "François-Joseph Fétis",
+        "description": "Belgian composer (1784-1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg"
+        }
+      },
+      {
+        "id": "NZyRvv74",
+        "type": "item",
+        "label": "Henri Montan Berton",
+        "description": "French composer, teacher, and writer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "HenriMontanBerton.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jean-Baptiste_Rey_after_Pierre-Narcisse_Guérin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TqkWwVK4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TqkWwVK4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TqkWwVK4.csv"
       }
     ]
   }

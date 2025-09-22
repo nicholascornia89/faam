@@ -36,14 +36,58 @@
       {
         "type": "externalid",
         "value": "Q9364297",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ubieĺ"
       }
     ],
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q184",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Belarus"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YgFSCMaH",
+        "type": "item",
+        "label": "Stanisław Moniuszko",
+        "description": "Polish composer (1819–1872)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Stanisłaŭ_Maniuška._Станіслаў_Манюшка_(T._Maleszewski,_1865).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FcFxN4KG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FcFxN4KG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FcFxN4KG.csv"
+      }
+    ]
+  }
 }

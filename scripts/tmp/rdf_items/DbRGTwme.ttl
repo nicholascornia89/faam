@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DbRGTwme a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1686-08-09"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1739-07-24"^^xsd:string ;
+    schema1:deathPlace faamentity:6krP3pJ4 ;
+    schema1:description "Italian composer, writer, advocate, magistrate, and teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q312784>,
+        "15996252"^^xsd:string,
+        "DbRGTwme"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:altLabel "Benedetto Giacomo Marcello"^^xsd:string,
+        "Benedetto Marcello"^^xsd:string ;
+    skos:prefLabel "Benedetto Marcello"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:41878404 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002070> ;
+    wd:P737 faamentity:AZWmWZa6,
+        faamentity:aAY2Vr4R ;
+    wd:P839 <https://imslp.org/wiki/Category:Marcello,_Benedetto> ;
+    schema:hasOccupation faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:WF4NSijn,
+        faamentity:Wm5MWZbA .
+

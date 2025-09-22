@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Lv4AiKXL a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:VhKF2Rpv ;
+    schema1:description "tragedy by William Shakespeare"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q83186>,
+        "16002540"^^xsd:string,
+        "Lv4AiKXL"^^xsd:string ;
+    schema1:isBasedOn faamentity:Z62new6S ;
+    skos:altLabel "An Excellent conceited Tragedie of Romeo and Iuliet"^^xsd:string,
+        "Romeo and Juliet"^^xsd:string,
+        "The Most Excellent and Lamentable Tragedy of Romeo and Juliet"^^xsd:string,
+        "The Tragedy of Romeo and Juliet"^^xsd:string ;
+    skos:prefLabel "Romeo and Juliet"^^xsd:string ;
+    wd:P214 viaf:313670221 ;
+    wd:P7937 faamentity:c8isW3Ur .
+

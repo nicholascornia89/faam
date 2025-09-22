@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j29Ku8TV a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "theatre building in Brussels, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q108313367>,
+        "16004159"^^xsd:string,
+        "j29Ku8TV"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr,
+        faamentity:QbfXawnE ;
+    skos:altLabel "Alcazar Royal"^^xsd:string,
+        "Fantaisies-Parisiennes"^^xsd:string ;
+    skos:prefLabel "Fantaisies-Parisiennes"^^xsd:string .
+

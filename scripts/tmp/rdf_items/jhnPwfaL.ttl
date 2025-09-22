@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jhnPwfaL a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1867-08-28"^^xsd:string ;
+    schema1:birthPlace faamentity:QrpzDDoA ;
+    schema1:deathDate "1948-11-12"^^xsd:string ;
+    schema1:deathPlace faamentity:6rg7mVNX ;
+    schema1:description "Italian opera composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q294826>,
+        "16005332"^^xsd:string,
+        "jhnPwfaL"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:RNVCZ5PK ;
+    skos:altLabel "Umberto Giordano"^^xsd:string,
+        "Umberto Menotti Maria Giordano"^^xsd:string ;
+    skos:prefLabel "Umberto Giordano"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12491416 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40200531> ;
+    wd:P839 <https://imslp.org/wiki/Category:Giordano,_Umberto> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

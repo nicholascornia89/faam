@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5NNGqwP9 a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1863-05-12"^^xsd:string ;
+    schema1:birthPlace faamentity:3vFtsNzx ;
+    schema1:deathDate "1952-08-18"^^xsd:string ;
+    schema1:deathPlace faamentity:kRdEMnm7 ;
+    schema1:description "French writer and musicologist (1863–1952)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3784849>,
+        "16002782"^^xsd:string,
+        "5NNGqwP9"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Henri Expert"^^xsd:string,
+        "Henry Expert"^^xsd:string ;
+    skos:prefLabel "Henri Expert"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7540387 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30107729> ;
+    wd:P839 <https://imslp.org/wiki/Category:Expert,_Henry> ;
+    schema:hasOccupation faamentity:YYyZX3aY .
+

@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ND8y2kmm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:2wahUdLH,
+        faamentity:MPDUioXR,
+        faamentity:NA5EnjbE ;
+    schema1:birthDate "1867-11-27"^^xsd:string ;
+    schema1:birthPlace faamentity:KhVqhfya ;
+    schema1:deathDate "1950-12-31"^^xsd:string ;
+    schema1:deathPlace faamentity:YtfYmmzq ;
+    schema1:description "French composer, teacher and writer on music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q72543>,
+        "0"^^xsd:string,
+        "ND8y2kmm"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Charles Koechlin"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:51953327 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/41011593> ;
+    wd:P737 faamentity:Cxd84hpG,
+        faamentity:Do7kNZLT,
+        faamentity:EzxGVoaq,
+        faamentity:h4nueHLU ;
+    wd:P839 <https://imslp.org/wiki/Category:Koechlin,_Charles> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

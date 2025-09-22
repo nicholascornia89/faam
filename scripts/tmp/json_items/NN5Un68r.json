@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q467292",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Il pirata"
       }
     ]
   },
@@ -85,6 +86,51 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jvkRr9GW",
+        "type": "item",
+        "label": "Il Pirato : Ouverture à Grand Orchestre de l' Opéra",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333898.gif"
+        }
+      },
+      {
+        "id": "iRCRmywD",
+        "type": "item",
+        "label": "Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000340395.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NN5Un68r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NN5Un68r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NN5Un68r.csv"
+      }
+    ]
+  }
 }

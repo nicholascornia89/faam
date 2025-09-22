@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3922",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Detmold"
       }
     ],
     "aliases": [
@@ -60,8 +61,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "6547480"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "adFwt7Cm",
+        "type": "item",
+        "label": "Hochschule für Musik Detmold",
+        "description": "German music conservatory in Detmold"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nc8VTXkn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nc8VTXkn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nc8VTXkn.csv"
+      }
+    ]
+  }
 }

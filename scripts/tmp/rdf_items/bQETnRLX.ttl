@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bQETnRLX a rdfs:Resource ;
+    faamprop:role faamentity:ipShXcQo ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1893-06-24"^^xsd:string ;
+    schema1:deathDate "1962-04-13"^^xsd:string ;
+    schema1:description "Belgian writer (1893-1962)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2862763>,
+        "16004310"^^xsd:string,
+        "bQETnRLX"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Eugeen De Ridder"^^xsd:string ;
+    skos:prefLabel "Eugeen De Ridder"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:HFXn6pSD .
+

@@ -1,0 +1,80 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jvkRr9GW a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:59RimmuX,
+        faamentity:CPJ2a2C2,
+        faamentity:WT9AcUBt,
+        faamentity:Z8fp8xPh,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:WtvibJFF,
+        faamentity:euCa8A2S,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:JGR5Pepj,
+        faamentity:XV4xVK7r,
+        faamentity:dqzZNPaF ;
+    schema1:hasPart faamentity:NN5Un68r ;
+    schema1:identifier "15992594"^^xsd:string,
+        "KCG-000333898"^^xsd:string,
+        "jvkRr9GW"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c,
+        faamentity:kZiDQ3Aw ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333898"^^schema1:url ;
+    skos:prefLabel "Il Pirato : Ouverture à Grand Orchestre de l' Opéra"^^xsd:string ;
+    wd:P217 "II 170"^^xsd:string ;
+    wd:P870 faamentity:U3eHszGL,
+        faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"jvkRr9GW-083d37bb-a363-4861-b158-58f7fd3d40bb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"jvkRr9GW-12441f7a-e139-4ba6-82ea-9a68b0752861"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"jvkRr9GW-575152e5-dfd7-49d2-827a-df8530c205c0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"jvkRr9GW-602a2c2b-80b0-4098-80c9-b2ed7d1af388"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:kZiDQ3Aw .
+
+"jvkRr9GW-9bdb1ca4-52c4-4a82-9a5e-9f3ab237e982"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"jvkRr9GW-b753662e-defc-46ae-aa88-3701e28db621"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:JGR5Pepj a rdf:object .
+
+faamentity:XV4xVK7r a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+

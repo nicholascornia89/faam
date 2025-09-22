@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3212892",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "La somnambule, ou L'arrivée d'un nouveau seigneur"
       }
     ]
   },
@@ -70,6 +71,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "JYfVs3ok",
+        "type": "item",
+        "label": "La sonnambula",
+        "description": "opera by Vincenzo Bellini"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SGvTHEaG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SGvTHEaG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SGvTHEaG.csv"
+      }
+    ]
+  }
 }

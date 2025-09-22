@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:628wS73C a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:hDjDJrVY ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:BkX9pctu,
+        faamentity:gzT9eGcP ;
+    schema1:identifier "16005373"^^xsd:string,
+        "628wS73C"^^xsd:string,
+        "ORP-20143703p14"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Mes Adieux, Mache Militaire"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:8dmpbmcx .
+
+schema1:contributor a rdf:predicate .
+
+"628wS73C-022d067b-ebe6-41ca-8c87-39ba4dd71d4d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"628wS73C-87a96535-2321-4587-aad0-26591aa243a8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"628wS73C-be57a022-12d1-4c48-9170-cf1ab8fb93a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:gzT9eGcP a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q281272",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Linares"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6358505"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WpczqHLb",
+        "type": "item",
+        "label": "Andrés Segovia",
+        "description": "Spanish guitarist (1893–1987)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Andrés_Segovia_(1963)_by_Erling_Mandelmann.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ij9xiXsD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ij9xiXsD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ij9xiXsD.csv"
+      }
+    ]
+  }
 }

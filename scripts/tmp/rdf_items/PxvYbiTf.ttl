@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PxvYbiTf a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1760-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1836-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French harpmaker"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q52149384>,
+        "15996227"^^xsd:string,
+        "PxvYbiTf"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Jacques Georges Cousineau"^^xsd:string ;
+    skos:prefLabel "Jacques Georges Cousineau"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56878837 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30016419> ;
+    wd:P839 <https://imslp.org/wiki/Category:Cousineau,_Jacques-Georges> ;
+    schema:hasOccupation faamentity:8EWPwxXN,
+        faamentity:KZLqHwSf,
+        faamentity:KgUWntLU,
+        faamentity:Yq5e6gJa .
+

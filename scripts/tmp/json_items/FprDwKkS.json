@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q216220",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Tausch"
       }
     ]
   },
@@ -143,13 +144,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FprDwKkS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FprDwKkS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FprDwKkS.csv"
       }
     ]
   }

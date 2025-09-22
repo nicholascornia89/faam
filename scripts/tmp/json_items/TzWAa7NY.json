@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q6941842",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "music for the Requiem Mass"
       }
     ],
     "aliases": [
@@ -87,6 +88,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "4ezAJSG4",
+        "type": "item",
+        "label": "Missa pro defunctis",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "Vk2B7k6g",
+        "type": "item",
+        "label": "Psalmodiae Vespertinae pro Defuctis",
+        "description": ""
+      },
+      {
+        "id": "aAEBC7HG",
+        "type": "item",
+        "label": "Missa pro defunctis, LV 963",
+        "description": ""
+      },
+      {
+        "id": "YLh3Fsff",
+        "type": "item",
+        "label": "Missa pro defunctis",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TzWAa7NY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TzWAa7NY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TzWAa7NY.csv"
+      }
+    ]
+  }
 }

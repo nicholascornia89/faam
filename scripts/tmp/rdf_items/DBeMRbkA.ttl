@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DBeMRbkA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:WtvibJFF ;
+    faamprop:handwritten_annotation faamentity:eHYWo9ba,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:5FBMYhj2,
+        faamentity:kpEw4ZRE ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:MGWwFDSr,
+        faamentity:MtU2oARp ;
+    schema1:hasPart faamentity:McV2xEAi ;
+    schema1:identifier "15992445"^^xsd:string,
+        "DBeMRbkA"^^xsd:string,
+        "KCA-030902357919"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12939634/N"^^schema1:url ;
+    skos:prefLabel "Sérénade de Milenka: pour ténor: (ton original)"^^xsd:string ;
+    skosref:related faamentity:ivrdot5A ;
+    wd:P217 "MM-ZL-BLOCK-serenad-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"DBeMRbkA-4731d01e-d649-4b20-96e4-186e5e6bc387"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DBeMRbkA-ab5b1815-3001-481f-9b3e-57386b443410"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"DBeMRbkA-d761a964-cd0f-4868-a81b-5569980960b8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:MGWwFDSr a rdf:object .
+
+faamentity:MtU2oARp a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q635734",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "archivist"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "aKosLwsg",
+        "type": "item",
+        "label": "Ludovico Antonio Muratori",
+        "description": "Italian priest, writer, librarian, historian and diplomat",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludovico_Antonio_Muratori.png"
+        }
+      },
+      {
+        "id": "UFBmvNB3",
+        "type": "item",
+        "label": "Charles Bouvet",
+        "description": "French musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Salle_du_Cercle_Artistique_et_Littéraire_-_Une_séance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ec4EZKQC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ec4EZKQC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ec4EZKQC.csv"
+      }
+    ]
+  }
 }

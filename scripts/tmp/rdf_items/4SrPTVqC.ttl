@@ -1,0 +1,72 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4SrPTVqC a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "18-06-1816"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt,
+        faamentity:d2uUDsVY ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:S3La3UWp,
+        faamentity:WnfHS9Lr,
+        faamentity:XV4xVK7r,
+        faamentity:mg4nbSvj ;
+    schema1:hasPart faamentity:AfCFbJ8g ;
+    schema1:identifier "15992747"^^xsd:string,
+        "4SrPTVqC"^^xsd:string,
+        "KCG-000334248"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC,
+        faamentity:kZiDQ3Aw ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334248"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour Piano & Flûte obligée : Sur la Romance de Charles de France dite Les Chevaliers de la Fidélité : Op: 78"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"4SrPTVqC-056aa569-511f-4c1e-b8a3-1e554771a0f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"4SrPTVqC-b1127003-9439-469d-9137-a0092037c5b6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "18-06-1816"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:location faamentity:GDeKaNeC .
+
+"4SrPTVqC-e51cef77-5ab4-4743-a714-9816c8f0831f"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "18-06-1816"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:location faamentity:GDeKaNeC .
+
+"4SrPTVqC-ff671033-a6da-40d3-8f56-055384a2c2b3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:kZiDQ3Aw .
+
+faamentity:S3La3UWp a rdf:object .
+
+faamentity:WnfHS9Lr a rdf:object .
+
+faamentity:XV4xVK7r a rdf:object .
+
+faamentity:mg4nbSvj a rdf:object .
+

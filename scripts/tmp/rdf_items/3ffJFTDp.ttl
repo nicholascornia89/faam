@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3ffJFTDp a rdfs:Resource ;
+    faamprop:related_to faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1787-03-01"^^xsd:string ;
+    schema1:birthPlace faamentity:bwJNdqQS ;
+    schema1:deathDate "1842-06-18"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp ;
+    schema1:description "Austrian music publisher and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2437818>,
+        "16002541"^^xsd:string,
+        "3ffJFTDp"^^xsd:string ;
+    schema1:nationality faamentity:FPDTfb7a,
+        faamentity:kyFWDzyM ;
+    skos:altLabel "Tobias Haslinger"^^xsd:string ;
+    skos:prefLabel "Tobias Haslinger"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:61747464 ;
+    wd:P31 faamentity:2fXfbLCV,
+        faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/51850> ;
+    wd:P839 <https://imslp.org/wiki/Category:Haslinger,_Tobias> ;
+    schema:hasOccupation faamentity:9joWzZuU,
+        faamentity:KZLqHwSf .
+

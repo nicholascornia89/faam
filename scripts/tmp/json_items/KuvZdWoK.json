@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q5273898",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Southwark"
       }
     ],
     "aliases": [
@@ -62,8 +63,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2637299"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "6HW3UYSA",
+        "type": "item",
+        "label": "King's College London",
+        "description": "public research university in London, United Kingdom"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KuvZdWoK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KuvZdWoK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KuvZdWoK.csv"
+      }
+    ]
+  }
 }

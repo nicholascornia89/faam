@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RrLB9o6R a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1682-04-11"^^xsd:string ;
+    schema1:birthPlace faamentity:APQePnaZ ;
+    schema1:deathDate "1738-12-20"^^xsd:string ;
+    schema1:deathPlace faamentity:3nFdp2Lm ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q960766>,
+        "16005063"^^xsd:string,
+        "RrLB9o6R"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Jean-Joseph Mouret"^^xsd:string ;
+    skos:prefLabel "Jean-Joseph Mouret"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42104905 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30004590> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mouret,_Jean-Joseph> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf .
+

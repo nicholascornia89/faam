@@ -1,0 +1,78 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AxuesXLt a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1897"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:MCVLnYka,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:WuWcWk4u,
+        faamentity:eHYWo9ba ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:8Ki8U5U4,
+        faamentity:9dz9ydpz,
+        faamentity:EgH6igGS,
+        faamentity:RePdmToB,
+        faamentity:VMA2AmEN,
+        faamentity:YWfofDz3,
+        faamentity:aCRY7SgN ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MGWwFDSr,
+        faamentity:MtU2oARp,
+        faamentity:ZZNLmpBR ;
+    schema1:hasPart faamentity:iDr4o25a ;
+    schema1:identifier "16002627"^^xsd:string,
+        "AxuesXLt"^^xsd:string,
+        "KCA-030902762449"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6792416/N"^^schema1:url ;
+    skos:prefLabel "Lied van Reinilde: voor soprano"^^xsd:string ;
+    wd:P217 "MM-ZL-BLOCK-herberg-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"AxuesXLt-2048cff5-262a-47ba-9ac1-3d62af0589d6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1897"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"AxuesXLt-2d69a4fc-4521-4dc3-b454-b4df9b3616a3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"AxuesXLt-8ba25adb-8054-44a9-8456-fb8292d93f12"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:MGWwFDSr a rdf:object .
+
+faamentity:MtU2oARp a rdf:object .
+
+faamentity:ZZNLmpBR a rdf:object .
+

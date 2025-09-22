@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q125652",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Neuburg an der Donau"
       }
     ],
     "aliases": [
@@ -68,8 +69,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6559196"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "dFu8BhS3",
+        "type": "item",
+        "label": "Regina Mingotti",
+        "description": "Italian singer and opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Raphael_Mengs_-_Catarina_Regina_Mingotti_1745.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MFmrxsjA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MFmrxsjA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MFmrxsjA.csv"
+      }
+    ]
+  }
 }

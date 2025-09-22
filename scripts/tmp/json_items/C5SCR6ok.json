@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2453259",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Surbiton"
       }
     ],
     "aliases": [
@@ -60,8 +61,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2636515"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Dv6UzThP",
+        "type": "item",
+        "label": "Robert Thurston Dart",
+        "description": "British musicologist (1921–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "ThurstonDart1961.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "C5SCR6ok.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "C5SCR6ok.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "C5SCR6ok.csv"
+      }
+    ]
+  }
 }

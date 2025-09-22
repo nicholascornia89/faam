@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q3964258",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Solduno"
       }
     ],
     "aliases": [
@@ -64,8 +65,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "CH"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WqN8iKDp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WqN8iKDp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WqN8iKDp.csv"
+      }
+    ]
+  }
 }

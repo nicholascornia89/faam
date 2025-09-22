@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q55761504",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lorenzo Perti"
       }
     ]
   },
@@ -99,13 +100,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9hBx4Z5w",
+        "type": "item",
+        "label": "Giacomo Antonio Perti",
+        "description": "Italian composer (1661-1756)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoAntonioPerti_JS.png"
+        }
+      },
+      {
+        "id": "9DdWGtU7",
+        "type": "item",
+        "label": "Petronio Franceschini",
+        "description": "Italian composer (1651-1680)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "424MQW8G.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "424MQW8G.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "424MQW8G.csv"
       }
     ]
   }

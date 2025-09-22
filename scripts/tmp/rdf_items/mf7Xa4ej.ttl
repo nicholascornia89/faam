@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mf7Xa4ej a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "presbyter of a Christian parish in general"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q955464>,
+        "15991008"^^xsd:string,
+        "mf7Xa4ej"^^xsd:string ;
+    skos:altLabel "parish priest"^^xsd:string,
+        "parson"^^xsd:string,
+        "pastor"^^xsd:string ;
+    skos:prefLabel "cartographer"^^xsd:string,
+        "parson"^^xsd:string .
+

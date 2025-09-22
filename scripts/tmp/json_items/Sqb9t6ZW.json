@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q218",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Romania"
       }
     ],
     "aliases": []
@@ -44,6 +45,37 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "city": [
+      {
+        "id": "AanV7BRD",
+        "type": "item",
+        "label": "Sânnicolau Mare",
+        "description": "town in Timiș County, Romania"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Sqb9t6ZW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Sqb9t6ZW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Sqb9t6ZW.csv"
+      }
+    ]
+  }
 }

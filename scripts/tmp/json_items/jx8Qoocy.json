@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q702259",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Elberfeld"
       }
     ],
     "aliases": [
@@ -58,8 +59,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2931276"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Cz6v87K4",
+        "type": "item",
+        "label": "Richard Hammer",
+        "description": "French violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Richard_Hammer_by_Pierre_Émile_Desmaisons.png"
+        }
+      },
+      {
+        "id": "h8iz26mY",
+        "type": "item",
+        "label": "Friedrich Wilhelm Arnold",
+        "description": "German musician and publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Friedrich_Wilhelm_Arnold.tif/lossless-page1-570px-Friedrich_Wilhelm_Arnold.tif.png"
+        }
+      },
+      {
+        "id": "NV6snRPG",
+        "type": "item",
+        "label": "Jakob Quadflieg",
+        "description": "German composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jx8Qoocy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jx8Qoocy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jx8Qoocy.csv"
+      }
+    ]
+  }
 }

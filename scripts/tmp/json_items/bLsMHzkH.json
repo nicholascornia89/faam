@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q408",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Australia"
       }
     ],
     "aliases": [
@@ -105,6 +106,83 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EbgbHucU",
+        "type": "item",
+        "label": "Nellie Melba",
+        "description": "Australian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nellie_Melba_1892.jpg"
+        }
+      },
+      {
+        "id": "VKguTzGL",
+        "type": "item",
+        "label": "Isaac Nathan",
+        "description": "Anglo-Australian composer, musicologist, journalist and self-publicist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Issac_nathan.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "mQsKWc6i",
+        "type": "item",
+        "label": "Canberra",
+        "description": "capital city of Australia"
+      },
+      {
+        "id": "HBfuGvMD",
+        "type": "item",
+        "label": "Sydney",
+        "description": "capital city of New South Wales, Australia"
+      },
+      {
+        "id": "Pnxr5Loi",
+        "type": "item",
+        "label": "Victoria",
+        "description": "state of Australia"
+      },
+      {
+        "id": "XGvsaftD",
+        "type": "item",
+        "label": "Melbourne",
+        "description": "Capital city of Victoria, Australia"
+      },
+      {
+        "id": "ktENfeJ3",
+        "type": "item",
+        "label": "Richmond",
+        "description": "city in Victoria, Australia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bLsMHzkH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bLsMHzkH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bLsMHzkH.csv"
+      }
+    ]
+  }
 }

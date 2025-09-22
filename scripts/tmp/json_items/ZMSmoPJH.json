@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q11299",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Manhattan"
       }
     ],
     "aliases": [
@@ -90,8 +91,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "5125771"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8rsqcHHY",
+        "type": "item",
+        "label": "Frank Damrosch",
+        "description": "German American conductor and music educator (1859–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "F._Damrosch_LCCN2014715142.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZMSmoPJH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZMSmoPJH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZMSmoPJH.csv"
+      }
+    ]
+  }
 }

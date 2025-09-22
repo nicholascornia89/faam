@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jmuoQADq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:SnxsnGvi,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:9KySpzpx,
+        faamentity:M9HRWrxt,
+        faamentity:MEjPi9ot,
+        faamentity:MaWnCnVw,
+        faamentity:jTMjFsDj,
+        faamentity:kyU4WddT ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:hDnxTWiE,
+        faamentity:hP2cTqH6 ;
+    schema1:hasPart faamentity:QywgMiUd ;
+    schema1:identifier "16002567"^^xsd:string,
+        "ORP-20140284f"^^xsd:string,
+        "jmuoQADq"^^xsd:string ;
+    schema1:location faamentity:jdQCCb5Y ;
+    schema1:url "https://www.cageweb.be/catalog/orp01:000004926"^^schema1:url ;
+    skos:prefLabel "Salve Regina für Sopran-solo, Frauenchor, Orchester und Orgel (ad libitum) Op. 11"^^xsd:string ;
+    wd:P217 "KTS1 C2.60 Map.021f"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:ABS5BA5Q,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"jmuoQADq-1d28ddd5-7f5d-4dfc-ab7d-a2a444129a1d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:jdQCCb5Y .
+
+"jmuoQADq-5ad9172d-7423-4ec5-a15b-6167383026f9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"jmuoQADq-c7a8bda2-08bc-42f1-a389-cdee142f024f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:hDnxTWiE a rdf:object .
+
+faamentity:hP2cTqH6 a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q194420",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "16th arrondissement of Paris"
       }
     ],
     "aliases": [
@@ -54,8 +55,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "2988394"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ND8y2kmm",
+        "type": "item",
+        "label": "Charles Koechlin",
+        "description": "French composer, teacher and writer on music",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Koechlin_1.jpg"
+        }
+      },
+      {
+        "id": "PhcJTGVF",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      },
+      {
+        "id": "kRYQgk65",
+        "type": "item",
+        "label": "Xavier Privas",
+        "description": "French singer and poet (1863–1927)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Xavier_Privas_1913.jpg"
+        }
+      },
+      {
+        "id": "eeFu6cDC",
+        "type": "item",
+        "label": "Ernest Gillet",
+        "description": "French musician and composer (1856-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "8K3yJASt",
+        "type": "item",
+        "label": "Claude Debussy",
+        "description": "French classical composer (1862–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Debussy_by_Atelier_Nadar.jpg"
+        }
+      },
+      {
+        "id": "CjaU562n",
+        "type": "item",
+        "label": "Maurice Ravel",
+        "description": "French composer (1875-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maurice_Ravel_1925.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KhVqhfya.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KhVqhfya.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KhVqhfya.csv"
+      }
+    ]
+  }
 }

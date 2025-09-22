@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ejpyTMJt a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:5yoX9z4P,
+        faamentity:PdqN88SB ;
+    schema1:birthDate "1798-01-01"^^xsd:string,
+        "1798-06-29"^^xsd:string ;
+    schema1:birthPlace faamentity:cwxDpYRt ;
+    schema1:deathDate "1871-01-01"^^xsd:string,
+        "1871-12-16"^^xsd:string ;
+    schema1:deathPlace faamentity:HqnoGt22 ;
+    schema1:description "German historical novelist (1798–1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q77312>,
+        "16005235"^^xsd:string,
+        "ejpyTMJt"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb ;
+    skos:altLabel "Georg Wilhelm Hein... Haering"^^xsd:string,
+        "Wilhelm Häring"^^xsd:string,
+        "Willibald Alexis"^^xsd:string ;
+    skos:prefLabel "Willibald Alexis"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:295747403,
+        viaf:40171930 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/1067> ;
+    wd:P839 <https://imslp.org/wiki/Category:Alexis,_Willibald> ;
+    schema:hasOccupation faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:MWj4YCrh,
+        faamentity:PtM6pSux,
+        faamentity:T7iHQfvz,
+        faamentity:WF4NSijn,
+        faamentity:ZrYNnmWk .
+

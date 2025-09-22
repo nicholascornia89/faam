@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fQCekjVZ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "largest city in California, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q65>,
+        "124869"^^xsd:string,
+        "fQCekjVZ"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:altLabel "City of Angels"^^xsd:string,
+        "City of Los Angeles"^^xsd:string,
+        "Double Dubuque"^^xsd:string,
+        "L.A."^^xsd:string,
+        "LA"^^xsd:string,
+        "LA, California"^^xsd:string,
+        "La La Land"^^xsd:string,
+        "Los Angeles"^^xsd:string,
+        "Los Angeles, CA"^^xsd:string,
+        "Pink City"^^xsd:string,
+        "The town of Our Lady the Queen of the Angels of the Little Portion"^^xsd:string,
+        "Tinsel Town"^^xsd:string ;
+    skos:prefLabel "Los Angeles"^^xsd:string ;
+    wd:P1566 gn:5368361,
+        gn:US .
+

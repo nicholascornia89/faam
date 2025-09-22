@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TzWAa7NY a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical setting of the Requiem Mass"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6941842>,
+        "15990673"^^xsd:string,
+        "TzWAa7NY"^^xsd:string ;
+    skos:altLabel "funeral mass"^^xsd:string,
+        "mass for the dead"^^xsd:string,
+        "mass of the dead"^^xsd:string,
+        "missa defunctorum"^^xsd:string,
+        "missa pro defunctis"^^xsd:string,
+        "missa pro mortuis"^^xsd:string,
+        "music for the Requiem Mass"^^xsd:string,
+        "requiem"^^xsd:string,
+        "requiem mass"^^xsd:string,
+        "requiem setting"^^xsd:string ;
+    skos:prefLabel "music for the Requiem Mass"^^xsd:string .
+

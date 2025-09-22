@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q527527",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Prince-Bishopric of Lübeck"
       }
     ],
     "aliases": [
@@ -61,6 +62,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XYEb9h53",
+        "type": "item",
+        "label": "Carl Maria von Weber",
+        "description": "German Romantic composer (1786–1826)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FmPFsxQN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FmPFsxQN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FmPFsxQN.csv"
+      }
+    ]
+  }
 }

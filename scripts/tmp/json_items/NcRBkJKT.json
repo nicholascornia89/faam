@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q28389",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "screenwriter"
       }
     ],
     "aliases": [
@@ -75,6 +76,91 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6NihvnWd",
+        "type": "item",
+        "label": "Ruggero Leoncavallo",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Zonder_titel_PK-F-MM.5862_-_recto.tiff"
+        }
+      },
+      {
+        "id": "CTPKvYNp",
+        "type": "item",
+        "label": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist (1906-1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+        }
+      },
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      },
+      {
+        "id": "RVP3W8u4",
+        "type": "item",
+        "label": "Boris de Schlözer",
+        "description": "Russian Translator (1881–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg"
+        }
+      },
+      {
+        "id": "AFTScBt9",
+        "type": "item",
+        "label": "Nicola Francesco Haym",
+        "description": "Italian composer and musician (1678-1729)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Prova_di_un'opera.jpg"
+        }
+      },
+      {
+        "id": "AfyqSw2o",
+        "type": "item",
+        "label": "Édouard Fournier",
+        "description": "French historian, writer, bibliographer and librarian (1819-1880)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg/544px-%C3%89douard_Fournier_-_photo_atelier_Nadar.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NcRBkJKT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NcRBkJKT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NcRBkJKT.csv"
+      }
+    ]
+  }
 }

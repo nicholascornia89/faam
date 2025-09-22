@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q202660",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Collège de France"
       }
     ],
     "aliases": [
@@ -64,6 +65,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      },
+      {
+        "id": "8m2m6WLH",
+        "type": "item",
+        "label": "Pierre Gassendi",
+        "description": "French philosopher, astronomer, mathematician, priest, and scientist (*1592 – †1655)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "PierreGassendi.jpg"
+        }
+      },
+      {
+        "id": "GFYMUaVf",
+        "type": "item",
+        "label": "François Bernier",
+        "description": "French physician and traveller",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7Q67fp7A.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7Q67fp7A.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7Q67fp7A.csv"
+      }
+    ]
+  }
 }

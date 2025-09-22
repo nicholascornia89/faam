@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UXcrTKij a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Biblioteca del Conservatorio Benedetto Marcello"^^xsd:string ;
+    schema1:description "special library in Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q113535639>,
+        "15992255"^^xsd:string,
+        "UXcrTKij"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv,
+        faamentity:k6SS3uwu ;
+    schema1:url "https://polovea.sebina.it/SebinaOpac/library/Biblioteca%20del%20Conservatorio%20Benedetto%20Marcello/VEACO?locale=eng"^^schema1:url,
+        "https://www.conservatoriovenezia.eu/biblioteca/"^^schema1:url ;
+    skos:altLabel "Biblioteca del Conservatorio Benedetto Marcello"^^xsd:string ;
+    skos:prefLabel "Biblioteca del Conservatorio Benedetto Marcello"^^xsd:string ;
+    wd:P1813 "CBM"^^xsd:string .
+

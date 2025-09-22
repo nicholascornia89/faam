@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q270827",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "solo"
       }
     ],
     "aliases": [
@@ -55,6 +56,109 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "GoHHp3MB",
+        "type": "item",
+        "label": "30 pièces classiques : pour trompette en b",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902707600.gif"
+        }
+      },
+      {
+        "id": "YDkqBpGC",
+        "type": "item",
+        "label": "Etudes: pour piano préparatoires à la polyphonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902518254.gif"
+        }
+      },
+      {
+        "id": "4EC7JMTE",
+        "type": "item",
+        "label": "Neuvième Solo de Cor : avec Accompagnement de Piano : OEuvre 39",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345315.gif"
+        }
+      },
+      {
+        "id": "chiLSusq",
+        "type": "item",
+        "label": "Quatrième Solo Pour le Cor : avec Accompt d'Orchestre ou de Piano : OEuvre IIe",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345310.gif"
+        }
+      },
+      {
+        "id": "SjjfyqFL",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      },
+      {
+        "id": "UhmwLQ48",
+        "type": "item",
+        "label": "Danse mauresque = Moorse dans",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP173450.gif"
+        }
+      },
+      {
+        "id": "doyyMgdR",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Mp4pU3yE",
+        "type": "item",
+        "label": "Grand Solo No.5 Op.79",
+        "description": "composition by Jean-Louis Tulou"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2FVr93JH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2FVr93JH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2FVr93JH.csv"
+      }
+    ]
+  }
 }

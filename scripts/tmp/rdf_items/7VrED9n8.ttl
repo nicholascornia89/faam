@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7VrED9n8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:UeYzEz2A ;
+    schema1:birthDate "1876-11-23"^^xsd:string ;
+    schema1:deathDate "1946-11-14"^^xsd:string ;
+    schema1:deathPlace faamentity:UTnDAxY6 ;
+    schema1:description "Spanish composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q193283>,
+        "15996100"^^xsd:string,
+        "7VrED9n8"^^xsd:string ;
+    schema1:nationality faamentity:M8fLwSad ;
+    skos:altLabel "M. de Falla"^^xsd:string,
+        "Man-nu-yüeh-tê Fa-ya"^^xsd:string,
+        "Manuel De Falla"^^xsd:string,
+        "Manuel Maria de los Dolores Falla Matheu"^^xsd:string,
+        "Manuel María de los Dolores Falla Matheu"^^xsd:string,
+        "Manuel de Falla"^^xsd:string,
+        "Manuel de Falla y Matheu"^^xsd:string,
+        "Manueru de Farya"^^xsd:string ;
+    skos:prefLabel "Manuel de Falla"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh,
+        faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42025164 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30010920> ;
+    wd:P737 faamentity:7hqYR9Kn,
+        faamentity:F6UeiKPY,
+        faamentity:HbFEHe7r,
+        faamentity:fwcVb5TY ;
+    wd:P839 <https://imslp.org/wiki/Category:Falla,_Manuel_de> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:WF4NSijn .
+

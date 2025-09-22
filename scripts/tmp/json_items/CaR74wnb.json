@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,61 +79,73 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       },
       {
         "type": "item",
-        "value": "3WB3MVBB"
+        "value": "3WB3MVBB",
+        "label": "Tenuto"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "DqMNcjpW"
+        "value": "DqMNcjpW",
+        "label": "trill"
       },
       {
         "type": "item",
-        "value": "c5cZmF37"
+        "value": "c5cZmF37",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "YRq3pSH7"
+        "value": "YRq3pSH7",
+        "label": "cadenza"
       },
       {
         "type": "item",
-        "value": "gSHSbZQr"
+        "value": "gSHSbZQr",
+        "label": "instrument call"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "NjSVdz7G"
+        "value": "NjSVdz7G",
+        "label": "romance"
       },
       {
         "type": "item",
-        "value": "Z2VUu6Sy"
+        "value": "Z2VUu6Sy",
+        "label": "virtuoso"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "Mp4pU3yE"
+        "value": "Mp4pU3yE",
+        "label": "Grand Solo No.5 Op.79"
       }
     ],
     "agent": [
@@ -142,19 +156,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1839"
           }
-        ]
+        ],
+        "label": "Eugène Troupenas"
       },
       {
         "type": "statement",
@@ -163,7 +180,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -175,23 +193,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jean-Louis Tulou"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -208,6 +230,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000370132/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CaR74wnb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CaR74wnb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CaR74wnb.csv"
       }
     ]
   }

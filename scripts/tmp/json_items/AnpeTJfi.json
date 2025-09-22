@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1606982",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Henry Lemoine"
       }
     ]
   },
@@ -145,13 +146,97 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZexyEj4Q",
+        "type": "item",
+        "label": "La juive : opéra en cinq actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903467311.gif"
+        }
+      },
+      {
+        "id": "ZexyEj4Q",
+        "type": "item",
+        "label": "La juive : opéra en cinq actes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903467311.gif"
+        }
+      },
+      {
+        "id": "o9yHFhFa",
+        "type": "item",
+        "label": "Charles VI : opera in 5 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348150.gif"
+        }
+      },
+      {
+        "id": "mCDApWwM",
+        "type": "item",
+        "label": "Le Chalet : Opéra-comique en un acte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000742404.gif"
+        }
+      },
+      {
+        "id": "GoSoNTFk",
+        "type": "item",
+        "label": "Le réveil du jour : valse chantée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904385611.gif"
+        }
+      },
+      {
+        "id": "2PHYDsRs",
+        "type": "item",
+        "label": "Grand trio pour violon, alto et violoncelle",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KMT175228.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AnpeTJfi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AnpeTJfi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AnpeTJfi.csv"
       }
     ]
   }

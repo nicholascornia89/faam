@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q209554",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Western concert flute"
       }
     ],
     "aliases": [
@@ -71,6 +72,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EtZqfGE5",
+        "type": "item",
+        "label": "August Verbesselt",
+        "description": "Belgian composer and flute player, 1919–2012",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      },
+      {
+        "id": "oTnjHFMi",
+        "type": "item",
+        "label": "Giovanni Benedetto Platti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Prvg9kzn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Prvg9kzn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Prvg9kzn.csv"
+      }
+    ]
+  }
 }

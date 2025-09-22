@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,26 +76,30 @@
     "provenance": [
       {
         "type": "item",
-        "value": "3xcm7SKP"
+        "value": "3xcm7SKP",
+        "label": "J. Willard Marriott Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "mgrwHwTj"
+        "value": "mgrwHwTj",
+        "label": "symphony"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "g7hgtzmM"
+        "value": "g7hgtzmM",
+        "label": "orchestra"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "ARrmguPE"
+        "value": "ARrmguPE",
+        "label": "Symphony No. 7"
       }
     ],
     "agent": [
@@ -104,7 +110,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "2ZAuwsSp"
+            "value": "2ZAuwsSp",
+            "label": "conductor"
           },
           {
             "type": "item",
@@ -116,7 +123,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Maurice Abravanel"
       },
       {
         "type": "statement",
@@ -125,7 +133,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -137,17 +146,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Gustav Mahler"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "2ZAuwsSp"
+        "value": "2ZAuwsSp",
+        "label": "conductor"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -165,6 +177,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/WML-1294031/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Zb9Vuqt8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Zb9Vuqt8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Zb9Vuqt8.csv"
       }
     ]
   }

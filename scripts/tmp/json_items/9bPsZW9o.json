@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q313667",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François Joseph Gossec"
       }
     ]
   },
@@ -185,13 +186,99 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "h2aQvRWc",
+        "type": "item",
+        "label": "Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-18839.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "UHhyCQcS",
+        "type": "item",
+        "label": "Charles-Simon Catel",
+        "description": "French composer and educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Simon_Catel.jpg"
+        }
+      },
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "LapWGUs3",
+        "type": "item",
+        "label": "Victor Dourlen",
+        "description": "French composer and pedagogue",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Victor_Dourlen_by_Ingres_1.jpg"
+        }
+      },
+      {
+        "id": "oNn8afy6",
+        "type": "item",
+        "label": "Félix Cazot",
+        "description": "French composer and pianist (1790–1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "François-Joseph_Gossec_by_Antoine_Vestier.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9bPsZW9o.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9bPsZW9o.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9bPsZW9o.csv"
       }
     ]
   }

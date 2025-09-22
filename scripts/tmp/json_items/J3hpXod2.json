@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,32 +76,38 @@
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "Sdw2foGQ"
+        "value": "Sdw2foGQ",
+        "label": "music theory"
       },
       {
         "type": "item",
-        "value": "EWh47JQF"
+        "value": "EWh47JQF",
+        "label": "realization of figured bass"
       },
       {
         "type": "item",
-        "value": "gQaQXVZY"
+        "value": "gQaQXVZY",
+        "label": "basso continuo"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "8REteAN5"
+        "value": "8REteAN5",
+        "label": "keyboard instrument"
       }
     ],
     "musical work": [],
@@ -111,7 +119,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -123,13 +132,15 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Hugo Riemann"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -147,6 +158,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-030903702279/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "J3hpXod2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "J3hpXod2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "J3hpXod2.csv"
       }
     ]
   }

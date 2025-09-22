@@ -1,0 +1,47 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8UhBL58t a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:VMA2AmEN,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:E2chmtzQ ;
+    dcterms:provenance faamentity:UXcrTKij ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:M2b4HvjF,
+        faamentity:RKUFzWeG ;
+    schema1:identifier "15992724"^^xsd:string,
+        "8UhBL58t"^^xsd:string,
+        "CBM-TORRMsA76"^^xsd:string ;
+    schema1:location faamentity:k6SS3uwu ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "A | Collection of Lessons | for the Harpsicord | or Piano et Forte | Composed by | Ferdinando Tenducci | Dedicated to the Right Hon.ble | Lady Hope"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.76"^^xsd:string ;
+    wd:P870 faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"8UhBL58t-6554a778-8257-4117-be61-d5d83544a106"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"8UhBL58t-8eaa6e3d-9223-4712-a3bb-92fa3b7ea37e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:k6SS3uwu .
+
+faamentity:M2b4HvjF a rdf:object .
+
+faamentity:RKUFzWeG a rdf:object .
+

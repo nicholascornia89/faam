@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TqfEoo49 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1890-08-15"^^xsd:string,
+        "1890-09-15"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1962-02-05"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q296828>,
+        "0"^^xsd:string,
+        "TqfEoo49"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Jacques Ibert"^^xsd:string ;
+    wd:P108 faamentity:Jxowxc4d ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:22327584 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30021293> ;
+    wd:P737 faamentity:6mzYVLvj,
+        faamentity:Do7kNZLT,
+        faamentity:JPTD5sHj,
+        faamentity:R7dCbrrH ;
+    wd:P839 <https://imslp.org/wiki/Category:Ibert,_Jacques> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:QMV6farX,
+        faamentity:YYyZX3aY .
+

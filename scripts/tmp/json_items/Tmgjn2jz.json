@@ -82,7 +82,8 @@
       {
         "type": "externalid",
         "value": "Q93227",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nikolai Rimsky-Korsakov"
       }
     ]
   },
@@ -223,13 +224,117 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "PXBGTMFc",
+        "type": "item",
+        "label": "Le chef d'armée = Il condotierro",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902499422.gif"
+        }
+      },
+      {
+        "id": "bT9UeLmm",
+        "type": "item",
+        "label": "Le chef d'armée = Il condotierro",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902642195.gif"
+        }
+      },
+      {
+        "id": "KZrU2z7x",
+        "type": "item",
+        "label": "Snegourotchka (Fleur de Neige). Troisième Chanson de Lel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p88.gif"
+        }
+      },
+      {
+        "id": "KZrU2z7x",
+        "type": "item",
+        "label": "Snegourotchka (Fleur de Neige). Troisième Chanson de Lel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p88.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "aewpk4NW",
+        "type": "item",
+        "label": "Ottorino Respighi",
+        "description": "Italian composer, musicologist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ottorino_Respighi,_1927_(cropped).jpg"
+        }
+      },
+      {
+        "id": "nKP9cAbn",
+        "type": "item",
+        "label": "Igor Stravinsky",
+        "description": "Russian composer (1882–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Igor_Stravinsky_LOC_32392u.jpg"
+        }
+      },
+      {
+        "id": "Y4Lvaib2",
+        "type": "item",
+        "label": "Anton Arensky",
+        "description": "Russian composer, pianist and professor of music",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arensky_Anton_Postcard-1910.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "9jBasJV4",
+        "type": "item",
+        "label": "Songs and Dances of Death",
+        "description": "song cycle composed by Modest Mussorgsky"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nikolai_A._Rimsky-Korsakov.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Tmgjn2jz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Tmgjn2jz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Tmgjn2jz.csv"
       }
     ]
   }

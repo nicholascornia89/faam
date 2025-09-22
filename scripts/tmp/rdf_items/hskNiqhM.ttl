@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hskNiqhM a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:9P4vEuqK,
+        faamentity:dfVtGZ3t ;
+    schema1:identifier "16002752"^^xsd:string,
+        "hskNiqhM"^^xsd:string ;
+    skos:prefLabel "Psalmodiae Vespertinae"^^xsd:string ;
+    wd:P5202 faamentity:6ng5YJy5 ;
+    wd:P7937 faamentity:KYiqCjW2,
+        faamentity:eCYL2PkE,
+        faamentity:hXAvAXVx,
+        faamentity:nJYQttBc .
+

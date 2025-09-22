@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q706096",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Victor Dourlen"
       }
     ]
   },
@@ -160,13 +161,77 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cmzT8tYL",
+        "type": "item",
+        "label": "Antoine-François Marmontel",
+        "description": "French pianist, teacher and musicographer (1816–1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "A-F_Marmontel.jpg"
+        }
+      },
+      {
+        "id": "aMECmgpH",
+        "type": "item",
+        "label": "Ambroise Thomas",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ambroise_Thomas_2.jpg"
+        }
+      },
+      {
+        "id": "57TxaobZ",
+        "type": "item",
+        "label": "François Bazin",
+        "description": "French opera composer (1816–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François_Bazin_par_Carjat_BNF_Gallica.png"
+        }
+      },
+      {
+        "id": "L988NV2r",
+        "type": "item",
+        "label": "Félix Le Couppey",
+        "description": "Composer and pedagog (1811–1887)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "LeCouppey-par-Alophe.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Victor_Dourlen_by_Ingres_1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LapWGUs3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LapWGUs3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LapWGUs3.csv"
       }
     ]
   }

@@ -1,0 +1,69 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PQeGYQfs a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:3zoajAt8,
+        faamentity:4PAdXGNC,
+        faamentity:59RimmuX,
+        faamentity:DS9HvPwY,
+        faamentity:K9MgTT3J,
+        faamentity:Pcc4PpDc,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:WT9AcUBt,
+        faamentity:aCRY7SgN,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE,
+        faamentity:j3pK6Dqo ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:MEjPi9ot ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:TxfuV8Su ;
+    schema1:hasPart faamentity:i9nke5vR ;
+    schema1:identifier "15992646"^^xsd:string,
+        "KCG-000346180"^^xsd:string,
+        "PQeGYQfs"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000346180"^^schema1:url ;
+    skos:prefLabel "Les Bohémiens Op. 29 N° 3 : Drei Gedichte"^^xsd:string ;
+    wd:P217 "II-1217"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:5yLc7bQJ,
+        faamentity:MFQUhgoe,
+        faamentity:MV3uErvy,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"PQeGYQfs-2d35161b-88b1-441c-93d7-44ba52a0fddc"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"PQeGYQfs-db2f6b57-2186-4cae-94cc-0243b6de2c22"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:TxfuV8Su a rdf:object .
+

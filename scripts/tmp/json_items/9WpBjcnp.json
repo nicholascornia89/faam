@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,69 +74,83 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "Vk2JQSuo"
+        "value": "Vk2JQSuo",
+        "label": "ad libitum"
       },
       {
         "type": "item",
-        "value": "oZ5YMPN7"
+        "value": "oZ5YMPN7",
+        "label": "da capo"
       },
       {
         "type": "item",
-        "value": "MCVLnYka"
+        "value": "MCVLnYka",
+        "label": "espressivo"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "6kwYh3HH"
+        "value": "6kwYh3HH",
+        "label": "chamber music"
       },
       {
         "type": "item",
-        "value": "E2chmtzQ"
+        "value": "E2chmtzQ",
+        "label": "sonata"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KpADqoUN"
+        "value": "KpADqoUN",
+        "label": "fortepiano"
       },
       {
         "type": "item",
-        "value": "YmTjo9Ww"
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
       },
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       },
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "Bq2vpuQ7"
+        "value": "Bq2vpuQ7",
+        "label": "6 Sonatas, Op.2"
       }
     ],
     "agent": [
@@ -145,19 +161,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Pierre Leduc"
       },
       {
         "type": "statement",
@@ -166,7 +185,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -178,23 +198,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Muzio Clementi"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -211,6 +235,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCG-000339708/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9WpBjcnp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9WpBjcnp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9WpBjcnp.csv"
       }
     ]
   }

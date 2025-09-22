@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q682376",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François-Auguste Gevaert"
       }
     ]
   },
@@ -184,13 +185,139 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "E9ZACfLA",
+        "type": "item",
+        "label": "Le capitaine Henriot",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901603982.gif"
+        }
+      },
+      {
+        "id": "LLSewMGD",
+        "type": "item",
+        "label": "Le capitaine Henriot Duetto",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901603966.gif"
+        }
+      },
+      {
+        "id": "TpuAXBRe",
+        "type": "item",
+        "label": "Le billet de Marguerite",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901604147.gif"
+        }
+      },
+      {
+        "id": "EysxGesA",
+        "type": "item",
+        "label": "Quentin Durward : opéra comique en 3 actes : trio chanté par MM. Jourdan, Faure et Barrielle",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902587564.gif"
+        }
+      },
+      {
+        "id": "HmhzwhS3",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456373.gif"
+        }
+      },
+      {
+        "id": "MZvj9E2Y",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456399.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "nDqJe8bs",
+        "type": "item",
+        "label": "Edgar Tinel",
+        "description": "Belgian composer and pianist (1854-1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Tinel_1911.jpg"
+        }
+      },
+      {
+        "id": "G2HtAVwC",
+        "type": "item",
+        "label": "Arthur De Greef",
+        "description": "Belgian musician (1862-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arthur_De_Greef.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "6K38CLMv",
+        "type": "item",
+        "label": "Le Capitaine Henriot",
+        "description": "opéra comique composed by François-Auguste Gevaert"
+      },
+      {
+        "id": "hDU4mEPG",
+        "type": "item",
+        "label": "Quentin Durward",
+        "description": "comedy in 3 acts composed by François-Auguste Gevaert. First representation in 1858 at Opéra-Comique, Salle Favart, Paris"
+      },
+      {
+        "id": "gCBkftx6",
+        "type": "item",
+        "label": "Le billet de Marguerite",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "François-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Jhb5rrXW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Jhb5rrXW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Jhb5rrXW.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q943995",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "impresario"
       }
     ],
     "aliases": [
@@ -59,6 +60,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CFu7TPQo",
+        "type": "item",
+        "label": "George Frideric Handel",
+        "description": "German-British Baroque composer (1685–1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Frideric_Handel_by_Balthasar_Denner.jpg"
+        }
+      },
+      {
+        "id": "fAzZj2se",
+        "type": "item",
+        "label": "Pietro Mingotti",
+        "description": "Italian impresario (1702-1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JH4gpUQc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JH4gpUQc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JH4gpUQc.csv"
+      }
+    ]
+  }
 }

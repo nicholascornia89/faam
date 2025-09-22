@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2TmAhD7o a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1862-04-05"^^xsd:string ;
+    schema1:birthPlace faamentity:h7pQ29tX ;
+    schema1:deathDate "1923-07-13"^^xsd:string ;
+    schema1:deathPlace faamentity:HZJV4pgr,
+        faamentity:ce9zwYdi ;
+    schema1:description "French composer (1862-1923)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q779631>,
+        "16005354"^^xsd:string,
+        "2TmAhD7o"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Louis Ganne"^^xsd:string,
+        "Louis-Gaston Ganne"^^xsd:string ;
+    skos:prefLabel "Louis Ganne"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:29717968 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30025645> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ganne,_Louis> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf .
+

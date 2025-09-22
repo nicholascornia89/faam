@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2DFVuW8L a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:VMA2AmEN,
+        faamentity:Vk2JQSuo,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:UDva945b,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:55ZS5oG8,
+        faamentity:dMpyE7gF,
+        faamentity:iJFMyzSx,
+        faamentity:nCTSPiBQ ;
+    schema1:hasPart faamentity:YDvs8eZH ;
+    schema1:identifier "15992644"^^xsd:string,
+        "2DFVuW8L"^^xsd:string,
+        "KCG-000122135"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000122135"^^schema1:url ;
+    skos:prefLabel "LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire!"^^xsd:string ;
+    wd:P217 "II 249"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"2DFVuW8L-3cfcef74-43d0-41d1-9ad8-161142c6a3fc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"2DFVuW8L-57a34be1-af93-44a5-a556-3a26b8792064"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"2DFVuW8L-5dfe66ab-0932-4837-bcf3-7fa7c815dc61"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo ;
+    schema1:location faamentity:GDeKaNeC .
+
+"2DFVuW8L-9eaafe61-ca15-4e5e-a3d3-08f388aec14e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:55ZS5oG8 a rdf:object .
+
+faamentity:dMpyE7gF a rdf:object .
+
+faamentity:iJFMyzSx a rdf:object .
+
+faamentity:nCTSPiBQ a rdf:object .
+

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q661501",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles-Simon Catel"
       }
     ]
   },
@@ -182,13 +183,97 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AWqDraUS",
+        "type": "item",
+        "label": "François Benoist",
+        "description": "French musician (1794–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francois_Benoist.gif"
+        }
+      },
+      {
+        "id": "DZi5tj7h",
+        "type": "item",
+        "label": "Louis François Dauprat",
+        "description": "French composer and horn-player",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg"
+        }
+      },
+      {
+        "id": "3B7D94aX",
+        "type": "item",
+        "label": "Martin-Joseph Mengal",
+        "description": "Belgian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martin-Joseph_Mengal.jpg"
+        }
+      },
+      {
+        "id": "h2ff8YKo",
+        "type": "item",
+        "label": "Pierre-Joseph-Guillaume Zimmermann",
+        "description": "French pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre_Zimmermann.jpg"
+        }
+      },
+      {
+        "id": "iNbTsAKd",
+        "type": "item",
+        "label": "Joseph Daussoigne-Méhul",
+        "description": "French composer (1790-1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Daussoigne-Mehul,_PA00732.jpg"
+        }
+      },
+      {
+        "id": "oNn8afy6",
+        "type": "item",
+        "label": "Félix Cazot",
+        "description": "French composer and pianist (1790–1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Charles-Simon_Catel.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UHhyCQcS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UHhyCQcS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UHhyCQcS.csv"
       }
     ]
   }

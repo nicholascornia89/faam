@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1528195",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giuseppe Buonamici"
       }
     ]
   },
@@ -175,13 +176,55 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HdANzxaD",
+        "type": "item",
+        "label": "Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-19147.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bLnUjgnB",
+        "type": "item",
+        "label": "Sonata K. 9",
+        "description": "sonata by Domenico Scarlatti"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giuseppe_Buonamici.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "77ZNQjk2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "77ZNQjk2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "77ZNQjk2.csv"
       }
     ]
   }

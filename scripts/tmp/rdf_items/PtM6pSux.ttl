@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PtM6pSux a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who creates arrangements"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1643514>,
+        "15990935"^^xsd:string,
+        "PtM6pSux"^^xsd:string ;
+    skos:altLabel "arranger"^^xsd:string,
+        "arranger of music"^^xsd:string,
+        "music arranger"^^xsd:string,
+        "musical arranger"^^xsd:string ;
+    skos:prefLabel "basketball player"^^xsd:string,
+        "music arranger"^^xsd:string .
+

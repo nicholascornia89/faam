@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q665530",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Schola Cantorum Basiliensis"
       }
     ],
     "aliases": [
@@ -60,6 +61,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Bbuh5pNe",
+        "type": "item",
+        "label": "Wanda Landowska",
+        "description": "(1879-1959) Polish-French harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg"
+        }
+      },
+      {
+        "id": "EZRaNUgM",
+        "type": "item",
+        "label": "Gustav Leonhardt",
+        "description": "Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustav_Leonhardt,_2008_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BgjVBqEi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BgjVBqEi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BgjVBqEi.csv"
+      }
+    ]
+  }
 }

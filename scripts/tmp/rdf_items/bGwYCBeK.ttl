@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bGwYCBeK a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nKP9cAbn ;
+    schema1:description "collection of études composed by Igor Stravinsky"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3413524>,
+        "16004199"^^xsd:string,
+        "bGwYCBeK"^^xsd:string ;
+    skos:altLabel "4 Etudes, K009"^^xsd:string,
+        "Four Etudes, op. 7"^^xsd:string,
+        "Quatre études, Op. 7"^^xsd:string ;
+    skos:prefLabel "4 Etudes, K009"^^xsd:string,
+        "Quatre études, Op. 7"^^xsd:string ;
+    wd:P214 viaf:292481976 ;
+    wd:P7937 faamentity:CmqENXaQ ;
+    wd:P839 <https://imslp.org/wiki/4_Etudes,_K009_(Stravinsky,_Igor)> .
+

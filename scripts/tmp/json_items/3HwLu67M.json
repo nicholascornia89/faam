@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q261781",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Luigi Denza"
       }
     ]
   },
@@ -181,13 +182,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "GnUBYNbg",
+        "type": "item",
+        "label": "Aux Étoiles",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p11.gif"
+        }
+      },
+      {
+        "id": "GnUBYNbg",
+        "type": "item",
+        "label": "Aux Étoiles",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p11.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Luigi_Denza_(before_1922)_-_Archivio_storico_Ricordi_FOTO001319.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3HwLu67M.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3HwLu67M.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3HwLu67M.csv"
       }
     ]
   }

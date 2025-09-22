@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ww7c4sWG a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:RnyE4sLC ;
+    schema1:description "composition by Charles Lebouc"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124348397>,
+        "16002043"^^xsd:string,
+        "Ww7c4sWG"^^xsd:string ;
+    skos:altLabel "Villanelle Op. 12"^^xsd:string ;
+    skos:prefLabel "Villanelle Op. 12"^^xsd:string ;
+    wd:P7937 faamentity:6kwYh3HH,
+        faamentity:7U54uqaV,
+        faamentity:QzirSvBV .
+

@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LbfJnd9y a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country located primarily in North America"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q30>,
+        "15998695"^^xsd:string,
+        "LbfJnd9y"^^xsd:string ;
+    skos:altLabel "America"^^xsd:string,
+        "Merica"^^xsd:string,
+        "Murica"^^xsd:string,
+        "U. S."^^xsd:string,
+        "U. S. A."^^xsd:string,
+        "U.S."^^xsd:string,
+        "U.S. of America"^^xsd:string,
+        "U.S.A."^^xsd:string,
+        "US"^^xsd:string,
+        "US of A"^^xsd:string,
+        "US of America"^^xsd:string,
+        "USA"^^xsd:string,
+        "United States"^^xsd:string,
+        "United States of America"^^xsd:string,
+        "United States of North America"^^xsd:string,
+        "the States"^^xsd:string,
+        "the U.S."^^xsd:string,
+        "the U.S. of A"^^xsd:string,
+        "the U.S. of America"^^xsd:string,
+        "the U.S.A."^^xsd:string,
+        "the US"^^xsd:string,
+        "the US of A"^^xsd:string,
+        "the US of America"^^xsd:string,
+        "the USA"^^xsd:string,
+        "the United States"^^xsd:string,
+        "the United States of America"^^xsd:string,
+        "usa"^^xsd:string ;
+    skos:prefLabel "United States"^^xsd:string,
+        "United States of America"^^xsd:string .
+

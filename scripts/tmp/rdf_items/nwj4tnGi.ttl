@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nwj4tnGi a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1822-08-15"^^xsd:string ;
+    schema1:birthPlace faamentity:35STs3jR ;
+    schema1:deathDate "1892-05-02"^^xsd:string ;
+    schema1:deathPlace faamentity:GKcJxAtt ;
+    schema1:description "German composer and musicologist (1822–1892)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q455388>,
+        "16002522"^^xsd:string,
+        "nwj4tnGi"^^xsd:string ;
+    schema1:nationality faamentity:5VsN9kHM,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Wilhelm Rust"^^xsd:string ;
+    skos:prefLabel "Wilhelm Rust"^^xsd:string ;
+    wd:P108 faamentity:3wN8PmuS ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:74119420 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/71762> ;
+    wd:P839 <https://imslp.org/wiki/Category:Rust,_Wilhelm> ;
+    schema:hasOccupation faamentity:JLMnmzmn,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

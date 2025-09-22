@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1468751",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "parody mass"
       }
     ],
     "aliases": [
@@ -51,6 +52,165 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "npJCP9E2",
+        "type": "item",
+        "label": "Missa La dolce Vista. Quam octo vocibus conscriptam / Monte, de, Philippus. - Brugge , 1930",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM165637.gif"
+        }
+      },
+      {
+        "id": "Gok5r2Zp",
+        "type": "item",
+        "label": "Messe \"Beatus qui intelligit\" für sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737359707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "UQfQMXQK",
+        "type": "item",
+        "label": "Missa \"tu es Petrus\": sex vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991099181519707356.gif"
+        }
+      },
+      {
+        "id": "5PhEA3sv",
+        "type": "item",
+        "label": "Missa Tu es Petrus : für 6stg. gemischten Chor",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991062854279707356.gif"
+        }
+      },
+      {
+        "id": "dAK9o9an",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7618.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "koTnG7tz",
+        "type": "item",
+        "label": "Missa Hodie Christus natus est",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "6Fr97LVE",
+        "type": "item",
+        "label": "Missa O regem celi, IGP 470",
+        "description": ""
+      },
+      {
+        "id": "aFwsEfab",
+        "type": "item",
+        "label": "Missa O quam gloriosum est regnum",
+        "description": ""
+      },
+      {
+        "id": "AubBmT6R",
+        "type": "item",
+        "label": "Missa Aeterna Christi munera",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "DYWr3QUf",
+        "type": "item",
+        "label": "Missa Si Deus pro nobis",
+        "description": ""
+      },
+      {
+        "id": "2Qq88VYP",
+        "type": "item",
+        "label": "Missa Laudate Dominum omnes gentes",
+        "description": ""
+      },
+      {
+        "id": "T2ofZaxy",
+        "type": "item",
+        "label": "Missa Puer qui natus est nobis",
+        "description": ""
+      },
+      {
+        "id": "5vs2FAgR",
+        "type": "item",
+        "label": "Missa Regina coeli",
+        "description": ""
+      },
+      {
+        "id": "m44a28bN",
+        "type": "item",
+        "label": "Missa Ave maris stella",
+        "description": ""
+      },
+      {
+        "id": "jSmJWyQh",
+        "type": "item",
+        "label": "Missa super Or sus à coup",
+        "description": "mass by Orlande de Lassus"
+      },
+      {
+        "id": "D5KWdsCk",
+        "type": "item",
+        "label": "Missa la dolce vista",
+        "description": "parody mass by Philippe de Monte based on the homonymous madrigal"
+      },
+      {
+        "id": "aTKNEpg3",
+        "type": "item",
+        "label": "Missa super Beatus qui intelligit",
+        "description": "mass by Orlande de Lassus"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cRanApmp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cRanApmp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cRanApmp.csv"
+      }
+    ]
+  }
 }

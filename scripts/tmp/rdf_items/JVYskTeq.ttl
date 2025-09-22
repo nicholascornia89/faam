@@ -1,0 +1,116 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JVYskTeq a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1887"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:WuWcWk4u,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:A85JP7AT,
+        faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:MaWnCnVw,
+        faamentity:eCYL2PkE,
+        faamentity:eijiWF3A,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:QhRQ5LW9,
+        faamentity:VuTS9sb9,
+        faamentity:aAY2Vr4R,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005691"^^xsd:string,
+        "DPF-202502040"^^xsd:string,
+        "JVYskTeq"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Supplément à la Musica sacra, 1887-88 N.1"^^xsd:string ;
+    skosref:note "Supplément à la Musica Sacra 1887-1888 No. 1."^^rdf:HTML ;
+    wd:P217 "ms-1887-01"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"JVYskTeq-00e47944-677c-432c-98f2-fdd3170ff91b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"JVYskTeq-10934058-5eab-44b4-9e82-af7a4e2cc9a2"^^xsd:string a rdf:Statement .
+
+"JVYskTeq-121758e7-0283-44ba-87c1-cfe18a1f2f7e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-226bafcf-81f4-4a45-ac36-a5084a4fb827"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-27b1e399-239e-4b86-8cfb-a7e5cd212c82"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-5a85ec8d-80e6-420b-9774-acbbc3abe99b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-6651e5d7-ef75-4ff3-b998-fffd458013ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"JVYskTeq-be6a3e36-a907-4778-99d4-b60c8eea9161"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"JVYskTeq-c15a3e36-a3b0-458a-86b1-7966f34e6e0a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-da9e8ba0-9162-4a08-a5e6-212501fef67b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1887"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"JVYskTeq-dba432fd-9b40-4232-8a75-bc70b1a41d2b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"JVYskTeq-f2c806aa-55ce-493d-ba53-c85313f79d18"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:VuTS9sb9 a rdf:object .
+
+faamentity:aAY2Vr4R a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

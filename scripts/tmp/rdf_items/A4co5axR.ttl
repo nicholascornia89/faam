@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A4co5axR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:NsEoE4RP,
+        faamentity:WT9AcUBt ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:5fpte3tE,
+        faamentity:EgH6igGS,
+        faamentity:HXG9NWiG,
+        faamentity:JnGFsz6r,
+        faamentity:Rxa2vGNJ,
+        faamentity:SnxsnGvi,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:jCuFYGDc,
+        faamentity:kmMxdth8 ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw,
+        faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez ;
+    schema1:hasPart faamentity:gvB7xdLy ;
+    schema1:identifier "15992324"^^xsd:string,
+        "A4co5axR"^^xsd:string,
+        "KCA-030902126744"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7093110/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: entre acte, valse de la scène de bal"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-78"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"A4co5axR-12234e08-bbe5-4596-a3d0-4c41fe3a42ca"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"A4co5axR-620cc1e9-294c-417c-a56d-beb66ed697e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"A4co5axR-71ec3a2e-c1e1-4ae8-b281-e6464c49215b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+

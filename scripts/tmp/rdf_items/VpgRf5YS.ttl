@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VpgRf5YS a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "from 1700 to 1873"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3399982>,
+        "15997895"^^xsd:string,
+        "VpgRf5YS"^^xsd:string ;
+    skos:altLabel "Bourbon Spain"^^xsd:string,
+        "Kingdom of Spain"^^xsd:string,
+        "Spain"^^xsd:string ;
+    skos:prefLabel "Kingdom of Spain"^^xsd:string .
+

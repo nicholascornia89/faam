@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q756843",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cello Suites"
       }
     ]
   },
@@ -103,6 +104,61 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FRnvBj5B",
+        "type": "item",
+        "label": "Convoluut Dubar B319",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902518940.gif"
+        }
+      },
+      {
+        "id": "DxseiyXx",
+        "type": "item",
+        "label": "6 Suites : voor cello alleen : BWV 1007-1012",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332191.gif"
+        }
+      },
+      {
+        "id": "ZbPvFui7",
+        "type": "item",
+        "label": "6 suites : pour violoncelle seul",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901199361.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5Tv2yEi3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5Tv2yEi3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5Tv2yEi3.csv"
+      }
+    ]
+  }
 }

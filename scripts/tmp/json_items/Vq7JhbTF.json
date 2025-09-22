@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q15180",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Soviet Union"
       }
     ],
     "aliases": [
@@ -101,6 +102,99 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CTPKvYNp",
+        "type": "item",
+        "label": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist (1906-1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+        }
+      },
+      {
+        "id": "UczDSGy2",
+        "type": "item",
+        "label": "Leonid Nikolayev",
+        "description": "Russian musician (1878–1942)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "k6cnSQnL",
+        "type": "item",
+        "label": "Maximilian Steinberg",
+        "description": "Russian composer (1883-1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Steinberg_Maximilian_(1915).jpg"
+        }
+      },
+      {
+        "id": "SkDjMP4R",
+        "type": "item",
+        "label": "Alexander Ossovsky",
+        "description": "Musicologist, Russian writer (1871-1957)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZtWvjSdn",
+        "type": "item",
+        "label": "Maria Yudina",
+        "description": "Soviet pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maria_Yudina.jpg"
+        }
+      },
+      {
+        "id": "iftNgJUf",
+        "type": "item",
+        "label": "Wassili Kalafati",
+        "description": "Russian composer and pedagogue (1869–1942)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "NzpkoHYS",
+        "type": "item",
+        "label": "Malaya Morskaya Street, 13",
+        "description": "building on Malaya Morskaya Street, 13, Russia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Vq7JhbTF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Vq7JhbTF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Vq7JhbTF.csv"
+      }
+    ]
+  }
 }

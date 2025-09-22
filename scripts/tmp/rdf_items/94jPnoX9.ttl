@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:94jPnoX9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1843-01-01"^^xsd:string,
+        "1843-05-01"^^xsd:string ;
+    schema1:birthPlace faamentity:cpyirmAF ;
+    schema1:deathDate "1890-00-00"^^xsd:string,
+        "1890-04-26"^^xsd:string,
+        "1892-01-01"^^xsd:string,
+        "1892-01-25"^^xsd:string ;
+    schema1:deathPlace faamentity:fJHycLeJ ;
+    schema1:description "Italian composer and pianist (1843-1890)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55837713>,
+        "16005221"^^xsd:string,
+        "94jPnoX9"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "G. C. Capitani"^^xsd:string,
+        "Giuseppe Capitani"^^xsd:string ;
+    skos:prefLabel "Giuseppe Capitani"^^xsd:string,
+        "Giuseppe Capitani di Vincenzo"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:169293298 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40208777> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

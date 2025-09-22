@@ -66,7 +66,8 @@
       {
         "type": "externalid",
         "value": "Q46096",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Felix Mendelssohn"
       }
     ]
   },
@@ -255,13 +256,145 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7XY7PdWV",
+        "type": "item",
+        "label": "Ottetto : Pour quatre Violons, deux Altos, deux Violoncelles : Oeuv. 20",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356945.gif"
+        }
+      },
+      {
+        "id": "N6CBCy7H",
+        "type": "item",
+        "label": "Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356805.gif"
+        }
+      },
+      {
+        "id": "bwk6KdAy",
+        "type": "item",
+        "label": "Der LXXXXVste Psalm für Chor und Orchester op. 46",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284e.gif"
+        }
+      },
+      {
+        "id": "Yf5vB2yU",
+        "type": "item",
+        "label": "Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902800223.gif"
+        }
+      },
+      {
+        "id": "e3GfisZP",
+        "type": "item",
+        "label": "Supplément à la Musica sacra, 1886-87 N.8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502045.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "DaCzzraM",
+        "type": "item",
+        "label": "Carl Reinecke",
+        "description": "German composer, conductor and pianist (1824–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "C.Reinecke-1890.jpg"
+        }
+      },
+      {
+        "id": "6J5JonDa",
+        "type": "item",
+        "label": "Eduard Franck",
+        "description": "German composer (1817-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eduard_Franck.png"
+        }
+      },
+      {
+        "id": "9VWkhn8g",
+        "type": "item",
+        "label": "Johannes Verhulst",
+        "description": "Dutch composer and conductor (1816–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TVBipDBL",
+        "type": "item",
+        "label": "6 Organ Sonatas, Op.65",
+        "description": ""
+      },
+      {
+        "id": "QevAyGXB",
+        "type": "item",
+        "label": "Kommt, laßt uns anbeten, Op.46",
+        "description": ""
+      },
+      {
+        "id": "A86CDyv8",
+        "type": "item",
+        "label": "Piano Concerto No. 2",
+        "description": "concerto written in 1837 by Felix Mendelssohn"
+      },
+      {
+        "id": "bvE3mVNV",
+        "type": "item",
+        "label": "String Octet, Op.20",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Felix_Mendelssohn_Bartholdy.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SGrSvda8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SGrSvda8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SGrSvda8.csv"
       }
     ]
   }

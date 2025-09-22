@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3068305",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "salonnière"
       }
     ],
     "aliases": [
@@ -83,6 +84,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "55ZS5oG8",
+        "type": "item",
+        "label": "Sophie Gay",
+        "description": "French writer (1776–1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marie_Françoise_Sophie_Nichault_de_la_Valette-02.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CQNHyGNV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CQNHyGNV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CQNHyGNV.csv"
+      }
+    ]
+  }
 }

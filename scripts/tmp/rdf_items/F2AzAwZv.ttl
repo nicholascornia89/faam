@@ -1,0 +1,47 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:F2AzAwZv a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:HwcYgL5C,
+        faamentity:UGSpFRmF,
+        faamentity:gPbDKGjr ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MtU2oARp,
+        faamentity:cmzT8tYL ;
+    schema1:identifier "16005723"^^xsd:string,
+        "BNF-43135625w"^^xsd:string,
+        "F2AzAwZv"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb43135625w"^^schema1:url ;
+    skos:prefLabel "Art moderne du piano, 50 Etudes de salon moyenne force et progressives... par Marmontel, op. 108"^^xsd:string ;
+    wd:P217 "VM8 S-518"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"F2AzAwZv-04cbc274-d59b-4f37-9efb-3e9f684041bc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"F2AzAwZv-da2e31a1-b52b-4e95-aed2-8508ec080dbe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:MtU2oARp a rdf:object .
+
+faamentity:cmzT8tYL a rdf:object .
+

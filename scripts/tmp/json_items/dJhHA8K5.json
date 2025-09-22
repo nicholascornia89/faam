@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1366469",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Es ist dir gesagt, Mensch, was gut ist, BWV 45"
       }
     ]
   },
@@ -91,6 +92,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BfG5N55L",
+        "type": "item",
+        "label": "CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331832.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dJhHA8K5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dJhHA8K5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dJhHA8K5.csv"
+      }
+    ]
+  }
 }

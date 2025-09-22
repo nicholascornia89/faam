@@ -1,0 +1,80 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:koqkCDDx a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1914"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:AeKhRWCB,
+        faamentity:B7WuhvkL,
+        faamentity:FhoqCrfh,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:Skma2JzR,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:HXG9NWiG,
+        faamentity:RePdmToB,
+        faamentity:e9t5BdLA,
+        faamentity:euCa8A2S,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:VvXv7s6z,
+        faamentity:Z5NoBG6x,
+        faamentity:iJwRJjyp ;
+    schema1:identifier "16004380"^^xsd:string,
+        "KCA-030904920177"^^xsd:string,
+        "koqkCDDx"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6772302/N"^^schema1:url ;
+    skos:prefLabel "Les chérubins : pour violon et piano"^^xsd:string ;
+    wd:P217 "MM-SV-COUPE-lescher-2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"koqkCDDx-0df79219-88e6-4bca-bac0-2f25717acf4a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"koqkCDDx-64d4b7ea-9fe6-48ba-90e7-5ac6205dc963"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1914"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"koqkCDDx-94182c6d-9816-4388-b936-0dcda8cfbb33"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"koqkCDDx-ecea0b47-949a-4d42-985a-7855056773d4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:VvXv7s6z a rdf:object .
+
+faamentity:Z5NoBG6x a rdf:object .
+
+faamentity:iJwRJjyp a rdf:object .
+

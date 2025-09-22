@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q62075",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Burgmüller"
       }
     ]
   },
@@ -172,13 +173,85 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "56XvdHFp",
+        "type": "item",
+        "label": "25 études, op. 100",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901832342.gif"
+        }
+      },
+      {
+        "id": "K4ty8Fie",
+        "type": "item",
+        "label": "Grande Valse de Salon sur Le Pardon de Ploërmel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p11.gif"
+        }
+      },
+      {
+        "id": "SXQZdEJk",
+        "type": "item",
+        "label": "Fantaisie sur le Carillonneur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p22.gif"
+        }
+      },
+      {
+        "id": "cpwjMVGR",
+        "type": "item",
+        "label": "3 Polkas sur le Motifs de Lady Henriette",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p46.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "LUXqqC2Y",
+        "type": "item",
+        "label": "25 Études faciles et progressives",
+        "description": "collection of piano studies composed by Friedrich Burgmüller"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Friedrich_Burgmüller.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "82EyBJXP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "82EyBJXP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "82EyBJXP.csv"
       }
     ]
   }

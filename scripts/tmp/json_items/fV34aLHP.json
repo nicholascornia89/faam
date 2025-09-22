@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1367651",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Brassin"
       }
     ]
   },
@@ -202,13 +203,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nDqJe8bs",
+        "type": "item",
+        "label": "Edgar Tinel",
+        "description": "Belgian composer and pianist (1854-1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Tinel_1911.jpg"
+        }
+      },
+      {
+        "id": "G2HtAVwC",
+        "type": "item",
+        "label": "Arthur De Greef",
+        "description": "Belgian musician (1862-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arthur_De_Greef.jpg"
+        }
+      },
+      {
+        "id": "oNqjNRHv",
+        "type": "item",
+        "label": "Vasily Safonov",
+        "description": "Russian pianist, teacher, conductor and composer (1852-1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Василий_Сафронов.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Louis-Brassin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fV34aLHP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fV34aLHP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fV34aLHP.csv"
       }
     ]
   }

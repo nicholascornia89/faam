@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q43631",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Leiden"
       }
     ],
     "aliases": [
@@ -72,8 +73,68 @@
         "base_url": "https://www.geonames.org/",
         "label": "NL"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mTawq73z",
+        "type": "item",
+        "label": "Mario van Overeem",
+        "description": "Dutch composer and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "HodHVf2B",
+        "type": "item",
+        "label": "Willem Nicolaï",
+        "description": "Dutch conductor, composer, musicologist and music educator (1829–1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "WFGNicolai.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "TvKfNTdW",
+        "type": "item",
+        "label": "Leiden University",
+        "description": "public university in the Netherlands"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "U63XNxZ8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "U63XNxZ8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "U63XNxZ8.csv"
+      }
+    ]
+  }
 }

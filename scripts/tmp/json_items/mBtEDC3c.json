@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q23926940",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ercole Gaibara"
       }
     ]
   },
@@ -78,13 +79,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "7CKW4bxw",
+        "type": "item",
+        "label": "Alessandro Stradella",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "AlessandroStradella.jpg"
+        }
+      },
+      {
+        "id": "i5UC9u3n",
+        "type": "item",
+        "label": "Giuseppe Torelli",
+        "description": "Italian violist, violinist, teacher and composer (1658–1709)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Torelli.png"
+        }
+      },
+      {
+        "id": "UEamoqMR",
+        "type": "item",
+        "label": "Leonardo Brugnoli",
+        "description": "Italian violonist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "SPsbUeBf",
+        "type": "item",
+        "label": "Giovanni Benvenuti",
+        "description": "Italian violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mBtEDC3c.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mBtEDC3c.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mBtEDC3c.csv"
       }
     ]
   }

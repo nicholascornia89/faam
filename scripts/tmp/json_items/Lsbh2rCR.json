@@ -11,7 +11,7 @@
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital of and state in Austria"
       }
     ],
     "object_type": [
@@ -32,7 +32,14 @@
         "value": "638141"
       }
     ],
-    "qid": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1741",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Vienna"
+      }
+    ],
     "aliases": []
   },
   "statements": {
@@ -49,8 +56,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "AT"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kyFWDzyM",
+        "label": "Austria"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Lsbh2rCR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Lsbh2rCR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Lsbh2rCR.csv"
+      }
+    ]
+  }
 }

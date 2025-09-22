@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:enJYsLJp a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:98W5cKAM ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q42187855>,
+        "16004211"^^xsd:string,
+        "enJYsLJp"^^xsd:string ;
+    skos:prefLabel "Choral Fantasy, Op.80"^^xsd:string ;
+    wd:P5202 faamentity:8YM9rBt4 ;
+    wd:P7937 faamentity:M6r7boi8,
+        faamentity:MEjPi9ot,
+        faamentity:e6nLCMMw ;
+    wd:P839 <https://imslp.org/wiki/Fantasia_in_C_minor,_Op.80_(Beethoven,_Ludwig_van)> .
+

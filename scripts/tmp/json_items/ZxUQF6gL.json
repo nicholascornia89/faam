@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q4422652",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "William Barclay Squire"
       }
     ]
   },
@@ -146,13 +147,43 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "dhLrBjLH",
+        "type": "item",
+        "label": "Stabat Mater",
+        "description": "composition by Giovanni Pierluigi da Palestrina"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZxUQF6gL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZxUQF6gL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZxUQF6gL.csv"
       }
     ]
   }

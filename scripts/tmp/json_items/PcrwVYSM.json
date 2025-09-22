@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q110593005",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cello music"
       }
     ],
     "aliases": [
@@ -63,6 +64,163 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5hgzrzp4",
+        "type": "item",
+        "label": "Luigi Abbiate",
+        "description": "French composer (1866–1933)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Abbiate.jpg"
+        }
+      }
+    ],
+    "manifestation": [
+      {
+        "id": "J6AHAEkf",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904192652.gif"
+        }
+      },
+      {
+        "id": "F3ffhsSZ",
+        "type": "item",
+        "label": "Trois Trios : d'une Difficulté Progressive pour le Violoncelle, Viola et Violoncelle : Oeuv. 38",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735370.gif"
+        }
+      },
+      {
+        "id": "4bK3LYnt",
+        "type": "item",
+        "label": "Sieben Stücke für Violoncell und Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991061416389707356.gif"
+        }
+      },
+      {
+        "id": "dSdgPEbQ",
+        "type": "item",
+        "label": "Nouvelle méthode de violoncelle, théorique et pratique, en trois parties, contenant de nombreuses photographies explicatives, des extraits et des cadences des concertos les plus connus, et suivie d'une étude symphonique par l'auteur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-42807018w.gif"
+        }
+      },
+      {
+        "id": "UEdmzbGm",
+        "type": "item",
+        "label": "Grande fantaisie sur des motifs de l'opéra Le Barbier de Seville de Rossini : op. 6",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991094740449707356.gif"
+        }
+      },
+      {
+        "id": "de3nTRM6",
+        "type": "item",
+        "label": "6 Sonaten für Violoncell und unbezifferten Baß. 1, No. 1 in A-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991048046999707356.gif"
+        }
+      },
+      {
+        "id": "ZbPvFui7",
+        "type": "item",
+        "label": "6 suites : pour violoncelle seul",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901199361.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ffJTehbT",
+        "type": "item",
+        "label": "Cello Sonata in A major, G.13",
+        "description": ""
+      },
+      {
+        "id": "3spsQey5",
+        "type": "item",
+        "label": "7 Stücke for Cello, Op.34",
+        "description": ""
+      },
+      {
+        "id": "NSXGqkkG",
+        "type": "item",
+        "label": "Chanson d'amour",
+        "description": ""
+      },
+      {
+        "id": "bb5oSoue",
+        "type": "item",
+        "label": "Scenes from a Masked Ball, Op.3",
+        "description": ""
+      },
+      {
+        "id": "KnBQ2eXB",
+        "type": "item",
+        "label": "Gavotte No.2, Op.23",
+        "description": ""
+      },
+      {
+        "id": "8BqGDBFV",
+        "type": "item",
+        "label": "Tarantella, Op.33",
+        "description": ""
+      },
+      {
+        "id": "7xU86rCK",
+        "type": "item",
+        "label": "Elfentanz, Op.39",
+        "description": ""
+      },
+      {
+        "id": "bhApDkzB",
+        "type": "item",
+        "label": "3 Stücke, Op.62",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PcrwVYSM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PcrwVYSM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PcrwVYSM.csv"
+      }
+    ]
+  }
 }

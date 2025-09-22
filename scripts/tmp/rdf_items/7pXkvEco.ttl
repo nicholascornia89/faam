@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7pXkvEco a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in Central Europe"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q213>,
+        "15998716"^^xsd:string,
+        "7pXkvEco"^^xsd:string ;
+    skos:altLabel "CZ"^^xsd:string,
+        "CZE"^^xsd:string,
+        "CZR"^^xsd:string,
+        "Czech Republic"^^xsd:string,
+        "Czechia"^^xsd:string ;
+    skos:prefLabel "Czech Republic"^^xsd:string .
+

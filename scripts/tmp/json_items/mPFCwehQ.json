@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1365552",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sacristan"
       }
     ],
     "aliases": [
@@ -47,6 +48,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YuPuRZUc",
+        "type": "item",
+        "label": "Remi Ghesquiere",
+        "description": "sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mPFCwehQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mPFCwehQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mPFCwehQ.csv"
+      }
+    ]
+  }
 }

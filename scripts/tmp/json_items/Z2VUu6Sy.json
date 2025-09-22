@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q214970",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "virtuoso"
       }
     ],
     "aliases": [
@@ -63,6 +64,93 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hVCbmjig",
+        "type": "item",
+        "label": "Girolamo Crescentini",
+        "description": "Italian singer castrato",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Girolamo_Crescentini.jpg"
+        }
+      },
+      {
+        "id": "aRhqhDnA",
+        "type": "item",
+        "label": "Antoine Bessems",
+        "description": "b. 1806, Antwerp, d. 1868, Paris; violinist and composer (1809–1868)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bessems.jpg"
+        }
+      }
+    ],
+    "manifestation": [
+      {
+        "id": "TwXcUUpX",
+        "type": "item",
+        "label": "Ungarische Rhapsodie no. 2 : cadenza",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702856.gif"
+        }
+      },
+      {
+        "id": "CaR74wnb",
+        "type": "item",
+        "label": "5me. Grand Solo : Pour le Flute avec Acct. de deux violons alto et basse ou Piano : Composé pour Les Concerts du Conservatoire : Op: 79.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370132.gif"
+        }
+      },
+      {
+        "id": "Aeb2iAaE",
+        "type": "item",
+        "label": "L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370115.gif"
+        }
+      },
+      {
+        "id": "dHV3E4Yr",
+        "type": "item",
+        "label": "Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331423.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Z2VUu6Sy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Z2VUu6Sy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Z2VUu6Sy.csv"
+      }
+    ]
+  }
 }

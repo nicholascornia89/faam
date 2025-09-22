@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:K6gPySVi a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "profession; publisher of music works"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q222836>,
+        "15990902"^^xsd:string,
+        "K6gPySVi"^^xsd:string ;
+    skos:altLabel "music publisher"^^xsd:string ;
+    skos:prefLabel "diarist"^^xsd:string,
+        "music publisher"^^xsd:string .
+

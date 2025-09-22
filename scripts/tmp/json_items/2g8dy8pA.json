@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1384",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "New York"
       }
     ],
     "aliases": [
@@ -104,8 +105,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2g8dy8pA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2g8dy8pA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2g8dy8pA.csv"
+      }
+    ]
+  }
 }

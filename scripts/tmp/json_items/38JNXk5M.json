@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1147614",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ferme générale"
       }
     ],
     "aliases": [
@@ -64,6 +65,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GksaRBE5",
+        "type": "item",
+        "label": "Jean-Benjamin de La Borde",
+        "description": "French composer, patron, writer and fermier général",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Benjamin_de_La_Borde.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "38JNXk5M.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "38JNXk5M.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "38JNXk5M.csv"
+      }
+    ]
+  }
 }

@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q1707941",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph Ryelandt"
       }
     ]
   },
@@ -194,13 +195,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SjeERvZJ",
+        "type": "item",
+        "label": "Le clavecin bien tempéré de Jean-Sébastien Bach (1685-1750): guide pour les pianistes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902819462.gif"
+        }
+      },
+      {
+        "id": "BAd8Cnc9",
+        "type": "item",
+        "label": "Audi Filia. Motet à 4 voix mixtes pour la fête d'une vierge.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502037.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Joseph_Ryelandt.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kpFs3SNX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kpFs3SNX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kpFs3SNX.csv"
       }
     ]
   }

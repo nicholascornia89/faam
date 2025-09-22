@@ -1,0 +1,74 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jR3dHHJw a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WuWcWk4u,
+        faamentity:c5cZmF37,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:Di2mC26w,
+        faamentity:NFazQXR2,
+        faamentity:XutP4SZN,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """<ol>
+<li> Intermezzo </li>
+<li> Intermezzo</li>
+<li> Intermezzo </li>
+<li> Rhapsodie </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:G5pwZLWh,
+        faamentity:jvhZafsd,
+        faamentity:mfU3QT5M ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CT372LTH,
+        faamentity:Mom3rq37,
+        faamentity:XV4xVK7r ;
+    schema1:hasPart faamentity:Nvwe34wr ;
+    schema1:identifier "15992696"^^xsd:string,
+        "KCA-030904673826"^^xsd:string,
+        "jR3dHHJw"^^xsd:string ;
+    schema1:location faamentity:Km6ATdgQ ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6738134/N"^^schema1:url ;
+    skos:prefLabel "Clavierstücke"^^xsd:string ;
+    wd:P217 "MM-TP-BRAHM-stuk119-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"jR3dHHJw-1409be1e-682f-4e87-9b22-a360eb1f37e9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"jR3dHHJw-5adb77aa-017c-4955-8fd7-ae082268c4b4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"jR3dHHJw-8bd015f5-34bd-407d-9267-0b23b8e5466d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Km6ATdgQ .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:Mom3rq37 a rdf:object .
+
+faamentity:XV4xVK7r a rdf:object .
+

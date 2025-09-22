@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q166293",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Piano Concerto No. 2"
       }
     ]
   },
@@ -89,6 +90,51 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gkMdvnYk",
+        "type": "item",
+        "label": "Concerto in a : voor piano enOrchestra : Opus 85",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000350242.gif"
+        }
+      },
+      {
+        "id": "YnrtxuZg",
+        "type": "item",
+        "label": "Concerto in a : voor piano enOrchestra : Opus 85",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000350241.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nKfSkLTj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nKfSkLTj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nKfSkLTj.csv"
+      }
+    ]
+  }
 }

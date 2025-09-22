@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q110222877",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jakob Quadflieg"
       }
     ]
   },
@@ -135,13 +136,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "5PhEA3sv",
+        "type": "item",
+        "label": "Missa Tu es Petrus : für 6stg. gemischten Chor",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991062854279707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "4r3DTmXH",
+        "type": "item",
+        "label": "Tu es Petrus",
+        "description": "Parody mass by Giovanni Pierluigi da Palestrina"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NV6snRPG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NV6snRPG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NV6snRPG.csv"
       }
     ]
   }

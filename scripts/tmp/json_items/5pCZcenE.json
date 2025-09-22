@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q191823",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "clavichord"
       }
     ],
     "aliases": [
@@ -51,6 +52,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8gZHuqVq",
+        "type": "item",
+        "label": "Wolfgang Amadeus Mozart",
+        "description": "Austrian composer of the Classical period (1756–1791)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg"
+        }
+      },
+      {
+        "id": "2tkZfvvc",
+        "type": "item",
+        "label": "Arnold Dolmetsch",
+        "description": "French musician and instrument maker in England (1858-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold_Dolmetsch.jpg"
+        }
+      },
+      {
+        "id": "Wd2XZyKk",
+        "type": "item",
+        "label": "Violet Gordon-Woodhouse",
+        "description": "British harpsichordist and clavichordist (1872–1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5pCZcenE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5pCZcenE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5pCZcenE.csv"
+      }
+    ]
+  }
 }

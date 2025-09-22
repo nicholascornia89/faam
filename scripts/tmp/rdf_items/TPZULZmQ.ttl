@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TPZULZmQ a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1823-11-09"^^xsd:string ;
+    schema1:birthPlace faamentity:WsTBHVg9 ;
+    schema1:deathDate "1855-12-01"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "German musician and editor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q40529382>,
+        "15996208"^^xsd:string,
+        "TPZULZmQ"^^xsd:string ;
+    skos:altLabel "Theodor de Witt"^^xsd:string ;
+    skos:prefLabel "Theodor de Witt"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:69711324 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/159321> ;
+    wd:P839 <https://imslp.org/wiki/Category:Witt,_Theodor_de> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PUmeYeCQ .
+

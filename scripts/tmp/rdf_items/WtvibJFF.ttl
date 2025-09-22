@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WtvibJFF a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:72sFir89,
+        faamentity:k5PWRY6Q ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "emphasis placed on a particular musical note"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q424494>,
+        "15992146"^^xsd:string,
+        "WtvibJFF"^^xsd:string ;
+    skos:altLabel "accent"^^xsd:string ;
+    skos:prefLabel "accent"^^xsd:string ;
+    wd:P1535 faamentity:2ZAuwsSp,
+        faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:kdBmwQEE ;
+    wd:P31 faamentity:N2f5NSgz .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2119",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mannheim"
       }
     ],
     "aliases": [
@@ -78,8 +79,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "2873891"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Q5oEbzFL",
+        "type": "item",
+        "label": "Johann Baptist Cramer",
+        "description": "British musician (1771-1858)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Baptist_Cramer_by_William_Sharp.jpg"
+        }
+      },
+      {
+        "id": "9DcyGgYa",
+        "type": "item",
+        "label": "Friedrich Berr",
+        "description": "German clarinettist, bassoonist and composer (1794–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Fr_Berr.jpg"
+        }
+      },
+      {
+        "id": "2Pacaucy",
+        "type": "item",
+        "label": "Peter Winter",
+        "description": "German opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg"
+        }
+      },
+      {
+        "id": "4pKZtPQK",
+        "type": "item",
+        "label": "Johann Peter Pixis",
+        "description": "German pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_Kneisel_nach_Cäcilie_Brand_-_Johann_Peter_Pixis_(Lithographie).jpg"
+        }
+      },
+      {
+        "id": "8duzYjhN",
+        "type": "item",
+        "label": "Franz Eck",
+        "description": "German violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kJLLR8EA",
+        "type": "item",
+        "label": "Johann Stamitz",
+        "description": "Czech composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jan_Václav_Stamic_(1717-1757).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kbDNt9VZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kbDNt9VZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kbDNt9VZ.csv"
+      }
+    ]
+  }
 }

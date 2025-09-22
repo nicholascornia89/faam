@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3sBRPvLk a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1909"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:AeKhRWCB,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:Rg6UtZ34 ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:M9HRWrxt ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:APRRus3e,
+        faamentity:QxJM2hye,
+        faamentity:TYRfydcx ;
+    schema1:hasPart faamentity:L22MWk6s ;
+    schema1:identifier "16004381"^^xsd:string,
+        "3sBRPvLk"^^xsd:string,
+        "KCA-030902758835"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12955610/N"^^schema1:url ;
+    skos:prefLabel "Humoreska, op. 101 no. 7 = Célèbre humoresque"^^xsd:string ;
+    wd:P217 "MM-DUBP-DVORA-humores-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"3sBRPvLk-6a77c691-679d-4144-8399-238fc9dafea8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"3sBRPvLk-80751cb8-bd81-49c4-8c95-5a154814bb69"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1909"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"3sBRPvLk-8a9cb728-0022-44cf-aec0-942f5c5a2357"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:APRRus3e a rdf:object .
+
+faamentity:QxJM2hye a rdf:object .
+
+faamentity:TYRfydcx a rdf:object .
+

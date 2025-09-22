@@ -53,17 +53,20 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       },
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,56 +81,68 @@
     "provenance": [
       {
         "type": "item",
-        "value": "hQcqj8e8"
+        "value": "hQcqj8e8",
+        "label": "Royal Conservatory of Ghent"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "65rhe5Po"
+        "value": "65rhe5Po",
+        "label": "concerto"
       },
       {
         "type": "item",
-        "value": "8wb95JHQ"
+        "value": "8wb95JHQ",
+        "label": "harmony orchestra"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "MFQUhgoe"
+        "value": "MFQUhgoe",
+        "label": "oboe"
       },
       {
         "type": "item",
-        "value": "N3AKKugd"
+        "value": "N3AKKugd",
+        "label": "horn"
       },
       {
         "type": "item",
-        "value": "GCEGkwjT"
+        "value": "GCEGkwjT",
+        "label": "bassoon"
       },
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       },
       {
         "type": "item",
-        "value": "WsKgSBQG"
+        "value": "WsKgSBQG",
+        "label": "viola"
       },
       {
         "type": "item",
-        "value": "4oyT6BBG"
+        "value": "4oyT6BBG",
+        "label": "cello"
       },
       {
         "type": "item",
-        "value": "5cucf8tb"
+        "value": "5cucf8tb",
+        "label": "double bass"
       },
       {
         "type": "item",
-        "value": "MV3uErvy"
+        "value": "MV3uErvy",
+        "label": "flute"
       },
       {
         "type": "item",
-        "value": "4AUBYBXJ"
+        "value": "4AUBYBXJ",
+        "label": "clarinet"
       }
     ],
     "musical work": [],
@@ -139,7 +154,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -151,13 +167,15 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Martin-Joseph Mengal"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -175,6 +193,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCG-000357124/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8JE4GCxs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8JE4GCxs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8JE4GCxs.csv"
       }
     ]
   }

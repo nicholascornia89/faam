@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5g7tXojm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:63DtDHAt,
+        faamentity:a4LRzWMY,
+        faamentity:cc2zjtBZ ;
+    schema1:birthDate "1714-03-08"^^xsd:string ;
+    schema1:birthPlace faamentity:b8F9LEaG ;
+    schema1:deathDate "1788-12-14"^^xsd:string ;
+    schema1:deathPlace faamentity:4wGJZSfp ;
+    schema1:description "German composer (1714–1788)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q76428>,
+        "0"^^xsd:string,
+        "5g7tXojm"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:prefLabel "Carl Philipp Emanuel Bach"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh,
+        faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:204566 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/2561> ;
+    wd:P737 faamentity:QhRQ5LW9 ;
+    wd:P839 <https://imslp.org/wiki/Category:Bach,_Carl_Philipp_Emanuel> ;
+    schema:hasOccupation faamentity:AD3QZxBK,
+        faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:N3DQMCdv,
+        faamentity:PGamAZRD,
+        faamentity:RHfvaKqY,
+        faamentity:Wm5MWZbA,
+        faamentity:YYyZX3aY,
+        faamentity:cf2PYjhA .
+

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TpU4zggV a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1601-09-27"^^xsd:string ;
+    schema1:birthPlace faamentity:RgKJJk5H ;
+    schema1:deathDate "1643-05-14"^^xsd:string ;
+    schema1:deathPlace faamentity:Be9SLZJc ;
+    schema1:description "King of France and Navarre (r. 1610–1643)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q737533>,
+        "16004282"^^xsd:string,
+        "TpU4zggV"^^xsd:string ;
+    schema1:nationality faamentity:DKMie5vK,
+        faamentity:iBFaxTaQ ;
+    skos:altLabel "King of France Louis XIII"^^xsd:string,
+        "Le Roi Louis XIII"^^xsd:string,
+        "Louis XIII"^^xsd:string,
+        "Louis XIII of France"^^xsd:string,
+        "Louis Xiii"^^xsd:string,
+        "Louis le Juste"^^xsd:string,
+        "Louis the Just"^^xsd:string,
+        "Luis XIII el Justo"^^xsd:string,
+        "roi de France Louis XIII"^^xsd:string ;
+    skos:prefLabel "Louis XIII of France"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:64008583 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30024475> ;
+    wd:P839 <https://imslp.org/wiki/Category:King_of_France,_Louis_XIII> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

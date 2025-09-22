@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q482980",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "author"
       }
     ],
     "aliases": [
@@ -55,6 +56,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RBBCPiXz",
+        "type": "item",
+        "label": "Henry Purcell",
+        "description": "English composer (1659–1695)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henry_Purcell_by_John_Closterman.jpg"
+        }
+      },
+      {
+        "id": "7hqYR9Kn",
+        "type": "item",
+        "label": "Enrique Broca",
+        "description": "Spanish author",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZS3TsxZw",
+        "type": "item",
+        "label": "Elisabeth Alberdingk Thijm",
+        "description": "writer, translator and patron (1863-1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Juo3wTsn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Juo3wTsn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Juo3wTsn.csv"
+      }
+    ]
+  }
 }

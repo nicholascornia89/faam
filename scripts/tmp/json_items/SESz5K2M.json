@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q189766",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Luigi Boccherini"
       }
     ]
   },
@@ -187,13 +188,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "dkJpBvpv",
+        "type": "item",
+        "label": "6 Sonaten für Violoncell und unbezifferten Baß. 4: 4, No. 4 in Es-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991048047199707356.gif"
+        }
+      },
+      {
+        "id": "de3nTRM6",
+        "type": "item",
+        "label": "6 Sonaten für Violoncell und unbezifferten Baß. 1, No. 1 in A-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991048046999707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ffJTehbT",
+        "type": "item",
+        "label": "Cello Sonata in A major, G.13",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "LBoccherini.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SESz5K2M.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SESz5K2M.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SESz5K2M.csv"
       }
     ]
   }

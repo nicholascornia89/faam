@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,101 +79,123 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "DqMNcjpW"
+        "value": "DqMNcjpW",
+        "label": "trill"
       },
       {
         "type": "item",
-        "value": "NFazQXR2"
+        "value": "NFazQXR2",
+        "label": "release pedal"
       },
       {
         "type": "item",
-        "value": "Di2mC26w"
+        "value": "Di2mC26w",
+        "label": "engage pedal"
       },
       {
         "type": "item",
-        "value": "WtvibJFF"
+        "value": "WtvibJFF",
+        "label": "accent"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "iWuVLJam"
+        "value": "iWuVLJam",
+        "label": "rallentando"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       },
       {
         "type": "item",
-        "value": "B7WuhvkL"
+        "value": "B7WuhvkL",
+        "label": "fermata"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "GTTB7Xre"
+        "value": "GTTB7Xre",
+        "label": "Sibley Music Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "E2chmtzQ"
+        "value": "E2chmtzQ",
+        "label": "sonata"
       },
       {
         "type": "item",
-        "value": "MaWnCnVw"
+        "value": "MaWnCnVw",
+        "label": "arrangement"
       },
       {
         "type": "item",
-        "value": "kSz3iRAw"
+        "value": "kSz3iRAw",
+        "label": "piano sonata"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "bLnUjgnB"
+        "value": "bLnUjgnB",
+        "label": "Sonata K. 9"
       }
     ],
     "agent": [
@@ -182,7 +206,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -194,7 +219,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Domenico Scarlatti"
       },
       {
         "type": "statement",
@@ -203,7 +229,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -215,7 +242,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Giuseppe Buonamici"
       },
       {
         "type": "statement",
@@ -224,19 +252,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "2g8dy8pA"
+            "value": "2g8dy8pA",
+            "label": "New York"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1902"
           }
-        ]
+        ],
+        "label": "G. Schirmer Inc."
       },
       {
         "type": "statement",
@@ -245,7 +276,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -257,31 +289,37 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Carl Tausig"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "2g8dy8pA"
+        "value": "2g8dy8pA",
+        "label": "New York"
       }
     ]
   },
@@ -298,6 +336,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SML-19147/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HdANzxaD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HdANzxaD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HdANzxaD.csv"
       }
     ]
   }

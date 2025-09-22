@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1180325",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "De Standaard"
       }
     ],
     "aliases": [
@@ -70,6 +71,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "k47exNKq",
+        "type": "item",
+        "label": "Lodewijk Ontrop",
+        "description": "Belgian composer and conductor, 1875–1941",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lodewijk_Ontrop_ca._1897_(retouched).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LAGWcU9n.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LAGWcU9n.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LAGWcU9n.csv"
+      }
+    ]
+  }
 }

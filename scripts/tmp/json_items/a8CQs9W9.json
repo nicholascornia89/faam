@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q49111",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cambridge"
       }
     ],
     "aliases": [
@@ -66,8 +67,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "4931972"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "9yqEFVU3",
+        "type": "item",
+        "label": "Harvard University",
+        "description": "private university in Cambridge, Massachusetts"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "a8CQs9W9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "a8CQs9W9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "a8CQs9W9.csv"
+      }
+    ]
+  }
 }

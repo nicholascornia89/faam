@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q273626",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "École polytechnique"
       }
     ],
     "aliases": []
@@ -51,6 +52,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nrWaKLQc",
+        "type": "item",
+        "label": "Alexandre-Étienne Choron",
+        "description": "French musician (1771-1834)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre-Étienne_Choron.jpg"
+        }
+      },
+      {
+        "id": "ND8y2kmm",
+        "type": "item",
+        "label": "Charles Koechlin",
+        "description": "French composer, teacher and writer on music",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Koechlin_1.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MPDUioXR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MPDUioXR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MPDUioXR.csv"
+      }
+    ]
+  }
 }

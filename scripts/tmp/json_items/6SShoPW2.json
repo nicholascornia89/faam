@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q20986484",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oxford"
       }
     ],
     "aliases": [
@@ -62,8 +63,52 @@
         "base_url": "https://www.geonames.org/",
         "label": "7290621"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "AfyB6jzM",
+        "type": "item",
+        "label": "Merton College",
+        "description": "college of the University of Oxford"
+      },
+      {
+        "id": "2sFrtWXK",
+        "type": "item",
+        "label": "Magdalen College",
+        "description": "constituent college of the University of Oxford in England"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6SShoPW2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6SShoPW2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6SShoPW2.csv"
+      }
+    ]
+  }
 }

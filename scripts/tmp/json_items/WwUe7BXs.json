@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q559659",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-François Le Sueur"
       }
     ]
   },
@@ -143,13 +144,87 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cmzT8tYL",
+        "type": "item",
+        "label": "Antoine-François Marmontel",
+        "description": "French pianist, teacher and musicographer (1816–1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "A-F_Marmontel.jpg"
+        }
+      },
+      {
+        "id": "3ZGzegqc",
+        "type": "item",
+        "label": "Hector Berlioz",
+        "description": "French composer and conductor (1803–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Berlioz_Petit_BNF_Gallica-crop.jpg"
+        }
+      },
+      {
+        "id": "aMECmgpH",
+        "type": "item",
+        "label": "Ambroise Thomas",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ambroise_Thomas_2.jpg"
+        }
+      },
+      {
+        "id": "mVXKDPrZ",
+        "type": "item",
+        "label": "Napoléon Henri Reber",
+        "description": "French composer (1807-1880)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nhr.jpg"
+        }
+      },
+      {
+        "id": "LDkDYnVj",
+        "type": "item",
+        "label": "Antoine Elwart",
+        "description": "French composer (1808-1877)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Elwart,_Antoine,_Nadar_Gallica.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "J._F._Le_Sueur_cropped.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WwUe7BXs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WwUe7BXs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WwUe7BXs.csv"
       }
     ]
   }

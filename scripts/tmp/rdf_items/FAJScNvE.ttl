@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FAJScNvE a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:AzBrFumG,
+        faamentity:RePdmToB,
+        faamentity:Rg6UtZ34,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:aCRY7SgN,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:MEjPi9ot,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:E6MLQVev,
+        faamentity:mvgRcySN ;
+    schema1:identifier "16005044"^^xsd:string,
+        "BSB-991078976969707356"^^xsd:string,
+        "FAJScNvE"^^xsd:string ;
+    schema1:location faamentity:jdQCCb5Y ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00037232"^^schema1:url ;
+    skos:prefLabel "Miserere : (Psalm 50) ; für Doppelchor u. Soli ; op. 26"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 33841"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"FAJScNvE-0976e34c-04c4-4880-8dd6-f40e8ba46e28"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"FAJScNvE-867eef23-8b34-4117-82ca-542b432f6b9e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:jdQCCb5Y .
+
+faamentity:E6MLQVev a rdf:object .
+
+faamentity:mvgRcySN a rdf:object .
+

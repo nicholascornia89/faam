@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8YKkm2am a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:HUwu9oBc ;
+    schema1:description "motet attributed to Volckmar Leisring"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124316680>,
+        "16002026"^^xsd:string,
+        "8YKkm2am"^^xsd:string ;
+    skos:altLabel "O filii et filiae"^^xsd:string ;
+    skos:prefLabel "O filii et filiae"^^xsd:string ;
+    wd:P5202 faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:UDgA2ki8,
+        faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE ;
+    wd:P839 <https://imslp.org/wiki/O_filii_et_filiae_(Leisring,_Volckmar)> .
+

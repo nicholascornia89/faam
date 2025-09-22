@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q4993067",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kungliga Hovkapellet"
       }
     ],
     "aliases": []
@@ -51,6 +52,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "ZhQpEEdD",
+        "type": "item",
+        "label": "Ignaz Lachner",
+        "description": "German composer and conductor (1807-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Lachner_1882.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aoiUohmZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aoiUohmZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aoiUohmZ.csv"
+      }
+    ]
+  }
 }

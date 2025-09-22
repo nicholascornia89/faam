@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q468578",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Caderousse"
       }
     ],
     "aliases": [
@@ -64,8 +65,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3029254"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mg4nbSvj",
+        "type": "item",
+        "label": "Benoît Tranquille Berbiguier",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_of_Benoit_Tranquille_Berbiguier,_composer_(1782-1835)_-_Archivio_Storico_Ricordi_ICON010658.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6MK6XkE8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6MK6XkE8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6MK6XkE8.csv"
+      }
+    ]
+  }
 }

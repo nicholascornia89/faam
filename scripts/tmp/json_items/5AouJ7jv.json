@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q968109",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alexandre Dubuque"
       }
     ]
   },
@@ -60,13 +61,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YojCFfbu",
+        "type": "item",
+        "label": "Nikolai Zverev",
+        "description": "Russian classical pianist (1833–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai-Zverev.jpg"
+        }
+      },
+      {
+        "id": "X5maQDjs",
+        "type": "item",
+        "label": "Mily Balakirev",
+        "description": "Russian composer, pianist, and conductor (1837-1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Милий_Балакирев.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5AouJ7jv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5AouJ7jv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5AouJ7jv.csv"
       }
     ]
   }

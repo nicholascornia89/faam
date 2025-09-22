@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3581464",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Église Saint-François-de-Sales de Lyon"
       }
     ],
     "aliases": []
@@ -57,6 +58,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PhcJTGVF",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3ujwWxLV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3ujwWxLV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3ujwWxLV.csv"
+      }
+    ]
+  }
 }

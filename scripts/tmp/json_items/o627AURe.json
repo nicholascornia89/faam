@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q15980158",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "non-fiction writer"
       }
     ],
     "aliases": [
@@ -63,6 +64,91 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZmZCPKbN",
+        "type": "item",
+        "label": "Alfred Wotquenne",
+        "description": "Belgian music librarian (1867–1939)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "XfVshLjC",
+        "type": "item",
+        "label": "Giovanni Maria Bononcini",
+        "description": "Italian violinist and composer (1642-1678)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Maria_Bononcini.jpg"
+        }
+      },
+      {
+        "id": "kzaxQhbG",
+        "type": "item",
+        "label": "Cornélie van Zanten",
+        "description": "Dutch opera singer (1855–1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg"
+        }
+      },
+      {
+        "id": "eukMENJn",
+        "type": "item",
+        "label": "Karl Klindworth",
+        "description": "German musician (1830–1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Karl_Klindworth.jpg"
+        }
+      },
+      {
+        "id": "f2aM5oy8",
+        "type": "item",
+        "label": "Ignaz von Seyfried",
+        "description": "Austrian musician (1776–1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Seyfried.jpg"
+        }
+      },
+      {
+        "id": "he6EAoko",
+        "type": "item",
+        "label": "Anton Schindler",
+        "description": "Associate, secretary, and early biographer of Ludwig van Beethoven (1795-1864)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "AntonSchindler.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "o627AURe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "o627AURe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "o627AURe.csv"
+      }
+    ]
+  }
 }

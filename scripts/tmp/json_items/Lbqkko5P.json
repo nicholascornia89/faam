@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q148",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "People's Republic of China"
       }
     ],
     "aliases": []
@@ -45,5 +46,27 @@
     "GeoNames ID": []
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Lbqkko5P.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Lbqkko5P.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Lbqkko5P.csv"
+      }
+    ]
+  }
 }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q108574870",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bernard Latte"
       }
     ]
   },
@@ -137,13 +138,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "kLrXBmZP",
+        "type": "item",
+        "label": "Trois Quatuors : pour Soprano, Contralte, Tenor & Basse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000338557.gif"
+        }
+      },
+      {
+        "id": "WigP5okt",
+        "type": "item",
+        "label": "Cours de chant ou méthode progressive et complète divisée en 2 parties, 1ère partie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43203582h.gif"
+        }
+      },
+      {
+        "id": "GaQUTjdm",
+        "type": "item",
+        "label": "Méthode de chant",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-428941994.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hWRBKsLc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hWRBKsLc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hWRBKsLc.csv"
       }
     ]
   }

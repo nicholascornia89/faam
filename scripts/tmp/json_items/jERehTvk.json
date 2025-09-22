@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q118865",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "clarinetist"
       }
     ],
     "aliases": [
@@ -59,6 +60,121 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9DcyGgYa",
+        "type": "item",
+        "label": "Friedrich Berr",
+        "description": "German clarinettist, bassoonist and composer (1794–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Fr_Berr.jpg"
+        }
+      },
+      {
+        "id": "TQdg6qjY",
+        "type": "item",
+        "label": "Jacques-Jules Bouffil",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "WVVuC38d",
+        "type": "item",
+        "label": "Iwan Müller",
+        "description": "Russian musician and composer (1786-1854)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Iwan_Müller.jpg"
+        }
+      },
+      {
+        "id": "45Ju9mLf",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "FpQJaE5v",
+        "type": "item",
+        "label": "Bernhard Crusell",
+        "description": "Swedish-Finnish clarinetist, composer and translator (1775–1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Henrik_Crusell_1826.jpg"
+        }
+      },
+      {
+        "id": "3kUPUbFX",
+        "type": "item",
+        "label": "Jacques-Jules Bouffil",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZihDUuGM",
+        "type": "item",
+        "label": "Jacques Charles Duvernoy",
+        "description": "French composer, clarinetist and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Duvernoy.jpg"
+        }
+      },
+      {
+        "id": "2xLuMNHZ",
+        "type": "item",
+        "label": "Jean-Xavier Lefèvre",
+        "description": "Swiss-born French clarinettist (1763-1829)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Xavier_Lefèvre.jpg"
+        }
+      },
+      {
+        "id": "FprDwKkS",
+        "type": "item",
+        "label": "Franz Tausch",
+        "description": "clarinetist and composer (1762-1817)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jERehTvk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jERehTvk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jERehTvk.csv"
+      }
+    ]
+  }
 }

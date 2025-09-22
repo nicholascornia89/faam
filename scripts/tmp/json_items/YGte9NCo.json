@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q752348",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rabat"
       }
     ],
     "aliases": [
@@ -62,8 +63,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "8299745"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kVX9a4Qm",
+        "label": "Malta"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "bDP89aJt",
+        "type": "item",
+        "label": "Francesco Masini",
+        "description": "Maltese lawyer and politician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_masini.JPG"
+        }
+      },
+      {
+        "id": "Dmow9aSA",
+        "type": "item",
+        "label": "Francesco Azopardi",
+        "description": "Maltese composer (1748-1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rabat_Maltese_2017_02.jpg"
+        }
+      },
+      {
+        "id": "Dmow9aSA",
+        "type": "item",
+        "label": "Francesco Azopardi",
+        "description": "Maltese composer (1748-1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rabat_Maltese_2017_02.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "YGte9NCo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "YGte9NCo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "YGte9NCo.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4faHo7aD a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "a publishing venture to feature American composers"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126963009>,
+        "16005759"^^xsd:string,
+        "4faHo7aD"^^xsd:string ;
+    skos:altLabel "Composers' Music Co."^^xsd:string,
+        "Composers' Music Corporation"^^xsd:string ;
+    skos:prefLabel "Composer's Music Corporation"^^xsd:string,
+        "Composers' Music Corporation"^^xsd:string ;
+    wd:P31 faamentity:2fXfbLCV ;
+    wd:P839 <https://imslp.org/wiki/Composers'_Music_Corporation> .
+

@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6WPn9aWc a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Na5pMDjZ ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q67199926>,
+        "16003496"^^xsd:string,
+        "6WPn9aWc"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in G major, L.442"^^xsd:string,
+        "Sonata K. 104"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in G major, K.104"^^xsd:string,
+        "Sonata K. 104"^^xsd:string ;
+    wd:P214 viaf:293201886 ;
+    wd:P5202 faamentity:S2wjk8Yx,
+        faamentity:YdWwzL5r ;
+    wd:P7937 faamentity:E2chmtzQ ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_G_major,_K.104_(Scarlatti,_Domenico)> .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:92TTrgAu a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:VZJo2QLa ;
+    schema1:identifier "16002688"^^xsd:string,
+        "92TTrgAu"^^xsd:string ;
+    skos:prefLabel "Factus est repente de coelo"^^xsd:string ;
+    wd:P5202 faamentity:6ng5YJy5,
+        faamentity:VsAY6UsF ;
+    wd:P7937 faamentity:Z5LXHFLR ;
+    wd:P839 <https://imslp.org/wiki/Factus_est_repente_(Aichinger,_Gregor)> .
+

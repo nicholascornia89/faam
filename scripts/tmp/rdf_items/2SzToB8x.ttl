@@ -1,0 +1,42 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2SzToB8x a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1863"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:VMA2AmEN ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:YgK4PJwk ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:jArGUTgq,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:D3Vekn6E ;
+    schema1:identifier "16004329"^^xsd:string,
+        "2SzToB8x"^^xsd:string,
+        "BSB-991125835949707356"^^xsd:string ;
+    schema1:location faamentity:ef89QxJG ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb10598558"^^schema1:url ;
+    skos:prefLabel "Mittheilungen über Joh. Seb. Bach's Magnificat"^^xsd:string ;
+    wd:P217 "Mus.th. 1155"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"2SzToB8x-dfcfbc7a-9b0f-4b1d-b279-b1887ff67b25"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1863"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:location faamentity:ef89QxJG .
+
+faamentity:D3Vekn6E a rdf:object .
+

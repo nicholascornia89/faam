@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q157367",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brandenburg-Prussia"
       }
     ],
     "aliases": [
@@ -53,6 +54,41 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CFu7TPQo",
+        "type": "item",
+        "label": "George Frideric Handel",
+        "description": "German-British Baroque composer (1685–1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Frideric_Handel_by_Balthasar_Denner.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hVfPnD2r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hVfPnD2r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hVfPnD2r.csv"
+      }
+    ]
+  }
 }

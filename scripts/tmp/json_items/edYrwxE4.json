@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q365723",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Adolphe Deslandres"
       }
     ]
   },
@@ -165,13 +166,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BPUQTZtX",
+        "type": "item",
+        "label": "Ave Maria. pour Soprano ou Tenor, avec accompagnement d'Orgue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p19.gif"
+        }
+      },
+      {
+        "id": "BPUQTZtX",
+        "type": "item",
+        "label": "Ave Maria. pour Soprano ou Tenor, avec accompagnement d'Orgue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p19.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Adolphe_Deslandres.gif",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "edYrwxE4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "edYrwxE4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "edYrwxE4.csv"
       }
     ]
   }

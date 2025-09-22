@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q756617",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Denmark"
       }
     ],
     "aliases": [
@@ -89,6 +90,61 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Dri8qjqH",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "eQQXF9tJ",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "o9BpzFce",
+        "type": "item",
+        "label": "Dietrich Buxtehude",
+        "description": "Danish-German organist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dieterich_Buxtehude.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SiJN3Dap.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SiJN3Dap.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SiJN3Dap.csv"
+      }
+    ]
+  }
 }

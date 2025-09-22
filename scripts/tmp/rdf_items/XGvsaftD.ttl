@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XGvsaftD a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "Capital city of Victoria, Australia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3141>,
+        "0"^^xsd:string,
+        "XGvsaftD"^^xsd:string ;
+    schema1:location faamentity:bLsMHzkH ;
+    skos:altLabel "Greater Melbourne"^^xsd:string,
+        "Melbourne"^^xsd:string,
+        "Melbourne, AUS"^^xsd:string,
+        "Melbourne, Australia"^^xsd:string,
+        "Melbourne, VIC"^^xsd:string,
+        "Melbourne, VIC, Australia"^^xsd:string,
+        "Melbourne, Victoria"^^xsd:string,
+        "Melbourne, Victoria, Australia"^^xsd:string,
+        "Melbs"^^xsd:string,
+        "Naarm"^^xsd:string,
+        "Narrm"^^xsd:string ;
+    skos:prefLabel "Melbourne"^^xsd:string ;
+    wd:P1566 gn:2158177 .
+

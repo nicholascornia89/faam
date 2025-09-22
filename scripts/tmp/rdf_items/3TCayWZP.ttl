@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3TCayWZP a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q150586>,
+        "15991104"^^xsd:string,
+        "3TCayWZP"^^xsd:string ;
+    skos:altLabel "Emperor Rudolf II"^^xsd:string,
+        "Habsburg, Rudolf II van (1552-1612)"^^xsd:string,
+        "Holy Roman Emperor Rudolf II"^^xsd:string,
+        "Holy Roman Emperor Rudolphus II"^^xsd:string,
+        "Kaiser Rudolf II. Heiliges Römisches Reich"^^xsd:string,
+        "King of Bohemia Rudolf II"^^xsd:string,
+        "King of Hungary Rudolf II"^^xsd:string,
+        "Rudolf II"^^xsd:string,
+        "Rudolf II van Habsburg"^^xsd:string,
+        "Rudolf II."^^xsd:string,
+        "Rudolph II"^^xsd:string,
+        "de Habsbourg, Holy Roman Emperor Rodolphe"^^xsd:string,
+        "empereur germanique Rodolphe II"^^xsd:string,
+        "imperatore del Sacro romano impero Rudolf II"^^xsd:string ;
+    skos:prefLabel "Emperor Rudolf II"^^xsd:string .
+

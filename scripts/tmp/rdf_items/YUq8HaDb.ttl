@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YUq8HaDb a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former European state (1701–1918), part of the German Empire after 1871"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q27306>,
+        "15997457"^^xsd:string,
+        "YUq8HaDb"^^xsd:string ;
+    skos:altLabel "Kingdom of Prussia"^^xsd:string,
+        "Prussia"^^xsd:string ;
+    skos:prefLabel "Kingdom of Prussia"^^xsd:string .
+

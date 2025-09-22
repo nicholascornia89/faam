@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q124349637",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "L'Angelus Op. 46"
       }
     ]
   },
@@ -78,6 +79,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Aeb2iAaE",
+        "type": "item",
+        "label": "L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370115.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SKKposdf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SKKposdf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SKKposdf.csv"
+      }
+    ]
+  }
 }

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q882091",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Kullak"
       }
     ]
   },
@@ -174,13 +175,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "6Nob9gt6",
+        "type": "item",
+        "label": "Fantasie für Pianoforte, Orchester und Chor, op. 80",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903242334.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "enJYsLJp",
+        "type": "item",
+        "label": "Choral Fantasy, Op.80",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8YM9rBt4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8YM9rBt4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8YM9rBt4.csv"
       }
     ]
   }

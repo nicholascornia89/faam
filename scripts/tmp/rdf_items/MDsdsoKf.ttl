@@ -1,0 +1,93 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MDsdsoKf a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "03-1934"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:AzBrFumG,
+        faamentity:B7WuhvkL,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam,
+        faamentity:kmMxdth8 ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj,
+        faamentity:oQTyk8An ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6BoSi8gw,
+        faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005654"^^xsd:string,
+        "DPF-202502003"^^xsd:string,
+        "MDsdsoKf"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Missa in honorem \"Reginae Pacis\". Ad duas voces aequales comitante organo"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Martii 1934 (No. 1)."^^rdf:HTML ;
+    wd:P217 "ms-1934-01"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"MDsdsoKf-4e3647d5-0e3b-4f66-bf7f-19eb532e26e0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"MDsdsoKf-8b864903-4fc5-4f91-9573-f15eef74cd40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"MDsdsoKf-94736e2d-7e64-4a79-86a6-6d67a6c6b5bb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"MDsdsoKf-c010fa12-71a8-42c0-88f4-90622871b0c7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"MDsdsoKf-e01b34ed-633a-4256-b029-173840c6cefd"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "03-1934"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"MDsdsoKf-ea965574-8593-4dc6-9493-06c24043f8ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:6BoSi8gw a rdf:object .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

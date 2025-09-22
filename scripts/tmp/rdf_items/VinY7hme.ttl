@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VinY7hme a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "royal borough in the London Region in England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q188801>,
+        "0"^^xsd:string,
+        "VinY7hme"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55 ;
+    skos:altLabel "Kensington and Chelsea"^^xsd:string,
+        "Kensington and Chelsea (unparished area)"^^xsd:string,
+        "Kensington and Chelsea Royal Borough"^^xsd:string,
+        "London Borough of Kensington and Chelsea"^^xsd:string,
+        "RBKC"^^xsd:string,
+        "Royal Borough of Kensington and Chelsea"^^xsd:string ;
+    skos:prefLabel "Royal Borough of Kensington and Chelsea"^^xsd:string ;
+    wd:P1566 gn:3333157 .
+

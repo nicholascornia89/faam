@@ -1,0 +1,57 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WnNnUQve a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1899"^^xsd:string,
+        "1903"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:CPJ2a2C2,
+        faamentity:VMA2AmEN,
+        faamentity:X6bVrZbx,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    dcterms:provenance faamentity:oRCgdJrk ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6R94Bffz,
+        faamentity:XVpibGGu ;
+    schema1:identifier "16005051"^^xsd:string,
+        "UML-62718187"^^xsd:string,
+        "WnNnUQve"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://search.lib.umich.edu/catalog/record/990015520010106381"^^schema1:url ;
+    skos:prefLabel "The science of the art of singing / by Anna Lankow. English translation by E. Buek. Combined with practical exercising material, by Anna Lankow and Manuel Garcia ... Die wissenschaft des kunst-gesanges, von Anna Lankow. Mit praktischem uebungs-material, von Anna Lankow und Manuel Garcia."^^xsd:string ;
+    wd:P217 "MT 840 .L29 1903"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"WnNnUQve-766d372f-8c15-4e7b-9850-97e1b4fc34de"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"WnNnUQve-862c353b-755b-4ae6-8a08-91aa9099c7ba"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1899"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:6R94Bffz a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

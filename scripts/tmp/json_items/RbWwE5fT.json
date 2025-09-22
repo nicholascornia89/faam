@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1871594",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antoine Louis Clapisson"
       }
     ]
   },
@@ -158,13 +159,81 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "TCizsSNo",
+        "type": "item",
+        "label": "Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000749979.gif"
+        }
+      },
+      {
+        "id": "TCizsSNo",
+        "type": "item",
+        "label": "Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000749979.gif"
+        }
+      },
+      {
+        "id": "JkxXKfb6",
+        "type": "item",
+        "label": "L'emploi de ma journée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p25.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "2cBugNQ6",
+        "type": "item",
+        "label": "Fantaisie pour piano et cor ou violon sur des Thêmes de l'Opera d'Otello de Rossini, Op. 63",
+        "description": ""
+      },
+      {
+        "id": "knDcPRD9",
+        "type": "item",
+        "label": "Otello",
+        "description": "opera by Gioachino Rossini"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Clapisson_photo_Imbert_1866.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RbWwE5fT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RbWwE5fT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RbWwE5fT.csv"
       }
     ]
   }

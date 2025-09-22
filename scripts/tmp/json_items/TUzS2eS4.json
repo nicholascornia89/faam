@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1761",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dublin"
       }
     ],
     "aliases": [
@@ -70,8 +71,78 @@
         "base_url": "https://www.geonames.org/",
         "label": "2964574"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "4sgDBRdV",
+        "label": "United Kingdom of Great Britain and Ireland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZXDf3hB6",
+        "type": "item",
+        "label": "Charles Villiers Stanford",
+        "description": "Irish composer, music teacher, and conductor (1852–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Villiers_Stanford_c1894bw.jpg"
+        }
+      },
+      {
+        "id": "C96V6zHY",
+        "type": "item",
+        "label": "John Field",
+        "description": "Irish pianist, composer, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_field.jpg"
+        }
+      },
+      {
+        "id": "5DSyG2Yb",
+        "type": "item",
+        "label": "Pietro Castrucci",
+        "description": "Italian musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Enraged_musician.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "GKqezBQ7",
+        "type": "item",
+        "label": "Royal Irish Academy of Music",
+        "description": "music conservatory in Dublin, Ireland"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TUzS2eS4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TUzS2eS4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TUzS2eS4.csv"
+      }
+    ]
+  }
 }

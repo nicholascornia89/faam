@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q10429346",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bibliographer"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9MRyDvyA",
+        "type": "item",
+        "label": "Paul Otlet",
+        "description": "Belgian author, librarian and anti-colonial thinker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Otlet_à_son_bureau_(cropped).jpg"
+        }
+      },
+      {
+        "id": "AFTScBt9",
+        "type": "item",
+        "label": "Nicola Francesco Haym",
+        "description": "Italian composer and musician (1678-1729)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Prova_di_un'opera.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ey7nvQpn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ey7nvQpn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ey7nvQpn.csv"
+      }
+    ]
+  }
 }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q957041",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François Habeneck"
       }
     ]
   },
@@ -171,13 +172,77 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "3GT9D7Vc",
+        "type": "item",
+        "label": "Edouard Lalo",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Édouard_Lalo2.jpeg"
+        }
+      },
+      {
+        "id": "RbWwE5fT",
+        "type": "item",
+        "label": "Antoine Louis Clapisson",
+        "description": "French composer (1808–1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Clapisson_photo_Imbert_1866.jpg"
+        }
+      },
+      {
+        "id": "CLJgE33u",
+        "type": "item",
+        "label": "Jean-Delphin Alard",
+        "description": "French musician (1815–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Delphin_Alard.png"
+        }
+      },
+      {
+        "id": "Cz6v87K4",
+        "type": "item",
+        "label": "Richard Hammer",
+        "description": "French violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Richard_Hammer_by_Pierre_Émile_Desmaisons.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "François-Antoine_Habeneck_01.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EiDXehYZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EiDXehYZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EiDXehYZ.csv"
       }
     ]
   }

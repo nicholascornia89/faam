@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q67199988",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 387"
       }
     ]
   },
@@ -105,6 +106,61 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XuLwW55M.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XuLwW55M.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XuLwW55M.csv"
+      }
+    ]
+  }
 }

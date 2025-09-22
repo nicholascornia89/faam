@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q311791",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nikolai Rubinstein"
       }
     ]
   },
@@ -203,13 +204,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "keeLgW85",
+        "type": "item",
+        "label": "Emil von Sauer",
+        "description": "German composer, pianist, score editor, and music (piano) teacher (1862-1942)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emil_Sauer,_pianist_(SAYRE_8984).jpg"
+        }
+      },
+      {
+        "id": "ADiRegNH",
+        "type": "item",
+        "label": "Sergei Ivanovich Taneyev",
+        "description": "Russian composer, pianist, music theorist and teacher (1856–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Taneev.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nikolai_Rubinstein_1872.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RvUF8Gvz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RvUF8Gvz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RvUF8Gvz.csv"
       }
     ]
   }

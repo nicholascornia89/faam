@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q115589499",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brandus et Cie"
       }
     ]
   },
@@ -108,13 +109,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "evtmNNan",
+        "type": "item",
+        "label": "Le farfadet : opéra comique en un acte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902614640.gif"
+        }
+      },
+      {
+        "id": "Cev8WhcK",
+        "type": "item",
+        "label": "ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance \"Va! va! va, dit-elle\"",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000122150.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SX47ntGY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SX47ntGY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SX47ntGY.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2140842",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Venetian polychoral style"
       }
     ],
     "aliases": [
@@ -59,6 +60,129 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JvMaPT6R",
+        "type": "item",
+        "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SLD-512657440.gif"
+        }
+      },
+      {
+        "id": "4sRaszr2",
+        "type": "item",
+        "label": "Stabat mater: motetto a otto voci reali, da capella ; scuola romana, 1555",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991100556509707356.gif"
+        }
+      },
+      {
+        "id": "j6xULZ5t",
+        "type": "item",
+        "label": "Stabat mater: Motette für zwei Chöre a capella",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078132959707356.gif"
+        }
+      },
+      {
+        "id": "LEQkk5Qa",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7617.gif"
+        }
+      },
+      {
+        "id": "dAK9o9an",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7618.gif"
+        }
+      },
+      {
+        "id": "V26YNnEi",
+        "type": "item",
+        "label": "Sammlung ausgezeichneter Kompositionen für die Kirche",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-13885.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Vk2B7k6g",
+        "type": "item",
+        "label": "Psalmodiae Vespertinae pro Defuctis",
+        "description": ""
+      },
+      {
+        "id": "hgq9FFvU",
+        "type": "item",
+        "label": "Pange lingua gloriosi",
+        "description": ""
+      },
+      {
+        "id": "7Uo9EYK3",
+        "type": "item",
+        "label": "Venite ad me omnes",
+        "description": ""
+      },
+      {
+        "id": "m2bfDrD3",
+        "type": "item",
+        "label": "Ach, Herr, straf mich nicht, SWV 24",
+        "description": ""
+      },
+      {
+        "id": "MymXfGEj",
+        "type": "item",
+        "label": "Aus der Tiefe, SWV 25",
+        "description": ""
+      },
+      {
+        "id": "ZJBnGFib",
+        "type": "item",
+        "label": "Singet dem Herrn ein neues Lied, SWV 35",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "k73Fvmyj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "k73Fvmyj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "k73Fvmyj.csv"
+      }
+    ]
+  }
 }

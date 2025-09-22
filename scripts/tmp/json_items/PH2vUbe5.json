@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q207951",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Léo Delibes"
       }
     ]
   },
@@ -188,7 +189,42 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "kS2t8ufD",
+        "type": "item",
+        "label": "Intermezzo (Pas des fleures)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p13.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "MoWNUsvt",
+        "type": "item",
+        "label": "Émile Jaques-Dalcroze",
+        "description": "Swiss composer, musician and music educator (1865-1950)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Jaques_Dalcroze.jpg"
+        }
+      },
+      {
+        "id": "3aC5hbo3",
+        "type": "item",
+        "label": "Alix Fournier",
+        "description": "French composer (1864-1897)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -200,6 +236,27 @@
         "type": "image",
         "value": "Leo_Delibes_1888_BNF_Gallica.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PH2vUbe5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PH2vUbe5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PH2vUbe5.csv"
       }
     ]
   }

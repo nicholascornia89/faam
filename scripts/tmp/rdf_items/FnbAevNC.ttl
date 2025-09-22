@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FnbAevNC a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in San Mateo County, California, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q74195>,
+        "0"^^xsd:string,
+        "FnbAevNC"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:prefLabel "Menlo Park"^^xsd:string .
+

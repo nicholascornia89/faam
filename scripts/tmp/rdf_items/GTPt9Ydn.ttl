@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GTPt9Ydn a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:XP2pmPYc ;
+    schema1:description "Opera by Henry Charles Litolff"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130977992>,
+        "16004257"^^xsd:string,
+        "GTPt9Ydn"^^xsd:string ;
+    skos:altLabel "Les templiers"^^xsd:string ;
+    skos:prefLabel "Les templiers"^^xsd:string ;
+    wd:P7937 faamentity:hxYumS2J ;
+    wd:P839 <https://imslp.org/wiki/Les_templiers_(Litolff,_Henry_Charles)> .
+

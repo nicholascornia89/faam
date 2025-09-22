@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q178310",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Petergof"
       }
     ],
     "aliases": [
@@ -68,8 +69,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "510225"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CaPmHone",
+        "label": "Russia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VKGEysTw",
+        "type": "item",
+        "label": "Anton Rubinstein",
+        "description": "Russian pianist, composer and conductor (1829–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Rubinstein_by_J_Ganz.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HspDBWvS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HspDBWvS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HspDBWvS.csv"
+      }
+    ]
+  }
 }

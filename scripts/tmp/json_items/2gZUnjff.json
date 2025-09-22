@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1459777",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Hofmeister"
       }
     ]
   },
@@ -168,13 +169,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "EcqLntZR",
+        "type": "item",
+        "label": "Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735234.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Friedrich_Hofmeister.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2gZUnjff.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2gZUnjff.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2gZUnjff.csv"
       }
     ]
   }

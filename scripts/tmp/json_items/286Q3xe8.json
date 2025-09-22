@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q490381",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Michael Haydn"
       }
     ]
   },
@@ -157,13 +158,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XYEb9h53",
+        "type": "item",
+        "label": "Carl Maria von Weber",
+        "description": "German Romantic composer (1786–1826)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
+        }
+      },
+      {
+        "id": "VAys74eS",
+        "type": "item",
+        "label": "Sigismund von Neukomm",
+        "description": "Austrian composer and pianist (1778–1858)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Neukomm.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Michaelhaydn1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "286Q3xe8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "286Q3xe8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "286Q3xe8.csv"
       }
     ]
   }

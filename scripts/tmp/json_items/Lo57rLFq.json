@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q313188",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Battista Viotti"
       }
     ]
   },
@@ -180,13 +181,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eukJ9RHS",
+        "type": "item",
+        "label": "Pierre Baillot",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre_Baillot.jpg"
+        }
+      },
+      {
+        "id": "gj8YT535",
+        "type": "item",
+        "label": "Pierre Rode",
+        "description": "French violinist and composer (1774 – 1830)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "P_Rode.jpg"
+        }
+      },
+      {
+        "id": "nqVsWzTq",
+        "type": "item",
+        "label": "Andre Robberechts",
+        "description": "Belgian composer (1797–1860)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giovanni_Battista_Viotti_by_Ducarme.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Lo57rLFq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Lo57rLFq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Lo57rLFq.csv"
       }
     ]
   }

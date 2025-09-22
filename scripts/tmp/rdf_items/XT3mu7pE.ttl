@@ -1,0 +1,53 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XT3mu7pE a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "31-10-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ui7C9eZU,
+        faamentity:nn5dqK6R ;
+    schema1:identifier "16005497"^^xsd:string,
+        "ORP-20143700p48"^^xsd:string,
+        "XT3mu7pE"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188"^^schema1:url ;
+    skos:prefLabel "Pièce pour harmonium"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3166
+L'Illustration, N. 3166"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.006"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"XT3mu7pE-401a6ea5-321a-463b-81ef-502ad756a4ae"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"XT3mu7pE-47d361c3-c367-4fba-b993-c5e54cdb371a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"XT3mu7pE-b69cfa17-a604-4440-9734-539afb813ee5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"XT3mu7pE-df3d7b08-5258-442f-8d9d-90997fd14ff3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "31-10-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Ui7C9eZU a rdf:object .
+
+faamentity:nn5dqK6R a rdf:object .
+

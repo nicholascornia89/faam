@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1162163",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "director"
       }
     ],
     "aliases": [
@@ -71,6 +72,101 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "MzBDptTH",
+        "type": "item",
+        "label": "Gian Francesco Malipiero",
+        "description": "Italian composer of the 20th century (1882-1973)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gian_Francesco_Malipiero_(before_1973)_-_Archivio_storico_Ricordi_FOTO001318.jpg"
+        }
+      },
+      {
+        "id": "FzjxzHoa",
+        "type": "item",
+        "label": "Giuseppe Sarti",
+        "description": "Italian opera composer (1729–1802)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Sarti_(1729-1802).jpg"
+        }
+      },
+      {
+        "id": "hXfRGLM9",
+        "type": "item",
+        "label": "Karel Candael",
+        "description": "Belgian composer, music teacher, and conductor (1883-1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "4AB2zi5z",
+        "type": "item",
+        "label": "Joseph-Henri Mees",
+        "description": "Belgian singer and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://books.google.be/books/content?id=FF43AAAAMAAJ&pg=RA1-PA108-IA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3fR2lqHxKj7QCsFDfgmgzbt8okpw&ci=130%2C291%2C711%2C660&edge=0"
+        }
+      },
+      {
+        "id": "9mdUEp77",
+        "type": "item",
+        "label": "Alfredo Soffredini",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "eBBeJbhZ",
+        "type": "item",
+        "label": "Pieter Benoit",
+        "description": "Belgian priest and teacher (1820-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "cgea6nA8",
+        "type": "item",
+        "label": "Bernardus Nachtergaele",
+        "description": "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernard_Nachtergaele,_PA03099.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kHp8wFpn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kHp8wFpn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kHp8wFpn.csv"
+      }
+    ]
+  }
 }

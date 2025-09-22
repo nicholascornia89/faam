@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q134121",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Namur"
       }
     ],
     "aliases": [
@@ -58,8 +59,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2790472"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6Q3drpNS",
+        "type": "item",
+        "label": "Jules-Joseph Godefroid",
+        "description": "Belgian harpist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Godefroid.jpg"
+        }
+      },
+      {
+        "id": "HEfHGgP4",
+        "type": "item",
+        "label": "Louis Kéfer",
+        "description": "Belgian violinist and composer (1842–1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Kéfer_(1842-1926).png"
+        }
+      },
+      {
+        "id": "mqiFhZrV",
+        "type": "item",
+        "label": "Jacques Arcadelt",
+        "description": "Netherlandish composer of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jarcadelt.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oA2NfFLQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oA2NfFLQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oA2NfFLQ.csv"
+      }
+    ]
+  }
 }

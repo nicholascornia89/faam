@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1492",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Barcelona"
       }
     ],
     "aliases": [
@@ -82,8 +83,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "6356055"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Hi8DkjeD",
+        "type": "item",
+        "label": "Santiago Riera",
+        "description": "Spanish musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Santiago_Riera.jpg"
+        }
+      },
+      {
+        "id": "6QN4wDE5",
+        "type": "item",
+        "label": "Emilio Pujol",
+        "description": "Spanish classical guitarist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emili_Pujol.jpg"
+        }
+      },
+      {
+        "id": "ccb39KPa",
+        "type": "item",
+        "label": "Francisco Tárrega",
+        "description": "Spanish composer and classical guitarist (1852-1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francisco_tarrega_retrato.jpg"
+        }
+      },
+      {
+        "id": "HbFEHe7r",
+        "type": "item",
+        "label": "Felip Pedrell",
+        "description": "Catalan composer, teacher and musicologist (1841–1922)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felipe_Pedrell_01.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2sNqTvde.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2sNqTvde.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2sNqTvde.csv"
+      }
+    ]
+  }
 }

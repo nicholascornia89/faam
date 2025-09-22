@@ -1,0 +1,65 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mbavAEvP a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1900"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:HXG9NWiG,
+        faamentity:NsEoE4RP,
+        faamentity:Rfoj9dh4,
+        faamentity:euCa8A2S,
+        faamentity:gSHSbZQr,
+        faamentity:kbxUChVv ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    dcelem:subject faamentity:BnDGmWVX,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:RudvEixs,
+        faamentity:Y4Su8bEC ;
+    schema1:hasPart faamentity:Ro2QMMcZ ;
+    schema1:identifier "16004321"^^xsd:string,
+        "BSB-991076933339707356"^^xsd:string,
+        "mbavAEvP"^^xsd:string ;
+    schema1:location faamentity:nkxLRFG5 ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00115939"^^schema1:url ;
+    skos:prefLabel "Andante e scherzo capriccioso, op. 16"^^xsd:string ;
+    wd:P217 "Mus.Schott.Ha 1601"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"mbavAEvP-4f4dc462-30bf-4ce4-87be-ce3cb291b69f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"mbavAEvP-f792d3dd-3a17-4833-9a80-9dd9d3e76430"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"mbavAEvP-f821a291-9a1e-4e5d-ad60-020965af0dd4"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1900"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:RudvEixs a rdf:object .
+
+faamentity:Y4Su8bEC a rdf:object .
+

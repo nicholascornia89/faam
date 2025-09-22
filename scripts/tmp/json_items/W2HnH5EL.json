@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q952520",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nicolas Dalayrac"
       }
     ]
   },
@@ -154,13 +155,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gn8dZoPC",
+        "type": "item",
+        "label": "Pot-pourri : En B fa si [pour piano]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000329752.gif"
+        }
+      },
+      {
+        "id": "RgHUR5eS",
+        "type": "item",
+        "label": "D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000340932.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "JmM2BTY9",
+        "type": "item",
+        "label": "Azémia ou Les Sauvages",
+        "description": "opera by Nicolas Dalayrac"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nicolas_Dalayrac.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "W2HnH5EL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "W2HnH5EL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "W2HnH5EL.csv"
       }
     ]
   }

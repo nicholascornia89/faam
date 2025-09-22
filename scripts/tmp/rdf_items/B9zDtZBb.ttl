@@ -1,0 +1,118 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B9zDtZBb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:59RimmuX,
+        faamentity:6Nae3vhx,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:Di2mC26w,
+        faamentity:DqMNcjpW,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:YCgBhPNn,
+        faamentity:Z8fp8xPh,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    faamprop:sections """<ul>
+<li> N.1 </li>
+<li> N.2 </li> 
+<li> N.3 </li>
+<li> N.4 </li>
+<li> N.5 </li>
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3dpaS8c9,
+        faamentity:5FohkCyi,
+        faamentity:8gZHuqVq,
+        faamentity:JEZ5AweR,
+        faamentity:TYtCu3ys ;
+    schema1:hasPart faamentity:MBHQQh2a,
+        faamentity:a2CihXAp ;
+    schema1:identifier "16003985"^^xsd:string,
+        "B9zDtZBb"^^xsd:string,
+        "KCG-000359822"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000359822"^^schema1:url ;
+    skos:prefLabel "Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86"^^xsd:string ;
+    skosref:related faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:GoXpNrsh,
+        faamentity:MV3uErvy,
+        faamentity:VZE4bgeN ;
+    wd:P217 "DS-4874"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:GoXpNrsh,
+        faamentity:MV3uErvy,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"B9zDtZBb-057bb655-defc-4de9-9dfa-f685ed9ca29d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"B9zDtZBb-396fa71c-a2d0-4ae9-9e7c-aefcc748958a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-44151faf-a6cb-42ab-b48c-c1b7b1b57eba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-6f5eea6e-10f1-422d-8933-017da869fe7e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-88e2cf81-7d51-42f3-977d-5c9873ab6edb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-8a027e16-f0f9-4674-a10c-34fff53e4b1a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-b61d48f7-fb66-4308-a4ab-ec533d712f0c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-e2964c80-7592-4d2c-abe4-0d6c1056fceb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-f53ff345-484d-494e-9580-74d12407b1d6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"B9zDtZBb-f7cc6fc8-6572-429f-8918-1df94c5867b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:3dpaS8c9 a rdf:object .
+
+faamentity:5FohkCyi a rdf:object .
+
+faamentity:8gZHuqVq a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+

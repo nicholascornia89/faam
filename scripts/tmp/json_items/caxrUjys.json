@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1633139",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hubert Ferdinand Kufferath"
       }
     ]
   },
@@ -169,13 +170,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "73R68HHQ",
+        "type": "item",
+        "label": "Raymond Moulaert",
+        "description": "Belgian pianist and musicologist (1875–1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "8sxhcmoV",
+        "type": "item",
+        "label": "August De Boeck",
+        "description": "Flemish composer, organist and music pedagogue (1865-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_De_Boeck_(1865-1937).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "HFKufferath.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "caxrUjys.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "caxrUjys.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "caxrUjys.csv"
       }
     ]
   }

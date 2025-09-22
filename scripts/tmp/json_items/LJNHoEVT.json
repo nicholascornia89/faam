@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q138518",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Princeton"
       }
     ],
     "aliases": [
@@ -76,8 +77,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "5102958"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "D4CML7FB",
+        "type": "item",
+        "label": "Princeton University",
+        "description": "private Ivy League research university in Princeton, New Jersey, United States"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LJNHoEVT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LJNHoEVT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LJNHoEVT.csv"
+      }
+    ]
+  }
 }

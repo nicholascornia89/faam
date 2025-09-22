@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q53831",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "canon"
       }
     ],
     "aliases": [
@@ -55,6 +56,75 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jjG7KwFU",
+        "type": "item",
+        "label": "12 canons : für 3 Sopranstimmen mit Begleitung des Pianoforte, op. 50",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902704540.gif"
+        }
+      },
+      {
+        "id": "aY8oCNhu",
+        "type": "item",
+        "label": "Zwölf Stücke : für die Orgel, op. 59",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127682.gif"
+        }
+      },
+      {
+        "id": "JQy3NaL5",
+        "type": "item",
+        "label": "Zwölf Stücke : für die Orgel, op. 59",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127690.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "mrpX9xh5",
+        "type": "item",
+        "label": "12 Canons, Op.50",
+        "description": ""
+      },
+      {
+        "id": "hQwnzx2L",
+        "type": "item",
+        "label": "12 Stücke, Op.59",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WYWdSXjA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WYWdSXjA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WYWdSXjA.csv"
+      }
+    ]
+  }
 }

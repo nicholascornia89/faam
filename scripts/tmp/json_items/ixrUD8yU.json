@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,47 +79,56 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "MW5L3Qft"
+        "value": "MW5L3Qft",
+        "label": "Gregorian chant"
       },
       {
         "type": "item",
-        "value": "NWa3Za2Y"
+        "value": "NWa3Za2Y",
+        "label": "plainsong"
       },
       {
         "type": "item",
-        "value": "Sdw2foGQ"
+        "value": "Sdw2foGQ",
+        "label": "music theory"
       },
       {
         "type": "item",
-        "value": "M5GjRkvW"
+        "value": "M5GjRkvW",
+        "label": "neume"
       },
       {
         "type": "item",
-        "value": "jArGUTgq"
+        "value": "jArGUTgq",
+        "label": "historically informed performance"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       }
     ],
     "musical work": [],
@@ -129,19 +140,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "3CH4Jm7e"
+            "value": "3CH4Jm7e",
+            "label": "Tournai"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1904"
           }
-        ]
+        ],
+        "label": "Éditions Desclée de Brouwer"
       },
       {
         "type": "statement",
@@ -150,7 +164,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -162,23 +177,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Adolf Duclos"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "3CH4Jm7e"
+        "value": "3CH4Jm7e",
+        "label": "Tournai"
       }
     ]
   },
@@ -195,6 +214,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/KCA-KGR127262/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ixrUD8yU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ixrUD8yU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ixrUD8yU.csv"
       }
     ]
   }

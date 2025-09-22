@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Sthda7Wn a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "theatrical entertainment that combines music, dance and sketches"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q918727>,
+        "15998738"^^xsd:string,
+        "Sthda7Wn"^^xsd:string ;
+    skos:altLabel "musical revue"^^xsd:string,
+        "revista"^^xsd:string,
+        "revue"^^xsd:string ;
+    skos:prefLabel "revue"^^xsd:string .
+

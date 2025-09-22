@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q310735",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "ad libitum"
       }
     ],
     "aliases": [
@@ -55,6 +56,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RgHUR5eS",
+        "type": "item",
+        "label": "D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000340932.gif"
+        }
+      },
+      {
+        "id": "Z6qQuRjz",
+        "type": "item",
+        "label": "Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345536.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5pfhr2uW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5pfhr2uW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5pfhr2uW.csv"
+      }
+    ]
+  }
 }

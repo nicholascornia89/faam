@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kMVP4rDc a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "music and musical traditions of Iran"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1672398>,
+        "16002515"^^xsd:string,
+        "kMVP4rDc"^^xsd:string ;
+    skos:altLabel "Iran music"^^xsd:string,
+        "Iranian music"^^xsd:string,
+        "Persian music"^^xsd:string,
+        "music in Iran"^^xsd:string,
+        "music of Iran"^^xsd:string,
+        "music of Persia"^^xsd:string ;
+    skos:prefLabel "music of Iran"^^xsd:string .
+

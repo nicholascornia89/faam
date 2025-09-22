@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q18222024",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Marie Plum"
       }
     ]
   },
@@ -166,13 +167,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mxDxGKuU",
+        "type": "item",
+        "label": "In honorem Coredemptricis Generis Humani. 1. Magnificat (ad 2 voc. aeq. et org.). 2. Stabat Mater (ad 3 voc. aeq. et org.). Op. 113 & 114",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502017.gif"
+        }
+      },
+      {
+        "id": "PDHcYrts",
+        "type": "item",
+        "label": "Pie Pellicane. Tota pulcra. Laudate pueri. Ad duas voces aequales comitante organo. Op. 135-136",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502018.gif"
+        }
+      },
+      {
+        "id": "Hrm7sFXg",
+        "type": "item",
+        "label": "Tria motetta 1 vocis comitante organo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502019.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bG5mXun5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bG5mXun5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bG5mXun5.csv"
       }
     ]
   }

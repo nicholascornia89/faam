@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q365555",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Josef Rheinberger"
       }
     ]
   },
@@ -199,13 +200,93 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "TNm8KS5J",
+        "type": "item",
+        "label": "Sonate : n° 7 f moll: für Orgel, op. 127",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127930.gif"
+        }
+      },
+      {
+        "id": "hzNE4Evx",
+        "type": "item",
+        "label": "Sonate : n° IV a moll: für Orgel, op. 98",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127948.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "RzJ2dN9s",
+        "type": "item",
+        "label": "Theodor Kroyer",
+        "description": "German musicologist (1873-1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "EBC37Hyg",
+        "type": "item",
+        "label": "Hans von Koessler",
+        "description": "German composer (1853–1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Koessler.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ftLdN2oy",
+        "type": "item",
+        "label": "Organ Sonata No.4, Op.98",
+        "description": ""
+      },
+      {
+        "id": "DMkMcXL8",
+        "type": "item",
+        "label": "Organ Sonata No.7, Op.127",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Rheinberger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4mYssfUB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4mYssfUB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4mYssfUB.csv"
       }
     ]
   }

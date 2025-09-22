@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1382",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Piran"
       }
     ],
     "aliases": [
@@ -64,8 +65,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "3193341"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q215",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Slovenia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TU6HRQKW",
+        "type": "item",
+        "label": "Giuseppe Tartini",
+        "description": "Italian composer and violinist (1692-1770)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Tartini_(Tartini_House).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ezy4TzLG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ezy4TzLG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ezy4TzLG.csv"
+      }
+    ]
+  }
 }

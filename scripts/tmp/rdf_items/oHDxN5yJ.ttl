@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oHDxN5yJ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "neighborhood in Calvörde, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q668871>,
+        "417370"^^xsd:string,
+        "oHDxN5yJ"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G ;
+    skos:altLabel "Dorst"^^xsd:string ;
+    skos:prefLabel "Dorst"^^xsd:string,
+        "Frankfurt"^^xsd:string ;
+    wd:P1566 gn:2935533,
+        gn:DE .
+

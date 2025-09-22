@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q487070",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dessau"
       }
     ],
     "aliases": [
@@ -54,8 +55,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "2937959"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nwj4tnGi",
+        "type": "item",
+        "label": "Wilhelm Rust",
+        "description": "German composer and musicologist (1822–1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Wilhelm_Rust_1885.jpg"
+        }
+      },
+      {
+        "id": "jK3acqwb",
+        "type": "item",
+        "label": "Friedrich Grützmacher",
+        "description": "German musician (1832-1903)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FriedrichGrützmacher.jpg"
+        }
+      },
+      {
+        "id": "KEGDY57s",
+        "type": "item",
+        "label": "Friedrich Schneider",
+        "description": "German composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Schneider.jpg"
+        }
+      },
+      {
+        "id": "4ZEanoNh",
+        "type": "item",
+        "label": "Christian Gottlob Neefe",
+        "description": "German composer and conductor (1748–1789)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Christian_Gottlob_Neefe's_Portrait.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "35STs3jR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "35STs3jR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "35STs3jR.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:82wmXrwP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1818-09-12"^^xsd:string ;
+    schema1:birthPlace faamentity:CzMA7evQ ;
+    schema1:deathDate "1882-03-01"^^xsd:string ;
+    schema1:deathPlace faamentity:Km6ATdgQ ;
+    schema1:description "German musician (1818-1882)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q706082>,
+        "15995595"^^xsd:string,
+        "82wmXrwP"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb ;
+    skos:altLabel "Theodor Kullak"^^xsd:string ;
+    skos:prefLabel "Theodor Kullak"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:15036522 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/61249> ;
+    wd:P737 faamentity:6DhoVYwZ,
+        faamentity:AQayVJjL,
+        faamentity:KEtoxXa7,
+        faamentity:KTCXqLBN,
+        faamentity:LZ3gdd8k,
+        faamentity:YdWwzL5r ;
+    wd:P839 <https://imslp.org/wiki/Category:Kullak,_Theodor> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY .
+

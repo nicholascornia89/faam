@@ -1,0 +1,258 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BEp9fmSt a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:Rxa2vGNJ,
+        faamentity:Skma2JzR,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:mQvT2Zdb ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:EgH6igGS,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN,
+        faamentity:YWfofDz3,
+        faamentity:bZxRjBKt,
+        faamentity:ch89W2mx,
+        faamentity:e9t5BdLA,
+        faamentity:eHYWo9ba,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """<ol>
+<li> L'Inquiétude, Op.6 </li>
+<li> Caprice, Op.19 </li>
+<li> Trois Caprices, Op.7 </li>
+<li> 2 Mazurkas, Op.4 </li>
+<li> 2 Fantaisies, Op. 9 </li>
+<li> Fantaisie No.3, Op.18 </li>
+<li> Fantaisie No.4, Op.20 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.3 </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:4ZvdnZdj,
+        faamentity:A865BeAb,
+        faamentity:Hrif6Qxb,
+        faamentity:RHxmTGG2,
+        faamentity:UGSpFRmF,
+        faamentity:mzt7Ej3m ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:AWYT8jUv,
+        faamentity:BkX9pctu,
+        faamentity:MtU2oARp ;
+    schema1:hasPart faamentity:2JHqWVYb,
+        faamentity:3ywqVtnD,
+        faamentity:JpQ4iY5H,
+        faamentity:LbtAHkKn,
+        faamentity:NUnWPc58,
+        faamentity:P4Nrbmh8,
+        faamentity:USyaFG4e,
+        faamentity:eTc2Y3q7 ;
+    schema1:identifier "15992372"^^xsd:string,
+        "BEp9fmSt"^^xsd:string,
+        "KCA-030902146890"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6786501/N"^^schema1:url ;
+    skos:prefLabel "Convoluut : werken voor piano."^^xsd:string ;
+    skosref:note """There are many signatures of pupuls playing different pieces, most of them illegible.
+
+<ol>
+<li> "L.Lambrecht" in Caprice, Op. 19 </li>
+<li> "Clemens" in Trois Caprices, Op.7 </li>
+<ol>"""^^rdf:HTML ;
+    wd:P217 "MM-TP-BENOI-inquiet-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"BEp9fmSt-063846c2-e02d-4ed0-95b0-76b978428b50"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-085a6c18-e2f2-4699-92e4-6a09bc16345b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-08692d0c-5c3a-4f46-910a-d5031087010e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-12248253-3b37-47c3-aa8f-168a89507084"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-12ef829e-7247-4a55-91c1-fe6326340be6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-198af107-3b51-46fe-b8ed-af16dbff4b5b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-208a0919-cd46-4881-83ff-6e97c7c4e58d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-214f1590-aa08-42e9-819a-17d7b949bb3c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-294da53a-f5de-4ede-9b01-c392c33a156e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-2d6adae0-5618-44f6-8355-7f6cdc0f2f66"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-33fd6c7e-172b-4b60-bb5f-c392034d20e3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-34310c32-b185-47ef-a398-0d8ec279ebee"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-359fcfab-b6a7-4a13-a8c0-5759d77022f5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-38eba3e3-bc02-46a0-b555-3d2821a041ae"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-3f3f0d67-3619-4cc0-aec1-755e71c2f8ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-46fffc2d-aa69-42c2-a6d4-97574d3a5170"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-47f5f213-4369-4ec0-96cc-676cebd74fae"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-553b4a74-6734-473e-a528-6e9ccaaac75f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-5b8c3e7d-87f8-48c1-9dd5-dab48ba45690"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-5c3a1f44-07e6-4e10-bde1-a5ad8431d1a8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-5f231093-721e-4218-9a3b-b62e92b35eaa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-6316abf2-296c-46f8-9371-1651a323e50c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-68621d20-fd70-4b0c-9436-443a79925f09"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-75f5a08e-f93e-4d07-9f14-97ca45958572"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-777bb828-a11d-4542-a64c-50b770475c2e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-8f7c065f-ea93-4f54-a375-1c14405d355b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-8fbb57ac-f2cd-4b10-b049-f4d3c353402f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-908f6aa6-ffbb-47bf-b72f-c4cea88be6f1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-9da0cf12-ed89-43ad-aaeb-b4771bf3c5c1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-9f41237a-1cea-44f7-8e84-b5fa62ed24da"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-ab8def4a-8bdb-435b-9f12-2478b0f2e553"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BEp9fmSt-ad934c9e-0db1-41e9-841f-a9b95681c2da"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-ae5392e5-1d43-4617-97cb-ccb83f3d8da0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-b58b3707-977f-42ca-8fab-bc921cea56a8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"BEp9fmSt-bbdec7cc-f39e-4224-9c0a-073f4aab9046"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-bf735b6d-2aae-480f-ba2b-9954c6d34862"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-c44264f7-acb2-43d3-a348-fc8a02d52181"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"BEp9fmSt-e2854a59-08c9-41a9-bfe2-1f4e6127a4d9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-ec1a1fa3-c2f6-48bc-b409-be17427f3571"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"BEp9fmSt-ee7fc9dd-b969-493b-bdf9-9c06a92612c1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:AWYT8jUv a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:MtU2oARp a rdf:object .
+

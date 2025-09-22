@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hVCbmjig a rdfs:Resource ;
+    faamprop:related_to faamentity:Vm5DPnGE,
+        faamentity:Z2VUu6Sy ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1762-02-02"^^xsd:string,
+        "1766-02-02"^^xsd:string ;
+    schema1:birthPlace faamentity:jUDf9xBm ;
+    schema1:deathDate "1846-04-24"^^xsd:string ;
+    schema1:deathPlace faamentity:RjXv6xhJ ;
+    schema1:description "Italian singer castrato"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q552124>,
+        "16005713"^^xsd:string,
+        "hVCbmjig"^^xsd:string ;
+    skos:altLabel "Girolamo Crescentini"^^xsd:string,
+        "Jerôme Crescentini"^^xsd:string ;
+    skos:prefLabel "Girolamo Crescentini"^^xsd:string ;
+    wd:P1303 faamentity:KJkThvsq ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:69194100 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/73192> ;
+    wd:P737 faamentity:LnD5H7E8 ;
+    wd:P839 <https://imslp.org/wiki/Category:Crescentini,_Girolamo> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:CZBEWbJe,
+        faamentity:Hp4qpv4g,
+        faamentity:KZLqHwSf,
+        faamentity:fkNftdFp,
+        faamentity:n9MN9cLo .
+

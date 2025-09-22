@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FhoqCrfh a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:72sFir89,
+        faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "practice of expanding figured bass notation into a full accompaniment"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q96401348>,
+        "15992191"^^xsd:string,
+        "FhoqCrfh"^^xsd:string ;
+    skos:altLabel "figured bass realization"^^xsd:string,
+        "realization"^^xsd:string,
+        "realization of figured bass"^^xsd:string ;
+    skos:prefLabel "realization of figured bass"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv ;
+    wd:P279 faamentity:2Wh3HwBY,
+        faamentity:gzWrwBKc ;
+    wd:P31 faamentity:Sdw2foGQ,
+        faamentity:Zo5CHoti,
+        faamentity:aB3G93He .
+

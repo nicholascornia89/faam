@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NY6ie2gV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1742-03-09"^^xsd:string ;
+    schema1:birthPlace faamentity:T4a8frFq ;
+    schema1:deathDate "1803-09-02"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer, cellist and music educator (1742-1803)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1684650>,
+        "0"^^xsd:string,
+        "NY6ie2gV"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Jean-Baptiste-Aimé Joseph Janson"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39641194 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40001960> ;
+    wd:P737 faamentity:cwJxnXPz ;
+    wd:P839 <https://imslp.org/wiki/Category:Janson,_Jean-Baptiste> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

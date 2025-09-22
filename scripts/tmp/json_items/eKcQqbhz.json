@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q124314642",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Johann Gottfried Ferrenberg"
       }
     ]
   },
@@ -111,13 +112,135 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Gok5r2Zp",
+        "type": "item",
+        "label": "Messe \"Beatus qui intelligit\" für sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737359707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "k7Ank5K2",
+        "type": "item",
+        "label": "Palestrina's Messe für die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erklärenden Einl. vers.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078131189707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "j4MiLjcQ",
+        "type": "item",
+        "label": "Ave Maria",
+        "description": "music forgery by Pierre-Louis Dietsch attributed to Jacques Arcadelt"
+      },
+      {
+        "id": "4ezAJSG4",
+        "type": "item",
+        "label": "Missa pro defunctis",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "VgJHMnZm",
+        "type": "item",
+        "label": "Benedictus Dominus Deus Israel",
+        "description": "motet by Orazio Vecchi"
+      },
+      {
+        "id": "jNWCwHQW",
+        "type": "item",
+        "label": "Pange lingua",
+        "description": "motet by Giovanni Matteo Asola"
+      },
+      {
+        "id": "jSmJWyQh",
+        "type": "item",
+        "label": "Missa super Or sus à coup",
+        "description": "mass by Orlande de Lassus"
+      },
+      {
+        "id": "aTKNEpg3",
+        "type": "item",
+        "label": "Missa super Beatus qui intelligit",
+        "description": "mass by Orlande de Lassus"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eKcQqbhz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eKcQqbhz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eKcQqbhz.csv"
       }
     ]
   }

@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HQuz6h3W a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1732-05-17"^^xsd:string ;
+    schema1:birthPlace faamentity:CUiXcq6E ;
+    schema1:deathDate "1817-11-07"^^xsd:string ;
+    schema1:deathPlace faamentity:CUiXcq6E ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1333576>,
+        "15995881"^^xsd:string,
+        "HQuz6h3W"^^xsd:string ;
+    skos:altLabel "Francesco Pasquale Ricci"^^xsd:string ;
+    skos:prefLabel "Francesco Pasquale Ricci"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:22406594 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002678> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ricci,_Francesco_Pasquale> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:gtgtYFPR .
+

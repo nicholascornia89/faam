@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q69035",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Chêne-Bourg"
       }
     ],
     "aliases": [
@@ -66,8 +67,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "7285494"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eb9wVggM",
+        "type": "item",
+        "label": "Antoine Dechevrens",
+        "description": "Swiss musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4ThPm5if.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4ThPm5if.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4ThPm5if.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hDjDJrVY a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical genre, piece of music in origin was expressly written for marching"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q211025>,
+        "15990616"^^xsd:string,
+        "hDjDJrVY"^^xsd:string ;
+    skos:altLabel "classical march"^^xsd:string,
+        "march"^^xsd:string,
+        "march music"^^xsd:string ;
+    skos:prefLabel "march"^^xsd:string .
+

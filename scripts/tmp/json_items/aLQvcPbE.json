@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2983669",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Collège Saint-Michel"
       }
     ],
     "aliases": [
@@ -71,6 +72,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9MRyDvyA",
+        "type": "item",
+        "label": "Paul Otlet",
+        "description": "Belgian author, librarian and anti-colonial thinker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Otlet_à_son_bureau_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aLQvcPbE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aLQvcPbE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aLQvcPbE.csv"
+      }
+    ]
+  }
 }

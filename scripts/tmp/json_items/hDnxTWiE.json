@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q213751",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Gernsheim"
       }
     ]
   },
@@ -189,13 +190,55 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jmuoQADq",
+        "type": "item",
+        "label": "Salve Regina für Sopran-solo, Frauenchor, Orchester und Orgel (ad libitum) Op. 11",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284f.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "QywgMiUd",
+        "type": "item",
+        "label": "Salve Regina, Op.11",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/8/83/Friedrich_Gernsheim_%28BerlLeben_1906-07%29.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hDnxTWiE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hDnxTWiE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hDnxTWiE.csv"
       }
     ]
   }

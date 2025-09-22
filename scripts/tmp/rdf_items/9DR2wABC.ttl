@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9DR2wABC a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1704-09-03"^^xsd:string ;
+    schema1:birthPlace faamentity:fZUC7W4e ;
+    schema1:deathDate "1778-03-05"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1525849>,
+        "0"^^xsd:string,
+        "9DR2wABC"^^xsd:string ;
+    skos:prefLabel "Giovanni Battista Costanzi"^^xsd:string ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:76579729 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20000434> ;
+    wd:P839 <https://imslp.org/wiki/Category:Costanzi,_Giovanni_Battista> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

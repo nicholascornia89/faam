@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,102 +79,124 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "YCgBhPNn"
+        "value": "YCgBhPNn",
+        "label": "octave sign"
       },
       {
         "type": "item",
-        "value": "NsEoE4RP"
+        "value": "NsEoE4RP",
+        "label": "musical expression"
       },
       {
         "type": "item",
-        "value": "Wpq9sxzm"
+        "value": "Wpq9sxzm",
+        "label": "solmization"
       },
       {
         "type": "item",
-        "value": "YRq3pSH7"
+        "value": "YRq3pSH7",
+        "label": "cadenza"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "DS9HvPwY"
+        "value": "DS9HvPwY",
+        "label": "point in time"
       },
       {
         "type": "item",
-        "value": "aCRY7SgN"
+        "value": "aCRY7SgN",
+        "label": "accidental"
       },
       {
         "type": "item",
-        "value": "RePdmToB"
+        "value": "RePdmToB",
+        "label": "breath mark"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "YWfofDz3"
+        "value": "YWfofDz3",
+        "label": "bounding"
       },
       {
         "type": "item",
-        "value": "c5cZmF37"
+        "value": "c5cZmF37",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "bZxRjBKt"
+        "value": "bZxRjBKt",
+        "label": "brackets"
       },
       {
         "type": "item",
-        "value": "Wpq9sxzm"
+        "value": "Wpq9sxzm",
+        "label": "solmization"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "K9MgTT3J"
+        "value": "K9MgTT3J",
+        "label": "cut"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "6PUP9Ffx"
+        "value": "6PUP9Ffx",
+        "label": "harp music"
       },
       {
         "type": "item",
-        "value": "UH39mw6n"
+        "value": "UH39mw6n",
+        "label": "impromptu"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "aQgptH4L"
+        "value": "aQgptH4L",
+        "label": "harp"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "RtJqau2F"
+        "value": "RtJqau2F",
+        "label": "Impromptu No.6, Op.86"
       }
     ],
     "agent": [
@@ -183,19 +207,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Ba3nT5xs"
+            "value": "Ba3nT5xs",
+            "label": "Antwerp"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1955"
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -204,7 +231,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -216,23 +244,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Gabriel Fauré"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "Ba3nT5xs"
+        "value": "Ba3nT5xs",
+        "label": "Antwerp"
       }
     ]
   },
@@ -249,6 +281,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-03090274817/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8paJm6RX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8paJm6RX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8paJm6RX.csv"
       }
     ]
   }

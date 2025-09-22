@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q713268",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Francesco Maria Veracini"
       }
     ]
   },
@@ -146,13 +147,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HnGsLPKk",
+        "type": "item",
+        "label": "Concert-Sonate für Violine mit beziffertem Bass",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991061395849707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "SB8HrF3k",
+        "type": "item",
+        "label": "Violin Sonata in E minor, Op.2 No.8",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Francesco_Maria_Veracini.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CVq5byyd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CVq5byyd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CVq5byyd.csv"
       }
     ]
   }

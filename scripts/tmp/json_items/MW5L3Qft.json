@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q26473",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gregorian chant"
       }
     ],
     "aliases": [
@@ -55,6 +56,69 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JvLQmCkg",
+        "type": "item",
+        "label": "Missa ave Maria: ad duas voces aequales organo comitante",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902404505.gif"
+        }
+      },
+      {
+        "id": "ixrUD8yU",
+        "type": "item",
+        "label": "Introduction a l'exécution du chant Grégorien d'après les principes des Bénédictins de Solesmes",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KGR127262.gif"
+        }
+      },
+      {
+        "id": "LEQkk5Qa",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7617.gif"
+        }
+      }
+    ],
+    "annotation_type": [
+      {
+        "id": "AzBrFumG",
+        "type": "item",
+        "label": "plainchant transcription",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MW5L3Qft.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MW5L3Qft.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MW5L3Qft.csv"
+      }
+    ]
+  }
 }

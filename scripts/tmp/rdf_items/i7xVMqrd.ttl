@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i7xVMqrd a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "State conservatory"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4386612>,
+        "15991085"^^xsd:string,
+        "i7xVMqrd"^^xsd:string ;
+    schema1:location faamentity:anGyFT5B ;
+    skos:altLabel "Ankara State Conservatory"^^xsd:string,
+        "Hacettepe University Ankara State Conservatory"^^xsd:string ;
+    skos:prefLabel "Hacettepe University Ankara State Conservatory"^^xsd:string .
+

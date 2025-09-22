@@ -1,0 +1,99 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B75PmxqS a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "04-1905"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:EgH6igGS ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    faamprop:sections """<ul>
+<li>Feuille d'Album - Jul.v. Beliczay</li>
+<li>Sérénade Coquette - Richard Barthélemy</li>
+<li>Pière d'Amour - Gustave Goublier</li>
+<li>Orintale - Benjamin Godard </li>
+<li>Adrienne Lecouvreur - Francisco Cilea </li>
+<li>Marche des petits rastas - D. Gauwin </li>
+<li>Zaza - R. Leoncavallo </li>
+<li>Caresse - A. Mayneri </li>
+<li>Au matin rose - André Bloch </li>
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:HwcYgL5C,
+        faamentity:KWVSVF8L,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hDjDJrVY,
+        faamentity:hxYumS2J,
+        faamentity:np4kPXiE ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:6EfN7psX,
+        faamentity:MSuEoAkN,
+        faamentity:kfdkXhZV ;
+    schema1:identifier "16005368"^^xsd:string,
+        "B75PmxqS"^^xsd:string,
+        "ORP-20143703p9"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Album Musica N. 31"^^xsd:string ;
+    skosref:note "Album Musica, Vol .31 April 1905"^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"B75PmxqS-4036b583-8f95-49e2-a52a-2894ba8b04f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"B75PmxqS-4696716e-bd7e-47aa-a1ca-bb74c960b5aa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"B75PmxqS-836d51a0-27c5-4495-9ca1-fe816fc5f997"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "04-1905"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"B75PmxqS-911fe17b-265e-470b-ac46-ca6227bfc40d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"B75PmxqS-d96a2524-887f-4edf-b817-bcb2696a6191"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"B75PmxqS-ee63f324-d626-4f77-8050-9eb2722b0a4a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:6EfN7psX a rdf:object .
+
+faamentity:MSuEoAkN a rdf:object .
+
+faamentity:kfdkXhZV a rdf:object .
+

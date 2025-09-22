@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q36433",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Porto"
       }
     ],
     "aliases": [
@@ -62,8 +63,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6458924"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Ars8m6Hw",
+        "label": "Portugal"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RkkGPiKU",
+        "type": "item",
+        "label": "Lucien-Léon Guillaume Lambert",
+        "description": "French pianist and composer of African-American Creole descent",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lucien_Lambert_(1858-1945).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6u6fsvGT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6u6fsvGT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6u6fsvGT.csv"
+      }
+    ]
+  }
 }

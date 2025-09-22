@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3jkeFpDj a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1766-11-15"^^xsd:string ;
+    schema1:birthPlace faamentity:mNQbQBie ;
+    schema1:deathDate "1831-01-06"^^xsd:string ;
+    schema1:deathPlace faamentity:9Mh2HUxt ;
+    schema1:description "French violinist, conductor, composer (1766-1831)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q336692>,
+        "15995901"^^xsd:string,
+        "3jkeFpDj"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Rodolphe Kreutzer"^^xsd:string ;
+    skos:prefLabel "Rodolphe Kreutzer"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:54250851 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/53845> ;
+    wd:P737 faamentity:UGFByeJo ;
+    wd:P839 <https://imslp.org/wiki/Category:Kreutzer,_Rodolphe> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:6phaDvy8,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y,
+        faamentity:irSPevuD .
+

@@ -1,0 +1,30 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4ezAJSG4 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:description "mass by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310282>,
+        "16002005"^^xsd:string,
+        "4ezAJSG4"^^xsd:string ;
+    skos:altLabel "Missa Requiem"^^xsd:string,
+        "Missa pro defunctis"^^xsd:string ;
+    skos:prefLabel "Missa pro defunctis"^^xsd:string,
+        "Missa pro defunctis, IGP 57"^^xsd:string ;
+    wd:P2000 cpdl:Missa_pro_defunctis_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P214 viaf:293550369 ;
+    wd:P5202 faamentity:Azq4wwdm,
+        faamentity:CJgFHXHi,
+        faamentity:eKcQqbhz ;
+    wd:P7937 faamentity:TzWAa7NY,
+        faamentity:eCYL2PkE,
+        faamentity:oQTyk8An ;
+    wd:P839 <https://imslp.org/wiki/Missa_pro_defunctis,_PdPWV_Mis006_(Palestrina,_Giovanni_Pierluigi_da)> .
+

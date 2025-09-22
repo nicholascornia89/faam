@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BcPVGMij a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:Di2mC26w,
+        faamentity:F4ZEniBQ,
+        faamentity:NFazQXR2,
+        faamentity:SnxsnGvi,
+        faamentity:YCgBhPNn,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:UzHv4AkZ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:kYvDfJnQ ;
+    schema1:identifier "15992389"^^xsd:string,
+        "BcPVGMij"^^xsd:string,
+        "KCA-030904337273"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6810614/N"^^schema1:url ;
+    skos:prefLabel "Kerstverhaal : voor piano . De afgod met de narrenglimlach : voor piano = Conte de Noël : pour piano . L'idole au sourire narquois : pour piano"^^xsd:string ;
+    wd:P217 "MM-TP-DURLE-kerstve-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"BcPVGMij-9373536a-8070-4677-9cf2-50027801968e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"BcPVGMij-fd3d5949-b674-4ea3-a2e1-50476697ad99"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:kYvDfJnQ a rdf:object .
+

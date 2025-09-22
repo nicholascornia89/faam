@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q712718",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jacques-Nicolas Lemmens"
       }
     ]
   },
@@ -189,13 +190,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PhcJTGVF",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      },
+      {
+        "id": "bFGaW2pP",
+        "type": "item",
+        "label": "Alexandre Guilmant",
+        "description": "French composer (1837–1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre-Guilmant.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QsmFbkdg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QsmFbkdg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QsmFbkdg.csv"
       }
     ]
   }

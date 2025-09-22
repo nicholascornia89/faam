@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q189288",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stratford-upon-Avon"
       }
     ],
     "aliases": [
@@ -60,8 +61,68 @@
         "base_url": "https://www.geonames.org/",
         "label": "7297427"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VhKF2Rpv",
+        "type": "item",
+        "label": "William Shakespeare",
+        "description": "English playwright and poet (1564–1616)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Shakespeare.jpg"
+        }
+      },
+      {
+        "id": "VhKF2Rpv",
+        "type": "item",
+        "label": "William Shakespeare",
+        "description": "English playwright and poet (1564–1616)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Shakespeare.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "FypRZttR",
+        "type": "item",
+        "label": "King Edward VI School, Stratford-upon-Avon",
+        "description": "school in Warwickshire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WJ99JzXD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WJ99JzXD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WJ99JzXD.csv"
+      }
+    ]
+  }
 }

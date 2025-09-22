@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bXxmkmLp a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:B8C32cCH ;
+    schema1:description "composition by Chopin"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11431256>,
+        "16004114"^^xsd:string,
+        "bXxmkmLp"^^xsd:string ;
+    skos:altLabel "Nocturne No. 11 in G minor, Op. 37, No. 1"^^xsd:string,
+        "Nocturne no. 11 in G minor, op. 37 no. 1: Andante sostenuto"^^xsd:string,
+        "Nocturne, en sol mineur, pour piano"^^xsd:string,
+        "Nocturnes, piano, no. 11, op. 37, no. 1, G minor"^^xsd:string,
+        "Nocturnes, piano, op. 37. No. 1"^^xsd:string ;
+    skos:prefLabel "Nocturne No. 11 in G minor, Op. 37, No. 1"^^xsd:string ;
+    wd:P214 viaf:185341691 ;
+    wd:P5202 faamentity:RudvEixs ;
+    wd:P7937 faamentity:TF4BzPKq ;
+    wd:P839 <https://imslp.org/wiki/Nocturnes,_Op.37_(Chopin,_Frédéric)> .
+

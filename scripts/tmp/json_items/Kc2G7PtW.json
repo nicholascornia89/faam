@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q49218",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rochester"
       }
     ],
     "aliases": [
@@ -104,8 +105,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "GTTB7Xre",
+        "type": "item",
+        "label": "Sibley Music Library",
+        "description": "American music library of the Eastman School of Music, Rochester, NY"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Kc2G7PtW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Kc2G7PtW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Kc2G7PtW.csv"
+      }
+    ]
+  }
 }

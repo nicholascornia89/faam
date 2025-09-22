@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,94 +79,114 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "LiFYdNgN"
+        "value": "LiFYdNgN",
+        "label": "comparative study"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "6cyBEJLr"
+        "value": "6cyBEJLr",
+        "label": "fingering"
       },
       {
         "type": "item",
-        "value": "SnxsnGvi"
+        "value": "SnxsnGvi",
+        "label": "deletion"
       },
       {
         "type": "item",
-        "value": "bsgSL8K5"
+        "value": "bsgSL8K5",
+        "label": "Rehearsal letter"
       },
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "WtvibJFF"
+        "value": "WtvibJFF",
+        "label": "accent"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "FDCuefHz"
+        "value": "FDCuefHz",
+        "label": "Bavarian State Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "Sdw2foGQ"
+        "value": "Sdw2foGQ",
+        "label": "music theory"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "8REteAN5"
+        "value": "8REteAN5",
+        "label": "keyboard instrument"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "B5MkJNa4"
+        "value": "B5MkJNa4",
+        "label": "The Well-Tempered Clavier"
       }
     ],
     "agent": [
@@ -175,7 +197,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -187,7 +210,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Johann Sebastian Bach"
       },
       {
         "type": "statement",
@@ -196,19 +220,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GKcJxAtt"
+            "value": "GKcJxAtt",
+            "label": "Leipzig"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Steingräber Verlag"
       },
       {
         "type": "statement",
@@ -217,7 +244,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -229,7 +257,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Hanno Blaschke"
       },
       {
         "type": "statement",
@@ -238,47 +267,56 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "Km6ATdgQ"
+            "value": "Km6ATdgQ",
+            "label": "Berlin"
           },
           {
             "type": "date",
             "property": "date",
             "value": "06-1884"
           }
-        ]
+        ],
+        "label": "Hans Bischoff"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GKcJxAtt"
+        "value": "GKcJxAtt",
+        "label": "Leipzig"
       },
       {
         "type": "item",
-        "value": "Km6ATdgQ"
+        "value": "Km6ATdgQ",
+        "label": "Berlin"
       }
     ]
   },
@@ -295,6 +333,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991075149939707356/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XR2L8Psv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XR2L8Psv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XR2L8Psv.csv"
       }
     ]
   }

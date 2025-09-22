@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:38JNXk5M a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "historical tax collection system in France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1147614>,
+        "15991044"^^xsd:string,
+        "38JNXk5M"^^xsd:string ;
+    schema1:location faamentity:DKMie5vK ;
+    skos:altLabel "Ferme generale"^^xsd:string,
+        "Ferme générale"^^xsd:string ;
+    skos:prefLabel "Ferme générale"^^xsd:string .
+

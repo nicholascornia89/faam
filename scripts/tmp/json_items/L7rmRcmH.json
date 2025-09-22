@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q81752",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Anton Bruckner"
       }
     ]
   },
@@ -206,13 +207,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "MoWNUsvt",
+        "type": "item",
+        "label": "Émile Jaques-Dalcroze",
+        "description": "Swiss composer, musician and music educator (1865-1950)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Jaques_Dalcroze.jpg"
+        }
+      },
+      {
+        "id": "YQqnSHfe",
+        "type": "item",
+        "label": "Felix Mottl",
+        "description": "Austrian conductor and composer (1856-1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mottl.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Joseph_Anton_Bruckner_(1868).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L7rmRcmH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L7rmRcmH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L7rmRcmH.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q65070444",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ohio State University Libraries"
       }
     ],
     "abbreviation": [
@@ -92,6 +93,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "NFa7mgAM",
+        "type": "item",
+        "label": "The Principles of singing : a practical guide for vocalists and teachers, with vocal exercises / by Albert B. Bach",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "OSU-b5903614.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Uafe5zh7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Uafe5zh7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Uafe5zh7.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q34713",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Salzburg"
       }
     ],
     "aliases": [
@@ -66,8 +67,88 @@
         "base_url": "https://www.geonames.org/",
         "label": "2766824"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "kyFWDzyM",
+        "label": "Austria"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8gZHuqVq",
+        "type": "item",
+        "label": "Wolfgang Amadeus Mozart",
+        "description": "Austrian composer of the Classical period (1756–1791)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg"
+        }
+      },
+      {
+        "id": "VAys74eS",
+        "type": "item",
+        "label": "Sigismund von Neukomm",
+        "description": "Austrian composer and pianist (1778–1858)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Neukomm.jpg"
+        }
+      },
+      {
+        "id": "286Q3xe8",
+        "type": "item",
+        "label": "Michael Haydn",
+        "description": "Austrian composer, brother of Joseph Haydn, (1737-1806)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Michaelhaydn1.jpg"
+        }
+      },
+      {
+        "id": "fZRgzXCY",
+        "type": "item",
+        "label": "Leopold Mozart",
+        "description": "German composer (1719–1787)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopold_Mozart.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "7n8LGkCJ",
+        "type": "item",
+        "label": "Mozarteum University Salzburg",
+        "description": "university in Salzburg, Austria"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "h3Vsg2MJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "h3Vsg2MJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "h3Vsg2MJ.csv"
+      }
+    ]
+  }
 }

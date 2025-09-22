@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q541470",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bela Crkva"
       }
     ],
     "aliases": [
@@ -54,8 +55,61 @@
         "base_url": "https://www.geonames.org/",
         "label": "792794"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q403",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Serbia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "brKjWqgk",
+        "type": "item",
+        "label": "Rudolf Nováček",
+        "description": "Czech conductor, violinist and composer (1860–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rudolf_Novacek_(1860-1929).jpg"
+        }
+      },
+      {
+        "id": "UkBCrdbe",
+        "type": "item",
+        "label": "Rudolf Nováček",
+        "description": "Czech conductor, violinist and composer (1860–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rudolf_Novacek_(1860-1929).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2a2Ur4Sn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2a2Ur4Sn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2a2Ur4Sn.csv"
+      }
+    ]
+  }
 }

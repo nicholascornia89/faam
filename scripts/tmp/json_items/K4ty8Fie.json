@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,61 +74,73 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "WuWcWk4u"
+        "value": "WuWcWk4u",
+        "label": "ritenuto"
       },
       {
         "type": "item",
-        "value": "AeKhRWCB"
+        "value": "AeKhRWCB",
+        "label": "tempo primo"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "TrYWxDhL"
+        "value": "TrYWxDhL",
+        "label": "Orpheus Institute"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "MVBSp4fG"
+        "value": "MVBSp4fG",
+        "label": "Marie Pleyel"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "RHxmTGG2"
+        "value": "RHxmTGG2",
+        "label": "dance music"
       },
       {
         "type": "item",
-        "value": "iGdvDP28"
+        "value": "iGdvDP28",
+        "label": "waltz"
       },
       {
         "type": "item",
-        "value": "HwcYgL5C"
+        "value": "HwcYgL5C",
+        "label": "salon music"
       },
       {
         "type": "item",
-        "value": "hxYumS2J"
+        "value": "hxYumS2J",
+        "label": "opera"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "8dmpbmcx"
+        "value": "8dmpbmcx",
+        "label": "keyboard four hands"
       }
     ],
     "musical work": [],
@@ -138,7 +152,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -150,7 +165,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Friedrich Burgmüller"
       },
       {
         "type": "statement",
@@ -159,7 +175,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -171,17 +188,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       }
     ],
     "place": []
@@ -199,6 +219,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/ORP-20143703p11/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "K4ty8Fie.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "K4ty8Fie.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "K4ty8Fie.csv"
       }
     ]
   }

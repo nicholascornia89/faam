@@ -1,0 +1,29 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HSztKT9S a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:5ejHUauG,
+        faamentity:9farY66Z,
+        faamentity:Sdw2foGQ ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:identifier "16004267"^^xsd:string,
+        "BNF-42984522m"^^xsd:string,
+        "HSztKT9S"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42984522m"^^schema1:url ;
+    skos:prefLabel "Partimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall'editore dedicata"^^xsd:string ;
+    wd:P217 "VM8-315"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:GoXpNrsh .
+

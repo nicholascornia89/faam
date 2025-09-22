@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2379199",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "City of Edinburgh"
       }
     ],
     "aliases": [
@@ -74,8 +75,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "3333229"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "dq84otXW",
+        "type": "item",
+        "label": "Edinburgh Collegiate School",
+        "description": "school in City of Edinburgh, United Kingdom"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oXYgBtWN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oXYgBtWN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oXYgBtWN.csv"
+      }
+    ]
+  }
 }

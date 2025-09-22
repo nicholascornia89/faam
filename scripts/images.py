@@ -80,7 +80,7 @@ if __name__ == "__main__":
                     files_to_be_converted.append(file)
 
         start_time = datetime.datetime.now()
-        with Pool(12) as pool:
+        with Pool(10) as pool:
             pool.map(conversion_file, files_to_be_converted)
 
         # remove previous JPEG images

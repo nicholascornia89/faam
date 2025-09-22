@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4ZUfQxpn a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "06-1979"^^xsd:string,
+        "1898"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:9XeBLVBn,
+        faamentity:JnGFsz6r,
+        faamentity:Pcc4PpDc,
+        faamentity:SnxsnGvi,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:kmMxdth8 ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:mgrwHwTj ;
+    dcterms:provenance faamentity:3xcm7SKP ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3GuXLQzZ,
+        faamentity:BFrbSzjH,
+        faamentity:DMmrDj7M ;
+    schema1:hasPart faamentity:FXG4hBLe ;
+    schema1:identifier "16003961"^^xsd:string,
+        "4ZUfQxpn"^^xsd:string,
+        "WML-768406"^^xsd:string ;
+    schema1:url "https://collections.lib.utah.edu/ark:/87278/s64t9fv1"^^schema1:url ;
+    skos:prefLabel "Symphony No. 3, Movement V"^^xsd:string ;
+    wd:P217 "uu_mckay_asc"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"4ZUfQxpn-a40c154c-026b-430e-b69c-036faa5b8ce5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"4ZUfQxpn-b6c580ab-4111-4bdf-94b3-cdb55233f0df"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "06-1979"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"4ZUfQxpn-e92d8d65-d1b4-4715-bfcb-9a83b9e41ad9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1898"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:3GuXLQzZ a rdf:object .
+
+faamentity:BFrbSzjH a rdf:object .
+
+faamentity:DMmrDj7M a rdf:object .
+

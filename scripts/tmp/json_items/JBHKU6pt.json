@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q221457",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Congress Poland"
       }
     ],
     "aliases": [
@@ -69,6 +70,71 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Bbuh5pNe",
+        "type": "item",
+        "label": "Wanda Landowska",
+        "description": "(1879-1959) Polish-French harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg"
+        }
+      },
+      {
+        "id": "B8C32cCH",
+        "type": "item",
+        "label": "Frédéric Chopin",
+        "description": "Polish composer and pianist (1810–1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frederic_Chopin_photo.jpeg"
+        }
+      },
+      {
+        "id": "L3TJBa5S",
+        "type": "item",
+        "label": "Carl Tausig",
+        "description": "Polish pianist (1841–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Tausig_-_Project_Gutenberg_eText_16431.jpg"
+        }
+      },
+      {
+        "id": "CQyGQhkV",
+        "type": "item",
+        "label": "Józef Elsner",
+        "description": "Polish composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Józef_Elsner.PNG"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JBHKU6pt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JBHKU6pt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JBHKU6pt.csv"
+      }
+    ]
+  }
 }

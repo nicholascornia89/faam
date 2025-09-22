@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1469535",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Latin Catholic priest"
       }
     ],
     "aliases": [
@@ -99,6 +100,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hhpbeMET",
+        "type": "item",
+        "label": "Giordano Bruno",
+        "description": "Italian Dominican friar, philosopher and mathematician (1548–1600)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giordano_Bruno.jpg"
+        }
+      },
+      {
+        "id": "Key74Nv2",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9g7fbn6Q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9g7fbn6Q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9g7fbn6Q.csv"
+      }
+    ]
+  }
 }

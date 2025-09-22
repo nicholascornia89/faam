@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "YgK4PJwk"
+        "value": "YgK4PJwk",
+        "label": "Text"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,29 +79,34 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "FDCuefHz"
+        "value": "FDCuefHz",
+        "label": "Bavarian State Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "jTMjFsDj"
+        "value": "jTMjFsDj",
+        "label": "Cecilian Movement"
       },
       {
         "type": "item",
-        "value": "jArGUTgq"
+        "value": "jArGUTgq",
+        "label": "historically informed performance"
       }
     ],
     "instrumentation": [],
@@ -112,31 +119,36 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "ef89QxJG"
+            "value": "ef89QxJG",
+            "label": "Halle"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1863"
           }
-        ]
+        ],
+        "label": "Robert Franz"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "ef89QxJG"
+        "value": "ef89QxJG",
+        "label": "Halle"
       }
     ]
   },
@@ -153,6 +165,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/BSB-991125835949707356/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2SzToB8x.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2SzToB8x.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2SzToB8x.csv"
       }
     ]
   }

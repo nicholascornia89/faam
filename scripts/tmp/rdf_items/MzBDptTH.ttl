@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MzBDptTH a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:YxmE2DX5,
+        faamentity:h3NtwYfY,
+        faamentity:hn6sVeFM ;
+    schema1:birthDate "1882-03-18"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1973-08-01"^^xsd:string ;
+    schema1:deathPlace faamentity:XUC5ERxG ;
+    schema1:description "Italian composer of the 20th century (1882-1973)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q318968>,
+        "15996104"^^xsd:string,
+        "MzBDptTH"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:RNVCZ5PK ;
+    skos:altLabel "Gian Francesco Malipiero"^^xsd:string ;
+    skos:prefLabel "Gian Francesco Malipiero"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:27114612 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/70062> ;
+    wd:P737 faamentity:B5JiJ5cV ;
+    wd:P839 <https://imslp.org/wiki/Category:Malipiero,_Gian_Francesco> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:kHp8wFpn .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q21694741",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Somerset"
       }
     ],
     "aliases": [
@@ -54,8 +55,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2637532"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "EgBTjFCG",
+        "type": "item",
+        "label": "Wells Cathedral School",
+        "description": "school in Somerset, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5LCyz9Ek.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5LCyz9Ek.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5LCyz9Ek.csv"
+      }
+    ]
+  }
 }

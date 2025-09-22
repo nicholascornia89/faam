@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GwJt3vGU a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1898-09-26"^^xsd:string ;
+    schema1:birthPlace faamentity:R48eNExS,
+        faamentity:nAtZMFD9,
+        faamentity:oQWekaj6 ;
+    schema1:deathDate "1937-07-11"^^xsd:string ;
+    schema1:deathPlace faamentity:fQCekjVZ,
+        faamentity:jm4noKog ;
+    schema1:description "American composer and pianist (1898–1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q123829>,
+        "16004247"^^xsd:string,
+        "GwJt3vGU"^^xsd:string ;
+    schema1:nationality faamentity:LbfJnd9y ;
+    skos:altLabel "Dzhordzh Gershvin"^^xsd:string,
+        "George Gershwin"^^xsd:string,
+        "George Jacob Gershwin"^^xsd:string,
+        "Gershwin"^^xsd:string,
+        "Jacob Bruskin Gershowitz"^^xsd:string,
+        "Jacob Gershvin"^^xsd:string,
+        "Jacob Gershwine"^^xsd:string ;
+    skos:prefLabel "George Gershwin"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:61554329 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40205860> ;
+    wd:P737 faamentity:6mzYVLvj,
+        faamentity:C7LuuAQG,
+        faamentity:Pgr56ZRF,
+        faamentity:Xqzdnscu,
+        faamentity:gWXxMuiA ;
+    wd:P839 <https://imslp.org/wiki/Category:Gershwin,_George> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

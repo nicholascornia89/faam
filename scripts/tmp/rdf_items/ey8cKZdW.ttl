@@ -1,0 +1,97 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ey8cKZdW a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "16-03-1913"^^xsd:string,
+        "21-06-1921"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:8Ki8U5U4,
+        faamentity:AeKhRWCB,
+        faamentity:UDva945b,
+        faamentity:WuWcWk4u,
+        faamentity:XutP4SZN,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:4ZvdnZdj,
+        faamentity:N9v5g9U5 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GxwNM6Ja,
+        faamentity:NaVsGiXL,
+        faamentity:TAmJyykf,
+        faamentity:Uwh7FiEg,
+        faamentity:kD7iQNCm ;
+    schema1:hasPart faamentity:dKTcE2GB ;
+    schema1:identifier "15992560"^^xsd:string,
+        "KCA-030901697265"^^xsd:string,
+        "ey8cKZdW"^^xsd:string ;
+    schema1:location faamentity:2g8dy8pA,
+        faamentity:Ba3nT5xs ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6889927/N"^^schema1:url ;
+    skos:prefLabel "Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]"^^xsd:string ;
+    skosref:related faamentity:VYUdXqyx ;
+    wd:P217 "MM-OO-VANDERS-pagina-1"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"ey8cKZdW-48a7451a-bdfd-4d23-903c-bb48ad651711"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"ey8cKZdW-4920021b-06dd-45b5-b131-574b8558a374"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"ey8cKZdW-5201a6d2-0024-4473-a5f3-8fe31fcb16ec"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "16-03-1913"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"ey8cKZdW-7a51874e-6c71-4a1b-8776-d69cdca53978"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:2g8dy8pA .
+
+"ey8cKZdW-8dcbcab5-0197-4d0a-ba0c-94a95f71946f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"ey8cKZdW-915f0e64-f1ed-415c-ba00-dadad8b6a355"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"ey8cKZdW-c1035244-e243-46d3-b11d-bf593671b757"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "21-06-1921"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"ey8cKZdW-d14ab12b-ffaa-41e2-b66c-392bd8e2a091"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:GxwNM6Ja a rdf:object .
+
+faamentity:NaVsGiXL a rdf:object .
+
+faamentity:TAmJyykf a rdf:object .
+
+faamentity:Uwh7FiEg a rdf:object .
+
+faamentity:kD7iQNCm a rdf:object .
+

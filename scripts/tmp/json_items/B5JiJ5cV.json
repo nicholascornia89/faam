@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q477559",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marco Enrico Bossi"
       }
     ]
   },
@@ -165,13 +166,47 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "MzBDptTH",
+        "type": "item",
+        "label": "Gian Francesco Malipiero",
+        "description": "Italian composer of the 20th century (1882-1973)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gian_Francesco_Malipiero_(before_1973)_-_Archivio_storico_Ricordi_FOTO001318.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Marco_Enrico_Bossi,_1905.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "B5JiJ5cV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "B5JiJ5cV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "B5JiJ5cV.csv"
       }
     ]
   }

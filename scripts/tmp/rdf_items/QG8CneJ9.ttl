@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QG8CneJ9 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1558232>,
+        "16004756"^^xsd:string,
+        "QG8CneJ9"^^xsd:string ;
+    schema1:location faamentity:bgKMqxZV,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Fürstenschule Grimma"^^xsd:string,
+        "Fürstenschule St. Augustin"^^xsd:string,
+        "Gymnasium St. Augustin"^^xsd:string,
+        "Landesschule Grimma"^^xsd:string,
+        "Landesschule Sankt Augustin"^^xsd:string ;
+    skos:prefLabel "Gymnasium St. Augustin"^^xsd:string .
+

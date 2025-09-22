@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q918645",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Václav Tomášek"
       }
     ]
   },
@@ -170,13 +171,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G9vyoK45",
+        "type": "item",
+        "label": "Julius Schulhoff",
+        "description": "Austrian pianist and composer (1825-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Julius_Schulhoff.jpg"
+        }
+      },
+      {
+        "id": "juzW8HfZ",
+        "type": "item",
+        "label": "Wilhelm Würfel",
+        "description": "Czech conductor, music educator, composer and pianist (1790–1832)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "GVgQzgaW",
+        "type": "item",
+        "label": "Jan Václav Voříšek",
+        "description": "Czech music educator, composer, pianist and organist (1791–1825)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hugo_Worzischek_by_Engelmann.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "V_J_Tomášek,_by_Antonín_Machek.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Y7oinjoB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Y7oinjoB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Y7oinjoB.csv"
       }
     ]
   }

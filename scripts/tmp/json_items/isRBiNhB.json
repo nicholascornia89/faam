@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q320046",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Otto Goldschmidt"
       }
     ]
   },
@@ -180,13 +181,43 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "RtjyF7v3",
+        "type": "item",
+        "label": "Missa Papae Marcelli",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Otto_Goldschmidt_(1829–1907)_1860s_by_Emilie_Bieber_(1810–1884)_OeNB_11354097.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "isRBiNhB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "isRBiNhB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "isRBiNhB.csv"
       }
     ]
   }

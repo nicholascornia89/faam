@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ekhDjWNi a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "educational institution"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q788375>,
+        "0"^^xsd:string,
+        "ekhDjWNi"^^xsd:string ;
+    schema1:location faamentity:4qJEuxG6,
+        faamentity:MGBpLC55 ;
+    skos:prefLabel "Gresham College"^^xsd:string .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q990504",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Exeter"
       }
     ],
     "aliases": [
@@ -62,8 +63,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "5085966"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "A8GdPaJR",
+        "type": "item",
+        "label": "Phillips Exeter Academy",
+        "description": "private college preparatory school in Exeter, New Hampshire"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "B76vBwzJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "B76vBwzJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "B76vBwzJ.csv"
+      }
+    ]
+  }
 }

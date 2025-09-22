@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RCJwhTBC a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1655-01-14"^^xsd:string ;
+    schema1:birthPlace faamentity:RZra3Qhj ;
+    schema1:deathDate "1731-02-27"^^xsd:string ;
+    schema1:deathPlace faamentity:RZra3Qhj ;
+    schema1:description "Italian composer of the baroque era"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q92902387>,
+        "0"^^xsd:string,
+        "RCJwhTBC"^^xsd:string ;
+    schema1:nationality faamentity:HixucMeq ;
+    skos:prefLabel "Tommaso Predieri"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

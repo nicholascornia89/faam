@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q822146",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "lyricist"
       }
     ],
     "aliases": [
@@ -51,6 +52,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XCKZs7Xv",
+        "type": "item",
+        "label": "Hafez",
+        "description": "Persian poet and mystic",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mohammad_Shams_al-Din_Hafez.jpg"
+        }
+      },
+      {
+        "id": "dy4LNA89",
+        "type": "item",
+        "label": "Émile Barateau",
+        "description": "penman, poet, lyricist (1792-1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9mdUEp77",
+        "type": "item",
+        "label": "Alfredo Soffredini",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hNwBKzRd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hNwBKzRd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hNwBKzRd.csv"
+      }
+    ]
+  }
 }

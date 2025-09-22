@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q116050280",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Violin concerto in G major (RV 314)"
       }
     ]
   },
@@ -95,6 +96,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "PpqSZV5w",
+        "type": "item",
+        "label": "25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA63.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZcQNfQpY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZcQNfQpY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZcQNfQpY.csv"
+      }
+    ]
+  }
 }

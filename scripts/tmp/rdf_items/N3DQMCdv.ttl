@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N3DQMCdv a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who studies music theory"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16031530>,
+        "15990882"^^xsd:string,
+        "N3DQMCdv"^^xsd:string ;
+    skos:altLabel "music theoretician"^^xsd:string,
+        "music theorist"^^xsd:string,
+        "musical theoretician"^^xsd:string,
+        "musical theorist"^^xsd:string ;
+    skos:prefLabel "music theorist"^^xsd:string .
+

@@ -5,13 +5,13 @@
     "label": [
       {
         "type": "string",
-        "value": ""
+        "value": "family name"
       }
     ],
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "part of a naming scheme for individuals, used in many cultures worldwide"
       }
     ],
     "object_type": [
@@ -36,12 +36,35 @@
       {
         "type": "externalid",
         "value": "Q101352",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "family name"
       }
     ],
     "aliases": []
   },
   "statements": {},
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GuPLWsc5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GuPLWsc5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GuPLWsc5.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AdrWLpRK a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "conservatoire in London"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1144673>,
+        "15991021"^^xsd:string,
+        "AdrWLpRK"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55,
+        faamentity:oTv4LRbp ;
+    skos:altLabel "Royal Academy of Music"^^xsd:string ;
+    skos:prefLabel "Royal Academy of Music"^^xsd:string .
+

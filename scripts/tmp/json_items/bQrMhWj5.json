@@ -11,7 +11,7 @@
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of the German federated state of Lower Saxony"
       }
     ],
     "object_type": [
@@ -32,7 +32,14 @@
         "value": "31544"
       }
     ],
-    "qid": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1715",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hannover"
+      }
+    ],
     "aliases": []
   },
   "statements": {
@@ -49,8 +56,37 @@
         "base_url": "https://www.geonames.org/",
         "label": "DE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bQrMhWj5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bQrMhWj5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bQrMhWj5.csv"
+      }
+    ]
+  }
 }

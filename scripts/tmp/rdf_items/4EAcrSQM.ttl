@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4EAcrSQM a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "educator who teaches one or more aspects of drama (e.g., theatre history, acting, directing)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2449921>,
+        "0"^^xsd:string,
+        "4EAcrSQM"^^xsd:string ;
+    skos:altLabel "drama professor"^^xsd:string,
+        "theater arts teacher"^^xsd:string,
+        "theater professor"^^xsd:string,
+        "theater teacher"^^xsd:string,
+        "theatre arts teacher"^^xsd:string,
+        "theatre pedagogue"^^xsd:string,
+        "theatre professor"^^xsd:string,
+        "theatre teacher"^^xsd:string ;
+    skos:prefLabel "drama teacher"^^xsd:string .
+

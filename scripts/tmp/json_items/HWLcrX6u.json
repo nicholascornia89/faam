@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3806",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tübingen"
       }
     ],
     "aliases": [
@@ -66,8 +67,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "6559169"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "FUFVgva3",
+        "type": "item",
+        "label": "University of Tübingen",
+        "description": "public research university in Tübingen, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HWLcrX6u.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HWLcrX6u.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HWLcrX6u.csv"
+      }
+    ]
+  }
 }

@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "g5WgfTuF"
+        "value": "g5WgfTuF",
+        "label": "Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -74,24 +76,28 @@
     "provenance": [
       {
         "type": "item",
-        "value": "FDCuefHz"
+        "value": "FDCuefHz",
+        "label": "Bavarian State Library"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       },
       {
         "type": "item",
-        "value": "QFnkBYdA"
+        "value": "QFnkBYdA",
+        "label": "string music"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "VZE4bgeN"
+        "value": "VZE4bgeN",
+        "label": "violin"
       }
     ],
     "musical work": [],
@@ -103,7 +109,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -115,7 +122,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Marianne Scharwenka"
       },
       {
         "type": "statement",
@@ -124,7 +132,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
@@ -136,17 +145,20 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Schuberth & Co."
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       }
     ],
     "place": []
@@ -164,6 +176,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/BSB-991018741429707356/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2Cvd2yCq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2Cvd2yCq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2Cvd2yCq.csv"
       }
     ]
   }

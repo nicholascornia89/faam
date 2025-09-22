@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q960222",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Battista Somis"
       }
     ]
   },
@@ -152,13 +153,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4tfnvxzf",
+        "type": "item",
+        "label": "Felice Giardini",
+        "description": "Italian composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felice_Giardini_after_Giovanni_Battista_Cipriani.jpg"
+        }
+      },
+      {
+        "id": "i4SiUtQP",
+        "type": "item",
+        "label": "Gaetano Pugnani",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gaetano_Pugnani_(1754).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giovanni_Battista_Somis.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NCmnc3B4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NCmnc3B4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NCmnc3B4.csv"
       }
     ]
   }

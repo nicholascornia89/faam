@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q709355",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Arthur Meulemans"
       }
     ]
   },
@@ -141,13 +142,145 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "WbGCMSar",
+        "type": "item",
+        "label": "Beatrijs : sinfonisch poema",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903772819.gif"
+        }
+      },
+      {
+        "id": "bmXFKX2M",
+        "type": "item",
+        "label": "Beatrijs : sinfonisch poema",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903900642.gif"
+        }
+      },
+      {
+        "id": "R47ofLXj",
+        "type": "item",
+        "label": "Beatrijs : sinfonisch poema",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903772801.gif"
+        }
+      },
+      {
+        "id": "QJywVFSB",
+        "type": "item",
+        "label": "Homo quidam. puor trois voix mixtes et orgue.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502047.gif"
+        }
+      },
+      {
+        "id": "K8RD69dY",
+        "type": "item",
+        "label": "Alleluia. de Commune plurimorum Martyrum. Tempore Paschali.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502048.gif"
+        }
+      },
+      {
+        "id": "NUupFNAZ",
+        "type": "item",
+        "label": "Salve Regina.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502049.gif"
+        }
+      },
+      {
+        "id": "WyypHEyZ",
+        "type": "item",
+        "label": "Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502050.gif"
+        }
+      },
+      {
+        "id": "ABMMwCmJ",
+        "type": "item",
+        "label": "Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502051.gif"
+        }
+      },
+      {
+        "id": "Z68YyRPz",
+        "type": "item",
+        "label": "Immaculata conceptio est. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502052.gif"
+        }
+      },
+      {
+        "id": "BWZs3kBH",
+        "type": "item",
+        "label": "Diffusa est gratia. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502053.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "CYmQEned",
+        "type": "item",
+        "label": "Beatrijs",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://www.svm.be/files/Componisten/MEULEMANS-Arthur-FOTO1.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4WGmC6Zt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4WGmC6Zt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4WGmC6Zt.csv"
       }
     ]
   }

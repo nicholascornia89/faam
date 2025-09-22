@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WKTLcAet a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former empire in Eurasia and North America (1721–1917)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q34266>,
+        "15997445"^^xsd:string,
+        "WKTLcAet"^^xsd:string ;
+    skos:altLabel "Empire of Russia"^^xsd:string,
+        "Imperial Russia"^^xsd:string,
+        "Moscovy"^^xsd:string,
+        "Moscovy or Russia"^^xsd:string,
+        "Rossia"^^xsd:string,
+        "Rusia"^^xsd:string,
+        "Russia"^^xsd:string,
+        "Russia or Moscovy"^^xsd:string,
+        "Russian Empire"^^xsd:string,
+        "Tsarist Russia"^^xsd:string ;
+    skos:prefLabel "Russian Empire"^^xsd:string .
+

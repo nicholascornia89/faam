@@ -1,0 +1,106 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DRfYpTjb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:DqMNcjpW,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:bsgSL8K5,
+        faamentity:d2uUDsVY,
+        faamentity:e9t5BdLA ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:ZFfsPAJm ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:98W5cKAM,
+        faamentity:AWYT8jUv,
+        faamentity:DaCzzraM,
+        faamentity:TL4kzALQ ;
+    schema1:hasPart faamentity:GdFisYxo,
+        faamentity:PthxcWGx,
+        faamentity:Zd3XEDDq,
+        faamentity:a4upJD9M ;
+    schema1:identifier "16005040"^^xsd:string,
+        "BNF-42599226w"^^xsd:string,
+        "DRfYpTjb"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42599226w"^^schema1:url ;
+    skos:prefLabel "Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann"^^xsd:string ;
+    wd:P217 "G-12512 (1)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"DRfYpTjb-083f818a-088b-4bc6-8d55-4d8d457c0798"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-0cbc280b-ab0d-4e23-906a-36fba59e8f18"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-19220e2a-8ec6-4208-a0d0-822ce45d23f7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"DRfYpTjb-24e8fd42-6d07-4e28-9427-b95521e5ad6f"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-25a0591a-907f-4e23-904d-dc8e06d3a503"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-2e4558a5-0aa6-4aa9-ba44-f497656d8045"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DRfYpTjb-58facae5-aec3-49fd-bbb2-9ea938681c27"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DRfYpTjb-5e6e55bb-f53f-4144-9601-910e735174a9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DRfYpTjb-5ea20735-0934-47c4-b9be-0d482771af36"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-6c568a9e-f9ec-4b47-8403-df7a3ce16c5d"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-739579ad-5eba-40c7-b736-9c8250b2ae22"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-814b01e7-dc23-4f0a-86c2-72d0e94a8dee"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DRfYpTjb-98eb5cd1-2179-4c75-baa2-3421a2795acd"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-9a3610b0-8fea-4f16-bb7b-46f209969977"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-b79d8853-eb32-4f21-ae4a-fa0dda4c977c"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-ba26b036-74fa-4714-9f36-26d7d23ecf6c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"DRfYpTjb-c2df40a3-2fd7-41fe-93f5-ab8cc9b5dd19"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"DRfYpTjb-c9f973c1-81da-491f-bfce-d8fb40fe08f6"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-cf501fa9-fa06-48b7-a851-d79a9671a8a5"^^xsd:string a rdf:Statement .
+
+"DRfYpTjb-e1cddbbf-2e74-4ace-a887-eeb40ea72337"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:98W5cKAM a rdf:object .
+
+faamentity:AWYT8jUv a rdf:object .
+
+faamentity:DaCzzraM a rdf:object .
+
+faamentity:TL4kzALQ a rdf:object .
+

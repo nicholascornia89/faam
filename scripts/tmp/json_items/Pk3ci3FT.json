@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q118397797",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "concert flutist"
       }
     ],
     "aliases": [
@@ -63,6 +64,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NCUrhkez",
+        "type": "item",
+        "label": "Jean-Louis Tulou",
+        "description": "French composer, flute teacher, player and instrument maker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Louis_Tulou.jpg"
+        }
+      },
+      {
+        "id": "3dpaS8c9",
+        "type": "item",
+        "label": "Louis Dorus",
+        "description": "French university teacher and flutist (1812-1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Dorus_1864.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Pk3ci3FT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Pk3ci3FT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Pk3ci3FT.csv"
+      }
+    ]
+  }
 }

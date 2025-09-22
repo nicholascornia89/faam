@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5EJaed5Q a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:72sFir89,
+        faamentity:k5PWRY6Q ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q671521>,
+        "15992144"^^xsd:string,
+        "5EJaed5Q"^^xsd:string ;
+    skos:prefLabel "staccatissimo"^^xsd:string ;
+    wd:P1535 faamentity:2ZAuwsSp,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:QJ92QxQv,
+        faamentity:kdBmwQEE ;
+    wd:P31 faamentity:N2f5NSgz .
+

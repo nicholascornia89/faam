@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q105237",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giacomo Meyerbeer"
       }
     ]
   },
@@ -198,13 +199,61 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Cev8WhcK",
+        "type": "item",
+        "label": "ROBERT LE DIABLE : Opéra en cinq actes : N° 3. Romance \"Va! va! va, dit-elle\"",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000122150.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TSvTRY9g",
+        "type": "item",
+        "label": "Robert le diable",
+        "description": "1831 opera by Giacomo Meyerbeer"
+      },
+      {
+        "id": "3Tkw6Zpw",
+        "type": "item",
+        "label": "Struensée",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Meyerbeer_d'après_P._Petit_b_1865.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5ymmKpXF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5ymmKpXF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5ymmKpXF.csv"
       }
     ]
   }

@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HERV8HdR a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1240"^^xsd:string ;
+    schema1:birthPlace faamentity:ZPE4diHn ;
+    schema1:deathDate "1288"^^xsd:string ;
+    schema1:deathPlace faamentity:RjXv6xhJ ;
+    schema1:description "French poet, composer and trouvère"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4214>,
+        "16004274"^^xsd:string,
+        "HERV8HdR"^^xsd:string ;
+    schema1:nationality faamentity:DKMie5vK ;
+    skos:altLabel "Adam de La Hale"^^xsd:string,
+        "Adam de la Halle"^^xsd:string,
+        "Adam le Bossu"^^xsd:string,
+        "Adam the Hunchback"^^xsd:string,
+        "Le bossu d'Arras"^^xsd:string,
+        "The Hunchback of Arras"^^xsd:string ;
+    skos:prefLabel "Adam de la Halle"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:86885965 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30006257> ;
+    wd:P839 <https://imslp.org/wiki/Category:Halle,_Adam_de_la> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RBYR5Rtm .
+

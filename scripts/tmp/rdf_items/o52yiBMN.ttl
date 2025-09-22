@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:o52yiBMN a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who writes, composes and sings own songs"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q488205>,
+        "15990937"^^xsd:string,
+        "o52yiBMN"^^xsd:string ;
+    skos:altLabel "singer songwriter"^^xsd:string,
+        "singer-songwriter"^^xsd:string,
+        "singer/songwriter"^^xsd:string ;
+    skos:prefLabel "film actor"^^xsd:string,
+        "singer-songwriter"^^xsd:string .
+

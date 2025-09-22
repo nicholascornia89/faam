@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q708209",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nicola Sala"
       }
     ]
   },
@@ -137,13 +138,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "49XCs8aJ",
+        "type": "item",
+        "label": "Gaspare Spontini",
+        "description": "Italian composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Aubry-Lecomte_-_Spontini_(cropped).jpg"
+        }
+      },
+      {
+        "id": "VpGnP2vs",
+        "type": "item",
+        "label": "Nicolas Isouard",
+        "description": "Maltese composer (1773–1818)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicolas_Isouard_par_Ducarme.jpg"
+        }
+      },
+      {
+        "id": "VgVrgSE7",
+        "type": "item",
+        "label": "Pietro Ray",
+        "description": "Italian composer and music teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "NicolaSala.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kRsWqt6L.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kRsWqt6L.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kRsWqt6L.csv"
       }
     ]
   }

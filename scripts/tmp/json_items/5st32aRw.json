@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q17042",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oakland"
       }
     ],
     "aliases": [
@@ -70,8 +71,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "5378538"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "EPFg9kEt",
+        "type": "item",
+        "label": "Mills College at Northeastern University",
+        "description": "liberal arts and sciences college located in Oakland, United States"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5st32aRw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5st32aRw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5st32aRw.csv"
+      }
+    ]
+  }
 }

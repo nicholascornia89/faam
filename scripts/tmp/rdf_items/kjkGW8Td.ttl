@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kjkGW8Td a rdfs:Resource ;
+    faamprop:related_to faamentity:Vm5DPnGE ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1801-06-15"^^xsd:string ;
+    schema1:birthPlace faamentity:93omka7i ;
+    schema1:deathDate "1876-10-27"^^xsd:string ;
+    schema1:deathPlace faamentity:7Seu8RXR ;
+    schema1:description "Italian-French musician 1801-76"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q27468365>,
+        "15995620"^^xsd:string,
+        "kjkGW8Td"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:Eqo9Fq2n,
+        faamentity:QbfXawnE ;
+    skos:altLabel "Gustavo Carulli"^^xsd:string ;
+    skos:prefLabel "Gustavo Carulli"^^xsd:string ;
+    wd:P108 faamentity:dqzZNPaF ;
+    wd:P1303 faamentity:ESwP43qy ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7653174 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30021546> ;
+    wd:P839 <https://imslp.org/wiki/Category:Carulli,_Gustavo> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q674439",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Georgics"
       }
     ]
   },
@@ -99,6 +100,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "H6Rmyiru",
+        "type": "item",
+        "label": "Orfeo ed Euridice",
+        "description": "opera by Christoph Willibald Gluck"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "64B4E75q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "64B4E75q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "64B4E75q.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gtXCZ2Xh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1863-10-11"^^xsd:string ;
+    schema1:birthPlace faamentity:NxhcNMK5 ;
+    schema1:deathDate "1919-02-02"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q323589>,
+        "16005308"^^xsd:string,
+        "gtXCZ2Xh"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Xavier Leroux"^^xsd:string ;
+    skos:prefLabel "Xavier Leroux"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:54253952 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/95463> ;
+    wd:P737 faamentity:EzxGVoaq,
+        faamentity:eCz67vzY ;
+    wd:P839 <https://imslp.org/wiki/Category:Leroux,_Xavier> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:n8RY6FTC .
+

@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -72,99 +74,120 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "J6ERsasy"
+        "value": "J6ERsasy",
+        "label": "metronome mark"
       },
       {
         "type": "item",
-        "value": "WtvibJFF"
+        "value": "WtvibJFF",
+        "label": "accent"
       },
       {
         "type": "item",
-        "value": "CPJ2a2C2"
+        "value": "CPJ2a2C2",
+        "label": "articulation"
       },
       {
         "type": "item",
-        "value": "3ts8CrNB"
+        "value": "3ts8CrNB",
+        "label": "musical phrasing"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "Di2mC26w"
+        "value": "Di2mC26w",
+        "label": "engage pedal"
       },
       {
         "type": "item",
-        "value": "NFazQXR2"
+        "value": "NFazQXR2",
+        "label": "release pedal"
       }
     ],
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "ZGMagNYo"
+        "value": "ZGMagNYo",
+        "label": "transposition"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "eHYWo9ba"
+        "value": "eHYWo9ba",
+        "label": "translation"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "DBeMRbkA"
+        "value": "DBeMRbkA",
+        "label": "Sérénade de Milenka: pour ténor: (ton original)"
       },
       {
         "type": "item",
-        "value": "ZZNLmpBR"
+        "value": "ZZNLmpBR",
+        "label": "Irma Van Dijck"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "diyutohS"
+        "value": "diyutohS",
+        "label": "ballet"
       },
       {
         "type": "item",
-        "value": "5FBMYhj2"
+        "value": "5FBMYhj2",
+        "label": "pantomime"
       },
       {
         "type": "item",
-        "value": "2tRZBihu"
+        "value": "2tRZBihu",
+        "label": "song"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "McV2xEAi"
+        "value": "McV2xEAi",
+        "label": "Milenka"
       }
     ],
     "agent": [
@@ -175,7 +198,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -187,7 +211,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Jan Blockx"
       },
       {
         "type": "statement",
@@ -196,7 +221,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GoiPpGap"
+            "value": "GoiPpGap",
+            "label": "performing artist"
           },
           {
             "type": "item",
@@ -208,7 +234,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Anonymous"
       },
       {
         "type": "statement",
@@ -217,7 +244,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
@@ -229,21 +257,25 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Irma Van Dijck"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GoiPpGap"
+        "value": "GoiPpGap",
+        "label": "performing artist"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       }
     ],
     "place": []
@@ -261,6 +293,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902357885/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ivrdot5A.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ivrdot5A.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ivrdot5A.csv"
       }
     ]
   }

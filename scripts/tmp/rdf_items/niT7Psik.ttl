@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:niT7Psik a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1844-05-30"^^xsd:string,
+        "1845-05-31"^^xsd:string ;
+    schema1:birthPlace faamentity:Vmibabgf ;
+    schema1:deathDate "1908-08-20"^^xsd:string ;
+    schema1:deathPlace faamentity:5FBtSF63 ;
+    schema1:description "French composer (1844–1908)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q445083>,
+        "16005276"^^xsd:string,
+        "niT7Psik"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n,
+        faamentity:LbfJnd9y ;
+    skos:altLabel "Louis Varney"^^xsd:string ;
+    skos:prefLabel "Louis Varney"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:44486677 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/135899> ;
+    wd:P839 <https://imslp.org/wiki/Category:Varney,_Louis> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

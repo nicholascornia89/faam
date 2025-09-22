@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TL4kzALQ a rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3wN8PmuS ;
+    schema1:birthDate "1828-02-01"^^xsd:string ;
+    schema1:birthPlace faamentity:SptwZTXr ;
+    schema1:deathDate "1907-09-27"^^xsd:string ;
+    schema1:deathPlace faamentity:GKcJxAtt ;
+    schema1:description "German composer and violinist (1828–1907)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4497294>,
+        "16005022"^^xsd:string,
+        "TL4kzALQ"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Friedrich Hermann"^^xsd:string ;
+    skos:prefLabel "Friedrich Hermann"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:100217950 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/74456> ;
+    wd:P839 <https://imslp.org/wiki/Category:Hermann,_Friedrich> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:irSPevuD .
+

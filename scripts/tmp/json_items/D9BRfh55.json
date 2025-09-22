@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q158445",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grand Duchy of Mecklenburg-Schwerin"
       }
     ],
     "aliases": [
@@ -61,6 +62,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WamgprKg",
+        "type": "item",
+        "label": "Friedrich von Flotow",
+        "description": "German composer (1812–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_von_Flotow_1866.jpg"
+        }
+      },
+      {
+        "id": "gdjFgpdt",
+        "type": "item",
+        "label": "Friedrich Chrysander",
+        "description": "German music historian (1826–1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FriedrichChrysanderEmilBieber.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "D9BRfh55.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "D9BRfh55.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "D9BRfh55.csv"
+      }
+    ]
+  }
 }

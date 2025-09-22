@@ -1,0 +1,61 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QxJM2hye a rdfs:Resource ;
+    faamprop:related_to faamentity:MaWnCnVw ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:QoUXQiJb ;
+    schema1:birthDate "1841-01-01"^^xsd:string,
+        "1841-09-08"^^xsd:string ;
+    schema1:birthPlace faamentity:XQyttapg ;
+    schema1:deathDate "1904-05-01"^^xsd:string ;
+    schema1:deathPlace faamentity:5rRqvsj3,
+        faamentity:AtYRB2Fx ;
+    schema1:description "Czech composer (1841–1904)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7298>,
+        "16004369"^^xsd:string,
+        "QxJM2hye"^^xsd:string ;
+    schema1:nationality faamentity:axY3tPPa,
+        faamentity:e9ox3JhD ;
+    skos:altLabel "Antonin Dvorák"^^xsd:string,
+        "Antonín Dvorák"^^xsd:string,
+        "Antonín Dvořák"^^xsd:string,
+        "Antonín Leopold Dvořák"^^xsd:string,
+        "Dvořák"^^xsd:string ;
+    skos:prefLabel "Antonín Dvořák"^^xsd:string ;
+    wd:P108 faamentity:6TP5v4Co,
+        faamentity:9Jgx9NJs,
+        faamentity:QaJicP98,
+        faamentity:aj3mN96P ;
+    wd:P1303 faamentity:GoXpNrsh,
+        faamentity:J32Mk8QV,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71577743 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/26196> ;
+    wd:P737 faamentity:ehb9H3rs,
+        faamentity:oJ73LkwA ;
+    wd:P839 <https://imslp.org/wiki/Category:Dvořák,_Antonín> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:RBYR5Rtm,
+        faamentity:RHfvaKqY,
+        faamentity:RU9hU5Pa,
+        faamentity:Wm5MWZbA,
+        faamentity:YYyZX3aY,
+        faamentity:irSPevuD,
+        faamentity:jmrmjM9v,
+        faamentity:n8RY6FTC .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q17050641",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jesu, meine Freude"
       }
     ]
   },
@@ -57,6 +58,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "hUqKefko",
+        "type": "item",
+        "label": "Jesu, meine Freude (BWV 227)",
+        "description": "motet by Johann Sebastian Bach"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dsY5pfqR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dsY5pfqR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dsY5pfqR.csv"
+      }
+    ]
+  }
 }

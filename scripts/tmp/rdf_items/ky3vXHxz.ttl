@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ky3vXHxz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:BkX9pctu,
+        faamentity:GZ7PUYBw ;
+    schema1:identifier "16005360"^^xsd:string,
+        "ORP-20143703p1"^^xsd:string,
+        "ky3vXHxz"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Le Départ de la Fauvette"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"ky3vXHxz-009f66ec-be55-47f9-88a2-ca09bbbff4a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"ky3vXHxz-10730f06-a910-427e-aa68-2a24124edf7e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"ky3vXHxz-256396e6-6c0d-49e0-ba1a-0ccd7d49a93d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:BkX9pctu a rdf:object .
+
+faamentity:GZ7PUYBw a rdf:object .
+

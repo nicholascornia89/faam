@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iDr4o25a a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:MGWwFDSr ;
+    schema1:description "opera by Jan Blockx"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q89031849>,
+        "15999426"^^xsd:string,
+        "iDr4o25a"^^xsd:string ;
+    skos:altLabel "De Herbergprinses"^^xsd:string,
+        "Princesse d'Auberge"^^xsd:string ;
+    skos:prefLabel "De Herbergprinses"^^xsd:string ;
+    wd:P214 viaf:185145067218766631228 ;
+    wd:P7937 faamentity:hxYumS2J ;
+    wd:P839 <https://imslp.org/wiki/Herbergprinses_(Blockx,_Jan)> .
+

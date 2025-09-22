@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3616373",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Andronico"
       }
     ]
   },
@@ -84,6 +85,49 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mMJa2MG7",
+        "type": "item",
+        "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000346307.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "7p298NhW",
+        "type": "item",
+        "label": "Variations concertantes et Faciles, Op. 18",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MobhtZs7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MobhtZs7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MobhtZs7.csv"
+      }
+    ]
+  }
 }

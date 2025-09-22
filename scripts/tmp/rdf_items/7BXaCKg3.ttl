@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7BXaCKg3 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1844-00-00"^^xsd:string,
+        "1844-06-03"^^xsd:string ;
+    schema1:birthPlace faamentity:3Xmxx77S ;
+    schema1:deathDate "1926-01-06"^^xsd:string ;
+    schema1:deathPlace faamentity:Dec9g7vT ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q286294>,
+        "16005353"^^xsd:string,
+        "7BXaCKg3"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Emile Paladihle"^^xsd:string,
+        "Emile Paladilhe"^^xsd:string,
+        "Paladilhe"^^xsd:string,
+        "Émile Paladilhe"^^xsd:string ;
+    skos:prefLabel "Émile Paladilhe"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:34644165 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/1886> ;
+    wd:P737 faamentity:AWqDraUS,
+        faamentity:U6xhouYu,
+        faamentity:cmzT8tYL ;
+    wd:P839 <https://imslp.org/wiki/Category:Paladilhe,_Émile> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

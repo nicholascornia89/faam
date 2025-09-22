@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "THYV2oLw"
+        "value": "THYV2oLw",
+        "label": "Manuscript sketch"
       }
     ]
   },
@@ -73,34 +75,40 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "jCuFYGDc"
+        "value": "jCuFYGDc",
+        "label": "ink stamp"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "UXcrTKij"
+        "value": "UXcrTKij",
+        "label": "Biblioteca del Conservatorio Benedetto Marcello"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "E2chmtzQ"
+        "value": "E2chmtzQ",
+        "label": "sonata"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "YmTjo9Ww"
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
       }
     ],
     "musical work": [],
@@ -112,7 +120,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -124,7 +133,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Giusto Fernando Tenducci"
       },
       {
         "type": "statement",
@@ -133,35 +143,41 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "k6SS3uwu"
+            "value": "k6SS3uwu",
+            "label": "Venice"
           },
           {
             "type": "date",
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Fausto Torrefranca"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "k6SS3uwu"
+        "value": "k6SS3uwu",
+        "label": "Venice"
       }
     ]
   },
@@ -178,6 +194,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/CBM-TORRMsA76/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8UhBL58t.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8UhBL58t.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8UhBL58t.csv"
       }
     ]
   }

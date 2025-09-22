@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DSm6cEeM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1793-07-22"^^xsd:string ;
+    schema1:birthPlace faamentity:9kcqkJut ;
+    schema1:deathDate "1866-09-01"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer (1793–1866)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1373597>,
+        "15996177"^^xsd:string,
+        "DSm6cEeM"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Eugene Walckiers"^^xsd:string,
+        "Eugène Walckiers"^^xsd:string ;
+    skos:prefLabel "Eugène Walckiers"^^xsd:string ;
+    wd:P1303 faamentity:4AUBYBXJ,
+        faamentity:MV3uErvy ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:10122721 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/112473> ;
+    wd:P737 faamentity:NCUrhkez,
+        faamentity:oJGctqdB ;
+    wd:P839 <https://imslp.org/wiki/Category:Walckiers,_Eugène> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

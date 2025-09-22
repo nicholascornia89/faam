@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FcBs6ggy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:MCVLnYka,
+        faamentity:ULbwT6u4 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MbXCYU7Y,
+        faamentity:SU2CV5XY ;
+    schema1:hasPart faamentity:bDdxv7Ny ;
+    schema1:identifier "15992734"^^xsd:string,
+        "FcBs6ggy"^^xsd:string,
+        "KCG-000353031"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000353031"^^schema1:url ;
+    skos:prefLabel "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano"^^xsd:string ;
+    wd:P217 "A1464 (17)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"FcBs6ggy-12d8f906-15b3-4f93-bd3a-6a8d6295a8f0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"FcBs6ggy-2c0d02c5-0513-4b5c-812c-2716c893c365"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"FcBs6ggy-3e68482a-ae8d-48ac-9dec-3e0ed3965b91"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:MbXCYU7Y a rdf:object .
+
+faamentity:SU2CV5XY a rdf:object .
+

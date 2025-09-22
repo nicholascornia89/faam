@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1955150",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "musical instrument maker"
       }
     ],
     "aliases": [
@@ -63,6 +64,71 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2tkZfvvc",
+        "type": "item",
+        "label": "Arnold Dolmetsch",
+        "description": "French musician and instrument maker in England (1858-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold_Dolmetsch.jpg"
+        }
+      },
+      {
+        "id": "WVVuC38d",
+        "type": "item",
+        "label": "Iwan Müller",
+        "description": "Russian musician and composer (1786-1854)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Iwan_Müller.jpg"
+        }
+      },
+      {
+        "id": "YNPwD4BQ",
+        "type": "item",
+        "label": "Nicolas Lebègue",
+        "description": "French organist, harpsichordist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "XkkbmtTt",
+        "type": "item",
+        "label": "Paul Brunold",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MP5c7y5L.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MP5c7y5L.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MP5c7y5L.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q216273",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of St Andrews"
       }
     ],
     "aliases": []
@@ -45,6 +46,51 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9fLT3Ekd",
+        "type": "item",
+        "label": "George Buchanan",
+        "description": "Scottish historian and humanist scholar; (1506-1582)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anonymous_-_George_Buchanan_(Seòras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg"
+        }
+      },
+      {
+        "id": "9fLT3Ekd",
+        "type": "item",
+        "label": "George Buchanan",
+        "description": "Scottish historian and humanist scholar; (1506-1582)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anonymous_-_George_Buchanan_(Seòras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dcPbGxDv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dcPbGxDv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dcPbGxDv.csv"
+      }
+    ]
+  }
 }

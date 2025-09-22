@@ -42,8 +42,61 @@
     "aliases": []
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q35",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Denmark"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Dri8qjqH",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      },
+      {
+        "id": "eQQXF9tJ",
+        "type": "item",
+        "label": "Joachim Andersen",
+        "description": "Danish flutist, conductor and composer (1847–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joachim_Andersen.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EsQM2Xek.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EsQM2Xek.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EsQM2Xek.csv"
+      }
+    ]
+  }
 }

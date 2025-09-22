@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZX97yQbG a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "comedy in 3 acts composed by Fromental Halévy. First representation in 1841 at Opéra-Comique, Paris"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q109242729>,
+        "16000957"^^xsd:string,
+        "ZX97yQbG"^^xsd:string ;
+    skos:altLabel "Le guitarrero"^^xsd:string ;
+    skos:prefLabel "Le guitarrero"^^xsd:string .
+

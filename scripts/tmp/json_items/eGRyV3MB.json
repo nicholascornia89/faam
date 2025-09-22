@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q392498",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Three Preludes"
       }
     ]
   },
@@ -83,6 +84,61 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "67xzWFPr",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "ZvSPPzQL",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "eugMw9AU",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903755269.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eGRyV3MB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eGRyV3MB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eGRyV3MB.csv"
+      }
+    ]
+  }
 }

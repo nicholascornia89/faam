@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q35794",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Cambridge"
       }
     ],
     "aliases": [
@@ -86,6 +87,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AXdy8YbX",
+        "type": "item",
+        "label": "Ernst Pauer",
+        "description": "Austrian pianist, composer and educator (1826–1905)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "ErnstPauerLudwigAngerer.jpg"
+        }
+      },
+      {
+        "id": "Dv6UzThP",
+        "type": "item",
+        "label": "Robert Thurston Dart",
+        "description": "British musicologist (1921–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "ThurstonDart1961.jpg"
+        }
+      },
+      {
+        "id": "ZXDf3hB6",
+        "type": "item",
+        "label": "Charles Villiers Stanford",
+        "description": "Irish composer, music teacher, and conductor (1852–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Villiers_Stanford_c1894bw.jpg"
+        }
+      },
+      {
+        "id": "nYJ7XFXn",
+        "type": "item",
+        "label": "Lord Byron",
+        "description": "English Romantic poet and lyricist (1788–1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Byron_1813_by_Phillips.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aCkQF5gd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aCkQF5gd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aCkQF5gd.csv"
+      }
+    ]
+  }
 }

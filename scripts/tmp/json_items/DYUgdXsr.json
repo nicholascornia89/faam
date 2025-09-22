@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q11063",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "astronomer"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hhpbeMET",
+        "type": "item",
+        "label": "Giordano Bruno",
+        "description": "Italian Dominican friar, philosopher and mathematician (1548–1600)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giordano_Bruno.jpg"
+        }
+      },
+      {
+        "id": "8m2m6WLH",
+        "type": "item",
+        "label": "Pierre Gassendi",
+        "description": "French philosopher, astronomer, mathematician, priest, and scientist (*1592 – †1655)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "PierreGassendi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DYUgdXsr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DYUgdXsr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DYUgdXsr.csv"
+      }
+    ]
+  }
 }

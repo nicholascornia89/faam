@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q18419",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brooklyn"
       }
     ],
     "aliases": [
@@ -70,8 +71,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "5110302"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JnMHxB4U",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      },
+      {
+        "id": "GwJt3vGU",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "R48eNExS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "R48eNExS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "R48eNExS.csv"
+      }
+    ]
+  }
 }

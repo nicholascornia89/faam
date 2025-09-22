@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:73ip3aC7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:CPJ2a2C2,
+        faamentity:WT9AcUBt,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:jCuFYGDc ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:JnGFsz6r,
+        faamentity:SnxsnGvi,
+        faamentity:UDva945b,
+        faamentity:Wpq9sxzm,
+        faamentity:YWfofDz3,
+        faamentity:c5cZmF37 ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Cud74GBt,
+        faamentity:FSduWvy5 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:A7F2vhWP,
+        faamentity:QhRQ5LW9,
+        faamentity:W4MVTEZ2 ;
+    schema1:hasPart faamentity:C5U4ydvp ;
+    schema1:identifier "15992665"^^xsd:string,
+        "73ip3aC7"^^xsd:string,
+        "KCA-030903238001"^^xsd:string ;
+    schema1:location faamentity:Y3SboSzp ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14088528/N"^^schema1:url ;
+    skos:prefLabel "12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen"^^xsd:string ;
+    wd:P217 "UM-TP-BACH-prelu12-1"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5 .
+
+schema1:contributor a rdf:predicate .
+
+"73ip3aC7-30f8b780-4b76-4dbc-a4c6-99c553f2dbba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Y3SboSzp .
+
+"73ip3aC7-4e186da8-9cbc-4bc6-b180-56ad24b38985"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"73ip3aC7-6c4236d4-e28c-43c7-8c76-c6a4e43e4739"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:A7F2vhWP a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:W4MVTEZ2 a rdf:object .
+

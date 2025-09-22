@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q19306",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Altamura"
       }
     ],
     "aliases": [
@@ -54,8 +55,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "6541254"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NpqV6FTZ",
+        "type": "item",
+        "label": "Saverio Mercadante",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg"
+        }
+      },
+      {
+        "id": "SsJ8ibRa",
+        "type": "item",
+        "label": "Vincenzo Lavigna",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "3z9tA9GJ",
+        "type": "item",
+        "label": "Giacomo Tritto",
+        "description": "Italian composer (1733-1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giacomo_Tritto-opera_composer.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Rh3ZXCoe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Rh3ZXCoe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Rh3ZXCoe.csv"
+      }
+    ]
+  }
 }

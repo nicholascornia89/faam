@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q688395",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Julius Schulhoff"
       }
     ]
   },
@@ -188,7 +189,42 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3DqU7Ksy",
+        "type": "item",
+        "label": "2me Edition Grande Valse Brillante pour Piano - Op. 6",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p6.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "3GT9D7Vc",
+        "type": "item",
+        "label": "Edouard Lalo",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Édouard_Lalo2.jpeg"
+        }
+      },
+      {
+        "id": "QyZk6uZM",
+        "type": "item",
+        "label": "Theodor Leschetizky",
+        "description": "Polish composer and pianist (1830–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Schmutzer-Lescheticky.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -200,6 +236,27 @@
         "type": "image",
         "value": "Julius_Schulhoff_by_Alophe.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "G9vyoK45.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "G9vyoK45.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "G9vyoK45.csv"
       }
     ]
   }

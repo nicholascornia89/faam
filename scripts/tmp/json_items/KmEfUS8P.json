@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q2738098",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Horn Concerto No. 2"
       }
     ]
   },
@@ -97,6 +98,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KnwS9Rxv",
+        "type": "item",
+        "label": "Concerte für Waldhorn: mit Begleitung d. Orchesters. 2: No. 2, Op. 105: Es-Dur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991072273939707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KmEfUS8P.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KmEfUS8P.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KmEfUS8P.csv"
+      }
+    ]
+  }
 }

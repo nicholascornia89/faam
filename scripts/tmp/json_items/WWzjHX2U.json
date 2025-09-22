@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q131931037",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Guido Persoons"
       }
     ]
   },
@@ -137,13 +138,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WWzjHX2U.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WWzjHX2U.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WWzjHX2U.csv"
       }
     ]
   }

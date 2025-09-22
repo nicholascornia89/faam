@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q638859",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mills College at Northeastern University"
       }
     ],
     "aliases": [
@@ -78,6 +79,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "922ZsC8W",
+        "type": "item",
+        "label": "Darius Milhaud",
+        "description": "French composer (1892–1974)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Darius_Milhaud_b_Meurisse_1923.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EPFg9kEt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EPFg9kEt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EPFg9kEt.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kBn7pv6w a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:74i4Vmgy,
+        faamentity:Di2mC26w,
+        faamentity:KTdA5xD8,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:WtvibJFF,
+        faamentity:YRq3pSH7,
+        faamentity:ZdpNGGJP,
+        faamentity:d2uUDsVY ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:RkkGPiKU,
+        faamentity:nCTSPiBQ ;
+    schema1:identifier "16005386"^^xsd:string,
+        "ORP-20143702p4"^^xsd:string,
+        "kBn7pv6w"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186"^^schema1:url ;
+    skos:prefLabel "Marlborough - Op. 42"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.004"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"kBn7pv6w-3439904e-1e81-4831-a232-40223afcbf1a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"kBn7pv6w-53aaa98d-3e51-42bf-b533-45e84434c882"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"kBn7pv6w-e2c2be3d-ef2e-4eb5-9d23-a825113a7708"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:RkkGPiKU a rdf:object .
+
+faamentity:nCTSPiBQ a rdf:object .
+

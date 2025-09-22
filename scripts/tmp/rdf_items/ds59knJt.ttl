@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ds59knJt a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Mqi4X7X4 ;
+    schema1:identifier "16002475"^^xsd:string,
+        "ds59knJt"^^xsd:string ;
+    skos:prefLabel "Piano Sextet No.3, Op.90"^^xsd:string ;
+    wd:P7937 faamentity:6kwYh3HH,
+        faamentity:aWLSfvkc ;
+    wd:P839 <https://imslp.org/wiki/Piano_Sextet_No.3,_Op.90_(Bertini,_Henri)> .
+

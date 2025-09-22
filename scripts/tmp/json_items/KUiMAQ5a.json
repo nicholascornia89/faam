@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q111287791",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le Mauvais-œil"
       }
     ]
   },
@@ -93,6 +94,49 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HNYTqigG",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "RCoqaGgD",
+        "type": "item",
+        "label": "Air Varié pour la flûte, Op. 8",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KUiMAQ5a.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KUiMAQ5a.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KUiMAQ5a.csv"
+      }
+    ]
+  }
 }

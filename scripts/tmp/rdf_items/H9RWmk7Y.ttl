@@ -1,0 +1,49 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:H9RWmk7Y a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1926"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    dcterms:provenance faamentity:ZUCAiQGe ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:254k3TVy,
+        faamentity:EbgbHucU ;
+    schema1:identifier "16004195"^^xsd:string,
+        "H9RWmk7Y"^^xsd:string,
+        "NLA-1340307"^^xsd:string ;
+    schema1:location faamentity:HBfuGvMD ;
+    schema1:url "https://catalogue.nla.gov.au/catalog/1340307"^^schema1:url ;
+    skos:prefLabel "Melba method / by Dame Nellie Melba"^^xsd:string ;
+    wd:P217 "MUS NL m 784.932 M517"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"H9RWmk7Y-7f57ef5d-7356-4ff6-bf60-64d0fbb24c3c"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1926"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:HBfuGvMD .
+
+"H9RWmk7Y-82d21021-4b95-40ee-962c-ed21f726dbe7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:254k3TVy a rdf:object .
+
+faamentity:EbgbHucU a rdf:object .
+

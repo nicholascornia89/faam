@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6761",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Livorno"
       }
     ],
     "aliases": [
@@ -62,8 +63,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "6540122"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FMuTxqpg",
+        "type": "item",
+        "label": "Pietro Mascagni",
+        "description": "Italian composer known for operas (1863–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pietro_Mascagni_2.jpg"
+        }
+      },
+      {
+        "id": "QTbr2Qdh",
+        "type": "item",
+        "label": "Enrico Delle Sedie",
+        "description": "Italian opera singer (1822–1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_de_Delle_Sedie,_(1825-1907),_(baryton),_PH49331.jpg"
+        }
+      },
+      {
+        "id": "WMS8NqAK",
+        "type": "item",
+        "label": "Giuseppe Cambini",
+        "description": "Italian musician (1746-1825)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "8eEvLSGV",
+        "type": "item",
+        "label": "Roberto Michelucci",
+        "description": "Italian violinist (1922–2010)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/1/18/Tokio_1972._Roberto_Michelucci_riceve_il_Disco_D%27oro.jpg"
+        }
+      },
+      {
+        "id": "kjkGW8Td",
+        "type": "item",
+        "label": "Gustavo Carulli",
+        "description": "Italian-French musician 1801-76",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9mdUEp77",
+        "type": "item",
+        "label": "Alfredo Soffredini",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "93omka7i.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "93omka7i.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "93omka7i.csv"
+      }
+    ]
+  }
 }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q41064",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Psalms"
       }
     ]
   },
@@ -63,6 +64,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "AUKNa2Mj",
+        "type": "item",
+        "label": "The Creation",
+        "description": "oratorio composed by Joseph Haydn"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Qsmwg5S8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Qsmwg5S8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Qsmwg5S8.csv"
+      }
+    ]
+  }
 }

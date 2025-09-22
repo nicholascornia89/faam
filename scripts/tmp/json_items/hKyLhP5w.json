@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -71,7 +73,8 @@
       {
         "type": "externalid",
         "value": "https://imslp.org/wiki/Madrigals,_Book_4,_SV_75%E2%80%9393_(Monteverdi,_Claudio)",
-        "base_url": "https://imslp.org/wiki/"
+        "base_url": "https://imslp.org/wiki/",
+        "label": "https://imslp.org/wiki/Madrigals,_Book_4,_SV_75%E2%80%9393_(Monteverdi,_Claudio)"
       }
     ],
     "date": [
@@ -83,69 +86,83 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "eviEKifd"
+        "value": "eviEKifd",
+        "label": "dynamic"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "LiFYdNgN"
+        "value": "LiFYdNgN",
+        "label": "comparative study"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       },
       {
         "type": "item",
-        "value": "WtvibJFF"
+        "value": "WtvibJFF",
+        "label": "accent"
       },
       {
         "type": "item",
-        "value": "UDva945b"
+        "value": "UDva945b",
+        "label": "crescendo"
       },
       {
         "type": "item",
-        "value": "e9t5BdLA"
+        "value": "e9t5BdLA",
+        "label": "decrescendo"
       },
       {
         "type": "item",
-        "value": "F9XSfSvU"
+        "value": "F9XSfSvU",
+        "label": "Musica ficta"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "2FQ4SCuS"
+        "value": "2FQ4SCuS",
+        "label": "polyphony"
       },
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "n8dr8Tqi"
+        "value": "n8dr8Tqi",
+        "label": "madrigal"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "5yLc7bQJ"
+        "value": "5yLc7bQJ",
+        "label": "choir"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "C7KyN6cJ"
+        "value": "C7KyN6cJ",
+        "label": "Q3413638"
       }
     ],
     "agent": [
@@ -156,7 +173,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -168,7 +186,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Claudio Monteverdi"
       },
       {
         "type": "statement",
@@ -177,19 +196,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "3Lm9HPFF"
+            "value": "3Lm9HPFF",
+            "label": "Q49295398"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1927"
           }
-        ]
+        ],
+        "label": "Universal Music Publishing Group"
       },
       {
         "type": "statement",
@@ -198,7 +220,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -210,27 +233,32 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Gian Francesco Malipiero"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       },
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "3Lm9HPFF"
+        "value": "3Lm9HPFF",
+        "label": "Q49295398"
       }
     ]
   },
@@ -247,6 +275,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/KCA-030902628988/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hKyLhP5w.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hKyLhP5w.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hKyLhP5w.csv"
       }
     ]
   }

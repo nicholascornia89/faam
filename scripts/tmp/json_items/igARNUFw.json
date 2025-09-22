@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q210962",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "André Grétry"
       }
     ]
   },
@@ -190,13 +191,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Rt5f4SFZ",
+        "type": "item",
+        "label": "LUCILE /komische opera in één bedrijf op tekst van Marmontel OEuvre IIe/Lucile/Comedie en un acte/Et en Vers/Dédiée/A son Excellence, Monseigneur,/ / / / /Par/Andre Gretry/ / /5 janv. 1769/Gravée par Dézauche/ /A Paris/ OP 4° 7071",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000347228.gif"
+        }
+      },
+      {
+        "id": "MzenbCZB",
+        "type": "item",
+        "label": "Exercises for the Voice. Consisting of Various Solfeggi, Collected from Manuscripts of the Late Veneziano Rauzzini, to which Are Added Specimens of Several Favorite Modern Songs",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284a.gif"
+        }
+      },
+      {
+        "id": "h2aQvRWc",
+        "type": "item",
+        "label": "Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-18839.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "André_Ernest_Modeste_Grétry_(cropped).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "igARNUFw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "igARNUFw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "igARNUFw.csv"
       }
     ]
   }

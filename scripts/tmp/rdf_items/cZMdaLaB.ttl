@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cZMdaLaB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:FhoqCrfh,
+        faamentity:HXG9NWiG,
+        faamentity:J6ERsasy,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:HXG9NWiG ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:65rhe5Po,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:HkAYDsB2,
+        faamentity:QhRQ5LW9 ;
+    schema1:hasPart faamentity:ixNgtbqv ;
+    schema1:identifier "15992680"^^xsd:string,
+        "KCG-000331903"^^xsd:string,
+        "cZMdaLaB"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331903"^^schema1:url ;
+    skos:prefLabel "CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano"^^xsd:string ;
+    wd:P217 "II6033"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"cZMdaLaB-55a0e76a-6418-4ca8-8b27-b1ae36bd17c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"cZMdaLaB-a2e9eed8-86c9-4fc1-ab6a-e420c67d9ab0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"cZMdaLaB-c93e8b80-f7e6-45bc-a72a-5fe5796e12d2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:HkAYDsB2 a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+

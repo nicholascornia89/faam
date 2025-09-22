@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fKg3bdjD a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Bologna, Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q131262>,
+        "15991066"^^xsd:string,
+        "fKg3bdjD"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv,
+        faamentity:RZra3Qhj ;
+    skos:altLabel "Bologna University"^^xsd:string,
+        "Bologne University"^^xsd:string,
+        "UNIBO"^^xsd:string,
+        "Universita di Bologna"^^xsd:string,
+        "University of Bologna"^^xsd:string,
+        "Università di Bologna"^^xsd:string,
+        "unibo.it"^^xsd:string ;
+    skos:prefLabel "University of Bologna"^^xsd:string .
+

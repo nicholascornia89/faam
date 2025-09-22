@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3kUPUbFX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1783-05-14"^^xsd:string ;
+    schema1:birthPlace faamentity:d2NPELEj ;
+    schema1:deathDate "1868-10-31"^^xsd:string ;
+    schema1:deathPlace faamentity:a4MQJeZH ;
+    schema1:description "French musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6120326>,
+        "15995908"^^xsd:string,
+        "3kUPUbFX"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Jacques Jules Bouffil"^^xsd:string,
+        "Jacques-Jules Bouffil"^^xsd:string ;
+    skos:prefLabel "Jacques-Jules Bouffil"^^xsd:string ;
+    wd:P1303 faamentity:4AUBYBXJ ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:5198302 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:ZihDUuGM ;
+    wd:P839 <https://imslp.org/wiki/Category:Bouffil,_Jacques_Jules> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:jERehTvk .
+

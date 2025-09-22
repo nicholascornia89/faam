@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HfEfTyx9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:hn6sVeFM ;
+    schema1:birthDate "1876-11-21"^^xsd:string ;
+    schema1:birthPlace faamentity:LD8HW7Tp ;
+    schema1:deathDate "1967-06-19"^^xsd:string ;
+    schema1:deathPlace faamentity:LbQkoCtF ;
+    schema1:description "Austrian musician (1876–1967)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q87447>,
+        "0"^^xsd:string,
+        "HfEfTyx9"^^xsd:string ;
+    schema1:nationality faamentity:kyFWDzyM ;
+    skos:prefLabel "Adolf Rebner"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:305306917 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:4RGMUZvJ,
+        faamentity:GsxuDHT7 ;
+    schema:hasOccupation faamentity:ZX7Jzf9y,
+        faamentity:irSPevuD .
+

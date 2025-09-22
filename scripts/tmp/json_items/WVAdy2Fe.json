@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1198887",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "music director"
       }
     ],
     "aliases": [
@@ -75,6 +76,121 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "MmdKB67A",
+        "type": "item",
+        "label": "André Messager",
+        "description": "French opera composer and conductor (1853–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "André_Messager.jpg"
+        }
+      },
+      {
+        "id": "em4acBAZ",
+        "type": "item",
+        "label": "Georges Marty",
+        "description": "French composer and conductor (1860–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georges_Marty.jpg"
+        }
+      },
+      {
+        "id": "gkg3RLK6",
+        "type": "item",
+        "label": "Gabriel Pierné",
+        "description": "French composer, conductor, and organist (1863–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Constant_Gabriel_Pierné.jpg"
+        }
+      },
+      {
+        "id": "49XCs8aJ",
+        "type": "item",
+        "label": "Gaspare Spontini",
+        "description": "Italian composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Aubry-Lecomte_-_Spontini_(cropped).jpg"
+        }
+      },
+      {
+        "id": "Key74Nv2",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      },
+      {
+        "id": "5ymmKpXF",
+        "type": "item",
+        "label": "Giacomo Meyerbeer",
+        "description": "German-French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Meyerbeer_d'après_P._Petit_b_1865.jpg"
+        }
+      },
+      {
+        "id": "AZWmWZa6",
+        "type": "item",
+        "label": "Francesco Gasparini",
+        "description": "Italian composer and teacher (1668-1727)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Gasparini_(by_Pier_Leone_Ghezzi)_Rom,_Bibl_Vat_-_Codici_Ottoboniani_latini_3113,_fol8.jpg"
+        }
+      },
+      {
+        "id": "GTpQEbzC",
+        "type": "item",
+        "label": "Alexandre Luigini",
+        "description": "French composer (1850–1906)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigini,_Alexandre,_Nadar,_Gallica.jpg"
+        }
+      },
+      {
+        "id": "6DhoVYwZ",
+        "type": "item",
+        "label": "Otto Nicolai",
+        "description": "(1810-1849) composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Otto_Nicolai.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "WVAdy2Fe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "WVAdy2Fe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "WVAdy2Fe.csv"
+      }
+    ]
+  }
 }

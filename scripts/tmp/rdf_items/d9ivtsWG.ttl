@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:d9ivtsWG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1544-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:ChZmd2Mq ;
+    schema1:deathDate "1607-03-11"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q706287>,
+        "15996246"^^xsd:string,
+        "d9ivtsWG"^^xsd:string ;
+    skos:altLabel "Giovanni Maria Nanino"^^xsd:string ;
+    skos:prefLabel "Giovanni Maria Nanino"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:19945945 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:Ddx923Ut,
+        faamentity:SEPoLobZ ;
+    wd:P839 <https://imslp.org/wiki/Category:Nanino,_Giovanni_Maria> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:fkNftdFp .
+

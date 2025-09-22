@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q119767161",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sint-Jozefsinstituut Torhout"
       }
     ]
   },
@@ -56,6 +57,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "P4xPTchF",
+        "type": "item",
+        "label": "Adolf Duclos",
+        "description": "Belgian writer, historian, archaeologist and inspector (1841-1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Duclos001.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AtSr3v9v.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AtSr3v9v.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AtSr3v9v.csv"
+      }
+    ]
+  }
 }

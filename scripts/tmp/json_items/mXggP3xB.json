@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q95634",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Johann Georg Wunderlich"
       }
     ]
   },
@@ -163,13 +164,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mg4nbSvj",
+        "type": "item",
+        "label": "Benoît Tranquille Berbiguier",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_of_Benoit_Tranquille_Berbiguier,_composer_(1782-1835)_-_Archivio_Storico_Ricordi_ICON010658.jpg"
+        }
+      },
+      {
+        "id": "NCUrhkez",
+        "type": "item",
+        "label": "Jean-Louis Tulou",
+        "description": "French composer, flute teacher, player and instrument maker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Louis_Tulou.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mXggP3xB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mXggP3xB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mXggP3xB.csv"
       }
     ]
   }

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gtWSsepA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1816-06-13"^^xsd:string ;
+    schema1:birthPlace faamentity:bsTArmEN ;
+    schema1:deathDate "1876-09-26"^^xsd:string ;
+    schema1:deathPlace faamentity:bsTArmEN ;
+    schema1:description "English musicologist, composer, organist and book collector (1816–1876)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2565796>,
+        "15996155"^^xsd:string,
+        "gtWSsepA"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV ;
+    skos:altLabel "Edward F. Rimbault"^^xsd:string,
+        "Edward Francis Rimbault"^^xsd:string,
+        "Edward Rimbault"^^xsd:string ;
+    skos:prefLabel "Edward Francis Rimbault"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:62616276 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30028779> ;
+    wd:P839 <https://imslp.org/wiki/Category:Rimbault,_Edward_Francis> ;
+    schema:hasOccupation faamentity:C4Jco2kp,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:YYyZX3aY .
+

@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Lnsb6ZLw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:DqMNcjpW,
+        faamentity:NsEoE4RP,
+        faamentity:QrCdWQDu,
+        faamentity:WT9AcUBt ;
+    faamprop:handwritten_annotation faamentity:Rg6UtZ34 ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:Hrif6Qxb,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:NCUrhkez,
+        faamentity:SU2CV5XY ;
+    schema1:hasPart faamentity:TMdHggRf ;
+    schema1:identifier "15992735"^^xsd:string,
+        "KCG-000370141"^^xsd:string,
+        "Lnsb6ZLw"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000370141"^^schema1:url ;
+    skos:prefLabel "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"Lnsb6ZLw-2cae2c7f-0f6e-4f28-8b0a-bf1489ee8591"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Lnsb6ZLw-43cbfd14-a24c-47d0-9b75-f9d5e7404546"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"Lnsb6ZLw-58d2471a-7389-4461-a618-473de55b3356"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:NCUrhkez a rdf:object .
+
+faamentity:SU2CV5XY a rdf:object .
+

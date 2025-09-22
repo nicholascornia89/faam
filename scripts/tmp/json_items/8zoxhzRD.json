@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q345331",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Łańcut"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "766810"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "JRTTuQvY",
+        "label": "Poland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QyZk6uZM",
+        "type": "item",
+        "label": "Theodor Leschetizky",
+        "description": "Polish composer and pianist (1830–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Schmutzer-Lescheticky.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8zoxhzRD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8zoxhzRD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8zoxhzRD.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1296",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ghent"
       }
     ],
     "aliases": [
@@ -62,8 +63,158 @@
         "base_url": "https://www.geonames.org/",
         "label": "2797657"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CbtAbQDg",
+        "type": "item",
+        "label": "Florian Heyerick",
+        "description": "Belgian conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Florian_Heyerick.jpg"
+        }
+      },
+      {
+        "id": "3B7D94aX",
+        "type": "item",
+        "label": "Martin-Joseph Mengal",
+        "description": "Belgian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martin-Joseph_Mengal.jpg"
+        }
+      },
+      {
+        "id": "Vw92TmZN",
+        "type": "item",
+        "label": "Henry-George d'Hoedt",
+        "description": "Belgian conductor (1885-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "nAUNhSHd",
+        "type": "item",
+        "label": "Hendrik Waelput",
+        "description": "Belgian composer (1845–1885)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FdXHYGQD",
+        "type": "item",
+        "label": "Charles-Louis-Joseph Hanssens",
+        "description": "Belgian conductor and composer (1777-1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Hanssens_(1777—1852)_portrait.jpg"
+        }
+      },
+      {
+        "id": "bXLsUvpZ",
+        "type": "item",
+        "label": "Victor Guillaume Antoine Hanssens",
+        "description": "Belgian poet and translator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "W75KiRxY",
+        "type": "item",
+        "label": "Joseph Ghys",
+        "description": "Belgian violinist (1801–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Ghys_1834.jpg"
+        }
+      },
+      {
+        "id": "A3ZNZh4C",
+        "type": "item",
+        "label": "Karel Miry",
+        "description": "Belgian composer (1823-1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg"
+        }
+      },
+      {
+        "id": "3B7D94aX",
+        "type": "item",
+        "label": "Martin-Joseph Mengal",
+        "description": "Belgian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martin-Joseph_Mengal.jpg"
+        }
+      },
+      {
+        "id": "j6cn59iE",
+        "type": "item",
+        "label": "Lambrecht Lambrechts",
+        "description": "Flemish writer and poet (1865-1932)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lambrecht_Lambrechts_gedenkplaat_Kunstlaan_51_Gent.png"
+        }
+      },
+      {
+        "id": "A3ZNZh4C",
+        "type": "item",
+        "label": "Karel Miry",
+        "description": "Belgian composer (1823-1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gustave_Vanaise_-_Portrait_of_the_Composer_Charles_Miry_-_1913-X_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "GWNpR6dv",
+        "type": "item",
+        "label": "Ghent University",
+        "description": "Dutch-speaking university in Belgium"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nPpdkcAP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nPpdkcAP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nPpdkcAP.csv"
+      }
+    ]
+  }
 }

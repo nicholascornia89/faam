@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1334624",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oreste Ravanello"
       }
     ]
   },
@@ -170,13 +171,49 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "2uB5KTTd",
+        "type": "item",
+        "label": "Tenebrae factae sunt",
+        "description": ""
+      },
+      {
+        "id": "g5kih9Af",
+        "type": "item",
+        "label": "Ecce quomodo moritur justus",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cUTtYWjy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cUTtYWjy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cUTtYWjy.csv"
       }
     ]
   }

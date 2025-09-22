@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q918273",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jan Václav Voříšek"
       }
     ]
   },
@@ -179,7 +180,20 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QeykFZBR",
+        "type": "item",
+        "label": "Leopold Jansa",
+        "description": "Czech violinist, music educator and composer (1795–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -191,6 +205,27 @@
         "type": "image",
         "value": "Kunike-Worzischek.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GVgQzgaW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GVgQzgaW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GVgQzgaW.csv"
       }
     ]
   }

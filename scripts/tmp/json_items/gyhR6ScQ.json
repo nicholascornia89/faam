@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q313376",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Albert Roussel"
       }
     ]
   },
@@ -185,13 +186,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hCXWqxbw",
+        "type": "item",
+        "label": "Edgard Varèse",
+        "description": "French composer (1883-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Varèse_-_John_French_Sloan.jpg"
+        }
+      },
+      {
+        "id": "35tPGXNK",
+        "type": "item",
+        "label": "Bohuslav Martinů",
+        "description": "Czech composer (1890–1959)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martinu_1945.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Roussel_Albert_1913.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gyhR6ScQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gyhR6ScQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gyhR6ScQ.csv"
       }
     ]
   }

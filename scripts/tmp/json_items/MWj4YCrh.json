@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q4263842",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "literary critic"
       }
     ],
     "aliases": [
@@ -67,6 +68,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ejpyTMJt",
+        "type": "item",
+        "label": "Willibald Alexis",
+        "description": "German historical novelist (1798–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Willibald_Alexis.jpg"
+        }
+      },
+      {
+        "id": "XBjGQVps",
+        "type": "item",
+        "label": "Theodor W. Adorno",
+        "description": "German philosopher, sociologist and theorist (1903–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_W._Adorno.jpg"
+        }
+      },
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      },
+      {
+        "id": "DqjrpnzV",
+        "type": "item",
+        "label": "Charles-Guillaume Étienne",
+        "description": "French dramatist and politician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Désiré_Court_-_Portrait_de_Charles-Guillaume_Étienne_(1778-1845),_auteur_dramatique_et_journaliste_-_P2334_-_Musée_Carnavalet.jpg"
+        }
+      },
+      {
+        "id": "bGn5nVwZ",
+        "type": "item",
+        "label": "Giosuè Carducci",
+        "description": "Italian poet and teacher (1835-1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giosuè_Carducci3_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MWj4YCrh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MWj4YCrh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MWj4YCrh.csv"
+      }
+    ]
+  }
 }

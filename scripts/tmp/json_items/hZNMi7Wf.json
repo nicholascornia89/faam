@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3740837",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fedele Fenaroli"
       }
     ]
   },
@@ -127,13 +128,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Ur67Wrqk",
+        "type": "item",
+        "label": "Michele Carafa",
+        "description": "Italian opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Michele_Carafa_by_Antoine_Maurin.jpg"
+        }
+      },
+      {
+        "id": "SsJ8ibRa",
+        "type": "item",
+        "label": "Vincenzo Lavigna",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ib4pWeEv",
+        "type": "item",
+        "label": "Niccolò Antonio Zingarelli",
+        "description": "Italian composer (1752–1837)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicola_Antonio_Zingarelli.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Fedele_Fenaroli.JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hZNMi7Wf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hZNMi7Wf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hZNMi7Wf.csv"
       }
     ]
   }

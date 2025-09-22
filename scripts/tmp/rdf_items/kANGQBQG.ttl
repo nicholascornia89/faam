@@ -1,0 +1,27 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kANGQBQG a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Sdw2foGQ ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:identifier "16004209"^^xsd:string,
+        "BSB-991131830199707356"^^xsd:string,
+        "kANGQBQG"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11557012"^^schema1:url ;
+    skos:prefLabel "Katechismus des Generalbass-Spiels 〈Harmonie-Übungen am Klavier〉 von Hugo Riemann"^^xsd:string ;
+    wd:P217 "B.Sandb. 611"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5 .
+

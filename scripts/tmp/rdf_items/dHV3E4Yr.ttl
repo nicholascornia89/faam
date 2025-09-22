@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dHV3E4Yr a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy,
+        faamentity:WT9AcUBt,
+        faamentity:YRq3pSH7,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:KvY9ZvU4,
+        faamentity:M6r7boi8,
+        faamentity:M9HRWrxt,
+        faamentity:PvPvtHY2,
+        faamentity:U5dHgcL4,
+        faamentity:Z2VUu6Sy ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NCUrhkez,
+        faamentity:XVpibGGu ;
+    schema1:identifier "15992801"^^xsd:string,
+        "KCG-000331423"^^xsd:string,
+        "dHV3E4Yr"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331423"^^schema1:url ;
+    skos:prefLabel "Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80."^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"dHV3E4Yr-0abfe049-43e1-463d-a986-77c66e65d9fc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"dHV3E4Yr-46f54dc3-3aeb-4bc3-86f4-138e05400177"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:NCUrhkez a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

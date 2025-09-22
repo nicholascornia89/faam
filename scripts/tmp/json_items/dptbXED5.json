@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1061398",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "invention"
       }
     ],
     "aliases": [
@@ -55,6 +56,59 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZjwUa5f2",
+        "type": "item",
+        "label": "Inventionen: Inventios 2 et 3 voix = Inventions in 2 & 3 parts",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901096443.gif"
+        }
+      },
+      {
+        "id": "5Zjxjmnn",
+        "type": "item",
+        "label": "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332135.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ZX6L2VBm",
+        "type": "item",
+        "label": "15 Inventions, BWV 772-786",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dptbXED5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dptbXED5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dptbXED5.csv"
+      }
+    ]
+  }
 }

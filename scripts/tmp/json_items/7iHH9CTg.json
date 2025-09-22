@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q312686",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giacomo Carissimi"
       }
     ]
   },
@@ -169,13 +170,133 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3yteqBzt",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne. [Huitième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la Direction de Mr. Le Prince de la Moskowa",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNE-bdh0000161243.gif"
+        }
+      },
+      {
+        "id": "KcBKWzJg",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne. [Sixième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale, religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la direction de Mr. Le Prince de la Moskowa",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNE-bdh0000161241.gif"
+        }
+      },
+      {
+        "id": "5TSZy8Qa",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne. [onzième volume] [Música notada] :exécutés aux concerts de la Société de Musique vocale religieuse et classique, fondée à Paris en 1843 sous le patronage des Mesdames la Mle. Duchesse d'Albufera ... et sous la direction de M. Le Prince de la Moskova",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNE-bdh0000161254.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "67rTrZtC",
+        "type": "item",
+        "label": "Giovanni Paolo Colonna",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Paolo_Colonna.jpg"
+        }
+      },
+      {
+        "id": "iiRfbXBY",
+        "type": "item",
+        "label": "Giuseppe Corsi",
+        "description": "Italian composer and priest",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "EHu93ZKy",
+        "type": "item",
+        "label": "Alessandro Scarlatti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alessandro_Scarlatti.jpg"
+        }
+      },
+      {
+        "id": "FnYq9xAf",
+        "type": "item",
+        "label": "Antonio Cesti",
+        "description": "Italian composer, singer and organist (1623-1669)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "hrrX6kVj",
+        "type": "item",
+        "label": "Marc'Antonio Sportonio",
+        "description": "Italian baroque musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "dyQHXEjy",
+        "type": "item",
+        "label": "Surgamus, eamus, properemus",
+        "description": ""
+      },
+      {
+        "id": "HgSXEVBQ",
+        "type": "item",
+        "label": "Gaudeamus",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7iHH9CTg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7iHH9CTg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7iHH9CTg.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q604748",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "responsory"
       }
     ],
     "aliases": [
@@ -55,6 +56,173 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "WyypHEyZ",
+        "type": "item",
+        "label": "Acht responsoria van de Getijden ter eere van het Heilig Sacrament. Huit répons de l'office due T.S. Sacrement.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502050.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "a8YmUXtU",
+        "type": "item",
+        "label": "Vinea mea electa, IGP 753",
+        "description": ""
+      },
+      {
+        "id": "UPugSyfF",
+        "type": "item",
+        "label": "O vos omnes, IGP 744",
+        "description": ""
+      },
+      {
+        "id": "Ftr3eHjG",
+        "type": "item",
+        "label": "Ecce quomodo moritur justus, IGP 19",
+        "description": ""
+      },
+      {
+        "id": "PVWKn5oP",
+        "type": "item",
+        "label": "Recessit pastor noster, IGP 746",
+        "description": ""
+      },
+      {
+        "id": "gLZoBn49",
+        "type": "item",
+        "label": "Unus ex discipulis meis",
+        "description": ""
+      },
+      {
+        "id": "dPvi2D9r",
+        "type": "item",
+        "label": "Judas mercator pessimus",
+        "description": ""
+      },
+      {
+        "id": "fA68kqn7",
+        "type": "item",
+        "label": "Amicus meus osculi me",
+        "description": ""
+      },
+      {
+        "id": "5fo4BXXW",
+        "type": "item",
+        "label": "Aestimatus sum cum descendentibus in lacum",
+        "description": ""
+      },
+      {
+        "id": "SoNHnXck",
+        "type": "item",
+        "label": "Astiterunt reges terrae",
+        "description": ""
+      },
+      {
+        "id": "g5kih9Af",
+        "type": "item",
+        "label": "Ecce quomodo moritur justus",
+        "description": ""
+      },
+      {
+        "id": "nNFpT4nV",
+        "type": "item",
+        "label": "Recessit pastor noster",
+        "description": ""
+      },
+      {
+        "id": "9pnNaUJi",
+        "type": "item",
+        "label": "Caligaverunt oculi mei",
+        "description": ""
+      },
+      {
+        "id": "hwD7ieqn",
+        "type": "item",
+        "label": "Jesum tradidit impius",
+        "description": ""
+      },
+      {
+        "id": "7bToLxUo",
+        "type": "item",
+        "label": "Tradiderunt me in manus impiorum",
+        "description": ""
+      },
+      {
+        "id": "ffWn54FT",
+        "type": "item",
+        "label": "Velum templi scissum est, IGP 752",
+        "description": ""
+      },
+      {
+        "id": "izrWUD6G",
+        "type": "item",
+        "label": "Omnes amici mei, IGP 70",
+        "description": ""
+      },
+      {
+        "id": "KESJ3jm2",
+        "type": "item",
+        "label": "Seniores populi consilium fecerunt",
+        "description": ""
+      },
+      {
+        "id": "eNdv5GiY",
+        "type": "item",
+        "label": "Una hora non potuistis vigilare",
+        "description": ""
+      },
+      {
+        "id": "eyTrXmdE",
+        "type": "item",
+        "label": "Eram quasi agnus innocens",
+        "description": ""
+      },
+      {
+        "id": "TfBF8qj7",
+        "type": "item",
+        "label": "Jerusalem surge",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nzEPJYVN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nzEPJYVN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nzEPJYVN.csv"
+      }
+    ]
+  }
 }

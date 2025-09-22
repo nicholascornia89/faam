@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q212238",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "civil servant"
       }
     ],
     "aliases": [
@@ -55,6 +56,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YojCFfbu",
+        "type": "item",
+        "label": "Nikolai Zverev",
+        "description": "Russian classical pianist (1833–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai-Zverev.jpg"
+        }
+      },
+      {
+        "id": "nShUtVSk",
+        "type": "item",
+        "label": "Wilhelm Mayer",
+        "description": "Austrian composer and music teacher (1831-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3NosGZgw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3NosGZgw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3NosGZgw.csv"
+      }
+    ]
+  }
 }

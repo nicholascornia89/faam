@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hDU4mEPG a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Jhb5rrXW ;
+    schema1:description "comedy in 3 acts composed by François-Auguste Gevaert. First representation in 1858 at Opéra-Comique, Salle Favart, Paris"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q109242022>,
+        "16002343"^^xsd:string,
+        "hDU4mEPG"^^xsd:string ;
+    skos:altLabel "Quentin Durward"^^xsd:string ;
+    skos:prefLabel "Quentin Durward"^^xsd:string ;
+    wd:P7937 faamentity:3EF6PZWF ;
+    wd:P839 <https://imslp.org/wiki/Quentin_Durward_(Gevaert,_François-Auguste)> .
+

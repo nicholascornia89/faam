@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q130535273",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Chabal"
       }
     ]
   },
@@ -105,13 +106,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "J7HAnPGv",
+        "type": "item",
+        "label": "2me. Quintette ou Sextuor : pour deux Violons, deux Altos, Violoncelle et Contrebasse (ad libitum) : Op. 51",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356465.gif"
+        }
+      },
+      {
+        "id": "fWqSKoW4",
+        "type": "item",
+        "label": "5 Concertos : pour Le Piano. avec Acct. d'Orchestre ad libitum : N° 3 : Piano seul",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000359470.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "G354MBUZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "G354MBUZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "G354MBUZ.csv"
       }
     ]
   }

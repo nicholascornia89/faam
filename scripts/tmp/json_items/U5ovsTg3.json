@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q8178443",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "librettist"
       }
     ],
     "aliases": [
@@ -55,6 +56,171 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SkFaaC3R",
+        "type": "item",
+        "label": "Edouard Bélanger",
+        "description": "French librettist (1804-1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "55ZS5oG8",
+        "type": "item",
+        "label": "Sophie Gay",
+        "description": "French writer (1776–1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marie_Françoise_Sophie_Nichault_de_la_Valette-02.jpg"
+        }
+      },
+      {
+        "id": "6NihvnWd",
+        "type": "item",
+        "label": "Ruggero Leoncavallo",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Zonder_titel_PK-F-MM.5862_-_recto.tiff"
+        }
+      },
+      {
+        "id": "CTPKvYNp",
+        "type": "item",
+        "label": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist (1906-1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+        }
+      },
+      {
+        "id": "DMoXvBup",
+        "type": "item",
+        "label": "Paul Hindemith",
+        "description": "German composer (1895–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Hindemith_1923.jpg"
+        }
+      },
+      {
+        "id": "35tPGXNK",
+        "type": "item",
+        "label": "Bohuslav Martinů",
+        "description": "Czech composer (1890–1959)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martinu_1945.jpg"
+        }
+      },
+      {
+        "id": "3ZGzegqc",
+        "type": "item",
+        "label": "Hector Berlioz",
+        "description": "French composer and conductor (1803–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Berlioz_Petit_BNF_Gallica-crop.jpg"
+        }
+      },
+      {
+        "id": "G3ncrNcs",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "GksaRBE5",
+        "type": "item",
+        "label": "Jean-Benjamin de La Borde",
+        "description": "French composer, patron, writer and fermier général",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Benjamin_de_La_Borde.png"
+        }
+      },
+      {
+        "id": "nKP9cAbn",
+        "type": "item",
+        "label": "Igor Stravinsky",
+        "description": "Russian composer (1882–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Igor_Stravinsky_LOC_32392u.jpg"
+        }
+      },
+      {
+        "id": "ZxUQF6gL",
+        "type": "item",
+        "label": "William Barclay Squire",
+        "description": "British musicologist, librarian and librettist (1855-1927)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg"
+        }
+      },
+      {
+        "id": "BHdrDxTi",
+        "type": "item",
+        "label": "Antonio Denzio",
+        "description": "Italian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AFTScBt9",
+        "type": "item",
+        "label": "Nicola Francesco Haym",
+        "description": "Italian composer and musician (1678-1729)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Prova_di_un'opera.jpg"
+        }
+      },
+      {
+        "id": "jKz2WhMj",
+        "type": "item",
+        "label": "Francesco Antonio Pistocchi",
+        "description": "Italian singer and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pistocchi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "U5ovsTg3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "U5ovsTg3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "U5ovsTg3.csv"
+      }
+    ]
+  }
 }

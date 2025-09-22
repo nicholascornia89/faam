@@ -1,0 +1,70 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VvR8cfyB a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:UDva945b,
+        faamentity:e9t5BdLA ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:Gz3LUkC5,
+        faamentity:M9HRWrxt,
+        faamentity:hVVnQwSn ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4p5WarCT,
+        faamentity:D3Vekn6E,
+        faamentity:QhRQ5LW9 ;
+    schema1:hasPart faamentity:VepZhwVb ;
+    schema1:identifier "16004331"^^xsd:string,
+        "BSB-991106268029707356"^^xsd:string,
+        "VvR8cfyB"^^xsd:string ;
+    schema1:location faamentity:cwxDpYRt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11154026"^^schema1:url ;
+    skos:prefLabel "Ach wie flüchtig, ach wie nichtig"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 65049"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:8WpBEr8m,
+        faamentity:ABS5BA5Q,
+        faamentity:GoXpNrsh,
+        faamentity:KJkThvsq,
+        faamentity:LfjWYP98,
+        faamentity:gXG8bjH5 .
+
+schema1:contributor a rdf:predicate .
+
+"VvR8cfyB-0de1ac73-bab9-4567-8788-6a3928eef1d2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"VvR8cfyB-88460a0a-6175-412b-a24f-7c74531f5b37"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"VvR8cfyB-f9d3f22c-c5d9-48e6-8aa3-f8486bc9d601"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:cwxDpYRt .
+
+faamentity:4p5WarCT a rdf:object .
+
+faamentity:D3Vekn6E a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+

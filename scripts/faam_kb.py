@@ -256,7 +256,7 @@ def add_label_to_statement(faam_kb):
 	for item in faam_kb["items"]:
 		#print(f"Current item: {item["id"]}")
 		current_time = time.time()
-		if current_time - starting_time > 5:
+		if current_time - starting_time > 10:
 			print("Backing up new data until now...")
 			faam_kb_filename = os.path.join(
 				"tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
@@ -264,102 +264,106 @@ def add_label_to_statement(faam_kb):
 
 			dict2json(faam_kb, faam_kb_filename)
 			starting_time = time.time()
-		for key in item["statements"]:
-
-				for statement in item["statements"][key]:
-					if statement["value"] != "":
-						if statement["type"] == "item":
-							try:
-								#convert uuid to integer
-								uuid_int = shortuuid.decode(statement["value"]).int
-								# perform bisect_left search
-								index = bisect_left(uuid_list,uuid_int)
-								try:
-									if item_list[index]["id"] == statement["value"]:
-										statement["label"] = item_list[index]["label"]
-									else:
-										print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
-										entity = wb.item.get(statement["value"])
-										statement["label"] = entity.labels.get('en').value
-										statement["type"] = "externalid"
-										statement["base_url"] = "http://www.wikidata.org/entity/"
-										#print(f"New statement: {statement}")
-										#input()
-								except IndexError:
-									print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
-									entity = wb.item.get(statement["value"])
-									statement["label"] = entity.labels.get('en').value
-									statement["type"] = "externalid"
-									statement["base_url"] = "http://www.wikidata.org/entity/"
-									#print(f"New statement: {statement}")
-									#input()
-							except ValueError:
-								print(f"Error for {item["id"]}, statement {statement}. Getting label from Wikidata...")
-								entity = wb.item.get(statement["value"])
-								statement["label"] = entity.labels.get('en').value
-								statement["type"] = "externalid"
-								statement["base_url"] = "http://www.wikidata.org/entity/"
-								#print(f"New statement: {statement}")
-								#input()
-
-						elif statement["type"] == "externalid":
-							if statement["value"] != "":
-								if statement["value"][0] == "Q": # wikidata
-									try:
-										entity = wb.item.get(statement["value"])
-										statement["label"] = entity.labels.get('en').value
-									except ValueError:
-										pass
-								else: # other external id, use value as label
-									statement["label"] = statement["value"]
-
-
-						elif statement["type"] == "statement":
-							# adapt statement
-							if statement["value"] != "":
-								#convert uuid to integer
-								uuid_int = shortuuid.decode(statement["value"]).int
-								# perform bisect_left search
-								index = bisect_left(uuid_list,uuid_int)
-								if item_list[index]["id"] == statement["value"]:
-									statement["label"] = item_list[index]["label"]
-								else:
-									print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
-									entity = wb.item.get(statement["value"])
-									statement["label"] = entity.labels.get('en').value
-									statement["type"] = "externalid"
-									statement["base_url"] = "http://www.wikidata.org/entity/"
-									#print(f"New statement: {statement}")
-									#input()
-									pass
-
-							# adapt qualifiers
-							for qualifier in statement["qualifiers"]:
-								if qualifier["value"] != "":
-									#convert uuid to integer
-									if qualifier["type"] == "item":
+		for category in ["metadata","statements"]:
+			for key in item[category].keys():
+					if len(item[category][key]) > 0:
+						#print(f"Current property: {key} \n statements: {item[category][key]}")
+						for statement in item[category][key]:
+							if "label" not in statement.keys():
+								if statement["value"] != "":
+									if statement["type"] == "item":
 										try:
-											uuid_int = shortuuid.decode(qualifier["value"]).int
+											#convert uuid to integer
+											uuid_int = shortuuid.decode(statement["value"]).int
 											# perform bisect_left search
 											index = bisect_left(uuid_list,uuid_int)
-											if item_list[index]["id"] == qualifier["value"]:
-												qualifier["label"] = item_list[index]["label"]
+											try:
+												if item_list[index]["id"] == statement["value"]:
+													statement["label"] = item_list[index]["label"]
+												else:
+													print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+													entity = wb.item.get(statement["value"])
+													statement["label"] = entity.labels.get('en').value
+													statement["type"] = "externalid"
+													statement["base_url"] = "http://www.wikidata.org/entity/"
+													#print(f"New statement: {statement}")
+													#input()
+											except IndexError:
+												print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+												entity = wb.item.get(statement["value"])
+												statement["label"] = entity.labels.get('en').value
+												statement["type"] = "externalid"
+												statement["base_url"] = "http://www.wikidata.org/entity/"
+												#print(f"New statement: {statement}")
+												#input()
+										except ValueError:
+											print(f"Error for {item["id"]}, statement {statement}. Getting label from Wikidata...")
+											entity = wb.item.get(statement["value"])
+											statement["label"] = entity.labels.get('en').value
+											statement["type"] = "externalid"
+											statement["base_url"] = "http://www.wikidata.org/entity/"
+											#print(f"New statement: {statement}")
+											#input()
+
+									elif statement["type"] == "externalid":
+										if statement["value"] != "":
+											if statement["value"][0] == "Q": # wikidata
+												try:
+													entity = wb.item.get(statement["value"])
+													statement["label"] = entity.labels.get('en').value
+												except Exception:
+													pass
+											else: # other external id, use value as label
+												statement["label"] = statement["value"]
+
+
+									elif statement["type"] == "statement":
+										# adapt statement
+										if statement["value"] != "":
+											#convert uuid to integer
+											uuid_int = shortuuid.decode(statement["value"]).int
+											# perform bisect_left search
+											index = bisect_left(uuid_list,uuid_int)
+											if item_list[index]["id"] == statement["value"]:
+												statement["label"] = item_list[index]["label"]
 											else:
-												print(f"UUID not found for {item["id"]}, statement {statement} ")
-												entity = wb.item.get(qualifier["value"])
-												qualifier["label"] = entity.labels.get('en').value
-												qualifier["type"] = "externalid"
-												qualifier["base_url"] = "http://www.wikidata.org/entity/"
+												print(f"UUID not found for {item["id"]}, statement {statement}. Getting label from Wikidata... ")
+												entity = wb.item.get(statement["value"])
+												statement["label"] = entity.labels.get('en').value
+												statement["type"] = "externalid"
+												statement["base_url"] = "http://www.wikidata.org/entity/"
+												#print(f"New statement: {statement}")
 												#input()
 												pass
-										except ValueError: # QID case
-											print(f"UUID not found for {item["id"]}, qualifier {qualifier}. Getting label from Wikidata... ")
-											entity = wb.item.get(qualifier["value"])
-											qualifier["label"] = entity.labels.get('en').value
-											qualifier["type"] = "externalid"
-											qualifier["base_url"] = "http://www.wikidata.org/entity/"
-											#print(f"New qualifier: {qualifier}")
-											#input()
+
+											# adapt qualifiers
+											for qualifier in statement["qualifiers"]:
+												if qualifier["value"] != "":
+													#convert uuid to integer
+													if qualifier["type"] == "item":
+														try:
+															uuid_int = shortuuid.decode(qualifier["value"]).int
+															# perform bisect_left search
+															index = bisect_left(uuid_list,uuid_int)
+															if item_list[index]["id"] == qualifier["value"]:
+																qualifier["label"] = item_list[index]["label"]
+															else:
+																print(f"UUID not found for {item["id"]}, statement {statement} ")
+																entity = wb.item.get(qualifier["value"])
+																qualifier["label"] = entity.labels.get('en').value
+																qualifier["type"] = "externalid"
+																qualifier["base_url"] = "http://www.wikidata.org/entity/"
+																#input()
+																pass
+														except ValueError: # QID case
+															print(f"UUID not found for {item["id"]}, qualifier {qualifier}. Getting label from Wikidata... ")
+															entity = wb.item.get(qualifier["value"])
+															qualifier["label"] = entity.labels.get('en').value
+															qualifier["type"] = "externalid"
+															qualifier["base_url"] = "http://www.wikidata.org/entity/"
+															#print(f"New qualifier: {qualifier}")
+															#input()
+
 
 		for key in ["label","description","aliases"]: #retrieve Descriptions, Labels and Aliases if not present
 			try:
@@ -503,9 +507,27 @@ def qids2faamuudis(faam_kb):
 
 	return faam_kb
 
+def import_qids_from_openrefinecsv(faam_kb): # TO BE CONTINUED
+	pass
+
+def export_category_with_missing_qid_to_csv(faam_kb,category,out_dir):
+	# filter according to category
+	items = list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == category, faam_kb["items"]))
+	# export list of items with missing QID
+	items_csv = []
+	for item in items:
+		if len(item["metadata"]["qid"]) == 0:
+			items_csv.append({
+				"id": item["id"],
+				"label": item["metadata"]["label"][0]["value"]
+				})
+	dict2csv(items_csv,os.path.join(out_dir,f"{category}_missing_qid.csv"))
+
+
 def add_country_to_cities(faam_kb,pid="P17"):
 	# filter cities
 	cities = list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == "city", faam_kb["items"]))
+
 	# generate QID list for fast retrieval
 	qid_list,item_list = generate_qid_list(faam_kb)
 
@@ -513,37 +535,60 @@ def add_country_to_cities(faam_kb,pid="P17"):
 	progress = 0
 	number_of_countries = len(list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == "country", faam_kb["items"])))
 	number_of_cities = len(cities)
+	print(f"Total number of cities: {number_of_cities} \n Totale number of countries: {number_of_countries}")
+
+	starting_time = time.time()
+
 	for city in cities:
+		#print(f'Current city: {city["metadata"]["label"][0]["value"]} ')
+		current_time = time.time()
+		if current_time - starting_time > 10:
+			print("Backing up new data until now...")
+			faam_kb_filename = os.path.join(
+				"tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+			)
+
+			dict2json(faam_kb, faam_kb_filename)
+			starting_time = time.time()
 		progress +=1
 		# get qid
 		country = {"type": "item", "value": ""}
-		qid = city["metadata"]["qid"][0]["value"]
+		try:
+			qid = city["metadata"]["qid"][0]["value"]
+		except IndexError:
+			print(f"Missing qid property for {city["id"]}")
 		if qid != "":
 			if "country" in city["statements"].keys():
 				pass # skip
 			else:
 				# retrieve QID and add country
-				country_qid = wb_get_property_data(qid,pid)[0]
-				if country_qid != "":
-					# retrive country FAAM UUID, if not found keep Wikidata
-					try:
-						index = bisect_left(qid_list,int(country_qid[1:]))
-						if item_list[index]["qid"] == country_qid:
-							country["value"] = item_list[index]["id"]
-							country["label"] = faam_kb["items"][index]["metadata"]["label"][0]["value"]
-							# add country statement
-							city["statements"]["country"] = [country]
-							print(f"Added country {country} to city {city["metadata"]["label"][0]["value"]}")
-						else:
+				try:
+					country_qid = wb_get_property_data(qid,pid)[0]
+					#print(f'Retrieved country: {country_qid}')
+					if country_qid != "":
+						# retrive country FAAM UUID, if not found keep Wikidata
+						try:
+							index = bisect_left(qid_list,int(country_qid[1:]))
+							if item_list[index]["qid"] == country_qid:
+								country["value"] = item_list[index]["id"]
+								country["label"] = list(filter(lambda x: x["id"] == country["value"], faam_kb["items"]))[0]["metadata"]["label"][0]["value"]
+								# add country statement
+								city["statements"]["country"] = [country]
+								print(f"Added country {country} to city {city["metadata"]["label"][0]["value"]}")
+							else:
+								countries_not_in_faam +=1
+								entity = wb.item.get(country_qid)
+								label = entity.labels.get("en").value
+								city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }]
+						except IndexError:
 							countries_not_in_faam +=1
 							entity = wb.item.get(country_qid)
 							label = entity.labels.get("en").value
-							city["statements"]["country"] = {"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }
-					except IndexError:
-						countries_not_in_faam +=1
-						entity = wb.item.get(country_qid)
-						label = entity.labels.get("en").value
-						city["statements"]["country"] = {"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }
+							city["statements"]["country"] = [{"type": "externalid", "value": country_qid, "base_url": "http://wwww.wikidata.org/entity/", "label": label }]
+		
+				except IndexError:
+					print(f"No country for {qid}")
+								
 		print(f"Progress: {100*float(progress)/number_of_cities}%")
 
 	print(f"Countries not in FAAM kb ratio: {100*float(countries_not_in_faam)/number_of_countries}%")
@@ -551,26 +596,25 @@ def add_country_to_cities(faam_kb,pid="P17"):
 	return faam_kb
 
 
-				
-
 def cross_references(faam_kb,cross_reference_mapping): # adding cross-references according to object_type
-
-
-	# TO BE TESTED
 
 	# filter faam kb according to category to ease search
 	faam_categories = {}
 	for category in cross_reference_mapping.keys():
 		faam_categories[category] = list(filter(lambda x: x["metadata"]["object_type"][0]["value"] == category, faam_kb["items"]))
 	number_of_items = len(faam_kb["items"])
+	print(f"FAAM categories: {faam_categories.keys()} \n Number of items in each category: {[len(faam_categories[cat]) for cat in faam_categories.keys()]}")
 	progress = 0
 	for item in faam_kb["items"]:
+		#print(f"Current item: {item["id"]}")
 		progress +=1
 		cross_reference_types = cross_reference_mapping[item["metadata"]["object_type"][0]["value"]]
 		cross_reference = {}
 		for cross_ref in cross_reference_types:
 			# retrieve items that have the current item as reference in a statement or metadata
+			#print(f"Current cross-reference {cross_ref}")
 			for prop in cross_ref["property"]:
+				#print(f"Current property: {prop}")
 				if "qualifier" in cross_ref.keys(): # qualifiers version
 					# search match through filtered faam kb
 					for cat_item in faam_categories[cross_ref["object_type"]]:
@@ -581,6 +625,7 @@ def cross_references(faam_kb,cross_reference_mapping): # adding cross-references
 										try:
 											cross_reference[cross_ref["object_type"]].append({
 												"id": cat_item["id"],
+												"type": "item",
 												"label": cat_item["metadata"]["label"][0]["value"],
 												"description": cat_item["metadata"]["description"][0]["value"]
 												})
@@ -589,11 +634,12 @@ def cross_references(faam_kb,cross_reference_mapping): # adding cross-references
 											if cross_ref["object_type"] == "agent":
 												cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
 										except Exception:
-											cross_reference[cross_ref["object_type"]] = {
+											cross_reference[cross_ref["object_type"]] = [{
 												"id": cat_item["id"],
+												"type": "item",
 												"label": cat_item["metadata"]["label"][0]["value"],
 												"description": cat_item["metadata"]["description"][0]["value"]
-												}
+												}]
 											if cross_ref["object_type"] == "manifestation":
 												cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
 											if cross_ref["object_type"] == "agent":
@@ -603,32 +649,39 @@ def cross_references(faam_kb,cross_reference_mapping): # adding cross-references
 				else: # normal item version
 					# search match through filtered faam kb
 					for cat_item in faam_categories[cross_ref["object_type"]]:
-						for statement in cat_item[cross_ref["category"]][prop]:
-							if statement["value"] == item["id"]:
-								try:
-									cross_reference[cross_ref["object_type"]].append({
-										"id": cat_item["id"],
-										"label": cat_item["metadata"]["label"][0]["value"],
-										"description": cat_item["metadata"]["description"][0]["value"]
-										})
-									if cross_ref["object_type"] == "manifestation":
-										cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
-									if cross_ref["object_type"] == "agent":
-										cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
-								except Exception:
-									cross_reference[cross_ref["object_type"]] = {
-										"id": cat_item["id"],
-										"label": cat_item["metadata"]["label"][0]["value"],
-										"description": cat_item["metadata"]["description"][0]["value"]
-										}
-									if cross_ref["object_type"] == "manifestation":
-										cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
-									if cross_ref["object_type"] == "agent":
-										cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+						try:
+							for statement in cat_item[cross_ref["category"]][prop]:
+								if statement["value"] == item["id"]:
+									try:
+										cross_reference[cross_ref["object_type"]].append({
+											"id": cat_item["id"],
+											"type": "item",
+											"label": cat_item["metadata"]["label"][0]["value"],
+											"description": cat_item["metadata"]["description"][0]["value"]
+											})
+										if cross_ref["object_type"] == "manifestation":
+											cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+										if cross_ref["object_type"] == "agent":
+											cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+									except Exception:
+										cross_reference[cross_ref["object_type"]] = [{
+											"id": cat_item["id"],
+											"type": "item",
+											"label": cat_item["metadata"]["label"][0]["value"],
+											"description": cat_item["metadata"]["description"][0]["value"]
+											}]
+										if cross_ref["object_type"] == "manifestation":
+											cross_reference[cross_ref["object_type"]][-1]["thumb"] = {"base_url": cat_item["resources"]["thumb"][0]["base_url"], "value": cat_item["resources"]["thumb"][0]["value"] }
+										if cross_ref["object_type"] == "agent":
+											cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
+						except KeyError:
+							print(f"Key not found for {cat_item["id"]}")
+							input()
+		#print(f"Generated cross-references: {cross_reference}")
+		item["cross-references"] = cross_reference
 
 		print(f"Progress: {100*float(progress)/number_of_items}%")
 	return faam_kb
-
 
 
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export

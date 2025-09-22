@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q713451",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Lachner"
       }
     ]
   },
@@ -168,13 +169,97 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      },
+      {
+        "id": "SMGDzqTW",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902683744.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "4mYssfUB",
+        "type": "item",
+        "label": "Josef Rheinberger",
+        "description": "Liechtensteiner organist and composer (1839-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rheinberger.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "WmwiEbAG",
+        "type": "item",
+        "label": "Mass, Op.92",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Franz_Lachner.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NDwTXxR8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NDwTXxR8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NDwTXxR8.csv"
       }
     ]
   }

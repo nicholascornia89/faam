@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q503246",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Juilliard School"
       }
     ],
     "aliases": [
@@ -78,6 +79,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8rsqcHHY",
+        "type": "item",
+        "label": "Frank Damrosch",
+        "description": "German American conductor and music educator (1859–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "F._Damrosch_LCCN2014715142.jpg"
+        }
+      },
+      {
+        "id": "GxU5SsUX",
+        "type": "item",
+        "label": "Luciano Berio",
+        "description": "Italian composer (1925–2003)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luciano_Berio.jpg"
+        }
+      },
+      {
+        "id": "Xqzdnscu",
+        "type": "item",
+        "label": "Rubin Goldmark",
+        "description": "American composer, pianist and educator (1872-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rubin_Goldmark.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JZ8htJum.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JZ8htJum.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JZ8htJum.csv"
+      }
+    ]
+  }
 }

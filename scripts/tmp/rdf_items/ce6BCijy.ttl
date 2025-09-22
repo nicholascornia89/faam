@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ce6BCijy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:4PAdXGNC,
+        faamentity:AeKhRWCB,
+        faamentity:B7WuhvkL,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:QJ92QxQv,
+        faamentity:ULbwT6u4,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:BZa5CHMu,
+        faamentity:fQLeQtvy,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PEXAkqP3,
+        faamentity:SkFaaC3R ;
+    schema1:hasPart faamentity:7BoEeybg ;
+    schema1:identifier "15992657"^^xsd:string,
+        "KCG-000322330"^^xsd:string,
+        "ce6BCijy"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000322330"^^schema1:url ;
+    skos:prefLabel "Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)"^^xsd:string ;
+    wd:P217 "II 12542"^^xsd:string ;
+    wd:P870 faamentity:AazD6R5i,
+        faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"ce6BCijy-10782db5-ac37-49ff-84bb-099f00f252f8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+"ce6BCijy-e6a860cb-6b0a-47a1-b696-7c575875dba7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:PEXAkqP3 a rdf:object .
+
+faamentity:SkFaaC3R a rdf:object .
+

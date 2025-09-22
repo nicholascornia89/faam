@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q132671",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pau"
       }
     ],
     "aliases": [
@@ -64,8 +65,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2988358"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JvF3PApd",
+        "type": "item",
+        "label": "Loïsa Puget",
+        "description": "French composer (1810–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Loïsa_Puget_by_Marie-Alexandre_Alophe.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oQBKvRxf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oQBKvRxf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oQBKvRxf.csv"
+      }
+    ]
+  }
 }

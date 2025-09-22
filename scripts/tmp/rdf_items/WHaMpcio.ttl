@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WHaMpcio a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1807-03-16"^^xsd:string ;
+    schema1:birthPlace faamentity:GLRvpdZj ;
+    schema1:deathDate "1863-01"^^xsd:string ;
+    schema1:deathPlace faamentity:GLRvpdZj ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q30043652>,
+        "15995985"^^xsd:string,
+        "WHaMpcio"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Jean-Étienne-Guillaume Arnaud"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56877306 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30006789> ;
+    wd:P839 <https://imslp.org/wiki/Category:Arnaud,_Étienne> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

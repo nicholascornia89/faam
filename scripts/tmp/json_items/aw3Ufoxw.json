@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "mrQyCLJX"
+        "value": "mrQyCLJX",
+        "label": "Polyphonic Parts"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -85,61 +87,73 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "MHbLSqqz"
+        "value": "MHbLSqqz",
+        "label": "bookplate"
       },
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "88PwdAPd"
+        "value": "88PwdAPd",
+        "label": "Hamburg State and University Library Carl von Ossietzky"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "NjSVdz7G"
+        "value": "NjSVdz7G",
+        "label": "romance"
       },
       {
         "type": "item",
-        "value": "FSduWvy5"
+        "value": "FSduWvy5",
+        "label": "early music"
       },
       {
         "type": "item",
-        "value": "RHxmTGG2"
+        "value": "RHxmTGG2",
+        "label": "dance music"
       },
       {
         "type": "item",
-        "value": "Cud74GBt"
+        "value": "Cud74GBt",
+        "label": "prelude"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "8REteAN5"
+        "value": "8REteAN5",
+        "label": "keyboard instrument"
       },
       {
         "type": "item",
-        "value": "YmTjo9Ww"
+        "value": "YmTjo9Ww",
+        "label": "harpsichord"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "MYrDfGsq"
+        "value": "MYrDfGsq",
+        "label": "L'art de toucher le clavecin"
       }
     ],
     "agent": [
@@ -150,7 +164,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "45qo3Fj3"
+            "value": "45qo3Fj3",
+            "label": "music editor"
           },
           {
             "type": "item",
@@ -162,7 +177,8 @@
             "property": "date",
             "value": "1871"
           }
-        ]
+        ],
+        "label": "Johannes Brahms"
       },
       {
         "type": "statement",
@@ -171,7 +187,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "NgFpoygv"
+            "value": "NgFpoygv",
+            "label": "scholar"
           },
           {
             "type": "item",
@@ -183,7 +200,8 @@
             "property": "date",
             "value": "1871"
           }
-        ]
+        ],
+        "label": "Friedrich Chrysander"
       },
       {
         "type": "statement",
@@ -192,39 +210,46 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "GDeKaNeC"
+            "value": "GDeKaNeC",
+            "label": "Laboratoire de Chimie des Processus Biologiques"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1713"
           }
-        ]
+        ],
+        "label": "François Couperin"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "45qo3Fj3"
+        "value": "45qo3Fj3",
+        "label": "music editor"
       },
       {
         "type": "item",
-        "value": "NgFpoygv"
+        "value": "NgFpoygv",
+        "label": "scholar"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "GDeKaNeC"
+        "value": "GDeKaNeC",
+        "label": "Laboratoire de Chimie des Processus Biologiques"
       }
     ]
   },
@@ -241,6 +266,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/SUH-819290521/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aw3Ufoxw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aw3Ufoxw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aw3Ufoxw.csv"
       }
     ]
   }

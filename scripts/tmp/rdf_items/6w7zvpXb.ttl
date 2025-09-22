@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6w7zvpXb a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "the first book of the Bible"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q9184>,
+        "0"^^xsd:string,
+        "6w7zvpXb"^^xsd:string ;
+    skos:prefLabel "Book of Genesis"^^xsd:string ;
+    wd:P214 viaf:316388201,
+        viaf:316751363,
+        viaf:8745148523920720970004,
+        viaf:9583155044757872520009 .
+

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b74Qxja3 a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "Public Domain"^^xsd:string ;
+    schema1:description "Web archive of public domain sheet music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1811670>,
+        "15992253"^^xsd:string,
+        "b74Qxja3"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G ;
+    schema1:url "https://www.icking-music-archive.org/index.php"^^schema1:url ;
+    skos:altLabel "Werner Icking Music Archive"^^xsd:string ;
+    skos:prefLabel "Werner Icking Music Archive"^^xsd:string ;
+    wd:P1813 "WIA"^^xsd:string .
+

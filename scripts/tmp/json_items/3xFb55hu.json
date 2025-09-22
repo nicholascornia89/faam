@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,53 +79,63 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "MHbLSqqz"
+        "value": "MHbLSqqz",
+        "label": "bookplate"
       },
       {
         "type": "item",
-        "value": "2Wh3HwBY"
+        "value": "2Wh3HwBY",
+        "label": "figured bass"
       },
       {
         "type": "item",
-        "value": "FhoqCrfh"
+        "value": "FhoqCrfh",
+        "label": "realization of figured bass"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "TrYWxDhL"
+        "value": "TrYWxDhL",
+        "label": "Orpheus Institute"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "Sdw2foGQ"
+        "value": "Sdw2foGQ",
+        "label": "music theory"
       },
       {
         "type": "item",
-        "value": "gQaQXVZY"
+        "value": "gQaQXVZY",
+        "label": "basso continuo"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "8REteAN5"
+        "value": "8REteAN5",
+        "label": "keyboard instrument"
       }
     ],
     "musical work": [
       {
         "type": "item",
-        "value": "DECcUC6d"
+        "value": "DECcUC6d",
+        "label": "Thorough-Bass Made Easy"
       }
     ],
     "agent": [
@@ -134,31 +146,36 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "bsTArmEN"
+            "value": "bsTArmEN",
+            "label": "London"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1765"
           }
-        ]
+        ],
+        "label": "Niccolo Pasquali"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "bsTArmEN"
+        "value": "bsTArmEN",
+        "label": "London"
       }
     ]
   },
@@ -175,6 +192,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-music_treatises/tree/main/raw-images/ORP-20145655/images"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3xFb55hu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3xFb55hu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3xFb55hu.csv"
       }
     ]
   }

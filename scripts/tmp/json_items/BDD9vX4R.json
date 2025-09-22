@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q57226",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Spohr"
       }
     ]
   },
@@ -182,13 +183,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EW8cL64m",
+        "type": "item",
+        "label": "Moritz Hauptmann",
+        "description": "German music theorist, teacher and composer (1792–1868)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Moritz_Hauptmann.jpg"
+        }
+      },
+      {
+        "id": "f9wkc8fx",
+        "type": "item",
+        "label": "Ferdinand David",
+        "description": "German musician (1810-1873)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_david.jpg"
+        }
+      },
+      {
+        "id": "h4k2druu",
+        "type": "item",
+        "label": "Henry Holmes",
+        "description": "English violinist and composer (1839–1905)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henry_and_Alfred_Holmes.jpg"
+        }
+      },
+      {
+        "id": "MYycZXCd",
+        "type": "item",
+        "label": "Bernhard Molique",
+        "description": "German violinist and composer (1802-1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Molique_passport.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ludwig_Spohr_portrait.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BDD9vX4R.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BDD9vX4R.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BDD9vX4R.csv"
       }
     ]
   }

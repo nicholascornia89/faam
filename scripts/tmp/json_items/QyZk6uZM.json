@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q362340",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Theodor Leschetizky"
       }
     ]
   },
@@ -229,13 +230,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gMvpRAo5",
+        "type": "item",
+        "label": "Repertoire, 14 ausgewählte Stücke ... für Pianoforte.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-2379.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "oNqjNRHv",
+        "type": "item",
+        "label": "Vasily Safonov",
+        "description": "Russian pianist, teacher, conductor and composer (1852-1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Василий_Сафронов.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "54z9cVfW",
+        "type": "item",
+        "label": "Sonata K. 113",
+        "description": "sonata by Domenico Scarlatti"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Schmutzer-Lescheticky.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QyZk6uZM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QyZk6uZM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QyZk6uZM.csv"
       }
     ]
   }

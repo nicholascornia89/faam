@@ -11,7 +11,7 @@
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "district of the City of Antwerp, Belgium"
       }
     ],
     "object_type": [
@@ -32,7 +32,14 @@
         "value": "221175"
       }
     ],
-    "qid": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2687417",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wilrijk"
+      }
+    ],
     "aliases": []
   },
   "statements": {
@@ -43,8 +50,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "BE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "T4vPoxnM",
+        "type": "item",
+        "label": "Jules Van Nuffel",
+        "description": "Belgian musicologist, composer, and expert on religious music (1883–1953)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Van_Nuffel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DL5RywT4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DL5RywT4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DL5RywT4.csv"
+      }
+    ]
+  }
 }

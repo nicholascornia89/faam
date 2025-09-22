@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SnJ8hVL7 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "human settlement"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q723363>,
+        "0"^^xsd:string,
+        "SnJ8hVL7"^^xsd:string ;
+    schema1:location faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Ascq"^^xsd:string .
+

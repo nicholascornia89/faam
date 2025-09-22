@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:67rTrZtC a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1637-06-16"^^xsd:string ;
+    schema1:birthPlace faamentity:RZra3Qhj ;
+    schema1:deathDate "1695-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:RZra3Qhj ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q121405>,
+        "16004044"^^xsd:string,
+        "67rTrZtC"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv ;
+    skos:altLabel "Giovanni Paolo Colonna"^^xsd:string ;
+    skos:prefLabel "Giovanni Paolo Colonna"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:19878132 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30000704> ;
+    wd:P737 faamentity:7iHH9CTg,
+        faamentity:iefXByah,
+        faamentity:oEEHimPd ;
+    wd:P839 <https://imslp.org/wiki/Category:Colonna,_Giovanni_Paolo> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

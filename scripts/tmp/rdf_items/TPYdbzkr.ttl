@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TPYdbzkr a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who plays in basketball"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3665646>,
+        "15990936"^^xsd:string,
+        "TPYdbzkr"^^xsd:string ;
+    skos:altLabel "basketball player"^^xsd:string,
+        "basketballer"^^xsd:string,
+        "basketeer"^^xsd:string,
+        "cager"^^xsd:string,
+        "hoopster"^^xsd:string,
+        "professional basketball player"^^xsd:string ;
+    skos:prefLabel "basketball player"^^xsd:string,
+        "singer-songwriter"^^xsd:string .
+

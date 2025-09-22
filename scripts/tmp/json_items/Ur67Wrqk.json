@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q497494",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Michele Carafa"
       }
     ]
   },
@@ -179,13 +180,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Xdjw4aUY",
+        "type": "item",
+        "label": "Eugène Anthiome",
+        "description": "French composer (1836-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Anthiome_1900.jpg"
+        }
+      },
+      {
+        "id": "R7dCbrrH",
+        "type": "item",
+        "label": "Emile Pessard",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Émile_Pessard_by_Nadar.png"
+        }
+      },
+      {
+        "id": "2ZbnijB8",
+        "type": "item",
+        "label": "Gustave Lefèvre",
+        "description": "French composer (1831–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portraitlefevre.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Michele_Carafa_by_Antoine_Maurin.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ur67Wrqk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ur67Wrqk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ur67Wrqk.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q23436",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Edinburgh"
       }
     ],
     "aliases": [
@@ -96,8 +97,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "GB"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "bzV4jrJw",
+        "type": "item",
+        "label": "Alfred Moffat",
+        "description": "Scottish musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "bhh2Rqeu",
+        "type": "item",
+        "label": "Niccolo Pasquali",
+        "description": "Italian music theorist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9fLT3Ekd",
+        "type": "item",
+        "label": "George Buchanan",
+        "description": "Scottish historian and humanist scholar; (1506-1582)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anonymous_-_George_Buchanan_(Seòras_Bochanan),_1506_-_1582._Historian,_poet_and_reformer_-_PG_2678_-_National_Galleries_of_Scotland.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iXuvmnqs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iXuvmnqs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iXuvmnqs.csv"
+      }
+    ]
+  }
 }

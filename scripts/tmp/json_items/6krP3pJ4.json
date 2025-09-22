@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6221",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brescia"
       }
     ],
     "aliases": [
@@ -58,8 +59,90 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542113"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HubBo3eQ",
+        "type": "item",
+        "label": "Giovanni Tebaldini",
+        "description": "Italian composer (1864–1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Tebaldini.jpg"
+        }
+      },
+      {
+        "id": "GKDydEsa",
+        "type": "item",
+        "label": "Biagio Marini",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Q7WGCn5U",
+        "type": "item",
+        "label": "Antonio Bazzini",
+        "description": "Italian violinist, composer and teacher (1818-1897)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Antonio_Bazzini_(before_1897)_-_Archivio_Storico_Ricordi_FOTO000436.jpg"
+        }
+      },
+      {
+        "id": "StUZD3fN",
+        "type": "item",
+        "label": "Giovanni Battista Vivaldi",
+        "description": "Italian violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "DbRGTwme",
+        "type": "item",
+        "label": "Benedetto Marcello",
+        "description": "Italian composer, writer, advocate, magistrate, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Benedetto_Marcello_by_Vincenzo_Roscioni.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6krP3pJ4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6krP3pJ4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6krP3pJ4.csv"
+      }
+    ]
+  }
 }

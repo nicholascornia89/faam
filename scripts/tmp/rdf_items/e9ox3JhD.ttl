@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:e9ox3JhD a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "northern and western part of Austro-Hungary with Dalmatia and Istria (1867–1918)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q533534>,
+        "16004402"^^xsd:string,
+        "e9ox3JhD"^^xsd:string ;
+    skos:altLabel "Austrian Lands"^^xsd:string,
+        "Cisleithania"^^xsd:string,
+        "The Kingdoms and Lands Represented in the Imperial Council"^^xsd:string ;
+    skos:prefLabel "Cisleithania"^^xsd:string .
+

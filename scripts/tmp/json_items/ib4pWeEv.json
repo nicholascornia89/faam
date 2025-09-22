@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q505202",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Niccolò Antonio Zingarelli"
       }
     ]
   },
@@ -164,13 +165,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NpqV6FTZ",
+        "type": "item",
+        "label": "Saverio Mercadante",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg"
+        }
+      },
+      {
+        "id": "JGR5Pepj",
+        "type": "item",
+        "label": "Vincenzo Bellini",
+        "description": "Italian opera composer (1801–1835)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lucchini-Bellini.jpg"
+        }
+      },
+      {
+        "id": "Di5pStD6",
+        "type": "item",
+        "label": "Francesco Morlacchi",
+        "description": "Italian composer (1784-1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_morlacchi.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nicola_Antonio_Zingarelli.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ib4pWeEv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ib4pWeEv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ib4pWeEv.csv"
       }
     ]
   }

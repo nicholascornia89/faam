@@ -70,7 +70,8 @@
       {
         "type": "externalid",
         "value": "Q7311",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giacomo Puccini"
       }
     ]
   },
@@ -213,13 +214,77 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "PNYSwKqm",
+        "type": "item",
+        "label": "La Tosca. Le ciel luisait d'étoiles",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p42.gif"
+        }
+      },
+      {
+        "id": "PNYSwKqm",
+        "type": "item",
+        "label": "La Tosca. Le ciel luisait d'étoiles",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p42.gif"
+        }
+      },
+      {
+        "id": "dnTs4mY7",
+        "type": "item",
+        "label": "Madame Butterfly",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p70.gif"
+        }
+      },
+      {
+        "id": "dnTs4mY7",
+        "type": "item",
+        "label": "Madame Butterfly",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p70.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "GiacomoPuccini.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JdYVjNkJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JdYVjNkJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JdYVjNkJ.csv"
       }
     ]
   }

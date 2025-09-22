@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bSPC7zMk a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Oxfordshire, England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q34217>,
+        "0"^^xsd:string,
+        "bSPC7zMk"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55 ;
+    skos:altLabel "Oxford"^^xsd:string,
+        "Oxford, England"^^xsd:string ;
+    skos:prefLabel "Oxford"^^xsd:string ;
+    wd:P1566 gn:2640729 .
+

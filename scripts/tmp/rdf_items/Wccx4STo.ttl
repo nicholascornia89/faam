@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wccx4STo a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "German string quartet"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q454631>,
+        "15991083"^^xsd:string,
+        "Wccx4STo"^^xsd:string ;
+    skos:altLabel "Amar Quartet"^^xsd:string,
+        "Amar-Hindemith Quartet"^^xsd:string ;
+    skos:prefLabel "Amar Quartet"^^xsd:string .
+

@@ -1,0 +1,106 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DdLJo96s a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3WB3MVBB,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:McMWybdZ,
+        faamentity:NFazQXR2,
+        faamentity:QrCdWQDu,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:YCgBhPNn,
+        faamentity:c5cZmF37,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hSMEwz3v,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2Pacaucy,
+        faamentity:3NyookEG,
+        faamentity:4bKCnwtk,
+        faamentity:8gZHuqVq,
+        faamentity:8xAK9aa6,
+        faamentity:MbXCYU7Y,
+        faamentity:PbjNapre,
+        faamentity:TYtCu3ys,
+        faamentity:c87GwMiD ;
+    schema1:hasPart faamentity:QVbLYHws ;
+    schema1:identifier "15992753"^^xsd:string,
+        "DdLJo96s"^^xsd:string,
+        "KCG-000334547"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334547"^^schema1:url ;
+    skos:prefLabel "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites"^^xsd:string ;
+    wd:P217 "A1461 (1); A1461 (2); A1461 (3)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"DdLJo96s-103614b1-3b6a-426a-9839-18b17f5ed32a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-238bb0e4-2438-4381-b9e7-8a0cc42223b2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"DdLJo96s-261a3e2d-a223-4e9a-950c-91197503301b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-29ed2833-5312-4c7c-ae5f-dec5bfe4ecff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-3496b99a-7506-4b3b-98d3-5313d8c18b02"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-63c4daa8-03f4-4364-8e3f-a1d9a799840b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-69d2e485-b19d-4e4c-b1c0-7716ab732213"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-6af19937-65c8-48fa-a79a-1a44f63063fb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DdLJo96s-cf97ac67-a8ad-4922-86d0-4c90228bab6a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:2Pacaucy a rdf:object .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:4bKCnwtk a rdf:object .
+
+faamentity:8gZHuqVq a rdf:object .
+
+faamentity:8xAK9aa6 a rdf:object .
+
+faamentity:MbXCYU7Y a rdf:object .
+
+faamentity:PbjNapre a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+
+faamentity:c87GwMiD a rdf:object .
+

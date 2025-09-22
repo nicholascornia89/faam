@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q709173",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giuseppe Concone"
       }
     ]
   },
@@ -149,13 +150,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ce6BCijy",
+        "type": "item",
+        "label": "Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000322330.gif"
+        }
+      },
+      {
+        "id": "2sko6Mdj",
+        "type": "item",
+        "label": "Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991144119456307356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "7BoEeybg",
+        "type": "item",
+        "label": "Walter Scott lyrique",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giuseppe_Concone_by_Marie-Alexandre_Alophe.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PEXAkqP3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PEXAkqP3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PEXAkqP3.csv"
       }
     ]
   }

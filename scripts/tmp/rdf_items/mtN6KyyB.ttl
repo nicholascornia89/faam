@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mtN6KyyB a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1638-04-09"^^xsd:string ;
+    schema1:birthPlace faamentity:6zQcSf66 ;
+    schema1:deathDate "1678-01-15"^^xsd:string,
+        "1679-02-26"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2187815>,
+        "0"^^xsd:string,
+        "mtN6KyyB"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Charles Couperin"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:438165573975737800008 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:9WRy5gTT ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

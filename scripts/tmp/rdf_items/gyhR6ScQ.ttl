@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gyhR6ScQ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:5jkJD29y,
+        faamentity:R5a3QLVs,
+        faamentity:iAuoLuNw ;
+    schema1:birthDate "1869-04-05"^^xsd:string ;
+    schema1:birthPlace faamentity:76ic4EY8 ;
+    schema1:deathDate "1937-08-23"^^xsd:string ;
+    schema1:deathPlace faamentity:bMaYfsJY ;
+    schema1:description "French composer (1869–1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q313376>,
+        "0"^^xsd:string,
+        "gyhR6ScQ"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Albert Roussel"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:19866829 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30106350> ;
+    wd:P737 faamentity:mc2UEWpA ;
+    wd:P839 <https://imslp.org/wiki/Category:Roussel,_Albert> ;
+    schema:hasOccupation faamentity:2e3yeRss,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:RU9hU5Pa,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y .
+

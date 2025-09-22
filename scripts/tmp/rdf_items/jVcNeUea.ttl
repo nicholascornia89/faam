@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jVcNeUea a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:59RimmuX,
+        faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:UDva945b,
+        faamentity:WtvibJFF,
+        faamentity:Z8fp8xPh,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CLJgE33u,
+        faamentity:NA5EnjbE,
+        faamentity:WAXA4eQA ;
+    schema1:identifier "16005027"^^xsd:string,
+        "BNF-42810019r"^^xsd:string,
+        "jVcNeUea"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42810019r"^^schema1:url ;
+    skos:prefLabel "Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire"^^xsd:string ;
+    wd:P217 "VM8 C-18"^^xsd:string ;
+    wd:P870 faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"jVcNeUea-0414eada-9e04-4309-93e9-f9171a614f02"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"jVcNeUea-50016704-8b72-4f31-93c8-046bceee9b2a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"jVcNeUea-56b15885-d6c7-4217-b5c4-809e23ef6b29"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"jVcNeUea-cb539c2b-6607-48e2-a7a7-1d539d25050f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:CLJgE33u a rdf:object .
+
+faamentity:NA5EnjbE a rdf:object .
+
+faamentity:WAXA4eQA a rdf:object .
+

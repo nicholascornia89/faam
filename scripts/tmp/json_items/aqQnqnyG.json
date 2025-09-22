@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q5942802",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hungarian Rhapsody No. 12"
       }
     ]
   },
@@ -93,6 +94,51 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "N4GQvQGD",
+        "type": "item",
+        "label": "Ungarische Rhapsodien Band 2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702872.gif"
+        }
+      },
+      {
+        "id": "Z3FQHVpH",
+        "type": "item",
+        "label": "Ungarische Rhapsodie no. 12 : Klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904692388.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aqQnqnyG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aqQnqnyG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aqQnqnyG.csv"
+      }
+    ]
+  }
 }

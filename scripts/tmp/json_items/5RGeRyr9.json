@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q259617",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wasserburg am Inn"
       }
     ],
     "aliases": [
@@ -68,8 +69,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6559206"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HpUamo8C",
+        "type": "item",
+        "label": "Johann Caspar Aiblinger",
+        "description": "German composer (1779-1867)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Kaspar_Aiblinger.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5RGeRyr9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5RGeRyr9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5RGeRyr9.csv"
+      }
+    ]
+  }
 }

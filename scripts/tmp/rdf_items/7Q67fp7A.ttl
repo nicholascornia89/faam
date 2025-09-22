@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7Q67fp7A a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "French higher education and research establishment in Paris"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q202660>,
+        "15991067"^^xsd:string,
+        "7Q67fp7A"^^xsd:string ;
+    schema1:location faamentity:Eqo9Fq2n ;
+    skos:altLabel "College de France"^^xsd:string,
+        "Collège de France"^^xsd:string ;
+    skos:prefLabel "Collège de France"^^xsd:string .
+

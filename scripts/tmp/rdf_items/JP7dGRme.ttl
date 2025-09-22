@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JP7dGRme a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:72sFir89,
+        faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical ornament, consisting of a single alternation with the note above or below"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q48811>,
+        "15992165"^^xsd:string,
+        "JP7dGRme"^^xsd:string ;
+    skos:altLabel "mordent"^^xsd:string ;
+    skos:prefLabel "mordent"^^xsd:string ;
+    wd:P1535 faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:A4NPbBsi,
+        faamentity:CPJ2a2C2 ;
+    wd:P31 faamentity:N2f5NSgz,
+        faamentity:aB3G93He .
+

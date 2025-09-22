@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FnKGfNg6 a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former Italian state (1569–1801; 1815–1859)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q154849>,
+        "15998267"^^xsd:string,
+        "FnKGfNg6"^^xsd:string ;
+    skos:altLabel "Grand Duchy of Tuscany"^^xsd:string,
+        "Granducato di Toscana"^^xsd:string ;
+    skos:prefLabel "Grand Duchy of Tuscany"^^xsd:string .
+

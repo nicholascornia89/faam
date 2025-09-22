@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:43ewoh6y a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in and county seat of Salt Lake County, Utah, United States and the capital of Utah"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q23337>,
+        "126640"^^xsd:string,
+        "43ewoh6y"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:altLabel "SLC"^^xsd:string,
+        "Salt Lake"^^xsd:string,
+        "Salt Lake City"^^xsd:string,
+        "Salt Lake City, UT"^^xsd:string,
+        "Salt Lake City, Utah"^^xsd:string ;
+    skos:prefLabel "Salt Lake City"^^xsd:string ;
+    wd:P1566 gn:5780993,
+        gn:US .
+

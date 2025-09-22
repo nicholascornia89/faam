@@ -1,0 +1,81 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WDzhgoTP a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:NFazQXR2,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:Rxa2vGNJ,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN,
+        faamentity:YCgBhPNn,
+        faamentity:aCRY7SgN,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:MaWnCnVw,
+        faamentity:QFnkBYdA,
+        faamentity:ir8H6VLw ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:GQ9LXzE7,
+        faamentity:Y4Su8bEC,
+        faamentity:nwj4tnGi ;
+    schema1:hasPart faamentity:2P4XP4zY ;
+    schema1:identifier "16004323"^^xsd:string,
+        "BSB-991018906949707356"^^xsd:string,
+        "WDzhgoTP"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11151710"^^schema1:url ;
+    skos:prefLabel "Sonate für Violine solo"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 61400"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"WDzhgoTP-15c943c8-bb5b-4776-a9fc-4cd3474ebadf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"WDzhgoTP-a3f2df06-4c21-4102-a803-5c830fefe8ca"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"WDzhgoTP-e2afe479-ffba-4aa3-9827-4545476586fa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"WDzhgoTP-e6993c07-ed52-407d-84a8-1d579a041be9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:GQ9LXzE7 a rdf:object .
+
+faamentity:Y4Su8bEC a rdf:object .
+
+faamentity:nwj4tnGi a rdf:object .
+

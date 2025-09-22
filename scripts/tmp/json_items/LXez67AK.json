@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q17484288",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "ethnomusicologist"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "29ovPana",
+        "type": "item",
+        "label": "Julien Tiersot",
+        "description": "French musicologist, composer and pioneer in ethnomusicology (1857-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Julien_Tiersot_1911-1912.jpg"
+        }
+      },
+      {
+        "id": "RjvWVtgw",
+        "type": "item",
+        "label": "Béla Bartók",
+        "description": "Hungarian composer and pianist (1881–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartók_Béla_1927.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LXez67AK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LXez67AK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LXez67AK.csv"
+      }
+    ]
+  }
 }

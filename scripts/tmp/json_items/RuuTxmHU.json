@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1934522",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Albert Lavignac"
       }
     ]
   },
@@ -183,13 +184,127 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "d97ewwH5",
+        "type": "item",
+        "label": "Amédée Gastoué",
+        "description": "French composer and musicologist (1873–1943)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "XL5Fexy5",
+        "type": "item",
+        "label": "Raoul Laparra",
+        "description": "French composer (1876–1943)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Raoul_Laparra_1931.jpg"
+        }
+      },
+      {
+        "id": "MoWNUsvt",
+        "type": "item",
+        "label": "Émile Jaques-Dalcroze",
+        "description": "Swiss composer, musician and music educator (1865-1950)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Jaques_Dalcroze.jpg"
+        }
+      },
+      {
+        "id": "KX4mbzwE",
+        "type": "item",
+        "label": "Charles Levadé",
+        "description": "French composer (1869-1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "gkg3RLK6",
+        "type": "item",
+        "label": "Gabriel Pierné",
+        "description": "French composer, conductor, and organist (1863–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Constant_Gabriel_Pierné.jpg"
+        }
+      },
+      {
+        "id": "8K3yJASt",
+        "type": "item",
+        "label": "Claude Debussy",
+        "description": "French classical composer (1862–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Debussy_by_Atelier_Nadar.jpg"
+        }
+      },
+      {
+        "id": "keJfejyV",
+        "type": "item",
+        "label": "Florent Schmitt",
+        "description": "French composer (1870-1958)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Florent_Schmitt_1900.jpg"
+        }
+      },
+      {
+        "id": "mc2UEWpA",
+        "type": "item",
+        "label": "Vincent d'Indy",
+        "description": "French composer and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg"
+        }
+      },
+      {
+        "id": "A64KF2Nm",
+        "type": "item",
+        "label": "Henri Casadesus",
+        "description": "violist, viola d'amore player, composer, and music publisher (1879-1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Société_des_Instruments_anciens,_fondée_par_Casadesus.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Albert_Lavignac_1900.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RuuTxmHU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RuuTxmHU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RuuTxmHU.csv"
       }
     ]
   }

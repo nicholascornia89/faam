@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hpmpSXaU a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1808-02-01"^^xsd:string ;
+    schema1:birthPlace faamentity:fciPN9YT ;
+    schema1:deathDate "1894-12-11"^^xsd:string ;
+    schema1:deathPlace faamentity:QzrXGqBY ;
+    schema1:description "German publisher (1808–1894)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1336854>,
+        "16005016"^^xsd:string,
+        "hpmpSXaU"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Georg Josef Manz"^^xsd:string ;
+    skos:prefLabel "Georg Josef Manz"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:45061586 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:8EWPwxXN .
+

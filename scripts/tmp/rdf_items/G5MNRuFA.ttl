@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G5MNRuFA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:J6ERsasy,
+        faamentity:Rg6UtZ34,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:YRq3pSH7 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:Hrif6Qxb,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DSm6cEeM,
+        faamentity:HUi3iNYA,
+        faamentity:JEZ5AweR,
+        faamentity:SU2CV5XY ;
+    schema1:hasPart faamentity:h9bxZ33h ;
+    schema1:identifier "15992737"^^xsd:string,
+        "G5MNRuFA"^^xsd:string,
+        "KCG-000331376"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331376"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"G5MNRuFA-1ad45a3a-04ee-45b3-ad24-00c8d3ec6bda"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"G5MNRuFA-2b641db7-7754-4f3b-ba5e-f8ac64b10610"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"G5MNRuFA-3fecea97-fbe8-496a-9d8d-0800ccc938ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"G5MNRuFA-d4c132d1-4f8e-4724-a58f-ae83c95966a4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:DSm6cEeM a rdf:object .
+
+faamentity:HUi3iNYA a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:SU2CV5XY a rdf:object .
+

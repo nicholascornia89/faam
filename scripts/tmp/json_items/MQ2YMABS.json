@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q317796",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Frankfurt University of Music and Performing Arts"
       }
     ],
     "aliases": []
@@ -57,6 +58,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Sv4fjwFU",
+        "type": "item",
+        "label": "Joachim Raff",
+        "description": "Swiss composer (1822-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jjraffportrait.jpg"
+        }
+      },
+      {
+        "id": "b3wHk4Zu",
+        "type": "item",
+        "label": "Sigismond Thalberg",
+        "description": "Swiss composer and pianist (1812–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thalberg,_Sigismund,_Gallica,_Nadar.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MQ2YMABS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MQ2YMABS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MQ2YMABS.csv"
+      }
+    ]
+  }
 }

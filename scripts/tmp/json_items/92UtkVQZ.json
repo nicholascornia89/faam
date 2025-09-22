@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q71084",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "First French Empire"
       }
     ],
     "aliases": [
@@ -73,6 +74,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "49XCs8aJ",
+        "type": "item",
+        "label": "Gaspare Spontini",
+        "description": "Italian composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Aubry-Lecomte_-_Spontini_(cropped).jpg"
+        }
+      },
+      {
+        "id": "WMS8NqAK",
+        "type": "item",
+        "label": "Giuseppe Cambini",
+        "description": "Italian musician (1746-1825)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "92UtkVQZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "92UtkVQZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "92UtkVQZ.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6LF7QVv2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1750-02-10"^^xsd:string ;
+    schema1:birthPlace faamentity:RZra3Qhj ;
+    schema1:deathDate "1825-05-12"^^xsd:string ;
+    schema1:deathPlace faamentity:RZra3Qhj ;
+    schema1:description "Italian Conventual Franciscan, composer and music theorist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q434726>,
+        "0"^^xsd:string,
+        "6LF7QVv2"^^xsd:string ;
+    skos:prefLabel "Stanislao Mattei"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:79200339 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002130> ;
+    wd:P737 faamentity:FEbTxAZY ;
+    wd:P839 <https://imslp.org/wiki/Category:Mattei,_Stanislao> ;
+    schema:hasOccupation faamentity:3tKkjrbV,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:N3DQMCdv,
+        faamentity:YYyZX3aY .
+

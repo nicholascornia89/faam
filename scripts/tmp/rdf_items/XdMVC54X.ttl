@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XdMVC54X a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:BarxiZYR,
+        faamentity:WT9AcUBt ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:bmWfNETn ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:A85JP7AT,
+        faamentity:Hrif6Qxb,
+        faamentity:eCYL2PkE ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:6BoSi8gw,
+        faamentity:jHPVd5Ji ;
+    schema1:identifier "15992529"^^xsd:string,
+        "KCA-030903081898"^^xsd:string,
+        "XdMVC54X"^^xsd:string ;
+    schema1:location faamentity:2g8dy8pA ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6740338/N"^^schema1:url ;
+    skos:prefLabel "Symphonic fantasy : (based on an Easter Plainsong), op. 13"^^xsd:string ;
+    wd:P217 "UM-TO-PEETE-fanta13-1"^^xsd:string ;
+    wd:P870 faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"XdMVC54X-41561c52-f037-4c5e-ac83-ad6d58c1de3c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"XdMVC54X-e95bf5b8-c8a4-4f62-86f4-5a13991b4a5a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:2g8dy8pA .
+
+"XdMVC54X-fd56517d-a1e2-456c-97dd-a99413ffd500"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:6BoSi8gw a rdf:object .
+
+faamentity:jHPVd5Ji a rdf:object .
+

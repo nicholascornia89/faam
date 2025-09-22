@@ -1,0 +1,57 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QkQ2wHWY a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "04-06-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ge7cpLXc,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005523"^^xsd:string,
+        "ORP-20143988p20"^^xsd:string,
+        "QkQ2wHWY"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Lieder-Walzer N.2"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3197
+L'Illustration, N. 3197"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"QkQ2wHWY-15afb368-5db5-43f6-bf83-8cb4323fe36e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"QkQ2wHWY-a628747c-2d85-4b88-87b4-06a1769a875c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"QkQ2wHWY-b6126ed0-7c93-417e-839e-41c17ab7a9be"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "04-06-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"QkQ2wHWY-c84564f0-8c55-45fc-b4ab-018ca6a942d8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Ge7cpLXc a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

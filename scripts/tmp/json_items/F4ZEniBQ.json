@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q181040",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "clef"
       }
     ],
     "aliases": [
@@ -89,6 +90,151 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gtPNTrPG",
+        "type": "item",
+        "label": "Légende du Doudou",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902639415.gif"
+        }
+      },
+      {
+        "id": "Ea4oXLqj",
+        "type": "item",
+        "label": "Charlotte Corday: drame: ouverture",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901609450.gif"
+        }
+      },
+      {
+        "id": "ZwkGBFim",
+        "type": "item",
+        "label": "Het daghet in den Oosten: fantasie op oude Vlaamse volkmelodieën",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902215612.gif"
+        }
+      },
+      {
+        "id": "EvJouxrd",
+        "type": "item",
+        "label": "Kerstverhaal : voor piano . De afgod met de narrenglimlach : voor piano = Conte de Noël : pour piano . L'idole au sourire narquois : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904337265.gif"
+        }
+      },
+      {
+        "id": "BcPVGMij",
+        "type": "item",
+        "label": "Kerstverhaal : voor piano . De afgod met de narrenglimlach : voor piano = Conte de Noël : pour piano . L'idole au sourire narquois : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904337273.gif"
+        }
+      },
+      {
+        "id": "nkMiKVJu",
+        "type": "item",
+        "label": "Nocturne : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901436383.gif"
+        }
+      },
+      {
+        "id": "67xzWFPr",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "ZvSPPzQL",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "hnERQGrz",
+        "type": "item",
+        "label": "Premier Concerto : Pour le Piano avec Accompagnement d'Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344414.gif"
+        }
+      },
+      {
+        "id": "DLo6cTvx",
+        "type": "item",
+        "label": "Symphony No. 2, Movement IV",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768215.gif"
+        }
+      },
+      {
+        "id": "fsJiPnKq",
+        "type": "item",
+        "label": "Symphony No. 2, Movement V",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768198.gif"
+        }
+      },
+      {
+        "id": "XTwyaLbV",
+        "type": "item",
+        "label": "Six morceaux caractéristiques",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p5.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "F4ZEniBQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "F4ZEniBQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "F4ZEniBQ.csv"
+      }
+    ]
+  }
 }

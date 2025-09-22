@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P62D7Sef a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1747-01-26"^^xsd:string,
+        "1748-01-26"^^xsd:string ;
+    schema1:birthPlace faamentity:6FZcpd5f ;
+    schema1:deathDate "1823-11-12"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp ;
+    schema1:description "Austrian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q324490>,
+        "0"^^xsd:string,
+        "P62D7Sef"^^xsd:string ;
+    schema1:nationality faamentity:FPDTfb7a ;
+    skos:prefLabel "Emanuel Aloys Förster"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:297146998428818940359,
+        viaf:32271689 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30001115> ;
+    wd:P839 <https://imslp.org/wiki/Category:Förster,_Emanuel_Aloys> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:Wm5MWZbA .
+

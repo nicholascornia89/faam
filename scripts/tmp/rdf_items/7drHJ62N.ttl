@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7drHJ62N a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:A4NPbBsi,
+        faamentity:CPJ2a2C2,
+        faamentity:WtvibJFF,
+        faamentity:YRq3pSH7,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:CyNW3XCU,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:JGR5Pepj,
+        faamentity:McYQNvK3 ;
+    schema1:hasPart faamentity:3LqVwWmn,
+        faamentity:HNntsZQD ;
+    schema1:identifier "15992743"^^xsd:string,
+        "7drHJ62N"^^xsd:string,
+        "KCG-000337038"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000337038"^^schema1:url ;
+    skos:prefLabel "Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55."^^xsd:string ;
+    wd:P217 "DS4623"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"7drHJ62N-390734dd-3e08-4704-9de5-9b4d8f4b1659"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"7drHJ62N-6dc14a13-1ca7-43d2-b604-39f20897a6b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"7drHJ62N-8590a33b-5707-47b1-8ada-8d661fe65469"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"7drHJ62N-898bd8fc-6780-4b00-86f0-0eb9e8af8cac"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"7drHJ62N-af2626e3-c1db-411e-8c71-2832f67eb6ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"7drHJ62N-ffc23b5c-c14f-4b38-9d10-ce8b676c10f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:JGR5Pepj a rdf:object .
+
+faamentity:McYQNvK3 a rdf:object .
+

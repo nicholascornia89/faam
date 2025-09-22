@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CcadsbqC a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "religious building in Naples, Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q123258946>,
+        "16004764"^^xsd:string,
+        "CcadsbqC"^^xsd:string ;
+    schema1:location faamentity:7isyBsAv,
+        faamentity:RjXv6xhJ ;
+    skos:altLabel "Saint Dominic"^^xsd:string,
+        "San Domenico Maggiore"^^xsd:string ;
+    skos:prefLabel "San Domenico Maggiore"^^xsd:string .
+

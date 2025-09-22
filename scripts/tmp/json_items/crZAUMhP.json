@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q165980",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Vienna"
       }
     ],
     "aliases": [
@@ -70,6 +71,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "L7rmRcmH",
+        "type": "item",
+        "label": "Anton Bruckner",
+        "description": "Austrian composer (1824-1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Anton_Bruckner_(1868).jpg"
+        }
+      },
+      {
+        "id": "DMmrDj7M",
+        "type": "item",
+        "label": "Gustav Mahler",
+        "description": "Austrian late-Romantic composer (1860–1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustav-Mahler-Kohut.jpg"
+        }
+      },
+      {
+        "id": "EZRaNUgM",
+        "type": "item",
+        "label": "Gustav Leonhardt",
+        "description": "Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustav_Leonhardt,_2008_(cropped).jpg"
+        }
+      },
+      {
+        "id": "he6EAoko",
+        "type": "item",
+        "label": "Anton Schindler",
+        "description": "Associate, secretary, and early biographer of Ludwig van Beethoven (1795-1864)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "AntonSchindler.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "crZAUMhP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "crZAUMhP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "crZAUMhP.csv"
+      }
+    ]
+  }
 }

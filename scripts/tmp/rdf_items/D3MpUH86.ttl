@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D3MpUH86 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who writes the words or music to songs"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q753110>,
+        "15990994"^^xsd:string,
+        "D3MpUH86"^^xsd:string ;
+    skos:altLabel "song writer"^^xsd:string,
+        "songwriter"^^xsd:string ;
+    skos:prefLabel "cleric"^^xsd:string,
+        "songwriter"^^xsd:string .
+

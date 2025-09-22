@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q372923",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "articulation"
       }
     ],
     "aliases": [
@@ -55,6 +56,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "WtvibJFF",
+        "type": "item",
+        "label": "accent",
+        "description": "emphasis placed on a particular musical note"
+      },
+      {
+        "id": "QJ92QxQv",
+        "type": "item",
+        "label": "staccato",
+        "description": "form of musical articulation"
+      },
+      {
+        "id": "5EJaed5Q",
+        "type": "item",
+        "label": "staccatissimo",
+        "description": ""
+      },
+      {
+        "id": "9dz9ydpz",
+        "type": "item",
+        "label": "legato",
+        "description": "indicates that musical notes are played or sung smoothly and connected"
+      },
+      {
+        "id": "byLEfakR",
+        "type": "item",
+        "label": "marcato",
+        "description": "musical instruction"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kdBmwQEE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kdBmwQEE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kdBmwQEE.csv"
+      }
+    ]
+  }
 }

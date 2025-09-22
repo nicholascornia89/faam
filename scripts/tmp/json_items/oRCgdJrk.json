@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q7895764",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Michigan Library"
       }
     ],
     "abbreviation": [
@@ -88,6 +89,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ASN2uqgD",
+        "type": "item",
+        "label": "A theoretical and practical treatise on the art of singing = Trattato teorico-pratico sull'arte del canto / composed ... by Maria Anfossi.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "UML-68584532.gif"
+        }
+      },
+      {
+        "id": "WnNnUQve",
+        "type": "item",
+        "label": "The science of the art of singing / by Anna Lankow. English translation by E. Buek. Combined with practical exercising material, by Anna Lankow and Manuel Garcia ... Die wissenschaft des kunst-gesanges, von Anna Lankow. Mit praktischem uebungs-material, von Anna Lankow und Manuel Garcia.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "UML-62718187.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oRCgdJrk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oRCgdJrk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oRCgdJrk.csv"
+      }
+    ]
+  }
 }

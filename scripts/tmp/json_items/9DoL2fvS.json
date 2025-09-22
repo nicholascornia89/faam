@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6088",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alessandria"
       }
     ],
     "aliases": [
@@ -82,8 +83,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "6541464"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9DoL2fvS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9DoL2fvS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9DoL2fvS.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q60",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "New York City"
       }
     ],
     "aliases": [
@@ -164,8 +165,174 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TgjQzwNM",
+        "type": "item",
+        "label": "Werner Janssen",
+        "description": "American conductor (1899-1990)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Werner_Janssen_(1937).jpg"
+        }
+      },
+      {
+        "id": "JnMHxB4U",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      },
+      {
+        "id": "GwJt3vGU",
+        "type": "item",
+        "label": "George Gershwin",
+        "description": "American composer and pianist (1898–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Gershwin_1937.jpg"
+        }
+      },
+      {
+        "id": "Xqzdnscu",
+        "type": "item",
+        "label": "Rubin Goldmark",
+        "description": "American composer, pianist and educator (1872-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rubin_Goldmark.jpg"
+        }
+      },
+      {
+        "id": "hCXWqxbw",
+        "type": "item",
+        "label": "Edgard Varèse",
+        "description": "French composer (1883-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Varèse_-_John_French_Sloan.jpg"
+        }
+      },
+      {
+        "id": "TgjQzwNM",
+        "type": "item",
+        "label": "Werner Janssen",
+        "description": "American conductor (1899-1990)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Werner_Janssen_(1937).jpg"
+        }
+      },
+      {
+        "id": "APRRus3e",
+        "type": "item",
+        "label": "Fritz Kreisler",
+        "description": "Austrian violinist and composer (1875-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Kreisler.jpg"
+        }
+      },
+      {
+        "id": "YHNPY8uA",
+        "type": "item",
+        "label": "Vittorio Rieti",
+        "description": "Italian composer (1898–1994)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RjvWVtgw",
+        "type": "item",
+        "label": "Béla Bartók",
+        "description": "Hungarian composer and pianist (1881–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartók_Béla_1927.jpg"
+        }
+      },
+      {
+        "id": "nKP9cAbn",
+        "type": "item",
+        "label": "Igor Stravinsky",
+        "description": "Russian composer (1882–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Igor_Stravinsky_LOC_32392u.jpg"
+        }
+      },
+      {
+        "id": "gWXxMuiA",
+        "type": "item",
+        "label": "Henry Cowell",
+        "description": "American composer, music theorist, pianist, teacher, publisher, and impresario (1897-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henry_Cowell_portrait_NYPL_4002097_(cropped).jpg"
+        }
+      },
+      {
+        "id": "Xqzdnscu",
+        "type": "item",
+        "label": "Rubin Goldmark",
+        "description": "American composer, pianist and educator (1872-1936)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rubin_Goldmark.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "JZ8htJum",
+        "type": "item",
+        "label": "Juilliard School",
+        "description": "American performing arts conservatory in New York City"
+      },
+      {
+        "id": "QaJicP98",
+        "type": "item",
+        "label": "National Conservatory of Music of America",
+        "description": "music conservatory established with private donations in New York in 1885 by Jeannette Meyer Thurber"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nAtZMFD9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nAtZMFD9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nAtZMFD9.csv"
+      }
+    ]
+  }
 }

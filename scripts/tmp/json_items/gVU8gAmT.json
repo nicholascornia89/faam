@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q15123",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Province of Naples"
       }
     ],
     "aliases": [
@@ -66,8 +67,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "3172391"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WFi8v7tM",
+        "type": "item",
+        "label": "Enrico Caruso",
+        "description": "Italian opera singer (1873–1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Enrico_Caruso_tenor.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gVU8gAmT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gVU8gAmT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gVU8gAmT.csv"
+      }
+    ]
+  }
 }

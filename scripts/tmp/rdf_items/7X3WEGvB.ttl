@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7X3WEGvB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9iGipYaN ;
+    faamprop:handwritten_annotation faamentity:SnxsnGvi ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:4ZvdnZdj ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:JEZ5AweR,
+        faamentity:JaMqLved ;
+    schema1:identifier "16005399"^^xsd:string,
+        "7X3WEGvB"^^xsd:string,
+        "ORP-20143702p17"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186"^^schema1:url ;
+    skos:prefLabel "Tramway. Galop Brillant. - Op. 37"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.004"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"7X3WEGvB-645c775d-dd87-46bb-ba69-6142f6ec124f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"7X3WEGvB-7d5c91ac-6e3f-4cab-8f74-26dd949f29ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"7X3WEGvB-f9e0eca6-cd75-4dae-be20-428b1c32f958"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:JaMqLved a rdf:object .
+

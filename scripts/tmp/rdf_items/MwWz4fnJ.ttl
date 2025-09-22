@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MwWz4fnJ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:YCgBhPNn,
+        faamentity:bsgSL8K5,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:JnGFsz6r ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:M9HRWrxt,
+        faamentity:MEjPi9ot,
+        faamentity:UzHv4AkZ ;
+    dcterms:provenance faamentity:PmoGKNnr ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:DaCzzraM,
+        faamentity:oJV7Jiqq ;
+    schema1:identifier "16005039"^^xsd:string,
+        "MwWz4fnJ"^^xsd:string,
+        "UTL-31761111345377"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991107227217206196"^^schema1:url ;
+    skos:prefLabel "Weihnachts-Kantate, für Sopran- und Alt-Solo, weiblichen Chor und Pianoforte. Op. 170"^^xsd:string ;
+    wd:P217 "M2075 .R43 W4"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"MwWz4fnJ-2eb6348a-fe8f-4392-8ad5-645c4f305a01"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"MwWz4fnJ-75da13fe-2986-4cfa-9c5b-5bc405b37eb5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"MwWz4fnJ-afbecc8d-c524-4424-bd43-2764e6ddbab7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:DaCzzraM a rdf:object .
+
+faamentity:oJV7Jiqq a rdf:object .
+

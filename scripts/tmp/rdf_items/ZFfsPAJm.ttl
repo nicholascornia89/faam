@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZFfsPAJm a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "composition for piano and two instruments, usually a violin and a cello"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1414262>,
+        "15998766"^^xsd:string,
+        "ZFfsPAJm"^^xsd:string ;
+    skos:altLabel "piano trio"^^xsd:string ;
+    skos:prefLabel "piano trio"^^xsd:string .
+

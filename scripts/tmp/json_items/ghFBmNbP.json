@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q50333026",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alphonse Leduc"
       }
     ]
   },
@@ -196,13 +197,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "fTVDUXqW",
+        "type": "item",
+        "label": "Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735722.gif"
+        }
+      },
+      {
+        "id": "4KmXyX8e",
+        "type": "item",
+        "label": "Le chant: méthode pratique et rapide: en 24 exercices pour la pose, le développement et l'assouplissement de la voix, suivis de 15 vocalises: édition pour ténor ou soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902145678.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Alphonse_Leduc_by_Adolphe_Menut.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ghFBmNbP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ghFBmNbP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ghFBmNbP.csv"
       }
     ]
   }

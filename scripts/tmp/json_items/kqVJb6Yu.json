@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q47094",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bassano del Grappa"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6538252"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "J8Pd3QLb",
+        "type": "item",
+        "label": "Oscar Chilesotti",
+        "description": "Italian musicologist (1848-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_of_Oscar_Chilesotti,_musicologist_(1848-1916)_-_Archivio_Storico_Ricordi_ICON010793_B.jpg"
+        }
+      },
+      {
+        "id": "J8Pd3QLb",
+        "type": "item",
+        "label": "Oscar Chilesotti",
+        "description": "Italian musicologist (1848-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_of_Oscar_Chilesotti,_musicologist_(1848-1916)_-_Archivio_Storico_Ricordi_ICON010793_B.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kqVJb6Yu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kqVJb6Yu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kqVJb6Yu.csv"
+      }
+    ]
+  }
 }

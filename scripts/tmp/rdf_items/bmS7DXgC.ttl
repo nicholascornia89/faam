@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bmS7DXgC a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1846-03-19"^^xsd:string ;
+    schema1:birthPlace faamentity:AzqRtNds ;
+    schema1:deathDate "1901-01-14"^^xsd:string ;
+    schema1:deathPlace faamentity:NLCYwQ4F ;
+    schema1:description "Belgian composer and conductor (1846-1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3083152>,
+        "0"^^xsd:string,
+        "bmS7DXgC"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:prefLabel "François Servais"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:35234973 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Servais,_Franz> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf .
+

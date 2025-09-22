@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jjG7KwFU a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:DS9HvPwY,
+        faamentity:EgH6igGS ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:WYWdSXjA ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:EW8cL64m,
+        faamentity:MzF2W65j,
+        faamentity:XVpibGGu ;
+    schema1:hasPart faamentity:mrpX9xh5 ;
+    schema1:identifier "16002819"^^xsd:string,
+        "KCA-030902704540"^^xsd:string,
+        "jjG7KwFU"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13123547/N"^^schema1:url ;
+    skos:prefLabel "12 canons : für 3 Sopranstimmen mit Begleitung des Pianoforte, op. 50"^^xsd:string ;
+    wd:P217 "MM-LEPP-HAUPT-canons-1"^^xsd:string ;
+    wd:P870 faamentity:ABS5BA5Q,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"jjG7KwFU-2e4731bf-8573-48b8-88b3-114379e4569d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"jjG7KwFU-b4a5665c-6ccf-4bf5-8e27-0ccc8b0865a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"jjG7KwFU-d0fb7b1a-457c-4a09-82cb-c4358ee60c02"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:EW8cL64m a rdf:object .
+
+faamentity:MzF2W65j a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

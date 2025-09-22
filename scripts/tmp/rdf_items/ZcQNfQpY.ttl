@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZcQNfQpY a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Key74Nv2 ;
+    schema1:description "violin concerto composed by Antonio Vivaldi"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q116050280>,
+        "16002506"^^xsd:string,
+        "ZcQNfQpY"^^xsd:string ;
+    skos:altLabel "RV 314"^^xsd:string,
+        "Violin concerto in G major (RV 314)"^^xsd:string ;
+    skos:prefLabel "Violin Concerto, RV 310"^^xsd:string,
+        "Violin concerto in G major (RV 314)"^^xsd:string ;
+    wd:P214 viaf:176042752 ;
+    wd:P5202 faamentity:M2b4HvjF ;
+    wd:P7937 faamentity:65rhe5Po ;
+    wd:P839 <https://imslp.org/wiki/Violin_Concerto_in_G_major,_RV_310_(Vivaldi,_Antonio)> .
+

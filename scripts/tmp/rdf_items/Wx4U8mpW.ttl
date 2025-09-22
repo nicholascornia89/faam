@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wx4U8mpW a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:7CKW4bxw ;
+    schema1:description "aria; often attributed to Alessandro Stradella"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11499275>,
+        "16002414"^^xsd:string,
+        "Wx4U8mpW"^^xsd:string ;
+    skos:altLabel "Aria di chiesa"^^xsd:string,
+        "Pietà, Signore"^^xsd:string ;
+    skos:prefLabel "Pietà, Signore"^^xsd:string ;
+    wd:P5202 faamentity:6JF33pGS,
+        faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:UDgA2ki8,
+        faamentity:hVVnQwSn ;
+    wd:P839 <https://imslp.org/wiki/Pietà,_Signore_(Anonymous)> .
+

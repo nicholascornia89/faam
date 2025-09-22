@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q154195",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Bavaria"
       }
     ],
     "aliases": [
@@ -73,6 +74,161 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HpUamo8C",
+        "type": "item",
+        "label": "Johann Caspar Aiblinger",
+        "description": "German composer (1779-1867)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Kaspar_Aiblinger.jpg"
+        }
+      },
+      {
+        "id": "h4DJaA7D",
+        "type": "item",
+        "label": "Adolf von Henselt",
+        "description": "German composer and pianist (1814–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_von_Henselt_-_portrait.jpg"
+        }
+      },
+      {
+        "id": "6e38Zdt6",
+        "type": "item",
+        "label": "Max Reger",
+        "description": "German composer, pianist and conductor (1873-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Reger.jpg"
+        }
+      },
+      {
+        "id": "EbcGJ9jn",
+        "type": "item",
+        "label": "Jean-Paul-Égide Martini",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Paul_Egide_Martini.jpg"
+        }
+      },
+      {
+        "id": "82EyBJXP",
+        "type": "item",
+        "label": "Friedrich Burgmüller",
+        "description": "German composer (1806–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Burgmüller.jpg"
+        }
+      },
+      {
+        "id": "2Pacaucy",
+        "type": "item",
+        "label": "Peter Winter",
+        "description": "German opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg"
+        }
+      },
+      {
+        "id": "d8cUVe7p",
+        "type": "item",
+        "label": "Franz Xaver Haberl",
+        "description": "German priest and musicologist (1840–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FXHaberl.jpg"
+        }
+      },
+      {
+        "id": "DnCFCwbG",
+        "type": "item",
+        "label": "Franz Xaver Witt",
+        "description": "German Catholic priest, church musician and composer (1834–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FXWitt.jpg"
+        }
+      },
+      {
+        "id": "UxebPh37",
+        "type": "item",
+        "label": "Joseph Küffner",
+        "description": "German musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "JCc6TJvm",
+        "type": "item",
+        "label": "Johann Simon Mayr",
+        "description": "German composer (1763–1845)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Simon_Mayr_by_Winter.jpg"
+        }
+      },
+      {
+        "id": "Y8EkDdMa",
+        "type": "item",
+        "label": "Joseph Menter",
+        "description": "German cellist and music educator (1808-1856)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Menter_Litho.jpg"
+        }
+      },
+      {
+        "id": "DqbiXpk9",
+        "type": "item",
+        "label": "Franz Xaver Hammer",
+        "description": "German gambist, cellist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "MYycZXCd",
+        "type": "item",
+        "label": "Bernhard Molique",
+        "description": "German violinist and composer (1802-1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernhard_Molique_passport.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "krnWa7Sb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "krnWa7Sb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "krnWa7Sb.csv"
+      }
+    ]
+  }
 }

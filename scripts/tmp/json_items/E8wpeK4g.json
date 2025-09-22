@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q67175841",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "shoe designer"
       }
     ],
     "aliases": [
@@ -55,6 +56,41 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AFTScBt9",
+        "type": "item",
+        "label": "Nicola Francesco Haym",
+        "description": "Italian composer and musician (1678-1729)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Prova_di_un'opera.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "E8wpeK4g.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "E8wpeK4g.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "E8wpeK4g.csv"
+      }
+    ]
+  }
 }

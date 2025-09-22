@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q920668",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gustave III"
       }
     ]
   },
@@ -104,6 +105,51 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "idHuYiH5",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331412.gif"
+        }
+      },
+      {
+        "id": "hquMT8gR",
+        "type": "item",
+        "label": "32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000352632.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4sXtxEvM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4sXtxEvM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4sXtxEvM.csv"
+      }
+    ]
+  }
 }

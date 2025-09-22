@@ -1,0 +1,48 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cTvPi7XS a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "13-02-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:KWVSVF8L ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ui7C9eZU ;
+    schema1:identifier "16005509"^^xsd:string,
+        "ORP-20143988p6"^^xsd:string,
+        "cTvPi7XS"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Balladine Simiesque"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3181
+L'Illustration, N. 3181"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"cTvPi7XS-a159949c-a60b-4470-9b11-238fc135deba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"cTvPi7XS-d73d4834-320d-4b78-9156-8f14847941c3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "13-02-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Ui7C9eZU a rdf:object .
+

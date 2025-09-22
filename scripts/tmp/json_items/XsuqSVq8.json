@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q336977",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Guido Gezelle"
       }
     ]
   },
@@ -185,13 +186,79 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "4E4Bk5NF",
+        "type": "item",
+        "label": "Groeninghe : (de leeuwen dansen): voor massaVoice enOrchestra",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904186639.gif"
+        }
+      },
+      {
+        "id": "KzH2J5CB",
+        "type": "item",
+        "label": "O Maria die daar staat : lied voor sopraan of tenor",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902700712.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "e4twtoMd",
+        "type": "item",
+        "label": "Edward Gailliard",
+        "description": "Belgian historian, linguist, publisher and archivist (1841-1922)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FSEwRZh3",
+        "type": "item",
+        "label": "Eugeen van Oye",
+        "description": "Belgian doctor, writer, poet and publicist (1840-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugeen_van_Oye_-_Statue_in_Gistel.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Guido_Gezelle.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XsuqSVq8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XsuqSVq8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XsuqSVq8.csv"
       }
     ]
   }

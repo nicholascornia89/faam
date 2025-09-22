@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q699964",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Archduchy of Austria"
       }
     ],
     "aliases": [
@@ -53,6 +54,81 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "J5WNr3BW",
+        "type": "item",
+        "label": "Franz Schubert",
+        "description": "Austrian composer (1797–1828)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png"
+        }
+      },
+      {
+        "id": "9bDAzDtP",
+        "type": "item",
+        "label": "Christoph Willibald von Gluck",
+        "description": "opera composer (1714–1787)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+        }
+      },
+      {
+        "id": "8gZHuqVq",
+        "type": "item",
+        "label": "Wolfgang Amadeus Mozart",
+        "description": "Austrian composer of the Classical period (1756–1791)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg"
+        }
+      },
+      {
+        "id": "4Rx2hfgW",
+        "type": "item",
+        "label": "Franz Alexander Pössinger",
+        "description": "Austrian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "iyd6gRcN",
+        "type": "item",
+        "label": "Joseph Haydn",
+        "description": "Austrian composer (1732–1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Haydn,_målning_av_Thomas_Hardy_från_1792.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Zp27Cdca.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Zp27Cdca.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Zp27Cdca.csv"
+      }
+    ]
+  }
 }

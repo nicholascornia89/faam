@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q26421",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dordrecht"
       }
     ],
     "aliases": [
@@ -68,8 +69,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2756669"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "kzaxQhbG",
+        "type": "item",
+        "label": "Cornélie van Zanten",
+        "description": "Dutch opera singer (1855–1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg"
+        }
+      },
+      {
+        "id": "KRPt7atj",
+        "type": "item",
+        "label": "Henri Geul",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6w2JR532.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6w2JR532.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6w2JR532.csv"
+      }
+    ]
+  }
 }

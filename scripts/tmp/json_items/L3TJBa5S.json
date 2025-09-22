@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q636941",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Carl Tausig"
       }
     ]
   },
@@ -162,13 +163,127 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "LVTFwb8s",
+        "type": "item",
+        "label": "Pastorale et Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP41032.gif"
+        }
+      },
+      {
+        "id": "LVTFwb8s",
+        "type": "item",
+        "label": "Pastorale et Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP41032.gif"
+        }
+      },
+      {
+        "id": "7hcxzkxa",
+        "type": "item",
+        "label": "Pastorale und Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP44158.gif"
+        }
+      },
+      {
+        "id": "HdANzxaD",
+        "type": "item",
+        "label": "Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-19147.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Sajmvx8T",
+        "type": "item",
+        "label": "Karl Heinrich Barth",
+        "description": "German musician (1847–1922)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "KHBarth.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "JnSWcnai",
+        "type": "item",
+        "label": "Sonata K. 426",
+        "description": "sonata by Domenico Scarlatti"
+      },
+      {
+        "id": "XCuNo9Bj",
+        "type": "item",
+        "label": "Sonata K. 12",
+        "description": "sonata by Domenico Scarlatti"
+      },
+      {
+        "id": "4xpyx3QD",
+        "type": "item",
+        "label": "Sonata K. 519",
+        "description": "sonata by Domenico Scarlatti"
+      },
+      {
+        "id": "MVGw7NB8",
+        "type": "item",
+        "label": "Sonata K. 20",
+        "description": "sonata by Domenico Scarlatti"
+      },
+      {
+        "id": "JAAM6XaC",
+        "type": "item",
+        "label": "Sonata K. 487",
+        "description": "sonata by Domenico Scarlatti"
+      },
+      {
+        "id": "bLnUjgnB",
+        "type": "item",
+        "label": "Sonata K. 9",
+        "description": "sonata by Domenico Scarlatti"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Carl_Tausig_-_Project_Gutenberg_eText_16431.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L3TJBa5S.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L3TJBa5S.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L3TJBa5S.csv"
       }
     ]
   }

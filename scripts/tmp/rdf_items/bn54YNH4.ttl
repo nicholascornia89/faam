@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bn54YNH4 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PxvuntZk ;
+    schema1:identifier "16002780"^^xsd:string,
+        "bn54YNH4"^^xsd:string ;
+    skos:prefLabel "Serenata andaluza, Op.28"^^xsd:string ;
+    wd:P7937 faamentity:2YaavSuf,
+        faamentity:5FVVuRXN ;
+    wd:P839 <https://imslp.org/wiki/Serenata_andaluza,_Op.28_(Sarasate,_Pablo_de)> .
+

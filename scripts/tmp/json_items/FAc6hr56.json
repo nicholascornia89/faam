@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q21767764",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hemiksem"
       }
     ],
     "aliases": [
@@ -64,8 +65,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "BE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "T4vPoxnM",
+        "type": "item",
+        "label": "Jules Van Nuffel",
+        "description": "Belgian musicologist, composer, and expert on religious music (1883–1953)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Van_Nuffel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FAc6hr56.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FAc6hr56.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FAc6hr56.csv"
+      }
+    ]
+  }
 }

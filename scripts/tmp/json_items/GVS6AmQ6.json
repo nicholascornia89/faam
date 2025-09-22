@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2742",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Münster"
       }
     ],
     "aliases": [
@@ -62,8 +63,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "3247442"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9MCtsKYb",
+        "type": "item",
+        "label": "Franz Espagne",
+        "description": "German musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FdGG4zsS",
+        "type": "item",
+        "label": "Kaspar Fürstenau",
+        "description": "German flautist (1772-1819)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "5bgtFZou",
+        "type": "item",
+        "label": "Anton Bernhard Fürstenau",
+        "description": "German flautist and composer (1792-1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Bernhard_Fürstenau.jpg"
+        }
+      },
+      {
+        "id": "mvgRcySN",
+        "type": "item",
+        "label": "Franz Wüllner",
+        "description": "German composer and conductor (1832–1902)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Wüllner.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GVS6AmQ6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GVS6AmQ6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GVS6AmQ6.csv"
+      }
+    ]
+  }
 }

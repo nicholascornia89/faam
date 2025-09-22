@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q11774202",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "essayist"
       }
     ],
     "aliases": [
@@ -59,6 +60,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FimCssKK",
+        "type": "item",
+        "label": "Jean-Jacques Rousseau",
+        "description": "Genevan philosopher, writer, and composer (1712–1778)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Jacques_Rousseau_(painted_portrait).jpg"
+        }
+      },
+      {
+        "id": "G3ncrNcs",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      },
+      {
+        "id": "KN2VV3At",
+        "type": "item",
+        "label": "Margaret Cavendish, Duchess of Newcastle-upon-Tyne",
+        "description": "English aristocrat, prolific writer, and scientist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Margaret_Cavendish,_Duchess_of_Newcastle,_by_Peter_Lely.jpg"
+        }
+      },
+      {
+        "id": "HxdDCV5P",
+        "type": "item",
+        "label": "Anton van de Velde",
+        "description": "Belgian playwright, writer and theatre director (1895–1983)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "965aaprx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "965aaprx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "965aaprx.csv"
+      }
+    ]
+  }
 }

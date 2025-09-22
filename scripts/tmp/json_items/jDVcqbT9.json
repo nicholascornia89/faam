@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3144889",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hélène de Montgeroult"
       }
     ]
   },
@@ -170,13 +171,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JeE2Dvbq",
+        "type": "item",
+        "label": "Louis-Barthélémy Pradher",
+        "description": "French composer, pianist and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Barthélémy_Pradher_par_Godefroy_Engelmann.jpg"
+        }
+      },
+      {
+        "id": "fHUUPCvw",
+        "type": "item",
+        "label": "Ignaz Ladurner",
+        "description": "French pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Portrait_de_la_mère_de_His_de_la_Salle,_Madame_Hélène_de_Montgeroult_-_par_COSWAY_Richard.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jDVcqbT9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jDVcqbT9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jDVcqbT9.csv"
       }
     ]
   }

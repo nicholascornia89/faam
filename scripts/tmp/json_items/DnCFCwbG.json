@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q95918",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Xaver Witt"
       }
     ]
   },
@@ -151,13 +152,131 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "fnbqiRYQ",
+        "type": "item",
+        "label": "Missa Hodie Christus natus est : octo vocibus concinenda",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078130809707356.gif"
+        }
+      },
+      {
+        "id": "K3KQ2NJU",
+        "type": "item",
+        "label": "Missa \"secunda\": ad quatuor voces inaequales",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077342629707356.gif"
+        }
+      },
+      {
+        "id": "LdVQuLc4",
+        "type": "item",
+        "label": "Missa in honorem s. Luciae",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902645412.gif"
+        }
+      },
+      {
+        "id": "9kNA9gg5",
+        "type": "item",
+        "label": "[Convoluut]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902645172.gif"
+        }
+      },
+      {
+        "id": "hdGA3nwa",
+        "type": "item",
+        "label": "Ueber das Dirigiren katholischer Kirchenmusik nebst Bemerkungen über den Gesangsunterricht &c.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991081984929707356.gif"
+        }
+      },
+      {
+        "id": "PRtHwQqR",
+        "type": "item",
+        "label": "Sequentia : Stabat mater ; 4 vocibus inaequalibus concinenda comitante organo ; op. 7",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078961739707356.gif"
+        }
+      },
+      {
+        "id": "UzY77gaK",
+        "type": "item",
+        "label": "3 missae et quatuordecim motetta : ad 4, 5 et 8 voces composita ; op. 1-4. [2]. Missa Non est inventus : 4 v. ; mit Responsorium Ecce sacerdos magnus ; 4 v. ; op. 2. - 32 S.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078961849707356.gif"
+        }
+      },
+      {
+        "id": "e3GfisZP",
+        "type": "item",
+        "label": "Supplément à la Musica sacra, 1886-87 N.8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502045.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "dLQR6VEa",
+        "type": "item",
+        "label": "Missa Secunda",
+        "description": "mass by Hans Leo Hassler"
+      },
+      {
+        "id": "koTnG7tz",
+        "type": "item",
+        "label": "Missa Hodie Christus natus est",
+        "description": "mass by Giovanni Pierluigi da Palestrina"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FXWitt.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DnCFCwbG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DnCFCwbG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DnCFCwbG.csv"
       }
     ]
   }

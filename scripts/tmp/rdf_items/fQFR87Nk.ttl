@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fQFR87Nk a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "municipality and capital city of Portugal"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q597>,
+        "0"^^xsd:string,
+        "fQFR87Nk"^^xsd:string ;
+    schema1:location faamentity:Ars8m6Hw ;
+    skos:altLabel "Lisboa"^^xsd:string,
+        "Lisbon"^^xsd:string ;
+    skos:prefLabel "Lisbon"^^xsd:string ;
+    wd:P1566 gn:2267057 .
+

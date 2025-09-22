@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1720648",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "comparison"
       }
     ],
     "aliases": [
@@ -84,6 +85,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "fE6ANSLQ",
+        "type": "item",
+        "label": "Wohltemperirtes Clavier: the forty-eight preludes & fugues",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902190062.gif"
+        }
+      },
+      {
+        "id": "UQfQMXQK",
+        "type": "item",
+        "label": "Missa \"tu es Petrus\": sex vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991099181519707356.gif"
+        }
+      },
+      {
+        "id": "VcLWV8RD",
+        "type": "item",
+        "label": "The well-tempered clavier: 48 preludes and fugues",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901733573.gif"
+        }
+      },
+      {
+        "id": "HkJ7xztX",
+        "type": "item",
+        "label": "Philippi de Monte. VIII Magnificat",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte23.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "k4aUnbrD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "k4aUnbrD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "k4aUnbrD.csv"
+      }
+    ]
+  }
 }

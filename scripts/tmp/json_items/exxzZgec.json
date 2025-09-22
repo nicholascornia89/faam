@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2865",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kassel"
       }
     ],
     "aliases": [
@@ -64,8 +65,90 @@
         "base_url": "https://www.geonames.org/",
         "label": "2892518"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RocjqkVV",
+        "type": "item",
+        "label": "Friedrich Kalkbrenner",
+        "description": "German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Kalkbrenner_1829.jpg"
+        }
+      },
+      {
+        "id": "fb3FKHYv",
+        "type": "item",
+        "label": "Carl Friedrich Ebers",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "BDD9vX4R",
+        "type": "item",
+        "label": "Louis Spohr",
+        "description": "German composer, violinist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludwig_Spohr_portrait.jpg"
+        }
+      },
+      {
+        "id": "RJdVmFE4",
+        "type": "item",
+        "label": "Fortunato Chelleri",
+        "description": "German-Italian Kapellmeister and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "8rVYArqx",
+        "type": "item",
+        "label": "Georg Otto",
+        "description": "German composer (ca. 1550-1618)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "exxzZgec.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "exxzZgec.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "exxzZgec.csv"
+      }
+    ]
+  }
 }

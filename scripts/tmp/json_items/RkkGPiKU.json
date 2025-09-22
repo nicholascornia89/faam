@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q1376249",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lucien-Léon Guillaume Lambert"
       }
     ]
   },
@@ -159,13 +160,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "kBn7pv6w",
+        "type": "item",
+        "label": "Marlborough - Op. 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p4.gif"
+        }
+      },
+      {
+        "id": "RPjo5zK6",
+        "type": "item",
+        "label": "La Flamenca. Chanson havanaise de la Flamenca",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p46.gif"
+        }
+      },
+      {
+        "id": "RPjo5zK6",
+        "type": "item",
+        "label": "La Flamenca. Chanson havanaise de la Flamenca",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p46.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Lucien_Lambert_(1858-1945).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RkkGPiKU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RkkGPiKU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RkkGPiKU.csv"
       }
     ]
   }

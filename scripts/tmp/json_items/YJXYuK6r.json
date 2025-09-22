@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1056391",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "head teacher"
       }
     ],
     "aliases": [
@@ -95,6 +96,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "kpFs3SNX",
+        "type": "item",
+        "label": "Joseph Ryelandt",
+        "description": "Belgian composer, music educator and conservatory director (1870-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Ryelandt.jpg"
+        }
+      },
+      {
+        "id": "AoVuQA5q",
+        "type": "item",
+        "label": "Joannes Brans",
+        "description": "Dutch teacher and Belgian school director and inspector",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "cgea6nA8",
+        "type": "item",
+        "label": "Bernardus Nachtergaele",
+        "description": "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernard_Nachtergaele,_PA03099.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "YJXYuK6r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "YJXYuK6r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "YJXYuK6r.csv"
+      }
+    ]
+  }
 }

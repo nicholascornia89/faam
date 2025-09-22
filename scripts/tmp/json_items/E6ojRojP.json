@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q314221",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Francesco Durante"
       }
     ]
   },
@@ -159,13 +160,129 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KcBKWzJg",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne. [Sixième volume] [Música notada] :exécutés aux concerts de la Société de musique vocale, religieuse et classique, fondée à Paris en 1843 sous le patronage de Mesdames La Mle. Duchesse d'Albufera ... et sous la direction de Mr. Le Prince de la Moskowa",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNE-bdh0000161241.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "PzFs6xxG",
+        "type": "item",
+        "label": "Giovanni Battista Pergolesi",
+        "description": "Italian composer, violinist and organist (1710–1736)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Battista_Pergolesi.jpg"
+        }
+      },
+      {
+        "id": "8RjTgR64",
+        "type": "item",
+        "label": "Giovanni Paisiello",
+        "description": "Italian composer of the Classical era (1740-1816)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "PaiselloVigeeLeBrun.jpg"
+        }
+      },
+      {
+        "id": "hBxQjcxL",
+        "type": "item",
+        "label": "Niccolò Jommelli",
+        "description": "Italian composer (1714–1774)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Niccolò_Jommelli.jpg"
+        }
+      },
+      {
+        "id": "95y9zwmD",
+        "type": "item",
+        "label": "Antonio Sacchini",
+        "description": "Italian composer (1730–1786)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Antonio_Sacchini.png"
+        }
+      },
+      {
+        "id": "9MkiAmiR",
+        "type": "item",
+        "label": "Giuseppe Bonno",
+        "description": "Austrian composer (1711–1788)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Bonno.jpg"
+        }
+      },
+      {
+        "id": "hZNMi7Wf",
+        "type": "item",
+        "label": "Fedele Fenaroli",
+        "description": "Italian composer and music theorist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Fedele_Fenaroli.JPG"
+        }
+      },
+      {
+        "id": "QTEWqDt7",
+        "type": "item",
+        "label": "Joseph Doll",
+        "description": "German organist and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "U6od7iv8",
+        "type": "item",
+        "label": "Girolamo Abos",
+        "description": "Maltese-Italian composer (1715–1760)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Francesco_Durante.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "E6ojRojP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "E6ojRojP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "E6ojRojP.csv"
       }
     ]
   }

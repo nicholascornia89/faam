@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:R7dCbrrH a rdfs:Resource ;
+    faamprop:related_to faamentity:8wb95JHQ,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1843-05-29"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W,
+        faamentity:Zmnqa2iW ;
+    schema1:deathDate "1917-02-10"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W,
+        faamentity:gu4ortUT ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q286316>,
+        "15996090"^^xsd:string,
+        "R7dCbrrH"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Emile Louis Fortune Pessard"^^xsd:string,
+        "Emile Pessard"^^xsd:string,
+        "Émile Louis Fortuné Pessard"^^xsd:string ;
+    skos:prefLabel "Emile Pessard"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:62291556 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/9550> ;
+    wd:P737 faamentity:57TxaobZ,
+        faamentity:AWqDraUS,
+        faamentity:Ur67Wrqk ;
+    wd:P839 <https://imslp.org/wiki/Category:Pessard,_Émile> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

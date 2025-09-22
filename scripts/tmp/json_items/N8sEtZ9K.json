@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q721362",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jules Demersseman"
       }
     ]
   },
@@ -171,13 +172,55 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "buvS4Uxm",
+        "type": "item",
+        "label": "CAVATINE voor trombone met begeleiding van piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000341817.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "iDDKk6hP",
+        "type": "item",
+        "label": "Cavatine, Op.47",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Demersseman.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "N8sEtZ9K.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "N8sEtZ9K.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "N8sEtZ9K.csv"
       }
     ]
   }

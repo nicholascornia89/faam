@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q33923",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint Peter"
       }
     ]
   },
@@ -123,7 +124,20 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "7VrED9n8",
+        "type": "item",
+        "label": "Manuel de Falla",
+        "description": "Spanish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Manuel_de_Falla_en_Alta_Gracia.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -135,6 +149,27 @@
         "type": "image",
         "value": "Saint_Peter-Sinai_(6th_Century).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fwcVb5TY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fwcVb5TY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fwcVb5TY.csv"
       }
     ]
   }

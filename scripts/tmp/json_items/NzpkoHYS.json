@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q30159190",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Malaya Morskaya Street, 13"
       }
     ],
     "aliases": [
@@ -51,8 +52,50 @@
     ]
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "Vq7JhbTF",
+        "label": "Soviet Union"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nZyewNFB",
+        "type": "item",
+        "label": "Pyotr Ilyich Tchaikovsky",
+        "description": "Russian composer (1840–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Porträt_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NzpkoHYS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NzpkoHYS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NzpkoHYS.csv"
+      }
+    ]
+  }
 }

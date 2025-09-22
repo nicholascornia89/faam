@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q2173535",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rudolf Nováček"
       }
     ]
   },
@@ -170,13 +171,135 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FsDiMPKz",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487201.gif"
+        }
+      },
+      {
+        "id": "Ni7n4SHX",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487219.gif"
+        }
+      },
+      {
+        "id": "SKbqbAHR",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487227.gif"
+        }
+      },
+      {
+        "id": "2v4izE8Y",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487235.gif"
+        }
+      },
+      {
+        "id": "WKfZ7hKH",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487243.gif"
+        }
+      },
+      {
+        "id": "hcM6ooci",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487250.gif"
+        }
+      },
+      {
+        "id": "nKH2QhpS",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487268.gif"
+        }
+      },
+      {
+        "id": "24ZX3wtZ",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487276.gif"
+        }
+      },
+      {
+        "id": "epKGJCq7",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487284.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "jihDgEAZ",
+        "type": "item",
+        "label": "Sinfonietta, Op.48",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Rudolf_Novacek_(1860-1929).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UkBCrdbe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UkBCrdbe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UkBCrdbe.csv"
       }
     ]
   }

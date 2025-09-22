@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M2keqc3n a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and most populous city of Bavaria, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1726>,
+        "0"^^xsd:string,
+        "M2keqc3n"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G ;
+    skos:altLabel "Minga"^^xsd:string,
+        "Monachium"^^xsd:string,
+        "Muenchen"^^xsd:string,
+        "Munchen"^^xsd:string,
+        "Munich"^^xsd:string,
+        "Munich, Germany"^^xsd:string,
+        "München"^^xsd:string,
+        "Münich"^^xsd:string ;
+    skos:prefLabel "Munich"^^xsd:string ;
+    wd:P1566 gn:3220837,
+        gn:6559171 .
+

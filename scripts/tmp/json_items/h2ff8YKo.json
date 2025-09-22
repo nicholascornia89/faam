@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1348126",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pierre-Joseph-Guillaume Zimmermann"
       }
     ]
   },
@@ -176,13 +177,87 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cmzT8tYL",
+        "type": "item",
+        "label": "Antoine-François Marmontel",
+        "description": "French pianist, teacher and musicographer (1816–1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "A-F_Marmontel.jpg"
+        }
+      },
+      {
+        "id": "n7zaDq2T",
+        "type": "item",
+        "label": "Georges Bizet",
+        "description": "French composer (1838–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georges_bizet.jpg"
+        }
+      },
+      {
+        "id": "eShK9Xad",
+        "type": "item",
+        "label": "César Franck",
+        "description": "Belgian-French composer and organist (1822–1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "César_Franck_by_Pierre_Petit.jpg"
+        }
+      },
+      {
+        "id": "6JF33pGS",
+        "type": "item",
+        "label": "Alfred Lefébure-Wély",
+        "description": "French composer and organist (1817–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lefébure-Wély-young.jpg"
+        }
+      },
+      {
+        "id": "aMECmgpH",
+        "type": "item",
+        "label": "Ambroise Thomas",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ambroise_Thomas_2.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Pierre_Zimmermann.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "h2ff8YKo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "h2ff8YKo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "h2ff8YKo.csv"
       }
     ]
   }

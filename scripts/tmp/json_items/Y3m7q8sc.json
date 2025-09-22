@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ifXZogMQ"
+        "value": "ifXZogMQ",
+        "label": "Music Treatise"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -77,44 +79,52 @@
     "editorial annotation": [
       {
         "type": "item",
-        "value": "A4NPbBsi"
+        "value": "A4NPbBsi",
+        "label": "ornament"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "handwritten annotation": [],
     "provenance": [
       {
         "type": "item",
-        "value": "KuuXg9DS"
+        "value": "KuuXg9DS",
+        "label": "Berlin State Library"
       }
     ],
     "related item": [
       {
         "type": "item",
-        "value": "ETUtPT6p"
+        "value": "ETUtPT6p",
+        "label": "Antonio Bernacchi"
       }
     ],
     "keyword": [
       {
         "type": "item",
-        "value": "Vm5DPnGE"
+        "value": "Vm5DPnGE",
+        "label": "vocal pedagogy"
       },
       {
         "type": "item",
-        "value": "9farY66Z"
+        "value": "9farY66Z",
+        "label": "music education"
       }
     ],
     "instrumentation": [
       {
         "type": "item",
-        "value": "KJkThvsq"
+        "value": "KJkThvsq",
+        "label": "voice"
       },
       {
         "type": "item",
-        "value": "GoXpNrsh"
+        "value": "GoXpNrsh",
+        "label": "piano"
       }
     ],
     "musical work": [],
@@ -126,19 +136,22 @@
           {
             "type": "item",
             "property": "role",
-            "value": "GBgJfRbK"
+            "value": "GBgJfRbK",
+            "label": "publishing company"
           },
           {
             "type": "item",
             "property": "place",
-            "value": "MCyXT4P3"
+            "value": "MCyXT4P3",
+            "label": "Dresden"
           },
           {
             "type": "date",
             "property": "date",
             "value": "1835"
           }
-        ]
+        ],
+        "label": "Friedrich Wilhelm Arnold"
       },
       {
         "type": "statement",
@@ -147,7 +160,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -159,23 +173,27 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Heinrich Ferdinand Steinmann"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "GBgJfRbK"
+        "value": "GBgJfRbK",
+        "label": "publishing company"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": [
       {
         "type": "item",
-        "value": "MCyXT4P3"
+        "value": "MCyXT4P3",
+        "label": "Dresden"
       }
     ]
   },
@@ -192,6 +210,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/BSL-848545451/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Y3m7q8sc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Y3m7q8sc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Y3m7q8sc.csv"
       }
     ]
   }

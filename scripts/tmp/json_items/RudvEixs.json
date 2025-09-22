@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q69376",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "August Wilhelmj"
       }
     ]
   },
@@ -198,13 +199,71 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JreYnvTD",
+        "type": "item",
+        "label": "Notturno Op. 37, Nr. 1 : für Violine und Orchester",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904862957.gif"
+        }
+      },
+      {
+        "id": "mbavAEvP",
+        "type": "item",
+        "label": "Andante e scherzo capriccioso, op. 16",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076933339707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Ro2QMMcZ",
+        "type": "item",
+        "label": "Andante and Scherzo capriccioso, Op.16",
+        "description": ""
+      },
+      {
+        "id": "bXxmkmLp",
+        "type": "item",
+        "label": "Nocturne No. 11 in G minor, Op. 37, No. 1",
+        "description": "composition by Chopin"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "August_Wilhelmj.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RudvEixs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RudvEixs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RudvEixs.csv"
       }
     ]
   }

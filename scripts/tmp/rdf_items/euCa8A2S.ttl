@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:euCa8A2S a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:k5PWRY6Q ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "string or wire that vibrates in a string instrument to produce a musical tone"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q326426>,
+        "16002457"^^xsd:string,
+        "euCa8A2S"^^xsd:string ;
+    skos:altLabel "instrument string"^^xsd:string,
+        "instrument wire"^^xsd:string,
+        "musical string"^^xsd:string,
+        "musical wire"^^xsd:string,
+        "string"^^xsd:string ;
+    skos:prefLabel "string"^^xsd:string,
+        "string number (sul X)"^^xsd:string ;
+    wd:P1535 faamentity:GoiPpGap ;
+    wd:P279 faamentity:gyJdd63T ;
+    wd:P31 faamentity:N2f5NSgz .
+

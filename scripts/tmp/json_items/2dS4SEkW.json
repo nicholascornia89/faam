@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1334711",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Emmanuel Hiel"
       }
     ]
   },
@@ -144,13 +145,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "2cMy9cfL",
+        "type": "item",
+        "label": "Ik droomde!",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902354759.gif"
+        }
+      },
+      {
+        "id": "dkF8Nxni",
+        "type": "item",
+        "label": "Ik droomde!",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902354767.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Hiel,_Emmanuel_(1834-1899);_dichter_en_schrijver,_Nauwens,_Joseph,_Felixarchief,_12_12840.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2dS4SEkW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2dS4SEkW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2dS4SEkW.csv"
       }
     ]
   }

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q67200001",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 430"
       }
     ]
   },
@@ -125,6 +126,101 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "RNyipx7o",
+        "type": "item",
+        "label": "Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-29805.gif"
+        }
+      },
+      {
+        "id": "6HySJtn4",
+        "type": "item",
+        "label": "24 Stücke : für Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22722.gif"
+        }
+      },
+      {
+        "id": "mM4YzhFx",
+        "type": "item",
+        "label": "Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22563.gif"
+        }
+      },
+      {
+        "id": "oCna5zHY",
+        "type": "item",
+        "label": "Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22768.gif"
+        }
+      },
+      {
+        "id": "CdQ6Cvwj",
+        "type": "item",
+        "label": "Pièces pour le Clavecin par Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903514823.gif"
+        }
+      },
+      {
+        "id": "XS4uFbwC",
+        "type": "item",
+        "label": "29 sonatas",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903597976.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ftEAe88r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ftEAe88r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ftEAe88r.csv"
+      }
+    ]
+  }
 }

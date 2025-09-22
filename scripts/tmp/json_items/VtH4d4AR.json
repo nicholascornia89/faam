@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q29303",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Canterbury"
       }
     ],
     "aliases": [
@@ -58,8 +59,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2653877"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VKguTzGL",
+        "type": "item",
+        "label": "Isaac Nathan",
+        "description": "Anglo-Australian composer, musicologist, journalist and self-publicist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Issac_nathan.jpg"
+        }
+      },
+      {
+        "id": "nmSBKmSb",
+        "type": "item",
+        "label": "Orlando Gibbons",
+        "description": "English composer, virginalist and organist (1583-1625)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Orlando_Gibbons.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VtH4d4AR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VtH4d4AR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VtH4d4AR.csv"
+      }
+    ]
+  }
 }

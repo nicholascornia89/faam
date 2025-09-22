@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q324490",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Emanuel Aloys Förster"
       }
     ]
   },
@@ -147,13 +148,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QeykFZBR",
+        "type": "item",
+        "label": "Leopold Jansa",
+        "description": "Czech violinist, music educator and composer (1795–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Leopold_Jansa.jpg"
+        }
+      },
+      {
+        "id": "9R8yMj4m",
+        "type": "item",
+        "label": "Joachim Hoffmann",
+        "description": "German musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Emanuel_Aloys_Foerster.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "P62D7Sef.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "P62D7Sef.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "P62D7Sef.csv"
       }
     ]
   }

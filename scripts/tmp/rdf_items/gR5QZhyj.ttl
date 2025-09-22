@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gR5QZhyj a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1808-12-25"^^xsd:string ;
+    schema1:birthPlace faamentity:jGe3vcFB ;
+    schema1:deathDate "1869-06-15"^^xsd:string ;
+    schema1:deathPlace faamentity:NLCYwQ4F,
+        faamentity:XkqNCutt ;
+    schema1:description "Belgian composer (1808–1869)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2003880>,
+        "15996267"^^xsd:string,
+        "gR5QZhyj"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Albert Grisar"^^xsd:string ;
+    skos:prefLabel "Albert Grisar"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:642146998552218942477 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/86196> ;
+    wd:P737 faamentity:NpqV6FTZ,
+        faamentity:oJGctqdB ;
+    wd:P839 <https://imslp.org/wiki/Category:Grisar,_Albert> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

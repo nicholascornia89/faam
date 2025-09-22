@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q365",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cologne"
       }
     ],
     "aliases": [
@@ -86,8 +87,120 @@
         "base_url": "https://www.geonames.org/",
         "label": "3247451"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iF9SrSF3",
+        "type": "item",
+        "label": "Max Bruch",
+        "description": "German romantic composer and conductor (1838-1920)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Max_bruch.jpg"
+        }
+      },
+      {
+        "id": "7rHfU9Tq",
+        "type": "item",
+        "label": "Franz Commer",
+        "description": "German composer (1813-1887)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "fDibLBdA",
+        "type": "item",
+        "label": "Engelbert Brepsant",
+        "description": "composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ew6jtvQa",
+        "type": "item",
+        "label": "Gilles van der Eeden",
+        "description": "German organist, musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "W498m7hT",
+        "type": "item",
+        "label": "Gustav Hermann Unger",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hermann_Unger.jpg"
+        }
+      },
+      {
+        "id": "Azq4wwdm",
+        "type": "item",
+        "label": "Johann Matthias Heberle",
+        "description": "German bookseller and auctioneer (1775-1840)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "PDC4sFML",
+        "type": "item",
+        "label": "Ferdinand Hiller",
+        "description": "German composer and conductor (1811–1885)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Hiller2.jpg"
+        }
+      },
+      {
+        "id": "Y5KJWcCx",
+        "type": "item",
+        "label": "Gustav Jensen",
+        "description": "German composer, violinist and music pedagogue (1843-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "62eKJkdm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "62eKJkdm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "62eKJkdm.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h6EVLm3C a rdfs:Resource ;
+    faamprop:related_to faamentity:QFnkBYdA ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1856-02-25"^^xsd:string ;
+    schema1:birthPlace faamentity:Km6ATdgQ ;
+    schema1:deathDate "1918-10-24"^^xsd:string ;
+    schema1:deathPlace faamentity:Km6ATdgQ ;
+    schema1:description "German musician (1856–1918)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6762261>,
+        "16005014"^^xsd:string,
+        "h6EVLm3C"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Marianne  Stresow"^^xsd:string,
+        "Marianne Scharwenka"^^xsd:string ;
+    skos:prefLabel "Marianne Scharwenka"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:ge9ACHGn ;
+    wd:P214 viaf:39800175 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Scharwenka-Stresow,_Marianne> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:irSPevuD .
+

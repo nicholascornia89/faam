@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4E6BBmZa a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:SnxsnGvi ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:KWVSVF8L,
+        faamentity:gBGqnipa ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:GXQfmtWo,
+        faamentity:g4Rg4Vbi ;
+    schema1:identifier "16005372"^^xsd:string,
+        "4E6BBmZa"^^xsd:string,
+        "ORP-20143703p13"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "La Patrouille Turque - Op. 83"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:8dmpbmcx .
+
+schema1:contributor a rdf:predicate .
+
+"4E6BBmZa-17469f02-bdfe-4477-8389-b86f92bfb275"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"4E6BBmZa-3e30bf5d-7faf-4bd1-94c7-ac92d38488b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"4E6BBmZa-8855ad06-a4f9-42a5-8116-752ff45581d6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:GXQfmtWo a rdf:object .
+
+faamentity:g4Rg4Vbi a rdf:object .
+

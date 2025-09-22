@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q154849",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Grand Duchy of Tuscany"
       }
     ],
     "aliases": [
@@ -57,6 +58,91 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JdYVjNkJ",
+        "type": "item",
+        "label": "Giacomo Puccini",
+        "description": "Italian opera composer (1858–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoPuccini.jpg"
+        }
+      },
+      {
+        "id": "FbNe7Pgk",
+        "type": "item",
+        "label": "Luigi Cherubini",
+        "description": "Italian Classical and Romantic composer (1760–1842)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Auguste-Dominique_Ingres_-_Luigi_Cherubini_-_Google_Art_Project.jpg"
+        }
+      },
+      {
+        "id": "2Myfzcub",
+        "type": "item",
+        "label": "Jean-Baptiste Lully",
+        "description": "Italian-born French composer (1632–1687)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Lully.jpeg"
+        }
+      },
+      {
+        "id": "7ggmViaM",
+        "type": "item",
+        "label": "Giovanni Carlo Maria Clari",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ndF5MKbV",
+        "type": "item",
+        "label": "Alessandro Felici",
+        "description": "Italian composer (1742-1772)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "WMS8NqAK",
+        "type": "item",
+        "label": "Giuseppe Cambini",
+        "description": "Italian musician (1746-1825)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FnKGfNg6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FnKGfNg6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FnKGfNg6.csv"
+      }
+    ]
+  }
 }

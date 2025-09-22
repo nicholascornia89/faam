@@ -1,0 +1,37 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XC9LW3oV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4AB2zi5z ;
+    schema1:identifier "16004303"^^xsd:string,
+        "KCA-030902603726"^^xsd:string,
+        "XC9LW3oV"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6743652/N"^^schema1:url ;
+    skos:prefLabel "Etrennes lyriques : méthode raisonnée pour exercer la voix et la préparer aux plus grandes difficultés"^^xsd:string ;
+    wd:P217 "MMPO-ZOE-MEES-etrenne-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"XC9LW3oV-f5661c46-404f-42aa-8715-eb2c78c22938"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:4AB2zi5z a rdf:object .
+

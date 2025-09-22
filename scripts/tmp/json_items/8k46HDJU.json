@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q174873",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cantata"
       }
     ],
     "aliases": [
@@ -51,6 +52,79 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "6XZjHJMe",
+        "type": "item",
+        "label": "Andromeda",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902126678.gif"
+        }
+      },
+      {
+        "id": "BZEa96qE",
+        "type": "item",
+        "label": "Hymne au roi (des belges) : air de concert : tenor ou mez. sop.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902584041.gif"
+        }
+      },
+      {
+        "id": "XiATANFQ",
+        "type": "item",
+        "label": "Kinder cantate",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902605721.gif"
+        }
+      },
+      {
+        "id": "mAxpgE8f",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-430904883.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Xjoq5ECp",
+        "type": "item",
+        "label": "Klokke Roeland, Op.17",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8k46HDJU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8k46HDJU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8k46HDJU.csv"
+      }
+    ]
+  }
 }

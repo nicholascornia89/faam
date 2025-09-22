@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VNeZWWGb a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ewwggKDh ;
+    schema1:description "composition by Franz Liszt"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5942833>,
+        "16004218"^^xsd:string,
+        "VNeZWWGb"^^xsd:string ;
+    skos:altLabel "Hungarian Rhapsody No. 9"^^xsd:string,
+        "Le carnaval de Pesth"^^xsd:string,
+        "Pesther Carneval"^^xsd:string ;
+    skos:prefLabel "Hungarian Rhapsody No. 9"^^xsd:string,
+        "Hungarian Rhapsody No.9, S.244/9"^^xsd:string ;
+    wd:P5202 faamentity:M3sjJXNR ;
+    wd:P7937 faamentity:G5pwZLWh,
+        faamentity:UGSpFRmF ;
+    wd:P839 <https://imslp.org/wiki/Hungarian_Rhapsody_No.9,_S.244/9_(Liszt,_Franz)> .
+

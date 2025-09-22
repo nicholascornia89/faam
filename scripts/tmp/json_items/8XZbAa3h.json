@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q128244",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Waco"
       }
     ],
     "aliases": [
@@ -72,8 +73,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "eVtBBzei",
+        "type": "item",
+        "label": "Baylor University",
+        "description": "private Baptist university in Waco, Texas, United States"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8XZbAa3h.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8XZbAa3h.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8XZbAa3h.csv"
+      }
+    ]
+  }
 }

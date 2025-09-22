@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PUD6vTPE a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:73vECvez ;
+    schema1:identifier "16002636"^^xsd:string,
+        "PUD6vTPE"^^xsd:string ;
+    skos:prefLabel "Symphonisch gedicht voor fluit en orkest, Op.43a"^^xsd:string ;
+    wd:P7937 faamentity:4ZvdnZdj,
+        faamentity:FXXnNaaQ,
+        faamentity:N9v5g9U5 ;
+    wd:P839 <https://imslp.org/wiki/Symphonisch_gedicht_voor_fluit_en_orkest,_Op.43a_(Benoit,_Peter)> .
+

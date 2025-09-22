@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Pa8EtqhE a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "German composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q126209050>,
+        "16005267"^^xsd:string,
+        "Pa8EtqhE"^^xsd:string ;
+    skos:altLabel "Carl Aal"^^xsd:string,
+        "Karl Aal"^^xsd:string ;
+    skos:prefLabel "Carl Aal"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:9499148947839354950006 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

@@ -1,0 +1,64 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U2oiTpTx a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1908"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9XeBLVBn,
+        faamentity:J6ERsasy,
+        faamentity:QJ92QxQv,
+        faamentity:WT9AcUBt,
+        faamentity:byLEfakR,
+        faamentity:c5cZmF37,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:K9MgTT3J,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:Wpq9sxzm,
+        faamentity:WtvibJFF,
+        faamentity:YWfofDz3,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:EEXifHqY ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8sxhcmoV,
+        faamentity:LWmfQ5pk ;
+    schema1:identifier "15992381"^^xsd:string,
+        "KCA-030901805850"^^xsd:string,
+        "U2oiTpTx"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6755742/N"^^schema1:url ;
+    skos:prefLabel "Toccate: pour piano"^^xsd:string ;
+    skosref:note "Dedicated to Marguerite Laenen."^^rdf:HTML ;
+    wd:P217 "MM-TP-DEBOE-tocca-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"U2oiTpTx-0fe9dc38-f486-4d2c-b939-e3f6cbb0ca28"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"U2oiTpTx-cc410490-09a4-4e98-8f86-a7ff9052883d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1908"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+faamentity:8sxhcmoV a rdf:object .
+
+faamentity:LWmfQ5pk a rdf:object .
+

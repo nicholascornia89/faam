@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q157672",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Daniel François Esprit Auber"
       }
     ]
   },
@@ -180,13 +181,129 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FcBs6ggy",
+        "type": "item",
+        "label": "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000353031.gif"
+        }
+      },
+      {
+        "id": "Lnsb6ZLw",
+        "type": "item",
+        "label": "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370141.gif"
+        }
+      },
+      {
+        "id": "idHuYiH5",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331412.gif"
+        }
+      },
+      {
+        "id": "G5MNRuFA",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331376.gif"
+        }
+      },
+      {
+        "id": "Vxw5Gio5",
+        "type": "item",
+        "label": "Garde à vous : Variations : Pour la Flûte sur un Motif de la fiancée avec accompagnement de deux Violons Alto et Basse ou Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331402.gif"
+        }
+      },
+      {
+        "id": "hquMT8gR",
+        "type": "item",
+        "label": "32me Potpourri : pour Piano et Flûte ou Violon : sur des motifs de l'Opéra Gustave ou le bal masqué : Oeuv: 259.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000352632.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TMdHggRf",
+        "type": "item",
+        "label": "La muette de Portici",
+        "description": "opera by Daniel Auber"
+      },
+      {
+        "id": "bDdxv7Ny",
+        "type": "item",
+        "label": "Le domino noir",
+        "description": "opéra comique by Daniel-François-Esprit Auber"
+      },
+      {
+        "id": "4sXtxEvM",
+        "type": "item",
+        "label": "Gustave III",
+        "description": "opera by Daniel-François-Esprit Auber"
+      },
+      {
+        "id": "h9bxZ33h",
+        "type": "item",
+        "label": "Le Dieu et la Bayadère",
+        "description": "opera by Daniel François Esprit Auber"
+      },
+      {
+        "id": "M9Zwn98G",
+        "type": "item",
+        "label": "La fiancée",
+        "description": "opera by Daniel François Esprit Auber"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Postcard-1910_Daniel_Fransois_Auber.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SU2CV5XY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SU2CV5XY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SU2CV5XY.csv"
       }
     ]
   }

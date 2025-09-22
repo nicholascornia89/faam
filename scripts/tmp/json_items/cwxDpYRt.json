@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1799",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wrocław"
       }
     ],
     "aliases": [
@@ -80,8 +81,119 @@
         "base_url": "https://www.geonames.org/",
         "label": "PL"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q577867",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kingdom of Poland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2cYc43Nw",
+        "type": "item",
+        "label": "Moritz Moszkowski",
+        "description": "German composer, pianist and teacher (1854–1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Moritz_Moszkowski.jpg"
+        }
+      },
+      {
+        "id": "ejpyTMJt",
+        "type": "item",
+        "label": "Willibald Alexis",
+        "description": "German historical novelist (1798–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Willibald_Alexis.jpg"
+        }
+      },
+      {
+        "id": "8rsqcHHY",
+        "type": "item",
+        "label": "Frank Damrosch",
+        "description": "German American conductor and music educator (1859–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "F._Damrosch_LCCN2014715142.jpg"
+        }
+      },
+      {
+        "id": "Tqj5nHqi",
+        "type": "item",
+        "label": "Max Kalbeck",
+        "description": "German music critic, poet (1850-1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Max_Kalbeck.jpg"
+        }
+      },
+      {
+        "id": "6J5JonDa",
+        "type": "item",
+        "label": "Eduard Franck",
+        "description": "German composer (1817-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eduard_Franck.png"
+        }
+      },
+      {
+        "id": "F7UHqgWH",
+        "type": "item",
+        "label": "Adolph Friedrich Hesse",
+        "description": "German organist and composer (1809-1863)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Hesse.jpg"
+        }
+      },
+      {
+        "id": "F7UHqgWH",
+        "type": "item",
+        "label": "Adolph Friedrich Hesse",
+        "description": "German organist and composer (1809-1863)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Hesse.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "PdqN88SB",
+        "type": "item",
+        "label": "University of Wrocław",
+        "description": "Polish university"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cwxDpYRt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cwxDpYRt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cwxDpYRt.csv"
+      }
+    ]
+  }
 }

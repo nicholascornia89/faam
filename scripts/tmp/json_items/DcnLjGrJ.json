@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q202919",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "berceuse"
       }
     ],
     "aliases": [
@@ -55,6 +56,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "J6AHAEkf",
+        "type": "item",
+        "label": "Berceuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904192652.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "EqE74a9L",
+        "type": "item",
+        "label": "Berceuse No.1",
+        "description": ""
+      },
+      {
+        "id": "T2BPs4RF",
+        "type": "item",
+        "label": "Berceuse, Op. 16",
+        "description": "composition for violin and and piano by Gabriel Fauré"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DcnLjGrJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DcnLjGrJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DcnLjGrJ.csv"
+      }
+    ]
+  }
 }

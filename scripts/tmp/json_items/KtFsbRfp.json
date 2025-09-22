@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q10428388",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bergen Municipality"
       }
     ],
     "aliases": [
@@ -66,8 +67,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "3161733"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "HMexNmKL",
+        "label": "Norway"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "RwjCKWSa",
+        "type": "item",
+        "label": "Tanks Upper Secondary School",
+        "description": "secondary school in Bergen, Norway"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KtFsbRfp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KtFsbRfp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KtFsbRfp.csv"
+      }
+    ]
+  }
 }

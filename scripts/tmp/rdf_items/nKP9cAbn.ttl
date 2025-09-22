@@ -1,0 +1,53 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nKP9cAbn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:26sE4HQd,
+        faamentity:cmSbhehf ;
+    schema1:birthDate "1882-06-18"^^xsd:string ;
+    schema1:birthPlace faamentity:8FnrVUvj,
+        faamentity:AzqRtNds ;
+    schema1:deathDate "1971-04-06"^^xsd:string ;
+    schema1:deathPlace faamentity:nAtZMFD9 ;
+    schema1:description "Russian composer (1882–1971)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7314>,
+        "15996148"^^xsd:string,
+        "nKP9cAbn"^^xsd:string ;
+    schema1:nationality faamentity:8Hwgz854,
+        faamentity:Eqo9Fq2n,
+        faamentity:LbfJnd9y,
+        faamentity:WKTLcAet,
+        faamentity:jN8Vq8mU ;
+    skos:altLabel "I. Strawinsky"^^xsd:string,
+        "Igor Fedorovich Stravinsky"^^xsd:string,
+        "Igor Feodorovich Stravinsky"^^xsd:string,
+        "Igor Fyodorovich Stravinsky"^^xsd:string,
+        "Igor Stravinski"^^xsd:string,
+        "Igor Stravinskii"^^xsd:string,
+        "Igor Stravinsky"^^xsd:string,
+        "Igor Strawinski"^^xsd:string,
+        "Igor Strawinskij"^^xsd:string,
+        "Igor Strawinsky"^^xsd:string,
+        "Jgor Strawinsky"^^xsd:string,
+        "Stravinsky"^^xsd:string ;
+    skos:prefLabel "Igor Stravinsky"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:17309155 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/132137> ;
+    wd:P737 faamentity:Tmgjn2jz,
+        faamentity:iftNgJUf ;
+    wd:P839 <https://imslp.org/wiki/Category:Stravinsky,_Igor> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:U5ovsTg3 .
+

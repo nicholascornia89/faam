@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NgFpoygv a rdfs:Resource ;
+    schema1:Class "role"^^xsd:string ;
+    schema1:description "someone who has great knowledge"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20826540>,
+        "15990791"^^xsd:string,
+        "NgFpoygv"^^xsd:string ;
+    skos:altLabel "erudite person"^^xsd:string,
+        "learned person"^^xsd:string,
+        "scholar"^^xsd:string,
+        "scholarly person"^^xsd:string ;
+    skos:prefLabel "scholar"^^xsd:string,
+        "scholar (owner)"^^xsd:string .
+

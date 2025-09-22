@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1345",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Philadelphia"
       }
     ],
     "aliases": [
@@ -88,8 +89,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "4560347"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "F24QHx9u",
+        "type": "item",
+        "label": "Kerry Mills",
+        "description": "American ragtime composer and music publishing executive (1869–1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HNfmMJ7z.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HNfmMJ7z.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HNfmMJ7z.csv"
+      }
+    ]
+  }
 }

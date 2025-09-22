@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q114870500",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Violin concerto in C major (RV 179)"
       }
     ]
   },
@@ -95,6 +96,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "YAoM7BBf",
+        "type": "item",
+        "label": "13. | Concerto. | del | Antonio Vivaldi. | Viol. conc., Viol +11, Viola, e Basso.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA9.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kPkqnAtX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kPkqnAtX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kPkqnAtX.csv"
+      }
+    ]
+  }
 }

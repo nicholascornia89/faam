@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1444369",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Frank Van der Stucken"
       }
     ]
   },
@@ -167,13 +168,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "TVBKXL35",
+        "type": "item",
+        "label": "Musik zu Shakespeare's \"Sturm\", Op. 8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901696879.gif"
+        }
+      },
+      {
+        "id": "ey8cKZdW",
+        "type": "item",
+        "label": "Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901697265.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "dKTcE2GB",
+        "type": "item",
+        "label": "Pagina d'Amore, Op.10",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/a/af/FrankVanderStucken.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TAmJyykf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TAmJyykf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TAmJyykf.csv"
       }
     ]
   }

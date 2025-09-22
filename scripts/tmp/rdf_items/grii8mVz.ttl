@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:grii8mVz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:GziQMKQy,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:eCYL2PkE,
+        faamentity:eijiWF3A,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8sxhcmoV,
+        faamentity:CbtAbQDg,
+        faamentity:b4N9xf7f ;
+    schema1:identifier "16005692"^^xsd:string,
+        "DPF-202502041"^^xsd:string,
+        "grii8mVz"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales."^^xsd:string ;
+    skosref:related faamentity:JdpDgwnm ;
+    wd:P217 "not available"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"grii8mVz-0d9bafb7-b473-4a22-b681-4a1d9ad1d228"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"grii8mVz-5fc2c26a-5b4e-426c-8678-42c3acc3fe8b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"grii8mVz-c6f662a4-f6c9-4dff-8637-551a7c781026"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+faamentity:8sxhcmoV a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:b4N9xf7f a rdf:object .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q4255225",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Lauska"
       }
     ]
   },
@@ -149,13 +150,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SGrSvda8",
+        "type": "item",
+        "label": "Felix Mendelssohn",
+        "description": "German composer, pianist, organist and conductor of Jewish descent (1809–1847)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mendelssohn_Bartholdy.jpg"
+        }
+      },
+      {
+        "id": "5ymmKpXF",
+        "type": "item",
+        "label": "Giacomo Meyerbeer",
+        "description": "German-French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Meyerbeer_d'après_P._Petit_b_1865.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "heDPeRxF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "heDPeRxF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "heDPeRxF.csv"
       }
     ]
   }

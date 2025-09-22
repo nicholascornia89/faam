@@ -1,0 +1,54 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XBjGQVps a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:AfyB6jzM,
+        faamentity:isT2xDMy ;
+    schema1:birthDate "1903-09-11"^^xsd:string ;
+    schema1:birthPlace faamentity:SptwZTXr ;
+    schema1:deathDate "1969-08-06"^^xsd:string ;
+    schema1:deathPlace faamentity:dwmYiSAk ;
+    schema1:description "German philosopher, sociologist and theorist (1903–1969)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q152388>,
+        "15995831"^^xsd:string,
+        "XBjGQVps"^^xsd:string ;
+    schema1:nationality faamentity:LbfJnd9y,
+        faamentity:T5D6K3Dc,
+        faamentity:jN8Vq8mU,
+        faamentity:kyFWDzyM,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Teodor V. Adorno"^^xsd:string,
+        "Theodor Adorno"^^xsd:string,
+        "Theodor Ludwig Wiesengrund-Adorno"^^xsd:string,
+        "Theodor W. Adorno"^^xsd:string,
+        "Theodor Wiesengrund"^^xsd:string,
+        "Theodor Wiesengrund Adorno"^^xsd:string,
+        "Theodor Wiesengrund-Adorno"^^xsd:string,
+        "Theodore W. Adorno"^^xsd:string ;
+    skos:prefLabel "Theodor W. Adorno"^^xsd:string ;
+    wd:P108 faamentity:isT2xDMy ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:95247377 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40200366> ;
+    schema:hasOccupation faamentity:BWMmyi3x,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:MWj4YCrh,
+        faamentity:Mk6HJN99,
+        faamentity:RHfvaKqY,
+        faamentity:S2vFMki7,
+        faamentity:THjfP9Vy,
+        faamentity:VPUDk9Pe,
+        faamentity:YYyZX3aY,
+        faamentity:Yq29seNw,
+        faamentity:ZX7Jzf9y .
+

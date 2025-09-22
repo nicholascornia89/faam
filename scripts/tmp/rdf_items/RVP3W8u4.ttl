@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RVP3W8u4 a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1881-12-08"^^xsd:string ;
+    schema1:birthPlace faamentity:ifDBdicc ;
+    schema1:deathDate "1969-10-07"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "Russian Translator (1881–1969)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q373117>,
+        "16002812"^^xsd:string,
+        "RVP3W8u4"^^xsd:string ;
+    schema1:nationality faamentity:CaPmHone,
+        faamentity:Eqo9Fq2n,
+        faamentity:WKTLcAet ;
+    skos:altLabel "Boris de Schloezer"^^xsd:string,
+        "Boris de Schlözer"^^xsd:string ;
+    skos:prefLabel "Boris de Schlözer"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:106969633 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:QhRQ5LW9 ;
+    schema:hasOccupation faamentity:NcRBkJKT,
+        faamentity:YYyZX3aY .
+

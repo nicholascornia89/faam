@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q69912",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Wilhelm Taubert"
       }
     ]
   },
@@ -162,13 +163,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "82wmXrwP",
+        "type": "item",
+        "label": "Theodor Kullak",
+        "description": "German musician (1818-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_Kullak.jpg"
+        }
+      },
+      {
+        "id": "fbVWXXr3",
+        "type": "item",
+        "label": "Arnold Mendelssohn",
+        "description": "German composer and music teacher (1855-1933)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Eduard_Magnus_Bildnis_Wilhelm_Taubert.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AQayVJjL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AQayVJjL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AQayVJjL.csv"
       }
     ]
   }

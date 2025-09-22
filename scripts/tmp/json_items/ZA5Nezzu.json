@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q681931",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bavarian State Opera"
       }
     ],
     "aliases": [
@@ -60,6 +61,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YQqnSHfe",
+        "type": "item",
+        "label": "Felix Mottl",
+        "description": "Austrian conductor and composer (1856-1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mottl.jpg"
+        }
+      },
+      {
+        "id": "NDwTXxR8",
+        "type": "item",
+        "label": "Franz Lachner",
+        "description": "German composer and conductor (1803-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Lachner.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZA5Nezzu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZA5Nezzu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZA5Nezzu.csv"
+      }
+    ]
+  }
 }

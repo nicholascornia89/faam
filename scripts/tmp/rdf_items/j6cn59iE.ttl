@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j6cn59iE a rdfs:Resource ;
+    faamprop:role faamentity:ipShXcQo ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1865-09-24"^^xsd:string ;
+    schema1:birthPlace faamentity:AA36FJAY ;
+    schema1:deathDate "1932-08-13"^^xsd:string ;
+    schema1:deathPlace faamentity:nPpdkcAP ;
+    schema1:description "Flemish writer and poet (1865-1932)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15877683>,
+        "16002603"^^xsd:string,
+        "j6cn59iE"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "J. Herten"^^xsd:string,
+        "Jan van Hasselt"^^xsd:string,
+        "L. Lambrechts"^^xsd:string,
+        "Lambrecht Lambrechts"^^xsd:string,
+        "Lambrecht Renier"^^xsd:string,
+        "R.L. Doornkapper"^^xsd:string ;
+    skos:prefLabel "Lambrecht Lambrechts"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:21077845 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Lambrechts,_Lambrecht> ;
+    schema:hasOccupation faamentity:HFXn6pSD,
+        faamentity:RBYR5Rtm .
+

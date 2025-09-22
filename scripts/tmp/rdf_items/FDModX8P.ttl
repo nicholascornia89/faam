@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FDModX8P a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1783-01-20"^^xsd:string ;
+    schema1:birthPlace faamentity:XDJ2YqMT ;
+    schema1:deathDate "1860-03-06"^^xsd:string ;
+    schema1:deathPlace faamentity:MCyXT4P3 ;
+    schema1:description "German composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q84376>,
+        "15995982"^^xsd:string,
+        "FDModX8P"^^xsd:string ;
+    schema1:nationality faamentity:EjofKZsr ;
+    skos:altLabel "Friedrich Dotzauer"^^xsd:string,
+        "Justus Johann Friedrich Dotzauer"^^xsd:string ;
+    skos:prefLabel "Friedrich Dotzauer"^^xsd:string ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:51875014 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/19269> ;
+    wd:P839 <https://imslp.org/wiki/Category:Dotzauer,_Friedrich> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

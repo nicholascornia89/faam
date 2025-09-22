@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TNm8KS5J a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:8Ki8U5U4,
+        faamentity:AeKhRWCB,
+        faamentity:BarxiZYR,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:Wpq9sxzm,
+        faamentity:XutP4SZN,
+        faamentity:YWfofDz3,
+        faamentity:bZxRjBKt,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:A85JP7AT,
+        faamentity:E2chmtzQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:4mYssfUB,
+        faamentity:oJV7Jiqq ;
+    schema1:hasPart faamentity:DMkMcXL8 ;
+    schema1:identifier "16004129"^^xsd:string,
+        "KCA-030904127930"^^xsd:string,
+        "TNm8KS5J"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14808159/N"^^schema1:url ;
+    skos:prefLabel "Sonate : n° 7 f moll: für Orgel, op. 127"^^xsd:string ;
+    skosref:related faamentity:XutP4SZN ;
+    wd:P217 "MM-TO-RHEIN-sonat7-1"^^xsd:string ;
+    wd:P870 faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"TNm8KS5J-3f0da6e0-30dd-4042-b255-87c26fee144b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"TNm8KS5J-413feadb-ecc2-42db-a0d8-38c1034173e9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TNm8KS5J-44cddb09-404a-41cc-81ac-e067ab5cc3c0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:4mYssfUB a rdf:object .
+
+faamentity:oJV7Jiqq a rdf:object .
+

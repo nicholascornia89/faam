@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q15912",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Municipality of Ribnica"
       }
     ],
     "aliases": [
@@ -58,8 +59,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "3191679"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q215",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Slovenia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "h9FmqTaf",
+        "type": "item",
+        "label": "Jacobus Gallus",
+        "description": "Slovenian Renaissance composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jakob_Petelin_Gallus_1590_(cropped).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DLZAQvLA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DLZAQvLA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DLZAQvLA.csv"
+      }
+    ]
+  }
 }

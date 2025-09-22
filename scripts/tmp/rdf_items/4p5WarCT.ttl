@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix imslp: <https://imslp.org/wiki/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4p5WarCT a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1125387>,
+        "16004335"^^xsd:string,
+        "4p5WarCT"^^xsd:string ;
+    skos:altLabel "F. E. C. Leuckart Verlag"^^xsd:string ;
+    skos:prefLabel "F. E. C. Leuckart Verlag"^^xsd:string ;
+    wd:P214 viaf:313448715 ;
+    wd:P31 faamentity:2fXfbLCV,
+        faamentity:GBgJfRbK ;
+    wd:P839 imslp:F.E.C._Leuckart .
+

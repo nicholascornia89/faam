@@ -66,7 +66,8 @@
       {
         "type": "externalid",
         "value": "Q83326",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Béla Bartók"
       }
     ]
   },
@@ -250,13 +251,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "VcLWV8RD",
+        "type": "item",
+        "label": "The well-tempered clavier: 48 preludes and fugues",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901733573.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "B5MkJNa4",
+        "type": "item",
+        "label": "The Well-Tempered Clavier",
+        "description": "collection of solo keyboard music by J.S. Bach"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Bartók_Béla_1927.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RjvWVtgw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RjvWVtgw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RjvWVtgw.csv"
       }
     ]
   }

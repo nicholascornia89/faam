@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fTVDUXqW a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:DqMNcjpW,
+        faamentity:NsEoE4RP,
+        faamentity:Skma2JzR,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:bsgSL8K5,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:B7WuhvkL ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:Cud74GBt,
+        faamentity:MaWnCnVw,
+        faamentity:RHxmTGG2,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:R7dCbrrH,
+        faamentity:ghFBmNbP ;
+    schema1:hasPart faamentity:EBCdXbZt ;
+    schema1:identifier "16003990"^^xsd:string,
+        "KCG-000735722"^^xsd:string,
+        "fTVDUXqW"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000735722"^^schema1:url ;
+    skos:prefLabel "Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson"^^xsd:string ;
+    wd:P217 "DS-1389"^^xsd:string ;
+    wd:P870 faamentity:4AUBYBXJ,
+        faamentity:GCEGkwjT,
+        faamentity:MFQUhgoe,
+        faamentity:MV3uErvy,
+        faamentity:N3AKKugd .
+
+schema1:contributor a rdf:predicate .
+
+"fTVDUXqW-46b2d536-2fd2-4f7c-a000-aaefda5030fe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:8LdweD7c .
+
+"fTVDUXqW-94be523c-9b71-4dc9-b06e-fbd111c0934f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"fTVDUXqW-ce99648e-7b37-4d1e-9bb0-217c76faf53e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:R7dCbrrH a rdf:object .
+
+faamentity:ghFBmNbP a rdf:object .
+

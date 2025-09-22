@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZnHbmhfu a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "priest of the Catholic Church"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q250867>,
+        "15990925"^^xsd:string,
+        "ZnHbmhfu"^^xsd:string ;
+    skos:altLabel "Catholic presbyter"^^xsd:string,
+        "Catholic priest"^^xsd:string,
+        "Priester"^^xsd:string,
+        "presbyter"^^xsd:string,
+        "priest"^^xsd:string ;
+    skos:prefLabel "Catholic priest"^^xsd:string,
+        "music historian"^^xsd:string .
+

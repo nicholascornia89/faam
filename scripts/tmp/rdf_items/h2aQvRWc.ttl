@@ -1,0 +1,139 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h2aQvRWc a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:27q2kct9,
+        faamentity:3ts8CrNB,
+        faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:GTTB7Xre ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2Myfzcub,
+        faamentity:9bPsZW9o,
+        faamentity:AAfzVCYS,
+        faamentity:AXdy8YbX,
+        faamentity:FimCssKK,
+        faamentity:NTqtYmnQ,
+        faamentity:RrLB9o6R,
+        faamentity:VjBDvhx8,
+        faamentity:VnpRkbJL,
+        faamentity:XWyCxo46,
+        faamentity:Y92jDuyZ,
+        faamentity:Z5NoBG6x,
+        faamentity:Z7ANhCGa,
+        faamentity:cfjvBLvn,
+        faamentity:igARNUFw ;
+    schema1:identifier "16005048"^^xsd:string,
+        "SML-18839"^^xsd:string,
+        "h2aQvRWc"^^xsd:string ;
+    schema1:location faamentity:bsTArmEN ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910342143405216"^^schema1:url ;
+    skos:prefLabel "Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer."^^xsd:string ;
+    skosref:related faamentity:GL6cdbbi ;
+    wd:P217 "M21 .P32"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"h2aQvRWc-0f55db2a-756b-4dfb-aa2d-5299939bd275"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:bsTArmEN .
+
+"h2aQvRWc-1a803b3b-9c5a-401e-b6ed-bb843ea1af56"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-3244cba7-0dd2-4535-b07a-0ca5e87e3b0a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-4ee2afc6-4ff7-4df2-82c9-6ac1e0bf2c80"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-7ecbd03d-0c33-4926-a76f-a1d928a14738"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-889b82ed-f429-46ff-a7e0-d595b7761e79"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-8d7deb2f-baa9-484a-b3aa-8250d95882c5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-965a625c-b549-42de-9585-c1ca3b634da4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-9be695f5-4d51-43dd-b991-674280359be6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-a7c5d192-a32c-4eba-83b6-635300220ff1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-b2892419-feee-4bfd-ba6e-b0658494da38"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"h2aQvRWc-c0e600d9-9e1a-48af-8055-9a1d15c5f5d6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-d1f5dd5c-11b2-4c26-b39f-1517c2af6ade"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-defab2e0-b685-4103-b363-2c17edce4cfc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"h2aQvRWc-fa48d031-8b15-482f-baab-fb06cc8df27b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:2Myfzcub a rdf:object .
+
+faamentity:9bPsZW9o a rdf:object .
+
+faamentity:AAfzVCYS a rdf:object .
+
+faamentity:AXdy8YbX a rdf:object .
+
+faamentity:FimCssKK a rdf:object .
+
+faamentity:NTqtYmnQ a rdf:object .
+
+faamentity:RrLB9o6R a rdf:object .
+
+faamentity:VjBDvhx8 a rdf:object .
+
+faamentity:VnpRkbJL a rdf:object .
+
+faamentity:XWyCxo46 a rdf:object .
+
+faamentity:Y92jDuyZ a rdf:object .
+
+faamentity:Z5NoBG6x a rdf:object .
+
+faamentity:Z7ANhCGa a rdf:object .
+
+faamentity:cfjvBLvn a rdf:object .
+
+faamentity:igARNUFw a rdf:object .
+

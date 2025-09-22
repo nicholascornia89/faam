@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PmoGKNnr a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© University of Toronto Libraries"^^xsd:string ;
+    schema1:description "library system of the University of Toronto"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7896490>,
+        "15992252"^^xsd:string,
+        "PmoGKNnr"^^xsd:string ;
+    schema1:location faamentity:3M3RTF8D,
+        faamentity:6ipjmaTm ;
+    schema1:url "https://onesearch.library.utoronto.ca/"^^schema1:url ;
+    skos:altLabel "U of T Libraries"^^xsd:string,
+        "UTL"^^xsd:string,
+        "University of Toronto Libraries"^^xsd:string,
+        "University of Toronto Library"^^xsd:string ;
+    skos:prefLabel "University of Toronto Libraries"^^xsd:string ;
+    wd:P1813 "UTL"^^xsd:string .
+

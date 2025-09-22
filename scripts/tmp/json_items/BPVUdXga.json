@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q69676",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gustav Schreck"
       }
     ]
   },
@@ -163,13 +164,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FegBCTrb",
+        "type": "item",
+        "label": "CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331901.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "ixNgtbqv",
+        "type": "item",
+        "label": "Concerto for Two Violins",
+        "description": "BWV 1043 by Johann Sebastian Bach"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BPVUdXga.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BPVUdXga.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BPVUdXga.csv"
       }
     ]
   }

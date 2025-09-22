@@ -1,0 +1,22 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NMpDRXik a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:d9ivtsWG ;
+    schema1:identifier "16002680"^^xsd:string,
+        "NMpDRXik"^^xsd:string ;
+    skos:prefLabel "Diffusa est gratia"^^xsd:string ;
+    wd:P2000 cpdl:Diffusa_est_gratia_\(Giovanni_Maria_Nanino\) ;
+    wd:P5202 faamentity:36FvuTcU,
+        faamentity:6ng5YJy5,
+        faamentity:CJgFHXHi,
+        faamentity:VsAY6UsF ;
+    wd:P7937 faamentity:Z5LXHFLR ;
+    wd:P839 <https://imslp.org/wiki/Diffusa_est_gratia_(Nanino,_Giovanni_Bernardino)> .
+

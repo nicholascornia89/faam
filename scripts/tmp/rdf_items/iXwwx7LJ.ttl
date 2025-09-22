@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iXwwx7LJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Yj5tRovx ;
+    schema1:birthDate "1944-02-16"^^xsd:string ;
+    schema1:birthPlace faamentity:eYddYKnQ ;
+    schema1:description "Belgian musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q506771>,
+        "15995813"^^xsd:string,
+        "iXwwx7LJ"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Sigiswald Kuijken"^^xsd:string ;
+    skos:prefLabel "Sigiswald Kuijken"^^xsd:string ;
+    wd:P108 faamentity:Yj5tRovx,
+        faamentity:ZeWRTyaP ;
+    wd:P1303 faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:29718421 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:ZX7Jzf9y,
+        faamentity:irSPevuD,
+        faamentity:jmrmjM9v .
+

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nkfT3fJP a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12019693>,
+        "0"^^xsd:string,
+        "nkfT3fJP"^^xsd:string ;
+    schema1:location faamentity:5rRqvsj3,
+        faamentity:7pXkvEco ;
+    skos:prefLabel "Hlahol Prague"^^xsd:string .
+

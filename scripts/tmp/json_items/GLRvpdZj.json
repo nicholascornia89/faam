@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q23482",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marseille"
       }
     ],
     "aliases": [
@@ -98,8 +99,124 @@
         "base_url": "https://www.geonames.org/",
         "label": "2995469"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G2M2kJyy",
+        "type": "item",
+        "label": "Ernest Reyer",
+        "description": "French opera composer and music critic (1823–1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ernest_Reyer_par_Carjat.png"
+        }
+      },
+      {
+        "id": "922ZsC8W",
+        "type": "item",
+        "label": "Darius Milhaud",
+        "description": "French composer (1892–1974)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Darius_Milhaud_b_Meurisse_1923.jpg"
+        }
+      },
+      {
+        "id": "2bKoaawy",
+        "type": "item",
+        "label": "Édouard Gérard",
+        "description": "French music publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "WHaMpcio",
+        "type": "item",
+        "label": "Jean-Étienne-Guillaume Arnaud",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "57TxaobZ",
+        "type": "item",
+        "label": "François Bazin",
+        "description": "French opera composer (1816–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François_Bazin_par_Carjat_BNF_Gallica.png"
+        }
+      },
+      {
+        "id": "WHaMpcio",
+        "type": "item",
+        "label": "Jean-Étienne-Guillaume Arnaud",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Q9JtJjKV",
+        "type": "item",
+        "label": "Jean-Vital Jammes",
+        "description": "French opera singer (1825–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Vital_Jammes.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "AL7ZaMp5",
+        "type": "item",
+        "label": "Lycée Thiers",
+        "description": "educational facility in Marseille, France"
+      },
+      {
+        "id": "LaNFc5ML",
+        "type": "item",
+        "label": "Conservatoire à rayonnement régional de Marseille",
+        "description": "Music and art academie in Marseille , France"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GLRvpdZj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GLRvpdZj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GLRvpdZj.csv"
+      }
+    ]
+  }
 }

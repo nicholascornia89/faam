@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KZrU2z7x a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "27-06-1908"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:KWVSVF8L,
+        faamentity:M6r7boi8,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Tmgjn2jz,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005591"^^xsd:string,
+        "KZrU2z7x"^^xsd:string,
+        "ORP-20143988p88"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Snegourotchka (Fleur de Neige). Troisième Chanson de Lel"^^xsd:string ;
+    skosref:note """L'Illustration, N.
+L'Illustration, N."""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"KZrU2z7x-1118df04-3f75-4932-ac5f-4430fed1aed1"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "27-06-1908"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"KZrU2z7x-7372e60f-f0b8-4324-8181-311f87a92c6a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KZrU2z7x-aeeb8bd1-3cbc-4ca5-ac85-e4f6c536fa9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KZrU2z7x-b284fb63-df09-406b-9552-424b3ce17217"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Tmgjn2jz a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

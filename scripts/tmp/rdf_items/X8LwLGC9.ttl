@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:X8LwLGC9 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Polish university of music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1340262>,
+        "16004767"^^xsd:string,
+        "X8LwLGC9"^^xsd:string ;
+    schema1:location faamentity:JRTTuQvY,
+        faamentity:QCaqDkhb ;
+    skos:altLabel "Chopin School of Music"^^xsd:string,
+        "Chopin University of Music"^^xsd:string,
+        "Fryderyk Chopin Music Academy"^^xsd:string,
+        "Fryderyk Chopin University of Music"^^xsd:string ;
+    skos:prefLabel "Chopin University of Music"^^xsd:string .
+

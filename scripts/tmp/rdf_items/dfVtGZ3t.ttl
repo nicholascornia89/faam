@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dfVtGZ3t a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1510-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:bzwH2j9G ;
+    schema1:deathDate "1587-02-09"^^xsd:string ;
+    schema1:deathPlace faamentity:UsGuXsqR ;
+    schema1:description "Italian composer (1510-1587)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1494084>,
+        "16002761"^^xsd:string,
+        "dfVtGZ3t"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M,
+        faamentity:7isyBsAv ;
+    skos:altLabel "Vincenzo Ruffo"^^xsd:string ;
+    skos:prefLabel "Vincenzo Ruffo"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56797555 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002765> ;
+    wd:P737 faamentity:CrE4i26k,
+        faamentity:Un5dusVr ;
+    wd:P839 <https://imslp.org/wiki/Category:Ruffo,_Vincenzo> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

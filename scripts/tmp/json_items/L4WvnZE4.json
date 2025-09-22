@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q2944224",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cinderella"
       }
     ]
   },
@@ -63,6 +64,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "djDjePrU",
+        "type": "item",
+        "label": "La Cenerentola",
+        "description": "opera by Gioachino Rossini"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L4WvnZE4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L4WvnZE4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L4WvnZE4.csv"
+      }
+    ]
+  }
 }

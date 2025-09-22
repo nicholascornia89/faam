@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2sFrtWXK a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "constituent college of the University of Oxford in England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q81162>,
+        "15991063"^^xsd:string,
+        "2sFrtWXK"^^xsd:string ;
+    schema1:location faamentity:6SShoPW2,
+        faamentity:MGBpLC55,
+        faamentity:bSPC7zMk ;
+    skos:altLabel "Magdalen College"^^xsd:string,
+        "Magdalen College, Oxford"^^xsd:string,
+        "The President and Fellows of the College of St Mary Magdalen in the University of Oxford"^^xsd:string ;
+    skos:prefLabel "Magdalen College"^^xsd:string .
+

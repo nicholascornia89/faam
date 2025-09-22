@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JVdzEj2v a rdfs:Resource ;
+    faamprop:role faamentity:ipShXcQo ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1873-06-19"^^xsd:string ;
+    schema1:deathDate "1944-10-14"^^xsd:string ;
+    schema1:description "Dutch poet (1873-1944)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2699392>,
+        "16002586"^^xsd:string,
+        "JVdzEj2v"^^xsd:string ;
+    schema1:nationality faamentity:6ZFENHKx,
+        faamentity:ZvjsCjDf ;
+    skos:altLabel "Joannes Reddingius"^^xsd:string ;
+    skos:prefLabel "Joannes Reddingius"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:17148207624400340695 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:RBYR5Rtm .
+

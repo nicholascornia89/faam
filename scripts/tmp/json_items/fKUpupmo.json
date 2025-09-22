@@ -36,12 +36,50 @@
       {
         "type": "externalid",
         "value": "Q1639408",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "musical parameter"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "eviEKifd",
+        "type": "item",
+        "label": "dynamic",
+        "description": "volume of a sound or note"
+      },
+      {
+        "id": "CPJ2a2C2",
+        "type": "item",
+        "label": "articulation",
+        "description": "musical performance technique that affects the transition or continuity on notes"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fKUpupmo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fKUpupmo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fKUpupmo.csv"
+      }
+    ]
+  }
 }

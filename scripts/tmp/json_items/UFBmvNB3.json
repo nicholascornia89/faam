@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q21600966",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles Bouvet"
       }
     ]
   },
@@ -184,13 +185,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Hy9ZASPZ",
+        "type": "item",
+        "label": "3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920086.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Salle_du_Cercle_Artistique_et_Littéraire_-_Une_séance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UFBmvNB3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UFBmvNB3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UFBmvNB3.csv"
       }
     ]
   }

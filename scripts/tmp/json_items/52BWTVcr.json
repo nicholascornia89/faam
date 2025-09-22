@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q21694733",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gloucestershire"
       }
     ],
     "aliases": [
@@ -54,8 +55,52 @@
         "base_url": "https://www.geonames.org/",
         "label": "2648402"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "m97GDQ7n",
+        "type": "item",
+        "label": "Pate's Grammar School",
+        "description": "school in Gloucestershire, UK"
+      },
+      {
+        "id": "96fzPcRu",
+        "type": "item",
+        "label": "Westonbirt School",
+        "description": "school in Gloucestershire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "52BWTVcr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "52BWTVcr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "52BWTVcr.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gwm9ve42 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public university in Munich, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55044>,
+        "15991051"^^xsd:string,
+        "Gwm9ve42"^^xsd:string ;
+    schema1:location faamentity:M2keqc3n,
+        faamentity:apWTjrTS,
+        faamentity:mpPcxWPa,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "LMU"^^xsd:string,
+        "LMU Munich"^^xsd:string,
+        "Ludwig-Maximilians - University of Munich"^^xsd:string,
+        "Ludwig-Maximilians-University of Munich"^^xsd:string,
+        "Ludwig-Maximilians-Universität"^^xsd:string,
+        "Ludwig-Maximilians-Universität München"^^xsd:string,
+        "Munich University"^^xsd:string,
+        "University of Munich"^^xsd:string ;
+    skos:prefLabel "Ludwig Maximilian University of Munich"^^xsd:string,
+        "Ludwig-Maximilians-Universität München"^^xsd:string .
+

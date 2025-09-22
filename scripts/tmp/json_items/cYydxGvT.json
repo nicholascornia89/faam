@@ -53,13 +53,15 @@
     "score format": [
       {
         "type": "item",
-        "value": "ktjyHrtb"
+        "value": "ktjyHrtb",
+        "label": "Full Score"
       }
     ],
     "score complexity": [
       {
         "type": "item",
-        "value": "iTQMfTAE"
+        "value": "iTQMfTAE",
+        "label": "Mechanical print"
       }
     ]
   },
@@ -78,36 +80,43 @@
     "handwritten annotation": [
       {
         "type": "item",
-        "value": "UfinksVv"
+        "value": "UfinksVv",
+        "label": "ossia"
       },
       {
         "type": "item",
-        "value": "d2uUDsVY"
+        "value": "d2uUDsVY",
+        "label": "variation"
       },
       {
         "type": "item",
-        "value": "WT9AcUBt"
+        "value": "WT9AcUBt",
+        "label": "tempo"
       },
       {
         "type": "item",
-        "value": "EgH6igGS"
+        "value": "EgH6igGS",
+        "label": "signature"
       },
       {
         "type": "item",
-        "value": "VMA2AmEN"
+        "value": "VMA2AmEN",
+        "label": "performance practice"
       }
     ],
     "provenance": [
       {
         "type": "item",
-        "value": "6vrn9seu"
+        "value": "6vrn9seu",
+        "label": "Royal Conservatory of Antwerp"
       }
     ],
     "related item": [],
     "keyword": [
       {
         "type": "item",
-        "value": "2tRZBihu"
+        "value": "2tRZBihu",
+        "label": "song"
       }
     ],
     "instrumentation": [],
@@ -120,7 +129,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "ipShXcQo"
+            "value": "ipShXcQo",
+            "label": "librettist"
           },
           {
             "type": "item",
@@ -132,7 +142,8 @@
             "property": "date",
             "value": ""
           }
-        ]
+        ],
+        "label": "Lambrecht Lambrechts"
       },
       {
         "type": "statement",
@@ -141,7 +152,8 @@
           {
             "type": "item",
             "property": "role",
-            "value": "fkHJwpoD"
+            "value": "fkHJwpoD",
+            "label": "composer"
           },
           {
             "type": "item",
@@ -153,17 +165,20 @@
             "property": "date",
             "value": "1921"
           }
-        ]
+        ],
+        "label": "Lodewijk Ontrop"
       }
     ],
     "role": [
       {
         "type": "item",
-        "value": "ipShXcQo"
+        "value": "ipShXcQo",
+        "label": "librettist"
       },
       {
         "type": "item",
-        "value": "fkHJwpoD"
+        "value": "fkHJwpoD",
+        "label": "composer"
       }
     ],
     "place": []
@@ -181,6 +196,27 @@
       {
         "type": "url",
         "value": "https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902137303/images/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cYydxGvT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cYydxGvT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cYydxGvT.csv"
       }
     ]
   }

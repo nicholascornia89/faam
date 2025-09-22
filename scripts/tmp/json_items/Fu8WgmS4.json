@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q219551",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ferruccio Busoni"
       }
     ]
   },
@@ -206,13 +207,99 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Jd3ksedz",
+        "type": "item",
+        "label": "Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : über die Abreise des vielgeliebten bruders",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904465058.gif"
+        }
+      },
+      {
+        "id": "Zv5auZvQ",
+        "type": "item",
+        "label": "Das wohltemperierte Klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901767043.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "aewpk4NW",
+        "type": "item",
+        "label": "Ottorino Respighi",
+        "description": "Italian composer, musicologist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ottorino_Respighi,_1927_(cropped).jpg"
+        }
+      },
+      {
+        "id": "Em25RCQc",
+        "type": "item",
+        "label": "Egon Petri",
+        "description": "Dutch musician (1881-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Petri_Egon.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "eiSLX6m5",
+        "type": "item",
+        "label": "Capriccio sopra la lontananza del suo fratello dilettissimo",
+        "description": "composition for keyboard by J. S. Bach"
+      },
+      {
+        "id": "A5YKYkZZ",
+        "type": "item",
+        "label": "Transcendental Étude No. 12",
+        "description": "composition for piano by Franz Liszt"
+      },
+      {
+        "id": "B5MkJNa4",
+        "type": "item",
+        "label": "The Well-Tempered Clavier",
+        "description": "collection of solo keyboard music by J.S. Bach"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FerruccioBusoni1913.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Fu8WgmS4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Fu8WgmS4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Fu8WgmS4.csv"
       }
     ]
   }

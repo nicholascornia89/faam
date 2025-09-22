@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4fq6Jxut a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1686-08-17"^^xsd:string ;
+    schema1:birthPlace faamentity:RjXv6xhJ ;
+    schema1:deathDate "1768-03-03"^^xsd:string ;
+    schema1:deathPlace faamentity:RjXv6xhJ ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q312788>,
+        "0"^^xsd:string,
+        "4fq6Jxut"^^xsd:string ;
+    schema1:nationality faamentity:4UgAZMRB ;
+    skos:prefLabel "Nicola Porpora"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56797380 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002570> ;
+    wd:P737 faamentity:LvEGnT5o ;
+    wd:P839 <https://imslp.org/wiki/Category:Porpora,_Nicola_Antonio> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf .
+

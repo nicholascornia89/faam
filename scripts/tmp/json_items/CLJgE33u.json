@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q633796",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Delphin Alard"
       }
     ]
   },
@@ -192,7 +193,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jVcNeUea",
+        "type": "item",
+        "label": "Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-42810019r.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -204,6 +218,27 @@
         "type": "image",
         "value": "Delphin_Alard_par_Nadar.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CLJgE33u.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CLJgE33u.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CLJgE33u.csv"
       }
     ]
   }

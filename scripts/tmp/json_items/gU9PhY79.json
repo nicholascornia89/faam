@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q116748678",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "musical-structural concept"
       }
     ],
     "aliases": [
@@ -55,6 +56,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "BRfMZMpE",
+        "type": "item",
+        "label": "bar",
+        "description": "time unit in rhythmic musical notation"
+      },
+      {
+        "id": "bsgSL8K5",
+        "type": "item",
+        "label": "Rehearsal letter",
+        "description": ""
+      },
+      {
+        "id": "L8dDLmK7",
+        "type": "item",
+        "label": "voice leading",
+        "description": "decision-making consideration when arranging voices in musical composition"
+      },
+      {
+        "id": "gpdFtfXA",
+        "type": "item",
+        "label": "measure subdivision",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gU9PhY79.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gU9PhY79.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gU9PhY79.csv"
+      }
+    ]
+  }
 }

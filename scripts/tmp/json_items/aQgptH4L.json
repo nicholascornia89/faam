@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q47369",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "harp"
       }
     ],
     "aliases": [
@@ -59,6 +60,133 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "8paJm6RX",
+        "type": "item",
+        "label": "Impromptu : pour la harpe, op. 86",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-03090274817.gif"
+        }
+      },
+      {
+        "id": "Dh7UK4mk",
+        "type": "item",
+        "label": "Air Varié : Pour Flûte Avec accompagnement de deux violons Alto et Basse : Cet air varié est arrangé Pour Flûte et Harpe",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370112.gif"
+        }
+      },
+      {
+        "id": "BY5BxzrK",
+        "type": "item",
+        "label": "Ancienne musique de luth (XVIe et XVIIe siècles) : adaptée pour l'exécution sur la harpe chromatique",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901267440.gif"
+        }
+      },
+      {
+        "id": "8rzV3wbR",
+        "type": "item",
+        "label": "1er trio : pour Harpe Flute et COr: op. 14",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750013.gif"
+        }
+      },
+      {
+        "id": "8rzV3wbR",
+        "type": "item",
+        "label": "1er trio : pour Harpe Flute et COr: op. 14",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750013.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "6KNgNbpn",
+        "type": "item",
+        "label": "Jeanne Dalliès",
+        "description": "French harpist and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kRrzjGzx",
+        "type": "item",
+        "label": "Benoît Pollet",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Vg9Vqqca",
+        "type": "item",
+        "label": "Nicolas-Charles Bochsa",
+        "description": "French composer and harpist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert_Nicolas-Charles_Bochsa,_the_Harpist.jpg"
+        }
+      },
+      {
+        "id": "6Q3drpNS",
+        "type": "item",
+        "label": "Jules-Joseph Godefroid",
+        "description": "Belgian harpist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Godefroid.jpg"
+        }
+      },
+      {
+        "id": "9fUwY2DB",
+        "type": "item",
+        "label": "Frits Celis",
+        "description": "Belgian conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frits_Celis_at_90.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aQgptH4L.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aQgptH4L.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aQgptH4L.csv"
+      }
+    ]
+  }
 }

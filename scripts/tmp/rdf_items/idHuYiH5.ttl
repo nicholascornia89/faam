@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:idHuYiH5 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy,
+        faamentity:MCVLnYka,
+        faamentity:McMWybdZ,
+        faamentity:Skma2JzR,
+        faamentity:Vk2JQSuo,
+        faamentity:YRq3pSH7,
+        faamentity:byLEfakR ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:Hrif6Qxb,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DSm6cEeM,
+        faamentity:HUi3iNYA,
+        faamentity:JEZ5AweR,
+        faamentity:SU2CV5XY ;
+    schema1:hasPart faamentity:4sXtxEvM ;
+    schema1:identifier "15992736"^^xsd:string,
+        "KCG-000331412"^^xsd:string,
+        "idHuYiH5"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331412"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"idHuYiH5-0388924a-82c0-4e05-8df5-1ff4407996ef"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"idHuYiH5-4bf9b55a-352a-446b-9f84-fa538d082ae2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"idHuYiH5-cf4b412f-a16e-4e99-80a8-a62c3ecd675b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"idHuYiH5-e515dd56-2f9e-4b16-864a-5421c85a713e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:DSm6cEeM a rdf:object .
+
+faamentity:HUi3iNYA a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:SU2CV5XY a rdf:object .
+

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2tCaXBFU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:knFDoTgv ;
+    schema1:birthDate "1845-01-01"^^xsd:string,
+        "1845-01-28"^^xsd:string ;
+    schema1:birthPlace faamentity:99JEoLfE ;
+    schema1:deathDate "1902-09-28"^^xsd:string ;
+    schema1:deathPlace faamentity:3NLiGZxm ;
+    schema1:description "Romanian military band leader and composer (1845–1902)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q375477>,
+        "16005236"^^xsd:string,
+        "2tCaXBFU"^^xsd:string ;
+    schema1:nationality faamentity:MD9XMRAJ ;
+    skos:altLabel "Ioan Ivanovici"^^xsd:string,
+        "Ion Ivanovici"^^xsd:string,
+        "Iosif Ivanovici"^^xsd:string ;
+    skos:prefLabel "Ioan Ivanovici"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:2656436 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30022585> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ivanovici,_Iosif> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:UvzYZUyh .
+

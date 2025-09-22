@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q807",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lausanne"
       }
     ],
     "aliases": [
@@ -66,8 +67,78 @@
         "base_url": "https://www.geonames.org/",
         "label": "7286283"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2xLuMNHZ",
+        "type": "item",
+        "label": "Jean-Xavier Lefèvre",
+        "description": "Swiss-born French clarinettist (1763-1829)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Xavier_Lefèvre.jpg"
+        }
+      },
+      {
+        "id": "FMdCW6Lz",
+        "type": "item",
+        "label": "Alfred Cortot",
+        "description": "Franco-Swiss pianist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alfred_Cortot_01.jpg"
+        }
+      },
+      {
+        "id": "2rVbYQuj",
+        "type": "item",
+        "label": "Gustave Doret",
+        "description": "Swiss composer and conductor (1866-1943)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustave_Doret.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "UUEVJfmK",
+        "type": "item",
+        "label": "University of Lausanne",
+        "description": "university located in Lausanne, Switzerland"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BZCpCk45.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BZCpCk45.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BZCpCk45.csv"
+      }
+    ]
+  }
 }

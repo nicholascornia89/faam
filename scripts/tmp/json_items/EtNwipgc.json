@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q51088",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antonio Salieri"
       }
     ]
   },
@@ -189,13 +190,137 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ewwggKDh",
+        "type": "item",
+        "label": "Franz Liszt",
+        "description": "Hungarian romantic composer and virtuoso pianist (1811–1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Liszt_1858.jpg"
+        }
+      },
+      {
+        "id": "YdWwzL5r",
+        "type": "item",
+        "label": "Carl Czerny",
+        "description": "Austrian composer and pianist (1791-1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Czerny.jpeg"
+        }
+      },
+      {
+        "id": "J5WNr3BW",
+        "type": "item",
+        "label": "Franz Schubert",
+        "description": "Austrian composer (1797–1828)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png"
+        }
+      },
+      {
+        "id": "6JGVpMmj",
+        "type": "item",
+        "label": "Ignaz Moscheles",
+        "description": "Bohemian conductor, music educator, composer and pianist (1794–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Moscheles.jpg"
+        }
+      },
+      {
+        "id": "oJGctqdB",
+        "type": "item",
+        "label": "Anton Reicha",
+        "description": "Czech-born French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg"
+        }
+      },
+      {
+        "id": "SGsgMw9m",
+        "type": "item",
+        "label": "Carl Gottlieb Reissiger",
+        "description": "German musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Gottlieb_Reissiger.jpg"
+        }
+      },
+      {
+        "id": "kZj58UuH",
+        "type": "item",
+        "label": "Johann Nepomuk Hummel",
+        "description": "Austrian composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "JNHummel_2.jpg"
+        }
+      },
+      {
+        "id": "2Pacaucy",
+        "type": "item",
+        "label": "Peter Winter",
+        "description": "German opera composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg"
+        }
+      },
+      {
+        "id": "98W5cKAM",
+        "type": "item",
+        "label": "Ludwig van Beethoven",
+        "description": "German composer (1770–1827)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg"
+        }
+      },
+      {
+        "id": "KEtoxXa7",
+        "type": "item",
+        "label": "Simon Sechter",
+        "description": "Austrian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sechter.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Antonio_Salieri_painted_by_Joseph_Willibrord_Mähler.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EtNwipgc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EtNwipgc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EtNwipgc.csv"
       }
     ]
   }

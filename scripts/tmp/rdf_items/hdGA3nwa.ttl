@@ -1,0 +1,44 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hdGA3nwa a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:jArGUTgq,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DnCFCwbG,
+        faamentity:hfcCTJ9G ;
+    schema1:identifier "16005029"^^xsd:string,
+        "BSB-991081984929707356"^^xsd:string,
+        "hdGA3nwa"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb10527144"^^schema1:url ;
+    skos:prefLabel "Ueber das Dirigiren katholischer Kirchenmusik nebst Bemerkungen über den Gesangsunterricht &c."^^xsd:string ;
+    wd:P217 "4 Mus.th. 375"^^xsd:string ;
+    wd:P870 faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"hdGA3nwa-8053d7d9-4028-4220-aa7f-5574362eced4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"hdGA3nwa-9150b137-05dc-43cb-b785-249dcb5c8d71"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:DnCFCwbG a rdf:object .
+
+faamentity:hfcCTJ9G a rdf:object .
+

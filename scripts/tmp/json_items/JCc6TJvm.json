@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q373770",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Johann Simon Mayr"
       }
     ]
   },
@@ -133,7 +134,20 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4bKCnwtk",
+        "type": "item",
+        "label": "Gaetano Donizetti",
+        "description": "Italian opera composer (1797–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -145,6 +159,27 @@
         "type": "image",
         "value": "Johann_Simon_Mayr.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JCc6TJvm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JCc6TJvm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JCc6TJvm.csv"
       }
     ]
   }

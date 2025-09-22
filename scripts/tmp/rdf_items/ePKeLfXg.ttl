@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ePKeLfXg a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "classical tripartite music composition for violin accompanied by an instrumental ensemble"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q633441>,
+        "16004390"^^xsd:string,
+        "ePKeLfXg"^^xsd:string ;
+    skos:altLabel "violin concerto"^^xsd:string ;
+    skos:prefLabel "violin concerto"^^xsd:string .
+

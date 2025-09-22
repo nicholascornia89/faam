@@ -1,0 +1,19 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nzVm5G8S a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:identifier "16002074"^^xsd:string,
+        "nzVm5G8S"^^xsd:string ;
+    skos:prefLabel "Dum aurora finem daret, IGP 18"^^xsd:string ;
+    wd:P2000 cpdl:Dum_aurora_finem_daret_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:6ng5YJy5 ;
+    wd:P7937 faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE .
+

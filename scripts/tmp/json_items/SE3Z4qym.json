@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q371459",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles Lenepveu"
       }
     ]
   },
@@ -163,7 +164,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8AznE6fX",
+        "type": "item",
+        "label": "Marcel Samuel-Rousseau",
+        "description": "French composer, organist and opera director (1882-1955)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marcel_Samuel-Rousseau_(1930).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -175,6 +189,27 @@
         "type": "image",
         "value": "Charles_Lenepveu_(Alphonse_Terpereau,_1875).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SE3Z4qym.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SE3Z4qym.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SE3Z4qym.csv"
       }
     ]
   }

@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q270853",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Symphony No. 8"
       }
     ]
   },
@@ -93,6 +94,51 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "aEkrDAX2",
+        "type": "item",
+        "label": "Achte Symphonie (Part I)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768118.gif"
+        }
+      },
+      {
+        "id": "5PZ99FBq",
+        "type": "item",
+        "label": "Achte Symphonie (Part II)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768119.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4PvAEYXf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4PvAEYXf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4PvAEYXf.csv"
+      }
+    ]
+  }
 }

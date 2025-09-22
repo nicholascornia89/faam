@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2xLiasCG a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1730"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:DqMNcjpW,
+        faamentity:MCVLnYka,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:FSduWvy5 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Na5pMDjZ,
+        faamentity:mc2UEWpA,
+        faamentity:miDpPEFC ;
+    schema1:hasPart faamentity:Pte4bScC ;
+    schema1:identifier "15992672"^^xsd:string,
+        "2xLiasCG"^^xsd:string,
+        "KCA-TP69444"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Sonate N. 38 (Gigue)"^^xsd:string ;
+    wd:P217 "TP69444"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"2xLiasCG-4ef9ce74-ef9b-4be6-976a-8a9a32f2f294"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1730"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"2xLiasCG-6077271c-11bf-43fa-8a6f-334f701fe40f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"2xLiasCG-ed3ff349-327d-4dd6-b8d2-43fa8fe01fd6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Na5pMDjZ a rdf:object .
+
+faamentity:mc2UEWpA a rdf:object .
+
+faamentity:miDpPEFC a rdf:object .
+

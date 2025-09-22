@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AWqDraUS a rdfs:Resource ;
+    faamprop:related_to faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1794-09-10"^^xsd:string ;
+    schema1:birthPlace faamentity:g8fQXctT ;
+    schema1:deathDate "1878-05-06"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French musician (1794–1878)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1450915>,
+        "16005782"^^xsd:string,
+        "AWqDraUS"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "François Benoist"^^xsd:string,
+        "Françoise Benoist"^^xsd:string ;
+    skos:prefLabel "François Benoist"^^xsd:string ;
+    wd:P108 faamentity:YTxZ8vfN ;
+    wd:P1303 faamentity:J32Mk8QV,
+        faamentity:RXg4snEH,
+        faamentity:nbW8uoTo ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71598285 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/12313> ;
+    wd:P737 faamentity:DrKGPaTi,
+        faamentity:LoLzUpJB,
+        faamentity:UHhyCQcS ;
+    wd:P839 <https://imslp.org/wiki/Category:Benoist,_François> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

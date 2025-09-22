@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1046463",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Casa Ricordi"
       }
     ]
   },
@@ -86,13 +87,97 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "8nbFbR8L",
+        "type": "item",
+        "label": "Sonatinen : für Pianoforte Solo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902713814.gif"
+        }
+      },
+      {
+        "id": "8nbFbR8L",
+        "type": "item",
+        "label": "Sonatinen : für Pianoforte Solo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902713814.gif"
+        }
+      },
+      {
+        "id": "TDd3uCdL",
+        "type": "item",
+        "label": "Tre Sonate per pianoforte e viola da gamba : Trascritte per pianoforte e viola",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000119533.gif"
+        }
+      },
+      {
+        "id": "koqkCDDx",
+        "type": "item",
+        "label": "Les chérubins : pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920177.gif"
+        }
+      },
+      {
+        "id": "kBRm9fzZ",
+        "type": "item",
+        "label": "Bergamasca: per violoncello con accomp.to di pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991143788186707356.gif"
+        }
+      },
+      {
+        "id": "KwRyik8x",
+        "type": "item",
+        "label": "Sonata n. 23 in Mi : per pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904673867.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VvXv7s6z.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VvXv7s6z.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VvXv7s6z.csv"
       }
     ]
   }

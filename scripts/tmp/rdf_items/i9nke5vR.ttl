@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i9nke5vR a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TxfuV8Su ;
+    schema1:description "lied composed by Robert Schumann"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11556728>,
+        "16002493"^^xsd:string,
+        "i9nke5vR"^^xsd:string ;
+    skos:altLabel "Zigeunerleben"^^xsd:string ;
+    skos:prefLabel "3 Gedichte, Op.29"^^xsd:string,
+        "Zigeunerleben"^^xsd:string ;
+    wd:P7937 faamentity:2tRZBihu ;
+    wd:P839 <https://imslp.org/wiki/3_Gedichte,_Op.29_(Schumann,_Robert)> .
+

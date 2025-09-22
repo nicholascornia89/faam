@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q16567",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Columbus"
       }
     ],
     "aliases": [
@@ -96,8 +97,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "Uafe5zh7",
+        "type": "item",
+        "label": "Ohio State University Libraries",
+        "description": "academic publisher based in United States"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RxFqkcGR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RxFqkcGR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RxFqkcGR.csv"
+      }
+    ]
+  }
 }

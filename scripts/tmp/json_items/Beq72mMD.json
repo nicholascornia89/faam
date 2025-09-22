@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q9005",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brussels metropolitan area"
       }
     ],
     "aliases": [
@@ -59,8 +60,170 @@
     ]
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "DdadiMfy",
+        "type": "item",
+        "label": "Alphonse Mailly",
+        "description": "Belgian composer (1833–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alphonse_Mailly.jpg"
+        }
+      },
+      {
+        "id": "UM3zTzvN",
+        "type": "item",
+        "label": "Victor-Charles Mahillon",
+        "description": "Belgian musician and writer on musical topics (1841-1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Victor-Charles_Mahillon.png"
+        }
+      },
+      {
+        "id": "diZHfNq6",
+        "type": "item",
+        "label": "Adolphe Wouters",
+        "description": "Belgian composer (1849–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolphe_Wouters.jpg"
+        }
+      },
+      {
+        "id": "AHz5Dq7p",
+        "type": "item",
+        "label": "Gustave Huberti",
+        "description": "Belgian composer and musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustave_Huberti.jpg"
+        }
+      },
+      {
+        "id": "nqVsWzTq",
+        "type": "item",
+        "label": "Andre Robberechts",
+        "description": "Belgian composer (1797–1860)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "nwg3dYtW",
+        "type": "item",
+        "label": "Safford Cape",
+        "description": "American conductor (1906–1973)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "bG5mXun5",
+        "type": "item",
+        "label": "Jean-Marie Plum",
+        "description": "Belgian composer and organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "4wCbpnXg",
+        "type": "item",
+        "label": "Albert Dupuis",
+        "description": "Belgian composer (1877-1967)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupuis.jpg"
+        }
+      },
+      {
+        "id": "TYtCu3ys",
+        "type": "item",
+        "label": "Charles Auguste de Bériot",
+        "description": "Belgian composer and violinist (1802–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Auguste_de_Bériot_by_Henri_Grevedon_1838.jpg"
+        }
+      },
+      {
+        "id": "FdXHYGQD",
+        "type": "item",
+        "label": "Charles-Louis-Joseph Hanssens",
+        "description": "Belgian conductor and composer (1777-1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Hanssens_(1777—1852)_portrait.jpg"
+        }
+      },
+      {
+        "id": "G2HtAVwC",
+        "type": "item",
+        "label": "Arthur De Greef",
+        "description": "Belgian musician (1862-1940)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arthur_De_Greef.jpg"
+        }
+      },
+      {
+        "id": "73Yv3tAw",
+        "type": "item",
+        "label": "Joseph Dupont",
+        "description": "Belgian musician (1838-1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Dupont.jpg"
+        }
+      },
+      {
+        "id": "caxrUjys",
+        "type": "item",
+        "label": "Hubert Ferdinand Kufferath",
+        "description": "German composer, conductor, musicologist and music educator (1818–1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "HFKufferath.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Beq72mMD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Beq72mMD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Beq72mMD.csv"
+      }
+    ]
+  }
 }

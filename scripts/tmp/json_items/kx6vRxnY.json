@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q34370",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rotterdam"
       }
     ],
     "aliases": [
@@ -66,8 +67,90 @@
         "base_url": "https://www.geonames.org/",
         "label": "2747891"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "eur35kCD",
+        "type": "item",
+        "label": "Berthold Tours",
+        "description": "Dutch composer (1838-1897)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Berthold_Tours.jpg"
+        }
+      },
+      {
+        "id": "MzF2W65j",
+        "type": "item",
+        "label": "Francine Lepage",
+        "description": "Belgian mezzo soprano",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "2akPbGN8",
+        "type": "item",
+        "label": "Jan Hendrik Paling",
+        "description": "Dutch musician and piano builder (1796-1879)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "hXfRGLM9",
+        "type": "item",
+        "label": "Karel Candael",
+        "description": "Belgian composer, music teacher, and conductor (1883-1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "2jXbqHnW",
+        "type": "item",
+        "label": "Karel Candael",
+        "description": "Belgian composer, music teacher, and conductor (1883-1948)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kx6vRxnY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kx6vRxnY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kx6vRxnY.csv"
+      }
+    ]
+  }
 }

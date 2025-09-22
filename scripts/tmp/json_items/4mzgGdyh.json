@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q723286",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Karel František Pitsch"
       }
     ]
   },
@@ -60,13 +61,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nShUtVSk",
+        "type": "item",
+        "label": "Wilhelm Mayer",
+        "description": "Austrian composer and music teacher (1831-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ehb9H3rs",
+        "type": "item",
+        "label": "Josef Leopold Zvonař",
+        "description": "Czech composer, pedagogue, and music critic (1824–1865)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Josef_Leopold_Zvonar_1882_Vilimek.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4mzgGdyh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4mzgGdyh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4mzgGdyh.csv"
       }
     ]
   }

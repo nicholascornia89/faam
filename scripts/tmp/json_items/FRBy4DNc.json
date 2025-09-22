@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q72",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Zurich"
       }
     ],
     "aliases": [
@@ -74,8 +75,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "7287650"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YACTZmya",
+        "type": "item",
+        "label": "Vasily Bessel",
+        "description": "Russian publisher (1843–1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "3HuatZV6",
+        "type": "item",
+        "label": "Hans Georg Nägeli",
+        "description": "Swiss composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hans_Georg_Nägeli_(Balder).jpg"
+        }
+      },
+      {
+        "id": "9qRTF2e5",
+        "type": "item",
+        "label": "Willy Burkhard",
+        "description": "Swiss composer (1900–1955)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FRBy4DNc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FRBy4DNc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FRBy4DNc.csv"
+      }
+    ]
+  }
 }

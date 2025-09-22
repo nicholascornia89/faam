@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q215161",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles-Marie Widor"
       }
     ]
   },
@@ -236,7 +237,82 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UuTJraku",
+        "type": "item",
+        "label": "Valse oubliée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p55.gif"
+        }
+      },
+      {
+        "id": "UuTJraku",
+        "type": "item",
+        "label": "Valse oubliée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p55.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "hCXWqxbw",
+        "type": "item",
+        "label": "Edgard Varèse",
+        "description": "French composer (1883-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Varèse_-_John_French_Sloan.jpg"
+        }
+      },
+      {
+        "id": "he9gB9A7",
+        "type": "item",
+        "label": "Marcel Dupré",
+        "description": "French organist and composer (1886–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupre.jpg"
+        }
+      },
+      {
+        "id": "JH9U3FW4",
+        "type": "item",
+        "label": "Arthur Honegger",
+        "description": "Swiss composer (1892-1955)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arthur_Honegger_1921.jpg"
+        }
+      },
+      {
+        "id": "922ZsC8W",
+        "type": "item",
+        "label": "Darius Milhaud",
+        "description": "French composer (1892–1974)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Darius_Milhaud_b_Meurisse_1923.jpg"
+        }
+      },
+      {
+        "id": "6mzYVLvj",
+        "type": "item",
+        "label": "Nadia Boulanger",
+        "description": "French musician, conductor, and teacher (1887-1979)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nadia_Boulanger_1925_colorized.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -248,6 +324,27 @@
         "type": "image",
         "value": "Widor.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PhcJTGVF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PhcJTGVF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PhcJTGVF.csv"
       }
     ]
   }

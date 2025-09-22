@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6247",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mantua"
       }
     ],
     "aliases": [
@@ -62,8 +63,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "6541855"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "RNVCZ5PK",
+        "label": "Kingdom of Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Gh3bBbmA",
+        "type": "item",
+        "label": "Giuseppe Maria Boschi",
+        "description": "Italian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Maria_Boschi.jpg"
+        }
+      },
+      {
+        "id": "Gh3bBbmA",
+        "type": "item",
+        "label": "Giuseppe Maria Boschi",
+        "description": "Italian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Maria_Boschi.jpg"
+        }
+      },
+      {
+        "id": "CrE4i26k",
+        "type": "item",
+        "label": "Jacquet of Mantua",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RAh7Af5W.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RAh7Af5W.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RAh7Af5W.csv"
+      }
+    ]
+  }
 }

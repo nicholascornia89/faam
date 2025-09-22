@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q4272270",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mathis Lussy"
       }
     ]
   },
@@ -162,13 +163,87 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "5KEtQvTh",
+        "type": "item",
+        "label": "Traité de l'expression musicale : accents, nuances et mouvements dans la musique vocale et instrumentale / par Mathis Lussy...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-308477215.gif"
+        }
+      },
+      {
+        "id": "S7iDFQg4",
+        "type": "item",
+        "label": "La Sonate pathétique de L. van Beethoven, op. 13. Edition rythmée et annotée par Mathis Lussy, (oeuvre posthume)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-13908155m.gif"
+        }
+      },
+      {
+        "id": "kH3LgGzo",
+        "type": "item",
+        "label": "Exercices de piano dans tous les tons majeurs et mineurs, à composer et à écrire par l'élève : précédés de la théorie des gammes, des modulations, du doigté, etc., et de nombreux exercices théoriques / par Mathis Lussy...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-30847716k.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "MoWNUsvt",
+        "type": "item",
+        "label": "Émile Jaques-Dalcroze",
+        "description": "Swiss composer, musician and music educator (1865-1950)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Jaques_Dalcroze.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "nQqPe6ft",
+        "type": "item",
+        "label": "Piano Sonata No. 8",
+        "description": "piano sonata written by Beethoven"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4dRHC3GH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4dRHC3GH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4dRHC3GH.csv"
       }
     ]
   }

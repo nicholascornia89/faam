@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q452414",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ludwig Berger"
       }
     ]
   },
@@ -155,13 +156,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "SGrSvda8",
+        "type": "item",
+        "label": "Felix Mendelssohn",
+        "description": "German composer, pianist, organist and conductor of Jewish descent (1809–1847)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mendelssohn_Bartholdy.jpg"
+        }
+      },
+      {
+        "id": "SCjuhjvs",
+        "type": "item",
+        "label": "Heinrich Dorn",
+        "description": "German composer and conductor (1804–1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Heinrich-Dorn.jpg"
+        }
+      },
+      {
+        "id": "AQayVJjL",
+        "type": "item",
+        "label": "Wilhelm Taubert",
+        "description": "German pianist, composer and conductor (1811-1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eduard_Magnus_Bildnis_Wilhelm_Taubert.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ludwig_Berger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NYuKLVzD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NYuKLVzD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NYuKLVzD.csv"
       }
     ]
   }

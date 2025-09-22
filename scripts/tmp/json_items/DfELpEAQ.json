@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q124310249",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Missa ad fugam"
       }
     ]
   },
@@ -76,6 +77,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RXzQX4CM",
+        "type": "item",
+        "label": "Missa ad fugam in perpetuo canone, in G, a quattro voci, da capella, di Giovanni Pietro Aloisio da Palestrina.... Pubblicato... de Aless. Steff Choron,...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-431877350.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DfELpEAQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DfELpEAQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DfELpEAQ.csv"
+      }
+    ]
+  }
 }

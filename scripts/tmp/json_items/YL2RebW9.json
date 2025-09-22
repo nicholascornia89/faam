@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3856441",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Michelangelo Gasparini"
       }
     ]
   },
@@ -144,13 +145,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "btJrbFVL",
+        "type": "item",
+        "label": "Faustina Bordoni",
+        "description": "opera singer (1697-1781)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ca'_Rezzonico_Sala_dei_pastelli_-_Ritratto_di_Faustina_Bordoni_Hasse_-_Rosalba_Carriera_-_47x35.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "YL2RebW9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "YL2RebW9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "YL2RebW9.csv"
       }
     ]
   }

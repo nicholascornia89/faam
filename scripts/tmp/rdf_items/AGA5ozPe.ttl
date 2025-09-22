@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AGA5ozPe a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1543-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:jGe3vcFB ;
+    schema1:deathDate "1575-01-01"^^xsd:string ;
+    schema1:description "Franco-Flemish composer, organist and Kapellmeister of the High Renaissance"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1675812>,
+        "16005179"^^xsd:string,
+        "AGA5ozPe"^^xsd:string ;
+    skos:altLabel "Ivo De Vento"^^xsd:string,
+        "Ivo Vento"^^xsd:string,
+        "Ivo de Vento"^^xsd:string ;
+    skos:prefLabel "Ivo Vento"^^xsd:string,
+        "Ivo de Vento"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:15037297 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Vento,_Ivo_de> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PUmeYeCQ .
+

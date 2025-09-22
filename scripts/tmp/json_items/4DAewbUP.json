@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q770987",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "penitential psalm"
       }
     ],
     "aliases": [
@@ -59,6 +60,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "3UMXViVN",
+        "type": "item",
+        "label": "Sextus Psalmus poenitentialis, LV 799",
+        "description": ""
+      },
+      {
+        "id": "ChS7ZLAF",
+        "type": "item",
+        "label": "Secundus Psalmus poenitentialis, LV 795",
+        "description": ""
+      },
+      {
+        "id": "99NM446k",
+        "type": "item",
+        "label": "Tertius Psalmus poenitentialis, LV 796",
+        "description": ""
+      },
+      {
+        "id": "Ap3ZKq5X",
+        "type": "item",
+        "label": "Quintus Psalmus poenitentialis, LV 798",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4DAewbUP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4DAewbUP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4DAewbUP.csv"
+      }
+    ]
+  }
 }

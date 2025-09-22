@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q313980",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saverio Mercadante"
       }
     ]
   },
@@ -162,13 +163,87 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "h4Sc6ZXh",
+        "type": "item",
+        "label": "ECRIN DES JEUNES FLUTISTES: trois airs variés sur des motifs de Donizetti, Mercadante, Bellini, pour flûte et piano/par Berbiguier [et A. Miné ?].",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334244.gif"
+        }
+      },
+      {
+        "id": "mMJa2MG7",
+        "type": "item",
+        "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000346307.gif"
+        }
+      },
+      {
+        "id": "mMJa2MG7",
+        "type": "item",
+        "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000346307.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "gR5QZhyj",
+        "type": "item",
+        "label": "Albert Grisar",
+        "description": "Belgian composer (1808–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Albert_Grisar.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "MobhtZs7",
+        "type": "item",
+        "label": "Andronico",
+        "description": "opera by Saverio Mercadante"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Saverio_Mercadante_by_Andrea_Cefaly.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NpqV6FTZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NpqV6FTZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NpqV6FTZ.csv"
       }
     ]
   }

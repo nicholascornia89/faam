@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1770",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tallinn"
       }
     ],
     "aliases": [
@@ -86,8 +87,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "588409"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q191",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Estonia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WVVuC38d",
+        "type": "item",
+        "label": "Iwan Müller",
+        "description": "Russian musician and composer (1786-1854)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Iwan_Müller.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UjA9gjzf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UjA9gjzf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UjA9gjzf.csv"
+      }
+    ]
+  }
 }

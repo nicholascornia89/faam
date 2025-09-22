@@ -1,0 +1,94 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SsTjCJak a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "09-1937"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3Vvybq56,
+        faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:AzBrFumG,
+        faamentity:LQEfYKAU,
+        faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:UfinksVv,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:YCgBhPNn,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:gnFRixHz,
+        faamentity:kmMxdth8 ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:ABZnoc4f,
+        faamentity:CT372LTH,
+        faamentity:CbtAbQDg,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005662"^^xsd:string,
+        "DPF-202502011"^^xsd:string,
+        "SsTjCJak"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Septembris 1937 (No. 3)."^^rdf:HTML ;
+    wd:P217 "ms-1937-03"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"SsTjCJak-40ed162b-34c3-4f10-afe9-66ca13b2ad5b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"SsTjCJak-58f50600-737f-4756-a44e-f0db76a57bec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"SsTjCJak-66423d10-a4a1-4d76-bf8d-00cd12d9af17"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"SsTjCJak-7f116aa1-57dd-42b0-ac8e-d1db106d2af2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"SsTjCJak-84d9b296-277b-40c9-9824-3a9095c70619"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"SsTjCJak-e8f5a135-c652-41f4-afbe-bac789a686c6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "09-1937"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

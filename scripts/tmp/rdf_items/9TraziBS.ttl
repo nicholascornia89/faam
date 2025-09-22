@@ -1,0 +1,56 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9TraziBS a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "21-07-1906"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NZsyLSiA,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005568"^^xsd:string,
+        "9TraziBS"^^xsd:string,
+        "ORP-20143988p65"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Ronde populaire Vendéenne. \"J'ai un long voyage à faire\""^^xsd:string ;
+    skosref:note """L'Illustration, N. 3308
+L'Illustration, N. 3308"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"9TraziBS-1ed59f6f-da32-49d5-a176-92e3af51a7a9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "21-07-1906"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"9TraziBS-4f2e9435-9ce9-43b0-aa00-23d1fb20998b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"9TraziBS-9ea2ac7c-fd1c-4e76-8533-9a890baa2e4c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"9TraziBS-ffb65f41-7b37-421b-bcec-c639e48b5cc7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:NZsyLSiA a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

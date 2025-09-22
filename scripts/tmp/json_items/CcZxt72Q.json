@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q27",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ireland"
       }
     ],
     "aliases": []
@@ -44,6 +45,59 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZXDf3hB6",
+        "type": "item",
+        "label": "Charles Villiers Stanford",
+        "description": "Irish composer, music teacher, and conductor (1852–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Villiers_Stanford_c1894bw.jpg"
+        }
+      },
+      {
+        "id": "C96V6zHY",
+        "type": "item",
+        "label": "John Field",
+        "description": "Irish pianist, composer, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_field.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "QHdBfaSG",
+        "type": "item",
+        "label": "Limerick",
+        "description": "city in Ireland in the province of Munster"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CcZxt72Q.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CcZxt72Q.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CcZxt72Q.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q13371",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Harvard University"
       }
     ],
     "aliases": [
@@ -106,6 +107,81 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GxU5SsUX",
+        "type": "item",
+        "label": "Luciano Berio",
+        "description": "Italian composer (1925–2003)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luciano_Berio.jpg"
+        }
+      },
+      {
+        "id": "RytSv7rR",
+        "type": "item",
+        "label": "Walter Piston",
+        "description": "American composer (1894–1976)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "DMoXvBup",
+        "type": "item",
+        "label": "Paul Hindemith",
+        "description": "German composer (1895–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Hindemith_1923.jpg"
+        }
+      },
+      {
+        "id": "36FvuTcU",
+        "type": "item",
+        "label": "Archibald Thompson Davison",
+        "description": "American conductor (1883-1961)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Archibald_Thompson_Davison.jpg"
+        }
+      },
+      {
+        "id": "RytSv7rR",
+        "type": "item",
+        "label": "Walter Piston",
+        "description": "American composer (1894–1976)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9yqEFVU3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9yqEFVU3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9yqEFVU3.csv"
+      }
+    ]
+  }
 }

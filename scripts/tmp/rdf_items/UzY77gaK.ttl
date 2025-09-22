@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UzY77gaK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:fBYBjEvT,
+        faamentity:jTMjFsDj,
+        faamentity:oQTyk8An ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DnCFCwbG,
+        faamentity:hpmpSXaU ;
+    schema1:identifier "16005031"^^xsd:string,
+        "BSB-991078961849707356"^^xsd:string,
+        "UzY77gaK"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11139859"^^schema1:url ;
+    skos:prefLabel "3 missae et quatuordecim motetta : ad 4, 5 et 8 voces composita ; op. 1-4. [2]. Missa Non est inventus : 4 v. ; mit Responsorium Ecce sacerdos magnus ; 4 v. ; op. 2. - 32 S."^^xsd:string ;
+    wd:P217 "4 Mus.pr. 485-1/4"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"UzY77gaK-1a2cfeaf-1f7b-44a6-9d94-d2298d318c5b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"UzY77gaK-cf01df9a-872a-40fb-ad33-594222d5f7a0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:DnCFCwbG a rdf:object .
+
+faamentity:hpmpSXaU a rdf:object .
+

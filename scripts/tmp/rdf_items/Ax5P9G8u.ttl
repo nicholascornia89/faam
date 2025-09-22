@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ax5P9G8u a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who writes works of science fiction"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q18844224>,
+        "15990999"^^xsd:string,
+        "Ax5P9G8u"^^xsd:string ;
+    skos:altLabel "sci-fi author"^^xsd:string,
+        "sci-fi writer"^^xsd:string,
+        "science fiction author"^^xsd:string,
+        "science fiction writer"^^xsd:string ;
+    skos:prefLabel "astronomer"^^xsd:string,
+        "science fiction writer"^^xsd:string .
+

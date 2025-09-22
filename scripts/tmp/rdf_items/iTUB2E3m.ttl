@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iTUB2E3m a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who directs a choir"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1076502>,
+        "15990916"^^xsd:string,
+        "iTUB2E3m"^^xsd:string ;
+    skos:altLabel "choir conductor"^^xsd:string,
+        "choir director"^^xsd:string,
+        "choirmaster"^^xsd:string,
+        "choral conductor"^^xsd:string,
+        "chorist-master"^^xsd:string,
+        "chorister"^^xsd:string,
+        "chorus conductor"^^xsd:string,
+        "chorus director"^^xsd:string,
+        "regens chori"^^xsd:string,
+        "regenschorové"^^xsd:string ;
+    skos:prefLabel "choir director"^^xsd:string,
+        "school teacher"^^xsd:string .
+

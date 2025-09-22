@@ -1,0 +1,35 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4Xiw9oLy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:A85JP7AT ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DdadiMfy ;
+    schema1:identifier "16005434"^^xsd:string,
+        "4Xiw9oLy"^^xsd:string,
+        "ORP-20143701p1"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22187"^^schema1:url ;
+    skos:prefLabel "Three Organ Pieces"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.005"^^xsd:string ;
+    wd:P870 faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"4Xiw9oLy-5a9852f2-a0d0-4801-be75-025a5d246cd6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:DdadiMfy a rdf:object .
+

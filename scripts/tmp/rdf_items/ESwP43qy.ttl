@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ESwP43qy a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "fretted string instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6607>,
+        "15990802"^^xsd:string,
+        "ESwP43qy"^^xsd:string ;
+    skos:altLabel "guitar"^^xsd:string ;
+    skos:prefLabel "guitar"^^xsd:string .
+

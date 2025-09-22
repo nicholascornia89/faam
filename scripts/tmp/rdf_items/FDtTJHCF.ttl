@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FDtTJHCF a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Cornell University"^^xsd:string ;
+    schema1:description "academic library of Cornell University, New York"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5171572>,
+        "16004090"^^xsd:string,
+        "FDtTJHCF"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y,
+        faamentity:gMzETHQs ;
+    schema1:url "https://catalog.library.cornell.edu/"^^schema1:url,
+        "https://www.library.cornell.edu/"^^schema1:url ;
+    skos:altLabel "Cornell University Libraries"^^xsd:string,
+        "Cornell University Library"^^xsd:string ;
+    skos:prefLabel "Cornell University Library"^^xsd:string ;
+    wd:P1813 "CUL"^^xsd:string .
+

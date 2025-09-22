@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1781",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Budapest"
       }
     ],
     "aliases": [
@@ -124,8 +125,94 @@
         "base_url": "https://www.geonames.org/",
         "label": "3054638"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "nXdVQz6m",
+        "label": "Hungary"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Jritqxpq",
+        "type": "item",
+        "label": "Isidor Philipp",
+        "description": "French pianist, composer and pedagogue (1863–1958)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Isidor_Philipp.jpg"
+        }
+      },
+      {
+        "id": "XhnHScid",
+        "type": "item",
+        "label": "Ernst Ferand",
+        "description": "Hungarian musicologist (1887-1972)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "GQV7k7JN",
+        "type": "item",
+        "label": "Mátyás Seiber",
+        "description": "British-Hungarian composer (1905–1960)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mátyás_Seiber.jpg"
+        }
+      },
+      {
+        "id": "99uNaNRM",
+        "type": "item",
+        "label": "István Thomán",
+        "description": "(1862–1940 classical pianist, piano teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thomán_István.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "8sZeyZjb",
+        "type": "item",
+        "label": "Franz Liszt Academy of Music",
+        "description": "music conservatory in Budapest, Hungary"
+      },
+      {
+        "id": "hPXyW639",
+        "type": "item",
+        "label": "Budapest University of Technology and Economics",
+        "description": "university in Hungary"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jRhzWGcf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jRhzWGcf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jRhzWGcf.csv"
+      }
+    ]
+  }
 }

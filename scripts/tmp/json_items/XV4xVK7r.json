@@ -62,7 +62,8 @@
       {
         "type": "externalid",
         "value": "Q17114100",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "N. Simrock"
       }
     ]
   },
@@ -105,13 +106,107 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Y3R6frVx",
+        "type": "item",
+        "label": "Sérénade andalouse: pour violon et piano, op. 28",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901351285.gif"
+        }
+      },
+      {
+        "id": "iWFrgNYy",
+        "type": "item",
+        "label": "Sérénade andalouse: pour violon et piano, op. 28",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901292380.gif"
+        }
+      },
+      {
+        "id": "jvkRr9GW",
+        "type": "item",
+        "label": "Il Pirato : Ouverture à Grand Orchestre de l' Opéra",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333898.gif"
+        }
+      },
+      {
+        "id": "XSyeZBMC",
+        "type": "item",
+        "label": "Symphonie : à grand Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000743756.gif"
+        }
+      },
+      {
+        "id": "jR3dHHJw",
+        "type": "item",
+        "label": "Clavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904673826.gif"
+        }
+      },
+      {
+        "id": "4SrPTVqC",
+        "type": "item",
+        "label": "Fantaisie : pour Piano & Flûte obligée : Sur la Romance de Charles de France dite Les Chevaliers de la Fidélité : Op: 78",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334248.gif"
+        }
+      },
+      {
+        "id": "Aeb2iAaE",
+        "type": "item",
+        "label": "L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370115.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Simrock_Dvorak_5.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XV4xVK7r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XV4xVK7r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XV4xVK7r.csv"
       }
     ]
   }

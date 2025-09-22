@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A8GdPaJR a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "private college preparatory school in Exeter, New Hampshire"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1426464>,
+        "16004740"^^xsd:string,
+        "A8GdPaJR"^^xsd:string ;
+    schema1:location faamentity:B76vBwzJ,
+        faamentity:LbfJnd9y ;
+    skos:altLabel "Exeter"^^xsd:string,
+        "Exeter Academy"^^xsd:string,
+        "PEA"^^xsd:string,
+        "Phillips Exeter"^^xsd:string,
+        "Phillips Exeter Academy"^^xsd:string ;
+    skos:prefLabel "Phillips Exeter Academy"^^xsd:string .
+

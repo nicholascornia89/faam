@@ -1,0 +1,13 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GScgxQnV a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "church village in Upper Bavaria"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1920373>,
+        "0"^^xsd:string,
+        "GScgxQnV"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G .
+

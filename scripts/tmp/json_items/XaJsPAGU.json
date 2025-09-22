@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q414936",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Akademisches Gymnasium"
       }
     ],
     "aliases": [
@@ -71,6 +72,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "J5WNr3BW",
+        "type": "item",
+        "label": "Franz Schubert",
+        "description": "Austrian composer (1797–1828)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XaJsPAGU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XaJsPAGU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XaJsPAGU.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q41270",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cavatina"
       }
     ],
     "aliases": [
@@ -51,6 +52,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "buvS4Uxm",
+        "type": "item",
+        "label": "CAVATINE voor trombone met begeleiding van piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000341817.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "iDDKk6hP",
+        "type": "item",
+        "label": "Cavatine, Op.47",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aqmCgLsm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aqmCgLsm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aqmCgLsm.csv"
+      }
+    ]
+  }
 }

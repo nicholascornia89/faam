@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q41304",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Weimar Republic"
       }
     ],
     "aliases": [
@@ -77,6 +78,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Em25RCQc",
+        "type": "item",
+        "label": "Egon Petri",
+        "description": "Dutch musician (1881-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Petri_Egon.jpg"
+        }
+      },
+      {
+        "id": "E3TYHdg6",
+        "type": "item",
+        "label": "Hans Adolf Eduard Driesch",
+        "description": "German philosopher and biologist (1867 - 1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Driesch1.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gNEuU89R.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gNEuU89R.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gNEuU89R.csv"
+      }
+    ]
+  }
 }

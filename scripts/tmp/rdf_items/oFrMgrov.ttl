@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oFrMgrov a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:K9MgTT3J ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:hCL8ZYQY,
+        faamentity:hDjDJrVY ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:nDqJe8bs ;
+    schema1:hasPart faamentity:Xjoq5ECp ;
+    schema1:identifier "15992327"^^xsd:string,
+        "KCA-030904386114"^^xsd:string,
+        "oFrMgrov"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15166859/N"^^schema1:url ;
+    skos:prefLabel "Marsch, op. 17"^^xsd:string ;
+    wd:P217 "MM-OO-TINEL-klokker-42"^^xsd:string ;
+    wd:P870 faamentity:BJpg68ny,
+        faamentity:GoXpNrsh,
+        faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"oFrMgrov-0beffc08-5edb-4f1b-9744-afe535757d40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"oFrMgrov-da61b768-ecf2-4834-8ab1-b2491f4d1d83"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:nDqJe8bs a rdf:object .
+

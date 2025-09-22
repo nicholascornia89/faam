@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q4102224",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Peter Wagner"
       }
     ]
   },
@@ -157,13 +158,47 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "m9EkCzBS",
+        "type": "item",
+        "label": "Toni Communes Officii. Psaumes, Versets, Bededicamus, etc. d'après l'Edition Vaticane. Avec Accompagnement d'Orgue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502046.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Peter_Wagner_(1865–1931)_1927_©_Georg_Fayer_(1891–1950)_OeNB_10449435.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UWzFEZoL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UWzFEZoL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UWzFEZoL.csv"
       }
     ]
   }

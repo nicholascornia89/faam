@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q126367402",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "L. Corret"
       }
     ]
   },
@@ -125,13 +126,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "T5A6HKea",
+        "type": "item",
+        "label": "Rondo du Hussard de Felsheim : Varié pour le Cor avec accompagnement de Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750004.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "cfLuZKT4",
+        "type": "item",
+        "label": "Le hussard de Felsheim",
+        "description": "opera by Adolphe Adam"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DM6G4TJ3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DM6G4TJ3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DM6G4TJ3.csv"
       }
     ]
   }

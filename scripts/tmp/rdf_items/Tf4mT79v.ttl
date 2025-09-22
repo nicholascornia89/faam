@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Tf4mT79v a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:XtPVttT2 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "music dynamic"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2707020>,
+        "15992195"^^xsd:string,
+        "Tf4mT79v"^^xsd:string ;
+    skos:altLabel "piano"^^xsd:string ;
+    skos:prefLabel "piano"^^xsd:string ;
+    wd:P1535 faamentity:2ZAuwsSp,
+        faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:eviEKifd ;
+    wd:P31 faamentity:N2f5NSgz .
+

@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2HYzhyAL a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "music genre"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q741702>,
+        "15998746"^^xsd:string,
+        "2HYzhyAL"^^xsd:string ;
+    skos:altLabel "melodrama"^^xsd:string,
+        "melologue"^^xsd:string ;
+    skos:prefLabel "melologue"^^xsd:string .
+

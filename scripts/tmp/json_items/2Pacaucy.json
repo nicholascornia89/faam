@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q561047",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Peter Winter"
       }
     ]
   },
@@ -155,13 +156,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "DdLJo96s",
+        "type": "item",
+        "label": "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334547.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "f2aM5oy8",
+        "type": "item",
+        "label": "Ignaz von Seyfried",
+        "description": "Austrian musician (1776–1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Seyfried.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "FoykZk2e",
+        "type": "item",
+        "label": "A torto ti lagni amor",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Peter_Winter_1815.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2Pacaucy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2Pacaucy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2Pacaucy.csv"
       }
     ]
   }

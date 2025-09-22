@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2M4g9hQk a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Biblioteca Nacional de España"^^xsd:string ;
+    schema1:description "library in Spain"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q750403>,
+        "16004031"^^xsd:string,
+        "2M4g9hQk"^^xsd:string ;
+    schema1:location faamentity:YBB8Bpat,
+        faamentity:f4z5bdam ;
+    schema1:url "https://bdh.bne.es/"^^schema1:url,
+        "https://bdh.bne.es/bnesearch/Inicio.do"^^schema1:url ;
+    skos:altLabel "BNE"^^xsd:string,
+        "Biblioteca Nacional"^^xsd:string,
+        "Biblioteca Nacional de España"^^xsd:string,
+        "Biblioteca Pública de Palacio"^^xsd:string,
+        "National Library of Spain"^^xsd:string,
+        "Palace Public Library"^^xsd:string,
+        "Spanish National Library"^^xsd:string ;
+    skos:prefLabel "Biblioteca Nacional de España"^^xsd:string ;
+    wd:P1813 "BNE"^^xsd:string .
+

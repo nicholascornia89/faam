@@ -1,0 +1,66 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hKyLhP5w a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:F9XSfSvU,
+        faamentity:LiFYdNgN,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2FQ4SCuS,
+        faamentity:FSduWvy5,
+        faamentity:n8dr8Tqi ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3GuXLQzZ,
+        faamentity:MzBDptTH,
+        faamentity:PikNt4Wc ;
+    schema1:hasPart faamentity:C7KyN6cJ ;
+    schema1:identifier "16002808"^^xsd:string,
+        "KCA-030902628988"^^xsd:string,
+        "hKyLhP5w"^^xsd:string ;
+    schema1:location faamentity:3Lm9HPFF ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12952037/N"^^schema1:url ;
+    skos:prefLabel "Il quarto libro dei madrigali"^^xsd:string ;
+    wd:P217 "LM-VU-MONTE-tutte-4"^^xsd:string ;
+    wd:P839 <https://imslp.org/wiki/https://imslp.org/wiki/Madrigals,_Book_4,_SV_75%E2%80%9393_(Monteverdi,_Claudio)> ;
+    wd:P870 faamentity:5yLc7bQJ .
+
+schema1:contributor a rdf:predicate .
+
+"hKyLhP5w-258573be-4968-4c55-85b5-4b9937413ecc"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:3Lm9HPFF .
+
+"hKyLhP5w-43a36494-ea89-4233-9dd9-3c017fdd098c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"hKyLhP5w-6f54b323-ec65-43e3-b2af-f4332ef328cb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3GuXLQzZ a rdf:object .
+
+faamentity:MzBDptTH a rdf:object .
+
+faamentity:PikNt4Wc a rdf:object .
+

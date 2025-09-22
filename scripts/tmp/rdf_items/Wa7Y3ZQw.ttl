@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wa7Y3ZQw a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1748-08-04"^^xsd:string ;
+    schema1:birthPlace faamentity:fb7tEYXL ;
+    schema1:deathDate "1833-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp ;
+    schema1:description "Austrian composer, musicologist and pianist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q327926>,
+        "0"^^xsd:string,
+        "Wa7Y3ZQw"^^xsd:string ;
+    schema1:nationality faamentity:FPDTfb7a ;
+    skos:prefLabel "Maximilian Stadler"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12570802 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20000481> ;
+    wd:P839 <https://imslp.org/wiki/Category:Stadler,_Maximilian> ;
+    schema:hasOccupation faamentity:C4Jco2kp,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

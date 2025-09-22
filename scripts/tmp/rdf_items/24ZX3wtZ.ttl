@@ -1,0 +1,73 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema1:contributor a rdf:predicate .
+
+"24ZX3wtZ-28342da0-9ab2-476e-8e2a-b88785a9bcc6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"24ZX3wtZ-60c139c0-5aff-4242-aaee-11b2659b455a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"24ZX3wtZ-a6b7e2f6-12fb-42af-9609-e01be7e709b6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+faamentity:24ZX3wtZ a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1903"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:JnGFsz6r,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN,
+        faamentity:YWfofDz3,
+        faamentity:iWuVLJam,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:gccDhEBK,
+        faamentity:hCL8ZYQY ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:UkBCrdbe,
+        faamentity:XVpibGGu ;
+    schema1:hasPart faamentity:jihDgEAZ ;
+    schema1:identifier "15992519"^^xsd:string,
+        "24ZX3wtZ"^^xsd:string,
+        "KCA-030904487276"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6751968/N"^^schema1:url ;
+    skos:prefLabel "Sinfonietta, op. 48"^^xsd:string ;
+    skosref:related faamentity:24ZX3wtZ,
+        faamentity:2v4izE8Y,
+        faamentity:FsDiMPKz,
+        faamentity:Ni7n4SHX,
+        faamentity:SKbqbAHR,
+        faamentity:WKfZ7hKH,
+        faamentity:epKGJCq7,
+        faamentity:hcM6ooci,
+        faamentity:nKH2QhpS ;
+    wd:P217 "UM-BKA-NOVAC-sinfo48-9"^^xsd:string ;
+    wd:P870 faamentity:N3AKKugd .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:UkBCrdbe a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

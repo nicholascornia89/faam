@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XP2pmPYc a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1818-02-06"^^xsd:string ;
+    schema1:birthPlace faamentity:bsTArmEN ;
+    schema1:deathDate "1891-08-06"^^xsd:string ;
+    schema1:deathPlace faamentity:dCNvjvRi ;
+    schema1:description "Piano virtuoso, composer and music publisher (1818-1891)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q383853>,
+        "15996192"^^xsd:string,
+        "XP2pmPYc"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV,
+        faamentity:Eqo9Fq2n ;
+    skos:altLabel "Henry Litolff"^^xsd:string ;
+    skos:prefLabel "Henry Litolff"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56796826 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/109316> ;
+    wd:P737 faamentity:6JGVpMmj ;
+    wd:P839 <https://imslp.org/wiki/Category:Litolff,_Henry_Charles> ;
+    schema:hasOccupation faamentity:K6gPySVi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q5903984",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Horn Sonata"
       }
     ]
   },
@@ -82,6 +83,71 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gP7cYWV9",
+        "type": "item",
+        "label": "Sonate : für Klavier und Horn, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901428612.gif"
+        }
+      },
+      {
+        "id": "XtquhhBM",
+        "type": "item",
+        "label": "Sonate : fur pianoforte und horn, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904766810.gif"
+        }
+      },
+      {
+        "id": "TVCJE4o6",
+        "type": "item",
+        "label": "Sonate F dur : für Pianoforte und Horn, op.17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904770226.gif"
+        }
+      },
+      {
+        "id": "LwJ87kZX",
+        "type": "item",
+        "label": "Sonate : für Pianoforte und Horn, oder Violine oder Violoncell, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904770184.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fUwTYuM6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fUwTYuM6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fUwTYuM6.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j98hwBJg a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:euCa8A2S ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:CmqENXaQ,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:HUi3iNYA,
+        faamentity:TYtCu3ys ;
+    schema1:hasPart faamentity:Y6qTFpMi ;
+    schema1:identifier "16004318"^^xsd:string,
+        "BNF-428466451"^^xsd:string,
+        "j98hwBJg"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428466451"^^schema1:url ;
+    skos:prefLabel "3 études caractéristiques pour violon avec accpt. de piano, op. 37"^^xsd:string ;
+    wd:P217 "VM8 C-30"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"j98hwBJg-11f99f53-c5d8-49ec-b556-581b5fc9603a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"j98hwBJg-be06a87c-ef30-4455-baf0-c7a076d579e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:HUi3iNYA a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+

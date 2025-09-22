@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q32664319",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "München"
       }
     ],
     "aliases": [
@@ -64,8 +65,54 @@
         "base_url": "https://www.geonames.org/",
         "label": "DE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "HJ8vtiNm",
+        "type": "item",
+        "label": "University of Music and Theatre Munich",
+        "description": "institution of higher education in Munich, Germany"
+      }
+    ],
+    "holding_institution": [
+      {
+        "id": "FDCuefHz",
+        "type": "item",
+        "label": "Bavarian State Library",
+        "description": "state library of the Free State of Bavaria"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "emZYGceZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "emZYGceZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "emZYGceZ.csv"
+      }
+    ]
+  }
 }

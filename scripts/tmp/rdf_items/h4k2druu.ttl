@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h4k2druu a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1839-11-07"^^xsd:string ;
+    schema1:birthPlace faamentity:bsTArmEN ;
+    schema1:deathDate "1905-12-09"^^xsd:string ;
+    schema1:deathPlace faamentity:JwPNxUgn ;
+    schema1:description "English violinist and composer (1839–1905)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1606875>,
+        "0"^^xsd:string,
+        "h4k2druu"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV ;
+    skos:prefLabel "Henry Holmes"^^xsd:string ;
+    wd:P108 faamentity:Gokp7gYh ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42602830 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:BDD9vX4R ;
+    wd:P839 <https://imslp.org/wiki/Category:Holmes,_Henry> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:irSPevuD .
+

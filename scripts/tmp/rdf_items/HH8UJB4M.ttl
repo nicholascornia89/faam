@@ -1,0 +1,70 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HH8UJB4M a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1897"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:Di2mC26w,
+        faamentity:EwvUCZK4,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:WtvibJFF ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:RePdmToB,
+        faamentity:YWfofDz3,
+        faamentity:eHYWo9ba ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:MGWwFDSr,
+        faamentity:MtU2oARp ;
+    schema1:hasPart faamentity:iDr4o25a ;
+    schema1:identifier "16002624"^^xsd:string,
+        "HH8UJB4M"^^xsd:string,
+        "KCA-030902741211"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6792416/N"^^schema1:url ;
+    skos:prefLabel "Lied van Reinilde: voor soprano"^^xsd:string ;
+    wd:P217 "MM-ZL-BLOCK-herberg-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"HH8UJB4M-15ece4a8-d19c-4e58-8f8d-68f9776547a4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HH8UJB4M-aa0a0e25-ef1c-40ce-94bd-08ccd33dbd55"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1897"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"HH8UJB4M-cd7e17df-c104-4969-8356-874aab73bdb6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:MGWwFDSr a rdf:object .
+
+faamentity:MtU2oARp a rdf:object .
+

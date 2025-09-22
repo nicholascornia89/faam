@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1373597",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Eugène Walckiers"
       }
     ]
   },
@@ -162,13 +163,103 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "idHuYiH5",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331412.gif"
+        }
+      },
+      {
+        "id": "G5MNRuFA",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331376.gif"
+        }
+      },
+      {
+        "id": "Vxw5Gio5",
+        "type": "item",
+        "label": "Garde à vous : Variations : Pour la Flûte sur un Motif de la fiancée avec accompagnement de deux Violons Alto et Basse ou Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331402.gif"
+        }
+      },
+      {
+        "id": "9HbvzGss",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur la romance de Guido et Ginévra d'Halévy Op. 72",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000372227.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "4sXtxEvM",
+        "type": "item",
+        "label": "Gustave III",
+        "description": "opera by Daniel-François-Esprit Auber"
+      },
+      {
+        "id": "FsbPS3ct",
+        "type": "item",
+        "label": "Guido et Ginevra",
+        "description": "opera by Jacques Fromental Halévy"
+      },
+      {
+        "id": "h9bxZ33h",
+        "type": "item",
+        "label": "Le Dieu et la Bayadère",
+        "description": "opera by Daniel François Esprit Auber"
+      },
+      {
+        "id": "M9Zwn98G",
+        "type": "item",
+        "label": "La fiancée",
+        "description": "opera by Daniel François Esprit Auber"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Eugène_Walckiers.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DSm6cEeM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DSm6cEeM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DSm6cEeM.csv"
       }
     ]
   }

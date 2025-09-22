@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FcHPEbBt a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1666-11-05"^^xsd:string ;
+    schema1:birthPlace faamentity:RZra3Qhj ;
+    schema1:deathDate "1729-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:bsTArmEN ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q758130>,
+        "15995803"^^xsd:string,
+        "FcHPEbBt"^^xsd:string ;
+    skos:altLabel "Attilio Ariosti"^^xsd:string,
+        "Attilio Malachia Ariosti"^^xsd:string,
+        "Attilius Ariosti"^^xsd:string ;
+    skos:prefLabel "Attilio Ariosti"^^xsd:string ;
+    wd:P1303 faamentity:SuNGLg3X ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:51874287 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30000141> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ariosti,_Attilio> ;
+    schema:hasOccupation faamentity:926v682B,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:PGamAZRD,
+        faamentity:fkNftdFp,
+        faamentity:kotBhPY6 .
+

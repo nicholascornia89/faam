@@ -1,0 +1,84 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VcLWV8RD a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1722"^^xsd:string,
+        "1907"^^xsd:string,
+        "1967"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3Vvybq56,
+        faamentity:3ts8CrNB,
+        faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:A4NPbBsi,
+        faamentity:AeKhRWCB,
+        faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:LiFYdNgN,
+        faamentity:WFgzwULr,
+        faamentity:WT9AcUBt,
+        faamentity:eviEKifd,
+        faamentity:k4aUnbrD ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:WFgzwULr,
+        faamentity:YWfofDz3 ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:Cud74GBt,
+        faamentity:FSduWvy5,
+        faamentity:K3Ds589T,
+        faamentity:NjSVdz7G ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:QhRQ5LW9,
+        faamentity:RjvWVtgw,
+        faamentity:dFuet8CD ;
+    schema1:hasPart faamentity:B5MkJNa4 ;
+    schema1:identifier "15992792"^^xsd:string,
+        "KCA-030901733573"^^xsd:string,
+        "VcLWV8RD"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6748379/N"^^schema1:url ;
+    skos:prefLabel "The well-tempered clavier: 48 preludes and fugues"^^xsd:string ;
+    wd:P217 "UM-TP-BACH-wohltem-2"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"VcLWV8RD-79ecba2b-b245-4ef3-a108-34e63ba49ceb"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1907"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"VcLWV8RD-8006eff6-dbc6-453c-a514-7dabdea77f1f"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1722"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"VcLWV8RD-c493a74d-4aca-4f4b-b38b-f2f3bc43dd90"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"VcLWV8RD-c967ba73-60d8-49a0-b2ac-377492ddeaa4"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1967"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:RjvWVtgw a rdf:object .
+
+faamentity:dFuet8CD a rdf:object .
+

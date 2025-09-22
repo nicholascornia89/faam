@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1867263",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Klein Seminarie Roeselare"
       }
     ],
     "aliases": [
@@ -70,6 +71,91 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XsuqSVq8",
+        "type": "item",
+        "label": "Guido Gezelle",
+        "description": "Belgian poet, journalist, teacher, monastery director and priest (1830–1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Guido_Gezelle.jpg"
+        }
+      },
+      {
+        "id": "e4twtoMd",
+        "type": "item",
+        "label": "Edward Gailliard",
+        "description": "Belgian historian, linguist, publisher and archivist (1841-1922)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FSEwRZh3",
+        "type": "item",
+        "label": "Eugeen van Oye",
+        "description": "Belgian doctor, writer, poet and publicist (1840-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugeen_van_Oye_-_Statue_in_Gistel.jpg"
+        }
+      },
+      {
+        "id": "XsuqSVq8",
+        "type": "item",
+        "label": "Guido Gezelle",
+        "description": "Belgian poet, journalist, teacher, monastery director and priest (1830–1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Guido_Gezelle.jpg"
+        }
+      },
+      {
+        "id": "P4xPTchF",
+        "type": "item",
+        "label": "Adolf Duclos",
+        "description": "Belgian writer, historian, archaeologist and inspector (1841-1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Duclos001.jpg"
+        }
+      },
+      {
+        "id": "eBBeJbhZ",
+        "type": "item",
+        "label": "Pieter Benoit",
+        "description": "Belgian priest and teacher (1820-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XVkxnYpp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XVkxnYpp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XVkxnYpp.csv"
+      }
+    ]
+  }
 }

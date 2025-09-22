@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q434726",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Stanislao Mattei"
       }
     ]
   },
@@ -147,13 +148,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4bKCnwtk",
+        "type": "item",
+        "label": "Gaetano Donizetti",
+        "description": "Italian opera composer (1797–1848)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fotoreproductie_van_Gaetano_Donizetti.png"
+        }
+      },
+      {
+        "id": "WVwrkfen",
+        "type": "item",
+        "label": "Gioachino Rossini",
+        "description": "Italian opera composer (1792–1868)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg"
+        }
+      },
+      {
+        "id": "Di5pStD6",
+        "type": "item",
+        "label": "Francesco Morlacchi",
+        "description": "Italian composer (1784-1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_morlacchi.jpg"
+        }
+      },
+      {
+        "id": "AtpfsecJ",
+        "type": "item",
+        "label": "Christian Theodor Weinlig",
+        "description": "German composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Станислао_Маттеи.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6LF7QVv2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6LF7QVv2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6LF7QVv2.csv"
       }
     ]
   }

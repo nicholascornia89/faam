@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q43440",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giosuè Carducci"
       }
     ]
   },
@@ -221,7 +222,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6NihvnWd",
+        "type": "item",
+        "label": "Ruggero Leoncavallo",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Zonder_titel_PK-F-MM.5862_-_recto.tiff"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -233,6 +247,27 @@
         "type": "image",
         "value": "Carducci.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bGn5nVwZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bGn5nVwZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bGn5nVwZ.csv"
       }
     ]
   }

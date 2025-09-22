@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EZvcBzLv a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1795-11-22"^^xsd:string ;
+    schema1:birthPlace faamentity:4wGJZSfp ;
+    schema1:deathDate "1883-08-14"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q28563768>,
+        "0"^^xsd:string,
+        "EZvcBzLv"^^xsd:string ;
+    skos:prefLabel "Rudolf Reinecke"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:95654025 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30048939> ;
+    wd:P737 faamentity:9cTQKdQg ;
+    schema:hasOccupation faamentity:6XD3homi .
+

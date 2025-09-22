@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SRgsbjHS a rdfs:Resource ;
+    faamprop:related_to faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1821-10-27"^^xsd:string ;
+    schema1:birthPlace faamentity:dLJ5EaPC ;
+    schema1:deathDate "1854-08-06"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer (1821-1854)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1246443>,
+        "16005712"^^xsd:string,
+        "SRgsbjHS"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Alexis de Garaudé"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39724607 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Garaudé,_Albert_de> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:WHUuzgFU .
+

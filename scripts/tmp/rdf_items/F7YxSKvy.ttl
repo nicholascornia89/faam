@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:F7YxSKvy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw,
+        faamentity:eUhHdQXj,
+        faamentity:kSz3iRAw ;
+    dcterms:provenance faamentity:GTTB7Xre ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3GuXLQzZ,
+        faamentity:5T9oj3bW,
+        faamentity:Na5pMDjZ ;
+    schema1:hasPart faamentity:KDTvkd6p ;
+    schema1:identifier "16005158"^^xsd:string,
+        "F7YxSKvy"^^xsd:string,
+        "SML-11727"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910336433405216"^^schema1:url ;
+    skos:prefLabel "Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow."^^xsd:string ;
+    wd:P217 "M21 .B92"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"F7YxSKvy-8352334f-f51f-45a6-bf0b-27cd184d94bf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"F7YxSKvy-975e7ced-d7c5-46c5-9518-138989b28aba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"F7YxSKvy-ec781108-e7ec-4cf0-8b33-71a3d895494b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:3GuXLQzZ a rdf:object .
+
+faamentity:5T9oj3bW a rdf:object .
+
+faamentity:Na5pMDjZ a rdf:object .
+

@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GQV7k7JN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8sZeyZjb ;
+    schema1:birthDate "1905-05-04"^^xsd:string ;
+    schema1:birthPlace faamentity:jRhzWGcf ;
+    schema1:deathDate "1960-09-24"^^xsd:string ;
+    schema1:deathPlace faamentity:8CZrvEFn ;
+    schema1:description "British-Hungarian composer (1905–1960)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q214123>,
+        "0"^^xsd:string,
+        "GQV7k7JN"^^xsd:string ;
+    schema1:nationality faamentity:MGBpLC55,
+        faamentity:nXdVQz6m ;
+    skos:prefLabel "Mátyás Seiber"^^xsd:string ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:64273328 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Seiber,_Mátyás> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:ZX7Jzf9y,
+        faamentity:dg4VBYfA .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q18805",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "naturalist"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FimCssKK",
+        "type": "item",
+        "label": "Jean-Jacques Rousseau",
+        "description": "Genevan philosopher, writer, and composer (1712–1778)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Jacques_Rousseau_(painted_portrait).jpg"
+        }
+      },
+      {
+        "id": "8m2m6WLH",
+        "type": "item",
+        "label": "Pierre Gassendi",
+        "description": "French philosopher, astronomer, mathematician, priest, and scientist (*1592 – †1655)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "PierreGassendi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7hXeG4u7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7hXeG4u7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7hXeG4u7.csv"
+      }
+    ]
+  }
 }

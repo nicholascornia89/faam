@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XL5Fexy5 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1876-05-13"^^xsd:string ;
+    schema1:birthPlace faamentity:3vFtsNzx ;
+    schema1:deathDate "1943-04-04"^^xsd:string ;
+    schema1:deathPlace faamentity:Hyo5RL5i,
+        faamentity:L5ASNto7 ;
+    schema1:description "French composer (1876–1943)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2131266>,
+        "16005357"^^xsd:string,
+        "XL5Fexy5"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Raoul Laparra"^^xsd:string,
+        "Raoul Louis-Felix-Émile-Marie Laparra"^^xsd:string ;
+    skos:prefLabel "Raoul Laparra"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:61813201 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:RuuTxmHU,
+        faamentity:h4nueHLU ;
+    wd:P839 <https://imslp.org/wiki/Category:Laparra,_Raoul> ;
+    schema:hasOccupation faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:Mk6HJN99 .
+

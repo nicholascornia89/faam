@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q217196",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Crown of Castile"
       }
     ],
     "aliases": [
@@ -57,6 +58,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VB5ZNecV",
+        "type": "item",
+        "label": "Francisco Guerrero",
+        "description": "Spanish composer of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Libro_de...memorables_varones,_1886_\"Francisco_Guerrero\"._(3816814223).jpg"
+        }
+      },
+      {
+        "id": "N3YpgaMS",
+        "type": "item",
+        "label": "Pedro Fernández de Castilleja",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6WQk6YRw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6WQk6YRw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6WQk6YRw.csv"
+      }
+    ]
+  }
 }

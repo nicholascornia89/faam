@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1757829",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "natural horn"
       }
     ],
     "aliases": [
@@ -59,6 +60,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "DZi5tj7h",
+        "type": "item",
+        "label": "Louis François Dauprat",
+        "description": "French composer and horn-player",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Louis-Fran%C3%A7ois_Dauprat.jpg"
+        }
+      },
+      {
+        "id": "Y6GQrAqk",
+        "type": "item",
+        "label": "Jacques François Gallay",
+        "description": "French composer, professor, hornist and music educator (1795-1864)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jacques_François_Gallay_Hornist.jpg"
+        }
+      },
+      {
+        "id": "GCefJocr",
+        "type": "item",
+        "label": "Frédéric Nicolas Duvernoy",
+        "description": "composer and French horn player (1765-1838)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_du_corniste_Frédéric_Nicolas_Duvernoy_(1765-1838).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6KRAsBPw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6KRAsBPw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6KRAsBPw.csv"
+      }
+    ]
+  }
 }

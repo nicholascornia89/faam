@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VKGEysTw a rdfs:Resource ;
+    faamprop:related_to faamentity:9farY66Z,
+        faamentity:aB3G93He ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1829-11-16"^^xsd:string ;
+    schema1:birthPlace faamentity:fLJXdPb5 ;
+    schema1:deathDate "1894-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:AzqRtNds,
+        faamentity:HspDBWvS ;
+    schema1:description "Russian pianist, composer and conductor (1829–1894)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q87567>,
+        "16002802"^^xsd:string,
+        "VKGEysTw"^^xsd:string ;
+    schema1:nationality faamentity:CaPmHone,
+        faamentity:WKTLcAet ;
+    skos:altLabel "Anton G. Rubinštejn"^^xsd:string,
+        "Anton Gregorovich Rubinstein"^^xsd:string,
+        "Anton Grigorevich Rubinstein"^^xsd:string,
+        "Anton Grigoryevich Rubinstein"^^xsd:string,
+        "Anton Rubinstein"^^xsd:string ;
+    skos:prefLabel "Anton Rubinstein"^^xsd:string ;
+    wd:P108 faamentity:nyaj8Ndp ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:197535 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30008504> ;
+    wd:P737 faamentity:Hd28KCXB,
+        faamentity:LZ3gdd8k,
+        faamentity:cJBJuBu7 ;
+    wd:P839 <https://imslp.org/wiki/Category:Rubinstein,_Anton> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

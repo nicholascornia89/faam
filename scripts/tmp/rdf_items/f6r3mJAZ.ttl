@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:f6r3mJAZ a rdfs:Resource ;
+    faamprop:related_to faamentity:9farY66Z ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1877-07-05"^^xsd:string ;
+    schema1:birthPlace faamentity:i8NP5cNP ;
+    schema1:deathDate "1920-09-23"^^xsd:string ;
+    schema1:deathPlace faamentity:bKNyYiDv ;
+    schema1:description "Belgian organist and music educator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q28129940>,
+        "16004297"^^xsd:string,
+        "f6r3mJAZ"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Louis De Bondt"^^xsd:string ;
+    skos:prefLabel "Louis De Bondt"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:162273993 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:PGamAZRD .
+

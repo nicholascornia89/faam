@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q213530",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ferdinand Hiller"
       }
     ]
   },
@@ -179,13 +180,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iF9SrSF3",
+        "type": "item",
+        "label": "Max Bruch",
+        "description": "German romantic composer and conductor (1838-1920)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Max_bruch.jpg"
+        }
+      },
+      {
+        "id": "6J5JonDa",
+        "type": "item",
+        "label": "Eduard Franck",
+        "description": "German composer (1817-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eduard_Franck.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ferdinand_Hiller2.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PDC4sFML.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PDC4sFML.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PDC4sFML.csv"
       }
     ]
   }

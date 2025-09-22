@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q518773",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "André Gedalge"
       }
     ]
   },
@@ -176,13 +177,139 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "8uTdNMd2",
+        "type": "item",
+        "label": "Ma Bien-Aimée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p28.gif"
+        }
+      },
+      {
+        "id": "8uTdNMd2",
+        "type": "item",
+        "label": "Ma Bien-Aimée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p28.gif"
+        }
+      },
+      {
+        "id": "iKxmk8yM",
+        "type": "item",
+        "label": "Si mon amour était la rose...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p57.gif"
+        }
+      },
+      {
+        "id": "iKxmk8yM",
+        "type": "item",
+        "label": "Si mon amour était la rose...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p57.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "ZPPWH75r",
+        "type": "item",
+        "label": "Henri Rabaud",
+        "description": "French composer (1873-1949)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Rabaud.jpg"
+        }
+      },
+      {
+        "id": "922ZsC8W",
+        "type": "item",
+        "label": "Darius Milhaud",
+        "description": "French composer (1892–1974)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Darius_Milhaud_b_Meurisse_1923.jpg"
+        }
+      },
+      {
+        "id": "CjaU562n",
+        "type": "item",
+        "label": "Maurice Ravel",
+        "description": "French composer (1875-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maurice_Ravel_1925.jpg"
+        }
+      },
+      {
+        "id": "ND8y2kmm",
+        "type": "item",
+        "label": "Charles Koechlin",
+        "description": "French composer, teacher and writer on music",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Koechlin_1.jpg"
+        }
+      },
+      {
+        "id": "TqfEoo49",
+        "type": "item",
+        "label": "Jacques Ibert",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ibert_Jacques_Photo1938.jpg"
+        }
+      },
+      {
+        "id": "6mzYVLvj",
+        "type": "item",
+        "label": "Nadia Boulanger",
+        "description": "French musician, conductor, and teacher (1887-1979)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nadia_Boulanger_1925_colorized.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "André_Gedalge.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Do7kNZLT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Do7kNZLT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Do7kNZLT.csv"
       }
     ]
   }

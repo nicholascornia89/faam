@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q115651064",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Violin concerto in E-flat major (RV 252)"
       }
     ]
   },
@@ -95,6 +96,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KJAhs3Zf",
+        "type": "item",
+        "label": "24. | Concerto | a Viol. conc., 2 Viol., Viola, Violoncello e Basso | del Sig. Vivaldi.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA15.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fPamE8Pi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fPamE8Pi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fPamE8Pi.csv"
+      }
+    ]
+  }
 }

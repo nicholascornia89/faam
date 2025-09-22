@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix imslp: <https://imslp.org/wiki/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7CVJQfN3 a rdfs:Resource ;
+    faamprop:related_to faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French music publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q109021520>,
+        "16003996"^^xsd:string,
+        "7CVJQfN3"^^xsd:string ;
+    skos:altLabel "Richault"^^xsd:string,
+        "Éditions Richault"^^xsd:string ;
+    skos:prefLabel "Éditions Richault"^^xsd:string ;
+    wd:P214 viaf:130752329 ;
+    wd:P31 faamentity:2fXfbLCV ;
+    wd:P5504 <https://rism.online/institutions/51000045> ;
+    wd:P839 imslp:Richault ;
+    schema:hasOccupation faamentity:9joWzZuU .
+

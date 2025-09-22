@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q571562",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bernhard Molique"
       }
     ]
   },
@@ -160,13 +161,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PhesSdSV",
+        "type": "item",
+        "label": "Alfredo Piatti",
+        "description": "Italian cellist (1822-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alfredo_Piatti_(before_1901)_-_Archivio_storico_Ricordi_FOTO001575.jpg"
+        }
+      },
+      {
+        "id": "ZhQpEEdD",
+        "type": "item",
+        "label": "Ignaz Lachner",
+        "description": "German composer and conductor (1807-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Lachner_1882.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Bernhard_Molique_passport.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MYycZXCd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MYycZXCd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MYycZXCd.csv"
       }
     ]
   }

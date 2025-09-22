@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1069389",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cadenza"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Aeb2iAaE",
+        "type": "item",
+        "label": "L'Angelus : Fantaisie : pour La Flûte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors obligés et deux Bassons, (ou du Piano Forte) : Op. 46.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370115.gif"
+        }
+      },
+      {
+        "id": "F7YxSKvy",
+        "type": "item",
+        "label": "Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-11727.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eUhHdQXj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eUhHdQXj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eUhHdQXj.csv"
+      }
+    ]
+  }
 }

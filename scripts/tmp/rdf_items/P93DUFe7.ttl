@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P93DUFe7 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:hn6sVeFM ;
+    schema1:birthDate "1843-04-04"^^xsd:string ;
+    schema1:birthPlace faamentity:c7kbySiv ;
+    schema1:deathDate "1916-12-05"^^xsd:string ;
+    schema1:deathPlace faamentity:LDjom53b ;
+    schema1:description "Austrian-Hungarian orchestral and operatic conductor (1843-1916)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q366147>,
+        "0"^^xsd:string,
+        "P93DUFe7"^^xsd:string ;
+    schema1:nationality faamentity:nXdVQz6m ;
+    skos:prefLabel "Hans Richter"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:59272058 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:fmwa7nC3 ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

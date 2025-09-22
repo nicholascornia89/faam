@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q261074",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Symphony No. 7"
       }
     ]
   },
@@ -93,6 +94,71 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7JMXRPR7",
+        "type": "item",
+        "label": "Symphony No. 7, Movement I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-1293986.gif"
+        }
+      },
+      {
+        "id": "noceX64x",
+        "type": "item",
+        "label": "Symphony No. 7, Movement II",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-1294030.gif"
+        }
+      },
+      {
+        "id": "Zb9Vuqt8",
+        "type": "item",
+        "label": "Symphony No. 7, Movement III",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-1294031.gif"
+        }
+      },
+      {
+        "id": "6RqyB5gz",
+        "type": "item",
+        "label": "Symphony No. 7, Movement IV",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-1294032.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ARrmguPE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ARrmguPE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ARrmguPE.csv"
+      }
+    ]
+  }
 }

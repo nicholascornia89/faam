@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JysuypPo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:59RimmuX,
+        faamentity:Rfoj9dh4,
+        faamentity:Z8fp8xPh,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:K9MgTT3J,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:65rhe5Po,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:TYtCu3ys,
+        faamentity:dqzZNPaF ;
+    schema1:identifier "15992603"^^xsd:string,
+        "JysuypPo"^^xsd:string,
+        "KCG-000334484"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334484"^^schema1:url ;
+    skos:prefLabel "CONCERTO N°8 in D uitgave voor Violin en piano"^^xsd:string ;
+    skosref:note "Orchestral parts only, solo missing."^^rdf:HTML ;
+    wd:P217 "II 1611"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"JysuypPo-2dfc3729-ace5-4e99-ab13-5ea38cc6b4f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"JysuypPo-50962b8d-8e7e-43cb-ac1a-442ccfc01696"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"JysuypPo-74dc27c3-7bde-4c32-8e7c-4c0dda9b91e3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"JysuypPo-8b903feb-e4ac-40fd-b564-720187397137"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3185009",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph Ghys"
       }
     ]
   },
@@ -164,13 +165,71 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mMJa2MG7",
+        "type": "item",
+        "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000346307.gif"
+        }
+      },
+      {
+        "id": "mMJa2MG7",
+        "type": "item",
+        "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000346307.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "7p298NhW",
+        "type": "item",
+        "label": "Variations concertantes et Faciles, Op. 18",
+        "description": ""
+      },
+      {
+        "id": "MobhtZs7",
+        "type": "item",
+        "label": "Andronico",
+        "description": "opera by Saverio Mercadante"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Joseph_Ghys_1834.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "W75KiRxY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "W75KiRxY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "W75KiRxY.csv"
       }
     ]
   }

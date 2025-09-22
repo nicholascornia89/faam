@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q11043714",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Francesco Masini"
       }
     ]
   },
@@ -120,13 +121,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "TbZCFaqB",
+        "type": "item",
+        "label": "Crois-moi! : romance",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356107.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Gr6ozwAA",
+        "type": "item",
+        "label": "Crois-moi!",
+        "description": "composition by Francesco Masini"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Francesco_masini.JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bDP89aJt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bDP89aJt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bDP89aJt.csv"
       }
     ]
   }

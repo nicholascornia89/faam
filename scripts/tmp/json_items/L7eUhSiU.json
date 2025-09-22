@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q186096",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tsardom of Russia"
       }
     ],
     "aliases": []
@@ -44,6 +45,37 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "city": [
+      {
+        "id": "AzqRtNds",
+        "type": "item",
+        "label": "Saint Petersburg",
+        "description": "federal city and former capital of Russia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L7eUhSiU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L7eUhSiU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L7eUhSiU.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q82142",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Province of Granada"
       }
     ],
     "aliases": [
@@ -58,8 +59,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2517115"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "aWgXEV4P",
+        "type": "item",
+        "label": "Real Conservatorio Superior de Música de Granada",
+        "description": "Real Conservatorio Superior de Música de Granada"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "W4JdkvJm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "W4JdkvJm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "W4JdkvJm.csv"
+      }
+    ]
+  }
 }

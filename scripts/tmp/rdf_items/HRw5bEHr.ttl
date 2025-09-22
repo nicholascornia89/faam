@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HRw5bEHr a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:kZj58UuH ;
+    schema1:identifier "16002477"^^xsd:string,
+        "HRw5bEHr"^^xsd:string ;
+    skos:prefLabel "Piano Concerto in F major, Op.Posth.1"^^xsd:string ;
+    wd:P7937 faamentity:e6nLCMMw ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_in_F_major,_Op.Posth.1_(Hummel,_Johann_Nepomuk)> .
+

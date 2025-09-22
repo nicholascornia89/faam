@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1356212",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Napoléon Henri Reber"
       }
     ]
   },
@@ -160,13 +161,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "gTYuagCW",
+        "type": "item",
+        "label": "Benjamin Godard",
+        "description": "French violinist and composer (1849–1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Benjamin_Godard_01.jpg"
+        }
+      },
+      {
+        "id": "EzxGVoaq",
+        "type": "item",
+        "label": "Jules Massenet",
+        "description": "French composer (1842–1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Massenet_by_Eugène_Pirou,_edit_(cropped).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nhr.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mVXKDPrZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mVXKDPrZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mVXKDPrZ.csv"
       }
     ]
   }

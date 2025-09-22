@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q312788",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nicola Porpora"
       }
     ]
   },
@@ -138,13 +139,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iyd6gRcN",
+        "type": "item",
+        "label": "Joseph Haydn",
+        "description": "Austrian composer (1732–1809)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Haydn,_målning_av_Thomas_Hardy_från_1792.jpg"
+        }
+      },
+      {
+        "id": "TJCUXStt",
+        "type": "item",
+        "label": "Farinelli",
+        "description": "Italian singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg"
+        }
+      },
+      {
+        "id": "D6daQWjZ",
+        "type": "item",
+        "label": "Giovanni Ansani",
+        "description": "Italian opera singer (1744-1826)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Nicola_Antonio_Porpora.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4fq6Jxut.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4fq6Jxut.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4fq6Jxut.csv"
       }
     ]
   }

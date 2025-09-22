@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q3577686",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Niedermeyer school in Paris"
       }
     ],
     "aliases": [
@@ -74,6 +75,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Hgxretvk",
+        "type": "item",
+        "label": "Charles-Wilfrid de Bériot",
+        "description": "French pianist and composer (1833-1914)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Charles_Wilfrid_de_B%C3%A9riot_1890.jpg"
+        }
+      },
+      {
+        "id": "MmdKB67A",
+        "type": "item",
+        "label": "André Messager",
+        "description": "French opera composer and conductor (1853–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "André_Messager.jpg"
+        }
+      },
+      {
+        "id": "5MAp6eem",
+        "type": "item",
+        "label": "Edmond Audran",
+        "description": "French composer (1840–1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edmond_Audran.jpg"
+        }
+      },
+      {
+        "id": "h4nueHLU",
+        "type": "item",
+        "label": "Gabriel Fauré",
+        "description": "French composer, organist, pianist and teacher (1845–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FauréPirou1905.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2hKwyXJF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2hKwyXJF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2hKwyXJF.csv"
+      }
+    ]
+  }
 }

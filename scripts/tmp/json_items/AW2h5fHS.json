@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q440809",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Wieck"
       }
     ]
   },
@@ -179,13 +180,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5T9oj3bW",
+        "type": "item",
+        "label": "Hans von Bülow",
+        "description": "German conductor and pianist (1830–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg"
+        }
+      },
+      {
+        "id": "TxfuV8Su",
+        "type": "item",
+        "label": "Robert Schumann",
+        "description": "German composer, pianist and critic (1810–1856)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert-schumann.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Friedrich_Wieck_age_45.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AW2h5fHS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AW2h5fHS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AW2h5fHS.csv"
       }
     ]
   }

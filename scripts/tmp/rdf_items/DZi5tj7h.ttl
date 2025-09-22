@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DZi5tj7h a rdfs:Resource ;
+    faamprop:related_to faamentity:gccDhEBK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1781-05-24"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1868-07-16"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer and horn-player"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q56649>,
+        "16005740"^^xsd:string,
+        "DZi5tj7h"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Louis François Dauprat"^^xsd:string,
+        "Louis-François Dauprat"^^xsd:string ;
+    skos:prefLabel "Louis François Dauprat"^^xsd:string,
+        "Louis-François Dauprat"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:6KRAsBPw,
+        faamentity:N3AKKugd ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71583430 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/40209889> ;
+    wd:P737 faamentity:UHhyCQcS ;
+    wd:P839 <https://imslp.org/wiki/Category:Dauprat,_Louis-François> ;
+    schema:hasOccupation faamentity:93wApfkY,
+        faamentity:KZLqHwSf,
+        faamentity:ZX7Jzf9y .
+

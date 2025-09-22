@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5ymmKpXF a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1791-09-05"^^xsd:string ;
+    schema1:birthPlace faamentity:KeGBHnn7,
+        faamentity:Km6ATdgQ,
+        faamentity:RuMhvCPG ;
+    schema1:deathDate "1864-05-02"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "German-French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q105237>,
+        "15995914"^^xsd:string,
+        "5ymmKpXF"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb ;
+    skos:altLabel "Giacomo Meyerbeer"^^xsd:string,
+        "Jakob Liebmann Beer"^^xsd:string,
+        "Jakob Meyer Beer"^^xsd:string,
+        "Meyer Beer"^^xsd:string,
+        "Meyerbeer"^^xsd:string ;
+    skos:prefLabel "Giacomo Meyerbeer"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71578779 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/725> ;
+    wd:P737 faamentity:K9sJXiWg,
+        faamentity:SLpCAuz4,
+        faamentity:c5kbPQTK,
+        faamentity:heDPeRxF ;
+    wd:P839 <https://imslp.org/wiki/Category:Meyerbeer,_Giacomo> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:WVAdy2Fe,
+        faamentity:jCxmy8ED .
+

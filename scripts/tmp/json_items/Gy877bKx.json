@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q314164",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Johann Georg Albrechtsberger"
       }
     ]
   },
@@ -163,13 +164,117 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6JGVpMmj",
+        "type": "item",
+        "label": "Ignaz Moscheles",
+        "description": "Bohemian conductor, music educator, composer and pianist (1794–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Moscheles.jpg"
+        }
+      },
+      {
+        "id": "oJGctqdB",
+        "type": "item",
+        "label": "Anton Reicha",
+        "description": "Czech-born French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg"
+        }
+      },
+      {
+        "id": "kZj58UuH",
+        "type": "item",
+        "label": "Johann Nepomuk Hummel",
+        "description": "Austrian composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "JNHummel_2.jpg"
+        }
+      },
+      {
+        "id": "RocjqkVV",
+        "type": "item",
+        "label": "Friedrich Kalkbrenner",
+        "description": "German-born French pianist, composer, piano teacher and piano manufacturer (1784-1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Kalkbrenner_1829.jpg"
+        }
+      },
+      {
+        "id": "98W5cKAM",
+        "type": "item",
+        "label": "Ludwig van Beethoven",
+        "description": "German composer (1770–1827)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg"
+        }
+      },
+      {
+        "id": "4pKZtPQK",
+        "type": "item",
+        "label": "Johann Peter Pixis",
+        "description": "German pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_Kneisel_nach_Cäcilie_Brand_-_Johann_Peter_Pixis_(Lithographie).jpg"
+        }
+      },
+      {
+        "id": "C96V6zHY",
+        "type": "item",
+        "label": "John Field",
+        "description": "Irish pianist, composer, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_field.jpg"
+        }
+      },
+      {
+        "id": "f2aM5oy8",
+        "type": "item",
+        "label": "Ignaz von Seyfried",
+        "description": "Austrian musician (1776–1841)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Seyfried.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Johann_Georg_Albrechtsberger.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Gy877bKx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Gy877bKx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Gy877bKx.csv"
       }
     ]
   }

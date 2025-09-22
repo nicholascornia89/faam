@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8gAr6CXD a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1656-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1742-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:MDWRhZ8K ;
+    schema1:description "Italian baroque music theorist, composer and priest"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5479173>,
+        "15996214"^^xsd:string,
+        "8gAr6CXD"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:altLabel "Francesco Antonio Calegari"^^xsd:string ;
+    skos:prefLabel "Francesco Antonio Calegari"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 <https://viaf.org/viaf/8,70E+35> ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20000357> ;
+    wd:P839 <https://imslp.org/wiki/Category:Calegari,_Francesco_Antonio> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

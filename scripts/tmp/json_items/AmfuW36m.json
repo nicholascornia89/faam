@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q471980",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lycée Saint-Louis"
       }
     ],
     "aliases": [
@@ -66,6 +67,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EzxGVoaq",
+        "type": "item",
+        "label": "Jules Massenet",
+        "description": "French composer (1842–1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Massenet_by_Eugène_Pirou,_edit_(cropped).jpg"
+        }
+      },
+      {
+        "id": "ZLvyAzgk",
+        "type": "item",
+        "label": "Charles Gounod",
+        "description": "French composer (1818-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Gounod_(1890)_by_Nadar.jpg"
+        }
+      },
+      {
+        "id": "Lje5Cgqo",
+        "type": "item",
+        "label": "Emmanuel Chabrier",
+        "description": "French Romantic composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emmanuel_Chabrier.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AmfuW36m.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AmfuW36m.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AmfuW36m.csv"
+      }
+    ]
+  }
 }

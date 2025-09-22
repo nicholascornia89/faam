@@ -1,0 +1,49 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NFa7mgAM a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1894"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    dcterms:provenance faamentity:Uafe5zh7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9sTLaakX,
+        faamentity:hUYoNwfh ;
+    schema1:identifier "16004169"^^xsd:string,
+        "NFa7mgAM"^^xsd:string,
+        "OSU-b5903614"^^xsd:string ;
+    schema1:location faamentity:iXuvmnqs ;
+    schema1:url "https://library.ohio-state.edu/record=b5903614"^^schema1:url ;
+    skos:prefLabel "The Principles of singing : a practical guide for vocalists and teachers, with vocal exercises / by Albert B. Bach"^^xsd:string ;
+    wd:P217 "MT820 .B23 1894aeb"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"NFa7mgAM-1fd3919d-65b5-4452-96c0-6465aebd74fe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"NFa7mgAM-8fa7a519-d00c-4d3f-a5e8-7ca2247264b8"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1894"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:iXuvmnqs .
+
+faamentity:9sTLaakX a rdf:object .
+
+faamentity:hUYoNwfh a rdf:object .
+

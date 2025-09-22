@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1339827",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Gaetano Greco"
       }
     ]
   },
@@ -169,13 +170,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PzFs6xxG",
+        "type": "item",
+        "label": "Giovanni Battista Pergolesi",
+        "description": "Italian composer, violinist and organist (1710–1736)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Battista_Pergolesi.jpg"
+        }
+      },
+      {
+        "id": "E6ojRojP",
+        "type": "item",
+        "label": "Francesco Durante",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Durante.png"
+        }
+      },
+      {
+        "id": "U6od7iv8",
+        "type": "item",
+        "label": "Girolamo Abos",
+        "description": "Maltese-Italian composer (1715–1760)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "4fq6Jxut",
+        "type": "item",
+        "label": "Nicola Porpora",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicola_Antonio_Porpora.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LvEGnT5o.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LvEGnT5o.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LvEGnT5o.csv"
       }
     ]
   }

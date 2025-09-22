@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q38872",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Prussia"
       }
     ],
     "aliases": []
@@ -44,6 +45,49 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "fbVWXXr3",
+        "type": "item",
+        "label": "Arnold Mendelssohn",
+        "description": "German composer and music teacher (1855-1933)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arnold.Mendelssohn.Dauerausstellung.Dreifaltigkeitskirchhof.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "5eewCidM",
+        "type": "item",
+        "label": "Königsberg",
+        "description": "historic capital of East Prussia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ecinNMfE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ecinNMfE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ecinNMfE.csv"
+      }
+    ]
+  }
 }

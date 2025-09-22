@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q255938",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le domino noir"
       }
     ]
   },
@@ -85,6 +86,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FcBs6ggy",
+        "type": "item",
+        "label": "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000353031.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bDdxv7Ny.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bDdxv7Ny.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bDdxv7Ny.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1607826",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "editor"
       }
     ],
     "aliases": [
@@ -55,6 +56,121 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GnrSEm6g",
+        "type": "item",
+        "label": "Charles Laffillé",
+        "description": "French composer, poet and theatre director",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZhveBtTN",
+        "type": "item",
+        "label": "Ernst Wilhelm Fritsch",
+        "description": "German musician (1840-1902)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "93MDHCVd",
+        "type": "item",
+        "label": "Eugène Talbot",
+        "description": "French classicist and translator (1814–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RaWYp422",
+        "type": "item",
+        "label": "Edmund Fellowes",
+        "description": "British musician (1870–1951)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZWHL3kBs",
+        "type": "item",
+        "label": "Pierre Aelberts",
+        "description": "Belgian editor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RW6AGYqP",
+        "type": "item",
+        "label": "Friedrich August Roitzsch",
+        "description": "born:1805|died:1889|; Roitzsch, F. A. (Friedrich August), 1805-1889; Roitzsch, F.A. (Ferdinand August), 1808-1889; Roitzsch, F.A.; Roitzsch, Ferdinand, 1805-1889; Roitzsch, Ferdinand",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9i2vgyDV",
+        "type": "item",
+        "label": "Carlo Tessarini",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carlo_Tessarini.jpg"
+        }
+      },
+      {
+        "id": "SEPoLobZ",
+        "type": "item",
+        "label": "Claude Goudimel",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Goudimel.jpg"
+        }
+      },
+      {
+        "id": "Hi8DkjeD",
+        "type": "item",
+        "label": "Santiago Riera",
+        "description": "Spanish musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Santiago_Riera.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TwyJsq9A.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TwyJsq9A.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TwyJsq9A.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q43",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Turkey"
       }
     ],
     "aliases": []
@@ -44,6 +45,43 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "city": [
+      {
+        "id": "MLnxvASX",
+        "type": "item",
+        "label": "İzmir",
+        "description": "city in İzmir Province, Turkey"
+      },
+      {
+        "id": "9tYw9FNL",
+        "type": "item",
+        "label": "Ankara",
+        "description": "capital of Turkey"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "anGyFT5B.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "anGyFT5B.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "anGyFT5B.csv"
+      }
+    ]
+  }
 }

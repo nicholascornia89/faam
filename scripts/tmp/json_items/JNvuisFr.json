@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q153136",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Habsburg monarchy"
       }
     ],
     "aliases": [
@@ -61,6 +62,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6JGVpMmj",
+        "type": "item",
+        "label": "Ignaz Moscheles",
+        "description": "Bohemian conductor, music educator, composer and pianist (1794–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Moscheles.jpg"
+        }
+      },
+      {
+        "id": "286Q3xe8",
+        "type": "item",
+        "label": "Michael Haydn",
+        "description": "Austrian composer, brother of Joseph Haydn, (1737-1806)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Michaelhaydn1.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JNvuisFr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JNvuisFr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JNvuisFr.csv"
+      }
+    ]
+  }
 }

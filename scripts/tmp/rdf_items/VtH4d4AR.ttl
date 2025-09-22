@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VtH4d4AR a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "cathedral city in Kent, England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q29303>,
+        "0"^^xsd:string,
+        "VtH4d4AR"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55 ;
+    skos:altLabel "Canterbury"^^xsd:string,
+        "Canterbury, United Kingdom"^^xsd:string ;
+    skos:prefLabel "Canterbury"^^xsd:string ;
+    wd:P1566 gn:2653877 .
+

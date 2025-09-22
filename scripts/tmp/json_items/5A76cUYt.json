@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q122459338",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "drame lyrique"
       }
     ],
     "aliases": [
@@ -63,6 +64,89 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KRBCuZqy",
+        "type": "item",
+        "label": "Karel van Gelderland: rol van den hertog",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901779048.gif"
+        }
+      },
+      {
+        "id": "ndVEBUdh",
+        "type": "item",
+        "label": "Alva's intocht",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902126769.gif"
+        }
+      },
+      {
+        "id": "TYcoK5jD",
+        "type": "item",
+        "label": "Yolande : lyrische legende",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902567517.gif"
+        }
+      },
+      {
+        "id": "bttvr4ke",
+        "type": "item",
+        "label": "Charlotte Corday: drame: ouverture",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901609500.gif"
+        }
+      },
+      {
+        "id": "ZCWs7Zpj",
+        "type": "item",
+        "label": "Charlotte Corday: ouverture",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901609492.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "gvB7xdLy",
+        "type": "item",
+        "label": "Charlotte Corday",
+        "description": "opera by Peter Benoit"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5A76cUYt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5A76cUYt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5A76cUYt.csv"
+      }
+    ]
+  }
 }

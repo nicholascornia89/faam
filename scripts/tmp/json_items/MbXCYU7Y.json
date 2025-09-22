@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q125349731",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Lahou"
       }
     ]
   },
@@ -114,13 +115,135 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FcBs6ggy",
+        "type": "item",
+        "label": "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000353031.gif"
+        }
+      },
+      {
+        "id": "FcBs6ggy",
+        "type": "item",
+        "label": "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000353031.gif"
+        }
+      },
+      {
+        "id": "h4Sc6ZXh",
+        "type": "item",
+        "label": "ECRIN DES JEUNES FLUTISTES: trois airs variés sur des motifs de Donizetti, Mercadante, Bellini, pour flûte et piano/par Berbiguier [et A. Miné ?].",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334244.gif"
+        }
+      },
+      {
+        "id": "DdLJo96s",
+        "type": "item",
+        "label": "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334547.gif"
+        }
+      },
+      {
+        "id": "9HbvzGss",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur la romance de Guido et Ginévra d'Halévy Op. 72",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000372227.gif"
+        }
+      },
+      {
+        "id": "dxTTXDqo",
+        "type": "item",
+        "label": "VALSONS, VALSONS ENCORE",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000352995.gif"
+        }
+      },
+      {
+        "id": "HNYTqigG",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      },
+      {
+        "id": "HNYTqigG",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      },
+      {
+        "id": "9aDK7tXd",
+        "type": "item",
+        "label": "Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370144.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bDdxv7Ny",
+        "type": "item",
+        "label": "Le domino noir",
+        "description": "opéra comique by Daniel-François-Esprit Auber"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MbXCYU7Y.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MbXCYU7Y.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MbXCYU7Y.csv"
       }
     ]
   }

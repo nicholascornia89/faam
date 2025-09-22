@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mm7UrXid a rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "American publisher of sheet music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q59617376>,
+        "16004172"^^xsd:string,
+        "mm7UrXid"^^xsd:string ;
+    schema1:nationality faamentity:LbfJnd9y ;
+    skos:altLabel "Oliver Ditson & Co."^^xsd:string,
+        "Oliver Ditson Co."^^xsd:string,
+        "Oliver Ditson Company"^^xsd:string,
+        "Oliver Ditson and Company"^^xsd:string ;
+    skos:prefLabel "Oliver Ditson Company"^^xsd:string ;
+    wd:P214 viaf:128297096 ;
+    wd:P31 faamentity:2fXfbLCV ;
+    schema:hasOccupation faamentity:9joWzZuU .
+

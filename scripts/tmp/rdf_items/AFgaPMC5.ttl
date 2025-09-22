@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AFgaPMC5 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:SnxsnGvi,
+        faamentity:YWfofDz3,
+        faamentity:aCRY7SgN ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:4ZvdnZdj,
+        faamentity:M6r7boi8,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:gGoGDDre,
+        faamentity:jKcRhkCr ;
+    schema1:identifier "16002618"^^xsd:string,
+        "AFgaPMC5"^^xsd:string,
+        "KCA-030904328777"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15072444/N"^^schema1:url ;
+    skos:prefLabel "Fée d'amour : mazurka: extraite du ballet divertissement en un acte"^^xsd:string ;
+    wd:P217 "MM-TP-WEYTS-feedamo-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"AFgaPMC5-ae4d5be9-e330-422a-871b-3d23e0a09f89"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"AFgaPMC5-c45ec457-0daf-4a18-822b-68f4a2ddcce0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"AFgaPMC5-c7779b76-861e-46a3-82bb-26b32e94fe87"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:gGoGDDre a rdf:object .
+
+faamentity:jKcRhkCr a rdf:object .
+

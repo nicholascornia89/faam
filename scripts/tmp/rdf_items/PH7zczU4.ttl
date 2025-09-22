@@ -1,0 +1,58 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PH7zczU4 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "28-03-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:G2M2kJyy,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005465"^^xsd:string,
+        "ORP-20143700p16"^^xsd:string,
+        "PH7zczU4"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188"^^schema1:url ;
+    skos:prefLabel "La Statue"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3135
+L'Illustration, N. 3135"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.006"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"PH7zczU4-39109c7d-ff69-4755-8d32-e746a3bac12d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"PH7zczU4-ae305ef2-7741-4563-93aa-577ad9d60623"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"PH7zczU4-e4c58a8e-f8d5-48a0-b3e6-9a563f66f4c4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"PH7zczU4-ec2bf8a4-a5bb-4e8c-ae4c-17d3894b4fa0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "28-03-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:G2M2kJyy a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

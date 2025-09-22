@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9Q8kS9Xp a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:ZdfPaJi9 ;
+    schema1:birthDate "1879-10-25"^^xsd:string ;
+    schema1:birthPlace faamentity:Ea672e4Z ;
+    schema1:deathDate "1964-03-20"^^xsd:string ;
+    schema1:deathPlace faamentity:Ea672e4Z ;
+    schema1:description "Belgian musician (1879-1964)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q598693>,
+        "15996303"^^xsd:string,
+        "9Q8kS9Xp"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Jean Francois Toussaint Rogister"^^xsd:string,
+        "Jean Rogister"^^xsd:string ;
+    skos:prefLabel "Jean Rogister"^^xsd:string ;
+    wd:P1303 faamentity:N3AKKugd,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:60458171 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30085966> ;
+    schema:hasOccupation faamentity:93wApfkY,
+        faamentity:KZLqHwSf,
+        faamentity:irSPevuD,
+        faamentity:jmrmjM9v .
+

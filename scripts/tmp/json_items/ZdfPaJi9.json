@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2009714",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Royal Conservatory of Liège"
       }
     ],
     "aliases": [
@@ -70,6 +71,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "HkAYDsB2",
+        "type": "item",
+        "label": "Mathieu Crickboom",
+        "description": "Belgian violinist (1871–1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mathieu_Crickboom_1905.jpg"
+        }
+      },
+      {
+        "id": "eShK9Xad",
+        "type": "item",
+        "label": "César Franck",
+        "description": "Belgian-French composer and organist (1822–1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "César_Franck_by_Pierre_Petit.jpg"
+        }
+      },
+      {
+        "id": "dnyX2d5X",
+        "type": "item",
+        "label": "Georges Antoine",
+        "description": "Belgian composer (1892-1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "9Q8kS9Xp",
+        "type": "item",
+        "label": "Jean Rogister",
+        "description": "Belgian musician (1879-1964)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZdfPaJi9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZdfPaJi9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZdfPaJi9.csv"
+      }
+    ]
+  }
 }

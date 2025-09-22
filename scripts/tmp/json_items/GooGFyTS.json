@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1241308",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Passy"
       }
     ],
     "aliases": [
@@ -54,8 +55,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "2988394"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Y3GHpB9Y",
+        "type": "item",
+        "label": "Constant Pierre",
+        "description": "French musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Constant_Pierre.jpg"
+        }
+      },
+      {
+        "id": "eukJ9RHS",
+        "type": "item",
+        "label": "Pierre Baillot",
+        "description": "French musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre_Baillot.jpg"
+        }
+      },
+      {
+        "id": "9bPsZW9o",
+        "type": "item",
+        "label": "François Joseph Gossec",
+        "description": "French composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François-Joseph_Gossec_by_Antoine_Vestier.png"
+        }
+      },
+      {
+        "id": "WVwrkfen",
+        "type": "item",
+        "label": "Gioachino Rossini",
+        "description": "Italian opera composer (1792–1868)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/46/Composer_Rossini_G_1865_by_Carjat.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GooGFyTS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GooGFyTS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GooGFyTS.csv"
+      }
+    ]
+  }
 }

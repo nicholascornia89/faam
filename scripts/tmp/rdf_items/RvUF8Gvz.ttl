@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RvUF8Gvz a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:bRWxgYHR ;
+    schema1:birthDate "1835-00-00"^^xsd:string,
+        "1835-06-02"^^xsd:string,
+        "1835-06-14"^^xsd:string ;
+    schema1:birthPlace faamentity:fgyBiYxY ;
+    schema1:deathDate "1881-00-00"^^xsd:string,
+        "1881-03-11"^^xsd:string,
+        "1881-03-23"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "Russian pianist, conductor and composer (1835-1881)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q311791>,
+        "0"^^xsd:string,
+        "RvUF8Gvz"^^xsd:string ;
+    schema1:nationality faamentity:WKTLcAet ;
+    skos:prefLabel "Nikolai Rubinstein"^^xsd:string ;
+    wd:P108 faamentity:Djq8DaQv ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:52512631 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/67521> ;
+    wd:P737 faamentity:82wmXrwP,
+        faamentity:LZ3gdd8k,
+        faamentity:cJBJuBu7,
+        faamentity:hCB9JKwa ;
+    wd:P839 <https://imslp.org/wiki/Category:Rubinstein,_Nikolai_Grigoryevich>,
+        <https://imslp.org/wiki/Category:Rubinstein,_Nikolay> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

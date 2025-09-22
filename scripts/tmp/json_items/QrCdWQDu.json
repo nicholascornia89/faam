@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2192323",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fortepiano"
       }
     ],
     "aliases": [
@@ -100,6 +101,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "g6naeZ26",
+        "type": "item",
+        "label": "Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991062688259707356.gif"
+        }
+      },
+      {
+        "id": "bT6iQYg8",
+        "type": "item",
+        "label": "Grand Quintetto : pour Deux Violons, deux Altos et Violoncelle : Oeuvre 70",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735262.gif"
+        }
+      },
+      {
+        "id": "Lnsb6ZLw",
+        "type": "item",
+        "label": "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370141.gif"
+        }
+      },
+      {
+        "id": "DdLJo96s",
+        "type": "item",
+        "label": "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334547.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QrCdWQDu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QrCdWQDu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QrCdWQDu.csv"
+      }
+    ]
+  }
 }

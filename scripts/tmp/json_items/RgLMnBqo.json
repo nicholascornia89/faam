@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q17587776",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "aspect of sound"
       }
     ],
     "aliases": [
@@ -55,6 +56,73 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "XNhixQDd",
+        "type": "item",
+        "label": "timbre",
+        "description": "quality of a musical note or sound or tone"
+      },
+      {
+        "id": "kfih5N57",
+        "type": "item",
+        "label": "pitch",
+        "description": "perceptual property in music ordering sounds from low to high"
+      },
+      {
+        "id": "LQEfYKAU",
+        "type": "item",
+        "label": "echo",
+        "description": "reflection of sound that arrives at the listener with a delay after the direct sound"
+      },
+      {
+        "id": "eviEKifd",
+        "type": "item",
+        "label": "dynamic",
+        "description": "volume of a sound or note"
+      },
+      {
+        "id": "XNhixQDd",
+        "type": "item",
+        "label": "timbre",
+        "description": "quality of a musical note or sound or tone"
+      },
+      {
+        "id": "kfih5N57",
+        "type": "item",
+        "label": "pitch",
+        "description": "perceptual property in music ordering sounds from low to high"
+      },
+      {
+        "id": "cVskuK4J",
+        "type": "item",
+        "label": "loudness",
+        "description": "subjective perception of sound pressure"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RgLMnBqo.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RgLMnBqo.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RgLMnBqo.csv"
+      }
+    ]
+  }
 }

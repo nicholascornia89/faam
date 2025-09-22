@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q523581",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François-Joseph Fétis"
       }
     ]
   },
@@ -253,13 +254,137 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PrefYzTr",
+        "type": "item",
+        "label": "Joseph Tilborghs",
+        "description": "Belgian composer (1830-1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "PhcJTGVF",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      },
+      {
+        "id": "eur35kCD",
+        "type": "item",
+        "label": "Berthold Tours",
+        "description": "Dutch composer (1838-1897)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Berthold_Tours.jpg"
+        }
+      },
+      {
+        "id": "73vECvez",
+        "type": "item",
+        "label": "Peter Benoit",
+        "description": "Flemish composer (1834-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_Benoit_2.jpg"
+        }
+      },
+      {
+        "id": "QsmFbkdg",
+        "type": "item",
+        "label": "Jacques-Nicolas Lemmens",
+        "description": "Belgian musician (1823–1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "S3La3UWp",
+        "type": "item",
+        "label": "Ferdinand Hérold",
+        "description": "French composer (1791–1833)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Herold_by_Maurin.jpg"
+        }
+      },
+      {
+        "id": "CLJgE33u",
+        "type": "item",
+        "label": "Jean-Delphin Alard",
+        "description": "French musician (1815–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Delphin_Alard.png"
+        }
+      },
+      {
+        "id": "AHz5Dq7p",
+        "type": "item",
+        "label": "Gustave Huberti",
+        "description": "Belgian composer and musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustave_Huberti.jpg"
+        }
+      },
+      {
+        "id": "LDkDYnVj",
+        "type": "item",
+        "label": "Antoine Elwart",
+        "description": "French composer (1808-1877)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Elwart,_Antoine,_Nadar_Gallica.jpg"
+        }
+      },
+      {
+        "id": "oNn8afy6",
+        "type": "item",
+        "label": "Félix Cazot",
+        "description": "French composer and pianist (1790–1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4tDcUzEt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4tDcUzEt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4tDcUzEt.csv"
       }
     ]
   }

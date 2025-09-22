@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q446955",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Francesco Gasparini"
       }
     ]
   },
@@ -177,13 +178,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "X3wbXr8a",
+        "type": "item",
+        "label": "Pasquale Pisari",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "DbRGTwme",
+        "type": "item",
+        "label": "Benedetto Marcello",
+        "description": "Italian composer, writer, advocate, magistrate, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Benedetto_Marcello_by_Vincenzo_Roscioni.jpg"
+        }
+      },
+      {
+        "id": "Na5pMDjZ",
+        "type": "item",
+        "label": "Domenico Scarlatti",
+        "description": "Italian composer, son of Alessandro Scarlatti",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Retrato_de_Domenico_Scarlatti.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Francesco_Gasparini_(by_Pier_Leone_Ghezzi)_Rom,_Bibl_Vat_-_Codici_Ottoboniani_latini_3113,_fol8.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AZWmWZa6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AZWmWZa6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AZWmWZa6.csv"
       }
     ]
   }

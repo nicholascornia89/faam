@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dk5kKxJy a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1725-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:RZra3Qhj ;
+    schema1:deathDate "1765"^^xsd:string ;
+    schema1:description "Italian composer and impresario"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20006591>,
+        "15995878"^^xsd:string,
+        "dk5kKxJy"^^xsd:string ;
+    skos:altLabel "Santo Lapis"^^xsd:string ;
+    skos:prefLabel "Santo Lapis"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:15037284 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:WKmszhX8 .
+

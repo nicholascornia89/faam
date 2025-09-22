@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A3CMewEV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1834-07-06"^^xsd:string ;
+    schema1:birthPlace faamentity:LD8HW7Tp ;
+    schema1:deathDate "1890-12-12"^^xsd:string ;
+    schema1:deathPlace faamentity:bsTArmEN ;
+    schema1:description "British sculptor (1834-1890)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q85180>,
+        "15995997"^^xsd:string,
+        "A3CMewEV"^^xsd:string ;
+    schema1:nationality faamentity:4sgDBRdV,
+        faamentity:kyFWDzyM ;
+    skos:altLabel "Josef Böhm"^^xsd:string,
+        "Joseph Böhm"^^xsd:string,
+        "Joseph E. Boehm"^^xsd:string,
+        "Joseph E. Böhm"^^xsd:string,
+        "Joseph Edgar Boehm"^^xsd:string,
+        "Joseph Edgar, Baronet Boehm"^^xsd:string,
+        "Joseph Edgard Boehm"^^xsd:string,
+        "Sir Boehm"^^xsd:string,
+        "Sir J. Edgar Boehm"^^xsd:string,
+        "Sir Joseph Edgar Boehm"^^xsd:string,
+        "Sir Joseph Edgar Boehm, 1st Baronet"^^xsd:string,
+        "Sir Joseph Edgar Boehm, 1st Bt."^^xsd:string ;
+    skos:prefLabel "Joseph Edgar Boehm"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42635243 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:3ABZJ3tm,
+        faamentity:cZjUN9f7,
+        faamentity:iugJ7dKg .
+

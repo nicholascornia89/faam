@@ -1,0 +1,79 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7WvcYpJt a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:9dz9ydpz,
+        faamentity:B7WuhvkL,
+        faamentity:Di2mC26w,
+        faamentity:WT9AcUBt ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:A85JP7AT,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8EPTVPnC,
+        faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005680"^^xsd:string,
+        "7WvcYpJt"^^xsd:string,
+        "DPF-202502029"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Collectio facilium necnon ineditorum operum. Ad usum organi"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Septembris 1935 (No. 3)."^^rdf:HTML ;
+    wd:P217 "ms-1935-03"^^xsd:string ;
+    wd:P870 faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"7WvcYpJt-0e1a5d34-eda4-443c-bee3-cec16a8504c6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"7WvcYpJt-1a738a0a-4572-4555-95f2-5bb5f876c8ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"7WvcYpJt-27ed69bd-797c-4aca-95fa-ac40e4bd6b19"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"7WvcYpJt-9ce4dbe0-8965-413d-a37a-494299f8b98e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"7WvcYpJt-e7775771-2724-45c6-a87c-d6c3c4d72b8c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"7WvcYpJt-f496d0dc-bbd0-48c7-a6dc-733562a1313e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:8EPTVPnC a rdf:object .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

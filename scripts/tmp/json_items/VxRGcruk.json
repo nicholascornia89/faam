@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q97464297",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hospitaller-controlled Malta"
       }
     ],
     "aliases": []
@@ -44,6 +45,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "U6od7iv8",
+        "type": "item",
+        "label": "Girolamo Abos",
+        "description": "Maltese-Italian composer (1715–1760)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "n4SQLZpV",
+        "type": "item",
+        "label": "Michelangelo Vella",
+        "description": "Maltese composer and organist (1710-1792)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VxRGcruk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VxRGcruk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VxRGcruk.csv"
+      }
+    ]
+  }
 }

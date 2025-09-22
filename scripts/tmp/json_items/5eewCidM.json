@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q4120832",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Königsberg"
       }
     ],
     "aliases": [
@@ -70,8 +71,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "554234"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "ecinNMfE",
+        "label": "Prussia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "dGPuqxgm",
+        "type": "item",
+        "label": "Adolf Jensen",
+        "description": "German pianist, composer and music teacher (1837–1879)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jensen_Adolf.png"
+        }
+      },
+      {
+        "id": "SCjuhjvs",
+        "type": "item",
+        "label": "Heinrich Dorn",
+        "description": "German composer and conductor (1804–1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Heinrich-Dorn.jpg"
+        }
+      },
+      {
+        "id": "BbMJktPq",
+        "type": "item",
+        "label": "Charles Meyer",
+        "description": "composer (1799-1862)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "CharlesMayer.jpg"
+        }
+      },
+      {
+        "id": "6DhoVYwZ",
+        "type": "item",
+        "label": "Otto Nicolai",
+        "description": "(1810-1849) composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Otto_Nicolai.jpg"
+        }
+      },
+      {
+        "id": "Y5KJWcCx",
+        "type": "item",
+        "label": "Gustav Jensen",
+        "description": "German composer, violinist and music pedagogue (1843-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "HYB4oG2D",
+        "type": "item",
+        "label": "Louis Köhler",
+        "description": "German composer and conductor (1820-1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Köhler.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5eewCidM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5eewCidM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5eewCidM.csv"
+      }
+    ]
+  }
 }

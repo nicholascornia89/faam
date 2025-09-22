@@ -1,0 +1,51 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gPNYw884 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1950"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:8Ki8U5U4,
+        faamentity:DS9HvPwY,
+        faamentity:EgH6igGS,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gpdFtfXA ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:hCL8ZYQY,
+        faamentity:mgrwHwTj ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PP82QV6U ;
+    schema1:identifier "15992264"^^xsd:string,
+        "KCA-030901511763"^^xsd:string,
+        "gPNYw884"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12886359/N"^^schema1:url ;
+    skos:prefLabel "Troisième symphonie"^^xsd:string ;
+    wd:P217 "MM-DUBP-CHEVR-symf3-1"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"gPNYw884-1393cfa5-6d4f-41d1-a157-bdc912c0b749"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1950"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"gPNYw884-e3a9eb61-a875-46fb-bb18-e3db09dc8205"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1950"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+faamentity:PP82QV6U a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q36600",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "The Hague"
       }
     ],
     "aliases": [
@@ -80,8 +81,148 @@
         "base_url": "https://www.geonames.org/",
         "label": "NL"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "gMTAFTct",
+        "label": "Netherlands"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZkvdWD9N",
+        "type": "item",
+        "label": "Wilbert Hazelzet",
+        "description": "Dutch musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "bUiNzb63",
+        "type": "item",
+        "label": "Gottfried Mann",
+        "description": "Dutch composer (1858–1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gottfried_Mann_-_Onze_Musici_(1898).jpg"
+        }
+      },
+      {
+        "id": "a8ERxiqE",
+        "type": "item",
+        "label": "Josina van Aerssen",
+        "description": "Dutch composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Josina_van_Boetzelaer_door_Izaäk_Schmidt.jpg"
+        }
+      },
+      {
+        "id": "iJwRJjyp",
+        "type": "item",
+        "label": "Joseph Salmon",
+        "description": "French cellist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph-Salmon.jpg"
+        }
+      },
+      {
+        "id": "9VWkhn8g",
+        "type": "item",
+        "label": "Johannes Verhulst",
+        "description": "Dutch composer and conductor (1816–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "bUiNzb63",
+        "type": "item",
+        "label": "Gottfried Mann",
+        "description": "Dutch composer (1858–1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gottfried_Mann_-_Onze_Musici_(1898).jpg"
+        }
+      },
+      {
+        "id": "PNr6JN5D",
+        "type": "item",
+        "label": "Eduard de Hartog",
+        "description": "Dutch composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eduard_de_Hartog_-_Onze_Musici_(1898).jpg"
+        }
+      },
+      {
+        "id": "kzaxQhbG",
+        "type": "item",
+        "label": "Cornélie van Zanten",
+        "description": "Dutch opera singer (1855–1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg"
+        }
+      },
+      {
+        "id": "9VWkhn8g",
+        "type": "item",
+        "label": "Johannes Verhulst",
+        "description": "Dutch composer and conductor (1816–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "HodHVf2B",
+        "type": "item",
+        "label": "Willem Nicolaï",
+        "description": "Dutch conductor, composer, musicologist and music educator (1829–1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "WFGNicolai.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "ZeWRTyaP",
+        "type": "item",
+        "label": "Royal Conservatory of The Hague",
+        "description": "conservatory in The Hague, Netherlands"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EmMG4HwD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EmMG4HwD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EmMG4HwD.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hmGhPHhV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1830-00-00"^^xsd:string,
+        "1830-02-16"^^xsd:string ;
+    schema1:birthPlace faamentity:c5pKa2Fv ;
+    schema1:deathDate "1903-00-00"^^xsd:string,
+        "1903-05-07"^^xsd:string ;
+    schema1:deathPlace faamentity:5QzfLDJP ;
+    schema1:description "French musical theorist, teacher and composer (1830-1903)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q275060>,
+        "0"^^xsd:string,
+        "hmGhPHhV"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Émile Durand"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:29697337 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/50038626> ;
+    wd:P839 <https://imslp.org/wiki/Category:Durand,_Emile> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y .
+

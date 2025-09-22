@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q45240",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Monte Carlo"
       }
     ],
     "aliases": [
@@ -54,8 +55,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2992741"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "4HYHMXLB",
+        "label": "Monaco"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "m7PaH4Ak",
+        "type": "item",
+        "label": "Cécile Chaminade",
+        "description": "French composer and pianist (1857-1944)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Cecile_chaminade.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "f7pcxvWR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "f7pcxvWR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "f7pcxvWR.csv"
+      }
+    ]
+  }
 }

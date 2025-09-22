@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q376633",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Adrien-François Servais"
       }
     ]
   },
@@ -173,13 +174,83 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "2zLb8ZxK",
+        "type": "item",
+        "label": "Morceau de Concert : Op. 14",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000741173.gif"
+        }
+      },
+      {
+        "id": "UEdmzbGm",
+        "type": "item",
+        "label": "Grande fantaisie sur des motifs de l'opéra Le Barbier de Seville de Rossini : op. 6",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991094740449707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "SEtWBLP6",
+        "type": "item",
+        "label": "Le Barbier de Séville, Op.6",
+        "description": ""
+      },
+      {
+        "id": "dH9fiTQM",
+        "type": "item",
+        "label": "Morceau de concert, Op.14",
+        "description": ""
+      },
+      {
+        "id": "MqLxdPPf",
+        "type": "item",
+        "label": "The Barber of Seville",
+        "description": "1816 opera by Gioachino Rossini"
+      },
+      {
+        "id": "UTw6kArf",
+        "type": "item",
+        "label": "Nocturnes, Op. 9",
+        "description": "set of compositions for piano by Frédéric Chopin"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Servais_Adrien.JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iNC8KAYQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iNC8KAYQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iNC8KAYQ.csv"
       }
     ]
   }

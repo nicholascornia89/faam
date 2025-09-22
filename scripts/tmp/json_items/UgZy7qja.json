@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q286581",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Émile Wambach"
       }
     ]
   },
@@ -195,13 +196,57 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "T5A6HKea",
+        "type": "item",
+        "label": "Rondo du Hussard de Felsheim : Varié pour le Cor avec accompagnement de Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750004.gif"
+        }
+      },
+      {
+        "id": "iRCRmywD",
+        "type": "item",
+        "label": "Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000340395.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Emile_Wambach_1913.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UgZy7qja.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UgZy7qja.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UgZy7qja.csv"
       }
     ]
   }

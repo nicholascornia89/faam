@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1049625",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "musical improvisation"
       }
     ],
     "aliases": [
@@ -63,6 +64,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "G7fHWWvE",
+        "type": "item",
+        "label": "passaggio",
+        "description": ""
+      },
+      {
+        "id": "Vk2JQSuo",
+        "type": "item",
+        "label": "ad libitum",
+        "description": "Latin expression for \"at one's pleasure\""
+      },
+      {
+        "id": "FhoqCrfh",
+        "type": "item",
+        "label": "realization of figured bass",
+        "description": "practice of expanding figured bass notation into a full accompaniment"
+      },
+      {
+        "id": "YRq3pSH7",
+        "type": "item",
+        "label": "cadenza",
+        "description": "improvised or written-out ornamental passage played or sung by a soloist or soloists"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Zo5CHoti.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Zo5CHoti.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Zo5CHoti.csv"
+      }
+    ]
+  }
 }

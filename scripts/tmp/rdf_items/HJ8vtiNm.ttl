@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HJ8vtiNm a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "institution of higher education in Munich, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q657167>,
+        "16004294"^^xsd:string,
+        "HJ8vtiNm"^^xsd:string ;
+    schema1:location faamentity:emZYGceZ,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Hochschule für Musik und Theater München"^^xsd:string,
+        "Richard Strauss Conservatory"^^xsd:string,
+        "University of Music and Performing Arts Munich"^^xsd:string,
+        "University of Music and Theatre Munich"^^xsd:string ;
+    skos:prefLabel "University of Music and Theatre Munich"^^xsd:string .
+

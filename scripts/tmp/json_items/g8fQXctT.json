@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q12191",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Nantes"
       }
     ],
     "aliases": [
@@ -62,8 +63,118 @@
         "base_url": "https://www.geonames.org/",
         "label": "2990969"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AWqDraUS",
+        "type": "item",
+        "label": "François Benoist",
+        "description": "French musician (1794–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francois_Benoist.gif"
+        }
+      },
+      {
+        "id": "naSfvyoD",
+        "type": "item",
+        "label": "Louis-Albert Bourgault-Ducoudray",
+        "description": "French Breton composer (1840–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Albert_Bourgault-Ducoudray_-_Nadar.jpg"
+        }
+      },
+      {
+        "id": "ghFBmNbP",
+        "type": "item",
+        "label": "Alphonse Leduc",
+        "description": "French musician and publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alphonse_Leduc_by_Adolphe_Menut.png"
+        }
+      },
+      {
+        "id": "R79p4RiT",
+        "type": "item",
+        "label": "Charles-Amable Battaille",
+        "description": "French opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Battaille_Charles-Amable.jpg"
+        }
+      },
+      {
+        "id": "WzZm6ugw",
+        "type": "item",
+        "label": "Théodore Ritter",
+        "description": "French composer (1840-1886)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Toussaint_Prévost,_dit_Théodore_Ritter.png"
+        }
+      },
+      {
+        "id": "NCUrhkez",
+        "type": "item",
+        "label": "Jean-Louis Tulou",
+        "description": "French composer, flute teacher, player and instrument maker",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Louis_Tulou.jpg"
+        }
+      },
+      {
+        "id": "LoLzUpJB",
+        "type": "item",
+        "label": "Georges Scheyermann",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "F9MT52xo",
+        "type": "item",
+        "label": "Nantes Conservatory",
+        "description": "music school in Nantes, France"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "g8fQXctT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "g8fQXctT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "g8fQXctT.csv"
+      }
+    ]
+  }
 }

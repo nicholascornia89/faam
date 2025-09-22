@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:axRY6juU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1300"^^xsd:string ;
+    schema1:birthPlace faamentity:WDTJqa7o ;
+    schema1:deathDate "1377-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:WDTJqa7o ;
+    schema1:description "Medieval French composer and poet (c. 1300–1377)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q200580>,
+        "15996169"^^xsd:string,
+        "axRY6juU"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Guillaume de Machaut"^^xsd:string ;
+    skos:prefLabel "Guillaume de Machaut"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:63976026 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30016307> ;
+    wd:P839 <https://imslp.org/wiki/Category:Machaut,_Guillaume_de> ;
+    schema:hasOccupation faamentity:D3MpUH86,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:WF4NSijn .
+

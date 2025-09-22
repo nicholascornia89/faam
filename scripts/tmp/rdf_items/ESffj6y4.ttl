@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ESffj6y4 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:RTU8hLY4 ;
+    schema1:birthDate "1872-12-21"^^xsd:string ;
+    schema1:birthPlace faamentity:Argyg9Mg ;
+    schema1:deathDate "1956-10-12"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian composer (1872–1956)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q590512>,
+        "15996107"^^xsd:string,
+        "ESffj6y4"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:RNVCZ5PK ;
+    skos:altLabel "Lorenzo Perosi"^^xsd:string ;
+    skos:prefLabel "Lorenzo Perosi"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:64201361 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/179408> ;
+    wd:P737 faamentity:d8cUVe7p ;
+    wd:P839 <https://imslp.org/wiki/Category:Perosi,_Lorenzo> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:ZnHbmhfu,
+        faamentity:iTUB2E3m .
+

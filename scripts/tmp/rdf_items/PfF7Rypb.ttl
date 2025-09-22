@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PfF7Rypb a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1813-04-10"^^xsd:string ;
+    schema1:birthPlace faamentity:7isyBsAv,
+        faamentity:jPTEBbYT ;
+    schema1:deathDate "1901-01-27"^^xsd:string ;
+    schema1:deathPlace faamentity:6rg7mVNX ;
+    schema1:description "Italian opera composer (1813–1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7317>,
+        "15995972"^^xsd:string,
+        "PfF7Rypb"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK,
+        faamentity:RStBBLSn ;
+    skos:altLabel "Giuseppe Fortunino Francesco Verdi"^^xsd:string,
+        "Giuseppe Verdi"^^xsd:string,
+        "Verdi"^^xsd:string ;
+    skos:prefLabel "Giuseppe Verdi"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:22329110 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/137994> ;
+    wd:P737 faamentity:87UsZCvn,
+        faamentity:SsJ8ibRa ;
+    wd:P839 <https://imslp.org/wiki/Category:Verdi,_Giuseppe> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:HFXn6pSD,
+        faamentity:KZLqHwSf,
+        faamentity:gLanGdJR .
+

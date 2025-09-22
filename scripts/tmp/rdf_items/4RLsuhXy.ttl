@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4RLsuhXy a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1524-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:bzwH2j9G ;
+    schema1:deathDate "1609-10-01"^^xsd:string ;
+    schema1:deathPlace faamentity:MDWRhZ8K ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q711758>,
+        "15996211"^^xsd:string,
+        "4RLsuhXy"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:altLabel "Giammateo Asola"^^xsd:string,
+        "Giovanni Matteo Asola"^^xsd:string ;
+    skos:prefLabel "Giammateo Asola"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:100249909 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:dfVtGZ3t ;
+    wd:P839 <https://imslp.org/wiki/Category:Asola,_Giammateo> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:L7bRkYff,
+        faamentity:oS82XWzx .
+

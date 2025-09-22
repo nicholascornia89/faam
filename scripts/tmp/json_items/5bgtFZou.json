@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q68254",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Anton Bernhard Fürstenau"
       }
     ]
   },
@@ -142,13 +143,73 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZCwWUaPG",
+        "type": "item",
+        "label": "Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345131.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "MN2LbyLc",
+        "type": "item",
+        "label": "Les Délices de l'Opéra",
+        "description": ""
+      },
+      {
+        "id": "TwWYpCrK",
+        "type": "item",
+        "label": "Alessandro Stradella",
+        "description": "opera by Friedrich von Flotow"
+      },
+      {
+        "id": "3Tkw6Zpw",
+        "type": "item",
+        "label": "Struensée",
+        "description": ""
+      },
+      {
+        "id": "6baZHNCw",
+        "type": "item",
+        "label": "Les mousquetaires de la reine",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Anton_Bernhard_Fürstenau.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5bgtFZou.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5bgtFZou.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5bgtFZou.csv"
       }
     ]
   }

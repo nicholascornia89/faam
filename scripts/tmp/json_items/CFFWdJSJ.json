@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q934876",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Baptiste Weckerlin"
       }
     ]
   },
@@ -182,13 +183,61 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "5Y2xZkkq",
+        "type": "item",
+        "label": "Échos du temps passé.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "UTL-978130914.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "gGes2KxA",
+        "type": "item",
+        "label": "Il bianco e dolce cigno",
+        "description": "musical composition for four voices by Jacques Arcadelt"
+      },
+      {
+        "id": "bTvBMC52",
+        "type": "item",
+        "label": "Hippolyte et Aricie",
+        "description": "opera by Jean-Philippe Rameau"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CFFWdJSJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CFFWdJSJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CFFWdJSJ.csv"
       }
     ]
   }

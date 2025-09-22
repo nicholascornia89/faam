@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q806349",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bandleader"
       }
     ],
     "aliases": [
@@ -55,6 +56,121 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iJFMyzSx",
+        "type": "item",
+        "label": "Ferdinando Paer",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinando_Paer.png"
+        }
+      },
+      {
+        "id": "S9SqmBwP",
+        "type": "item",
+        "label": "Ludwig Stassny",
+        "description": "(1823-1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FnYq9xAf",
+        "type": "item",
+        "label": "Antonio Cesti",
+        "description": "Italian composer, singer and organist (1623-1669)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "brKjWqgk",
+        "type": "item",
+        "label": "Rudolf Nováček",
+        "description": "Czech conductor, violinist and composer (1860–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rudolf_Novacek_(1860-1929).jpg"
+        }
+      },
+      {
+        "id": "UsDZEwDb",
+        "type": "item",
+        "label": "Ferdinando Paer",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinando_Paer.png"
+        }
+      },
+      {
+        "id": "Hi8DkjeD",
+        "type": "item",
+        "label": "Santiago Riera",
+        "description": "Spanish musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Santiago_Riera.jpg"
+        }
+      },
+      {
+        "id": "kAp3NqUU",
+        "type": "item",
+        "label": "Paul Wranitzky",
+        "description": "Czech violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Wranitzky_1796.jpg"
+        }
+      },
+      {
+        "id": "9ajFz72e",
+        "type": "item",
+        "label": "Giuseppe Amendola",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "WrDqkV3u",
+        "type": "item",
+        "label": "Antonio Boroni",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dwnQ2b9j.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dwnQ2b9j.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dwnQ2b9j.csv"
+      }
+    ]
+  }
 }

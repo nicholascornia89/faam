@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3974",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Landshut"
       }
     ],
     "aliases": [
@@ -60,8 +61,58 @@
         "base_url": "https://www.geonames.org/",
         "label": "6556450"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "DnCFCwbG",
+        "type": "item",
+        "label": "Franz Xaver Witt",
+        "description": "German Catholic priest, church musician and composer (1834–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FXWitt.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "Gwm9ve42",
+        "type": "item",
+        "label": "Ludwig-Maximilians-Universität München",
+        "description": "public university in Munich, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mpPcxWPa.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mpPcxWPa.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mpPcxWPa.csv"
+      }
+    ]
+  }
 }

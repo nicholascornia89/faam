@@ -1,0 +1,81 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5Y2xZkkq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:AzBrFumG,
+        faamentity:J6ERsasy,
+        faamentity:LiFYdNgN,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:aCRY7SgN,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:A5FPonFA,
+        faamentity:BZa5CHMu,
+        faamentity:C6jc7VSF,
+        faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:KWVSVF8L,
+        faamentity:M9HRWrxt ;
+    dcterms:provenance faamentity:PmoGKNnr ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CFFWdJSJ,
+        faamentity:LaAgXzwK ;
+    schema1:identifier "16004258"^^xsd:string,
+        "5Y2xZkkq"^^xsd:string,
+        "UTL-978130914"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106164959906196"^^schema1:url ;
+    skos:prefLabel "Échos du temps passé."^^xsd:string ;
+    skosref:related faamentity:2Myfzcub,
+        faamentity:AAfzVCYS,
+        faamentity:AZL2k82C,
+        faamentity:AfyqSw2o,
+        faamentity:ArdfnXVt,
+        faamentity:DgoGiCSR,
+        faamentity:HERV8HdR,
+        faamentity:NTqtYmnQ,
+        faamentity:RSZ5FfYQ,
+        faamentity:TpU4zggV,
+        faamentity:axRY6juU,
+        faamentity:bTvBMC52,
+        faamentity:fJvgJxTY,
+        faamentity:gGes2KxA,
+        faamentity:iU7qwyjt,
+        faamentity:mqiFhZrV,
+        faamentity:nmSBKmSb ;
+    wd:P217 "M1730 .W42 E2"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"5Y2xZkkq-11116223-56f8-4cdb-af92-ea9915d0fd0c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"5Y2xZkkq-ff8a3b72-a021-4d61-bf43-3e523e34af03"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:CFFWdJSJ a rdf:object .
+
+faamentity:LaAgXzwK a rdf:object .
+

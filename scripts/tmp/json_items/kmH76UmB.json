@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q31519",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Charles University"
       }
     ],
     "aliases": [
@@ -98,6 +99,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9bDAzDtP",
+        "type": "item",
+        "label": "Christoph Willibald von Gluck",
+        "description": "opera composer (1714–1787)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+        }
+      },
+      {
+        "id": "Y7oinjoB",
+        "type": "item",
+        "label": "Václav Tomášek",
+        "description": "Czech music educator and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "V_J_Tomášek,_by_Antonín_Machek.jpg"
+        }
+      },
+      {
+        "id": "kJLLR8EA",
+        "type": "item",
+        "label": "Johann Stamitz",
+        "description": "Czech composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jan_Václav_Stamic_(1717-1757).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kmH76UmB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kmH76UmB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kmH76UmB.csv"
+      }
+    ]
+  }
 }

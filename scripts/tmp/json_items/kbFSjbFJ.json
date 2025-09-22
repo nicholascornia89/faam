@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1618764",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Antoine Ponchard"
       }
     ]
   },
@@ -142,13 +143,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Dx9bBNEt",
+        "type": "item",
+        "label": "Jean-Baptiste Faure",
+        "description": "French baritone and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Faure_as_Hamlet_by_Charles_Reutlinger.jpg"
+        }
+      },
+      {
+        "id": "CFFWdJSJ",
+        "type": "item",
+        "label": "Jean-Baptiste Weckerlin",
+        "description": "French composer and music publisher (1821–1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Baptiste_Weckerlin_par_Truchelut.png"
+        }
+      },
+      {
+        "id": "AJ36KeTo",
+        "type": "item",
+        "label": "Louis-Henri Obin",
+        "description": "French bass (1820-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Henri_Obin_by_Alphonse_Liébert.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Louis-Antoine-Éléonore_Ponchard.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kbFSjbFJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kbFSjbFJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kbFSjbFJ.csv"
       }
     ]
   }

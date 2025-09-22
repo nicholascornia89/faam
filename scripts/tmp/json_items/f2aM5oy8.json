@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q697804",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ignaz von Seyfried"
       }
     ]
   },
@@ -168,13 +169,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "oWo38sA3",
+        "type": "item",
+        "label": "Johann Strauss I",
+        "description": "Austrian Romantic composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johan_Strauss_padre.jpg"
+        }
+      },
+      {
+        "id": "EFa5qDRE",
+        "type": "item",
+        "label": "Eduard Marxsen",
+        "description": "German musician (1806–1887)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marxsen.jpg"
+        }
+      },
+      {
+        "id": "9R8yMj4m",
+        "type": "item",
+        "label": "Joachim Hoffmann",
+        "description": "German musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Seyfried.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "f2aM5oy8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "f2aM5oy8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "f2aM5oy8.csv"
       }
     ]
   }

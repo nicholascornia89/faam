@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kXLpBcrh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1874-09-13"^^xsd:string ;
+    schema1:birthPlace faamentity:LD8HW7Tp ;
+    schema1:deathDate "1951-07-13"^^xsd:string ;
+    schema1:deathPlace faamentity:fQCekjVZ ;
+    schema1:description "Austrian-Jewish American composer (1874-1951)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q154770>,
+        "0"^^xsd:string,
+        "kXLpBcrh"^^xsd:string ;
+    schema1:nationality faamentity:LbfJnd9y,
+        faamentity:hukgqSRn,
+        faamentity:kyFWDzyM,
+        faamentity:oDvJJJ7G ;
+    skos:prefLabel "Arnold Schoenberg"^^xsd:string ;
+    wd:P108 faamentity:TJ6MCytv ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12492826 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/86683> ;
+    wd:P737 faamentity:96yEBVHi ;
+    wd:P839 <https://imslp.org/wiki/Category:Schoenberg,_Arnold> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:HFXn6pSD,
+        faamentity:JoNf8FqJ,
+        faamentity:KZLqHwSf,
+        faamentity:N3DQMCdv,
+        faamentity:RU9hU5Pa,
+        faamentity:YYyZX3aY,
+        faamentity:cZjUN9f7,
+        faamentity:iHPTEWSN .
+

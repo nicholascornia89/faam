@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DN8to9G5 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Brussels opera company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q54805195>,
+        "16004778"^^xsd:string,
+        "DN8to9G5"^^xsd:string ;
+    schema1:location faamentity:QbfXawnE ;
+    skos:altLabel "La Monnaie/De Munt"^^xsd:string,
+        "Royal Theatre of La Monnaie"^^xsd:string ;
+    skos:prefLabel "La Monnaie/De Munt"^^xsd:string .
+

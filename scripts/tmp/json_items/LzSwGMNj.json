@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q347",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Liechtenstein"
       }
     ],
     "aliases": [
@@ -73,6 +74,49 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4mYssfUB",
+        "type": "item",
+        "label": "Josef Rheinberger",
+        "description": "Liechtensteiner organist and composer (1839-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rheinberger.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "3NGTY3YK",
+        "type": "item",
+        "label": "Vaduz",
+        "description": "capital of Liechtenstein"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LzSwGMNj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LzSwGMNj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LzSwGMNj.csv"
+      }
+    ]
+  }
 }

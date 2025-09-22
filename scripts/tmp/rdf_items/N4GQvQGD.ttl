@@ -1,0 +1,136 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N4GQvQGD a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:LiFYdNgN,
+        faamentity:NFazQXR2,
+        faamentity:NsEoE4RP,
+        faamentity:UfinksVv,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:YRq3pSH7 ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:VMA2AmEN,
+        faamentity:XutP4SZN,
+        faamentity:c5cZmF37,
+        faamentity:eviEKifd,
+        faamentity:jCuFYGDc,
+        faamentity:oPdg4LDz ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    faamprop:sections """<ul>
+<li> IX. Le Carnaval de Pesth</li>
+<li> X. </li>
+<li> XI. </li>
+<li> XII. </li>
+
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:G5pwZLWh,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CT372LTH,
+        faamentity:JEZ5AweR,
+        faamentity:M3sjJXNR,
+        faamentity:ewwggKDh ;
+    schema1:hasPart faamentity:H5h65tyR,
+        faamentity:TJLhhgzR,
+        faamentity:VNeZWWGb,
+        faamentity:aqQnqnyG ;
+    schema1:identifier "15992548"^^xsd:string,
+        "KCA-030904702872"^^xsd:string,
+        "N4GQvQGD"^^xsd:string ;
+    schema1:location faamentity:nkxLRFG5 ;
+    schema1:url "https://anet.be/record/opacdkvc//N"^^schema1:url ;
+    skos:prefLabel "Ungarische Rhapsodien Band 2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"N4GQvQGD-10054728-0d63-4107-bf9e-cd891405d1a8"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"N4GQvQGD-304616b2-b275-41ac-b90f-4695e8678233"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"N4GQvQGD-316283f4-5d1f-41ab-93b9-2cf72e90a2e0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"N4GQvQGD-4727e739-1a43-47f4-b681-ea8baa0c9aa5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"N4GQvQGD-478f396c-33b8-4583-9869-ca73c65f094c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"N4GQvQGD-49165ca0-293d-4883-898e-3512ec36df08"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"N4GQvQGD-4dc1466d-86ea-4760-8bc0-20352d5a3beb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"N4GQvQGD-5d16a450-d52d-43f9-888c-0f1adfe9c54b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"N4GQvQGD-86729c87-7040-4921-a652-cf1ce5374370"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"N4GQvQGD-9f85892f-e4e1-41e7-873f-b0da27ac5da5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"N4GQvQGD-a4de427d-bda2-4334-b4e3-febc5aeaf1b4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"N4GQvQGD-a6ef3e34-e383-4a1c-b21e-d92690624aeb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"N4GQvQGD-c0152089-daed-43a8-a8b0-2f8d3d632456"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"N4GQvQGD-e0ba7342-9c3d-42e8-893d-69a74bce724d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"N4GQvQGD-e6e8bae0-4f8f-4b8b-bea8-492031101220"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"N4GQvQGD-f8144a95-7b59-4719-85c9-c05d2f04461b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:M3sjJXNR a rdf:object .
+
+faamentity:ewwggKDh a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q871369",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mozarteum University Salzburg"
       }
     ],
     "aliases": [
@@ -74,6 +75,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JhNXweKy",
+        "type": "item",
+        "label": "Elisabeth Chojnacka",
+        "description": "Polish harpsichordist (1939–2017)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Elisabeth_CHOJNACKA_1972.jpg"
+        }
+      },
+      {
+        "id": "hj8ofvpp",
+        "type": "item",
+        "label": "Nikolaus Harnoncourt",
+        "description": "Austrian conductor (1929–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolaus_Harnoncourt_(1980).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7n8LGkCJ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7n8LGkCJ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7n8LGkCJ.csv"
+      }
+    ]
+  }
 }

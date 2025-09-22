@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q497713",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Claude Goudimel"
       }
     ]
   },
@@ -141,13 +142,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Ddx923Ut",
+        "type": "item",
+        "label": "Giovanni Pierluigi da Palestrina",
+        "description": "Italian Renaissance composer (c. 1525–1594)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Pierluigi_da_Palestrina.jpg"
+        }
+      },
+      {
+        "id": "d9ivtsWG",
+        "type": "item",
+        "label": "Giovanni Maria Nanino",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Maria_Nanino_C.jpg"
+        }
+      },
+      {
+        "id": "5M3r422c",
+        "type": "item",
+        "label": "Giovanni Animuccia",
+        "description": "Italian composer of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Animuccia.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Claude_Goudimel.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SEPoLobZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SEPoLobZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SEPoLobZ.csv"
       }
     ]
   }

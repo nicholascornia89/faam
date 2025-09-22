@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q283339",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Paris Opera"
       }
     ],
     "aliases": [
@@ -72,6 +73,121 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PH2vUbe5",
+        "type": "item",
+        "label": "Léo Delibes",
+        "description": "French composer (1836–1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Delibes_Leo_Luckhard.png"
+        }
+      },
+      {
+        "id": "nrWaKLQc",
+        "type": "item",
+        "label": "Alexandre-Étienne Choron",
+        "description": "French musician (1771-1834)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre-Étienne_Choron.jpg"
+        }
+      },
+      {
+        "id": "S3La3UWp",
+        "type": "item",
+        "label": "Ferdinand Hérold",
+        "description": "French composer (1791–1833)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Herold_by_Maurin.jpg"
+        }
+      },
+      {
+        "id": "UFBmvNB3",
+        "type": "item",
+        "label": "Charles Bouvet",
+        "description": "French musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Salle_du_Cercle_Artistique_et_Littéraire_-_Une_séance_par_Charles_Bouvet,_violoniste,_Tg_lhdc_25_02_(cropped).tiff"
+        }
+      },
+      {
+        "id": "EiDXehYZ",
+        "type": "item",
+        "label": "François Habeneck",
+        "description": "French violinist and conductor (1781-1849)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François-Antoine_Habeneck_01.jpg"
+        }
+      },
+      {
+        "id": "mXggP3xB",
+        "type": "item",
+        "label": "Johann Georg Wunderlich",
+        "description": "German composer and musician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "EzYHqpj2",
+        "type": "item",
+        "label": "Théophile Laforge",
+        "description": "French musician (1863–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Théophile_Laforge.jpg"
+        }
+      },
+      {
+        "id": "2xLuMNHZ",
+        "type": "item",
+        "label": "Jean-Xavier Lefèvre",
+        "description": "Swiss-born French clarinettist (1763-1829)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Xavier_Lefèvre.jpg"
+        }
+      },
+      {
+        "id": "AJ36KeTo",
+        "type": "item",
+        "label": "Louis-Henri Obin",
+        "description": "French bass (1820-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Henri_Obin_by_Alphonse_Liébert.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CEgVDYH8.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CEgVDYH8.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CEgVDYH8.csv"
+      }
+    ]
+  }
 }

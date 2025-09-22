@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L8dDLmK7 a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "decision-making consideration when arranging voices in musical composition"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2027877>,
+        "16002130"^^xsd:string,
+        "L8dDLmK7"^^xsd:string ;
+    skos:altLabel "Contrapuntal motion"^^xsd:string,
+        "voice leading"^^xsd:string ;
+    skos:prefLabel "voice leading"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:NgFpoygv ;
+    wd:P31 faamentity:Sdw2foGQ,
+        faamentity:gU9PhY79 .
+

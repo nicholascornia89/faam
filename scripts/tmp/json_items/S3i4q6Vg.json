@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q189166",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Amadora"
       }
     ],
     "aliases": [
@@ -58,8 +59,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "8010569"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Ars8m6Hw",
+        "label": "Portugal"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "Vp4ewFKn",
+        "type": "item",
+        "label": "Lisbon Theatre and Film School",
+        "description": "film school"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "S3i4q6Vg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "S3i4q6Vg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "S3i4q6Vg.csv"
+      }
+    ]
+  }
 }

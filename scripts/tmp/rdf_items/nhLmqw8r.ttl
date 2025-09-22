@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nhLmqw8r a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical sign (accidental) lowering the pitch of a note by one chromatic semitone (factor 2^(1/12))"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7001368>,
+        "16002351"^^xsd:string,
+        "nhLmqw8r"^^xsd:string ;
+    skos:altLabel "bemolle"^^xsd:string,
+        "flat"^^xsd:string,
+        "flat sign"^^xsd:string,
+        "♭"^^xsd:string,
+        "♭-sign"^^xsd:string ;
+    skos:prefLabel "flat sign"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:aCRY7SgN ;
+    wd:P31 faamentity:N2f5NSgz .
+

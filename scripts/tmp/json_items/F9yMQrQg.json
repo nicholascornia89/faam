@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q111901161",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Brussels"
       }
     ],
     "aliases": [
@@ -59,8 +60,51 @@
     ]
   },
   "statements": {
-    "GeoNames ID": []
+    "GeoNames ID": [],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q660393",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lower Lotharingia"
+      }
+    ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JdYVjNkJ",
+        "type": "item",
+        "label": "Giacomo Puccini",
+        "description": "Italian opera composer (1858–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoPuccini.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "F9yMQrQg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "F9yMQrQg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "F9yMQrQg.csv"
+      }
+    ]
+  }
 }

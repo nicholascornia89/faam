@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q117010119",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "flute music"
       }
     ],
     "aliases": [
@@ -55,6 +56,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "btR8XEja",
+        "type": "item",
+        "label": "Symphonisch Gedicht : voor Flute en Orchestra",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000745286.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "PUD6vTPE",
+        "type": "item",
+        "label": "Symphonisch gedicht voor fluit en orkest, Op.43a",
+        "description": ""
+      },
+      {
+        "id": "btptmctw",
+        "type": "item",
+        "label": "Fantaisie caractéristique, Op.16",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FXXnNaaQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FXXnNaaQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FXXnNaaQ.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,22 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YgvGfkUL a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:identifier "16005198"^^xsd:string,
+        "YgvGfkUL"^^xsd:string ;
+    skos:altLabel "Magnificat octavi toni"^^xsd:string ;
+    skos:prefLabel "Magnificat VIII toni, IGP 791"^^xsd:string ;
+    wd:P2000 cpdl:Magnificat_octavi_toni_impares_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:VsAY6UsF,
+        faamentity:d8cUVe7p ;
+    wd:P7937 faamentity:8PrAXxyX,
+        faamentity:Z5LXHFLR ;
+    wd:P839 <https://imslp.org/wiki/Magnificat_octavi_toni,_PdPWV_Can008_(Palestrina,_Giovanni_Pierluigi_da)> .
+

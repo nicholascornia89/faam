@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q460715",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alphonse Mailly"
       }
     ]
   },
@@ -163,13 +164,89 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "N4kHcEYD",
+        "type": "item",
+        "label": "Quatre Petites Pièces",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p4.gif"
+        }
+      },
+      {
+        "id": "XTwyaLbV",
+        "type": "item",
+        "label": "Six morceaux caractéristiques",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p5.gif"
+        }
+      },
+      {
+        "id": "4Xiw9oLy",
+        "type": "item",
+        "label": "Three Organ Pieces",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p1.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "8sxhcmoV",
+        "type": "item",
+        "label": "August De Boeck",
+        "description": "Flemish composer, organist and music pedagogue (1865-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "August_De_Boeck_(1865-1937).jpg"
+        }
+      },
+      {
+        "id": "nDqJe8bs",
+        "type": "item",
+        "label": "Edgar Tinel",
+        "description": "Belgian composer and pianist (1854-1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Edgar_Tinel_1911.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Alphonse_Mailly.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DdadiMfy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DdadiMfy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DdadiMfy.csv"
       }
     ]
   }

@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TbZCFaqB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:RrbzJMEh,
+        faamentity:bDP89aJt,
+        faamentity:dy4LNA89 ;
+    schema1:hasPart faamentity:Gr6ozwAA ;
+    schema1:identifier "15992779"^^xsd:string,
+        "KCG-000356107"^^xsd:string,
+        "TbZCFaqB"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000356107"^^schema1:url ;
+    skos:prefLabel "Crois-moi! : romance"^^xsd:string ;
+    wd:P217 "A1461 (4)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"TbZCFaqB-0e603e0a-c20d-4eac-a5e7-641507c763cb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TbZCFaqB-45212d39-b0bc-4d4e-98a0-010f6e165b0f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"TbZCFaqB-5948b7b5-dd25-44b8-bd45-495434f3efb6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+faamentity:RrbzJMEh a rdf:object .
+
+faamentity:bDP89aJt a rdf:object .
+
+faamentity:dy4LNA89 a rdf:object .
+

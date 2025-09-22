@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UWRD4B5y a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:9dz9ydpz,
+        faamentity:CPJ2a2C2,
+        faamentity:MCVLnYka,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:VMA2AmEN,
+        faamentity:aCRY7SgN ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:FSduWvy5 ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Na5pMDjZ,
+        faamentity:mc2UEWpA,
+        faamentity:miDpPEFC ;
+    schema1:hasPart faamentity:fmhbscTf ;
+    schema1:identifier "16004008"^^xsd:string,
+        "BNF-432579682"^^xsd:string,
+        "UWRD4B5y"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb432579682"^^schema1:url ;
+    skos:prefLabel "Sonate N° 29 Allemande. Révision par Vincent d' Indy. 1er Livre des sonates pour clavecin 1721"^^xsd:string ;
+    wd:P217 "G-5177"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"UWRD4B5y-24eab221-2060-4c6a-9242-2fb502e3bb61"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"UWRD4B5y-3d285db6-9e59-49e1-b479-43d0aefeab53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"UWRD4B5y-920633aa-9bb9-4748-a450-d0ce25d37abf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Na5pMDjZ a rdf:object .
+
+faamentity:mc2UEWpA a rdf:object .
+
+faamentity:miDpPEFC a rdf:object .
+

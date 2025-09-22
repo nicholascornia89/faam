@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1127380",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Conservatorium van Amsterdam"
       }
     ],
     "aliases": [
@@ -74,6 +75,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      },
+      {
+        "id": "EZRaNUgM",
+        "type": "item",
+        "label": "Gustav Leonhardt",
+        "description": "Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustav_Leonhardt,_2008_(cropped).jpg"
+        }
+      },
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      },
+      {
+        "id": "Kvc5mMTu",
+        "type": "item",
+        "label": "Ton Koopman",
+        "description": "Dutch conductor, organist and harpsichordist, born 2 October 1944",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ycr8zWYn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ycr8zWYn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ycr8zWYn.csv"
+      }
+    ]
+  }
 }

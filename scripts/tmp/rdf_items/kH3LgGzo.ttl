@@ -1,0 +1,36 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kH3LgGzo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:UGSpFRmF ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4dRHC3GH ;
+    schema1:identifier "16005719"^^xsd:string,
+        "BNF-30847716k"^^xsd:string,
+        "kH3LgGzo"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb30847716k"^^schema1:url ;
+    skos:prefLabel "Exercices de piano dans tous les tons majeurs et mineurs, à composer et à écrire par l'élève : précédés de la théorie des gammes, des modulations, du doigté, etc., et de nombreux exercices théoriques / par Mathis Lussy..."^^xsd:string ;
+    wd:P217 "V-45388"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"kH3LgGzo-f64764dd-1fb1-45bb-b5af-c0b333dda8ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:4dRHC3GH a rdf:object .
+

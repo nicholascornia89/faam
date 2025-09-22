@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q2238279",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marius van 't Kruijs"
       }
     ]
   },
@@ -165,13 +166,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "hWH85qMK",
+        "type": "item",
+        "label": "Souterliedekens uit de XVIe eeuw",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM59827.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "4S8whbxi",
+        "type": "item",
+        "label": "Souterliedekens",
+        "description": "song"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Onze_Musici_(1911)_-_Marius_van_'t_Kruijs.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PqPMpBAn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PqPMpBAn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PqPMpBAn.csv"
       }
     ]
   }

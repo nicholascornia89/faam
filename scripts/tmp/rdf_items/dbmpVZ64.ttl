@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dbmpVZ64 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who helps opera singers prepare for a performance"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2350126>,
+        "15991006"^^xsd:string,
+        "dbmpVZ64"^^xsd:string ;
+    skos:altLabel "opera accompanist"^^xsd:string,
+        "opera vocal coach"^^xsd:string,
+        "repetiteur"^^xsd:string,
+        "singing coach"^^xsd:string,
+        "voice coach"^^xsd:string ;
+    skos:prefLabel "opera vocal coach"^^xsd:string,
+        "parson"^^xsd:string .
+

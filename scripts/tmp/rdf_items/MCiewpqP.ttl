@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MCiewpqP a rdfs:Resource ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Yj5tRovx ;
+    schema1:birthDate "1854-01-01"^^xsd:string,
+        "1854-11-26"^^xsd:string ;
+    schema1:birthPlace faamentity:4PLr6WzW ;
+    schema1:deathDate "1924-01-01"^^xsd:string,
+        "1924-05-06"^^xsd:string ;
+    schema1:deathPlace faamentity:jGe3vcFB ;
+    schema1:description "Belgian conductor, composer, musicologist and music educator (1854-1924)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q286581>,
+        "16002593"^^xsd:string,
+        "MCiewpqP"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Emiel WAMBACH"^^xsd:string,
+        "Emiel Wambach"^^xsd:string,
+        "Emile Wambach"^^xsd:string,
+        "Émile Wambach"^^xsd:string ;
+    skos:prefLabel "Émile Wambach"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:10653144 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/114416> ;
+    wd:P839 <https://imslp.org/wiki/Category:Wambach,_Emile> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY .
+

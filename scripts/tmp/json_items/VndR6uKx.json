@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q2871185",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Auguste Durand"
       }
     ]
   },
@@ -170,13 +171,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bXZcYBkb",
+        "type": "item",
+        "label": "Faust, Opéra en 5 Actes, de Ch. Gounod",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p8.gif"
+        }
+      },
+      {
+        "id": "ckwVVWQP",
+        "type": "item",
+        "label": "1ère Valse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p16.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "UxDTZZko",
+        "type": "item",
+        "label": "Faust",
+        "description": "grand opera in five acts by Charles Gounod"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Auguste_Durand_-_A._Liébert_-_btv1b8417501n.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VndR6uKx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VndR6uKx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VndR6uKx.csv"
       }
     ]
   }

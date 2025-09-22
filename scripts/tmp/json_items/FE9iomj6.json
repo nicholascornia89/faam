@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q273482",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "École Normale de Musique de Paris Alfred Cortot"
       }
     ],
     "aliases": [
@@ -94,6 +95,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JH9U3FW4",
+        "type": "item",
+        "label": "Arthur Honegger",
+        "description": "Swiss composer (1892-1955)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Arthur_Honegger_1921.jpg"
+        }
+      },
+      {
+        "id": "66RojzbP",
+        "type": "item",
+        "label": "Paul Dukas",
+        "description": "French composer (1865–1935)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Dukas_01.jpg"
+        }
+      },
+      {
+        "id": "Bbuh5pNe",
+        "type": "item",
+        "label": "Wanda Landowska",
+        "description": "(1879-1959) Polish-French harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FE9iomj6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FE9iomj6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FE9iomj6.csv"
+      }
+    ]
+  }
 }

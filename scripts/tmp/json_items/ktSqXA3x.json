@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q13360",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Reggio Emilia"
       }
     ],
     "aliases": [
@@ -70,8 +71,68 @@
         "base_url": "https://www.geonames.org/",
         "label": "6542002"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "DoVS6DS2",
+        "type": "item",
+        "label": "Filippo Amadei",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "7BZrn9Vg",
+        "type": "item",
+        "label": "Hoste da Reggio",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "erjxXtk2",
+        "type": "item",
+        "label": "University of Modena and Reggio Emilia",
+        "description": "university in Italy"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ktSqXA3x.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ktSqXA3x.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ktSqXA3x.csv"
+      }
+    ]
+  }
 }

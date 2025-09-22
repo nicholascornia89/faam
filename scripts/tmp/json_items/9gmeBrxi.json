@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q468181",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hochschule für Musik Carl Maria von Weber"
       }
     ],
     "aliases": [
@@ -78,6 +79,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mvgRcySN",
+        "type": "item",
+        "label": "Franz Wüllner",
+        "description": "German composer and conductor (1832–1902)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Wüllner.jpg"
+        }
+      },
+      {
+        "id": "EBC37Hyg",
+        "type": "item",
+        "label": "Hans von Koessler",
+        "description": "German composer (1853–1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Koessler.jpg"
+        }
+      },
+      {
+        "id": "72HK97hH",
+        "type": "item",
+        "label": "Carl David Stegmann",
+        "description": "German opera singer, harpsichordist, conductor and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Em25RCQc",
+        "type": "item",
+        "label": "Egon Petri",
+        "description": "Dutch musician (1881-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Petri_Egon.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9gmeBrxi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9gmeBrxi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9gmeBrxi.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q83407",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mons"
       }
     ],
     "aliases": [
@@ -58,8 +59,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2790871"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4tDcUzEt",
+        "type": "item",
+        "label": "François-Joseph Fétis",
+        "description": "Belgian composer (1784-1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/2/20/Francois_joseph_fetis.jpg"
+        }
+      },
+      {
+        "id": "AZL2k82C",
+        "type": "item",
+        "label": "Orlande de Lassus",
+        "description": "Franco-Flemish composer (1532–1594)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/37/Orlande_de_Lassus.jpg"
+        }
+      },
+      {
+        "id": "BV5xtXrP",
+        "type": "item",
+        "label": "Hélène Dinsart",
+        "description": "Belgian pianist and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4yfwRxA7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4yfwRxA7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4yfwRxA7.csv"
+      }
+    ]
+  }
 }

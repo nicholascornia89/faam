@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Q3drpNS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1811-02-23"^^xsd:string ;
+    schema1:birthPlace faamentity:oA2NfFLQ ;
+    schema1:deathDate "1840-02-27"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "Belgian harpist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20004900>,
+        "15996266"^^xsd:string,
+        "6Q3drpNS"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Jules-Joseph Godefroid"^^xsd:string ;
+    skos:prefLabel "Jules-Joseph Godefroid"^^xsd:string ;
+    wd:P1303 faamentity:aQgptH4L ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:32261588 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30019633> ;
+    wd:P839 <https://imslp.org/wiki/Category:Godefroid,_Jules> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:Yq5e6gJa .
+

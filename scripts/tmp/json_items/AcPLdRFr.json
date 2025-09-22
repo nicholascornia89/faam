@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1084127",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "opéra-ballet"
       }
     ],
     "aliases": [
@@ -55,6 +56,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "KBJYMAjV",
+        "type": "item",
+        "label": "Anacréon",
+        "description": "opera by Cherubini"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AcPLdRFr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AcPLdRFr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AcPLdRFr.csv"
+      }
+    ]
+  }
 }

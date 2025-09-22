@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q78243773",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 400"
       }
     ]
   },
@@ -110,6 +111,61 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "f5v4P5AC",
+        "type": "item",
+        "label": "12 Sonates pour clavecin ou forte-piano composées dans le style du célèbre Scarlatti... Op. 27",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-39782625z.gif"
+        }
+      },
+      {
+        "id": "6Zcfc2ER",
+        "type": "item",
+        "label": "Pièces pour le Clavecin par Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903514815.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "CDBgmkXL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "CDBgmkXL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "CDBgmkXL.csv"
+      }
+    ]
+  }
 }

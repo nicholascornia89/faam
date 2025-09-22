@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TLx9Z84c a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian violinist, conductor and composer (1800–1873)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78808>,
+        "0"^^xsd:string,
+        "TLx9Z84c"^^xsd:string ;
+    skos:prefLabel "Georg Hellmesberger"^^xsd:string .
+

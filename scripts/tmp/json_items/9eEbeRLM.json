@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q727341",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ernest Guiraud"
       }
     ]
   },
@@ -185,13 +186,77 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ckzSupFr",
+        "type": "item",
+        "label": "Mélanie Bonis",
+        "description": "French composer (1858-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mel_Bonis_à_l'âge_de_19_ans,_par_Charles_Corbineau.jpg"
+        }
+      },
+      {
+        "id": "Do7kNZLT",
+        "type": "item",
+        "label": "André Gedalge",
+        "description": "French composer (1856-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "André_Gedalge.jpg"
+        }
+      },
+      {
+        "id": "gkg3RLK6",
+        "type": "item",
+        "label": "Gabriel Pierné",
+        "description": "French composer, conductor, and organist (1863–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Constant_Gabriel_Pierné.jpg"
+        }
+      },
+      {
+        "id": "66RojzbP",
+        "type": "item",
+        "label": "Paul Dukas",
+        "description": "French composer (1865–1935)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Dukas_01.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ernest_Guiraud.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9eEbeRLM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9eEbeRLM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9eEbeRLM.csv"
       }
     ]
   }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q6607",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "guitar"
       }
     ],
     "aliases": [
@@ -51,6 +52,123 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FyKiPorp",
+        "type": "item",
+        "label": "Grande Sonate brillante : für Gitarre und Klavier, op. 102",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901582434.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Jw59WnUZ",
+        "type": "item",
+        "label": "Anton Diabelli",
+        "description": "Austrian composer and publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Diabelli_by_Kriehuber.jpg"
+        }
+      },
+      {
+        "id": "3ZGzegqc",
+        "type": "item",
+        "label": "Hector Berlioz",
+        "description": "French composer and conductor (1803–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Berlioz_Petit_BNF_Gallica-crop.jpg"
+        }
+      },
+      {
+        "id": "XYEb9h53",
+        "type": "item",
+        "label": "Carl Maria von Weber",
+        "description": "German Romantic composer (1786–1826)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
+        }
+      },
+      {
+        "id": "kZj58UuH",
+        "type": "item",
+        "label": "Johann Nepomuk Hummel",
+        "description": "Austrian composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "JNHummel_2.jpg"
+        }
+      },
+      {
+        "id": "7apXLrV7",
+        "type": "item",
+        "label": "Nicola Matteis",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nicola_Matteis,_by_Godfrey_Kneller.jpg"
+        }
+      },
+      {
+        "id": "kjkGW8Td",
+        "type": "item",
+        "label": "Gustavo Carulli",
+        "description": "Italian-French musician 1801-76",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "nkqN8W6g",
+        "type": "item",
+        "label": "Mauro Giuliani",
+        "description": "Italian guitarist, cellist, singer, and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Mauro_Giuliani.jpeg"
+        }
+      },
+      {
+        "id": "ccb39KPa",
+        "type": "item",
+        "label": "Francisco Tárrega",
+        "description": "Spanish composer and classical guitarist (1852-1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francisco_tarrega_retrato.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ESwP43qy.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ESwP43qy.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ESwP43qy.csv"
+      }
+    ]
+  }
 }

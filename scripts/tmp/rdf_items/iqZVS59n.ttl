@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iqZVS59n a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:RePdmToB,
+        faamentity:Wpq9sxzm ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:jvhZafsd ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:J5WNr3BW,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:nVQSNpy8 ;
+    schema1:identifier "15992418"^^xsd:string,
+        "KCA-030904482400"^^xsd:string,
+        "iqZVS59n"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15224690/N"^^schema1:url ;
+    skos:prefLabel "Moment musical : pour piano"^^xsd:string ;
+    wd:P217 "MM-TP-SCHUB-momentm-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"iqZVS59n-424ab65c-9d06-4ec6-951d-869babe60768"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"iqZVS59n-77b158fe-375b-4238-a212-372ca40f21dd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"iqZVS59n-93d25e5e-81b5-48cb-9128-15cf4509f3ed"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:J5WNr3BW a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

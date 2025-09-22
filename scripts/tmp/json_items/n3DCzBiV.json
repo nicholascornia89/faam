@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q18625353",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Heinrich Ferdinand Steinmann"
       }
     ]
   },
@@ -168,13 +169,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gkMdvnYk",
+        "type": "item",
+        "label": "Concerto in a : voor piano enOrchestra : Opus 85",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000350242.gif"
+        }
+      },
+      {
+        "id": "Y3m7q8sc",
+        "type": "item",
+        "label": "Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-848545451.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "n3DCzBiV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "n3DCzBiV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "n3DCzBiV.csv"
       }
     ]
   }

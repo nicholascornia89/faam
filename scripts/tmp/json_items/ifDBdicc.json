@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q102217",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Vitebsk"
       }
     ],
     "aliases": [
@@ -86,8 +87,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "620127"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q184",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Belarus"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RVP3W8u4",
+        "type": "item",
+        "label": "Boris de Schlözer",
+        "description": "Russian Translator (1881–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ifDBdicc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ifDBdicc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ifDBdicc.csv"
+      }
+    ]
+  }
 }

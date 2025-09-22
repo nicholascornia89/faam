@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Dmow9aSA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:4NVP657a ;
+    schema1:birthDate "1748-05-05"^^xsd:string ;
+    schema1:birthPlace faamentity:YGte9NCo ;
+    schema1:deathDate "1809-02-06"^^xsd:string ;
+    schema1:deathPlace faamentity:YGte9NCo ;
+    schema1:description "Maltese composer (1748-1809)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q594872>,
+        "0"^^xsd:string,
+        "Dmow9aSA"^^xsd:string ;
+    skos:prefLabel "Francesco Azopardi"^^xsd:string ;
+    wd:P108 faamentity:DCpP4dvU,
+        faamentity:LmeqQXV8 ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:39574150 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30023484> ;
+    wd:P737 faamentity:n4SQLZpV ;
+    wd:P839 <https://imslp.org/wiki/Category:Azopardi,_Francesco> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:N3DQMCdv,
+        faamentity:PGamAZRD .
+

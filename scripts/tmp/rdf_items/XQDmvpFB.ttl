@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XQDmvpFB a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:WVwrkfen ;
+    schema1:description "opera by Gioachino Rossini"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q781525>,
+        "15999190"^^xsd:string,
+        "XQDmvpFB"^^xsd:string ;
+    skos:altLabel "Aureliano in Palmira"^^xsd:string ;
+    skos:prefLabel "Aureliano in Palmira"^^xsd:string ;
+    wd:P214 viaf:181075931 ;
+    wd:P5202 faamentity:TYtCu3ys ;
+    wd:P839 <https://imslp.org/wiki/Aureliano_in_Palmira_(Rossini,_Gioacchino)> .
+

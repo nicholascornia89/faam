@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q25379",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "play"
       }
     ],
     "aliases": [
@@ -103,6 +104,43 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "LAfSMPCk",
+        "type": "item",
+        "label": "Le martyre de Saint Sébastien",
+        "description": "play by Gabriele D'Annunzio with incidental music by Claude Debussy"
+      },
+      {
+        "id": "Lv4AiKXL",
+        "type": "item",
+        "label": "Romeo and Juliet",
+        "description": "tragedy by William Shakespeare"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "c8isW3Ur.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "c8isW3Ur.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "c8isW3Ur.csv"
+      }
+    ]
+  }
 }

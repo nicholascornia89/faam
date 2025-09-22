@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q715222",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "lady-in-waiting"
       }
     ],
     "aliases": [
@@ -51,6 +52,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "KN2VV3At",
+        "type": "item",
+        "label": "Margaret Cavendish, Duchess of Newcastle-upon-Tyne",
+        "description": "English aristocrat, prolific writer, and scientist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Margaret_Cavendish,_Duchess_of_Newcastle,_by_Peter_Lely.jpg"
+        }
+      },
+      {
+        "id": "a8ERxiqE",
+        "type": "item",
+        "label": "Josina van Aerssen",
+        "description": "Dutch composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Josina_van_Boetzelaer_door_Izaäk_Schmidt.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6s9hSDHe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6s9hSDHe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6s9hSDHe.csv"
+      }
+    ]
+  }
 }

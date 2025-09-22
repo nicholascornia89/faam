@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2Wh3HwBY a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical notation in which numerals/accidentals show chords to be played in relation to the bass note, used in Baroque music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q349603>,
+        "15992135"^^xsd:string,
+        "2Wh3HwBY"^^xsd:string ;
+    skos:altLabel "figured bass"^^xsd:string,
+        "thoroughbass"^^xsd:string ;
+    skos:prefLabel "figured bass"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv ;
+    wd:P279 faamentity:N2f5NSgz ;
+    wd:P31 faamentity:N2f5NSgz,
+        faamentity:Sdw2foGQ,
+        faamentity:aB3G93He .
+

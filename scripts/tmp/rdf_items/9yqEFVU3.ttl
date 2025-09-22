@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9yqEFVU3 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "private university in Cambridge, Massachusetts"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q13371>,
+        "15991082"^^xsd:string,
+        "9yqEFVU3"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y,
+        faamentity:a8CQs9W9 ;
+    skos:altLabel "Harvard"^^xsd:string,
+        "Harvard Graduate School"^^xsd:string,
+        "Harvard U."^^xsd:string,
+        "Harvard Univ."^^xsd:string,
+        "Harvard University"^^xsd:string,
+        "Harvard university"^^xsd:string,
+        "Harvard.edu"^^xsd:string,
+        "Kremlin on the Charles"^^xsd:string,
+        "New College, Cambridge, Massachusetts"^^xsd:string,
+        "University of Harvard"^^xsd:string,
+        "harvard.edu"^^xsd:string ;
+    skos:prefLabel "Harvard University"^^xsd:string .
+

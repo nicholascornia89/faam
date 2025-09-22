@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q48922",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Orlando Furioso"
       }
     ]
   },
@@ -68,6 +69,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "aQwrPGvR",
+        "type": "item",
+        "label": "Alcina",
+        "description": "opera seria by George Frideric Handel"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BvzXCfQg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BvzXCfQg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BvzXCfQg.csv"
+      }
+    ]
+  }
 }

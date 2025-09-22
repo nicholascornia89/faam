@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4ZEanoNh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1748-02-05"^^xsd:string ;
+    schema1:birthPlace faamentity:N8wv2Xqs ;
+    schema1:deathDate "1798-01-26"^^xsd:string ;
+    schema1:deathPlace faamentity:35STs3jR ;
+    schema1:description "German composer and conductor (1748–1789)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q213556>,
+        "0"^^xsd:string,
+        "4ZEanoNh"^^xsd:string ;
+    schema1:nationality faamentity:ExzzpMsG ;
+    skos:prefLabel "Christian Gottlob Neefe"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:19866387 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/91147> ;
+    wd:P737 faamentity:7TCqHsAe ;
+    wd:P839 <https://imslp.org/wiki/Category:Neefe,_Christian_Gottlob> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:YYyZX3aY .
+

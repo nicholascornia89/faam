@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gz5CDxGj a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:AZL2k82C ;
+    schema1:identifier "16004075"^^xsd:string,
+        "Gz5CDxGj"^^xsd:string ;
+    skos:prefLabel "Per pianto la mia carne, LV 24"^^xsd:string ;
+    wd:P5202 faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:2FQ4SCuS,
+        faamentity:n8dr8Tqi ;
+    wd:P839 <https://imslp.org/wiki/Per_pianto_la_mia_carne,_LV_24_(Lassus,_Orlande_de)> .
+

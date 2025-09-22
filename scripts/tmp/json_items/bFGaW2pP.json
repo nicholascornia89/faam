@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q350359",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alexandre Guilmant"
       }
     ]
   },
@@ -181,13 +182,89 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BfG5N55L",
+        "type": "item",
+        "label": "CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331832.gif"
+        }
+      },
+      {
+        "id": "AXNaWpu5",
+        "type": "item",
+        "label": "Première messe à quatre voix solos et choeurs avec orchestre ou orgue : op. 6 / par Alexandre Guilmant",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-169895807.gif"
+        }
+      },
+      {
+        "id": "AXNaWpu5",
+        "type": "item",
+        "label": "Première messe à quatre voix solos et choeurs avec orchestre ou orgue : op. 6 / par Alexandre Guilmant",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-169895807.gif"
+        }
+      },
+      {
+        "id": "UiyQ547m",
+        "type": "item",
+        "label": "Pièces d'orgue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901172525.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "he9gB9A7",
+        "type": "item",
+        "label": "Marcel Dupré",
+        "description": "French organist and composer (1886–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupre.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Alexandre-Guilmant.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bFGaW2pP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bFGaW2pP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bFGaW2pP.csv"
       }
     ]
   }

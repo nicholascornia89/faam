@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q48958",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Neuilly-sur-Seine"
       }
     ],
     "aliases": [
@@ -58,8 +59,120 @@
         "base_url": "https://www.geonames.org/",
         "label": "2990611"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Y6iJt5pu",
+        "type": "item",
+        "label": "Antoine Banès",
+        "description": "French choreographer and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "nn5dqK6R",
+        "type": "item",
+        "label": "Henri Letocart",
+        "description": "French composer and organist (1866–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "34yTh4zm",
+        "type": "item",
+        "label": "Ferdinand-Fleurus Amyot",
+        "description": "French publisher and bookseller (1818-1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "keJfejyV",
+        "type": "item",
+        "label": "Florent Schmitt",
+        "description": "French composer (1870-1958)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Florent_Schmitt_1900.jpg"
+        }
+      },
+      {
+        "id": "CsojejG2",
+        "type": "item",
+        "label": "Xavier Boisselot",
+        "description": "Composer and piano maker (1811-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/5/56/Xavier_Boisselot_1861.jpg"
+        }
+      },
+      {
+        "id": "S3La3UWp",
+        "type": "item",
+        "label": "Ferdinand Hérold",
+        "description": "French composer (1791–1833)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Herold_by_Maurin.jpg"
+        }
+      },
+      {
+        "id": "MKrnDeh4",
+        "type": "item",
+        "label": "Théophile-Adolphe Manoury",
+        "description": "French baritone",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Théophile-Adolphe_Manoury.png"
+        }
+      },
+      {
+        "id": "hmGhPHhV",
+        "type": "item",
+        "label": "Émile Durand",
+        "description": "French musical theorist, teacher and composer (1830-1903)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Durand_musicien.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5QzfLDJP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5QzfLDJP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5QzfLDJP.csv"
+      }
+    ]
+  }
 }

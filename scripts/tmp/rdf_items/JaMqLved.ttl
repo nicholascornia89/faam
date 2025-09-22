@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JaMqLved a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1835-09-28"^^xsd:string ;
+    schema1:birthPlace faamentity:jGe3vcFB ;
+    schema1:deathDate "1886-05-05"^^xsd:string ;
+    schema1:deathPlace faamentity:9k2MygHr ;
+    schema1:description "Belgian concert pianist, piano teacher and composer (1835-1886)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6171053>,
+        "16002778"^^xsd:string,
+        "JaMqLved"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Jean Louis Gobbaerts"^^xsd:string,
+        "Louis Gobbaerts"^^xsd:string,
+        "Louis Streabbog"^^xsd:string ;
+    skos:prefLabel "Louis Gobbaerts"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:34040517 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30071913> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gobbaerts,_Louis> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

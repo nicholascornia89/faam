@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aCkQF5gd a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "collegiate public research university in Cambridge, England, United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q35794>,
+        "15991097"^^xsd:string,
+        "aCkQF5gd"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55,
+        faamentity:ekUYzQvB ;
+    skos:altLabel "Cambridge"^^xsd:string,
+        "Cambridge University"^^xsd:string,
+        "The Chancellor, Masters, and Scholars of the University of Cambridge"^^xsd:string,
+        "The University of Cambridge"^^xsd:string,
+        "Universitas Cantabrigiensis"^^xsd:string,
+        "University of Cambridge"^^xsd:string ;
+    skos:prefLabel "University of Cambridge"^^xsd:string .
+

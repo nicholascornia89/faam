@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:asHocX25 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:B6QDYYs9,
+        faamentity:Wpq9sxzm,
+        faamentity:X6bVrZbx,
+        faamentity:euCa8A2S ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:MG4DHx65,
+        faamentity:QFnkBYdA ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JEZ5AweR,
+        faamentity:TYtCu3ys ;
+    schema1:hasPart faamentity:Pkef3RPz ;
+    schema1:identifier "16004317"^^xsd:string,
+        "BNF-428466571"^^xsd:string,
+        "asHocX25"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428466571"^^schema1:url ;
+    skos:prefLabel "Méthode de violon divisée en 3 parties, op. 102"^^xsd:string ;
+    skosref:note "Several diagrams and engravings about posture and violin."^^rdf:HTML ;
+    wd:P217 "VM8 C-28"^^xsd:string ;
+    wd:P870 faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"asHocX25-687565b8-c0ec-4921-9478-1c176ea0c821"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"asHocX25-7e535e3a-b6f0-4088-aab8-1978c3de1dd5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:TYtCu3ys a rdf:object .
+

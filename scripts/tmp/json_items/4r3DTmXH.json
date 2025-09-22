@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q25215432",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Tu es Petrus"
       }
     ]
   },
@@ -117,6 +118,61 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UQfQMXQK",
+        "type": "item",
+        "label": "Missa \"tu es Petrus\": sex vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991099181519707356.gif"
+        }
+      },
+      {
+        "id": "5PhEA3sv",
+        "type": "item",
+        "label": "Missa Tu es Petrus : für 6stg. gemischten Chor",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991062854279707356.gif"
+        }
+      },
+      {
+        "id": "V26YNnEi",
+        "type": "item",
+        "label": "Sammlung ausgezeichneter Kompositionen für die Kirche",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-13885.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4r3DTmXH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4r3DTmXH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4r3DTmXH.csv"
+      }
+    ]
+  }
 }

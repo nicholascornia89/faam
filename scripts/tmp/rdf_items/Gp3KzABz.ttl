@@ -1,0 +1,42 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gp3KzABz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:Pcc4PpDc,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:Z5LXHFLR,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Bw5tX7Uq ;
+    schema1:identifier "15992297"^^xsd:string,
+        "Gp3KzABz"^^xsd:string,
+        "KCA-030904383624"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15167741/N"^^schema1:url ;
+    skos:prefLabel "Dominus conserveteum : à 4 voix"^^xsd:string ;
+    wd:P217 "MM-MS-VANDENA-dominus-9"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"Gp3KzABz-0050d6c3-abf5-4b76-ab5a-40c90d977807"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:Bw5tX7Uq a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q115640974",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "impression"
       }
     ],
     "aliases": [
@@ -71,6 +72,55 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "jCuFYGDc",
+        "type": "item",
+        "label": "ink stamp",
+        "description": "mark printed, impressed, perforated, or embossed on a soft or absorbant material such as paper or wax"
+      },
+      {
+        "id": "MHbLSqqz",
+        "type": "item",
+        "label": "bookplate",
+        "description": "label affixed to a book to indicate ownership"
+      },
+      {
+        "id": "jCuFYGDc",
+        "type": "item",
+        "label": "ink stamp",
+        "description": "mark printed, impressed, perforated, or embossed on a soft or absorbant material such as paper or wax"
+      },
+      {
+        "id": "MHbLSqqz",
+        "type": "item",
+        "label": "bookplate",
+        "description": "label affixed to a book to indicate ownership"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZebjDxyt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZebjDxyt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZebjDxyt.csv"
+      }
+    ]
+  }
 }

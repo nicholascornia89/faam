@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3372396",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Paul Wachs"
       }
     ]
   },
@@ -169,13 +170,77 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "2stNM9js",
+        "type": "item",
+        "label": "Dormez, Ninon!",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p11.gif"
+        }
+      },
+      {
+        "id": "2stNM9js",
+        "type": "item",
+        "label": "Dormez, Ninon!",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p11.gif"
+        }
+      },
+      {
+        "id": "RKeHAPQQ",
+        "type": "item",
+        "label": "Ecoutez Ceci",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p19.gif"
+        }
+      },
+      {
+        "id": "RKeHAPQQ",
+        "type": "item",
+        "label": "Ecoutez Ceci",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p19.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RsT39XGW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RsT39XGW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RsT39XGW.csv"
       }
     ]
   }

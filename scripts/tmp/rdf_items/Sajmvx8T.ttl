@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Sajmvx8T a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1847-07-12"^^xsd:string ;
+    schema1:birthPlace faamentity:NFpybhM8 ;
+    schema1:deathDate "1922-12-23"^^xsd:string ;
+    schema1:deathPlace faamentity:Km6ATdgQ ;
+    schema1:description "German musician (1847–1922)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q64926>,
+        "15996018"^^xsd:string,
+        "Sajmvx8T"^^xsd:string ;
+    schema1:nationality faamentity:oDvJJJ7G ;
+    skos:altLabel "Karl Heinrich Barth"^^xsd:string ;
+    skos:prefLabel "Karl Heinrich Barth"^^xsd:string ;
+    wd:P108 faamentity:FveWg6j9 ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:13048262 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:5T9oj3bW,
+        faamentity:L3TJBa5S,
+        faamentity:jUsVtv53 ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY .
+

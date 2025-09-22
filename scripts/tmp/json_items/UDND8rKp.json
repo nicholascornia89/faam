@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q5064",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "The Magic Flute"
       }
     ]
   },
@@ -103,6 +104,49 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BxUZpGCB",
+        "type": "item",
+        "label": "Souvenirs Dramatiques : Arrangés en Quatuors pour Piano, 2 Violons et Violoncelle : 18e La Flûte enchantée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750767.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "QVbLYHws",
+        "type": "item",
+        "label": "12 Mélodies italiennes",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UDND8rKp.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UDND8rKp.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UDND8rKp.csv"
+      }
+    ]
+  }
 }

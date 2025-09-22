@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q3169469",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Kees Otten"
       }
     ]
   },
@@ -142,7 +143,20 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AVwZwE5J",
+        "type": "item",
+        "label": "Frans Brüggen",
+        "description": "Dutch conductor, recorder player and baroque flautist (1934–2014)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frans_Brüggen_(1969).jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -154,6 +168,27 @@
         "type": "image",
         "value": "Kees_Otten_(1967).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JASyyfcM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JASyyfcM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JASyyfcM.csv"
       }
     ]
   }

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ixNgtbqv a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "BWV 1043 by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1094801>,
+        "16002497"^^xsd:string,
+        "ixNgtbqv"^^xsd:string ;
+    skos:altLabel "Concerto for Two Violins"^^xsd:string ;
+    skos:prefLabel "Concerto for 2 Violins, BWV 1043"^^xsd:string,
+        "Concerto for Two Violins"^^xsd:string ;
+    wd:P5202 faamentity:BPVUdXga,
+        faamentity:HkAYDsB2 ;
+    wd:P7937 faamentity:65rhe5Po ;
+    wd:P839 <https://imslp.org/wiki/Concerto_for_2_Violins_in_D_minor,_BWV_1043_(Bach,_Johann_Sebastian)> .
+

@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UTd3aX7j a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:Pcc4PpDc,
+        faamentity:eHYWo9ba,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:M9HRWrxt,
+        faamentity:Uy6yW83v ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:WguLKB7a,
+        faamentity:nDdUxPEa ;
+    schema1:hasPart faamentity:53J5573G ;
+    schema1:identifier "15992540"^^xsd:string,
+        "KCA-030901706033"^^xsd:string,
+        "UTd3aX7j"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6757352/N"^^schema1:url ;
+    skos:prefLabel "Le châlet : opéra-comique en un acte"^^xsd:string ;
+    wd:P217 "UM-ZP-ADAM-chalet-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"UTd3aX7j-1e4fe4c2-15ce-4945-b08a-e560ae15b7c7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"UTd3aX7j-577b5591-8bca-48e2-8a1a-244084d61dd1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"UTd3aX7j-5bc9260d-fcbf-4b0a-9d23-57c08efeca1b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:WguLKB7a a rdf:object .
+
+faamentity:nDdUxPEa a rdf:object .
+

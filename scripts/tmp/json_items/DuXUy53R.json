@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q55960555",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "recording artist"
       }
     ],
     "aliases": [
@@ -51,6 +52,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "36FvuTcU",
+        "type": "item",
+        "label": "Archibald Thompson Davison",
+        "description": "American conductor (1883-1961)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Archibald_Thompson_Davison.jpg"
+        }
+      },
+      {
+        "id": "Fu8WgmS4",
+        "type": "item",
+        "label": "Ferruccio Busoni",
+        "description": "Italian composer, pianist, conductor, editor, born 1866",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "FerruccioBusoni1913.jpg"
+        }
+      },
+      {
+        "id": "gev4TndG",
+        "type": "item",
+        "label": "H. Clough-Leighter",
+        "description": "American composer and editor (1874-1956)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DuXUy53R.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DuXUy53R.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DuXUy53R.csv"
+      }
+    ]
+  }
 }

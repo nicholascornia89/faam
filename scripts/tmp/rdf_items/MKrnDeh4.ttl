@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MKrnDeh4 a rdfs:Resource ;
+    faamprop:related_to faamentity:Vm5DPnGE ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1846-12-16"^^xsd:string ;
+    schema1:birthPlace faamentity:Hyo5RL5i ;
+    schema1:deathDate "1909-06-16"^^xsd:string ;
+    schema1:deathPlace faamentity:5QzfLDJP ;
+    schema1:description "French baritone"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55832796>,
+        "16004363"^^xsd:string,
+        "MKrnDeh4"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Adolphe Théophile Manoury"^^xsd:string,
+        "Théophile Manoury"^^xsd:string,
+        "Théophile-Adolphe Manoury"^^xsd:string ;
+    skos:prefLabel "Théophile-Adolphe Manoury"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE,
+        faamentity:QaJicP98 ;
+    wd:P1303 faamentity:KJkThvsq ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:133152742898827731173 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30044440> ;
+    wd:P737 faamentity:AJ36KeTo,
+        faamentity:Q9JtJjKV ;
+    schema:hasOccupation faamentity:Wm5MWZbA,
+        faamentity:n8RY6FTC,
+        faamentity:n9MN9cLo .
+

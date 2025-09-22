@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:29ovPana a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1857-00-00"^^xsd:string,
+        "1857-07-05"^^xsd:string ;
+    schema1:birthPlace faamentity:RP6ATpan ;
+    schema1:deathDate "1936-00-00"^^xsd:string,
+        "1936-08-10"^^xsd:string ;
+    schema1:deathPlace faamentity:ES55JwZZ ;
+    schema1:description "French musicologist, composer and pioneer in ethnomusicology (1857-1936)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q547630>,
+        "16005318"^^xsd:string,
+        "29ovPana"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Jean Baptiste Julien Tiersot"^^xsd:string,
+        "Julien Tiersot"^^xsd:string ;
+    skos:prefLabel "Julien Tiersot"^^xsd:string ;
+    wd:P108 faamentity:oX8h7q9r ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:162820162,
+        viaf:54233998 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30031078> ;
+    wd:P839 <https://imslp.org/wiki/Category:Tiersot,_Julien> ;
+    schema:hasOccupation faamentity:9jaW5gj6,
+        faamentity:KZLqHwSf,
+        faamentity:LXez67AK,
+        faamentity:UZu2PFor,
+        faamentity:YYyZX3aY .
+

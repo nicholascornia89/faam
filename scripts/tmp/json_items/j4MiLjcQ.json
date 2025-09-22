@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q124315826",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ave Maria"
       }
     ]
   },
@@ -126,6 +127,71 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "atfndxFt",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KMN-100549.gif"
+        }
+      },
+      {
+        "id": "V26YNnEi",
+        "type": "item",
+        "label": "Sammlung ausgezeichneter Kompositionen für die Kirche",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-13885.gif"
+        }
+      },
+      {
+        "id": "atfndxFt",
+        "type": "item",
+        "label": "Recueil des morceaux de musique ancienne : executés aux concerts de la Sociéte de musique vocale religieuse et classique fondée a Paris en 1843 [...] sous la direction de Mr. le Prince de la Moskowa. [Deuxième volume, Nr 8-20]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KMN-100549.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "j4MiLjcQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "j4MiLjcQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "j4MiLjcQ.csv"
+      }
+    ]
+  }
 }

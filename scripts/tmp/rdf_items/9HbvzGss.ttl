@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9HbvzGss a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:UfinksVv ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:BZa5CHMu,
+        faamentity:HwcYgL5C,
+        faamentity:MaWnCnVw,
+        faamentity:adAmqPwn,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DSm6cEeM,
+        faamentity:MbXCYU7Y,
+        faamentity:U6xhouYu ;
+    schema1:identifier "15992756"^^xsd:string,
+        "9HbvzGss"^^xsd:string,
+        "KCG-000372227"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000372227"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur la romance de Guido et Ginévra d'Halévy Op. 72"^^xsd:string ;
+    wd:P217 "A1461 (19)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:MV3uErvy .
+
+schema1:contributor a rdf:predicate .
+
+"9HbvzGss-7f645614-c914-4860-bcaa-c44e168a53e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"9HbvzGss-83140c94-6e67-4647-8704-c0b379deda35"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"9HbvzGss-a3b7e605-c0da-47c3-a6d6-4c4f5d96e1cd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:DSm6cEeM a rdf:object .
+
+faamentity:MbXCYU7Y a rdf:object .
+
+faamentity:U6xhouYu a rdf:object .
+

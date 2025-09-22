@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q12497663",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "psalm"
       }
     ],
     "aliases": [
@@ -51,6 +52,153 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "duooCS6g",
+        "type": "item",
+        "label": "Psaume 18",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000355794.gif"
+        }
+      },
+      {
+        "id": "gS5JW9nh",
+        "type": "item",
+        "label": "Psaume 18",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000355797.gif"
+        }
+      },
+      {
+        "id": "8w4KViMb",
+        "type": "item",
+        "label": "Psaume 18 : Partition",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000740758.gif"
+        }
+      },
+      {
+        "id": "dAK9o9an",
+        "type": "item",
+        "label": "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV7618.gif"
+        }
+      },
+      {
+        "id": "hWH85qMK",
+        "type": "item",
+        "label": "Souterliedekens uit de XVIe eeuw",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM59827.gif"
+        }
+      },
+      {
+        "id": "XpkeH85Z",
+        "type": "item",
+        "label": "3 Psalmen : für Doppelchor",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078508549707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "3UMXViVN",
+        "type": "item",
+        "label": "Sextus Psalmus poenitentialis, LV 799",
+        "description": ""
+      },
+      {
+        "id": "ChS7ZLAF",
+        "type": "item",
+        "label": "Secundus Psalmus poenitentialis, LV 795",
+        "description": ""
+      },
+      {
+        "id": "99NM446k",
+        "type": "item",
+        "label": "Tertius Psalmus poenitentialis, LV 796",
+        "description": ""
+      },
+      {
+        "id": "Vk2B7k6g",
+        "type": "item",
+        "label": "Psalmodiae Vespertinae pro Defuctis",
+        "description": ""
+      },
+      {
+        "id": "hskNiqhM",
+        "type": "item",
+        "label": "Psalmodiae Vespertinae",
+        "description": ""
+      },
+      {
+        "id": "BqxPRipo",
+        "type": "item",
+        "label": "Confitebor",
+        "description": ""
+      },
+      {
+        "id": "m2bfDrD3",
+        "type": "item",
+        "label": "Ach, Herr, straf mich nicht, SWV 24",
+        "description": ""
+      },
+      {
+        "id": "MymXfGEj",
+        "type": "item",
+        "label": "Aus der Tiefe, SWV 25",
+        "description": ""
+      },
+      {
+        "id": "ZJBnGFib",
+        "type": "item",
+        "label": "Singet dem Herrn ein neues Lied, SWV 35",
+        "description": ""
+      },
+      {
+        "id": "4S8whbxi",
+        "type": "item",
+        "label": "Souterliedekens",
+        "description": "song"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KYiqCjW2.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KYiqCjW2.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KYiqCjW2.csv"
+      }
+    ]
+  }
 }

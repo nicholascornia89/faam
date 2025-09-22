@@ -1,0 +1,69 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6hokXqmo a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:AeKhRWCB,
+        faamentity:B7WuhvkL,
+        faamentity:CPJ2a2C2,
+        faamentity:FhoqCrfh,
+        faamentity:HXG9NWiG,
+        faamentity:NsEoE4RP,
+        faamentity:eviEKifd,
+        faamentity:mQvT2Zdb ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    dcelem:subject faamentity:4ZvdnZdj,
+        faamentity:DAfBPVqz,
+        faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:QFnkBYdA,
+        faamentity:UDgA2ki8 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:APRRus3e,
+        faamentity:JEZ5AweR,
+        faamentity:gMbbXrG8 ;
+    schema1:identifier "16005000"^^xsd:string,
+        "6hokXqmo"^^xsd:string,
+        "KCA-030904920060"^^xsd:string ;
+    schema1:location faamentity:nkxLRFG5 ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6718993/N"^^schema1:url ;
+    skos:prefLabel "La précieuse : für Violine und Klavier"^^xsd:string ;
+    wd:P217 "MM-SV-COUPE-lapreci-4"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"6hokXqmo-1063cddf-44ef-4df9-905f-92ca4e9128c0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"6hokXqmo-445c8e07-910b-45f7-b481-7a540de03acb"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:nkxLRFG5 .
+
+"6hokXqmo-c94e2ce3-da94-44a2-8052-d37fb505921d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:APRRus3e a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:gMbbXrG8 a rdf:object .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q18954633",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Walter Cecil Macfarren"
       }
     ]
   },
@@ -154,13 +155,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "P8rt2kWi",
+        "type": "item",
+        "label": "George Aitken",
+        "description": "English composer and pianist (b.1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Haduu4Qe",
+        "type": "item",
+        "label": "Tobias Matthay",
+        "description": "British pianist, teacher and composer (1858–1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Tobias_Matthay_-_Project_Gutenberg_eText_15604.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Walter_Cecil_Macfarren_001.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XWpq95LS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XWpq95LS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XWpq95LS.csv"
       }
     ]
   }

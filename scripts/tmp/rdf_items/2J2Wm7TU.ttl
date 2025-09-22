@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2J2Wm7TU a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "municipality in the Brussels-Capital Region, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q203312>,
+        "0"^^xsd:string,
+        "2J2Wm7TU"^^xsd:string ;
+    schema1:location faamentity:QbfXawnE ;
+    skos:altLabel "Uccle - Ukkel"^^xsd:string ;
+    skos:prefLabel "Uccle - Ukkel"^^xsd:string ;
+    wd:P1566 gn:2785123 .
+

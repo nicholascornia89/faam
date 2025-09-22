@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q123164",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Arthur Honegger"
       }
     ]
   },
@@ -199,13 +200,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RUZQ2gYm",
+        "type": "item",
+        "label": "Conrad Beck",
+        "description": "Swiss composer (1901-1989)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Conrad_Beck_1961.jpeg"
+        }
+      },
+      {
+        "id": "35tPGXNK",
+        "type": "item",
+        "label": "Bohuslav Martinů",
+        "description": "Czech composer (1890–1959)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martinu_1945.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Arthur_Honegger_1921.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JH9U3FW4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JH9U3FW4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JH9U3FW4.csv"
       }
     ]
   }

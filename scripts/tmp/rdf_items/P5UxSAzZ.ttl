@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P5UxSAzZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1773-03-15"^^xsd:string ;
+    schema1:birthPlace faamentity:mNQbQBie ;
+    schema1:deathDate "1845-06-28"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French bassoonist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q96558>,
+        "15996082"^^xsd:string,
+        "P5UxSAzZ"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "François-René Gebauer"^^xsd:string ;
+    skos:prefLabel "François-René Gebauer"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:GCEGkwjT ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12493776 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30009003> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gebauer,_François_René> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:N38UzpLK,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y .
+

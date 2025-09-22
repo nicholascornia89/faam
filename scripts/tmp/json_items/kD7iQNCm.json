@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1429239",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Flor Alpaerts"
       }
     ]
   },
@@ -145,13 +146,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BAxto4Nv",
+        "type": "item",
+        "label": "2e symphonie : en do min, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904478887.gif"
+        }
+      },
+      {
+        "id": "ey8cKZdW",
+        "type": "item",
+        "label": "Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901697265.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kD7iQNCm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kD7iQNCm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kD7iQNCm.csv"
       }
     ]
   }

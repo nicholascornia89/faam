@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q649",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Moscow"
       }
     ],
     "aliases": [
@@ -124,8 +125,155 @@
         "base_url": "https://www.geonames.org/",
         "label": "524901"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q11750528",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Duchy of Moscow"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZVpXBLkA",
+        "type": "item",
+        "label": "Alexander Scriabin",
+        "description": "Russian composer and pianist (1872–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Skrjabin_Alexander.jpg"
+        }
+      },
+      {
+        "id": "RvUF8Gvz",
+        "type": "item",
+        "label": "Nikolai Rubinstein",
+        "description": "Russian pianist, conductor and composer (1835-1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai_Rubinstein_1872.jpg"
+        }
+      },
+      {
+        "id": "ZVpXBLkA",
+        "type": "item",
+        "label": "Alexander Scriabin",
+        "description": "Russian composer and pianist (1872–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Skrjabin_Alexander.jpg"
+        }
+      },
+      {
+        "id": "M8yE9fi5",
+        "type": "item",
+        "label": "Karl Davydov",
+        "description": "Russian composer (1838–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Davidov-Karl.jpg"
+        }
+      },
+      {
+        "id": "CTPKvYNp",
+        "type": "item",
+        "label": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist (1906-1975)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+        }
+      },
+      {
+        "id": "4tfnvxzf",
+        "type": "item",
+        "label": "Felice Giardini",
+        "description": "Italian composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felice_Giardini_after_Giovanni_Battista_Cipriani.jpg"
+        }
+      },
+      {
+        "id": "YojCFfbu",
+        "type": "item",
+        "label": "Nikolai Zverev",
+        "description": "Russian classical pianist (1833–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai-Zverev.jpg"
+        }
+      },
+      {
+        "id": "ADiRegNH",
+        "type": "item",
+        "label": "Sergei Ivanovich Taneyev",
+        "description": "Russian composer, pianist, music theorist and teacher (1856–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Taneev.jpg"
+        }
+      },
+      {
+        "id": "ZtWvjSdn",
+        "type": "item",
+        "label": "Maria Yudina",
+        "description": "Soviet pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maria_Yudina.jpg"
+        }
+      },
+      {
+        "id": "C96V6zHY",
+        "type": "item",
+        "label": "John Field",
+        "description": "Irish pianist, composer, and teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_field.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "JiCYXnik",
+        "type": "item",
+        "label": "Workers' Youth Theatre",
+        "description": "Soviet theatre type"
+      },
+      {
+        "id": "6sZ9jk46",
+        "type": "item",
+        "label": "Meyerhold State Theatre",
+        "description": "theatre in Moscow (1920–1938)"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fgyBiYxY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fgyBiYxY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fgyBiYxY.csv"
+      }
+    ]
+  }
 }

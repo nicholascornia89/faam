@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hqAkT6Xz a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1826-10-14"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1910-10-14"^^xsd:string ;
+    schema1:deathPlace faamentity:KWqdZFbU ;
+    schema1:description "French composer, pianist and teacher (1826-1910)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1995898>,
+        "0"^^xsd:string,
+        "hqAkT6Xz"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Georges Mathias"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:5693324 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:57TxaobZ,
+        faamentity:B8C32cCH ;
+    wd:P839 <https://imslp.org/wiki/Category:Mathias,_Georges> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

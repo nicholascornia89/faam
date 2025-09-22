@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N5auHWJc a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "large low-pitched wind instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q810551>,
+        "15990844"^^xsd:string,
+        "N5auHWJc"^^xsd:string ;
+    skos:altLabel "bass saxophone"^^xsd:string ;
+    skos:prefLabel "bass saxophone"^^xsd:string .
+

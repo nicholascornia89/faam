@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q54996686",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le Dieu et la Bayadère"
       }
     ]
   },
@@ -71,6 +72,41 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "G5MNRuFA",
+        "type": "item",
+        "label": "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331376.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "h9bxZ33h.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "h9bxZ33h.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "h9bxZ33h.csv"
+      }
+    ]
+  }
 }

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q18939491",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "diarist"
       }
     ],
     "aliases": [
@@ -55,6 +56,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G3ncrNcs",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "6JGVpMmj",
+        "type": "item",
+        "label": "Ignaz Moscheles",
+        "description": "Bohemian conductor, music educator, composer and pianist (1794–1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Moscheles.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cwEP3eRL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cwEP3eRL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cwEP3eRL.csv"
+      }
+    ]
+  }
 }

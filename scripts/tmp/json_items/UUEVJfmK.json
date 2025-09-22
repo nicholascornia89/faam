@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q658975",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Lausanne"
       }
     ],
     "aliases": [
@@ -86,6 +87,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Ra6nufSY",
+        "type": "item",
+        "label": "Ernest Ansermet",
+        "description": "Swiss conductor (1883–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "ErnestAnsermet.jpg"
+        }
+      },
+      {
+        "id": "BFrbSzjH",
+        "type": "item",
+        "label": "Maurice Abravanel",
+        "description": "Ottoman-American Jewish conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UUEVJfmK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UUEVJfmK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UUEVJfmK.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,43 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Xg9FB5Mu a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:mgrwHwTj ;
+    dcterms:provenance faamentity:3xcm7SKP ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BFrbSzjH,
+        faamentity:DMmrDj7M ;
+    schema1:hasPart faamentity:U9Bv5pbA ;
+    schema1:identifier "16003970"^^xsd:string,
+        "WML-768561"^^xsd:string,
+        "Xg9FB5Mu"^^xsd:string ;
+    schema1:url "https://collections.lib.utah.edu/ark:/87278/s6h44nwk"^^schema1:url ;
+    skos:prefLabel "Symphony No. 5, III: Scherzo"^^xsd:string ;
+    wd:P217 "uu_mckay_asc"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"Xg9FB5Mu-4a05a1e6-9b44-4179-835d-42d7847b3ac9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"Xg9FB5Mu-7c7f52e4-4669-4309-9921-ae2d6d73160b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:BFrbSzjH a rdf:object .
+
+faamentity:DMmrDj7M a rdf:object .
+

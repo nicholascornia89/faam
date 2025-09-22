@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1720",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mainz"
       }
     ],
     "aliases": [
@@ -76,8 +77,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "DE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2eg9E4Mu",
+        "type": "item",
+        "label": "Peter Cornelius",
+        "description": "German composer (1824–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_cornelius.jpg"
+        }
+      },
+      {
+        "id": "2eg9E4Mu",
+        "type": "item",
+        "label": "Peter Cornelius",
+        "description": "German composer (1824–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_cornelius.jpg"
+        }
+      },
+      {
+        "id": "hjQndcUT",
+        "type": "item",
+        "label": "Ferdinand Beyer",
+        "description": "German composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Beyer,_Ferdinand_1803-1863.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nkxLRFG5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nkxLRFG5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nkxLRFG5.csv"
+      }
+    ]
+  }
 }

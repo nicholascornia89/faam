@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q54096",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Cologne"
       }
     ],
     "aliases": []
@@ -45,6 +46,51 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "E3TYHdg6",
+        "type": "item",
+        "label": "Hans Adolf Eduard Driesch",
+        "description": "German philosopher and biologist (1867 - 1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Driesch1.jpg"
+        }
+      },
+      {
+        "id": "RzJ2dN9s",
+        "type": "item",
+        "label": "Theodor Kroyer",
+        "description": "German musicologist (1873-1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8zbbVqAH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8zbbVqAH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8zbbVqAH.csv"
+      }
+    ]
+  }
 }

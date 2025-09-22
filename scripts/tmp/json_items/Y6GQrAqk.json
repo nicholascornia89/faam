@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1677973",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jacques François Gallay"
       }
     ]
   },
@@ -175,13 +176,101 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KNrKDcYq",
+        "type": "item",
+        "label": "Cinquième Solo : pour le Cor avec Accompagnement de Grand Orchestre ou de Forte piano : Oeuv. 12",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345311.gif"
+        }
+      },
+      {
+        "id": "nFzkK3Bd",
+        "type": "item",
+        "label": "Deuxième Solo : Pour Le Cor avec Accompagnement de deux Violons, Alto, et Basse, flûte, Clarinettes, Cors et Bassons : Opéra 7.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345308.gif"
+        }
+      },
+      {
+        "id": "4EC7JMTE",
+        "type": "item",
+        "label": "Neuvième Solo de Cor : avec Accompagnement de Piano : OEuvre 39",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345315.gif"
+        }
+      },
+      {
+        "id": "chiLSusq",
+        "type": "item",
+        "label": "Quatrième Solo Pour le Cor : avec Accompt d'Orchestre ou de Piano : OEuvre IIe",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345310.gif"
+        }
+      },
+      {
+        "id": "ZjDg6iHC",
+        "type": "item",
+        "label": "Septième Solo : Pour Le Cor avec Piano obligé : Oeuvre 23",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000345313.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "FnYUMcyu",
+        "type": "item",
+        "label": "Horn Solo No.2, Op.7",
+        "description": ""
+      },
+      {
+        "id": "SZSoBuLq",
+        "type": "item",
+        "label": "Horn Solo No.12, Op.55",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Jacques_François_Gallay_Hornist.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Y6GQrAqk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Y6GQrAqk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Y6GQrAqk.csv"
       }
     ]
   }

@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XTwyaLbV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy ;
+    faamprop:handwritten_annotation faamentity:F4ZEniBQ,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN,
+        faamentity:gpdFtfXA ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:A85JP7AT,
+        faamentity:hDjDJrVY ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:DdadiMfy,
+        faamentity:JEZ5AweR ;
+    schema1:identifier "16005364"^^xsd:string,
+        "ORP-20143703p5"^^xsd:string,
+        "XTwyaLbV"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Six morceaux caractéristiques"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:BJpg68ny .
+
+schema1:contributor a rdf:predicate .
+
+"XTwyaLbV-1cd1ac98-e914-4abd-919e-632dd04c3324"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"XTwyaLbV-72a3207b-4286-4543-aecf-d941a73bbb3f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"XTwyaLbV-7e226a09-904c-48fd-a5d0-91a96bc7e94b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:DdadiMfy a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

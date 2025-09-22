@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q6170231",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Karl Schwencke"
       }
     ]
   },
@@ -166,13 +167,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "o9yHFhFa",
+        "type": "item",
+        "label": "Charles VI : opera in 5 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348150.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "Vy7ymJFS",
+        "type": "item",
+        "label": "Charles VI",
+        "description": "opera by Jacques Fromental Halévy"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://upload.wikimedia.org/wikipedia/commons/c/c3/PPN663943914_Carl_Schwencke_%281853%29.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SkjFZWhq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SkjFZWhq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SkjFZWhq.csv"
       }
     ]
   }

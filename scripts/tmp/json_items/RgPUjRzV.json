@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q21713103",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cambridge"
       }
     ],
     "aliases": [
@@ -70,8 +71,52 @@
         "base_url": "https://www.geonames.org/",
         "label": "7290660"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "kTTbLR4W",
+        "type": "item",
+        "label": "Trinity College",
+        "description": "constituent college of the University of Cambridge in England"
+      },
+      {
+        "id": "D6najEwq",
+        "type": "item",
+        "label": "King's College School",
+        "description": "school in Cambridgeshire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RgPUjRzV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RgPUjRzV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RgPUjRzV.csv"
+      }
+    ]
+  }
 }

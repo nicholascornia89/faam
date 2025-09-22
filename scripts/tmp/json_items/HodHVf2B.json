@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q2105585",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Willem Nicolaï"
       }
     ]
   },
@@ -146,13 +147,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PqPMpBAn",
+        "type": "item",
+        "label": "Marius van 't Kruijs",
+        "description": "Dutch composer (1861–1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Marius_van_'t_Kruijs.jpg"
+        }
+      },
+      {
+        "id": "kzaxQhbG",
+        "type": "item",
+        "label": "Cornélie van Zanten",
+        "description": "Dutch opera singer (1855–1946)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Onze_Musici_(1911)_-_Cornélie_van_Zanten.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "WFGNicolai.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HodHVf2B.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HodHVf2B.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HodHVf2B.csv"
       }
     ]
   }

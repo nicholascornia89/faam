@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q7003",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dijon"
       }
     ],
     "aliases": [
@@ -60,8 +61,78 @@
         "base_url": "https://www.geonames.org/",
         "label": "6453767"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nEJchqtd",
+        "type": "item",
+        "label": "Pierre-Louis Dietsch",
+        "description": "French composer and conductor (1808–1865)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre-Louis_Dietsch_-_engraving_after_a_photo_by_Franck_-_Gallica.jpg"
+        }
+      },
+      {
+        "id": "NTqtYmnQ",
+        "type": "item",
+        "label": "Jean-Philippe Rameau",
+        "description": "French composer and music theorist (1683–1764)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Attribué_à_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg"
+        }
+      },
+      {
+        "id": "8wUR3C4Z",
+        "type": "item",
+        "label": "Louis Dumas",
+        "description": "French composer (1877-1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "bzrjNP8o",
+        "type": "item",
+        "label": "Collège des Godrans",
+        "description": "former college in Dijon, France"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XuRUfNL5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XuRUfNL5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XuRUfNL5.csv"
+      }
+    ]
+  }
 }

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q5442146",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Felix Borowski"
       }
     ]
   },
@@ -155,13 +156,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "CTdCrTkw",
+        "type": "item",
+        "label": "Gavotte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p64.gif"
+        }
+      },
+      {
+        "id": "CTdCrTkw",
+        "type": "item",
+        "label": "Gavotte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p64.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Prince_of_Wales_(on_front)_Felix_Borowski_(on_back),_Treasury_Dept._(.)_Committee_LCCN2016824636.tif",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HTauo7RU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HTauo7RU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HTauo7RU.csv"
       }
     ]
   }

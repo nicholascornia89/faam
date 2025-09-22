@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q130415689",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Metropolis (Oud-Huis G. Prop)"
       }
     ]
   },
@@ -93,13 +94,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "94k9UmMK",
+        "type": "item",
+        "label": "Miniaturen : voor klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903079199.gif"
+        }
+      },
+      {
+        "id": "iXCr874G",
+        "type": "item",
+        "label": "Miniaturen : voor klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904517924.gif"
+        }
+      },
+      {
+        "id": "LmoJq7Uc",
+        "type": "item",
+        "label": "Impromptu",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902946372.gif"
+        }
+      },
+      {
+        "id": "e8H646JA",
+        "type": "item",
+        "label": "Intermezzo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904518088.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kdMNCVkK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kdMNCVkK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kdMNCVkK.csv"
       }
     ]
   }

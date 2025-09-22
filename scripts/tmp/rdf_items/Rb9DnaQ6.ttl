@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rb9DnaQ6 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who plays folkloristic music on a fiddle or violin"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3560496>,
+        "15991011"^^xsd:string,
+        "Rb9DnaQ6"^^xsd:string ;
+    skos:altLabel "fiddler"^^xsd:string,
+        "violinist"^^xsd:string ;
+    skos:prefLabel "cantor"^^xsd:string,
+        "fiddler"^^xsd:string .
+

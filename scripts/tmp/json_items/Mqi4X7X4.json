@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1337541",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Henri Bertini"
       }
     ]
   },
@@ -151,13 +152,103 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "YynrX2W6",
+        "type": "item",
+        "label": "1er Sextuor : Pour Piano Forte, 2 Violons, Alto, Violoncelle et Contrebasse : Opera 79",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334849.gif"
+        }
+      },
+      {
+        "id": "XyGYieGu",
+        "type": "item",
+        "label": "2e Grand Sextuor : pour Piano-Forte, 2 Violons, Alto, Violoncelle et Contre Basse : Op. 85",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334850.gif"
+        }
+      },
+      {
+        "id": "WjBqHkaN",
+        "type": "item",
+        "label": "3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334852.gif"
+        }
+      },
+      {
+        "id": "HEY9AguS",
+        "type": "item",
+        "label": "5e. Sextuor : pour Piano, Violon, 2 Altos, Violoncelle et Contrebasse : Op: 124.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334854.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "JfNHf5er",
+        "type": "item",
+        "label": "Piano Sextet No.5, Op.124",
+        "description": ""
+      },
+      {
+        "id": "ds59knJt",
+        "type": "item",
+        "label": "Piano Sextet No.3, Op.90",
+        "description": ""
+      },
+      {
+        "id": "9hL2fJWU",
+        "type": "item",
+        "label": "Piano Sextet No.2, Op.85",
+        "description": ""
+      },
+      {
+        "id": "VnGXVnrK",
+        "type": "item",
+        "label": "Piano Sextet No.1, Op.79",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Henri_Bertini.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Mqi4X7X4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Mqi4X7X4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Mqi4X7X4.csv"
       }
     ]
   }

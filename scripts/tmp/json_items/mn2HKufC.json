@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q47419907",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Salle Favart"
       }
     ],
     "aliases": [
@@ -82,6 +83,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "F2zXFib5",
+        "type": "item",
+        "label": "Trois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000336431.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mn2HKufC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mn2HKufC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mn2HKufC.csv"
+      }
+    ]
+  }
 }

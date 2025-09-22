@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ef89QxJG a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "village in Lower Saxony"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q32051125>,
+        "31601"^^xsd:string,
+        "ef89QxJG"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G ;
+    skos:altLabel "Halle"^^xsd:string ;
+    skos:prefLabel "Halle"^^xsd:string ;
+    wd:P1566 gn:2911521,
+        gn:DE .
+

@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q586181",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antoine-François Marmontel"
       }
     ]
   },
@@ -219,7 +220,132 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "F2AzAwZv",
+        "type": "item",
+        "label": "Art moderne du piano, 50 Etudes de salon moyenne force et progressives... par Marmontel, op. 108",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43135625w.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "7BXaCKg3",
+        "type": "item",
+        "label": "Émile Paladilhe",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Paladilhe.jpg"
+        }
+      },
+      {
+        "id": "n7zaDq2T",
+        "type": "item",
+        "label": "Georges Bizet",
+        "description": "French composer (1838–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georges_bizet.jpg"
+        }
+      },
+      {
+        "id": "RsT39XGW",
+        "type": "item",
+        "label": "Paul Wachs",
+        "description": "French organist and composer (1851–1915)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "NQFNyep8",
+        "type": "item",
+        "label": "Eugène Ketterer",
+        "description": "French composer and pianist (1831-1870)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Ketterer_1864.jpg"
+        }
+      },
+      {
+        "id": "6ng5YJy5",
+        "type": "item",
+        "label": "Charles Bordes",
+        "description": "French music teacher and composer (1863-1909)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Bordes_Comoedia.jpg"
+        }
+      },
+      {
+        "id": "gkg3RLK6",
+        "type": "item",
+        "label": "Gabriel Pierné",
+        "description": "French composer, conductor, and organist (1863–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Constant_Gabriel_Pierné.jpg"
+        }
+      },
+      {
+        "id": "8K3yJASt",
+        "type": "item",
+        "label": "Claude Debussy",
+        "description": "French classical composer (1862–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Claude_Debussy_by_Atelier_Nadar.jpg"
+        }
+      },
+      {
+        "id": "eCz67vzY",
+        "type": "item",
+        "label": "Théodore Dubois",
+        "description": "French composer and Organist (1837-1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodore_Dubois.jpg"
+        }
+      },
+      {
+        "id": "RuuTxmHU",
+        "type": "item",
+        "label": "Albert Lavignac",
+        "description": "French composer (1846-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Albert_Lavignac_1900.jpg"
+        }
+      },
+      {
+        "id": "MpY98fgj",
+        "type": "item",
+        "label": "Louis Diémer",
+        "description": "French composer (1843–1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Diémer_passport.jpg"
+        }
+      },
+      {
+        "id": "9eEbeRLM",
+        "type": "item",
+        "label": "Ernest Guiraud",
+        "description": "French composer and music teacher (1837-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ernest_Guiraud.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -231,6 +357,27 @@
         "type": "image",
         "value": "Antoine_François_Marmontel_by_Léon_Bonnat.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cmzT8tYL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cmzT8tYL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cmzT8tYL.csv"
       }
     ]
   }

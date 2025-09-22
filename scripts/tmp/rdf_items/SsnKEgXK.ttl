@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SsnKEgXK a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Rhineland-Palatinate, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3138>,
+        "0"^^xsd:string,
+        "SsnKEgXK"^^xsd:string ;
+    schema1:location faamentity:oDvJJJ7G ;
+    skos:altLabel "Augusta Treverorum"^^xsd:string,
+        "Trier"^^xsd:string,
+        "Triers"^^xsd:string ;
+    skos:prefLabel "Trier"^^xsd:string ;
+    wd:P1566 gn:2821164,
+        gn:3247911 .
+

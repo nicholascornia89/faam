@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6BTvLJcx a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "one of the 12 administrative districts of Paris, France, before 1860"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2845754>,
+        "0"^^xsd:string,
+        "6BTvLJcx"^^xsd:string ;
+    schema1:location faamentity:Eqo9Fq2n ;
+    skos:altLabel "former 3rd arrondissement of Paris"^^xsd:string ;
+    skos:prefLabel "former 3rd arrondissement of Paris"^^xsd:string .
+

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q131927258",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marcel Lejeune"
       }
     ]
   },
@@ -127,13 +128,85 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gSRR7ifb",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902751301.gif"
+        }
+      },
+      {
+        "id": "gasDxG8C",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902751319.gif"
+        }
+      },
+      {
+        "id": "eMHKbtvi",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920292.gif"
+        }
+      },
+      {
+        "id": "aU5fiv9F",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920300.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "CfDF7NTd",
+        "type": "item",
+        "label": "Twelve Violin Sonatas, Op.5",
+        "description": "set of violin sonatas composed by Arcangelo Corelli"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MfPfB9eD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MfPfB9eD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MfPfB9eD.csv"
       }
     ]
   }

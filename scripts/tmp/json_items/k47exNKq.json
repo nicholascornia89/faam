@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q115493908",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lodewijk Ontrop"
       }
     ]
   },
@@ -150,13 +151,59 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cYydxGvT",
+        "type": "item",
+        "label": "Het piknikje",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902137303.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "EtZqfGE5",
+        "type": "item",
+        "label": "August Verbesselt",
+        "description": "Belgian composer and flute player, 1919–2012",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Lodewijk_Ontrop_ca._1897_(retouched).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "k47exNKq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "k47exNKq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "k47exNKq.csv"
       }
     ]
   }

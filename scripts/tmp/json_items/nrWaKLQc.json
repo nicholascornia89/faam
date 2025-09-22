@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1392901",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alexandre-Étienne Choron"
       }
     ]
   },
@@ -172,13 +173,145 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "RXzQX4CM",
+        "type": "item",
+        "label": "Missa ad fugam in perpetuo canone, in G, a quattro voci, da capella, di Giovanni Pietro Aloisio da Palestrina.... Pubblicato... de Aless. Steff Choron,...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-431877350.gif"
+        }
+      },
+      {
+        "id": "4sRaszr2",
+        "type": "item",
+        "label": "Stabat mater: motetto a otto voci reali, da capella ; scuola romana, 1555",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991100556509707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      },
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "nEJchqtd",
+        "type": "item",
+        "label": "Pierre-Louis Dietsch",
+        "description": "French composer and conductor (1808–1865)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pierre-Louis_Dietsch_-_engraving_after_a_photo_by_Franck_-_Gallica.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "UFJQhoqc",
+        "type": "item",
+        "label": "Miserere",
+        "description": "Setting of Psalm 51 by Gregorio Allegri"
+      },
+      {
+        "id": "dhLrBjLH",
+        "type": "item",
+        "label": "Stabat Mater",
+        "description": "composition by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "LCTtyKJo",
+        "type": "item",
+        "label": "Ricercari sopra li tuoni",
+        "description": "collection of ricercari attributed to Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "RFmUxJ4H",
+        "type": "item",
+        "label": "Incipit lamentatio, IGA 1",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Alexandre-Étienne_Choron.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nrWaKLQc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nrWaKLQc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nrWaKLQc.csv"
       }
     ]
   }

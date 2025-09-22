@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q131299477",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alfeo Buya"
       }
     ]
   },
@@ -111,13 +112,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cp9PfYfD",
+        "type": "item",
+        "label": "95 esercizi : facili e preparatorî al secondo fascicolo della prima parte della 'Nuovo metodo per violino con la teoria del tetracordo' = 95 exercices : faciles et servant de préparation au deuxième cahier de la première partie de la 'Nouvelle méthode pour le violon avec la théorie du tétracorde' = 95 easy exercises : preparatory to book II of part I of the 'New method for the violin with the theory of the tetrachord'",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904919054.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2U4JN3DM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2U4JN3DM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2U4JN3DM.csv"
       }
     ]
   }

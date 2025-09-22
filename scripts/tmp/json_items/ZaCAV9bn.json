@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1684863",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jean-Frédéric Edelmann"
       }
     ]
   },
@@ -161,13 +162,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jBbcDzfH",
+        "type": "item",
+        "label": "Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-26137450b.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "bYnCgWLM",
+        "type": "item",
+        "label": "Étienne Méhul",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Méhul.jpg"
+        }
+      },
+      {
+        "id": "DrKGPaTi",
+        "type": "item",
+        "label": "Louis Adam",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_Adam.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "cMtvTYhd",
+        "type": "item",
+        "label": "Iphigénie en Tauride",
+        "description": "opera by Christoph Willibald Gluck"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZaCAV9bn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZaCAV9bn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZaCAV9bn.csv"
       }
     ]
   }

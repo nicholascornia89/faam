@@ -1,0 +1,85 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Hrm7sFXg a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "09-1929"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:B7WuhvkL,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:bG5mXun5,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005670"^^xsd:string,
+        "DPF-202502019"^^xsd:string,
+        "Hrm7sFXg"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Tria motetta 1 vocis comitante organo"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Septembris 1929 (No. 3)."^^rdf:HTML ;
+    wd:P217 "ms-1929-03"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"Hrm7sFXg-24c56666-24e8-48cf-80e6-854cc40bf98a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "09-1929"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Hrm7sFXg-5e01efda-7695-4020-8f86-69f14559c52d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Hrm7sFXg-8a91033d-b778-4590-9c73-bc299f604801"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Hrm7sFXg-ca30e872-f67b-418c-914f-6e1bbd90ec21"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Hrm7sFXg-d5ac29c0-e277-46ac-9204-9dd3345b0c91"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"Hrm7sFXg-de0245d4-d4f4-4b78-899c-1c1d834cb507"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:bG5mXun5 a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

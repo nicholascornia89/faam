@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HEY9AguS a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:EgH6igGS ;
+    faamprop:role faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:aWLSfvkc ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:Mqi4X7X4 ;
+    schema1:hasPart faamentity:JfNHf5er ;
+    schema1:identifier "15992593"^^xsd:string,
+        "HEY9AguS"^^xsd:string,
+        "KCG-000334854"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334854"^^schema1:url ;
+    skos:prefLabel "5e. Sextuor : pour Piano, Violon, 2 Altos, Violoncelle et Contrebasse : Op: 124."^^xsd:string ;
+    wd:P217 "II8548"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"HEY9AguS-6ba90a77-6a6e-4dc0-9c60-79f5c2ca2b5d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"HEY9AguS-85514524-363a-47a5-8746-a38969a3933b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:Mqi4X7X4 a rdf:object .
+

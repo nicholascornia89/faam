@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QUx7S6Yg a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical sign (accidental) cancelling previous accidentals returning the frequency of the note to the natural/original value"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q747691>,
+        "16002350"^^xsd:string,
+        "QUx7S6Yg"^^xsd:string ;
+    skos:altLabel "natural"^^xsd:string,
+        "natural sign"^^xsd:string,
+        "♮"^^xsd:string,
+        "♮-sign"^^xsd:string ;
+    skos:prefLabel "natural sign"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:aCRY7SgN ;
+    wd:P31 faamentity:N2f5NSgz .
+

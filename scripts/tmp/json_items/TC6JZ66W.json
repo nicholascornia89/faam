@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q586",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bonn"
       }
     ],
     "aliases": [
@@ -66,8 +67,118 @@
         "base_url": "https://www.geonames.org/",
         "label": "3247450"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6R94Bffz",
+        "type": "item",
+        "label": "Anna Lankow",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "98W5cKAM",
+        "type": "item",
+        "label": "Ludwig van Beethoven",
+        "description": "German composer (1770–1827)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg"
+        }
+      },
+      {
+        "id": "6R94Bffz",
+        "type": "item",
+        "label": "Anna Lankow",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "TxfuV8Su",
+        "type": "item",
+        "label": "Robert Schumann",
+        "description": "German composer, pianist and critic (1810–1856)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert-schumann.jpg"
+        }
+      },
+      {
+        "id": "NxRmLLrC",
+        "type": "item",
+        "label": "Friedrich Filitz",
+        "description": "19th century German composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "MuigNFLa",
+        "type": "item",
+        "label": "Josef Reicha",
+        "description": "Czech composer and violoncellist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ew6jtvQa",
+        "type": "item",
+        "label": "Gilles van der Eeden",
+        "description": "German organist, musician and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "kiPMHyZB",
+        "type": "item",
+        "label": "University of Bonn",
+        "description": "public research university located in Bonn, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TC6JZ66W.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TC6JZ66W.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TC6JZ66W.csv"
+      }
+    ]
+  }
 }

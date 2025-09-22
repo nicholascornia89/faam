@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2320761",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Presnensky District"
       }
     ],
     "aliases": [
@@ -64,8 +65,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "9881953"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CaPmHone",
+        "label": "Russia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "Djq8DaQv",
+        "type": "item",
+        "label": "Moscow Conservatory",
+        "description": "higher musical education institution in Moscow"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hdGBTaJs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hdGBTaJs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hdGBTaJs.csv"
+      }
+    ]
+  }
 }

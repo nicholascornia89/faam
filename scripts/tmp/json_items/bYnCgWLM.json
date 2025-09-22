@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q364020",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Étienne Méhul"
       }
     ]
   },
@@ -160,13 +161,97 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "jKxEWAET",
+        "type": "item",
+        "label": "Air pour la Voix de Tenore (ou haute-Contre) : Tiré de l'opéra de Joseph en Egypte (Vainement Pharaon)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000356691.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "JeE2Dvbq",
+        "type": "item",
+        "label": "Louis-Barthélémy Pradher",
+        "description": "French composer, pianist and music educator",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Barthélémy_Pradher_par_Godefroy_Engelmann.jpg"
+        }
+      },
+      {
+        "id": "U6xhouYu",
+        "type": "item",
+        "label": "Fromental Halévy",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fromental_Halevy_by_Etienne_Carjat-crop.jpg"
+        }
+      },
+      {
+        "id": "Vg9Vqqca",
+        "type": "item",
+        "label": "Nicolas-Charles Bochsa",
+        "description": "French composer and harpist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert_Nicolas-Charles_Bochsa,_the_Harpist.jpg"
+        }
+      },
+      {
+        "id": "iNbTsAKd",
+        "type": "item",
+        "label": "Joseph Daussoigne-Méhul",
+        "description": "French composer (1790-1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Daussoigne-Mehul,_PA00732.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "DKvfNrup",
+        "type": "item",
+        "label": "Joseph en Egypt",
+        "description": "biblical opera in 3 acts composed by Etienne Nicolas Mehul. First representation in 1807 at Opéra-Comique, rue Feydeau, Paris"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Méhul.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bYnCgWLM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bYnCgWLM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bYnCgWLM.csv"
       }
     ]
   }

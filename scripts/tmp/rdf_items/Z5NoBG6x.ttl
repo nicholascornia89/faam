@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z5NoBG6x a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1668-11-10"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1733-09-11"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French Baroque composer, organist and harpsichordist (1668–1733)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q50186>,
+        "15996255"^^xsd:string,
+        "Z5NoBG6x"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Couperin"^^xsd:string,
+        "Francois Couperin"^^xsd:string,
+        "François Couperin"^^xsd:string ;
+    skos:prefLabel "François Couperin"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH,
+        faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:54332134 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30000757> ;
+    wd:P737 faamentity:37P9uXmf,
+        faamentity:mtN6KyyB ;
+    wd:P839 <https://imslp.org/wiki/Category:Couperin,_François> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:PGamAZRD,
+        faamentity:j43KYCez .
+

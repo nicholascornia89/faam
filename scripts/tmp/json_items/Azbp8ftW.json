@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q39631",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "physician"
       }
     ],
     "aliases": [
@@ -75,6 +76,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "b76YWHCN",
+        "type": "item",
+        "label": "Alexander Borodin",
+        "description": "Russian composer, doctor and chemist (1833–1887)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Borodin.jpg"
+        }
+      },
+      {
+        "id": "bJ9KqoB7",
+        "type": "item",
+        "label": "Raoul Émile Blondel",
+        "description": "French physician",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "GFYMUaVf",
+        "type": "item",
+        "label": "François Bernier",
+        "description": "French physician and traveller",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "NtjxwFrn",
+        "type": "item",
+        "label": "Karl Proske",
+        "description": "German musicologist (1794–1861)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Proske_02.jpg"
+        }
+      },
+      {
+        "id": "nvpKCWFF",
+        "type": "item",
+        "label": "Pasqual Mario Marafioti",
+        "description": "American physician and vocal coach (1878–1951)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Azbp8ftW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Azbp8ftW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Azbp8ftW.csv"
+      }
+    ]
+  }
 }

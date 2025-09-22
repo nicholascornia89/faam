@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4sgDBRdV a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "historical sovereign state (1801–1922)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q174193>,
+        "15998192"^^xsd:string,
+        "4sgDBRdV"^^xsd:string ;
+    skos:altLabel "Great Britain and Ireland"^^xsd:string,
+        "UK"^^xsd:string,
+        "UKGBI"^^xsd:string,
+        "United Kingdom"^^xsd:string,
+        "United Kingdom of Great Britain and Ireland"^^xsd:string ;
+    skos:prefLabel "United Kingdom of Great Britain and Ireland"^^xsd:string .
+

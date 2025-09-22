@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q3264560",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Loïsa Puget"
       }
     ]
   },
@@ -155,13 +156,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HNYTqigG",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      },
+      {
+        "id": "HNYTqigG",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "KUiMAQ5a",
+        "type": "item",
+        "label": "Le Mauvais-œil",
+        "description": "opéra-comique by Loïsa Puget"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Loïsa_Puget_by_Marie-Alexandre_Alophe.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JvF3PApd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JvF3PApd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JvF3PApd.csv"
       }
     ]
   }

@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5eke3MxL a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1855-09-29"^^xsd:string ;
+    schema1:birthPlace faamentity:3p8WnbHG ;
+    schema1:deathDate "1929-11-19"^^xsd:string ;
+    schema1:deathPlace faamentity:8Xy54PC2 ;
+    schema1:description "Italian-born musical composer and pianist; active in Ireland (1855-1929)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6836741>,
+        "16005145"^^xsd:string,
+        "5eke3MxL"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "Michele Esposito"^^xsd:string ;
+    skos:prefLabel "Michele Esposito"^^xsd:string ;
+    wd:P108 faamentity:GKqezBQ7 ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:57036682 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/41018514> ;
+    wd:P839 <https://imslp.org/wiki/Category:Esposito,_Michele> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:Wm5MWZbA .
+

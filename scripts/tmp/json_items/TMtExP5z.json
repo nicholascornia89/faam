@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q973780",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "La dame blanche"
       }
     ]
   },
@@ -90,6 +91,51 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "eqj5tSNw",
+        "type": "item",
+        "label": "Neuvième Soirée : Composée d'un Choix d'Airs de la Dame Blanche : Arrangés pour Violoncelle et Piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000350340.gif"
+        }
+      },
+      {
+        "id": "hJVDTn96",
+        "type": "item",
+        "label": "Fantaisie Pour Piano et Cor : Sur l'Air Ecossair ; Intercalé dans la dame blanche ; Dédiée à Mademoiselle Cæli Lainé",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000749978.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TMtExP5z.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TMtExP5z.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TMtExP5z.csv"
+      }
+    ]
+  }
 }

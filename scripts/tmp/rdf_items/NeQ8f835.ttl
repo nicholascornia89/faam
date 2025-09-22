@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NeQ8f835 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who studies Hymenoptera (bees, wasps and ants)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q109093961>,
+        "15990953"^^xsd:string,
+        "NeQ8f835"^^xsd:string ;
+    skos:altLabel "hymenopterist"^^xsd:string,
+        "hymenopterologist"^^xsd:string ;
+    skos:prefLabel "hymenopterist"^^xsd:string,
+        "tour promoter"^^xsd:string .
+

@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DLo6cTvx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:3zoajAt8,
+        faamentity:5fpte3tE,
+        faamentity:8Ki8U5U4,
+        faamentity:B6QDYYs9,
+        faamentity:F4ZEniBQ,
+        faamentity:JnGFsz6r,
+        faamentity:RePdmToB,
+        faamentity:VMA2AmEN,
+        faamentity:Wpq9sxzm,
+        faamentity:YWfofDz3,
+        faamentity:bZxRjBKt,
+        faamentity:gSHSbZQr,
+        faamentity:kmMxdth8 ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:mgrwHwTj ;
+    dcterms:provenance faamentity:3xcm7SKP ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3GuXLQzZ,
+        faamentity:BFrbSzjH,
+        faamentity:DMmrDj7M ;
+    schema1:hasPart faamentity:ne3pa52m ;
+    schema1:identifier "16002389"^^xsd:string,
+        "DLo6cTvx"^^xsd:string,
+        "WML-768215"^^xsd:string ;
+    schema1:url "https://collections.lib.utah.edu/ark:/87278/s65t6gzz"^^schema1:url ;
+    skos:prefLabel "Symphony No. 2, Movement IV"^^xsd:string ;
+    wd:P217 "uu_mckay_asc"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"DLo6cTvx-0166769f-e1d1-482c-a262-7494ba3d460c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"DLo6cTvx-28eadf5c-50c1-477c-8502-c2f1f7aa179f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"DLo6cTvx-ac0a671e-0f30-4f6e-9532-3c4a72b29ab2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+faamentity:3GuXLQzZ a rdf:object .
+
+faamentity:BFrbSzjH a rdf:object .
+
+faamentity:DMmrDj7M a rdf:object .
+

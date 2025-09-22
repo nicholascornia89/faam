@@ -1,0 +1,28 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3txmpKRq a rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Sdw2foGQ ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:identifier "16004112"^^xsd:string,
+        "3txmpKRq"^^xsd:string,
+        "BNF-43009177x"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb43009177x"^^schema1:url ;
+    skos:prefLabel "Traité de la fugue. 1ere partie : De la fugue d' école"^^xsd:string ;
+    wd:P217 "VM8-1499"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+

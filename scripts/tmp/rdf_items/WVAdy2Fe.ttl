@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WVAdy2Fe a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "director of music, for an orchestra, film, radio station, etc."^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1198887>,
+        "15990880"^^xsd:string,
+        "WVAdy2Fe"^^xsd:string ;
+    skos:altLabel "MD"^^xsd:string,
+        "band leader"^^xsd:string,
+        "bandleader"^^xsd:string,
+        "director of music"^^xsd:string,
+        "music director"^^xsd:string,
+        "musical director"^^xsd:string,
+        "orchestra director"^^xsd:string ;
+    skos:prefLabel "music director"^^xsd:string .
+

@@ -1,0 +1,55 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b76YWHCN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:26sE4HQd,
+        faamentity:a5UKHagS,
+        faamentity:cfUrJYvb ;
+    schema1:birthDate "1833-10-13"^^xsd:string,
+        "1833-10-31"^^xsd:string,
+        "1833-11-12"^^xsd:string ;
+    schema1:birthPlace faamentity:AzqRtNds ;
+    schema1:deathDate "1887-02-00"^^xsd:string,
+        "1887-02-15"^^xsd:string,
+        "1887-02-28"^^xsd:string ;
+    schema1:deathPlace faamentity:AzqRtNds ;
+    schema1:description "Russian composer, doctor and chemist (1833–1887)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q164004>,
+        "16005343"^^xsd:string,
+        "b76YWHCN"^^xsd:string ;
+    schema1:nationality faamentity:WKTLcAet ;
+    skos:altLabel "Aleksandr Porfir'evich Borodin"^^xsd:string,
+        "Aleksandr Porfir'evič Borodin"^^xsd:string,
+        "Aleksandr Porfir'yevich Borodin"^^xsd:string,
+        "Alexander Borodin"^^xsd:string,
+        "Alexander Porfiryevich Borodin"^^xsd:string,
+        "Alexandre Borodine"^^xsd:string,
+        "Alexandre Porfirievitch Borodine"^^xsd:string ;
+    skos:prefLabel "Alexander Borodin"^^xsd:string ;
+    wd:P108 faamentity:QeCrVBFq ;
+    wd:P1303 faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh,
+        faamentity:MV3uErvy ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:32192773 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30015583> ;
+    wd:P737 faamentity:Nvtm4QjH ;
+    wd:P839 <https://imslp.org/wiki/Category:Borodin,_Aleksandr> ;
+    schema:hasOccupation faamentity:26wSDGrp,
+        faamentity:9joWzZuU,
+        faamentity:Azbp8ftW,
+        faamentity:KZLqHwSf,
+        faamentity:PUmeYeCQ,
+        faamentity:RHfvaKqY,
+        faamentity:RU9hU5Pa,
+        faamentity:UE44RtyA,
+        faamentity:dg4VBYfA .
+

@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M2b4HvjF a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:gdxyWzFb ;
+    schema1:birthDate "1883-02-01"^^xsd:string ;
+    schema1:birthPlace faamentity:83hGafXb ;
+    schema1:deathDate "1955-11-26"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian musicologist (1883–1955)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3740416>,
+        "15995781"^^xsd:string,
+        "M2b4HvjF"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:RNVCZ5PK ;
+    skos:altLabel "Fausto Torrefranca"^^xsd:string ;
+    skos:prefLabel "Fausto Torrefranca"^^xsd:string ;
+    wd:P108 faamentity:ErPAHjQh,
+        faamentity:UA5fzGWk ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:68989630 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30027316> ;
+    schema:hasOccupation faamentity:Mk6HJN99,
+        faamentity:YYyZX3aY .
+

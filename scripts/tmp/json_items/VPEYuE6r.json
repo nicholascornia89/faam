@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q18424",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Queens"
       }
     ],
     "aliases": [
@@ -70,8 +71,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "5133273"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "k34ByUn8",
+        "type": "item",
+        "label": "Queens College",
+        "description": "college in New York City"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "VPEYuE6r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "VPEYuE6r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "VPEYuE6r.csv"
+      }
+    ]
+  }
 }

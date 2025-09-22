@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hWH85qMK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:B7WuhvkL,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    faamprop:sections """<ol>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+<li> Psalm </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:2tRZBihu,
+        faamentity:FSduWvy5,
+        faamentity:KYiqCjW2 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:J2uWThkr,
+        faamentity:PqPMpBAn ;
+    schema1:hasPart faamentity:4S8whbxi ;
+    schema1:identifier "16004020"^^xsd:string,
+        "KCA-KM59827"^^xsd:string,
+        "hWH85qMK"^^xsd:string ;
+    schema1:location faamentity:Jr6p4UHj ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Souterliedekens uit de XVIe eeuw"^^xsd:string ;
+    wd:P217 "UL-KM"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"hWH85qMK-0c8a56af-a51d-401e-9616-f98f4718aeb2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:Jr6p4UHj .
+
+"hWH85qMK-b10e1c4a-e187-420c-b242-e8848f4752fb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"hWH85qMK-beb9d2c0-9856-4da4-bcd6-c55a84f47397"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:J2uWThkr a rdf:object .
+
+faamentity:PqPMpBAn a rdf:object .
+

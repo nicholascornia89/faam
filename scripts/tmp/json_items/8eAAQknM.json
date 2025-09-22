@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q31687",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "baritone"
       }
     ],
     "aliases": [
@@ -55,6 +56,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "AFcUMs8i",
+        "type": "item",
+        "label": "In nomine Jesu: baryton",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902519450.gif"
+        }
+      },
+      {
+        "id": "chss49MQ",
+        "type": "item",
+        "label": "In nomine Jesu: baryton",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902606158.gif"
+        }
+      },
+      {
+        "id": "2sko6Mdj",
+        "type": "item",
+        "label": "Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991144119456307356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8eAAQknM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8eAAQknM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8eAAQknM.csv"
+      }
+    ]
+  }
 }

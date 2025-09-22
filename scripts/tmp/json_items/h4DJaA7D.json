@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q362139",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Adolf von Henselt"
       }
     ]
   },
@@ -176,7 +177,42 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FXJbYopo",
+        "type": "item",
+        "label": "Douze études caractéristiques de concert. Op. 2",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p16.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "NxAYomz7",
+        "type": "item",
+        "label": "Heinrich Ehrlich",
+        "description": "pianist and composer (1822-1899)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4_%D0%93%D0%B5%D0%BD%D1%80%D0%B8%D1%85_%D0%AD%D1%80%D0%BB%D0%B8%D1%85.jpg"
+        }
+      },
+      {
+        "id": "YojCFfbu",
+        "type": "item",
+        "label": "Nikolai Zverev",
+        "description": "Russian classical pianist (1833–1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai-Zverev.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -198,6 +234,27 @@
         "type": "image",
         "value": "Adolph_Henselt_by_Quarenghi_(before_1889)_-_Archivio_Storico_Ricordi_ICON010708.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "h4DJaA7D.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "h4DJaA7D.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "h4DJaA7D.csv"
       }
     ]
   }

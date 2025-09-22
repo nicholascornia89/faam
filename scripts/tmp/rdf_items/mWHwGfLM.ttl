@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mWHwGfLM a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Austrian opera company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q113044719>,
+        "16004750"^^xsd:string,
+        "mWHwGfLM"^^xsd:string ;
+    schema1:location faamentity:kyFWDzyM ;
+    skos:altLabel "Vienna State Opera company"^^xsd:string ;
+    skos:prefLabel "Vienna State Opera company"^^xsd:string .
+

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kzt5LpXs a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "brass instrument in the saxhorn family usually pitched in E♭"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q157420>,
+        "15990831"^^xsd:string,
+        "kzt5LpXs"^^xsd:string ;
+    skos:altLabel "Althorn"^^xsd:string,
+        "E-flat horn"^^xsd:string,
+        "E♭ horn"^^xsd:string,
+        "alto horn"^^xsd:string,
+        "cavalry horn"^^xsd:string,
+        "mellophone"^^xsd:string ;
+    skos:prefLabel "alto horn"^^xsd:string .
+

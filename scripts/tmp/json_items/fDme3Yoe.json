@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q20669622",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "music journalist"
       }
     ],
     "aliases": [
@@ -55,6 +56,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "T4vPoxnM",
+        "type": "item",
+        "label": "Jules Van Nuffel",
+        "description": "Belgian musicologist, composer, and expert on religious music (1883–1953)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Van_Nuffel.jpg"
+        }
+      },
+      {
+        "id": "RPFX4byT",
+        "type": "item",
+        "label": "Pietro Alfieri",
+        "description": "Italian composer, musicologist and Roman Catholic priest (1801–1863)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fDme3Yoe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fDme3Yoe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fDme3Yoe.csv"
+      }
+    ]
+  }
 }

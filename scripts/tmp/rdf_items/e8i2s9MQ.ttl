@@ -1,0 +1,64 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:e8i2s9MQ a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1876"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:F9XSfSvU ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:MEjPi9ot,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9MCtsKYb,
+        faamentity:Ddx923Ut,
+        faamentity:TPZULZmQ,
+        faamentity:XVpibGGu ;
+    schema1:identifier "15992770"^^xsd:string,
+        "BSB-991082708099707356"^^xsd:string,
+        "e8i2s9MQ"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11346495"^^schema1:url ;
+    skos:prefLabel "Pierluigi da Palestrina's Werke. 6: Fünf-, sechs- und achtstimmige Motetten aus dem Nachlaß"^^xsd:string ;
+    wd:P217 "S nv/Ol 2-4/6"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"e8i2s9MQ-26ba96f7-4f5f-48ca-a14a-40dd3bfc2f2e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1876"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"e8i2s9MQ-46c7e625-ec0f-472c-a136-b7346271a889"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"e8i2s9MQ-87b232ba-cc28-48b8-8b7c-08985faf17f8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"e8i2s9MQ-b59d303f-8b30-4272-a865-652233f898f9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:9MCtsKYb a rdf:object .
+
+faamentity:Ddx923Ut a rdf:object .
+
+faamentity:TPZULZmQ a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

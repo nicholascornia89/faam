@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nKfSkLTj a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:kZj58UuH ;
+    schema1:description "piano concerto by Johann Nepomuk Hummel"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q166293>,
+        "16005732"^^xsd:string,
+        "nKfSkLTj"^^xsd:string ;
+    skos:altLabel "Piano Concerto No. 2"^^xsd:string,
+        "Piano Concerto in A minor"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No. 2"^^xsd:string,
+        "Piano Concerto No.2, Op.85"^^xsd:string ;
+    wd:P214 viaf:183505311 ;
+    wd:P7937 faamentity:e6nLCMMw ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.2,_Op.85_(Hummel,_Johann_Nepomuk)> .
+

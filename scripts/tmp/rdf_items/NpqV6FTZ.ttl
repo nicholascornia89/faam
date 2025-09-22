@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NpqV6FTZ a rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1795-09-16"^^xsd:string ;
+    schema1:birthPlace faamentity:Rh3ZXCoe ;
+    schema1:deathDate "1870-12-17"^^xsd:string ;
+    schema1:deathPlace faamentity:RjXv6xhJ ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q313980>,
+        "15995943"^^xsd:string,
+        "NpqV6FTZ"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "Giuseppe Saverio Raffaele Mercadante"^^xsd:string,
+        "Saverio Mercadante"^^xsd:string ;
+    skos:prefLabel "Saverio Mercadante"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42026042 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/89350> ;
+    wd:P737 faamentity:3z9tA9GJ,
+        faamentity:KjwD2eqQ,
+        faamentity:ib4pWeEv ;
+    wd:P839 <https://imslp.org/wiki/Category:Mercadante,_Saverio> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

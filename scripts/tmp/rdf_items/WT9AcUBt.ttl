@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WT9AcUBt a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:72sFir89 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical concept indicating to the speed of interpretation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q189214>,
+        "15992105"^^xsd:string,
+        "WT9AcUBt"^^xsd:string ;
+    skos:altLabel "BPM"^^xsd:string,
+        "tempo"^^xsd:string ;
+    skos:prefLabel "tempo"^^xsd:string ;
+    wd:P1535 faamentity:2ZAuwsSp,
+        faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    wd:P279 faamentity:Q9A8q7oy,
+        faamentity:e7pqY4qx ;
+    wd:P31 faamentity:4ZGyVPga,
+        faamentity:BH3QSV35 .
+

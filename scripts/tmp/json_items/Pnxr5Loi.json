@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q36687",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Victoria"
       }
     ],
     "aliases": [
@@ -78,8 +79,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "2145234"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "bLsMHzkH",
+        "label": "Australia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "kvpagtNd",
+        "type": "item",
+        "label": "Presbyterian Ladies' College",
+        "description": "school for girls in Burwood, Victoria"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Pnxr5Loi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Pnxr5Loi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Pnxr5Loi.csv"
+      }
+    ]
+  }
 }

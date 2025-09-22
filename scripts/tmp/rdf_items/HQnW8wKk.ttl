@@ -1,0 +1,46 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HQnW8wKk a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Vm5DPnGE ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BeBaHHyP,
+        faamentity:hVCbmjig ;
+    schema1:identifier "16005721"^^xsd:string,
+        "BNF-14784000j"^^xsd:string,
+        "HQnW8wKk"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb14784000j"^^schema1:url ;
+    skos:prefLabel "Recueil d'Exercices pour la vocalisation musicale avec un discours préliminaire par Jérôme Crescentini"^^xsd:string ;
+    wd:P217 "VM8 A-79"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"HQnW8wKk-8415b757-628f-4d9c-a6c1-26ef05207f87"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HQnW8wKk-9346cb24-f1d4-415f-a31e-991d6df39f22"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:BeBaHHyP a rdf:object .
+
+faamentity:hVCbmjig a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q81997",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Boulogne-sur-Mer"
       }
     ],
     "aliases": [
@@ -62,8 +63,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "6439391"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "bFGaW2pP",
+        "type": "item",
+        "label": "Alexandre Guilmant",
+        "description": "French composer (1837–1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre-Guilmant.jpg"
+        }
+      },
+      {
+        "id": "TYkHUzeq",
+        "type": "item",
+        "label": "Leopoldine Blahetka",
+        "description": "composer (1809-1885)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopoldine_Blahetka.jpg"
+        }
+      },
+      {
+        "id": "kjkGW8Td",
+        "type": "item",
+        "label": "Gustavo Carulli",
+        "description": "Italian-French musician 1801-76",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "MRES6NME",
+        "type": "item",
+        "label": "Adam Liszt",
+        "description": "father of Franz Liszt",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adam_Liszt.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7Seu8RXR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7Seu8RXR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7Seu8RXR.csv"
+      }
+    ]
+  }
 }

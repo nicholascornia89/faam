@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q37484",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "epic poem"
       }
     ],
     "aliases": [
@@ -59,6 +60,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "AtQ9Cz8i",
+        "type": "item",
+        "label": "Le retour d'Ulysse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901294238.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "mGPhdvAQ",
+        "type": "item",
+        "label": "Jerusalem Delivered",
+        "description": "epic poem by the Italian poet Torquato Tasso first published in 1581; tells a mythified account of the First Crusade in which Christian knights led by Godfrey of Bouillon battle to take Jerusalem"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LJv4Gu5s.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LJv4Gu5s.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LJv4Gu5s.csv"
+      }
+    ]
+  }
 }

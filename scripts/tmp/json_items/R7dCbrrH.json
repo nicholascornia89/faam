@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q286316",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Emile Pessard"
       }
     ]
   },
@@ -204,13 +205,103 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "fTVDUXqW",
+        "type": "item",
+        "label": "Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735722.gif"
+        }
+      },
+      {
+        "id": "U6hv3YxL",
+        "type": "item",
+        "label": "La Pleureuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p8.gif"
+        }
+      },
+      {
+        "id": "U6hv3YxL",
+        "type": "item",
+        "label": "La Pleureuse",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p8.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "CjaU562n",
+        "type": "item",
+        "label": "Maurice Ravel",
+        "description": "French composer (1875-1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Maurice_Ravel_1925.jpg"
+        }
+      },
+      {
+        "id": "TqfEoo49",
+        "type": "item",
+        "label": "Jacques Ibert",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ibert_Jacques_Photo1938.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "EBCdXbZt",
+        "type": "item",
+        "label": "Le Capitaine Fracasse",
+        "description": "comic opera"
+      },
+      {
+        "id": "EBCdXbZt",
+        "type": "item",
+        "label": "Le Capitaine Fracasse",
+        "description": "comic opera"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Émile_Pessard_by_Nadar.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "R7dCbrrH.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "R7dCbrrH.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "R7dCbrrH.csv"
       }
     ]
   }

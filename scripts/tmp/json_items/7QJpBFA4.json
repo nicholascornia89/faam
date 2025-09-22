@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2814",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Halle (Saale)"
       }
     ],
     "aliases": [
@@ -74,8 +75,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "2911516"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "APHLApec",
+        "type": "item",
+        "label": "Adolf Bernhard Marx",
+        "description": "German composer and musicologist (1795–1866)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Bernhard_Marx.jpg"
+        }
+      },
+      {
+        "id": "CFu7TPQo",
+        "type": "item",
+        "label": "George Frideric Handel",
+        "description": "German-British Baroque composer (1685–1759)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "George_Frideric_Handel_by_Balthasar_Denner.jpg"
+        }
+      },
+      {
+        "id": "D3Vekn6E",
+        "type": "item",
+        "label": "Robert Franz",
+        "description": "German composer (1815-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert_Franz.jpg"
+        }
+      },
+      {
+        "id": "nGjiqqhZ",
+        "type": "item",
+        "label": "Friedrich Whistling",
+        "description": "German music publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "D3Vekn6E",
+        "type": "item",
+        "label": "Robert Franz",
+        "description": "German composer (1815-1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert_Franz.jpg"
+        }
+      },
+      {
+        "id": "h2AqgTCH",
+        "type": "item",
+        "label": "Friedrich Wilhelm Zachow",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7QJpBFA4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7QJpBFA4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7QJpBFA4.csv"
+      }
+    ]
+  }
 }

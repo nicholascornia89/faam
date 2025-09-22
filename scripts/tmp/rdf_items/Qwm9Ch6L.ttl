@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Qwm9Ch6L a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1845-04-09"^^xsd:string ;
+    schema1:birthPlace faamentity:iQLjhyLN ;
+    schema1:deathDate "1896-12-03"^^xsd:string ;
+    schema1:deathPlace faamentity:5JFTJ62P ;
+    schema1:description "Hungarian pianist and conductor (1845-1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q289763>,
+        "0"^^xsd:string,
+        "Qwm9Ch6L"^^xsd:string ;
+    schema1:nationality faamentity:nXdVQz6m ;
+    skos:prefLabel "László Erkel"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:304801151 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/50042387> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:RHfvaKqY .
+

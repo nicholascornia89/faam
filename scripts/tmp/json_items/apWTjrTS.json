@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3004",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ingolstadt"
       }
     ],
     "aliases": [
@@ -66,8 +67,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "6556096"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "Gwm9ve42",
+        "type": "item",
+        "label": "Ludwig-Maximilians-Universität München",
+        "description": "public university in Munich, Germany"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "apWTjrTS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "apWTjrTS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "apWTjrTS.csv"
+      }
+    ]
+  }
 }

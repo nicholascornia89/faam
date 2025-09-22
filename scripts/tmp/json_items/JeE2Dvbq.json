@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q1871385",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis-Barthélémy Pradher"
       }
     ]
   },
@@ -188,13 +189,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "CyHtJEjR",
+        "type": "item",
+        "label": "Henri Herz",
+        "description": "Austrian musician (1803–1888)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Herz,_Henri,_par_Mayer_et_Pierson,_BNF_Gallica.jpg"
+        }
+      },
+      {
+        "id": "oNn8afy6",
+        "type": "item",
+        "label": "Félix Cazot",
+        "description": "French composer and pianist (1790–1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Louis-Barthélémy_Pradher_par_Godefroy_Engelmann.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JeE2Dvbq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JeE2Dvbq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JeE2Dvbq.csv"
       }
     ]
   }

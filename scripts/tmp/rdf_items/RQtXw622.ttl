@@ -1,0 +1,64 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RQtXw622 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1836"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:3zoajAt8,
+        faamentity:8Ki8U5U4,
+        faamentity:CFKULSen,
+        faamentity:DS9HvPwY,
+        faamentity:EgH6igGS,
+        faamentity:SnxsnGvi,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE,
+        faamentity:j3pK6Dqo ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:FbNe7Pgk,
+        faamentity:QvFqeM43 ;
+    schema1:hasPart faamentity:KBJYMAjV ;
+    schema1:identifier "15992621"^^xsd:string,
+        "KCG-000339227"^^xsd:string,
+        "RQtXw622"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000339227"^^schema1:url ;
+    skos:prefLabel "Ouverture d'Anacréon ou l'Amour Fugitif : A Grand Orchestre"^^xsd:string ;
+    wd:P217 "II 1645"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:MV3uErvy,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"RQtXw622-02555f00-568f-4b3c-aa56-d8612143ff5a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"RQtXw622-72627ff2-70d5-4822-9566-5ada04c469d5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1836"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:FbNe7Pgk a rdf:object .
+
+faamentity:QvFqeM43 a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q83404",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Timișoara"
       }
     ],
     "aliases": [
@@ -74,8 +75,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "8334795"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MD9XMRAJ",
+        "label": "Kingdom of Romania"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2tCaXBFU",
+        "type": "item",
+        "label": "Ioan Ivanovici",
+        "description": "Romanian military band leader and composer (1845–1902)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Iosif_Ivanovici.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "99JEoLfE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "99JEoLfE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "99JEoLfE.csv"
+      }
+    ]
+  }
 }

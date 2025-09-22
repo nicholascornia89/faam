@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q17151",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Thessaloniki"
       }
     ],
     "aliases": [
@@ -66,8 +67,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "734077"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q41",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Greece"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "BFrbSzjH",
+        "type": "item",
+        "label": "Maurice Abravanel",
+        "description": "Ottoman-American Jewish conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UzNH8PKD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UzNH8PKD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UzNH8PKD.csv"
+      }
+    ]
+  }
 }

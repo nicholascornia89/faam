@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MymXfGEj a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:4FpHAKUW ;
+    schema1:identifier "16005069"^^xsd:string,
+        "MymXfGEj"^^xsd:string ;
+    skos:prefLabel "Aus der Tiefe, SWV 25"^^xsd:string ;
+    wd:P5202 faamentity:mvgRcySN ;
+    wd:P7937 faamentity:KYiqCjW2,
+        faamentity:Z5LXHFLR,
+        faamentity:k73Fvmyj ;
+    wd:P839 <https://imslp.org/wiki/Aus_der_Tiefe,_SWV_25_(Schütz,_Heinrich)> .
+

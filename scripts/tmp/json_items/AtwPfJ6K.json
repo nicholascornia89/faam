@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1028877",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Aimé Leborne"
       }
     ]
   },
@@ -137,13 +138,57 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iwzfXpdR",
+        "type": "item",
+        "label": "Victorin de Joncières",
+        "description": "French composer (1839–1903)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joncières,_Victorin_de,_Nadar,_Gallica.jpg"
+        }
+      },
+      {
+        "id": "8HWMooQ9",
+        "type": "item",
+        "label": "Jules Duprato",
+        "description": "French composer (1827–1892)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Duprato.png"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AtwPfJ6K.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AtwPfJ6K.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AtwPfJ6K.csv"
       }
     ]
   }

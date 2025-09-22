@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q2652109",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lodewijk de Vocht"
       }
     ]
   },
@@ -151,13 +152,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "icTinULn",
+        "type": "item",
+        "label": "Symphonie : voor koren en orkest",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901243292.gif"
+        }
+      },
+      {
+        "id": "Gf3NB9FB",
+        "type": "item",
+        "label": "Memorare. 3 vocum aequalium, organo ad libitum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502036.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Opname_Dit_is_uw_leven_,_Jo_Vincent_en_de_Belgische_dirigent_L._de_Vocht,_Bestanddeelnr_911-0376.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Guxn48TU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Guxn48TU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Guxn48TU.csv"
       }
     ]
   }

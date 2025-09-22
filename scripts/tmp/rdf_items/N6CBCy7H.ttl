@@ -1,0 +1,72 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N6CBCy7H a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1837"^^xsd:string,
+        "1858"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:3zoajAt8,
+        faamentity:B7WuhvkL,
+        faamentity:MCVLnYka,
+        faamentity:Rfoj9dh4,
+        faamentity:SnxsnGvi,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:ZGMagNYo,
+        faamentity:aCRY7SgN,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:65rhe5Po ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:SGrSvda8 ;
+    schema1:hasPart faamentity:A86CDyv8 ;
+    schema1:identifier "15992642"^^xsd:string,
+        "KCG-000356805"^^xsd:string,
+        "N6CBCy7H"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000356805"^^schema1:url ;
+    skos:prefLabel "Concerto (en RE mineur) : pour Piano avec Accompagnement d'Orchestre ou de Quatuor : Op: 40"^^xsd:string ;
+    wd:P217 "II535 (1); II 22895"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"N6CBCy7H-08a63aea-29cf-4ddf-8862-ee29318d4595"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1858"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"N6CBCy7H-2748e44d-7110-4fa8-9633-296fa07247b6"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1837"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"N6CBCy7H-50cdd257-1c90-4f8e-9847-6b5b115658d1"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1858"^^xsd:string ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:SGrSvda8 a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q4093",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Glasgow"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2648579"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "mQkcNNXM",
+        "type": "item",
+        "label": "Eugen d'Albert",
+        "description": "Scottish-born German pianist and composer (1864-1932)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugen_Francis_Charles_D'Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg"
+        }
+      },
+      {
+        "id": "M3sjJXNR",
+        "type": "item",
+        "label": "Eugen d'Albert",
+        "description": "Scottish-born German pianist and composer (1864-1932)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugen_Francis_Charles_D'Albert_(before_1932)_-_Archivio_storico_Ricordi_FOTO001157.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "m6E7ZF9p.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "m6E7ZF9p.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "m6E7ZF9p.csv"
+      }
+    ]
+  }
 }

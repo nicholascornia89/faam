@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LCTtyKJo a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:3NyookEG,
+        faamentity:Ddx923Ut ;
+    schema1:description "collection of ricercari attributed to Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310868>,
+        "16002014"^^xsd:string,
+        "LCTtyKJo"^^xsd:string ;
+    skos:altLabel "Ricercari sopra li tuoni"^^xsd:string ;
+    skos:prefLabel "Ricercari sopra li tuoni"^^xsd:string ;
+    wd:P214 viaf:181652715 ;
+    wd:P5202 faamentity:nrWaKLQc ;
+    wd:P7937 faamentity:YPcRXr4q ;
+    wd:P839 <https://imslp.org/wiki/Ricercari_sopra_li_tuoni_(Palestrina,_Giovanni_Pierluigi_da)> .
+

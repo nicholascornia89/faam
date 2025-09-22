@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gqYaHxGD a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "daily newspaper in Paris from 1884 to 1944"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3205139>,
+        "0"^^xsd:string,
+        "gqYaHxGD"^^xsd:string ;
+    skos:prefLabel "L'Écho de Paris"^^xsd:string .
+

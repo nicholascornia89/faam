@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q188456",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bookplate"
       }
     ],
     "aliases": [
@@ -98,6 +99,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "aw3Ufoxw",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290521.gif"
+        }
+      },
+      {
+        "id": "SjjfyqFL",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      },
+      {
+        "id": "3xFb55hu",
+        "type": "item",
+        "label": "Thorough-Bass Made Easy",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20145655.gif"
+        }
+      },
+      {
+        "id": "MzenbCZB",
+        "type": "item",
+        "label": "Exercises for the Voice. Consisting of Various Solfeggi, Collected from Manuscripts of the Late Veneziano Rauzzini, to which Are Added Specimens of Several Favorite Modern Songs",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284a.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MHbLSqqz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MHbLSqqz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MHbLSqqz.csv"
+      }
+    ]
+  }
 }

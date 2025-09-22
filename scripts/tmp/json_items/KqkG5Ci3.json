@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q1305461",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ein feste Burg ist unser Gott, BWV 80"
       }
     ]
   },
@@ -101,6 +102,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "aM9psDKt",
+        "type": "item",
+        "label": "Festpraëludium, Op. 38",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KqkG5Ci3.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KqkG5Ci3.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KqkG5Ci3.csv"
+      }
+    ]
+  }
 }

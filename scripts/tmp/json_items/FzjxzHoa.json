@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q455199",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giuseppe Sarti"
       }
     ]
   },
@@ -167,13 +168,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FbNe7Pgk",
+        "type": "item",
+        "label": "Luigi Cherubini",
+        "description": "Italian Classical and Romantic composer (1760–1842)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Auguste-Dominique_Ingres_-_Luigi_Cherubini_-_Google_Art_Project.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giuseppe_Sarti_(1729-1802).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FzjxzHoa.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FzjxzHoa.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FzjxzHoa.csv"
       }
     ]
   }

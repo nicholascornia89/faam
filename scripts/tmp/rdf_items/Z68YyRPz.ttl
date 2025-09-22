@@ -1,0 +1,83 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z68YyRPz a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1909"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:AeKhRWCB,
+        faamentity:RePdmToB,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:Z5LXHFLR,
+        faamentity:eCYL2PkE,
+        faamentity:fBYBjEvT,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4WGmC6Zt,
+        faamentity:ABZnoc4f,
+        faamentity:CbtAbQDg,
+        faamentity:mVxsH3Ph ;
+    schema1:identifier "16005703"^^xsd:string,
+        "DPF-202502052"^^xsd:string,
+        "Z68YyRPz"^^xsd:string ;
+    schema1:location faamentity:PKMmukjk ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Immaculata conceptio est. Motet en 'honneur de la T.S. Vierge. à 3 voix égales et orgue."^^xsd:string ;
+    skosref:note "Supplément à la Musica Sacra 1909-1910 No. 7."^^rdf:HTML ;
+    wd:P217 "ms-1909-07"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"Z68YyRPz-113d8a25-9f95-47d9-ae31-4a60eae4f032"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Z68YyRPz-262d98ee-72ec-4efd-ba3b-a3f953d87613"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Z68YyRPz-4188d978-e1b8-4e27-8e62-6d6e176f7563"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Z68YyRPz-78792ef4-258e-485d-a421-85a7ba00922a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"Z68YyRPz-867897bd-b8fc-43f2-afdb-dea7e09c84fb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+"Z68YyRPz-cf11f492-cea6-4059-955d-204da9542170"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1909"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:PKMmukjk .
+
+faamentity:4WGmC6Zt a rdf:object .
+
+faamentity:ABZnoc4f a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:mVxsH3Ph a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q71724",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lorient"
       }
     ],
     "aliases": [
@@ -64,8 +65,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2997577"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Xdjw4aUY",
+        "type": "item",
+        "label": "Eugène Anthiome",
+        "description": "French composer (1836-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugène_Anthiome_1900.jpg"
+        }
+      },
+      {
+        "id": "LLihRayy",
+        "type": "item",
+        "label": "Charles Delioux",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Delioux.jpg"
+        }
+      },
+      {
+        "id": "hCRg4nwk",
+        "type": "item",
+        "label": "Xavier de Courville",
+        "description": "French writer and historian (1894-1984)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kKTMbrRV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kKTMbrRV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kKTMbrRV.csv"
+      }
+    ]
+  }
 }

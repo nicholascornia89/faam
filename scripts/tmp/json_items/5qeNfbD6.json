@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q100",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Boston"
       }
     ],
     "aliases": [
@@ -160,8 +161,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "US"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "36FvuTcU",
+        "type": "item",
+        "label": "Archibald Thompson Davison",
+        "description": "American conductor (1883-1961)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Archibald_Thompson_Davison.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "CGrex4LD",
+        "type": "item",
+        "label": "Massachusetts College of Art and Design",
+        "description": "academic institution in Boston, Massachusetts, United States"
+      },
+      {
+        "id": "kZuDWtDy",
+        "type": "item",
+        "label": "New England Conservatory",
+        "description": "oldest independent school of music in the United States"
+      },
+      {
+        "id": "G5FSnBWi",
+        "type": "item",
+        "label": "Boston Symphony Orchestra",
+        "description": "American symphony orchestra in Boston, MA"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5qeNfbD6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5qeNfbD6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5qeNfbD6.csv"
+      }
+    ]
+  }
 }

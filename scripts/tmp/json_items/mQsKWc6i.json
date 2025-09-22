@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q3114",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Canberra"
       }
     ],
     "aliases": [
@@ -72,8 +73,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "AU"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "bLsMHzkH",
+        "label": "Australia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "ZUCAiQGe",
+        "type": "item",
+        "label": "National Library of Australia",
+        "description": "national reference library in Canberra, Australia"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mQsKWc6i.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mQsKWc6i.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mQsKWc6i.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EysxGesA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:Pcc4PpDc,
+        faamentity:eHYWo9ba ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:BZa5CHMu,
+        faamentity:HwcYgL5C,
+        faamentity:M9HRWrxt,
+        faamentity:MaWnCnVw,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:Jhb5rrXW ;
+    schema1:hasPart faamentity:hDU4mEPG ;
+    schema1:identifier "15992495"^^xsd:string,
+        "EysxGesA"^^xsd:string,
+        "KCA-030902587564"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13144363/N"^^schema1:url ;
+    skos:prefLabel "Quentin Durward : opéra comique en 3 actes : trio chanté par MM. Jourdan, Faure et Barrielle"^^xsd:string ;
+    wd:P217 "MM-ZP-GEVAE-quentin-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"EysxGesA-3b68da34-91bf-4b47-ae11-dc16b2539a7d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"EysxGesA-eb242faa-09da-497c-b6f5-ae83f10e823c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:Jhb5rrXW a rdf:object .
+

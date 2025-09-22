@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q552124",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Girolamo Crescentini"
       }
     ]
   },
@@ -192,7 +193,20 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "HQnW8wKk",
+        "type": "item",
+        "label": "Recueil d'Exercices pour la vocalisation musicale avec un discours préliminaire par Jérôme Crescentini",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-14784000j.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -204,6 +218,27 @@
         "type": "image",
         "value": "Anonimo_Girolamo_Crescentini.JPG",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hVCbmjig.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hVCbmjig.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hVCbmjig.csv"
       }
     ]
   }

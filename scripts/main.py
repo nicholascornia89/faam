@@ -199,28 +199,25 @@ def faam_kb():
             print(f"Adding labels to each statement and qualifier...")
             faam_kb = add_label_to_statement(faam_kb)
 
-        # adding country statement in cities
-        print("Adding country statement to cities...")
-        faam_kb = add_country_to_cities(faam_kb)
+            # adding country statement in cities
+            print("Adding country statement to cities...")
+            faam_kb = add_country_to_cities(faam_kb)
 
         dict2json(faam_kb, faam_kb_filename)
-        input()
 
-        # adding cross_referencies
+        """adding cross_referencies WORKS FINE, BUT TIME CONSUMING
         print("Adding cross_references to each item...")
         cross_reference_mapping = json2dict(
             os.path.join("mapping", "cross_reference_mapping.json")
         )
         faam_kb = cross_references(faam_kb, cross_reference_mapping)
+        """
 
-        # generate JSON serialization and append it to FAAM kb
+        dict2json(faam_kb, faam_kb_filename)
+
+        # generate JSON serialization and append it to FAAM kb : ERROR in CSV
         print("Generating JSON, CSV and RDF resources for each item...")
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
-
-        # saving JSON file
-        faam_kb_filename = os.path.join(
-            "tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
-        )
 
         dict2json(faam_kb, faam_kb_filename)
 

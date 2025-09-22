@@ -89,13 +89,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Yq7gbPb5",
+        "type": "item",
+        "label": "Ecole chantante, 25 vocalises mélodiques élémentaires pour la medium de la voix d'après des fragments célèbres de Beethoven, Bellini, Dalayrac, Donizetti, Grétry, Haas, Haydn, Hummel, Méhul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43123936p.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eReHevAi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eReHevAi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eReHevAi.csv"
       }
     ]
   }

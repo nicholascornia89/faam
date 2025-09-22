@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q48173",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bedřich Smetana"
       }
     ]
   },
@@ -224,13 +225,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "NGty95TC",
+        "type": "item",
+        "label": "Die verkaufte Braut : komische Oper in drei Akten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901708260.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "HaTtUkkS",
+        "type": "item",
+        "label": "The Bartered Bride",
+        "description": "comic opera in three acts by the Czech composer Bedřich Smetana"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FriedrichSmetana.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XBN6osjn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XBN6osjn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XBN6osjn.csv"
       }
     ]
   }

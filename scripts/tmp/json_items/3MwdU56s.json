@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q4376908",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Prelude and Fugue in C major, BWV 846"
       }
     ]
   },
@@ -64,6 +65,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "GDa6J37w",
+        "type": "item",
+        "label": "Ave Maria",
+        "description": "composition by Bach and Gounod"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3MwdU56s.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3MwdU56s.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3MwdU56s.csv"
+      }
+    ]
+  }
 }

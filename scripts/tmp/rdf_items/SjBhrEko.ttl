@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SjBhrEko a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:CjaU562n ;
+    schema1:description "composition for orchestra by Maurice Ravel"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q776559>,
+        "16002432"^^xsd:string,
+        "SjBhrEko"^^xsd:string ;
+    skos:altLabel "La valse"^^xsd:string ;
+    skos:prefLabel "La valse"^^xsd:string,
+        "La valse, M.72"^^xsd:string ;
+    wd:P214 viaf:183881641 ;
+    wd:P7937 faamentity:kpEw4ZRE ;
+    wd:P839 <https://imslp.org/wiki/La_valse,_M.72_(Ravel,_Maurice)> .
+

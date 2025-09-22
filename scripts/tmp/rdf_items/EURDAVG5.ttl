@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EURDAVG5 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1819-07-25"^^xsd:string ;
+    schema1:birthPlace faamentity:a4MQJeZH ;
+    schema1:deathDate "1900-05-28"^^xsd:string ;
+    schema1:deathPlace faamentity:a4MQJeZH ;
+    schema1:description "French composer (1819-1900)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1710731>,
+        "16005245"^^xsd:string,
+        "EURDAVG5"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Louis Pierre Deffes"^^xsd:string,
+        "Louis Pierre Deffès"^^xsd:string ;
+    skos:prefLabel "Louis Pierre Deffès"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:44567876 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30004973> ;
+    wd:P839 <https://imslp.org/wiki/Category:Deffès,_Pierre-Louis> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

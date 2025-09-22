@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1071307",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "I Capuleti e i Montecchi"
       }
     ]
   },
@@ -91,6 +92,49 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7drHJ62N",
+        "type": "item",
+        "label": "Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000337038.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "HNntsZQD",
+        "type": "item",
+        "label": "Potpourri, Op.55",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3LqVwWmn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3LqVwWmn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3LqVwWmn.csv"
+      }
+    ]
+  }
 }

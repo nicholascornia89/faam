@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q130483556",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Janssen Symphony of Los Angeles"
       }
     ],
     "aliases": [
@@ -66,6 +67,53 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "MqCvz9pg",
+        "type": "item",
+        "label": "Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904721377.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "TgjQzwNM",
+        "type": "item",
+        "label": "Werner Janssen",
+        "description": "American conductor (1899-1990)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Werner_Janssen_(1937).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DmnYezsz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DmnYezsz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DmnYezsz.csv"
+      }
+    ]
+  }
 }

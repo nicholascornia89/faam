@@ -11,7 +11,7 @@
     "description": [
       {
         "type": "string",
-        "value": ""
+        "value": "capital city of Veneto, Italy"
       }
     ],
     "object_type": [
@@ -32,7 +32,14 @@
         "value": "14392862"
       }
     ],
-    "qid": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q641",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Venice"
+      }
+    ],
     "aliases": []
   },
   "statements": {
@@ -49,8 +56,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "IT"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "holding_institution": [
+      {
+        "id": "UXcrTKij",
+        "type": "item",
+        "label": "Biblioteca del Conservatorio Benedetto Marcello",
+        "description": "special library in Italy"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "k6SS3uwu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "k6SS3uwu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "k6SS3uwu.csv"
+      }
+    ]
+  }
 }

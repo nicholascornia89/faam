@@ -1,0 +1,55 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2hTZYKtq a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "05-11-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ui7C9eZU,
+        faamentity:eShK9Xad ;
+    schema1:identifier "16005538"^^xsd:string,
+        "2hTZYKtq"^^xsd:string,
+        "ORP-20143988p35"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22440"^^schema1:url ;
+    skos:prefLabel "Offertoire. Pour la messe de minuit"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3219
+L'Illustration, N. 3219"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.008"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"2hTZYKtq-19c7a32f-95c6-477e-b0e4-09d83be81717"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"2hTZYKtq-3989edd5-b7d5-4516-9112-7a7e82119501"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"2hTZYKtq-dc521e16-4636-4f5c-94eb-c923512bf4db"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "05-11-1904"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"2hTZYKtq-fd16ca01-4308-45e0-becf-f4477775ac16"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Ui7C9eZU a rdf:object .
+
+faamentity:eShK9Xad a rdf:object .
+

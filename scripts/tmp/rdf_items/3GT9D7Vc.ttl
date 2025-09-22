@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3GT9D7Vc a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KRuujjMV ;
+    schema1:birthDate "1823-01-12"^^xsd:string,
+        "1823-01-27"^^xsd:string ;
+    schema1:birthPlace faamentity:Rtqhs3sc ;
+    schema1:deathDate "1892-04-22"^^xsd:string,
+        "1892-04-23"^^xsd:string ;
+    schema1:deathPlace faamentity:HZJV4pgr ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q224002>,
+        "16005273"^^xsd:string,
+        "3GT9D7Vc"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Edouard Lalo"^^xsd:string,
+        "Édouard Lalo"^^xsd:string ;
+    skos:prefLabel "Edouard Lalo"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:22327787 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/65446> ;
+    wd:P737 faamentity:EiDXehYZ,
+        faamentity:G9vyoK45,
+        faamentity:eukJ9RHS ;
+    wd:P839 <https://imslp.org/wiki/Category:Lalo,_Édouard> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:RU9hU5Pa .
+

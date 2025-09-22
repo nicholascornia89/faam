@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q7553",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "translation"
       }
     ],
     "aliases": [
@@ -59,6 +60,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "NGty95TC",
+        "type": "item",
+        "label": "Die verkaufte Braut : komische Oper in drei Akten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901708260.gif"
+        }
+      }
+    ],
+    "annotation_type": [
+      {
+        "id": "AzBrFumG",
+        "type": "item",
+        "label": "plainchant transcription",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fCpunaD9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fCpunaD9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fCpunaD9.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VMWZq6tU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:63DtDHAt ;
+    schema1:birthDate "1735-09-00"^^xsd:string,
+        "1735-09-05"^^xsd:string ;
+    schema1:birthPlace faamentity:GKcJxAtt ;
+    schema1:deathDate "1782-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:bsTArmEN ;
+    schema1:description "German composer (1735–1782)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q106641>,
+        "0"^^xsd:string,
+        "VMWZq6tU"^^xsd:string ;
+    schema1:nationality faamentity:9xF8UfJQ,
+        faamentity:ExzzpMsG,
+        faamentity:MGBpLC55,
+        faamentity:oDvJJJ7G ;
+    skos:prefLabel "Johann Christian Bach"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:100191935 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/2530> ;
+    wd:P737 faamentity:5g7tXojm,
+        faamentity:FEbTxAZY,
+        faamentity:QhRQ5LW9 ;
+    wd:P839 <https://imslp.org/wiki/Category:Bach,_Johann_Christian> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PtM6pSux,
+        faamentity:RHfvaKqY .
+

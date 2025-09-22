@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hHBM3oAe a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school in Windsor and Maidenhead, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7593194>,
+        "0"^^xsd:string,
+        "hHBM3oAe"^^xsd:string ;
+    skos:prefLabel "St George's School, Windsor Castle"^^xsd:string .
+

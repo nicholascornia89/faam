@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eUhHdQXj a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "improvised or written-out ornamental passage played or sung by a soloist or soloists"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1069389>,
+        "15990683"^^xsd:string,
+        "eUhHdQXj"^^xsd:string ;
+    skos:altLabel "cadenza"^^xsd:string ;
+    skos:prefLabel "cadenza"^^xsd:string .
+

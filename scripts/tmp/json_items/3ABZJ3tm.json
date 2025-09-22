@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1708232",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "medalist"
       }
     ],
     "aliases": [
@@ -59,6 +60,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "BPVUdXga",
+        "type": "item",
+        "label": "Gustav Schreck",
+        "description": "German composer, music educator, and choirmaster (1849–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Gustav_Schreck.jpg"
+        }
+      },
+      {
+        "id": "A3CMewEV",
+        "type": "item",
+        "label": "Joseph Edgar Boehm",
+        "description": "British sculptor (1834-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carte_de_Visite_of_Joseph_Edgar_Boehm,_1860s.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3ABZJ3tm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3ABZJ3tm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3ABZJ3tm.csv"
+      }
+    ]
+  }
 }

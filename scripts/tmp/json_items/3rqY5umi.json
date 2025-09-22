@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q1758336",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alfred Dörffel"
       }
     ]
   },
@@ -164,13 +165,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "4r3DTmXH",
+        "type": "item",
+        "label": "Tu es Petrus",
+        "description": "Parody mass by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "X9nnDgQG",
+        "type": "item",
+        "label": "Missa Iste confessor IGP53",
+        "description": ""
+      },
+      {
+        "id": "Ftr3eHjG",
+        "type": "item",
+        "label": "Ecce quomodo moritur justus, IGP 19",
+        "description": ""
+      },
+      {
+        "id": "izrWUD6G",
+        "type": "item",
+        "label": "Omnes amici mei, IGP 70",
+        "description": ""
+      },
+      {
+        "id": "CQCuxqVu",
+        "type": "item",
+        "label": "Adoramus te Christe, TriCo 28",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3rqY5umi.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3rqY5umi.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3rqY5umi.csv"
       }
     ]
   }

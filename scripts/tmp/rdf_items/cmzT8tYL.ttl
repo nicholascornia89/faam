@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cmzT8tYL a rdfs:Resource ;
+    faamprop:related_to faamentity:9farY66Z,
+        faamentity:UGSpFRmF ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1816-07-18"^^xsd:string ;
+    schema1:birthPlace faamentity:DuikDHDP ;
+    schema1:deathDate "1898-01-16"^^xsd:string ;
+    schema1:deathPlace faamentity:5FBtSF63 ;
+    schema1:description "French pianist, teacher and musicographer (1816–1898)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q586181>,
+        "16005715"^^xsd:string,
+        "cmzT8tYL"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Antoine François Marmontel"^^xsd:string,
+        "Antoine Marmontel"^^xsd:string,
+        "Antoine-François Marmontel"^^xsd:string ;
+    skos:prefLabel "Antoine-François Marmontel"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:12571151 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/20001897> ;
+    wd:P737 faamentity:LapWGUs3,
+        faamentity:U6xhouYu,
+        faamentity:WwUe7BXs,
+        faamentity:h2ff8YKo ;
+    wd:P839 <https://imslp.org/wiki/Category:Marmontel,_Antoine_François> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY .
+

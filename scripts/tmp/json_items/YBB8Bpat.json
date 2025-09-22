@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q116170766",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Madrid city"
       }
     ],
     "aliases": [
@@ -80,8 +81,54 @@
         "base_url": "https://www.geonames.org/",
         "label": "ES"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "f4z5bdam",
+        "label": "Spain"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "UeYzEz2A",
+        "type": "item",
+        "label": "Madrid Royal Conservatory",
+        "description": ""
+      }
+    ],
+    "holding_institution": [
+      {
+        "id": "2M4g9hQk",
+        "type": "item",
+        "label": "Biblioteca Nacional de España",
+        "description": "library in Spain"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "YBB8Bpat.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "YBB8Bpat.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "YBB8Bpat.csv"
+      }
+    ]
+  }
 }

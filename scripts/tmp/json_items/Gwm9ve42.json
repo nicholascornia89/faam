@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q55044",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ludwig-Maximilians-Universität München"
       }
     ],
     "aliases": [
@@ -108,6 +109,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6e38Zdt6",
+        "type": "item",
+        "label": "Max Reger",
+        "description": "German composer, pianist and conductor (1873-1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Reger.jpg"
+        }
+      },
+      {
+        "id": "RzJ2dN9s",
+        "type": "item",
+        "label": "Theodor Kroyer",
+        "description": "German musicologist (1873-1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Gwm9ve42.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Gwm9ve42.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Gwm9ve42.csv"
+      }
+    ]
+  }
 }

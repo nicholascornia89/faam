@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SkFaaC3R a rdfs:Resource ;
+    faamprop:related_to faamentity:BZa5CHMu ;
+    faamprop:role faamentity:ipShXcQo ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1804-00-00"^^xsd:string ;
+    schema1:deathDate "1878-00-00"^^xsd:string ;
+    schema1:description "French librettist (1804-1878)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q135432610>,
+        "16005745"^^xsd:string,
+        "SkFaaC3R"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Edouard Bélanger"^^xsd:string ;
+    skos:prefLabel "Edouard Bélanger"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:24553367 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30026421> ;
+    schema:hasOccupation faamentity:U5ovsTg3 .
+

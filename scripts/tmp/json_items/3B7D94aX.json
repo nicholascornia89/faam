@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q930965",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Martin-Joseph Mengal"
       }
     ]
   },
@@ -155,13 +156,87 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "8JE4GCxs",
+        "type": "item",
+        "label": "Concertante : pour Hautbois, Cor et Basson avec Orchestre (Deux Violons, Alto, Violoncelle et Contrebasse; une Flûte et deux Clarinettes)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000357124.gif"
+        }
+      },
+      {
+        "id": "P8izEtpf",
+        "type": "item",
+        "label": "TANTUM ERGO",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000357175.gif"
+        }
+      },
+      {
+        "id": "hJVDTn96",
+        "type": "item",
+        "label": "Fantaisie Pour Piano et Cor : Sur l'Air Ecossair ; Intercalé dans la dame blanche ; Dédiée à Mademoiselle Cæli Lainé",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000749978.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Jhb5rrXW",
+        "type": "item",
+        "label": "François-Auguste Gevaert",
+        "description": "Belgian composer (1828–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "François-Auguste_Gevaert_photo_c1896_-_IMSLP.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TMtExP5z",
+        "type": "item",
+        "label": "La dame blanche",
+        "description": "opéra comique by François-Adrien Boieldieu"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Martin-Joseph_Mengal.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3B7D94aX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3B7D94aX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3B7D94aX.csv"
       }
     ]
   }

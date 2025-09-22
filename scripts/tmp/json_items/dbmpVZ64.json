@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2350126",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "opera vocal coach"
       }
     ],
     "aliases": [
@@ -67,6 +68,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "d97ewwH5",
+        "type": "item",
+        "label": "Amédée Gastoué",
+        "description": "French composer and musicologist (1873–1943)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "JaZGGXwq",
+        "type": "item",
+        "label": "Mathilde Marchesi",
+        "description": "German mezzo-soprano and singing teacher (1821-1913)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Matilde_Marchesi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dbmpVZ64.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dbmpVZ64.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dbmpVZ64.csv"
+      }
+    ]
+  }
 }

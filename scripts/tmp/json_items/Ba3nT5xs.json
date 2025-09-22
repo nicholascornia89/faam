@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q31467408",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antwerp"
       }
     ],
     "aliases": [
@@ -68,8 +69,108 @@
         "base_url": "https://www.geonames.org/",
         "label": "BE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "g8vP6yv9",
+        "type": "item",
+        "label": "Jean Simon Eykens",
+        "description": "Belgian composer (1812-1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eykens,_Jean_(1812-1891);_dirigent,_pianist-componist,_Ghémar,_Louis,_Felixarchief,_12_12718.jpg"
+        }
+      },
+      {
+        "id": "9fUwY2DB",
+        "type": "item",
+        "label": "Frits Celis",
+        "description": "Belgian conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Frits_Celis_at_90.jpg"
+        }
+      },
+      {
+        "id": "g8vP6yv9",
+        "type": "item",
+        "label": "Jean Simon Eykens",
+        "description": "Belgian composer (1812-1891)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eykens,_Jean_(1812-1891);_dirigent,_pianist-componist,_Ghémar,_Louis,_Felixarchief,_12_12718.jpg"
+        }
+      },
+      {
+        "id": "6TTCcCH4",
+        "type": "item",
+        "label": "Renier van der Velden",
+        "description": "(b Antwerp, Jan 14, 1910; d Antwerp, Jan 19, 1993). Belgian composer. He studied at the Antwerp Conservatory, but was mainly self-taught as a composer. In 1945 he was appointed music producer at the Antwerp radio studios, and was principal music prod",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "NaVsGiXL",
+        "type": "item",
+        "label": "Royal Society for Zoology Antwerp",
+        "description": "zoological association in Belgium"
+      },
+      {
+        "id": "HJS4asfu",
+        "type": "item",
+        "label": "Opera Ballet Vlaanderen",
+        "description": "Flemish organization organizing opera and ballet performances"
+      }
+    ],
+    "holding_institution": [
+      {
+        "id": "6vrn9seu",
+        "type": "item",
+        "label": "Royal Conservatory of Antwerp",
+        "description": "Music school"
+      },
+      {
+        "id": "YphSVUxe",
+        "type": "item",
+        "label": "Letterenhuis",
+        "description": "Belgian non-profit organization located in Antwerp"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ba3nT5xs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ba3nT5xs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ba3nT5xs.csv"
+      }
+    ]
+  }
 }

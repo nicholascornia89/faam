@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q3226048",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Le pré aux clercs"
       }
     ]
   },
@@ -87,6 +88,71 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "m5SRCKmj",
+        "type": "item",
+        "label": "Variations : sur le trio favori Du Pré aux Clercs : voor piano enOrchestra : Opus 76.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349274.gif"
+        }
+      },
+      {
+        "id": "KPETqohV",
+        "type": "item",
+        "label": "Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349202.gif"
+        }
+      },
+      {
+        "id": "KkVjMkQj",
+        "type": "item",
+        "label": "Le Pré aux Clercs",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349198.gif"
+        }
+      },
+      {
+        "id": "mqBB6Rxe",
+        "type": "item",
+        "label": "POTPOURRI",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000360390.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fSR8RnuW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fSR8RnuW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fSR8RnuW.csv"
+      }
+    ]
+  }
 }

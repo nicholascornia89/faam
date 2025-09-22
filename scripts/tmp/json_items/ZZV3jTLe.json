@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1017",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Aachen"
       }
     ],
     "aliases": [
@@ -72,8 +73,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6553047"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "fV34aLHP",
+        "type": "item",
+        "label": "Louis Brassin",
+        "description": "Belgian musician (1836-1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Brassin.jpg"
+        }
+      },
+      {
+        "id": "NV6snRPG",
+        "type": "item",
+        "label": "Jakob Quadflieg",
+        "description": "German composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZZV3jTLe.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZZV3jTLe.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZZV3jTLe.csv"
+      }
+    ]
+  }
 }

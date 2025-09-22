@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A2dcmW7g a rdfs:Resource ;
+    faamprop:related_to faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1900-08-12"^^xsd:string ;
+    schema1:birthPlace faamentity:6hfzYhoX ;
+    schema1:deathDate "1980-12-11"^^xsd:string ;
+    schema1:deathPlace faamentity:SLWcdJHg ;
+    schema1:description "Spanish composer and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q65203842>,
+        "16005643"^^xsd:string,
+        "A2dcmW7g"^^xsd:string ;
+    schema1:nationality faamentity:f4z5bdam ;
+    skos:altLabel "Ignacio Prieto"^^xsd:string,
+        "José Ignacio Prieto"^^xsd:string ;
+    skos:prefLabel "Ignacio Prieto"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:87146724 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

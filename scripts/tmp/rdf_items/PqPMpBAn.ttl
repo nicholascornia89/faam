@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PqPMpBAn a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1861-03-08"^^xsd:string ;
+    schema1:birthPlace faamentity:BMRFdau4 ;
+    schema1:deathDate "1919-02-14"^^xsd:string ;
+    schema1:description "Dutch composer (1861–1919)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2238279>,
+        "16004017"^^xsd:string,
+        "PqPMpBAn"^^xsd:string ;
+    schema1:nationality faamentity:6ZFENHKx,
+        faamentity:ZvjsCjDf ;
+    skos:altLabel "M. H. van 't Kruijs"^^xsd:string,
+        "Marinus Hendrik van 't Kruijs"^^xsd:string,
+        "Marius van 't Kruijs"^^xsd:string ;
+    skos:prefLabel "Marius van 't Kruijs"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:71660138 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:HodHVf2B ;
+    wd:P839 <https://imslp.org/wiki/Category:Kruijs,_Marinus_Hendrik_van_'t> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:PGamAZRD .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q154804",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Leipzig University"
       }
     ],
     "aliases": [
@@ -78,6 +79,131 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cCRS4yYP",
+        "type": "item",
+        "label": "Hugo Riemann",
+        "description": "German musicologist (1849-1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hugo_Riemann.jpg"
+        }
+      },
+      {
+        "id": "E3TYHdg6",
+        "type": "item",
+        "label": "Hans Adolf Eduard Driesch",
+        "description": "German philosopher and biologist (1867 - 1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Driesch1.jpg"
+        }
+      },
+      {
+        "id": "RzJ2dN9s",
+        "type": "item",
+        "label": "Theodor Kroyer",
+        "description": "German musicologist (1873-1945)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "oQCAcEAL",
+        "type": "item",
+        "label": "Hermann A. Korff",
+        "description": "German literary historian (1882–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hermann_August_Korff_-_Jb._d._Sächs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg"
+        }
+      },
+      {
+        "id": "gKgoiRVg",
+        "type": "item",
+        "label": "Wolfgang Fortner",
+        "description": "German composer and conductor (1907–1987)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "G3ncrNcs",
+        "type": "item",
+        "label": "Richard Wagner",
+        "description": "German composer (1813–1883)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "RichardWagner.jpg"
+        }
+      },
+      {
+        "id": "5T9oj3bW",
+        "type": "item",
+        "label": "Hans von Bülow",
+        "description": "German conductor and pianist (1830–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hans_von_buelow.jpg"
+        }
+      },
+      {
+        "id": "TxfuV8Su",
+        "type": "item",
+        "label": "Robert Schumann",
+        "description": "German composer, pianist and critic (1810–1856)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert-schumann.jpg"
+        }
+      },
+      {
+        "id": "KEGDY57s",
+        "type": "item",
+        "label": "Friedrich Schneider",
+        "description": "German composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Schneider.jpg"
+        }
+      },
+      {
+        "id": "5g7tXojm",
+        "type": "item",
+        "label": "Carl Philipp Emanuel Bach",
+        "description": "German composer (1714–1788)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Philipp_Emanuel_Bach.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cc2zjtBZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cc2zjtBZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cc2zjtBZ.csv"
+      }
+    ]
+  }
 }

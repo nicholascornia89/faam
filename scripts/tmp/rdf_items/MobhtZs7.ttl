@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MobhtZs7 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:NpqV6FTZ ;
+    schema1:description "opera by Saverio Mercadante"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3616373>,
+        "15999041"^^xsd:string,
+        "MobhtZs7"^^xsd:string ;
+    skos:altLabel "Andronico"^^xsd:string ;
+    skos:prefLabel "Andronico"^^xsd:string ;
+    wd:P5202 faamentity:W75KiRxY ;
+    wd:P7937 faamentity:hxYumS2J ;
+    wd:P839 <https://imslp.org/wiki/https://imslp.org/wiki/Andronico_(Mercadante%2C_Saverio)> .
+

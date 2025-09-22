@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U5ovsTg3 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "author of the libretto (words) of an opera or a similar extended musical composition"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q8178443>,
+        "15990927"^^xsd:string,
+        "U5ovsTg3"^^xsd:string ;
+    skos:altLabel "librettist"^^xsd:string,
+        "opera librettist"^^xsd:string ;
+    skos:prefLabel "fermier général"^^xsd:string,
+        "librettist"^^xsd:string .
+

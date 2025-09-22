@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1958649",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "school inspector"
       }
     ],
     "aliases": [
@@ -71,6 +72,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "P4xPTchF",
+        "type": "item",
+        "label": "Adolf Duclos",
+        "description": "Belgian writer, historian, archaeologist and inspector (1841-1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Adolf_Duclos001.jpg"
+        }
+      },
+      {
+        "id": "AoVuQA5q",
+        "type": "item",
+        "label": "Joannes Brans",
+        "description": "Dutch teacher and Belgian school director and inspector",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2znXfacf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2znXfacf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2znXfacf.csv"
+      }
+    ]
+  }
 }

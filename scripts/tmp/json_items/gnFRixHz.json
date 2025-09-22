@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1063336",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "tempo rubato"
       }
     ],
     "aliases": [
@@ -99,6 +100,151 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Z3FQHVpH",
+        "type": "item",
+        "label": "Ungarische Rhapsodie no. 12 : Klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904692388.gif"
+        }
+      },
+      {
+        "id": "4si25R5V",
+        "type": "item",
+        "label": "In memoriam : voor piano-forte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902404588.gif"
+        }
+      },
+      {
+        "id": "TFyBsM8D",
+        "type": "item",
+        "label": "In memoriam : voor piano-forte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902404810.gif"
+        }
+      },
+      {
+        "id": "67xzWFPr",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "ZvSPPzQL",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "eugMw9AU",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903755269.gif"
+        }
+      },
+      {
+        "id": "2zuqzq6z",
+        "type": "item",
+        "label": "(Preludio) circa 1740",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA106.gif"
+        }
+      },
+      {
+        "id": "63FbCbGC",
+        "type": "item",
+        "label": "Missa assumptionis B.V.M. Ad duas voces aequales comitante organo. Opus 107",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502008.gif"
+        }
+      },
+      {
+        "id": "SsTjCJak",
+        "type": "item",
+        "label": "Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502011.gif"
+        }
+      },
+      {
+        "id": "67xzWFPr",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "ZvSPPzQL",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "eugMw9AU",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903755269.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gnFRixHz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gnFRixHz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gnFRixHz.csv"
+      }
+    ]
+  }
 }

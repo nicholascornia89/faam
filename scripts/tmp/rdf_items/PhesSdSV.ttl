@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PhesSdSV a rdfs:Resource ;
+    faamprop:related_to faamentity:7U54uqaV,
+        faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:RTU8hLY4 ;
+    schema1:birthDate "1822-01-08"^^xsd:string ;
+    schema1:birthPlace faamentity:kk3x69qv ;
+    schema1:deathDate "1901-07-18"^^xsd:string,
+        "1901-07-19"^^xsd:string ;
+    schema1:deathPlace faamentity:DtesDKkL ;
+    schema1:description "Italian cellist (1822-1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q782832>,
+        "16005019"^^xsd:string,
+        "PhesSdSV"^^xsd:string ;
+    schema1:nationality faamentity:RNVCZ5PK ;
+    skos:altLabel "Alfredo Carlo Piatti"^^xsd:string,
+        "Alfredo Piatti"^^xsd:string,
+        "Carlo Alfredo Piatti"^^xsd:string ;
+    skos:prefLabel "Alfredo Piatti"^^xsd:string ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:70145344 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/17897> ;
+    wd:P737 faamentity:MYycZXCd ;
+    wd:P839 <https://imslp.org/wiki/Category:Piatti,_Alfredo_Carlo> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

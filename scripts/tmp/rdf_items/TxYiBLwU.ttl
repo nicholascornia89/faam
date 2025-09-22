@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TxYiBLwU a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:CPJ2a2C2,
+        faamentity:Rxa2vGNJ,
+        faamentity:VMA2AmEN,
+        faamentity:WuWcWk4u ;
+    faamprop:handwritten_annotation faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:UDva945b,
+        faamentity:YWfofDz3,
+        faamentity:e9t5BdLA ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:HwinuQRS ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez,
+        faamentity:JEZ5AweR,
+        faamentity:bXLsUvpZ ;
+    schema1:identifier "15992440"^^xsd:string,
+        "KCA-030902762332"^^xsd:string,
+        "TxYiBLwU"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:427006/N"^^schema1:url ;
+    skos:prefLabel "Le nuage : romance"^^xsd:string ;
+    wd:P217 "MM-ZL-BENOI-nuage-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"TxYiBLwU-0f6d0528-82d3-4ce3-baa4-266226c09e24"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TxYiBLwU-3d526cc8-5c64-4f14-bd9f-2ca23c907d5e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+"TxYiBLwU-9d8ebd00-3e1a-4237-b94f-545a92068b2b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"TxYiBLwU-aa6eb9c3-a53a-4843-8960-88da07b0b322"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+
+faamentity:bXLsUvpZ a rdf:object .
+

@@ -1,0 +1,18 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iKn4iRdh a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GhEEjBiK ;
+    schema1:identifier "16005188"^^xsd:string,
+        "iKn4iRdh"^^xsd:string ;
+    skos:prefLabel "Exultabunt sancti"^^xsd:string ;
+    wd:P2000 cpdl:Exultabunt_sancti_\(Francesco_Foggia\) ;
+    wd:P5202 faamentity:VsAY6UsF ;
+    wd:P7937 faamentity:Z5LXHFLR .
+

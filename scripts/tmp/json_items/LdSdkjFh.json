@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q7406919",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "service"
       }
     ],
     "aliases": [
@@ -51,6 +52,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "eHYWo9ba",
+        "type": "item",
+        "label": "translation",
+        "description": "transfer of the meaning of something in one language into another"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LdSdkjFh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LdSdkjFh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LdSdkjFh.csv"
+      }
+    ]
+  }
 }

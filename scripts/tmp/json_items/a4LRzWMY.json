@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2649559",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alma Mater Viadrina"
       }
     ],
     "aliases": []
@@ -45,6 +46,51 @@
     "place": [],
     "country": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NYuKLVzD",
+        "type": "item",
+        "label": "Ludwig Berger",
+        "description": "German pianist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ludwig_Berger.jpg"
+        }
+      },
+      {
+        "id": "5g7tXojm",
+        "type": "item",
+        "label": "Carl Philipp Emanuel Bach",
+        "description": "German composer (1714–1788)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Carl_Philipp_Emanuel_Bach.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "a4LRzWMY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "a4LRzWMY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "a4LRzWMY.csv"
+      }
+    ]
+  }
 }

@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q78517",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fritz Kreisler"
       }
     ]
   },
@@ -174,13 +175,65 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3sBRPvLk",
+        "type": "item",
+        "label": "Humoreska, op. 101 no. 7 = Célèbre humoresque",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902758835.gif"
+        }
+      },
+      {
+        "id": "6hokXqmo",
+        "type": "item",
+        "label": "La précieuse : für Violine und Klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920060.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "L22MWk6s",
+        "type": "item",
+        "label": "Humoresques, Op. 101",
+        "description": "Suite by Antonín Dvořák"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Kreisler.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "APRRus3e.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "APRRus3e.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "APRRus3e.csv"
       }
     ]
   }

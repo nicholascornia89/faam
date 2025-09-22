@@ -58,7 +58,8 @@
       {
         "type": "externalid",
         "value": "Q83186",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Romeo and Juliet"
       }
     ]
   },
@@ -96,6 +97,43 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "3LqVwWmn",
+        "type": "item",
+        "label": "I Capuleti e i Montecchi",
+        "description": "opera by Vincenzo Bellini"
+      },
+      {
+        "id": "8JnXKBPf",
+        "type": "item",
+        "label": "Giulietta e Romeo",
+        "description": "opera by Nicola Vaccai"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Lv4AiKXL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Lv4AiKXL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Lv4AiKXL.csv"
+      }
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q200126",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "18th arrondissement of Paris"
       }
     ],
     "aliases": [
@@ -54,8 +55,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "6618624"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EzYHqpj2",
+        "type": "item",
+        "label": "Théophile Laforge",
+        "description": "French musician (1863–1918)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Théophile_Laforge.jpg"
+        }
+      },
+      {
+        "id": "835rVKz9",
+        "type": "item",
+        "label": "Paul Delmet",
+        "description": "French composer (1862-1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Baret_un_mauvaiS_Cas_1005523_(delmet).jpg"
+        }
+      },
+      {
+        "id": "6JF33pGS",
+        "type": "item",
+        "label": "Alfred Lefébure-Wély",
+        "description": "French composer and organist (1817–1869)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lefébure-Wély-young.jpg"
+        }
+      },
+      {
+        "id": "LDkDYnVj",
+        "type": "item",
+        "label": "Antoine Elwart",
+        "description": "French composer (1808-1877)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Elwart,_Antoine,_Nadar_Gallica.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DfJQqzuV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DfJQqzuV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DfJQqzuV.csv"
+      }
+    ]
+  }
 }

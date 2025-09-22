@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q523227",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Iphigenia in Tauris"
       }
     ]
   },
@@ -99,6 +100,37 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "cMtvTYhd",
+        "type": "item",
+        "label": "Iphigénie en Tauride",
+        "description": "opera by Christoph Willibald Gluck"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DqG9WfFB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DqG9WfFB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DqG9WfFB.csv"
+      }
+    ]
+  }
 }

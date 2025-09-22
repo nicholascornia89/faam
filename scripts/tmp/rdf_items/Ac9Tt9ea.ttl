@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ac9Tt9ea a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:YTxZ8vfN ;
+    schema1:birthDate "1773-03-29"^^xsd:string ;
+    schema1:birthPlace faamentity:djKbyqEB ;
+    schema1:deathDate "1849-09-26"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French cellist, composer and music educator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2958497>,
+        "15996087"^^xsd:string,
+        "Ac9Tt9ea"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Charles Baudiot"^^xsd:string,
+        "Charles-Nicolas Baudiot"^^xsd:string ;
+    skos:prefLabel "Charles Baudiot"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:19947134 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/8431> ;
+    wd:P737 faamentity:NY6ie2gV ;
+    wd:P839 <https://imslp.org/wiki/Category:Baudiot,_Charles_Nicolas> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

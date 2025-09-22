@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:J6AHAEkf a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:WT9AcUBt,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:DcnLjGrJ,
+        faamentity:PcrwVYSM ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:Lt82qzNR ;
+    schema1:hasPart faamentity:EqE74a9L ;
+    schema1:identifier "15992523"^^xsd:string,
+        "J6AHAEkf"^^xsd:string,
+        "KCA-030904192652"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14794102/N"^^schema1:url ;
+    skos:prefLabel "Berceuse"^^xsd:string ;
+    wd:P217 "UM-SC-RENAR-berce-2"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"J6AHAEkf-80423801-d7c2-4984-be6e-c2be3dd5162a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"J6AHAEkf-a4e4fa3a-1dcd-40ee-9bac-61699bc8812c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:Lt82qzNR a rdf:object .
+

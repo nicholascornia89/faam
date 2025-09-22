@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AbCBLM5a a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:description "madrigal by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310195>,
+        "16002003"^^xsd:string,
+        "AbCBLM5a"^^xsd:string ;
+    skos:altLabel "Alla riva del Tebro"^^xsd:string ;
+    skos:prefLabel "Alla riva del Tebro"^^xsd:string,
+        "Alla riva del Tebro, IGP 515"^^xsd:string ;
+    wd:P214 viaf:182730652 ;
+    wd:P5202 faamentity:CJgFHXHi,
+        faamentity:d8cUVe7p ;
+    wd:P7937 faamentity:n8dr8Tqi .
+

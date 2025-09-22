@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M838dvmA a rdfs:Resource ;
+    faamprop:related_to faamentity:Vm5DPnGE ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "American publishing company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3011053>,
+        "16004292"^^xsd:string,
+        "M838dvmA"^^xsd:string ;
+    skos:altLabel "Appleton"^^xsd:string,
+        "Appleton & Co."^^xsd:string,
+        "Appleton and Co."^^xsd:string,
+        "D. Appleton & Co."^^xsd:string,
+        "D. Appleton & Company"^^xsd:string,
+        "D. Appleton and Company"^^xsd:string,
+        "Robert Appleton Company"^^xsd:string ;
+    skos:prefLabel "D. Appleton & Company"^^xsd:string ;
+    wd:P214 viaf:129012558 ;
+    wd:P31 faamentity:2fXfbLCV .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q836571",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "fantasia"
       }
     ],
     "aliases": [
@@ -67,6 +68,111 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "aWEcMEh7",
+        "type": "item",
+        "label": "Rondo fantasque: pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902500674.gif"
+        }
+      },
+      {
+        "id": "55NNMZZG",
+        "type": "item",
+        "label": "Rondo fantasque: pour violon et piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902500666.gif"
+        }
+      },
+      {
+        "id": "48dY9UMX",
+        "type": "item",
+        "label": "Quatrième fantasia (fantastique), op. 20",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901506086.gif"
+        }
+      },
+      {
+        "id": "HYJ6kSNR",
+        "type": "item",
+        "label": "Fantasia: piano-forte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901514759.gif"
+        }
+      },
+      {
+        "id": "EcqLntZR",
+        "type": "item",
+        "label": "Fantaisie : pour le Violon avec Accompagnement de grand Orchestre ou Quatuor ou Pianforte sur des motifs favoris de l'Opéra La Muette de Portici : Oeuvre 62",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735234.gif"
+        }
+      },
+      {
+        "id": "6Nob9gt6",
+        "type": "item",
+        "label": "Fantasie für Pianoforte, Orchester und Chor, op. 80",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903242334.gif"
+        }
+      },
+      {
+        "id": "dHV3E4Yr",
+        "type": "item",
+        "label": "Le Lac des Fées : Fantaisie : pour La Flute Avec Accompagnement de piano ou de deux Violons, Alto, Basse, Hautbois, Clarinettes, Cors, Bassons, Trompettes, Trombones et Timbales : Opera : 80.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331423.gif"
+        }
+      },
+      {
+        "id": "Hy9ZASPZ",
+        "type": "item",
+        "label": "3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920086.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KvY9ZvU4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KvY9ZvU4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KvY9ZvU4.csv"
+      }
+    ]
+  }
 }

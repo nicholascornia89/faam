@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q67199893",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 9"
       }
     ]
   },
@@ -135,6 +136,131 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "LVTFwb8s",
+        "type": "item",
+        "label": "Pastorale et Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP41032.gif"
+        }
+      },
+      {
+        "id": "7hcxzkxa",
+        "type": "item",
+        "label": "Pastorale und Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP44158.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "HdANzxaD",
+        "type": "item",
+        "label": "Pastorale / Domenico Scarlatti ; arranged for concert-use by Carl Tausig ; edited and fingered by G. Buonamici.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-19147.gif"
+        }
+      },
+      {
+        "id": "mM4YzhFx",
+        "type": "item",
+        "label": "Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22563.gif"
+        }
+      },
+      {
+        "id": "A36gwx67",
+        "type": "item",
+        "label": "Classic keyboard music : an album of piano solos by great masters / edited by Emil von Sauer.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-17794.gif"
+        }
+      },
+      {
+        "id": "oCna5zHY",
+        "type": "item",
+        "label": "Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SML-22768.gif"
+        }
+      },
+      {
+        "id": "6Zcfc2ER",
+        "type": "item",
+        "label": "Pièces pour le Clavecin par Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903514815.gif"
+        }
+      },
+      {
+        "id": "XS4uFbwC",
+        "type": "item",
+        "label": "29 sonatas",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903597976.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bLnUjgnB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bLnUjgnB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bLnUjgnB.csv"
+      }
+    ]
+  }
 }

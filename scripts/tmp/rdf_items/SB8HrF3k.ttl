@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SB8HrF3k a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:CVq5byyd ;
+    schema1:identifier "16004351"^^xsd:string,
+        "SB8HrF3k"^^xsd:string ;
+    skos:prefLabel "Violin Sonata in E minor, Op.2 No.8"^^xsd:string ;
+    wd:P5202 faamentity:Y4Su8bEC ;
+    wd:P839 <https://imslp.org/wiki/Violin_Sonata_in_E_minor,_Op.2_No.8_(Veracini,_Francesco_Maria)> .
+

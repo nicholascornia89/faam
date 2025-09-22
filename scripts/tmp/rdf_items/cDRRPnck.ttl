@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cDRRPnck a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "orchestral suite by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12406816>,
+        "16002501"^^xsd:string,
+        "cDRRPnck"^^xsd:string ;
+    skos:altLabel "BWV 1067"^^xsd:string,
+        "Orchestral Suite No. 2"^^xsd:string,
+        "Orchestral Suite No. 2 in B Minor, BWV 1067"^^xsd:string,
+        "Suite No. 2"^^xsd:string,
+        "Suite in B Minor"^^xsd:string ;
+    skos:prefLabel "Orchestral Suite No.2 in B minor, BWV 1067"^^xsd:string,
+        "Suite No. 2"^^xsd:string ;
+    wd:P214 viaf:205096750 ;
+    wd:P5202 faamentity:6e38Zdt6 ;
+    wd:P7937 faamentity:4Ug7EdNp,
+        faamentity:FHTHb7Dq ;
+    wd:P839 <https://imslp.org/wiki/Orchestral_Suite_No.2_in_B_minor,_BWV_1067_(Bach,_Johann_Sebastian)> .
+

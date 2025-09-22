@@ -1,0 +1,80 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SxXHq2qT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9dz9ydpz,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:c5cZmF37,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:Di2mC26w,
+        faamentity:NFazQXR2,
+        faamentity:RePdmToB,
+        faamentity:WFgzwULr,
+        faamentity:YWfofDz3,
+        faamentity:aCRuXBu7,
+        faamentity:bZxRjBKt,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:K3Ds589T ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:GQ9LXzE7,
+        faamentity:QhRQ5LW9,
+        faamentity:YdWwzL5r ;
+    schema1:hasPart faamentity:R9adKPCG ;
+    schema1:identifier "15992666"^^xsd:string,
+        "KCA-030901352994"^^xsd:string,
+        "SxXHq2qT"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs,
+        faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7076219/N"^^schema1:url ;
+    skos:prefLabel "Die Kunst der Fuge = The art of fugue = L' art de la fugue"^^xsd:string ;
+    skosref:note "Extract of pages with handwritten annotations."^^rdf:HTML ;
+    wd:P217 "UM-TP-BACH-kunstde-1"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"SxXHq2qT-584b557f-4b0c-4676-bb3c-adb1efb17eec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"SxXHq2qT-8a4772e4-9c9e-43f9-b049-623ea5a0e13f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"SxXHq2qT-9e05ad8a-569e-403b-a472-f0a3a80d4eb8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"SxXHq2qT-faaa6189-56d2-4b39-a84c-1ec89ce186ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:Ba3nT5xs .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:GQ9LXzE7 a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:YdWwzL5r a rdf:object .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1805930",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "largo"
       }
     ],
     "aliases": [
@@ -98,6 +99,81 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JvMaPT6R",
+        "type": "item",
+        "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SLD-512657440.gif"
+        }
+      },
+      {
+        "id": "4V8tH3Gg",
+        "type": "item",
+        "label": "Fantaisie Chromatique et Fugue : BWV 903",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331890.gif"
+        }
+      },
+      {
+        "id": "Gok5r2Zp",
+        "type": "item",
+        "label": "Messe \"Beatus qui intelligit\" für sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737359707356.gif"
+        }
+      },
+      {
+        "id": "ZaXpkCHV",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "doyyMgdR",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "93vh2DpZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "93vh2DpZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "93vh2DpZ.csv"
+      }
+    ]
+  }
 }

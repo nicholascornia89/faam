@@ -1,0 +1,71 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TtLk4SCR a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1926"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:CPJ2a2C2,
+        faamentity:J6ERsasy,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:bsgSL8K5,
+        faamentity:c5cZmF37,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:oPdg4LDz ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:EWh47JQF,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw,
+        faamentity:ir8H6VLw ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CFu7TPQo,
+        faamentity:HkAYDsB2,
+        faamentity:JEZ5AweR ;
+    schema1:hasPart faamentity:cFVvHs9Z ;
+    schema1:identifier "16005605"^^xsd:string,
+        "KCA-030902480737"^^xsd:string,
+        "TtLk4SCR"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6807687/N"^^schema1:url ;
+    skos:prefLabel "Sonate en ré majeur nr 4 : pour violon et piano"^^xsd:string ;
+    wd:P217 "UM-SV-HANDE-sona371-2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"TtLk4SCR-173de03e-ee5d-40f7-b713-e3ca56ca4033"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TtLk4SCR-e7f1766e-8c76-40de-9c7a-d1539287d593"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1926"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"TtLk4SCR-f608ef52-dc26-479e-86c6-99456f25f256"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:CFu7TPQo a rdf:object .
+
+faamentity:HkAYDsB2 a rdf:object .
+
+faamentity:JEZ5AweR a rdf:object .
+

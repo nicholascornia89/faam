@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q211037",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Roeselare"
       }
     ],
     "aliases": [
@@ -58,8 +59,58 @@
         "base_url": "https://www.geonames.org/",
         "label": "2787891"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cgea6nA8",
+        "type": "item",
+        "label": "Bernardus Nachtergaele",
+        "description": "priest, subregent, assistant pastor, superior, director and spiritual director (1784-1850)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bernard_Nachtergaele,_PA03099.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "XVkxnYpp",
+        "type": "item",
+        "label": "Klein Seminarie Roeselare",
+        "description": "Roeselare, West Flanders, Belgium"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "FF8aDsue.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "FF8aDsue.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "FF8aDsue.csv"
+      }
+    ]
+  }
 }

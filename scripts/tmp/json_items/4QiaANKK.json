@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q900744",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Semiramide"
       }
     ]
   },
@@ -89,6 +90,51 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FwCHhZcG",
+        "type": "item",
+        "label": "Semiramide : duo \"Serbami ognor\" (Semiramide en Arsace) (I, 8).",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000365036.gif"
+        }
+      },
+      {
+        "id": "MzCNpEDy",
+        "type": "item",
+        "label": "Convoluut : Valentine Degive-Ledelier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-03090443184.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4QiaANKK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4QiaANKK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4QiaANKK.csv"
+      }
+    ]
+  }
 }

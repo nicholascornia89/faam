@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q377435",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "vibrato"
       }
     ],
     "aliases": [
@@ -90,6 +91,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SKbqbAHR",
+        "type": "item",
+        "label": "Sinfonietta, op. 48",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904487227.gif"
+        }
+      },
+      {
+        "id": "HmhzwhS3",
+        "type": "item",
+        "label": "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901456373.gif"
+        }
+      },
+      {
+        "id": "Yq7gbPb5",
+        "type": "item",
+        "label": "Ecole chantante, 25 vocalises mélodiques élémentaires pour la medium de la voix d'après des fragments célèbres de Beethoven, Bellini, Dalayrac, Donizetti, Grétry, Haas, Haydn, Hummel, Méhul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43123936p.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "jRqpPLkr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "jRqpPLkr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "jRqpPLkr.csv"
+      }
+    ]
+  }
 }

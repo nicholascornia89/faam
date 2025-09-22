@@ -1,0 +1,37 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WpKPcQ9q a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ifXZogMQ ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:GbDRqhEB,
+        faamentity:Sdw2foGQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:f6r3mJAZ ;
+    schema1:identifier "16004300"^^xsd:string,
+        "KCA-030902962303"^^xsd:string,
+        "WpKPcQ9q"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6728499/N"^^schema1:url ;
+    skos:prefLabel "Cours complet d'harmonie"^^xsd:string ;
+    wd:P217 "MM-TH-DEBON-coursco-1/2"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5 .
+
+schema1:contributor a rdf:predicate .
+
+"WpKPcQ9q-f9f5e69c-ee45-4ab1-8e0e-548a02189448"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:f6r3mJAZ a rdf:object .
+

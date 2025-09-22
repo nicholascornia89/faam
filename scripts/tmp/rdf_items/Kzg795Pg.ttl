@@ -1,0 +1,64 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Kzg795Pg a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1873"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:B7WuhvkL,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2eg9E4Mu,
+        faamentity:QhRQ5LW9,
+        faamentity:ZhveBtTN ;
+    schema1:identifier "16005729"^^xsd:string,
+        "BSB-991076922529707356"^^xsd:string,
+        "Kzg795Pg"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11144414"^^schema1:url ;
+    skos:prefLabel "Drei Psalmlieder: für gem. 4stg. Chor zu Tonstücken von Johann Sebastian Bach gedichtet u. d. Chorgesang dargeboten"^^xsd:string ;
+    skosref:note "Choral compositions inspired by J.S. Bach's keyboard music."^^rdf:HTML ;
+    wd:P217 "4 Mus.pr. 2464#Beibd.1"^^xsd:string ;
+    wd:P839 <https://imslp.org/wiki/3_Psalmlieder,_Op.13_(Cornelius,_Peter)> ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"Kzg795Pg-3b5693a4-703c-4274-b6dd-782bc9546c0f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Kzg795Pg-95cbf2dd-fca0-4822-8080-fc4fe059d0ff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"Kzg795Pg-96815160-08c6-42e8-a816-891333bf7309"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1873"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+faamentity:2eg9E4Mu a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+
+faamentity:ZhveBtTN a rdf:object .
+

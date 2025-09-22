@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JdpDgwnm a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3zoajAt8,
+        faamentity:Rfoj9dh4,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:eCYL2PkE,
+        faamentity:eijiWF3A,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:T7T22EAb ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8sxhcmoV,
+        faamentity:CbtAbQDg,
+        faamentity:b4N9xf7f ;
+    schema1:identifier "16005693"^^xsd:string,
+        "DPF-202502042"^^xsd:string,
+        "JdpDgwnm"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales."^^xsd:string ;
+    skosref:related faamentity:grii8mVz ;
+    wd:P217 "not available"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:KJkThvsq .
+
+schema1:contributor a rdf:predicate .
+
+"JdpDgwnm-1dc5850e-7096-4f81-94c5-602f2c16d3a7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"JdpDgwnm-759c2da6-ab5a-4553-84f4-5688385d8000"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"JdpDgwnm-87d395f8-2390-4904-a4fd-12c087832f14"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:8sxhcmoV a rdf:object .
+
+faamentity:CbtAbQDg a rdf:object .
+
+faamentity:b4N9xf7f a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q503737",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Rain"
       }
     ],
     "aliases": [
@@ -66,8 +67,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "6558426"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "NDwTXxR8",
+        "type": "item",
+        "label": "Franz Lachner",
+        "description": "German composer and conductor (1803-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Lachner.jpg"
+        }
+      },
+      {
+        "id": "ZhQpEEdD",
+        "type": "item",
+        "label": "Ignaz Lachner",
+        "description": "German composer and conductor (1807-1895)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ignaz_Lachner_1882.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eK94rL4c.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eK94rL4c.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eK94rL4c.csv"
+      }
+    ]
+  }
 }

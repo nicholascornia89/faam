@@ -1,0 +1,79 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nkMiKVJu a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "22-03-1944"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:KTdA5xD8,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:byLEfakR ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:5fpte3tE,
+        faamentity:6cyBEJLr,
+        faamentity:8Ki8U5U4,
+        faamentity:DS9HvPwY,
+        faamentity:F4ZEniBQ,
+        faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:UDva945b,
+        faamentity:VMA2AmEN,
+        faamentity:WtvibJFF,
+        faamentity:XutP4SZN,
+        faamentity:aCRY7SgN,
+        faamentity:bZxRjBKt,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:TF4BzPKq ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:3qSRoQhb,
+        faamentity:DX3PadSf ;
+    schema1:identifier "15992392"^^xsd:string,
+        "KCA-030901436383"^^xsd:string,
+        "nkMiKVJu"^^xsd:string ;
+    schema1:location faamentity:9k2MygHr ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6783592/N"^^schema1:url ;
+    skos:prefLabel "Nocturne : pour piano"^^xsd:string ;
+    skosref:related faamentity:DS9HvPwY,
+        faamentity:XutP4SZN ;
+    wd:P217 "MM-TP-GILSO-noctu-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"nkMiKVJu-167c0750-24ae-44d1-9069-c90ffb5ddf81"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:9k2MygHr .
+
+"nkMiKVJu-9000a3ce-fbbc-41f5-b399-45c3eb9d86a2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"nkMiKVJu-eb159d80-3339-4604-996b-d98d6823a9b5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "22-03-1944"^^xsd:string ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:3qSRoQhb a rdf:object .
+
+faamentity:DX3PadSf a rdf:object .
+

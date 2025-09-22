@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q21550346",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "aesthetician"
       }
     ],
     "aliases": [
@@ -71,6 +72,151 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EbgbHucU",
+        "type": "item",
+        "label": "Nellie Melba",
+        "description": "Australian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nellie_Melba_1892.jpg"
+        }
+      },
+      {
+        "id": "XBjGQVps",
+        "type": "item",
+        "label": "Theodor W. Adorno",
+        "description": "German philosopher, sociologist and theorist (1903–1969)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_W._Adorno.jpg"
+        }
+      },
+      {
+        "id": "9fwBjteP",
+        "type": "item",
+        "label": "Salvatore Marchesi",
+        "description": "Italian musician, translator, singer and opera singer (1822-1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "SalvatoreMarchesi.jpg"
+        }
+      },
+      {
+        "id": "LwgDWYDy",
+        "type": "item",
+        "label": "Manuel García",
+        "description": "Spanish opera singer, composer and impresario (1775-1832)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Manuel_Garcia_as_Otello_in_Paris_from_Gallica.jpg"
+        }
+      },
+      {
+        "id": "QTbr2Qdh",
+        "type": "item",
+        "label": "Enrico Delle Sedie",
+        "description": "Italian opera singer (1822–1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portrait_de_Delle_Sedie,_(1825-1907),_(baryton),_PH49331.jpg"
+        }
+      },
+      {
+        "id": "UH5RqTyQ",
+        "type": "item",
+        "label": "Francesco Piermarini",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "cEtUkcda",
+        "type": "item",
+        "label": "Rosalie Bosman-Huyghe",
+        "description": "Belgian operatic singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RhVT62az",
+        "type": "item",
+        "label": "Henri Warnots",
+        "description": "Belgian operatic tenor and academic",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kMENeT9w",
+        "type": "item",
+        "label": "Lilli Lehmann",
+        "description": "German operatic soprano (1848–1929)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lilli_Lehmann.jpg"
+        }
+      },
+      {
+        "id": "oHjCowpZ",
+        "type": "item",
+        "label": "Venanzio Rauzzini",
+        "description": "Italian opera singer and teacher (1746-1810)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Venanzio_Rauzzini_by_Robert_Hancock.jpg"
+        }
+      },
+      {
+        "id": "ETUtPT6p",
+        "type": "item",
+        "label": "Antonio Bernacchi",
+        "description": "Italian opera singer (1685-1756)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Busto_di_Antonio_Bernacchi.jpg"
+        }
+      },
+      {
+        "id": "7xym8UvG",
+        "type": "item",
+        "label": "Émile Wambach",
+        "description": "Belgian conductor, composer, musicologist and music educator (1854-1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emile_Wambach_1913.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BWMmyi3x.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BWMmyi3x.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BWMmyi3x.csv"
+      }
+    ]
+  }
 }

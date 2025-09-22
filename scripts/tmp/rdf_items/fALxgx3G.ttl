@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fALxgx3G a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital city of the United States of America"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q61>,
+        "0"^^xsd:string,
+        "fALxgx3G"^^xsd:string ;
+    schema1:location faamentity:LbfJnd9y ;
+    skos:altLabel "City of Washington, D.C."^^xsd:string,
+        "D.C. Washington"^^xsd:string,
+        "District of Columbia"^^xsd:string,
+        "Federal City (D.C.)"^^xsd:string,
+        "Nation's Capital (D.C.)"^^xsd:string,
+        "The District"^^xsd:string,
+        "Washington City, D.C."^^xsd:string,
+        "Washington, D.C."^^xsd:string,
+        "Washington, District of Columbia"^^xsd:string ;
+    skos:prefLabel "Washington, D.C."^^xsd:string ;
+    wd:P1566 gn:11789030,
+        gn:4140963 .
+

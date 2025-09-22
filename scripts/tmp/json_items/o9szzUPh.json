@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q62274582",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Aberdeen City"
       }
     ],
     "aliases": [
@@ -70,8 +71,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "3333224"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "FX7cN3Cq",
+        "type": "item",
+        "label": "Aberdeen Grammar School",
+        "description": "state secondary school in Aberdeen, Scotland, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "o9szzUPh.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "o9szzUPh.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "o9szzUPh.csv"
+      }
+    ]
+  }
 }

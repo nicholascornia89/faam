@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q633817",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "François Bazin"
       }
     ]
   },
@@ -173,13 +174,97 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "4i4PQgm2",
+        "type": "item",
+        "label": "Paul Joseph Guillaume Hillemacher",
+        "description": "French composer and pianist (1852–1933)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Hillemacher.jpg"
+        }
+      },
+      {
+        "id": "EzxGVoaq",
+        "type": "item",
+        "label": "Jules Massenet",
+        "description": "French composer (1842–1912)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jules_Massenet_by_Eugène_Pirou,_edit_(cropped).jpg"
+        }
+      },
+      {
+        "id": "R7dCbrrH",
+        "type": "item",
+        "label": "Emile Pessard",
+        "description": "French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Émile_Pessard_by_Nadar.png"
+        }
+      },
+      {
+        "id": "eCz67vzY",
+        "type": "item",
+        "label": "Théodore Dubois",
+        "description": "French composer and Organist (1837-1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodore_Dubois.jpg"
+        }
+      },
+      {
+        "id": "Hk3mGA9F",
+        "type": "item",
+        "label": "Marie Gabriel Augustin Savard",
+        "description": "French composer (1814–1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "MarieGabrielAugustinSavard.jpg"
+        }
+      },
+      {
+        "id": "hqAkT6Xz",
+        "type": "item",
+        "label": "Georges Mathias",
+        "description": "French composer, pianist and teacher (1826-1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georges_Mathias_par_Marie-Alexandre_Alophe.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "François_Bazin_par_Carjat_BNF_Gallica.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "57TxaobZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "57TxaobZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "57TxaobZ.csv"
       }
     ]
   }

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q370804",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ofatinți"
       }
     ],
     "aliases": [
@@ -62,8 +63,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "617091"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q217",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Moldova"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VKGEysTw",
+        "type": "item",
+        "label": "Anton Rubinstein",
+        "description": "Russian pianist, composer and conductor (1829–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Rubinstein_by_J_Ganz.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "fLJXdPb5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "fLJXdPb5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "fLJXdPb5.csv"
+      }
+    ]
+  }
 }

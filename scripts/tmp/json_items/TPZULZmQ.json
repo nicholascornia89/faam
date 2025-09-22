@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q40529382",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Theodor de Witt"
       }
     ]
   },
@@ -146,13 +147,123 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UJLTRM5b",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 2: Fünf-, sechs- und achtstimmige Motetten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082707169707356.gif"
+        }
+      },
+      {
+        "id": "Dk5oGB8N",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 3: Fünf-, sechs- und achtstimmige Motetten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082707299707356.gif"
+        }
+      },
+      {
+        "id": "AgybmDjB",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 4: Fünfstimmige Motetten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082707739707356.gif"
+        }
+      },
+      {
+        "id": "k377mGxw",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 5: Vierstimmige Motetten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082707889707356.gif"
+        }
+      },
+      {
+        "id": "e8i2s9MQ",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 6: Fünf-, sechs- und achtstimmige Motetten aus dem Nachlaß",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082708099707356.gif"
+        }
+      },
+      {
+        "id": "Eivrb66L",
+        "type": "item",
+        "label": "Pierluigi da Palestrina's Werke. 7: Vier-, sechs-, acht- und zwölfstimmige Motetten aus dem Nachlaß : nebst e. Verzeichniß der in Bd. I - VII enth. Motetten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991082708499707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "E3dFS2Sz",
+        "type": "item",
+        "label": "Hodie Christus natus est, IGP 24",
+        "description": ""
+      },
+      {
+        "id": "S5RiCxEG",
+        "type": "item",
+        "label": "Canite tuba in Sion",
+        "description": ""
+      },
+      {
+        "id": "biccX4ME",
+        "type": "item",
+        "label": "Tribularer si nescirem",
+        "description": ""
+      },
+      {
+        "id": "VuaVDUR5",
+        "type": "item",
+        "label": "Exultate Deo, IGP 125",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TPZULZmQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TPZULZmQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TPZULZmQ.csv"
       }
     ]
   }

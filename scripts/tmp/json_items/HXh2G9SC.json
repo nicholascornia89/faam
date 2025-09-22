@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q17303149",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "piano teacher"
       }
     ],
     "aliases": [
@@ -59,6 +60,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "54NuNqoP",
+        "type": "item",
+        "label": "Louise Farrenc",
+        "description": "French composer, pianist and teacher (1804–1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louise_Farrenc_painting.jpg"
+        }
+      },
+      {
+        "id": "YTuNb4Po",
+        "type": "item",
+        "label": "Wojciech Żywny",
+        "description": "Polish pianist, composer of Czech origin; Frédéric Chopin's piano teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Wojciech_Żywny,_Ambroży_Mieroszewski.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HXh2G9SC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HXh2G9SC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HXh2G9SC.csv"
+      }
+    ]
+  }
 }

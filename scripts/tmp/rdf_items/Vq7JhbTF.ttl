@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Vq7JhbTF a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former country in Eurasia (1922–1991)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15180>,
+        "15997465"^^xsd:string,
+        "Vq7JhbTF"^^xsd:string ;
+    skos:altLabel "CCCP"^^xsd:string,
+        "SU"^^xsd:string,
+        "Soviet Union"^^xsd:string,
+        "Soviets"^^xsd:string,
+        "The Soviets"^^xsd:string,
+        "The USSR"^^xsd:string,
+        "U.S.S.R"^^xsd:string,
+        "U.S.S.R."^^xsd:string,
+        "URS"^^xsd:string,
+        "USSR"^^xsd:string,
+        "Union of Soviet Socialist Republics"^^xsd:string,
+        "the Soviet Union"^^xsd:string,
+        "the Union of Soviet Socialist Republics"^^xsd:string ;
+    skos:prefLabel "Soviet Union"^^xsd:string .
+

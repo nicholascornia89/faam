@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UEamoqMR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Italian violonist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q23656765>,
+        "0"^^xsd:string,
+        "UEamoqMR"^^xsd:string ;
+    skos:prefLabel "Leonardo Brugnoli"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:mBtEDC3c ;
+    schema:hasOccupation faamentity:irSPevuD .
+

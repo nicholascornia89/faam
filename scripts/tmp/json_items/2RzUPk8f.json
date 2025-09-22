@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q3725498",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ennio Porrino"
       }
     ]
   },
@@ -164,13 +165,55 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SBYaj7nF",
+        "type": "item",
+        "label": "Concerto per chitarra, archi e timpani, op. 30",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904183586.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bE9Zuipi",
+        "type": "item",
+        "label": "Guitar Concerto No.1, Op.30",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Ennio_Porrino.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2RzUPk8f.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2RzUPk8f.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2RzUPk8f.csv"
       }
     ]
   }

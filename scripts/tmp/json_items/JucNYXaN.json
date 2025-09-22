@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1031430",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Habsburg Netherlands"
       }
     ],
     "aliases": [
@@ -53,6 +54,61 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "AZL2k82C",
+        "type": "item",
+        "label": "Orlande de Lassus",
+        "description": "Franco-Flemish composer (1532–1594)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/3/37/Orlande_de_Lassus.jpg"
+        }
+      },
+      {
+        "id": "EkHj4fV2",
+        "type": "item",
+        "label": "Jacob Clemens non Papa",
+        "description": "16th-century Flemish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Vm3JWtge",
+        "type": "item",
+        "label": "Josquin des Prez",
+        "description": "composer of the Renaissance (c. 1450–1521)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Josquin_des_Prez.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "JucNYXaN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "JucNYXaN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "JucNYXaN.csv"
+      }
+    ]
+  }
 }

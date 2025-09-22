@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8CmeUX2q a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "brass musical instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q382616>,
+        "15990830"^^xsd:string,
+        "8CmeUX2q"^^xsd:string ;
+    skos:altLabel "B♭ soprano saxhorn"^^xsd:string,
+        "flugelhorn"^^xsd:string ;
+    skos:prefLabel "flugelhorn"^^xsd:string .
+

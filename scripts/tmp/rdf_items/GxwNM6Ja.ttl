@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GxwNM6Ja a rdfs:Resource ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1853-03-08"^^xsd:string ;
+    schema1:birthPlace faamentity:jGe3vcFB ;
+    schema1:deathDate "1916-01-29"^^xsd:string ;
+    schema1:description "Belgian conductor and co-founder of the Flemish Opera"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2750289>,
+        "15996067"^^xsd:string,
+        "GxwNM6Ja"^^xsd:string ;
+    schema1:nationality faamentity:QbfXawnE ;
+    skos:altLabel "Edward Keurvels"^^xsd:string ;
+    skos:prefLabel "Edward Keurvels"^^xsd:string ;
+    wd:P108 faamentity:NaVsGiXL ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:63583397 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Keurvels,_Edward> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf .
+

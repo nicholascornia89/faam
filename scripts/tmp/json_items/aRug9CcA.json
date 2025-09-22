@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q6625963",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "novelist"
       }
     ],
     "aliases": [
@@ -59,6 +60,61 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "55ZS5oG8",
+        "type": "item",
+        "label": "Sophie Gay",
+        "description": "French writer (1776–1852)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marie_Françoise_Sophie_Nichault_de_la_Valette-02.jpg"
+        }
+      },
+      {
+        "id": "FimCssKK",
+        "type": "item",
+        "label": "Jean-Jacques Rousseau",
+        "description": "Genevan philosopher, writer, and composer (1712–1778)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean-Jacques_Rousseau_(painted_portrait).jpg"
+        }
+      },
+      {
+        "id": "WziMjzeY",
+        "type": "item",
+        "label": "Umberto Eco",
+        "description": "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Italiaanse_schrijver_Umberto_Eco_,_kop,_Bestanddeelnr_932-9758.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aRug9CcA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aRug9CcA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aRug9CcA.csv"
+      }
+    ]
+  }
 }

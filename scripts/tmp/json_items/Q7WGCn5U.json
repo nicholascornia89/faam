@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q461296",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antonio Bazzini"
       }
     ]
   },
@@ -172,7 +173,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JdYVjNkJ",
+        "type": "item",
+        "label": "Giacomo Puccini",
+        "description": "Italian opera composer (1858–1924)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoPuccini.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -184,6 +198,27 @@
         "type": "image",
         "value": "Antonio_Bazzini.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Q7WGCn5U.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Q7WGCn5U.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Q7WGCn5U.csv"
       }
     ]
   }

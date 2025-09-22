@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q67199923",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sonata K. 96"
       }
     ]
   },
@@ -115,6 +116,101 @@
     ],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "2xLiasCG",
+        "type": "item",
+        "label": "Sonate N. 38 (Gigue)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP69444.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      },
+      {
+        "id": "5o4Gdde7",
+        "type": "item",
+        "label": "Sonate n° 38 [i.e. 96] : gigue / Domenico Scarlatti...",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43257934r.gif"
+        }
+      },
+      {
+        "id": "XS4uFbwC",
+        "type": "item",
+        "label": "29 sonatas",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903597976.gif"
+        }
+      },
+      {
+        "id": "ArTRDed4",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "iPNtXLJH",
+        "type": "item",
+        "label": "Sämtliche Werke : für d. Pianoforte",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991078401649707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Pte4bScC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Pte4bScC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Pte4bScC.csv"
+      }
+    ]
+  }
 }

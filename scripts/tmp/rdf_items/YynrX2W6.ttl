@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YynrX2W6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:euCa8A2S ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:aWLSfvkc ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:Mqi4X7X4 ;
+    schema1:hasPart faamentity:VnGXVnrK ;
+    schema1:identifier "15992589"^^xsd:string,
+        "KCG-000334849"^^xsd:string,
+        "YynrX2W6"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334849"^^schema1:url ;
+    skos:prefLabel "1er Sextuor : Pour Piano Forte, 2 Violons, Alto, Violoncelle et Contrebasse : Opera 79"^^xsd:string ;
+    wd:P217 "II-A-56"^^xsd:string ;
+    wd:P870 faamentity:4oyT6BBG,
+        faamentity:5cucf8tb,
+        faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN,
+        faamentity:WsKgSBQG .
+
+schema1:contributor a rdf:predicate .
+
+"YynrX2W6-411ab803-c512-40a9-aaaa-c2f5cf78ab25"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"YynrX2W6-c78ca011-a75e-4f8a-81d7-77ad6fe07d6c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:Mqi4X7X4 a rdf:object .
+

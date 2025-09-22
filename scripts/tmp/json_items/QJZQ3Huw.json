@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q12377274",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "trumpeter"
       }
     ],
     "aliases": [
@@ -59,6 +60,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GzuL4BkR",
+        "type": "item",
+        "label": "Johann Schrammel",
+        "description": "Austrian composer (1850-1893)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "WP_Johann_Schrammel.jpg"
+        }
+      },
+      {
+        "id": "ARvMcwAo",
+        "type": "item",
+        "label": "Jean-Baptiste Arban",
+        "description": "French cornetist, conductor, composer and pedagogue (1825–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Baptiste_Arban_Disderi_BNF_Gallica.jpg"
+        }
+      },
+      {
+        "id": "Hcg2H56A",
+        "type": "item",
+        "label": "Théo Charlier",
+        "description": "Belgian composer (1868 - 1944)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "LQW34jka",
+        "type": "item",
+        "label": "Johann Ambrosius Bach",
+        "description": "German musician, father to Johann Sebastian Bach (1645-1695)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Johann_Ambrosius_Bach.jpg"
+        }
+      },
+      {
+        "id": "MamFBgno",
+        "type": "item",
+        "label": "François Dauverné",
+        "description": "French musician (1799-1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dauverne.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QJZQ3Huw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QJZQ3Huw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QJZQ3Huw.csv"
+      }
+    ]
+  }
 }

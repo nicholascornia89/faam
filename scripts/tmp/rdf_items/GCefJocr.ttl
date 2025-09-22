@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GCefJocr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1765-10-16"^^xsd:string ;
+    schema1:birthPlace faamentity:VgTkhpUp ;
+    schema1:deathDate "1838-07-29"^^xsd:string ;
+    schema1:deathPlace faamentity:NNCtKcUB ;
+    schema1:description "composer and French horn player (1765-1838)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q443012>,
+        "0"^^xsd:string,
+        "GCefJocr"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:prefLabel "Frédéric Nicolas Duvernoy"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P1303 faamentity:6KRAsBPw ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:311244685 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/26142> ;
+    wd:P839 <https://imslp.org/wiki/Category:Duvernoy,_Frédéric> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:93wApfkY,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:n8RY6FTC .
+

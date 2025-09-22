@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NcRBkJKT a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "writer who writes for films, TV shows, comics and games"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q28389>,
+        "15990965"^^xsd:string,
+        "NcRBkJKT"^^xsd:string ;
+    skos:altLabel "scenarist"^^xsd:string,
+        "screen writer"^^xsd:string,
+        "screenplay writer"^^xsd:string,
+        "screenwriter"^^xsd:string,
+        "script writer"^^xsd:string,
+        "scriptwriter"^^xsd:string,
+        "writer"^^xsd:string ;
+    skos:prefLabel "screenwriter"^^xsd:string,
+        "translator"^^xsd:string .
+

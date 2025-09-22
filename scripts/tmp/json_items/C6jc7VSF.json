@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q235858",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "traditional folk music"
       }
     ],
     "aliases": [
@@ -63,6 +64,65 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "JZHWbqPD",
+        "type": "item",
+        "label": "Twenty-seven old Flemish folk songs : transcribed for piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904517767.gif"
+        }
+      },
+      {
+        "id": "5Y2xZkkq",
+        "type": "item",
+        "label": "Échos du temps passé.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "UTL-978130914.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "gZ3KmbeG",
+        "type": "item",
+        "label": "Stanco di pascolar",
+        "description": ""
+      },
+      {
+        "id": "Uc9ZydbH",
+        "type": "item",
+        "label": "Canzone Napolitana",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "C6jc7VSF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "C6jc7VSF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "C6jc7VSF.csv"
+      }
+    ]
+  }
 }

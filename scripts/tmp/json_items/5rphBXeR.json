@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1395790",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Francesco Antonio Vallotti"
       }
     ]
   },
@@ -162,13 +163,57 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FzjxzHoa",
+        "type": "item",
+        "label": "Giuseppe Sarti",
+        "description": "Italian opera composer (1729–1802)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Sarti_(1729-1802).jpg"
+        }
+      },
+      {
+        "id": "K9sJXiWg",
+        "type": "item",
+        "label": "Georg Joseph Vogler",
+        "description": "German composer, organist, teacher and music theorist (1747-1814)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Georg_Joseph_Vogler.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Francesco_Antonio_Vallotti.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "5rphBXeR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "5rphBXeR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "5rphBXeR.csv"
       }
     ]
   }

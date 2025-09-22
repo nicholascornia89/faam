@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZjSyXS8P a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1700-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:RjXv6xhJ ;
+    schema1:deathDate "1764-04-13"^^xsd:string ;
+    schema1:deathPlace faamentity:RjXv6xhJ ;
+    schema1:description "Italian composer and violinist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q436512>,
+        "0"^^xsd:string,
+        "ZjSyXS8P"^^xsd:string ;
+    skos:prefLabel "Nicola Fiorenza"^^xsd:string ;
+    wd:P1303 faamentity:VZE4bgeN ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:1648159035190501380008,
+        viaf:79436621 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30001071> ;
+    wd:P737 faamentity:3xHq9ChM ;
+    wd:P839 <https://imslp.org/wiki/Category:Fiorenza,_Nicola> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

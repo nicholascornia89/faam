@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M3sjJXNR a rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Gokp7gYh ;
+    schema1:birthDate "1864-04-10"^^xsd:string ;
+    schema1:birthPlace faamentity:m6E7ZF9p ;
+    schema1:deathDate "1932-03-03"^^xsd:string ;
+    schema1:deathPlace faamentity:EzdoTRnw ;
+    schema1:description "Scottish-born German pianist and composer (1864-1932)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57178>,
+        "16004216"^^xsd:string,
+        "M3sjJXNR"^^xsd:string ;
+    schema1:nationality faamentity:MGBpLC55,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Eugen Francis Charles d'Albert"^^xsd:string,
+        "Eugen d'Albert"^^xsd:string,
+        "Eugene d`Albert"^^xsd:string ;
+    skos:prefLabel "Eugen d'Albert"^^xsd:string ;
+    wd:P108 faamentity:EcLiYQXZ ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:34642370 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/1047> ;
+    wd:P737 faamentity:ewwggKDh ;
+    wd:P839 <https://imslp.org/wiki/Category:Albert,_Eugen_d'> ;
+    schema:hasOccupation faamentity:9jaW5gj6,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

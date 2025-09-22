@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q787378",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Violin Concerto in D major, Op. 61"
       }
     ]
   },
@@ -93,6 +94,41 @@
     "adapted by": [],
     "based on": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "hQR8XGzr",
+        "type": "item",
+        "label": "Concerto : pour le violon Avec Accompagnement de 2 Violons, Alto, Flûte, 2 Hautbois, 2 Clarinettes, 2 cors, 2 Bassons, 2 trompettes, Timballe, Violoncelle et Basse : Op. 61",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000333156.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2cNxvch5.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2cNxvch5.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2cNxvch5.csv"
+      }
+    ]
+  }
 }

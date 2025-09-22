@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q550788",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Antonio Maria Abbatini"
       }
     ]
   },
@@ -140,13 +141,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "67rTrZtC",
+        "type": "item",
+        "label": "Giovanni Paolo Colonna",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Paolo_Colonna.jpg"
+        }
+      },
+      {
+        "id": "iiRfbXBY",
+        "type": "item",
+        "label": "Giuseppe Corsi",
+        "description": "Italian composer and priest",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "FnYq9xAf",
+        "type": "item",
+        "label": "Antonio Cesti",
+        "description": "Italian composer, singer and organist (1623-1669)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oEEHimPd.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oEEHimPd.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oEEHimPd.csv"
       }
     ]
   }

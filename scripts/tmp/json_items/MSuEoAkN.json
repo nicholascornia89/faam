@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q127520020",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Album Musica"
       }
     ],
     "aliases": [
@@ -66,6 +67,183 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "B75PmxqS",
+        "type": "item",
+        "label": "Album Musica N. 31",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p9.gif"
+        }
+      },
+      {
+        "id": "B75PmxqS",
+        "type": "item",
+        "label": "Album Musica N. 31",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p9.gif"
+        }
+      },
+      {
+        "id": "B75PmxqS",
+        "type": "item",
+        "label": "Album Musica N. 31",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p9.gif"
+        }
+      },
+      {
+        "id": "Y2ndERBn",
+        "type": "item",
+        "label": "Album Musica N. 30",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p10.gif"
+        }
+      },
+      {
+        "id": "Y2ndERBn",
+        "type": "item",
+        "label": "Album Musica N. 30",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p10.gif"
+        }
+      },
+      {
+        "id": "Y2ndERBn",
+        "type": "item",
+        "label": "Album Musica N. 30",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p10.gif"
+        }
+      },
+      {
+        "id": "Sqeyu6SP",
+        "type": "item",
+        "label": "Souvenir a Élise",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p2.gif"
+        }
+      },
+      {
+        "id": "fZTYnC7D",
+        "type": "item",
+        "label": "Loin d'elle",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p3.gif"
+        }
+      },
+      {
+        "id": "gsfxgxGm",
+        "type": "item",
+        "label": "Feuille d'album",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p4.gif"
+        }
+      },
+      {
+        "id": "7Pgjc6nn",
+        "type": "item",
+        "label": "Bagatelle",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p5.gif"
+        }
+      },
+      {
+        "id": "4LEnZE7H",
+        "type": "item",
+        "label": "Ballade de \"Mignon\"",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p6.gif"
+        }
+      },
+      {
+        "id": "2iYUU92Y",
+        "type": "item",
+        "label": "Polonaise",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p7.gif"
+        }
+      },
+      {
+        "id": "aRHkroJB",
+        "type": "item",
+        "label": "Adagio (de la sonate Au Clair de Lune)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p8.gif"
+        }
+      },
+      {
+        "id": "oALdmh6L",
+        "type": "item",
+        "label": "Rondo (de la sonate pour Piano)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143701p9.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "E626B3UB",
+        "type": "item",
+        "label": "Georges de Lausnay",
+        "description": "French composer, pianist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MSuEoAkN.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MSuEoAkN.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MSuEoAkN.csv"
+      }
+    ]
+  }
 }

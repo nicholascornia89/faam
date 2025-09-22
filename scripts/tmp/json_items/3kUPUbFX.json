@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q6120326",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jacques-Jules Bouffil"
       }
     ]
   },
@@ -156,13 +157,55 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "nc5aLWEZ",
+        "type": "item",
+        "label": "Trois Trios : Pour Trois Clarinettes : Opéra 8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000336430.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "2sTiBgMV",
+        "type": "item",
+        "label": "The Creatures of Prometheus",
+        "description": "musical composition by Beethoven"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3kUPUbFX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3kUPUbFX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3kUPUbFX.csv"
       }
     ]
   }

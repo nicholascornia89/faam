@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Y4Su8bEC a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GoiPpGap ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Wikimedia disambiguation page"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5443821>,
+        "15995955"^^xsd:string,
+        "Y4Su8bEC"^^xsd:string ;
+    skos:altLabel "Ferdinand David"^^xsd:string ;
+    skos:prefLabel "Ferdinand David"^^xsd:string ;
+    wd:P31 faamentity:VN2C5Tey ;
+    schema:hasOccupation faamentity:irSPevuD .
+

@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q926749",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lycée Condorcet"
       }
     ],
     "aliases": [
@@ -70,6 +71,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZPPWH75r",
+        "type": "item",
+        "label": "Henri Rabaud",
+        "description": "French composer (1873-1949)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henri_Rabaud.jpg"
+        }
+      },
+      {
+        "id": "6x6dxCTi",
+        "type": "item",
+        "label": "Paul Verlaine",
+        "description": "French poet (1844–1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Netsurf17_-_Paul_Verlaine.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KN2a4PhV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KN2a4PhV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KN2a4PhV.csv"
+      }
+    ]
+  }
 }

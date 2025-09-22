@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:btJrbFVL a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1697-03-30"^^xsd:string ;
+    schema1:birthPlace faamentity:MDWRhZ8K ;
+    schema1:deathDate "1781-11-04"^^xsd:string ;
+    schema1:deathPlace faamentity:MDWRhZ8K ;
+    schema1:description "opera singer (1697-1781)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q267651>,
+        "15995845"^^xsd:string,
+        "btJrbFVL"^^xsd:string ;
+    schema1:nationality faamentity:7L3SCe2M ;
+    skos:altLabel "Faustina Bordoni"^^xsd:string ;
+    skos:prefLabel "Faustina Bordoni"^^xsd:string ;
+    wd:P1303 faamentity:KJkThvsq ;
+    wd:P21 faamentity:ge9ACHGn ;
+    wd:P214 viaf:9820191 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30028324> ;
+    wd:P737 faamentity:DbRGTwme,
+        faamentity:U4xTax2x,
+        faamentity:YL2RebW9 ;
+    schema:hasOccupation faamentity:AAY26oc5,
+        faamentity:n9MN9cLo .
+

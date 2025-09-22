@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KbDLviBB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:jCuFYGDc ;
+    faamprop:handwritten_annotation faamentity:Pcc4PpDc,
+        faamentity:Rfoj9dh4,
+        faamentity:VMA2AmEN,
+        faamentity:gSHSbZQr ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:MEjPi9ot,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:73vECvez ;
+    schema1:hasPart faamentity:gvB7xdLy ;
+    schema1:identifier "15992317"^^xsd:string,
+        "KCA-030900746162"^^xsd:string,
+        "KbDLviBB"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6785134/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: drame: ouverture"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"KbDLviBB-1bef806a-7f06-47c1-9779-46189170a64e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"KbDLviBB-68dea6ea-22f0-4dfb-86f7-e59bed7d392d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:73vECvez a rdf:object .
+

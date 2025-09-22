@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2920855",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Académie Royale de Musique"
       }
     ]
   },
@@ -50,6 +51,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "cfjvBLvn",
+        "type": "item",
+        "label": "Jean-Féry Rebel",
+        "description": "French Baroque composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Ferry_Rebel.jpg"
+        }
+      },
+      {
+        "id": "AAfzVCYS",
+        "type": "item",
+        "label": "André Campra",
+        "description": "French composer and conductor (1660-1744)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PuHUWBAB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PuHUWBAB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PuHUWBAB.csv"
+      }
+    ]
+  }
 }

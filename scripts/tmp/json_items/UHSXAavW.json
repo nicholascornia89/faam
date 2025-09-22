@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q41185",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Caen"
       }
     ],
     "aliases": [
@@ -54,8 +55,100 @@
         "base_url": "https://www.geonames.org/",
         "label": "3029241"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "h3KR8DCE",
+        "type": "item",
+        "label": "Gabriel Dupont",
+        "description": "French composer (1878-1914)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gabriel_Dupont_1901.png"
+        }
+      },
+      {
+        "id": "nrWaKLQc",
+        "type": "item",
+        "label": "Alexandre-Étienne Choron",
+        "description": "French musician (1771-1834)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alexandre-Étienne_Choron.jpg"
+        }
+      },
+      {
+        "id": "XedLsZdL",
+        "type": "item",
+        "label": "Émile Travers",
+        "description": "French historian",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "SU2CV5XY",
+        "type": "item",
+        "label": "Daniel François Esprit Auber",
+        "description": "French composer (1782-1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Postcard-1910_Daniel_Fransois_Auber.jpg"
+        }
+      },
+      {
+        "id": "TixZJuwC",
+        "type": "item",
+        "label": "Estienne Roger",
+        "description": "French-Dutch printer and publisher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "1715_Renneville,_L’Inquisition_Françoise.jpg"
+        }
+      },
+      {
+        "id": "XedLsZdL",
+        "type": "item",
+        "label": "Émile Travers",
+        "description": "French historian",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UHSXAavW.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UHSXAavW.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UHSXAavW.csv"
+      }
+    ]
+  }
 }

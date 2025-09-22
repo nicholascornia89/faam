@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q131299435",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Joseph-Henri Mees"
       }
     ]
   },
@@ -171,13 +172,47 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "XC9LW3oV",
+        "type": "item",
+        "label": "Etrennes lyriques : méthode raisonnée pour exercer la voix et la préparer aux plus grandes difficultés",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902603726.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "https://books.google.be/books/content?id=FF43AAAAMAAJ&pg=RA1-PA108-IA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3fR2lqHxKj7QCsFDfgmgzbt8okpw&ci=130%2C291%2C711%2C660&edge=0",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4AB2zi5z.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4AB2zi5z.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4AB2zi5z.csv"
       }
     ]
   }

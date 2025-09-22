@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q602859",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lamentations of Jeremiah the Prophet"
       }
     ],
     "aliases": [
@@ -63,6 +64,49 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UkLCUyKp",
+        "type": "item",
+        "label": "Collection des pièces de musique réligieuse: qui s'exécutent tous les ans à Rome, durant la Semaine-Sainte, dans la chapelle du Souverain-Pontife",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076911629707356.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TqXkQEQd",
+        "type": "item",
+        "label": "Lamentationes Jeremiae Prophetae",
+        "description": "composition by Gregorio Allegri"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6EuiKm2m.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6EuiKm2m.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6EuiKm2m.csv"
+      }
+    ]
+  }
 }

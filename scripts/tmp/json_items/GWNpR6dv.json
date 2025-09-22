@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q1137665",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ghent University"
       }
     ],
     "aliases": [
@@ -96,6 +97,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "6BoSi8gw",
+        "type": "item",
+        "label": "Flor Peeters",
+        "description": "Flemish organist, composer and music pedagogue (1903–1986)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png"
+        }
+      },
+      {
+        "id": "FSEwRZh3",
+        "type": "item",
+        "label": "Eugeen van Oye",
+        "description": "Belgian doctor, writer, poet and publicist (1840-1926)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eugeen_van_Oye_-_Statue_in_Gistel.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GWNpR6dv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GWNpR6dv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GWNpR6dv.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LdVQuLc4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2iBnpzus,
+        faamentity:9dz9ydpz,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:ULbwT6u4,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:BarxiZYR,
+        faamentity:VMA2AmEN,
+        faamentity:bZxRjBKt,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:M9HRWrxt,
+        faamentity:MEjPi9ot,
+        faamentity:jTMjFsDj ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:9k9eE2C2,
+        faamentity:DnCFCwbG ;
+    schema1:identifier "16002772"^^xsd:string,
+        "KCA-030902645412"^^xsd:string,
+        "LdVQuLc4"^^xsd:string ;
+    schema1:location faamentity:5kEoh4sP ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13045005/N"^^schema1:url ;
+    skos:prefLabel "Missa in honorem s. Luciae"^^xsd:string ;
+    wd:P217 "MM-KA-OLVKA-archief-1518"^^xsd:string ;
+    wd:P870 faamentity:5yLc7bQJ,
+        faamentity:RXg4snEH .
+
+schema1:contributor a rdf:predicate .
+
+"LdVQuLc4-21f441d4-4ce5-4aa5-90b8-9e03afa90131"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"LdVQuLc4-3ac6fea3-d31c-4df1-86a5-45904380bbf4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:5kEoh4sP .
+
+"LdVQuLc4-e19c77f4-c9f5-4e9a-bae4-689653a6d1dd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:9k9eE2C2 a rdf:object .
+
+faamentity:DnCFCwbG a rdf:object .
+

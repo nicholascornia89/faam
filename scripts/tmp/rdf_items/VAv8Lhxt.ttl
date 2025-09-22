@@ -1,0 +1,71 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VAv8Lhxt a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1976"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:LiFYdNgN,
+        faamentity:UfinksVv,
+        faamentity:XutP4SZN,
+        faamentity:euCa8A2S ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:jCuFYGDc,
+        faamentity:kmMxdth8 ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:U5dHgcL4,
+        faamentity:Zv3DsXnp,
+        faamentity:mWJuSmyV ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:EjCZCpgM,
+        faamentity:fx3eWedX,
+        faamentity:nkqN8W6g ;
+    schema1:identifier "15992527"^^xsd:string,
+        "KCA-030904176952"^^xsd:string,
+        "VAv8Lhxt"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6714308/N"^^schema1:url ;
+    skos:prefLabel "Variations sur les \"Folies d'Espagne\", op. 45"^^xsd:string ;
+    wd:P217 "UM-TGI-GIULI-varia45-1"^^xsd:string ;
+    wd:P870 faamentity:2pgcwfpN .
+
+schema1:contributor a rdf:predicate .
+
+"VAv8Lhxt-03112dd1-c87f-44a3-bc33-dc649335f44b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1976"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"VAv8Lhxt-4804ba12-c6c9-4ac4-86e0-c71aa95d7f8b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"VAv8Lhxt-8221a12a-018f-491a-b94d-e0b15bac8766"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"VAv8Lhxt-d4a5dd03-47d2-451b-a777-3c5293c3cce0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:EjCZCpgM a rdf:object .
+
+faamentity:fx3eWedX a rdf:object .
+
+faamentity:nkqN8W6g a rdf:object .
+

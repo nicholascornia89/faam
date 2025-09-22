@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2083032",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Pipe Organ School in Prague"
       }
     ],
     "aliases": []
@@ -51,6 +52,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QxJM2hye",
+        "type": "item",
+        "label": "Antonín Dvořák",
+        "description": "Czech composer (1841–1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dvorak.jpg"
+        }
+      },
+      {
+        "id": "nShUtVSk",
+        "type": "item",
+        "label": "Wilhelm Mayer",
+        "description": "Austrian composer and music teacher (1831-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QoUXQiJb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QoUXQiJb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QoUXQiJb.csv"
+      }
+    ]
+  }
 }

@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VB5ZNecV a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1528-10-04"^^xsd:string ;
+    schema1:birthPlace faamentity:oA9XiCdV ;
+    schema1:deathDate "1599-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:oA9XiCdV ;
+    schema1:description "Spanish composer of the Renaissance"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q470568>,
+        "16002769"^^xsd:string,
+        "VB5ZNecV"^^xsd:string ;
+    schema1:nationality faamentity:6WQk6YRw,
+        faamentity:f4z5bdam ;
+    skos:altLabel "Francisco Guerrero"^^xsd:string ;
+    skos:prefLabel "Francisco Guerrero"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:46901530 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30001394> ;
+    wd:P839 <https://imslp.org/wiki/Category:Guerrero,_Francisco> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1358737",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lambert Massart"
       }
     ]
   },
@@ -156,7 +157,40 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "PxvuntZk",
+        "type": "item",
+        "label": "Pablo de Sarasate",
+        "description": "Spanish violinist and composer (1844–1908)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Pablo_de_Sarasate_1906.jpg"
+        }
+      },
+      {
+        "id": "APRRus3e",
+        "type": "item",
+        "label": "Fritz Kreisler",
+        "description": "Austrian violinist and composer (1875-1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Kreisler.jpg"
+        }
+      },
+      {
+        "id": "GTpQEbzC",
+        "type": "item",
+        "label": "Alexandre Luigini",
+        "description": "French composer (1850–1906)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Luigini,_Alexandre,_Nadar,_Gallica.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -173,6 +207,27 @@
         "type": "image",
         "value": "Lambert_Joseph_Massart_by_Nadar.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6iRRnpYK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6iRRnpYK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6iRRnpYK.csv"
       }
     ]
   }

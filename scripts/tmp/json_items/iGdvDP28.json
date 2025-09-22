@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q8701407",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "waltz"
       }
     ],
     "aliases": [
@@ -71,6 +72,81 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "eqXWAogh",
+        "type": "item",
+        "label": "l'Arbre de Noël: valse brillante",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901847712.gif"
+        }
+      },
+      {
+        "id": "gn8dZoPC",
+        "type": "item",
+        "label": "Pot-pourri : En B fa si [pour piano]",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000329752.gif"
+        }
+      },
+      {
+        "id": "dxTTXDqo",
+        "type": "item",
+        "label": "VALSONS, VALSONS ENCORE",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000352995.gif"
+        }
+      },
+      {
+        "id": "GoSoNTFk",
+        "type": "item",
+        "label": "Le réveil du jour : valse chantée",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904385611.gif"
+        }
+      },
+      {
+        "id": "K4ty8Fie",
+        "type": "item",
+        "label": "Grande Valse de Salon sur Le Pardon de Ploërmel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p11.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iGdvDP28.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iGdvDP28.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iGdvDP28.csv"
+      }
+    ]
+  }
 }

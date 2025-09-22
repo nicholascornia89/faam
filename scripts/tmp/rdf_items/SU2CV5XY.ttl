@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SU2CV5XY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1782-01-29"^^xsd:string ;
+    schema1:birthPlace faamentity:UHSXAavW ;
+    schema1:deathDate "1871-05-12"^^xsd:string ;
+    schema1:deathPlace faamentity:5FBtSF63 ;
+    schema1:description "French composer (1782-1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q157672>,
+        "15995965"^^xsd:string,
+        "SU2CV5XY"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Auber"^^xsd:string,
+        "Daniel François Esprit Auber"^^xsd:string,
+        "Daniel-François-Esprit Auber"^^xsd:string,
+        "François Auber"^^xsd:string ;
+    skos:prefLabel "Daniel François Esprit Auber"^^xsd:string ;
+    wd:P108 faamentity:NA5EnjbE ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:7573044 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/38000> ;
+    wd:P737 faamentity:dMpyE7gF,
+        faamentity:fHUUPCvw ;
+    wd:P839 <https://imslp.org/wiki/Category:Auber,_Daniel_François_Esprit> ;
+    schema:hasOccupation faamentity:2e3yeRss,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:Ygb8LLjd .
+

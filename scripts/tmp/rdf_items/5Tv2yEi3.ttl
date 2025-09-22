@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5Tv2yEi3 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "six suites for unaccompanied cello composed by J. S. Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q756843>,
+        "16002367"^^xsd:string,
+        "5Tv2yEi3"^^xsd:string ;
+    skos:altLabel "6 Suites a Violoncello solo senza Basso"^^xsd:string,
+        "BWV 1007-1012"^^xsd:string,
+        "Cello Suites"^^xsd:string ;
+    skos:prefLabel "Cello Suites"^^xsd:string ;
+    wd:P214 viaf:193652248 ;
+    wd:P5202 faamentity:jK3acqwb ;
+    wd:P7937 faamentity:4Ug7EdNp ;
+    wd:P839 <https://imslp.org/wiki/6_Cello_Suites,_BWV_1007-1012_(Bach,_Johann_Sebastian)> .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2843",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Lübeck"
       }
     ],
     "aliases": [
@@ -82,8 +83,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "3249071"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "oDvJJJ7G",
+        "label": "Germany"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "XYEb9h53",
+        "type": "item",
+        "label": "Carl Maria von Weber",
+        "description": "German Romantic composer (1786–1826)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
+        }
+      },
+      {
+        "id": "o9BpzFce",
+        "type": "item",
+        "label": "Dietrich Buxtehude",
+        "description": "Danish-German organist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dieterich_Buxtehude.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ENQMmgHu.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ENQMmgHu.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ENQMmgHu.csv"
+      }
+    ]
+  }
 }

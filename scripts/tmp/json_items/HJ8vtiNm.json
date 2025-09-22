@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q657167",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Music and Theatre Munich"
       }
     ],
     "aliases": [
@@ -78,6 +79,81 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2eg9E4Mu",
+        "type": "item",
+        "label": "Peter Cornelius",
+        "description": "German composer (1824–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_cornelius.jpg"
+        }
+      },
+      {
+        "id": "4mYssfUB",
+        "type": "item",
+        "label": "Josef Rheinberger",
+        "description": "Liechtensteiner organist and composer (1839-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rheinberger.jpg"
+        }
+      },
+      {
+        "id": "Fjo5GQb8",
+        "type": "item",
+        "label": "Hanno Blaschke",
+        "description": "German singer (1927–2017)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hanno_Blaschke_(cropped).jpg"
+        }
+      },
+      {
+        "id": "77ZNQjk2",
+        "type": "item",
+        "label": "Giuseppe Buonamici",
+        "description": "Italian composer (1846–1914)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Buonamici.jpg"
+        }
+      },
+      {
+        "id": "4mYssfUB",
+        "type": "item",
+        "label": "Josef Rheinberger",
+        "description": "Liechtensteiner organist and composer (1839-1901)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Rheinberger.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HJ8vtiNm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HJ8vtiNm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HJ8vtiNm.csv"
+      }
+    ]
+  }
 }

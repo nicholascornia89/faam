@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TfBF8qj7 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:identifier "16002674"^^xsd:string,
+        "TfBF8qj7"^^xsd:string ;
+    skos:prefLabel "Jerusalem surge"^^xsd:string ;
+    wd:P5202 faamentity:6ng5YJy5 ;
+    wd:P7937 faamentity:Z5LXHFLR,
+        faamentity:nzEPJYVN .
+

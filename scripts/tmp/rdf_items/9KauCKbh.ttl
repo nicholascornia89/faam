@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9KauCKbh a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and largest city of Denmark"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1748>,
+        "0"^^xsd:string,
+        "9KauCKbh"^^xsd:string ;
+    schema1:location <http://wwww.wikidata.org/entity/Q35> ;
+    skos:altLabel "CPH"^^xsd:string,
+        "Copenhagen"^^xsd:string,
+        "Copenhagen, Denmark"^^xsd:string,
+        "Hafn"^^xsd:string,
+        "KBH"^^xsd:string,
+        "Kbh."^^xsd:string,
+        "Kobenhavn"^^xsd:string,
+        "Kopenhagen"^^xsd:string,
+        "Köbenhavn"^^xsd:string,
+        "København"^^xsd:string ;
+    skos:prefLabel "Copenhagen"^^xsd:string ;
+    wd:P1566 gn:2618425 .
+

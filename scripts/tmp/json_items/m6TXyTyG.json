@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q836571",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "fantasia"
       }
     ],
     "aliases": [
@@ -67,6 +68,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "hqBCeJ3M",
+        "type": "item",
+        "label": "Parisina",
+        "description": "poem of Lord Byron"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "m6TXyTyG.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "m6TXyTyG.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "m6TXyTyG.csv"
+      }
+    ]
+  }
 }

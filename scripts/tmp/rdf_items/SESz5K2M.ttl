@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SESz5K2M a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1745-02-19"^^xsd:string ;
+    schema1:birthPlace faamentity:nKexL6pz ;
+    schema1:deathDate "1805-05-28"^^xsd:string ;
+    schema1:deathPlace faamentity:4eWBVERq ;
+    schema1:description "Italian composer and cellist (1743–1805)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q189766>,
+        "16005023"^^xsd:string,
+        "SESz5K2M"^^xsd:string ;
+    schema1:nationality faamentity:7isyBsAv,
+        faamentity:TLEHxNru ;
+    skos:altLabel "Luigi Boccherini"^^xsd:string,
+        "Luigi Bocherini"^^xsd:string,
+        "Luigi Rodolfo Boccherini"^^xsd:string,
+        "Ridolfo Luigi Boccherini"^^xsd:string ;
+    skos:prefLabel "Luigi Boccherini"^^xsd:string ;
+    wd:P1303 faamentity:4oyT6BBG ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:89067361 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30000391> ;
+    wd:P737 faamentity:9DR2wABC ;
+    wd:P839 <https://imslp.org/wiki/Category:Boccherini,_Luigi> ;
+    schema:hasOccupation faamentity:7WBM7mQu,
+        faamentity:KZLqHwSf,
+        faamentity:dg4VBYfA .
+

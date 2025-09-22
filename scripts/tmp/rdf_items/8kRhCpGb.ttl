@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8kRhCpGb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP ;
+    faamprop:handwritten_annotation faamentity:6cyBEJLr,
+        faamentity:JnGFsz6r,
+        faamentity:XutP4SZN,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:CmqENXaQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CT372LTH,
+        faamentity:VbBQFWxA,
+        faamentity:nKP9cAbn ;
+    schema1:hasPart faamentity:bGwYCBeK ;
+    schema1:identifier "15992700"^^xsd:string,
+        "8kRhCpGb"^^xsd:string,
+        "KCA-030902402160"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6709314/N"^^schema1:url ;
+    skos:prefLabel "Quatre études, op. 2"^^xsd:string ;
+    wd:P217 "UM-TP-STRAV-studi7-1/2/3/4"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"8kRhCpGb-3064354f-eea1-473d-93a6-e6667919dcc7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"8kRhCpGb-9c5e5e53-a638-423f-be08-34daf7d0075b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"8kRhCpGb-d0cc7069-5eff-4fc7-9a4c-d1c51e2583e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:CT372LTH a rdf:object .
+
+faamentity:VbBQFWxA a rdf:object .
+
+faamentity:nKP9cAbn a rdf:object .
+

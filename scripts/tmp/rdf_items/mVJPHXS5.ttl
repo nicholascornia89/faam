@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mVJPHXS5 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:BnDGmWVX,
+        faamentity:FSduWvy5,
+        faamentity:K3Ds589T ;
+    dcterms:provenance faamentity:Y7xwGJo8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DfB3qbky,
+        faamentity:LoWNyNPp,
+        faamentity:QhRQ5LW9 ;
+    schema1:hasPart faamentity:B5MkJNa4 ;
+    schema1:identifier "16005716"^^xsd:string,
+        "BNF-428267676_1"^^xsd:string,
+        "mVJPHXS5"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428267676"^^schema1:url ;
+    skos:prefLabel "Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869]"^^xsd:string ;
+    wd:P217 "FOL-VM12-11512 (1)"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"mVJPHXS5-10a47ea4-8170-4144-ba31-ffa9777b737b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"mVJPHXS5-224d9b82-542b-4e5e-bd3f-7df2f60c6c70"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"mVJPHXS5-f221207a-9317-4c11-b574-47f1c04697c5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+faamentity:DfB3qbky a rdf:object .
+
+faamentity:LoWNyNPp a rdf:object .
+
+faamentity:QhRQ5LW9 a rdf:object .
+

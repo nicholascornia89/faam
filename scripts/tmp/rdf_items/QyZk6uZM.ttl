@@ -1,0 +1,48 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QyZk6uZM a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5 ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:hn6sVeFM ;
+    schema1:birthDate "1830-00-00"^^xsd:string,
+        "1830-06-22"^^xsd:string,
+        "1831-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:8zoxhzRD,
+        faamentity:Hz6qkXNY ;
+    schema1:deathDate "1915-11-14"^^xsd:string,
+        "1915-11-17"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp,
+        faamentity:MCyXT4P3 ;
+    schema1:description "Polish composer and pianist (1830–1915)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q362340>,
+        "16005149"^^xsd:string,
+        "QyZk6uZM"^^xsd:string ;
+    schema1:nationality faamentity:JRTTuQvY,
+        faamentity:WKTLcAet ;
+    skos:altLabel "Theodor Leschetizky"^^xsd:string ;
+    skos:prefLabel "Theodor Leschetizky"^^xsd:string ;
+    wd:P108 faamentity:nyaj8Ndp ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:32262032 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/95527> ;
+    wd:P737 faamentity:G9vyoK45,
+        faamentity:KEtoxXa7,
+        faamentity:YdWwzL5r ;
+    wd:P839 <https://imslp.org/wiki/Category:Leschetizky,_Theodor> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY,
+        faamentity:ZX7Jzf9y .
+

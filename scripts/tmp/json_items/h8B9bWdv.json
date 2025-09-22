@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q876812",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "capriccio"
       }
     ],
     "aliases": [
@@ -67,6 +68,37 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "R9adKPCG",
+        "type": "item",
+        "label": "The Art of Fugue",
+        "description": "musical work by Johann Sebastian Bach"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "h8B9bWdv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "h8B9bWdv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "h8B9bWdv.csv"
+      }
+    ]
+  }
 }

@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q296828",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Jacques Ibert"
       }
     ]
   },
@@ -179,7 +180,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "RUZQ2gYm",
+        "type": "item",
+        "label": "Conrad Beck",
+        "description": "Swiss composer (1901-1989)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Conrad_Beck_1961.jpeg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -191,6 +205,27 @@
         "type": "image",
         "value": "Jacques_Ibert.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TqfEoo49.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TqfEoo49.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TqfEoo49.csv"
       }
     ]
   }

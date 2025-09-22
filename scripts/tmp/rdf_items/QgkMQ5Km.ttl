@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QgkMQ5Km a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ddx923Ut ;
+    schema1:identifier "16004054"^^xsd:string,
+        "QgkMQ5Km"^^xsd:string ;
+    skos:prefLabel "Ave Maris Stella"^^xsd:string ;
+    wd:P5202 faamentity:9MCtsKYb,
+        faamentity:CJgFHXHi ;
+    wd:P7937 faamentity:kyU4WddT ;
+    wd:P839 <https://imslp.org/wiki/Ave_Maris_Stella_(Palestrina,_Giovanni_Pierluigi_da)> .
+

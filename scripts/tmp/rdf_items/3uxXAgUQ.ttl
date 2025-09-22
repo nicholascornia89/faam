@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3uxXAgUQ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "village and civil parish in South Lakeland, Cumbria, England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q773957>,
+        "0"^^xsd:string,
+        "3uxXAgUQ"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55 ;
+    skos:altLabel "Cartmel Fell"^^xsd:string,
+        "Cartmel Fell (civil parish), Cumbria"^^xsd:string,
+        "Cartmel Fell, Cumbria"^^xsd:string ;
+    skos:prefLabel "Cartmel Fell"^^xsd:string ;
+    wd:P1566 gn:7297963 .
+

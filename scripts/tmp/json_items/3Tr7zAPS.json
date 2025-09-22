@@ -36,12 +36,50 @@
       {
         "type": "externalid",
         "value": "Q107715",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "physical quantity"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "kfih5N57",
+        "type": "item",
+        "label": "pitch",
+        "description": "perceptual property in music ordering sounds from low to high"
+      },
+      {
+        "id": "cVskuK4J",
+        "type": "item",
+        "label": "loudness",
+        "description": "subjective perception of sound pressure"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3Tr7zAPS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3Tr7zAPS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3Tr7zAPS.csv"
+      }
+    ]
+  }
 }

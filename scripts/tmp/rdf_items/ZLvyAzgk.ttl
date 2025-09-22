@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZLvyAzgk a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:AmfuW36m,
+        faamentity:NA5EnjbE ;
+    schema1:birthDate "1818-06-17"^^xsd:string ;
+    schema1:birthPlace faamentity:NTVdRo4W ;
+    schema1:deathDate "1893-10-18"^^xsd:string ;
+    schema1:deathPlace faamentity:9wPTAoby ;
+    schema1:description "French composer (1818-1893)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q180278>,
+        "15996131"^^xsd:string,
+        "ZLvyAzgk"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Ch. Gounod"^^xsd:string,
+        "Charles François Gounod"^^xsd:string,
+        "Charles Gounod"^^xsd:string ;
+    skos:prefLabel "Charles Gounod"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:32183285 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/80479> ;
+    wd:P737 faamentity:oJGctqdB ;
+    wd:P839 <https://imslp.org/wiki/Category:Gounod,_Charles> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:RU9hU5Pa,
+        faamentity:YYyZX3aY .
+

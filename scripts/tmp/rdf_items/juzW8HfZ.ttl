@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:juzW8HfZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1790-05-06"^^xsd:string ;
+    schema1:birthPlace faamentity:ZGHSqvs4 ;
+    schema1:deathDate "1832-03-23"^^xsd:string,
+        "1832-04-23"^^xsd:string,
+        "1852-04-22"^^xsd:string ;
+    schema1:deathPlace faamentity:LD8HW7Tp ;
+    schema1:description "Czech conductor, music educator, composer and pianist (1790–1832)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1364373>,
+        "0"^^xsd:string,
+        "juzW8HfZ"^^xsd:string ;
+    schema1:nationality faamentity:XWQcePaU ;
+    skos:prefLabel "Wilhelm Würfel"^^xsd:string ;
+    wd:P108 faamentity:X8LwLGC9 ;
+    wd:P1303 faamentity:GoXpNrsh,
+        faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:79391615,
+        viaf:84518164 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30008441> ;
+    wd:P737 faamentity:Y7oinjoB ;
+    wd:P839 <https://imslp.org/wiki/Category:Würfel,_Václav_Vilém> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:PGamAZRD,
+        faamentity:RHfvaKqY .
+

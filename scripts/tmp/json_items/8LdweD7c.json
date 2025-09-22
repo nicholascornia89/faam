@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q31590146",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Ghent"
       }
     ],
     "aliases": [
@@ -64,8 +65,78 @@
         "base_url": "https://www.geonames.org/",
         "label": "BE"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9gYW98om",
+        "type": "item",
+        "label": "Georges Lonque",
+        "description": "Belgian conductor and musicologist (1900-1967)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "dqzZNPaF",
+        "type": "item",
+        "label": "Royal Conservatory of Ghent",
+        "description": "Belgian school of music"
+      },
+      {
+        "id": "HJS4asfu",
+        "type": "item",
+        "label": "Opera Ballet Vlaanderen",
+        "description": "Flemish organization organizing opera and ballet performances"
+      }
+    ],
+    "holding_institution": [
+      {
+        "id": "hQcqj8e8",
+        "type": "item",
+        "label": "Royal Conservatory of Ghent",
+        "description": "Belgian school of music"
+      },
+      {
+        "id": "TrYWxDhL",
+        "type": "item",
+        "label": "Orpheus Institute",
+        "description": "centre for artistic research in music located in Ghent, Belgium"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8LdweD7c.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8LdweD7c.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8LdweD7c.csv"
+      }
+    ]
+  }
 }

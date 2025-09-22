@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6jjjeotd a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1560-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:D8Fo4L3e,
+        faamentity:fZUC7W4e ;
+    schema1:deathDate "1614-09-27"^^xsd:string ;
+    schema1:deathPlace faamentity:fZUC7W4e ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q549044>,
+        "15996243"^^xsd:string,
+        "6jjjeotd"^^xsd:string ;
+    skos:altLabel "Felice Anerio"^^xsd:string ;
+    skos:prefLabel "Felice Anerio"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:10032393 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P737 faamentity:d9ivtsWG ;
+    wd:P839 <https://imslp.org/wiki/Category:Anerio,_Felice> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

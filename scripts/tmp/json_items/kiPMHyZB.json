@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q152171",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Bonn"
       }
     ],
     "aliases": []
@@ -62,6 +63,61 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "iF9SrSF3",
+        "type": "item",
+        "label": "Max Bruch",
+        "description": "German romantic composer and conductor (1838-1920)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Max_bruch.jpg"
+        }
+      },
+      {
+        "id": "oJGctqdB",
+        "type": "item",
+        "label": "Anton Reicha",
+        "description": "Czech-born French composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg"
+        }
+      },
+      {
+        "id": "oQCAcEAL",
+        "type": "item",
+        "label": "Hermann A. Korff",
+        "description": "German literary historian (1882–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hermann_August_Korff_-_Jb._d._Sächs._Ak._d._Wiss.1963-65_(1967),_S._322.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "kiPMHyZB.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "kiPMHyZB.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "kiPMHyZB.csv"
+      }
+    ]
+  }
 }

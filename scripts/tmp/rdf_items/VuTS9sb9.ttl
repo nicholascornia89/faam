@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VuTS9sb9 a rdfs:Resource ;
+    faamprop:related_to faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1848-00-00"^^xsd:string,
+        "1848-05-25"^^xsd:string ;
+    schema1:birthPlace faamentity:LbfJnd9y ;
+    schema1:deathDate "1924-00-00"^^xsd:string,
+        "1924-05-29"^^xsd:string,
+        "1924-09-09"^^xsd:string ;
+    schema1:description "Swiss composer, music teacher, editor and publisher (1848-1924)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6215625>,
+        "16005647"^^xsd:string,
+        "VuTS9sb9"^^xsd:string ;
+    schema1:nationality faamentity:jN8Vq8mU ;
+    skos:altLabel "J. Singenberger"^^xsd:string,
+        "Johann Baptist Singenberger"^^xsd:string ;
+    skos:prefLabel "Johann Baptist Singenberger"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:42128210 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30008527> ;
+    wd:P839 <https://imslp.org/wiki/Category:Singenberger,_John> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

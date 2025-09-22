@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q62376",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Siegfried Wilhelm Dehn"
       }
     ]
   },
@@ -153,13 +154,107 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2eg9E4Mu",
+        "type": "item",
+        "label": "Peter Cornelius",
+        "description": "German composer (1824–1874)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Peter_cornelius.jpg"
+        }
+      },
+      {
+        "id": "VKGEysTw",
+        "type": "item",
+        "label": "Anton Rubinstein",
+        "description": "Russian pianist, composer and conductor (1829–1894)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Rubinstein_by_J_Ganz.png"
+        }
+      },
+      {
+        "id": "EVUvfJH3",
+        "type": "item",
+        "label": "Mikhail Glinka",
+        "description": "Russian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg"
+        }
+      },
+      {
+        "id": "82wmXrwP",
+        "type": "item",
+        "label": "Theodor Kullak",
+        "description": "German musician (1818-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Theodor_Kullak.jpg"
+        }
+      },
+      {
+        "id": "CbXQBgSY",
+        "type": "item",
+        "label": "Friedrich Kiel",
+        "description": "German composer and music teacher (1821–1885)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Friedrich_Kiel_by_F._Garibotti_-_Archivio_Storico_Ricordi_ICON010546_(cropped).jpg"
+        }
+      },
+      {
+        "id": "RvUF8Gvz",
+        "type": "item",
+        "label": "Nikolai Rubinstein",
+        "description": "Russian pianist, conductor and composer (1835-1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nikolai_Rubinstein_1872.jpg"
+        }
+      },
+      {
+        "id": "jUsVtv53",
+        "type": "item",
+        "label": "Hans Bronsart von Schellendorff",
+        "description": "German composer (1830-1913)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hans_Bronsart_von_Schellendorff.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Siegfried_Wilhelm_Dehn.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LZ3gdd8k.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LZ3gdd8k.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LZ3gdd8k.csv"
       }
     ]
   }

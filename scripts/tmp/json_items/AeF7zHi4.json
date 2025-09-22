@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q94809197",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Léon Grus"
       }
     ]
   },
@@ -132,13 +133,67 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KPETqohV",
+        "type": "item",
+        "label": "Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000349202.gif"
+        }
+      },
+      {
+        "id": "bniQs4Xo",
+        "type": "item",
+        "label": "Ninon : caprice pompadour: pour le piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904477624.gif"
+        }
+      },
+      {
+        "id": "bniQs4Xo",
+        "type": "item",
+        "label": "Ninon : caprice pompadour: pour le piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904477624.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AeF7zHi4.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AeF7zHi4.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AeF7zHi4.csv"
       }
     ]
   }

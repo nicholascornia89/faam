@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q170072",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Dutch Republic"
       }
     ],
     "aliases": [
@@ -93,6 +94,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "a8ERxiqE",
+        "type": "item",
+        "label": "Josina van Aerssen",
+        "description": "Dutch composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Josina_van_Boetzelaer_door_Izaäk_Schmidt.jpg"
+        }
+      },
+      {
+        "id": "AfK8TVfp",
+        "type": "item",
+        "label": "Pietro Locatelli",
+        "description": "Italian Baroque composer and violinist (1695-1764)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Portret_van_Pietro_Antonio_Locatelli,_RP-P-1910-1512.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9pCnLtrM.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9pCnLtrM.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9pCnLtrM.csv"
+      }
+    ]
+  }
 }

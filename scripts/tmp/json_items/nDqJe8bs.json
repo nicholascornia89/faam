@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q377071",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Edgar Tinel"
       }
     ]
   },
@@ -189,13 +190,93 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "oFrMgrov",
+        "type": "item",
+        "label": "Marsch, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904386114.gif"
+        }
+      },
+      {
+        "id": "K8ECuy4j",
+        "type": "item",
+        "label": "Alleluia. Op. 23",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502038.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "73R68HHQ",
+        "type": "item",
+        "label": "Raymond Moulaert",
+        "description": "Belgian pianist and musicologist (1875–1962)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kpFs3SNX",
+        "type": "item",
+        "label": "Joseph Ryelandt",
+        "description": "Belgian composer, music educator and conservatory director (1870-1965)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Ryelandt.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "TYTYzgdL",
+        "type": "item",
+        "label": "Alleluia, Op.23",
+        "description": ""
+      },
+      {
+        "id": "Xjoq5ECp",
+        "type": "item",
+        "label": "Klokke Roeland, Op.17",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Edgar_Tinel_1911.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nDqJe8bs.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nDqJe8bs.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nDqJe8bs.csv"
       }
     ]
   }

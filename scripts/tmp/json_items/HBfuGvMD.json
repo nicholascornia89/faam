@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q3130",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Sydney"
       }
     ],
     "aliases": [
@@ -124,8 +125,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "AU"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "bLsMHzkH",
+        "label": "Australia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EbgbHucU",
+        "type": "item",
+        "label": "Nellie Melba",
+        "description": "Australian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nellie_Melba_1892.jpg"
+        }
+      },
+      {
+        "id": "Vg9Vqqca",
+        "type": "item",
+        "label": "Nicolas-Charles Bochsa",
+        "description": "French composer and harpist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Robert_Nicolas-Charles_Bochsa,_the_Harpist.jpg"
+        }
+      },
+      {
+        "id": "VKguTzGL",
+        "type": "item",
+        "label": "Isaac Nathan",
+        "description": "Anglo-Australian composer, musicologist, journalist and self-publicist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Issac_nathan.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HBfuGvMD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HBfuGvMD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HBfuGvMD.csv"
+      }
+    ]
+  }
 }

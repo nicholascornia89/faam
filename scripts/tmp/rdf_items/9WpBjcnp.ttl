@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9WpBjcnp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:MCVLnYka,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:WT9AcUBt,
+        faamentity:eviEKifd,
+        faamentity:oZ5YMPN7 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:E2chmtzQ ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6KW9RC6C,
+        faamentity:SLpCAuz4 ;
+    schema1:hasPart faamentity:Bq2vpuQ7 ;
+    schema1:identifier "15992749"^^xsd:string,
+        "9WpBjcnp"^^xsd:string,
+        "KCG-000339708"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000339708"^^schema1:url ;
+    skos:prefLabel "Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II"^^xsd:string ;
+    wd:P217 "DS-1516-(2)"^^xsd:string ;
+    wd:P870 faamentity:KpADqoUN,
+        faamentity:MV3uErvy,
+        faamentity:VZE4bgeN,
+        faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"9WpBjcnp-7035456d-5348-424c-a807-6fe6e2961222"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"9WpBjcnp-e130dd6a-b6b8-4146-a0be-2138e1d7cc31"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:6KW9RC6C a rdf:object .
+
+faamentity:SLpCAuz4 a rdf:object .
+

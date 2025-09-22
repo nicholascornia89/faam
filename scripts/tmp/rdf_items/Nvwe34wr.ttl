@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Nvwe34wr a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Mom3rq37 ;
+    schema1:description "set of piano pieces by Johannes Brahms"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3069011>,
+        "16004215"^^xsd:string,
+        "Nvwe34wr"^^xsd:string ;
+    skos:altLabel "Four Pieces for Piano, Op. 119"^^xsd:string ;
+    skos:prefLabel "4 Klavierstücke, Op.119"^^xsd:string,
+        "Four Pieces for Piano, Op. 119"^^xsd:string ;
+    wd:P7937 faamentity:G5pwZLWh,
+        faamentity:jvhZafsd,
+        faamentity:mfU3QT5M ;
+    wd:P839 <https://imslp.org/wiki/4_Klavierstücke,_Op.119_(Brahms,_Johannes)> .
+

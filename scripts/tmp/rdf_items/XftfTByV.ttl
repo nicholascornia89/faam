@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XftfTByV a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GxwNM6Ja ;
+    schema1:description "opera by Edward Keurvels"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q125772041>,
+        "16002600"^^xsd:string,
+        "XftfTByV"^^xsd:string ;
+    schema1:isBasedOn faamentity:hqBCeJ3M ;
+    skos:altLabel "Parisina"^^xsd:string ;
+    skos:prefLabel "Parisina"^^xsd:string ;
+    wd:P7937 faamentity:hxYumS2J .
+

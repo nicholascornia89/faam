@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DKMie5vK a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "kingdom in Western Europe (987–1792; 1815–1848)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q70972>,
+        "16004392"^^xsd:string,
+        "DKMie5vK"^^xsd:string ;
+    skos:altLabel "França e Navarra"^^xsd:string,
+        "French kingdom"^^xsd:string,
+        "Kingdom of France"^^xsd:string,
+        "Kingdom of France and Navarre"^^xsd:string ;
+    skos:prefLabel "Kingdom of France"^^xsd:string .
+

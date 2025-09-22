@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q17517642",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giuseppe Corsi"
       }
     ]
   },
@@ -178,13 +179,65 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9hBx4Z5w",
+        "type": "item",
+        "label": "Giacomo Antonio Perti",
+        "description": "Italian composer (1661-1756)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "GiacomoAntonioPerti_JS.png"
+        }
+      },
+      {
+        "id": "9DdWGtU7",
+        "type": "item",
+        "label": "Petronio Franceschini",
+        "description": "Italian composer (1651-1680)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "CQCuxqVu",
+        "type": "item",
+        "label": "Adoramus te Christe, TriCo 28",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iiRfbXBY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iiRfbXBY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iiRfbXBY.csv"
       }
     ]
   }

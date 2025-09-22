@@ -1,0 +1,68 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EjLPHuvN a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1675"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:VMA2AmEN,
+        faamentity:jCuFYGDc ;
+    faamprop:handwritten_annotation faamentity:K9MgTT3J,
+        faamentity:VMA2AmEN,
+        faamentity:bsgSL8K5,
+        faamentity:d2uUDsVY ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:FSduWvy5,
+        faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5NNGqwP9,
+        faamentity:XkkbmtTt,
+        faamentity:YNPwD4BQ,
+        faamentity:miDpPEFC ;
+    schema1:identifier "15992340"^^xsd:string,
+        "EjLPHuvN"^^xsd:string,
+        "KCA-030902707238"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13122713/N"^^schema1:url ;
+    skos:prefLabel "Chacone grave"^^xsd:string ;
+    wd:P217 "MM-TC-LEBEG-chacone-1"^^xsd:string ;
+    wd:P870 faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"EjLPHuvN-08bbf3e2-1da8-4a9c-ae77-b21b0437a43f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"EjLPHuvN-2cb5de28-7490-4b03-91dc-2f774be0e813"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"EjLPHuvN-3d69ea9b-4c76-4c84-9acf-d7b716974e68"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"EjLPHuvN-72abfdef-cfca-47e1-8f2d-1dc26c325176"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1675"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:5NNGqwP9 a rdf:object .
+
+faamentity:XkkbmtTt a rdf:object .
+
+faamentity:YNPwD4BQ a rdf:object .
+
+faamentity:miDpPEFC a rdf:object .
+

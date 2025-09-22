@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dZWMWLyZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1729-10-17"^^xsd:string ;
+    schema1:birthPlace faamentity:dh9hYKT5 ;
+    schema1:deathDate "1817-01-14"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q705124>,
+        "15996228"^^xsd:string,
+        "dZWMWLyZ"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Pierre-Alexandre Monsigny"^^xsd:string ;
+    skos:prefLabel "Pierre-Alexandre Monsigny"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:76459455 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30002240> ;
+    wd:P839 <https://imslp.org/wiki/Category:Monsigny,_Pierre-Alexandre> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

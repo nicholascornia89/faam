@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XWQcePaU a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "historic state"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2670751>,
+        "16004420"^^xsd:string,
+        "XWQcePaU"^^xsd:string ;
+    skos:altLabel "March of Moravia"^^xsd:string,
+        "Margraviate of Moravia"^^xsd:string ;
+    skos:prefLabel "Margraviate of Moravia"^^xsd:string .
+

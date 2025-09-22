@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2zuqzq6z a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:AeKhRWCB,
+        faamentity:NsEoE4RP,
+        faamentity:Rg6UtZ34,
+        faamentity:UDva945b,
+        faamentity:Vk2JQSuo,
+        faamentity:WT9AcUBt,
+        faamentity:d2uUDsVY,
+        faamentity:eviEKifd,
+        faamentity:gnFRixHz ;
+    faamprop:role faamentity:GoiPpGap,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:THYV2oLw ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:Cud74GBt,
+        faamentity:FSduWvy5,
+        faamentity:MaWnCnVw,
+        faamentity:NjSVdz7G,
+        faamentity:TF4BzPKq ;
+    dcterms:provenance faamentity:UXcrTKij ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:M2b4HvjF,
+        faamentity:bUQF6ovw ;
+    schema1:identifier "15992729"^^xsd:string,
+        "2zuqzq6z"^^xsd:string,
+        "CBM-TORRMsA106"^^xsd:string ;
+    schema1:url "https://polovea.sebina.it/SebinaOpac/resource/a-modo-di-notturno-preludio-circa-1740-bgaluppiil-buranello-17061785/VEA01143339"^^schema1:url ;
+    skos:prefLabel "(Preludio) circa 1740"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.106"^^xsd:string ;
+    wd:P870 faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"2zuqzq6z-c21c6944-6caa-4ce2-960c-6cbb76353297"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"2zuqzq6z-e688d287-3e81-4163-8090-782cdda5ee7c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"2zuqzq6z-eb6f7c67-86d6-405c-8709-23fce29b294b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+faamentity:M2b4HvjF a rdf:object .
+
+faamentity:bUQF6ovw a rdf:object .
+

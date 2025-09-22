@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kfdkXhZV a rdfs:Resource ;
+    faamprop:related_to faamentity:HwcYgL5C ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1872-05-03"^^xsd:string ;
+    schema1:birthPlace faamentity:3vFtsNzx ;
+    schema1:deathDate "1938-12-13"^^xsd:string ;
+    schema1:deathPlace faamentity:NTVdRo4W ;
+    schema1:description "French journalist and publisher (1872-1938)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3385724>,
+        "16005608"^^xsd:string,
+        "kfdkXhZV"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Pierre Lafitte"^^xsd:string ;
+    skos:prefLabel "Pierre Lafitte"^^xsd:string ;
+    wd:P108 faamentity:SDhvrD4q,
+        faamentity:gqYaHxGD,
+        faamentity:iYhwpLjJ ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:66726381 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:8EWPwxXN,
+        faamentity:T7iHQfvz .
+

@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jUsVtv53 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:5yoX9z4P ;
+    schema1:birthDate "1830-02-11"^^xsd:string ;
+    schema1:birthPlace faamentity:Km6ATdgQ ;
+    schema1:deathDate "1913-11-03"^^xsd:string ;
+    schema1:deathPlace faamentity:M2keqc3n ;
+    schema1:description "German composer (1830-1913)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q66163>,
+        "0"^^xsd:string,
+        "jUsVtv53"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb ;
+    skos:prefLabel "Hans Bronsart von Schellendorff"^^xsd:string ;
+    wd:P108 faamentity:2ZtTvxLM,
+        faamentity:DnSFuKZC,
+        faamentity:PN7EzPTi ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:62333906 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30008259> ;
+    wd:P737 faamentity:LZ3gdd8k,
+        faamentity:ewwggKDh ;
+    wd:P839 <https://imslp.org/wiki/Category:Bronsart_von_Schellendorff,_Hans> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

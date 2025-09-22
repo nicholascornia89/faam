@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dGPuqxgm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1837-01-12"^^xsd:string ;
+    schema1:birthPlace faamentity:5eewCidM ;
+    schema1:deathDate "1879-01-23"^^xsd:string ;
+    schema1:deathPlace faamentity:LbQkoCtF ;
+    schema1:description "German pianist, composer and music teacher (1837–1879)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q362798>,
+        "16005229"^^xsd:string,
+        "dGPuqxgm"^^xsd:string ;
+    schema1:nationality faamentity:YUq8HaDb ;
+    skos:altLabel "Adolf Jensen"^^xsd:string ;
+    skos:prefLabel "Adolf Jensen"^^xsd:string ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:22327623 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/111085> ;
+    wd:P839 <https://imslp.org/wiki/Category:Jensen,_Adolf> ;
+    schema:hasOccupation faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY .
+

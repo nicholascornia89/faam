@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8Hwgz854 a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in Eastern Europe and Northern Asia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q159>,
+        "15998728"^^xsd:string,
+        "8Hwgz854"^^xsd:string ;
+    skos:altLabel "Federation of Russia"^^xsd:string,
+        "Russia"^^xsd:string,
+        "Russian Federation"^^xsd:string ;
+    skos:prefLabel "Russia"^^xsd:string .
+

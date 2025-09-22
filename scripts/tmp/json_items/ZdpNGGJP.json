@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q506986",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "arpeggio"
       }
     ],
     "aliases": [
@@ -90,6 +91,161 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "gkMdvnYk",
+        "type": "item",
+        "label": "Concerto in a : voor piano enOrchestra : Opus 85",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000350242.gif"
+        }
+      },
+      {
+        "id": "XKunYaEf",
+        "type": "item",
+        "label": "Melancholia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904518203.gif"
+        }
+      },
+      {
+        "id": "94k9UmMK",
+        "type": "item",
+        "label": "Miniaturen : voor klavier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903079199.gif"
+        }
+      },
+      {
+        "id": "nBgzhxce",
+        "type": "item",
+        "label": "La Romanesca : fameux Air de Danse du XVI.e siècle : transcrit pour Piano d'après la Partition originale",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000369479.gif"
+        }
+      },
+      {
+        "id": "7hcxzkxa",
+        "type": "item",
+        "label": "Pastorale und Capriccio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP44158.gif"
+        }
+      },
+      {
+        "id": "oCxhXPyc",
+        "type": "item",
+        "label": "7 Toccate per Pianoforte di Pietro Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP9125.gif"
+        }
+      },
+      {
+        "id": "8rzV3wbR",
+        "type": "item",
+        "label": "1er trio : pour Harpe Flute et COr: op. 14",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000750013.gif"
+        }
+      },
+      {
+        "id": "dy9TNmQe",
+        "type": "item",
+        "label": "Fantasia chromatica",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076574139707356.gif"
+        }
+      },
+      {
+        "id": "jcBboDEB",
+        "type": "item",
+        "label": "Six études brillantes pour le violon avec accompagnement de piano ad libitum, op. 17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-42846644p.gif"
+        }
+      },
+      {
+        "id": "Hy9ZASPZ",
+        "type": "item",
+        "label": "3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920086.gif"
+        }
+      },
+      {
+        "id": "N4pq44Cu",
+        "type": "item",
+        "label": "Illusioni",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p12.gif"
+        }
+      },
+      {
+        "id": "kBn7pv6w",
+        "type": "item",
+        "label": "Marlborough - Op. 42",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143702p4.gif"
+        }
+      },
+      {
+        "id": "gSRR7ifb",
+        "type": "item",
+        "label": "Sonates : pour violon et piano, op. 5",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902751301.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZdpNGGJP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZdpNGGJP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZdpNGGJP.csv"
+      }
+    ]
+  }
 }

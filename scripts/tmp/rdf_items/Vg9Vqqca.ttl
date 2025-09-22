@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Vg9Vqqca a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NA5EnjbE ;
+    schema1:birthDate "1789-08-09"^^xsd:string ;
+    schema1:birthPlace faamentity:khrpM3X4 ;
+    schema1:deathDate "1856-01-06"^^xsd:string ;
+    schema1:deathPlace faamentity:HBfuGvMD ;
+    schema1:description "French composer and harpist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q251397>,
+        "15995898"^^xsd:string,
+        "Vg9Vqqca"^^xsd:string ;
+    schema1:nationality faamentity:Eqo9Fq2n ;
+    skos:altLabel "Charles Bochsa"^^xsd:string,
+        "Nicolas-Charles Bochsa"^^xsd:string,
+        "Robert Nicolas-Charles Bochsa"^^xsd:string,
+        "Robert-Nicholas-Charles Bochsa"^^xsd:string ;
+    skos:prefLabel "Nicolas-Charles Bochsa"^^xsd:string ;
+    wd:P108 faamentity:AdrWLpRK ;
+    wd:P1303 faamentity:aQgptH4L ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:120710111 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/21573> ;
+    wd:P737 faamentity:bYnCgWLM ;
+    wd:P839 <https://imslp.org/wiki/Category:Bochsa,_Nicholas_Charles> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:2e3yeRss,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:Yq5e6gJa .
+

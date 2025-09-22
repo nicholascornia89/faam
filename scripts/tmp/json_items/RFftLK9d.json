@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q15472169",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "patron of the arts"
       }
     ],
     "aliases": [
@@ -59,6 +60,51 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZziFLHQT",
+        "type": "item",
+        "label": "Henri Deutsch de la Meurthe",
+        "description": "French businessman (1846–1919)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Henry_Deutsch_de_la_Meurthe_1912.jpg"
+        }
+      },
+      {
+        "id": "ZS3TsxZw",
+        "type": "item",
+        "label": "Elisabeth Alberdingk Thijm",
+        "description": "writer, translator and patron (1863-1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RFftLK9d.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RFftLK9d.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RFftLK9d.csv"
+      }
+    ]
+  }
 }

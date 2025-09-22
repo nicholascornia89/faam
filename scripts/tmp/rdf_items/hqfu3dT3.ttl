@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hqfu3dT3 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Hungarian literary journal"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q661916>,
+        "15991053"^^xsd:string,
+        "hqfu3dT3"^^xsd:string ;
+    schema1:location faamentity:nXdVQz6m ;
+    skos:altLabel "Nyugat"^^xsd:string ;
+    skos:prefLabel "Nyugat"^^xsd:string .
+

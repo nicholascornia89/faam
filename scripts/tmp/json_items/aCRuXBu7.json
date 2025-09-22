@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q2358919",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Roman numeral analysis"
       }
     ],
     "aliases": [
@@ -84,6 +85,81 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "MCkeYbcR",
+        "type": "item",
+        "label": "Cours pratique et théorique d'harmonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902508966.gif"
+        }
+      },
+      {
+        "id": "ZjwUa5f2",
+        "type": "item",
+        "label": "Inventionen: Inventios 2 et 3 voix = Inventions in 2 & 3 parts",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901096443.gif"
+        }
+      },
+      {
+        "id": "SxXHq2qT",
+        "type": "item",
+        "label": "Die Kunst der Fuge = The art of fugue = L' art de la fugue",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901352994.gif"
+        }
+      },
+      {
+        "id": "Asg7r6Ey",
+        "type": "item",
+        "label": "Messe 'Brevis' à 4 voix. Partituur",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KM141996.gif"
+        }
+      },
+      {
+        "id": "8AMEDUTn",
+        "type": "item",
+        "label": "Finale Allegro Vivace del V Quartetto",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA83.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aCRuXBu7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aCRuXBu7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aCRuXBu7.csv"
+      }
+    ]
+  }
 }

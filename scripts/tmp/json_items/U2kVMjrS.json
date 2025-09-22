@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q111705",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Salò"
       }
     ],
     "aliases": [
@@ -58,8 +59,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "6540617"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "c87GwMiD",
+        "type": "item",
+        "label": "Ferdinando Bertoni",
+        "description": "Italian composer and organist (1725–1813)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinando_Bertoni.jpg"
+        }
+      },
+      {
+        "id": "65bBrELv",
+        "type": "item",
+        "label": "Carlo Pallavicino",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "B5JiJ5cV",
+        "type": "item",
+        "label": "Marco Enrico Bossi",
+        "description": "Italian organist, composer, improviser and pedagogue. (1861–1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Marco_Enrico_Bossi,_1905.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "U2kVMjrS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "U2kVMjrS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "U2kVMjrS.csv"
+      }
+    ]
+  }
 }

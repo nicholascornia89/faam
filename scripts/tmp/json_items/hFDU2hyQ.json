@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q139319",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Russian Republic"
       }
     ],
     "aliases": []
@@ -45,5 +46,27 @@
     "GeoNames ID": []
   },
   "cross-references": {},
-  "resources": {}
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hFDU2hyQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hFDU2hyQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hFDU2hyQ.csv"
+      }
+    ]
+  }
 }

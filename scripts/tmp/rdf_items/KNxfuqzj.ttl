@@ -1,0 +1,57 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KNxfuqzj a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "17-10-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:jvhZafsd ;
+    dcterms:provenance faamentity:TrYWxDhL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ge7cpLXc,
+        faamentity:Ui7C9eZU ;
+    schema1:identifier "16005494"^^xsd:string,
+        "KNxfuqzj"^^xsd:string,
+        "ORP-20143700p45"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188"^^schema1:url ;
+    skos:prefLabel "Mascarade. Scènes Fantaisistes. Op. 24 N. 3"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3164
+L'Illustration, N. 3164"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.006"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"KNxfuqzj-3daff890-2f83-4db7-b985-151608018e11"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "17-10-1903"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"KNxfuqzj-a550c51b-df0e-4136-9691-67e4f50ff1b9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KNxfuqzj-e16610a7-7b2d-45ba-9352-09ad556a747a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"KNxfuqzj-fa0d8fc4-685f-4aab-92ac-5ea0c73532e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Ge7cpLXc a rdf:object .
+
+faamentity:Ui7C9eZU a rdf:object .
+

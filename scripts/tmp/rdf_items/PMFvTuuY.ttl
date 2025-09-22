@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PMFvTuuY a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person overseeing the mounting of a theatre production"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3387717>,
+        "15990950"^^xsd:string,
+        "PMFvTuuY"^^xsd:string ;
+    skos:altLabel "director"^^xsd:string,
+        "play director"^^xsd:string,
+        "stage director"^^xsd:string,
+        "theater director"^^xsd:string,
+        "theatre director"^^xsd:string,
+        "theatrical director"^^xsd:string ;
+    skos:prefLabel "theatrical director"^^xsd:string,
+        "zoologist"^^xsd:string .
+

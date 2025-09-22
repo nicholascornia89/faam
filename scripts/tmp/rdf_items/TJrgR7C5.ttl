@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TJrgR7C5 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QhRQ5LW9 ;
+    schema1:description "church cantata by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1987428>,
+        "16004344"^^xsd:string,
+        "TJrgR7C5"^^xsd:string ;
+    skos:altLabel "BWV 8"^^xsd:string,
+        "Liebster Gott, wenn werd ich sterben?"^^xsd:string ;
+    skos:prefLabel "Liebster Gott, wenn werd ich sterben?"^^xsd:string,
+        "Liebster Gott, wenn werd ich sterben?, BWV 8"^^xsd:string ;
+    wd:P214 viaf:185109543 ;
+    wd:P5202 faamentity:D3Vekn6E ;
+    wd:P7937 faamentity:Gz3LUkC5 ;
+    wd:P839 <https://imslp.org/wiki/Liebster_Gott,_wenn_werd_ich_sterben?,_BWV_8_(Bach,_Johann_Sebastian)> .
+

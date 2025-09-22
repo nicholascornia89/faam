@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GQ9LXzE7 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "German music publishing house"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q468157>,
+        "16002499"^^xsd:string,
+        "GQ9LXzE7"^^xsd:string ;
+    skos:altLabel "Bureau de Musique"^^xsd:string,
+        "C. F. Peters"^^xsd:string,
+        "Edition Peters"^^xsd:string,
+        "Edition Peters Group"^^xsd:string,
+        "Peters Verlag"^^xsd:string ;
+    skos:prefLabel "Edition Peters"^^xsd:string ;
+    wd:P214 viaf:135683334 ;
+    wd:P31 faamentity:2fXfbLCV .
+

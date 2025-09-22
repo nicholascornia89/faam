@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LWXW9kAQ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and largest city of Grand Est, located in the historical region of Alsace"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6602>,
+        "0"^^xsd:string,
+        "LWXW9kAQ"^^xsd:string ;
+    schema1:location faamentity:Eqo9Fq2n ;
+    skos:altLabel "Schdroosburi"^^xsd:string,
+        "Strasbourg"^^xsd:string,
+        "Strasburg"^^xsd:string,
+        "Strassburg"^^xsd:string,
+        "Straßburg"^^xsd:string,
+        "Strosburi"^^xsd:string,
+        "Strossburi"^^xsd:string,
+        "Strossburig"^^xsd:string ;
+    skos:prefLabel "Strasbourg"^^xsd:string ;
+    wd:P1566 gn:2973783 .
+

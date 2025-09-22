@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1349196",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Louis Diémer"
       }
     ]
   },
@@ -164,13 +165,67 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "FMdCW6Lz",
+        "type": "item",
+        "label": "Alfred Cortot",
+        "description": "Franco-Swiss pianist and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alfred_Cortot_01.jpg"
+        }
+      },
+      {
+        "id": "he9gB9A7",
+        "type": "item",
+        "label": "Marcel Dupré",
+        "description": "French organist and composer (1886–1971)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dupre.jpg"
+        }
+      },
+      {
+        "id": "VYFChkUh",
+        "type": "item",
+        "label": "Alfredo Casella",
+        "description": "Italian composer, pianist and conductor (1883-1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Alfredo_Casella.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Louis_Diémer_passport.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MpY98fgj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MpY98fgj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MpY98fgj.csv"
       }
     ]
   }

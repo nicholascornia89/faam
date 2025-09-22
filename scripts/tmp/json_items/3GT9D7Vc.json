@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q224002",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Edouard Lalo"
       }
     ]
   },
@@ -186,13 +187,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Z7kzw3Mm",
+        "type": "item",
+        "label": "Divertissement. pour Orchestre",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p3.gif"
+        }
+      },
+      {
+        "id": "BxSdJP2K",
+        "type": "item",
+        "label": "Namouna. Valse Lente",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p86.gif"
+        }
+      },
+      {
+        "id": "BxSdJP2K",
+        "type": "item",
+        "label": "Namouna. Valse Lente",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143988p86.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Édouard_Lalo2.jpeg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "3GT9D7Vc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "3GT9D7Vc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "3GT9D7Vc.csv"
       }
     ]
   }

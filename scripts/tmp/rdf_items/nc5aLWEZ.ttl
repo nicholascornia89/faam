@@ -1,0 +1,77 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nc5aLWEZ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:iWuVLJam ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:UDva945b,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd,
+        faamentity:kmMxdth8 ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:FA8iAzGc ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:3kUPUbFX,
+        faamentity:aPwqkvS5,
+        faamentity:dqzZNPaF ;
+    schema1:hasPart faamentity:2sTiBgMV ;
+    schema1:identifier "15992571"^^xsd:string,
+        "KCG-000336430"^^xsd:string,
+        "nc5aLWEZ"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000336430"^^schema1:url ;
+    skos:prefLabel "Trois Trios : Pour Trois Clarinettes : Opéra 8"^^xsd:string ;
+    wd:P217 "A-13 ONDERDEEL-2"^^xsd:string ;
+    wd:P870 faamentity:4AUBYBXJ .
+
+schema1:contributor a rdf:predicate .
+
+"nc5aLWEZ-1828525a-a0cb-4795-b13e-241958c91465"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"nc5aLWEZ-666a7fe7-784c-4ea1-b079-3ead793b99ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"nc5aLWEZ-750f9062-a06e-49fa-be0b-70c7e9777133"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"nc5aLWEZ-bacf2895-9624-4a33-9d03-78bb4d915498"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"nc5aLWEZ-c66a9ada-9ae0-44ba-8651-66ec4d084d37"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"nc5aLWEZ-fcac47bc-0a35-4cb1-a260-8847857ff248"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:3kUPUbFX a rdf:object .
+
+faamentity:aPwqkvS5 a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+

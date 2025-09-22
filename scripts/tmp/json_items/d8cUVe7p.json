@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q66955",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Franz Xaver Haberl"
       }
     ]
   },
@@ -163,13 +164,185 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ESffj6y4",
+        "type": "item",
+        "label": "Lorenzo Perosi",
+        "description": "Italian composer (1872–1956)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Perosi.jpg"
+        }
+      },
+      {
+        "id": "HubBo3eQ",
+        "type": "item",
+        "label": "Giovanni Tebaldini",
+        "description": "Italian composer (1864–1952)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Tebaldini.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "WaTEKD2U",
+        "type": "item",
+        "label": "O bone Jesu, IGP 707",
+        "description": ""
+      },
+      {
+        "id": "ZgjvNdi5",
+        "type": "item",
+        "label": "Verbum caro panem verum, LV 1072",
+        "description": ""
+      },
+      {
+        "id": "AiiixKVh",
+        "type": "item",
+        "label": "Regina coeli",
+        "description": "motet by Orlande Lassus"
+      },
+      {
+        "id": "6Fr97LVE",
+        "type": "item",
+        "label": "Missa O regem celi, IGP 470",
+        "description": ""
+      },
+      {
+        "id": "YgvGfkUL",
+        "type": "item",
+        "label": "Magnificat VIII toni, IGP 791",
+        "description": ""
+      },
+      {
+        "id": "2QboaHA5",
+        "type": "item",
+        "label": "Laudate coeli (Palestrina attr.)",
+        "description": ""
+      },
+      {
+        "id": "PsYV4XC4",
+        "type": "item",
+        "label": "Resonet in laudibus, LV 363",
+        "description": ""
+      },
+      {
+        "id": "aJtgeECF",
+        "type": "item",
+        "label": "La vèr l'aurora, che si dolce l'aura",
+        "description": ""
+      },
+      {
+        "id": "AbCBLM5a",
+        "type": "item",
+        "label": "Alla riva del Tebro",
+        "description": "madrigal by Giovanni Pierluigi da Palestrina"
+      },
+      {
+        "id": "a8YmUXtU",
+        "type": "item",
+        "label": "Vinea mea electa, IGP 753",
+        "description": ""
+      },
+      {
+        "id": "UPugSyfF",
+        "type": "item",
+        "label": "O vos omnes, IGP 744",
+        "description": ""
+      },
+      {
+        "id": "Cvq5ZheJ",
+        "type": "item",
+        "label": "Una hora non potuistis vigilare mecum",
+        "description": ""
+      },
+      {
+        "id": "2Qq88VYP",
+        "type": "item",
+        "label": "Missa Laudate Dominum omnes gentes",
+        "description": ""
+      },
+      {
+        "id": "PVWKn5oP",
+        "type": "item",
+        "label": "Recessit pastor noster, IGP 746",
+        "description": ""
+      },
+      {
+        "id": "CGQ5soJ8",
+        "type": "item",
+        "label": "Pulvis et umbra sumus, LV 504",
+        "description": ""
+      },
+      {
+        "id": "ffWn54FT",
+        "type": "item",
+        "label": "Velum templi scissum est, IGP 752",
+        "description": ""
+      },
+      {
+        "id": "izrWUD6G",
+        "type": "item",
+        "label": "Omnes amici mei, IGP 70",
+        "description": ""
+      },
+      {
+        "id": "LoVA9G63",
+        "type": "item",
+        "label": "Plange quasi virgo plebs mea, IGP 745",
+        "description": ""
+      },
+      {
+        "id": "HvoS9qx6",
+        "type": "item",
+        "label": "Sicut ovis ad occisionem, IGP 747",
+        "description": ""
+      },
+      {
+        "id": "nx4cA5Bw",
+        "type": "item",
+        "label": "Ecce vidimus eum",
+        "description": ""
+      },
+      {
+        "id": "bRXcixfY",
+        "type": "item",
+        "label": "Tristis est anima mea usque ad mortem",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FXHaberl.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "d8cUVe7p.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "d8cUVe7p.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "d8cUVe7p.csv"
       }
     ]
   }

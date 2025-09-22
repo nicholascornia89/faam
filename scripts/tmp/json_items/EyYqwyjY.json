@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q1874",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Odesa"
       }
     ],
     "aliases": [
@@ -62,8 +63,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "698740"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "WKTLcAet",
+        "label": "Russian Empire"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "X5H796cG",
+        "type": "item",
+        "label": "Issay Barmas",
+        "description": "Russian-German violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg"
+        }
+      },
+      {
+        "id": "aPj5KA7T",
+        "type": "item",
+        "label": "Ignaz Amadeus Tedesco",
+        "description": "Czech pianist (1817-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "IgnazTedesco.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EyYqwyjY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EyYqwyjY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EyYqwyjY.csv"
+      }
+    ]
+  }
 }

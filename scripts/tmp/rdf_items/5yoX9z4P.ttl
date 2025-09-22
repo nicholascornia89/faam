@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5yoX9z4P a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public research university in Berlin, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q152087>,
+        "16004735"^^xsd:string,
+        "5yoX9z4P"^^xsd:string ;
+    schema1:location faamentity:Km6ATdgQ,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "HU Berlin"^^xsd:string,
+        "Humboldt University"^^xsd:string,
+        "Humboldt University of Berlin"^^xsd:string,
+        "Humboldt-Universität zu Berlin"^^xsd:string,
+        "UBER"^^xsd:string,
+        "Universitas Humboldtiana Berolinensis"^^xsd:string,
+        "University of Berlin"^^xsd:string,
+        "Universität zu Berlin"^^xsd:string ;
+    skos:prefLabel "Humboldt University of Berlin"^^xsd:string,
+        "Humboldt-Universität zu Berlin"^^xsd:string .
+

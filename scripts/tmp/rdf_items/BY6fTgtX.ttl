@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BY6fTgtX a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school in Shropshire, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2280221>,
+        "16004789"^^xsd:string,
+        "BY6fTgtX"^^xsd:string ;
+    schema1:location faamentity:GpJQbzxw,
+        faamentity:MGBpLC55 ;
+    skos:altLabel "Shrewsbury Free Grammar School Material relating to (1619), NLW MS 1595E"^^xsd:string,
+        "Shrewsbury School"^^xsd:string ;
+    skos:prefLabel "Shrewsbury School"^^xsd:string .
+

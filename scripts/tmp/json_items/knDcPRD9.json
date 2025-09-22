@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q925332",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Otello"
       }
     ]
   },
@@ -105,6 +106,59 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "TCizsSNo",
+        "type": "item",
+        "label": "Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000749979.gif"
+        }
+      },
+      {
+        "id": "MzCNpEDy",
+        "type": "item",
+        "label": "Convoluut : Valentine Degive-Ledelier",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-03090443184.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "2cBugNQ6",
+        "type": "item",
+        "label": "Fantaisie pour piano et cor ou violon sur des Thêmes de l'Opera d'Otello de Rossini, Op. 63",
+        "description": ""
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "knDcPRD9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "knDcPRD9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "knDcPRD9.csv"
+      }
+    ]
+  }
 }

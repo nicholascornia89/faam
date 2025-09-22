@@ -1,0 +1,94 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HVZSCgV9 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "27-01-1839"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:Vk2JQSuo,
+        faamentity:WtvibJFF,
+        faamentity:YCgBhPNn,
+        faamentity:YRq3pSH7,
+        faamentity:eviEKifd,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:K9MgTT3J ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:65rhe5Po,
+        faamentity:QFnkBYdA,
+        faamentity:ePKeLfXg ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:7CVJQfN3,
+        faamentity:98W5cKAM,
+        faamentity:dqzZNPaF,
+        faamentity:eukJ9RHS ;
+    schema1:hasPart faamentity:Z48qSvPs ;
+    schema1:identifier "15992619"^^xsd:string,
+        "HVZSCgV9"^^xsd:string,
+        "KCG-000333153"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c,
+        faamentity:GDeKaNeC ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333153"^^schema1:url ;
+    skos:prefLabel "Concerto : pour le Violon avec Accompagnement d'Orchestre ou de Piano : Op. 61."^^xsd:string ;
+    wd:P217 "II323(1)"^^xsd:string ;
+    wd:P870 faamentity:VZE4bgeN,
+        faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"HVZSCgV9-16ea09c4-96d9-4f3b-aa6a-70f484c03226"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"HVZSCgV9-263f968d-9ea6-4071-a938-444f7257af28"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "27-01-1839"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"HVZSCgV9-56a9b837-284f-43e3-ae0d-f1e78e7e39c1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap ;
+    schema1:location faamentity:GDeKaNeC .
+
+"HVZSCgV9-6498ecca-599a-470a-9c1e-b742586faa88"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"HVZSCgV9-6ebda963-1bc3-439c-8ca3-357bfdb42f9c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"HVZSCgV9-cc83511a-3d16-4f87-9182-65a27317caf9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GDeKaNeC .
+
+"HVZSCgV9-cf1435b6-2c2f-49e3-807b-0f113c927ac4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+"HVZSCgV9-efefc0de-fc89-46aa-b14f-2c38195aa725"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:7CVJQfN3 a rdf:object .
+
+faamentity:98W5cKAM a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+
+faamentity:eukJ9RHS a rdf:object .
+

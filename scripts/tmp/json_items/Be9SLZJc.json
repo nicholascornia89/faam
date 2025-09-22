@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q185075",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint-Germain-en-Laye"
       }
     ],
     "aliases": [
@@ -62,8 +63,70 @@
         "base_url": "https://www.geonames.org/",
         "label": "2979783"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "TpU4zggV",
+        "type": "item",
+        "label": "Louis XIII of France",
+        "description": "King of France and Navarre (r. 1610–1643)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis_XIIIval_grace.jpg"
+        }
+      },
+      {
+        "id": "CJgFHXHi",
+        "type": "item",
+        "label": "Napoléon Joseph Ney",
+        "description": "French noble and politician (1803–1857)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Napoléon_Joseph_Ney_(1803-1857).jpg"
+        }
+      },
+      {
+        "id": "Cxd84hpG",
+        "type": "item",
+        "label": "Antoine Taudou",
+        "description": "French composer and music educator (1846-1925)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Antoine_Taudou,1903.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Be9SLZJc.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Be9SLZJc.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Be9SLZJc.csv"
+      }
+    ]
+  }
 }

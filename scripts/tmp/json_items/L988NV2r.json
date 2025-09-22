@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q1479496",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Félix Le Couppey"
       }
     ]
   },
@@ -154,7 +155,20 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "m7PaH4Ak",
+        "type": "item",
+        "label": "Cécile Chaminade",
+        "description": "French composer and pianist (1857-1944)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Cecile_chaminade.jpg"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -166,6 +180,27 @@
         "type": "image",
         "value": "Félix_Le_Couppey_-_Pierre_Petit.png",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "L988NV2r.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "L988NV2r.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "L988NV2r.csv"
       }
     ]
   }

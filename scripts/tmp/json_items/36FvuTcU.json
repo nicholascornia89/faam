@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q633492",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Archibald Thompson Davison"
       }
     ]
   },
@@ -153,13 +154,79 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "UFJQhoqc",
+        "type": "item",
+        "label": "Miserere",
+        "description": "Setting of Psalm 51 by Gregorio Allegri"
+      },
+      {
+        "id": "GPYgjKvG",
+        "type": "item",
+        "label": "Jesu dulcis memoria",
+        "description": "musical forgery attributed to Tomás Luis de Victoria"
+      },
+      {
+        "id": "NMpDRXik",
+        "type": "item",
+        "label": "Diffusa est gratia",
+        "description": ""
+      },
+      {
+        "id": "Qna53VSC",
+        "type": "item",
+        "label": "Ave verum corpus",
+        "description": ""
+      },
+      {
+        "id": "Ftr3eHjG",
+        "type": "item",
+        "label": "Ecce quomodo moritur justus, IGP 19",
+        "description": ""
+      },
+      {
+        "id": "7KawApJN",
+        "type": "item",
+        "label": "Christus factus est pro nobis",
+        "description": ""
+      },
+      {
+        "id": "H9L5avFm",
+        "type": "item",
+        "label": "O vos omnes",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Archibald_Thompson_Davison.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "36FvuTcU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "36FvuTcU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "36FvuTcU.csv"
       }
     ]
   }

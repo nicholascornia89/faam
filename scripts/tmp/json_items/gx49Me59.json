@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q34433",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Oxford"
       }
     ],
     "aliases": [
@@ -94,6 +95,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "hhpbeMET",
+        "type": "item",
+        "label": "Giordano Bruno",
+        "description": "Italian Dominican friar, philosopher and mathematician (1548–1600)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giordano_Bruno.jpg"
+        }
+      },
+      {
+        "id": "3sWPCamn",
+        "type": "item",
+        "label": "John Bull",
+        "description": "English composer, musician and organ builder",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "John_Bull_(composer).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gx49Me59.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gx49Me59.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gx49Me59.csv"
+      }
+    ]
+  }
 }

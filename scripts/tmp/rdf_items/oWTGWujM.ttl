@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oWTGWujM a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PikNt4Wc ;
+    schema1:description "opera by Claudio Monteverdi"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q907047>,
+        "16002047"^^xsd:string,
+        "oWTGWujM"^^xsd:string ;
+    skos:altLabel "Il ritorno d'Ulisse in patria"^^xsd:string,
+        "Return of Ulysses to his Homeland"^^xsd:string,
+        "Ritorno d'Ulisse in patria"^^xsd:string,
+        "SV 325"^^xsd:string,
+        "The Return of Ulysses to his Homeland"^^xsd:string ;
+    skos:prefLabel "Il ritorno d'Ulisse in patria"^^xsd:string ;
+    wd:P214 viaf:181035263 ;
+    wd:P5202 faamentity:mc2UEWpA ;
+    wd:P839 <https://imslp.org/wiki/Il_ritorno_d'Ulisse_in_patria,_SV_325_(Monteverdi,_Claudio)> .
+

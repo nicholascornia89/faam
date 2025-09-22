@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q274327",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Saint-Maurice"
       }
     ],
     "aliases": [
@@ -72,8 +73,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2978170"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QWXmTNRx",
+        "type": "item",
+        "label": "Jérôme-Joseph de Momigny",
+        "description": "Belgian composer (1762-1842)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jérôme-Joseph_de_Momigny.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6aXomDbL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6aXomDbL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6aXomDbL.csv"
+      }
+    ]
+  }
 }

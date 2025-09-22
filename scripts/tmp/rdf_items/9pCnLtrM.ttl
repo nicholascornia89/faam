@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9pCnLtrM a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "predecessor state of the Netherlands (1581–1795)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q170072>,
+        "15998206"^^xsd:string,
+        "9pCnLtrM"^^xsd:string ;
+    skos:altLabel "Dutch Federation"^^xsd:string,
+        "Dutch Republic"^^xsd:string,
+        "Federated Dutch Provinces"^^xsd:string,
+        "Netherlands (1581–1795)"^^xsd:string,
+        "Republic of the Netherlands"^^xsd:string,
+        "Republic of the Seven United Netherlands"^^xsd:string,
+        "Republic of the Seven United Provinces"^^xsd:string,
+        "Republic of the United Netherlands"^^xsd:string,
+        "Republiek der Zeven Verenigde Nederlanden"^^xsd:string,
+        "United Provinces"^^xsd:string,
+        "United Provinces of the Netherlands"^^xsd:string ;
+    skos:prefLabel "Dutch Republic"^^xsd:string .
+

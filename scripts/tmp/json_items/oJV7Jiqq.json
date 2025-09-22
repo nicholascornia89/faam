@@ -46,7 +46,8 @@
       {
         "type": "externalid",
         "value": "Q123751110",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fr. Kistner & C. F. W. Siegel, Musikverlag und Sortiment"
       }
     ]
   },
@@ -99,13 +100,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "5Zjxjmnn",
+        "type": "item",
+        "label": "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332135.gif"
+        }
+      },
+      {
+        "id": "TNm8KS5J",
+        "type": "item",
+        "label": "Sonate : n° 7 f moll: für Orgel, op. 127",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904127930.gif"
+        }
+      },
+      {
+        "id": "doyyMgdR",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      },
+      {
+        "id": "MwWz4fnJ",
+        "type": "item",
+        "label": "Weihnachts-Kantate, für Sopran- und Alt-Solo, weiblichen Chor und Pianoforte. Op. 170",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "UTL-31761111345377.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oJV7Jiqq.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oJV7Jiqq.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oJV7Jiqq.csv"
       }
     ]
   }

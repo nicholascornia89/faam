@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DfELpEAQ a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "mass by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310249>,
+        "16002004"^^xsd:string,
+        "DfELpEAQ"^^xsd:string ;
+    skos:altLabel "Missa ad fugam"^^xsd:string,
+        "Missa canonica"^^xsd:string ;
+    skos:prefLabel "Missa ad fugam"^^xsd:string ;
+    wd:P214 viaf:196879792 ;
+    wd:P7937 faamentity:oQTyk8An .
+

@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q724933",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Victorin de Joncières"
       }
     ]
   },
@@ -164,7 +165,30 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "ac2erdoK",
+        "type": "item",
+        "label": "Sardanapale. Air de Myrrha, chanté par Mlle Nilsson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p49.gif"
+        }
+      },
+      {
+        "id": "ac2erdoK",
+        "type": "item",
+        "label": "Sardanapale. Air de Myrrha, chanté par Mlle Nilsson",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143700p49.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
@@ -176,6 +200,27 @@
         "type": "image",
         "value": "Victorin_de_Joncières.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "iwzfXpdR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "iwzfXpdR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "iwzfXpdR.csv"
       }
     ]
   }

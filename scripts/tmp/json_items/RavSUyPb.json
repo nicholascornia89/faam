@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q22880",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Electoral Palatinate"
       }
     ],
     "aliases": []
@@ -44,6 +45,51 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "kJLLR8EA",
+        "type": "item",
+        "label": "Johann Stamitz",
+        "description": "Czech composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jan_Václav_Stamic_(1717-1757).jpg"
+        }
+      },
+      {
+        "id": "FprDwKkS",
+        "type": "item",
+        "label": "Franz Tausch",
+        "description": "clarinetist and composer (1762-1817)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "RavSUyPb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "RavSUyPb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "RavSUyPb.csv"
+      }
+    ]
+  }
 }

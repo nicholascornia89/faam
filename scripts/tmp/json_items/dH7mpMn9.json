@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q98046137",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Mustapha-Superieur"
       }
     ],
     "aliases": [
@@ -62,8 +63,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "2486607"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q262",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Algeria"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "bRQVvHvw",
+        "type": "item",
+        "label": "Henri Vieuxtemps",
+        "description": "Belgian violinist and composer (1820-1881)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dH7mpMn9.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dH7mpMn9.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dH7mpMn9.csv"
+      }
+    ]
+  }
 }

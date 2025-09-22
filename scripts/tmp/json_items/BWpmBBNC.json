@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q27265",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "University of Salzburg"
       }
     ],
     "aliases": []
@@ -51,6 +52,51 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VAys74eS",
+        "type": "item",
+        "label": "Sigismund von Neukomm",
+        "description": "Austrian composer and pianist (1778–1858)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Neukomm.jpg"
+        }
+      },
+      {
+        "id": "fZRgzXCY",
+        "type": "item",
+        "label": "Leopold Mozart",
+        "description": "German composer (1719–1787)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopold_Mozart.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BWpmBBNC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BWpmBBNC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BWpmBBNC.csv"
+      }
+    ]
+  }
 }

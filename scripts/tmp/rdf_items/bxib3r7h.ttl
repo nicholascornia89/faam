@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bxib3r7h a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "human settlement in Naursky District, Chechen Republic, Russia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4205757>,
+        "0"^^xsd:string,
+        "bxib3r7h"^^xsd:string ;
+    schema1:location faamentity:CaPmHone ;
+    skos:prefLabel "Ishcherskaya"^^xsd:string .
+

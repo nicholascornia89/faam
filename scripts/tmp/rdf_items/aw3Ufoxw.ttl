@@ -1,0 +1,66 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aw3Ufoxw a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1713"^^xsd:string,
+        "1871"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:A4NPbBsi,
+        faamentity:MHbLSqqz,
+        faamentity:VMA2AmEN ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:9farY66Z,
+        faamentity:Cud74GBt,
+        faamentity:FSduWvy5,
+        faamentity:NjSVdz7G,
+        faamentity:RHxmTGG2 ;
+    dcterms:provenance faamentity:88PwdAPd ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Mom3rq37,
+        faamentity:Z5NoBG6x,
+        faamentity:gdjFgpdt ;
+    schema1:hasPart faamentity:MYrDfGsq ;
+    schema1:identifier "15992797"^^xsd:string,
+        "SUH-819290521"^^xsd:string,
+        "aw3Ufoxw"^^xsd:string ;
+    schema1:location faamentity:GDeKaNeC ;
+    schema1:url "https://katalogplus.sub.uni-hamburg.de/vufind/Record/819290521"^^schema1:url ;
+    skos:prefLabel "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms"^^xsd:string ;
+    wd:P217 "M B/1813: 2,4"^^xsd:string ;
+    wd:P870 faamentity:8REteAN5,
+        faamentity:YmTjo9Ww .
+
+schema1:contributor a rdf:predicate .
+
+"aw3Ufoxw-226c1885-cee8-4c33-999b-2814ddf773f0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1871"^^xsd:string ;
+    faamprop:role faamentity:NgFpoygv .
+
+"aw3Ufoxw-34749889-49ab-45b6-b0c1-f2ef23fdcacb"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1871"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"aw3Ufoxw-6c3a8921-2e69-4e53-aca5-5a157f6f063b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1713"^^xsd:string ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:location faamentity:GDeKaNeC .
+
+faamentity:Mom3rq37 a rdf:object .
+
+faamentity:Z5NoBG6x a rdf:object .
+
+faamentity:gdjFgpdt a rdf:object .
+

@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q466029",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hoch Conservatory"
       }
     ],
     "aliases": []
@@ -57,6 +58,71 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "aoYhMJHQ",
+        "type": "item",
+        "label": "Anton Urspruch",
+        "description": "German composer (1850-1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Anton_Urspruch.jpg"
+        }
+      },
+      {
+        "id": "Sv4fjwFU",
+        "type": "item",
+        "label": "Joachim Raff",
+        "description": "Swiss composer (1822-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jjraffportrait.jpg"
+        }
+      },
+      {
+        "id": "oLsD863j",
+        "type": "item",
+        "label": "Bernhard Sekles",
+        "description": "German composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sekles1913.jpg"
+        }
+      },
+      {
+        "id": "DMoXvBup",
+        "type": "item",
+        "label": "Paul Hindemith",
+        "description": "German composer (1895–1963)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paul_Hindemith_1923.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "NkSwdbTS.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "NkSwdbTS.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "NkSwdbTS.csv"
+      }
+    ]
+  }
 }

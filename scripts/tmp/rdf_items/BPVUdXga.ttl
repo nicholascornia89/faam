@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BPVUdXga a rdfs:Resource ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1849-09-08"^^xsd:string ;
+    schema1:birthPlace faamentity:XFKycgw6 ;
+    schema1:deathDate "1918-01-22"^^xsd:string ;
+    schema1:deathPlace faamentity:GKcJxAtt ;
+    schema1:description "German composer, music educator, and choirmaster (1849–1918)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q69676>,
+        "16002498"^^xsd:string,
+        "BPVUdXga"^^xsd:string ;
+    schema1:nationality faamentity:XEAQezdW,
+        faamentity:oDvJJJ7G ;
+    skos:altLabel "Gustav Schreck"^^xsd:string ;
+    skos:prefLabel "Gustav Schreck"^^xsd:string ;
+    wd:P108 faamentity:3wN8PmuS ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:5118943 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/104122> ;
+    wd:P839 <https://imslp.org/wiki/Category:Schreck,_Gustav> ;
+    schema:hasOccupation faamentity:3ABZJ3tm,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf .
+

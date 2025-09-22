@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2028",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Verona"
       }
     ],
     "aliases": [
@@ -54,8 +55,110 @@
         "base_url": "https://www.geonames.org/",
         "label": "6541865"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "7isyBsAv",
+        "label": "Italy"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "dfVtGZ3t",
+        "type": "item",
+        "label": "Vincenzo Ruffo",
+        "description": "Italian composer (1510-1587)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "4RLsuhXy",
+        "type": "item",
+        "label": "Giammateo Asola",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "i5UC9u3n",
+        "type": "item",
+        "label": "Giuseppe Torelli",
+        "description": "Italian violist, violinist, teacher and composer (1658–1709)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giuseppe_Torelli.png"
+        }
+      },
+      {
+        "id": "Un5dusVr",
+        "type": "item",
+        "label": "Biagio Rossetti",
+        "description": "Italian organist of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "kvJdJkvL",
+        "type": "item",
+        "label": "Marc'Antonio Ingegneri",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "nunha96F",
+        "type": "item",
+        "label": "Dionisio Bellante",
+        "description": "Italian violinist and composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Un5dusVr",
+        "type": "item",
+        "label": "Biagio Rossetti",
+        "description": "Italian organist of the Renaissance",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "bzwH2j9G.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "bzwH2j9G.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "bzwH2j9G.csv"
+      }
+    ]
+  }
 }

@@ -36,12 +36,50 @@
       {
         "type": "externalid",
         "value": "Q47461344",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "written work"
       }
     ],
     "aliases": []
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "annotation_type": [
+      {
+        "id": "HLS3i3gt",
+        "type": "item",
+        "label": "citation",
+        "description": "reference to a source"
+      },
+      {
+        "id": "LiFYdNgN",
+        "type": "item",
+        "label": "comparative study",
+        "description": "publication type, comparison of outcomes, results, responses, etc for different techniques, therapeutic approaches or other inputs, as a component of a publication"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dpmjh3Nr.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dpmjh3Nr.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dpmjh3Nr.csv"
+      }
+    ]
+  }
 }

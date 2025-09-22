@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q186506",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "mezzo-soprano"
       }
     ],
     "aliases": [
@@ -67,6 +68,73 @@
     ]
   },
   "statements": {},
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "BZEa96qE",
+        "type": "item",
+        "label": "Hymne au roi (des belges) : air de concert : tenor ou mez. sop.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902584041.gif"
+        }
+      },
+      {
+        "id": "5URwtogC",
+        "type": "item",
+        "label": "Concert aria : kerstnacht = Air de concert : nuit de Noël",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902518999.gif"
+        }
+      },
+      {
+        "id": "ce6BCijy",
+        "type": "item",
+        "label": "Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000322330.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "MzF2W65j",
+        "type": "item",
+        "label": "Francine Lepage",
+        "description": "Belgian mezzo soprano",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "AazD6R5i.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "AazD6R5i.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "AazD6R5i.csv"
+      }
+    ]
+  }
 }

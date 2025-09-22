@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bZxRjBKt a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "tall punctuation mark typically used in matched pairs within text, to set apart or interject other text; opening and closing, or left and right symbols"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q174565>,
+        "15992115"^^xsd:string,
+        "bZxRjBKt"^^xsd:string ;
+    skos:altLabel "bracket"^^xsd:string,
+        "brackets"^^xsd:string ;
+    skos:prefLabel "brackets"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap ;
+    wd:P279 faamentity:GtjciNTe,
+        faamentity:iuaZdbCP ;
+    wd:P31 faamentity:kjpoESBJ .
+

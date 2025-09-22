@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z5LXHFLR a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "one of the most important forms of polyphonic music from about 1220 to 1750"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q188285>,
+        "15998757"^^xsd:string,
+        "Z5LXHFLR"^^xsd:string ;
+    skos:altLabel "motet"^^xsd:string ;
+    skos:prefLabel "motet"^^xsd:string .
+

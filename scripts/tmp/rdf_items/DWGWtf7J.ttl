@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DWGWtf7J a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "one of a family of bowed, fretted and stringed instruments"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q40125>,
+        "15990818"^^xsd:string,
+        "DWGWtf7J"^^xsd:string ;
+    skos:altLabel "gamba (family of viols)"^^xsd:string,
+        "viol"^^xsd:string,
+        "viola da gamba (family of viols)"^^xsd:string ;
+    skos:prefLabel "viol"^^xsd:string .
+

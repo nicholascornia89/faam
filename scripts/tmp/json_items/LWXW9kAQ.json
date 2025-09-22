@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q6602",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Strasbourg"
       }
     ],
     "aliases": [
@@ -82,8 +83,80 @@
         "base_url": "https://www.geonames.org/",
         "label": "2973783"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "Eqo9Fq2n",
+        "label": "France"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9MhrTevj",
+        "type": "item",
+        "label": "Hugo Becker",
+        "description": "German cellist and composer (1863–1941)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Hugo_Becker_BNF.jpg"
+        }
+      },
+      {
+        "id": "ZaCAV9bn",
+        "type": "item",
+        "label": "Jean-Frédéric Edelmann",
+        "description": "French composer (1749–1794)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "Pq8oLkwn",
+        "type": "item",
+        "label": "Gustave Flaxland",
+        "description": "French composer and editor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "8duzYjhN",
+        "type": "item",
+        "label": "Franz Eck",
+        "description": "German violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "LWXW9kAQ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "LWXW9kAQ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "LWXW9kAQ.csv"
+      }
+    ]
+  }
 }

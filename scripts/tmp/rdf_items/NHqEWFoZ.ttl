@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NHqEWFoZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:kH9t4qTQ ;
+    schema1:birthDate "1857-10-19"^^xsd:string ;
+    schema1:birthPlace faamentity:4jpggeSS,
+        faamentity:a4nuXj3H ;
+    schema1:deathDate "1944-04-06"^^xsd:string ;
+    schema1:deathPlace faamentity:DJeHLGAL,
+        faamentity:ikS3MnZq ;
+    schema1:description "Dutch composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q40854046>,
+        "15996272"^^xsd:string,
+        "NHqEWFoZ"^^xsd:string ;
+    schema1:nationality faamentity:6ZFENHKx ;
+    skos:altLabel "A.E. von Brucken Fock"^^xsd:string,
+        "Abraham Emilius von Brucken Fock"^^xsd:string,
+        "E. von Brucken Fock"^^xsd:string,
+        "Emile von Brucken Fock"^^xsd:string ;
+    skos:prefLabel "Emile von Brucken Fock"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:20102951 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P839 <https://imslp.org/wiki/Category:Brucken_Fock,_Emile> ;
+    schema:hasOccupation faamentity:KZLqHwSf,
+        faamentity:UvzYZUyh .
+

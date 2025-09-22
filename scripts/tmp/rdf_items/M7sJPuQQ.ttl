@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M7sJPuQQ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:Z8fp8xPh,
+        faamentity:gSHSbZQr,
+        faamentity:jCuFYGDc ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:8Ki8U5U4,
+        faamentity:AeKhRWCB,
+        faamentity:B6QDYYs9,
+        faamentity:EgH6igGS,
+        faamentity:HXG9NWiG,
+        faamentity:J6ERsasy,
+        faamentity:NsEoE4RP,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:ch89W2mx,
+        faamentity:eviEKifd,
+        faamentity:iWuVLJam ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73vECvez,
+        faamentity:VqXjUpwW ;
+    schema1:hasPart faamentity:gvB7xdLy ;
+    schema1:identifier "15992318"^^xsd:string,
+        "KCA-030904470207"^^xsd:string,
+        "M7sJPuQQ"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6785134/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: drame: ouverture"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-1"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"M7sJPuQQ-36273b75-b741-4f4d-942f-85e41c2ff292"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+"M7sJPuQQ-cea3c8ef-9a8a-4df1-80c9-0f02b5d7ccf2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:73vECvez a rdf:object .
+
+faamentity:VqXjUpwW a rdf:object .
+

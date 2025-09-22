@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q45",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Portugal"
       }
     ],
     "aliases": []
@@ -44,6 +45,49 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "city": [
+      {
+        "id": "fQFR87Nk",
+        "type": "item",
+        "label": "Lisbon",
+        "description": "municipality and capital city of Portugal"
+      },
+      {
+        "id": "S3i4q6Vg",
+        "type": "item",
+        "label": "Amadora",
+        "description": "municipality in Portugal"
+      },
+      {
+        "id": "6u6fsvGT",
+        "type": "item",
+        "label": "Porto",
+        "description": "municipality in Portugal"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Ars8m6Hw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Ars8m6Hw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Ars8m6Hw.csv"
+      }
+    ]
+  }
 }

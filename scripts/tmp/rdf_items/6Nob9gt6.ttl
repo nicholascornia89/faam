@@ -1,0 +1,83 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Nob9gt6 a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "05-1887"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:Di2mC26w,
+        faamentity:J6ERsasy,
+        faamentity:NFazQXR2,
+        faamentity:UfinksVv,
+        faamentity:VMA2AmEN,
+        faamentity:WT9AcUBt,
+        faamentity:WuWcWk4u,
+        faamentity:YRq3pSH7,
+        faamentity:gSHSbZQr ;
+    faamprop:handwritten_annotation faamentity:3ts8CrNB,
+        faamentity:6cyBEJLr,
+        faamentity:Skma2JzR,
+        faamentity:WuWcWk4u,
+        faamentity:eviEKifd,
+        faamentity:jCuFYGDc ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:mrQyCLJX ;
+    dcelem:subject faamentity:KvY9ZvU4,
+        faamentity:M9HRWrxt,
+        faamentity:MEjPi9ot,
+        faamentity:MaWnCnVw,
+        faamentity:e6nLCMMw ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8YM9rBt4,
+        faamentity:98W5cKAM,
+        faamentity:AxpTCbUg,
+        faamentity:CT372LTH ;
+    schema1:hasPart faamentity:enJYsLJp ;
+    schema1:identifier "15992713"^^xsd:string,
+        "6Nob9gt6"^^xsd:string,
+        "KCA-030903242334"^^xsd:string ;
+    schema1:location faamentity:Km6ATdgQ ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6728970/N"^^schema1:url ;
+    skos:prefLabel "Fantasie für Pianoforte, Orchester und Chor, op. 80"^^xsd:string ;
+    wd:P217 "MM-TPT-BEETH-fanta80-1"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh .
+
+schema1:contributor a rdf:predicate .
+
+"6Nob9gt6-1701fd22-c206-416c-970c-8e24c1ef4a5b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"6Nob9gt6-49fe1f53-15fb-4188-b29b-4a0a9ed66613"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"6Nob9gt6-79ee3fdc-1ec5-44f1-becf-e553b4eec8e2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK .
+
+"6Nob9gt6-8c3107ae-5921-44c9-a7c9-d1641f5c1f4c"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "05-1887"^^xsd:string ;
+    faamprop:role faamentity:45qo3Fj3 ;
+    schema1:location faamentity:Km6ATdgQ .
+
+faamentity:8YM9rBt4 a rdf:object .
+
+faamentity:98W5cKAM a rdf:object .
+
+faamentity:AxpTCbUg a rdf:object .
+
+faamentity:CT372LTH a rdf:object .
+

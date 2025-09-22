@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q659181",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Philadelphia Orchestra"
       }
     ],
     "aliases": [
@@ -64,6 +65,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "8pUcCa9Y",
+        "type": "item",
+        "label": "Leopold Stokowski",
+        "description": "British-born American conductor (1882–1977)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Leopold_Stokowski_LOC_26447u.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "9xiqFW5J.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "9xiqFW5J.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "9xiqFW5J.csv"
+      }
+    ]
+  }
 }

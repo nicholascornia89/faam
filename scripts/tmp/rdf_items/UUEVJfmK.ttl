@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UUEVJfmK a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university located in Lausanne, Switzerland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q658975>,
+        "16004772"^^xsd:string,
+        "UUEVJfmK"^^xsd:string ;
+    schema1:location faamentity:BZCpCk45,
+        faamentity:jN8Vq8mU ;
+    skos:altLabel "Lausanne University"^^xsd:string,
+        "Schola Lausannensis"^^xsd:string,
+        "UNIL"^^xsd:string,
+        "Universite de Lausanne"^^xsd:string,
+        "University of Lausanne"^^xsd:string,
+        "Université de Lausanne"^^xsd:string ;
+    skos:prefLabel "University of Lausanne"^^xsd:string .
+

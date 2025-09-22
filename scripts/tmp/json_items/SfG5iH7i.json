@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q2413277",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Black Mountain"
       }
     ],
     "aliases": [
@@ -72,8 +73,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "7170642"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "ZTUh4Nwn",
+        "type": "item",
+        "label": "Black Mountain College",
+        "description": "college in the United States known for its liberal and arts education"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SfG5iH7i.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SfG5iH7i.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SfG5iH7i.csv"
+      }
+    ]
+  }
 }

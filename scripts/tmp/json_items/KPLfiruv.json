@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q724238",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Edegem"
       }
     ],
     "aliases": [
@@ -58,8 +59,60 @@
         "base_url": "https://www.geonames.org/",
         "label": "2799008"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "QbfXawnE",
+        "label": "Belgium"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "k47exNKq",
+        "type": "item",
+        "label": "Lodewijk Ontrop",
+        "description": "Belgian composer and conductor, 1875–1941",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Lodewijk_Ontrop_ca._1897_(retouched).jpg"
+        }
+      },
+      {
+        "id": "XS6t3Lmk",
+        "type": "item",
+        "label": "Valentine Degive-Ledelier",
+        "description": "Belgian singer and music teacher",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KPLfiruv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KPLfiruv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KPLfiruv.csv"
+      }
+    ]
+  }
 }

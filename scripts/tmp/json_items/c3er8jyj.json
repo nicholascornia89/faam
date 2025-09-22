@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q210476",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "London Borough of Harrow"
       }
     ],
     "aliases": [
@@ -70,8 +71,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "3333151"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "MGBpLC55",
+        "label": "United Kingdom"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "gntJKzSj",
+        "type": "item",
+        "label": "Harrow School",
+        "description": "school in Harrow, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "c3er8jyj.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "c3er8jyj.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "c3er8jyj.csv"
+      }
+    ]
+  }
 }

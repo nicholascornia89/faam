@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PYZ62SCP a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who translates written text from one language to another"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q333634>,
+        "15990966"^^xsd:string,
+        "PYZ62SCP"^^xsd:string ;
+    skos:altLabel "has translator"^^xsd:string,
+        "translated by"^^xsd:string,
+        "translation by"^^xsd:string,
+        "translator"^^xsd:string,
+        "translators"^^xsd:string ;
+    skos:prefLabel "semiotician"^^xsd:string,
+        "translator"^^xsd:string .
+

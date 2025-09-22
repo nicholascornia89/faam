@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q354947",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Legrenzi"
       }
     ]
   },
@@ -157,13 +158,87 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "Key74Nv2",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      },
+      {
+        "id": "aAY2Vr4R",
+        "type": "item",
+        "label": "Antonio Lotti",
+        "description": "Italian Baroque composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "AZWmWZa6",
+        "type": "item",
+        "label": "Francesco Gasparini",
+        "description": "Italian composer and teacher (1668-1727)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francesco_Gasparini_(by_Pier_Leone_Ghezzi)_Rom,_Bibl_Vat_-_Codici_Ottoboniani_latini_3113,_fol8.jpg"
+        }
+      },
+      {
+        "id": "aPwNiEyS",
+        "type": "item",
+        "label": "Giovanni Battista Bassani",
+        "description": "Italian composer, violinist and organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "YL2RebW9",
+        "type": "item",
+        "label": "Michelangelo Gasparini",
+        "description": "Italian composer and singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Giovanni_Legrenzi.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "7px3Rymk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "7px3Rymk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "7px3Rymk.csv"
       }
     ]
   }

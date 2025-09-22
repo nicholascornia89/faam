@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SnbcSMxs a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:73vECvez ;
+    schema1:identifier "16005769"^^xsd:string,
+        "SnbcSMxs"^^xsd:string ;
+    skos:prefLabel "Missa Tribus Vocibus Virorum"^^xsd:string ;
+    wd:P214 viaf:250986710 ;
+    wd:P7937 faamentity:MEjPi9ot,
+        faamentity:oQTyk8An ;
+    wd:P839 <https://imslp.org/wiki/Missa_Tribus_Vocibus_Virorum_(Benoit,_Peter)> .
+

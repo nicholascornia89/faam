@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P6AqvBfU a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:Cf64Khds ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "system for naming chords"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1504804>,
+        "15992136"^^xsd:string,
+        "P6AqvBfU"^^xsd:string ;
+    skos:altLabel "chord name"^^xsd:string,
+        "chord names and symbols"^^xsd:string,
+        "chord symbol"^^xsd:string ;
+    skos:prefLabel "chord symbol"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap,
+        faamentity:NgFpoygv ;
+    wd:P31 faamentity:N2f5NSgz,
+        faamentity:Sdw2foGQ .
+

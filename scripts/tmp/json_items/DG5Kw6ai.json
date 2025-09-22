@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q924289",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "King's College"
       }
     ],
     "aliases": [
@@ -78,6 +79,41 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "nmSBKmSb",
+        "type": "item",
+        "label": "Orlando Gibbons",
+        "description": "English composer, virginalist and organist (1583-1625)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Orlando_Gibbons.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DG5Kw6ai.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DG5Kw6ai.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DG5Kw6ai.csv"
+      }
+    ]
+  }
 }

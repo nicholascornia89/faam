@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q78",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Basel"
       }
     ],
     "aliases": [
@@ -66,8 +67,128 @@
         "base_url": "https://www.geonames.org/",
         "label": "7285161"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "jN8Vq8mU",
+        "label": "Switzerland"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "2ZeVb6Yx",
+        "type": "item",
+        "label": "Antoinette Vischer",
+        "description": "Swiss harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZxjoRWTJ",
+        "type": "item",
+        "label": "Emil Hegar",
+        "description": "(1843-1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emil_Hegar.jpg"
+        }
+      },
+      {
+        "id": "MRBRpZQN",
+        "type": "item",
+        "label": "Albert Fuchs",
+        "description": "composer (1858-1910)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "RUZQ2gYm",
+        "type": "item",
+        "label": "Conrad Beck",
+        "description": "Swiss composer (1901-1989)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Conrad_Beck_1961.jpeg"
+        }
+      },
+      {
+        "id": "35tPGXNK",
+        "type": "item",
+        "label": "Bohuslav Martinů",
+        "description": "Czech composer (1890–1959)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martinu_1945.jpg"
+        }
+      },
+      {
+        "id": "XhnHScid",
+        "type": "item",
+        "label": "Ernst Ferand",
+        "description": "Hungarian musicologist (1887-1972)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "2ZeVb6Yx",
+        "type": "item",
+        "label": "Antoinette Vischer",
+        "description": "Swiss harpsichordist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "ZxjoRWTJ",
+        "type": "item",
+        "label": "Emil Hegar",
+        "description": "(1843-1921)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Emil_Hegar.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "FPEN6Xc4",
+        "type": "item",
+        "label": "Radio Basel",
+        "description": "radio (?) from Basel, Switzerland"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nRMPrHtA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nRMPrHtA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nRMPrHtA.csv"
+      }
+    ]
+  }
 }

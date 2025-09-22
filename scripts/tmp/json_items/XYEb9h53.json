@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q154812",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Carl Maria von Weber"
       }
     ]
   },
@@ -197,13 +198,83 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "nG4d5PYK",
+        "type": "item",
+        "label": "Concerto N° 1 in C : voor piano enOrchestra : Opus 11.",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000372455.gif"
+        }
+      },
+      {
+        "id": "Yf5vB2yU",
+        "type": "item",
+        "label": "Traité de la pédale, ou : Méthode de son emploi au piano : avec exemples tirés des concerts historiques donnés par Antoine Rubinstein",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902800223.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "Mx377MbJ",
+        "type": "item",
+        "label": "Julius Benedict",
+        "description": "German-born composer and conductor",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Sir_Julius_Benedict.jpg"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "NNy6xuLW",
+        "type": "item",
+        "label": "Missa Sancta No.2, Op.76",
+        "description": ""
+      },
+      {
+        "id": "3WDoKdLw",
+        "type": "item",
+        "label": "Piano Concerto No. 1",
+        "description": "piano concerto by Carl Maria von Weber"
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XYEb9h53.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XYEb9h53.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XYEb9h53.csv"
       }
     ]
   }

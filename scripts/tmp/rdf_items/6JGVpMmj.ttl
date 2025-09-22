@@ -1,0 +1,49 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6JGVpMmj a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:6TP5v4Co ;
+    schema1:birthDate "1794-05-23"^^xsd:string ;
+    schema1:birthPlace faamentity:5rRqvsj3 ;
+    schema1:deathDate "1870-03-10"^^xsd:string ;
+    schema1:deathPlace faamentity:GKcJxAtt,
+        faamentity:bsTArmEN ;
+    schema1:description "Bohemian conductor, music educator, composer and pianist (1794–1870)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q159551>,
+        "15995958"^^xsd:string,
+        "6JGVpMmj"^^xsd:string ;
+    schema1:nationality faamentity:FPDTfb7a,
+        faamentity:JNvuisFr,
+        faamentity:n45TWq7D ;
+    skos:altLabel "Ignatz Moscheles"^^xsd:string,
+        "Ignaz Moscheles"^^xsd:string,
+        "Isaac Ignaz Moscheles"^^xsd:string ;
+    skos:prefLabel "Ignaz Moscheles"^^xsd:string ;
+    wd:P108 faamentity:3wN8PmuS ;
+    wd:P1303 faamentity:GoXpNrsh ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:56797125 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/94295> ;
+    wd:P737 faamentity:2uhMqN5s,
+        faamentity:EtNwipgc,
+        faamentity:Gy877bKx,
+        faamentity:SLpCAuz4 ;
+    wd:P839 <https://imslp.org/wiki/Category:Moscheles,_Ignaz> ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:KZLqHwSf,
+        faamentity:RHfvaKqY,
+        faamentity:YYyZX3aY,
+        faamentity:Ygb8LLjd,
+        faamentity:ZX7Jzf9y,
+        faamentity:cwEP3eRL,
+        faamentity:irSPevuD .
+

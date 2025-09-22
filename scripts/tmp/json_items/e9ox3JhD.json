@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q533534",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Cisleithania"
       }
     ],
     "aliases": [
@@ -61,6 +62,101 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "G9vyoK45",
+        "type": "item",
+        "label": "Julius Schulhoff",
+        "description": "Austrian pianist and composer (1825-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Julius_Schulhoff.jpg"
+        }
+      },
+      {
+        "id": "7xnazpfU",
+        "type": "item",
+        "label": "David Popper",
+        "description": "Bohemian cellist and composer (1843–1913)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "David_Popper_ca._1860.jpg"
+        }
+      },
+      {
+        "id": "DMmrDj7M",
+        "type": "item",
+        "label": "Gustav Mahler",
+        "description": "Austrian late-Romantic composer (1860–1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gustav-Mahler-Kohut.jpg"
+        }
+      },
+      {
+        "id": "35tPGXNK",
+        "type": "item",
+        "label": "Bohuslav Martinů",
+        "description": "Czech composer (1890–1959)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Martinu_1945.jpg"
+        }
+      },
+      {
+        "id": "QxJM2hye",
+        "type": "item",
+        "label": "Antonín Dvořák",
+        "description": "Czech composer (1841–1904)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Dvorak.jpg"
+        }
+      },
+      {
+        "id": "L7rmRcmH",
+        "type": "item",
+        "label": "Anton Bruckner",
+        "description": "Austrian composer (1824-1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Joseph_Anton_Bruckner_(1868).jpg"
+        }
+      },
+      {
+        "id": "nShUtVSk",
+        "type": "item",
+        "label": "Wilhelm Mayer",
+        "description": "Austrian composer and music teacher (1831-1898)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "e9ox3JhD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "e9ox3JhD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "e9ox3JhD.csv"
+      }
+    ]
+  }
 }

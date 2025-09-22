@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AtpfsecJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1780-07-25"^^xsd:string ;
+    schema1:birthPlace faamentity:MCyXT4P3 ;
+    schema1:deathDate "1842-03-07"^^xsd:string ;
+    schema1:deathPlace faamentity:GKcJxAtt ;
+    schema1:description "German composer and conductor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q65815>,
+        "0"^^xsd:string,
+        "AtpfsecJ"^^xsd:string ;
+    schema1:nationality faamentity:EjofKZsr ;
+    skos:prefLabel "Christian Theodor Weinlig"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:47026112 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/127820> ;
+    wd:P737 faamentity:6LF7QVv2,
+        faamentity:CFTt6erC ;
+    schema:hasOccupation faamentity:2KT5AU2p,
+        faamentity:6XD3homi,
+        faamentity:DhJCdBQn,
+        faamentity:KZLqHwSf,
+        faamentity:YYyZX3aY,
+        faamentity:iTUB2E3m .
+

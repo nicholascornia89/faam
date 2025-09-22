@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q61479771",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hermann Bäuerle"
       }
     ]
   },
@@ -160,13 +161,55 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "etG2XYYT",
+        "type": "item",
+        "label": "Missa in D major",
+        "description": ""
+      },
+      {
+        "id": "2Pqb6REG",
+        "type": "item",
+        "label": "Mass in A major",
+        "description": ""
+      },
+      {
+        "id": "a8jEKxYu",
+        "type": "item",
+        "label": "Missa in C major, B.Anh.1",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Hermann_Bäuerle_(1869-1936).jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cYVsintk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cYVsintk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cYVsintk.csv"
       }
     ]
   }

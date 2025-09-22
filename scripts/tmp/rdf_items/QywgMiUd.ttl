@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QywgMiUd a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:hDnxTWiE ;
+    schema1:identifier "16002565"^^xsd:string,
+        "QywgMiUd"^^xsd:string ;
+    skos:prefLabel "Salve Regina, Op.11"^^xsd:string ;
+    wd:P7937 faamentity:Gz3LUkC5,
+        faamentity:MEjPi9ot,
+        faamentity:eijiWF3A,
+        faamentity:kyU4WddT ;
+    wd:P839 <https://imslp.org/wiki/Salve_Regina,_Op.11_(Gernsheim,_Friedrich)> .
+

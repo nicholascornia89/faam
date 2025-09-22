@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JJ4Qh6eU a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Constituent College of Oxford University"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q81087>,
+        "16004792"^^xsd:string,
+        "JJ4Qh6eU"^^xsd:string ;
+    schema1:location faamentity:MGBpLC55,
+        faamentity:bSPC7zMk ;
+    skos:altLabel "The Master and Fellows of the College of the Great Hall of the University of Oxford"^^xsd:string,
+        "Univ"^^xsd:string,
+        "University College, Oxford"^^xsd:string ;
+    skos:prefLabel "University College, Oxford"^^xsd:string .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:64B4E75q a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "Series of poems by Virgil"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q674439>,
+        "0"^^xsd:string,
+        "64B4E75q"^^xsd:string ;
+    skos:prefLabel "Georgics"^^xsd:string ;
+    wd:P214 viaf:217064282,
+        viaf:248145424558486830832,
+        viaf:294478900,
+        viaf:3524167807360918130000,
+        viaf:6986159478242327990005,
+        viaf:7700154387431530970003,
+        viaf:83159477953127990008,
+        viaf:8668159477653127990005 .
+

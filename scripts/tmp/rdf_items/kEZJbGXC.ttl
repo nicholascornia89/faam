@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kEZJbGXC a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "choir consisting of men"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1684352>,
+        "15990631"^^xsd:string,
+        "kEZJbGXC"^^xsd:string ;
+    skos:altLabel "male choir"^^xsd:string,
+        "male chorus"^^xsd:string,
+        "male voice choir"^^xsd:string,
+        "male-voice choir"^^xsd:string,
+        "men's choir"^^xsd:string,
+        "men's chorus"^^xsd:string,
+        "mens chorus"^^xsd:string ;
+    skos:prefLabel "men's chorus"^^xsd:string .
+

@@ -1,0 +1,74 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TVCJE4o6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:3Vvybq56,
+        faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:AeKhRWCB,
+        faamentity:K9MgTT3J,
+        faamentity:RePdmToB,
+        faamentity:Rxa2vGNJ,
+        faamentity:Skma2JzR,
+        faamentity:SnxsnGvi,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:UsHJBbBf,
+        faamentity:VMA2AmEN,
+        faamentity:WtvibJFF,
+        faamentity:WuWcWk4u,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:6kwYh3HH,
+        faamentity:E2chmtzQ ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:98W5cKAM,
+        faamentity:XVpibGGu ;
+    schema1:hasPart faamentity:fUwTYuM6 ;
+    schema1:identifier "15992741"^^xsd:string,
+        "KCA-030904770226"^^xsd:string,
+        "TVCJE4o6"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6760910/N"^^schema1:url ;
+    skos:prefLabel "Sonate F dur : für Pianoforte und Horn, op.17"^^xsd:string ;
+    wd:P217 "MM-BH-BEETH-sonat17-2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:N3AKKugd .
+
+schema1:contributor a rdf:predicate .
+
+"TVCJE4o6-8c07f17b-2c80-4b80-9ad1-97fef8714203"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"TVCJE4o6-986efa15-fd3d-4733-a7c3-956f49429500"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"TVCJE4o6-a126eeeb-9b57-4b25-a955-349135f9a575"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:98W5cKAM a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+

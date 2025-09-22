@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mesjgfYw a rdfs:Resource ;
+    faamprop:related_to faamentity:7U54uqaV,
+        faamentity:FSduWvy5,
+        faamentity:jTMjFsDj ;
+    faamprop:role faamentity:fkHJwpoD ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1853-08-01"^^xsd:string ;
+    schema1:birthPlace faamentity:CSEtPcLC ;
+    schema1:deathDate "1934-03-30"^^xsd:string ;
+    schema1:deathPlace faamentity:SGnojf3n ;
+    schema1:description "spiritual director"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q115812805>,
+        "16005622"^^xsd:string,
+        "mesjgfYw"^^xsd:string ;
+    skos:altLabel "Franciscus Verhelst"^^xsd:string ;
+    skos:prefLabel "Franciscus Verhelst"^^xsd:string ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    schema:hasOccupation faamentity:99WGUK6y,
+        faamentity:KZLqHwSf .
+

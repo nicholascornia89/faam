@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q969098",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Phèdre"
       }
     ]
   },
@@ -69,6 +70,37 @@
       }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "musical_work": [
+      {
+        "id": "bTvBMC52",
+        "type": "item",
+        "label": "Hippolyte et Aricie",
+        "description": "opera by Jean-Philippe Rameau"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "G7EVpUPR.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "G7EVpUPR.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "G7EVpUPR.csv"
+      }
+    ]
+  }
 }

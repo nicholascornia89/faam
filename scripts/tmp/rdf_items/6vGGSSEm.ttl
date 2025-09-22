@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6vGGSSEm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:MUS2QF6F ;
+    schema1:birthDate "1548"^^xsd:string ;
+    schema1:birthPlace faamentity:EV4jgGpa ;
+    schema1:deathDate "1611-08-27"^^xsd:string ;
+    schema1:deathPlace faamentity:4eWBVERq ;
+    schema1:description "Spanish composer (c. 1548 – 1611)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q215128>,
+        "15996216"^^xsd:string,
+        "6vGGSSEm"^^xsd:string ;
+    schema1:nationality faamentity:M8fLwSad ;
+    skos:altLabel "Tomas Luis de Victoria"^^xsd:string,
+        "Tomás Luis de Victoria"^^xsd:string ;
+    skos:prefLabel "Tomás Luis de Victoria"^^xsd:string ;
+    wd:P1303 faamentity:RXg4snEH ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:32192606 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/30003250> ;
+    wd:P737 faamentity:5HUiNmWb,
+        faamentity:Ddx923Ut,
+        faamentity:DzHMLG7C ;
+    wd:P839 <https://imslp.org/wiki/Category:Victoria,_Tomás_Luis_de> ;
+    schema:hasOccupation faamentity:KZLqHwSf .
+

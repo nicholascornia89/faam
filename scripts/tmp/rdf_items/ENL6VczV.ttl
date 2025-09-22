@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ENL6VczV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:K9MgTT3J,
+        faamentity:SnxsnGvi,
+        faamentity:bZxRjBKt,
+        faamentity:bsgSL8K5,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:hxYumS2J ;
+    dcterms:provenance faamentity:hQcqj8e8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:8gZHuqVq,
+        faamentity:dqzZNPaF ;
+    schema1:hasPart faamentity:MBHQQh2a ;
+    schema1:identifier "15992616"^^xsd:string,
+        "ENL6VczV"^^xsd:string,
+        "KCG-000359840"^^xsd:string ;
+    schema1:location faamentity:8LdweD7c ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000359840"^^schema1:url ;
+    skos:prefLabel "Ouverture à G. Orchestre de L'Opera Don Juan : N° 4"^^xsd:string ;
+    wd:P217 "II 159"^^xsd:string ;
+    wd:P870 faamentity:g7hgtzmM .
+
+schema1:contributor a rdf:predicate .
+
+"ENL6VczV-0d8e9e17-fb4e-488f-ba8a-be9897b903d8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+"ENL6VczV-29a6a8c8-cc87-4d84-867f-fb934709afa3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:2ZAuwsSp ;
+    schema1:location faamentity:8LdweD7c .
+
+"ENL6VczV-41972b78-3cdb-4c59-85cc-293d99ef0e9f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"ENL6VczV-8eca4345-2952-4474-8994-838584dfb9cb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:8LdweD7c .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:8gZHuqVq a rdf:object .
+
+faamentity:dqzZNPaF a rdf:object .
+

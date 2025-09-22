@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:djDjePrU a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:WVwrkfen ;
+    schema1:description "opera by Gioachino Rossini"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q176700>,
+        "16000629"^^xsd:string,
+        "djDjePrU"^^xsd:string ;
+    schema1:isBasedOn faamentity:L4WvnZE4 ;
+    skos:altLabel "La Cenerentola"^^xsd:string ;
+    skos:prefLabel "La Cenerentola"^^xsd:string ;
+    wd:P214 viaf:184580205 ;
+    wd:P5202 faamentity:8gCqf5Kb ;
+    wd:P7937 faamentity:hxYumS2J ;
+    wd:P839 <https://imslp.org/wiki/La_Cenerentola_(Rossini,_Gioacchino)> .
+

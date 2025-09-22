@@ -54,7 +54,8 @@
       {
         "type": "externalid",
         "value": "Q315879",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Marcel Dupré"
       }
     ]
   },
@@ -200,13 +201,55 @@
       }
     ]
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "9mPjZpz7",
+        "type": "item",
+        "label": "Huit petits préludes et fugues, trois préludes, neuf fugues, cinq fantaisies",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902707634.gif"
+        }
+      }
+    ],
+    "musical_work": [
+      {
+        "id": "bg7wYLer",
+        "type": "item",
+        "label": "Eight Short Preludes and Fugues",
+        "description": ""
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "Dupre.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "he9gB9A7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "he9gB9A7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "he9gB9A7.csv"
       }
     ]
   }

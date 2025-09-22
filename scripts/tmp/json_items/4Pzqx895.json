@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q131908",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Hanover"
       }
     ],
     "aliases": [
@@ -66,8 +67,46 @@
         "base_url": "https://www.geonames.org/",
         "label": "5087168"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "LbfJnd9y",
+        "label": "United States"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "music_organization": [
+      {
+        "id": "ju37Bq65",
+        "type": "item",
+        "label": "Dartmouth College",
+        "description": "private university in Hanover, New Hampshire, US"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4Pzqx895.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4Pzqx895.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4Pzqx895.csv"
+      }
+    ]
+  }
 }

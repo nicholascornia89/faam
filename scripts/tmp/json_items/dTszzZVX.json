@@ -37,7 +37,8 @@
       {
         "type": "externalid",
         "value": "Q723537",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Giovanni Bernardino Nanino"
       }
     ]
   },
@@ -120,13 +121,77 @@
     "educated at": [],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "3ZV9i3hB",
+        "type": "item",
+        "label": "Gregorio Allegri",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Gregorio_Allegri_Romano01.jpg"
+        }
+      },
+      {
+        "id": "6eCGx5qV",
+        "type": "item",
+        "label": "Paolo Agostino",
+        "description": "Italian composer and organist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Paolo_Agostino_by_James_Caldwall.jpg"
+        }
+      },
+      {
+        "id": "D3RDftue",
+        "type": "item",
+        "label": "Vincenzo Ugolini",
+        "description": "Italian composer (1570–1638)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "oEEHimPd",
+        "type": "item",
+        "label": "Antonio Maria Abbatini",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "dTszzZVX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "dTszzZVX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "dTszzZVX.csv"
       }
     ]
   }

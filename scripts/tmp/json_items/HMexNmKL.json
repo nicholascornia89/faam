@@ -40,7 +40,8 @@
       {
         "type": "externalid",
         "value": "Q20",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Norway"
       }
     ],
     "aliases": [
@@ -57,6 +58,55 @@
   "statements": {
     "GeoNames ID": []
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "WPfCGbrJ",
+        "type": "item",
+        "label": "Edvard Grieg",
+        "description": "Norwegian composer and pianist (1843–1907)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Eilif_Peterssen_-_Portrait_of_the_Composer_Edvard_Grieg_-_NG.M.00396_-_National_Museum_of_Art,_Architecture_and_Design.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "KtFsbRfp",
+        "type": "item",
+        "label": "Bergen Municipality",
+        "description": "municipality in Vestland, Norway"
+      },
+      {
+        "id": "N57gb8Ez",
+        "type": "item",
+        "label": "Bergen",
+        "description": "Norwegian city in Vestland, Norway"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HMexNmKL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HMexNmKL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HMexNmKL.csv"
+      }
+    ]
+  }
 }

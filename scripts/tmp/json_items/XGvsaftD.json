@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q3141",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Melbourne"
       }
     ],
     "aliases": [
@@ -94,8 +95,50 @@
         "base_url": "https://www.geonames.org/",
         "label": "2158177"
       }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "bLsMHzkH",
+        "label": "Australia"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "EbgbHucU",
+        "type": "item",
+        "label": "Nellie Melba",
+        "description": "Australian opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Nellie_Melba_1892.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "XGvsaftD.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "XGvsaftD.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "XGvsaftD.csv"
+      }
+    ]
+  }
 }

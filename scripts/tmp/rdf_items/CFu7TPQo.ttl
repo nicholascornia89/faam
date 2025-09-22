@@ -1,0 +1,50 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CFu7TPQo a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:LeDRi6Md ;
+    schema1:birthDate "1685-02-23"^^xsd:string ;
+    schema1:birthPlace faamentity:7QJpBFA4 ;
+    schema1:deathDate "1759-04-14"^^xsd:string ;
+    schema1:deathPlace faamentity:DMDLFgCg,
+        faamentity:bsTArmEN ;
+    schema1:description "German-British Baroque composer (1685–1759)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7302>,
+        "15995683"^^xsd:string,
+        "CFu7TPQo"^^xsd:string ;
+    schema1:nationality faamentity:9xF8UfJQ,
+        faamentity:hVfPnD2r,
+        faamentity:n45TWq7D ;
+    skos:altLabel "G. F. Handel"^^xsd:string,
+        "G. F. Händel"^^xsd:string,
+        "Georg Friedrich Händel"^^xsd:string,
+        "George Frederick Handel"^^xsd:string,
+        "George Frideric"^^xsd:string,
+        "George Frideric Handel"^^xsd:string,
+        "Handel"^^xsd:string,
+        "Händel"^^xsd:string ;
+    skos:prefLabel "George Frideric Handel"^^xsd:string ;
+    wd:P1303 faamentity:J32Mk8QV,
+        faamentity:MFQUhgoe,
+        faamentity:YmTjo9Ww ;
+    wd:P21 faamentity:VAnkqco6 ;
+    wd:P214 viaf:5126950 ;
+    wd:P31 faamentity:ZwquHrbe ;
+    wd:P5504 <https://rism.online/people/36552> ;
+    wd:P737 faamentity:h2AqgTCH ;
+    wd:P839 <https://imslp.org/wiki/Category:Handel,_George_Frideric> ;
+    schema:hasOccupation faamentity:9joWzZuU,
+        faamentity:JH4gpUQc,
+        faamentity:KZLqHwSf,
+        faamentity:LcwfzPiG,
+        faamentity:PGamAZRD,
+        faamentity:ZX7Jzf9y,
+        faamentity:irSPevuD .
+

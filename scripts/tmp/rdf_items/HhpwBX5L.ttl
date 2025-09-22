@@ -1,0 +1,86 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HhpwBX5L a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:editorial_annotation faamentity:6cyBEJLr,
+        faamentity:B7WuhvkL,
+        faamentity:CPJ2a2C2,
+        faamentity:HXG9NWiG,
+        faamentity:MCVLnYka,
+        faamentity:TN2gP3Pq,
+        faamentity:UDva945b,
+        faamentity:WT9AcUBt,
+        faamentity:WtvibJFF,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:6cyBEJLr,
+        faamentity:CPJ2a2C2,
+        faamentity:K9MgTT3J,
+        faamentity:SnxsnGvi,
+        faamentity:WT9AcUBt,
+        faamentity:aCRY7SgN ;
+    faamprop:role faamentity:45qo3Fj3,
+        faamentity:GBgJfRbK,
+        faamentity:GoiPpGap,
+        faamentity:fkHJwpoD ;
+    faamprop:score_complexity faamentity:iTQMfTAE ;
+    faamprop:score_format faamentity:g5WgfTuF,
+        faamentity:ktjyHrtb ;
+    dcelem:subject faamentity:E2chmtzQ,
+        faamentity:FSduWvy5,
+        faamentity:M9HRWrxt,
+        faamentity:QFnkBYdA,
+        faamentity:ir8H6VLw ;
+    dcterms:provenance faamentity:FDCuefHz ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3NyookEG,
+        faamentity:XVpibGGu,
+        faamentity:Y4Su8bEC,
+        faamentity:mUtv9AJc ;
+    schema1:hasPart faamentity:PHKnn8ud ;
+    schema1:identifier "16005035"^^xsd:string,
+        "BSB-991018766109707356"^^xsd:string,
+        "HhpwBX5L"^^xsd:string ;
+    schema1:location faamentity:GKcJxAtt ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11151706"^^schema1:url ;
+    skos:prefLabel "Die hohe Schule des Violinspiels: Werke berühmter Meister d. 17. u. 18. Jh."^^xsd:string ;
+    wd:P217 "4 Mus.pr. 61209-2"^^xsd:string ;
+    wd:P870 faamentity:GoXpNrsh,
+        faamentity:VZE4bgeN .
+
+schema1:contributor a rdf:predicate .
+
+"HhpwBX5L-1fee272a-002d-4e12-b5bf-070b1209dee9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:role faamentity:GBgJfRbK ;
+    schema1:location faamentity:GKcJxAtt .
+
+"HhpwBX5L-81191015-0bab-44e0-84c9-5904a7dade15"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:45qo3Fj3 .
+
+"HhpwBX5L-ba60d36d-873e-4292-a957-c8ffbe38539f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:GoiPpGap .
+
+"HhpwBX5L-f613b1e0-245b-42a6-a4d3-44aa7c0f513d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+faamentity:3NyookEG a rdf:object .
+
+faamentity:XVpibGGu a rdf:object .
+
+faamentity:Y4Su8bEC a rdf:object .
+
+faamentity:mUtv9AJc a rdf:object .
+

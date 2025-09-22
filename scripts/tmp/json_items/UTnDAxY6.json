@@ -36,7 +36,8 @@
       {
         "type": "externalid",
         "value": "Q48293",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Alta Gracia"
       }
     ],
     "aliases": [
@@ -54,8 +55,51 @@
         "base_url": "https://www.geonames.org/",
         "label": "3866163"
       }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q414",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Argentina"
+      }
     ]
   },
-  "cross-references": {},
-  "resources": {}
+  "cross-references": {
+    "agent": [
+      {
+        "id": "7VrED9n8",
+        "type": "item",
+        "label": "Manuel de Falla",
+        "description": "Spanish composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Manuel_de_Falla_en_Alta_Gracia.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UTnDAxY6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UTnDAxY6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UTnDAxY6.csv"
+      }
+    ]
+  }
 }

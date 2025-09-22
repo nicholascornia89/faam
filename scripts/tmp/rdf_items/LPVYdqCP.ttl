@@ -1,0 +1,83 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LPVYdqCP a rdf:subject,
+        rdfs:Resource ;
+    crm:P4_has_time-span "12-08-1897"^^xsd:string,
+        "1897"^^xsd:string ;
+    faamprop:handwritten_annotation faamentity:4PAdXGNC,
+        faamentity:9dz9ydpz,
+        faamentity:DS9HvPwY,
+        faamentity:EgH6igGS,
+        faamentity:HXG9NWiG,
+        faamentity:RePdmToB,
+        faamentity:SnxsnGvi,
+        faamentity:UDva945b,
+        faamentity:YWfofDz3,
+        faamentity:bsgSL8K5,
+        faamentity:e9t5BdLA,
+        faamentity:eviEKifd ;
+    faamprop:role faamentity:2ZAuwsSp,
+        faamentity:NgFpoygv,
+        faamentity:fkHJwpoD,
+        faamentity:ipShXcQo ;
+    faamprop:score_complexity faamentity:j3pK6Dqo ;
+    faamprop:score_format faamentity:g5WgfTuF ;
+    dcelem:subject faamentity:FHTHb7Dq,
+        faamentity:hCL8ZYQY ;
+    dcterms:provenance faamentity:6vrn9seu ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GxwNM6Ja,
+        faamentity:NaVsGiXL,
+        faamentity:ktiDTd7g ;
+    schema1:hasPart faamentity:XftfTByV ;
+    schema1:identifier "15992294"^^xsd:string,
+        "KCA-030901779030"^^xsd:string,
+        "LPVYdqCP"^^xsd:string ;
+    schema1:location faamentity:Ba3nT5xs ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7056339/N"^^schema1:url ;
+    skos:prefLabel "Parisina: inleiding van het drama"^^xsd:string ;
+    wd:P217 "MM-MS-KEURV-parisin-13"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"LPVYdqCP-05357954-eb6d-422a-ad2c-99a21de8d983"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "12-08-1897"^^xsd:string ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"LPVYdqCP-4ab56c50-020a-46c0-b4ae-b269e0124ad6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:fkHJwpoD .
+
+"LPVYdqCP-5e431c0c-f112-418d-9f6d-cc7c6cd87153"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "12-08-1897"^^xsd:string ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"LPVYdqCP-ac4c741e-7a5a-4864-9506-8fba4e6cb966"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "12-08-1897"^^xsd:string ;
+    faamprop:role faamentity:NgFpoygv ;
+    schema1:location faamentity:Ba3nT5xs .
+
+"LPVYdqCP-b557af44-56a8-408c-829b-2b80cb407b91"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:ipShXcQo .
+
+"LPVYdqCP-bded3778-9964-49ee-bc30-97f854e187a3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1897"^^xsd:string ;
+    faamprop:role faamentity:2ZAuwsSp .
+
+faamentity:GxwNM6Ja a rdf:object .
+
+faamentity:NaVsGiXL a rdf:object .
+
+faamentity:ktiDTd7g a rdf:object .
+

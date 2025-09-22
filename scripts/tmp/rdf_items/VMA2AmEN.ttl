@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VMA2AmEN a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "study of the performance of music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124518087>,
+        "15992131"^^xsd:string,
+        "VMA2AmEN"^^xsd:string ;
+    skos:altLabel "performance practice"^^xsd:string ;
+    skos:prefLabel "performance practice"^^xsd:string ;
+    wd:P1535 faamentity:45qo3Fj3,
+        faamentity:GoiPpGap ;
+    wd:P279 faamentity:2pd863Hk,
+        faamentity:Vv36Q4AL ;
+    wd:P31 faamentity:BH3QSV35 .
+

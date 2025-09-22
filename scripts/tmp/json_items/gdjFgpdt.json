@@ -50,7 +50,8 @@
       {
         "type": "externalid",
         "value": "Q65274",
-        "base_url": "http://wwww.wikidata.org/entity/"
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Friedrich Chrysander"
       }
     ]
   },
@@ -161,13 +162,67 @@
     ],
     "employer": []
   },
-  "cross-references": {},
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bHzuA4nb",
+        "type": "item",
+        "label": "Couperin's Werke. 1,1: Clavierstücke : livre I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991076926199707356.gif"
+        }
+      },
+      {
+        "id": "aw3Ufoxw",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290521.gif"
+        }
+      },
+      {
+        "id": "SjjfyqFL",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      }
+    ]
+  },
   "resources": {
     "image": [
       {
         "type": "image",
         "value": "FriedrichChrysanderEmilBieber.jpg",
         "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/"
+      }
+    ],
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "gdjFgpdt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "gdjFgpdt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "gdjFgpdt.csv"
       }
     ]
   }
