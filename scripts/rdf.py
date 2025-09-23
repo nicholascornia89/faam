@@ -44,8 +44,20 @@ FAAM_NAMESPACES = [
 
 """generate Turtle RDF serialization of metadata according to Nodegoat2LOD mapping"""
 
+def generate_rdf_kb(faam_kb,nodegoat2faam_kb,file_path):
 
-def generate_rdf_item(item, nodegoat2faam_kb, file_path):  # TO BE TESTED
+    #initialize whole knowledge graph
+
+    kb_g = Graph()
+    for item in faam_kb["items"]:
+        kb_g = kb_g + generate_rdf_item(item,nodegoat2faam_kb,file_path,save=False)
+
+    # save whole graph to disk
+    g.serialize(format="turtle",destination=file_path)
+
+
+
+def generate_rdf_item(item, nodegoat2faam_kb, file_path,save=True): 
     # initialization graph
     g = Graph()
     # Bind prefixes to Namespace
@@ -146,7 +158,10 @@ def generate_rdf_item(item, nodegoat2faam_kb, file_path):  # TO BE TESTED
 
 
     # save graph in Turtle serialization
-    g.serialize(format="turtle",destination=file_path)
+    if save:
+        g.serialize(format="turtle",destination=file_path)
+
+    return g
 
 
 

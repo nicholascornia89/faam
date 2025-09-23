@@ -2,6 +2,13 @@
 Scripts for pyvis network visualization and image carousel
 """
 
+# Import functions from other scripts
+import sys
+
+sys.path.append(".")
+from utilities import *
+from faam_kb import *
+
 # graph visualization modules 
 from pyvis.network import Network
 import networkx as nx
@@ -28,21 +35,21 @@ def add_node_faam(item,uuid_int,net,graph_attributes_type,nodes_list):
 	else:
 		image = "<p></p>"
 	title = (
-	            """
+				"""
 			<body>
 			<h3> <a href='./"""
-	            + item["id"]
-	            + """.md'>"""
-	            + item["metadata"]["label"][0]["value"]
-	            + """</a></h3>
+				+ item["id"]
+				+ """.md'>"""
+				+ item["metadata"]["label"][0]["value"]
+				+ """</a></h3>
 			<p>"""
-	            + item["metadata"]["description"][0]["value"]
-	            + """</p>"""
-	            + image +
+				+ item["metadata"]["description"][0]["value"]
+				+ """</p>"""
+				+ image +
 				"""
 			</body>
 			"""
-	        )
+			)
 	nodes_list.append(uuid_int)
 	net.add_node(item["id"],
 					label = item["metadata"]["label"][0]["value"],
@@ -108,21 +115,21 @@ def pyvis_visualization(net,net_filename):
 				#i["x"], i["y"] = layout[node_id][0]*1000, layout[node_id][1]*1000
 	options = """
 			var options = {
-   					"configure": {
+					"configure": {
 						"enabled": false
-   							},
-  					"edges": {
+							},
+					"edges": {
 					"color": {
-	  				"inherit": true
+					"inherit": true
 						},
 					"smooth": false
-  					},
-  					"physics": {
+					},
+					"physics": {
 					"barnesHut": {
-	  				"gravitationalConstant": -120050
+					"gravitationalConstant": -120050
 					},
 					"minVelocity": 0.75
-  					}
+					}
 					}
 				"""
 	visualization.set_options(options)
@@ -155,11 +162,22 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 	net = generate_network(faam_kb,graph_attributes_type_filename,out_dir)
 	# generate distance matrix
 	print("Generating distance matrix. It might take a while!")
-	distances = generate_distance_matrix(net,max_dist=2)
+	distances = generate_distance_matrix(net,max_dist=1)
 	print("Generating individual graph visualizations in HTML using pyvis...It might take a while.")
 
+	number_of_nodes = len(net.nodes())
+	print(f"Number of nodes: {number_of_nodes}")
+	networks = glob(os.path.join(out_dir,"networks","*.html"))
+	print(f"Number of existing networks: {len(networks)} \n Example network: {networks[0:3]}")
+	processed = 0
 	for node in net:
+		processed +=1
+		print(f"Processing node: {node}")
+		#if "tmp/networks/"+str(node)+".html" not in networks:
 		pyvis_visualization_local(node,net,distances,os.path.join(out_dir,"networks"))
+		# else:
+			#print(f"Skip graph for {node}")
+		print(f"Processed {100*float(processed)/number_of_nodes}%")
 
 
 
@@ -192,7 +210,7 @@ def generate_image_carousel(faam_kb,github_repo_url,repo_name):
 				#raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/{image.path}")
 
 				#version for WEBP images
-				raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/images/{image.path}")
+				raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/data/images/{image.path}")
 
 			#print(f"Raw URL for images: {raw_images}")
 
@@ -216,8 +234,8 @@ def generate_image_carousel(faam_kb,github_repo_url,repo_name):
 			# generate style
 
 			doc.add(style(raw(""".background-faam {
-  									background-color: #1e1d1d;
-  						}""")))
+									background-color: #1e1d1d;
+						}""")))
 
 			# generate body
 
