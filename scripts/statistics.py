@@ -26,7 +26,7 @@ def basic_statistics(faam_kb):  # returns the number of items
 
     for item in faam_kb["items"]:
         for category in item.keys():
-            if category not in ["id", "uuid_num"]:
+            if category not in ["id", "uuid_num", "cross-references", "resources"]:
                 for prop in item[category]:
                     for statement in item[category][prop]:
                         if statement["value"] == "":

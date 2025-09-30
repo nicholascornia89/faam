@@ -131,16 +131,14 @@ def wikidata_SPARQL_enhance():
 def data_visualization():
     faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
-    """ WEBP version to be checked!
     print("Generating image carousels for each manifestation...")
     github_api_repo = "https://api.github.com/repos/nicholascornia89"
-    repo_name = "faam"
+    repo_name = "https://github.com/nicholascornia89/faam"
     generate_image_carousel(faam_kb, github_api_repo, repo_name)
-    """
 
     # generate pyvis networks
-    print("Generating graph networks visualizations...")
-    generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+    # print("Generating graph networks visualizations...")
+    # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
 
 # FAAM Knowledge base
@@ -223,10 +221,9 @@ def faam_kb():
             os.path.join(out_dir, "rdf_kb", "rdf_kb-" + get_current_date() + ".ttl"),
         )
 
-        """ generate JSON serialization and append it to FAAM kb ## WORKS!
+        # generate JSON serialization and append it to FAAM kb ## WORKS!
         print("Generating JSON, CSV and RDF resources for each item...")
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
-        """
 
         dict2json(faam_kb, faam_kb_filename)
 
@@ -253,5 +250,5 @@ def mkdocs_pages():
 # nodegoat_import()
 # wikidata_SPARQL_enhance()
 # faam_kb()
-data_visualization()
-# mkdocs_pages()
+# data_visualization()
+mkdocs_pages()

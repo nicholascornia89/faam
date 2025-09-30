@@ -184,116 +184,152 @@ def generate_faam_graphs(faam_kb,graph_attributes_type_filename,out_dir):
 
 ### Image carousel visualization
 
+
+"""Missing manifestations:
+
+[missing]
+BNF-43009177x (deleted)
+ORP-20143703p17 (not scanned, resource on IMSLP)
+ORP-20143703p21 (//)
+ORP-20143703p22 https://imslp.org/wiki/Pizzicato,_Op.39_(Thom%C3%A9,_Francis)
+ORP-20143702p1 https://imslp.org/wiki/Alessandro_Stradella_(Flotow%2C_Friedrich_von)
+ORP-20143702p8 https://imslp.org/wiki/Eljen-Csardas_(Michiels%2C_Gustave)
+ORP-20143702p9 https://imslp.org/wiki/La_lettre_de_Manon_(Gillet%2C_Ernest)
+ORP-20143702p10 https://imslp.org/wiki/En_revenant_de_la_revue_(Desormes%2C_Louis_C%C3%A9sar)
+ORP-20143702p16 https://gallica.bnf.fr/ark:/12148/btv1b9069262j.r=La%20Valse%20des%20Perles?rk=21459;2
+ORP-20143701p11 (not available)
+ORP-20143701p12 https://imslp.org/wiki/Notenbuch_f%C3%BCr_Klein_und_Gross%2C_Op.138_(Heller%2C_Stephen)
+ORP-20143701p13 https://imslp.org/wiki/60_Selected_Studies_(Cramer,_Johann_Baptist)
+ORP-20143701p14 https://imslp.org/wiki/M%C3%A9thode_%C3%A9l%C3%A9mentaire_de_chant_(Bord%C3%A8se%2C_Luigi)
+ORP-20143701p16 https://imslp.org/wiki/12_%C3%89tudes_caract%C3%A9ristiques%2C_Op.2_(Henselt%2C_Adolf_von)
+ORP-20143700p2 https://imslp.org/wiki/Tarantella_in_G_minor%2C_Op.12_(Cui%2C_C%C3%A9sar)
+ORP-20143700p3 (not available)
+
+
+
+
+"""
+
 def generate_image_carousel(faam_kb,github_repo_url,repo_name):
 	# get GitHub credentials
 	credentials = json2dict(os.path.join("credentials","github_credentials.json"))
 	auth = Auth.Token(credentials["access_token"])
 	g = Github(auth=auth)
+	GitHub_path = repo_name.replace("https://github.com/","")
 
 	for item in faam_kb["items"]:
 		if item["metadata"]["object_type"][0]["value"] == "manifestation":
 			# get GitHub repository from resources
-			GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/","")
-			user_name = GitHub_path.split("/")[0]
-			repo_name = GitHub_path.split("/")[1]
-			path_name = GitHub_path.replace(f"{user_name}/{repo_name}/tree/main/","")
+			#GitHub_path = item["resources"]["GitHub"][0]["value"].replace("https://github.com/","")
 			faam_manifestation_id = item["metadata"]["FAAM manifestation ID"][0]["value"]
+			print(f"Current item: {faam_manifestation_id}")
+			#user_name = GitHub_path.split("/")[0]
+			#repo_name = GitHub_path.split("/")[-1]
+			#path_name = GitHub_path.replace(f"{user_name}/{repo_name}/tree/main/","")
+			
 			#print(f"GitHub path: {GitHub_path}")
 			# repo = g.get_repo(f"{user_name}/{repo_name}")
-			repo = g.get_repo(f"{user_name}/{repo_name}")
+			repo = g.get_repo(GitHub_path)
 			#contents = repo.get_contents(path_name)
-			contents = repo.get_contents(f"images/{faam_manifestation_id}/images")
+			try:
+				contents = repo.get_contents(f"data/images/{faam_manifestation_id}/images")
+				raw_images = [] # generate raw images URL for carousel
+				for image in contents:
+					# version for original JPGs
+					#raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/{image.path}")
 
-			raw_images = [] # generate raw images URL for carousel
-			for image in contents:
-				# version for original JPGs
-				#raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/{image.path}")
+					#version for WEBP images
+					raw_images.append(f"https://raw.githubusercontent.com/{GitHub_path}/main/{image.path}")
 
-				#version for WEBP images
-				raw_images.append(f"https://raw.githubusercontent.com/{user_name}/{repo_name}/main/data/images/{image.path}")
+				#print(f"Raw URL for images: {raw_images}")
+				#input()
 
-			#print(f"Raw URL for images: {raw_images}")
+				# generate a HTML page with image carousel using Dominate
 
-			# generate a HTML page with image carousel using Dominate
-
-			# generate new page
-			doc = dominate.document(title=faam_manifestation_id)
-
-
-			# generate head
-			with doc.head:
-				meta(charset="utf-8")
-				meta(name="viewport", content="width=device-width, initial-scale=1")
-				link(
-					href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
-					rel="stylesheet",
-				)
-				link(href="https://getbootstrap.com/docs/5.2/assets/css/docs.css", rel="stylesheet")
-				script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js")
-
-			# generate style
-
-			doc.add(style(raw(""".background-faam {
-									background-color: #1e1d1d;
-						}""")))
-
-			# generate body
-
-			with doc:
-				with div(cls="background-faam"):
-					img(src="https://raw.githubusercontent.com/nicholascornia89/faam/main/overrides/assets/images/faam-logo_full-gold.png", width="200" ,height="100")
-
-					with div(id="carouselExampleIndicators", cls="carousel slide", data_interval="false"):
-						with div(cls="carousel-indicators"):
-							for i in range(len(raw_images)):
-								if i == 0:
-									button(
-										type="button",
-										cls="active",
-										data_bs_target="#carouselExampleIndicators",
-										data_bs_slide_to=f"{i}",
-										aria_current="true",
-										aria_label=f"Slide {i+1}",
-									)
-								else:
-									button(
-										type="button",
-										cls="",
-										data_bs_target="#carouselExampleIndicators",
-										data_bs_slide_to=f"{i}",
-										aria_current="false",
-										aria_label=f"Slide {i+1}",
-									)
-
-						with div(cls="carousel-inner"):
-							for i in range(len(raw_images)):
-								if i == 0:
-									with div(cls="carousel-item active"):
-										img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
-								else:
-									with div(cls="carousel-item"):
-										img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
-
-						with button(
-							cls="carousel-control-prev",
-							type="button",
-							data_bs_target="#carouselExampleIndicators",
-							data_bs_slide="prev",
-						):
-							span(cls="carousel-control-prev-icon", aria_hidden="true")
-							span("Previous", cls="visually-hidden")
-
-						with button(
-							cls="carousel-control-next",
-							type="button",
-							data_bs_target="#carouselExampleIndicators",
-							data_bs_slide="next",
-						):
-							span(cls="carousel-control-next-icon", aria_hidden="true")
-							span("Next", cls="visually-hidden")
+				# generate new page
+				doc = dominate.document(title=faam_manifestation_id)
 
 
-			# save HTML page
+				# generate head
+				with doc.head:
+					meta(charset="utf-8")
+					meta(name="viewport", content="width=device-width, initial-scale=1")
+					link(
+						href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css",
+						rel="stylesheet",
+					)
+					link(href="https://getbootstrap.com/docs/5.2/assets/css/docs.css", rel="stylesheet")
+					script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js")
 
-			with open(os.path.join("tmp","image_carousels",f"{item["id"]}.html"), "w") as f:
-				f.write(doc.render(pretty=True))
+				# generate style
+
+				doc.add(style(raw(""".background-faam {
+										background-color: #1e1d1d;
+							}""")))
+
+				# generate body
+
+				with doc:
+					with div(cls="background-faam"):
+						img(src="https://raw.githubusercontent.com/nicholascornia89/faam/main/overrides/assets/images/faam-logo_full-gold.png", width="200" ,height="100")
+
+						with div(id="carouselExampleIndicators", cls="carousel slide", data_interval="false"):
+							with div(cls="carousel-indicators"):
+								for i in range(len(raw_images)):
+									if i == 0:
+										button(
+											type="button",
+											cls="active",
+											data_bs_target="#carouselExampleIndicators",
+											data_bs_slide_to=f"{i}",
+											aria_current="true",
+											aria_label=f"Slide {i+1}",
+										)
+									else:
+										button(
+											type="button",
+											cls="",
+											data_bs_target="#carouselExampleIndicators",
+											data_bs_slide_to=f"{i}",
+											aria_current="false",
+											aria_label=f"Slide {i+1}",
+										)
+
+							with div(cls="carousel-inner"):
+								for i in range(len(raw_images)):
+									if i == 0:
+										with div(cls="carousel-item active"):
+											img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
+									else:
+										with div(cls="carousel-item"):
+											img(src=raw_images[i], cls="d-block w-100", alt=f"Slide {i+1}")
+
+							with button(
+								cls="carousel-control-prev",
+								type="button",
+								data_bs_target="#carouselExampleIndicators",
+								data_bs_slide="prev",
+							):
+								span(cls="carousel-control-prev-icon", aria_hidden="true")
+								span("Previous", cls="visually-hidden")
+
+							with button(
+								cls="carousel-control-next",
+								type="button",
+								data_bs_target="#carouselExampleIndicators",
+								data_bs_slide="next",
+							):
+								span(cls="carousel-control-next-icon", aria_hidden="true")
+								span("Next", cls="visually-hidden")
+
+
+				# save HTML page
+
+				with open(os.path.join("tmp","image_carousels",f"{item["id"]}.html"), "w") as f:
+					f.write(doc.render(pretty=True))
+			except Exception:
+				print(f"Missing manifestation: {faam_manifestation_id} ")
+				
+
+
+			

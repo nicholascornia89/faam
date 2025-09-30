@@ -728,7 +728,7 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 								qualifier_field_mapping = list(
 										filter(lambda x: x["nodegoat_field"] == qualifier_key, faam_kb_mapping))[0]
 								qualifiers.append({
-												"type": qualifier_field_mapping["data_type"],
+												"type": qualifier_field_mapping["data_type"].split("|")[1],
 												"property": qualifier_field_mapping["faam_property"], 
 												"value": obj[qualifier_key][i]
 												})
@@ -747,7 +747,7 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 
 
 								
-				elif field_mapping["data_type"] == "qualifier":
+				elif "qualifier" in field_mapping["data_type"] :
 					# qualifiers are already appended to the corresponding statement
 					pass
 

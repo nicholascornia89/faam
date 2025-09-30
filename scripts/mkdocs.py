@@ -158,6 +158,7 @@ def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
 	# make a Markdown document for each item of the knowledge base
 
 	for item in faam_kb["items"]:
+		print(f"""Current item: {item["id"]}""")
 		doc = snakemd.Document()
 		# adding properties
 		doc.add_raw(
@@ -203,10 +204,15 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 				elif block["format"] == "button":
 					for button in block["content"]:
 						if "GitHub" in button["label"]:
-							githuburl = item["resources"]["GitHub"][0]["value"]
-							doc.add_raw(f"""[{button["label"]} {button["icon"]}]({githuburl}){{.md-button}}""") 
+							try:
+								githuburl = item["resources"]["GitHub"][0]["value"]
+								doc.add_raw(f"""[{button["label"]} {button["icon"]}]({githuburl}){{.md-button}}""")
+							except IndexError:
+								print("No GitHub url")
+								input() 
 						else: # file serializations
-							doc.add_raw(f"""[{button["label"]} {button["icon"]}](./{item["id"]}{button["extension"]}){{.md-button}}""")
+							resource_url = f"""{item[button["category"]][button["property"]][0]["base_url"]}{item[button["category"]][button["property"]][0]["value"]}"""
+							doc.add_raw(f"""[{button["label"]} {button["icon"]}]({resource_url}){{.md-button}}""")
 
 				elif block["format"] == "embed":
 					for embed in block["content"]:
@@ -219,26 +225,29 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 				# statements
 				elif block["format"] == "quote":
 					if block["data_format"] == "string":
-						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
-						if len(statements) > 0: # append block only if statements are not empty
-							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
-							statements_list = []
-							for statement in statements:
-								if statement["value"] != "":
-									# check if item (hyperlink needed), otherwise only string
-									if statement["type"] == "item":
-										# I am assuming all items have FAAM UUID
-										statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
-									elif statement["type"] == "externalid":
-										statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
-									else:
-										statements_list.append(sneakmd.Inline(statement["value"]))
+						try:
+							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+							if len(statements) > 0: # append block only if statements are not empty
+								doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+								statements_list = []
+								for statement in statements:
+									if statement["value"] != "":
+										# check if item (hyperlink needed), otherwise only string
+										if statement["type"] == "item":
+											# I am assuming all items have FAAM UUID
+											statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
+										elif statement["type"] == "externalid":
+											statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["base_url"]}{statement["value"]}"))
+										else:
+											statements_list.append(snakemd.Inline(statement["value"]))
 
-							# create unordered list. p.s. Tab is fundamental for layout structuring
-							for element in statements_list:
-								doc.add_raw(f"""	{element}""")
+								# create unordered list. p.s. Tab is fundamental for layout structuring
+								for element in statements_list:
+									doc.add_raw(f"""	{element}""")
+						except KeyError: # statement not found
+							pass
 
-					if block["data_format"] == "list":
+					elif block["data_format"] == "list":
 						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 						if len(statements) > 0:
 							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
@@ -248,11 +257,11 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 									# check if item (hyperlink needed), otherwise only string
 									if statement["type"] == "item":
 										# I am assuming all items have FAAM UUID
-										statements_list.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+										statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
 									elif statement["type"] == "externalid":
-										statements_list.append(sneakmd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
+										statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
 									else:
-										statements_list.append(sneakmd.Inline(statement["value"]))
+										statements_list.append(snakemd.Inline(statement["value"]))
 
 							# create unordered list. p.s. Tab is fundamental for layout structuring
 							for element in statements_list:
@@ -267,6 +276,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 									# append qualifiers in `qualifiers` key
 									for qual in element["qualifiers"]:
 										headings.append(qual)
+							print(f"Headings: {headings}")
 
 							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 							if len(statements) > 0:
@@ -279,13 +289,13 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 									for heading in headings: # assume heading = property and qualifiers key
 										if statement["value"] != "":
 											if statement["type"] == "statement":
-												raw.append(sneakmd.Inline(statement["label"]).link(f"./{statement["id"]}.md"))
+												raw.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
 												for qual in statement["qualifiers"]:
 													if qual in headings:
 														if qual["type"] == "item":
-															raw.append(sneakmd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+															raw.append(snakemd.Inline(qual["label"]).link(f"{qual["value"]}"))
 														else:
-															raw.append(sneakmd.Inline(qual["value"]))
+															raw.append(snakemd.Inline(qual["value"]))
 									table_raws.append(raw)
 
 						else: # case with normal items
@@ -301,17 +311,21 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 								for i in range(len(item[block["content"][0]["category"]][block["content"][0]["property"]])):
 									raw = []
 									for element in block["content"]:
-										current_item = item[element["category"]][element["property"]][i]
+										try:
+											current_item = item[element["category"]][element["property"]][i]
+										except IndexError:
+											# produce empty item
+											current_item = {"type": "string", "value": "", "label": "", "base_url": ""}
 										if current_item["type"] == "item":
-											raw.append(snakemd.Inline(current_item["label"]).link(f"./{current_item["value"]}.md"))
+											raw.append(snakemd.Inline(current_item["label"]).link(f"{current_item["value"]}"))
 
 										elif current_item["type"] == "externalid":
 											if "wikidata.org" in current_item["base_url"]:
 												try:
-													raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+													raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}{current_item["value"]}"""))
 												except KeyError:
 													print(f"QID without label: {current_item["value"]}")
-													raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+													raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}{current_item["value"]}"""))
 
 											else:
 												raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
@@ -325,6 +339,35 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						# append table to document
 						doc.add_table(headings,table_raws,align=table_align,indent=4)
 
+				# cross-references
+				elif block["format"] == "grid":
+					if block["object_type"] in item[block["category"]].keys():
+						# opening div for Material grid
+						doc.add_raw(f"""<div class="grid cards" markdown>""")
+						for reference in item[block["category"]][block["object_type"]]:
+							# add title based on label
+							#doc.add_raw(f"""{snakemd.Inline("")}""")
+							doc.add_raw(f"""-	__[{reference["label"]}]({reference["id"]})__""")
+							#doc.add_raw(f"""{snakemd.Inline("")}""")
+							# add image if exists
+							if "image" in reference.keys():
+								if reference["image"]["value"] != "":
+									doc.add_raw(f"""	![Image]({reference["image"]["base_url"]}{reference["image"]["value"]}){{align={block["attributes"]["align"]} width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}"}} """)
+								else:
+									doc.add_raw(f"""	![Image]({block["redirect_image"]}){{align={block["attributes"]["align"]} width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}"}} """)
+							elif "thumb" in reference.keys():
+								if reference["thumb"]["value"] != "":
+									doc.add_raw(f"""	![Image]({reference["thumb"]["base_url"]}{reference["thumb"]["value"]}){{align={block["attributes"]["align"]} width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}"}} """)
+								else:
+									doc.add_raw(f"""	![Image]({block["redirect_image"]}){{align={block["attributes"]["align"]} width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}"}} """)
+							# add description
+							doc.add_raw(f"""	{snakemd.Inline(reference["description"])}""")
+						#close div
+						doc.add_raw(f"""</div>""")
+
+
+
+
 
 
 
@@ -332,7 +375,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						
 			# save .md file
 			doc.dump(item["id"], directory=pages_dir)
-			input()
+			#input()
 
 			# TO BE CONTINUED, following template
 
