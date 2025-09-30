@@ -180,6 +180,8 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 			for key in item_template.keys():
 				block = item_template[key]
 				#print(f"Current block: \n {block} \n")
+				if block["format"] == "string":
+					doc.add_raw(f"""{block["content"][0]["value"]}""")
 				# headings
 				if block["format"] == "heading":
 					if key == "title":
@@ -202,17 +204,19 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 							f"""<img style="{block["attributes"]["style"]}" src="{block["redirect_image"]}" width="{block["attributes"]["width"]}" height="{block["attributes"]["height"]}">"""
 						)
 				elif block["format"] == "button":
+					buttons = []
 					for button in block["content"]:
 						if "GitHub" in button["label"]:
 							try:
 								githuburl = item["resources"]["GitHub"][0]["value"]
-								doc.add_raw(f"""[{button["label"]} {button["icon"]}]({githuburl}){{.md-button}}""")
+								buttons.append(f"""[{button["label"]} {button["icon"]}]({githuburl}){{.md-button}}""")
 							except IndexError:
 								print("No GitHub url")
 								input() 
 						else: # file serializations
 							resource_url = f"""{item[button["category"]][button["property"]][0]["base_url"]}{item[button["category"]][button["property"]][0]["value"]}"""
-							doc.add_raw(f"""[{button["label"]} {button["icon"]}]({resource_url}){{.md-button}}""")
+							buttons.append(f"""[{button["label"]} {button["icon"]}]({resource_url}){{.md-button}}""")
+					doc.add_raw(" ".join(buttons))
 
 				elif block["format"] == "embed":
 					for embed in block["content"]:
