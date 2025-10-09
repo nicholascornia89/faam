@@ -267,6 +267,9 @@ def query_descriptions_and_aliases(d,out_dir):
 						qid = obj["Wikidata QID"][0]
 						print(f"Current QID: {qid}")
 						entity = wb.item.get(qid)
+						label = ""
+						description = ""
+						aliases = [""]
 						try:
 							description = entity.descriptions.get("en").value
 							aliases_query = entity.aliases.get("en")
@@ -305,6 +308,8 @@ def change_wikimedia_image_url(d,base_url,old_base_url):
 	return d
 
 def query_externalid(extid,pid):
+	print(f"External Id: {extid}")
+	print(f"Property: {pid}")
 	#Returns QID associated with External ID with property PID
 	sparql = SPARQLWrapper("https://query.wikidata.org/sparql",agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")
 	sparql.setQuery(
@@ -349,6 +354,7 @@ def external2wikidataqid(d,out_dir,mapping_filename):
 						countdown_start = time.time()
 					if obj["Wikidata QID"][0] == "":  # empty QID
 						for field in mapping_fields:
+							qid, label = "",""
 							if obj[field["nodegoat_field"]][0] != "":
 								# Adjust external ID in case of IMSLP string
 								extid = obj[field['nodegoat_field']][0].replace(" ","_")

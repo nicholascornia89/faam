@@ -1,0 +1,73 @@
+{
+	"agent": [
+		{"object_type": "manifestation","category": "statements", "property": ["agent"]},
+		{"object_type": "agent", "category": "statements", "property": ["influenced by"]},
+		{"object_type": "musical_work", "category": "statements", "property": ["creator","adapted by"]}
+	],
+
+	"manifestation": [],
+
+	"occupation": [
+		{"object_type": "agent", "category": "statements", "property": ["occupation"]}
+	],
+
+	"city": [
+		{"object_type": "manifestation", "category": "statements", "property": ["agent"], "qualifier": ["place"]},
+		{"object_type": "agent", "category": "statements", "property": ["place of birth","place of death"]},
+		{"object_type": "music_organization", "category": "statements", "property": ["place"]},
+		{"object_type": "holding_institution", "category": "statements", "property": ["place"]}
+	],
+
+	"country": [
+		{"object_type": "agent", "category": "statements", "property": ["nationality"]},
+		{"object_type": "city", "category": "statements", "property": ["country"]}
+	],
+
+	"keyword": [
+		{"object_type": "agent", "category": "statements", "property": ["related to"]},
+		{"object_type": "manifestation", "category": "statements", "property": ["keyword","related item"]},
+		{"object_type": "musical_work", "category": "statements", "property": ["form of creative work"]},
+		{"object_type": "annotation_type", "category": "statements", "property": ["instance of","subclass of","musical parameter"]}
+	],
+
+	"holding_institution": [
+		{"object_type": "manifestation", "category": "statements", "property": ["provenance"]}
+	],
+
+	"music_organization": [
+		{"object_type": "manifestation", "category": "statements", "property": ["agent","related item"]},
+		{"object_type": "agent", "category": "statements", "property": ["employer","educated at"]}
+
+	],
+
+	"annotation_type": [
+		{"object_type": "manifestation", "category": "statements", "property": ["handwritten annotation","editorial annotation","related item"]}
+	],
+
+	"score_complexity": [
+		{"object_type": "manifestation", "category": "metadata", "property": ["score complexity"]}
+	],
+
+	"score_format": [
+		{"object_type": "manifestation", "category": "metadata", "property": ["score format"]}
+	],
+
+	"musical_instrument": [
+		{"object_type": "manifestation", "category": "statements", "property": ["instrumentation","related item"]},
+		{"object_type": "agent", "category": "statements", "property": ["instrument"]}
+	],
+
+	"musical_work": [
+		{"object_type": "manifestation", "category": "statements", "property": ["musical work","related item"]},
+		{"object_type": "musical_work", "category": "statements", "property": ["based on"]}
+
+	],
+
+	"role": [
+		{"object_type": "manifestation", "category": "statements", "property": ["agent"],"qualifier": ["role"]},
+		{"object_type": "annotation_type", "category": "statements", "property": ["used by"]},
+		{"object_type": "agent", "category": "statements", "property": ["role"]}
+	]
+
+
+}

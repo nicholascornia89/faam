@@ -365,7 +365,7 @@ def add_label_to_statement(faam_kb):
 															#input()
 
 
-		for key in ["label","description","aliases"]: #retrieve Descriptions, Labels and Aliases if not present
+		for key in ["label","description","aliases"]: # retrieve Descriptions, Labels and Aliases if not present
 			try:
 				if item["metadata"][key][0]["value"] == "": # Wikidata query
 					try:
@@ -441,7 +441,8 @@ def add_label_to_qid_metadata(faam_kb):
 			if qid != "":
 				entity = wb.item.get(qid)
 				label = entity.labels.get('en').value
-				item["metadata"]["qid"][0]["label"] = label
+				# append Wikidata Label, not overwrite previous labels
+				item["metadata"]["qid"][0]["label"].append(label[0])
 		except Exception:
 			pass
 	return faam_kb
@@ -452,7 +453,7 @@ def remove_empty_statements(faam_kb):
 		for category in item.keys():
 			if category not in ["id","uuid_num"]:
 				for prop in item[category].keys():
-					if prop not in ["label","description","image"]:
+					if prop not in ["label","description","aliases","qid","image"]:
 						for statement in item[category][prop]:
 							if statement["value"] == "":
 								item[category][prop].remove(statement)
@@ -695,7 +696,11 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 			item = {
 				"id": obj["id"],
 				"uuid_num": shortuuid.decode(obj["id"]).int,
-				"metadata": {"label": [{"type": "string", "value": ""}], "description": [{"type": "string", "value": ""}]}, # setting ddescription and label to empty string
+				"metadata": {"label": [{"type": "string", "value": ""}], 
+							 "description": [{"type": "string", "value": ""}],
+							 "aliases": [], 
+							 "qid": [{"type": "externalid", "value": "", "base_url": "http://wwww.wikidata.org/entity/"}]
+							 }, # setting basic metadata to empty
 				"statements": {},
 				"cross-references": {},
 				"resources": {},
@@ -737,8 +742,20 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 							input()
 						# append statement with qualifiers to item in FAAM kb
 						try:
-							item[field_mapping["category"]][field_mapping["faam_property"]].append(
-								{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers})
+							# check for duplicates
+							check_statement = list(filter(lambda x: x["value"] == obj[field][i],item[field_mapping["category"]][field_mapping["faam_property"]]))
+							if len(check_statement) == 0: # no duplicate, append
+								item[field_mapping["category"]][field_mapping["faam_property"]].append(
+									{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers})
+							else:
+								if qualifiers not in [quals["qualifiers"] for quals in check_statement]: # same statement, but different qualifiers
+									item[field_mapping["category"]][field_mapping["faam_property"]].append(
+									{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers})
+								else:
+									# avoid duplicate
+									pass
+
+								
 						except KeyError:
 							# key not yet created
 							item[field_mapping["category"]][field_mapping["faam_property"]] = [{"type": field_mapping["data_type"], "value": obj[field][i], "qualifiers": qualifiers}]
@@ -769,7 +786,7 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 							]
 
 
-			# assign label value from Wikidata Label if absent
+			"""# assign label value from Wikidata Label if absent (causing some issues?)
 			if item["metadata"]["label"][0]["value"] == "":
 				try:
 					item["metadata"]["label"][0] = {
@@ -779,10 +796,13 @@ def generate_faam_kb(d,nodegoat2faam_kb_filename):
 
 				except KeyError:
 					count_no_label += 1
+			"""
 			# append item to knowledge base
 			faam_kb["items"].append(item)
+			#print(faam_kb["items"][-1])
+			#input()
 
-	print(f"Items without label: {count_no_label}")
+	#print(f"Items without label: {count_no_label}")
 
 	# extra scripts
 

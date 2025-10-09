@@ -13,7 +13,7 @@ This documentation describes the different functions and scripts for the FAAM pr
 - [ ] Export the knowledge base into [Wikibase.cloud](https://www.wikibase.cloud/).
 - [ ] Tropy integration using [Canopy IIIF](https://canopy-iiif.github.io/docs/setup-a-collection-with-tropiiify) and Tropiiify plugin.
 - [x ] Static site generation using Mkdocs.
-- [x ] Image viewer carousel using https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
+- [x ] Image viewer carousel using Bootstrap https://raw.githubusercontent.com/nicholascornia89/{repoName}/main/{path}/{image_name}.jpg
 
 ## Mkdocs scripts
 
@@ -127,7 +127,7 @@ __TO DO__
 
 ### TO-DO
 
-- [ ] GitHub API -> list of images form folder associated to FAAM manifestation ID
-- [ ] Image carousel as separate HTML file for each manifestation. Then embedded via `<iframe>`
-- [ ] Network graph visualization via pyvis also from external HTML file.
+- [x ] GitHub API -> list of images form folder associated to FAAM manifestation ID
+- [x ] Image carousel as separate HTML file for each manifestation. Then embedded via `<iframe>`
+- [x ] Network graph visualization via pyvis also from external HTML file.
 - [ ] Filter option for Cross-references using javascript code and FAAM UUID JSON file.

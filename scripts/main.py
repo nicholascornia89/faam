@@ -12,6 +12,7 @@ from wikidata import *
 from mkdocs import *
 from faam_kb import *
 from data_visualization import *
+from data_validation import *
 from rdf import *
 from statistics import *
 from tropy import *
@@ -63,17 +64,17 @@ def mapping_qid2uuid(d):
     wikidata_object_list = wikidata_objects_list(d)
     dict2json(wikidata_object_list, object_list_filename)
 
+    print("Change references from QIDs to FAAM UUIDs...")  # NOT WORKING PROPERLY...
+    d = qid2uuid_mapping(d)
+    # Export to JSON
+    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
+
     print("Importing new objects...")
     d, wikidata_object_list = import_new_objects_from_wd(d, out_dir)
 
     # Export everything to JSON
     nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
     dict2json(wikidata_object_list, object_list_filename)
-
-    print("Change references from QIDs to FAAM UUIDs...")  # NOT WORKING PROPERLY...
-    d = qid2uuid_mapping(d)
-    # Export to JSON
-    nodegoat_export2JSON(d, os.path.join(out_dir, "nodegoat_export"))
 
     return d
 
@@ -125,9 +126,6 @@ def wikidata_SPARQL_enhance():
     dict2json(wikidata_object_list, object_list_filename)
 
 
-# Data visualization
-
-
 def data_visualization():
     faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
@@ -139,6 +137,28 @@ def data_visualization():
     # generate pyvis networks
     # print("Generating graph networks visualizations...")
     # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+
+
+def data_validation():
+    faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
+
+    print("Unique labels, move the rest to aliases...")
+    faam_kb = double_label_to_aliases(faam_kb)
+
+    print("Remove duplicates in cross-references...")
+    faam_kb = cross_references_duplicates(faam_kb)
+
+    print("Getting cities list to CSV...")
+    object_type2csv(faam_kb, object_type="city")
+
+    print("Validating labels...")
+    labels_validation(faam_kb)
+
+    print("Validating qualifiers...")
+    qualifiers_validation(faam_kb, nodegoat2faam_kb_filename)
+
+    print("Checking for missing text fields with embedded IDs...")
+    missing_fields_text_with_id(faam_kb)
 
 
 # FAAM Knowledge base
@@ -204,13 +224,12 @@ def faam_kb():
 
         dict2json(faam_kb, faam_kb_filename)
 
-        """adding cross_referencies WORKS FINE, BUT TIME CONSUMING
+        # adding cross_referencies WORKS FINE, BUT TIME CONSUMING
         print("Adding cross_references to each item...")
         cross_reference_mapping = json2dict(
             os.path.join("mapping", "cross_reference_mapping.json")
         )
         faam_kb = cross_references(faam_kb, cross_reference_mapping)
-        """
 
         dict2json(faam_kb, faam_kb_filename)
 
@@ -221,11 +240,20 @@ def faam_kb():
             os.path.join(out_dir, "rdf_kb", "rdf_kb-" + get_current_date() + ".ttl"),
         )
 
-        # generate JSON serialization and append it to FAAM kb ## WORKS!
+        # generate JSON serialization and append it to FAAM kb
         print("Generating JSON, CSV and RDF resources for each item...")
         faam_kb = generate_resource_items(faam_kb, nodegoat2faam_kb_filename, out_dir)
 
         dict2json(faam_kb, faam_kb_filename)
+
+
+def statistics():
+    faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
+
+    # return basic statistics
+    print("Some statistics...")
+    basic_statistics(faam_kb)
+    annotations_statistics(faam_kb)
 
 
 # Mkdocs pages
@@ -248,7 +276,9 @@ def mkdocs_pages():
 
 
 # nodegoat_import()
-# wikidata_SPARQL_enhance()
-# faam_kb()
+# wikidata_SPARQL_enhance()  ## It stall at a certain point...
+faam_kb()
 # data_visualization()
-mkdocs_pages()
+statistics()
+data_validation()
+# mkdocs_pages()

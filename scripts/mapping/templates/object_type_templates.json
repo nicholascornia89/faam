@@ -12,6 +12,15 @@
 
 				]
 
+		},
+
+		"resources": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Resources"}
+			]
+
 		}, 
 			
 
@@ -49,29 +58,23 @@
 			"align": "center",
 			"content": [
 				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
-				{"category": "metadata", "label": "Wikidata QID", "property": "qid", "type": "id"},
-				{"category": "metadata", "label": "preferred label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
 				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
-				{"category": "metadata","label": "description", "property": "description", "type": "string"}
+				{"category": "metadata","label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "Wikidata QID", "property": "qid", "type": "id"}
 
 			]
 
 
 			},
 
-		"graph_view": {
-			"format": "embed",
-			"attributes": {
-				"style": "float: left;", 
-				"width": 1200, 
-				"height": 800
-				},
-			"label": "knowledge graph network",
+		"break_spaces": {
+			"format": "string",
 			"content": [
-				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"},
+				{"value": "<br><br><br>"}
 			]
-
 		},
+
 
 		"statements": {
 			"format": "heading",
@@ -148,6 +151,29 @@
 			]
 		},
 
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 1200, 
+				"height": 800
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "http://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
 
 		"idenfiers": {
 			"format": "heading",
@@ -162,7 +188,7 @@
 			"format": "quote",
 			"icon": "info",
 			"collapse": "!!!",
-			"data_format": "paragraph",
+			"data_format": "string",
 			"label": "IMSLP ID",
 			"content": [
 				{"category": "statements", "property": "IMSLP ID"}
@@ -173,7 +199,7 @@
 			"format": "quote",
 			"icon": "info",
 			"collapse": "!!!",
-			"data_format": "paragraph",
+			"data_format": "string",
 			"label": "VIAF ID",
 			"content": [
 				{"category": "statements", "property": "VIAF ID"}
@@ -184,7 +210,7 @@
 			"format": "quote",
 			"icon": "info",
 			"collapse": "!!!",
-			"data_format": "paragraph",
+			"data_format": "string",
 			"label": "RISM ID",
 			"content": [
 				{"category": "statements", "property": "RISM ID"}
@@ -195,7 +221,7 @@
 			"format": "quote",
 			"icon": "info",
 			"collapse": "!!!",
-			"data_format": "paragraph",
+			"data_format": "string",
 			"label": "Choral Wiki ID",
 			"content": [
 				{"category": "statements", "property": "CDPL ID"}
@@ -212,25 +238,16 @@
 		},
 
 		"manifestations": {
-			"format": "quote",
-			"icon": "note",
-			"collapse": "???",
-			"data_format": "grid",
-			"label": "manifestations",
+			"format": "grid",
+			"label": "related manifestations",
+			"category": "cross-references",
+			"object_type": "manifestation",
 			"attributes": {
-				"style": "float: left;", 
+				"align": "left", 
 				"width": 150, 
 				"height": 150
 				},
-			"redirect_image": "../assets/images/faam-logo-gold.png",
-			"content": [
-				{"category": "resources", "property": "thumb"},
-				{"category": "metadata","property": "label"},
-				{"category": "metadata", "property": "FAAM manifestation ID"},
-				{"category": "statements", "property": "keyword"},
-				{"category": "statements", "property": "instrumentation"},
-				{"category": "metadata", "property": "score format"}
-			]
+			"redirect_image": "../assets/images/faam-logo-gold.png"
 		}
 
 
@@ -266,8 +283,8 @@
 			"format": "image",
 			"attributes": {
 				"style": "float: left;", 
-				"width": 250, 
-				"height": 200
+				"width": "250", 
+				"height": "200"
 				},
 			"redirect_image": "../assets/images/faam-logo-gold.png",
 			"content": [{
@@ -290,26 +307,14 @@
 				{"category": "metadata", "label": "FAAM manifestation ID", "property": "FAAM manifestation ID", "type": "id"},
 				{"category": "metadata", "label": "title", "property": "label", "type": "string"},
 				{"category": "metadata", "label": "permalink", "property": "permalink", "type": "url"},
-				{"category": "metadata","label": "provenance", "property": "provenance", "type": "item"}
+				{"category": "statements","label": "provenance", "property": "provenance", "type": "item"}
 
 			]
 
 
 			},
 
-		"graph_view": {
-			"format": "embed",
-			"attributes": {
-				"style": "float: left;", 
-				"width": 1200, 
-				"height": 800
-				},
-			"label": "knowledge graph network",
-			"content": [
-				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"},
-			]
 
-		},
 
 		"note": {
 			"format": "quote",
@@ -423,6 +428,29 @@
 			]
 			},
 
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "http://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
 		"digital_score": {
 			"format": "heading",
 			"level": 2,
@@ -436,39 +464,1549 @@
 			"format": "embed",
 			"attributes": {
 				"style": "float: left;", 
-				"width": 1200, 
-				"height": 800
+				"width": "1200", 
+				"height": "800"
 				},
 			"label": "carousel view digital score",
 			"content": [
-				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/carousel/"},
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "http://nicholascornia89.github.io/faam/carousel/"}
 			]
 
 		}
 
+	},
+
+	"occupation": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
 		},
 
-	"occupation": {},
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
 
-	"city": {},
+			]
 
-	"country": {},
 
-	"keyword": {},
+			},
 
-	"holding_institution": {},
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
 
-	"music_organization": {},
+		},
 
-	"annotation_type": {},
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
 
-	"score_complexity": {},
+		},
 
-	"score_format": {},
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
 
-	"musical_instrument": {}
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+
+	},
+
+	"city": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"country": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "country",
+			"content": [
+				{"category": "statements", "property": "country"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+		"idenfiers": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Identifiers"}
+			]
+
+		},
+
+		"geonamesid": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "GeoNames ID",
+			"content": [
+				{"category": "statements", "property": "GeoNames ID"}
+			]
+		},
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"music_organizations": {
+			"format": "grid",
+			"label": "related music music organizations",
+			"category": "cross-references",
+			"object_type": "music_organization",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"holding_institutions": {
+			"format": "grid",
+			"label": "related holding institution",
+			"category": "cross-references",
+			"object_type": "holding_institution",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+
+
+	},
+
+	"country": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+		"idenfiers": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Identifiers"}
+			]
+
+		},
+
+		"geonamesid": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "GeoNames ID",
+			"content": [
+				{"category": "statements", "property": "GeoNames ID"}
+			]
+		},
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"cities": {
+			"format": "grid",
+			"label": "related city",
+			"category": "cross-references",
+			"object_type": "city",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+
+		
+
+	},
+
+	"keyword": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"musical_work": {
+			"format": "grid",
+			"label": "related musical work",
+			"category": "cross-references",
+			"object_type": "musical_work",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"annotation_type": {
+			"format": "grid",
+			"label": "related annotation type",
+			"category": "cross-references",
+			"object_type": "annotation_type",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"holding_institution": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"},
+				{"category": "metadata","label": "abbreviation", "property": "abbreviation", "type": "string"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"place": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "place",
+			"content": [
+				{"category": "statements", "property": "place"}
+			]
+		},
+
+		"country": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "country",
+			"content": [
+				{"category": "statements", "property": "country"}
+			]
+		},
+
+		"website": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "website",
+			"content": [
+				{"category": "statements", "property": "website"}
+			]
+		},
+
+		"copyright": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "copyright",
+			"content": [
+				{"category": "statements", "property": "copyright"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+
+	},
+
+	"music_organization": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"place": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "place",
+			"content": [
+				{"category": "statements", "property": "place"}
+			]
+		},
+
+		"country": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "country",
+			"content": [
+				{"category": "statements", "property": "country"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"annotation_type": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"subclass of": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "subclass of",
+			"content": [
+				{"category": "statements", "property": "subclass of"}
+			]
+		},
+
+		"instance of": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "instance of",
+			"content": [
+				{"category": "statements", "property": "instance of"}
+			]
+		},
+
+		"musical parameter": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "musical parameter",
+			"content": [
+				{"category": "statements", "property": "musical parameter"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"score_complexity": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"score_format": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"musical_instrument": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"subclass of": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "subclass of",
+			"content": [
+				{"category": "statements", "property": "subclass of"}
+			]
+		},
+
+		"instance of": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "instance of",
+			"content": [
+				{"category": "statements", "property": "instance of"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+
+	},
+
+	"musical_work": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "Wikidata QID", "property": "qid", "type": "id"}
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+
+		"statements": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Statements"}
+			]
+
+		},
+
+		"form of creative work": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "form of creative work",
+			"content": [
+				{"category": "statements", "property": "form of creative work"}
+			]
+		},
+		
+		"creator": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "!!!",
+			"data_format": "list",
+			"label": "creator",
+			"content": [
+				{"category": "statements", "property": "creator"}
+			]
+		},
+
+		"adapted_by": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "adapted by",
+			"content": [
+				{"category": "statements", "property": "adapted by"}
+			]
+		},
+
+		"based_on": {
+			"format": "quote",
+			"icon": "quote",
+			"collapse": "???",
+			"data_format": "list",
+			"label": "based on",
+			"content": [
+				{"category": "statements", "property": "based on"}
+			]
+		},
+
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": 1200, 
+				"height": 800
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "http://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"idenfiers": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Identifiers"}
+			]
+
+		},
+
+		"imslp_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "IMSLP ID",
+			"content": [
+				{"category": "statements", "property": "IMSLP ID"}
+			]
+		},
+
+		"viaf_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "VIAF ID",
+			"content": [
+				{"category": "statements", "property": "VIAF ID"}
+			]
+		},
+
+		"rism_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "RISM ID",
+			"content": [
+				{"category": "statements", "property": "RISM ID"}
+			]
+		},
+
+		"cpdl_id": {
+			"format": "quote",
+			"icon": "info",
+			"collapse": "!!!",
+			"data_format": "string",
+			"label": "Choral Wiki ID",
+			"content": [
+				{"category": "statements", "property": "CDPL ID"}
+			]
+		},
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestations",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		}
+	},
+
+	"role": {
+		"title": {
+			"format": "heading",
+			"level": 1, 
+			"content": [
+				{"category": "metadata",
+				"property": "label"},
+				{"category": "metadata",
+				"property": "id"}
+
+				]
+
+		},
+
+		"metadata": {
+			"format": "quote",
+			"icon": "abstract",
+			"collapse": "!!!",
+			"label": "metadata",
+			"data_format": "table",
+			"table_headings": ["property","value"],
+			"align": "center",
+			"content": [
+				{"category": "metadata", "label": "FAAM UUID", "property": "id", "type": "id"},
+				{"category": "metadata", "label": "label", "property": "label", "type": "string"},
+				{"category": "metadata", "label": "description", "property": "description", "type": "string"},
+				{"category": "metadata", "label": "aliases", "property": "aliases", "type": "string"},
+				{"category": "metadata","label": "Wikidata QID", "property": "qid", "type": "externalid"}
+
+
+			]
+
+
+			},
+
+		"break_spaces": {
+			"format": "string",
+			"content": [
+				{"value": "<br><br><br>"}
+			]
+		},
+
+		"knowledge_graph": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Knowledge graph"}
+			]
+
+		},
+
+		"graph_view": {
+			"format": "embed",
+			"attributes": {
+				"style": "float: left;", 
+				"width": "1200", 
+				"height": "800"
+				},
+			"label": "knowledge graph network",
+			"content": [
+				{"category": "metadata", "property": "id", "type": "html", "extension": ".html", "base_url": "https://nicholascornia89.github.io/faam/network/"}
+			]
+
+		},
+
+
+		"cross-references": {
+			"format": "heading",
+			"level": 2,
+			"content": [
+				{"label": "Cross-references"}
+			]
+
+		},
+
+		"manifestations": {
+			"format": "grid",
+			"label": "related manifestation",
+			"category": "cross-references",
+			"object_type": "manifestation",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"annotation_types": {
+			"format": "grid",
+			"label": "related annotation type",
+			"category": "cross-references",
+			"object_type": "annotation_type",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
+
+		"agents": {
+			"format": "grid",
+			"label": "related agent",
+			"category": "cross-references",
+			"object_type": "agent",
+			"attributes": {
+				"align": "left", 
+				"width": 150, 
+				"height": 150
+				},
+			"redirect_image": "../assets/images/faam-logo-gold.png"
+		},
 
 
 	}
+
 
 }
