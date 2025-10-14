@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mG8TWxjt a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1859-06-22"^^xsd:string ;
+    schema1:birthPlace faamentity:ghRTkNHk ;
+    schema1:deathDate "1937-10-22"^^xsd:string ;
+    schema1:deathPlace faamentity:mgcA9gDg ;
+    schema1:description "German American conductor and music educator (1859–1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q962237>,
+        "16002693"^^xsd:string,
+        "mG8TWxjt"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Frank Damrosch"^^xsd:string,
+        "Frank Heino Damrosch"^^xsd:string ;
+    skos:prefLabel "Frank Damrosch"^^xsd:string ;
+    wd:P108 faamentity:fbNjgZH4 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:11070708 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Damrosch,_Frank> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:Xz53gcgf .
+

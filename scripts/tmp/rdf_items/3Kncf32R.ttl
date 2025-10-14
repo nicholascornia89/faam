@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3Kncf32R a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who collects, writes, and distributes news and other information"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1930187>,
+        "15990871"^^xsd:string,
+        "3Kncf32R"^^xsd:string ;
+    skos:altLabel "journalist"^^xsd:string,
+        "journo"^^xsd:string ;
+    skos:prefLabel "journalist"^^xsd:string .
+

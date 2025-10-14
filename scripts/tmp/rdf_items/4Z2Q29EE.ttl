@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4Z2Q29EE a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8,
+        faamentity:4asnL3fC ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "reflection of sound that arrives at the listener with a delay after the direct sound"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q182767>,
+        "15992155"^^xsd:string,
+        "4Z2Q29EE"^^xsd:string ;
+    skos:altLabel "echo"^^xsd:string ;
+    skos:prefLabel "echo"^^xsd:string ;
+    wd:P1535 faamentity:oMERLdSN ;
+    wd:P279 faamentity:G57AFsLJ,
+        faamentity:cbyFHdDB ;
+    wd:P31 faamentity:6m3ZbnrF,
+        faamentity:QAugiyuY .
+

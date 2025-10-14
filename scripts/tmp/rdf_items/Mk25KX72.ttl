@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Mk25KX72 a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "study of the theoretical aspects of music and its notation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q193544>,
+        "15992133"^^xsd:string,
+        "Mk25KX72"^^xsd:string ;
+    skos:altLabel "music theory"^^xsd:string,
+        "musical system"^^xsd:string,
+        "musical theory"^^xsd:string,
+        "theory of music"^^xsd:string ;
+    skos:prefLabel "music theory"^^xsd:string .
+

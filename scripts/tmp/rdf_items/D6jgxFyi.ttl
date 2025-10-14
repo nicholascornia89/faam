@@ -1,0 +1,61 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D6jgxFyi a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:VwZmF2Uv ;
+    schema1:birthDate "1906-09-12"^^xsd:string ;
+    schema1:birthPlace faamentity:ZpwbPoZj ;
+    schema1:deathDate "1975-08-09"^^xsd:string ;
+    schema1:deathPlace faamentity:diUttN86 ;
+    schema1:description "Soviet composer and pianist (1906-1975)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q80135>,
+        "15996149"^^xsd:string,
+        "D6jgxFyi"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM,
+        faamentity:c4DdDGWx ;
+    skos:altLabel "Dimitri Shostakovich"^^xsd:string,
+        "Dmitri Dmitrievitch Chostakovitch"^^xsd:string,
+        "Dmitri Dmitriyevich Shostakovich"^^xsd:string,
+        "Dmitri Shostakovich"^^xsd:string,
+        "Dmitrii Dmitrievich Shostakovich"^^xsd:string,
+        "Dmitriii Dmitrievich Shostakovich"^^xsd:string,
+        "Dmitrij Šostakovič"^^xsd:string,
+        "Shostakovich"^^xsd:string,
+        "Shosty"^^xsd:string ;
+    skos:prefLabel "Dmitri Shostakovich"^^xsd:string ;
+    wd:P108 faamentity:FVjZrbAX,
+        faamentity:GjurMHUq,
+        faamentity:VwZmF2Uv,
+        faamentity:jKKzbBBu ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:89612684 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/407504> ;
+    wd:P737 faamentity:7JHzNARd,
+        faamentity:96zMohM3,
+        faamentity:HX8ujrS4,
+        faamentity:biyCSdJp,
+        faamentity:dnmx8o3j,
+        faamentity:gPGoknyV,
+        faamentity:n67X6P2Q ;
+    wd:P839 <https://imslp.org/wiki/Category:Shostakovich,_Dmitry> ;
+    schema:hasOccupation faamentity:3oCGxSqq,
+        faamentity:5aTYuVxp,
+        faamentity:7gohDEi3,
+        faamentity:BPsUV5WT,
+        faamentity:BQe6uNXU,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:XWcaJQty,
+        faamentity:aB6ga3Wq,
+        faamentity:kTo2uTWZ,
+        faamentity:mT6Jf8WQ .
+

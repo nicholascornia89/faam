@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FUaZbhYk a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Gj3w6SyS ;
+    schema1:description "musical composition for piano by Maurice Ravel"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q770354>,
+        "16002443"^^xsd:string,
+        "FUaZbhYk"^^xsd:string ;
+    skos:altLabel "Miroirs"^^xsd:string ;
+    skos:prefLabel "Miroirs, M.43"^^xsd:string ;
+    wd:P214 viaf:185362313 ;
+    wd:P7937 faamentity:KdGKqPWR ;
+    wd:P839 <https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)> .
+

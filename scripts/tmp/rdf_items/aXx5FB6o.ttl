@@ -1,0 +1,45 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aXx5FB6o a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:8N6k5W5i,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:EqQHPqZp,
+        faamentity:n2KyzS34 ;
+    schema1:identifier "15992725"^^xsd:string,
+        "CBM-TORRMsA77"^^xsd:string,
+        "aXx5FB6o"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Six Sonates | pour le Clavecin | Op. V | Pellegrino"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.77"^^xsd:string ;
+    wd:P870 faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"aXx5FB6o-58c36b56-8f8f-49cd-b2cc-40f6cd890a76"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:CgZzMq22 .
+
+"aXx5FB6o-be064399-5afc-4ce2-bb22-1f1a0509c81b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:EqQHPqZp a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

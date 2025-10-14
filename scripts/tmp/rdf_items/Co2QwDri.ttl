@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Co2QwDri a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1661-02-01"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1741-09-07"^^xsd:string ;
+    schema1:deathPlace faamentity:fVkLFh9e ;
+    schema1:description "French composer (1661-1741)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1345283>,
+        "16005060"^^xsd:string,
+        "Co2QwDri"^^xsd:string ;
+    schema1:nationality faamentity:SGUpZ6gd ;
+    skos:altLabel "Henri Desmarets"^^xsd:string ;
+    skos:prefLabel "Henri Desmarets"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:10032994 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30000830> ;
+    wd:P737 faamentity:9JBj5YHs,
+        faamentity:GQdzFiB9,
+        faamentity:YXDkqYqP ;
+    wd:P839 <https://imslp.org/wiki/Category:Desmarets,_Henri> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:kTo2uTWZ .
+

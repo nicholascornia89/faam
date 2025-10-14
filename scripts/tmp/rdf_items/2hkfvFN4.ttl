@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2hkfvFN4 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "composition for keyboard by J. S. Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2293299>,
+        "16005755"^^xsd:string,
+        "2hkfvFN4"^^xsd:string ;
+    skos:altLabel "BWV 971"^^xsd:string,
+        "Concerto in the Italian Style, BWV 971"^^xsd:string,
+        "Italian Concerto"^^xsd:string ;
+    skos:prefLabel "Italienisches Konzert, BWV 971"^^xsd:string ;
+    wd:P214 viaf:183832488 ;
+    wd:P5202 faamentity:4ad55yoD ;
+    wd:P7937 faamentity:me6W6HAh ;
+    wd:P839 <https://imslp.org/wiki/Italienisches_Konzert,_BWV_971_(Bach,_Johann_Sebastian)> .
+

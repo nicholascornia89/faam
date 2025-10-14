@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PJbZriFJ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:DawBtzdU,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:KdGKqPWR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CWKiEvvh,
+        faamentity:DDH7fEFM,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:R4kbx2j4 ;
+    schema1:identifier "15992418"^^xsd:string,
+        "KCA-030904482400"^^xsd:string,
+        "PJbZriFJ"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15224690/N"^^schema1:url ;
+    skos:prefLabel "Moment musical : pour piano"^^xsd:string ;
+    wd:P217 "MM-TP-SCHUB-momentm-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"PJbZriFJ-4d4c9650-5430-4968-ae49-dda8ddc13cf6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PJbZriFJ-90be311a-2240-4e4a-aa95-308b002174ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"PJbZriFJ-eec590d6-c8ca-4530-867a-aa29afc3f0bf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:CWKiEvvh a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

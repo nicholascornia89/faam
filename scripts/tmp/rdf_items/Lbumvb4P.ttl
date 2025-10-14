@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Lbumvb4P a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "music school in France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2994564>,
+        "0"^^xsd:string,
+        "Lbumvb4P"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf,
+        faamentity:MUfNyTFg ;
+    skos:altLabel "Conservatoire a rayonnement regional de Lille"^^xsd:string,
+        "Conservatoire of Lille"^^xsd:string,
+        "Conservatoire à rayonnement régional de Lille"^^xsd:string ;
+    skos:prefLabel "Regional Conservatory of Lille"^^xsd:string .
+

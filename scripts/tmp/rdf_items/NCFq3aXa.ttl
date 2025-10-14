@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NCFq3aXa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1892-03-10"^^xsd:string ;
+    schema1:birthPlace faamentity:Qp8vq8kQ ;
+    schema1:deathDate "1955-11-27"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Swiss composer (1892-1955)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q123164>,
+        "15996118"^^xsd:string,
+        "NCFq3aXa"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:oHTSDFRc ;
+    skos:altLabel "Arthur Honegger"^^xsd:string,
+        "Arthur Honneger"^^xsd:string ;
+    skos:prefLabel "Arthur Honegger"^^xsd:string ;
+    wd:P108 faamentity:QimxbfF6,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51699915 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/464584> ;
+    wd:P737 faamentity:BiMpVQUM,
+        faamentity:agWvDDr6 ;
+    wd:P839 <https://imslp.org/wiki/Category:Honegger,_Arthur> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:LB2kuRZu,
+        faamentity:aB6ga3Wq .
+

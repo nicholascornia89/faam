@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YzjPcQbA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Rs5eQCdV ;
+    schema1:birthDate "1717-06-19"^^xsd:string ;
+    schema1:birthPlace faamentity:NxMpArQ7 ;
+    schema1:deathDate "1757-03-27"^^xsd:string,
+        "1757-03-30"^^xsd:string ;
+    schema1:deathPlace faamentity:nVd92sv3 ;
+    schema1:description "Czech composer and violinist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q156033>,
+        "0"^^xsd:string,
+        "YzjPcQbA"^^xsd:string ;
+    schema1:nationality faamentity:9WShvTNc,
+        faamentity:RM9imfPD ;
+    skos:altLabel "Johann Wenzel Anton Stamitz"^^xsd:string,
+        "Johann Wenzel Stamitz"^^xsd:string ;
+    skos:prefLabel "Johann Stamitz"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71579385 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003032> ;
+    wd:P839 <https://imslp.org/wiki/Category:Stamitz,_Johann> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:6pfzESag,
+        faamentity:9CVVGZdo,
+        faamentity:TDF2knmi .
+

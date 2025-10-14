@@ -1,0 +1,154 @@
+{
+  "id": "SLzwbqqw",
+  "uuid_num": 47569136377163,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "viola d'amore"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical instrument"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "viole d'amour"
+      },
+      {
+        "type": "string",
+        "value": "viola d'amore"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q742180",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "viola d'amore"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_instrument"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "SLzwbqqw"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15990820"
+      }
+    ]
+  },
+  "statements": {
+    "instance of": [
+      {
+        "type": "item",
+        "value": "BnwWc34X",
+        "label": ""
+      }
+    ],
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "nY5G3yfD",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "2ap3ujQs",
+        "label": ""
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "cq9RrJ9Y",
+        "type": "item",
+        "label": "3 fantaisies pour dessus de viole (viole d'amour, ou violon ou flûte) avec clavecin ou piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904920086.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "GSqAPxLN",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      },
+      {
+        "id": "QnFrn2PM",
+        "type": "item",
+        "label": "Henri Casadesus",
+        "description": "violist, viola d'amore player, composer, and music publisher (1879-1947)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Société_des_Instruments_anciens,_fondée_par_Casadesus.jpg"
+        }
+      },
+      {
+        "id": "2ERDU4FM",
+        "type": "item",
+        "label": "Farinelli",
+        "description": "Italian singer (1705-1782)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg"
+        }
+      },
+      {
+        "id": "MYtfBLe2",
+        "type": "item",
+        "label": "Attilio Ariosti",
+        "description": "Italian composer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Attilius_Ariosti.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "SLzwbqqw.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "SLzwbqqw.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "SLzwbqqw.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8qjq7P7L a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1722-02-06"^^xsd:string ;
+    schema1:birthPlace faamentity:mSVELu4H ;
+    schema1:deathDate "1808-10-01"^^xsd:string ;
+    schema1:deathPlace faamentity:FJoZiahf ;
+    schema1:description "Italian singer and opera singer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2137897>,
+        "15995862"^^xsd:string,
+        "8qjq7P7L"^^xsd:string ;
+    skos:altLabel "Regina Mingotti"^^xsd:string,
+        "Regina Minotti"^^xsd:string ;
+    skos:prefLabel "Regina Mingotti"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:41713316 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000420> ;
+    schema:hasOccupation faamentity:9giCtFiy .
+

@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kRmWfEhE a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1779-02-23"^^xsd:string ;
+    schema1:birthPlace faamentity:9iZqdeYG ;
+    schema1:deathDate "1867-05-06"^^xsd:string ;
+    schema1:deathPlace faamentity:ndwv66mQ ;
+    schema1:description "German composer (1779-1867)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q69691>,
+        "16005649"^^xsd:string,
+        "kRmWfEhE"^^xsd:string ;
+    schema1:nationality faamentity:ksU5GpVW ;
+    skos:altLabel "Johann Caspar Aiblinger"^^xsd:string ;
+    skos:prefLabel "Johann Caspar Aiblinger"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:57412332 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/1040> ;
+    wd:P839 <https://imslp.org/wiki/Category:Aiblinger,_Johann_Kaspar> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

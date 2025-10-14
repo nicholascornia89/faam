@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:E9MUDjwc a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz,
+        faamentity:E4rhHet3,
+        faamentity:EXzrp8XT,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:f7RFYPbC ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CBhw6hUN,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992314"^^xsd:string,
+        "E9MUDjwc"^^xsd:string,
+        "KCA-030901410586"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7014841/N"^^schema1:url ;
+    skos:prefLabel "Concertstuk: harmonie-fanfare"^^xsd:string ;
+    wd:P217 "MM-OH-HAEYE-concert-4"^^xsd:string ;
+    wd:P870 faamentity:9t6BfJ2T,
+        faamentity:AdNoqEfD,
+        faamentity:GsYHbd4y,
+        faamentity:HcmSE474,
+        faamentity:MVLRXXFR,
+        faamentity:WfkJpufF,
+        faamentity:fpwubqWj,
+        faamentity:hnX8hYwi .
+
+schema1:contributor a rdf:predicate .
+
+"E9MUDjwc-24a54359-9802-4a09-930a-ebc7fdc0b377"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"E9MUDjwc-d8ac23d9-8f4b-4e9a-9e10-497670da831f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:CBhw6hUN a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

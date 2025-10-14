@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8vWb9eDu a rdfs:Resource ;
+    faamprop:related_to faamentity:7AXGCpck,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1768-02-24"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1837-10-27"^^xsd:string ;
+    schema1:deathPlace faamentity:9tU4Ldg5 ;
+    schema1:description "French opera singer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1439556>,
+        "16005737"^^xsd:string,
+        "8vWb9eDu"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean-Blaise Martin"^^xsd:string ;
+    skos:prefLabel "Jean-Blaise Martin"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56875549 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30104255> ;
+    wd:P737 faamentity:BuMSmVX8 ;
+    schema:hasOccupation faamentity:9giCtFiy .
+

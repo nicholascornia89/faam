@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GcCwvsa2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Wikimedia disambiguation page"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7412910>,
+        "15996123"^^xsd:string,
+        "GcCwvsa2"^^xsd:string ;
+    skos:altLabel "Samuel Wesley"^^xsd:string ;
+    skos:prefLabel "Samuel Wesley"^^xsd:string ;
+    wd:P31 faamentity:aF2g3cRF .
+

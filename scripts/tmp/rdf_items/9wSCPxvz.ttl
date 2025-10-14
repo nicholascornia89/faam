@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9wSCPxvz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:ZnCCVfkb,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:jP8px5zn,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:Gx3B7DJH,
+        faamentity:NkfcVjHM,
+        faamentity:WiBZjkbR,
+        faamentity:bwTDuKBF ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GecAsFfL,
+        faamentity:JeP64hYU,
+        faamentity:dUpngPy6 ;
+    schema1:hasPart faamentity:nPUFzXPm ;
+    schema1:identifier "15992688"^^xsd:string,
+        "9wSCPxvz"^^xsd:string,
+        "KCG-000332135"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000332135"^^schema1:url ;
+    skos:prefLabel "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel"^^xsd:string ;
+    wd:P217 "DS-503"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d .
+
+schema1:contributor a rdf:predicate .
+
+"9wSCPxvz-072d3b51-2f67-4098-b634-7737f552c146"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"9wSCPxvz-098cba5a-b188-44ed-8876-9ad841374624"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"9wSCPxvz-1c9d8dd1-6d69-4a93-ad0e-83a468ef4b3c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:JeP64hYU a rdf:object .
+
+faamentity:dUpngPy6 a rdf:object .
+

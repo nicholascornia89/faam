@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aF2g3cRF a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "Wikimedia disambiguation page for humans with the same name"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q22808320>,
+        "0"^^xsd:string,
+        "aF2g3cRF"^^xsd:string ;
+    skos:altLabel "Wikipedia human name disambiguation page"^^xsd:string,
+        "disambiguation page for human names"^^xsd:string,
+        "human name disambiguation page"^^xsd:string,
+        "name disambiguation page"^^xsd:string ;
+    skos:prefLabel "Wikimedia human name disambiguation page"^^xsd:string .
+

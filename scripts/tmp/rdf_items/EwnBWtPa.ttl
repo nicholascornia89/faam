@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EwnBWtPa a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1821-11-09"^^xsd:string ;
+    schema1:birthPlace faamentity:hUsdvcFr ;
+    schema1:deathDate "1910-05-20"^^xsd:string ;
+    schema1:deathPlace faamentity:hUsdvcFr ;
+    schema1:description "French composer and music publisher (1821–1910)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q934876>,
+        "16004278"^^xsd:string,
+        "EwnBWtPa"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "J. B. Wekerlin"^^xsd:string,
+        "Jean Baptiste Wekerlin"^^xsd:string,
+        "Jean-Baptiste Théodore Weckerlin"^^xsd:string,
+        "Jean-Baptiste Weckerlin"^^xsd:string ;
+    skos:prefLabel "Jean-Baptiste Weckerlin"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66653361 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/118631> ;
+    wd:P737 faamentity:NPPV2XtG,
+        faamentity:VVNY89Aj,
+        faamentity:jHLdEc4N ;
+    wd:P839 <https://imslp.org/wiki/Category:Weckerlin,_Jean-Baptiste> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

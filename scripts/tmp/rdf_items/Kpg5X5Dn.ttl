@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Kpg5X5Dn a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EqtAuzbH ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:hChNthvw ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:jvLF4xd6,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:X8CowJzi,
+        faamentity:jqZT8vAB ;
+    schema1:identifier "16005365"^^xsd:string,
+        "Kpg5X5Dn"^^xsd:string,
+        "ORP-20143703p6"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Six Mélodies"^^xsd:string ;
+    skosref:note """Dedication to "Madame De Meuleneere"
+Brussels, May 1912"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Kpg5X5Dn-39861e72-5de6-4260-92a1-39315d2debf1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"Kpg5X5Dn-882522c6-3c09-4349-bc3d-8c45316a4750"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Kpg5X5Dn-d089543d-1316-484e-a6a4-9ffe456c8ebc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:jqZT8vAB a rdf:object .
+

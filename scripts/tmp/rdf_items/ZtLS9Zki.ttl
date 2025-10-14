@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZtLS9Zki a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1610-00-00"^^xsd:string,
+        "1624-09-15"^^xsd:string,
+        "1627-01-01"^^xsd:string,
+        "1632-09-25"^^xsd:string ;
+    schema1:birthPlace faamentity:mSVELu4H ;
+    schema1:deathDate "1704-00-00"^^xsd:string,
+        "1704-09-06"^^xsd:string ;
+    schema1:deathPlace faamentity:mSVELu4H ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q934164>,
+        "0"^^xsd:string,
+        "ZtLS9Zki"^^xsd:string ;
+    skos:altLabel "Francesco Antonio Provenzale"^^xsd:string ;
+    skos:prefLabel "Francesco Provenzale"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:17421247 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002602> ;
+    wd:P737 faamentity:2CQaXKRd,
+        faamentity:Td9634TV ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

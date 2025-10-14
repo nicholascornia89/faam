@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fTh7NUtj a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1838-01-03"^^xsd:string ;
+    schema1:birthPlace faamentity:isEdM7zC ;
+    schema1:deathDate "1899-12-21"^^xsd:string ;
+    schema1:deathPlace faamentity:D8uLnusk ;
+    schema1:description "Belgian musician (1838-1899)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3184890>,
+        "0"^^xsd:string,
+        "fTh7NUtj"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Henri-Joseph Dupont"^^xsd:string ;
+    skos:prefLabel "Joseph Dupont"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:35203581 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/25498> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

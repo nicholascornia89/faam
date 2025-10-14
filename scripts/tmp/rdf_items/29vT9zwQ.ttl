@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:29vT9zwQ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Crimea, Ukraine"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q33345>,
+        "0"^^xsd:string,
+        "29vT9zwQ"^^xsd:string ;
+    schema1:location <Q160440> ;
+    skos:altLabel "Eupatoria"^^xsd:string,
+        "Yevpatoria"^^xsd:string,
+        "Yevpatoriya"^^xsd:string ;
+    skos:prefLabel "Yevpatoriia"^^xsd:string ;
+    wd:P1566 gn:688105 .
+

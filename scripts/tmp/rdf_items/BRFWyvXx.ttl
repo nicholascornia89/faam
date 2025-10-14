@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BRFWyvXx a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "category of Western chant serving at Matins and monastic Vespers as musical postludes to the reading of lessons, as the gradual and alleluia do at the Mass"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q604748>,
+        "15990677"^^xsd:string,
+        "BRFWyvXx"^^xsd:string ;
+    skos:altLabel "respond"^^xsd:string,
+        "responsory"^^xsd:string ;
+    skos:prefLabel "responsory"^^xsd:string .
+

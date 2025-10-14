@@ -1,0 +1,63 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SMLfD4pe a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eSzqVmee ;
+    faamprop:handwritten_annotation faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:KdGKqPWR,
+        faamentity:SvYJwPJH,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2Cu75SXC,
+        faamentity:DDH7fEFM,
+        faamentity:TGoAww9C ;
+    schema1:hasPart faamentity:GHUiK4Wi ;
+    schema1:identifier "15992413"^^xsd:string,
+        "KCA-030904499578"^^xsd:string,
+        "SMLfD4pe"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6725162/N"^^schema1:url ;
+    skos:prefLabel "Pastorale"^^xsd:string ;
+    wd:P217 "MM-TP-MORTE-pasto-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"SMLfD4pe-4f11f762-a4fc-4b3b-ace7-93ba7f6d8363"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "18-09-1919"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:location faamentity:bSzLPudk .
+
+"SMLfD4pe-c125e3c6-ff6b-4035-827b-10642262048f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"SMLfD4pe-e2cfa722-abbf-4143-836d-c97cc150f6e8"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1922"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:Vg75jk9M .
+
+faamentity:2Cu75SXC a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:TGoAww9C a rdf:object .
+

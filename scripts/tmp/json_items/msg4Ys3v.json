@@ -1,0 +1,111 @@
+{
+  "id": "msg4Ys3v",
+  "uuid_num": 85764009247768,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Opéra-Comique"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "opera company in Paris, France"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Opera-Comique"
+      },
+      {
+        "type": "string",
+        "value": "Opéra-Comique"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q872222",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Opéra-Comique"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "msg4Ys3v"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15991030"
+      }
+    ]
+  },
+  "statements": {
+    "place": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "BJqUa5Kf",
+        "label": "France"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "QwSKSFky",
+        "type": "item",
+        "label": "Ferdinand Hérold",
+        "description": "French composer (1791–1833)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Ferdinand_Herold_by_Maurin.jpg"
+        }
+      },
+      {
+        "id": "NoJzBUwo",
+        "type": "item",
+        "label": "Moreau-Sainti",
+        "description": "French opera singer",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Moreau_by_Mlle_Athalante.png"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "msg4Ys3v.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "msg4Ys3v.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "msg4Ys3v.csv"
+      }
+    ]
+  }
+}

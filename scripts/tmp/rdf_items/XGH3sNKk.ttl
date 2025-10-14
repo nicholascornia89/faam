@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XGH3sNKk a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "constituent college of the University of Cambridge in England"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q332342>,
+        "16004746"^^xsd:string,
+        "XGH3sNKk"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu,
+        faamentity:oR6bNy22 ;
+    skos:altLabel "College of the Holy and Undivided Trinity"^^xsd:string,
+        "Trinity College"^^xsd:string,
+        "Trinity College, Cambridge"^^xsd:string,
+        "University of Cambridge Trinity College"^^xsd:string ;
+    skos:prefLabel "Trinity College"^^xsd:string .
+

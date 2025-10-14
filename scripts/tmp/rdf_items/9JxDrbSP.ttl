@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9JxDrbSP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:SGA8i9nK ;
+    schema1:birthDate "1910-01-01"^^xsd:string,
+        "1910-01-10"^^xsd:string,
+        "1910-01-14"^^xsd:string ;
+    schema1:birthPlace faamentity:ZkWK6BnV ;
+    schema1:deathDate "1993-01-01"^^xsd:string,
+        "1993-01-19"^^xsd:string ;
+    schema1:deathPlace faamentity:VuwGJdma ;
+    schema1:description "(b Antwerp, Jan 14, 1910; d Antwerp, Jan 19, 1993). Belgian composer. He studied at the Antwerp Conservatory, but was mainly self-taught as a composer. In 1945 he was appointed music producer at the Antwerp radio studios, and was principal music prod"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q111024716>,
+        "0"^^xsd:string,
+        "9JxDrbSP"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:prefLabel "Renier van der Velden"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12151889 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:9dCiGXXo,
+        faamentity:XfMboKRk ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

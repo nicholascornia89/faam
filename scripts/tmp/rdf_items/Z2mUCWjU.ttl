@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z2mUCWjU a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:74hb67jd ;
+    schema1:description "motet by Gregor Aichinger"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124358797>,
+        "16002055"^^xsd:string,
+        "Z2mUCWjU"^^xsd:string ;
+    skos:altLabel "Domine non sum dignus"^^xsd:string ;
+    skos:prefLabel "Domine non sum dignus"^^xsd:string ;
+    wd:P7937 faamentity:ik3NwdWW .
+

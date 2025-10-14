@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:giGMGFod a rdfs:Resource ;
+    faamprop:related_to faamentity:4Jjg5FwX,
+        faamentity:NdA6Fzv9,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1809-04-06"^^xsd:string ;
+    schema1:birthPlace faamentity:bSzLPudk ;
+    schema1:deathDate "1868-10-19"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "b. 1806, Antwerp, d. 1868, Paris; violinist and composer (1809–1868)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4085790>,
+        "16004370"^^xsd:string,
+        "giGMGFod"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "Ante Bessems"^^xsd:string,
+        "Antoine Besems"^^xsd:string,
+        "Antoine Bessems"^^xsd:string,
+        "Antoon Bessems"^^xsd:string ;
+    skos:prefLabel "Antoine Bessems"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:756515 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30023487> ;
+    wd:P839 <https://imslp.org/wiki/Category:Bessems,_Antoine> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:TDF2knmi,
+        faamentity:nuEgp7qK .
+

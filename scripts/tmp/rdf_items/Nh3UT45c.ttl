@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Nh3UT45c a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "province in Flanders, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1116>,
+        "0"^^xsd:string,
+        "Nh3UT45c"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3 ;
+    skos:altLabel "Antwerp"^^xsd:string,
+        "Antwerp (province)"^^xsd:string,
+        "Antwerpen"^^xsd:string,
+        "BE-VAN"^^xsd:string ;
+    skos:prefLabel "Province of Antwerp"^^xsd:string ;
+    wd:P1566 gn:2803136 .
+

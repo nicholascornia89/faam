@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bcZAc7AZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1781-11-18"^^xsd:string ;
+    schema1:birthPlace faamentity:B2uxVJLf ;
+    schema1:deathDate "1841-12-18"^^xsd:string ;
+    schema1:deathPlace faamentity:XYjq49o8,
+        faamentity:dtkJhYLf ;
+    schema1:description "Italian composer (1781-1841)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3742112>,
+        "15996195"^^xsd:string,
+        "bcZAc7AZ"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Felice Blangini"^^xsd:string,
+        "Giuseppe Marco Maria Felice Blangini"^^xsd:string ;
+    skos:prefLabel "Felice Blangini"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:10004444 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20187> ;
+    wd:P839 <https://imslp.org/wiki/Category:Blangini,_Joseph_Marie_Felix> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:HrJb4zkG,
+        faamentity:JJEmNCK7,
+        faamentity:ZhptKYF3 .
+

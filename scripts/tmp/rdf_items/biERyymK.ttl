@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:biERyymK a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:description "motet by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124310060>,
+        "16002001"^^xsd:string,
+        "biERyymK"^^xsd:string ;
+    skos:altLabel "Fratres ego enim accepi"^^xsd:string ;
+    skos:prefLabel "Fratres ego enim accepi"^^xsd:string ;
+    wd:P214 viaf:177618862 ;
+    wd:P5202 faamentity:52Wbu2Fo,
+        faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW .
+

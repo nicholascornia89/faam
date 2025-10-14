@@ -1,0 +1,46 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JaKU2RAe a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1892-09-04"^^xsd:string ;
+    schema1:birthPlace faamentity:Qbg9wtnb,
+        faamentity:m2fLiMsU ;
+    schema1:deathDate "1974-06-22"^^xsd:string ;
+    schema1:deathPlace faamentity:eJe565fW ;
+    schema1:description "French composer (1892–1974)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q186264>,
+        "15996095"^^xsd:string,
+        "JaKU2RAe"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Darius Milhaud"^^xsd:string ;
+    skos:prefLabel "Darius Milhaud"^^xsd:string ;
+    wd:P108 faamentity:LvevRK7u,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:42026090 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/104931> ;
+    wd:P737 faamentity:2fGCSgNP,
+        faamentity:BiMpVQUM,
+        faamentity:WUZ8VDyK ;
+    wd:P839 <https://imslp.org/wiki/Category:Milhaud,_Darius> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:BQe6uNXU,
+        faamentity:ELKwPhtK,
+        faamentity:L7DPWnnr,
+        faamentity:LB2kuRZu,
+        faamentity:QBx3kSJW,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:Tj5k8Dah .
+

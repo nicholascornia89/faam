@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D5YqeXET a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NCABARog,
+        faamentity:T3wMSaR4 ;
+    schema1:birthDate "1887-03-05"^^xsd:string ;
+    schema1:birthPlace faamentity:Q8KpiYwX ;
+    schema1:deathDate "1972-05-29"^^xsd:string ;
+    schema1:deathPlace faamentity:5FxHYswx ;
+    schema1:description "Hungarian musicologist (1887-1972)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5394981>,
+        "15996055"^^xsd:string,
+        "D5YqeXET"^^xsd:string ;
+    schema1:nationality faamentity:3U7ywGMJ ;
+    skos:altLabel "Ernest T. Ferand"^^xsd:string,
+        "Ernest Thomas Ferand"^^xsd:string,
+        "Ernst Ferand"^^xsd:string,
+        "Ernst Thomas Ferand"^^xsd:string ;
+    skos:prefLabel "Ernst Ferand"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:52442387 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:L7DPWnnr .
+

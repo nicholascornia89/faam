@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cSKaUDMG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:iZiYk6VC,
+        faamentity:jLreunkg ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7qCCArxX,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:hChNthvw,
+        faamentity:iZiYk6VC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:L3JmRWH5,
+        faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:X8CowJzi,
+        faamentity:gcN2vtGr ;
+    schema1:identifier "15992649"^^xsd:string,
+        "KCG-000369609"^^xsd:string,
+        "cSKaUDMG"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000369609"^^schema1:url ;
+    skos:prefLabel "QUATRE MORCEAUX CLASSIQUES"^^xsd:string ;
+    skosref:related faamentity:hChNthvw,
+        faamentity:koReuX6g ;
+    wd:P217 "II 1681; II6663; II6664 (1898)"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"cSKaUDMG-63d1e93a-55f5-4b7c-a61d-4a53808c7896"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"cSKaUDMG-7f90433e-81e8-4e62-b613-dfb27f6c3161"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"cSKaUDMG-b6a97571-fc35-4bc0-8952-5578143937bc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:gcN2vtGr a rdf:object .
+

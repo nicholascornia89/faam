@@ -1,0 +1,80 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NipDyksP a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:PprjdkHE,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GecAsFfL,
+        faamentity:QE9UrJXo,
+        faamentity:chVHcWVu,
+        faamentity:hKmhCVh7 ;
+    schema1:hasPart faamentity:AABMWhHK ;
+    schema1:identifier "15992681"^^xsd:string,
+        "KCG-000331901"^^xsd:string,
+        "NipDyksP"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331901"^^schema1:url ;
+    skos:prefLabel "CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano"^^xsd:string ;
+    wd:P217 "DS4325"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"NipDyksP-11de75bc-9c4d-4e8c-88ec-d2227d415d51"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"NipDyksP-63f487b8-2cc6-45d5-9313-ea6e389c032c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"NipDyksP-9979391d-831f-49b9-b273-441afd26de7f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"NipDyksP-af68c66d-6230-4257-8c71-eb87aac5e37a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NipDyksP-b5bc4987-8f27-4745-967d-e8213ce075c8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:chVHcWVu a rdf:object .
+
+faamentity:hKmhCVh7 a rdf:object .
+

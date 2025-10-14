@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DpgviBL9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:6LQXxG6q ;
+    schema1:birthDate "1741-02-08"^^xsd:string ;
+    schema1:birthPlace faamentity:W2oVnchf ;
+    schema1:deathDate "1813-09-24"^^xsd:string ;
+    schema1:deathPlace faamentity:DjwLrnKK ;
+    schema1:description "composer from present-day Belgium (1741–1813)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q210962>,
+        "15996091"^^xsd:string,
+        "DpgviBL9"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:Vi5jLqLB ;
+    skos:altLabel "Andre Gretry"^^xsd:string,
+        "André Ernest Modeste Grétry"^^xsd:string,
+        "André Grétry"^^xsd:string,
+        "André-Ernest-Modeste Grétry"^^xsd:string,
+        "Grétry"^^xsd:string ;
+    skos:prefLabel "André Grétry"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51884495 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/83932> ;
+    wd:P737 <Q135972935>,
+        faamentity:3KJ4atqX,
+        faamentity:VpDWgsTc,
+        faamentity:bknvSTij ;
+    wd:P839 <https://imslp.org/wiki/Category:Grétry,_André_Ernest_Modeste> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:YrCfZ8vh .
+

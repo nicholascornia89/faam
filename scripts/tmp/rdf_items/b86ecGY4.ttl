@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b86ecGY4 a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:2wh72T2v,
+        faamentity:9U8LuxuX,
+        faamentity:KcPMsWh8 ;
+    schema1:birthDate "1840-06-03"^^xsd:string ;
+    schema1:birthPlace faamentity:NQxGwfmZ ;
+    schema1:deathDate "1926-06-04"^^xsd:string ;
+    schema1:deathPlace faamentity:RmK6m9pk ;
+    schema1:description "Belgian doctor, writer, poet and publicist (1840-1926)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2546317>,
+        "16002820"^^xsd:string,
+        "b86ecGY4"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Eugeen Van Oye"^^xsd:string,
+        "Eugeen van Oye"^^xsd:string,
+        "Eugenius Josephus Marie van Oye"^^xsd:string,
+        "Eugène Van Oye"^^xsd:string ;
+    skos:prefLabel "Eugeen van Oye"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:73628159 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:Rz4AdCV3 ;
+    schema:hasOccupation faamentity:fKBqCJio .
+

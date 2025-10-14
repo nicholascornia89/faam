@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6eZ98ERo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:EgkVbUEo,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:SRaiiKJr,
+        faamentity:ZGsPMhbm,
+        faamentity:aAsRZoVk,
+        faamentity:jLreunkg,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BpM59WrA,
+        faamentity:LQND7DE7,
+        faamentity:mK2saWSr,
+        faamentity:nHfR4BAi ;
+    schema1:hasPart faamentity:gmk2WSuD ;
+    schema1:identifier "15992693"^^xsd:string,
+        "6eZ98ERo"^^xsd:string,
+        "KCA-030901761509"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7048592/N"^^schema1:url ;
+    skos:prefLabel "Alma redemptoris mater : antienne à 4 voix à la Très Sainte Vierge : pour le temps de l'avent à la purification"^^xsd:string ;
+    wd:P217 "MM-KA-OLVKA-archief-977"^^xsd:string ;
+    wd:P870 faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"6eZ98ERo-3425ca38-b995-488f-8a8c-4ec434dfc810"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"6eZ98ERo-64f5c60f-6992-4c7e-a229-2316db46a7dd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"6eZ98ERo-84e08c23-6cf0-4b25-9b94-ff57e738ed53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"6eZ98ERo-eeec30c2-9d0c-4c9b-b8de-7aabe7b7201c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:BpM59WrA a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:mK2saWSr a rdf:object .
+
+faamentity:nHfR4BAi a rdf:object .
+

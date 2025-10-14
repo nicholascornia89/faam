@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:auG86feK a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "former university in Berlin, Germany; predecessor of Humboldt University"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20266330>,
+        "16004779"^^xsd:string,
+        "auG86feK"^^xsd:string ;
+    schema1:location faamentity:LKYcvgWo,
+        faamentity:PNeLQZnK,
+        faamentity:RocQ8eoo ;
+    skos:altLabel "Frederick William University Berlin"^^xsd:string,
+        "Friedrich Wilhelm University"^^xsd:string,
+        "Friedrich-Wilhelms-Universität zu Berlin"^^xsd:string,
+        "Universität unter den Linden"^^xsd:string ;
+    skos:prefLabel "Frederick William University Berlin"^^xsd:string .
+

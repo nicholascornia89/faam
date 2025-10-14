@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aGSrytRN a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:DyTsrwPC,
+        faamentity:KLcqFTj4,
+        faamentity:eqc4UJfy ;
+    schema1:hasPart faamentity:KLwzvJCC ;
+    schema1:identifier "15992276"^^xsd:string,
+        "KCA-030902499422"^^xsd:string,
+        "aGSrytRN"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12981585/N"^^schema1:url ;
+    skos:prefLabel "Le chef d'armée = Il condotierro"^^xsd:string ;
+    wd:P217 "MM-LEPP-MOESS-chefdar-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"aGSrytRN-28f28eb4-691d-490e-8386-929a18f1c80a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"aGSrytRN-505d4c15-bb15-4f30-b128-5d5c0575aea8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"aGSrytRN-a16e86ef-0a3d-45a7-884b-5ac1cc0af1ac"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"aGSrytRN-b66cfc04-3502-4241-b556-51bfdbd0beff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:DyTsrwPC a rdf:object .
+
+faamentity:KLcqFTj4 a rdf:object .
+
+faamentity:eqc4UJfy a rdf:object .
+

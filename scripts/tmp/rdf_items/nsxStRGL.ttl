@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nsxStRGL a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:identifier "16004352"^^xsd:string,
+        "nsxStRGL"^^xsd:string ;
+    skos:prefLabel "Violin Sonata in E minor, BWV 1023"^^xsd:string ;
+    wd:P5202 faamentity:2LiJbewP ;
+    wd:P7937 faamentity:4Jjg5FwX,
+        faamentity:RtkoMT89,
+        faamentity:Tf6tmSRP ;
+    wd:P839 <https://imslp.org/wiki/Violin_Sonata_in_E_minor,_BWV_1023_(Bach,_Johann_Sebastian)> .
+

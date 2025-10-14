@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mKcoWQVS a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public research university in Moscow, Russia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q13164>,
+        "0"^^xsd:string,
+        "mKcoWQVS"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6,
+        faamentity:DEbEnXwM,
+        faamentity:c4DdDGWx ;
+    skos:altLabel "Lomonosov Moscow State University"^^xsd:string,
+        "Lomonosov University"^^xsd:string,
+        "M. V. Lomonosov State University"^^xsd:string,
+        "M.V. Lomonosov Moscow State University"^^xsd:string,
+        "MSU"^^xsd:string,
+        "Moscow University"^^xsd:string ;
+    skos:prefLabel "Moscow State University"^^xsd:string .
+

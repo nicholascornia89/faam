@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MjskrVov a rdfs:Resource ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DB24rWGv ;
+    schema1:birthDate "1903-01-06"^^xsd:string ;
+    schema1:birthPlace faamentity:mqs5NP6b ;
+    schema1:deathDate "1993-09-22"^^xsd:string ;
+    schema1:deathPlace faamentity:93rjADoC ;
+    schema1:description "Ottoman-American Jewish conductor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q214989>,
+        "16002381"^^xsd:string,
+        "MjskrVov"^^xsd:string ;
+    schema1:nationality faamentity:RzihJYL5,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Maurice Abravanel"^^xsd:string,
+        "Maurice de Abravanel"^^xsd:string ;
+    skos:prefLabel "Maurice Abravanel"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:7572940 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:TDF2knmi .
+

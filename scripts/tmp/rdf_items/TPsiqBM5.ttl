@@ -1,0 +1,24 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TPsiqBM5 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:description "mass by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124316823>,
+        "16002029"^^xsd:string,
+        "TPsiqBM5"^^xsd:string ;
+    schema1:isBasedOn faamentity:j8t5rSPg ;
+    skos:altLabel "Missa Hodie Christus natus est"^^xsd:string ;
+    skos:prefLabel "Missa Hodie Christus natus est"^^xsd:string ;
+    wd:P2000 cpdl:Missa_Hodie_Christus_natus_est_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:UJq8vYVd ;
+    wd:P7937 faamentity:WWYhpBVq,
+        faamentity:kNneakGU ;
+    wd:P839 <https://imslp.org/wiki/Missa_Hodie_Christus_natus_est_(Palestrina,_Giovanni_Pierluigi_da)> .
+

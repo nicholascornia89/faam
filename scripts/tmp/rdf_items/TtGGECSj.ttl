@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TtGGECSj a rdfs:Resource ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KW3RZcDp ;
+    schema1:identifier "16004237"^^xsd:string,
+        "TtGGECSj"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:prefLabel "Elisa Verbrugghe"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:T6nAVeGM .
+

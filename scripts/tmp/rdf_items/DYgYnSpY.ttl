@@ -1,0 +1,51 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DYgYnSpY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8hu8F7Zd,
+        faamentity:9G4CjNNd,
+        faamentity:nUZcuEdf ;
+    schema1:birthDate "1813-05-22"^^xsd:string ;
+    schema1:birthPlace faamentity:4GU7NjmQ ;
+    schema1:deathDate "1883-02-13"^^xsd:string ;
+    schema1:deathPlace faamentity:CgZzMq22 ;
+    schema1:description "German composer (1813–1883)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1511>,
+        "15996064"^^xsd:string,
+        "DYgYnSpY"^^xsd:string ;
+    schema1:nationality faamentity:Bwqn3dni,
+        faamentity:CTNhzr7a,
+        faamentity:KWjNoJvm,
+        faamentity:fj46nffV,
+        faamentity:oHTSDFRc ;
+    skos:altLabel "Richard Wagner"^^xsd:string,
+        "Wagner"^^xsd:string,
+        "Wilhelm Richard Wagner"^^xsd:string ;
+    skos:prefLabel "Richard Wagner"^^xsd:string ;
+    wd:P108 faamentity:DRRhn6P7 ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:29732107 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/111172> ;
+    wd:P737 faamentity:U4mMJgcK ;
+    wd:P839 <https://imslp.org/wiki/Category:Wagner,_Richard> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:ELKwPhtK,
+        faamentity:NdvmaeTr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:Tj5k8Dah,
+        faamentity:TrcsWua6,
+        faamentity:YrCfZ8vh,
+        faamentity:fJEZmAGU,
+        faamentity:fKBqCJio .
+

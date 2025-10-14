@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JnHemjk2 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1666-04-18"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1747-01-02"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French Baroque composer and violinist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q954589>,
+        "16005059"^^xsd:string,
+        "JnHemjk2"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean-Fery Rebel"^^xsd:string,
+        "Jean-Féry Rebel"^^xsd:string ;
+    skos:prefLabel "Jean-Féry Rebel"^^xsd:string ;
+    wd:P108 faamentity:TV7mnbMP ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66652866 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30012255> ;
+    wd:P737 faamentity:GQdzFiB9 ;
+    wd:P839 <https://imslp.org/wiki/Category:Rebel,_Jean-Féry> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:hMYL5Z9b .
+

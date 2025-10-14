@@ -1,0 +1,48 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BiMpVQUM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1844-02-21"^^xsd:string ;
+    schema1:birthPlace faamentity:bbhvKkZo ;
+    schema1:deathDate "1937-03-12"^^xsd:string ;
+    schema1:deathPlace faamentity:LpahSk8R ;
+    schema1:description "French organist and composer (1844–1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q215161>,
+        "16005339"^^xsd:string,
+        "BiMpVQUM"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Charles Marie Widor"^^xsd:string,
+        "Charles-Marie Jean Albert Widor"^^xsd:string,
+        "Charles-Marie Widor"^^xsd:string,
+        "Charles-Marie-Jean-Albert Widor"^^xsd:string,
+        "Widor"^^xsd:string ;
+    skos:prefLabel "Charles-Marie Widor"^^xsd:string ;
+    wd:P108 faamentity:66Xpb5tT,
+        faamentity:TevRCpsV,
+        faamentity:d7ivsT2f,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:29719688 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/135158> ;
+    wd:P737 faamentity:6gSjvNTk,
+        faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Widor,_Charles-Marie> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:GSNsghRd,
+        faamentity:L7DPWnnr,
+        faamentity:QBx3kSJW,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3,
+        faamentity:aB6ga3Wq .
+

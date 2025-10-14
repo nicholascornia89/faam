@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QkiKacS9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1760-02-12"^^xsd:string ;
+    schema1:birthPlace faamentity:QJLrt6ET ;
+    schema1:deathDate "1812-03-20"^^xsd:string ;
+    schema1:deathPlace faamentity:CMH8XK6t ;
+    schema1:description "Czech composer and pianist (1760–1812)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q357172>,
+        "15996154"^^xsd:string,
+        "QkiKacS9"^^xsd:string ;
+    schema1:nationality faamentity:3zhLxJ8g ;
+    skos:altLabel "Jan Ladislav Dussek"^^xsd:string,
+        "Jan Vaclav Dusik"^^xsd:string,
+        "Jan Václav Dusík"^^xsd:string,
+        "Johann Ladislaus Dussek"^^xsd:string,
+        "Václav Jan Dusík"^^xsd:string ;
+    skos:prefLabel "Jan Ladislav Dussek"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:76499932 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/25967> ;
+    wd:P737 faamentity:dZVktTWg ;
+    wd:P839 <https://imslp.org/wiki/Category:Dussek,_Jan_Ladislav> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:ZhptKYF3 .
+

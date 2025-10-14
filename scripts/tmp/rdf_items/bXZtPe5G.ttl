@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bXZtPe5G a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "multi-ethnic complex of territories in Western and Central Europe (800/962–1806)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12548>,
+        "16004405"^^xsd:string,
+        "bXZtPe5G"^^xsd:string ;
+    skos:altLabel "First Reich"^^xsd:string,
+        "HRE"^^xsd:string,
+        "Holy Roman Empire"^^xsd:string,
+        "Old Empire"^^xsd:string,
+        "Reich"^^xsd:string,
+        "Roman-German Empire"^^xsd:string ;
+    skos:prefLabel "Holy Roman Empire"^^xsd:string .
+

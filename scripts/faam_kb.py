@@ -121,7 +121,7 @@ def generate_qid_list(faam_kb):
 				if qid["value"] != "":
 					qid_list.append(int(qid["value"][1:]))
 					item_list.append(
-						{"id": item["id"], "qid": qid["value"], "qid_number": int(qid["value"][1:]) }
+						{"id": item["id"], "qid": qid["value"], "qid_number": int(qid["value"][1:]), "label": item["metadata"]["label"][0]["value"] }
 					)
 
 	# order list
@@ -439,10 +439,13 @@ def add_label_to_qid_metadata(faam_kb):
 		try:
 			qid = item["metadata"]["qid"][0]["value"]
 			if qid != "":
-				entity = wb.item.get(qid)
-				label = entity.labels.get('en').value
-				# append Wikidata Label, not overwrite previous labels
-				item["metadata"]["qid"][0]["label"].append(label[0])
+				if "label" in item["metadata"]["qid"][0].keys():
+					pass
+				else:
+					entity = wb.item.get(qid)
+					label = entity.labels.get('en').value
+					# append new label
+					item["metadata"]["qid"][0]["label"] = label[0]
 		except Exception:
 			pass
 	return faam_kb
@@ -560,11 +563,11 @@ def add_country_to_cities(faam_kb,pid="P17"):
 			print(f"Missing qid property for {city["id"]}")
 		if qid != "":
 			if "country" in city["statements"].keys():
-				pass # skip
+				pass
 			else:
 				# retrieve QID and add country
 				try:
-					country_qid = wb_get_property_data(qid,pid)[0]
+					country_qid = wb_get_property_data(qid,pid)[-1]
 					#print(f'Retrieved country: {country_qid}')
 					if country_qid != "":
 						# retrive country FAAM UUID, if not found keep Wikidata
@@ -607,7 +610,7 @@ def cross_references(faam_kb,cross_reference_mapping): # adding cross-references
 	print(f"FAAM categories: {faam_categories.keys()} \n Number of items in each category: {[len(faam_categories[cat]) for cat in faam_categories.keys()]}")
 	progress = 0
 	for item in faam_kb["items"]:
-		#print(f"Current item: {item["id"]}")
+		print(f"Current item: {item["id"]}")
 		progress +=1
 		cross_reference_types = cross_reference_mapping[item["metadata"]["object_type"][0]["value"]]
 		cross_reference = {}
@@ -676,13 +679,121 @@ def cross_references(faam_kb,cross_reference_mapping): # adding cross-references
 										if cross_ref["object_type"] == "agent":
 											cross_reference[cross_ref["object_type"]][-1]["image"] = {"base_url": cat_item["resources"]["image"][0]["base_url"], "value": cat_item["resources"]["image"][0]["value"] }
 						except KeyError:
-							print(f"Key not found for {cat_item["id"]}")
-							input()
+							#print(f"Key not found for {cat_item["id"]}")
+							pass
 		#print(f"Generated cross-references: {cross_reference}")
 		item["cross-references"] = cross_reference
 
 		print(f"Progress: {100*float(progress)/number_of_items}%")
 	return faam_kb
+
+def retrieve_properties_from_wikidata(faam_kb,faam_kb_mapping): # TO BE TESTED
+
+	wikidata_base_url = "http://www.wikidata.org/entity/"
+
+	wikidata_mapping = list(filter(lambda x: wikidata_base_url in x["lod_url"],faam_kb_mapping ))
+
+	wikidata_properties = [prop["faam_property"] for prop in wikidata_mapping]
+
+	# get qid list and item list for matching new QIDs
+	qid_list,item_list = generate_qid_list(faam_kb)
+
+	starting_time = time.time()
+
+	for item in faam_kb["items"]:
+		# make recurrent backups
+		current_time = time.time()
+		if current_time - starting_time > 10:
+			print("Backing up new data until now...")
+			faam_kb_filename = os.path.join(
+				"tmp", "faam_kb", "faam_kb-" + get_current_date() + ".json"
+			)
+
+			dict2json(faam_kb, faam_kb_filename)
+			starting_time = time.time()
+		if item["metadata"]["qid"][0]["value"] != "":
+			qid = item["metadata"]["qid"][0]["value"]
+			for key in item["statements"].keys():
+				if len(item["statements"][key]) == 0:
+					if key in wikidata_properties:
+						# retrieve property from wikidata
+						try:
+							pid = list(filter(lambda x: x["faam_property"] == key,wikidata_mapping))[0]["lod_url"].split("/")[-1]
+							data_type = list(filter(lambda x: x["faam_property"] == key,wikidata_mapping))[0]["data_type"]
+							property_data = wb_get_property_data(qid,pid )
+							if len(property_data) > 0:
+								item["statements"][key] = []
+								for statement in property_data:
+									# convert QID to FAAM UUID if possible
+									if data_type == "item":
+										try:
+											# bisect search converting QID to FAAM UUID
+											index = bisect_left(qid_list,int(statement[1:]))
+											if item_list[index]["qid"] == statement:
+												value = item_list[index]["id"]
+												label = item_list[index]["label"]
+												item["statements"][key].append({
+													"type": "item",
+													"value": value,
+													"label": label
+												})
+											else: # item not found, use Wikidata QID
+												value = statement
+												entity = wb.item.get(statement)
+												label = entity.labels.get('en').value
+												item["statements"][key].append({
+													"type": "externalid",
+													"value": value,
+													"base_url": "http://www.wikidata.org/entity/",
+													"label": label
+												})
+										except IndexError: # index error, use QID
+											value = statement
+											entity = wb.item.get(statement)
+											label = entity.labels.get('en').value
+											item["statements"][key].append({
+												"type": "externalid",
+												"value": value,
+												"base_url": "http://www.wikidata.org/entity/",
+												"label": label
+											})
+										except AttributeError: # return query with None Type.
+											pass
+
+									elif data_type in ["string","date"]:
+										value = statement
+										item["statements"][key].append({
+											"type": "string",
+											"value": value,
+											"label": value
+										})
+									elif data_type == "externalid":
+										base_url = list(filter(lambda x: x["faam_property"] == key,wikidata_mapping))[0]["base_url"]
+										value = statement
+										label = value
+										item["statements"][key].append({
+											"type": "externalid",
+											"value": value,
+											"base_url": base_url,
+											"label": label
+										})
+									else:
+										pass
+
+
+							print(f"Added property {key} from Wikidata to {item["metadata"]["label"][0]["value"]}")
+						except IndexError:
+							print(f"Property {key} not found for {item["metadata"]["label"][0]["value"]}")
+							pass
+
+				else: 
+					pass
+
+
+	return faam_kb
+
+
+
 
 
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export

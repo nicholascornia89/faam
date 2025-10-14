@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iQey8siG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Fs2ZbaMQ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:FTmkdBnA,
+        faamentity:aDqMJZoH ;
+    schema1:hasPart faamentity:Wdoc9Ngd ;
+    schema1:identifier "15992699"^^xsd:string,
+        "KCA-030902402178"^^xsd:string,
+        "iQey8siG"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6709314/N"^^schema1:url ;
+    skos:prefLabel "Quatre études, op. 2"^^xsd:string ;
+    skosref:related faamentity:d2XqYCDv ;
+    wd:P217 "UM-TP-STRAV-studi7-1/2/3/4"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"iQey8siG-517a70ce-3201-4e34-bf0a-697430044184"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"iQey8siG-6ae3670c-b3bd-4245-8985-c9f45a40f9d5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"iQey8siG-8ca3f418-0e88-4f79-be74-244d453e6d41"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:FTmkdBnA a rdf:object .
+
+faamentity:aDqMJZoH a rdf:object .
+

@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ln6fxh2R a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "teacher responsible to uphold a certain law or tradition"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q499143>,
+        "0"^^xsd:string,
+        "Ln6fxh2R"^^xsd:string ;
+    skos:altLabel "Buddhist preceptor"^^xsd:string,
+        "Jain preceptor"^^xsd:string,
+        "Upadhye"^^xsd:string,
+        "Upādhyāya"^^xsd:string,
+        "preceptor (Buddhism)"^^xsd:string,
+        "preceptor (Jainism)"^^xsd:string,
+        "upajjhāya"^^xsd:string ;
+    skos:prefLabel "preceptor"^^xsd:string .
+

@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6GqRvkhb a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "part of a naming scheme for individuals, used in many cultures worldwide"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q101352>,
+        "0"^^xsd:string,
+        "6GqRvkhb"^^xsd:string ;
+    skos:altLabel "clan name"^^xsd:string,
+        "fam name"^^xsd:string,
+        "family surname"^^xsd:string,
+        "last name"^^xsd:string,
+        "surname"^^xsd:string ;
+    skos:prefLabel "family name"^^xsd:string .
+

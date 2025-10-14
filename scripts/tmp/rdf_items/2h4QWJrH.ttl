@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2h4QWJrH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:H9peVKU2,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:hJoKsjEm,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:csV8qECp ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GBEySAxU,
+        faamentity:M5pEm9dz,
+        faamentity:TZfafBBe,
+        faamentity:bksidguC ;
+    schema1:hasPart faamentity:DtjNd2Fd,
+        faamentity:GiP4KoyR,
+        faamentity:ST5ykkwz,
+        faamentity:hAkZNFYE ;
+    schema1:identifier "16005040"^^xsd:string,
+        "2h4QWJrH"^^xsd:string,
+        "BNF-42599226w"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42599226w"^^schema1:url ;
+    skos:prefLabel "Sonates pour piano et violon / L. van Beethoven ; nouvelle édition complète par Carl Reinecke ; la partie de violon arrangée par Friedrich Hermann"^^xsd:string ;
+    wd:P217 "G-12512 (1)"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"2h4QWJrH-1ec13a94-44fd-4d39-976f-04e30c56a827"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"2h4QWJrH-c845a6fd-d6d2-4929-8144-583448edbc31"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"2h4QWJrH-ccdf917c-4ebc-4433-b28d-661ea618303d"^^xsd:string a rdf:Statement .
+
+"2h4QWJrH-e0f97a4d-750e-4f7f-8cb5-da82d31d9565"^^xsd:string a rdf:Statement .
+
+"2h4QWJrH-fc52cc80-d455-452f-992a-a8812f8343a0"^^xsd:string a rdf:Statement .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GBEySAxU a rdf:object .
+
+faamentity:M5pEm9dz a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:bksidguC a rdf:object .
+

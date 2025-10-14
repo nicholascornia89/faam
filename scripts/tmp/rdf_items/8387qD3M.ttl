@@ -1,0 +1,43 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8387qD3M a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5PuKvYa3,
+        faamentity:Zt3RZjvH ;
+    schema1:hasPart faamentity:CD9EEBCh ;
+    schema1:identifier "15992326"^^xsd:string,
+        "8387qD3M"^^xsd:string,
+        "KCA-030904722326"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15317375/N"^^schema1:url ;
+    skos:prefLabel "Manon : opéra de J. Massenet: grande mosaïque en 2 parties"^^xsd:string ;
+    wd:P217 "MM-OO-TAVAN-manon-19"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"8387qD3M-13d608a5-f826-4e2c-8d2e-74503f2868ab"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"8387qD3M-d54e2caf-e5eb-43fd-b09f-2bcd7a7ea6f0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:5PuKvYa3 a rdf:object .
+
+faamentity:Zt3RZjvH a rdf:object .
+

@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2GBdnqZh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:JBXSgTmB ;
+    schema1:birthDate "1897-03-11"^^xsd:string ;
+    schema1:birthPlace faamentity:4MzLNrkS ;
+    schema1:deathDate "1965-12-10"^^xsd:string ;
+    schema1:deathPlace faamentity:j3uWLALG ;
+    schema1:description "American composer, music theorist, pianist, teacher, publisher, and impresario (1897-1965)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q434610>,
+        "0"^^xsd:string,
+        "2GBdnqZh"^^xsd:string ;
+    schema1:nationality faamentity:fiWxEeqn ;
+    skos:altLabel "Henry Dixon Cowell"^^xsd:string ;
+    skos:prefLabel "Henry Cowell"^^xsd:string ;
+    wd:P108 faamentity:LSto4bhP ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5117233 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:F9E2vpm3,
+        faamentity:aSg49cdV ;
+    wd:P839 <https://imslp.org/wiki/Category:Cowell,_Henry> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:T6nAVeGM .
+

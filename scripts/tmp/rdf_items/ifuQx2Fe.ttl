@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ifuQx2Fe a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:2LiJbewP ;
+    schema1:identifier "16004355"^^xsd:string,
+        "ifuQx2Fe"^^xsd:string ;
+    skos:prefLabel "Introduction et variations sur un thème russe, Op.6"^^xsd:string ;
+    wd:P7937 faamentity:4Jjg5FwX,
+        faamentity:PJUnFxn4 ;
+    wd:P839 <https://imslp.org/wiki/Introduction_et_variations_sur_un_thème_russe,_Op.6_(David,_Ferdinand)> .
+

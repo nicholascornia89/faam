@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cLNoEZce a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "unvalved ancestor of modern-day horn"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1757829>,
+        "15990810"^^xsd:string,
+        "cLNoEZce"^^xsd:string ;
+    skos:altLabel "end-blown horns"^^xsd:string,
+        "end-blown labrosones with curved or folded tubes"^^xsd:string,
+        "natural horn"^^xsd:string ;
+    skos:prefLabel "natural horn"^^xsd:string ;
+    wd:P279 faamentity:eDJ8CeQC ;
+    wd:P31 faamentity:dSq7JTyF .
+

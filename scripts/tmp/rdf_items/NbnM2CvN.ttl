@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NbnM2CvN a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:8Au3ocED,
+        faamentity:D6RjeTWv ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:EqtAuzbH,
+        faamentity:NRsZG792,
+        faamentity:TLaaNgbw ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6A3RvFCV,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3rt4YEZn,
+        faamentity:DDH7fEFM,
+        faamentity:H9Vpi47r,
+        faamentity:nPY6863Z ;
+    schema1:hasPart faamentity:a2g2Km3k ;
+    schema1:identifier "15992279"^^xsd:string,
+        "KCA-030902700811"^^xsd:string,
+        "NbnM2CvN"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12863039/N"^^schema1:url ;
+    skos:prefLabel "Drie Songs"^^xsd:string ;
+    wd:P217 "MM-LEPP-PEETE-drielie-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"NbnM2CvN-7bb703e5-bc47-44c8-9715-23cc89cd01fa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"NbnM2CvN-8c94ea01-27bc-41db-afac-bf54e000246c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"NbnM2CvN-9557485c-783c-4da3-86d1-dbe6b301ce50"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+"NbnM2CvN-ec583d14-0f98-4f8a-bda1-216a16521fe1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:3rt4YEZn a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:H9Vpi47r a rdf:object .
+
+faamentity:nPY6863Z a rdf:object .
+

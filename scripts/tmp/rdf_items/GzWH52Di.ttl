@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GzWH52Di a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1872-05-26"^^xsd:string ;
+    schema1:birthPlace faamentity:iA5dSjTz ;
+    schema1:deathDate "1946-00-00"^^xsd:string ;
+    schema1:description "Dutch composer and music educator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q132860429>,
+        "16005641"^^xsd:string,
+        "GzWH52Di"^^xsd:string ;
+    schema1:nationality faamentity:UjV2U7Sh ;
+    skos:altLabel "Mario van Overeem"^^xsd:string ;
+    skos:prefLabel "Mario van Overeem"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:311225644 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Overeem,_Mario_van> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

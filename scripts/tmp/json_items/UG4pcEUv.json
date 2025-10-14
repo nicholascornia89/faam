@@ -1,0 +1,130 @@
+{
+  "id": "UG4pcEUv",
+  "uuid_num": 51309180381748,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "flat sign"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical sign (accidental) lowering the pitch of a note by one chromatic semitone (factor 2^(1/12))"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "♭"
+      },
+      {
+        "type": "string",
+        "value": "bemolle"
+      },
+      {
+        "type": "string",
+        "value": "♭-sign"
+      },
+      {
+        "type": "string",
+        "value": "flat"
+      },
+      {
+        "type": "string",
+        "value": "flat sign"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q7001368",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "flat sign"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "UG4pcEUv"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002351"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "8N6k5W5i",
+        "label": "accidental"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UG4pcEUv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UG4pcEUv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UG4pcEUv.csv"
+      }
+    ]
+  }
+}

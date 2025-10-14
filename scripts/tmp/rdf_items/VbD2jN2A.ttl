@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VbD2jN2A a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:GpNEm7nw,
+        faamentity:HHYqWvTC,
+        faamentity:HKyA3Qzz,
+        faamentity:Jx8FMpyt,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:k6GNqQ5D,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:TnbLqDio,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6F8MxGwj,
+        faamentity:bJbJz9Uk,
+        faamentity:fGNpaX2r ;
+    schema1:identifier "15992675"^^xsd:string,
+        "KCA-TP9125"^^xsd:string,
+        "VbD2jN2A"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "7 Toccate per Pianoforte di Pietro Scarlatti"^^xsd:string ;
+    wd:P217 "TP9125"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"VbD2jN2A-4baa51f0-1806-4aaf-8ff1-8aa23ebcc656"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VbD2jN2A-bf8dbef0-b8a8-4453-8fac-8ea8851a741b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:CBAqGowo .
+
+"VbD2jN2A-c904897f-b7d7-43c0-9f0f-98d74d541697"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:6F8MxGwj a rdf:object .
+
+faamentity:bJbJz9Uk a rdf:object .
+
+faamentity:fGNpaX2r a rdf:object .
+

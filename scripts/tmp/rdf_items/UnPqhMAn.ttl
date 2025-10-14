@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UnPqhMAn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:TiUDoKFe ;
+    schema1:birthDate "1672-10-21"^^xsd:string ;
+    schema1:birthPlace faamentity:AaECfyZk ;
+    schema1:deathDate "1750-01-23"^^xsd:string ;
+    schema1:deathPlace faamentity:iU2pomC5 ;
+    schema1:description "Italian priest, writer, librarian, historian and diplomat"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q471529>,
+        "15995839"^^xsd:string,
+        "UnPqhMAn"^^xsd:string ;
+    skos:altLabel "Lamindius Pritanius"^^xsd:string,
+        "Lamindo Pritanio"^^xsd:string,
+        "Leucoto Gateate"^^xsd:string,
+        "Lodovico Antonio Muratori"^^xsd:string,
+        "Ludovico Antonio Muratori"^^xsd:string ;
+    skos:prefLabel "Ludovico Antonio Muratori"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:68933348 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:6pfzESag,
+        faamentity:YrCfZ8vh,
+        faamentity:avB62pGy,
+        faamentity:eUa7qYMN,
+        faamentity:fDqtTBeV,
+        faamentity:mxFoYAeg,
+        faamentity:nrDVDBKf .
+

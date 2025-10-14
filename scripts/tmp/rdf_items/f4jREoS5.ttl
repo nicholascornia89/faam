@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:f4jREoS5 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "state-related research university located in Pittsburgh, Pennsylvania, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q235034>,
+        "0"^^xsd:string,
+        "f4jREoS5"^^xsd:string ;
+    schema1:location faamentity:LTcus2sA,
+        faamentity:burVwPcE,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Pitt"^^xsd:string,
+        "Pittsburgh Academy"^^xsd:string,
+        "Pittsburgh University"^^xsd:string,
+        "University of Pittsburgh of the Commonwealth System of Higher Education"^^xsd:string,
+        "University of Pittsburgh- Of the Commonwealth System of Higher Education"^^xsd:string,
+        "University of Pittsburgh-Of the Commonwealth System of Higher Education"^^xsd:string,
+        "Western University of Pennsylvania"^^xsd:string,
+        "pitt.edu"^^xsd:string ;
+    skos:prefLabel "University of Pittsburgh"^^xsd:string .
+

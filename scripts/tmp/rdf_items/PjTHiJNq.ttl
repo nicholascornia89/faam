@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PjTHiJNq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:UJ57Ew5y,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:handwritten_annotation faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:CYXc6Asq,
+        faamentity:Gx3B7DJH,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:Gj3w6SyS,
+        faamentity:fp9MQVQ5 ;
+    schema1:hasPart faamentity:MbdUoe2j ;
+    schema1:identifier "15992711"^^xsd:string,
+        "KCA-030902737524"^^xsd:string,
+        "PjTHiJNq"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6748916/N"^^schema1:url ;
+    skos:prefLabel "Pavane : pour une infante défunte : pour piano"^^xsd:string ;
+    wd:P217 "MM-TP-RAVEL-pavane-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"PjTHiJNq-9a3d82fa-769c-44da-914c-f9685c42c648"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"PjTHiJNq-9c1ea44c-f574-42bd-95bc-681f28093767"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PjTHiJNq-d6358eb0-801e-425a-a086-4e8a3cfae947"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:Gj3w6SyS a rdf:object .
+
+faamentity:fp9MQVQ5 a rdf:object .
+

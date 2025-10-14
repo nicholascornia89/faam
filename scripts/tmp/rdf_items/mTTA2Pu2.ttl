@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mTTA2Pu2 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:P6oPC63c,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:A43szu5o,
+        faamentity:DDH7fEFM ;
+    schema1:hasPart faamentity:bdEc7Ucq ;
+    schema1:identifier "15992591"^^xsd:string,
+        "KCG-000334852"^^xsd:string,
+        "mTTA2Pu2"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334852"^^schema1:url ;
+    skos:prefLabel "3e Sextuor : pour Piano, 2 Violons, Alto, Violonclle. et Contre Basse : Op. 90"^^xsd:string ;
+    wd:P217 "II-A-58"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:PyGNLcfw,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"mTTA2Pu2-734b2bd1-af84-4576-9b6a-247d029a034e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"mTTA2Pu2-e9e0598d-561e-4860-8e72-cd34d1730f2e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:A43szu5o a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

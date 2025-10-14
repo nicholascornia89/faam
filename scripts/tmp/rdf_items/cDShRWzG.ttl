@@ -1,0 +1,105 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cDShRWzG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:atGzytDR,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:BdJHjaCE,
+        faamentity:Gx3B7DJH,
+        faamentity:Hp9W6GY6,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BHzSccaL,
+        faamentity:SnTwYr4w,
+        faamentity:WWHbpWws,
+        faamentity:bvmiR9Y3,
+        faamentity:jZ5Za9W2 ;
+    schema1:hasPart faamentity:3JmWTaYG,
+        faamentity:53YC4RFc,
+        faamentity:5qXveGav,
+        faamentity:5xqtFbkb,
+        faamentity:ADpDT68H,
+        faamentity:BWiuPYcf,
+        faamentity:UhjRPHt4,
+        faamentity:VViS3rRf,
+        faamentity:W2fdMdZi,
+        faamentity:ZoStsccS,
+        faamentity:gAnAG4pk,
+        faamentity:iv7gLUFk ;
+    schema1:identifier "15992791"^^xsd:string,
+        "BNF-430904883"^^xsd:string,
+        "cDShRWzG"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb430904883"^^schema1:url ;
+    skos:prefLabel "Recueil des morceaux de musique ancienne exécutés aux concerts de la Société de musique vocale religieuse et classique, fondée à Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)"^^xsd:string ;
+    skosref:related faamentity:3JmWTaYG,
+        faamentity:53YC4RFc,
+        faamentity:5qXveGav,
+        faamentity:5xqtFbkb,
+        faamentity:ADpDT68H,
+        faamentity:BWiuPYcf,
+        faamentity:UhjRPHt4,
+        faamentity:VViS3rRf,
+        faamentity:W2fdMdZi,
+        faamentity:ZoStsccS,
+        faamentity:gAnAG4pk,
+        faamentity:iv7gLUFk ;
+    wd:P217 "VM7-3084 (3)"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"cDShRWzG-06767394-5e17-449e-908b-b1ba67efc42d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1843"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"cDShRWzG-4aaf64f5-59aa-4114-8699-52632222f976"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1843"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre .
+
+"cDShRWzG-5a46ccee-3546-4d15-ad73-aaa87076c022"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cDShRWzG-dce2fa80-af13-40ea-9670-a48096c25c47"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cDShRWzG-ded5ae55-b1d4-4663-9f2b-24421c898bf2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cDShRWzG-f6341d85-2810-42ea-b97b-fdd3ebec539f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:BHzSccaL a rdf:object .
+
+faamentity:SnTwYr4w a rdf:object .
+
+faamentity:WWHbpWws a rdf:object .
+
+faamentity:bvmiR9Y3 a rdf:object .
+
+faamentity:jZ5Za9W2 a rdf:object .
+

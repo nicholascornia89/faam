@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L7DPWnnr a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "academic title"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16145150>,
+        "15990859"^^xsd:string,
+        "L7DPWnnr"^^xsd:string ;
+    skos:altLabel "music educator"^^xsd:string ;
+    skos:prefLabel "music teacher"^^xsd:string .
+

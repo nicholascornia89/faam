@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Y4mMmBh a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1781-07-27"^^xsd:string ;
+    schema1:birthPlace faamentity:8HikEQ8k,
+        faamentity:JA5ymPqo ;
+    schema1:deathDate "1829-05-08"^^xsd:string ;
+    schema1:deathPlace faamentity:mSVELu4H ;
+    schema1:description "Italian guitarist, cellist, singer, and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q379560>,
+        "16004182"^^xsd:string,
+        "6Y4mMmBh"^^xsd:string ;
+    schema1:nationality faamentity:KWjNoJvm ;
+    skos:altLabel "Mauro Giuliani"^^xsd:string,
+        "Mauro Giuseppe Sergio Pantaleo Giuliani"^^xsd:string ;
+    skos:prefLabel "Mauro Giuliani"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8,
+        faamentity:QE66HesX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5194622 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/65467> ;
+    wd:P839 <https://imslp.org/wiki/Category:Giuliani,_Mauro> ;
+    schema:hasOccupation faamentity:4rgowLtK,
+        faamentity:5aTYuVxp .
+

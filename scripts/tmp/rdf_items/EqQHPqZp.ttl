@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EqQHPqZp a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1715"^^xsd:string ;
+    schema1:deathDate "1766"^^xsd:string ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55743729>,
+        "15996186"^^xsd:string,
+        "EqQHPqZp"^^xsd:string ;
+    skos:altLabel "Ferdinando Pellegrini"^^xsd:string ;
+    skos:prefLabel "Ferdinando Pellegrini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Pellegrini,_Ferdinando> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:bX2aWAhB .
+

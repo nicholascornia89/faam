@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jmuqKQhp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:JwqBvu9Z,
+        faamentity:QGRAMUu8,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:JwqBvu9Z ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:PJUnFxn4,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Xt8m8K6L,
+        faamentity:fNsjhW8Z ;
+    schema1:identifier "15992658"^^xsd:string,
+        "KCG-000370112"^^xsd:string,
+        "jmuqKQhp"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000370112"^^schema1:url ;
+    skos:prefLabel "Air Varié : Pour Flûte Avec accompagnement de deux violons Alto et Basse : Cet air varié est arrangé Pour Flûte et Harpe"^^xsd:string ;
+    skosref:note "Original version for flute and strings."^^rdf:HTML ;
+    wd:P217 "II 14574"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:C7WiTTAH .
+
+schema1:contributor a rdf:predicate .
+
+"jmuqKQhp-9cbf4800-16f9-4964-a949-3960972f5d9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"jmuqKQhp-f2d74b6f-e505-4675-b5b1-b1240a212ddc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:Xt8m8K6L a rdf:object .
+
+faamentity:fNsjhW8Z a rdf:object .
+

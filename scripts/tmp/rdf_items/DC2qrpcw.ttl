@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DC2qrpcw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:amkJ6EBs,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:j3tnVzW5,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:QwSKSFky,
+        faamentity:h44Fwcxx ;
+    schema1:hasPart faamentity:fS46DLmj ;
+    schema1:identifier "15992654"^^xsd:string,
+        "DC2qrpcw"^^xsd:string,
+        "KCG-000349202"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000349202"^^schema1:url ;
+    skos:prefLabel "Le Pre aux Clercs : opera in 3 bedrijven : reductie voor zang en piano"^^xsd:string ;
+    wd:P217 "II964"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"DC2qrpcw-9d7939f2-e1aa-43db-98fa-9215dc74d4db"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"DC2qrpcw-bc035031-1b69-40d4-b818-1a69aaaf9755"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:QwSKSFky a rdf:object .
+
+faamentity:h44Fwcxx a rdf:object .
+

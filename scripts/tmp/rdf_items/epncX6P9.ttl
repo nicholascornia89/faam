@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:epncX6P9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1597-07-22"^^xsd:string ;
+    schema1:birthPlace faamentity:FT2Ha5fd ;
+    schema1:deathDate "1646-10-03"^^xsd:string ;
+    schema1:deathPlace faamentity:FT2Ha5fd ;
+    schema1:description "Italian Baroque composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q375733>,
+        "0"^^xsd:string,
+        "epncX6P9"^^xsd:string ;
+    skos:prefLabel "Virgilio Mazzocchi"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:22336755 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002149> ;
+    wd:P737 faamentity:MutWsVEt ;
+    wd:P839 <https://imslp.org/wiki/Category:Mazzocchi,_Virgilio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:R7KKRvQ6 .
+

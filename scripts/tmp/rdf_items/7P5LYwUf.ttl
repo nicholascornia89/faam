@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7P5LYwUf a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:DawBtzdU,
+        faamentity:GepDoTXn,
+        faamentity:crUkNjhF,
+        faamentity:eNyFmkHC,
+        faamentity:kpGZyoEa ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:LKEZbx72,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:SfdhwsSz,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:F5NrHRaK ;
+    schema1:identifier "16004317"^^xsd:string,
+        "7P5LYwUf"^^xsd:string,
+        "BNF-428466571"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428466571"^^schema1:url ;
+    skos:prefLabel "Méthode de violon divisée en 3 parties, op. 102"^^xsd:string ;
+    skosref:note "Several diagrams and engravings about posture and violin."^^rdf:HTML ;
+    wd:P217 "VM8 C-28"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"7P5LYwUf-95c22279-c605-446f-a27d-06e33999f1ff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"7P5LYwUf-cdacecb4-4fc6-4f5e-9af4-236ccce71db0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:SfdhwsSz a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ST5ykkwz a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TZfafBBe ;
+    schema1:description "Composition for violin and piano by Ludwig van Beethoven"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1635740>,
+        "16005076"^^xsd:string,
+        "ST5ykkwz"^^xsd:string ;
+    skos:altLabel "Sonata for Violin and Piano No. 4 in A Minor, Op. 23"^^xsd:string,
+        "Violin Sonata No. 4"^^xsd:string ;
+    skos:prefLabel "Violin Sonata No.4, Op.23"^^xsd:string ;
+    wd:P5202 faamentity:GBEySAxU ;
+    wd:P7937 faamentity:RtkoMT89,
+        faamentity:Tf6tmSRP ;
+    wd:P839 <https://imslp.org/wiki/Violin_Sonata_No.4,_Op.23_(Beethoven,_Ludwig_van)> .
+

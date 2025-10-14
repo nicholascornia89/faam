@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:brhsLAa9 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1875-02-04"^^xsd:string ;
+    schema1:birthPlace faamentity:4g8XzGFP ;
+    schema1:deathDate "1962-01-18"^^xsd:string ;
+    schema1:deathPlace faamentity:NWerpCFb ;
+    schema1:description "Belgian pianist and musicologist (1875–1962)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1963017>,
+        "16005639"^^xsd:string,
+        "brhsLAa9"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Raymond Moulaert"^^xsd:string ;
+    skos:prefLabel "Raymond Moulaert"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei,
+        faamentity:iBQFDHMC ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56878006 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:6JFxsUoR,
+        faamentity:BvwrSZ5s,
+        faamentity:MFYf8mDL,
+        faamentity:fTh7NUtj,
+        faamentity:gu6PFUDE ;
+    wd:P839 <https://imslp.org/wiki/Category:Moulaert,_Raymond> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

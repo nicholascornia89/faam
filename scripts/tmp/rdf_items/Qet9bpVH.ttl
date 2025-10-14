@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Qet9bpVH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:K4TocMAK,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MpcFo7ct,
+        faamentity:PXYCpRXf,
+        faamentity:agWvDDr6 ;
+    schema1:hasPart faamentity:Z56GR4x7 ;
+    schema1:identifier "16004010"^^xsd:string,
+        "BNF-43257907v"^^xsd:string,
+        "Qet9bpVH"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb43257907v"^^schema1:url ;
+    skos:prefLabel "Sonate n° 47 [i.e. 533] : allemande / Domenico Scarlatti..."^^xsd:string ;
+    wd:P217 "FOL-VM-1 (6)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Qet9bpVH-7de0a16e-4e9b-4346-abae-f7e106978bbe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"Qet9bpVH-d7791870-eabb-467a-9ca0-f89c6d23af7a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"Qet9bpVH-e53d8a3b-43b6-499b-89cf-55fc92a77eb4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:agWvDDr6 a rdf:object .
+

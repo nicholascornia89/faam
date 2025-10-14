@@ -1,0 +1,40 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Pr2TY6Go a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:G5dNDMwk,
+        faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:UJq8vYVd ;
+    schema1:identifier "16005030"^^xsd:string,
+        "BSB-991078961739707356"^^xsd:string,
+        "Pr2TY6Go"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11148730"^^schema1:url ;
+    skos:prefLabel "Sequentia : Stabat mater ; 4 vocibus inaequalibus concinenda comitante organo ; op. 7"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 43347"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"Pr2TY6Go-3bcbd95f-d3a5-4f7c-a330-af8d06b9f8b2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:UJq8vYVd a rdf:object .
+

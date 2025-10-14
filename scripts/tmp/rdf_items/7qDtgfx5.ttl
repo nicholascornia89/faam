@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7qDtgfx5 a rdfs:Resource ;
+    faamprop:related_to faamentity:Rn2iLGJr,
+        faamentity:WgWRP5cq,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1887-11-23"^^xsd:string ;
+    schema1:birthPlace faamentity:TTiDpPMo ;
+    schema1:deathDate "1956-01-09"^^xsd:string ;
+    schema1:deathPlace faamentity:4g8XzGFP ;
+    schema1:description "French/Belgian organist (1887-1956)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1625406>,
+        "16005642"^^xsd:string,
+        "7qDtgfx5"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Paul Constant Eugène de Maleingreau"^^xsd:string,
+        "Paul de Maleingreau"^^xsd:string ;
+    skos:prefLabel "Paul de Maleingreau"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79629158 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Maleingreau,_Paul_de> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3 .
+

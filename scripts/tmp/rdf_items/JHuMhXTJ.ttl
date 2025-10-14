@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JHuMhXTJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1803-04-02"^^xsd:string ;
+    schema1:birthPlace faamentity:HXBuTDzX ;
+    schema1:deathDate "1890-01-20"^^xsd:string ;
+    schema1:deathPlace faamentity:ndwv66mQ ;
+    schema1:description "German composer and conductor (1803-1890)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q713451>,
+        "15995918"^^xsd:string,
+        "JHuMhXTJ"^^xsd:string ;
+    schema1:nationality faamentity:LKYcvgWo ;
+    skos:altLabel "Franz Lachner"^^xsd:string,
+        "Franz Paul Lachner"^^xsd:string ;
+    skos:prefLabel "Franz Lachner"^^xsd:string ;
+    wd:P108 faamentity:QUvMmoNX ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71548338 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/64570> ;
+    wd:P737 faamentity:HGEn5JDv,
+        faamentity:SC9Tasad ;
+    wd:P839 <https://imslp.org/wiki/Category:Lachner,_Franz_Paul> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

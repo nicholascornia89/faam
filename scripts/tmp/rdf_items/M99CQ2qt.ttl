@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M99CQ2qt a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1804-00-00"^^xsd:string,
+        "1804-11-14"^^xsd:string ;
+    schema1:birthPlace faamentity:karjSL3s ;
+    schema1:deathDate "1892-00-00"^^xsd:string,
+        "1892-01-10"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "German composer and conductor (1804–1892)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q564953>,
+        "0"^^xsd:string,
+        "M99CQ2qt"^^xsd:string ;
+    schema1:nationality faamentity:WN5PAeAx ;
+    skos:altLabel "Heinrich Ludwig Egmont Dorn"^^xsd:string ;
+    skos:prefLabel "Heinrich Dorn"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59829615 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/18492> ;
+    wd:P737 faamentity:BYQnQdSz ;
+    wd:P839 <https://imslp.org/wiki/Category:Dorn,_Heinrich_Ludwig_Egmont> ;
+    schema:hasOccupation faamentity:3Kncf32R,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:TDF2knmi .
+

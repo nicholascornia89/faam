@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4AqAfYnf a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:R9hADWGS ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical term"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1138573>,
+        "16002633"^^xsd:string,
+        "4AqAfYnf"^^xsd:string ;
+    skos:altLabel "da capo"^^xsd:string ;
+    skos:prefLabel "da capo"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ,
+        faamentity:YvQmwaaW,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:QGRAMUu8,
+        faamentity:hJoKsjEm ;
+    wd:P31 faamentity:fxtj72S3 .
+

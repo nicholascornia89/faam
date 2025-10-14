@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:K4cyR6ei a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "former conservatory in Brussels, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q336968>,
+        "15991023"^^xsd:string,
+        "K4cyR6ei"^^xsd:string ;
+    schema1:location faamentity:4g8XzGFP,
+        faamentity:Jj6yVN5E,
+        faamentity:KgyiaBt3,
+        faamentity:NbmmLYHK ;
+    skos:altLabel "Conservatoire royal de Bruxelles"^^xsd:string,
+        "Koninklijk Conservatorium Brussel"^^xsd:string,
+        "Royal Conservatory of Brussels"^^xsd:string ;
+    skos:prefLabel "Royal Conservatory of Brussels"^^xsd:string .
+

@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PJTYaiyq a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1824-06-27"^^xsd:string ;
+    schema1:birthPlace faamentity:XYjq49o8 ;
+    schema1:deathDate "1904-12-20"^^xsd:string ;
+    schema1:deathPlace faamentity:D4xdfGtX ;
+    schema1:description "actor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3514443>,
+        "0"^^xsd:string,
+        "PJTYaiyq"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Denis-Stanislas Montalant"^^xsd:string ;
+    skos:prefLabel "Talbot"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:EZu4Z5Ps ;
+    schema:hasOccupation faamentity:F6jyWvcL,
+        faamentity:SvJHdWX4 .
+

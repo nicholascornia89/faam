@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XAGe7nBv a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1899-09-30"^^xsd:string ;
+    schema1:birthPlace faamentity:63tu2PPL ;
+    schema1:deathDate "1972-08-22"^^xsd:string ;
+    schema1:deathPlace faamentity:Gh867t3U ;
+    schema1:description "German music publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55846674>,
+        "16004161"^^xsd:string,
+        "XAGe7nBv"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a,
+        faamentity:WN5PAeAx ;
+    skos:altLabel "Hans Sikorski"^^xsd:string ;
+    skos:prefLabel "Hans Sikorski"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:20053948 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30034700> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

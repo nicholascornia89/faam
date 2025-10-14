@@ -1,0 +1,45 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:H2g4QD8S a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:DawBtzdU,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:PPhziStg ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:h44Fwcxx ;
+    schema1:identifier "16002134"^^xsd:string,
+        "H2g4QD8S"^^xsd:string,
+        "KCA-030904477624"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15227757/N"^^schema1:url ;
+    skos:prefLabel "Ninon : caprice pompadour: pour le piano"^^xsd:string ;
+    wd:P217 "MM-TP-ELSEN-ninon-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"H2g4QD8S-079356a0-431d-4a02-bbed-1bc639bf7262"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"H2g4QD8S-23902a6a-a619-4206-8dec-25378aadec99"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"H2g4QD8S-bf48ab9a-9ca6-4a87-9ace-c76c59abc7df"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:h44Fwcxx a rdf:object .
+

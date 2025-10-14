@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D7tPHizN a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "college of the University of Cambridge"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q924289>,
+        "16004741"^^xsd:string,
+        "D7tPHizN"^^xsd:string ;
+    schema1:location faamentity:5Vf3B6KY,
+        faamentity:KmPGztnu ;
+    skos:altLabel "King's College"^^xsd:string,
+        "King's College of Our Lady and Saint Nicholas in Cambridge"^^xsd:string,
+        "King's College, Cambridge"^^xsd:string,
+        "University of Cambridge King's College"^^xsd:string ;
+    skos:prefLabel "King's College"^^xsd:string .
+

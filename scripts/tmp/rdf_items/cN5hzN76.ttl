@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cN5hzN76 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1860-04-07"^^xsd:string ;
+    schema1:birthPlace faamentity:bMa6DKWh ;
+    schema1:deathDate "1929-08-11"^^xsd:string,
+        "1929-08-12"^^xsd:string ;
+    schema1:deathPlace faamentity:iR3nZ9nb ;
+    schema1:description "Czech conductor, violinist and composer (1860–1929)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2173535>,
+        "16004992"^^xsd:string,
+        "cN5hzN76"^^xsd:string ;
+    skos:altLabel "Rudolf Novacek"^^xsd:string,
+        "Rudolf Novácek"^^xsd:string,
+        "Rudolf Nováček"^^xsd:string ;
+    skos:prefLabel "Rudolf Nováček"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:74038500 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30087780> ;
+    wd:P839 <https://imslp.org/wiki/Category:Nováček,_Rudolf> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:5eUMkMxY,
+        faamentity:9CVVGZdo,
+        faamentity:QBx3kSJW,
+        faamentity:TDF2knmi,
+        faamentity:VVp4w8zT,
+        faamentity:bX2aWAhB .
+

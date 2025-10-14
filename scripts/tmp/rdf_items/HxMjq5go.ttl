@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HxMjq5go a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:L8H9Ajyr ;
+    schema1:birthDate "1855-08-02"^^xsd:string ;
+    schema1:birthPlace faamentity:NFoQc6qk ;
+    schema1:deathDate "1946-01-10"^^xsd:string ;
+    schema1:deathPlace faamentity:GEHEKxzR ;
+    schema1:description "Dutch opera singer (1855–1946)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q452636>,
+        "16004295"^^xsd:string,
+        "HxMjq5go"^^xsd:string ;
+    schema1:nationality faamentity:UjV2U7Sh ;
+    skos:altLabel "C. van Zanten"^^xsd:string,
+        "Cornelie van Zanten"^^xsd:string,
+        "Cornélie van Zanten"^^xsd:string,
+        "Wijntje Cornelia van Zanten"^^xsd:string ;
+    skos:prefLabel "Cornélie van Zanten"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:74146151972005211476 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:FjJkCWj5,
+        faamentity:Qc5Nkbjo,
+        faamentity:Rsi49MkN,
+        faamentity:ku6jtjDm ;
+    schema:hasOccupation faamentity:9giCtFiy,
+        faamentity:HiywuUEM,
+        faamentity:LrBEtxcy .
+

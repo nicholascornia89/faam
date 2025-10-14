@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QELJUJBf a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "type of cantata intended to be performed during a liturgical service"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11499279>,
+        "15998768"^^xsd:string,
+        "QELJUJBf"^^xsd:string ;
+    skos:altLabel "church cantata"^^xsd:string,
+        "sacred cantata"^^xsd:string ;
+    skos:prefLabel "church cantata"^^xsd:string .
+

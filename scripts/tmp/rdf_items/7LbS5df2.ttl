@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7LbS5df2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:BxCTxRNw,
+        faamentity:LKYUjWFc ;
+    schema1:birthDate "1928-05-30"^^xsd:string ;
+    schema1:birthPlace faamentity:BWX2VNz4,
+        faamentity:EVahdUGr ;
+    schema1:deathDate "2012-01-16"^^xsd:string ;
+    schema1:deathPlace faamentity:d5Z68PVs ;
+    schema1:description "Dutch keyboard player, conductor, musicologist, teacher and editor (1928–2012)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q51584>,
+        "15995814"^^xsd:string,
+        "7LbS5df2"^^xsd:string ;
+    schema1:nationality faamentity:mV38LJ7u ;
+    skos:altLabel "Gustav Leonhardt"^^xsd:string,
+        "Gustav Maria Leonhardt"^^xsd:string ;
+    skos:prefLabel "Gustav Leonhardt"^^xsd:string ;
+    wd:P108 faamentity:AdtLRLuK,
+        faamentity:DRRhn6P7,
+        faamentity:WyJDZYHT ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:113475647 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:DpFDFGMR ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:R7KKRvQ6,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3,
+        faamentity:hMYL5Z9b .
+

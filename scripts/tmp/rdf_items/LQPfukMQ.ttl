@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LQPfukMQ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:L5BeZMkD ;
+    schema1:birthDate "1933-07-15"^^xsd:string ;
+    schema1:birthPlace faamentity:YvNr67QL ;
+    schema1:deathDate "2020-08-14"^^xsd:string ;
+    schema1:deathPlace faamentity:Fiqr6T6J ;
+    schema1:description "English classical guitarist and lutenist (1933–2020)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q453583>,
+        "0"^^xsd:string,
+        "LQPfukMQ"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu ;
+    skos:prefLabel "Julian Bream"^^xsd:string ;
+    wd:P108 faamentity:EVBcTsBB ;
+    wd:P1303 faamentity:7RKddazD,
+        faamentity:dNidfqfQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71577244 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:U7R3c65e ;
+    schema:hasOccupation faamentity:4rgowLtK,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:LdnPvsKv,
+        faamentity:NwiqRLEM,
+        faamentity:bX2aWAhB .
+

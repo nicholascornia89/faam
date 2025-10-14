@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BtCAkKfM a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in the Western Cape, South Africa"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5465>,
+        "0"^^xsd:string,
+        "BtCAkKfM"^^xsd:string ;
+    schema1:location <Q258> ;
+    skos:altLabel "Cape"^^xsd:string,
+        "Cape Town, South Africa"^^xsd:string,
+        "Kaap"^^xsd:string,
+        "Kaapstad"^^xsd:string,
+        "Mother City"^^xsd:string,
+        "Tavern of the Seas"^^xsd:string,
+        "West side"^^xsd:string,
+        "iKapa"^^xsd:string ;
+    skos:prefLabel "Cape Town"^^xsd:string ;
+    wd:P1566 gn:3369157 .
+

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jwZCEL66 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "French commune in Dordogne, Nouvelle-Aquitaine"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q187911>,
+        "0"^^xsd:string,
+        "jwZCEL66"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "Bergerac, New Aquitaine"^^xsd:string,
+        "Brageirac"^^xsd:string,
+        "Brajairac"^^xsd:string ;
+    skos:prefLabel "Bergerac"^^xsd:string ;
+    wd:P1566 gn:3033391,
+        gn:6455004 .
+

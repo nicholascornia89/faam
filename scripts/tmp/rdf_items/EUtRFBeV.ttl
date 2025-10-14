@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EUtRFBeV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1748-00-00"^^xsd:string,
+        "1759-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:cqAyJhdn ;
+    schema1:deathDate "1818-00-00"^^xsd:string,
+        "1825-00-00"^^xsd:string ;
+    schema1:deathPlace faamentity:P4vjgvZT ;
+    schema1:description "German cellist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q41547791>,
+        "0"^^xsd:string,
+        "EUtRFBeV"^^xsd:string ;
+    skos:prefLabel "Johann Konrad Schlick"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:37184081 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002881> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7 .
+

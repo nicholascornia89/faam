@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oRpVY5dY a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QyGsVBr2 ;
+    schema1:identifier "16005078"^^xsd:string,
+        "oRpVY5dY"^^xsd:string ;
+    skos:prefLabel "Violin Sonata in D minor 'La Folia', Op.5 No.12"^^xsd:string ;
+    wd:P5202 faamentity:2LiJbewP ;
+    wd:P7937 faamentity:RtkoMT89,
+        faamentity:Tf6tmSRP ;
+    wd:P839 <https://imslp.org/wiki/Violin_Sonata_in_D_minor_'La_Folia',_Op.5_No.12_(Corelli,_Arcangelo)> .
+

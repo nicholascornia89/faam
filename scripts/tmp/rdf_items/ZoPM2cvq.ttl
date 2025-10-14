@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZoPM2cvq a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "book composed of separately printed works that are subsequently bound together"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4230425>,
+        "15990621"^^xsd:string,
+        "ZoPM2cvq"^^xsd:string ;
+    skos:altLabel "binder's volume"^^xsd:string,
+        "bound-together"^^xsd:string,
+        "bound-with"^^xsd:string,
+        "collection volume"^^xsd:string,
+        "composite textblock"^^xsd:string,
+        "convolute"^^xsd:string,
+        "miscellany"^^xsd:string,
+        "nonce-volume"^^xsd:string,
+        "sammelband"^^xsd:string ;
+    skos:prefLabel "collection volume"^^xsd:string .
+

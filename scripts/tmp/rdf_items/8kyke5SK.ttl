@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8kyke5SK a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Catholic teaching seminary in France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2983769>,
+        "16004770"^^xsd:string,
+        "8kyke5SK"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf,
+        faamentity:nDrViv4W ;
+    skos:altLabel "College of Juilly"^^xsd:string ;
+    skos:prefLabel "College of Juilly"^^xsd:string .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cLTo9Vvg a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in North America"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16>,
+        "15998727"^^xsd:string,
+        "cLTo9Vvg"^^xsd:string ;
+    skos:altLabel "Canada"^^xsd:string ;
+    skos:prefLabel "Canada"^^xsd:string ;
+    wd:P1566 gn:6251999 .
+

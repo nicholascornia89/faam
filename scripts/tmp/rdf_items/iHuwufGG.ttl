@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iHuwufGG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:k6GNqQ5D,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:DawBtzdU,
+        faamentity:NRsZG792,
+        faamentity:TUdHPWU8,
+        faamentity:iyfjpyT2 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Qw4zjHnS ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Bo63mcxB,
+        faamentity:DDH7fEFM,
+        faamentity:RN3tbWbS ;
+    schema1:identifier "16005371"^^xsd:string,
+        "ORP-20143703p12"^^xsd:string,
+        "iHuwufGG"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Illusioni"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"iHuwufGG-07d92ba9-73e0-4845-9333-afe6dacf2a47"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"iHuwufGG-297db64d-50c2-4cdc-8461-fc126a5f44fe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:B2uxVJLf .
+
+"iHuwufGG-6af06c9a-577d-4dd2-8621-623ec8718b42"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:Bo63mcxB a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:RN3tbWbS a rdf:object .
+

@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oQXzQeSL a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:9tkKrhbM,
+        faamentity:EqtAuzbH,
+        faamentity:UJ57Ew5y,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    faamprop:sections """<ol>
+<li> Au bord de la mer </li>
+<li> Le sommeil</li>
+<li> L'orage</li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:PriU9zu2,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AbReSA72,
+        faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:biAt5GhS ;
+    schema1:identifier "15992580"^^xsd:string,
+        "KCG-000338557"^^xsd:string,
+        "oQXzQeSL"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000338557"^^schema1:url ;
+    skos:prefLabel "Trois Quatuors : pour Soprano, Contralte, Tenor & Basse"^^xsd:string ;
+    wd:P217 "II 1876"^^xsd:string ;
+    wd:P870 faamentity:4YzWbco5,
+        faamentity:K94zCrpZ,
+        faamentity:PyGNLcfw,
+        faamentity:TicDHwYM,
+        faamentity:gVFJ3YRC .
+
+schema1:contributor a rdf:predicate .
+
+"oQXzQeSL-4e3438d5-8f83-4ea0-9e13-67ade268c3e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"oQXzQeSL-61f9a427-c2c0-4867-8121-d6970946316f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"oQXzQeSL-6e30d9b1-7e16-4e06-8848-6ad1d4fcff74"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"oQXzQeSL-983cd144-e4ca-40df-ba32-f52e19e7801e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:AbReSA72 a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:biAt5GhS a rdf:object .
+

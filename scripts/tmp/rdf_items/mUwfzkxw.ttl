@@ -1,0 +1,51 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mUwfzkxw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:gaLrAUbu,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Lifw9vuE,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5MMa69Kf,
+        faamentity:DDH7fEFM ;
+    schema1:hasPart faamentity:XgffK43M ;
+    schema1:identifier "15992596"^^xsd:string,
+        "KCG-000350255"^^xsd:string,
+        "mUwfzkxw"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000350255"^^schema1:url ;
+    skos:prefLabel "Dernier Concerto : pour Piano, avec Accompagnement d'Orchestre : N° 1. des Oeuvres Posthumes"^^xsd:string ;
+    wd:P217 "II643"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"mUwfzkxw-6d14f3ee-154a-4233-810b-3c8cffe9fbb9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"mUwfzkxw-ccc262fe-c239-4fff-8c45-04e8239e00f0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1842"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:5MMa69Kf a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

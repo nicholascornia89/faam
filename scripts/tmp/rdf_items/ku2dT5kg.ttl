@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ku2dT5kg a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6581097>,
+        "15992244"^^xsd:string,
+        "ku2dT5kg"^^xsd:string ;
+    skos:altLabel "boy"^^xsd:string,
+        "guy"^^xsd:string,
+        "m"^^xsd:string,
+        "male"^^xsd:string,
+        "male character"^^xsd:string,
+        "male gender"^^xsd:string,
+        "male human"^^xsd:string,
+        "male person"^^xsd:string,
+        "man"^^xsd:string,
+        "masc"^^xsd:string,
+        "sterner sex"^^xsd:string ;
+    skos:prefLabel "male"^^xsd:string .
+

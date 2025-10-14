@@ -1,0 +1,165 @@
+{
+  "id": "6hfQXjrV",
+  "uuid_num": 9179651760183,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "bookplate"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "label affixed to a book to indicate ownership"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "ex libris"
+      },
+      {
+        "type": "string",
+        "value": "ex-libris"
+      },
+      {
+        "type": "string",
+        "value": "bookplates"
+      },
+      {
+        "type": "string",
+        "value": "book-plate"
+      },
+      {
+        "type": "string",
+        "value": "exlibris"
+      },
+      {
+        "type": "string",
+        "value": "b.l"
+      },
+      {
+        "type": "string",
+        "value": "bookplate"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q188456",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bookplate"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "6hfQXjrV"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15996320"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "QgFAuPKp",
+        "label": "impression"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "QgFAuPKp",
+        "label": "impression"
+      }
+    ],
+    "musical parameter": [],
+    "used by": [
+      {
+        "type": "item",
+        "value": "9QaFAsRL",
+        "label": "scholar (owner)"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3DRpRYCp",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 2 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290521.gif"
+        }
+      },
+      {
+        "id": "4mkChNN8",
+        "type": "item",
+        "label": "Couperin's Werke / Teil 1 / hrsg. von Johannes Brahms",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SUH-819290386.gif"
+        }
+      },
+      {
+        "id": "jn82yUTV",
+        "type": "item",
+        "label": "Thorough-Bass Made Easy",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20145655.gif"
+        }
+      },
+      {
+        "id": "aYjhXpRD",
+        "type": "item",
+        "label": "Exercises for the Voice. Consisting of Various Solfeggi, Collected from Manuscripts of the Late Veneziano Rauzzini, to which Are Added Specimens of Several Favorite Modern Songs",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284a.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "6hfQXjrV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "6hfQXjrV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "6hfQXjrV.csv"
+      }
+    ]
+  }
+}

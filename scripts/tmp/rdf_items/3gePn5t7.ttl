@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3gePn5t7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:hJoKsjEm,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:aEh85uRG ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:E6UKKuHC,
+        faamentity:Y7stG82h,
+        faamentity:kFuM9vEH ;
+    schema1:hasPart faamentity:YKrUgzQN ;
+    schema1:identifier "15992731"^^xsd:string,
+        "3gePn5t7"^^xsd:string,
+        "KCG-000750004"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000750004"^^schema1:url ;
+    skos:prefLabel "Rondo du Hussard de Felsheim : Varié pour le Cor avec accompagnement de Piano"^^xsd:string ;
+    wd:P217 "V-B-00439 (9)-HA"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"3gePn5t7-0263cae6-cf7a-4cf2-a590-256a424c8031"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"3gePn5t7-3b5f8fd8-1737-4c1a-967d-5c872b9abd53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"3gePn5t7-63abbede-5181-4b34-aa51-283c95a66780"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:E6UKKuHC a rdf:object .
+
+faamentity:Y7stG82h a rdf:object .
+
+faamentity:kFuM9vEH a rdf:object .
+

@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JUuCMm3W a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1825-09-30"^^xsd:string ;
+    schema1:birthPlace faamentity:77FYikdp ;
+    schema1:deathDate "1896-06-06"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian musician (1825–1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q679496>,
+        "0"^^xsd:string,
+        "JUuCMm3W"^^xsd:string ;
+    skos:prefLabel "Josef Dachs"^^xsd:string ;
+    wd:P108 faamentity:DRRhn6P7 ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:38013938 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20001275> ;
+    wd:P737 faamentity:SC9Tasad,
+        faamentity:jm4QpjVW ;
+    wd:P839 <https://imslp.org/wiki/Category:Dachs,_Josef> ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

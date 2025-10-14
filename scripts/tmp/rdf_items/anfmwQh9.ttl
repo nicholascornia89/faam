@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:anfmwQh9 a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1821-09-17"^^xsd:string ;
+    schema1:birthPlace faamentity:BP7yhFqi ;
+    schema1:deathDate "1881-06-22"^^xsd:string ;
+    schema1:deathPlace faamentity:Wzzvuu5T ;
+    schema1:description "French journalist and music publisher (1821–1881)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3270945>,
+        "16004117"^^xsd:string,
+        "anfmwQh9"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Leon Escudier"^^xsd:string,
+        "Léon Escudier"^^xsd:string ;
+    skos:prefLabel "Léon Escudier"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59236236 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Escudier,_Léon> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:MwhmFC4w .
+

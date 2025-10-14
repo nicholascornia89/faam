@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GQu52k9o a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:QyAptNqX,
+        faamentity:eSzqVmee,
+        faamentity:hJoKsjEm,
+        faamentity:kxAqh9HR,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD,
+        faamentity:nQn3aXpr ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:QHAoKPG8,
+        faamentity:T9uNf9Ax,
+        faamentity:WiBZjkbR,
+        faamentity:YsZjAKhZ ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:bkF58EUQ,
+        faamentity:n2KyzS34 ;
+    schema1:identifier "15992729"^^xsd:string,
+        "CBM-TORRMsA106"^^xsd:string,
+        "GQu52k9o"^^xsd:string ;
+    schema1:url "https://polovea.sebina.it/SebinaOpac/resource/a-modo-di-notturno-preludio-circa-1740-bgaluppiil-buranello-17061785/VEA01143339"^^schema1:url ;
+    skos:prefLabel "(Preludio) circa 1740"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.106"^^xsd:string ;
+    wd:P870 faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"GQu52k9o-0324d8cd-79b3-4631-bf65-4d32ad217efc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"GQu52k9o-30a24552-26e5-4834-94bc-09d30e5003c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"GQu52k9o-4f66ac62-488f-444a-bf7f-a017bac5444f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:bkF58EUQ a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

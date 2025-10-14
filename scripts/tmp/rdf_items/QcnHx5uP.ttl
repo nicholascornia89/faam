@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QcnHx5uP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1803-01-06"^^xsd:string ;
+    schema1:birthPlace faamentity:UvT8FR5N ;
+    schema1:deathDate "1888-01-05"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Austrian musician (1803–1888)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q572547>,
+        "15995909"^^xsd:string,
+        "QcnHx5uP"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:bXZtPe5G ;
+    skos:altLabel "Heinrich Herz"^^xsd:string,
+        "Henri Herz"^^xsd:string ;
+    skos:prefLabel "Henri Herz"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54319969 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30005973> ;
+    wd:P737 faamentity:SgJFWhdM,
+        faamentity:ZJUGoDLC,
+        faamentity:mPUAVYf2 ;
+    wd:P839 <https://imslp.org/wiki/Category:Herz,_Henri> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:KMRvA4zW,
+        faamentity:T6nAVeGM .
+

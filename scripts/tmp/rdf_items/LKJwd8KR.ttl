@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LKJwd8KR a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:jihjgQpH ;
+    schema1:description "oratorio composed by Joseph Haydn"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q163138>,
+        "16004081"^^xsd:string,
+        "LKJwd8KR"^^xsd:string ;
+    schema1:isBasedOn faamentity:RULihLxC,
+        faamentity:XDZabHUJ,
+        faamentity:ZnBrqQn5 ;
+    skos:altLabel "Die Schöpfung"^^xsd:string,
+        "The Creation"^^xsd:string,
+        "The Creation, H.XXI:2"^^xsd:string ;
+    skos:prefLabel "Die Schöpfung, Hob.XXI:2"^^xsd:string ;
+    wd:P214 viaf:184285900 ;
+    wd:P5202 faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:5vn5pemP ;
+    wd:P839 <https://imslp.org/wiki/Die_Schöpfung,_Hob.XXI:2_(Haydn,_Joseph)> .
+

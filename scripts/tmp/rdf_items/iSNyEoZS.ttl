@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iSNyEoZS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1651-01-09"^^xsd:string ;
+    schema1:birthPlace faamentity:MxnLw4ay ;
+    schema1:deathDate "1680-12-04"^^xsd:string ;
+    schema1:deathPlace faamentity:CgZzMq22 ;
+    schema1:description "Italian composer (1651-1680)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q492200>,
+        "0"^^xsd:string,
+        "iSNyEoZS"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:prefLabel "Petronio Franceschini"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79678506 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003809> ;
+    wd:P737 faamentity:42oEhvwr,
+        faamentity:QJcz28FB ;
+    wd:P839 <https://imslp.org/wiki/Category:Franceschini,_Petronio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7 .
+

@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ds7atesc a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "primary opera and ballet company of France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q283339>,
+        "15991031"^^xsd:string,
+        "ds7atesc"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "Académie Royale de Musique"^^xsd:string,
+        "Opéra"^^xsd:string,
+        "Opéra national de Paris"^^xsd:string,
+        "Paris Opera"^^xsd:string ;
+    skos:prefLabel "Paris Opera"^^xsd:string .
+

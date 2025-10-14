@@ -1,0 +1,121 @@
+{
+  "id": "Tn4rA5LC",
+  "uuid_num": 50383192573270,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "bar"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "time unit in rhythmic musical notation"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "measure"
+      },
+      {
+        "type": "string",
+        "value": "bar line"
+      },
+      {
+        "type": "string",
+        "value": "double bar"
+      },
+      {
+        "type": "string",
+        "value": "bar"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q3240892",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bar"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "Tn4rA5LC"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992122"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "M2g4cXkE",
+        "label": ""
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "XQ7Dcasr",
+        "label": "musical-structural concept"
+      },
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "R9hADWGS",
+        "label": "duration"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Tn4rA5LC.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Tn4rA5LC.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Tn4rA5LC.csv"
+      }
+    ]
+  }
+}

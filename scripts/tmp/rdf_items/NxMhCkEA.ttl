@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NxMhCkEA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:NRsZG792,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:PAqAtC7A,
+        faamentity:QHAoKPG8,
+        faamentity:Qw4zjHnS ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:25bLvjC3,
+        faamentity:GwzqZPkq,
+        faamentity:ZrRdbQvg ;
+    schema1:identifier "16002615"^^xsd:string,
+        "KCA-030904385611"^^xsd:string,
+        "NxMhCkEA"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15170141/N"^^schema1:url ;
+    skos:prefLabel "Le réveil du jour : valse chantée"^^xsd:string ;
+    wd:P217 "MM-TP-RAMEA-reveild-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"NxMhCkEA-25d082e2-8958-41bb-ac84-5a730ebf2994"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NxMhCkEA-6eecdff8-780a-4ecb-8618-76a362448c7c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NxMhCkEA-8610a33e-d36d-44b2-ae69-ecb7843600d5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:25bLvjC3 a rdf:object .
+
+faamentity:GwzqZPkq a rdf:object .
+
+faamentity:ZrRdbQvg a rdf:object .
+

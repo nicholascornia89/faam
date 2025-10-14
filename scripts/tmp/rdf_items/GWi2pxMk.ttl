@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GWi2pxMk a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "historic sovereign kingdom on the British Isles from the 9th century and up to 1707"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q230791>,
+        "16004394"^^xsd:string,
+        "GWi2pxMk"^^xsd:string ;
+    skos:altLabel "Kingdom of Scotland"^^xsd:string,
+        "Scotland"^^xsd:string,
+        "The Kingdom of Scotland"^^xsd:string ;
+    skos:prefLabel "Kingdom of Scotland"^^xsd:string .
+

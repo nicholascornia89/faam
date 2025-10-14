@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3Gyxa6gM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1734-09-05"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1794-07-22"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French composer, patron, writer and fermier général"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q932694>,
+        "15996013"^^xsd:string,
+        "3Gyxa6gM"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Benjamin de Laborde"^^xsd:string,
+        "Jean-Benjamin François de la Borde"^^xsd:string,
+        "Jean-Benjamin de La Borde"^^xsd:string ;
+    skos:prefLabel "Jean-Benjamin de La Borde"^^xsd:string ;
+    wd:P108 faamentity:RFNnzUS7 ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44320275 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30006171> ;
+    wd:P839 <https://imslp.org/wiki/Category:Laborde,_Jean-Benjamin_de> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:kKY7zLoa,
+        faamentity:kTo2uTWZ,
+        faamentity:mj3GuaPr .
+

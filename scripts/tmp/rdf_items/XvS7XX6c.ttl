@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XvS7XX6c a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public research university in London, England, United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q193196>,
+        "16004800"^^xsd:string,
+        "XvS7XX6c"^^xsd:string ;
+    schema1:location faamentity:8eLjuyxP,
+        faamentity:KmPGztnu ;
+    skos:altLabel "London University"^^xsd:string,
+        "London's Global University"^^xsd:string,
+        "U.C.L."^^xsd:string,
+        "UCL"^^xsd:string,
+        "Univ. College London"^^xsd:string,
+        "University College London"^^xsd:string,
+        "University College, London"^^xsd:string ;
+    skos:prefLabel "University College London"^^xsd:string .
+

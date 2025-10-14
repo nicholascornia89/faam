@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XA7QMkqk a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:MR3kLpuM,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:mkCY9LDD,
+        faamentity:oCWmrh75 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Zgsxtx6S ;
+    dcterms:provenance faamentity:Wdj3hQU8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MjskrVov,
+        faamentity:QwGYdnmk,
+        faamentity:WvqsGBqo ;
+    schema1:hasPart faamentity:89Si6XR8 ;
+    schema1:identifier "16003958"^^xsd:string,
+        "WML-768389"^^xsd:string,
+        "XA7QMkqk"^^xsd:string ;
+    schema1:url "https://collections.lib.utah.edu/ark:/87278/s6dc0z9n"^^schema1:url ;
+    skos:prefLabel "Symphony No. 3, Movement III"^^xsd:string ;
+    wd:P217 "uu_mckay_asc"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"XA7QMkqk-19778fe7-cbe1-4fbd-9086-178e3a519f27"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1898"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre .
+
+"XA7QMkqk-6edf0615-b778-4ad3-b087-894f5213595e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"XA7QMkqk-8259415f-8777-4b6d-bf53-93b70c0127a4"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "06-1979"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:MjskrVov a rdf:object .
+
+faamentity:QwGYdnmk a rdf:object .
+
+faamentity:WvqsGBqo a rdf:object .
+

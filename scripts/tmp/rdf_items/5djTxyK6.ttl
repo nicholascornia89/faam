@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5djTxyK6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:PNUCXvjA,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:PbUfaERk,
+        faamentity:YrgDTAnk ;
+    schema1:identifier "16002618"^^xsd:string,
+        "5djTxyK6"^^xsd:string,
+        "KCA-030904328777"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15072444/N"^^schema1:url ;
+    skos:prefLabel "Fée d'amour : mazurka: extraite du ballet divertissement en un acte"^^xsd:string ;
+    wd:P217 "MM-TP-WEYTS-feedamo-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"5djTxyK6-122820e4-c880-483a-8c36-004e8d91fb3e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"5djTxyK6-66d6ee7a-3ad1-404a-bfcb-3ec3300f4d6a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"5djTxyK6-77c0887f-6115-4f9c-be49-e9b115dbb3b9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:PbUfaERk a rdf:object .
+
+faamentity:YrgDTAnk a rdf:object .
+

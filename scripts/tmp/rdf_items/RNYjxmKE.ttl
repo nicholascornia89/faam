@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RNYjxmKE a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1805-04-08"^^xsd:string ;
+    schema1:birthPlace faamentity:CtWjWjv8 ;
+    schema1:deathDate "1889-08-08"^^xsd:string ;
+    schema1:deathPlace faamentity:VnsRap2q ;
+    schema1:description "(1805-1889)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q94692815>,
+        "15995980"^^xsd:string,
+        "RNYjxmKE"^^xsd:string ;
+    skos:altLabel "Václav Neukirchner"^^xsd:string,
+        "Wenzel Neukirchner"^^xsd:string ;
+    skos:prefLabel "Wenzel Neukirchner"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:49956577 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30075641> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:VbnzDANi .
+

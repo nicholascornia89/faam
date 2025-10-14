@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kHoYwJ3n a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1806-09-16"^^xsd:string ;
+    schema1:birthPlace faamentity:in25a85Z ;
+    schema1:deathDate "1872-08-03"^^xsd:string ;
+    schema1:deathPlace faamentity:mRsCycJu ;
+    schema1:description "German writer (1806-1872)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q18625353>,
+        "16004243"^^xsd:string,
+        "kHoYwJ3n"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Heinrich Ferdinand Mannstein"^^xsd:string,
+        "Heinrich Ferdinand Steinmann"^^xsd:string ;
+    skos:prefLabel "Heinrich Ferdinand Steinmann"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59856813 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41007519> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mannstein,_Heinrich_Ferdinand> ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:YrCfZ8vh,
+        faamentity:oJ9qmRVq .
+

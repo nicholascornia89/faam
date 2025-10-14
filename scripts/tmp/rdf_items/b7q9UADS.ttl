@@ -1,0 +1,172 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b7q9UADS a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:9tkKrhbM,
+        faamentity:E4rhHet3,
+        faamentity:EgkVbUEo,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eSzqVmee,
+        faamentity:ieqEGEHo,
+        faamentity:j3tnVzW5,
+        faamentity:jLreunkg,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz,
+        faamentity:HKyA3Qzz,
+        faamentity:crUkNjhF,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:j3tnVzW5,
+        faamentity:mhohuJYG,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    faamprop:sections """<h3>List of compositions</h3>
+<ul>
+<li> Missa, P.Benoit </li>
+<li> Messe Solenne, C.M. Weber</li>
+<li> Missa Op.92, F. Lachner</li>
+<li> Tantum Ergo, Haydn</li>
+<li> Tantum Ergo ou Genitori, François Riga</li>
+<li> Three Easy Litanies, Lodovico Martini</li>
+<li> Ave maris stella, P. Benoit</li>
+<li> O gloriosa virginum, P. Benoit</li>
+<li> Ecce Panis, Marina (?)</li>
+<li> Suscipe de Saint Jgnace, Felix Aerts</li>
+<li> Au Choeur de Jésus, Edmond Waucampt</li>
+<li> Jesu dulcis memoria, Fr. Riga</li>
+<li> Ave maris stella, Lodovico Martini</li>
+<li> Ave maris stella, I. Eykens</li>
+<li> Ave Maria, L. Husson</li>
+<li> Salve Regina, P. Benoit</li>
+<li> Ave Regina, P. Benoit</li>
+<li> Ave Maria, G.B. Pergolesi (?)</li>
+<li> Ave Maria, J. Faure</li>
+<li> Ave Maria, F. Everaerts</li>
+<li> Ave maris stella, F. Benoist</li>
+<li> Ave verum, Balthasar Florence</li>
+<li> O Salutaris Op.39 N.2, Adolphe F. Wouters</li>
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:DrGjSfwU,
+        faamentity:G5dNDMwk,
+        faamentity:Rn2iLGJr,
+        faamentity:WiBZjkbR,
+        faamentity:YJViDXyp,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT,
+        faamentity:kNneakGU ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4nFtWCPy,
+        faamentity:55N3ShUX,
+        faamentity:7QBwBhWa,
+        faamentity:Bbkf475N,
+        faamentity:C2HMXPaX,
+        faamentity:F3FTYzLJ,
+        faamentity:JHuMhXTJ,
+        faamentity:NETLpz9B,
+        faamentity:Ta5ni5cL,
+        faamentity:dzxKag6A,
+        faamentity:gnZXWv4y,
+        faamentity:iTcKvvWZ ;
+    schema1:hasPart faamentity:6LuPedqS,
+        faamentity:LpAUe2vb,
+        faamentity:RnHT6XXj,
+        faamentity:VzxPPD9B ;
+    schema1:identifier "16005596"^^xsd:string,
+        "KCA-030902683744"^^xsd:string,
+        "b7q9UADS"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13130665/N"^^schema1:url ;
+    skos:prefLabel "[Convoluut]"^^xsd:string ;
+    skosref:note """The Missa Sancta No. 2 in G major of Carl Maria von Weber is presented as "Messe solenne" in the the arrangement by Fr. Riga for three female voices, transposed to F major.
+
+The collection includes an "Ave Maria" by G.B. Pergolesi, published by Régnier-Canaux in Paris for solo voice and keyboard accompaniment. Misattribution is suspected."""^^rdf:HTML ;
+    wd:P217 "MM-TO-BENOI-werk23-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"b7q9UADS-532a6d37-2231-402d-b5ef-31241815c650"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-57363049-0990-41ff-9636-b94687f393ed"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-5c4d680e-ef0e-4169-b36e-695add031468"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-61033155-8956-4401-a53b-2510db845c7b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-813d0e25-b473-48b4-8b70-dabd1b83aa07"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-8c030b0d-771a-4955-8137-aea104ec3c62"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-9089959e-964c-4f0c-8dd5-ce47f09dd107"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-ad4ba1b7-7fea-4e03-bedc-c6d1d55afbb5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-b4c0d196-2f7c-4972-ad0a-a68b3edc3747"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"b7q9UADS-d8abfcb0-0aed-48be-88b5-0afbf08902e9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1856"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-ea90fd93-570d-4d23-a7e7-06c7671e485a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b7q9UADS-f67c5665-a430-4c7a-b184-34433484f8c3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:4nFtWCPy a rdf:object .
+
+faamentity:55N3ShUX a rdf:object .
+
+faamentity:7QBwBhWa a rdf:object .
+
+faamentity:Bbkf475N a rdf:object .
+
+faamentity:C2HMXPaX a rdf:object .
+
+faamentity:F3FTYzLJ a rdf:object .
+
+faamentity:JHuMhXTJ a rdf:object .
+
+faamentity:NETLpz9B a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:dzxKag6A a rdf:object .
+
+faamentity:gnZXWv4y a rdf:object .
+
+faamentity:iTcKvvWZ a rdf:object .
+

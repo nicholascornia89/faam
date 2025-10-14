@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7j5F7bbp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5VzqwoVR,
+        faamentity:NmUZYjP7,
+        faamentity:PXYCpRXf ;
+    schema1:hasPart faamentity:3E7PqLiY,
+        faamentity:3r4BmVYC,
+        faamentity:4ANJyJ6E,
+        faamentity:Ap6aFBd2,
+        faamentity:EKYkshGz,
+        faamentity:FELxTbej,
+        faamentity:JHg9MPVu,
+        faamentity:QrZt6tiH,
+        faamentity:S34Tqfw6,
+        faamentity:T4sv9BQU,
+        faamentity:VuSjJQzj,
+        faamentity:bxvFoyt2,
+        faamentity:c6PJKqJM,
+        faamentity:f2dE7bHv,
+        faamentity:fDw9JihK,
+        faamentity:hwgDMQXJ ;
+    schema1:identifier "16005160"^^xsd:string,
+        "7j5F7bbp"^^xsd:string,
+        "SML-22768"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910344333405216"^^schema1:url ;
+    skos:prefLabel "Early keyboard music; a collection of pieces written for the virginal, spinet, harpsichord, and clavichord. / Edited by Louis Oesterle."^^xsd:string ;
+    wd:P217 "M21 .O29Os"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"7j5F7bbp-3cd62f32-9938-4229-bf63-6f8e674f6a60"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1904"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"7j5F7bbp-7aa57c5e-5300-470b-bb61-0c29ed6fc1ae"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"7j5F7bbp-c241e833-bfa8-4b7f-a0b5-d4a88ef58579"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:5VzqwoVR a rdf:object .
+
+faamentity:NmUZYjP7 a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+

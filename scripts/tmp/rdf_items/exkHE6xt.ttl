@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:exkHE6xt a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1830-07-19"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1909-05-31"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French organist and music publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2871185>,
+        "16005224"^^xsd:string,
+        "exkHE6xt"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Auguste Durand"^^xsd:string,
+        "Auguste Massacrié-Durand"^^xsd:string,
+        "Marie-Auguste Massacrié-Durand"^^xsd:string ;
+    skos:prefLabel "Auguste Durand"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:106978472 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41000530> ;
+    wd:P839 <https://imslp.org/wiki/Category:Durand,_Auguste> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:MwhmFC4w,
+        faamentity:ZhptKYF3,
+        faamentity:me4GX7oo .
+

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jZ5Za9W2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1803-05-08"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1857-07-26"^^xsd:string ;
+    schema1:deathPlace faamentity:ZC3PyamC ;
+    schema1:description "French noble and politician (1803–1857)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3335954>,
+        "15995756"^^xsd:string,
+        "jZ5Za9W2"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Napoleon Joseph Ney"^^xsd:string,
+        "Napoléon Joseph Ney"^^xsd:string ;
+    skos:prefLabel "Napoléon Joseph Ney"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32110694 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Ney,_Joseph_Napoléon> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:7gohDEi3,
+        faamentity:Pzf95he6 .
+

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kzhBXzz4 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:7Vk5oKWH ;
+    schema1:description "motet attributed to Jacob Reiner"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124358672>,
+        "16002052"^^xsd:string,
+        "kzhBXzz4"^^xsd:string ;
+    skos:altLabel "Dum transisset sabbatum"^^xsd:string ;
+    skos:prefLabel "Dum transisset sabbatum"^^xsd:string ;
+    wd:P5202 faamentity:g4BVigYv ;
+    wd:P7937 faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW .
+

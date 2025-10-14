@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eRfp9gon a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public university in Giessen, Hesse, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q317053>,
+        "0"^^xsd:string,
+        "eRfp9gon"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a ;
+    skos:altLabel "Giessen University"^^xsd:string,
+        "Justus Liebig University Giessen"^^xsd:string,
+        "University of Gießen"^^xsd:string ;
+    skos:prefLabel "University of Giessen"^^xsd:string .
+

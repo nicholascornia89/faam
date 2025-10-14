@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PgtvMA6t a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7,
+        faamentity:PBdH8TpS ;
+    schema1:birthDate "1831-06-28"^^xsd:string ;
+    schema1:birthPlace faamentity:JZQLZDp9 ;
+    schema1:deathDate "1907-08-15"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "Hungarian violinist, composer, and teacher (1831–1907)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q159976>,
+        "0"^^xsd:string,
+        "PgtvMA6t"^^xsd:string ;
+    schema1:nationality faamentity:3U7ywGMJ ;
+    skos:altLabel "Joseph Georg Maria Joachim"^^xsd:string,
+        "József Joachim"^^xsd:string ;
+    skos:prefLabel "Joseph Joachim"^^xsd:string ;
+    wd:P108 faamentity:BWLbwuDF,
+        faamentity:KCuuJYaL ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59269863 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/114835> ;
+    wd:P839 <https://imslp.org/wiki/Category:Joachim,_Joseph> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:AxAVvEqV,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:nuEgp7qK .
+

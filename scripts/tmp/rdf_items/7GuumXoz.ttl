@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7GuumXoz a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and largest city of the province of Ontario, Canada"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q172>,
+        "12560319"^^xsd:string,
+        "7GuumXoz"^^xsd:string ;
+    schema1:location faamentity:cLTo9Vvg ;
+    skos:altLabel "City of Toronto"^^xsd:string,
+        "Hogtown"^^xsd:string,
+        "T-O"^^xsd:string,
+        "The 416"^^xsd:string,
+        "The Six"^^xsd:string,
+        "Toronto"^^xsd:string,
+        "Toronto, Canada"^^xsd:string,
+        "Toronto, ON"^^xsd:string,
+        "Toronto, Ontario"^^xsd:string ;
+    skos:prefLabel "Toronto"^^xsd:string ;
+    wd:P1566 gn:6167865 .
+

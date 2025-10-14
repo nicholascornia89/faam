@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jZ54gutD a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KhD9q6LS ;
+    schema1:birthDate "1804-05-20"^^xsd:string ;
+    schema1:birthPlace faamentity:8S4Aou9U,
+        faamentity:cPw73oYR ;
+    schema1:deathDate "1857-02-03"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK,
+        faamentity:ZpwbPoZj ;
+    schema1:description "Russian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q181885>,
+        "16002806"^^xsd:string,
+        "jZ54gutD"^^xsd:string ;
+    schema1:nationality faamentity:3iEGZFo6,
+        faamentity:DEbEnXwM ;
+    skos:altLabel "Michael Glinka"^^xsd:string,
+        "Mikhail Glinka"^^xsd:string,
+        "Mikhail Ivanovich Glinka"^^xsd:string ;
+    skos:prefLabel "Mikhail Glinka"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56796256 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/479437> ;
+    wd:P737 faamentity:BqciCWRq,
+        faamentity:Dp6ZykXE,
+        faamentity:FWUq3YE9,
+        faamentity:eCb8HyWC ;
+    wd:P839 <https://imslp.org/wiki/Category:Glinka,_Mikhail> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

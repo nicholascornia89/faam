@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hmE9p4Ba a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:EqtAuzbH,
+        faamentity:kxAqh9HR ;
+    faamprop:handwritten_annotation faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:TUdHPWU8,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:2uZm833M,
+        faamentity:QapAmARZ ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:Ta5ni5cL,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:KpDFWMKA ;
+    schema1:identifier "15992564"^^xsd:string,
+        "KCG-000745286"^^xsd:string,
+        "hmE9p4Ba"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000745286"^^schema1:url ;
+    skos:prefLabel "Symphonisch Gedicht : voor Flute en Orchestra"^^xsd:string ;
+    wd:P217 "A-1041"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD .
+
+schema1:contributor a rdf:predicate .
+
+"hmE9p4Ba-27aee592-b08e-4743-9782-0888e9cf4f68"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+"hmE9p4Ba-30bc622d-edb1-4ed6-94f6-18a4308aa6eb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"hmE9p4Ba-3c623c14-9ba8-4bd5-95af-ab48938410ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"hmE9p4Ba-ee8af5e1-afd3-4af2-afdc-00c4b8403916"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix imslp: <https://imslp.org/wiki/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NmUZYjP7 a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "American publisher of sheet music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3093066>,
+        "16004289"^^xsd:string,
+        "NmUZYjP7"^^xsd:string ;
+    schema1:nationality faamentity:fiWxEeqn ;
+    skos:altLabel "G. Schirmer Inc."^^xsd:string,
+        "G. Schirmer, Inc."^^xsd:string ;
+    skos:prefLabel "G. Schirmer Inc."^^xsd:string ;
+    wd:P214 viaf:123209136 ;
+    wd:P31 faamentity:HmGw8E8i ;
+    wd:P5504 <https://rism.online/institutions/30494> ;
+    wd:P839 imslp:Schirmer .
+

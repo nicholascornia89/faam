@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:X5Rv9Bh5 a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Hamburg State and University Library Carl von Ossietzky"^^xsd:string ;
+    schema1:description "scientific general library of the city-state of Hamburg"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2324644>,
+        "15992254"^^xsd:string,
+        "X5Rv9Bh5"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a,
+        faamentity:TrVTMFdZ ;
+    schema1:url "https://www.sub.uni-hamburg.de/en/service/english.html"^^schema1:url ;
+    skos:altLabel "Hamburg State and University Library"^^xsd:string,
+        "Hamburg State and University Library Carl von Ossietzky"^^xsd:string ;
+    skos:prefLabel "Hamburg State and University Library Carl von Ossietzky"^^xsd:string ;
+    wd:P1813 "SUH"^^xsd:string .
+

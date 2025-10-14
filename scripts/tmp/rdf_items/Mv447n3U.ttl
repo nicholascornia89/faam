@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Mv447n3U a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1885-06-28"^^xsd:string ;
+    schema1:birthPlace faamentity:AYShtw7v ;
+    schema1:deathDate "1936-05-14"^^xsd:string ;
+    schema1:description "Belgian conductor (1885-1936)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2489860>,
+        "16002353"^^xsd:string,
+        "Mv447n3U"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Henry George D'Hoedt"^^xsd:string,
+        "Henry Georges D'Hoedt"^^xsd:string,
+        "Henry-George d'Hoedt"^^xsd:string ;
+    skos:prefLabel "Henry-George d'Hoedt"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:77605354 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

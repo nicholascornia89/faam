@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3BQ3EUi9 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:JxQrznrh,
+        faamentity:dPpjet3b,
+        faamentity:exkHE6xt,
+        faamentity:myeBxemb ;
+    schema1:hasPart faamentity:EAHu7PDa ;
+    schema1:identifier "16005367"^^xsd:string,
+        "3BQ3EUi9"^^xsd:string,
+        "ORP-20143703p8"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Faust, Opéra en 5 Actes, de Ch. Gounod"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"3BQ3EUi9-17d981fa-967e-4284-9806-9a92032bca98"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"3BQ3EUi9-51b8c9d8-dfb2-4fec-a9fa-98b0fef28a5f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"3BQ3EUi9-853623cb-d5a4-4db2-8d8b-92d70cda0fb2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"3BQ3EUi9-aadb1512-b3bd-4865-b397-81971f72cc03"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"3BQ3EUi9-ef96f05d-164e-4688-ad75-a2b449207489"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:JxQrznrh a rdf:object .
+
+faamentity:dPpjet3b a rdf:object .
+
+faamentity:exkHE6xt a rdf:object .
+
+faamentity:myeBxemb a rdf:object .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6XBM6NoA a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:kkHrN3TP ;
+    schema1:identifier "16005126"^^xsd:string,
+        "6XBM6NoA"^^xsd:string ;
+    skos:prefLabel "Tibi laus, IOL 259"^^xsd:string ;
+    wd:P5202 faamentity:Y37RQzq9 ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Tibi_laus,_tibi_gloria,_LV_886_(Lassus,_Orlande_de)> .
+

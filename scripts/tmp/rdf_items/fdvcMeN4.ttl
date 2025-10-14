@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fdvcMeN4 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and most populous city of Estonia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1770>,
+        "0"^^xsd:string,
+        "fdvcMeN4"^^xsd:string ;
+    schema1:location <Q191> ;
+    skos:altLabel "Kolywan"^^xsd:string,
+        "Lindanäs"^^xsd:string,
+        "Lyndanisse"^^xsd:string,
+        "Reuel"^^xsd:string,
+        "Reval"^^xsd:string,
+        "Revel"^^xsd:string,
+        "Rewel"^^xsd:string,
+        "Tallinn, Estonia"^^xsd:string ;
+    skos:prefLabel "Tallinn"^^xsd:string ;
+    wd:P1566 gn:588409 .
+

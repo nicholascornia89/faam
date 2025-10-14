@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L9szjsBt a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "class of musical instrument which is played using a musical keyboard"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q52954>,
+        "15990853"^^xsd:string,
+        "L9szjsBt"^^xsd:string ;
+    skos:altLabel "clavier"^^xsd:string,
+        "keyboard instrument"^^xsd:string ;
+    skos:prefLabel "keyboard instrument"^^xsd:string ;
+    wd:P279 faamentity:E2Sb746q ;
+    wd:P31 faamentity:dSq7JTyF .
+

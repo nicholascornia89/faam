@@ -1,0 +1,46 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ryp9cbUE a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8tVhNjhQ ;
+    schema1:birthDate "1564-04"^^xsd:string ;
+    schema1:birthPlace faamentity:PVSh8RRs,
+        faamentity:Y6J8nUJ6 ;
+    schema1:deathDate "1616-04-23"^^xsd:string ;
+    schema1:deathPlace faamentity:PVSh8RRs ;
+    schema1:description "English playwright and poet (1564–1616)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q692>,
+        "16002539"^^xsd:string,
+        "Ryp9cbUE"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu,
+        faamentity:cR66R5HF ;
+    skos:altLabel "Bard of Avon"^^xsd:string,
+        "Swan of Avon"^^xsd:string,
+        "The Bard"^^xsd:string,
+        "The Bard of Avon"^^xsd:string,
+        "William Shakespeare"^^xsd:string ;
+    skos:prefLabel "William Shakespeare"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:96994048 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/381951> ;
+    wd:P737 <Q2054>,
+        <Q28975>,
+        <Q337082>,
+        <Q41523>,
+        <Q47160>,
+        <Q7198> ;
+    wd:P839 <https://imslp.org/wiki/Category:Shakespeare,_William> ;
+    schema:hasOccupation faamentity:BPsUV5WT,
+        faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio .
+

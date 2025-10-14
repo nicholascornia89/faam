@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bJmRDwy3 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:6iVvX3mY ;
+    schema1:description "composition for piano by Franz Liszt"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15091013>,
+        "16004308"^^xsd:string,
+        "bJmRDwy3"^^xsd:string ;
+    skos:altLabel "Transcendental Étude No. 12"^^xsd:string,
+        "Études d’exécution transcendante, S. 139: Étude No. 12,\"Chasse neige\""^^xsd:string ;
+    skos:prefLabel "Études d'exécution transcendante, S.139"^^xsd:string ;
+    wd:P214 viaf:178706646 ;
+    wd:P5202 faamentity:2vdPrW4J,
+        faamentity:Se7MShv3,
+        faamentity:Xqd8kuF3 ;
+    wd:P7937 faamentity:Fs2ZbaMQ,
+        faamentity:KdGKqPWR ;
+    wd:P839 <https://imslp.org/wiki/Études_d'exécution_transcendante,_S.139_(Liszt,_Franz)> .
+

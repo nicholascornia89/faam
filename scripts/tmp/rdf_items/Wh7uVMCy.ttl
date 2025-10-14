@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wh7uVMCy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:DT4vQExr,
+        faamentity:E4rhHet3,
+        faamentity:TK9UAG2p,
+        faamentity:UJ57Ew5y,
+        faamentity:amkJ6EBs,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:WiBZjkbR,
+        faamentity:YsZjAKhZ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8EpC6dQ6,
+        faamentity:LQND7DE7,
+        faamentity:ZBYUC5fa ;
+    schema1:hasPart faamentity:VPpfnfBz ;
+    schema1:identifier "16004127"^^xsd:string,
+        "KCA-030904862957"^^xsd:string,
+        "Wh7uVMCy"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6763535/N"^^schema1:url ;
+    skos:prefLabel "Notturno Op. 37, Nr. 1 : für Violine und Orchester"^^xsd:string ;
+    wd:P217 "MM-SV-CHOPI-noctu37-28"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"Wh7uVMCy-3d71cbb6-0f38-4352-b759-ce33af91097d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Wh7uVMCy-d0634779-5492-4813-8bb3-b85d259d5ed2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Wh7uVMCy-f3f543a1-ece4-4aa4-b8b8-98d1bacc9645"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+faamentity:8EpC6dQ6 a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:ZBYUC5fa a rdf:object .
+

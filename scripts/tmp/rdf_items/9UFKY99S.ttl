@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9UFKY99S a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei,
+        faamentity:PBdH8TpS ;
+    schema1:birthDate "1838-12-17"^^xsd:string ;
+    schema1:birthPlace faamentity:AkFJMLpt ;
+    schema1:deathDate "1897-03-11"^^xsd:string ;
+    schema1:deathPlace faamentity:bvQMRZej ;
+    schema1:description "Dutch composer (1838-1897)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2793621>,
+        "16002415"^^xsd:string,
+        "9UFKY99S"^^xsd:string ;
+    schema1:nationality faamentity:UjV2U7Sh,
+        faamentity:mV38LJ7u ;
+    skos:altLabel "Berthold Tours"^^xsd:string ;
+    skos:prefLabel "Berthold Tours"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69197108 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30081138> ;
+    wd:P737 faamentity:bsgJz3jr,
+        faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Tours,_Berthold> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

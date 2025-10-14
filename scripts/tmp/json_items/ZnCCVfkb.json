@@ -1,0 +1,157 @@
+{
+  "id": "ZnCCVfkb",
+  "uuid_num": 62116993571370,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "mordent"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical ornament, consisting of a single alternation with the note above or below"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "mordent"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q48811",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "mordent"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "ZnCCVfkb"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992165"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "93GDD9ND",
+        "label": "ornament"
+      },
+      {
+        "type": "item",
+        "value": "48ukXYmB",
+        "label": "articulation"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      },
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "R9hADWGS",
+        "label": "duration"
+      },
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "J4gd8QWV",
+        "type": "item",
+        "label": "18 ausgewählte Klavierstücke",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-TP74135.gif"
+        }
+      },
+      {
+        "id": "9wSCPxvz",
+        "type": "item",
+        "label": "15 dreistimmige Inventionen : für Violine, Viola (oder Violine II) und Violoncell mit Stricharten und Fingersatz versehen und als Unterrichtsmaterial für das Zusammenspiel",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000332135.gif"
+        }
+      },
+      {
+        "id": "jJED4shs",
+        "type": "item",
+        "label": "Sonate n° 51 : menuet en si ♭ [pour piano] / Domenico Scarlatti",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BNF-43257971z.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ZnCCVfkb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ZnCCVfkb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ZnCCVfkb.csv"
+      }
+    ]
+  }
+}

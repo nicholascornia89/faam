@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dwDLeLBe a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:kkHrN3TP ;
+    schema1:description "motet by Orlande Lassus"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124315956>,
+        "16002021"^^xsd:string,
+        "dwDLeLBe"^^xsd:string ;
+    skos:altLabel "Regina coeli"^^xsd:string,
+        "Regina coeli a 4"^^xsd:string ;
+    skos:prefLabel "Regina caeli laetare, LV 1079"^^xsd:string ;
+    wd:P5202 faamentity:HznvzWQP,
+        faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Regina_caeli_laetare,_LV_1079_(Lassus,_Orlande_de)> .
+

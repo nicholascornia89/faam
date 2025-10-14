@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iY78UHRF a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:3FiGxCBk,
+        faamentity:mNynReve ;
+    schema1:birthDate "1822-12-10"^^xsd:string ;
+    schema1:birthPlace faamentity:nSKgHevT ;
+    schema1:deathDate "1890-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Belgian-French composer and organist (1822–1890)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q50187>,
+        "16002417"^^xsd:string,
+        "iY78UHRF"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:Jj6yVN5E,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "Cesar Franck"^^xsd:string,
+        "Cesar-Auguste-Jean-Guillaume-Hubert Franck"^^xsd:string,
+        "César Auguste Jean Guillaume Hubert Franck"^^xsd:string,
+        "César Franck"^^xsd:string,
+        "César-Auguste-Jean-Guillaume-Hubert Franck"^^xsd:string ;
+    skos:prefLabel "César Franck"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66651702 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/70009> ;
+    wd:P737 faamentity:6vuSuwrv,
+        faamentity:C2HMXPaX,
+        faamentity:GrmBeLEJ,
+        faamentity:SgJFWhdM,
+        faamentity:nqNsEqzn ;
+    wd:P839 <https://imslp.org/wiki/Category:Franck,_César> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

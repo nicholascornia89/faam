@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Gq2W4p4 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1560-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:3jCVUiiD ;
+    schema1:deathDate "1627-05-02"^^xsd:string ;
+    schema1:deathPlace faamentity:2PxsChMm ;
+    schema1:description "Italian composer, teacher and Franciscan friar"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q555930>,
+        "16002746"^^xsd:string,
+        "6Gq2W4p4"^^xsd:string ;
+    schema1:nationality faamentity:fj46nffV ;
+    skos:altLabel "Lodovico Grossi"^^xsd:string,
+        "Lodovico Grossi da Viadana"^^xsd:string,
+        "Lodovico Viadana"^^xsd:string ;
+    skos:prefLabel "Lodovico Grossi da Viadana"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14959843 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:D2krz5vb ;
+    wd:P839 <https://imslp.org/wiki/Category:Viadana,_Lodovico_da> ;
+    schema:hasOccupation faamentity:me4GX7oo .
+

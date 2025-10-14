@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:n6U73ZoR a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital city of Lesser Poland Voivodeship in southern Poland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q31487>,
+        "95863"^^xsd:string,
+        "n6U73ZoR"^^xsd:string ;
+    schema1:location faamentity:CGf6bUWt ;
+    skos:altLabel "Cracovia"^^xsd:string,
+        "Cracovie"^^xsd:string,
+        "Cracow"^^xsd:string,
+        "Krakau"^^xsd:string,
+        "Krakiv"^^xsd:string,
+        "Krakkó"^^xsd:string,
+        "Krako"^^xsd:string,
+        "Krakov"^^xsd:string,
+        "Krakova"^^xsd:string,
+        "Krakow"^^xsd:string,
+        "Krakoy"^^xsd:string,
+        "Krakuv"^^xsd:string,
+        "Kraków"^^xsd:string,
+        "Kroke"^^xsd:string,
+        "Royal Capital City of Kraków"^^xsd:string,
+        "Royal City of Kraków"^^xsd:string ;
+    skos:prefLabel "Kraków"^^xsd:string ;
+    wd:P1566 gn:6690154 .
+

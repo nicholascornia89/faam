@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:neyfxrfu a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital city of Scotland, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q23436>,
+        "54853"^^xsd:string,
+        "neyfxrfu"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "Athens of the North"^^xsd:string,
+        "Auld Reekie"^^xsd:string,
+        "City of Edinburgh"^^xsd:string,
+        "Dùn Èideann"^^xsd:string,
+        "Edina"^^xsd:string,
+        "Edinburg"^^xsd:string,
+        "Edinburgh"^^xsd:string,
+        "Edinburgh, Scotland"^^xsd:string,
+        "Modern Athens"^^xsd:string ;
+    skos:prefLabel "Edinburgh"^^xsd:string ;
+    wd:P1566 gn:2650225 .
+

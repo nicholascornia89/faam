@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:k8bR5tuM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1864-11-13"^^xsd:string ;
+    schema1:birthPlace faamentity:nSKgHevT ;
+    schema1:deathDate "1934-12-14"^^xsd:string ;
+    schema1:deathPlace faamentity:NWerpCFb ;
+    schema1:description "librarian (1864-1934)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q70204061>,
+        "15996028"^^xsd:string,
+        "k8bR5tuM"^^xsd:string ;
+    skos:altLabel "Eugène Bacha"^^xsd:string ;
+    skos:prefLabel "Eugène Bacha"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66831697 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:avB62pGy .
+

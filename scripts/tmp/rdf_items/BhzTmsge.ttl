@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BhzTmsge a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ,
+        faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1832-01-28"^^xsd:string ;
+    schema1:birthPlace faamentity:iS4kQz4H ;
+    schema1:deathDate "1902-09-07"^^xsd:string ;
+    schema1:deathPlace faamentity:BbwDzW2q ;
+    schema1:description "German composer and conductor (1832–1902)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q819749>,
+        "16005011"^^xsd:string,
+        "BhzTmsge"^^xsd:string ;
+    schema1:nationality faamentity:WN5PAeAx ;
+    skos:altLabel "Franz Wüllner"^^xsd:string ;
+    skos:prefLabel "Franz Wüllner"^^xsd:string ;
+    wd:P108 faamentity:EYwyMZ7c,
+        faamentity:L8H9Ajyr ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71508953 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/144175> ;
+    wd:P737 faamentity:oPXgGhcD ;
+    wd:P839 <https://imslp.org/wiki/Category:Wüllner,_Franz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

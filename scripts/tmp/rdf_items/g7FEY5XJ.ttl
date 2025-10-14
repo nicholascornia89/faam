@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g7FEY5XJ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Tompkins County, New York, USA, enclosed by the town of the same name"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q217346>,
+        "121869"^^xsd:string,
+        "g7FEY5XJ"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "Ithaca"^^xsd:string,
+        "Ithaca (New York)"^^xsd:string,
+        "Ithaca, NY"^^xsd:string,
+        "Ithaca, New York"^^xsd:string,
+        "Ithica, New York"^^xsd:string ;
+    skos:prefLabel "Ithaca"^^xsd:string ;
+    wd:P1566 gn:5122432 .
+

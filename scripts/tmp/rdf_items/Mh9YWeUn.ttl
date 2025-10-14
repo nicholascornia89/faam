@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Mh9YWeUn a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "municipality in Antwerp, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q724238>,
+        "0"^^xsd:string,
+        "Mh9YWeUn"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3 ;
+    skos:altLabel "Edegem (Belgium)"^^xsd:string ;
+    skos:prefLabel "Edegem"^^xsd:string ;
+    wd:P1566 gn:2799008 .
+

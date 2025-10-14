@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5MMa69Kf a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7 ;
+    schema1:birthDate "1778-11-14"^^xsd:string ;
+    schema1:birthPlace faamentity:eKiujosP ;
+    schema1:deathDate "1837-10-17"^^xsd:string ;
+    schema1:deathPlace faamentity:XknFGbRv ;
+    schema1:description "Austrian composer and pianist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q151953>,
+        "15995913"^^xsd:string,
+        "5MMa69Kf"^^xsd:string ;
+    schema1:nationality faamentity:KWjNoJvm ;
+    skos:altLabel "J. N. Hummel"^^xsd:string,
+        "Jan Nepomuk Hummel"^^xsd:string,
+        "Johann Hummel"^^xsd:string,
+        "Johann Nepomuk Hummel"^^xsd:string ;
+    skos:prefLabel "Johann Nepomuk Hummel"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw,
+        faamentity:QE66HesX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44485364 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/107007> ;
+    wd:P737 faamentity:JffacEhS,
+        faamentity:LLpPqfa8,
+        faamentity:VQ9LnFAH,
+        faamentity:YwdYGCWW,
+        faamentity:fsb4VmMa,
+        faamentity:jihjgQpH ;
+    wd:P839 <https://imslp.org/wiki/Category:Hummel,_Johann_Nepomuk> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:AxAVvEqV,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

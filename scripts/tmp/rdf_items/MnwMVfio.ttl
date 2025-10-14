@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MnwMVfio a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1623-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:SHeA24rE ;
+    schema1:deathDate "1673-12-15"^^xsd:string ;
+    schema1:deathPlace faamentity:cR66R5HF ;
+    schema1:description "English aristocrat, prolific writer, and scientist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q242640>,
+        "15996165"^^xsd:string,
+        "MnwMVfio"^^xsd:string ;
+    schema1:nationality faamentity:cR66R5HF ;
+    skos:altLabel "Duchess of Newcastle Margaret Cavendish"^^xsd:string,
+        "Margaret Cavendish"^^xsd:string,
+        "Margaret Cavendish Newcastle"^^xsd:string,
+        "Margaret Cavendish, Duchess of Newcastle"^^xsd:string,
+        "Margaret Cavendish, Duchess of Newcastle-upon-Tyne"^^xsd:string,
+        "Margaret Duchess of Newcastle"^^xsd:string,
+        "Margaret Lucas"^^xsd:string ;
+    skos:prefLabel "Margaret Cavendish, Duchess of Newcastle-upon-Tyne"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:29597878 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Cavendish,_Margaret> ;
+    schema:hasOccupation faamentity:6pfzESag,
+        faamentity:NdvmaeTr,
+        faamentity:YrCfZ8vh,
+        faamentity:c7DJTAj9,
+        faamentity:efo9JT9K,
+        faamentity:fKBqCJio,
+        faamentity:nzNB9DtJ .
+

@@ -1,0 +1,31 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4cGZC6bC a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:description "composition by Giovanni Pierluigi da Palestrina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11894350>,
+        "16002000"^^xsd:string,
+        "4cGZC6bC"^^xsd:string ;
+    skos:altLabel "Stabat Mater"^^xsd:string ;
+    skos:prefLabel "Stabat Mater, IGP 90"^^xsd:string ;
+    wd:P2000 cpdl:Stabat_Mater_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P214 viaf:148152684042923430002 ;
+    wd:P5202 faamentity:52Wbu2Fo,
+        faamentity:DYgYnSpY,
+        faamentity:KBQKrrwD,
+        faamentity:gMpSya7p,
+        faamentity:jZ5Za9W2,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Stabat_Mater,_IGP_90_(Palestrina,_Giovanni_Pierluigi_da)> .
+

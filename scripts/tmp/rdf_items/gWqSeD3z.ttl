@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gWqSeD3z a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7 ;
+    schema1:birthDate "1786-11-18"^^xsd:string ;
+    schema1:birthPlace faamentity:5E9hgnEC,
+        faamentity:6msS3oug ;
+    schema1:deathDate "1826-06-05"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r ;
+    schema1:description "German Romantic composer (1786–1826)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q154812>,
+        "15995949"^^xsd:string,
+        "gWqSeD3z"^^xsd:string ;
+    schema1:nationality faamentity:5ACxU9Sm ;
+    skos:altLabel "Carl Maria Friedrich Ernst von Weber"^^xsd:string,
+        "Carl Maria von Weber"^^xsd:string,
+        "Karl Maria von Weber"^^xsd:string ;
+    skos:prefLabel "Carl Maria von Weber"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw,
+        faamentity:QE66HesX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14959938 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/117485> ;
+    wd:P737 faamentity:WFTMnokN ;
+    wd:P839 <https://imslp.org/wiki/Category:Weber,_Carl_Maria_von> ;
+    schema:hasOccupation faamentity:4rgowLtK,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:LdnPvsKv,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

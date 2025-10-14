@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9xWvcn5P a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1542-12-08"^^xsd:string ;
+    schema1:birthPlace faamentity:NgZwrdXu ;
+    schema1:deathDate "1587-02-08"^^xsd:string ;
+    schema1:deathPlace faamentity:7dEVzDRc,
+        faamentity:TVjiPeUB ;
+    schema1:description "Queen of Scotland from 1542 to 1567 (1542–1587)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q131412>,
+        "16004279"^^xsd:string,
+        "9xWvcn5P"^^xsd:string ;
+    schema1:nationality faamentity:GWi2pxMk,
+        faamentity:KmPGztnu ;
+    skos:altLabel "Alys Stuart"^^xsd:string,
+        "Mary"^^xsd:string,
+        "Mary Stewart"^^xsd:string,
+        "Mary Stewart, Queen of Scots"^^xsd:string,
+        "Mary Stuart"^^xsd:string,
+        "Mary, Queen of Scotland"^^xsd:string,
+        "Mary, Queen of Scots"^^xsd:string,
+        "Queen Mary"^^xsd:string,
+        "Queen of Scots Mary"^^xsd:string ;
+    skos:prefLabel "Mary Stuart, Queen of Scots"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:104722318 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/383962> ;
+    wd:P737 faamentity:fnwvXE54 ;
+    wd:P839 <https://imslp.org/wiki/Category:Stuart_(Queen_of_Scots),_Mary> ;
+    schema:hasOccupation faamentity:7gohDEi3,
+        faamentity:J7Jn2tJp,
+        faamentity:Lk3r3s4L,
+        faamentity:QpFirYM2,
+        faamentity:VXdETnhb .
+

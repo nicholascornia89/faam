@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HohjWQAt a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:identifier "15992108"^^xsd:string,
+        "HohjWQAt"^^xsd:string ;
+    skos:prefLabel "Instrument Cue"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:M87Wsvhe ;
+    wd:P31 faamentity:fxtj72S3 .
+

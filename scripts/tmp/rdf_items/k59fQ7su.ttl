@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:k59fQ7su a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "one or more instruments that improvise an accompaniment from a written bass line, typical in baroque music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q114237252>,
+        "15990854"^^xsd:string,
+        "k59fQ7su"^^xsd:string ;
+    skos:altLabel "Generalbass"^^xsd:string,
+        "basso continuo"^^xsd:string,
+        "continuo"^^xsd:string,
+        "continuo group"^^xsd:string,
+        "continuo performer"^^xsd:string,
+        "thoroughbass"^^xsd:string ;
+    skos:prefLabel "continuo group"^^xsd:string ;
+    wd:P279 faamentity:kiYCQnL4 ;
+    wd:P31 faamentity:EXxiFmBU .
+

@@ -1,0 +1,114 @@
+{
+  "id": "PaLvdYFT",
+  "uuid_num": 42161719618090,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "La lettre"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "",
+        "base_url": "http://wwww.wikidata.org/entity/"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_work"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "PaLvdYFT"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002578"
+      }
+    ]
+  },
+  "statements": {
+    "IMSLP ID": [
+      {
+        "type": "externalid",
+        "value": "La lettre (Massenet, Jules)",
+        "base_url": "https://imslp.org/wiki/",
+        "label": "La lettre (Massenet, Jules)"
+      }
+    ],
+    "VIAF ID": [],
+    "CPDL ID": [],
+    "form of creative work": [
+      {
+        "type": "item",
+        "value": "nhyHiCdi",
+        "label": "song cycle"
+      }
+    ],
+    "creator": [
+      {
+        "type": "item",
+        "value": "5PuKvYa3",
+        "label": "Jules Massenet"
+      }
+    ],
+    "adapted by": [],
+    "based on": []
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "kHPs78Z3",
+        "type": "item",
+        "label": "Les lettres",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902498960.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "PaLvdYFT.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "PaLvdYFT.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "PaLvdYFT.csv"
+      }
+    ]
+  }
+}

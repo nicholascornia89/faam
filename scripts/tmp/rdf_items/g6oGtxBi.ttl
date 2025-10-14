@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g6oGtxBi a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Bt83smaN ;
+    schema1:birthDate "1925-10-24"^^xsd:string ;
+    schema1:birthPlace faamentity:523WyjKE,
+        faamentity:nBvQXgEp ;
+    schema1:deathDate "2003-05-27"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer (1925–2003)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q221450>,
+        "15996163"^^xsd:string,
+        "g6oGtxBi"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD,
+        faamentity:fj46nffV ;
+    skos:altLabel "Luciano Berio"^^xsd:string ;
+    skos:prefLabel "Luciano Berio"^^xsd:string ;
+    wd:P108 faamentity:89jLoa5o,
+        faamentity:LL5spm52,
+        faamentity:fbNjgZH4 ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:110843905 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30113905> ;
+    wd:P737 faamentity:kZu2nCfq ;
+    wd:P839 <https://imslp.org/wiki/Category:Berio,_Luciano> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:aB6ga3Wq,
+        faamentity:bSHypyYG,
+        faamentity:bX2aWAhB .
+

@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:83TCj66i a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1904-03-21"^^xsd:string ;
+    schema1:birthPlace faamentity:aqJiouEX ;
+    schema1:deathDate "1998-02-16"^^xsd:string ;
+    schema1:description "Austrian musician, organ builder and pioneer of early music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15454262>,
+        "0"^^xsd:string,
+        "83TCj66i"^^xsd:string ;
+    schema1:nationality faamentity:KWjNoJvm ;
+    skos:prefLabel "Josef Mertin"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:30128963 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:2pCqJqh6,
+        faamentity:383CM2RQ,
+        faamentity:GsCdFckm,
+        faamentity:NtfUK4LJ,
+        faamentity:bse8XyJQ ;
+    schema:hasOccupation faamentity:8tGGAfvG,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3 .
+

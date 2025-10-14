@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VZ8JKXfY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1843-06-19"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1917-09-08"^^xsd:string ;
+    schema1:deathPlace faamentity:R5Z3mHWk ;
+    schema1:description "French composer (1843–1917)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1065318>,
+        "15996086"^^xsd:string,
+        "VZ8JKXfY"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Charles-Edouard Lefebvre"^^xsd:string,
+        "Charles-Édouard Lefebvre"^^xsd:string ;
+    skos:prefLabel "Charles-Édouard Lefebvre"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69123822 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30024376> ;
+    wd:P737 faamentity:2FcSBEuK,
+        faamentity:myeBxemb ;
+    wd:P839 <https://imslp.org/wiki/Category:Lefebvre,_Charles> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:XWcaJQty .
+

@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KW3RZcDp a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Belgian school of music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2061988>,
+        "16002637"^^xsd:string,
+        "KW3RZcDp"^^xsd:string ;
+    schema1:location faamentity:AYShtw7v,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "Ghent Conservatory"^^xsd:string,
+        "Royal Conservatory of Ghent"^^xsd:string,
+        "University College Ghent, Faculty of Music"^^xsd:string ;
+    skos:prefLabel "Royal Conservatory of Ghent"^^xsd:string .
+

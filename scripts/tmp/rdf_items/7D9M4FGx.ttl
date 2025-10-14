@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7D9M4FGx a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "opera composer (1634-1710)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3713043>,
+        "0"^^xsd:string,
+        "7D9M4FGx"^^xsd:string ;
+    skos:altLabel "Giovanni Domenico Freschi"^^xsd:string ;
+    skos:prefLabel "Domenico Freschi"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:17293614 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003810> ;
+    wd:P839 <https://imslp.org/wiki/Category:Freschi,_Domenico> .
+

@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KA5SjCqP a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:L7UbY6cm ;
+    schema1:hasPart faamentity:9DYXmAtP ;
+    schema1:identifier "15992637"^^xsd:string,
+        "KA5SjCqP"^^xsd:string,
+        "KCG-000352838"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000352838"^^schema1:url ;
+    skos:prefLabel "1er Concertino : pour la contre basse"^^xsd:string ;
+    wd:P217 "II1362"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"KA5SjCqP-6a01dd51-bd2c-47e0-bd4a-a787b19cdd80"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"KA5SjCqP-aa24d73a-00a3-4f1f-bf2a-496e568e6a0b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:L7UbY6cm a rdf:object .
+

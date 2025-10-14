@@ -1,0 +1,132 @@
+{
+  "id": "2bp95akZ",
+  "uuid_num": 1159535147818,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "portamento"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "pitch sliding from one note to another"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "portamento"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q263934",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "portamento"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "2bp95akZ"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002623"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "UJ57Ew5y",
+        "label": "musical phrasing"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      },
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "4GaPWMoJ",
+        "type": "item",
+        "label": "Lied van Reinilde: voor soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902741211.gif"
+        }
+      },
+      {
+        "id": "QcVdBfZF",
+        "type": "item",
+        "label": "Princesse d'Auberge: lied de Reinilde: pour mezzo-soprano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902269767.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2bp95akZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2bp95akZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2bp95akZ.csv"
+      }
+    ]
+  }
+}

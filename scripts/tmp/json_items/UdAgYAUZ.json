@@ -1,0 +1,127 @@
+{
+  "id": "UdAgYAUZ",
+  "uuid_num": 52032930724522,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "piano"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "music dynamic"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "piano"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2707020",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "piano"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "UdAgYAUZ"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992195"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "HKyA3Qzz",
+        "label": "dynamic"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "7on5FraR",
+        "type": "item",
+        "label": "Der Golem: Musikdrama in drei Akten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901706215.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UdAgYAUZ.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UdAgYAUZ.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UdAgYAUZ.csv"
+      }
+    ]
+  }
+}

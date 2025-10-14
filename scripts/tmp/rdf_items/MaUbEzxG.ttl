@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MaUbEzxG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1764-00-00"^^xsd:string,
+        "1764-01-13"^^xsd:string,
+        "1769-01-13"^^xsd:string ;
+    schema1:birthPlace faamentity:kbnwViaQ ;
+    schema1:deathDate "1825-00-00"^^xsd:string,
+        "1825-04-18"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "Moravian piano teach and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4255225>,
+        "0"^^xsd:string,
+        "MaUbEzxG"^^xsd:string ;
+    skos:altLabel "Franz Seraphin Lauska"^^xsd:string ;
+    skos:prefLabel "Franz Lauska"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32262992 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/76304> ;
+    wd:P839 <https://imslp.org/wiki/Category:Lauska,_Franz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

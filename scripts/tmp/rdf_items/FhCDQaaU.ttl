@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FhCDQaaU a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:DawBtzdU,
+        faamentity:Jx8FMpyt,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:QeqFpJLJ,
+        faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:iZiYk6VC,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:SZPVNBar,
+        faamentity:dUpngPy6 ;
+    schema1:hasPart faamentity:6xnXe6rd ;
+    schema1:identifier "16004129"^^xsd:string,
+        "FhCDQaaU"^^xsd:string,
+        "KCA-030904127930"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14808159/N"^^schema1:url ;
+    skos:prefLabel "Sonate : n° 7 f moll: für Orgel, op. 127"^^xsd:string ;
+    skosref:related faamentity:TLaaNgbw ;
+    wd:P217 "MM-TO-RHEIN-sonat7-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"FhCDQaaU-6fc044b8-1600-4640-b48f-bd63d60a481c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"FhCDQaaU-951a42ff-e276-4800-a491-369453d73ffa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"FhCDQaaU-dd88b18d-3dbc-48ed-9690-9ef6ec53bd28"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:SZPVNBar a rdf:object .
+
+faamentity:dUpngPy6 a rdf:object .
+

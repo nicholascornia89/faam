@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PHTHD3zR a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:6iVvX3mY ;
+    schema1:description "composition by Franz Liszt"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16155289>,
+        "16004219"^^xsd:string,
+        "PHTHD3zR"^^xsd:string ;
+    skos:altLabel "Hungarian Rhapsody No. 10"^^xsd:string ;
+    skos:prefLabel "Hungarian Rhapsody No.10, S.244/10"^^xsd:string ;
+    wd:P5202 faamentity:Xqd8kuF3 ;
+    wd:P7937 faamentity:DsBHiL3K,
+        faamentity:fCPKhUxw ;
+    wd:P839 <https://imslp.org/wiki/Hungarian_Rhapsody_No.10,_S.244/10_(Liszt,_Franz)> .
+

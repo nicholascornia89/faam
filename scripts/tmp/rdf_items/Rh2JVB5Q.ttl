@@ -1,0 +1,77 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rh2JVB5Q a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:amkJ6EBs,
+        faamentity:eNyFmkHC,
+        faamentity:iyfjpyT2,
+        faamentity:mMrUGL4h ;
+    faamprop:handwritten_annotation faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:TRs5bffo,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:TZfafBBe,
+        faamentity:ZH9Tn89c,
+        faamentity:iV4jFpzQ ;
+    schema1:hasPart faamentity:72jp5dwD ;
+    schema1:identifier "15992619"^^xsd:string,
+        "KCG-000333153"^^xsd:string,
+        "Rh2JVB5Q"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333153"^^schema1:url ;
+    skos:prefLabel "Concerto : pour le Violon avec Accompagnement d'Orchestre ou de Piano : Op. 61."^^xsd:string ;
+    wd:P217 "II323(1)"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"Rh2JVB5Q-0d293045-5305-4f90-8f63-7aa3a687fa22"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"Rh2JVB5Q-45ff8955-7dc5-4fe9-b514-85b31267f091"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "27-01-1839"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:AYShtw7v .
+
+"Rh2JVB5Q-578a599d-cb7b-4e17-a463-c43b845402b8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"Rh2JVB5Q-6e8a2795-63cd-4e31-899f-89322cd2080a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Rh2JVB5Q-a20c019e-c20e-4607-9c47-bcbea9d3814c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:ZH9Tn89c a rdf:object .
+
+faamentity:iV4jFpzQ a rdf:object .
+

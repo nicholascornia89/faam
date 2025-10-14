@@ -1,0 +1,132 @@
+{
+  "id": "BUfQmokL",
+  "uuid_num": 18508288017258,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "energico"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical expressive mark"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "energico"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1939445",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "energico"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "BUfQmokL"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002508"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "D6RjeTWv",
+        "label": "musical expression"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      },
+      {
+        "type": "item",
+        "value": "4AMPVsN8",
+        "label": "timbre"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mDndmG7f",
+        "type": "item",
+        "label": "Sonate F dur : für Pianoforte und Horn, op.17",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904770226.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "BUfQmokL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "BUfQmokL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "BUfQmokL.csv"
+      }
+    ]
+  }
+}

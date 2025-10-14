@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9A7T4C3U a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1801-01-01"^^xsd:string ;
+    schema1:deathDate "1856-01-01"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55901814>,
+        "15996122"^^xsd:string,
+        "9A7T4C3U"^^xsd:string ;
+    skos:prefLabel "Franz Xaver Gleichauf"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:74609029 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30024163> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gleichauf,_Franz_Xaver> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:GSNsghRd,
+        faamentity:bX2aWAhB,
+        faamentity:c5ZKjhf7 .
+

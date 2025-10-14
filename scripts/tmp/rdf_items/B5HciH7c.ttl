@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B5HciH7c a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:8N6k5W5i,
+        faamentity:JXYgRRuc ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:TUdHPWU8 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Jz7WgRXa,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:nHfR4BAi ;
+    schema1:hasPart faamentity:P2qUeis2 ;
+    schema1:identifier "16002807"^^xsd:string,
+        "B5HciH7c"^^xsd:string,
+        "KCA-030901762242"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7045799/N"^^schema1:url ;
+    skos:prefLabel "Messe Papae Marcelli: à 6 voix"^^xsd:string ;
+    wd:P217 "MM-KA-OLVKA-archief-1507"^^xsd:string ;
+    wd:P870 faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"B5HciH7c-350586f3-2d81-4b46-ac00-ac8f437d30c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"B5HciH7c-bc02eaf0-e362-4233-a8b8-b2e53784ff33"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:nHfR4BAi a rdf:object .
+

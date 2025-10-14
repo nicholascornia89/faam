@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A43szu5o a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1798-10-28"^^xsd:string ;
+    schema1:birthPlace faamentity:96rVh94r ;
+    schema1:deathDate "1876-09-30"^^xsd:string ;
+    schema1:deathPlace faamentity:K2mb7XnM ;
+    schema1:description "French composer (1798-1876)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1337541>,
+        "15995933"^^xsd:string,
+        "A43szu5o"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Henri Bertini"^^xsd:string,
+        "Henri Jérôme Bertini"^^xsd:string ;
+    skos:prefLabel "Henri Bertini"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12570065 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/15139> ;
+    wd:P839 <https://imslp.org/wiki/Category:Bertini,_Henri> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

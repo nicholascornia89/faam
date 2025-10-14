@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2FcSBEuK a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1811-08-05"^^xsd:string ;
+    schema1:birthPlace faamentity:M5RyJnDy ;
+    schema1:deathDate "1896-02-12"^^xsd:string ;
+    schema1:deathPlace faamentity:jJQm7sXr ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q297717>,
+        "15995981"^^xsd:string,
+        "2FcSBEuK"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Ambroise Thomas"^^xsd:string,
+        "Charles Louis Ambroise Thomas"^^xsd:string ;
+    skos:prefLabel "Ambroise Thomas"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5119173 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/135452> ;
+    wd:P737 faamentity:4FJLnXUb,
+        faamentity:CCXXrNqc,
+        faamentity:FGEPRAzo,
+        faamentity:GrmBeLEJ,
+        faamentity:PbwqrnC5,
+        faamentity:fBAyTHso,
+        faamentity:i9KoMEB7 ;
+    wd:P839 <https://imslp.org/wiki/Category:Thomas,_Ambroise> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:XWcaJQty .
+

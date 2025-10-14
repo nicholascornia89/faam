@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Yr3wwkgS a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public research university in Heidelberg, Baden-Württemberg, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q151510>,
+        "0"^^xsd:string,
+        "Yr3wwkgS"^^xsd:string ;
+    schema1:location faamentity:4SoPSqjV,
+        faamentity:CTNhzr7a,
+        faamentity:bcTRsSar ;
+    skos:altLabel "Ruprecht-Karls-Universität Heidelberg"^^xsd:string,
+        "University of Heidelberg"^^xsd:string ;
+    skos:prefLabel "Heidelberg University"^^xsd:string .
+

@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Hefc4dEz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:93GDD9ND,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:TRs5bffo,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GSqAPxLN,
+        faamentity:n2KyzS34 ;
+    schema1:hasPart faamentity:njMhPb36 ;
+    schema1:identifier "15992721"^^xsd:string,
+        "CBM-TORRMsA15"^^xsd:string,
+        "Hefc4dEz"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "24. | Concerto | a Viol. conc., 2 Viol., Viola, Violoncello e Basso | del Sig. Vivaldi."^^xsd:string ;
+    skosref:note "Performance practice comments in German."^^rdf:HTML ;
+    wd:P217 "TORR. Ms.A.15"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:k59fQ7su .
+
+schema1:contributor a rdf:predicate .
+
+"Hefc4dEz-0c0cfe9a-fb05-4fc3-a6e8-f998b764d81a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Hefc4dEz-f7caff69-7025-4e42-850c-6c0cb957e1e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:CgZzMq22 .
+
+faamentity:GSqAPxLN a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

@@ -1,0 +1,69 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YhJ7ctQm a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:atGzytDR,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:HKyA3Qzz,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:j3tnVzW5 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:KdGKqPWR,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2Cu75SXC,
+        faamentity:DDH7fEFM,
+        faamentity:TGoAww9C ;
+    schema1:identifier "15992705"^^xsd:string,
+        "KCA-030904518351"^^xsd:string,
+        "YhJ7ctQm"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6738637/N"^^schema1:url ;
+    skos:prefLabel "Impromptu"^^xsd:string ;
+    wd:P217 "MM-TP-MORTE-impro-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"YhJ7ctQm-30f0c241-543a-4715-a1e5-cc65d1e30c44"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"YhJ7ctQm-b24c8da0-489a-43cc-a519-8d497d83c704"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1922"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:Vg75jk9M .
+
+"YhJ7ctQm-b5f65a4a-be8f-439a-9c26-18b3ad8d724d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "24-07-1918"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:2Cu75SXC a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:TGoAww9C a rdf:object .
+

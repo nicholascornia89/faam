@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XtjRJ6FC a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eSzqVmee ;
+    faamprop:handwritten_annotation faamentity:2mb4qe86,
+        faamentity:2qoBxv5j,
+        faamentity:7qCCArxX,
+        faamentity:AB4X4hGP ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6bssUuuV,
+        faamentity:Hp9W6GY6,
+        faamentity:TvgVbkP2 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6UrJ5gwo,
+        faamentity:DDH7fEFM,
+        faamentity:MvfpvWJh ;
+    schema1:hasPart faamentity:SogEdPnX ;
+    schema1:identifier "15992446"^^xsd:string,
+        "KCA-030902357885"^^xsd:string,
+        "XtjRJ6FC"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12939634/N"^^schema1:url ;
+    skos:prefLabel "Sérénade de Milenka: pour ténor: (ton original)"^^xsd:string ;
+    skosref:related faamentity:MBjKg4X7,
+        faamentity:MvfpvWJh ;
+    wd:P217 "MM-ZL-BLOCK-serenad-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"XtjRJ6FC-4deb5c2d-91d6-4fd9-863d-59f0c944624b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"XtjRJ6FC-70b515de-8938-4858-9acb-5990732696cd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"XtjRJ6FC-b47a3ae5-0212-4f5f-b075-7cc65fb624b5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:6UrJ5gwo a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:MvfpvWJh a rdf:object .
+

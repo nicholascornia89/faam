@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b3G9FpyA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:DQwB3wUJ,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:92ZT6J2a,
+        faamentity:DDH7fEFM,
+        faamentity:Ei655ntR ;
+    schema1:identifier "15992374"^^xsd:string,
+        "KCA-030901514759"^^xsd:string,
+        "b3G9FpyA"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6712527/N"^^schema1:url ;
+    skos:prefLabel "Fantasia: piano-forte"^^xsd:string ;
+    wd:P217 "MM-TP-CANDA-fanta-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"b3G9FpyA-0f3d3d57-9d15-4335-aa58-79bd40db21b9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+"b3G9FpyA-70e09f21-ce48-46b9-9f3c-22a4184a6c0b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b3G9FpyA-9c304340-acc6-4132-b617-30ed3dacf93d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:92ZT6J2a a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ei655ntR a rdf:object .
+

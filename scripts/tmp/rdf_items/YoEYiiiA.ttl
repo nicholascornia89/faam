@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YoEYiiiA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:JwqBvu9Z,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:ieqEGEHo,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:CGy68nTi,
+        faamentity:X3yMqYb6,
+        faamentity:fRcDrybo ;
+    schema1:identifier "16005674"^^xsd:string,
+        "DPF-202502023"^^xsd:string,
+        "YoEYiiiA"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Luades ac gratiae. Motettum in hon. Smi Sacramenti, ad duas voces aequales comitante organo"^^xsd:string ;
+    wd:P217 "not available"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"YoEYiiiA-08b167f2-89a1-4d2d-b8a8-fb9a2ab51fc5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"YoEYiiiA-2365815a-3758-4ff7-ba09-f2ba7b33f204"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"YoEYiiiA-4546bf4b-c610-472a-97fa-79fcc212f1ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"YoEYiiiA-c642e79a-0179-4d2d-8e79-4196cead7378"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+
+faamentity:fRcDrybo a rdf:object .
+

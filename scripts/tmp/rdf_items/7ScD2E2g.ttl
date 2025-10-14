@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7ScD2E2g a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:UMravioT,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:3SXZtwXb,
+        faamentity:LmDaVvmF ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Y7stG82h,
+        faamentity:bNbLTVDn ;
+    schema1:hasPart faamentity:bCbsaKsW ;
+    schema1:identifier "15992540"^^xsd:string,
+        "7ScD2E2g"^^xsd:string,
+        "KCA-030901706033"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6757352/N"^^schema1:url ;
+    skos:prefLabel "Le châlet : opéra-comique en un acte"^^xsd:string ;
+    wd:P217 "UM-ZP-ADAM-chalet-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"7ScD2E2g-140f810a-63cd-4762-9299-d63764f5ba86"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"7ScD2E2g-2f6dba41-e0aa-480d-85e6-0c70a8664895"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"7ScD2E2g-372cf129-6449-4d07-84df-b228f7df4e9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Y7stG82h a rdf:object .
+
+faamentity:bNbLTVDn a rdf:object .
+

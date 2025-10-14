@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fApHxzGr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1487-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:XeLw3PHa ;
+    schema1:deathDate "1574-00-00"^^xsd:string ;
+    schema1:deathPlace faamentity:YaKLJ7tE ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q24942922>,
+        "0"^^xsd:string,
+        "fApHxzGr"^^xsd:string ;
+    schema1:nationality faamentity:FLkzgv4J,
+        faamentity:fUJqdffy ;
+    skos:prefLabel "Pedro Fernández de Castilleja"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:169850925,
+        viaf:63653350 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:bX2aWAhB,
+        faamentity:fKBqCJio .
+

@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D8BY5mjV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1813-05-15"^^xsd:string ;
+    schema1:birthPlace faamentity:ChYvViUD ;
+    schema1:deathDate "1888-01-14"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Classical pianist and composer (1813–1888)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q710199>,
+        "16005269"^^xsd:string,
+        "D8BY5mjV"^^xsd:string ;
+    schema1:nationality faamentity:3U7ywGMJ,
+        faamentity:BJqUa5Kf ;
+    skos:altLabel "Stephen Heller"^^xsd:string ;
+    skos:prefLabel "Stephen Heller"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5121385 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/69272> ;
+    wd:P737 faamentity:Jk8XEGH5,
+        faamentity:jm4QpjVW ;
+    wd:P839 <https://imslp.org/wiki/Category:Heller,_Stephen> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QBx3kSJW,
+        faamentity:T6nAVeGM .
+

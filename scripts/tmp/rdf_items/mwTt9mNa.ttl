@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mwTt9mNa a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1776-00-00"^^xsd:string,
+        "1776-07-01"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1852-00-00"^^xsd:string,
+        "1852-03-05"^^xsd:string ;
+    schema1:deathPlace faamentity:XYjq49o8 ;
+    schema1:description "French writer (1776–1852)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q273200>,
+        "16005736"^^xsd:string,
+        "mwTt9mNa"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Madame Gay"^^xsd:string,
+        "Marie Francoise Sophie Gay"^^xsd:string,
+        "Marie Françoise Sophie Gay"^^xsd:string,
+        "Marie Gay"^^xsd:string,
+        "Marie Sophie Gay"^^xsd:string,
+        "Sophie Gay"^^xsd:string,
+        "Sophie Gay (author)"^^xsd:string,
+        "Sophie Gay (writer)"^^xsd:string ;
+    skos:prefLabel "Sophie Gay"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:27059297 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30101726> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gay,_Sophie> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:CaE8K7ZF,
+        faamentity:Lsxvvwm9,
+        faamentity:YrCfZ8vh,
+        faamentity:Z82mUmvc .
+

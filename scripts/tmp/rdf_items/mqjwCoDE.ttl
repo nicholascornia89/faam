@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mqjwCoDE a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "relationship between musical voices that are harmonically interdependent (exhibiting polyphony) yet independent in rhythm and contour"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q186393>,
+        "16004126"^^xsd:string,
+        "mqjwCoDE"^^xsd:string ;
+    skos:altLabel "contrapuntal"^^xsd:string,
+        "counterpoint"^^xsd:string,
+        "musical counterpoint"^^xsd:string ;
+    skos:prefLabel "counterpoint"^^xsd:string .
+

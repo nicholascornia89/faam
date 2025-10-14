@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iHeydB2F a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical composition for piano and orchestra"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1746028>,
+        "15990645"^^xsd:string,
+        "iHeydB2F"^^xsd:string ;
+    skos:altLabel "concerto for piano"^^xsd:string,
+        "piano concerto"^^xsd:string ;
+    skos:prefLabel "piano concerto"^^xsd:string .
+

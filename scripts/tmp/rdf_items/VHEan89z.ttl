@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VHEan89z a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1819-01-01"^^xsd:string ;
+    schema1:deathDate "1898-01-01"^^xsd:string ;
+    schema1:description "Belgian publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110041343>,
+        "16002798"^^xsd:string,
+        "VHEan89z"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Jean Baptiste Katto"^^xsd:string,
+        "Jean-Baptiste Katto"^^xsd:string ;
+    skos:prefLabel "Jean Baptiste Katto"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5195681 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30064769> ;
+    wd:P839 <https://imslp.org/wiki/Category:Katto,_Jean-Baptiste> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

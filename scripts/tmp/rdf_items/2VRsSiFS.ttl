@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2VRsSiFS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French organist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q318407>,
+        "0"^^xsd:string,
+        "2VRsSiFS"^^xsd:string ;
+    skos:altLabel "Abel-Marie Alexis Decaux"^^xsd:string,
+        "Abel-Marie Decaux"^^xsd:string ;
+    skos:prefLabel "Abel Decaux"^^xsd:string ;
+    wd:P108 <Q1278284> ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:34650276 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Decaux,_Abel> .
+

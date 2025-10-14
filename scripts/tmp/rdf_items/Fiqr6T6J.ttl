@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Fiqr6T6J a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "historic county of England, United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q67575300>,
+        "0"^^xsd:string,
+        "Fiqr6T6J"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "County of Wilts"^^xsd:string,
+        "Wilts"^^xsd:string ;
+    skos:prefLabel "Wiltshire"^^xsd:string .
+

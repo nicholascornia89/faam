@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PKcvUF5M a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:AB4X4hGP ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:UMravioT,
+        faamentity:gb6MiJbD,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:cmQGFaLi ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:RV2os4Ug ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:SnTwYr4w ;
+    schema1:hasPart faamentity:5xqtFbkb ;
+    schema1:identifier "15992640"^^xsd:string,
+        "KCG-000740758"^^xsd:string,
+        "PKcvUF5M"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000740758"^^schema1:url ;
+    skos:prefLabel "Psaume 18 : Partition"^^xsd:string ;
+    skosref:related faamentity:HzemsPg5 ;
+    wd:P217 "II703; A-353 (354 in boek)"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"PKcvUF5M-01b7deab-85a9-4add-a74d-8517e952227a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PKcvUF5M-86d74e31-6f79-4158-bd67-1be2bc01a7dc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"PKcvUF5M-d77250cd-806d-453c-b170-730705dacc6b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:SnTwYr4w a rdf:object .
+

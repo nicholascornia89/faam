@@ -1,0 +1,175 @@
+{
+  "id": "eyeEqhAF",
+  "uuid_num": 72284410770958,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "largo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical tempo indication"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "larghissimo"
+      },
+      {
+        "type": "string",
+        "value": "larghetto"
+      },
+      {
+        "type": "string",
+        "value": "largo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1805930",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "largo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "eyeEqhAF"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992211"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "mkCY9LDD",
+        "label": "tempo"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "R9hADWGS",
+        "label": "duration"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "iFkRR5rr",
+        "type": "item",
+        "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "SLD-512657440.gif"
+        }
+      },
+      {
+        "id": "cVDimCi6",
+        "type": "item",
+        "label": "Fantaisie Chromatique et Fugue : BWV 903",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000331890.gif"
+        }
+      },
+      {
+        "id": "SNqvxVFu",
+        "type": "item",
+        "label": "Messe \"Beatus qui intelligit\" für sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737359707356.gif"
+        }
+      },
+      {
+        "id": "a9ifUqK5",
+        "type": "item",
+        "label": "Messe \"Or-sus a coup\": für vier Singstimmen",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991077737379707356.gif"
+        }
+      },
+      {
+        "id": "GcrjFznX",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eyeEqhAF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eyeEqhAF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eyeEqhAF.csv"
+      }
+    ]
+  }
+}

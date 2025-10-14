@@ -1,0 +1,53 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UG6ftJjM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:DT4vQExr,
+        faamentity:TK9UAG2p ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:E4rhHet3,
+        faamentity:TUdHPWU8,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3mKop7xs,
+        faamentity:Ta5ni5cL ;
+    schema1:identifier "15992556"^^xsd:string,
+        "KCA-030901762945"^^xsd:string,
+        "UG6ftJjM"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6759565/N"^^schema1:url ;
+    skos:prefLabel "Andante: voor bazuin"^^xsd:string ;
+    wd:P217 "MM-BB-BENOI-andan-7"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:WfkJpufF,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"UG6ftJjM-8dde3f3a-cfab-419d-a0f6-b39480a5bbb2"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1906"^^xsd:string ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"UG6ftJjM-9a9a1e55-28f7-4a73-82b1-846ca837eb4d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:3mKop7xs a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DMSLG6R2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1535-00-00"^^xsd:string,
+        "1536-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:Y84cmbXC ;
+    schema1:deathDate "1592-07-01"^^xsd:string ;
+    schema1:deathPlace faamentity:mqgo3ELz ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1995396>,
+        "0"^^xsd:string,
+        "DMSLG6R2"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4,
+        faamentity:mSRjqdyx ;
+    skos:prefLabel "Marc'Antonio Ingegneri"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100196245 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:Fo83UCTe,
+        faamentity:eFsFUzo8 ;
+    wd:P839 <https://imslp.org/wiki/Category:Ingegneri,_Marc_Antonio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:R7KKRvQ6,
+        faamentity:ZhptKYF3 .
+

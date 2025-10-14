@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VWefXFGT a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1483-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:27A7ige7 ;
+    schema1:deathDate "1559-10-02"^^xsd:string ;
+    schema1:deathPlace faamentity:aCZtwsj7 ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2441812>,
+        "0"^^xsd:string,
+        "VWefXFGT"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:prefLabel "Jacquet of Mantua"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100226104 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003816> ;
+    wd:P839 <https://imslp.org/wiki/Category:Jacquet_of_Mantua> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

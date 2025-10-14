@@ -1,0 +1,127 @@
+{
+  "id": "oH4DMPyz",
+  "uuid_num": 88486156992632,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "mezzoforte"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "music dynamic"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "mezzo forte"
+      },
+      {
+        "type": "string",
+        "value": "mezzo-forte"
+      },
+      {
+        "type": "string",
+        "value": "mezzoforte"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q7258512",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "mezzoforte"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "oH4DMPyz"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992198"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "HKyA3Qzz",
+        "label": "dynamic"
+      },
+      {
+        "type": "item",
+        "value": "gnJkVwmS",
+        "label": "forte"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "oH4DMPyz.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "oH4DMPyz.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "oH4DMPyz.csv"
+      }
+    ]
+  }
+}

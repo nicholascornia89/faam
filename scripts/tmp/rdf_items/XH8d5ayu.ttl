@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XH8d5ayu a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1718-11-24"^^xsd:string ;
+    schema1:birthPlace faamentity:MxnLw4ay ;
+    schema1:deathDate "1812-11-05"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3836967>,
+        "0"^^xsd:string,
+        "XH8d5ayu"^^xsd:string ;
+    skos:altLabel "Gibellone"^^xsd:string,
+        "Lorenzo Maria Petronio Gibelli"^^xsd:string ;
+    skos:prefLabel "Lorenzo Gibelli"^^xsd:string ;
+    wd:P1303 faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:7629148451587315970005 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40211390>,
+        <https://rism.online/people/41015414> ;
+    wd:P737 faamentity:3KJ4atqX ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:oJ9qmRVq .
+

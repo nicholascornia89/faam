@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AdNoqEfD a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "musical instrument of the woodwind family"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11405>,
+        "15990797"^^xsd:string,
+        "AdNoqEfD"^^xsd:string ;
+    skos:altLabel "edge-blown aerophones"^^xsd:string,
+        "flute"^^xsd:string,
+        "transverse flute"^^xsd:string ;
+    skos:prefLabel "flute"^^xsd:string ;
+    wd:P279 faamentity:hBUT5Cbq,
+        faamentity:kLc2fKRy ;
+    wd:P31 faamentity:BnwWc34X .
+

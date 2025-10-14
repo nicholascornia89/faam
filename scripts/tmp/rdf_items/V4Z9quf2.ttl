@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:V4Z9quf2 a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1771-09-30"^^xsd:string ;
+    schema1:birthPlace faamentity:UaL7DKWF ;
+    schema1:deathDate "1848-04-16"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French composer, poet and theatre director"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2959544>,
+        "16005762"^^xsd:string,
+        "V4Z9quf2"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Apetit"^^xsd:string,
+        "Charles Laffille"^^xsd:string,
+        "Charles Laffillé"^^xsd:string ;
+    skos:prefLabel "Charles Laffillé"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:64125370 ;
+    wd:P31 faamentity:HmGw8E8i ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:GnKPfQfS,
+        faamentity:MwhmFC4w,
+        faamentity:fJEZmAGU,
+        faamentity:fKBqCJio,
+        faamentity:jQjsdegi .
+

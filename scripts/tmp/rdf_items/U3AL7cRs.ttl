@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U3AL7cRs a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "state of the Holy Roman Empire, established when Emperor Charles IV raised the Ascanian duchy of Saxe-Wittenberg to the status of an Electorate 1356"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q156199>,
+        "16004399"^^xsd:string,
+        "U3AL7cRs"^^xsd:string ;
+    skos:altLabel "Electorate of Saxony"^^xsd:string,
+        "Saxony"^^xsd:string,
+        "Upper Saxony"^^xsd:string ;
+    skos:prefLabel "Electorate of Saxony"^^xsd:string .
+

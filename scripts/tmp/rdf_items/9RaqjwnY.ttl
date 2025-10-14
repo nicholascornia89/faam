@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9RaqjwnY a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:YWvFQ75E ;
+    schema1:description "1816 opera by Gioachino Rossini"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q208659>,
+        "16001687"^^xsd:string,
+        "9RaqjwnY"^^xsd:string ;
+    schema1:isBasedOn faamentity:n7ez74JN ;
+    skos:altLabel "Barber of Seville"^^xsd:string,
+        "Il barbiere di Siviglia"^^xsd:string,
+        "The Barber of Seville"^^xsd:string ;
+    skos:prefLabel "The Barber of Seville (Il barbiere di Siviglia)"^^xsd:string ;
+    wd:P214 viaf:214326999 ;
+    wd:P5202 faamentity:iGWTaGKR ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Il_barbiere_di_Siviglia_(Rossini,_Gioacchino)> .
+

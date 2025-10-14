@@ -1,0 +1,46 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ACbdo5Jg a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:HohjWQAt,
+        faamentity:amkJ6EBs,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6iVvX3mY,
+        faamentity:GgyGnGfG ;
+    schema1:hasPart faamentity:3QPJAckD ;
+    schema1:identifier "15992559"^^xsd:string,
+        "ACbdo5Jg"^^xsd:string,
+        "KCA-030904562375"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15350731/N"^^schema1:url ;
+    skos:prefLabel "Erstes Concert für Pianoforte und Orchester (S. 124)"^^xsd:string ;
+    wd:P217 "MM-TP-LISZT-conc1-1"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"ACbdo5Jg-1cd467f8-9628-4f58-932e-2cc3988e913b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"ACbdo5Jg-4392d95b-fbc3-4074-b43a-fd08931e9730"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:6iVvX3mY a rdf:object .
+
+faamentity:GgyGnGfG a rdf:object .
+

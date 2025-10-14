@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RatUUATc a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1822-10-05"^^xsd:string ;
+    schema1:birthPlace faamentity:UvT8FR5N ;
+    schema1:deathDate "1899-12-30"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "pianist and composer (1822-1899)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q96452>,
+        "15996167"^^xsd:string,
+        "RatUUATc"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Alfred Heinrich Ehrlich"^^xsd:string,
+        "Eric Ehrlich"^^xsd:string,
+        "Heinrich Ehrlich"^^xsd:string ;
+    skos:prefLabel "Heinrich Ehrlich"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:74118088 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41281> ;
+    wd:P737 faamentity:5vPvVrHJ,
+        faamentity:SC9Tasad,
+        faamentity:fY3iiCZh ;
+    wd:P839 <https://imslp.org/wiki/Category:Ehrlich,_Heinrich> ;
+    schema:hasOccupation faamentity:3Kncf32R,
+        faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:YrCfZ8vh .
+

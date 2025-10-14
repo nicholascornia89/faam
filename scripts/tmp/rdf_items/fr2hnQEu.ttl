@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fr2hnQEu a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q67199923>,
+        "16003488"^^xsd:string,
+        "fr2hnQEu"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in D major, L.465"^^xsd:string,
+        "Sonata K. 96"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in D major, K.96"^^xsd:string ;
+    wd:P214 viaf:181668778 ;
+    wd:P5202 faamentity:5gAsc3pE,
+        faamentity:AaF6WQEA,
+        faamentity:Vp4ucERe,
+        faamentity:agWvDDr6,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_D_major,_K.96_(Scarlatti,_Domenico)> .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XED8Jehz a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "French music conservatories"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2994538>,
+        "15991028"^^xsd:string,
+        "XED8Jehz"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "CNSMD"^^xsd:string,
+        "Conservatoire National Supérieur de Musique et de Danse"^^xsd:string,
+        "Conservatoires nationaux supérieurs de musique et de danse"^^xsd:string ;
+    skos:prefLabel "Conservatoire National Supérieur de Musique et de Danse"^^xsd:string .
+

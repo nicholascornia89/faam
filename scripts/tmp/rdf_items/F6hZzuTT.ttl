@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:F6hZzuTT a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "constituent land of the Austrian Empire (1815–1866)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q209857>,
+        "15998084"^^xsd:string,
+        "F6hZzuTT"^^xsd:string ;
+    skos:altLabel "Kingdom of Lombardy–Venetia"^^xsd:string,
+        "Königreich Lombardo–Venetien"^^xsd:string,
+        "Lombardo-Venetian Kingdom"^^xsd:string,
+        "Lombardo-Veneto"^^xsd:string,
+        "Regno Lombardo-Veneto"^^xsd:string ;
+    skos:prefLabel "Kingdom of Lombardy–Venetia"^^xsd:string .
+

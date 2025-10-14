@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EfhvbVmR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:APcZWn33,
+        faamentity:PXYCpRXf,
+        faamentity:kYgchVZr ;
+    schema1:hasPart faamentity:35sDRhgb,
+        faamentity:3DThkTfx,
+        faamentity:3r4BmVYC,
+        faamentity:4ANJyJ6E,
+        faamentity:Ap6aFBd2,
+        faamentity:EYSHFdgR,
+        faamentity:P6KNC7Pm,
+        faamentity:QrZt6tiH,
+        faamentity:We6mVnZC,
+        faamentity:YLuLv5SF,
+        faamentity:YV5uQqno,
+        faamentity:bxvFoyt2,
+        faamentity:c6PJKqJM,
+        faamentity:f2dE7bHv,
+        faamentity:hwgDMQXJ ;
+    schema1:identifier "16005151"^^xsd:string,
+        "EfhvbVmR"^^xsd:string,
+        "SML-29805"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9954944863405216"^^schema1:url ;
+    skos:prefLabel "Compositions pour piano / de Dom. Scarlatti ; revues et doigtées par Louis Köhler."^^xsd:string ;
+    wd:P217 "M23.S286 B928 1890z"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"EfhvbVmR-8ade2214-fac5-4ef7-8d82-47ee9e6bdac8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"EfhvbVmR-a7278125-c66c-4924-92cd-408266e7ed20"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"EfhvbVmR-ab2de0fc-9fd5-4a78-893f-db99584d2580"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:APcZWn33 a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:kYgchVZr a rdf:object .
+

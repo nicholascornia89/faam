@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EXeDLbH8 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:AB4X4hGP,
+        faamentity:HKyA3Qzz,
+        faamentity:LtW88Gtx,
+        faamentity:aAsRZoVk,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:QELJUJBf ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BpM59WrA,
+        faamentity:GecAsFfL,
+        faamentity:LQND7DE7,
+        faamentity:N5Hoh28Y,
+        faamentity:mK2saWSr ;
+    schema1:hasPart faamentity:Bp7CiVTB ;
+    schema1:identifier "15992687"^^xsd:string,
+        "EXeDLbH8"^^xsd:string,
+        "KCG-000331832"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331832"^^schema1:url ;
+    skos:prefLabel "CANTATE N°45 : Es ist dir gesagt, Mensch, was gut ist"^^xsd:string ;
+    wd:P217 "DS6000"^^xsd:string ;
+    wd:P870 faamentity:4YzWbco5,
+        faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"EXeDLbH8-1c126c85-d1ae-40c1-905c-0b3f8490b958"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"EXeDLbH8-39134a9a-1dc7-4a4f-b99e-018649722350"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"EXeDLbH8-47e265c9-6477-41f7-a517-61ddb9717eec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"EXeDLbH8-9503672b-3b26-424f-8a8b-112db01a4599"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"EXeDLbH8-c2cb563e-4dca-48b0-8db4-98fb1b1f17f1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:BpM59WrA a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:N5Hoh28Y a rdf:object .
+
+faamentity:mK2saWSr a rdf:object .
+

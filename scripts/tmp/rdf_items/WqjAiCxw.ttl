@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WqjAiCxw a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:C3NTYuH8 ;
+    schema1:description "opera by Christoph Willibald Gluck"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q687822>,
+        "16000345"^^xsd:string,
+        "WqjAiCxw"^^xsd:string ;
+    schema1:isBasedOn faamentity:RTZz2bx6 ;
+    skos:altLabel "Iphigenie en Tauride"^^xsd:string,
+        "Iphigénie en Tauride"^^xsd:string ;
+    skos:prefLabel "Iphigénie en Tauride"^^xsd:string ;
+    wd:P214 viaf:176200696 ;
+    wd:P5202 faamentity:S63SGbw2,
+        faamentity:oRcy7jj8 ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Iphigénie_en_Tauride,_Wq.46_(Gluck,_Christoph_Willibald)> .
+

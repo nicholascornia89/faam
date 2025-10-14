@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HoH6TbZs a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:UMravioT,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:3SXZtwXb ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:XC8Yynik,
+        faamentity:bNbLTVDn ;
+    schema1:hasPart faamentity:cvNtPTvq ;
+    schema1:identifier "15992541"^^xsd:string,
+        "HoH6TbZs"^^xsd:string,
+        "KCA-030903711494"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14238797/N"^^schema1:url ;
+    skos:prefLabel "La Mascotte : opéra-comique en 3 actes"^^xsd:string ;
+    skosref:related faamentity:743qkqfG,
+        faamentity:9TFwhCHq ;
+    wd:P217 "UM-ZP-AUDRA-mascott-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"HoH6TbZs-637f3041-6a49-40bb-9a4d-ff1e074b1b54"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"HoH6TbZs-69a804b6-dc5a-479e-8b0e-19d939858441"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"HoH6TbZs-bf89dac0-d6a8-4475-acee-ddedf671304c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:XC8Yynik a rdf:object .
+
+faamentity:bNbLTVDn a rdf:object .
+

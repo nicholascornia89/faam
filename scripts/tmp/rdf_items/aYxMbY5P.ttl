@@ -1,0 +1,41 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aYxMbY5P a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Zgsxtx6S ;
+    dcterms:provenance faamentity:Wdj3hQU8 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MjskrVov,
+        faamentity:QwGYdnmk ;
+    schema1:hasPart faamentity:J3SiYkmQ ;
+    schema1:identifier "16003976"^^xsd:string,
+        "WML-1294032"^^xsd:string,
+        "aYxMbY5P"^^xsd:string ;
+    schema1:url "https://collections.lib.utah.edu/ark:/87278/s6zw5jgz"^^schema1:url ;
+    skos:prefLabel "Symphony No. 7, Movement IV"^^xsd:string ;
+    wd:P217 "uu_mckay_asc"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"aYxMbY5P-98b6398b-2c41-43eb-b5d6-9372e1d819e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"aYxMbY5P-b177e226-1c4f-4ef3-9a3c-5334feb3aae7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:MjskrVov a rdf:object .
+
+faamentity:QwGYdnmk a rdf:object .
+

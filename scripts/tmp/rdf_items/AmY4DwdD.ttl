@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AmY4DwdD a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:QELJUJBf ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1605-04-18"^^xsd:string ;
+    schema1:birthPlace faamentity:HexLhPPm ;
+    schema1:deathDate "1674-01-12"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer (1605–1674)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q312686>,
+        "16004039"^^xsd:string,
+        "AmY4DwdD"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B,
+        faamentity:fj46nffV ;
+    skos:altLabel "Giacomo Carissimi"^^xsd:string ;
+    skos:prefLabel "Giacomo Carissimi"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14957743 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000429> ;
+    wd:P737 faamentity:Xvwzn58s,
+        faamentity:eCxVbAyG ;
+    wd:P839 <https://imslp.org/wiki/Category:Carissimi,_Giacomo> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

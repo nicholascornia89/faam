@@ -1,0 +1,43 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:a73YZ4UH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:7qCCArxX,
+        faamentity:JwqBvu9Z,
+        faamentity:QeqFpJLJ,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AedSA8fV ;
+    schema1:identifier "15992305"^^xsd:string,
+        "KCA-030902584090"^^xsd:string,
+        "a73YZ4UH"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13125737/N"^^schema1:url ;
+    skos:prefLabel "Improvisata"^^xsd:string ;
+    wd:P217 "MM-MS-WAMBA-improvi-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"a73YZ4UH-1e499d2a-0d74-4ff7-9df1-33b33e452d53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:AedSA8fV a rdf:object .
+

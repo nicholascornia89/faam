@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jcu4u5sd a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1842-12-17"^^xsd:string ;
+    schema1:birthPlace faamentity:bSzLPudk ;
+    schema1:deathDate "1911-06-26"^^xsd:string ;
+    schema1:deathPlace faamentity:bSzLPudk ;
+    schema1:description "Belgian writer (1842-1911)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2540502>,
+        "16002601"^^xsd:string,
+        "jcu4u5sd"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Frans Gittens"^^xsd:string ;
+    skos:prefLabel "Frans Gittens"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:171716717 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:BPsUV5WT,
+        faamentity:fKBqCJio .
+

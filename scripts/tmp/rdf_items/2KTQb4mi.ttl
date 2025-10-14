@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2KTQb4mi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:kxAqh9HR ;
+    faamprop:handwritten_annotation faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:bksidguC ;
+    schema1:hasPart faamentity:ZibxQ5pt ;
+    schema1:identifier "15992554"^^xsd:string,
+        "2KTQb4mi"^^xsd:string,
+        "KCA-030902562328"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6709589/N"^^schema1:url ;
+    skos:prefLabel "Troisième fantaisie : pour piano seul, op. 18"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-fanta3-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"2KTQb4mi-06d09d5c-15ce-40b7-9bcc-cb9b1c8ca26e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"2KTQb4mi-3c1d687c-4162-45bb-9c5a-58d72d69bdbc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"2KTQb4mi-cf0d2a88-1877-4c05-8739-ec4223975b3c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:bksidguC a rdf:object .
+

@@ -49,11 +49,16 @@ def generate_rdf_kb(faam_kb,nodegoat2faam_kb,file_path):
     #initialize whole knowledge graph
 
     kb_g = Graph()
+    number_of_items = len(faam_kb["items"])
+    progress = 0
     for item in faam_kb["items"]:
         kb_g = kb_g + generate_rdf_item(item,nodegoat2faam_kb,file_path,save=False)
+        progress +=1
+        print(f"RDF generation progress: {100*float(progress)/number_of_items}% items processed",end="\r")
+
 
     # save whole graph to disk
-    g.serialize(format="turtle",destination=file_path)
+    kb_g.serialize(format="turtle",destination=file_path)
 
 
 

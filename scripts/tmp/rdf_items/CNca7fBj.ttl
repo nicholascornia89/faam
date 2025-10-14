@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CNca7fBj a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4483556>,
+        "16004752"^^xsd:string,
+        "CNca7fBj"^^xsd:string ;
+    schema1:location faamentity:DEbEnXwM,
+        faamentity:c4DdDGWx,
+        faamentity:eeLsSgs5,
+        faamentity:gtpMWPv9 ;
+    skos:prefLabel "Faculty of Physics and Mathematics of Moscow Imperial University"^^xsd:string .
+

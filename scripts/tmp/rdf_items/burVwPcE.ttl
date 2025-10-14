@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:burVwPcE a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city and county seat in Allegheny County, Pennsylvania, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1342>,
+        "0"^^xsd:string,
+        "burVwPcE"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "City of Bridges"^^xsd:string,
+        "City of Pittsburgh"^^xsd:string,
+        "Dayaogeh"^^xsd:string,
+        "Iron City"^^xsd:string,
+        "Pgh"^^xsd:string,
+        "Pittsburg"^^xsd:string,
+        "Pittsburg, Pennsylvania"^^xsd:string,
+        "Pittsburgh, PA"^^xsd:string,
+        "Pittsburgh, Pennsylvania"^^xsd:string,
+        "Smoky City"^^xsd:string,
+        "Steel City"^^xsd:string ;
+    skos:prefLabel "Pittsburgh"^^xsd:string ;
+    wd:P1566 gn:5206379,
+        gn:5206393 .
+

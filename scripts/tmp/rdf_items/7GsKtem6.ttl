@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7GsKtem6 a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1850-03-22"^^xsd:string ;
+    schema1:birthPlace faamentity:MruPddEX ;
+    schema1:deathDate "1926-05-29"^^xsd:string ;
+    schema1:deathPlace faamentity:WaAiuf8M ;
+    schema1:description "Dutch composer and oboist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q122305005>,
+        "15996281"^^xsd:string,
+        "7GsKtem6"^^xsd:string ;
+    schema1:nationality faamentity:mV38LJ7u ;
+    skos:altLabel "Frédéric Bonzon"^^xsd:string ;
+    skos:prefLabel "Frédéric Bonzon"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:16343309 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:FPRyBmX6,
+        faamentity:TDF2knmi,
+        faamentity:c5ZKjhf7 .
+

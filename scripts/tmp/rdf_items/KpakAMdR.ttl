@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KpakAMdR a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:L5BeZMkD,
+        faamentity:XvS7XX6c,
+        faamentity:d2zcosWT ;
+    schema1:birthDate "1874-09-21"^^xsd:string ;
+    schema1:birthPlace faamentity:cUEwJR9e ;
+    schema1:deathDate "1934-05-25"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r ;
+    schema1:description "British composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q200867>,
+        "16002573"^^xsd:string,
+        "KpakAMdR"^^xsd:string ;
+    schema1:nationality faamentity:6zGBQwwr,
+        faamentity:KmPGztnu ;
+    skos:altLabel "Gustav Holst"^^xsd:string,
+        "Gustav Theodore Holst"^^xsd:string,
+        "Gustavus Theodore von Holst"^^xsd:string ;
+    skos:prefLabel "Gustav Holst"^^xsd:string ;
+    wd:P1303 faamentity:WfkJpufF ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:76500370 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30106135> ;
+    wd:P737 faamentity:2MedQ7S4 ;
+    wd:P839 <https://imslp.org/wiki/Category:Holst,_Gustav> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

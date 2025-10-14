@@ -1,0 +1,115 @@
+{
+  "id": "E2dDDzdk",
+  "uuid_num": 23479947477426,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "piccolo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "small flute sounding an octave higher than the C concert flute"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "piccolo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q83509",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "piccolo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_instrument"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "E2dDDzdk"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15990841"
+      }
+    ]
+  },
+  "statements": {
+    "instance of": [
+      {
+        "type": "item",
+        "value": "BnwWc34X",
+        "label": ""
+      }
+    ],
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "LMnKWZg2",
+        "label": "western concert flute"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "UEwpgitR",
+        "type": "item",
+        "label": "Capricio",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902419677.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "7M5wmsyu",
+        "type": "item",
+        "label": "August Verbesselt",
+        "description": "Belgian composer and flute player, 1919–2012",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "E2dDDzdk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "E2dDDzdk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "E2dDDzdk.csv"
+      }
+    ]
+  }
+}

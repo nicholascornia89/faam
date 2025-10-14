@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fS46DLmj a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:QwSKSFky ;
+    schema1:description "opera by Ferdinand Hérold"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3226048>,
+        "16000991"^^xsd:string,
+        "fS46DLmj"^^xsd:string ;
+    skos:altLabel "Le pre aux clercs"^^xsd:string,
+        "Le pré aux clercs"^^xsd:string ;
+    skos:prefLabel "Le pré aux clercs"^^xsd:string ;
+    wd:P5202 faamentity:DJXHHAks,
+        faamentity:QcnHx5uP ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Le_pré_aux_clercs_(Hérold,_Ferdinand)> .
+

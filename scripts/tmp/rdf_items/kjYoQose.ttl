@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kjYoQose a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1790-04-13"^^xsd:string,
+        "1790-04-14"^^xsd:string,
+        "1790-07-13"^^xsd:string ;
+    schema1:birthPlace faamentity:TVRNYs7b ;
+    schema1:deathDate "1873-10-08"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "German music teacher and composer (1790–1873)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4057147>,
+        "0"^^xsd:string,
+        "kjYoQose"^^xsd:string ;
+    schema1:nationality faamentity:CrgDNiwB ;
+    skos:altLabel "Wilhelm Johann Albrecht Agthe"^^xsd:string ;
+    skos:prefLabel "Albrecht Agthe"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:301640367 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30006500> ;
+    wd:P737 faamentity:LihVFXxn ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

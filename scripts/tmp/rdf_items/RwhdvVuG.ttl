@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RwhdvVuG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:PprjdkHE,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu,
+        faamentity:iZiYk6VC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:WgWRP5cq,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:X8CowJzi,
+        faamentity:j6DV8zaS ;
+    schema1:hasPart faamentity:2oLQ4BVH ;
+    schema1:identifier "15992346"^^xsd:string,
+        "KCA-030902687190"^^xsd:string,
+        "RwhdvVuG"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13133612/N"^^schema1:url ;
+    skos:prefLabel "Adoration Opus 21"^^xsd:string ;
+    wd:P217 "MM-TO-CALLA-piecesp-2"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"RwhdvVuG-57a63948-7a15-4787-8324-027a855fd327"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"RwhdvVuG-6a66754b-ae6a-4576-9fef-d74f3b093365"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"RwhdvVuG-70719bcb-b168-4fe4-a1f1-1099e542b908"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:j6DV8zaS a rdf:object .
+

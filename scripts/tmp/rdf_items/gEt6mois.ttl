@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gEt6mois a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1836-08-19"^^xsd:string ;
+    schema1:birthPlace faamentity:N7D2KQes ;
+    schema1:deathDate "1916-07-24"^^xsd:string ;
+    schema1:deathPlace faamentity:Wd8DrrAo ;
+    schema1:description "French composer (1836-1916)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1373421>,
+        "16005283"^^xsd:string,
+        "gEt6mois"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Eugene Anthiome"^^xsd:string,
+        "Eugène Anthiome"^^xsd:string ;
+    skos:prefLabel "Eugène Anthiome"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66731460 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41007815> ;
+    wd:P737 faamentity:C2HMXPaX,
+        faamentity:LjTkQJnC,
+        faamentity:jHLdEc4N ;
+    wd:P839 <https://imslp.org/wiki/Category:Anthiome,_Eugène> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:XWcaJQty .
+

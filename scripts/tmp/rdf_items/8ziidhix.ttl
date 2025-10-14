@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8ziidhix a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French poet"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q122581609>,
+        "16002643"^^xsd:string,
+        "8ziidhix"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "F. Henry de Puymaly"^^xsd:string,
+        "Henry de Puymaly"^^xsd:string ;
+    skos:prefLabel "Henry de Puymaly"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:BPsUV5WT .
+

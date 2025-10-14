@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4uBMgRxM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:m9rNaSAR ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:AB4X4hGP,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """[h=1]2me Suite[/h]
+<ol>
+<li> Ballade </li>
+<li> Conte </li>
+<li> Ballade </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:KdGKqPWR,
+        faamentity:kfpMKnYN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:VHEan89z ;
+    schema1:hasPart faamentity:SLsmnpYr ;
+    schema1:identifier "15992364"^^xsd:string,
+        "4uBMgRxM"^^xsd:string,
+        "KCA-030902147005"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12917235/N"^^schema1:url ;
+    skos:prefLabel "Ballade"^^xsd:string ;
+    skosref:note "Only conte N.2 is present."^^rdf:HTML ;
+    wd:P217 "MM-TP-BENOI-conte2-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"4uBMgRxM-3cee89d0-5527-49e4-99c0-a439166f1af1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"4uBMgRxM-7f7895d7-2430-4b3f-89ec-59e30a5fbfec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4uBMgRxM-80d7aa45-244e-4b7d-a1f4-3d8298a73413"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+

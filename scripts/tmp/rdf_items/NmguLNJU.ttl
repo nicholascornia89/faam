@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NmguLNJU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1773-05-26"^^xsd:string ;
+    schema1:birthPlace faamentity:iQ2xoFYP ;
+    schema1:deathDate "1836-12-26"^^xsd:string ;
+    schema1:deathPlace faamentity:MJgZj7MG ;
+    schema1:description "Swiss composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q672548>,
+        "15996141"^^xsd:string,
+        "NmguLNJU"^^xsd:string ;
+    schema1:nationality faamentity:oHTSDFRc ;
+    skos:altLabel "Hans Georg Naegeli"^^xsd:string,
+        "Hans Georg Nägeli"^^xsd:string ;
+    skos:prefLabel "Hans Georg Nägeli"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54196135 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/88650> ;
+    wd:P839 <https://imslp.org/wiki/Category:Nägeli,_Hans_Georg> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp .
+

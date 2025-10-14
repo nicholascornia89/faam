@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DCNt8Rng a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1816-00-00"^^xsd:string,
+        "1816-09-04"^^xsd:string ;
+    schema1:birthPlace faamentity:Qbg9wtnb ;
+    schema1:deathDate "1878-00-00"^^xsd:string,
+        "1878-07-02"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French opera composer (1816–1878)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q633817>,
+        "0"^^xsd:string,
+        "DCNt8Rng"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:prefLabel "François Bazin"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69114808 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/9890> ;
+    wd:P737 faamentity:NPPV2XtG,
+        faamentity:PbwqrnC5,
+        faamentity:jzsis3MS ;
+    wd:P839 <https://imslp.org/wiki/Category:Bazin,_François> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi .
+

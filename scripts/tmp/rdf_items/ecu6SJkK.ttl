@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ecu6SJkK a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1623-08-05"^^xsd:string ;
+    schema1:birthPlace faamentity:TSEbzSN8 ;
+    schema1:deathDate "1669-10-14"^^xsd:string ;
+    schema1:deathPlace faamentity:Wk99hCAF ;
+    schema1:description "Italian composer, singer and organist (1623-1669)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q350695>,
+        "15995837"^^xsd:string,
+        "ecu6SJkK"^^xsd:string ;
+    skos:altLabel "Antonio Cesti"^^xsd:string,
+        "M. A. Chesti"^^xsd:string,
+        "Marc' Antonio Cesti"^^xsd:string,
+        "Marcantonio Cesti"^^xsd:string,
+        "Pietro Antonio Cesti"^^xsd:string,
+        "Pietro Cesti"^^xsd:string ;
+    skos:prefLabel "Antonio Cesti"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:34642826 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30000648> ;
+    wd:P737 faamentity:AmY4DwdD,
+        faamentity:UnvF8mDQ ;
+    wd:P839 <https://imslp.org/wiki/Category:Cesti,_Antonio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:5eUMkMxY,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:oJ9qmRVq .
+

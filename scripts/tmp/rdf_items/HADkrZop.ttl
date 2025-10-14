@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HADkrZop a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:6Y3ZcTkG,
+        faamentity:nt6iNeSy ;
+    schema1:birthDate "1812-08-13"^^xsd:string ;
+    schema1:birthPlace faamentity:Eaco4g5s ;
+    schema1:deathDate "1880-02-06"^^xsd:string ;
+    schema1:deathPlace faamentity:ZpwbPoZj ;
+    schema1:description "Russian chemist (1812-1880)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q520792>,
+        "0"^^xsd:string,
+        "HADkrZop"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM ;
+    skos:altLabel "Nikolay Nikolaevich Zinin"^^xsd:string ;
+    skos:prefLabel "Nikolay Zinin"^^xsd:string ;
+    wd:P108 faamentity:dMHW3waJ,
+        faamentity:nt6iNeSy ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:42603925 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:CuEsY7FX,
+        faamentity:UECthgZn ;
+    schema:hasOccupation faamentity:W4yL2jDA,
+        faamentity:j8jxKN6U .
+

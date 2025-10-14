@@ -1,0 +1,137 @@
+{
+  "id": "ChXNxbcx",
+  "uuid_num": 20904206673945,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "loudness"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "subjective perception of sound pressure"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "volume"
+      },
+      {
+        "type": "string",
+        "value": "loudness perception"
+      },
+      {
+        "type": "string",
+        "value": "loudness"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q622324",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "loudness"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "ChXNxbcx"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992101"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "QAugiyuY",
+        "label": "aspect of sound"
+      },
+      {
+        "type": "item",
+        "value": "iFQqgedU",
+        "label": ""
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "bGYBJFvA",
+        "label": "sound concept"
+      },
+      {
+        "type": "item",
+        "value": "Dy8pmS8i",
+        "label": "musical concept"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "ChXNxbcx.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "ChXNxbcx.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "ChXNxbcx.csv"
+      }
+    ]
+  }
+}

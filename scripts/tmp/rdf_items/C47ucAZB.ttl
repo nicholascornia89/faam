@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:C47ucAZB a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "Village"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3835698>,
+        "0"^^xsd:string,
+        "C47ucAZB"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6 ;
+    skos:altLabel "Lioubensk"^^xsd:string,
+        "Liubensk"^^xsd:string,
+        "Liúbensk"^^xsd:string,
+        "Ljubensk"^^xsd:string ;
+    skos:prefLabel "Lyubensk"^^xsd:string .
+

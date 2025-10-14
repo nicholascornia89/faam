@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Y7stG82h a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1803-07-24"^^xsd:string ;
+    schema1:birthPlace faamentity:2SqPgzUd ;
+    schema1:deathDate "1856-05-03"^^xsd:string ;
+    schema1:deathPlace faamentity:XYjq49o8 ;
+    schema1:description "French composer (1803–1856)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q189544>,
+        "15995951"^^xsd:string,
+        "Y7stG82h"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Adolphe Adam"^^xsd:string,
+        "Adolphe C. Adam"^^xsd:string,
+        "Adolphe Charles Adam"^^xsd:string,
+        "Adolphe-Charles Adam"^^xsd:string ;
+    skos:prefLabel "Adolphe Adam"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12370239 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/689> ;
+    wd:P737 faamentity:C2HMXPaX,
+        faamentity:DE4nnG5T ;
+    wd:P839 <https://imslp.org/wiki/Category:Adam,_Adolphe> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:6KMog4yD,
+        faamentity:ELKwPhtK,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

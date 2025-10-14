@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GDpGVns7 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1521"^^xsd:string ;
+    schema1:birthPlace faamentity:nE25pYEt ;
+    schema1:deathDate "1603-07-04"^^xsd:string ;
+    schema1:deathPlace faamentity:iR3nZ9nb ;
+    schema1:description "Flemish musician and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q277029>,
+        "15996171"^^xsd:string,
+        "GDpGVns7"^^xsd:string ;
+    schema1:nationality faamentity:5H75H4AJ ;
+    skos:altLabel "Filip de Monte"^^xsd:string,
+        "Philipp de Mons"^^xsd:string,
+        "Philippe de Monte"^^xsd:string,
+        "Philippus de Monte"^^xsd:string ;
+    skos:prefLabel "Philippe de Monte"^^xsd:string ;
+    wd:P108 faamentity:PuXct9sz ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66652493 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30005218> ;
+    wd:P839 <https://imslp.org/wiki/Category:Monte,_Philippe_de> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi,
+        faamentity:bX2aWAhB .
+

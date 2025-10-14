@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:db858aSq a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:identifier "16005205"^^xsd:string,
+        "db858aSq"^^xsd:string ;
+    skos:altLabel "Regina coeli letare a5"^^xsd:string ;
+    skos:prefLabel "Regina caeli laetare for 5 voices"^^xsd:string ;
+    wd:P5202 faamentity:Y37RQzq9 ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Regina_caeli_laetare_for_5_voices_(Victoria,_Tomás_Luis_de)> .
+

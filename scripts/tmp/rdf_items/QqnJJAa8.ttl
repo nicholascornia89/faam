@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QqnJJAa8 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "autonomous province of Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15124>,
+        "0"^^xsd:string,
+        "QqnJJAa8"^^xsd:string ;
+    schema1:location faamentity:fj46nffV ;
+    skos:altLabel "Alto Adige"^^xsd:string,
+        "Autonomous Province of Bolzano – South Tyrol"^^xsd:string,
+        "Autonomous Province of Bozen/Bolzano – South Tyrol"^^xsd:string,
+        "Bolzano province"^^xsd:string,
+        "Bozen province"^^xsd:string,
+        "Province of Bolzano-Bozen"^^xsd:string,
+        "Provincia autonoma di Bolzano"^^xsd:string,
+        "South Tirol"^^xsd:string,
+        "Südtirol"^^xsd:string,
+        "autonomous province of Bolzano"^^xsd:string,
+        "autonomous province of Bolzano-Bozen"^^xsd:string,
+        "autonomous province of Bozen"^^xsd:string,
+        "province of Bolzano"^^xsd:string,
+        "province of Bolzano-Bozen"^^xsd:string,
+        "province of Bozen"^^xsd:string,
+        "provincia di Bolzano"^^xsd:string ;
+    skos:prefLabel "South Tyrol"^^xsd:string ;
+    wd:P1566 gn:3181912 .
+

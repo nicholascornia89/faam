@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9XFqnKhV a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:SgJFWhdM ;
+    schema1:identifier "16005748"^^xsd:string,
+        "9XFqnKhV"^^xsd:string ;
+    skos:prefLabel "Wind Quintet, Op.88 No.6"^^xsd:string ;
+    wd:P214 viaf:186110332 ;
+    wd:P7937 faamentity:Mr4ByBuL,
+        faamentity:UM7y2NCo ;
+    wd:P839 <https://imslp.org/wiki/Wind_Quintet,_Op.88_No.6_(Reicha,_Anton)> .
+

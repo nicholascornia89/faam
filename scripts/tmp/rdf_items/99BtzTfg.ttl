@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:99BtzTfg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:WA5RLxHp ;
+    schema1:birthDate "1882-04-03"^^xsd:string ;
+    schema1:birthPlace faamentity:HbLDHjBx ;
+    schema1:deathDate "1963-07-11"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German literary historian (1882–1963)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q391037>,
+        "0"^^xsd:string,
+        "99BtzTfg"^^xsd:string ;
+    schema1:nationality faamentity:juaA5CtZ ;
+    skos:prefLabel "Hermann A. Korff"^^xsd:string ;
+    wd:P108 faamentity:8hu8F7Zd,
+        faamentity:9KNMApSR,
+        faamentity:eRfp9gon ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:111391128 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:XWcaJQty,
+        faamentity:YCGymSDw .
+

@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XkmeaM49 a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1834-05-30"^^xsd:string ;
+    schema1:birthPlace faamentity:WxBiDK8u,
+        faamentity:jxnVXc6y ;
+    schema1:deathDate "1899-08-27"^^xsd:string ;
+    schema1:deathPlace faamentity:2KYpxSD5 ;
+    schema1:description "Belgian poet, writer and politician (1834–1899)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1334711>,
+        "16004143"^^xsd:string,
+        "XkmeaM49"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Emanuel Hiel"^^xsd:string,
+        "Emmanuel Hiel"^^xsd:string ;
+    skos:prefLabel "Emmanuel Hiel"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:171326689 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Hiel,_Emanuel> ;
+    schema:hasOccupation faamentity:fKBqCJio .
+

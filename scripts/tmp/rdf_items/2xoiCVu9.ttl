@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2xoiCVu9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1560-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:YMCERezP ;
+    schema1:deathDate "1618-05-21"^^xsd:string,
+        "1623-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:YMCERezP ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q723537>,
+        "0"^^xsd:string,
+        "2xoiCVu9"^^xsd:string ;
+    skos:prefLabel "Giovanni Bernardino Nanino"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:6437170 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004638> ;
+    wd:P839 <https://imslp.org/wiki/Category:Nanino,_Giovanni_Bernardino> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

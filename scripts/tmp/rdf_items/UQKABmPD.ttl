@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UQKABmPD a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:9G4CjNNd ;
+    schema1:birthDate "1798-01-31"^^xsd:string ;
+    schema1:birthPlace faamentity:6YcEJKrW ;
+    schema1:deathDate "1859-11-07"^^xsd:string ;
+    schema1:deathPlace faamentity:mRsCycJu ;
+    schema1:description "German musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q213894>,
+        "15995931"^^xsd:string,
+        "UQKABmPD"^^xsd:string ;
+    schema1:nationality faamentity:Bwqn3dni ;
+    skos:altLabel "Carl Gottlieb Reissiger"^^xsd:string ;
+    skos:prefLabel "Carl Gottlieb Reissiger"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:76501272 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/43584> ;
+    wd:P737 faamentity:VQ9LnFAH ;
+    wd:P839 <https://imslp.org/wiki/Category:Reissiger,_Carl_Gottlieb> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:oJ9qmRVq .
+

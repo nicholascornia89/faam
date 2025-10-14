@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VZD5QpBx a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "private music school at Paris"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3577686>,
+        "16004732"^^xsd:string,
+        "VZD5QpBx"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf,
+        faamentity:dtkJhYLf ;
+    skos:altLabel "Ecole Niedermeyer"^^xsd:string,
+        "Niedermeyer school in Paris"^^xsd:string,
+        "École Niedermeyer de Paris"^^xsd:string ;
+    skos:prefLabel "Niedermeyer school in Paris"^^xsd:string .
+

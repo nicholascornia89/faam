@@ -1,0 +1,38 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MLV2mctL a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:UMravioT ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DreX65dv ;
+    schema1:identifier "15992270"^^xsd:string,
+        "KCA-030903915962"^^xsd:string,
+        "MLV2mctL"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14737800/N"^^schema1:url ;
+    skos:prefLabel "Zes Latijnse lofgeVoiceen : 2 en 3 gelijke stemmen"^^xsd:string ;
+    wd:P217 "MM-KM-CLEME-motet6-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"MLV2mctL-e7d051be-af64-45a3-83a2-b37700402c4f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DreX65dv a rdf:object .
+

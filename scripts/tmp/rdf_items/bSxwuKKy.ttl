@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bSxwuKKy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:EqtAuzbH,
+        faamentity:GepDoTXn,
+        faamentity:UJ57Ew5y ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:Fs2ZbaMQ,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Qpi4vWw7,
+        faamentity:SfdhwsSz ;
+    schema1:hasPart faamentity:f9aYGmvD ;
+    schema1:identifier "16004318"^^xsd:string,
+        "BNF-428466451"^^xsd:string,
+        "bSxwuKKy"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428466451"^^schema1:url ;
+    skos:prefLabel "3 études caractéristiques pour violon avec accpt. de piano, op. 37"^^xsd:string ;
+    wd:P217 "VM8 C-30"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"bSxwuKKy-57a92e60-c21c-42b1-b740-3ae0437f8944"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"bSxwuKKy-ab6dfe64-97ff-4934-82b7-fcbed3791048"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:Qpi4vWw7 a rdf:object .
+
+faamentity:SfdhwsSz a rdf:object .
+

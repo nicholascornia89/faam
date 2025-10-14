@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4AMPVsN8 a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "quality of a musical note or sound or tone"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q176501>,
+        "15992227"^^xsd:string,
+        "4AMPVsN8"^^xsd:string ;
+    skos:altLabel "timbre"^^xsd:string ;
+    skos:prefLabel "timbre"^^xsd:string .
+

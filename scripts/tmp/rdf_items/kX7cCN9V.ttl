@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kX7cCN9V a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:E4rhHet3,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:LtW88Gtx,
+        faamentity:jP8px5zn ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:eNyFmkHC,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GecAsFfL,
+        faamentity:gUAVo2ie ;
+    schema1:hasPart faamentity:AABMWhHK ;
+    schema1:identifier "15992680"^^xsd:string,
+        "KCG-000331903"^^xsd:string,
+        "kX7cCN9V"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331903"^^schema1:url ;
+    skos:prefLabel "CONCERTO in d : BWV 1043 : voor 2 violen, strijkers en b.c. ; reductie voor 2 violen en piano"^^xsd:string ;
+    wd:P217 "II6033"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"kX7cCN9V-4368a37f-11f5-4e11-a194-facd9ad7bfb2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"kX7cCN9V-4ffd12aa-1ce0-482d-922e-1952d5e9535a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"kX7cCN9V-cb6b79ca-c6be-4425-a1c4-9f083af1c35c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:gUAVo2ie a rdf:object .
+

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Vfbz9qQ8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:VwZmF2Uv ;
+    schema1:birthDate "1861-00-00"^^xsd:string,
+        "1861-07-12"^^xsd:string,
+        "1861-07-31"^^xsd:string,
+        "1861-08-11"^^xsd:string ;
+    schema1:birthPlace faamentity:M5W2ty6e,
+        faamentity:ZpwbPoZj ;
+    schema1:deathDate "1906-02-25"^^xsd:string ;
+    schema1:deathPlace faamentity:jKNbNHV9 ;
+    schema1:description "Russian composer, pianist and professor of music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q313970>,
+        "0"^^xsd:string,
+        "Vfbz9qQ8"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM ;
+    skos:altLabel "Anton Stepanovich Arensky"^^xsd:string ;
+    skos:prefLabel "Anton Arensky"^^xsd:string ;
+    wd:P108 faamentity:GjurMHUq ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:37714181 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/34314> ;
+    wd:P737 faamentity:DyTsrwPC ;
+    wd:P839 <https://imslp.org/wiki/Category:Arensky,_Anton> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

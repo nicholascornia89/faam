@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6TCzMUmP a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:identifier "16002697"^^xsd:string,
+        "6TCzMUmP"^^xsd:string ;
+    skos:prefLabel "Ecce quomodo moritur justus"^^xsd:string ;
+    wd:P5202 faamentity:3d7HnPZv,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:BRFWyvXx,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Ecce_quomodo_moritur_justus_(Victoria,_Tomás_Luis_de)> .
+

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CWKiEvvh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7,
+        faamentity:kXwGWDJS ;
+    schema1:birthDate "1797-01-31"^^xsd:string ;
+    schema1:birthPlace faamentity:UvT8FR5N,
+        faamentity:YhzTZqWq ;
+    schema1:deathDate "1828-11-19"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian composer (1797–1828)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7312>,
+        "15995975"^^xsd:string,
+        "CWKiEvvh"^^xsd:string ;
+    schema1:nationality faamentity:KWjNoJvm,
+        faamentity:PYaeFADo,
+        faamentity:jzSuLNvo ;
+    skos:altLabel "Franz Peter Schubert"^^xsd:string,
+        "Franz Schubert"^^xsd:string,
+        "Schubert"^^xsd:string ;
+    skos:prefLabel "Franz Schubert"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:29719275 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/111603> ;
+    wd:P737 faamentity:VQ9LnFAH ;
+    wd:P839 <https://imslp.org/wiki/Category:Schubert,_Franz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QBx3kSJW,
+        faamentity:T6nAVeGM .
+

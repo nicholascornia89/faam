@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9TgMT85T a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:SGB8L355 ;
+    schema1:description "Suite by Antonín Dvořák"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2622524>,
+        "16004375"^^xsd:string,
+        "9TgMT85T"^^xsd:string ;
+    skos:altLabel "8 Humoresques, Op. 101"^^xsd:string,
+        "Humoresques, Op. 101"^^xsd:string ;
+    skos:prefLabel "8 Humoresques, Op.101"^^xsd:string ;
+    wd:P5202 faamentity:JXgmU5ov ;
+    wd:P7937 faamentity:6wpp746x,
+        faamentity:KdGKqPWR,
+        faamentity:Y5VdxeTi ;
+    wd:P839 <https://imslp.org/wiki/8_Humoresques,_Op.101_(Dvořák,_Antonín)> .
+

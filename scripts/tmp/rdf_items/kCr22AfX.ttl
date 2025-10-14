@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kCr22AfX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1782-12-21"^^xsd:string ;
+    schema1:birthPlace faamentity:eDJY9EUa ;
+    schema1:deathDate "1838-01-28"^^xsd:string ;
+    schema1:deathPlace faamentity:dDEiGXXd ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q447432>,
+        "15995922"^^xsd:string,
+        "kCr22AfX"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Antoine-Tranquille Berbiguier"^^xsd:string,
+        "Benoit Tranquille Berbiguier"^^xsd:string,
+        "Benoît Tranquille Berbiguier"^^xsd:string,
+        "Benoît-Tranquille Berbiguier"^^xsd:string ;
+    skos:prefLabel "Benoît Tranquille Berbiguier"^^xsd:string ;
+    wd:P1303 faamentity:AdNoqEfD ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:29797811 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/12650> ;
+    wd:P737 faamentity:idqENLhq,
+        faamentity:jzsis3MS ;
+    wd:P839 <https://imslp.org/wiki/Category:Berbiguier,_Tranquille> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7,
+        faamentity:RVTQxuie .
+

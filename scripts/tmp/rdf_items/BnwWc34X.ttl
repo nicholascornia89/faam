@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BnwWc34X a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "Wikidata metaclass"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110295396>,
+        "0"^^xsd:string,
+        "BnwWc34X"^^xsd:string ;
+    skos:altLabel "music instrument"^^xsd:string,
+        "musical instrument type"^^xsd:string,
+        "type of music instrument"^^xsd:string ;
+    skos:prefLabel "type of musical instrument"^^xsd:string .
+

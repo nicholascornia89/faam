@@ -1,0 +1,46 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2xdjPXtz a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1863-08-16"^^xsd:string ;
+    schema1:birthPlace faamentity:M5RyJnDy ;
+    schema1:deathDate "1937-07-17"^^xsd:string ;
+    schema1:deathPlace faamentity:GeCMnv78 ;
+    schema1:description "French composer, conductor, and organist (1863–1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q433749>,
+        "16002406"^^xsd:string,
+        "2xdjPXtz"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Gabriel Pierne"^^xsd:string,
+        "Gabriel Pierné"^^xsd:string,
+        "Pierne"^^xsd:string ;
+    skos:prefLabel "Gabriel Pierné"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12492499 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/18686> ;
+    wd:P737 faamentity:55e2GrNr,
+        faamentity:5PuKvYa3,
+        faamentity:GDBksC26,
+        faamentity:S8cQ5LB8,
+        faamentity:gYLkYPva,
+        faamentity:iY78UHRF ;
+    wd:P839 <https://imslp.org/wiki/Category:Pierné,_Gabriel> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:FicTBGBH,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:kTo2uTWZ .
+

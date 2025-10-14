@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7aSYFGEc a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "music conservatory in Bologna, Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3687222>,
+        "16004773"^^xsd:string,
+        "7aSYFGEc"^^xsd:string ;
+    schema1:location faamentity:MxnLw4ay,
+        faamentity:fj46nffV ;
+    skos:altLabel "Conservatorio G. B. Martini di Bologna"^^xsd:string,
+        "Conservatorio Giovanni Battista Martini"^^xsd:string,
+        "Conservatorio Statale di Musica G. B. Martini"^^xsd:string,
+        "Conservatorio di Musica \"G.B. Martini\""^^xsd:string ;
+    skos:prefLabel "Conservatorio Giovanni Battista Martini"^^xsd:string .
+

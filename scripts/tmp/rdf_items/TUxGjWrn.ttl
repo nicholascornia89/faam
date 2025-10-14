@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TUxGjWrn a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former country (1618–1701)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q157367>,
+        "15998259"^^xsd:string,
+        "TUxGjWrn"^^xsd:string ;
+    skos:altLabel "Brandenburg-Prussia"^^xsd:string ;
+    skos:prefLabel "Brandenburg-Prussia"^^xsd:string .
+

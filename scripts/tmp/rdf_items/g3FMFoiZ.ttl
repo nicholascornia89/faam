@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g3FMFoiZ a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "group of voices with similar vocal ranges"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1063547>,
+        "0"^^xsd:string,
+        "g3FMFoiZ"^^xsd:string ;
+    skos:altLabel "category of vocal"^^xsd:string,
+        "category of voice"^^xsd:string,
+        "type of vocal"^^xsd:string,
+        "type of voice"^^xsd:string,
+        "vocal category"^^xsd:string,
+        "vocal type"^^xsd:string,
+        "voice category"^^xsd:string ;
+    skos:prefLabel "voice type"^^xsd:string .
+

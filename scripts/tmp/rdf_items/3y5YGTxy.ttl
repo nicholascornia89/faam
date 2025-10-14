@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3y5YGTxy a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "village in Worcestershire, United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2423318>,
+        "0"^^xsd:string,
+        "3y5YGTxy"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "Broadheath"^^xsd:string,
+        "Broadheath, Worcestershire"^^xsd:string,
+        "Lower Broadheath (civil parish), Worcestershire"^^xsd:string,
+        "Lower Broadheath, Worcestershire"^^xsd:string ;
+    skos:prefLabel "Lower Broadheath"^^xsd:string ;
+    wd:P1566 gn:7297509,
+        gn:9166738 .
+

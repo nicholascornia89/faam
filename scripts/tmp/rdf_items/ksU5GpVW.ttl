@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ksU5GpVW a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "kingdom in Central Europe between 1806 and 1918, from January 1871 part of the German Empire"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q154195>,
+        "15998272"^^xsd:string,
+        "ksU5GpVW"^^xsd:string ;
+    skos:altLabel "Bavaria"^^xsd:string,
+        "Kinereich Baiern"^^xsd:string,
+        "Kinereich Bayern"^^xsd:string,
+        "Kingdom of Bavaria"^^xsd:string,
+        "Königreich Baiern"^^xsd:string,
+        "Königreich Bayern"^^xsd:string ;
+    skos:prefLabel "Kingdom of Bavaria"^^xsd:string .
+

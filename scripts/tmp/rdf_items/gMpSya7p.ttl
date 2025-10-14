@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gMpSya7p a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8kyke5SK ;
+    schema1:birthDate "1771-10-21"^^xsd:string ;
+    schema1:birthPlace faamentity:aP4sN24C ;
+    schema1:deathDate "1834-06-29"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French musician (1771-1834)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1392901>,
+        "15996127"^^xsd:string,
+        "gMpSya7p"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Alexandre-Etienne Choron"^^xsd:string,
+        "Alexandre-Étienne Choron"^^xsd:string ;
+    skos:prefLabel "Alexandre-Étienne Choron"^^xsd:string ;
+    wd:P108 faamentity:ds7atesc,
+        faamentity:gR7Q7sDz ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:46904950 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004674> ;
+    wd:P839 <https://imslp.org/wiki/Category:Choron,_Alexandre-Étienne> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:bSHypyYG .
+

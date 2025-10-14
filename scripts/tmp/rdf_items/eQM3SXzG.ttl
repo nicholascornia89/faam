@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eQM3SXzG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Czech music educator, composer and organist (1800–1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2535769>,
+        "0"^^xsd:string,
+        "eQM3SXzG"^^xsd:string ;
+    skos:altLabel "Vaclav Emanuel Horak"^^xsd:string,
+        "Wenzel Emanuel Horak"^^xsd:string ;
+    skos:prefLabel "Václav Emanuel Horák"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:10611378 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/98994> ;
+    wd:P839 <https://imslp.org/wiki/Category:Horák,_Václav_Emanuel> .
+

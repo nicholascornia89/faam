@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:a64gD2W5 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EqtAuzbH,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:E4rhHet3,
+        faamentity:K4TocMAK,
+        faamentity:NRsZG792,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:WiBZjkbR,
+        faamentity:X8NxipyB,
+        faamentity:gdZjhzFU ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6Y4mMmBh,
+        faamentity:DDH7fEFM,
+        faamentity:aqZsHrbA ;
+    schema1:hasPart faamentity:dyThGejm ;
+    schema1:identifier "15992525"^^xsd:string,
+        "KCA-030904183586"^^xsd:string,
+        "a64gD2W5"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6761767/N"^^schema1:url ;
+    skos:prefLabel "Concerto per chitarra, archi e timpani, op. 30"^^xsd:string ;
+    wd:P217 "UM-TGI-GIULI-conc30-2"^^xsd:string ;
+    wd:P870 faamentity:7RKddazD,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"a64gD2W5-16aee8cc-5341-47db-92d0-14c614aa897e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"a64gD2W5-c17a2943-2f2b-41aa-802f-71251eaa59b0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"a64gD2W5-d6b5d98e-e33d-43d1-b209-4d0f1ba420c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:6Y4mMmBh a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:aqZsHrbA a rdf:object .
+

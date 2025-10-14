@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g9q7Pf6S a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:h7iqGs87 ;
+    schema1:description "concerto written in 1837 by Felix Mendelssohn"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q210213>,
+        "16002492"^^xsd:string,
+        "g9q7Pf6S"^^xsd:string ;
+    skos:altLabel "Piano Concerto No. 2"^^xsd:string,
+        "Piano Concerto No. 2 in D Minor, Op. 40"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No.2, Op.40"^^xsd:string ;
+    wd:P7937 faamentity:iHeydB2F ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.2,_Op.40_(Mendelssohn,_Felix)> .
+

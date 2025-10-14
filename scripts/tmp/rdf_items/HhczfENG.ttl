@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HhczfENG a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "Germany from 1933 to 1945 while under control of the Nazi Party"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7318>,
+        "0"^^xsd:string,
+        "HhczfENG"^^xsd:string ;
+    skos:altLabel "German Reich"^^xsd:string,
+        "Greater German Reich"^^xsd:string,
+        "Hitler's Third Reich"^^xsd:string,
+        "Third Reich"^^xsd:string,
+        "Thousand-Year Reich"^^xsd:string ;
+    skos:prefLabel "Nazi Germany"^^xsd:string .
+

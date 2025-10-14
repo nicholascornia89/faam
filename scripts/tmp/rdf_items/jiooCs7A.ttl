@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jiooCs7A a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:UM7y2NCo,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:jm4QpjVW,
+        faamentity:jnXsRCEa ;
+    schema1:hasPart faamentity:FA3sCouY ;
+    schema1:identifier "15992600"^^xsd:string,
+        "KCG-000356465"^^xsd:string,
+        "jiooCs7A"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000356465"^^schema1:url ;
+    skos:prefLabel "2me. Quintette ou Sextuor : pour deux Violons, deux Altos, Violoncelle et Contrebasse (ad libitum) : Op. 51"^^xsd:string ;
+    skosref:note "Only violin part."^^rdf:HTML ;
+    wd:P217 "DS-1125"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"jiooCs7A-156849e2-cb6c-4136-b0c1-ebe144118441"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"jiooCs7A-3fbd89e5-5087-4ac4-8099-59870994aa53"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+"jiooCs7A-ae690f39-99bc-4300-8f4f-d17ca8067aad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"jiooCs7A-f036be05-031a-49f9-835c-c8f0c68d3eec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:jm4QpjVW a rdf:object .
+
+faamentity:jnXsRCEa a rdf:object .
+

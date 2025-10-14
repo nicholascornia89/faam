@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WRPv2YQY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:QGRAMUu8 ;
+    faamprop:handwritten_annotation faamentity:D6RjeTWv,
+        faamentity:NRsZG792,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:8eHc2EdM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:X8CowJzi,
+        faamentity:kZ9cSBEr ;
+    schema1:identifier "15992440"^^xsd:string,
+        "KCA-030902762332"^^xsd:string,
+        "WRPv2YQY"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:427006/N"^^schema1:url ;
+    skos:prefLabel "Le nuage : romance"^^xsd:string ;
+    wd:P217 "MM-ZL-BENOI-nuage-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"WRPv2YQY-2b03ec44-8e47-42d5-b153-4a2d179e7afb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"WRPv2YQY-3b816777-95d3-43ed-9351-62a62a9d928a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"WRPv2YQY-6b6dbe72-c650-4388-b96a-8f411fd4e68b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"WRPv2YQY-7e062ad3-247d-41a3-b35d-1e6f03d26e58"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:kZ9cSBEr a rdf:object .
+

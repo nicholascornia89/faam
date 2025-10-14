@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:J6QhzGCy a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "Central European monarchy (1000–1946)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q171150>,
+        "16004412"^^xsd:string,
+        "J6QhzGCy"^^xsd:string ;
+    skos:altLabel "Hungary"^^xsd:string,
+        "Kingdom of Hungary"^^xsd:string,
+        "Transleithania"^^xsd:string ;
+    skos:prefLabel "Kingdom of Hungary"^^xsd:string .
+

@@ -1,0 +1,51 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VWxfQNha a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:KEwR4rEs ;
+    dcelem:subject faamentity:NkfcVjHM,
+        faamentity:ZS9h3s2q ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5q9U4tL9,
+        faamentity:FKvvzr9a,
+        faamentity:mNynReve ;
+    schema1:identifier "16005032"^^xsd:string,
+        "BNF-324059706"^^xsd:string,
+        "VWxfQNha"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb324059706"^^schema1:url ;
+    skos:prefLabel "Théories complètes du chant / par M. Stéphen de La Madelaine..."^^xsd:string ;
+    wd:P217 "V-43585"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"VWxfQNha-06f91b4c-745e-4a9f-ae39-4656a7ae37eb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:dtkJhYLf .
+
+"VWxfQNha-309bdead-f432-45a8-8a55-be6b26a01ca7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VWxfQNha-971d79fd-af04-403c-8bdd-a69e12a25ba2"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1852"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:5q9U4tL9 a rdf:object .
+
+faamentity:FKvvzr9a a rdf:object .
+
+faamentity:mNynReve a rdf:object .
+

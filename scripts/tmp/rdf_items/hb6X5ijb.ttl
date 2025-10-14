@@ -1,0 +1,36 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hb6X5ijb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:cmQGFaLi ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4tQBaATq,
+        faamentity:6wpp746x ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3EGSrwCz ;
+    schema1:identifier "15992329"^^xsd:string,
+        "KCA-030901696879"^^xsd:string,
+        "hb6X5ijb"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6884524/N"^^schema1:url ;
+    skos:prefLabel "Musik zu Shakespeare's \"Sturm\", Op. 8"^^xsd:string ;
+    wd:P217 "MM-OO-VANDERS-musik-1"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"hb6X5ijb-82d0d0ec-cbac-471c-b336-1d8a161859ed"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:3EGSrwCz a rdf:object .
+

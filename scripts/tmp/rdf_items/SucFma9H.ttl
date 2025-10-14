@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SucFma9H a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "church cantata by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q13853971>,
+        "16004342"^^xsd:string,
+        "SucFma9H"^^xsd:string ;
+    schema1:isBasedOn faamentity:SBQkym6x ;
+    skos:altLabel "BWV 1"^^xsd:string,
+        "Wie schön leuchtet der Morgenstern, BWV 1"^^xsd:string ;
+    skos:prefLabel "Wie schön leuchtet der Morgenstern, BWV 1"^^xsd:string ;
+    wd:P214 viaf:175874309,
+        viaf:309877461 ;
+    wd:P5202 faamentity:T4UPmCxj ;
+    wd:P7937 faamentity:QELJUJBf ;
+    wd:P839 <https://imslp.org/wiki/Wie_schön_leuchtet_der_Morgenstern,_BWV_1_(Bach,_Johann_Sebastian)> .
+

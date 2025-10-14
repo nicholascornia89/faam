@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A3yXj2r8 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:AsPJ6dfX ;
+    schema1:identifier "16002484"^^xsd:string,
+        "A3yXj2r8"^^xsd:string ;
+    skos:prefLabel "Horn Solo No.12, Op.55"^^xsd:string ;
+    wd:P7937 faamentity:4Tq9WPGv,
+        faamentity:X8NxipyB ;
+    wd:P839 <https://imslp.org/wiki/Horn_Solo_No.12,_Op.55_(Gallay,_Jacques_François)> .
+

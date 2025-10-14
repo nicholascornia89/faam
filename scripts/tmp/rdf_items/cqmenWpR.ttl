@@ -1,0 +1,35 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cqmenWpR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:YZXcaKsg ;
+    schema1:identifier "16004302"^^xsd:string,
+        "KCA-030904919054"^^xsd:string,
+        "cqmenWpR"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6757647/N"^^schema1:url ;
+    skos:prefLabel "95 esercizi : facili e preparatorî al secondo fascicolo della prima parte della 'Nuovo metodo per violino con la teoria del tetracordo' = 95 exercices : faciles et servant de préparation au deuxième cahier de la première partie de la 'Nouvelle méthode pour le violon avec la théorie du tétracorde' = 95 easy exercises : preparatory to book II of part I of the 'New method for the violin with the theory of the tetrachord'"^^xsd:string ;
+    wd:P217 "MM-SV-BUYA-eserc95-1"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"cqmenWpR-9c19bddb-b0fd-4b93-b4e7-bdb3c2f1c5b4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:YZXcaKsg a rdf:object .
+

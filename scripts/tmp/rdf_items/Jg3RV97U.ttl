@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Jg3RV97U a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:DawBtzdU,
+        faamentity:NRsZG792,
+        faamentity:bTYqbr5b,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:j3tnVzW5 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:NkfcVjHM,
+        faamentity:T9uNf9Ax ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2piRAHqK,
+        faamentity:GecAsFfL,
+        faamentity:S2cBi8P9 ;
+    schema1:hasPart faamentity:VPxtxJ4E ;
+    schema1:identifier "15992665"^^xsd:string,
+        "Jg3RV97U"^^xsd:string,
+        "KCA-030903238001"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14088528/N"^^schema1:url ;
+    skos:prefLabel "12 petits préludes : pour piano à 2 mains = 12 kleine preluden : voor piano met 2 handen"^^xsd:string ;
+    wd:P217 "UM-TP-BACH-prelu12-1"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt .
+
+schema1:contributor a rdf:predicate .
+
+"Jg3RV97U-2e39ce3d-77b0-4873-b736-9669494d2a70"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Jg3RV97U-74014546-a164-4e5c-ae27-26d82f013bcd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:C7kdb9pB .
+
+"Jg3RV97U-f422d37c-be48-4daa-bb81-a1b9dd821b60"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:2piRAHqK a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:S2cBi8P9 a rdf:object .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3eoZBogt a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "transfer of the meaning of something in one language into another"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7553>,
+        "15992181"^^xsd:string,
+        "3eoZBogt"^^xsd:string ;
+    skos:altLabel "translate"^^xsd:string,
+        "translating"^^xsd:string,
+        "translation"^^xsd:string ;
+    skos:prefLabel "translation"^^xsd:string .
+

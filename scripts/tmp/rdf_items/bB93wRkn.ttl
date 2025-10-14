@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bB93wRkn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:E5Gsrug8 ;
+    schema1:birthDate "1715-12-12"^^xsd:string ;
+    schema1:birthPlace faamentity:mSVELu4H ;
+    schema1:deathDate "1779-12-28"^^xsd:string ;
+    schema1:deathPlace faamentity:mSVELu4H ;
+    schema1:description "Italian composer (1715-1779)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q665262>,
+        "0"^^xsd:string,
+        "bB93wRkn"^^xsd:string ;
+    schema1:nationality faamentity:ZxQvWKbx ;
+    skos:prefLabel "Gennaro Manna"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:90260653 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002061> ;
+    wd:P737 faamentity:YhdECY6i,
+        faamentity:f6SUUPFd ;
+    wd:P839 <https://imslp.org/wiki/Category:Manna,_Gennaro> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:bSHypyYG .
+

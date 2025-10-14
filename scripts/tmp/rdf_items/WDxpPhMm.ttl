@@ -1,0 +1,78 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WDxpPhMm a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:MR3kLpuM,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:BCnvWaxh,
+        faamentity:CGy68nTi,
+        faamentity:X3yMqYb6 ;
+    schema1:identifier "16005666"^^xsd:string,
+        "DPF-202502015"^^xsd:string,
+        "WDxpPhMm"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Duo motetta (Tota pulchra es - Regina coeli). Ad tres voces aequales comitante organo"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Septembris 1938 (No. 3)."^^rdf:HTML ;
+    wd:P217 "ms-1938-03"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"WDxpPhMm-b880bf51-9ee0-4597-931a-4ab1ea485d78"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"WDxpPhMm-e6020ddd-331f-4f1b-8392-d6271e676df3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"WDxpPhMm-ed6ef2b5-5595-4bac-92dd-c9fbeeb233ba"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "09-1938"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"WDxpPhMm-ef4a7f0d-591f-4354-8b19-5dad40514a13"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:BCnvWaxh a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+

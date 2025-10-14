@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:idDHKrCv a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Wales"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q319761>,
+        "0"^^xsd:string,
+        "idDHKrCv"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "University College Aberystwyth"^^xsd:string,
+        "University College Wales"^^xsd:string,
+        "University College of Wales (Aberystwyth, Wales) -- Records and correspondence"^^xsd:string,
+        "University College of Wales, Aberystwyth"^^xsd:string,
+        "University College, Aberystwyth"^^xsd:string,
+        "University of Aberystwyth"^^xsd:string,
+        "University of Wales, Aberystwyth"^^xsd:string ;
+    skos:prefLabel "Aberystwyth University"^^xsd:string .
+

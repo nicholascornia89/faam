@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QwSKSFky a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1791-01-28"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf,
+        faamentity:fJWmWr3M ;
+    schema1:deathDate "1833-01-19"^^xsd:string ;
+    schema1:deathPlace faamentity:FzyWhUYQ ;
+    schema1:description "French composer (1791–1833)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q362639>,
+        "15995963"^^xsd:string,
+        "QwSKSFky"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Ferdinand Herold"^^xsd:string,
+        "Ferdinand Hérold"^^xsd:string,
+        "Louis Joseph F. Herold"^^xsd:string,
+        "Louis Joseph Ferdinand Herold"^^xsd:string,
+        "Louis Joseph Ferdinand Hérold"^^xsd:string ;
+    skos:prefLabel "Ferdinand Hérold"^^xsd:string ;
+    wd:P108 faamentity:ds7atesc,
+        faamentity:fbExihQ2,
+        faamentity:msg4Ys3v ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:95194516 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/75095> ;
+    wd:P737 faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Hérold,_Ferdinand> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:FCFjyCRp,
+        faamentity:QMuvx5h8,
+        faamentity:T6nAVeGM,
+        faamentity:kTo2uTWZ .
+

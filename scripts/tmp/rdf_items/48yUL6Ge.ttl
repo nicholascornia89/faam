@@ -1,0 +1,57 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:48yUL6Ge a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:oUawCngd ;
+    schema1:birthDate "1895-11-16"^^xsd:string ;
+    schema1:birthPlace faamentity:7qymy8cZ ;
+    schema1:deathDate "1963-12-28"^^xsd:string ;
+    schema1:deathPlace faamentity:RiB7qUPm ;
+    schema1:description "German composer (1895–1963)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57244>,
+        "15996106"^^xsd:string,
+        "48yUL6Ge"^^xsd:string ;
+    schema1:nationality faamentity:CCZUVnPJ,
+        faamentity:CTNhzr7a,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Paul Hindemith"^^xsd:string ;
+    skos:prefLabel "Paul Hindemith"^^xsd:string ;
+    wd:P108 faamentity:89jLoa5o,
+        faamentity:FrC8mHfX,
+        faamentity:HVonixyH,
+        faamentity:KCuuJYaL,
+        faamentity:PPPEugp4,
+        faamentity:iYVs3nZm ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:24622167 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/90311> ;
+    wd:P737 faamentity:PjmNW6zi,
+        faamentity:WqiSzZBk,
+        faamentity:ipXEPSuV ;
+    wd:P839 <https://imslp.org/wiki/Category:Hindemith,_Paul> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:AxAVvEqV,
+        faamentity:BPsUV5WT,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:QBx3kSJW,
+        faamentity:RZGiFfU2,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:Z3zCJvmg,
+        faamentity:aB6ga3Wq,
+        faamentity:nuEgp7qK .
+

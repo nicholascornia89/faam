@@ -1,0 +1,108 @@
+{
+  "id": "nxwcCzVb",
+  "uuid_num": 87899748470439,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Indian harmonium"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "portative reed organ"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q213461",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Indian harmonium"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_instrument"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "nxwcCzVb"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "instance of": [
+      {
+        "type": "item",
+        "value": "BnwWc34X",
+        "label": ""
+      }
+    ],
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "LFFKbemY",
+        "label": "pump organ"
+      },
+      {
+        "type": "item",
+        "value": "E2Sb746q",
+        "label": ""
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "C2HMXPaX",
+        "type": "item",
+        "label": "François Benoist",
+        "description": "French musician (1794–1878)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Francois_Benoist.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nxwcCzVb.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nxwcCzVb.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nxwcCzVb.csv"
+      }
+    ]
+  }
+}

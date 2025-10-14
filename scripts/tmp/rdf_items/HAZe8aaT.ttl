@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HAZe8aaT a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1740-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:96rVh94r ;
+    schema1:deathDate "1795-06-20"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r ;
+    schema1:description "Pietro Grassi Florio; b. before 1740; d. June 20, 1795 in London; Italian"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q106194929>,
+        "15995865"^^xsd:string,
+        "HAZe8aaT"^^xsd:string ;
+    skos:altLabel "Pietro Florio Grassi"^^xsd:string,
+        "Pietro Grassi Florio"^^xsd:string ;
+    skos:prefLabel "Pietro Grassi Florio"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:43006889 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30013791> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:RVTQxuie,
+        faamentity:YrCfZ8vh,
+        faamentity:bX2aWAhB .
+

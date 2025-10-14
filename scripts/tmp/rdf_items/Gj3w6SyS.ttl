@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gj3w6SyS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1875-03-07"^^xsd:string ;
+    schema1:birthPlace faamentity:7rzJP42T ;
+    schema1:deathDate "1937-12-28"^^xsd:string ;
+    schema1:deathPlace faamentity:LpahSk8R,
+        faamentity:dtkJhYLf ;
+    schema1:description "French composer (1875-1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1178>,
+        "15996101"^^xsd:string,
+        "Gj3w6SyS"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Maurice Joseph Ravel"^^xsd:string,
+        "Maurice Ravel"^^xsd:string ;
+    skos:prefLabel "Maurice Ravel"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2657495 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30008498> ;
+    wd:P737 faamentity:2f832VwN,
+        faamentity:6fNCgBTJ,
+        faamentity:GsCCwH8o,
+        faamentity:Mj6zznNc,
+        faamentity:VfHXUrdP,
+        faamentity:WUZ8VDyK,
+        faamentity:btwYwVv8,
+        faamentity:gEt6mois ;
+    wd:P839 <https://imslp.org/wiki/Category:Ravel,_Maurice> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

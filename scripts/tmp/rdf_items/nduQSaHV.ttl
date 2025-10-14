@@ -1,0 +1,63 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nduQSaHV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:93GDD9ND,
+        faamentity:gb6MiJbD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:H9peVKU2,
+        faamentity:hJoKsjEm,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Qw4zjHnS ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8tdvhwo3,
+        faamentity:EzfSNmgD,
+        faamentity:MpcFo7ct,
+        faamentity:UfxMztgE ;
+    schema1:identifier "15992340"^^xsd:string,
+        "KCA-030902707238"^^xsd:string,
+        "nduQSaHV"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13122713/N"^^schema1:url ;
+    skos:prefLabel "Chacone grave"^^xsd:string ;
+    wd:P217 "MM-TC-LEBEG-chacone-1"^^xsd:string ;
+    wd:P870 faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"nduQSaHV-0dac9e29-e02c-4a60-86fa-8d3e2261c5fa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"nduQSaHV-2bfcae99-d687-4ce8-8460-8b92ba3a933f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"nduQSaHV-4b92c342-0c7e-4032-adbf-559edea068c0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1675"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"nduQSaHV-b477b2f4-67c1-4351-b68e-e9c039d7a7b3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:8tdvhwo3 a rdf:object .
+
+faamentity:EzfSNmgD a rdf:object .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:UfxMztgE a rdf:object .
+

@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SxguNxFh a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:PprjdkHE ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5aZz3L82,
+        faamentity:Gx3B7DJH,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:58TCtiCL ;
+    schema1:identifier "15992269"^^xsd:string,
+        "KCA-030901824620"^^xsd:string,
+        "SxguNxFh"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7040005/N"^^schema1:url ;
+    skos:prefLabel "Alma redemptoris"^^xsd:string ;
+    wd:P217 "MM-KM-BENOI-almared-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"SxguNxFh-9d9217c8-cc6a-4910-b8be-6f6b5ae18799"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"SxguNxFh-f69d9975-30b2-4b7b-b48d-32d3b00f3f4b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SxguNxFh-fbf80dcf-2312-4d7c-bab5-af012cc1fdd7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FzWHjxg5 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Venezia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q945776>,
+        "16004774"^^xsd:string,
+        "FzWHjxg5"^^xsd:string ;
+    schema1:location faamentity:CgZzMq22,
+        faamentity:fj46nffV ;
+    skos:altLabel "Conservatorio di Musica Benedetto Marcello di Venezia"^^xsd:string ;
+    skos:prefLabel "Conservatorio di Musica Benedetto Marcello di Venezia"^^xsd:string .
+

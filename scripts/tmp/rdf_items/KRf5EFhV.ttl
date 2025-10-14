@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KRf5EFhV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:QeqFpJLJ,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:jP8px5zn,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:cmQGFaLi ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:YVdQHjKd ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BVmnZjBu,
+        faamentity:DDH7fEFM,
+        faamentity:Rz4AdCV3 ;
+    schema1:identifier "15992259"^^xsd:string,
+        "KCA-030904186639"^^xsd:string,
+        "KRf5EFhV"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14789292/N"^^schema1:url ;
+    skos:prefLabel "Groeninghe : (de leeuwen dansen): voor massaVoice enOrchestra"^^xsd:string ;
+    wd:P217 "MM-CEBED-VANHO-groenin-56"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"KRf5EFhV-993842c0-091f-4d35-8579-bc897baad3cd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"KRf5EFhV-c1cfdbf4-1339-40a8-8d0a-8401124046d4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"KRf5EFhV-c8b0bb37-ad3e-430f-87c2-6f01094e6f91"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1991"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"KRf5EFhV-d124057f-51c0-44eb-9704-078568826844"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:BVmnZjBu a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Rz4AdCV3 a rdf:object .
+

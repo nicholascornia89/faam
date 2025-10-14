@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FeRTAUvm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1775-10-15"^^xsd:string ;
+    schema1:birthPlace faamentity:iEzw8EiF ;
+    schema1:deathDate "1838-07-28"^^xsd:string ;
+    schema1:deathPlace faamentity:LUkcy3mi ;
+    schema1:description "Swedish-Finnish clarinetist, composer and translator (1775–1838)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q708911>,
+        "16004993"^^xsd:string,
+        "FeRTAUvm"^^xsd:string ;
+    schema1:nationality faamentity:3Ho9ctKq ;
+    skos:altLabel "Bernhard Crusell"^^xsd:string,
+        "Bernhard Henrik Crusell"^^xsd:string ;
+    skos:prefLabel "Bernhard Crusell"^^xsd:string ;
+    wd:P108 faamentity:BzWe9XnY ;
+    wd:P1303 faamentity:MVLRXXFR ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2655780 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/74866> ;
+    wd:P737 faamentity:93XWfcVS,
+        faamentity:G4co3etX,
+        faamentity:jzsis3MS,
+        faamentity:kypLEwJs ;
+    wd:P839 <https://imslp.org/wiki/Category:Crusell,_Bernhard_Henrik> ;
+    schema:hasOccupation faamentity:4oKtB5xy,
+        faamentity:5aTYuVxp,
+        faamentity:TFAYYcQp,
+        faamentity:Tj5k8Dah .
+

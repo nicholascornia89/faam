@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CPwnrmhG a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "violin concerto by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1085532>,
+        "16004373"^^xsd:string,
+        "CPwnrmhG"^^xsd:string ;
+    skos:altLabel "Violin Concerto in A Minor, BWV 1041"^^xsd:string,
+        "Violin Concerto in A minor, BWV 1041"^^xsd:string ;
+    skos:prefLabel "Violin Concerto in A minor, BWV 1041"^^xsd:string ;
+    wd:P5202 faamentity:gUAVo2ie ;
+    wd:P7937 faamentity:4Jjg5FwX,
+        faamentity:X8NxipyB ;
+    wd:P839 <https://imslp.org/wiki/Violin_Concerto_in_A_minor,_BWV_1041_(Bach,_Johann_Sebastian)> .
+

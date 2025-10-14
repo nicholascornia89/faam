@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8gSz5Fip a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:b3QcSGeL,
+        faamentity:eJhxFoas,
+        faamentity:eNyFmkHC,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:E4rhHet3,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:PPhziStg,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:dmEmZrfD,
+        faamentity:kwFtSvVM ;
+    schema1:identifier "15992267"^^xsd:string,
+        "8gSz5Fip"^^xsd:string,
+        "KCA-030902505335"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12959368/N"^^schema1:url ;
+    skos:prefLabel "Gracioso: caprice de concert, op. 21"^^xsd:string ;
+    wd:P217 "MM-DUBP-HAAKM-gracios-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"8gSz5Fip-72a35656-066f-4e2a-8e0e-a6618225b9ca"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"8gSz5Fip-857af799-1ae2-478b-9c92-0b4aae704971"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"8gSz5Fip-c2ca979d-ec98-4e1b-9698-2e62fd4adb3d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:dmEmZrfD a rdf:object .
+
+faamentity:kwFtSvVM a rdf:object .
+

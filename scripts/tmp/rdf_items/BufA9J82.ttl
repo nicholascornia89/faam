@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BufA9J82 a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "transcontinental sovereign state and constitutional monarchy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q756617>,
+        "16004223"^^xsd:string,
+        "BufA9J82"^^xsd:string ;
+    skos:altLabel "Danish Realm"^^xsd:string,
+        "Danmarkar Ríki"^^xsd:string,
+        "Danmarkip Naalagaaffik"^^xsd:string,
+        "Danmarks Rige"^^xsd:string,
+        "Denmark"^^xsd:string,
+        "Kingdom of Denmark"^^xsd:string,
+        "Kongeriget Danmark"^^xsd:string,
+        "Kongsríki Danmarkar"^^xsd:string,
+        "Kunngeqarfik Danmarki"^^xsd:string,
+        "Realm of Denmark"^^xsd:string ;
+    skos:prefLabel "Kingdom of Denmark"^^xsd:string .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L5BeZMkD a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "college in Kensington and Chelsea, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q304985>,
+        "15991043"^^xsd:string,
+        "L5BeZMkD"^^xsd:string ;
+    schema1:location faamentity:2VfgbeWV,
+        faamentity:KmPGztnu ;
+    skos:altLabel "RCM"^^xsd:string,
+        "Royal College of Music"^^xsd:string ;
+    skos:prefLabel "Royal College of Music"^^xsd:string .
+

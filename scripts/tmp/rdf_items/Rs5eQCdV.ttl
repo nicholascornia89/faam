@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rs5eQCdV a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "oldest and largest university in the Czech Republic"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q31519>,
+        "16004783"^^xsd:string,
+        "Rs5eQCdV"^^xsd:string ;
+    schema1:location faamentity:3zhLxJ8g,
+        faamentity:iR3nZ9nb ;
+    skos:altLabel "Charles University"^^xsd:string,
+        "Charles-Ferdinand University"^^xsd:string,
+        "Karls-Universität Prag"^^xsd:string,
+        "Prague University"^^xsd:string,
+        "Universitas Carolina"^^xsd:string,
+        "University of Prague"^^xsd:string,
+        "Univerzita Karlova"^^xsd:string,
+        "Univerzita Karlova v Praze"^^xsd:string,
+        "cuni.cz"^^xsd:string ;
+    skos:prefLabel "Charles University"^^xsd:string .
+

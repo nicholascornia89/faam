@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oYkyNa8M a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """[h=1]3me Suite[/h]
+<ol>
+<li> Conte </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:KdGKqPWR,
+        faamentity:kfpMKnYN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Lu42eLG2,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:SLsmnpYr ;
+    schema1:identifier "15992366"^^xsd:string,
+        "KCA-030903966601"^^xsd:string,
+        "oYkyNa8M"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12916155/N"^^schema1:url ;
+    skos:prefLabel "3e Suite"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-conte3-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"oYkyNa8M-87bc65c6-71fd-4920-829a-ceac7aca1edb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"oYkyNa8M-e5c0163a-c2bf-47e3-9ea1-da02f3410880"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"oYkyNa8M-f9fab823-f222-4c85-82cf-9d2996ebdc5f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Lu42eLG2 a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

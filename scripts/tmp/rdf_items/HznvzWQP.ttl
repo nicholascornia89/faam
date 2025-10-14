@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HznvzWQP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1840-04-12"^^xsd:string ;
+    schema1:birthPlace faamentity:aBrma3Zv,
+        faamentity:cV2zJEdw ;
+    schema1:deathDate "1910-09-05"^^xsd:string ;
+    schema1:deathPlace faamentity:77FYikdp ;
+    schema1:description "German priest and musicologist (1840–1910)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q66955>,
+        "15996152"^^xsd:string,
+        "HznvzWQP"^^xsd:string ;
+    schema1:nationality faamentity:ksU5GpVW ;
+    skos:altLabel "Franz Xaver Haberl"^^xsd:string ;
+    skos:prefLabel "Franz Xaver Haberl"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51807093 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/35290> ;
+    wd:P737 faamentity:g4BVigYv ;
+    wd:P839 <https://imslp.org/wiki/Category:Haberl,_Franz_Xaver> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:YrCfZ8vh,
+        faamentity:ZhptKYF3 .
+

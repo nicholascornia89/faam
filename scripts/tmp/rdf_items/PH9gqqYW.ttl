@@ -1,0 +1,53 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PH9gqqYW a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EqtAuzbH ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:4bLsvwPs,
+        faamentity:S8SxfonU,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:L3JmRWH5,
+        faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:X8CowJzi,
+        faamentity:dtZ7QiSY ;
+    schema1:identifier "16005364"^^xsd:string,
+        "ORP-20143703p5"^^xsd:string,
+        "PH9gqqYW"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22185"^^schema1:url ;
+    skos:prefLabel "Six morceaux caractéristiques"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.003"^^xsd:string ;
+    wd:P870 faamentity:LFFKbemY .
+
+schema1:contributor a rdf:predicate .
+
+"PH9gqqYW-109a0d21-8015-4ab8-8b2b-a35e439360f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PH9gqqYW-70d289e2-3a40-4499-adfc-e2a81c146fd2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"PH9gqqYW-cce2d74f-ca1d-4d90-b181-7cfb28d4b601"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:dtZ7QiSY a rdf:object .
+

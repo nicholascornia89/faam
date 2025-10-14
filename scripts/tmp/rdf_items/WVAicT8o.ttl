@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WVAicT8o a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "musical instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q8338>,
+        "15990795"^^xsd:string,
+        "WVAicT8o"^^xsd:string ;
+    skos:altLabel "B-flat trumpet"^^xsd:string,
+        "Bb trumpet"^^xsd:string,
+        "B♭ trumpet"^^xsd:string,
+        "natural trumpet"^^xsd:string,
+        "slide trumpet"^^xsd:string,
+        "trumpet"^^xsd:string,
+        "valve trumpet"^^xsd:string ;
+    skos:prefLabel "trumpet"^^xsd:string ;
+    wd:P279 faamentity:WYosPPz6 ;
+    wd:P31 faamentity:BnwWc34X .
+

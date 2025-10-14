@@ -1,0 +1,42 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LQmZ58bx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Mk25KX72,
+        faamentity:NkfcVjHM,
+        faamentity:RnvRZsHk ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:cy2NFhfp,
+        faamentity:j4DJfCC2 ;
+    schema1:identifier "16005717"^^xsd:string,
+        "BNF-308477215"^^xsd:string,
+        "LQmZ58bx"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb308477215"^^schema1:url ;
+    skos:prefLabel "Traité de l'expression musicale : accents, nuances et mouvements dans la musique vocale et instrumentale / par Mathis Lussy..."^^xsd:string ;
+    wd:P217 "V-15940"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"LQmZ58bx-3d9982e9-776d-43a4-85ee-50d26121a3f2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"LQmZ58bx-8d5aa34c-bef0-49e5-9788-1de66410cfea"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:cy2NFhfp a rdf:object .
+
+faamentity:j4DJfCC2 a rdf:object .
+

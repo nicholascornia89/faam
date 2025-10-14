@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Egi8dQkt a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "reference to a source"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1713>,
+        "15996298"^^xsd:string,
+        "Egi8dQkt"^^xsd:string ;
+    skos:altLabel "bibliographical citation"^^xsd:string,
+        "bibliographical reference"^^xsd:string,
+        "citation"^^xsd:string,
+        "reference"^^xsd:string ;
+    skos:prefLabel "citation"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ,
+        faamentity:9QaFAsRL ;
+    wd:P279 faamentity:79HoWTaM,
+        faamentity:LycxUSRH .
+

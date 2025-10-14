@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XfuAuirY a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French music publishing company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130535096>,
+        "16004227"^^xsd:string,
+        "XfuAuirY"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Au Magasin de Musique de la Lyre Moderne"^^xsd:string ;
+    skos:prefLabel "Au Magasin de Musique de la Lyre Moderne"^^xsd:string ;
+    wd:P214 viaf:18168840533345400295 ;
+    wd:P31 faamentity:HmGw8E8i .
+

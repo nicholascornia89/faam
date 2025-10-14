@@ -1,0 +1,21 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CLH2BEHe a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:identifier "16002741"^^xsd:string,
+        "CLH2BEHe"^^xsd:string ;
+    skos:prefLabel "Loquebantur variis linguis apostoli, IGP 35"^^xsd:string ;
+    wd:P2000 cpdl:Loquebantur_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:Y37RQzq9,
+        faamentity:g4BVigYv,
+        faamentity:ivLCrpn3,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Loquebantur_variis_linguis_(Palestrina,_Giovanni_Pierluigi_da)> .
+

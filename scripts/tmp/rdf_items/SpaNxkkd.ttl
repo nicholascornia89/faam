@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SpaNxkkd a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in East Asia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q148>,
+        "0"^^xsd:string,
+        "SpaNxkkd"^^xsd:string ;
+    skos:altLabel "CHN"^^xsd:string,
+        "CN"^^xsd:string,
+        "China"^^xsd:string,
+        "China PR"^^xsd:string,
+        "Communist China"^^xsd:string,
+        "P.R.C."^^xsd:string,
+        "PR China"^^xsd:string,
+        "PRC"^^xsd:string,
+        "RPC"^^xsd:string,
+        "Red China"^^xsd:string,
+        "The PRC"^^xsd:string,
+        "Zhōngguó"^^xsd:string,
+        "cn"^^xsd:string ;
+    skos:prefLabel "People's Republic of China"^^xsd:string ;
+    wd:P1566 gn:1814991 .
+

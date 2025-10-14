@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:n3c9iRG3 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:LC9cCP45,
+        faamentity:TVtwBUu2 ;
+    schema1:birthDate "1889-02-22"^^xsd:string ;
+    schema1:birthPlace faamentity:dvnv2bcc ;
+    schema1:deathDate "1943-01-09"^^xsd:string ;
+    schema1:deathPlace faamentity:YRRq3WH3 ;
+    schema1:description "British historian and philosopher (1889–1943)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q317075>,
+        "15995797"^^xsd:string,
+        "n3c9iRG3"^^xsd:string ;
+    schema1:nationality faamentity:6zGBQwwr,
+        faamentity:KmPGztnu ;
+    skos:altLabel "R. G. Collingwood"^^xsd:string,
+        "Robin Collingwood"^^xsd:string,
+        "Robin George Collingwood"^^xsd:string ;
+    skos:prefLabel "R. G. Collingwood"^^xsd:string ;
+    wd:P108 faamentity:kadw32yr ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54826 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:6pfzESag,
+        faamentity:V9BqWe9x,
+        faamentity:XWcaJQty,
+        faamentity:nrDVDBKf .
+

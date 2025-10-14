@@ -1,0 +1,103 @@
+{
+  "id": "hsjALgYF",
+  "uuid_num": 77946285430732,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Teatro San Angelo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "opera house in Venice (Italy)"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Teatro San Angelo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1110282",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Teatro San Angelo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "hsjALgYF"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15991075"
+      }
+    ]
+  },
+  "statements": {
+    "place": [
+      {
+        "type": "item",
+        "value": "CgZzMq22",
+        "label": "Venice"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "fj46nffV",
+        "label": "Italy"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "GSqAPxLN",
+        "type": "item",
+        "label": "Antonio Vivaldi",
+        "description": "Italian composer and violinist (1678-1741)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "hsjALgYF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "hsjALgYF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "hsjALgYF.csv"
+      }
+    ]
+  }
+}

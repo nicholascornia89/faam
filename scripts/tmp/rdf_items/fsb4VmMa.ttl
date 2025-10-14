@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fsb4VmMa a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:BhNduccY ;
+    schema1:birthDate "1736-02-03"^^xsd:string ;
+    schema1:birthPlace faamentity:KMZknZpn ;
+    schema1:deathDate "1809-03-07"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian music educator, composer and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q314164>,
+        "0"^^xsd:string,
+        "fsb4VmMa"^^xsd:string ;
+    skos:altLabel "Johann George Albrechtsberger"^^xsd:string ;
+    skos:prefLabel "Johann Georg Albrechtsberger"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44565176 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/1061> ;
+    wd:P839 <https://imslp.org/wiki/Category:Albrechtsberger,_Johann_Georg> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:ZhptKYF3,
+        faamentity:bSHypyYG,
+        faamentity:bX2aWAhB .
+

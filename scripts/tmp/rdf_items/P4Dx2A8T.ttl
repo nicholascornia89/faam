@@ -1,0 +1,127 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:P4Dx2A8T a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:EgkVbUEo,
+        faamentity:HKyA3Qzz,
+        faamentity:QGRAMUu8,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:7XBG3iZJ,
+        faamentity:7qCCArxX,
+        faamentity:AB4X4hGP,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:Jx8FMpyt,
+        faamentity:LQE77nqs,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:RkZNQ7Ju,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """<ol>
+<li> L'Inquiétude, Op.6 </li>
+<li> Caprice, Op.19 </li>
+<li> Trois Caprices, Op.7 </li>
+<li> 2 Mazurkas, Op.4 </li>
+<li> 2 Fantaisies, Op. 9 </li>
+<li> Fantaisie No.3, Op.18 </li>
+<li> Fantaisie No.4, Op.20 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 1er Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 2me Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 3me Cahier N.3 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.1 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.2 </li>
+<li> Contes et Ballades, Op.34 4me Cahier N.3 </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:6wpp746x,
+        faamentity:PPhziStg,
+        faamentity:Qw4zjHnS,
+        faamentity:ZoPM2cvq,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:VHEan89z,
+        faamentity:bksidguC,
+        faamentity:cy2NFhfp ;
+    schema1:hasPart faamentity:3WHBf2zi,
+        faamentity:88HFuX7z,
+        faamentity:AK7xN2XN,
+        faamentity:F2UfAjjG,
+        faamentity:SLsmnpYr,
+        faamentity:SdgSSR3n,
+        faamentity:ZibxQ5pt,
+        faamentity:gSQX2CT4 ;
+    schema1:identifier "15992372"^^xsd:string,
+        "KCA-030902146890"^^xsd:string,
+        "P4Dx2A8T"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6786501/N"^^schema1:url ;
+    skos:prefLabel "Convoluut : werken voor piano."^^xsd:string ;
+    skosref:note """There are many signatures of pupuls playing different pieces, most of them illegible.
+
+<ol>
+<li> "L.Lambrecht" in Caprice, Op. 19 </li>
+<li> "Clemens" in Trois Caprices, Op.7 </li>
+<ol>"""^^rdf:HTML ;
+    wd:P217 "MM-TP-BENOI-inquiet-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"P4Dx2A8T-2f94c7d5-f504-4a50-8397-5eacf2344f0d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"P4Dx2A8T-32c88493-b0cd-4d03-9737-4570af42dbb3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"P4Dx2A8T-37a58d39-513a-4090-b2a3-c9f2dc166df4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"P4Dx2A8T-6231de02-8c37-40f9-b68d-737fab0b8442"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"P4Dx2A8T-e572f081-f3fa-4f6e-9f59-5a431a7f201d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+
+faamentity:bksidguC a rdf:object .
+
+faamentity:cy2NFhfp a rdf:object .
+

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ANygk75M a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:23RU8kQt ;
+    schema1:birthDate "1879-07-05"^^xsd:string ;
+    schema1:birthPlace faamentity:44272D3z ;
+    schema1:deathDate "1959-08-16"^^xsd:string ;
+    schema1:deathPlace faamentity:gqmdTGMK ;
+    schema1:description "(1879-1959) Polish-French harpsichordist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q160257>,
+        "15996014"^^xsd:string,
+        "ANygk75M"^^xsd:string ;
+    schema1:nationality faamentity:2iaqdKhu,
+        faamentity:BJqUa5Kf,
+        faamentity:C9YPHAFh ;
+    skos:altLabel "Wanda Aleksandra Landowska"^^xsd:string,
+        "Wanda Landowska"^^xsd:string ;
+    skos:prefLabel "Wanda Landowska"^^xsd:string ;
+    wd:P108 faamentity:BxCTxRNw,
+        faamentity:QimxbfF6 ;
+    wd:P1303 faamentity:PyGNLcfw,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:66652279 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/68387> ;
+    wd:P839 <https://imslp.org/wiki/Category:Landowska,_Wanda> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:hMYL5Z9b .
+

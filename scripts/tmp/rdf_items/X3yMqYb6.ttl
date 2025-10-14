@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:X3yMqYb6 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:identifier "16005621"^^xsd:string,
+        "X3yMqYb6"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3,
+        faamentity:QRuTEdwa ;
+    skos:prefLabel "Musica Sacra: tijdschrift voor kerkzang en gewijde muziek"^^xsd:string .
+

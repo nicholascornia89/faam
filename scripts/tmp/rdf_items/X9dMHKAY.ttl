@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:X9dMHKAY a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1850-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:G8KijfkK ;
+    schema1:deathDate "1908-00-00"^^xsd:string ;
+    schema1:deathPlace faamentity:G8KijfkK ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q94750319>,
+        "16005026"^^xsd:string,
+        "X9dMHKAY"^^xsd:string ;
+    skos:prefLabel "Anna Lankow"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:32361921 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Lankow,_Anna> ;
+    schema:hasOccupation faamentity:bSHypyYG,
+        faamentity:c5ZKjhf7,
+        faamentity:oJ9qmRVq .
+

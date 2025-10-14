@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j2gE8Lb4 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital of the Nizhny Novgorod Oblast and the Volga Federal District in central Russia"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q891>,
+        "0"^^xsd:string,
+        "j2gE8Lb4"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6 ;
+    skos:altLabel "Gerkiy"^^xsd:string,
+        "Gorky"^^xsd:string,
+        "Nether Novgorod"^^xsd:string,
+        "NiNo"^^xsd:string,
+        "Nijni-Novgorod"^^xsd:string,
+        "Nizhny"^^xsd:string ;
+    skos:prefLabel "Nizhny Novgorod"^^xsd:string ;
+    wd:P1566 gn:520555 .
+

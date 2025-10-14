@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5dnsPezu a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:7Lpv6eh3,
+        faamentity:D7tPHizN ;
+    schema1:birthDate "1583-12-25"^^xsd:string ;
+    schema1:birthPlace faamentity:G55Yyhx6 ;
+    schema1:deathDate "1625-06-05"^^xsd:string ;
+    schema1:deathPlace faamentity:nFRxeXYZ ;
+    schema1:description "English composer, virginalist and organist (1583-1625)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q311913>,
+        "16004084"^^xsd:string,
+        "5dnsPezu"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu,
+        faamentity:cR66R5HF ;
+    skos:altLabel "Orlando Gibbons"^^xsd:string ;
+    skos:prefLabel "Orlando Gibbons"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12491395 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30005405> ;
+    wd:P839 <https://imslp.org/wiki/Category:Gibbons,_Orlando> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

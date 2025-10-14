@@ -1,0 +1,61 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B3B8jgZK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:48ukXYmB,
+        faamentity:HKyA3Qzz,
+        faamentity:MR3kLpuM,
+        faamentity:NRsZG792,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2zBtFXJZ,
+        faamentity:DDH7fEFM,
+        faamentity:DH4kujZW ;
+    schema1:hasPart faamentity:5UKWAJR3 ;
+    schema1:identifier "15992524"^^xsd:string,
+        "B3B8jgZK"^^xsd:string,
+        "KCA-030901582434"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6754661/N"^^schema1:url ;
+    skos:prefLabel "Grande Sonate brillante : für Gitarre und Klavier, op. 102"^^xsd:string ;
+    wd:P217 "UM-TGI-DIABE-sona102-2"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:QE66HesX .
+
+schema1:contributor a rdf:predicate .
+
+"B3B8jgZK-05c97887-18a7-4784-8dbc-ce470bc45dbf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"B3B8jgZK-0e7f6e93-2d4c-426c-8c80-29c24008169e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1963"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre .
+
+"B3B8jgZK-fbe7e58e-5351-4077-92b5-f4e0414cfcda"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:2zBtFXJZ a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:DH4kujZW a rdf:object .
+

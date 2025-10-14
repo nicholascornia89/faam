@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BF3ukx2D a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:2kxvrpzm,
+        faamentity:4AMPVsN8 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "glide from one pitch to another"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q471744>,
+        "15992169"^^xsd:string,
+        "BF3ukx2D"^^xsd:string ;
+    skos:altLabel "glissando"^^xsd:string ;
+    skos:prefLabel "glissando"^^xsd:string ;
+    wd:P1535 faamentity:oMERLdSN ;
+    wd:P279 faamentity:93GDD9ND ;
+    wd:P31 faamentity:6m3ZbnrF,
+        faamentity:fxtj72S3 .
+

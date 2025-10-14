@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cg7GDgSg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1709-06-25"^^xsd:string ;
+    schema1:birthPlace faamentity:mSVELu4H ;
+    schema1:deathDate "1770-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q120419>,
+        "15995885"^^xsd:string,
+        "cg7GDgSg"^^xsd:string ;
+    skos:altLabel "Francesco Araja"^^xsd:string,
+        "Francesco Domenico Araja"^^xsd:string ;
+    skos:prefLabel "Francesco Araja"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100995617 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30000135> ;
+    wd:P839 <https://imslp.org/wiki/Category:Araja,_Francesco> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QJhBdvTq .
+

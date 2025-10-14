@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mMPEpXdC a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:mMrUGL4h ;
+    faamprop:handwritten_annotation faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Qw4zjHnS ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:FkfGaYub,
+        faamentity:JAJecPWc ;
+    schema1:identifier "15992375"^^xsd:string,
+        "KCA-030904384622"^^xsd:string,
+        "mMPEpXdC"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15185449/N"^^schema1:url ;
+    skos:prefLabel "Grelots-ripple : mazurka pour piano, op. 26"^^xsd:string ;
+    wd:P217 "MM-TP-CLOSS-grelots-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"mMPEpXdC-8b12c36a-c9b6-4f1b-80f0-47cfa9dfecd7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"mMPEpXdC-a60bf9c6-4c18-434a-976c-8dbc5012e55c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"mMPEpXdC-f9c22c82-5827-4d74-9208-d7b00e0cfe9a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:isEdM7zC .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:FkfGaYub a rdf:object .
+
+faamentity:JAJecPWc a rdf:object .
+

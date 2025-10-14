@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Q8MBQBw7 a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "plucked-string keyboard instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q81982>,
+        "15990804"^^xsd:string,
+        "Q8MBQBw7"^^xsd:string ;
+    skos:altLabel "cembalo"^^xsd:string,
+        "clavecin"^^xsd:string,
+        "clavicembalo"^^xsd:string,
+        "harpsichord"^^xsd:string ;
+    skos:prefLabel "harpsichord"^^xsd:string ;
+    wd:P279 faamentity:6TY5Zuvd,
+        faamentity:CFxnjaTF,
+        faamentity:L9szjsBt,
+        faamentity:V3aYUudh ;
+    wd:P31 faamentity:BnwWc34X .
+

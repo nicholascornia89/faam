@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5KdUXuXV a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1742-11-21"^^xsd:string ;
+    schema1:birthPlace faamentity:Wk99hCAF ;
+    schema1:deathDate "1772-08-21"^^xsd:string ;
+    schema1:deathPlace faamentity:Wk99hCAF ;
+    schema1:description "Italian composer (1742-1772)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20754570>,
+        "15996188"^^xsd:string,
+        "5KdUXuXV"^^xsd:string ;
+    schema1:nationality faamentity:ZKpN3zof ;
+    skos:altLabel "Alessandro Felici"^^xsd:string ;
+    skos:prefLabel "Alessandro Felici"^^xsd:string ;
+    wd:P1303 faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61816314 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30001036> ;
+    wd:P839 <https://imslp.org/wiki/Category:Felici,_Alessandro> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

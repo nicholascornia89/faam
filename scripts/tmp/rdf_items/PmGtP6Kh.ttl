@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PmGtP6Kh a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1872-10-05"^^xsd:string ;
+    schema1:birthPlace faamentity:PHN9hMsa ;
+    schema1:deathDate "1937-04-07"^^xsd:string ;
+    schema1:deathPlace faamentity:kTcYysaY ;
+    schema1:description "French theologian (1872-1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q19946349>,
+        "16005262"^^xsd:string,
+        "PmGtP6Kh"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean-Baptiste Thibaut"^^xsd:string ;
+    skos:prefLabel "Jean-Baptiste Thibaut"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100215303 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:44m57Ax2 .
+

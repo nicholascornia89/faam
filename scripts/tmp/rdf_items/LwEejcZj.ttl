@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LwEejcZj a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:gb6MiJbD,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8vWb9eDu,
+        faamentity:GFV4FAhY,
+        faamentity:hDZWUwZz,
+        faamentity:mwTt9mNa ;
+    schema1:hasPart faamentity:6Xu4rccf ;
+    schema1:identifier "15992644"^^xsd:string,
+        "KCG-000122135"^^xsd:string,
+        "LwEejcZj"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000122135"^^schema1:url ;
+    skos:prefLabel "LE MAÎTRE DE CHAPELLE ou LE SOUPER IMPRÉVU. No. 2. Grande scène : Ah! quel plaisir de pressentir sa gloire!"^^xsd:string ;
+    wd:P217 "II 249"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LwEejcZj-7a046293-8030-4288-8188-d0bdbdbb7f44"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"LwEejcZj-814e82a6-cc8c-48be-b92d-e38ae0f06bd3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"LwEejcZj-8b9e37c9-cb49-42ec-98b6-2d3bb3a35ae0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LwEejcZj-a65eee40-7e26-4f98-be78-2cc15ce2ebd6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:8vWb9eDu a rdf:object .
+
+faamentity:GFV4FAhY a rdf:object .
+
+faamentity:hDZWUwZz a rdf:object .
+
+faamentity:mwTt9mNa a rdf:object .
+

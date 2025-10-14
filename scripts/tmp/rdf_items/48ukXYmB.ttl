@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:48ukXYmB a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8,
+        faamentity:R9hADWGS ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "musical performance technique that affects the transition or continuity on notes"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q372923>,
+        "15992143"^^xsd:string,
+        "48ukXYmB"^^xsd:string ;
+    skos:altLabel "articulation"^^xsd:string,
+        "musical articulation"^^xsd:string ;
+    skos:prefLabel "articulation"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:g6U2d6qZ ;
+    wd:P31 faamentity:Dy8pmS8i,
+        faamentity:fxtj72S3 .
+

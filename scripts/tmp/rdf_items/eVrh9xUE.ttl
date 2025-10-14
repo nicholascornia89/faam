@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eVrh9xUE a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:HKyA3Qzz,
+        faamentity:HohjWQAt,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:m9rNaSAR,
+        faamentity:mMrUGL4h,
+        faamentity:nYFUSbbz ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7UGJWsQF,
+        faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:Naw52sHU,
+        faamentity:UnrnLejN ;
+    schema1:identifier "16005693"^^xsd:string,
+        "DPF-202502042"^^xsd:string,
+        "eVrh9xUE"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "O Beata Mater. pour Solo et 4 voix mixtes ou 4 voix égales."^^xsd:string ;
+    skosref:related faamentity:JaMgbGM3 ;
+    wd:P217 "not available"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"eVrh9xUE-7175f0fe-ff08-4d3a-9790-7f789cddf028"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"eVrh9xUE-b3a1d9bf-ad57-4064-8a19-4796c40afe99"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"eVrh9xUE-d4c6966d-fc91-4bca-b82f-703a09d202e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:Naw52sHU a rdf:object .
+
+faamentity:UnrnLejN a rdf:object .
+

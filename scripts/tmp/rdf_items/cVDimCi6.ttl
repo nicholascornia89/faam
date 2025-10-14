@@ -1,0 +1,80 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cVDimCi6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:Cbxx8HUs,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:HHYqWvTC,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:cbi3YyeP,
+        faamentity:eJhxFoas,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:eyeEqhAF,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:Gx3B7DJH,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4ad55yoD,
+        faamentity:GecAsFfL,
+        faamentity:MpcFo7ct,
+        faamentity:agWvDDr6 ;
+    schema1:hasPart faamentity:MHKmHYhH ;
+    schema1:identifier "15992683"^^xsd:string,
+        "KCG-000331890"^^xsd:string,
+        "cVDimCi6"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331890"^^schema1:url ;
+    skos:prefLabel "Fantaisie Chromatique et Fugue : BWV 903"^^xsd:string ;
+    skosref:related faamentity:4ad55yoD,
+        faamentity:agWvDDr6 ;
+    wd:P217 "II 15289"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"cVDimCi6-7d200035-e07a-4c27-9b87-100b51d951f2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"cVDimCi6-8cd6888f-7de7-4d6c-a223-e01e88ed5a38"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cVDimCi6-b281ad79-11f1-4993-bf64-9a3d00a88d0a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"cVDimCi6-b2a043b4-b09d-4b7e-b544-1f0c9735edd0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:4ad55yoD a rdf:object .
+
+faamentity:agWvDDr6 a rdf:object .
+

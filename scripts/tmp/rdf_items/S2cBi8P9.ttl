@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:S2cBi8P9 a rdfs:Resource ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Belgian publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q981917>,
+        "16002645"^^xsd:string,
+        "S2cBi8P9"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Brepols"^^xsd:string,
+        "Brepols & Dierckx Zoon"^^xsd:string,
+        "Brepols Naamlooze Vennootschap"^^xsd:string,
+        "Brepols Publishers"^^xsd:string,
+        "Brepols Publishers NV"^^xsd:string,
+        "Brepols en Dierckx zoon"^^xsd:string ;
+    skos:prefLabel "Brepols"^^xsd:string ;
+    wd:P214 viaf:167716968 ;
+    wd:P31 faamentity:HmGw8E8i ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

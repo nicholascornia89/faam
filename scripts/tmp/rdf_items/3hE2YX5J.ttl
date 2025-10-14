@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3hE2YX5J a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Italian composer and music educator (1830-1900)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1313182>,
+        "0"^^xsd:string,
+        "3hE2YX5J"^^xsd:string ;
+    skos:prefLabel "Polibio Fumagalli"^^xsd:string ;
+    wd:P108 faamentity:Bt83smaN ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79203287 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/87877> ;
+    wd:P839 <https://imslp.org/wiki/Category:Fumagalli,_Polibio> .
+

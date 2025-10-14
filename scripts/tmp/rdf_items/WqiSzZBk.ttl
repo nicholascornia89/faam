@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WqiSzZBk a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KCuuJYaL,
+        faamentity:Z9NCRAN7,
+        faamentity:jBK2qrzB ;
+    schema1:birthDate "1855-12-26"^^xsd:string ;
+    schema1:birthPlace faamentity:CpLZeuQp ;
+    schema1:deathDate "1933-02-19"^^xsd:string ;
+    schema1:deathPlace faamentity:aiHspLU2 ;
+    schema1:description "German composer and music teacher (1855-1933)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q537538>,
+        "0"^^xsd:string,
+        "WqiSzZBk"^^xsd:string ;
+    schema1:nationality faamentity:RocQ8eoo ;
+    skos:altLabel "Arnold Ludwig Mendelssohn"^^xsd:string ;
+    skos:prefLabel "Arnold Mendelssohn"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:275547 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/88384> ;
+    wd:P737 faamentity:Bh8tDCZL,
+        faamentity:E9WQfMRT,
+        faamentity:PHfmNMGx,
+        faamentity:k4EKMgXM ;
+    wd:P839 <https://imslp.org/wiki/Category:Mendelssohn,_Arnold> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

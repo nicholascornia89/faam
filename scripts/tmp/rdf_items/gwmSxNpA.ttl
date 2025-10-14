@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gwmSxNpA a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:WA5RLxHp ;
+    schema1:birthDate "1838-01-06"^^xsd:string ;
+    schema1:birthPlace faamentity:cFR6nVXh ;
+    schema1:deathDate "1920-10-02"^^xsd:string ;
+    schema1:deathPlace faamentity:2dsSyB68,
+        faamentity:PNeLQZnK ;
+    schema1:description "German romantic composer and conductor (1838-1920)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q106434>,
+        "16002375"^^xsd:string,
+        "gwmSxNpA"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Max Bruch"^^xsd:string,
+        "Max Christian Friedrich Bruch"^^xsd:string ;
+    skos:prefLabel "Max Bruch"^^xsd:string ;
+    wd:P108 faamentity:KCuuJYaL ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2655561 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/73090> ;
+    wd:P737 faamentity:GBEySAxU,
+        faamentity:RwASXqd6 ;
+    wd:P839 <https://imslp.org/wiki/Category:Bruch,_Max> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

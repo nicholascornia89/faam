@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5vPvVrHJ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8o65FHVv ;
+    schema1:birthDate "1812-01-08"^^xsd:string ;
+    schema1:birthPlace faamentity:eJe565fW ;
+    schema1:deathDate "1871-04-27"^^xsd:string ;
+    schema1:deathPlace faamentity:mSVELu4H ;
+    schema1:description "Swiss composer and pianist (1812–1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q347871>,
+        "15995974"^^xsd:string,
+        "5vPvVrHJ"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo ;
+    skos:altLabel "Sigismond Thalberg"^^xsd:string,
+        "Sigismund Thalberg"^^xsd:string ;
+    skos:prefLabel "Sigismond Thalberg"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:29796476 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/130650> ;
+    wd:P737 faamentity:WmRXBH5x,
+        faamentity:eMp37r9z,
+        faamentity:jm4QpjVW ;
+    wd:P839 <https://imslp.org/wiki/Category:Thalberg,_Sigismond> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

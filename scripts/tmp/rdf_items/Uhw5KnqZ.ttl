@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Uhw5KnqZ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CSTntU4y,
+        faamentity:DDH7fEFM,
+        faamentity:DE4nnG5T ;
+    schema1:hasPart faamentity:mFwNz8F3 ;
+    schema1:identifier "15992662"^^xsd:string,
+        "KCG-000350340"^^xsd:string,
+        "Uhw5KnqZ"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000350340"^^schema1:url ;
+    skos:prefLabel "Neuvième Soirée : Composée d'un Choix d'Airs de la Dame Blanche : Arrangés pour Violoncelle et Piano"^^xsd:string ;
+    wd:P217 "II 1156"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Uhw5KnqZ-235e9d4f-b241-4d12-94c3-1a6ab3d11f87"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Uhw5KnqZ-53af5d69-e999-4333-afa5-bc2b1c65559f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"Uhw5KnqZ-54279ee0-0342-4be1-abb0-7be4e1474813"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:CSTntU4y a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:DE4nnG5T a rdf:object .
+

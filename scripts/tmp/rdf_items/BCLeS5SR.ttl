@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BCLeS5SR a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "device fitted to a musical instrument to alter the sound produced"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q941882>,
+        "16003960"^^xsd:string,
+        "BCLeS5SR"^^xsd:string ;
+    skos:altLabel "mute"^^xsd:string ;
+    skos:prefLabel "con sordina"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:dcpEysXL ;
+    wd:P31 faamentity:Bir7HzXZ,
+        faamentity:fxtj72S3 .
+

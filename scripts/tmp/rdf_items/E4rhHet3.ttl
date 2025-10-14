@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:E4rhHet3 a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:identifier "15992128"^^xsd:string,
+        "E4rhHet3"^^xsd:string ;
+    skos:prefLabel "instrument call"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ,
+        faamentity:AcFWzeQH,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:M87Wsvhe ;
+    wd:P31 faamentity:fxtj72S3 .
+

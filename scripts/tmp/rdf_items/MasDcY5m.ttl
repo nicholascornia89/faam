@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MasDcY5m a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:KuMf3k3f ;
+    schema1:identifier "16002556"^^xsd:string,
+        "MasDcY5m"^^xsd:string ;
+    schema1:isBasedOn faamentity:UWuzhp4p ;
+    skos:prefLabel "Potpourri, Op.55"^^xsd:string ;
+    wd:P7937 faamentity:eyBy9fJP ;
+    wd:P839 <https://imslp.org/wiki/Potpourri,_Op.55_(Briccialdi,_Giulio)> .
+

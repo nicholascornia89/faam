@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:66Xpb5tT a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "building in Paris, France (1646-)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q295844>,
+        "0"^^xsd:string,
+        "66Xpb5tT"^^xsd:string ;
+    schema1:location faamentity:7chXDzuR,
+        faamentity:BJqUa5Kf,
+        faamentity:U8VE48Nt ;
+    skos:altLabel "Church of St. Sulpice"^^xsd:string,
+        "Saint-Sulpice"^^xsd:string,
+        "Saint-Sulpice church"^^xsd:string ;
+    skos:prefLabel "Church of Saint-Sulpice"^^xsd:string .
+

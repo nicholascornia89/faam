@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G7dz74rm a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "secular dominion of the Archbishops of Cologne"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7904317>,
+        "16004429"^^xsd:string,
+        "G7dz74rm"^^xsd:string ;
+    skos:altLabel "Electorate of Cologne"^^xsd:string,
+        "Electorate of Köln"^^xsd:string,
+        "Kurköln"^^xsd:string ;
+    skos:prefLabel "Electorate of Cologne"^^xsd:string .
+

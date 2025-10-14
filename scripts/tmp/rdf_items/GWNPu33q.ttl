@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GWNPu33q a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1839-04-12"^^xsd:string ;
+    schema1:birthPlace faamentity:Ljiz7Pro ;
+    schema1:deathDate "1903-10-26"^^xsd:string ;
+    schema1:deathPlace faamentity:jxKK4Mwd ;
+    schema1:description "French composer (1839–1903)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q724933>,
+        "16005303"^^xsd:string,
+        "GWNPu33q"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Victorin Joncieres"^^xsd:string,
+        "Victorin de Joncieres"^^xsd:string,
+        "Victorin de Joncières"^^xsd:string ;
+    skos:prefLabel "Victorin de Joncières"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:22344835 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:AWxaRSam,
+        faamentity:jHLdEc4N ;
+    wd:P839 <https://imslp.org/wiki/Category:Joncières,_Victorin_de> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:6KMog4yD,
+        faamentity:ELKwPhtK .
+

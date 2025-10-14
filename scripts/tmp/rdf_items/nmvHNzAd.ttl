@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nmvHNzAd a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1758-12-11"^^xsd:string ;
+    schema1:birthPlace faamentity:PNeLQZnK ;
+    schema1:deathDate "1832-05-15"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "German composer (1758-1832)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q58857>,
+        "0"^^xsd:string,
+        "nmvHNzAd"^^xsd:string ;
+    schema1:nationality faamentity:WN5PAeAx ;
+    skos:prefLabel "Carl Friedrich Zelter"^^xsd:string ;
+    wd:P108 faamentity:YqhiCoLK ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:24686498 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/98629> ;
+    wd:P737 faamentity:WB4nMQZ8 ;
+    wd:P839 <https://imslp.org/wiki/Category:Zelter,_Carl_Friedrich> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi .
+

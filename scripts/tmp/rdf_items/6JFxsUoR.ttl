@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6JFxsUoR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1818-06-10"^^xsd:string ;
+    schema1:birthPlace faamentity:NnSwBKHF ;
+    schema1:deathDate "1896-06-23"^^xsd:string ;
+    schema1:deathPlace faamentity:D8uLnusk ;
+    schema1:description "German composer, conductor, musicologist and music educator (1818–1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1633139>,
+        "0"^^xsd:string,
+        "6JFxsUoR"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "Hubert-Ferdinand Kufferath"^^xsd:string ;
+    skos:prefLabel "Hubert Ferdinand Kufferath"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:278241 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/60417> ;
+    wd:P839 <https://imslp.org/wiki/Category:Kufferath,_Hubert_Ferdinand> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

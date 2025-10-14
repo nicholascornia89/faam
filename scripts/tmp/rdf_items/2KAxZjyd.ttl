@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2KAxZjyd a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1852-11-25"^^xsd:string,
+        "1852-11-29"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1833-08-13"^^xsd:string,
+        "1933-08-13"^^xsd:string ;
+    schema1:deathPlace faamentity:Wd8DrrAo ;
+    schema1:description "French composer and pianist (1852–1933)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2060201>,
+        "16005321"^^xsd:string,
+        "2KAxZjyd"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Paul Hillemacher"^^xsd:string,
+        "Paul Joseph Guillaume Hillemacher"^^xsd:string ;
+    skos:prefLabel "Paul Joseph Guillaume Hillemacher"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:24866068 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40211800> ;
+    wd:P737 faamentity:DCNt8Rng ;
+    wd:P839 <https://imslp.org/wiki/Category:Hillemacher,_Paul_Joseph_Guillaume> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

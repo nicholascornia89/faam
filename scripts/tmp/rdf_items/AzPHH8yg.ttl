@@ -1,0 +1,62 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AzPHH8yg a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:7qCCArxX,
+        faamentity:EqtAuzbH,
+        faamentity:hChNthvw,
+        faamentity:kxAqh9HR ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7WfWytMV,
+        faamentity:8N6k5W5i,
+        faamentity:D6RjeTWv,
+        faamentity:E4rhHet3,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:MR3kLpuM,
+        faamentity:NRsZG792,
+        faamentity:TUdHPWU8,
+        faamentity:gaLrAUbu,
+        faamentity:iyfjpyT2,
+        faamentity:jP8px5zn,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AedSA8fV,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992303"^^xsd:string,
+        "AzPHH8yg"^^xsd:string,
+        "KCA-030902419669"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12910262/N"^^schema1:url ;
+    skos:prefLabel "Fantaisie: pour orchestre"^^xsd:string ;
+    wd:P217 "MM-MS-WAMBA-humor3-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"AzPHH8yg-01b7ba3d-3ea5-475f-acc4-b8680c528583"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"AzPHH8yg-d1853986-ae17-4f29-8731-f7980061c8a7"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "31-12-1877"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:AedSA8fV a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

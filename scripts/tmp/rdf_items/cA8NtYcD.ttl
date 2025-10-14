@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cA8NtYcD a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:hChNthvw ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:NkfcVjHM,
+        faamentity:UuRrGkeE ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:FRvAKw75,
+        faamentity:LQND7DE7,
+        faamentity:hBcFSi6N ;
+    schema1:hasPart faamentity:DQUag5P8 ;
+    schema1:identifier "16002819"^^xsd:string,
+        "KCA-030902704540"^^xsd:string,
+        "cA8NtYcD"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13123547/N"^^schema1:url ;
+    skos:prefLabel "12 canons : für 3 Sopranstimmen mit Begleitung des Pianoforte, op. 50"^^xsd:string ;
+    wd:P217 "MM-LEPP-HAUPT-canons-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:TicDHwYM .
+
+schema1:contributor a rdf:predicate .
+
+"cA8NtYcD-29ebfff2-8b7a-46d0-8247-9691b6a8070f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"cA8NtYcD-74f84b17-1b26-4902-ac16-c3133bb52363"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cA8NtYcD-f346e2f1-03ae-461e-82bc-cffbc93edfb9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:FRvAKw75 a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:hBcFSi6N a rdf:object .
+

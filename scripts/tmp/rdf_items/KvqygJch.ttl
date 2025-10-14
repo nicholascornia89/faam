@@ -1,0 +1,49 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KvqygJch a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:Jx8FMpyt,
+        faamentity:hJoKsjEm ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Mqyssbcs,
+        faamentity:ehQeovHi,
+        faamentity:fcb7732q ;
+    schema1:hasPart faamentity:FfVbS6CB ;
+    schema1:identifier "15992709"^^xsd:string,
+        "KCA-030901356052"^^xsd:string,
+        "KvqygJch"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Messe Notre-Dame a quatre voix de Giullaume de Machault"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"KvqygJch-4933142e-6762-4a3e-86e7-fb4c7b00b4ac"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1947"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"KvqygJch-7762e14e-31e4-4cf8-b3ca-18470fa59fd5"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1948"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:nSKgHevT .
+
+"KvqygJch-b9ff16c4-6b23-4b0a-a691-d3ad23ce202c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:Mqyssbcs a rdf:object .
+
+faamentity:ehQeovHi a rdf:object .
+
+faamentity:fcb7732q a rdf:object .
+

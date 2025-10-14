@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nTmL95bR a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:AukVFY8z ;
+    schema1:birthDate "1932-05-09"^^xsd:string ;
+    schema1:birthPlace faamentity:5pTGCYYY ;
+    schema1:deathDate "1997-08-08"^^xsd:string ;
+    schema1:deathPlace faamentity:gieRSCuN ;
+    schema1:description "UK lutenist (1932-1997)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q98907712>,
+        "16004139"^^xsd:string,
+        "nTmL95bR"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu ;
+    skos:altLabel "Robert A. Spencer"^^xsd:string,
+        "Robert Allen Spencer"^^xsd:string,
+        "Robert Spencer"^^xsd:string ;
+    skos:prefLabel "Robert Allen Spencer"^^xsd:string ;
+    wd:P108 faamentity:EVBcTsBB ;
+    wd:P1303 faamentity:dNidfqfQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:120740068 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30082796> ;
+    wd:P737 faamentity:LQPfukMQ,
+        faamentity:daYt6piq ;
+    schema:hasOccupation faamentity:NwiqRLEM .
+

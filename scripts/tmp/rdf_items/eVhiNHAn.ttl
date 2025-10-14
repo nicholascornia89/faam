@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eVhiNHAn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:8AgGMFN4,
+        faamentity:9U8LuxuX,
+        faamentity:YX7LjaDe,
+        faamentity:czmHVmng,
+        faamentity:neFktRRX ;
+    schema1:birthDate "1841-08-31"^^xsd:string ;
+    schema1:birthPlace faamentity:QRuTEdwa ;
+    schema1:deathDate "1925-03-06"^^xsd:string ;
+    schema1:deathPlace faamentity:QRuTEdwa ;
+    schema1:description "Belgian writer, historian, archaeologist and inspector (1841-1925)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2524668>,
+        "15996183"^^xsd:string,
+        "eVhiNHAn"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Adolf Duclos"^^xsd:string,
+        "Adolf Juliaan Duclos"^^xsd:string,
+        "Adolphe Julien Duclos"^^xsd:string,
+        "Adolphus Julianus Duclos"^^xsd:string ;
+    skos:prefLabel "Adolf Duclos"^^xsd:string ;
+    wd:P108 faamentity:n77CXd6E ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:89293479 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:BRwtWtpf,
+        faamentity:RgNFJ8gc,
+        faamentity:TpKbLAmY,
+        faamentity:V9BqWe9x,
+        faamentity:YrCfZ8vh,
+        faamentity:eUa7qYMN,
+        faamentity:nrDVDBKf .
+

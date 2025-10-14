@@ -1,0 +1,36 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RgvHZXyx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:fY3iiCZh ;
+    schema1:identifier "16005449"^^xsd:string,
+        "ORP-20143701p16"^^xsd:string,
+        "RgvHZXyx"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22187"^^schema1:url ;
+    skos:prefLabel "Douze études caractéristiques de concert. Op. 2"^^xsd:string ;
+    skosref:note "Resource available on IMSLP: https://imslp.org/wiki/12_%C3%89tudes_caract%C3%A9ristiques%2C_Op.2_(Henselt%2C_Adolf_von)"^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.005"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"RgvHZXyx-1ee5975c-f3f3-4581-91d1-401874b8df74"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:fY3iiCZh a rdf:object .
+

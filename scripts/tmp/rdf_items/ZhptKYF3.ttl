@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZhptKYF3 a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who plays any type of organ"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q765778>,
+        "15990881"^^xsd:string,
+        "ZhptKYF3"^^xsd:string ;
+    skos:altLabel "organ player"^^xsd:string,
+        "organist"^^xsd:string ;
+    skos:prefLabel "organist"^^xsd:string .
+

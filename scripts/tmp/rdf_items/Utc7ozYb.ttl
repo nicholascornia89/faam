@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Utc7ozYb a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:YJViDXyp ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1710-01-04"^^xsd:string ;
+    schema1:birthPlace faamentity:JW7XgSBo ;
+    schema1:deathDate "1736-03-16"^^xsd:string ;
+    schema1:deathPlace faamentity:aL2z38d3 ;
+    schema1:description "Italian composer, violinist and organist (1710–1736)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q185312>,
+        "16005777"^^xsd:string,
+        "Utc7ozYb"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B ;
+    skos:altLabel "G. B. Pergolesi"^^xsd:string,
+        "Giovanni Battista Draghi"^^xsd:string,
+        "Giovanni Battista Pergolesi"^^xsd:string ;
+    skos:prefLabel "Giovanni Battista Pergolesi"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79169092 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002483> ;
+    wd:P737 faamentity:ZZJDssmU,
+        faamentity:mQyL4vmZ ;
+    wd:P839 <https://imslp.org/wiki/Category:Pergolesi,_Giovanni_Battista> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

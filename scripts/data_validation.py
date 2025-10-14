@@ -11,7 +11,7 @@ from wikidata import *
 
 
 def object_type2csv(
-	faam_kb, object_type
+	faam_kb, object_type, faam_property = "country"
 ):  # returns a csv list with basic metadata for a given object type. You can un-comment the Instance of lines to get extra info
 	object_type_dict = []
 
@@ -25,8 +25,8 @@ def object_type2csv(
 						"qid": item["metadata"]["qid"][0]["value"],
 						"nodegoat_id": item["metadata"]["nodegoat_id"][0]["value"],
 						"label": item["metadata"]["label"][0]["value"],
-						"qid_label": item["metadata"]["qid"][0]["label"]
-						#"instance_of": instance_of
+						"qid_label": item["metadata"]["qid"][0]["label"],
+						"property": item["statements"][faam_property][0]["label"]
 					}
 				)
 			except IndexError: # no instance of statement

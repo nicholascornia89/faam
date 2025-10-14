@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:C9YPHAFh a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former state in Eastern Europe (1815–1915)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q221457>,
+        "15998049"^^xsd:string,
+        "C9YPHAFh"^^xsd:string ;
+    skos:altLabel "Congress Kingdom of Poland"^^xsd:string,
+        "Congress Poland"^^xsd:string,
+        "Kingdom of Poland"^^xsd:string,
+        "Russian Poland"^^xsd:string,
+        "Tsardom of Poland"^^xsd:string ;
+    skos:prefLabel "Congress Poland"^^xsd:string .
+

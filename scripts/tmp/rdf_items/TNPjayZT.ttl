@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TNPjayZT a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "radio (?) from Basel, Switzerland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q29935764>,
+        "15991089"^^xsd:string,
+        "TNPjayZT"^^xsd:string ;
+    schema1:location faamentity:5FxHYswx,
+        faamentity:oHTSDFRc ;
+    skos:altLabel "Radio Basel"^^xsd:string ;
+    skos:prefLabel "Radio Basel"^^xsd:string .
+

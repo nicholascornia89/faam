@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dek3dK5z a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1697-07-09"^^xsd:string ;
+    schema1:birthPlace faamentity:fdBRs3SB ;
+    schema1:deathDate "1763-01-11"^^xsd:string ;
+    schema1:deathPlace faamentity:K8vRTnmT ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q262427>,
+        "15995866"^^xsd:string,
+        "dek3dK5z"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Giovanni Benedetto Platti"^^xsd:string ;
+    skos:prefLabel "Giovanni Benedetto Platti"^^xsd:string ;
+    wd:P1303 faamentity:2gunk3ai,
+        faamentity:2nFJpnZ8,
+        faamentity:8cygiHEB,
+        faamentity:G8tgNnWV,
+        faamentity:HcmSE474,
+        faamentity:LMnKWZg2,
+        faamentity:LoXSg3U3,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:34649783 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Platti,_Giovanni_Benedetto> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:FPRyBmX6 .
+

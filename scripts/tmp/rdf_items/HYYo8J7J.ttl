@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HYYo8J7J a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in Alameda County, California, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q484678>,
+        "0"^^xsd:string,
+        "HYYo8J7J"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "BURK"^^xsd:string,
+        "Berkeley, CA"^^xsd:string,
+        "Berkeley, California"^^xsd:string,
+        "Bkly"^^xsd:string ;
+    skos:prefLabel "Berkeley"^^xsd:string ;
+    wd:P1566 gn:5327684 .
+

@@ -1,0 +1,47 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bg2LhCMc a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz,
+        faamentity:NRsZG792,
+        faamentity:QeqFpJLJ,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:PAqAtC7A,
+        faamentity:QsjMFntL ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2VKAH6R4,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992336"^^xsd:string,
+        "KCA-030901847712"^^xsd:string,
+        "bg2LhCMc"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7081775/N"^^schema1:url ;
+    skos:prefLabel "l'Arbre de Noël: valse brillante"^^xsd:string ;
+    wd:P217 "MM-SHO-KARRE-arbre-35"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"bg2LhCMc-06da9e33-f529-4bff-97e3-3a39904a87f3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"bg2LhCMc-b6286c20-5922-42dd-afef-88433083ddbd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2VKAH6R4 a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

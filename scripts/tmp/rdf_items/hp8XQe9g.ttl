@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hp8XQe9g a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "historical profession"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q781850>,
+        "0"^^xsd:string,
+        "hp8XQe9g"^^xsd:string ;
+    skos:altLabel "barber-surgeon"^^xsd:string,
+        "surgeon barber"^^xsd:string,
+        "surgeon-barber"^^xsd:string ;
+    skos:prefLabel "barber surgeon"^^xsd:string .
+

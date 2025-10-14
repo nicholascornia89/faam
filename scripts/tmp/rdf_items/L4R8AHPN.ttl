@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L4R8AHPN a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:F3VbzW4A ;
+    schema1:identifier "16005066"^^xsd:string,
+        "L4R8AHPN"^^xsd:string ;
+    skos:prefLabel "Cello Sonata in A major, G.13"^^xsd:string ;
+    wd:P5202 faamentity:DVfZGTfW ;
+    wd:P7937 faamentity:GqVyixZo,
+        faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Cello_Sonata_in_A_major,_G.13_(Boccherini,_Luigi)> .
+

@@ -1,0 +1,49 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6Cxuh5fi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EqtAuzbH,
+        faamentity:atGzytDR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2vdPrW4J,
+        faamentity:2yHpmJQV,
+        faamentity:GecAsFfL ;
+    schema1:hasPart faamentity:dwdaRArz ;
+    schema1:identifier "15992691"^^xsd:string,
+        "6Cxuh5fi"^^xsd:string,
+        "KCA-030901767043"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6780353/N"^^schema1:url ;
+    skos:prefLabel "Das wohltemperierte Klavier"^^xsd:string ;
+    wd:P217 "MM-TP-BACH-wohltem-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"6Cxuh5fi-20c9b4a2-9aa8-453d-8593-3daf0f136c15"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"6Cxuh5fi-500cd29b-6b31-4c42-b6ad-5f97320d0ae1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"6Cxuh5fi-c8394599-5838-42e9-a463-b7982110562c"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1894"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:2vdPrW4J a rdf:object .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+

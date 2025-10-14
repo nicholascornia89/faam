@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fCE3Fxej a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "hospital in Manhattan, New York City"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q975653>,
+        "0"^^xsd:string,
+        "fCE3Fxej"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "Columbia Presbyterian hospital"^^xsd:string,
+        "NYP"^^xsd:string,
+        "New York-Presbyterian Hospital"^^xsd:string ;
+    skos:prefLabel "NewYork–Presbyterian Hospital"^^xsd:string .
+

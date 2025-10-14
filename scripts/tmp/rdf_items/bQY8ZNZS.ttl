@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bQY8ZNZS a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:M5vog5yS ;
+    schema1:birthDate "1562-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:LPPjLsLK ;
+    schema1:deathDate "1628-03-12"^^xsd:string,
+        "1628-03-13"^^xsd:string ;
+    schema1:deathPlace faamentity:bSzLPudk ;
+    schema1:description "English composer, musician and organ builder"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q511463>,
+        "16005053"^^xsd:string,
+        "bQY8ZNZS"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu,
+        faamentity:cR66R5HF ;
+    skos:altLabel "John Bull"^^xsd:string ;
+    skos:prefLabel "John Bull"^^xsd:string ;
+    wd:P108 faamentity:dccWmHRA ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54331967 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004671> ;
+    wd:P839 <https://imslp.org/wiki/Category:Bull,_John> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3,
+        faamentity:hMYL5Z9b,
+        faamentity:hnyh7RvW .
+

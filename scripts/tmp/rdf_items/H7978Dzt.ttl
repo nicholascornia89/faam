@@ -1,0 +1,25 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:H7978Dzt a rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Mk25KX72,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:identifier "16004265"^^xsd:string,
+        "BNF-429307345"^^xsd:string,
+        "H7978Dzt"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb429307345"^^schema1:url ;
+    skos:prefLabel "L'Art de délier les doigts, 50 études de perfectionnement op. 699 en 2 livres"^^xsd:string ;
+    wd:P217 "VM8 S-1056"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+

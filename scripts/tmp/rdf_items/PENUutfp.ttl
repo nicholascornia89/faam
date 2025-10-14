@@ -1,0 +1,46 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PENUutfp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:kpGZyoEa ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    faamprop:sections "Anatomical charts."^^rdf:HTML ;
+    dcelem:subject faamentity:Mk25KX72,
+        faamentity:NkfcVjHM,
+        faamentity:ZS9h3s2q ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Lf7agAjT,
+        faamentity:bXQ3q5d7 ;
+    schema1:identifier "16004205"^^xsd:string,
+        "BNF-b387186265"^^xsd:string,
+        "PENUutfp"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb387186265"^^schema1:url ;
+    skos:prefLabel "Mon art du chant, trad. par E. Naegely"^^xsd:string ;
+    wd:P217 "4-RO-4574"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"PENUutfp-261eb5f0-d083-4439-81fa-3dc37dab04d3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"PENUutfp-c6d00778-9c93-47fe-a919-dbc10fba7844"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:Lf7agAjT a rdf:object .
+
+faamentity:bXQ3q5d7 a rdf:object .
+

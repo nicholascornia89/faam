@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5WLcbQoY a rdfs:Resource ;
+    faamprop:related_to faamentity:EHXeMNgG,
+        faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1566-03-08"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22,
+        faamentity:ZHyKzyWb,
+        faamentity:mSVELu4H ;
+    schema1:deathDate "1613-09-08"^^xsd:string ;
+    schema1:deathPlace faamentity:SpQviVdj,
+        faamentity:mSVELu4H ;
+    schema1:description "Italian prince, composer and murderer (1566–1613)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q192958>,
+        "16004065"^^xsd:string,
+        "5WLcbQoY"^^xsd:string ;
+    schema1:nationality faamentity:ZxQvWKbx,
+        faamentity:fj46nffV ;
+    skos:altLabel "Carlo Gesualdo"^^xsd:string,
+        "Carlo Gesualdo da Venosa"^^xsd:string,
+        "Gesualdo"^^xsd:string,
+        "Gesualdo da Venosa"^^xsd:string ;
+    skos:prefLabel "Carlo Gesualdo"^^xsd:string ;
+    wd:P1303 faamentity:dNidfqfQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:102315314 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30010374> ;
+    wd:P737 faamentity:FpfYVAFn,
+        faamentity:MzU3fdit ;
+    wd:P839 <https://imslp.org/wiki/Category:Gesualdo,_Carlo> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

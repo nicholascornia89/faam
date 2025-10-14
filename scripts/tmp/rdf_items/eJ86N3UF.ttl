@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eJ86N3UF a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78243869>,
+        "16003867"^^xsd:string,
+        "eJ86N3UF"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in E-flat major, L.203"^^xsd:string,
+        "Sonata K. 474"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in E-flat major, K.474"^^xsd:string ;
+    wd:P214 viaf:292741239 ;
+    wd:P5202 faamentity:5gAsc3pE,
+        faamentity:6V4cnEUi,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_E-flat_major,_K.474_(Scarlatti,_Domenico)> .
+

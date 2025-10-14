@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PztogCkE a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "1697 short story by Charles Perrault"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2944224>,
+        "0"^^xsd:string,
+        "PztogCkE"^^xsd:string ;
+    skos:altLabel "Cendrillon ou la petite pantoufle de verre"^^xsd:string,
+        "Cinderella"^^xsd:string,
+        "Cinderella or the little glass slipper"^^xsd:string ;
+    skos:prefLabel "Cinderella"^^xsd:string ;
+    wd:P214 viaf:179821540,
+        viaf:61144898519750290327 ;
+    wd:P7937 <Q49084> .
+

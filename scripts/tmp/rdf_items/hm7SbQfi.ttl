@@ -1,0 +1,74 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hm7SbQfi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:4Vi2FEPi,
+        faamentity:GpNEm7nw,
+        faamentity:Jx8FMpyt,
+        faamentity:LQE77nqs,
+        faamentity:NRsZG792,
+        faamentity:aAsRZoVk,
+        faamentity:cbi3YyeP,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GecAsFfL,
+        faamentity:QE9UrJXo,
+        faamentity:jm4QpjVW ;
+    schema1:hasPart faamentity:iCcNcTob ;
+    schema1:identifier "15992666"^^xsd:string,
+        "KCA-030901352994"^^xsd:string,
+        "hm7SbQfi"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7076219/N"^^schema1:url ;
+    skos:prefLabel "Die Kunst der Fuge = The art of fugue = L' art de la fugue"^^xsd:string ;
+    skosref:note "Extract of pages with handwritten annotations."^^rdf:HTML ;
+    wd:P217 "UM-TP-BACH-kunstde-1"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"hm7SbQfi-03ccb2a5-d062-4cce-9d62-0cb6a804a5f0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:bSzLPudk .
+
+"hm7SbQfi-0b848c8a-9f94-4e37-8fa5-e5a0f08dd78b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"hm7SbQfi-5489240f-926f-4905-957a-f7069aeb9c6d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"hm7SbQfi-922bae07-0cfb-4b2b-963c-0986e2100f93"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:jm4QpjVW a rdf:object .
+

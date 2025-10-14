@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Kid8Pf8L a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "German composer (1648-1701)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q449311>,
+        "0"^^xsd:string,
+        "Kid8Pf8L"^^xsd:string ;
+    skos:prefLabel "Johann Schelle"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5125029 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30012789> ;
+    wd:P839 <https://imslp.org/wiki/Category:Schelle,_Johann> .
+

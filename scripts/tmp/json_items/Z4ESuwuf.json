@@ -1,0 +1,102 @@
+{
+  "id": "Z4ESuwuf",
+  "uuid_num": 60677898452173,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Viotti Stradivarius"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "violin"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Viotti Stradivarius"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q3560514",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Viotti Stradivarius"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_instrument"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "Z4ESuwuf"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15990812"
+      }
+    ]
+  },
+  "statements": {
+    "instance of": [
+      {
+        "type": "item",
+        "value": "G8tgNnWV",
+        "label": "violin"
+      },
+      {
+        "type": "item",
+        "value": "Vg4pmmLb",
+        "label": ""
+      }
+    ],
+    "subclass of": []
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "MRVR7vBD",
+        "type": "item",
+        "label": "Giovanni Battista Viotti",
+        "description": "Italian violinist and composer of the classical period (1755-1824)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Giovanni_Battista_Viotti_by_Ducarme.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Z4ESuwuf.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Z4ESuwuf.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Z4ESuwuf.csv"
+      }
+    ]
+  }
+}

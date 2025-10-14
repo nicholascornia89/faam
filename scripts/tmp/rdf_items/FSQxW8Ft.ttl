@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FSQxW8Ft a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "type of musical instrument that produces a sound by directly hitting it"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q133163>,
+        "15990847"^^xsd:string,
+        "FSQxW8Ft"^^xsd:string ;
+    skos:altLabel "percussion instrument"^^xsd:string,
+        "percussion instruments"^^xsd:string,
+        "percussions"^^xsd:string ;
+    skos:prefLabel "percussion instrument"^^xsd:string ;
+    wd:P279 faamentity:E2Sb746q,
+        faamentity:nwfQdMXJ ;
+    wd:P31 faamentity:dSq7JTyF .
+

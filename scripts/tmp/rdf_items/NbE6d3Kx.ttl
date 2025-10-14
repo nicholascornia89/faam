@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NbE6d3Kx a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital and largest city of Ukraine"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1899>,
+        "0"^^xsd:string,
+        "NbE6d3Kx"^^xsd:string ;
+    schema1:location <Q212> ;
+    skos:altLabel "Kief"^^xsd:string,
+        "Kieff"^^xsd:string,
+        "Kiev"^^xsd:string,
+        "Kiew"^^xsd:string,
+        "Kiof"^^xsd:string,
+        "Kioff"^^xsd:string,
+        "Kiou"^^xsd:string,
+        "Kiovia"^^xsd:string,
+        "Kiow"^^xsd:string,
+        "Kiowia"^^xsd:string,
+        "Kiyev"^^xsd:string,
+        "Kyiw"^^xsd:string,
+        "Kyjiv"^^xsd:string,
+        "Kyjiw"^^xsd:string,
+        "Kyyiv"^^xsd:string,
+        "Kyïv"^^xsd:string,
+        "Kyїv"^^xsd:string,
+        "Київ"^^xsd:string ;
+    skos:prefLabel "Kyiv"^^xsd:string ;
+    wd:P1566 gn:703448 .
+

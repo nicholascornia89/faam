@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cet83jND a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TZfafBBe ;
+    schema1:description "piano sonata written by Beethoven"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q146113>,
+        "16005711"^^xsd:string,
+        "cet83jND"^^xsd:string ;
+    skos:altLabel "Pathétique"^^xsd:string,
+        "Piano Sonata No. 8"^^xsd:string,
+        "Piano Sonata No. 8 in C Minor, Op. 13"^^xsd:string,
+        "Sonata Pathétique"^^xsd:string ;
+    skos:prefLabel "Piano Sonata No. 8 in C Minor, Op. 13"^^xsd:string ;
+    wd:P214 viaf:301897126 ;
+    wd:P5202 faamentity:j4DJfCC2 ;
+    wd:P7937 faamentity:FDSkv45i ;
+    wd:P839 <https://imslp.org/wiki/Piano_Sonata_No.8,_Op.13_(Beethoven,_Ludwig_van)> .
+

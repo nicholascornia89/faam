@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WyJDZYHT a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Italian university"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1245999>,
+        "15991069"^^xsd:string,
+        "WyJDZYHT"^^xsd:string ;
+    schema1:location faamentity:fj46nffV,
+        faamentity:nX8fz8qz ;
+    skos:altLabel "UNISI"^^xsd:string,
+        "Universita degli studi di Siena"^^xsd:string,
+        "University of Siena"^^xsd:string,
+        "Università degli studi di Siena"^^xsd:string ;
+    skos:prefLabel "University of Siena"^^xsd:string .
+

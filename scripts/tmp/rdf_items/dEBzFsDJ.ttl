@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dEBzFsDJ a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "former bilingual university in Brussels, Belgium (1834-1970)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20754971>,
+        "16004793"^^xsd:string,
+        "dEBzFsDJ"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3 ;
+    skos:altLabel "FUB"^^xsd:string,
+        "Free University of Belgium"^^xsd:string,
+        "Free University of Brussels"^^xsd:string,
+        "ULB"^^xsd:string ;
+    skos:prefLabel "Free University of Brussels"^^xsd:string .
+

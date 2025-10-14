@@ -1,0 +1,74 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:diiKf2Tw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:D6RjeTWv,
+        faamentity:EXzrp8XT,
+        faamentity:QasJKrSg ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:PprjdkHE,
+        faamentity:QasJKrSg,
+        faamentity:TUdHPWU8,
+        faamentity:UMravioT,
+        faamentity:amkJ6EBs,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:fsof5n4h,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9bug7VfA,
+        faamentity:NPPV2XtG,
+        faamentity:YWvFQ75E ;
+    schema1:identifier "16004153"^^xsd:string,
+        "KCA-03090443184"^^xsd:string,
+        "diiKf2Tw"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15225908/N"^^schema1:url ;
+    skos:prefLabel "Convoluut : Valentine Degive-Ledelier"^^xsd:string ;
+    skosref:related faamentity:98LX5gcb,
+        faamentity:DXZVjUDd,
+        faamentity:WU3jYeSi,
+        faamentity:gf7FahV7 ;
+    wd:P217 "MM-ZLV-BEETH-sixvals-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"diiKf2Tw-22897066-5870-4125-be9b-ac7460e98ea9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"diiKf2Tw-b7851c6c-1485-4d3e-a718-e8b63dad1a50"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"diiKf2Tw-e14f6ebd-9ca2-4814-9eee-08b09eb5af2f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:9bug7VfA a rdf:object .
+
+faamentity:NPPV2XtG a rdf:object .
+
+faamentity:YWvFQ75E a rdf:object .
+

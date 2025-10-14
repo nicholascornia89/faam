@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gDD2rjHG a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:NPPV2XtG ;
+    schema1:description "opera by Jacques Fromental Halévy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3119476>,
+        "15999982"^^xsd:string,
+        "gDD2rjHG"^^xsd:string ;
+    skos:altLabel "Guido et Ginevra"^^xsd:string ;
+    skos:prefLabel "Guido et Ginevra"^^xsd:string ;
+    wd:P214 viaf:183469829 ;
+    wd:P5202 faamentity:NTvBj8eb ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Guido_et_Ginevra_(Halévy,_Fromental)> .
+

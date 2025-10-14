@@ -1,0 +1,25 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FfVbS6CB a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Mqyssbcs ;
+    schema1:description "mass setting composed by Guillaume de Machaut"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1510075>,
+        "16002464"^^xsd:string,
+        "FfVbS6CB"^^xsd:string ;
+    skos:altLabel "Messe de Nostre Dame"^^xsd:string,
+        "Misa de Nostre Dame"^^xsd:string ;
+    skos:prefLabel "Messe de Nostre Dame"^^xsd:string ;
+    wd:P2000 cpdl:Messe_de_Nostre_Dame_\(Guillaume_de_Machaut\) ;
+    wd:P214 viaf:180636730 ;
+    wd:P5202 faamentity:ehQeovHi ;
+    wd:P7937 faamentity:kNneakGU ;
+    wd:P839 <https://imslp.org/wiki/Messe_de_Nostre_Dame_(Machaut,_Guillaume_de)> .
+

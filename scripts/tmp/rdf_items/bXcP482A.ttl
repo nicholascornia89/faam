@@ -1,0 +1,49 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bXcP482A a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:93GDD9ND ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:NkfcVjHM,
+        faamentity:ZS9h3s2q ;
+    dcterms:provenance faamentity:2DsweKwv ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PkZM93eA,
+        faamentity:kHoYwJ3n ;
+    schema1:identifier "16004197"^^xsd:string,
+        "BSL-848545451"^^xsd:string,
+        "bXcP482A"^^xsd:string ;
+    schema1:url "https://stabikat.de/Record/848545451"^^schema1:url ;
+    skos:prefLabel "Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule"^^xsd:string ;
+    skosref:related faamentity:fg8vbQyL ;
+    wd:P217 "SBB-PK Berlin <4\"@Mus. E 1117>"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"bXcP482A-23112a6f-35ec-408b-90f6-64902ad38aaa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"bXcP482A-c3dffb77-1a94-4503-a73d-81593420d15f"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1835"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:mRsCycJu .
+
+faamentity:PkZM93eA a rdf:object .
+
+faamentity:kHoYwJ3n a rdf:object .
+

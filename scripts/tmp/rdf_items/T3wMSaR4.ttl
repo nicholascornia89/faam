@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:T3wMSaR4 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in Hungary"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1186843>,
+        "0"^^xsd:string,
+        "T3wMSaR4"^^xsd:string ;
+    schema1:location faamentity:3U7ywGMJ,
+        faamentity:PPfroXta,
+        faamentity:Q8KpiYwX ;
+    skos:altLabel "BUTE"^^xsd:string,
+        "Budapest University of Technology"^^xsd:string,
+        "Budapesti Muszaki Es Gazdasagtudomanyi Egyetem"^^xsd:string,
+        "Royal Joseph Technical University"^^xsd:string,
+        "Royal Technical University of Budapest"^^xsd:string,
+        "TUB"^^xsd:string,
+        "Technical University of Budapest"^^xsd:string ;
+    skos:prefLabel "Budapest University of Technology and Economics"^^xsd:string .
+

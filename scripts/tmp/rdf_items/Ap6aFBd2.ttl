@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ap6aFBd2 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "one-movement harpsichord sonata composed by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3408309>,
+        "16003422"^^xsd:string,
+        "Ap6aFBd2"^^xsd:string ;
+    skos:altLabel "Cat fugue"^^xsd:string,
+        "Cat's Fugue"^^xsd:string,
+        "Cat's fugue"^^xsd:string,
+        "Fugue in G minor"^^xsd:string,
+        "Keyboard Sonata in G minor, L.499"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in G minor, K.30"^^xsd:string ;
+    wd:P214 viaf:183138267 ;
+    wd:P5202 faamentity:5VzqwoVR,
+        faamentity:5gAsc3pE,
+        faamentity:6V4cnEUi,
+        faamentity:AaF6WQEA,
+        faamentity:LoNNNoeu,
+        faamentity:Vp4ucERe,
+        faamentity:agWvDDr6,
+        faamentity:jm4QpjVW,
+        faamentity:kYgchVZr ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_G_minor,_K.30_(Scarlatti,_Domenico)> .
+

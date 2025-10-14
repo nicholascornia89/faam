@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mK2saWSr a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1863-05-12"^^xsd:string ;
+    schema1:birthPlace faamentity:ZV9oKCxi ;
+    schema1:deathDate "1909-11-08"^^xsd:string ;
+    schema1:deathPlace faamentity:UAsHfa4y ;
+    schema1:description "French music teacher and composer (1863-1909)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1063780>,
+        "15996126"^^xsd:string,
+        "mK2saWSr"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Anne-Marie Charles Bordes-Bonjean"^^xsd:string,
+        "Charles Bordes"^^xsd:string,
+        "Charles Marie Anne Bordes"^^xsd:string ;
+    skos:prefLabel "Charles Bordes"^^xsd:string ;
+    wd:P108 faamentity:BpM59WrA ;
+    wd:P1303 faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71584661 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30024318> ;
+    wd:P737 faamentity:55e2GrNr,
+        faamentity:iY78UHRF ;
+    wd:P839 <https://imslp.org/wiki/Category:Bordes,_Charles> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:R7KKRvQ6,
+        faamentity:ZhptKYF3 .
+

@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:K8fwsJjW a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1901-06-16"^^xsd:string ;
+    schema1:birthPlace faamentity:9AC4GTSY ;
+    schema1:deathDate "1989-10-31"^^xsd:string ;
+    schema1:deathPlace faamentity:5FxHYswx ;
+    schema1:description "Swiss composer (1901-1989)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q671783>,
+        "15996119"^^xsd:string,
+        "K8fwsJjW"^^xsd:string ;
+    schema1:nationality faamentity:oHTSDFRc ;
+    skos:altLabel "Conrad Arthur Beck"^^xsd:string,
+        "Conrad Beck"^^xsd:string ;
+    skos:prefLabel "Conrad Beck"^^xsd:string ;
+    wd:P108 faamentity:TNPjayZT ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:64060997 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/50035286> ;
+    wd:P737 faamentity:NCFq3aXa,
+        faamentity:UtCQwJAp ;
+    wd:P839 <https://imslp.org/wiki/Category:Beck,_Conrad> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

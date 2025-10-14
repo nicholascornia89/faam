@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6bssUuuV a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "form of musical comedy stage production mostly performed during Christmas and New Year's"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q13409536>,
+        "16004145"^^xsd:string,
+        "6bssUuuV"^^xsd:string ;
+    skos:altLabel "panto"^^xsd:string,
+        "pantomime"^^xsd:string ;
+    skos:prefLabel "pantomime"^^xsd:string .
+

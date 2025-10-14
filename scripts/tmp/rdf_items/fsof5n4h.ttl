@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fsof5n4h a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical piece for a single voice as part of a larger work"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q178122>,
+        "15998774"^^xsd:string,
+        "fsof5n4h"^^xsd:string ;
+    skos:altLabel "aria"^^xsd:string,
+        "aria music"^^xsd:string,
+        "arietta"^^xsd:string,
+        "ariette"^^xsd:string ;
+    skos:prefLabel "aria"^^xsd:string .
+

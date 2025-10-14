@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JrXChdhy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7qCCArxX,
+        faamentity:GpNEm7nw,
+        faamentity:Jx8FMpyt,
+        faamentity:LQE77nqs,
+        faamentity:NRsZG792,
+        faamentity:iZiYk6VC,
+        faamentity:iyfjpyT2 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:LCBnZLoP,
+        faamentity:Rn2iLGJr ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GyJBKL3i,
+        faamentity:MdFCS4qM ;
+    schema1:hasPart faamentity:eME3yXnk ;
+    schema1:identifier "15992345"^^xsd:string,
+        "JrXChdhy"^^xsd:string,
+        "KCA-030904127666"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14807728/N"^^schema1:url ;
+    skos:prefLabel "Festpräludium : zu dem Choral \"Ein' feste Burg ist unser Gott\": für die Orgel, op. 38"^^xsd:string ;
+    wd:P217 "MM-TO-BAUME-festpra-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"JrXChdhy-1e5ee15f-923c-4b0e-8f2c-6922de3b9a10"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"JrXChdhy-9c9e8878-1517-4cfa-97c6-a4bb47dee60d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"JrXChdhy-c3eb2ce7-af40-4f1f-a982-cc3cdb04c231"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GyJBKL3i a rdf:object .
+
+faamentity:MdFCS4qM a rdf:object .
+

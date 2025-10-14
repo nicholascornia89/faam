@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g9QFwnY7 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "German music conservatory in Detmold"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q317855>,
+        "15991077"^^xsd:string,
+        "g9QFwnY7"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a,
+        faamentity:Cr5NYZu9 ;
+    skos:altLabel "Detmold Music Academy"^^xsd:string,
+        "Hochschule für Musik Detmold"^^xsd:string ;
+    skos:prefLabel "Hochschule für Musik Detmold"^^xsd:string .
+

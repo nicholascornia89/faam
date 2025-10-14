@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NY8AZCns a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1874-11-17"^^xsd:string ;
+    schema1:birthPlace faamentity:XsjPV59x ;
+    schema1:deathDate "1966-01-14"^^xsd:string ;
+    schema1:deathPlace faamentity:NWerpCFb ;
+    schema1:description "Belgian university professor, librarian, musicologist and music historian (1874–1966)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1066297>,
+        "16005640"^^xsd:string,
+        "NY8AZCns"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Charles Van den Borren"^^xsd:string ;
+    skos:prefLabel "Charles Van den Borren"^^xsd:string ;
+    wd:P108 faamentity:GDp3g8Qs ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:41847517 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30064396> ;
+    wd:P737 faamentity:jq6qS77b ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:XWcaJQty,
+        faamentity:avB62pGy,
+        faamentity:kKY7zLoa .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Y3svBbaf a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "television genre characterized by a series of specialty acts such as music, dance, comedy, magic, acrobatics and ventriloquism"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q336181>,
+        "15998742"^^xsd:string,
+        "Y3svBbaf"^^xsd:string ;
+    skos:altLabel "television variety program"^^xsd:string,
+        "television variety show"^^xsd:string,
+        "variety"^^xsd:string,
+        "variety TV Show"^^xsd:string,
+        "variety entertainment"^^xsd:string,
+        "variety program"^^xsd:string,
+        "variety show"^^xsd:string,
+        "variety television"^^xsd:string,
+        "variety television program"^^xsd:string,
+        "variety television show"^^xsd:string ;
+    skos:prefLabel "variety show"^^xsd:string .
+

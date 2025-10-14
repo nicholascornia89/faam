@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:H7nvfFpC a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in southwestern Ukraine, administrative center of Odesa Oblast and Odesa Raion"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1874>,
+        "0"^^xsd:string,
+        "H7nvfFpC"^^xsd:string ;
+    schema1:location faamentity:DEbEnXwM ;
+    skos:altLabel "Odesa, Ukraine"^^xsd:string,
+        "Odessa"^^xsd:string ;
+    skos:prefLabel "Odesa"^^xsd:string ;
+    wd:P1566 gn:698740 .
+

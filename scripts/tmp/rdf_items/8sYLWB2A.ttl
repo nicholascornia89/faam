@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8sYLWB2A a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1749-06-15"^^xsd:string ;
+    schema1:birthPlace faamentity:K8vRTnmT ;
+    schema1:deathDate "1814-05-06"^^xsd:string ;
+    schema1:deathPlace faamentity:aiHspLU2 ;
+    schema1:description "German composer, organist, teacher and music theorist (1747–1814)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q708557>,
+        "0"^^xsd:string,
+        "8sYLWB2A"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Abbé Vogler"^^xsd:string ;
+    skos:prefLabel "Georg Joseph Vogler"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:46806494 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/147606> ;
+    wd:P737 faamentity:3KJ4atqX,
+        faamentity:SSADVDXG ;
+    wd:P839 <https://imslp.org/wiki/Category:Vogler,_Georg_Joseph> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD .
+

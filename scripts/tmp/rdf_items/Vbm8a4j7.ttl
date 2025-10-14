@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Vbm8a4j7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:HHYqWvTC,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:bTYqbr5b,
+        faamentity:cbi3YyeP,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:T9uNf9Ax,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4bJXjG2F,
+        faamentity:GecAsFfL,
+        faamentity:mSjvHyCe ;
+    schema1:hasPart faamentity:dwdaRArz ;
+    schema1:identifier "16004006"^^xsd:string,
+        "BNF-428267676"^^xsd:string,
+        "Vbm8a4j7"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb428267676"^^schema1:url ;
+    skos:prefLabel "Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869]"^^xsd:string ;
+    skosref:note "Volume 2 instead of 1 as stated in the item description in BnF."^^rdf:HTML ;
+    wd:P217 "FOL-VM12-11512 (2)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Vbm8a4j7-9d4db40a-978b-4855-b071-5f88237e7c9a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1914"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"Vbm8a4j7-aeea8c29-daf6-40cf-b456-9d7649bce45a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Vbm8a4j7-baf37563-01f1-40d8-bc55-39c17c04d818"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1928"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:4bJXjG2F a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:mSjvHyCe a rdf:object .
+

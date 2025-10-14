@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FpfYVAFn a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1556-06-13"^^xsd:string ;
+    schema1:birthPlace faamentity:MKJR7NT3 ;
+    schema1:deathDate "1608-07-25"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3907903>,
+        "0"^^xsd:string,
+        "FpfYVAFn"^^xsd:string ;
+    skos:prefLabel "Pomponio Nenna"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:202273 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30013880> ;
+    wd:P737 faamentity:MzU3fdit ;
+    wd:P839 <https://imslp.org/wiki/Category:Nenna,_Pomponio> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

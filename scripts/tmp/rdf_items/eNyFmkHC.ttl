@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eNyFmkHC a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4AMPVsN8 ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "choice of which fingers and hand positions to use when playing certain musical instruments"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q608487>,
+        "15992107"^^xsd:string,
+        "eNyFmkHC"^^xsd:string ;
+    skos:altLabel "fingering"^^xsd:string,
+        "stopping"^^xsd:string ;
+    skos:prefLabel "fingering"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:dcpEysXL ;
+    wd:P31 faamentity:Dy8pmS8i,
+        faamentity:fxtj72S3 .
+

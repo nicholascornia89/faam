@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fJdhWYoM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:E4rhHet3,
+        faamentity:EqtAuzbH,
+        faamentity:gb6MiJbD ;
+    faamprop:handwritten_annotation faamentity:4bLsvwPs,
+        faamentity:8N6k5W5i,
+        faamentity:D6RjeTWv,
+        faamentity:DawBtzdU,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:TUdHPWU8,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4tQBaATq,
+        faamentity:6wpp746x ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CBhw6hUN,
+        faamentity:CkvFyngt,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992334"^^xsd:string,
+        "KCA-030902215612"^^xsd:string,
+        "fJdhWYoM"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7099493/N"^^schema1:url ;
+    skos:prefLabel "Het daghet in den Oosten: fantasie op oude Vlaamse volkmelodieën"^^xsd:string ;
+    wd:P217 "MM-SHH-DHAEY-daghet-41"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"fJdhWYoM-06e89a79-e0f2-41f7-a671-c23b48112ae4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"fJdhWYoM-72aee9ea-7f86-45b9-86e1-29d660779467"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"fJdhWYoM-c843ada6-21bf-41c5-9296-3abd626a87ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:CBhw6hUN a rdf:object .
+
+faamentity:CkvFyngt a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

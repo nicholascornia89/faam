@@ -1,0 +1,58 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Q2RWCMd8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:CpLMi4in ;
+    schema1:birthDate "1932-01-05"^^xsd:string ;
+    schema1:birthPlace faamentity:YKkfPuHC ;
+    schema1:deathDate "2016-02-19"^^xsd:string ;
+    schema1:deathPlace faamentity:CBAqGowo ;
+    schema1:description "Italian semiotician, essayist, philosopher, literary critic, and novelist (1932–2016)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12807>,
+        "15995800"^^xsd:string,
+        "Q2RWCMd8"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD,
+        faamentity:fj46nffV ;
+    skos:altLabel "Dedalus"^^xsd:string,
+        "Eco Umberto"^^xsd:string,
+        "Humberto Eco"^^xsd:string,
+        "Oumperto Eko"^^xsd:string,
+        "U. Eco"^^xsd:string,
+        "Umberto Ecco"^^xsd:string,
+        "Umberto Eccounstino"^^xsd:string,
+        "Umberto Eco"^^xsd:string,
+        "Umberto Eko"^^xsd:string ;
+    skos:prefLabel "Umberto Eco"^^xsd:string ;
+    wd:P108 faamentity:C9KemtRC,
+        faamentity:NzskaK6T ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:108299403 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40200400> ;
+    wd:P737 <Q187520>,
+        <Q35610>,
+        <Q6882>,
+        <Q909>,
+        <Q9312>,
+        <Q9438> ;
+    schema:hasOccupation faamentity:4oKtB5xy,
+        faamentity:6pfzESag,
+        faamentity:K6kyECJ7,
+        faamentity:KHLuLrh2,
+        faamentity:NdvmaeTr,
+        faamentity:XWcaJQty,
+        faamentity:YrCfZ8vh,
+        faamentity:Z82mUmvc,
+        faamentity:ZRPRu8Sj,
+        faamentity:aC8eXrrE,
+        faamentity:bSHypyYG,
+        faamentity:mT6Jf8WQ,
+        faamentity:nrDVDBKf .
+

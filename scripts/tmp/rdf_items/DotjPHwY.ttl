@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DotjPHwY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:gb6MiJbD ;
+    faamprop:handwritten_annotation faamentity:4AqAfYnf,
+        faamentity:E4rhHet3,
+        faamentity:HohjWQAt,
+        faamentity:PprjdkHE,
+        faamentity:QGRAMUu8 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:XqwGf95J ;
+    schema1:identifier "15992335"^^xsd:string,
+        "DotjPHwY"^^xsd:string,
+        "KCA-030901842382"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7080239/N"^^schema1:url ;
+    skos:prefLabel "Les Amazones: polka"^^xsd:string ;
+    wd:P217 "MM-SHO-GOBBA-amazone-36"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"DotjPHwY-b81d798d-f701-4f86-bb1e-939bb1fd6d81"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"DotjPHwY-d3239261-11fb-4fbb-8e7a-de3349083a9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:XqwGf95J a rdf:object .
+

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kPnk2SZm a rdfs:Resource ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1776-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:4g8XzGFP ;
+    schema1:deathDate "1845-01-01"^^xsd:string ;
+    schema1:description "Belgian composer and music teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110224417>,
+        "16004229"^^xsd:string,
+        "kPnk2SZm"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Charles Ots"^^xsd:string ;
+    skos:prefLabel "Charles Ots"^^xsd:string ;
+    wd:P108 faamentity:KW3RZcDp ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:310605425 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30010223> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7tdgMgre a rdfs:Resource ;
+    schema1:Class "role"^^xsd:string ;
+    schema1:description "company that prints and distributes pressed goods or electronic media"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2085381>,
+        "15996312"^^xsd:string,
+        "7tdgMgre"^^xsd:string ;
+    skos:altLabel "house"^^xsd:string,
+        "publisher"^^xsd:string,
+        "publishers"^^xsd:string,
+        "publishing company"^^xsd:string,
+        "publishing firm"^^xsd:string,
+        "publishing house"^^xsd:string ;
+    skos:prefLabel "publisher"^^xsd:string .
+

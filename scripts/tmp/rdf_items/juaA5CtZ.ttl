@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:juaA5CtZ a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "1949–1990 country in central Europe, unified into modern Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16957>,
+        "0"^^xsd:string,
+        "juaA5CtZ"^^xsd:string ;
+    skos:altLabel "Communist Germany"^^xsd:string,
+        "DDR"^^xsd:string,
+        "Deutsche Demokratische Republik"^^xsd:string,
+        "East Germany"^^xsd:string,
+        "GDR"^^xsd:string ;
+    skos:prefLabel "German Democratic Republic"^^xsd:string ;
+    wd:P1566 gn:8354410 .
+

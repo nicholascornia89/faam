@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:c3pcMa2E a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6V4cnEUi,
+        faamentity:PXYCpRXf,
+        faamentity:cy2NFhfp ;
+    schema1:hasPart faamentity:4ANJyJ6E,
+        faamentity:5desSPih,
+        faamentity:BpqErbq5,
+        faamentity:C3yy7VKT,
+        faamentity:EiKxgscr,
+        faamentity:Em6zN9bY,
+        faamentity:P6KNC7Pm,
+        faamentity:Vk8JV7ow,
+        faamentity:WGwyxeMv,
+        faamentity:XdKEQUBK,
+        faamentity:ZkJvqtYL,
+        faamentity:aihk265Z,
+        faamentity:bxP58X9M,
+        faamentity:dZrCKNXM,
+        faamentity:eJ86N3UF,
+        faamentity:fDGifj2B,
+        faamentity:hr9hGvFv ;
+    schema1:identifier "16005155"^^xsd:string,
+        "SML-18890"^^xsd:string,
+        "c3pcMa2E"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910333563405216"^^schema1:url ;
+    skos:prefLabel "Les Clavecinistes de 1637 à 1790 : en trois volumes musique / [édité par] Amédée Méreaux."^^xsd:string ;
+    wd:P217 "M21 .M55"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"c3pcMa2E-2462bdff-7d7b-49e8-911a-bfc1bdafa8b2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"c3pcMa2E-701df8ba-ca6e-4831-bc4c-061aec459dd7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"c3pcMa2E-c91cebef-8d9f-4d19-8dbf-ef6b3ec0d4f4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:6V4cnEUi a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:cy2NFhfp a rdf:object .
+

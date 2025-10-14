@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gPszdmNe a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "academic position at universities and other education and research institutions"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q121594>,
+        "0"^^xsd:string,
+        "gPszdmNe"^^xsd:string ;
+    skos:altLabel "Prof."^^xsd:string ;
+    skos:prefLabel "professor"^^xsd:string .
+

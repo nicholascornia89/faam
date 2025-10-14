@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bP49uHni a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1850-02-17"^^xsd:string ;
+    schema1:birthPlace faamentity:RiB7qUPm ;
+    schema1:deathDate "1907-01-11"^^xsd:string ;
+    schema1:deathPlace faamentity:RiB7qUPm ;
+    schema1:description "German composer (1850-1907)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q214805>,
+        "16005228"^^xsd:string,
+        "bP49uHni"^^xsd:string ;
+    schema1:nationality faamentity:WN5PAeAx ;
+    skos:altLabel "Anton Urspruch"^^xsd:string ;
+    skos:prefLabel "Anton Urspruch"^^xsd:string ;
+    wd:P108 faamentity:oUawCngd ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:30310141 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/132444> ;
+    wd:P737 faamentity:6iVvX3mY,
+        faamentity:YaMUxDWu,
+        faamentity:YrXoha7y ;
+    wd:P839 <https://imslp.org/wiki/Category:Urspruch,_Anton> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

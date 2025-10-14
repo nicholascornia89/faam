@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Jz7WgRXa a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "music with multiple, independent melody lines performed simultaneously"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q179465>,
+        "15990670"^^xsd:string,
+        "Jz7WgRXa"^^xsd:string ;
+    skos:altLabel "polyphonic chant"^^xsd:string,
+        "polyphonic form"^^xsd:string,
+        "polyphonic music"^^xsd:string,
+        "polyphonic singing"^^xsd:string,
+        "polyphony"^^xsd:string ;
+    skos:prefLabel "polyphony"^^xsd:string .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hUzCSsxA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Russian and Soviet composer, conductor , musicologist and music teacher (1859–1935)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q346815>,
+        "0"^^xsd:string,
+        "hUzCSsxA"^^xsd:string ;
+    skos:altLabel "Mikhail Mikhailovich Ippolitov-Ivanov"^^xsd:string,
+        "Mikhail Mikhaylovich Ippolitov-Ivanov"^^xsd:string ;
+    skos:prefLabel "Mikhail Ippolitov-Ivanov"^^xsd:string ;
+    wd:P108 faamentity:GjurMHUq ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:196567 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30074105> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ippolitov-Ivanov,_Mikhail> .
+

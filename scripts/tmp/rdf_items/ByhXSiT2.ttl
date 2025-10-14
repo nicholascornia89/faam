@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ByhXSiT2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Austrian Jewish composer, conductor, and teacher (1871-1942)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78524>,
+        "0"^^xsd:string,
+        "ByhXSiT2"^^xsd:string ;
+    skos:altLabel "Alexander Zemlinsky"^^xsd:string ;
+    skos:prefLabel "Alexander von Zemlinsky"^^xsd:string ;
+    wd:P108 <Q11812403>,
+        <Q732697>,
+        <Q90889588> ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59271270 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/98659> ;
+    wd:P839 <https://imslp.org/wiki/Category:Zemlinsky,_Alexander_von> .
+

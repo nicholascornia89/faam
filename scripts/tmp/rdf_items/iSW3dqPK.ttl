@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iSW3dqPK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:UJ57Ew5y,
+        faamentity:eJhxFoas,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:TUdHPWU8,
+        faamentity:b3QcSGeL,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:PNUCXvjA,
+        faamentity:QapAmARZ,
+        faamentity:jvLF4xd6 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:ThMz2zA8 ;
+    schema1:identifier "15992385"^^xsd:string,
+        "KCA-030902929378"^^xsd:string,
+        "iSW3dqPK"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6810650/N"^^schema1:url ;
+    skos:prefLabel "De bron in de eenzame tempel : voor piano = La source dans les ruines du temple : pour piano"^^xsd:string ;
+    skosref:related faamentity:ZA9RancR,
+        faamentity:khky4mo6 ;
+    wd:P217 "MM-TP-DURLE-bronind-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"iSW3dqPK-20adbc34-4733-43fc-9b62-715b08c2a527"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+"iSW3dqPK-770c65b6-bf1a-4cda-843b-82eec08de62d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1955"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"iSW3dqPK-956c0953-17ef-43b0-b7b5-fd8462507390"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:ThMz2zA8 a rdf:object .
+

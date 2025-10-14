@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rsi49MkN a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Bt83smaN ;
+    schema1:birthDate "1813-03-11"^^xsd:string ;
+    schema1:birthPlace faamentity:DHqBUper ;
+    schema1:deathDate "1892-05-01"^^xsd:string ;
+    schema1:deathPlace faamentity:5hXiBtGn ;
+    schema1:description "Italian voice teacher (1813–1892)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q376597>,
+        "16004166"^^xsd:string,
+        "Rsi49MkN"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD,
+        faamentity:fj46nffV ;
+    skos:altLabel "Francesco Lamperti"^^xsd:string ;
+    skos:prefLabel "Francesco Lamperti"^^xsd:string ;
+    wd:P108 faamentity:Bt83smaN ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:86455996 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40221520> ;
+    wd:P737 faamentity:XDUjMRo5 ;
+    wd:P839 <https://imslp.org/wiki/Category:Lamperti,_Francesco> ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:oJ9qmRVq .
+

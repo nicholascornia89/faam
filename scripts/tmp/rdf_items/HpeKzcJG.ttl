@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HpeKzcJG a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "minister in the Catholic Church of the West, of the Roman rite, who have received the second degree of the sacrament of orders. They can administer five of the seven sacraments, except confirmation and ordination, reserved for the bishop"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1469535>,
+        "0"^^xsd:string,
+        "HpeKzcJG"^^xsd:string ;
+    skos:altLabel "Priester"^^xsd:string,
+        "Roman Catholic priest"^^xsd:string,
+        "Roman Rite Catholic priest"^^xsd:string,
+        "Roman rite catholic priest"^^xsd:string,
+        "catholic presbyter"^^xsd:string,
+        "catholic priest"^^xsd:string,
+        "communion priest"^^xsd:string,
+        "presbyter"^^xsd:string,
+        "priest"^^xsd:string,
+        "priest in the roman catholic church"^^xsd:string,
+        "roman catholic presbyter"^^xsd:string,
+        "roman rite catholic presbyter"^^xsd:string ;
+    skos:prefLabel "Latin Catholic priest"^^xsd:string .
+

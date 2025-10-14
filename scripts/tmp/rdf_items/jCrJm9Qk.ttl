@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jCrJm9Qk a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "commune in Puy-de-Dôme, France"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q284910>,
+        "0"^^xsd:string,
+        "jCrJm9Qk"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "Amant-la-Cheyre"^^xsd:string ;
+    skos:prefLabel "Saint-Amant-Tallende"^^xsd:string ;
+    wd:P1566 gn:6440156 .
+

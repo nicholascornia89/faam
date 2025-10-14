@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EYwyMZ7c a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "education organization in Dresden, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q468181>,
+        "16004781"^^xsd:string,
+        "EYwyMZ7c"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a,
+        faamentity:mRsCycJu ;
+    skos:altLabel "Carl Maria von Weber College of Music"^^xsd:string,
+        "Dresden Conservatory"^^xsd:string,
+        "Dresden Royal Conservatory"^^xsd:string,
+        "Hochschule für Musik Carl Maria von Weber"^^xsd:string ;
+    skos:prefLabel "Hochschule für Musik Carl Maria von Weber"^^xsd:string .
+

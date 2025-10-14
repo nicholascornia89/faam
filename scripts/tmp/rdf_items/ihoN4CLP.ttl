@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ihoN4CLP a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "French pianist, composer, organist, choir director and music educator (1881-1951)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3288522>,
+        "0"^^xsd:string,
+        "ihoN4CLP"^^xsd:string ;
+    skos:prefLabel "Marc de Ranse"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:74119742 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:De_Ranse,_Marc> .
+

@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jHLdEc4N a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1808-11-19"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1877-10-14"^^xsd:string ;
+    schema1:deathPlace faamentity:SFiJwAPH ;
+    schema1:description "French composer (1808-1877)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q374582>,
+        "0"^^xsd:string,
+        "jHLdEc4N"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Antoine Aimable Elie Elwart"^^xsd:string,
+        "Antoine Amable Élie Elwart"^^xsd:string ;
+    skos:prefLabel "Antoine Elwart"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61812320 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30016593> ;
+    wd:P737 faamentity:CCXXrNqc,
+        faamentity:Kfr836HB,
+        faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Elwart,_Antoine> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

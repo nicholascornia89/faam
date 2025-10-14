@@ -26,6 +26,8 @@ externalids2wd_mapping_filename = os.path.join("mapping", "externalids2wd_mappin
 
 nodegoat2faam_kb_filename = os.path.join("mapping", "nodegoat2faam_kb_mapping.csv")
 
+nodegoat2faam_kb = csv2dict(nodegoat2faam_kb_filename)
+
 graph_attributes_type_filename = os.path.join(
     "mapping", "graph_attributes_type_mapping.csv"
 )
@@ -211,27 +213,52 @@ def faam_kb():
             print(f"Remove empty statements...")
             faam_kb = remove_empty_statements(faam_kb)
 
+            # Backing up...
+            dict2json(faam_kb, faam_kb_filename)
+
             # adding Wikidata label to each qid statement
             print("Adding Wikidata labels to each QID...")
             faam_kb = add_label_to_qid_metadata(faam_kb)
 
+            # Backing up...
+            dict2json(faam_kb, faam_kb_filename)
+
+            # retrieving Wikidata QIDs for empty properties
+            print("Retrieving new property values from Wikidata...")
+            faam_kb = retrieve_properties_from_wikidata(faam_kb, faam_kb_mapping)
+
+            # Backing up...
+            dict2json(faam_kb, faam_kb_filename)
+
             print(f"Adding labels to each statement and qualifier...")
             faam_kb = add_label_to_statement(faam_kb)
+
+            # Backing up...
+            dict2json(faam_kb, faam_kb_filename)
 
             # adding country statement in cities
             print("Adding country statement to cities...")
             faam_kb = add_country_to_cities(faam_kb)
 
-        dict2json(faam_kb, faam_kb_filename)
-
-        # adding cross_referencies WORKS FINE, BUT TIME CONSUMING
-        print("Adding cross_references to each item...")
-        cross_reference_mapping = json2dict(
-            os.path.join("mapping", "cross_reference_mapping.json")
-        )
-        faam_kb = cross_references(faam_kb, cross_reference_mapping)
+            # Backing up...
+            dict2json(faam_kb, faam_kb_filename)
 
         dict2json(faam_kb, faam_kb_filename)
+
+        print("Would you like to generate cross-references for each item? y/n")
+        answer = input()
+
+        if answer == "y":
+            # adding cross_referencies
+            print("Adding cross_references to each item...")
+            cross_reference_mapping = json2dict(
+                os.path.join("mapping", "cross_reference_mapping.json")
+            )
+            faam_kb = cross_references(faam_kb, cross_reference_mapping)
+
+            dict2json(faam_kb, faam_kb_filename)
+
+        print("Generating RDF knowledge graph...")
 
         # generate RDF graph ## TO BE TESTED
         generate_rdf_kb(

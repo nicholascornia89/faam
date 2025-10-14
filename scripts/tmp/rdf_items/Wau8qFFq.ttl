@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Wau8qFFq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:Cbxx8HUs,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:LtW88Gtx,
+        faamentity:atGzytDR,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GSqAPxLN,
+        faamentity:n2KyzS34 ;
+    schema1:hasPart faamentity:VHzQ7y5u ;
+    schema1:identifier "15992723"^^xsd:string,
+        "CBM-TORRMsA63"^^xsd:string,
+        "Wau8qFFq"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.63"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:k59fQ7su .
+
+schema1:contributor a rdf:predicate .
+
+"Wau8qFFq-3a2040a6-33a2-4e25-b53c-9dfeb61dd48d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Wau8qFFq-bdceb34c-9979-4a01-af12-bb506cbafed6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:GSqAPxLN a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

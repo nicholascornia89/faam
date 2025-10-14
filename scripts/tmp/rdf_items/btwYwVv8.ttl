@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:btwYwVv8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1867-06-11"^^xsd:string ;
+    schema1:birthPlace faamentity:jvFHbkUT ;
+    schema1:deathDate "1959-00-00"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "Spanish musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q48963838>,
+        "0"^^xsd:string,
+        "btwYwVv8"^^xsd:string ;
+    schema1:nationality faamentity:FLkzgv4J ;
+    skos:prefLabel "Santiago Riera"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:306235437 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:5eUMkMxY,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:jQjsdegi .
+

@@ -1,0 +1,77 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZAbJ9Lcf a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:E4rhHet3,
+        faamentity:EXzrp8XT,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:amkJ6EBs,
+        faamentity:eNyFmkHC,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:3TH8dCwg,
+        faamentity:7WfWytMV,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:DQwB3wUJ,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:YVdQHjKd,
+        faamentity:iHeydB2F ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:KQYeWCdx,
+        faamentity:TZfafBBe,
+        faamentity:W8EfwtH8 ;
+    schema1:hasPart faamentity:RUMoSRYx ;
+    schema1:identifier "15992713"^^xsd:string,
+        "KCA-030903242334"^^xsd:string,
+        "ZAbJ9Lcf"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6728970/N"^^schema1:url ;
+    skos:prefLabel "Fantasie für Pianoforte, Orchester und Chor, op. 80"^^xsd:string ;
+    wd:P217 "MM-TPT-BEETH-fanta80-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"ZAbJ9Lcf-0610701d-07f5-481e-8f70-892a531463e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"ZAbJ9Lcf-29a88e20-4f14-4406-81c2-f9e6e870a3c9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "05-1887"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:location faamentity:PNeLQZnK .
+
+"ZAbJ9Lcf-7b448dbd-4b99-4c5b-8d27-17a2d2df8c4f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"ZAbJ9Lcf-da2918a3-af67-4d6c-ba0b-8d0e0beb6b73"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:KQYeWCdx a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+

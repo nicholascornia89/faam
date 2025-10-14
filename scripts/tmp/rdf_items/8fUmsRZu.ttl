@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8fUmsRZu a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "university in the city of Fribourg, Switzerland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q36188>,
+        "0"^^xsd:string,
+        "8fUmsRZu"^^xsd:string ;
+    schema1:location faamentity:fQixdxrh,
+        faamentity:oHTSDFRc ;
+    skos:altLabel "UNIFR"^^xsd:string,
+        "Uni Fribourg"^^xsd:string,
+        "Universitas Friburgensis"^^xsd:string,
+        "Universite de Fribourg"^^xsd:string,
+        "Universität Freiburg"^^xsd:string,
+        "Université de Fribourg"^^xsd:string,
+        "studies.unifr.ch"^^xsd:string ;
+    skos:prefLabel "University of Fribourg"^^xsd:string .
+

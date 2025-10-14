@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HeEL7b5v a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5349011>,
+        "16002786"^^xsd:string,
+        "HeEL7b5v"^^xsd:string ;
+    skos:altLabel "Eight Short Preludes and Fugues"^^xsd:string ;
+    skos:prefLabel "8 Kleine Präludien und Fugen, BWV 553-560"^^xsd:string ;
+    wd:P214 viaf:179428019 ;
+    wd:P5202 faamentity:5YrR8BxV ;
+    wd:P7937 faamentity:T9uNf9Ax,
+        faamentity:YJViDXyp,
+        faamentity:YLBjfZTJ ;
+    wd:P839 <https://imslp.org/wiki/8_Kleine_Präludien_und_Fugen,_BWV_553-560_(Bach,_Johann_Sebastian)> .
+

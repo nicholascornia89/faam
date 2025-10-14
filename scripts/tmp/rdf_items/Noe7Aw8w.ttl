@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Noe7Aw8w a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1874-05-13"^^xsd:string ;
+    schema1:birthPlace faamentity:CFfbkr9h ;
+    schema1:deathDate "1956-09-15"^^xsd:string ;
+    schema1:deathPlace faamentity:QoDt7U6Y ;
+    schema1:description "American composer and editor (1874-1956)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q34933930>,
+        "16002669"^^xsd:string,
+        "Noe7Aw8w"^^xsd:string ;
+    schema1:nationality faamentity:fiWxEeqn ;
+    skos:altLabel "H. Clough-Leighter"^^xsd:string,
+        "Henry Clough-Leighter"^^xsd:string ;
+    skos:prefLabel "Henry Clough-Leighter"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:393149294511580522959 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Clough-Leighter,_Henry> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:Xz53gcgf,
+        faamentity:jQjsdegi .
+

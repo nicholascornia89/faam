@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aC8eXrrE a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "specialist in the study of literature"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q17167049>,
+        "0"^^xsd:string,
+        "aC8eXrrE"^^xsd:string ;
+    skos:altLabel "literature scholar"^^xsd:string,
+        "littérateur"^^xsd:string,
+        "specialist in literature"^^xsd:string ;
+    skos:prefLabel "literary scholar"^^xsd:string .
+

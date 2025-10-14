@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eu3HHszA a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "play by Tirso de Molina"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2714218>,
+        "0"^^xsd:string,
+        "eu3HHszA"^^xsd:string ;
+    skos:altLabel "El burlador de Sevilla y convidado de piedra"^^xsd:string,
+        "The Joker of Seville"^^xsd:string,
+        "The Playboy of Seville"^^xsd:string,
+        "The Seducer of Seville"^^xsd:string,
+        "The Trickster of Seville and the Stone Guest"^^xsd:string ;
+    skos:prefLabel "The Trickster of Seville and the Stone Guest"^^xsd:string ;
+    wd:P214 viaf:178225099 ;
+    wd:P7937 faamentity:h78pJhGf .
+

@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2MU3eQVp a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in Southern Europe situated on an archipelago in the Mediterranean Sea"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q233>,
+        "15998705"^^xsd:string,
+        "2MU3eQVp"^^xsd:string ;
+    skos:altLabel "MLT"^^xsd:string,
+        "MT"^^xsd:string,
+        "Malta"^^xsd:string,
+        "Republic of Malta"^^xsd:string ;
+    skos:prefLabel "Malta"^^xsd:string ;
+    wd:P1566 gn:2562770 .
+

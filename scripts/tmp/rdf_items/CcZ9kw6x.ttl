@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CcZ9kw6x a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7qCCArxX,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:TUdHPWU8,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:hChNthvw,
+        faamentity:kxAqh9HR,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:QapAmARZ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:KpDFWMKA ;
+    schema1:identifier "15992557"^^xsd:string,
+        "CcZ9kw6x"^^xsd:string,
+        "KCA-03090399482"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14735622/N"^^schema1:url ;
+    skos:prefLabel "Symfonisch gedicht voor Flute en Orchestra : dwaallichten - melancholia - dwaallichtendans"^^xsd:string ;
+    wd:P217 "MM-PBFPP-BENOI-conc-56"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"CcZ9kw6x-8c03e2fb-c7f7-4530-b9e7-8d1260fc2a83"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"CcZ9kw6x-ad349685-8f76-4d31-9b73-c1d4fac4156e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

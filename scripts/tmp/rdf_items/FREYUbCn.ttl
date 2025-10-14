@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FREYUbCn a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:BCLeS5SR,
+        faamentity:D6RjeTWv,
+        faamentity:GepDoTXn,
+        faamentity:eNyFmkHC,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:R4SyinuD,
+        faamentity:ngDuDyvn ;
+    schema1:identifier "15992522"^^xsd:string,
+        "FREYUbCn"^^xsd:string,
+        "KCA-030904192645"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14794102/N"^^schema1:url ;
+    skos:prefLabel "Berceuse"^^xsd:string ;
+    wd:P217 "UM-SC-RENAR-berce-2"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"FREYUbCn-b0ae98a0-865b-4cb6-a4fd-e0c0c7ca1d9a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:nSKgHevT .
+
+"FREYUbCn-d71773ad-ee7e-4118-aa23-a41c392f1b91"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FREYUbCn-f89db603-9365-4741-a5a4-0ccfdcbbf3fa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:R4SyinuD a rdf:object .
+
+faamentity:ngDuDyvn a rdf:object .
+

@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kXNArq5N a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1841-01-01"^^xsd:string,
+        "1841-02-19"^^xsd:string ;
+    schema1:birthPlace faamentity:fjWSFqSh ;
+    schema1:deathDate "1922-01-01"^^xsd:string,
+        "1922-08-19"^^xsd:string ;
+    schema1:deathPlace faamentity:Lanb7pQB,
+        faamentity:jvFHbkUT ;
+    schema1:description "Catalan composer, teacher and musicologist (1841–1922)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q351394>,
+        "0"^^xsd:string,
+        "kXNArq5N"^^xsd:string ;
+    schema1:nationality faamentity:FLkzgv4J ;
+    skos:altLabel "Felip Pedrell i Sabaré"^^xsd:string,
+        "Felipe Pedrell"^^xsd:string,
+        "Felipe Pedrell Sabate"^^xsd:string,
+        "Felipe Pedrell Sabaté"^^xsd:string ;
+    skos:prefLabel "Felip Pedrell"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:304266871,
+        viaf:74032821 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/345917> ;
+    wd:P737 faamentity:Q2SRZB6x,
+        faamentity:jhHqv86b ;
+    wd:P839 <https://imslp.org/wiki/Category:Pedrell,_Felipe> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:L7DPWnnr .
+

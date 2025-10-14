@@ -1,0 +1,66 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RtoFe5LM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:GpNEm7nw,
+        faamentity:JwqBvu9Z,
+        faamentity:UJ57Ew5y,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:WgWRP5cq,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:CGy68nTi,
+        faamentity:JvEdXjs7,
+        faamentity:X3yMqYb6 ;
+    schema1:identifier "16005680"^^xsd:string,
+        "DPF-202502029"^^xsd:string,
+        "RtoFe5LM"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Collectio facilium necnon ineditorum operum. Ad usum organi"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA Septembris 1935 (No. 3)."^^rdf:HTML ;
+    wd:P217 "ms-1935-03"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"RtoFe5LM-43454755-9da9-449b-a2e5-bc066cd1dd0b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1935"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"RtoFe5LM-945490a6-973c-4734-8173-2cb9c4bce048"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"RtoFe5LM-ccd780eb-b536-4a5b-8d07-7048f139bf7a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"RtoFe5LM-dc7a7dba-a8a7-4219-89f2-2a00fab78995"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:JvEdXjs7 a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+

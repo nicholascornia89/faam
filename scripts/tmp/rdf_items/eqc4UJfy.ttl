@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eqc4UJfy a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:84sdmiWW,
+        faamentity:S49pP2jV ;
+    schema1:birthDate "1839-03-09"^^xsd:string ;
+    schema1:birthPlace faamentity:AJ9DsBeF,
+        faamentity:e4bM5vcc ;
+    schema1:deathDate "1881-03-16"^^xsd:string ;
+    schema1:deathPlace faamentity:ZpwbPoZj ;
+    schema1:description "Russian composer (1839–1881)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q132682>,
+        "16002580"^^xsd:string,
+        "eqc4UJfy"^^xsd:string ;
+    schema1:nationality faamentity:3iEGZFo6,
+        faamentity:DEbEnXwM ;
+    skos:altLabel "Modest Petrovich Moussorgski"^^xsd:string,
+        "Modest Petrovich Mussorgsky"^^xsd:string,
+        "Mussorgsky"^^xsd:string ;
+    skos:prefLabel "Modest Petrovich Mussorgsky"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:49408900 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30019183> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mussorgsky,_Modest> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RQcw73HY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:8rovk6Ag,
+        faamentity:PJUnFxn4,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:E6UKKuHC,
+        faamentity:FzuLDZCr,
+        faamentity:RgqCDeWo ;
+    schema1:hasPart faamentity:Tsts8u6R ;
+    schema1:identifier "15992744"^^xsd:string,
+        "KCG-000340395"^^xsd:string,
+        "RQcw73HY"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000340395"^^schema1:url ;
+    skos:prefLabel "Variations Brillantes : sur un thême du Pirate de Bellini : composées pour la Flûte avec accomp.t de Quatuor ou Piano : Op: 10."^^xsd:string ;
+    wd:P217 "DS4650"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"RQcw73HY-74ec2153-2219-4ab0-8154-70f25e598e0c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"RQcw73HY-a5536cc1-68bd-4662-88dd-cc93291ccfa4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"RQcw73HY-ebebea07-1c74-4e52-ba1c-a43e1dd1b991"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:E6UKKuHC a rdf:object .
+
+faamentity:FzuLDZCr a rdf:object .
+
+faamentity:RgqCDeWo a rdf:object .
+

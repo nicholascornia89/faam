@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HtNGgwXZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1846-02-23"^^xsd:string,
+        "1846-02-24"^^xsd:string ;
+    schema1:birthPlace faamentity:kuQs9DeD ;
+    schema1:deathDate "1922-01-26"^^xsd:string,
+        "1922-01-27"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r ;
+    schema1:description "Italian composer (1846-1922)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q261781>,
+        "16005313"^^xsd:string,
+        "HtNGgwXZ"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD ;
+    skos:altLabel "Luigi Denza"^^xsd:string ;
+    skos:prefLabel "Luigi Denza"^^xsd:string ;
+    wd:P108 faamentity:EVBcTsBB ;
+    wd:P1303 faamentity:9tdYnPBe,
+        faamentity:NFAxdnVA ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56795841 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30015570> ;
+    wd:P839 <https://imslp.org/wiki/Category:Denza,_Luigi> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:VwRGjeiG,
+        faamentity:oJ9qmRVq .
+

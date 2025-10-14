@@ -1,0 +1,123 @@
+{
+  "id": "eKiujosP",
+  "uuid_num": 70983963138444,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Bratislava"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "capital city of Slovakia"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Pressburg"
+      },
+      {
+        "type": "string",
+        "value": "Pozsony"
+      },
+      {
+        "type": "string",
+        "value": "Presburg"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1780",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bratislava"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "eKiujosP"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "3060972",
+        "base_url": "https://www.geonames.org/",
+        "label": "3060972"
+      }
+    ],
+    "country": [
+      {
+        "type": "externalid",
+        "value": "Q214",
+        "base_url": "",
+        "label": "Slovakia"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5MMa69Kf",
+        "type": "item",
+        "label": "Johann Nepomuk Hummel",
+        "description": "Austrian composer and pianist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "JNHummel_2.jpg"
+        }
+      },
+      {
+        "id": "5mXYqyLd",
+        "type": "item",
+        "label": "László Erkel",
+        "description": "Hungarian pianist and conductor (1845-1896)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Erkel_László_és_felesége.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eKiujosP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eKiujosP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eKiujosP.csv"
+      }
+    ]
+  }
+}

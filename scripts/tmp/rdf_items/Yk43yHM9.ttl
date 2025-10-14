@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Yk43yHM9 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:GNcY5wsD,
+        faamentity:NzskaK6T ;
+    schema1:birthDate "1857-04-23"^^xsd:string ;
+    schema1:birthPlace faamentity:mSVELu4H ;
+    schema1:deathDate "1919-08-09"^^xsd:string ;
+    schema1:deathPlace faamentity:2uBr79Yn ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q189015>,
+        "16005349"^^xsd:string,
+        "Yk43yHM9"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD ;
+    skos:altLabel "R. Léoncavallo"^^xsd:string,
+        "Ruggero Leoncavallo"^^xsd:string,
+        "Ruggiero Giacomo Maria Giuseppe Emmanuele Raffaele Domenico Vincenzo Francesco Donato Leoncavallo"^^xsd:string,
+        "Ruggiero Leoncavallo"^^xsd:string ;
+    skos:prefLabel "Ruggero Leoncavallo"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69116037 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30007109> ;
+    wd:P737 faamentity:NJhqUmN2,
+        faamentity:kFR6f2UY ;
+    wd:P839 <https://imslp.org/wiki/Category:Leoncavallo,_Ruggiero> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:T6nAVeGM,
+        faamentity:mT6Jf8WQ .
+

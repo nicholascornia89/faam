@@ -1,0 +1,99 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HNeP5iCN a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:DT4vQExr,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:TK9UAG2p,
+        faamentity:c2dmjbDM,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    faamprop:sections """<ul>
+<li> N.1 </li>
+<li> N.2 </li> 
+<li> N.3 </li>
+<li> N.4 </li>
+<li> N.5 </li>
+</ul>"""^^rdf:HTML ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6RuEaDAJ,
+        faamentity:JmsQ8D5i,
+        faamentity:LLpPqfa8,
+        faamentity:SfdhwsSz,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:SW6dnY4F,
+        faamentity:YDUFYBeT ;
+    schema1:identifier "16003985"^^xsd:string,
+        "HNeP5iCN"^^xsd:string,
+        "KCG-000359822"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000359822"^^schema1:url ;
+    skos:prefLabel "Souvenirs Dramatiques : Arrangés en Trios pour Piano, Flûte et Violoncelle : 4e Don Jaun : Op. 86"^^xsd:string ;
+    skosref:related faamentity:2nFJpnZ8,
+        faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw,
+        faamentity:i6ZUL4z4 ;
+    wd:P217 "DS-4874"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"HNeP5iCN-0bc4502a-517a-4d80-8756-367e09a81110"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"HNeP5iCN-8b8d2401-3829-4c7c-93b4-56b89f2fb17d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"HNeP5iCN-983ead15-9df5-4b43-bc64-5b8e14ea7c4c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"HNeP5iCN-c44dfb8b-d516-4299-9d60-bea2ea8e253f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"HNeP5iCN-f5d231ce-1d9a-4596-bfda-694a81023278"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:6RuEaDAJ a rdf:object .
+
+faamentity:JmsQ8D5i a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+
+faamentity:SfdhwsSz a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

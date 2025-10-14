@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:X3Teknqk a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in north-west Europe, part of the United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q21>,
+        "0"^^xsd:string,
+        "X3Teknqk"^^xsd:string ;
+    skos:altLabel "ENG"^^xsd:string,
+        "England, UK"^^xsd:string,
+        "England, United Kingdom"^^xsd:string ;
+    skos:prefLabel "England"^^xsd:string ;
+    wd:P1566 gn:2649994,
+        gn:6269131 .
+

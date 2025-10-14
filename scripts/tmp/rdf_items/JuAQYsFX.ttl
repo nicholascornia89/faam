@@ -1,0 +1,103 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JuAQYsFX a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:7TfyuFpZ,
+        faamentity:93GDD9ND,
+        faamentity:GKShCHKk,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:j3tnVzW5,
+        faamentity:jLreunkg,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:jrkRKbbu ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:JJ3szN4j,
+        faamentity:LLpPqfa8,
+        faamentity:PNsdjaKx,
+        faamentity:Rnb5nj5c,
+        faamentity:SfdhwsSz,
+        faamentity:Zh2b6vBQ,
+        faamentity:bcZAc7AZ,
+        faamentity:e7AYMpZ2 ;
+    schema1:hasPart faamentity:5gwf9NzY ;
+    schema1:identifier "15992753"^^xsd:string,
+        "JuAQYsFX"^^xsd:string,
+        "KCG-000334547"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334547"^^schema1:url ;
+    skos:prefLabel "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites"^^xsd:string ;
+    wd:P217 "A1461 (1); A1461 (2); A1461 (3)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JuAQYsFX-1d5f6179-ee87-483f-87e8-0b8e5ee47104"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-21ffdb63-104f-4714-9bb1-1a02aa6a34aa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-33db1273-803d-40ad-8da2-dd0e626c6db6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-3de3538f-37bf-45d5-8d94-e3c700d11916"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-8314e831-a3f6-433b-b6ab-953e3311d225"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-8e9d38c0-7819-430c-9a8c-afd5105533e4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-ba279b79-c086-45be-ace0-0ac929c529ef"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-d732830c-025b-4cdb-941a-8502dc99a243"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JuAQYsFX-ed88c64a-99d0-477e-8b3a-d60455d02aca"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:JJ3szN4j a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+
+faamentity:PNsdjaKx a rdf:object .
+
+faamentity:Rnb5nj5c a rdf:object .
+
+faamentity:SfdhwsSz a rdf:object .
+
+faamentity:Zh2b6vBQ a rdf:object .
+
+faamentity:bcZAc7AZ a rdf:object .
+
+faamentity:e7AYMpZ2 a rdf:object .
+

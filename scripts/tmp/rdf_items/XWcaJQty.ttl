@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XWcaJQty a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person teaching at a university or college"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1622272>,
+        "15990868"^^xsd:string,
+        "XWcaJQty"^^xsd:string ;
+    skos:altLabel "college lecturer"^^xsd:string,
+        "college professor"^^xsd:string,
+        "college teacher"^^xsd:string,
+        "teaching-focused lecturer"^^xsd:string,
+        "university lecturer"^^xsd:string,
+        "university professor"^^xsd:string,
+        "university teacher"^^xsd:string,
+        "university tutor"^^xsd:string ;
+    skos:prefLabel "university teacher"^^xsd:string .
+

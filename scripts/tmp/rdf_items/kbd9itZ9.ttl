@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kbd9itZ9 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "French educational institution, 1808–1970"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3064325>,
+        "0"^^xsd:string,
+        "kbd9itZ9"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf,
+        faamentity:dtkJhYLf ;
+    skos:altLabel "Faculty of Arts and Letters of Paris"^^xsd:string,
+        "Université de Paris; faculté des lettres et sciences humaines"^^xsd:string ;
+    skos:prefLabel "Faculty of Arts of Paris"^^xsd:string .
+

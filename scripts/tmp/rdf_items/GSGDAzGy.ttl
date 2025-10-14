@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GSGDAzGy a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:WmRXBH5x ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q21045477>,
+        "16004236"^^xsd:string,
+        "GSGDAzGy"^^xsd:string ;
+    skos:altLabel "Q21045477"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No.3, Op.58/Op.60"^^xsd:string ;
+    wd:P7937 faamentity:X8NxipyB,
+        faamentity:iHeydB2F ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.3,_Op.58_(Moscheles,_Ignaz)> .
+

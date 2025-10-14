@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PAzvCf6p a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:93GDD9ND,
+        faamentity:amkJ6EBs,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:eyBy9fJP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:FzuLDZCr,
+        faamentity:KuMf3k3f,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:MasDcY5m,
+        faamentity:UWuzhp4p ;
+    schema1:identifier "15992743"^^xsd:string,
+        "KCG-000337038"^^xsd:string,
+        "PAzvCf6p"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000337038"^^schema1:url ;
+    skos:prefLabel "Potpourri : pour la Flûte avec Accompagt de Piano sur des motifs de l'opéra I Montecchi ed I capuletti de Bellini : Op: 55."^^xsd:string ;
+    wd:P217 "DS4623"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"PAzvCf6p-326d5b89-4685-4801-b661-d67de413ec6c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+"PAzvCf6p-6ee21b48-2261-4bf6-916b-0e69ce9d8091"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PAzvCf6p-b43d8416-e857-4739-a823-1512015f6cfa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:FzuLDZCr a rdf:object .
+
+faamentity:KuMf3k3f a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

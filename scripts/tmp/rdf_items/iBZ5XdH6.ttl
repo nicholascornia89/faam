@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iBZ5XdH6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:DT4vQExr,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:TK9UAG2p,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:UKrz6azF,
+        faamentity:mNynReve,
+        faamentity:ncU66Vrg ;
+    schema1:identifier "16005027"^^xsd:string,
+        "BNF-42810019r"^^xsd:string,
+        "iBZ5XdH6"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42810019r"^^schema1:url ;
+    skos:prefLabel "Ecole du violon, Méthode complète et progressive à l'usage du Conservatoire"^^xsd:string ;
+    wd:P217 "VM8 C-18"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"iBZ5XdH6-6b0b2e83-9aba-4cb3-bbd3-a3fccbb5040c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"iBZ5XdH6-85a5d471-3037-494e-b529-2a641761fb17"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"iBZ5XdH6-b952e940-a40c-4313-bf51-f88b43addb57"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:UKrz6azF a rdf:object .
+
+faamentity:mNynReve a rdf:object .
+
+faamentity:ncU66Vrg a rdf:object .
+

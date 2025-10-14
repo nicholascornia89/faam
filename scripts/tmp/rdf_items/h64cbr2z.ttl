@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h64cbr2z a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1702-07-22"^^xsd:string ;
+    schema1:birthPlace faamentity:9TePw2GP ;
+    schema1:deathDate "1793-07-26"^^xsd:string ;
+    schema1:deathPlace faamentity:B2uxVJLf ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2483827>,
+        "15995812"^^xsd:string,
+        "h64cbr2z"^^xsd:string ;
+    skos:altLabel "Alessandro Besozzi"^^xsd:string ;
+    skos:prefLabel "Alessandro Besozzi"^^xsd:string ;
+    wd:P1303 faamentity:HcmSE474 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51874499 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/15639> ;
+    wd:P839 <https://imslp.org/wiki/Category:Besozzi,_Alessandro> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:FPRyBmX6 .
+

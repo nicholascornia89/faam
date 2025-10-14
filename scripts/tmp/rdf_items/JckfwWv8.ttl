@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JckfwWv8 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "composition by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11915166>,
+        "16002120"^^xsd:string,
+        "JckfwWv8"^^xsd:string ;
+    skos:altLabel "BWV 1052"^^xsd:string,
+        "Harpsichord Concerto No.1 in D minor, BWV 1052"^^xsd:string,
+        "Harpsichord Concerto in D minor, BWV 1052"^^xsd:string ;
+    skos:prefLabel "Harpsichord Concerto No.1 in D minor, BWV 1052"^^xsd:string ;
+    wd:P214 viaf:183048884 ;
+    wd:P7937 faamentity:9dvigNyn ;
+    wd:P839 <https://imslp.org/wiki/Harpsichord_Concerto_No.1_in_D_minor,_BWV_1052_(Bach,_Johann_Sebastian)> .
+

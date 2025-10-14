@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WUWzhNxd a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:DEL3dtgx,
+        faamentity:GKShCHKk,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6zNE5W8a,
+        faamentity:RR6b2Mpn ;
+    schema1:hasPart faamentity:biTvAVr9 ;
+    schema1:identifier "15992661"^^xsd:string,
+        "KCG-000735262"^^xsd:string,
+        "WUWzhNxd"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000735262"^^schema1:url ;
+    skos:prefLabel "Grand Quintetto : pour Deux Violons, deux Altos et Violoncelle : Oeuvre 70"^^xsd:string ;
+    wd:P217 "DS-1088"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d .
+
+schema1:contributor a rdf:predicate .
+
+"WUWzhNxd-144644b7-2302-4ebf-9dca-2d314cf3cbc7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"WUWzhNxd-15e3344d-70a3-4ada-b8cd-23d08f62abd6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:6zNE5W8a a rdf:object .
+
+faamentity:RR6b2Mpn a rdf:object .
+

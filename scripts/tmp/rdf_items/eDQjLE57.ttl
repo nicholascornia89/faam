@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eDQjLE57 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1894-12-06"^^xsd:string ;
+    schema1:birthPlace faamentity:jPbVDsGL ;
+    schema1:deathDate "1962-07-09"^^xsd:string ;
+    schema1:deathPlace faamentity:nZ6gifFF ;
+    schema1:description "Maltese lawyer and politician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11043714>,
+        "15996230"^^xsd:string,
+        "eDQjLE57"^^xsd:string ;
+    schema1:nationality faamentity:2MU3eQVp ;
+    skos:altLabel "Francesco Masini"^^xsd:string ;
+    skos:prefLabel "Francesco Masini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:7gohDEi3,
+        faamentity:cuxAGzGF .
+

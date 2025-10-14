@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YjKUh4GE a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9tkKrhbM,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eSzqVmee,
+        faamentity:k6GNqQ5D,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Qw4zjHnS,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5vPvVrHJ,
+        faamentity:HyU2Z63V ;
+    schema1:identifier "15992656"^^xsd:string,
+        "KCG-000369479"^^xsd:string,
+        "YjKUh4GE"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000369479"^^schema1:url ;
+    skos:prefLabel "La Romanesca : fameux Air de Danse du XVI.e siècle : transcrit pour Piano d'après la Partition originale"^^xsd:string ;
+    wd:P217 "DS3217"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"YjKUh4GE-c2a95c9d-d31b-45b5-a971-f778fcb91813"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"YjKUh4GE-e704bd65-139d-40a1-ac32-77e79a32379a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:5vPvVrHJ a rdf:object .
+
+faamentity:HyU2Z63V a rdf:object .
+

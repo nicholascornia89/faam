@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dWs3zrCv a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1665-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:aP4sN24C ;
+    schema1:deathDate "1722-07-07"^^xsd:string ;
+    schema1:deathPlace faamentity:d5Z68PVs ;
+    schema1:description "French-Dutch printer and publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q715081>,
+        "15995877"^^xsd:string,
+        "dWs3zrCv"^^xsd:string ;
+    schema1:nationality faamentity:SGUpZ6gd ;
+    skos:altLabel "Estienne Roger"^^xsd:string,
+        "Etienne Roger"^^xsd:string,
+        "Étienne Roger"^^xsd:string ;
+    skos:prefLabel "Estienne Roger"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61764426 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Roger,_Estienne> ;
+    schema:hasOccupation faamentity:MwhmFC4w,
+        faamentity:jHCtHQzT .
+

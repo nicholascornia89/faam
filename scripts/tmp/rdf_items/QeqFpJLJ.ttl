@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QeqFpJLJ a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "horizontal line immediately below a portion of writing"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1187096>,
+        "15992112"^^xsd:string,
+        "QeqFpJLJ"^^xsd:string ;
+    skos:altLabel "underline"^^xsd:string,
+        "underlining"^^xsd:string ;
+    skos:prefLabel "underline"^^xsd:string ;
+    wd:P1535 faamentity:9QaFAsRL,
+        faamentity:AcFWzeQH,
+        faamentity:oMERLdSN ;
+    wd:P31 faamentity:DidEqfmX .
+

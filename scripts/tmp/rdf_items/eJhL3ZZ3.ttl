@@ -1,0 +1,59 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eJhL3ZZ3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:amkJ6EBs,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:4bLsvwPs,
+        faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:TUdHPWU8,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:X8NxipyB,
+        faamentity:iHeydB2F ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:g3BAmejW ;
+    schema1:hasPart faamentity:UzH6nEhF ;
+    schema1:identifier "15992624"^^xsd:string,
+        "KCG-000344414"^^xsd:string,
+        "eJhL3ZZ3"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000344414"^^schema1:url ;
+    skos:prefLabel "Premier Concerto : Pour le Piano avec Accompagnement d'Orchestre"^^xsd:string ;
+    wd:P217 "II 1516"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"eJhL3ZZ3-0e034dd3-a17f-4137-83c4-aefaa8ba00e7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"eJhL3ZZ3-a83b7e4d-4ac3-4822-823a-3ac28e3ecd76"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1871"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:g3BAmejW a rdf:object .
+

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hcpe9YaN a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "instruments, components, and accessories used to make music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q56146933>,
+        "0"^^xsd:string,
+        "hcpe9YaN"^^xsd:string ;
+    skos:altLabel "equipment for music"^^xsd:string ;
+    skos:prefLabel "music equipment"^^xsd:string .
+

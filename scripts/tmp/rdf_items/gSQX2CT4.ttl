@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gSQX2CT4 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Ta5ni5cL ;
+    schema1:identifier "16004092"^^xsd:string,
+        "gSQX2CT4"^^xsd:string ;
+    skos:prefLabel "L'Inquiétude, Op.6"^^xsd:string ;
+    wd:P7937 faamentity:6wpp746x,
+        faamentity:fCPKhUxw ;
+    wd:P839 <https://imslp.org/wiki/L'Inquiétude,_Op.6_(Benoit,_Peter)> .
+

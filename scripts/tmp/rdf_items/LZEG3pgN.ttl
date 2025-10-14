@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LZEG3pgN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1645-02-24"^^xsd:string ;
+    schema1:birthPlace faamentity:Jak8fAbz ;
+    schema1:deathDate "1695-02-24"^^xsd:string ;
+    schema1:deathPlace faamentity:9tUNpEZc ;
+    schema1:description "German musician, father to Johann Sebastian Bach (1645-1695)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q309470>,
+        "0"^^xsd:string,
+        "LZEG3pgN"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:prefLabel "Johann Ambrosius Bach"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:G8tgNnWV,
+        faamentity:WVAicT8o ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:72547809 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20001067> ;
+    wd:P737 faamentity:YNp34L3Q ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BpZTW7SQ,
+        faamentity:JhmpDLuj,
+        faamentity:SdTsrosX,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:bX2aWAhB .
+

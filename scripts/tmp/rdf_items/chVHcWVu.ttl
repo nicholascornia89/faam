@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:chVHcWVu a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1859-11-29"^^xsd:string ;
+    schema1:birthPlace faamentity:ber4Q6Y3 ;
+    schema1:deathDate "1925-10-07"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "German violinist and musicologist (1859-1925)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3616171>,
+        "16002500"^^xsd:string,
+        "chVHcWVu"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Andreas Moser"^^xsd:string ;
+    skos:prefLabel "Andreas Moser"^^xsd:string ;
+    wd:P108 faamentity:e8u6MvuW ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:74117818 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/94403> ;
+    wd:P737 faamentity:PgtvMA6t ;
+    wd:P839 <https://imslp.org/wiki/Category:Moser,_Andreas> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:9CVVGZdo .
+

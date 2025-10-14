@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XTCWoPBm a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "direction to turn the page quickly"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2268953>,
+        "15992132"^^xsd:string,
+        "XTCWoPBm"^^xsd:string ;
+    skos:altLabel "Volti subito"^^xsd:string ;
+    skos:prefLabel "Volti subito"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ ;
+    wd:P279 faamentity:289vMLaj ;
+    wd:P31 faamentity:Dy8pmS8i,
+        faamentity:fxtj72S3 .
+

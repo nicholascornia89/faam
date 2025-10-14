@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mkSw8Mik a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Music publishing company based on The Hague, Netherlands"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130403881>,
+        "16004141"^^xsd:string,
+        "mkSw8Mik"^^xsd:string ;
+    schema1:nationality faamentity:UjV2U7Sh ;
+    skos:altLabel "Correspondance musicale"^^xsd:string ;
+    skos:prefLabel "Correspondance musicale"^^xsd:string ;
+    wd:P31 faamentity:HmGw8E8i ;
+    wd:P839 <https://imslp.org/wiki/Category:Scores_published_by_Correspondance_musicale> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

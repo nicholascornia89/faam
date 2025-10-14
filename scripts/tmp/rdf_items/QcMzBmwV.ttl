@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QcMzBmwV a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical form/genre"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q117288153>,
+        "15990641"^^xsd:string,
+        "QcMzBmwV"^^xsd:string ;
+    skos:altLabel "harp music"^^xsd:string,
+        "music for harp"^^xsd:string ;
+    skos:prefLabel "harp music"^^xsd:string .
+

@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VViS3rRf a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:SnTwYr4w ;
+    schema1:identifier "16002110"^^xsd:string,
+        "VViS3rRf"^^xsd:string ;
+    skos:prefLabel "Donde cotanto fremito, S.602"^^xsd:string ;
+    wd:P7937 faamentity:fsof5n4h ;
+    wd:P839 <https://imslp.org/wiki/Donde_cotanto_fremito,_S.602_(Marcello,_Benedetto)> .
+

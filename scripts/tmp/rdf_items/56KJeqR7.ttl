@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:56KJeqR7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:iyfjpyT2,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:8rovk6Ag,
+        faamentity:nkttqptP ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:LQND7DE7,
+        faamentity:SuXFo92N,
+        faamentity:ZmNH2Qss ;
+    schema1:identifier "15992783"^^xsd:string,
+        "56KJeqR7"^^xsd:string,
+        "KCA-TP-117692"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6741332/N"^^schema1:url ;
+    skos:prefLabel "Patrouille persane pour piano"^^xsd:string ;
+    wd:P217 "TP"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"56KJeqR7-dfd9325a-5a05-41a6-8bb4-7447e68c4f61"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"56KJeqR7-f651a340-ef83-4df2-9c2b-cb9b926c86b4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"56KJeqR7-f83110ae-935d-4853-a458-bf7ec9dfaf6d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:SuXFo92N a rdf:object .
+
+faamentity:ZmNH2Qss a rdf:object .
+

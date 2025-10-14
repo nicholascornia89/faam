@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4ad55yoD a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1884-01-29"^^xsd:string ;
+    schema1:birthPlace faamentity:7Gk2ghcA ;
+    schema1:deathDate "1942-12-03"^^xsd:string ;
+    schema1:deathPlace faamentity:jCrJm9Qk ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2906016>,
+        "15996041"^^xsd:string,
+        "4ad55yoD"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Blanche Selva"^^xsd:string,
+        "Marie Blanche Selva"^^xsd:string ;
+    skos:prefLabel "Blanche Selva"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:120731497 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:agWvDDr6 ;
+    wd:P839 <https://imslp.org/wiki/Category:Selva,_Blanche> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

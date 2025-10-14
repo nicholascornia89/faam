@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iYVs3nZm a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public research university in Zurich, Switzerland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q206702>,
+        "15991086"^^xsd:string,
+        "iYVs3nZm"^^xsd:string ;
+    schema1:location faamentity:oHTSDFRc ;
+    skos:altLabel "UZH"^^xsd:string,
+        "Uni Zurich"^^xsd:string,
+        "Uni Zürich"^^xsd:string,
+        "Universitat Zurich"^^xsd:string,
+        "University of Zurich"^^xsd:string,
+        "University of Zürich"^^xsd:string,
+        "Universität Zürich"^^xsd:string,
+        "uzh.ch"^^xsd:string ;
+    skos:prefLabel "University of Zurich"^^xsd:string .
+
