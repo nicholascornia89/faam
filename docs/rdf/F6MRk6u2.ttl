@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:F6MRk6u2 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:MR3kLpuM,
+        faamentity:PprjdkHE,
+        faamentity:QGRAMUu8,
+        faamentity:TUdHPWU8,
+        faamentity:bTYqbr5b,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:KxvTqqX5,
+        faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:XKwx4gZW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:QnXpBz6u ;
+    schema1:identifier "15992324"^^xsd:string,
+        "F6MRk6u2"^^xsd:string,
+        "KCA-030902126744"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7093110/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: entre acte, valse de la scène de bal"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-78"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"F6MRk6u2-147a05c8-7f02-4757-8d26-f7ce69a51d9b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"F6MRk6u2-6b57199f-acd0-45f4-a2b7-d839f6927b79"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"F6MRk6u2-bdc91220-2a11-4dd4-8e49-7915f91bab11"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

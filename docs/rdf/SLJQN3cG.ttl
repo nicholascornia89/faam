@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SLJQN3cG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1799-06-13"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1839-04-06"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French musician (1799–1839)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q683454>,
+        "15995978"^^xsd:string,
+        "SLJQN3cG"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Henri Brod"^^xsd:string ;
+    skos:prefLabel "Henri Brod"^^xsd:string ;
+    wd:P1303 faamentity:HcmSE474 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61814056 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Brod,_Henri> ;
+    schema:hasOccupation faamentity:FPRyBmX6 .
+

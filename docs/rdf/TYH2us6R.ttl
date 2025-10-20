@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TYH2us6R a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:iyfjpyT2 ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:AB4X4hGP,
+        faamentity:HKyA3Qzz,
+        faamentity:Jx8FMpyt,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:KdGKqPWR,
+        faamentity:kfpMKnYN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:VHEan89z ;
+    schema1:hasPart faamentity:SLsmnpYr ;
+    schema1:identifier "15992353"^^xsd:string,
+        "KCA-030902146916"^^xsd:string,
+        "TYH2us6R"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12917288/N"^^schema1:url ;
+    skos:prefLabel "1re Suite"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-conte1-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"TYH2us6R-4b7dba94-35a8-43c8-ac5d-1059e932a9c8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"TYH2us6R-5be4cc8d-3279-4f1e-adfd-03f64562b5fd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"TYH2us6R-9f784e43-08f2-42a0-b363-36bb72ab2cde"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+

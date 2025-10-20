@@ -1,0 +1,86 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: VQ9LnFAH
+
+tags: agent
+ 
+---
+
+
+# Antonio Salieri (VQ9LnFAH)
+
+---
+
+## Resources
+
+---
+
+[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/VQ9LnFAH.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/VQ9LnFAH.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/VQ9LnFAH.csv){.md-button}
+
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Salieri_painted_by_Joseph_Willibrord_Mähler.jpg" width="250" height="200">
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label           | aliases | description                              | Wikidata QID                                              |
+    | :-------: | :-------------: | :-----: | :--------------------------------------: | :-------------------------------------------------------: |
+    | VQ9LnFAH  | Antonio Salieri | Salieri | Italian composer and teacher (1750–1825) | [Antonio Salieri](http://wwww.wikidata.org/entity/Q51088) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+!!! quote "instance of" 
+
+	- [human](./aJeJBesD.md)
+
+??? quote "instrument" 
+
+	- [pipe organ](./ARCBiyhQ.md)
+
+??? quote "occupation" 
+
+	- [composer](./5aTYuVxp.md)
+
+	- [conductor](./TDF2knmi.md)
+
+	- [musicologist](./49CMncTw.md)
+
+	- [music teacher](./L7DPWnnr.md)
+
+??? quote "employer" 
+
+	- [University of Music and Performing Arts Vienna](./DRRhn6P7.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/VQ9LnFAH.html" height="800" width="1200" title="VQ9LnFAH"></iframe>
+
+## Identifiers
+
+---
+
+!!! info "IMSLP ID" 
+
+	[Category:Salieri,_Antonio](https://imslp.org/wiki/Category:Salieri,_Antonio)
+
+!!! info "VIAF ID" 
+
+	[17408816](https://viaf.org/viaf/17408816)
+
+!!! info "RISM ID" 
+
+	[people/76967](https://rism.online/people/76967)
+
+## Cross-references
+
+---

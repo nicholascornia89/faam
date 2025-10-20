@@ -1,0 +1,48 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EFwVuC3c a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:GjurMHUq ;
+    schema1:birthDate "1856-00-00"^^xsd:string,
+        "1856-11-13"^^xsd:string,
+        "1856-11-25"^^xsd:string ;
+    schema1:birthPlace faamentity:exESX6CY ;
+    schema1:deathDate "1915-06-06"^^xsd:string,
+        "1915-06-19"^^xsd:string ;
+    schema1:deathPlace faamentity:dcKXdCgq,
+        faamentity:diUttN86 ;
+    schema1:description "Russian composer, pianist, music theorist and teacher (1856–1915)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q335006>,
+        "0"^^xsd:string,
+        "EFwVuC3c"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM ;
+    skos:altLabel "Sergei Taneyev"^^xsd:string,
+        "Sergey Ivanovich Taneyev"^^xsd:string,
+        "Sergey Taneyev"^^xsd:string,
+        "Sergeĭ Ivanovich Taneev"^^xsd:string ;
+    skos:prefLabel "Sergei Ivanovich Taneyev"^^xsd:string ;
+    wd:P108 faamentity:GjurMHUq ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59271006 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30041789> ;
+    wd:P737 faamentity:G5rs66Rg,
+        faamentity:JanKyaSj ;
+    wd:P839 <https://imslp.org/wiki/Category:Taneyev,_Sergey> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:XWcaJQty,
+        faamentity:YrCfZ8vh,
+        faamentity:aB6ga3Wq .
+

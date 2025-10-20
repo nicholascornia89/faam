@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NPPV2XtG a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1799-05-27"^^xsd:string ;
+    schema1:birthPlace faamentity:2B3iaaMF,
+        faamentity:dtkJhYLf ;
+    schema1:deathDate "1862-03-17"^^xsd:string ;
+    schema1:deathPlace faamentity:oLLSYQmF ;
+    schema1:description "French composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q313917>,
+        "15995945"^^xsd:string,
+        "NPPV2XtG"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Fromental Halevy"^^xsd:string,
+        "Fromental Halévy"^^xsd:string,
+        "Jacques François Elias Halévy"^^xsd:string ;
+    skos:prefLabel "Fromental Halévy"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:95257808 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40914> ;
+    wd:P737 faamentity:8Ei9ktbr,
+        faamentity:AtBjcym2,
+        faamentity:EUMKhzpe,
+        faamentity:MwNG8YD2,
+        faamentity:jzsis3MS ;
+    wd:P839 <https://imslp.org/wiki/Category:Halévy,_Fromental> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

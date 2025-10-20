@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZchmW76w a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1767-12-16"^^xsd:string ;
+    schema1:birthPlace faamentity:UvT8FR5N ;
+    schema1:deathDate "1827-08-19"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1670678>,
+        "15996137"^^xsd:string,
+        "ZchmW76w"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo,
+        faamentity:jzSuLNvo ;
+    skos:altLabel "Franz Alexander Pössinger"^^xsd:string ;
+    skos:prefLabel "Franz Alexander Pössinger"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:7807145 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002547> ;
+    wd:P839 <https://imslp.org/wiki/Category:Pössinger,_Franz_Alexander> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:GSNsghRd .
+

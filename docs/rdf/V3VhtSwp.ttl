@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:V3VhtSwp a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Ukrainian and Soviet pianist, composer, teacher, musical figure of Belarusian origin (1848-1933)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4384503>,
+        "0"^^xsd:string,
+        "V3VhtSwp"^^xsd:string ;
+    skos:prefLabel "Vladimir Pukhalsky"^^xsd:string ;
+    wd:P108 <Q1515426> ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:301366411 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Pukhalsky,_Volodymyr> .
+

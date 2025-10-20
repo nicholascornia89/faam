@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HS7QE5XE", "label": "Fantasia: voor Viola met klavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HS7QE5XE.md\u0027\u003eFantasia: voor Viola met klavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902126942.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "K4TocMAK", "label": "slur", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./K4TocMAK.md\u0027\u003eslur\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol in musical notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3K9Z8zbC", "label": "Sonatine : pour le piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3K9Z8zbC.md\u0027\u003eSonatine : pour le piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902737540.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "XD6ZiStc", "label": "Sonate: pour trombone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XD6ZiStc.md\u0027\u003eSonate: pour trombone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901762986.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mWsvgkqP", "label": "3e Concerto : pour le Violon avec Accompt. d\u0027Orchestre ou de Piano : Op. 44", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mWsvgkqP.md\u0027\u003e3e Concerto : pour le Violon avec Accompt. d\u0027Orchestre ou de Piano : Op. 44\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000334468.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "48ukXYmB", "label": "articulation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./48ukXYmB.md\u0027\u003earticulation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical performance technique that affects the transition or continuity on notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "6UPEJgTQ", "label": "editor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6UPEJgTQ.md\u0027\u003eeditor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who edits sheet music for publication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "fAttk68M", "label": "Air d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fAttk68M.md\u0027\u003eAir d\u0027\u00e9glise : du c\u00e9l\u00e8bre chanteur Stradella : avec accompt. de piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000345408.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "aEThfZXq", "label": "Trois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aEThfZXq.md\u0027\u003eTrois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000336431.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "NSHSjaif", "label": "Sonate en r\u00e9 majeur nr 4 : pour violon et piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NSHSjaif.md\u0027\u003eSonate en r\u00e9 majeur nr 4 : pour violon et piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902480745.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "joMynDmV", "label": "Sonate en r\u00e9 majeur nr 4 : pour violon et piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./joMynDmV.md\u0027\u003eSonate en r\u00e9 majeur nr 4 : pour violon et piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902480737.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "hUSShLaN", "label": "Sonates : pour violon et piano, op. 5", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hUSShLaN.md\u0027\u003eSonates : pour violon et piano, op. 5\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902751301.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "EFUgU9L4", "label": "Sonates : pour violon et piano, op. 5", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EFUgU9L4.md\u0027\u003eSonates : pour violon et piano, op. 5\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902751319.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "GXFWfE7D", "label": "Sonates : pour violon et piano, op. 5", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GXFWfE7D.md\u0027\u003eSonates : pour violon et piano, op. 5\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904920300.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fxtj72S3", "label": "musical notation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fxtj72S3.md\u0027\u003emusical notation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egraphic writing of musical parameters\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "R9hADWGS", "label": "duration", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./R9hADWGS.md\u0027\u003eduration\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003easpect of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4AMPVsN8", "label": "timbre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4AMPVsN8.md\u0027\u003etimbre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003equality of a musical note or sound or tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "AcFWzeQH", "label": "conductor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AcFWzeQH.md\u0027\u003econductor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who directs a musical group during a performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "oMERLdSN", "label": "performer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oMERLdSN.md\u0027\u003eperformer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "iNr6mw57", "label": "Rondo fantasque: pour violon et piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iNr6mw57.md\u0027\u003eRondo fantasque: pour violon et piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902500666.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "a64gD2W5", "label": "Concerto per chitarra, archi e timpani, op. 30", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./a64gD2W5.md\u0027\u003eConcerto per chitarra, archi e timpani, op. 30\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904183586.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "GTT3Hefh", "label": "Gro\u00dfe Sonate : f\u00fcr Fl\u00f6te (Violine) und Gitarre, op. 85", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GTT3Hefh.md\u0027\u003eGro\u00dfe Sonate : f\u00fcr Fl\u00f6te (Violine) und Gitarre, op. 85\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030902194585.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "TMrEQMjJ", "label": "R\u00e9cit et arioso: chant\u00e9 par madame Huyghe-Bosman et intercal\u00e9 dans l\u0027op\u00e9ra Quentin Durward", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TMrEQMjJ.md\u0027\u003eR\u00e9cit et arioso: chant\u00e9 par madame Huyghe-Bosman et intercal\u00e9 dans l\u0027op\u00e9ra Quentin Durward\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901456373.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "kUKZ2wfP", "label": "Ungarische Rhapsodien Band 2", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kUKZ2wfP.md\u0027\u003eUngarische Rhapsodien Band 2\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904702872.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "TLmRU2pg", "label": "Le Nozze di Figaro : komische opera in 4 bedrijven", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TLmRU2pg.md\u0027\u003eLe Nozze di Figaro : komische opera in 4 bedrijven\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000359978.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HzemsPg5", "label": "Psaume 18", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HzemsPg5.md\u0027\u003ePsaume 18\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000355797.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mqY7JfsT", "label": "Quintetto : pour Fl\u00fbte, Hautbois, Clarinette, Cor \u0026 Basson : Oeuvre 88 n\u00b0 6 : Nota: A d\u00e9faut de hautbois, cette Partie peut s\u0027\u00e9x\u00e9cuter par une fl\u00fbte avec la Patte en Ut.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mqY7JfsT.md\u0027\u003eQuintetto : pour Fl\u00fbte, Hautbois, Clarinette, Cor \u0026 Basson : Oeuvre 88 n\u00b0 6 : Nota: A d\u00e9faut de hautbois, cette Partie peut s\u0027\u00e9x\u00e9cuter par une fl\u00fbte avec la Patte en Ut.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000363772.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "S7MRRD7P", "label": "Capriccio : sopra la lontananza del fratello dilettissimo = Capriccio : \u00fcber die Abreise des vielgeliebten bruders", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./S7MRRD7P.md\u0027\u003eCapriccio : sopra la lontananza del fratello dilettissimo = Capriccio : \u00fcber die Abreise des vielgeliebten bruders\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904465058.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "BLnh4CjG", "label": "Concerto Italien : klavecimbel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BLnh4CjG.md\u0027\u003eConcerto Italien : klavecimbel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000331927.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "N9nKvtEB", "label": "6 Suites : voor cello alleen : BWV 1007-1012", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./N9nKvtEB.md\u0027\u003e6 Suites : voor cello alleen : BWV 1007-1012\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000332191.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "oWWjskBe", "label": "Intermezzo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oWWjskBe.md\u0027\u003eIntermezzo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904518088.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8yd8X6r8", "label": "73 =a | Concerto | con 3 Violini di Concer:ti da quali si | devono cavare |i Violini di ripieno | del | Sig. D. Ant. Vivaldi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8yd8X6r8.md\u0027\u003e73 =a | Concerto | con 3 Violini di Concer:ti da quali si | devono cavare |i Violini di ripieno | del | Sig. D. Ant. Vivaldi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/CBM-TORRMsA53.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Qet9bpVH", "label": "Sonate n\u00b0 47 [i.e. 533] : allemande / Domenico Scarlatti...", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Qet9bpVH.md\u0027\u003eSonate n\u00b0 47 [i.e. 533] : allemande / Domenico Scarlatti...\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-43257907v.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "7Exg2WrQ", "label": "Sonate n\u00b0 30 : fugue dite \"du chat\" / Domenico Scarlatti... , r\u00e9vision par Vincent d\u0027Indy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7Exg2WrQ.md\u0027\u003eSonate n\u00b0 30 : fugue dite \"du chat\" / Domenico Scarlatti... , r\u00e9vision par Vincent d\u0027Indy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-432579295.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "k6bieVh7", "label": "Sonata n\u00b0 40 (gigue en sol). Revision par Vincent d\u0027 Indy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./k6bieVh7.md\u0027\u003eSonata n\u00b0 40 (gigue en sol). Revision par Vincent d\u0027 Indy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-43257976p.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "f37jKA4V", "label": "Sonate n\u00b0 48 [i.e. 434] : courante / Domenico Scarlatti... ; r\u00e9vision par Vincent d\u0027Indy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./f37jKA4V.md\u0027\u003eSonate n\u00b0 48 [i.e. 434] : courante / Domenico Scarlatti... ; r\u00e9vision par Vincent d\u0027Indy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-43257951b.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "bnx7Dvt2", "label": "Trois Sonates pour piano et viola da gamba ou violoncelle, compos\u00e9es par J. Seb. Bach. Edition nouvelle, revue, doigt\u00e9e et enrichie de notes sur l\u0027ex\u00e9cution par Fr. Gr\u00fctzmacher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bnx7Dvt2.md\u0027\u003eTrois Sonates pour piano et viola da gamba ou violoncelle, compos\u00e9es par J. Seb. Bach. Edition nouvelle, revue, doigt\u00e9e et enrichie de notes sur l\u0027ex\u00e9cution par Fr. Gr\u00fctzmacher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-42826443c.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "WWCbaaWA", "label": "24 Stu\u0308cke : fu\u0308r Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WWCbaaWA.md\u0027\u003e24 Stu\u0308cke : fu\u0308r Pianoforte / Domenico Scarlatti ; revidirt, mit Fingersatz versehen und in Form von Suiten geordnet von Alessandro Longo.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/SML-22722.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "icedGMzA", "label": "Early Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./icedGMzA.md\u0027\u003eEarly Italian piano music : a collection of pieces written for the harpsichord and clavichord / edited by M. Esposito.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/SML-22563.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mM92yEzz", "label": "Sonates : pour violon et piano, op. 5", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mM92yEzz.md\u0027\u003eSonates : pour violon et piano, op. 5\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030904920292.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Ma63qXHW", "label": "6 suites : pour violoncelle seul", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ma63qXHW.md\u0027\u003e6 suites : pour violoncelle seul\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030901199361.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "9t8aicUA", "label": "Pi\u00e8ces pour le Clavecin par Domenico Scarlatti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9t8aicUA.md\u0027\u003ePi\u00e8ces pour le Clavecin par Domenico Scarlatti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030903514815.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "39h8BH9C", "label": "Duo motetta (Ave verum - Sub tuum). Ad tres voces aequales cum organo ad libitum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./39h8BH9C.md\u0027\u003eDuo motetta (Ave verum - Sub tuum). Ad tres voces aequales cum organo ad libitum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/DPF-202502020.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "HS7QE5XE", "to": "K4TocMAK", "width": 10}, {"from": "3K9Z8zbC", "to": "K4TocMAK", "width": 10}, {"from": "XD6ZiStc", "to": "K4TocMAK", "width": 10}, {"from": "mWsvgkqP", "to": "48ukXYmB", "width": 1}, {"from": "mWsvgkqP", "to": "K4TocMAK", "width": 10}, {"from": "6UPEJgTQ", "to": "K4TocMAK", "width": 10}, {"from": "fAttk68M", "to": "K4TocMAK", "width": 10}, {"from": "aEThfZXq", "to": "K4TocMAK", "width": 10}, {"from": "NSHSjaif", "to": "48ukXYmB", "width": 10}, {"from": "NSHSjaif", "to": "K4TocMAK", "width": 10}, {"from": "NSHSjaif", "to": "joMynDmV", "width": 1}, {"from": "hUSShLaN", "to": "K4TocMAK", "width": 10}, {"from": "hUSShLaN", "to": "EFUgU9L4", "width": 1}, {"from": "hUSShLaN", "to": "GXFWfE7D", "width": 1}, {"from": "K4TocMAK", "to": "48ukXYmB", "width": 10}, {"from": "K4TocMAK", "to": "fxtj72S3", "width": 10}, {"from": "K4TocMAK", "to": "R9hADWGS", "width": 10}, {"from": "K4TocMAK", "to": "4AMPVsN8", "width": 10}, {"from": "K4TocMAK", "to": "AcFWzeQH", "width": 10}, {"from": "K4TocMAK", "to": "oMERLdSN", "width": 10}, {"from": "K4TocMAK", "to": "iNr6mw57", "width": 10}, {"from": "K4TocMAK", "to": "a64gD2W5", "width": 10}, {"from": "K4TocMAK", "to": "GTT3Hefh", "width": 10}, {"from": "K4TocMAK", "to": "TMrEQMjJ", "width": 10}, {"from": "K4TocMAK", "to": "kUKZ2wfP", "width": 10}, {"from": "K4TocMAK", "to": "TLmRU2pg", "width": 10}, {"from": "K4TocMAK", "to": "HzemsPg5", "width": 10}, {"from": "K4TocMAK", "to": "mqY7JfsT", "width": 10}, {"from": "K4TocMAK", "to": "S7MRRD7P", "width": 10}, {"from": "K4TocMAK", "to": "BLnh4CjG", "width": 10}, {"from": "K4TocMAK", "to": "N9nKvtEB", "width": 10}, {"from": "K4TocMAK", "to": "oWWjskBe", "width": 10}, {"from": "K4TocMAK", "to": "8yd8X6r8", "width": 10}, {"from": "K4TocMAK", "to": "Qet9bpVH", "width": 10}, {"from": "K4TocMAK", "to": "7Exg2WrQ", "width": 10}, {"from": "K4TocMAK", "to": "k6bieVh7", "width": 10}, {"from": "K4TocMAK", "to": "f37jKA4V", "width": 10}, {"from": "K4TocMAK", "to": "bnx7Dvt2", "width": 10}, {"from": "K4TocMAK", "to": "WWCbaaWA", "width": 10}, {"from": "K4TocMAK", "to": "icedGMzA", "width": 10}, {"from": "K4TocMAK", "to": "EFUgU9L4", "width": 10}, {"from": "K4TocMAK", "to": "mM92yEzz", "width": 10}, {"from": "K4TocMAK", "to": "GXFWfE7D", "width": 10}, {"from": "K4TocMAK", "to": "Ma63qXHW", "width": 10}, {"from": "K4TocMAK", "to": "9t8aicUA", "width": 10}, {"from": "K4TocMAK", "to": "joMynDmV", "width": 10}, {"from": "K4TocMAK", "to": "39h8BH9C", "width": 10}, {"from": "joMynDmV", "to": "48ukXYmB", "width": 10}, {"from": "EFUgU9L4", "to": "48ukXYmB", "width": 10}, {"from": "EFUgU9L4", "to": "mM92yEzz", "width": 1}, {"from": "BLnh4CjG", "to": "48ukXYmB", "width": 10}, {"from": "fxtj72S3", "to": "48ukXYmB", "width": 1}, {"from": "4AMPVsN8", "to": "48ukXYmB", "width": 1}, {"from": "Ma63qXHW", "to": "48ukXYmB", "width": 10}, {"from": "mM92yEzz", "to": "GXFWfE7D", "width": 1}, {"from": "kUKZ2wfP", "to": "48ukXYmB", "width": 10}, {"from": "R9hADWGS", "to": "48ukXYmB", "width": 1}, {"from": "AcFWzeQH", "to": "48ukXYmB", "width": 1}, {"from": "WWCbaaWA", "to": "48ukXYmB", "width": 10}, {"from": "Qet9bpVH", "to": "48ukXYmB", "width": 10}, {"from": "oMERLdSN", "to": "48ukXYmB", "width": 1}, {"from": "48ukXYmB", "to": "mqY7JfsT", "width": 10}, {"from": "48ukXYmB", "to": "S7MRRD7P", "width": 10}, {"from": "48ukXYmB", "to": "7Exg2WrQ", "width": 10}, {"from": "48ukXYmB", "to": "k6bieVh7", "width": 10}, {"from": "48ukXYmB", "to": "bnx7Dvt2", "width": 10}, {"from": "48ukXYmB", "to": "GXFWfE7D", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

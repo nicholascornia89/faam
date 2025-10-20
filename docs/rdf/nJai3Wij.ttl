@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nJai3Wij a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:4AqAfYnf,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:eSzqVmee,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:YwdYGCWW,
+        faamentity:aJyV3DsH ;
+    schema1:hasPart faamentity:MtwyZtSW ;
+    schema1:identifier "15992749"^^xsd:string,
+        "KCG-000339708"^^xsd:string,
+        "nJai3Wij"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000339708"^^schema1:url ;
+    skos:prefLabel "Six Sonatas : for the Harpsichord or Piano Forte with an Accompanyment for a German Flûte or Violin : Op. II"^^xsd:string ;
+    wd:P217 "DS-1516-(2)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:LoXSg3U3,
+        faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"nJai3Wij-03ba5076-038e-4a76-857f-05dd83c0abd0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"nJai3Wij-2f293466-27a9-4479-bd4c-396ebb4fe74c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:YwdYGCWW a rdf:object .
+
+faamentity:aJyV3DsH a rdf:object .
+

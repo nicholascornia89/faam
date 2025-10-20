@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8wPYJeD9 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "1650 sacred Song composed by Michael Franck with lyrics by Michael Franck"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q30303950>,
+        "0"^^xsd:string,
+        "8wPYJeD9"^^xsd:string ;
+    skos:altLabel "Ach wie flüchtig, ach wie nichtig"^^xsd:string ;
+    skos:prefLabel "Ach wie flüchtig, ach wie nichtig"^^xsd:string .
+

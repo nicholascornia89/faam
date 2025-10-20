@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XyK7Eor9 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7TfyuFpZ,
+        faamentity:D6RjeTWv,
+        faamentity:amkJ6EBs,
+        faamentity:atGzytDR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:WiBZjkbR,
+        faamentity:eyBy9fJP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DJXHHAks,
+        faamentity:QwSKSFky ;
+    schema1:hasPart faamentity:fS46DLmj ;
+    schema1:identifier "15992757"^^xsd:string,
+        "KCG-000360390"^^xsd:string,
+        "XyK7Eor9"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000360390"^^schema1:url ;
+    skos:prefLabel "POTPOURRI"^^xsd:string ;
+    wd:P217 "A1461 (15)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"XyK7Eor9-753aed89-9f33-42b1-8abf-609a131b4c1b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"XyK7Eor9-aa4b718f-34de-43f3-b5f4-1afd6664bb69"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"XyK7Eor9-ba83fb2e-fc5e-47a6-8991-a020fe0c9068"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DJXHHAks a rdf:object .
+
+faamentity:QwSKSFky a rdf:object .
+

@@ -1,0 +1,47 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9Q5hZDyB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Mr4ByBuL ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:KW3RZcDp,
+        faamentity:SgJFWhdM ;
+    schema1:hasPart faamentity:UmVZ55Gc ;
+    schema1:identifier "15992645"^^xsd:string,
+        "9Q5hZDyB"^^xsd:string,
+        "KCG-000363791"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000363791"^^schema1:url ;
+    skos:prefLabel "24 Trio's : voor 3 French Horns : Opus 82."^^xsd:string ;
+    skosref:related faamentity:9sgtLnWS,
+        faamentity:bGMtDGZC,
+        faamentity:jWznwcYU ;
+    wd:P217 "II403"^^xsd:string ;
+    wd:P870 faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"9Q5hZDyB-087ab5ed-9bcf-4d72-9fa7-4f3a4175b0d0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"9Q5hZDyB-34d7da7a-f5b4-4234-b86f-57025d6a1602"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:SgJFWhdM a rdf:object .
+

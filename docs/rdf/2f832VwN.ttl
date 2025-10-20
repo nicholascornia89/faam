@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2f832VwN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1839"^^xsd:string ;
+    schema1:deathDate "1908"^^xsd:string ;
+    schema1:description "French pianist and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q108114646>,
+        "15996172"^^xsd:string,
+        "2f832VwN"^^xsd:string ;
+    skos:altLabel "Esprit Charles Henri Ghys"^^xsd:string,
+        "Henri Ghys"^^xsd:string,
+        "Henry Ghys"^^xsd:string ;
+    skos:prefLabel "Henri Ghys"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:68669530 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30091961> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:aB6ga3Wq .
+

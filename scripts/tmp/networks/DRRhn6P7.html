@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JXgmU5ov", "label": "Fritz Kreisler", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JXgmU5ov.md\u0027\u003eFritz Kreisler\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian violinist and composer (1875-1962)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kreisler.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KWjNoJvm", "label": "Austria", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KWjNoJvm.md\u0027\u003eAustria\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DRRhn6P7", "label": "University of Music and Performing Arts Vienna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DRRhn6P7.md\u0027\u003eUniversity of Music and Performing Arts Vienna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003euniversity in Vienna, Austria\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6iVvX3mY", "label": "Franz Liszt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6iVvX3mY.md\u0027\u003eFranz Liszt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian romantic composer and virtuoso pianist (1811\u20131886)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Liszt_1858.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jm4QpjVW", "label": "Carl Czerny", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jm4QpjVW.md\u0027\u003eCarl Czerny\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer and pianist (1791-1857)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carl_Czerny.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VQ9LnFAH", "label": "Antonio Salieri", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./VQ9LnFAH.md\u0027\u003eAntonio Salieri\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer and teacher (1750\u20131825)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Antonio_Salieri_painted_by_Joseph_Willibrord_M\u00e4hler.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fFoWvPUh", "label": "Theodor Leschetizky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fFoWvPUh.md\u0027\u003eTheodor Leschetizky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePolish composer and pianist (1830\u20131915)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schmutzer-Lescheticky.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5MMa69Kf", "label": "Johann Nepomuk Hummel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5MMa69Kf.md\u0027\u003eJohann Nepomuk Hummel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer and pianist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JNHummel_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JUuCMm3W", "label": "Josef Dachs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JUuCMm3W.md\u0027\u003eJosef Dachs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian musician (1825\u20131896)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "R8NWq8XK", "label": "Robert Fuchs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./R8NWq8XK.md\u0027\u003eRobert Fuchs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer and music teacher (1847\u20131927)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kNyhurbb", "label": "Rubin Goldmark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kNyhurbb.md\u0027\u003eRubin Goldmark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican composer, pianist and educator (1872-1936)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rubin_Goldmark.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SC9Tasad", "label": "Simon Sechter", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SC9Tasad.md\u0027\u003eSimon Sechter\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sechter.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Qu7owwo2", "label": "Johann Nepomuk Fuchs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Qu7owwo2.md\u0027\u003eJohann Nepomuk Fuchs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer and conductor (1842-1899)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "B7BWZfyU", "label": "Johannes Brahms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./B7BWZfyU.md\u0027\u003eJohannes Brahms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1833\u20131897)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JohannesBrahms.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CWKiEvvh", "label": "Franz Schubert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CWKiEvvh.md\u0027\u003eFranz Schubert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer (1797\u20131828)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NtfUK4LJ", "label": "Franz Schmidt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NtfUK4LJ.md\u0027\u003eFranz Schmidt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer, cellist and pianist (1874-1939)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DJPGuSPB", "label": "Jakob Gr\u00fcn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DJPGuSPB.md\u0027\u003eJakob Gr\u00fcn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian violinist and music educator (1837-1916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PjmNW6zi", "label": "Adolf Rebner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PjmNW6zi.md\u0027\u003eAdolf Rebner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian musician (1876\u20131967)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Rebner.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DYgYnSpY", "label": "Richard Wagner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DYgYnSpY.md\u0027\u003eRichard Wagner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1813\u20131883)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/RichardWagner.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7gNjY6F7", "label": "Anton Bruckner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7gNjY6F7.md\u0027\u003eAnton Bruckner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer (1824-1896)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Anton_Bruckner_(1868).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TvDT5iVC", "label": "\u00c9mile Jaques-Dalcroze", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TvDT5iVC.md\u0027\u003e\u00c9mile Jaques-Dalcroze\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer, musician and music educator (1865-1950)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Jaques_Dalcroze.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QwGYdnmk", "label": "Gustav Mahler", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QwGYdnmk.md\u0027\u003eGustav Mahler\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian late-Romantic composer (1860\u20131911)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav-Mahler-Kohut.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Wm9HGynC", "label": "Gian Francesco Malipiero", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Wm9HGynC.md\u0027\u003eGian Francesco Malipiero\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer of the 20th century (1882-1973)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gian_Francesco_Malipiero_(before_1973)_-_Archivio_storico_Ricordi_FOTO001318.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2vdPrW4J", "label": "Ferruccio Busoni", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2vdPrW4J.md\u0027\u003eFerruccio Busoni\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer, pianist, conductor, editor, born 1866\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FerruccioBusoni1913.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dQpy5hbT", "label": "Henri Vieuxtemps", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./dQpy5hbT.md\u0027\u003eHenri Vieuxtemps\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian violinist and composer (1820-1881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/ec/Vieuxtemps.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gWqSeD3z", "label": "Carl Maria von Weber", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gWqSeD3z.md\u0027\u003eCarl Maria von Weber\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman Romantic composer (1786\u20131826)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7LbS5df2", "label": "Gustav Leonhardt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7LbS5df2.md\u0027\u003eGustav Leonhardt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch keyboard player, conductor, musicologist, teacher and editor (1928\u20132012)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Leonhardt,_2008_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aWsBkMZ6", "label": "Nikolaus Harnoncourt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aWsBkMZ6.md\u0027\u003eNikolaus Harnoncourt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian conductor (1929\u20132016)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolaus_Harnoncourt_(1980).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kbQANhqN", "label": "Adolf Pollitzer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kbQANhqN.md\u0027\u003eAdolf Pollitzer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian musician (1832\u20131900)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Pollitzer_(1832\u20131900).png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PgtvMA6t", "label": "Joseph Joachim", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PgtvMA6t.md\u0027\u003eJoseph Joachim\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian violinist, composer, and teacher (1831\u20131907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Joachim.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aoybXRMY", "label": "Joseph Hellmesberger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aoybXRMY.md\u0027\u003eJoseph Hellmesberger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian violinist, conductor and composer (1828\u20131893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef_Hellmesberger_senior.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "B37kcT5B", "label": "Paul Gr\u00fcmmer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./B37kcT5B.md\u0027\u003ePaul Gr\u00fcmmer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1879-1965)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Gr\u00fcmmer.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fvcLuf3k", "label": "Hans Richter", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fvcLuf3k.md\u0027\u003eHans Richter\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian-Hungarian orchestral and operatic conductor (1843-1916)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_Richter_portrait_photo.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6b3CkNVn", "label": "Joseph B\u00f6hm", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6b3CkNVn.md\u0027\u003eJoseph B\u00f6hm\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian musician (1795-1876)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8uBMTTxq", "label": "Georg Hellmesberger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8uBMTTxq.md\u0027\u003eGeorg Hellmesberger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian violinist, conductor and composer (1800\u20131873)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "383CM2RQ", "label": "Joseph Marx", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./383CM2RQ.md\u0027\u003eJoseph Marx\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer, teacher and critic (1882-1964)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "JXgmU5ov", "to": "KWjNoJvm", "width": 1}, {"from": "JXgmU5ov", "to": "DRRhn6P7", "width": 10}, {"from": "6iVvX3mY", "to": "jm4QpjVW", "width": 1}, {"from": "6iVvX3mY", "to": "VQ9LnFAH", "width": 1}, {"from": "6iVvX3mY", "to": "DRRhn6P7", "width": 10}, {"from": "jm4QpjVW", "to": "fFoWvPUh", "width": 1}, {"from": "jm4QpjVW", "to": "VQ9LnFAH", "width": 1}, {"from": "jm4QpjVW", "to": "5MMa69Kf", "width": 1}, {"from": "jm4QpjVW", "to": "DRRhn6P7", "width": 10}, {"from": "jm4QpjVW", "to": "JUuCMm3W", "width": 1}, {"from": "R8NWq8XK", "to": "kNyhurbb", "width": 10}, {"from": "R8NWq8XK", "to": "DRRhn6P7", "width": 10}, {"from": "fFoWvPUh", "to": "SC9Tasad", "width": 1}, {"from": "fFoWvPUh", "to": "DRRhn6P7", "width": 10}, {"from": "Qu7owwo2", "to": "kNyhurbb", "width": 10}, {"from": "Qu7owwo2", "to": "DRRhn6P7", "width": 10}, {"from": "B7BWZfyU", "to": "DRRhn6P7", "width": 10}, {"from": "CWKiEvvh", "to": "KWjNoJvm", "width": 1}, {"from": "CWKiEvvh", "to": "VQ9LnFAH", "width": 1}, {"from": "CWKiEvvh", "to": "DRRhn6P7", "width": 10}, {"from": "NtfUK4LJ", "to": "DRRhn6P7", "width": 10}, {"from": "DJPGuSPB", "to": "PjmNW6zi", "width": 10}, {"from": "DJPGuSPB", "to": "DRRhn6P7", "width": 10}, {"from": "5MMa69Kf", "to": "KWjNoJvm", "width": 10}, {"from": "5MMa69Kf", "to": "VQ9LnFAH", "width": 1}, {"from": "5MMa69Kf", "to": "DRRhn6P7", "width": 10}, {"from": "DYgYnSpY", "to": "KWjNoJvm", "width": 10}, {"from": "DYgYnSpY", "to": "DRRhn6P7", "width": 10}, {"from": "7gNjY6F7", "to": "TvDT5iVC", "width": 1}, {"from": "7gNjY6F7", "to": "SC9Tasad", "width": 1}, {"from": "7gNjY6F7", "to": "DRRhn6P7", "width": 10}, {"from": "DRRhn6P7", "to": "KWjNoJvm", "width": 10}, {"from": "DRRhn6P7", "to": "TvDT5iVC", "width": 10}, {"from": "DRRhn6P7", "to": "QwGYdnmk", "width": 10}, {"from": "DRRhn6P7", "to": "Wm9HGynC", "width": 10}, {"from": "DRRhn6P7", "to": "2vdPrW4J", "width": 10}, {"from": "DRRhn6P7", "to": "dQpy5hbT", "width": 10}, {"from": "DRRhn6P7", "to": "gWqSeD3z", "width": 10}, {"from": "DRRhn6P7", "to": "7LbS5df2", "width": 10}, {"from": "DRRhn6P7", "to": "aWsBkMZ6", "width": 10}, {"from": "DRRhn6P7", "to": "kbQANhqN", "width": 10}, {"from": "DRRhn6P7", "to": "SC9Tasad", "width": 10}, {"from": "DRRhn6P7", "to": "JUuCMm3W", "width": 10}, {"from": "DRRhn6P7", "to": "PgtvMA6t", "width": 10}, {"from": "DRRhn6P7", "to": "aoybXRMY", "width": 10}, {"from": "DRRhn6P7", "to": "PjmNW6zi", "width": 10}, {"from": "DRRhn6P7", "to": "VQ9LnFAH", "width": 10}, {"from": "DRRhn6P7", "to": "B37kcT5B", "width": 10}, {"from": "DRRhn6P7", "to": "fvcLuf3k", "width": 10}, {"from": "DRRhn6P7", "to": "kNyhurbb", "width": 10}, {"from": "DRRhn6P7", "to": "6b3CkNVn", "width": 10}, {"from": "DRRhn6P7", "to": "8uBMTTxq", "width": 10}, {"from": "DRRhn6P7", "to": "383CM2RQ", "width": 10}, {"from": "VQ9LnFAH", "to": "SC9Tasad", "width": 1}, {"from": "QwGYdnmk", "to": "KWjNoJvm", "width": 1}, {"from": "SC9Tasad", "to": "dQpy5hbT", "width": 1}, {"from": "SC9Tasad", "to": "JUuCMm3W", "width": 1}, {"from": "8uBMTTxq", "to": "aoybXRMY", "width": 10}, {"from": "aWsBkMZ6", "to": "KWjNoJvm", "width": 1}, {"from": "aWsBkMZ6", "to": "B37kcT5B", "width": 1}, {"from": "KWjNoJvm", "to": "PjmNW6zi", "width": 1}, {"from": "6b3CkNVn", "to": "kbQANhqN", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

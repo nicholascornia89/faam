@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "F9d5oekT", "label": "Johann Christian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./F9d5oekT.md\u0027\u003eJohann Christian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1735\u20131782)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Christian_Bach_by_Thomas_Gainsborough.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LLpPqfa8", "label": "Wolfgang Amadeus Mozart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LLpPqfa8.md\u0027\u003eWolfgang Amadeus Mozart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer of the Classical period (1756\u20131791)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aJeJBesD.md\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "5aTYuVxp", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5aTYuVxp.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "T6nAVeGM", "label": "pianist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./T6nAVeGM.md\u0027\u003epianist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ku2dT5kg.md\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "3KJ4atqX", "label": "Giovanni Battista Martini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3KJ4atqX.md\u0027\u003eGiovanni Battista Martini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Padre_Martini_1.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "5MMa69Kf", "label": "Johann Nepomuk Hummel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5MMa69Kf.md\u0027\u003eJohann Nepomuk Hummel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian composer and pianist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JNHummel_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "JCkvuhys", "label": "Salzburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JCkvuhys.md\u0027\u003eSalzburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Austria, eponymous capital city of the federal state of Salzburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WnttmCCm", "label": "Leopold Mozart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WnttmCCm.md\u0027\u003eLeopold Mozart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1719\u20131787)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Mozart.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "bX2aWAhB", "label": "musician", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bX2aWAhB.md\u0027\u003emusician\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who composes, conducts or performs music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ePnALoCw", "label": "Johann Schobert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ePnALoCw.md\u0027\u003eJohann Schobert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_schobert.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oX8hC5bT", "label": "Ignaz von Seyfried", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oX8hC5bT.md\u0027\u003eIgnaz von Seyfried\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian musician (1776\u20131841)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Seyfried.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Q8MBQBw7", "label": "harpsichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Q8MBQBw7.md\u0027\u003eharpsichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplucked-string keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "E3wVK8mM", "label": "The Marriage of Figaro", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./E3wVK8mM.md\u0027\u003eThe Marriage of Figaro\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Wolfgang Amadeus Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9tZzpwmB", "label": "clavichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tZzpwmB.md\u0027\u003eclavichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estringed keyboard musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "k9jEdy5a", "label": "Prince-Archbishopric of Salzburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./k9jEdy5a.md\u0027\u003ePrince-Archbishopric of Salzburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprince-archbishopric in Central Europe between 1328\u20131803\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YQcPFtoJ", "label": "Joseph II, Holy Roman Emperor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YQcPFtoJ.md\u0027\u003eJoseph II, Holy Roman Emperor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHoly Roman Emperor from 1765 to 1790\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8cygiHEB.md\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "K9mQeF4d", "label": "viola", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./K9mQeF4d.md\u0027\u003eviola\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3HZTjert", "label": "Horn Concerto No.2 K 417", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3HZTjert.md\u0027\u003eHorn Concerto No.2 K 417\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econcerto for French horn and orchestra by W. A. Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "P6UciQe2", "label": "Violin Concerto No.4 in D major, K.218", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./P6UciQe2.md\u0027\u003eViolin Concerto No.4 in D major, K.218\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eviolin concerto by Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "h2REmxTx", "label": "The Magic Flute", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./h2REmxTx.md\u0027\u003eThe Magic Flute\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e1791 opera by Wolfgang Amadeus Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SW6dnY4F", "label": "Don Giovanni", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SW6dnY4F.md\u0027\u003eDon Giovanni\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Wolfgang Amadeus Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "L7DPWnnr", "label": "music teacher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./L7DPWnnr.md\u0027\u003emusic teacher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacademic title\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "ZhptKYF3", "label": "organist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZhptKYF3.md\u0027\u003eorganist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays any type of organ\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "9CVVGZdo", "label": "violinist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9CVVGZdo.md\u0027\u003eviolinist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the violin\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jzSuLNvo", "label": "Archduchy of Austria", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jzSuLNvo.md\u0027\u003eArchduchy of Austria\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efief of the Holy Roman Empire, 1453\u20131806\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bXZtPe5G", "label": "Holy Roman Empire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bXZtPe5G.md\u0027\u003eHoly Roman Empire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emulti-ethnic complex of territories in Western and Central Europe (800/962\u20131806)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "UvT8FR5N", "label": "Vienna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UvT8FR5N.md\u0027\u003eVienna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of and state in Austria\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "SzBL7Li4", "label": "Rauhensteingasse", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SzBL7Li4.md\u0027\u003eRauhensteingasse\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estreet in Vienna, Austria\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LoXSg3U3", "label": "fortepiano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LoXSg3U3.md\u0027\u003efortepiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eearly piano, around 1700 up to the early 19th century\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G8tgNnWV", "label": "violin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G8tgNnWV.md\u0027\u003eviolin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2FFSLYnM", "label": "Count Hieronymus von Colloredo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2FFSLYnM.md\u0027\u003eCount Hieronymus von Colloredo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePrince-bishop (1732-1812)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YvQmwaaW.md\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "37vPLqE4", "label": "Les Bonnes traditions du pianiste. Deuxi\u00e8me volume Les Bonnes traditions du pianiste. Deuxi\u00e8me volume", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./37vPLqE4.md\u0027\u003eLes Bonnes traditions du pianiste. Deuxi\u00e8me volume Les Bonnes traditions du pianiste. Deuxi\u00e8me volume\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-44229251d.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "U7Xvn7RZ", "label": "Ecole chantante, 25 vocalises m\u00e9lodiques \u00e9l\u00e9mentaires pour la medium de la voix d\u0027apr\u00e8s des fragments c\u00e9l\u00e8bres de Beethoven, Bellini, Dalayrac, Donizetti, Gr\u00e9try, Haas, Haydn, Hummel, M\u00e9hul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./U7Xvn7RZ.md\u0027\u003eEcole chantante, 25 vocalises m\u00e9lodiques \u00e9l\u00e9mentaires pour la medium de la voix d\u0027apr\u00e8s des fragments c\u00e9l\u00e8bres de Beethoven, Bellini, Dalayrac, Donizetti, Gr\u00e9try, Haas, Haydn, Hummel, M\u00e9hul, Mozart, Reissiger, Rossini, Spohr, Weber, Zumsteg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-43123936p.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "F9d5oekT", "to": "LLpPqfa8", "width": 1}, {"from": "F9d5oekT", "to": "aJeJBesD", "width": 1}, {"from": "F9d5oekT", "to": "5aTYuVxp", "width": 1}, {"from": "F9d5oekT", "to": "T6nAVeGM", "width": 1}, {"from": "F9d5oekT", "to": "ku2dT5kg", "width": 1}, {"from": "F9d5oekT", "to": "3KJ4atqX", "width": 1}, {"from": "", "to": "LLpPqfa8", "width": 5}, {"from": "", "to": "5MMa69Kf", "width": 1}, {"from": "", "to": "3KJ4atqX", "width": 1}, {"from": "JCkvuhys", "to": "LLpPqfa8", "width": 1}, {"from": "JCkvuhys", "to": "WnttmCCm", "width": 1}, {"from": "bX2aWAhB", "to": "LLpPqfa8", "width": 1}, {"from": "bX2aWAhB", "to": "WnttmCCm", "width": 1}, {"from": "5aTYuVxp", "to": "LLpPqfa8", "width": 1}, {"from": "5aTYuVxp", "to": "5MMa69Kf", "width": 1}, {"from": "5aTYuVxp", "to": "3KJ4atqX", "width": 1}, {"from": "5aTYuVxp", "to": "ePnALoCw", "width": 1}, {"from": "5aTYuVxp", "to": "WnttmCCm", "width": 1}, {"from": "5aTYuVxp", "to": "oX8hC5bT", "width": 1}, {"from": "Q8MBQBw7", "to": "LLpPqfa8", "width": 1}, {"from": "Q8MBQBw7", "to": "ePnALoCw", "width": 1}, {"from": "E3wVK8mM", "to": "LLpPqfa8", "width": 1}, {"from": "9tZzpwmB", "to": "LLpPqfa8", "width": 1}, {"from": "k9jEdy5a", "to": "LLpPqfa8", "width": 1}, {"from": "YQcPFtoJ", "to": "LLpPqfa8", "width": 1}, {"from": "8cygiHEB", "to": "LLpPqfa8", "width": 1}, {"from": "K9mQeF4d", "to": "LLpPqfa8", "width": 1}, {"from": "LLpPqfa8", "to": "3HZTjert", "width": 1}, {"from": "LLpPqfa8", "to": "P6UciQe2", "width": 1}, {"from": "LLpPqfa8", "to": "h2REmxTx", "width": 1}, {"from": "LLpPqfa8", "to": "SW6dnY4F", "width": 1}, {"from": "LLpPqfa8", "to": "aJeJBesD", "width": 10}, {"from": "LLpPqfa8", "to": "L7DPWnnr", "width": 1}, {"from": "LLpPqfa8", "to": "T6nAVeGM", "width": 1}, {"from": "LLpPqfa8", "to": "ZhptKYF3", "width": 1}, {"from": "LLpPqfa8", "to": "9CVVGZdo", "width": 1}, {"from": "LLpPqfa8", "to": "ku2dT5kg", "width": 10}, {"from": "LLpPqfa8", "to": "jzSuLNvo", "width": 1}, {"from": "LLpPqfa8", "to": "bXZtPe5G", "width": 1}, {"from": "LLpPqfa8", "to": "UvT8FR5N", "width": 1}, {"from": "LLpPqfa8", "to": "SzBL7Li4", "width": 1}, {"from": "LLpPqfa8", "to": "LoXSg3U3", "width": 1}, {"from": "LLpPqfa8", "to": "G8tgNnWV", "width": 1}, {"from": "LLpPqfa8", "to": "PyGNLcfw", "width": 1}, {"from": "LLpPqfa8", "to": "ePnALoCw", "width": 1}, {"from": "LLpPqfa8", "to": "WnttmCCm", "width": 1}, {"from": "LLpPqfa8", "to": "3KJ4atqX", "width": 1}, {"from": "LLpPqfa8", "to": "2FFSLYnM", "width": 1}, {"from": "LLpPqfa8", "to": "5MMa69Kf", "width": 1}, {"from": "LLpPqfa8", "to": "oX8hC5bT", "width": 1}, {"from": "LLpPqfa8", "to": "YvQmwaaW", "width": 5}, {"from": "LLpPqfa8", "to": "37vPLqE4", "width": 1}, {"from": "LLpPqfa8", "to": "U7Xvn7RZ", "width": 1}, {"from": "5MMa69Kf", "to": "aJeJBesD", "width": 1}, {"from": "5MMa69Kf", "to": "T6nAVeGM", "width": 1}, {"from": "5MMa69Kf", "to": "L7DPWnnr", "width": 1}, {"from": "5MMa69Kf", "to": "ku2dT5kg", "width": 1}, {"from": "5MMa69Kf", "to": "PyGNLcfw", "width": 1}, {"from": "5MMa69Kf", "to": "YvQmwaaW", "width": 1}, {"from": "5MMa69Kf", "to": "37vPLqE4", "width": 1}, {"from": "5MMa69Kf", "to": "U7Xvn7RZ", "width": 1}, {"from": "G8tgNnWV", "to": "WnttmCCm", "width": 1}, {"from": "aJeJBesD", "to": "3KJ4atqX", "width": 1}, {"from": "aJeJBesD", "to": "ePnALoCw", "width": 10}, {"from": "aJeJBesD", "to": "WnttmCCm", "width": 10}, {"from": "aJeJBesD", "to": "oX8hC5bT", "width": 10}, {"from": "LoXSg3U3", "to": "PyGNLcfw", "width": 1}, {"from": "3KJ4atqX", "to": "L7DPWnnr", "width": 1}, {"from": "3KJ4atqX", "to": "T6nAVeGM", "width": 1}, {"from": "3KJ4atqX", "to": "ku2dT5kg", "width": 1}, {"from": "3KJ4atqX", "to": "PyGNLcfw", "width": 1}, {"from": "3KJ4atqX", "to": "YvQmwaaW", "width": 1}, {"from": "ku2dT5kg", "to": "ePnALoCw", "width": 10}, {"from": "ku2dT5kg", "to": "WnttmCCm", "width": 10}, {"from": "ku2dT5kg", "to": "oX8hC5bT", "width": 10}, {"from": "PyGNLcfw", "to": "37vPLqE4", "width": 1}, {"from": "PyGNLcfw", "to": "U7Xvn7RZ", "width": 1}, {"from": "bXZtPe5G", "to": "WnttmCCm", "width": 1}, {"from": "L7DPWnnr", "to": "WnttmCCm", "width": 1}, {"from": "ePnALoCw", "to": "T6nAVeGM", "width": 1}, {"from": "WnttmCCm", "to": "9CVVGZdo", "width": 1}, {"from": "UvT8FR5N", "to": "oX8hC5bT", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

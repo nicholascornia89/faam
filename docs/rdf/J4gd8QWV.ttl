@@ -1,0 +1,123 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:J4gd8QWV a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:HHYqWvTC,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:TUdHPWU8,
+        faamentity:UJ57Ew5y,
+        faamentity:ZnCCVfkb,
+        faamentity:eJhxFoas,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:eNyFmkHC,
+        faamentity:m9rNaSAR,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:PPhziStg,
+        faamentity:QHAoKPG8,
+        faamentity:Qw4zjHnS,
+        faamentity:RtkoMT89,
+        faamentity:T9uNf9Ax,
+        faamentity:TnbLqDio,
+        faamentity:Y5VdxeTi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AaF6WQEA,
+        faamentity:KzqrgycL,
+        faamentity:PXYCpRXf,
+        faamentity:QE9UrJXo ;
+    schema1:hasPart faamentity:3r4BmVYC,
+        faamentity:4ANJyJ6E,
+        faamentity:5TRQBSWb,
+        faamentity:6mDZExMz,
+        faamentity:8VhdZmvQ,
+        faamentity:9L9RmaCx,
+        faamentity:EKYkshGz,
+        faamentity:Em6zN9bY,
+        faamentity:FpHM2oK7,
+        faamentity:KmgJHDdU,
+        faamentity:P6KNC7Pm,
+        faamentity:adqqNMmr,
+        faamentity:bighvtSj,
+        faamentity:c6PJKqJM,
+        faamentity:cFTRAQqf,
+        faamentity:dqTwfFzk,
+        faamentity:fr2hnQEu ;
+    schema1:identifier "15992667"^^xsd:string,
+        "J4gd8QWV"^^xsd:string,
+        "KCA-TP74135"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "18 ausgewählte Klavierstücke"^^xsd:string ;
+    skosref:note """<ul>
+<li>Suite II, No.1: Transposed from G to F minor.</li>
+<li>Suite II, No,2: No correspondence with K. catalogue.</li>
+<li>Suite III, No.3: No correspondence with K. catalogue.</li>
+</ul>"""^^rdf:HTML ;
+    skosref:related faamentity:3r4BmVYC,
+        faamentity:4ANJyJ6E,
+        faamentity:5TRQBSWb,
+        faamentity:6mDZExMz,
+        faamentity:8VhdZmvQ,
+        faamentity:9L9RmaCx,
+        faamentity:EKYkshGz,
+        faamentity:Em6zN9bY,
+        faamentity:FpHM2oK7,
+        faamentity:KmgJHDdU,
+        faamentity:P6KNC7Pm,
+        faamentity:adqqNMmr,
+        faamentity:c6PJKqJM,
+        faamentity:cFTRAQqf,
+        faamentity:dqTwfFzk,
+        faamentity:fr2hnQEu ;
+    wd:P217 "TP74135"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"J4gd8QWV-5dbceccb-f859-46f2-ab66-d570e8d3f910"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"J4gd8QWV-9631599a-cf93-478f-9044-d665c92b76af"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"J4gd8QWV-a595ed98-ca65-4aa6-af9d-920e7263ac00"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"J4gd8QWV-ba39abe4-8582-467d-bdd8-1a082e4ee404"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "26-06-1864"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:location faamentity:PNeLQZnK .
+
+faamentity:AaF6WQEA a rdf:object .
+
+faamentity:KzqrgycL a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+

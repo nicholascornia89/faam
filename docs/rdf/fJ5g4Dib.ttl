@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fJ5g4Dib a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DDcZ9LJC ;
+    schema1:birthDate "1890-12-08"^^xsd:string ;
+    schema1:birthPlace faamentity:HoB4yjmg ;
+    schema1:deathDate "1959-08-28"^^xsd:string ;
+    schema1:deathPlace faamentity:5FxHYswx,
+        faamentity:7JMmrPi9 ;
+    schema1:description "Czech composer (1890–1959)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q223258>,
+        "15996093"^^xsd:string,
+        "fJ5g4Dib"^^xsd:string ;
+    schema1:nationality faamentity:Ppvs4voc,
+        faamentity:WXHANYCp,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Bohuslav Martinu"^^xsd:string,
+        "Bohuslav Martinů"^^xsd:string ;
+    skos:prefLabel "Bohuslav Martinů"^^xsd:string ;
+    wd:P108 faamentity:HUh9T2St ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44485757 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30092459> ;
+    wd:P737 faamentity:6fVTPTja,
+        faamentity:FtmMkvtb,
+        faamentity:NCFq3aXa ;
+    wd:P839 <https://imslp.org/wiki/Category:Martinů,_Bohuslav> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:aB6ga3Wq .
+

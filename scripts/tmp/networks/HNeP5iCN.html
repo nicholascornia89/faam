@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HNeP5iCN", "label": "Souvenirs Dramatiques : Arrang\u00e9s en Trios pour Piano, Fl\u00fbte et Violoncelle : 4e Don Jaun : Op. 86", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HNeP5iCN.md\u0027\u003eSouvenirs Dramatiques : Arrang\u00e9s en Trios pour Piano, Fl\u00fbte et Violoncelle : 4e Don Jaun : Op. 86\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCG-000359822.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EqtAuzbH", "label": "metronome mark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EqtAuzbH.md\u0027\u003emetronome mark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical notation indicating the tempo of a piece in a objective manner\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mkCY9LDD.md\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7WfWytMV", "label": "ritenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7WfWytMV.md\u0027\u003eritenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindication of tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SRaiiKJr", "label": "decrescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRaiiKJr.md\u0027\u003edecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eSzqVmee.md\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6fQyHcwz", "label": "accent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6fQyHcwz.md\u0027\u003eaccent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eemphasis placed on a particular musical note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HKyA3Qzz.md\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tkKrhbM.md\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "c2dmjbDM", "label": "tacet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c2dmjbDM.md\u0027\u003etacet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kxAqh9HR", "label": "tempo primo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kxAqh9HR.md\u0027\u003etempo primo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nTx2RkTQ", "label": "trill", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nTx2RkTQ.md\u0027\u003etrill\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament consisting of a rapid alternation between two adjacent notes, usually a semitone or tone apart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "93GDD9ND", "label": "ornament", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./93GDD9ND.md\u0027\u003eornament\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or \"ornament\" that line\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DT4vQExr", "label": "pizzicato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DT4vQExr.md\u0027\u003epizzicato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanner of articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TK9UAG2p", "label": "arco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TK9UAG2p.md\u0027\u003earco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D6RjeTWv", "label": "musical expression", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./D6RjeTWv.md\u0027\u003emusical expression\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evarious techniques used in musical performance to convey emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GpNEm7nw", "label": "engage pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GpNEm7nw.md\u0027\u003eengage pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQE77nqs", "label": "release pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LQE77nqs.md\u0027\u003erelease pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iyfjpyT2", "label": "octave sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iyfjpyT2.md\u0027\u003eoctave sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic symbol referring to a phrase or a section of music to be played one octave higher\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "7jH33jwQ", "label": "Library Royal Conservatoire Ghent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7jH33jwQ.md\u0027\u003eLibrary Royal Conservatoire Ghent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian school of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AdNoqEfD", "label": "flute", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AdNoqEfD.md\u0027\u003eflute\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument of the woodwind family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G8tgNnWV", "label": "violin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G8tgNnWV.md\u0027\u003eviolin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2nFJpnZ8", "label": "cello", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2nFJpnZ8.md\u0027\u003ecello\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "i6ZUL4z4", "label": "double bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./i6ZUL4z4.md\u0027\u003edouble bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacoustic stringed instrument of the violin family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mGvrzsgB", "label": "salon music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mGvrzsgB.md\u0027\u003esalon music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epopular music genre in Europe during the 19th century\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7AXGCpck", "label": "opera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7AXGCpck.md\u0027\u003eopera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartform combining sung text and musical score in a theatrical setting\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WiBZjkbR.md\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SW6dnY4F", "label": "Don Giovanni", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SW6dnY4F.md\u0027\u003eDon Giovanni\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eopera by Wolfgang Amadeus Mozart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YDUFYBeT", "label": "Souvenirs Dramatiques, Op. 86", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YDUFYBeT.md\u0027\u003eSouvenirs Dramatiques, Op. 86\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "HNeP5iCN", "to": "EqtAuzbH", "width": 1}, {"from": "HNeP5iCN", "to": "mkCY9LDD", "width": 1}, {"from": "HNeP5iCN", "to": "7WfWytMV", "width": 1}, {"from": "HNeP5iCN", "to": "SRaiiKJr", "width": 1}, {"from": "HNeP5iCN", "to": "eSzqVmee", "width": 1}, {"from": "HNeP5iCN", "to": "6fQyHcwz", "width": 1}, {"from": "HNeP5iCN", "to": "HKyA3Qzz", "width": 1}, {"from": "HNeP5iCN", "to": "9tkKrhbM", "width": 1}, {"from": "HNeP5iCN", "to": "c2dmjbDM", "width": 1}, {"from": "HNeP5iCN", "to": "kxAqh9HR", "width": 1}, {"from": "HNeP5iCN", "to": "nTx2RkTQ", "width": 1}, {"from": "HNeP5iCN", "to": "93GDD9ND", "width": 1}, {"from": "HNeP5iCN", "to": "DT4vQExr", "width": 1}, {"from": "HNeP5iCN", "to": "TK9UAG2p", "width": 1}, {"from": "HNeP5iCN", "to": "D6RjeTWv", "width": 1}, {"from": "HNeP5iCN", "to": "GpNEm7nw", "width": 1}, {"from": "HNeP5iCN", "to": "LQE77nqs", "width": 1}, {"from": "HNeP5iCN", "to": "iyfjpyT2", "width": 1}, {"from": "HNeP5iCN", "to": "7jH33jwQ", "width": 1}, {"from": "HNeP5iCN", "to": "PyGNLcfw", "width": 1}, {"from": "HNeP5iCN", "to": "AdNoqEfD", "width": 1}, {"from": "HNeP5iCN", "to": "G8tgNnWV", "width": 1}, {"from": "HNeP5iCN", "to": "2nFJpnZ8", "width": 1}, {"from": "HNeP5iCN", "to": "i6ZUL4z4", "width": 1}, {"from": "HNeP5iCN", "to": "mGvrzsgB", "width": 1}, {"from": "HNeP5iCN", "to": "7AXGCpck", "width": 1}, {"from": "HNeP5iCN", "to": "WiBZjkbR", "width": 1}, {"from": "HNeP5iCN", "to": "SW6dnY4F", "width": 1}, {"from": "HNeP5iCN", "to": "YDUFYBeT", "width": 1}, {"from": "93GDD9ND", "to": "nTx2RkTQ", "width": 1}, {"from": "D6RjeTWv", "to": "9tkKrhbM", "width": 1}, {"from": "SRaiiKJr", "to": "HKyA3Qzz", "width": 1}, {"from": "mGvrzsgB", "to": "YDUFYBeT", "width": 1}, {"from": "HKyA3Qzz", "to": "eSzqVmee", "width": 1}, {"from": "mkCY9LDD", "to": "EqtAuzbH", "width": 1}, {"from": "mkCY9LDD", "to": "7WfWytMV", "width": 1}, {"from": "mkCY9LDD", "to": "kxAqh9HR", "width": 1}, {"from": "YDUFYBeT", "to": "WiBZjkbR", "width": 1}, {"from": "YDUFYBeT", "to": "7AXGCpck", "width": 1}, {"from": "YDUFYBeT", "to": "SW6dnY4F", "width": 1}, {"from": "7AXGCpck", "to": "SW6dnY4F", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

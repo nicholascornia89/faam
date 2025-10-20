@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NxRMTXgV", "label": "una corda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NxRMTXgV.md\u0027\u003euna corda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4asnL3fC", "label": "loudness", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4asnL3fC.md\u0027\u003eloudness\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esubjective perception of sound pressure\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D6RjeTWv", "label": "musical expression", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./D6RjeTWv.md\u0027\u003emusical expression\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evarious techniques used in musical performance to convey emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "atGzytDR", "label": "affect", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./atGzytDR.md\u0027\u003eaffect\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eexperience of feeling or emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LBfWd2va", "label": "espressivo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LBfWd2va.md\u0027\u003eespressivo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "b3QcSGeL", "label": "leggiero", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./b3QcSGeL.md\u0027\u003eleggiero\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DEL3dtgx", "label": "sforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEL3dtgx.md\u0027\u003esforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BUfQmokL", "label": "energico", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BUfQmokL.md\u0027\u003eenergico\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expressive mark\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tkKrhbM.md\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EWcTRe2g", "label": "sotto voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EWcTRe2g.md\u0027\u003esotto voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eintentionally lowering the volume of one\u0027s voice for emphasis\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HKyA3Qzz.md\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SRaiiKJr", "label": "decrescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRaiiKJr.md\u0027\u003edecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MDf8Dzi3", "label": "instrument reconstruction", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MDf8Dzi3.md\u0027\u003einstrument reconstruction\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eSzqVmee.md\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j3tnVzW5", "label": "diminuendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j3tnVzW5.md\u0027\u003ediminuendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UdAgYAUZ", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UdAgYAUZ.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "CN6C2wfM", "label": "mezzopiano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CN6C2wfM.md\u0027\u003emezzopiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "oH4DMPyz", "label": "mezzoforte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oH4DMPyz.md\u0027\u003emezzoforte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GKShCHKk", "label": "fortepiano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GKShCHKk.md\u0027\u003efortepiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian musical term meaning \u0027loud soft\u0027\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gnJkVwmS", "label": "forte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gnJkVwmS.md\u0027\u003eforte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TK9UAG2p", "label": "arco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TK9UAG2p.md\u0027\u003earco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4Z2Q29EE", "label": "echo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4Z2Q29EE.md\u0027\u003eecho\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ereflection of sound that arrives at the listener with a delay after the direct sound\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nyib7iwk", "label": "fortissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nyib7iwk.md\u0027\u003efortissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical dynamics notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ChXNxbcx", "label": "loudness", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ChXNxbcx.md\u0027\u003eloudness\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esubjective perception of sound pressure\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "jLreunkg", "label": "tenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jLreunkg.md\u0027\u003etenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003earticulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ieqEGEHo", "label": "messa di voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ieqEGEHo.md\u0027\u003emessa di voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSinging technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "c2dmjbDM", "label": "tacet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c2dmjbDM.md\u0027\u003etacet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aMHPuLSn", "label": "pianissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aMHPuLSn.md\u0027\u003epianissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eterm used in musical notation to indicate a very low degree of sound intensity\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DT4vQExr", "label": "pizzicato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DT4vQExr.md\u0027\u003epizzicato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanner of articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GpNEm7nw", "label": "engage pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GpNEm7nw.md\u0027\u003eengage pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ASkufuku", "label": "tre le corde", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ASkufuku.md\u0027\u003etre le corde\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQE77nqs", "label": "release pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LQE77nqs.md\u0027\u003erelease pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UJ57Ew5y", "label": "musical phrasing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UJ57Ew5y.md\u0027\u003emusical phrasing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunit of musical meter that has a complete musical sense of its own\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iZiYk6VC", "label": "organ stop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iZiYk6VC.md\u0027\u003eorgan stop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epart of a pipe organ\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "NxRMTXgV", "to": "4asnL3fC", "width": 1}, {"from": "D6RjeTWv", "to": "atGzytDR", "width": 1}, {"from": "D6RjeTWv", "to": "LBfWd2va", "width": 1}, {"from": "D6RjeTWv", "to": "b3QcSGeL", "width": 1}, {"from": "D6RjeTWv", "to": "DEL3dtgx", "width": 1}, {"from": "D6RjeTWv", "to": "4asnL3fC", "width": 1}, {"from": "D6RjeTWv", "to": "BUfQmokL", "width": 1}, {"from": "D6RjeTWv", "to": "9tkKrhbM", "width": 1}, {"from": "D6RjeTWv", "to": "EWcTRe2g", "width": 1}, {"from": "EWcTRe2g", "to": "HKyA3Qzz", "width": 1}, {"from": "EWcTRe2g", "to": "4asnL3fC", "width": 1}, {"from": "SRaiiKJr", "to": "HKyA3Qzz", "width": 1}, {"from": "SRaiiKJr", "to": "4asnL3fC", "width": 1}, {"from": "MDf8Dzi3", "to": "4asnL3fC", "width": 1}, {"from": "HKyA3Qzz", "to": "DEL3dtgx", "width": 1}, {"from": "HKyA3Qzz", "to": "4asnL3fC", "width": 1}, {"from": "HKyA3Qzz", "to": "eSzqVmee", "width": 1}, {"from": "HKyA3Qzz", "to": "j3tnVzW5", "width": 1}, {"from": "HKyA3Qzz", "to": "UdAgYAUZ", "width": 1}, {"from": "HKyA3Qzz", "to": "CN6C2wfM", "width": 1}, {"from": "HKyA3Qzz", "to": "oH4DMPyz", "width": 1}, {"from": "HKyA3Qzz", "to": "GKShCHKk", "width": 1}, {"from": "HKyA3Qzz", "to": "gnJkVwmS", "width": 1}, {"from": "b3QcSGeL", "to": "4asnL3fC", "width": 1}, {"from": "TK9UAG2p", "to": "4asnL3fC", "width": 1}, {"from": "j3tnVzW5", "to": "4asnL3fC", "width": 1}, {"from": "4Z2Q29EE", "to": "4asnL3fC", "width": 1}, {"from": "nyib7iwk", "to": "gnJkVwmS", "width": 1}, {"from": "nyib7iwk", "to": "4asnL3fC", "width": 1}, {"from": "ChXNxbcx", "to": "4asnL3fC", "width": 1}, {"from": "jLreunkg", "to": "4asnL3fC", "width": 1}, {"from": "ieqEGEHo", "to": "4asnL3fC", "width": 1}, {"from": "eSzqVmee", "to": "4asnL3fC", "width": 1}, {"from": "LBfWd2va", "to": "4asnL3fC", "width": 1}, {"from": "GKShCHKk", "to": "gnJkVwmS", "width": 1}, {"from": "GKShCHKk", "to": "UdAgYAUZ", "width": 1}, {"from": "GKShCHKk", "to": "4asnL3fC", "width": 1}, {"from": "gnJkVwmS", "to": "oH4DMPyz", "width": 1}, {"from": "gnJkVwmS", "to": "4asnL3fC", "width": 1}, {"from": "4asnL3fC", "to": "atGzytDR", "width": 1}, {"from": "4asnL3fC", "to": "c2dmjbDM", "width": 1}, {"from": "4asnL3fC", "to": "aMHPuLSn", "width": 1}, {"from": "4asnL3fC", "to": "DEL3dtgx", "width": 1}, {"from": "4asnL3fC", "to": "DT4vQExr", "width": 1}, {"from": "4asnL3fC", "to": "GpNEm7nw", "width": 1}, {"from": "4asnL3fC", "to": "ASkufuku", "width": 1}, {"from": "4asnL3fC", "to": "LQE77nqs", "width": 1}, {"from": "4asnL3fC", "to": "UdAgYAUZ", "width": 1}, {"from": "4asnL3fC", "to": "CN6C2wfM", "width": 1}, {"from": "4asnL3fC", "to": "oH4DMPyz", "width": 1}, {"from": "4asnL3fC", "to": "UJ57Ew5y", "width": 1}, {"from": "4asnL3fC", "to": "BUfQmokL", "width": 1}, {"from": "4asnL3fC", "to": "9tkKrhbM", "width": 1}, {"from": "4asnL3fC", "to": "iZiYk6VC", "width": 1}, {"from": "CN6C2wfM", "to": "UdAgYAUZ", "width": 1}, {"from": "UdAgYAUZ", "to": "aMHPuLSn", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

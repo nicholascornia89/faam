@@ -1,0 +1,51 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BEvZZJUi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9JZUardt,
+        faamentity:T7ggZAkf ;
+    schema1:identifier "16005458"^^xsd:string,
+        "BEvZZJUi"^^xsd:string,
+        "ORP-20143700p9"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188"^^schema1:url ;
+    skos:prefLabel "Le chien du régiment"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3128
+L'Illustration, N. 3128"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.006"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"BEvZZJUi-136e04a3-1580-477f-b4cc-c06298de875c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"BEvZZJUi-669936ad-2cfe-419a-9a3d-e9cae3fce445"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "07-02-1903"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"BEvZZJUi-8f7fde92-3f22-4746-99ee-9db430667afc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:9JZUardt a rdf:object .
+
+faamentity:T7ggZAkf a rdf:object .
+

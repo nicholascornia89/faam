@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:66pdprvL a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1767-01-01"^^xsd:string ;
+    schema1:deathDate "1842-01-01"^^xsd:string ;
+    schema1:description "Dutch music publisher of German origins"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q72938078>,
+        "16002552"^^xsd:string,
+        "66pdprvL"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a,
+        faamentity:UjV2U7Sh ;
+    skos:altLabel "Ludwig Plattner"^^xsd:string ;
+    skos:prefLabel "Ludwig Plattner"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:52488745 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30034118> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:72jp5dwD a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:TZfafBBe ;
+    schema1:description "concerto composed by Beethoven in 1806"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q787378>,
+        "16004389"^^xsd:string,
+        "72jp5dwD"^^xsd:string ;
+    skos:altLabel "D-dúr hegedűverseny (Beethoven)"^^xsd:string,
+        "Violin Concerto in D major"^^xsd:string,
+        "Violin Concerto in D major, Op. 61"^^xsd:string ;
+    skos:prefLabel "Violin Concerto in D major, Op.61"^^xsd:string ;
+    wd:P214 viaf:179425016 ;
+    wd:P7937 faamentity:4Jjg5FwX,
+        faamentity:X8NxipyB ;
+    wd:P839 <https://imslp.org/wiki/Violin_Concerto_in_D_major,_Op.61_(Beethoven,_Ludwig_van)> .
+

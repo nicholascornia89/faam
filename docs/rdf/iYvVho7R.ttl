@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iYvVho7R a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Scottish philosopher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q579194>,
+        "0"^^xsd:string,
+        "iYvVho7R"^^xsd:string ;
+    skos:altLabel "Haddingtonus Scotus"^^xsd:string,
+        "Joannes Majoris"^^xsd:string,
+        "John Mair"^^xsd:string ;
+    skos:prefLabel "John Major"^^xsd:string ;
+    wd:P108 <Q192775>,
+        faamentity:P5SkNTZx,
+        faamentity:X3H7fQfB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:99949266 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 <Q43499>,
+        <Q716415>,
+        <Q868> .
+

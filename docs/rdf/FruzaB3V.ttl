@@ -1,0 +1,44 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FruzaB3V a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:MR3kLpuM,
+        faamentity:TUdHPWU8 ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4tQBaATq,
+        faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:UnrnLejN ;
+    schema1:hasPart faamentity:iU7rbTo2 ;
+    schema1:identifier "15992290"^^xsd:string,
+        "FruzaB3V"^^xsd:string,
+        "KCA-030902125688"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7088413/N"^^schema1:url ;
+    skos:prefLabel "Allegro con fuoco"^^xsd:string ;
+    wd:P217 "MM-MS-DEBOE-allegro-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"FruzaB3V-ce7b930a-3329-47aa-bb2c-ea80e15a1f4b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:UnrnLejN a rdf:object .
+

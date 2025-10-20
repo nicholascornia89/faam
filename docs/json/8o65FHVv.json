@@ -1,0 +1,123 @@
+{
+  "id": "8o65FHVv",
+  "uuid_num": 13275165979429,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Frankfurt University of Music and Performing Arts"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "German university"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q317796",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Frankfurt University of Music and Performing Arts"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "8o65FHVv"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "place": [
+      {
+        "type": "item",
+        "value": "RiB7qUPm",
+        "label": "Frankfurt"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CTNhzr7a",
+        "label": "Germany"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "YaMUxDWu",
+        "type": "item",
+        "label": "Joachim Raff",
+        "description": "Swiss composer (1822-1882)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jjraffportrait.jpg"
+        }
+      },
+      {
+        "id": "8CK7pBQT",
+        "type": "item",
+        "label": "Iwan Knorr",
+        "description": "German teacher of music (1853–1916)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "5vPvVrHJ",
+        "type": "item",
+        "label": "Sigismond Thalberg",
+        "description": "Swiss composer and pianist (1812–1871)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Thalberg,_Sigismund,_Gallica,_Nadar.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "8o65FHVv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "8o65FHVv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "8o65FHVv.csv"
+      }
+    ]
+  }
+}

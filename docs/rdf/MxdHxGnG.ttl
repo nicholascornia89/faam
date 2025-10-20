@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MxdHxGnG a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital of Uzbekistan"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q269>,
+        "0"^^xsd:string,
+        "MxdHxGnG"^^xsd:string ;
+    schema1:location <Q4453007> ;
+    skos:altLabel "Binkath"^^xsd:string,
+        "Chach"^^xsd:string,
+        "Choch"^^xsd:string,
+        "Shash"^^xsd:string,
+        "Shosh"^^xsd:string,
+        "Tashkand"^^xsd:string,
+        "Toshkent"^^xsd:string ;
+    skos:prefLabel "Tashkent"^^xsd:string ;
+    wd:P1566 gn:1484839,
+        gn:1512569 .
+

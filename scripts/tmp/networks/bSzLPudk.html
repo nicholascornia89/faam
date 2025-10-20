@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "adScJJTL", "label": "Opera Ballet Vlaanderen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./adScJJTL.md\u0027\u003eOpera Ballet Vlaanderen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish organization organizing opera and ballet performances\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bSzLPudk", "label": "Antwerpen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bSzLPudk.md\u0027\u003eAntwerpen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the province of Antwerp, Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KgyiaBt3", "label": "Belgium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KgyiaBt3.md\u0027\u003eBelgium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in western Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "2C9Fy8H6", "label": "Heritage Library Royal Conservatoire Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2C9Fy8H6.md\u0027\u003eHeritage Library Royal Conservatoire Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2FvLLrVs", "label": "Frits Celis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2FvLLrVs.md\u0027\u003eFrits Celis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Frits_Celis_at_90.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SGA8i9nK", "label": "Royal Conservatoire of Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SGA8i9nK.md\u0027\u003eRoyal Conservatoire of Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4Mi2LPbK", "label": "Noel Bauldeweyn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4Mi2LPbK.md\u0027\u003eNoel Bauldeweyn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFranco-Flemish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nytyiRSb", "label": "Metropolis (Oud-Huis G. Prop)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nytyiRSb.md\u0027\u003eMetropolis (Oud-Huis G. Prop)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAntwerp based music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nPY6863Z", "label": "Flor Peeters", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nPY6863Z.md\u0027\u003eFlor Peeters\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish organist, composer and music pedagogue (1903\u20131986)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://imslp.org/images/a/a8/Picture-Peeters%2C_Flor.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GK7UXWTC", "label": "Royal Society for Zoology Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GK7UXWTC.md\u0027\u003eRoyal Society for Zoology Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ezoological association in Belgium\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "daiXuwkJ", "label": "AMVC-Letterenhuis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./daiXuwkJ.md\u0027\u003eAMVC-Letterenhuis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian non-profit organization located in Antwerp\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "j6DV8zaS", "label": "Joseph Callaerts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j6DV8zaS.md\u0027\u003eJoseph Callaerts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian organist and composer (1830\u20131901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "U2NEfkwu", "label": "Lodewijk Ontrop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./U2NEfkwu.md\u0027\u003eLodewijk Ontrop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer and conductor, 1875\u20131941\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lodewijk_Ontrop_ca._1897_(retouched).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2Cu75SXC", "label": "Lodewijk Mortelmans", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2Cu75SXC.md\u0027\u003eLodewijk Mortelmans\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1868-1952)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lodewijk_Mortelmans_foto.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ta5ni5cL", "label": "Peter Benoit", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ta5ni5cL.md\u0027\u003ePeter Benoit\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer (1834-1901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Peter_Benoit_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2yHpmJQV", "label": "Marinus de Jong", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2yHpmJQV.md\u0027\u003eMarinus de Jong\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1891-1984)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://www.svm.be/files/Componisten/DE-JONG-Marinus-FOTO1-KCA-D181.1.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NNF4zeEn", "label": "Daniel Sternefeld", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NNF4zeEn.md\u0027\u003eDaniel Sternefeld\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1905-1986)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ThMz2zA8", "label": "Emmanuel Durlet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ThMz2zA8.md\u0027\u003eEmmanuel Durlet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, pianist and music educator (1893\u20131977)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BVmnZjBu", "label": "Jef Van Hoof", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BVmnZjBu.md\u0027\u003eJef Van Hoof\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFlemish composer (1886-1959)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JefVanHoof.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iKieAfH7", "label": "Albert Grisar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iKieAfH7.md\u0027\u003eAlbert Grisar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1808\u20131869)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Albert_Grisar.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "X9GjfsUf", "label": "Flor Alpaerts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./X9GjfsUf.md\u0027\u003eFlor Alpaerts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, conductor, pedagogue (1876\u20131954)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ehQeovHi", "label": "Pierre Aelberts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ehQeovHi.md\u0027\u003ePierre Aelberts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian editor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XqwGf95J", "label": "Louis Gobbaerts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XqwGf95J.md\u0027\u003eLouis Gobbaerts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian concert pianist, piano teacher and composer (1835-1886)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jcu4u5sd", "label": "Frans Gittens", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jcu4u5sd.md\u0027\u003eFrans Gittens\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian writer (1842-1911)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "3VXUQ7ER", "label": "Anton van de Velde", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3VXUQ7ER.md\u0027\u003eAnton van de Velde\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian playwright, writer and theatre director (1895\u20131983)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/a/aa/Anton_van_de_Velde.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9bug7VfA", "label": "Valentine Degive-Ledelier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9bug7VfA.md\u0027\u003eValentine Degive-Ledelier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian singer and music teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9jCVkUSz", "label": "Jan Emile Boucherij", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9jCVkUSz.md\u0027\u003eJan Emile Boucherij\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian music publisher (1846-1911)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MvfpvWJh", "label": "Irma Van Dijck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MvfpvWJh.md\u0027\u003eIrma Van Dijck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian singer and music teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6UrJ5gwo", "label": "Jan Blockx", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6UrJ5gwo.md\u0027\u003eJan Blockx\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, pianist and teacher (1851\u20131912)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/2/23/Karikatuur_getekend_door_Enrico_Caruso%2C_Enrico_Caruso%2C_1906_%26_1909%2C_Universiteitsbibliotheek_Gent%2C910000094265_2018_0019_AC_%28cropped%29.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2gUssDxo", "label": "Edward Keurvels", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2gUssDxo.md\u0027\u003eEdward Keurvels\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian conductor and co-founder of the Flemish Opera\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://www.svm.be/files/Componisten/KEURVELS-Edward-INDEXFOTO-K040.18.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9dCiGXXo", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9dCiGXXo.md\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "giGMGFod", "label": "Antoine Bessems", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./giGMGFod.md\u0027\u003eAntoine Bessems\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eb. 1806, Antwerp, d. 1868, Paris; violinist and composer (1809\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bessems.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "92ZT6J2a", "label": "John Bode-Vinck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./92ZT6J2a.md\u0027\u003eJohn Bode-Vinck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ei655ntR", "label": "Karel Candael", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ei655ntR.md\u0027\u003eKarel Candael\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, music teacher, and conductor (1883-1948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AedSA8fV", "label": "\u00c9mile Wambach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AedSA8fV.md\u0027\u003e\u00c9mile Wambach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian conductor, composer, musicologist and music educator (1854-1924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/30/Emile_Wambach_1913.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "H9Vpi47r", "label": "De Ring", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./H9Vpi47r.md\u0027\u003eDe Ring\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian music publishing company\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SuXFo92N", "label": "Gustave Faes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SuXFo92N.md\u0027\u003eGustave Faes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian piano maker and music publisher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jFbpVqP8", "label": "Andr\u00e9-Joseph Blavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jFbpVqP8.md\u0027\u003eAndr\u00e9-Joseph Blavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "X8CowJzi", "label": "Schott Music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./X8CowJzi.md\u0027\u003eSchott Music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman music publisher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BbgfX7DK", "label": "Ivo de Vento", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BbgfX7DK.md\u0027\u003eIvo de Vento\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFranco-Flemish composer, organist and Kapellmeister of the High Renaissance\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bQY8ZNZS", "label": "John Bull", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bQY8ZNZS.md\u0027\u003eJohn Bull\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer, musician and organ builder\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Bull_(composer).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DDH7fEFM", "label": "Anonymous", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DDH7fEFM.md\u0027\u003eAnonymous\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikimedia disambiguation page\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "adScJJTL", "to": "bSzLPudk", "width": 10}, {"from": "adScJJTL", "to": "KgyiaBt3", "width": 1}, {"from": "2C9Fy8H6", "to": "bSzLPudk", "width": 10}, {"from": "2C9Fy8H6", "to": "KgyiaBt3", "width": 10}, {"from": "2FvLLrVs", "to": "KgyiaBt3", "width": 10}, {"from": "2FvLLrVs", "to": "SGA8i9nK", "width": 10}, {"from": "2FvLLrVs", "to": "bSzLPudk", "width": 5}, {"from": "4Mi2LPbK", "to": "bSzLPudk", "width": 10}, {"from": "nytyiRSb", "to": "KgyiaBt3", "width": 10}, {"from": "nytyiRSb", "to": "bSzLPudk", "width": 5}, {"from": "nPY6863Z", "to": "KgyiaBt3", "width": 10}, {"from": "nPY6863Z", "to": "bSzLPudk", "width": 10}, {"from": "nPY6863Z", "to": "SGA8i9nK", "width": 10}, {"from": "KgyiaBt3", "to": "bSzLPudk", "width": 10}, {"from": "KgyiaBt3", "to": "GK7UXWTC", "width": 10}, {"from": "KgyiaBt3", "to": "SGA8i9nK", "width": 10}, {"from": "KgyiaBt3", "to": "daiXuwkJ", "width": 10}, {"from": "KgyiaBt3", "to": "j6DV8zaS", "width": 10}, {"from": "KgyiaBt3", "to": "U2NEfkwu", "width": 10}, {"from": "KgyiaBt3", "to": "2Cu75SXC", "width": 1}, {"from": "KgyiaBt3", "to": "Ta5ni5cL", "width": 10}, {"from": "KgyiaBt3", "to": "2yHpmJQV", "width": 10}, {"from": "KgyiaBt3", "to": "NNF4zeEn", "width": 1}, {"from": "KgyiaBt3", "to": "ThMz2zA8", "width": 10}, {"from": "KgyiaBt3", "to": "BVmnZjBu", "width": 10}, {"from": "KgyiaBt3", "to": "iKieAfH7", "width": 10}, {"from": "KgyiaBt3", "to": "X9GjfsUf", "width": 10}, {"from": "KgyiaBt3", "to": "ehQeovHi", "width": 1}, {"from": "KgyiaBt3", "to": "XqwGf95J", "width": 1}, {"from": "KgyiaBt3", "to": "jcu4u5sd", "width": 10}, {"from": "KgyiaBt3", "to": "3VXUQ7ER", "width": 10}, {"from": "KgyiaBt3", "to": "9bug7VfA", "width": 10}, {"from": "KgyiaBt3", "to": "9jCVkUSz", "width": 10}, {"from": "KgyiaBt3", "to": "MvfpvWJh", "width": 10}, {"from": "KgyiaBt3", "to": "6UrJ5gwo", "width": 10}, {"from": "KgyiaBt3", "to": "2gUssDxo", "width": 10}, {"from": "KgyiaBt3", "to": "9dCiGXXo", "width": 10}, {"from": "KgyiaBt3", "to": "giGMGFod", "width": 10}, {"from": "KgyiaBt3", "to": "92ZT6J2a", "width": 10}, {"from": "KgyiaBt3", "to": "Ei655ntR", "width": 10}, {"from": "KgyiaBt3", "to": "AedSA8fV", "width": 10}, {"from": "KgyiaBt3", "to": "H9Vpi47r", "width": 10}, {"from": "KgyiaBt3", "to": "SuXFo92N", "width": 10}, {"from": "ThMz2zA8", "to": "bSzLPudk", "width": 5}, {"from": "ThMz2zA8", "to": "SGA8i9nK", "width": 10}, {"from": "X9GjfsUf", "to": "bSzLPudk", "width": 5}, {"from": "j6DV8zaS", "to": "bSzLPudk", "width": 10}, {"from": "j6DV8zaS", "to": "SGA8i9nK", "width": 10}, {"from": "Ei655ntR", "to": "bSzLPudk", "width": 10}, {"from": "XqwGf95J", "to": "bSzLPudk", "width": 10}, {"from": "9dCiGXXo", "to": "bSzLPudk", "width": 10}, {"from": "2yHpmJQV", "to": "bSzLPudk", "width": 5}, {"from": "2yHpmJQV", "to": "SGA8i9nK", "width": 10}, {"from": "U2NEfkwu", "to": "bSzLPudk", "width": 10}, {"from": "jFbpVqP8", "to": "bSzLPudk", "width": 10}, {"from": "H9Vpi47r", "to": "bSzLPudk", "width": 5}, {"from": "X8CowJzi", "to": "bSzLPudk", "width": 5}, {"from": "9jCVkUSz", "to": "bSzLPudk", "width": 5}, {"from": "MvfpvWJh", "to": "bSzLPudk", "width": 5}, {"from": "MvfpvWJh", "to": "SGA8i9nK", "width": 10}, {"from": "6UrJ5gwo", "to": "bSzLPudk", "width": 10}, {"from": "NNF4zeEn", "to": "bSzLPudk", "width": 10}, {"from": "3VXUQ7ER", "to": "bSzLPudk", "width": 10}, {"from": "GK7UXWTC", "to": "bSzLPudk", "width": 5}, {"from": "GK7UXWTC", "to": "2gUssDxo", "width": 10}, {"from": "2Cu75SXC", "to": "bSzLPudk", "width": 5}, {"from": "2Cu75SXC", "to": "Ta5ni5cL", "width": 1}, {"from": "2Cu75SXC", "to": "SGA8i9nK", "width": 10}, {"from": "iKieAfH7", "to": "bSzLPudk", "width": 10}, {"from": "ehQeovHi", "to": "bSzLPudk", "width": 10}, {"from": "AedSA8fV", "to": "bSzLPudk", "width": 5}, {"from": "SuXFo92N", "to": "bSzLPudk", "width": 5}, {"from": "9bug7VfA", "to": "bSzLPudk", "width": 5}, {"from": "9bug7VfA", "to": "SGA8i9nK", "width": 10}, {"from": "giGMGFod", "to": "bSzLPudk", "width": 10}, {"from": "92ZT6J2a", "to": "bSzLPudk", "width": 5}, {"from": "bSzLPudk", "to": "SGA8i9nK", "width": 5}, {"from": "bSzLPudk", "to": "daiXuwkJ", "width": 10}, {"from": "bSzLPudk", "to": "BbgfX7DK", "width": 10}, {"from": "bSzLPudk", "to": "bQY8ZNZS", "width": 10}, {"from": "bSzLPudk", "to": "Ta5ni5cL", "width": 10}, {"from": "bSzLPudk", "to": "BVmnZjBu", "width": 10}, {"from": "bSzLPudk", "to": "jcu4u5sd", "width": 10}, {"from": "bSzLPudk", "to": "2gUssDxo", "width": 5}, {"from": "bSzLPudk", "to": "DDH7fEFM", "width": 5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

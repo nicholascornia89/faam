@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mDndmG7f a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:BUfQmokL,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:QGRAMUu8,
+        faamentity:SRaiiKJr,
+        faamentity:TUdHPWU8,
+        faamentity:aAsRZoVk,
+        faamentity:atGzytDR,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:ieqEGEHo,
+        faamentity:kxAqh9HR,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:LQND7DE7,
+        faamentity:TZfafBBe ;
+    schema1:hasPart faamentity:J6QmeNZJ ;
+    schema1:identifier "15992741"^^xsd:string,
+        "KCA-030904770226"^^xsd:string,
+        "mDndmG7f"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6760910/N"^^schema1:url ;
+    skos:prefLabel "Sonate F dur : für Pianoforte und Horn, op.17"^^xsd:string ;
+    wd:P217 "MM-BH-BEETH-sonat17-2"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"mDndmG7f-381e1df0-4a14-4082-93b8-9552b2a69ac1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"mDndmG7f-7e1132aa-ada7-4a13-afd9-9a0a34107e6f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"mDndmG7f-fb112036-2050-41fc-8f61-93777b0d6fc8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+

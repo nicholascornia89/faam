@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JPxue47e a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:NxRMTXgV,
+        faamentity:QyAptNqX,
+        faamentity:eJhxFoas ;
+    faamprop:handwritten_annotation faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:YsZjAKhZ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Naw52sHU,
+        faamentity:n3iBdnNB ;
+    schema1:identifier "15992395"^^xsd:string,
+        "JPxue47e"^^xsd:string,
+        "KCA-030904711634"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6797898/N"^^schema1:url ;
+    skos:prefLabel "Nocturne : pour piano"^^xsd:string ;
+    skosref:note "Dedicated to Ms. Louisa Merck."^^rdf:HTML ;
+    skosref:related faamentity:MZP7xtA5,
+        faamentity:brP3Q5as,
+        faamentity:nPp9pdM8 ;
+    wd:P217 "MM-TP-GILSO-noctu-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JPxue47e-2165881d-b955-4658-a54a-7b2d0f52696d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"JPxue47e-5a3826ad-9943-4ad9-8674-2e53906eee76"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"JPxue47e-b18964a1-ce2d-4240-84b8-1b6cd2835fcf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Naw52sHU a rdf:object .
+
+faamentity:n3iBdnNB a rdf:object .
+

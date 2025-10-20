@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Pxfujc36 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:HKyA3Qzz,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:G8QwYiwg,
+        faamentity:Th5WvPTu,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:KW3RZcDp,
+        faamentity:TZfafBBe,
+        faamentity:kPnk2SZm ;
+    schema1:hasPart faamentity:X3NQ7YkX ;
+    schema1:identifier "15992595"^^xsd:string,
+        "KCG-000333241"^^xsd:string,
+        "Pxfujc36"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333241"^^schema1:url ;
+    skos:prefLabel "Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Flûtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43."^^xsd:string ;
+    skosref:related faamentity:7qCCArxX ;
+    wd:P217 "II 1696"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:9t6BfJ2T,
+        faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:HcmSE474,
+        faamentity:JgHhttf9,
+        faamentity:K9mQeF4d,
+        faamentity:MVLRXXFR,
+        faamentity:SRXTUjuW,
+        faamentity:WVAicT8o,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"Pxfujc36-55c77d8b-5996-494d-b028-eb6f0df99294"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:AYShtw7v .
+
+"Pxfujc36-7bb0f568-39c6-4b2d-8d1e-681fec27b46b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"Pxfujc36-d3b31217-0c82-41d4-a84b-1461f47783cc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:kPnk2SZm a rdf:object .
+

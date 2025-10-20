@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ta5ni5cL a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1834-08-17"^^xsd:string ;
+    schema1:birthPlace faamentity:Xpc7uBEm ;
+    schema1:deathDate "1901-03-08"^^xsd:string ;
+    schema1:deathPlace faamentity:bSzLPudk ;
+    schema1:description "Flemish composer (1834-1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q733063>,
+        "15996062"^^xsd:string,
+        "Ta5ni5cL"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Peter Benoit"^^xsd:string,
+        "Peter Benoît"^^xsd:string,
+        "Peter Leonard Leopold Benoit"^^xsd:string ;
+    skos:prefLabel "Peter Benoit"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56825961 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30016412> ;
+    wd:P737 faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Benoit,_Peter> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:7gohDEi3,
+        faamentity:TDF2knmi .
+

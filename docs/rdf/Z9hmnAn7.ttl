@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z9hmnAn7 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:2xdjPXtz ;
+    schema1:identifier "16002408"^^xsd:string,
+        "Z9hmnAn7"^^xsd:string ;
+    skos:prefLabel "Sérénade, Op.7"^^xsd:string ;
+    wd:P7937 faamentity:hcZB9haW ;
+    wd:P839 <https://imslp.org/wiki/Sérénade,_Op.7_(Pierné,_Gabriel)> .
+

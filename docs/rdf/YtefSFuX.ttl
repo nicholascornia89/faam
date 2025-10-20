@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YtefSFuX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1709-10-12"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22 ;
+    schema1:deathDate "1791-11-25"^^xsd:string ;
+    schema1:deathPlace faamentity:ndwv66mQ ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q174355>,
+        "15995867"^^xsd:string,
+        "YtefSFuX"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Giovanni Battista Ferrandini"^^xsd:string ;
+    skos:prefLabel "Giovanni Battista Ferrandini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:19946299 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/47080> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ferrandini,_Giovanni_Battista> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

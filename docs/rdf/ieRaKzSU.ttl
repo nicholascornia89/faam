@@ -1,0 +1,78 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ieRaKzSU a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7WfWytMV,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:QeqFpJLJ,
+        faamentity:SRaiiKJr,
+        faamentity:TLaaNgbw,
+        faamentity:eSzqVmee,
+        faamentity:gb6MiJbD,
+        faamentity:kxAqh9HR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:QapAmARZ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2gUssDxo,
+        faamentity:3EGSrwCz,
+        faamentity:GK7UXWTC,
+        faamentity:NmUZYjP7,
+        faamentity:X9GjfsUf ;
+    schema1:hasPart faamentity:M2iWG9YX ;
+    schema1:identifier "15992560"^^xsd:string,
+        "KCA-030901697265"^^xsd:string,
+        "ieRaKzSU"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6889927/N"^^schema1:url ;
+    skos:prefLabel "Pagina d'amore: eine Episode für Orchester, Op. 10 / Stucken, van der, Frank. - Berlin, [1891]"^^xsd:string ;
+    skosref:related faamentity:jSGDbTZp ;
+    wd:P217 "MM-OO-VANDERS-pagina-1"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"ieRaKzSU-6906dc7a-413e-4234-81a3-9d9e1fa9c611"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+"ieRaKzSU-8169188b-4441-41aa-8ab3-bbff36881302"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "16-03-1913"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:bSzLPudk .
+
+"ieRaKzSU-86f9cd94-158b-4a05-ace3-8f919ce1677b"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "21-06-1921"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:bSzLPudk .
+
+"ieRaKzSU-9e293998-22dc-4ae8-9f0b-499e8c285f40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4V2kvX5b .
+
+"ieRaKzSU-ab050219-6b77-4419-b38d-e7b95d270c19"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2gUssDxo a rdf:object .
+
+faamentity:3EGSrwCz a rdf:object .
+
+faamentity:GK7UXWTC a rdf:object .
+
+faamentity:NmUZYjP7 a rdf:object .
+
+faamentity:X9GjfsUf a rdf:object .
+

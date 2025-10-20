@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:47t87JpM a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1583-09-13"^^xsd:string ;
+    schema1:birthPlace faamentity:8fY2Pnyj ;
+    schema1:deathDate "1643-03-01"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer (1583–1643)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q209212>,
+        "15996051"^^xsd:string,
+        "47t87JpM"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B,
+        faamentity:dch8TF2x ;
+    skos:altLabel "Girolamo Alessandro Frescobaldi"^^xsd:string,
+        "Girolamo Frescobaldi"^^xsd:string ;
+    skos:prefLabel "Girolamo Frescobaldi"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61731810 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/77850> ;
+    wd:P737 faamentity:XudjntwM ;
+    wd:P839 <https://imslp.org/wiki/Category:Frescobaldi,_Girolamo> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3,
+        faamentity:hMYL5Z9b .
+

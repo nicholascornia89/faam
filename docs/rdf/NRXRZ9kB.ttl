@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NRXRZ9kB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:HKyA3Qzz,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB,
+        faamentity:me6W6HAh ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:GecAsFfL,
+        faamentity:W8EfwtH8,
+        faamentity:nXRqon53 ;
+    schema1:hasPart faamentity:CL6scX3X ;
+    schema1:identifier "15992692"^^xsd:string,
+        "KCA-030902808283"^^xsd:string,
+        "NRXRZ9kB"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15321609/N"^^schema1:url ;
+    skos:prefLabel "Klavier-Konzert F dur : mit Begleitung eines zweiten Klaviers"^^xsd:string ;
+    wd:P217 "MM-TPT-BACH-klavier-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"NRXRZ9kB-559661d0-9946-4964-9854-493df4efec6d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"NRXRZ9kB-e8c6992d-dca2-4e01-8c79-f78efa44d9ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"NRXRZ9kB-ed5a4c77-c7d0-427d-b4d3-e62c8562fde3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:bSzLPudk .
+
+"NRXRZ9kB-eea417f8-6f91-4203-a0d7-6232e96493de"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+
+faamentity:nXRqon53 a rdf:object .
+

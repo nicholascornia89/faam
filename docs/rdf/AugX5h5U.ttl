@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AugX5h5U a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school in Saint Petersburg, Russian Empire"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q16680888>,
+        "16004753"^^xsd:string,
+        "AugX5h5U"^^xsd:string ;
+    schema1:location faamentity:DEbEnXwM,
+        faamentity:ZpwbPoZj ;
+    skos:altLabel "Nikolay engineering school"^^xsd:string ;
+    skos:prefLabel "Nikolay engineering school"^^xsd:string .
+

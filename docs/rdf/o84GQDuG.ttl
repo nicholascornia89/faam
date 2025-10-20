@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:o84GQDuG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:8Au3ocED,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:EWcTRe2g,
+        faamentity:GpNEm7nw,
+        faamentity:LBfWd2va,
+        faamentity:LQE77nqs,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:QeqFpJLJ,
+        faamentity:TUdHPWU8 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:25bLvjC3,
+        faamentity:DDH7fEFM,
+        faamentity:EjvQ4EcD,
+        faamentity:LQND7DE7,
+        faamentity:NPPV2XtG ;
+    schema1:hasPart faamentity:JteuXrMv ;
+    schema1:identifier "15992630"^^xsd:string,
+        "KCG-000348150"^^xsd:string,
+        "o84GQDuG"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000348150"^^schema1:url ;
+    skos:prefLabel "Charles VI : opera in 5 bedrijven"^^xsd:string ;
+    wd:P217 "II936"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"o84GQDuG-150c9125-8500-4a18-b04e-822bc869dcd6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"o84GQDuG-19c53f71-7f8e-42d5-aa32-304b608b357c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"o84GQDuG-7eb62778-01fc-489b-bc61-00cbb3f0a20b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"o84GQDuG-952e4763-4a6a-4a14-8e69-a9ce8861dbc2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"o84GQDuG-b5416ba2-9edb-475e-87f0-5ce359d379d2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:25bLvjC3 a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:EjvQ4EcD a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:NPPV2XtG a rdf:object .
+

@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ko8hPPyn a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:iyfjpyT2,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:AB4X4hGP,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:jvLF4xd6,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:KkjWWRKk,
+        faamentity:ZH9Tn89c,
+        faamentity:jzuVKd9W ;
+    schema1:hasPart faamentity:a6Jz8RDd ;
+    schema1:identifier "16005746"^^xsd:string,
+        "BSB-991144119456307356"^^xsd:string,
+        "Ko8hPPyn"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00155779"^^schema1:url ;
+    skos:prefLabel "Il cavaliere e l'eremita : (No. 5 d'Ivanhoe, paroles françaises de Belanger) : duetto per baritono e basso = (Le chevalier et l'heremit)"^^xsd:string ;
+    wd:P217 "Mus.Schott.Ha 13798-2"^^xsd:string ;
+    wd:P870 faamentity:K94zCrpZ,
+        faamentity:LqkpKZa7,
+        faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Ko8hPPyn-02dda031-744c-4e31-8e6a-d6f5a969b44b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"Ko8hPPyn-3081dc7c-1f44-472e-8d99-563147d5ec91"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Ko8hPPyn-374b8e90-e130-4169-9882-fea870978458"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+faamentity:KkjWWRKk a rdf:object .
+
+faamentity:ZH9Tn89c a rdf:object .
+
+faamentity:jzuVKd9W a rdf:object .
+

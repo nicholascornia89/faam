@@ -1,0 +1,78 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A4p6MVxt a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:ieqEGEHo,
+        faamentity:j3tnVzW5,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nQn3aXpr ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:kNneakGU ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:73rx6srk,
+        faamentity:CGy68nTi,
+        faamentity:X3yMqYb6 ;
+    schema1:identifier "16005659"^^xsd:string,
+        "A4p6MVxt"^^xsd:string,
+        "DPF-202502008"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Missa assumptionis B.V.M. Ad duas voces aequales comitante organo. Opus 107"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum MUSICA SACRA No. 3, 1956"^^rdf:HTML ;
+    wd:P217 "ms-1956-03"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"A4p6MVxt-0222eeb5-a47a-436b-a4eb-1501a17f9eaf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"A4p6MVxt-11085fd8-85ad-4877-beee-6834a1d45d83"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1956"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"A4p6MVxt-dc65918e-6045-4f1d-875c-ea3f0bb8da86"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"A4p6MVxt-f352edb8-f835-4128-98d4-880c6aaa212a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+

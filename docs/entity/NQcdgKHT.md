@@ -1,0 +1,72 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: NQcdgKHT
+
+tags: musical_work
+ 
+---
+
+
+# Erravi sicut ovis (NQcdgKHT)
+
+---
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label             | aliases | description | Wikidata QID                         |
+    | :-------: | :---------------: | :-----: | :---------: | :----------------------------------: |
+    | NQcdgKHT  | Erravi sicut ovis |         |             | [](http://wwww.wikidata.org/entity/) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+!!! quote "form of creative work" 
+
+	- [motet](./ik3NwdWW.md)
+
+!!! quote "creator" 
+
+	- [Jacob Clemens non Papa](./YtAudC9S.md)
+
+??? quote "adapted by" 
+
+	- [Charles Bordes](./mK2saWSr.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/NQcdgKHT.html" height="800" width="1200" title="NQcdgKHT"></iframe>
+
+## Identifiers
+
+---
+
+## Cross-references
+
+---
+
+<div class="grid cards" markdown>
+
+-	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
+
+	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+
+	
+
+-	__[ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 2. Année -1894](./9rmEmMj2.md)__
+
+	![Image](../assets/images/thumbs/KCA-KV7618.gif){align=left width="150" height="150"} 
+
+	
+
+</div>

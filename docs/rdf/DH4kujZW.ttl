@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DH4kujZW a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:6ZLM2Znx ;
+    schema1:birthDate "1781-09-06"^^xsd:string ;
+    schema1:birthPlace faamentity:8bhDVnQg ;
+    schema1:deathDate "1858-04-07"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian composer and publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q160061>,
+        "15996156"^^xsd:string,
+        "DH4kujZW"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo ;
+    skos:altLabel "Anton Diabelli"^^xsd:string ;
+    skos:prefLabel "Anton Diabelli"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw,
+        faamentity:QE66HesX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:10033017 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/9700> ;
+    wd:P839 <https://imslp.org/wiki/Category:Diabelli,_Anton> ;
+    schema:hasOccupation faamentity:4rgowLtK,
+        faamentity:5aTYuVxp,
+        faamentity:MwhmFC4w,
+        faamentity:T6nAVeGM .
+

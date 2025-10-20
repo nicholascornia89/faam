@@ -1,0 +1,106 @@
+{
+  "id": "KCMZA47c",
+  "uuid_num": 33587982730246,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "bookseller"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "person selling books"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "book dealer"
+      },
+      {
+        "type": "string",
+        "value": "bookman"
+      },
+      {
+        "type": "string",
+        "value": "book seller"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q998550",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "bookseller"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "occupation"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "KCMZA47c"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {},
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5q9U4tL9",
+        "type": "item",
+        "label": "Ferdinand-Fleurus Amyot",
+        "description": "French publisher and bookseller (1818-1875)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      },
+      {
+        "id": "QsyS369D",
+        "type": "item",
+        "label": "Johann Matthias Heberle",
+        "description": "German bookseller and auctioneer (1775-1840)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "KCMZA47c.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "KCMZA47c.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "KCMZA47c.csv"
+      }
+    ]
+  }
+}

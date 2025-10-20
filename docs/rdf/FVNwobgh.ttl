@@ -1,0 +1,40 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FVNwobgh a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:bDTxxMMK ;
+    schema1:hasPart faamentity:gZT3Zyza ;
+    schema1:identifier "15992447"^^xsd:string,
+        "FVNwobgh"^^xsd:string,
+        "KCA-030901603982"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7013061/N"^^schema1:url ;
+    skos:prefLabel "Le capitaine Henriot"^^xsd:string ;
+    skosref:related faamentity:FBtGk4Pp ;
+    wd:P217 "MM-ZL-GEVAE-capitai-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"FVNwobgh-f7050f56-daab-48b8-9084-9849d5b2683f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:bDTxxMMK a rdf:object .
+

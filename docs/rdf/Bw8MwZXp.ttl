@@ -1,0 +1,70 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Bw8MwZXp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:8Au3ocED,
+        faamentity:93GDD9ND,
+        faamentity:ASkufuku,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:NxRMTXgV,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PXYCpRXf,
+        faamentity:Se7MShv3,
+        faamentity:WvqsGBqo ;
+    schema1:hasPart faamentity:JHg9MPVu,
+        faamentity:VuSjJQzj ;
+    schema1:identifier "16005156"^^xsd:string,
+        "Bw8MwZXp"^^xsd:string,
+        "SML-17794"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910353973405216"^^schema1:url ;
+    skos:prefLabel "Classic keyboard music : an album of piano solos by great masters / edited by Emil von Sauer."^^xsd:string ;
+    skosref:related faamentity:jieDZf2J ;
+    wd:P217 "M21 .S255c"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Bw8MwZXp-94c28e1d-f2bf-418a-94d8-dc8678b8f8c0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Bw8MwZXp-bfd869ae-9e35-4680-9b22-7ee8f5cde739"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"Bw8MwZXp-db62460e-9907-4504-a285-e167fbbb664d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1942"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4V2kvX5b .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:Se7MShv3 a rdf:object .
+
+faamentity:WvqsGBqo a rdf:object .
+

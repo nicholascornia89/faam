@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:o8A78GYD a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "British music publishing company"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q834648>,
+        "15996253"^^xsd:string,
+        "o8A78GYD"^^xsd:string ;
+    skos:altLabel "Boosey & Company"^^xsd:string,
+        "Boosey & Hawkes"^^xsd:string,
+        "Hawkes & Son"^^xsd:string ;
+    skos:prefLabel "Boosey & Hawkes"^^xsd:string ;
+    wd:P214 viaf:146663566 ;
+    wd:P31 faamentity:HmGw8E8i .
+

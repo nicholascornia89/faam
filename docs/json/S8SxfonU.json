@@ -1,0 +1,151 @@
+{
+  "id": "S8SxfonU",
+  "uuid_num": 47138336154428,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "measure subdivision"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "aliases": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "",
+        "base_url": "http://wwww.wikidata.org/entity/"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "S8SxfonU"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992126"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "mkCY9LDD",
+        "label": "tempo"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "XQ7Dcasr",
+        "label": "musical-structural concept"
+      },
+      {
+        "type": "item",
+        "value": "DidEqfmX",
+        "label": "glyph"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "R9hADWGS",
+        "label": "duration"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "d8YLsB6n",
+        "type": "item",
+        "label": "Troisième symphonie",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901511763.gif"
+        }
+      },
+      {
+        "id": "JHKHS92V",
+        "type": "item",
+        "label": "Die verkaufte Braut : komische Oper in drei Akten",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901708260.gif"
+        }
+      },
+      {
+        "id": "gyZdimpE",
+        "type": "item",
+        "label": "Kantate Nr. 60. O Ewigkeit, du Donnerwort",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20140284b.gif"
+        }
+      },
+      {
+        "id": "PH9gqqYW",
+        "type": "item",
+        "label": "Six morceaux caractéristiques",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "ORP-20143703p5.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "S8SxfonU.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "S8SxfonU.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "S8SxfonU.csv"
+      }
+    ]
+  }
+}

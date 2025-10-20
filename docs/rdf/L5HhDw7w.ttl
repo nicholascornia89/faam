@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:L5HhDw7w a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:amkJ6EBs,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Mr4ByBuL,
+        faamentity:QHAoKPG8,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AsPJ6dfX,
+        faamentity:GFV4FAhY,
+        faamentity:KW3RZcDp ;
+    schema1:identifier "15992717"^^xsd:string,
+        "KCG-000345313"^^xsd:string,
+        "L5HhDw7w"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000345313"^^schema1:url ;
+    skos:prefLabel "Septième Solo : Pour Le Cor avec Piano obligé : Oeuvre 23"^^xsd:string ;
+    skosref:related faamentity:FGEPRAzo ;
+    wd:P217 "A-307"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"L5HhDw7w-18543849-8272-4d77-8fec-8e3d551cabbd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"L5HhDw7w-21421f47-e51a-4995-869d-a593eedbcce7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"L5HhDw7w-826863a4-429f-44e6-bd23-201f7bce44af"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:AsPJ6dfX a rdf:object .
+
+faamentity:GFV4FAhY a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+

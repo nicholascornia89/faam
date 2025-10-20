@@ -1,0 +1,99 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: Jku8PEyf
+
+tags: manifestation
+ 
+---
+
+
+# Missa in honorem S. Elisabeth. Ad duas voces aequales comitante organo (Jku8PEyf)
+
+---
+
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502010/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/Jku8PEyf.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/Jku8PEyf.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/Jku8PEyf.csv){.md-button}
+
+<img style="float: left;" src="../assets/images/thumbs/DPF-202502010.gif" width="250" height="200">
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | FAAM manifestation ID | title                                                                  | permalink                | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------------------------------: | :----------------------: | :-------------------------------------: |
+    | Jku8PEyf  | DPF-202502010         | Missa in honorem S. Elisabeth. Ad duas voces aequales comitante organo | [external URL](JwqBvu9Z) | [Donation Private Fonds](./HkU9txzL.md) |
+
+===  "note" 
+
+	Supplementum ad Periodicum MUSICA SACRA No. 4, 1950
+
+## Statements
+
+---
+
+???  "keyword" 
+
+	- [period composition](./Rn2iLGJr.md)
+
+	- [Cecilian Movement](./ZMpsLcpT.md)
+
+	- [liturgical music](./BdJHjaCE.md)
+
+	- [mass](./kNneakGU.md)
+
+???  "instrumentation" 
+
+	- [choir](./nJY8Xxwz.md)
+
+	- [voice](./NFAxdnVA.md)
+
+	- [organ](./8cygiHEB.md)
+
+??? abstract "agent" 
+
+    | agent                                                                      | role                             | place                   | date |
+    | :------------------------------------------------------------------------: | :------------------------------: | :---------------------: | :--: |
+    | [Henri Durieux](./Xdxu2ivX.md)                                             | [composer](./YvQmwaaW.md)        |                         |      |
+    | [Éditions Desclée de Brouwer](./CGy68nTi.md)                               | [publisher](./7tdgMgre.md)       | [Brugge](./QRuTEdwa.md) | 1950 |
+    | [Florian Heyerick](./73rx6srk.md)                                          | [scholar (owner)](./9QaFAsRL.md) |                         |      |
+    | [Musica Sacra: tijdschrift voor kerkzang en gewijde muziek](./X3yMqYb6.md) | [publisher](./7tdgMgre.md)       | [Brugge](./QRuTEdwa.md) |      |
+
+## Annotations
+
+---
+
+???  "editorial annotation" 
+
+	- [dynamic](./HKyA3Qzz.md)
+
+	- [tempo](./mkCY9LDD.md)
+
+	- [legato](./7XBG3iZJ.md)
+
+	- [decrescendo](./SRaiiKJr.md)
+
+	- [engage pedal](./GpNEm7nw.md)
+
+	- [crescendo](./eSzqVmee.md)
+
+	- [rallentando](./m9rNaSAR.md)
+
+	- [fermata](./JwqBvu9Z.md)
+
+	- [organ stop](./iZiYk6VC.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/Jku8PEyf.html" height="800" width="1200" title="Jku8PEyf"></iframe>
+
+## Digital Score
+
+---
+
+<iframe src="../carousel/Jku8PEyf.html" height="800" width="1200" title="Jku8PEyf"></iframe>

@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:b8biiMvB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:QyAptNqX,
+        faamentity:amkJ6EBs,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NTvBj8eb,
+        faamentity:Q9hzqiq3,
+        faamentity:Qpi4vWw7,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:hG5PERE4 ;
+    schema1:identifier "15992737"^^xsd:string,
+        "KCG-000331376"^^xsd:string,
+        "b8biiMvB"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331376"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour la Flûte avec Accomp. des Quatuor ou Piano : Sur l'Opéra de D.F.E Auber Le Dieu et la Bayadère : Op. 42"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"b8biiMvB-0065ff69-bd19-485c-a07d-0e6760c54487"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"b8biiMvB-1229e78a-8f16-4667-8516-34fec5c75326"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"b8biiMvB-80c8b915-9d4a-4468-972a-9758ae4ebf98"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"b8biiMvB-d4a892d5-e072-41af-8e21-7b63fc66cde1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:NTvBj8eb a rdf:object .
+
+faamentity:Q9hzqiq3 a rdf:object .
+
+faamentity:Qpi4vWw7 a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

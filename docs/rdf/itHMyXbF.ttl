@@ -1,0 +1,44 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:itHMyXbF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9JZUardt ;
+    schema1:identifier "16005490"^^xsd:string,
+        "ORP-20143700p41"^^xsd:string,
+        "itHMyXbF"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22188"^^schema1:url ;
+    skos:prefLabel "Sur les flots"^^xsd:string ;
+    skosref:note """L'Illustration, N. 3162
+L'Illustration, N. 3162"""^^rdf:HTML ;
+    wd:P217 "KTS1 H.11.map.006"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"itHMyXbF-32152e49-5922-42a3-9bf1-0e3eb8e71343"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"itHMyXbF-77e6b667-d55b-417a-b846-64f1e7a8c78a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "03-10-1903"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:9JZUardt a rdf:object .
+

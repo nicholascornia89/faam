@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LezFrRrE a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:LBfWd2va,
+        faamentity:b3QcSGeL,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:YWvFQ75E,
+        faamentity:ZH9Tn89c,
+        faamentity:fcUzVpvQ ;
+    schema1:hasPart faamentity:553jii5u,
+        faamentity:gf7FahV7 ;
+    schema1:identifier "16003997"^^xsd:string,
+        "KCG-000749979"^^xsd:string,
+        "LezFrRrE"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000749979"^^schema1:url ;
+    skos:prefLabel "Fantaisie pour piano et cor ou violon : sur des Thêmes de l'Opéra d'Otello de Rossini"^^xsd:string ;
+    wd:P217 "V-B-00439(2)-HA"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"LezFrRrE-57567035-4197-49e1-8ba3-b3e38d6dd459"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"LezFrRrE-c1d71faf-8e82-4073-91c8-54578cfa7018"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LezFrRrE-ec739ede-bab9-46a6-8170-9e3b07129836"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:YWvFQ75E a rdf:object .
+
+faamentity:ZH9Tn89c a rdf:object .
+
+faamentity:fcUzVpvQ a rdf:object .
+

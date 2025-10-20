@@ -1,0 +1,50 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BHzSccaL a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:XMg9KkQJ ;
+    schema1:birthDate "1685-02-23"^^xsd:string ;
+    schema1:birthPlace faamentity:WeaEEeU5 ;
+    schema1:deathDate "1759-04-14"^^xsd:string ;
+    schema1:deathPlace faamentity:7jcLcbUX,
+        faamentity:96rVh94r ;
+    schema1:description "German-British Baroque composer (1685–1759)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7302>,
+        "15995683"^^xsd:string,
+        "BHzSccaL"^^xsd:string ;
+    schema1:nationality faamentity:2dtMESSn,
+        faamentity:TUxGjWrn,
+        faamentity:bXZtPe5G ;
+    skos:altLabel "G. F. Handel"^^xsd:string,
+        "G. F. Händel"^^xsd:string,
+        "Georg Friedrich Händel"^^xsd:string,
+        "George Frederick Handel"^^xsd:string,
+        "George Frideric"^^xsd:string,
+        "George Frideric Handel"^^xsd:string,
+        "Handel"^^xsd:string,
+        "Händel"^^xsd:string ;
+    skos:prefLabel "George Frideric Handel"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:HcmSE474,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5126950 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/36552> ;
+    wd:P737 faamentity:9SNg4hjN ;
+    wd:P839 <https://imslp.org/wiki/Category:Handel,_George_Frideric> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:7yireTj5,
+        faamentity:9CVVGZdo,
+        faamentity:Gmyihe9r,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3,
+        faamentity:hMYL5Z9b .
+

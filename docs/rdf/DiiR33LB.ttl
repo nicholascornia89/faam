@@ -1,0 +1,48 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DiiR33LB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:UMravioT ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:jvLF4xd6,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:bDTxxMMK ;
+    schema1:hasPart faamentity:o8oZL9Vx ;
+    schema1:identifier "15992495"^^xsd:string,
+        "DiiR33LB"^^xsd:string,
+        "KCA-030902587564"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13144363/N"^^schema1:url ;
+    skos:prefLabel "Quentin Durward : opéra comique en 3 actes : trio chanté par MM. Jourdan, Faure et Barrielle"^^xsd:string ;
+    wd:P217 "MM-ZP-GEVAE-quentin-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"DiiR33LB-192ae5b1-1b15-4499-a9a5-c2358a78d183"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"DiiR33LB-3456394e-5cf9-4c6b-b93d-658c3940dd33"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:bDTxxMMK a rdf:object .
+

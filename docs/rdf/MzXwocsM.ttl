@@ -1,0 +1,29 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MzXwocsM a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "musical composition by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1475933>,
+        "16004336"^^xsd:string,
+        "MzXwocsM"^^xsd:string ;
+    schema1:isBasedOn faamentity:PDpgJKK6 ;
+    skos:altLabel "BWV 243"^^xsd:string,
+        "Magnificat"^^xsd:string,
+        "Magnificat in D major, BWV 243"^^xsd:string ;
+    skos:prefLabel "Magnificat in D major, BWV 243"^^xsd:string ;
+    wd:P2000 cpdl:Magnificat_\(Johann_Sebastian_Bach\) ;
+    wd:P214 viaf:219160404,
+        viaf:254024623 ;
+    wd:P5202 faamentity:T4UPmCxj ;
+    wd:P7937 faamentity:PDpgJKK6,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Magnificat_in_D_major,_BWV_243_(Bach,_Johann_Sebastian)> .
+

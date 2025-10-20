@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bfMfV7kH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:PprjdkHE,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:ieqEGEHo ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5aZz3L82,
+        faamentity:LmDaVvmF,
+        faamentity:Rn2iLGJr,
+        faamentity:WiBZjkbR,
+        faamentity:YLPz73LF,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9iwygnaP,
+        faamentity:DDH7fEFM,
+        faamentity:brm7iEdB ;
+    schema1:hasPart faamentity:94sGaDSU ;
+    schema1:identifier "16002567"^^xsd:string,
+        "ORP-20140284f"^^xsd:string,
+        "bfMfV7kH"^^xsd:string ;
+    schema1:url "https://www.cageweb.be/catalog/orp01:000004926"^^schema1:url ;
+    skos:prefLabel "Salve Regina für Sopran-solo, Frauenchor, Orchester und Orgel (ad libitum) Op. 11"^^xsd:string ;
+    wd:P217 "KTS1 C2.60 Map.021f"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:TicDHwYM,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"bfMfV7kH-5b78cf69-bb1e-4cfc-bb32-acaf27df4fac"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:HbLDHjBx .
+
+"bfMfV7kH-6988f38f-6d68-4f94-8ed2-19d5135b3c5d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"bfMfV7kH-f91923db-b4ce-4602-86f2-31805b87f760"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:9iwygnaP a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:brm7iEdB a rdf:object .
+

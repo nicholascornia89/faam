@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XG63Jdar a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:8Au3ocED,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:JwqBvu9Z,
+        faamentity:TUdHPWU8,
+        faamentity:UJ57Ew5y,
+        faamentity:kxAqh9HR ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:jvLF4xd6,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:KkjWWRKk,
+        faamentity:jzuVKd9W ;
+    schema1:hasPart faamentity:a6Jz8RDd ;
+    schema1:identifier "15992657"^^xsd:string,
+        "KCG-000322330"^^xsd:string,
+        "XG63Jdar"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000322330"^^schema1:url ;
+    skos:prefLabel "Ivanhoe: N.7 Romance de Rebecca: Pour Mezzo Soprano: (Longtempts brisé)"^^xsd:string ;
+    wd:P217 "II 12542"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw,
+        faamentity:WAgLcNUe .
+
+schema1:contributor a rdf:predicate .
+
+"XG63Jdar-2b2b17d9-0a8f-45d9-a2d6-784f0027c8bb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"XG63Jdar-ff338528-e392-4ec4-95f6-052dd8afdc86"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:KkjWWRKk a rdf:object .
+
+faamentity:jzuVKd9W a rdf:object .
+

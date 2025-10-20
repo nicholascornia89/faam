@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XUChwogR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1802-04-27"^^xsd:string ;
+    schema1:birthPlace faamentity:FXfyoxgj ;
+    schema1:deathDate "1861-03-15"^^xsd:string ;
+    schema1:deathPlace faamentity:D4xdfGtX,
+        faamentity:dtkJhYLf ;
+    schema1:description "composer (1802-1861)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q304620>,
+        "15995977"^^xsd:string,
+        "XUChwogR"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:oHTSDFRc ;
+    skos:altLabel "Abraham Louis Niedermeyer"^^xsd:string,
+        "Louis Niedermeyer"^^xsd:string ;
+    skos:prefLabel "Louis Niedermeyer"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61696402 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40205996> ;
+    wd:P839 <https://imslp.org/wiki/Category:Niedermeyer,_Louis> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr .
+

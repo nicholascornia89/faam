@@ -1,0 +1,60 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U6fSqrTH a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2niWvJiL,
+        faamentity:DawBtzdU,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:QGRAMUu8,
+        faamentity:crUkNjhF,
+        faamentity:mhohuJYG,
+        faamentity:nYFUSbbz ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    faamprop:sections "Clarino has been subsituted."^^rdf:HTML ;
+    dcelem:subject faamentity:Zgsxtx6S ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:jihjgQpH ;
+    schema1:hasPart faamentity:RmqSFAP6 ;
+    schema1:identifier "15992632"^^xsd:string,
+        "KCG-000348875"^^xsd:string,
+        "U6fSqrTH"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000348875"^^schema1:url ;
+    skos:prefLabel "N°. 51. Sinfonia"^^xsd:string ;
+    wd:P217 "A1648; II 1599; II-29-(3)"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"U6fSqrTH-5cf5698f-6ad6-4258-8683-5922bbe186cf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:AYShtw7v .
+
+"U6fSqrTH-5ebb7a84-8735-4201-a1d5-58a966764ad9"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "06-02-1859"^^xsd:string ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"U6fSqrTH-b5cd57d6-3093-46ec-b82a-fd9877bb4f32"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:jihjgQpH a rdf:object .
+

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ecx7xgeY a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "family of valved brass instruments that have conical bores and deep cup-shaped mouthpieces"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q787557>,
+        "0"^^xsd:string,
+        "Ecx7xgeY"^^xsd:string ;
+    skos:altLabel "saxwey"^^xsd:string ;
+    skos:prefLabel "saxhorn"^^xsd:string .
+

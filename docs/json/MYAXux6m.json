@@ -1,0 +1,122 @@
+{
+  "id": "MYAXux6m",
+  "uuid_num": 38177075069182,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "buff stop"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "stop on harpsichord"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "buff stop"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q123059541",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "buff stop"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "MYAXux6m"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002651"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "dcpEysXL",
+        "label": "musical instrument part"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      },
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4AMPVsN8",
+        "label": "timbre"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "M7uHYazb",
+        "type": "item",
+        "label": "Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "CBM-TORRMsA100.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "MYAXux6m.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "MYAXux6m.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "MYAXux6m.csv"
+      }
+    ]
+  }
+}

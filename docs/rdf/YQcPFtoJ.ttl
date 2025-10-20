@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YQcPFtoJ a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Holy Roman Emperor from 1765 to 1790"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q76555>,
+        "15991026"^^xsd:string,
+        "YQcPFtoJ"^^xsd:string ;
+    skos:altLabel "Josef II"^^xsd:string,
+        "Joseph II, Holy Roman Emperor"^^xsd:string ;
+    skos:prefLabel "Joseph II, Holy Roman Emperor"^^xsd:string .
+

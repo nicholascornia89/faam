@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HXSqT8WK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:BF3ukx2D,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:Jx8FMpyt,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:atGzytDR,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:jvLF4xd6 ;
+    dcterms:provenance faamentity:daiXuwkJ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:UnrnLejN ;
+    schema1:hasPart faamentity:iXPeoRMk ;
+    schema1:identifier "15992558"^^xsd:string,
+        "HXSqT8WK"^^xsd:string,
+        "LHA-200037"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7099104/N"^^schema1:url ;
+    skos:prefLabel "Reinaert de Vos Reinaert de Vos"^^xsd:string ;
+    wd:P217 "LH"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"HXSqT8WK-06b0cb4c-a334-40bb-a9fd-bcca651ebb2a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"HXSqT8WK-c7aa532b-8387-44f9-8ac0-033daff6509c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:UnrnLejN a rdf:object .
+

@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:S63SGbw2 a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:identifier "16002526"^^xsd:string,
+        "S63SGbw2"^^xsd:string ;
+    skos:prefLabel "M. Gaultier"^^xsd:string ;
+    schema:hasOccupation faamentity:GSNsghRd .
+

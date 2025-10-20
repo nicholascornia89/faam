@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iUujBhUE a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "1587 chapbook of stories concerning the life of Johann Georg Faust"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5773296>,
+        "0"^^xsd:string,
+        "iUujBhUE"^^xsd:string ;
+    skos:altLabel "Faust book"^^xsd:string ;
+    skos:prefLabel "Historia von D. Johann Fausten"^^xsd:string .
+

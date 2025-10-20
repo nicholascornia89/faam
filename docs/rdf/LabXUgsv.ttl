@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LabXUgsv a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1738-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:D7zj8y2m ;
+    schema1:deathDate "1792-12-21"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q600955>,
+        "0"^^xsd:string,
+        "LabXUgsv"^^xsd:string ;
+    skos:prefLabel "Antonio Boroni"^^xsd:string ;
+    wd:P108 faamentity:HF5Ajps2 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:34719545 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30000436> ;
+    wd:P737 faamentity:3KJ4atqX,
+        faamentity:9C5ZHtsW,
+        faamentity:UiHiauDj ;
+    wd:P839 <https://imslp.org/wiki/Category:Boroni,_Antonio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:5eUMkMxY,
+        faamentity:L7DPWnnr .
+

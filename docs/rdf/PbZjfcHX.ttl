@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PbZjfcHX a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q67199936>,
+        "16003518"^^xsd:string,
+        "PbZjfcHX"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in C minor, L.402"^^xsd:string,
+        "Sonata K. 126"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in C minor, K.126"^^xsd:string ;
+    wd:P214 viaf:293828763 ;
+    wd:P5202 faamentity:5gAsc3pE,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_C_minor,_K.126_(Scarlatti,_Domenico)> .
+

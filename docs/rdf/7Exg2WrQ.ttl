@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7Exg2WrQ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:K4TocMAK,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MpcFo7ct,
+        faamentity:PXYCpRXf,
+        faamentity:agWvDDr6 ;
+    schema1:hasPart faamentity:Ap6aFBd2 ;
+    schema1:identifier "16004011"^^xsd:string,
+        "7Exg2WrQ"^^xsd:string,
+        "BNF-432579295"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb432579295"^^schema1:url ;
+    skos:prefLabel "Sonate n° 30 : fugue dite \"du chat\" / Domenico Scarlatti... , révision par Vincent d'Indy"^^xsd:string ;
+    wd:P217 "FOL-VM-1 (15)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"7Exg2WrQ-305a1816-f48b-4b9f-abfd-35e0704296a6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"7Exg2WrQ-75667dc7-00e9-4f44-924d-c45a77304e48"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"7Exg2WrQ-99c930f8-5141-4c8a-8aaf-e359c0b80b8e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:agWvDDr6 a rdf:object .
+

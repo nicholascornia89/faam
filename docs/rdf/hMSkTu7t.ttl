@@ -1,0 +1,71 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hMSkTu7t a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:4bLsvwPs,
+        faamentity:7qCCArxX,
+        faamentity:8N6k5W5i,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:QeqFpJLJ,
+        faamentity:SRaiiKJr,
+        faamentity:TUdHPWU8,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:hChNthvw,
+        faamentity:jP8px5zn,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:cmQGFaLi ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:WiBZjkbR,
+        faamentity:f7RFYPbC ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2jFYNXvn,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992261"^^xsd:string,
+        "KCA-030902639415"^^xsd:string,
+        "hMSkTu7t"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12957071/N"^^schema1:url ;
+    skos:prefLabel "Légende du Doudou"^^xsd:string ;
+    wd:P217 "MM-DUBP-BAUDO-legende-1"^^xsd:string ;
+    wd:P870 faamentity:283gAK79,
+        faamentity:39kKrHn6,
+        faamentity:DarGmFi8,
+        faamentity:LhfzpyFP,
+        faamentity:SRXTUjuW,
+        faamentity:WVAicT8o,
+        faamentity:WfkJpufF,
+        faamentity:fpwubqWj,
+        faamentity:hnX8hYwi,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"hMSkTu7t-1067e8a6-109f-4e9d-898a-c38d1848cf08"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"hMSkTu7t-33e81771-fb28-46fc-8d47-bf8d834fc646"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"hMSkTu7t-4a263fdf-966d-45e5-898b-6804e3dea780"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:2jFYNXvn a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

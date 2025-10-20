@@ -1,0 +1,111 @@
+{
+  "id": "cLTo9Vvg",
+  "uuid_num": 67099369527590,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Canada"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "country in North America"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Canada"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q16",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Canada"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "country"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "cLTo9Vvg"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15998727"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "6251999",
+        "base_url": "https://www.geonames.org/",
+        "label": "6251999"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "VZbaoske",
+        "type": "item",
+        "label": "Omer Létourneau",
+        "description": "Canadian musician (1891-1983)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Omer_Létourneau.jpg"
+        }
+      }
+    ],
+    "city": [
+      {
+        "id": "7GuumXoz",
+        "type": "item",
+        "label": "Toronto",
+        "description": "capital and largest city of the province of Ontario, Canada"
+      },
+      {
+        "id": "CziiZSde",
+        "type": "item",
+        "label": "Quebec City",
+        "description": "capital city of the province of Quebec, Canada"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cLTo9Vvg.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cLTo9Vvg.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cLTo9Vvg.csv"
+      }
+    ]
+  }
+}

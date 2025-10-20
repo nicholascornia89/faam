@@ -1,0 +1,70 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2BArFkGf a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:7WfWytMV,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:JwqBvu9Z ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:Qw4zjHnS,
+        faamentity:T9uNf9Ax,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6fNCgBTJ,
+        faamentity:DDH7fEFM,
+        faamentity:fSBXq2xs ;
+    schema1:hasPart faamentity:j7QvGcV9 ;
+    schema1:identifier "16003990"^^xsd:string,
+        "2BArFkGf"^^xsd:string,
+        "KCG-000735722"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000735722"^^schema1:url ;
+    skos:prefLabel "Prélude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Flûte, Hautbois, Clarinette, Cor et Basson"^^xsd:string ;
+    wd:P217 "DS-1389"^^xsd:string ;
+    wd:P870 faamentity:9t6BfJ2T,
+        faamentity:AdNoqEfD,
+        faamentity:HcmSE474,
+        faamentity:MVLRXXFR,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"2BArFkGf-5d8720c4-764c-45f8-a74b-3323283cea4b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"2BArFkGf-bf97d8a9-94d6-43f9-b661-c95e9cb40cce"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"2BArFkGf-dbedc08d-a40c-4cde-861e-ef0fbaaf6e26"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:6fNCgBTJ a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:fSBXq2xs a rdf:object .
+

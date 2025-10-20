@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SYxoMuAc", "label": "triangle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SYxoMuAc.md\u0027\u003etriangle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eidiophone type of musical instrument in the percussion family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BnwWc34X", "label": "type of musical instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BnwWc34X.md\u0027\u003etype of musical instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikidata metaclass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GsYHbd4y", "label": "saxophone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GsYHbd4y.md\u0027\u003esaxophone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esingle-reed woodwind instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AEKR8AeC", "label": "bass saxophone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AEKR8AeC.md\u0027\u003ebass saxophone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elarge low-pitched wind instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Q8MBQBw7", "label": "harpsichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Q8MBQBw7.md\u0027\u003eharpsichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplucked-string keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9tZzpwmB", "label": "clavichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tZzpwmB.md\u0027\u003eclavichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estringed keyboard musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MVLRXXFR", "label": "clarinet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MVLRXXFR.md\u0027\u003eclarinet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany unspecified or undetermined member of the clarinet family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "i6ZUL4z4", "label": "double bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./i6ZUL4z4.md\u0027\u003edouble bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacoustic stringed instrument of the violin family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TK3XJWDj", "label": "clarion", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TK3XJWDj.md\u0027\u003eclarion\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommon name for a trumpet in the Middle Ages and the Renaissance; the upper register of the standard trumpet\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JLEkd6F7", "label": "harmonica", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JLEkd6F7.md\u0027\u003eharmonica\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efree reed wind musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JgHhttf9", "label": "timpani", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JgHhttf9.md\u0027\u003etimpani\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elarge percussion musical instrument which produces a definite pitch\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "E2dDDzdk", "label": "piccolo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./E2dDDzdk.md\u0027\u003epiccolo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esmall flute sounding an octave higher than the C concert flute\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hnX8hYwi", "label": "tuba", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hnX8hYwi.md\u0027\u003etuba\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of musical instrument of the brass family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DarGmFi8", "label": "baritone horn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DarGmFi8.md\u0027\u003ebaritone horn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elow-pitched brass instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WfkJpufF", "label": "trombone", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WfkJpufF.md\u0027\u003etrombone\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebrass musical instrument with a slide\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "283gAK79", "label": "alto horn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./283gAK79.md\u0027\u003ealto horn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebrass instrument in the saxhorn family usually pitched in E\u266d\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fpwubqWj", "label": "flugelhorn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fpwubqWj.md\u0027\u003eflugelhorn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebrass musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9t6BfJ2T", "label": "bassoon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9t6BfJ2T.md\u0027\u003ebassoon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewoodwind instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LMnKWZg2", "label": "western concert flute", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LMnKWZg2.md\u0027\u003ewestern concert flute\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etransverse woodwind instrument made of metal or wood\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SLzwbqqw", "label": "viola d\u0027amore", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SLzwbqqw.md\u0027\u003eviola d\u0027amore\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ktU2xaGm", "label": "recorder", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ktU2xaGm.md\u0027\u003erecorder\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewoodwind musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CUtvwUDL", "label": "flageolet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CUtvwUDL.md\u0027\u003eflageolet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ewoodwind instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HQVKy2Gm", "label": "cornet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HQVKy2Gm.md\u0027\u003ecornet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HcmSE474", "label": "oboe", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HcmSE474.md\u0027\u003eoboe\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument of the woodwind family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SRXTUjuW", "label": "horn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRXTUjuW.md\u0027\u003ehorn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evalved brass instrument with coiled tubing and flared bell\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NFAxdnVA", "label": "voice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NFAxdnVA.md\u0027\u003evoice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehuman voice as musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "K9mQeF4d", "label": "viola", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./K9mQeF4d.md\u0027\u003eviola\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QE66HesX", "label": "guitar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QE66HesX.md\u0027\u003eguitar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efretted string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2nFJpnZ8", "label": "cello", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2nFJpnZ8.md\u0027\u003ecello\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G8tgNnWV", "label": "violin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./G8tgNnWV.md\u0027\u003eviolin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AdNoqEfD", "label": "flute", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AdNoqEfD.md\u0027\u003eflute\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument of the woodwind family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WVAicT8o", "label": "trumpet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WVAicT8o.md\u0027\u003etrumpet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nxwcCzVb", "label": "Indian harmonium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nxwcCzVb.md\u0027\u003eIndian harmonium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eportative reed organ\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9tdYnPBe", "label": "mandolin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tdYnPBe.md\u0027\u003emandolin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instrument in the lute family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jEHMuHtj", "label": "vihuela", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jEHMuHtj.md\u0027\u003evihuela\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eguitar-shaped string instrument from 15th and 16th century Spain, Portugal and Italy, usually with five or six doubled strings\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "SYxoMuAc", "to": "BnwWc34X", "width": 1}, {"from": "GsYHbd4y", "to": "AEKR8AeC", "width": 1}, {"from": "GsYHbd4y", "to": "BnwWc34X", "width": 1}, {"from": "Q8MBQBw7", "to": "BnwWc34X", "width": 1}, {"from": "9tZzpwmB", "to": "BnwWc34X", "width": 1}, {"from": "MVLRXXFR", "to": "BnwWc34X", "width": 1}, {"from": "i6ZUL4z4", "to": "BnwWc34X", "width": 1}, {"from": "BnwWc34X", "to": "TK3XJWDj", "width": 1}, {"from": "BnwWc34X", "to": "JLEkd6F7", "width": 1}, {"from": "BnwWc34X", "to": "AEKR8AeC", "width": 1}, {"from": "BnwWc34X", "to": "JgHhttf9", "width": 1}, {"from": "BnwWc34X", "to": "E2dDDzdk", "width": 1}, {"from": "BnwWc34X", "to": "hnX8hYwi", "width": 1}, {"from": "BnwWc34X", "to": "DarGmFi8", "width": 1}, {"from": "BnwWc34X", "to": "WfkJpufF", "width": 1}, {"from": "BnwWc34X", "to": "283gAK79", "width": 1}, {"from": "BnwWc34X", "to": "fpwubqWj", "width": 1}, {"from": "BnwWc34X", "to": "9t6BfJ2T", "width": 1}, {"from": "BnwWc34X", "to": "LMnKWZg2", "width": 1}, {"from": "BnwWc34X", "to": "SLzwbqqw", "width": 1}, {"from": "BnwWc34X", "to": "ktU2xaGm", "width": 1}, {"from": "BnwWc34X", "to": "CUtvwUDL", "width": 1}, {"from": "BnwWc34X", "to": "HQVKy2Gm", "width": 1}, {"from": "BnwWc34X", "to": "HcmSE474", "width": 1}, {"from": "BnwWc34X", "to": "SRXTUjuW", "width": 1}, {"from": "BnwWc34X", "to": "NFAxdnVA", "width": 1}, {"from": "BnwWc34X", "to": "K9mQeF4d", "width": 1}, {"from": "BnwWc34X", "to": "QE66HesX", "width": 1}, {"from": "BnwWc34X", "to": "2nFJpnZ8", "width": 1}, {"from": "BnwWc34X", "to": "G8tgNnWV", "width": 1}, {"from": "BnwWc34X", "to": "AdNoqEfD", "width": 1}, {"from": "BnwWc34X", "to": "WVAicT8o", "width": 1}, {"from": "BnwWc34X", "to": "PyGNLcfw", "width": 1}, {"from": "BnwWc34X", "to": "nxwcCzVb", "width": 1}, {"from": "BnwWc34X", "to": "9tdYnPBe", "width": 1}, {"from": "BnwWc34X", "to": "jEHMuHtj", "width": 1}, {"from": "E2dDDzdk", "to": "LMnKWZg2", "width": 1}, {"from": "LMnKWZg2", "to": "AdNoqEfD", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

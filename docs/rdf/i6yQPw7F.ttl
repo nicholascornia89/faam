@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i6yQPw7F a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:9U8LuxuX,
+        faamentity:neFktRRX ;
+    schema1:birthDate "1820-11-02"^^xsd:string ;
+    schema1:birthPlace faamentity:6RbAjWFC ;
+    schema1:deathDate "1892-09-05"^^xsd:string ;
+    schema1:deathPlace faamentity:frVKueVr ;
+    schema1:description "Belgian priest and teacher (1820-1892)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q118136722>,
+        "0"^^xsd:string,
+        "i6yQPw7F"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:prefLabel "Pieter Benoit"^^xsd:string ;
+    wd:P108 faamentity:aPSw7Qx2,
+        faamentity:norpC5Ht ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:4J5zywfh,
+        faamentity:Db7aL4Bi,
+        faamentity:RgNFJ8gc,
+        faamentity:Tiv96JGs,
+        faamentity:TpKbLAmY,
+        faamentity:XGtUx9Ce,
+        faamentity:bhHSJjYc,
+        faamentity:eUa7qYMN .
+

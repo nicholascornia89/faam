@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WnttmCCm a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:H44dVBEk ;
+    schema1:birthDate "1719-11-14"^^xsd:string ;
+    schema1:birthPlace faamentity:Y9TFq2VL ;
+    schema1:deathDate "1787-05-28"^^xsd:string ;
+    schema1:deathPlace faamentity:JCkvuhys ;
+    schema1:description "German composer (1719–1787)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q156280>,
+        "0"^^xsd:string,
+        "WnttmCCm"^^xsd:string ;
+    schema1:nationality faamentity:bXZtPe5G ;
+    skos:altLabel "Johann Georg Leopold Mozart"^^xsd:string ;
+    skos:prefLabel "Leopold Mozart"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2513222 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/115317> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mozart,_Leopold> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:bSHypyYG,
+        faamentity:bX2aWAhB .
+

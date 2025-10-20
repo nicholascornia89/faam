@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N8neJZHT a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "college of the University of Oxford"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q82513>,
+        "16004788"^^xsd:string,
+        "N8neJZHT"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu,
+        faamentity:YCA6PuiY ;
+    skos:altLabel "Merton College"^^xsd:string ;
+    skos:prefLabel "Merton College"^^xsd:string .
+

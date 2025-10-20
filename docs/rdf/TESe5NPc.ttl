@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TESe5NPc a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1733-01-03"^^xsd:string ;
+    schema1:birthPlace faamentity:GEHEKxzR ;
+    schema1:deathDate "1797-09-03"^^xsd:string ;
+    schema1:deathPlace faamentity:CmptxrAx ;
+    schema1:description "Dutch composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4001568>,
+        "15995882"^^xsd:string,
+        "TESe5NPc"^^xsd:string ;
+    schema1:nationality faamentity:foBZk7ps ;
+    skos:altLabel "Josina Anna Petronella van Aerssen"^^xsd:string,
+        "Josina van Aerssen"^^xsd:string ;
+    skos:prefLabel "Josina van Aerssen"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:34787193 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30011931> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:c7DJTAj9 .
+

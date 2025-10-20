@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jQr3WhcR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:YLBjfZTJ,
+        faamentity:YwvXPxhJ ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4bJXjG2F,
+        faamentity:GecAsFfL,
+        faamentity:mSjvHyCe ;
+    schema1:hasPart faamentity:dwdaRArz ;
+    schema1:identifier "16005716"^^xsd:string,
+        "BNF-428267676_1"^^xsd:string,
+        "jQr3WhcR"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428267676"^^schema1:url ;
+    skos:prefLabel "Clavecin bien tempéré, [1re partie] pour piano. J.-S. Bach. Avec analyses et conseils sur l'interprétation par Georges Sporck.... Premier [-deuxième] recueil... [BWV 846-869]"^^xsd:string ;
+    wd:P217 "FOL-VM12-11512 (1)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"jQr3WhcR-0916aba6-0081-45e6-b03d-5a61fc3108a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"jQr3WhcR-9587eaf2-c4f2-4270-b2cd-58f0eec1d4e7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"jQr3WhcR-e9f9a0bf-4d7a-4e13-a3d6-26f4dca8a756"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:4bJXjG2F a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:mSjvHyCe a rdf:object .
+

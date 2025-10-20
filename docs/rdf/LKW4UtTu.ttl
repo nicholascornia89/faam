@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LKW4UtTu a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:KzqrgycL,
+        faamentity:LQND7DE7,
+        faamentity:kFR6f2UY ;
+    schema1:identifier "16005157"^^xsd:string,
+        "LKW4UtTu"^^xsd:string,
+        "SML-12107"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910649983405216"^^schema1:url ;
+    skos:prefLabel "Musica antica italiana; sei celebri pezzi per cembalo, trascritti per pianoforte."^^xsd:string ;
+    wd:P217 "M38 .C42i"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LKW4UtTu-76b2a595-5834-4d92-ad2a-843563c3145c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"LKW4UtTu-8fde51b5-4ea4-496f-bb9b-b9daac027cb7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LKW4UtTu-c3659de8-ed1c-49b7-bf32-14ae6833d549"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:KzqrgycL a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:kFR6f2UY a rdf:object .
+

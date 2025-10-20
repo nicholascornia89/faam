@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Fs2ZbaMQ a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "instrumental musical composition, usually short, designed to provide practice material for perfecting a particular musical skill"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q207841>,
+        "15990591"^^xsd:string,
+        "Fs2ZbaMQ"^^xsd:string ;
+    skos:altLabel "exercise"^^xsd:string,
+        "lesson"^^xsd:string,
+        "study"^^xsd:string,
+        "étude"^^xsd:string ;
+    skos:prefLabel "étude"^^xsd:string .
+

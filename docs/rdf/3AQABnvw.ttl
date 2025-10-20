@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3AQABnvw a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1837-08-24"^^xsd:string ;
+    schema1:birthPlace faamentity:Nxicezvi,
+        faamentity:mWrrDisP ;
+    schema1:deathDate "1924-06-11"^^xsd:string ;
+    schema1:deathPlace faamentity:jqVkzedo,
+        faamentity:mWrrDisP ;
+    schema1:description "French composer and Organist (1837-1924)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q259121>,
+        "15996045"^^xsd:string,
+        "3AQABnvw"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Clément-François Théodore Dubois"^^xsd:string,
+        "Theodore Dubois"^^xsd:string,
+        "Théodore Dubois"^^xsd:string ;
+    skos:prefLabel "Théodore Dubois"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44484901 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30016588> ;
+    wd:P737 faamentity:2FcSBEuK,
+        faamentity:55e2GrNr,
+        faamentity:C2HMXPaX,
+        faamentity:DCNt8Rng ;
+    wd:P839 <https://imslp.org/wiki/Category:Dubois,_Théodore> ;
+    schema:hasOccupation faamentity:MwhmFC4w .
+

@@ -1,0 +1,50 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GSqAPxLN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1678-03-04"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22 ;
+    schema1:deathDate "1741-07-28"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Italian composer and violinist (1678-1741)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1340>,
+        "15995842"^^xsd:string,
+        "GSqAPxLN"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "A. Vivaldis"^^xsd:string,
+        "Antonio Luciano Vivaldi"^^xsd:string,
+        "Antonio Vivaldi"^^xsd:string,
+        "Antonio Vivarudi"^^xsd:string,
+        "Prete rosso"^^xsd:string,
+        "Vivaldi"^^xsd:string ;
+    skos:prefLabel "Antonio Vivaldi"^^xsd:string ;
+    wd:P108 faamentity:3uThKJZd,
+        faamentity:M55uT5Cp,
+        faamentity:hsjALgYF ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:Q8MBQBw7,
+        faamentity:SLzwbqqw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:42027007 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003267> ;
+    wd:P737 faamentity:4cWGCPTD,
+        faamentity:MzcdPdoK ;
+    wd:P839 <https://imslp.org/wiki/Category:Vivaldi,_Antonio> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:FicTBGBH,
+        faamentity:Gmyihe9r,
+        faamentity:GnKPfQfS,
+        faamentity:HpeKzcJG,
+        faamentity:L7DPWnnr,
+        faamentity:QJhBdvTq,
+        faamentity:bX2aWAhB .
+

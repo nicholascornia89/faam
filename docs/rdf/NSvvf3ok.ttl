@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NSvvf3ok a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Kh6vL8eh,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:GecAsFfL,
+        faamentity:RatUUATc,
+        faamentity:W8EfwtH8 ;
+    schema1:identifier "15992702"^^xsd:string,
+        "KCA-030902664280"^^xsd:string,
+        "NSvvf3ok"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13164807/N"^^schema1:url ;
+    skos:prefLabel "The ornamentations in Joh. Seb. Bach's pianoforte-works : studies and elucidations"^^xsd:string ;
+    wd:P217 "MM-ES-EHRLI-ornamen-1"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"NSvvf3ok-4576610e-1236-469d-a4f8-2d2e40e16873"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NSvvf3ok-5053ab42-97eb-45f1-8a57-123d68b4cb4d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NSvvf3ok-53419558-5c31-4dfc-8f27-df21a60a9e86"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"NSvvf3ok-86abfabc-48c2-4751-be62-33a51068d44a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:RatUUATc a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+

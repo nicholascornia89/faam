@@ -1,0 +1,48 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JanKyaSj a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:VwZmF2Uv ;
+    schema1:birthDate "1840-04-25"^^xsd:string ;
+    schema1:birthPlace faamentity:J3nRMGnQ ;
+    schema1:deathDate "1893-10-25"^^xsd:string ;
+    schema1:deathPlace faamentity:ZpwbPoZj,
+        faamentity:kf3nZG2b ;
+    schema1:description "Russian composer (1840–1893)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7315>,
+        "16002450"^^xsd:string,
+        "JanKyaSj"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM ;
+    skos:altLabel "Chaikovsky"^^xsd:string,
+        "Chajkovskij"^^xsd:string,
+        "Peter Ilich Tchaikovsky"^^xsd:string,
+        "Peter Tchaikovsky"^^xsd:string,
+        "Piotr Ilyitch Tchaikovsky"^^xsd:string,
+        "Pyotr Il'ich Chaikovskiy"^^xsd:string,
+        "Pyotr Il'yich Tchaikovsky"^^xsd:string,
+        "Pyotr Ilyich Tchaikovsky"^^xsd:string,
+        "Pyotr Tchaikovsky"^^xsd:string,
+        "Tchaikovsky"^^xsd:string,
+        "Tschaikowski"^^xsd:string,
+        "Tschaikowsky"^^xsd:string ;
+    skos:prefLabel "Pyotr Ilyich Tchaikovsky"^^xsd:string ;
+    wd:P108 faamentity:GjurMHUq ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:99258155 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/144048> ;
+    wd:P737 faamentity:2jg6ozJX,
+        faamentity:VjdWmWeW ;
+    wd:P839 <https://imslp.org/wiki/Category:Tchaikovsky,_Pyotr> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

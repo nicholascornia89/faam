@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:idqENLhq a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1755-02-00"^^xsd:string,
+        "1755-02-02"^^xsd:string ;
+    schema1:birthPlace faamentity:FugMPbQk ;
+    schema1:deathDate "1819-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "German composer and musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q95634>,
+        "0"^^xsd:string,
+        "idqENLhq"^^xsd:string ;
+    schema1:nationality faamentity:b7Whtkhh ;
+    skos:prefLabel "Johann Georg Wunderlich"^^xsd:string ;
+    wd:P108 faamentity:ds7atesc,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:AdNoqEfD ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51957681 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30012334> ;
+    wd:P839 <https://imslp.org/wiki/Category:Wunderlich,_Johann_Georg> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:RVTQxuie,
+        faamentity:XWcaJQty .
+

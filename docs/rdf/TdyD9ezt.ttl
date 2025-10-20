@@ -1,0 +1,40 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TdyD9ezt a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:NkfcVjHM,
+        faamentity:ZS9h3s2q ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5zYxp5vL ;
+    schema1:identifier "16005720"^^xsd:string,
+        "BNF-430040821"^^xsd:string,
+        "TdyD9ezt"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb430040821"^^schema1:url ;
+    skos:prefLabel "Méthode complète de chant ou Théorie pratique de cet art, mise à la portée de tous les professeurs, même instrumentalistes : contenant tous les préceptes et exemples... (2e édition considérablement augmentée et améliorée oeuvre 40) / par Alexis de Garaudé,..."^^xsd:string ;
+    wd:P217 "VM8 A-94"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"TdyD9ezt-2aeebf43-ffe7-41fd-aa77-95158d5e8ae4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"TdyD9ezt-86b3d3a0-a834-4605-bd43-1b9258133188"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:5zYxp5vL a rdf:object .
+

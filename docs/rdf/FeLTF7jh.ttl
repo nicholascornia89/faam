@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FeLTF7jh a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Military university of Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1515214>,
+        "16004731"^^xsd:string,
+        "FeLTF7jh"^^xsd:string ;
+    schema1:location faamentity:4g8XzGFP,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "RMA"^^xsd:string,
+        "Royal Military Academy"^^xsd:string ;
+    skos:prefLabel "Royal Military Academy"^^xsd:string .
+

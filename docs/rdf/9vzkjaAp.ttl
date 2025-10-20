@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9vzkjaAp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4DVjqtyz,
+        faamentity:PXYCpRXf,
+        faamentity:fFoWvPUh ;
+    schema1:hasPart faamentity:hwgDMQXJ ;
+    schema1:identifier "16005159"^^xsd:string,
+        "9vzkjaAp"^^xsd:string,
+        "SML-2379"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910349303405216"^^schema1:url ;
+    skos:prefLabel "Repertoire, 14 ausgewählte Stücke ... für Pianoforte."^^xsd:string ;
+    wd:P217 "M21 .L62"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"9vzkjaAp-76ed08ab-a624-4e8a-a2aa-b614f4b41631"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"9vzkjaAp-8b1bd43e-245b-4470-8fe4-c214e6fe39bd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"9vzkjaAp-e554d8ab-4d29-48d6-8c27-375a8763e13b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:4DVjqtyz a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:fFoWvPUh a rdf:object .
+

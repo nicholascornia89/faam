@@ -1,0 +1,79 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4DUXUR2w a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:D6RjeTWv,
+        faamentity:hJoKsjEm,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:NkfcVjHM,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:FzuLDZCr,
+        faamentity:PNsdjaKx,
+        faamentity:Z4Mej9De,
+        faamentity:Zh2b6vBQ,
+        faamentity:kCr22AfX,
+        faamentity:kv4NyzvW ;
+    schema1:identifier "15992751"^^xsd:string,
+        "4DUXUR2w"^^xsd:string,
+        "KCG-000334244"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000334244"^^schema1:url ;
+    skos:prefLabel "ECRIN DES JEUNES FLUTISTES: trois airs variés sur des motifs de Donizetti, Mercadante, Bellini, pour flûte et piano/par Berbiguier [et A. Miné ?]."^^xsd:string ;
+    wd:P217 "A1461 (11);A1461 (BIS23)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"4DUXUR2w-2357a931-b392-4c9f-94dd-3359547fa5ea"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4DUXUR2w-4a3b2e2e-c952-4426-aa7f-df24e004998a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:LHFuBj76 .
+
+"4DUXUR2w-7d287a2e-8780-4e6b-80f6-79a16c93559a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4DUXUR2w-9c666d48-1136-40be-b516-df4216eff364"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4DUXUR2w-dd20430e-50eb-4de2-a217-cc0c97e00609"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4DUXUR2w-e91b4629-9388-4a61-ac9f-724fd4a34313"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:FzuLDZCr a rdf:object .
+
+faamentity:PNsdjaKx a rdf:object .
+
+faamentity:Z4Mej9De a rdf:object .
+
+faamentity:Zh2b6vBQ a rdf:object .
+
+faamentity:kCr22AfX a rdf:object .
+
+faamentity:kv4NyzvW a rdf:object .
+

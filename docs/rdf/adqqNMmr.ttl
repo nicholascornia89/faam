@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:adqqNMmr a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:KzqrgycL ;
+    schema1:identifier "16003949"^^xsd:string,
+        "adqqNMmr"^^xsd:string ;
+    skos:prefLabel "Fugues in G major (A. Scarlatti)"^^xsd:string ;
+    wd:P5202 faamentity:AaF6WQEA ;
+    wd:P7937 faamentity:RtkoMT89,
+        faamentity:YLBjfZTJ .
+

@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rb2G3eQy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:BF3ukx2D ;
+    faamprop:handwritten_annotation faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:6wpp746x ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:X8CowJzi,
+        faamentity:XqwGf95J ;
+    schema1:identifier "16005399"^^xsd:string,
+        "ORP-20143702p17"^^xsd:string,
+        "Rb2G3eQy"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22186"^^schema1:url ;
+    skos:prefLabel "Tramway. Galop Brillant. - Op. 37"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.004"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Rb2G3eQy-5e5900bb-6e16-4439-8913-799effdd09b2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"Rb2G3eQy-68fcf9b1-2194-4f09-baa9-ba00aab9e149"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"Rb2G3eQy-e260756e-165d-44d5-9bd4-7fea40c09f88"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:XqwGf95J a rdf:object .
+

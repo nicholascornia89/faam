@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mqY7JfsT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:K4TocMAK,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:SgJFWhdM,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:9XFqnKhV ;
+    schema1:identifier "15992659"^^xsd:string,
+        "KCG-000363772"^^xsd:string,
+        "mqY7JfsT"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000363772"^^schema1:url ;
+    skos:prefLabel "Quintetto : pour Flûte, Hautbois, Clarinette, Cor & Basson : Oeuvre 88 n° 6 : Nota: A défaut de hautbois, cette Partie peut s'éxécuter par une flûte avec la Patte en Ut."^^xsd:string ;
+    wd:P217 "DS-1396"^^xsd:string ;
+    wd:P870 faamentity:9t6BfJ2T,
+        faamentity:AdNoqEfD,
+        faamentity:HcmSE474,
+        faamentity:MVLRXXFR,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"mqY7JfsT-a44e1b74-e586-4af9-b921-4478cf830bcd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"mqY7JfsT-cf22cd41-982d-49db-9cff-81439d43b9bb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+faamentity:SgJFWhdM a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

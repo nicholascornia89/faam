@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fzhY3vYG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1774-02-16"^^xsd:string ;
+    schema1:birthPlace faamentity:8id9Fcsj ;
+    schema1:deathDate "1830-11-25"^^xsd:string ;
+    schema1:deathPlace faamentity:YQSQGqNU ;
+    schema1:description "French violinist and composer (1774 – 1830)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q713248>,
+        "15995902"^^xsd:string,
+        "fzhY3vYG"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jacques Pierre Joseph Rode"^^xsd:string,
+        "Pierre Rode"^^xsd:string ;
+    skos:prefLabel "Pierre Rode"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:8143306 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/58408> ;
+    wd:P737 faamentity:MRVR7vBD ;
+    wd:P839 <https://imslp.org/wiki/Category:Rode,_Pierre> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo .
+

@@ -1,0 +1,76 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: 6emwUHkk
+
+tags: musical_work
+ 
+---
+
+
+# Keyboard Sonata in F major, K.107 (6emwUHkk)
+
+---
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label                             | aliases                           | description                  | Wikidata QID                                               |
+    | :-------: | :-------------------------------: | :-------------------------------: | :--------------------------: | :--------------------------------------------------------: |
+    | 6emwUHkk  | Keyboard Sonata in F major, K.107 | Keyboard Sonata in F major, L.474 | sonata by Domenico Scarlatti | [Sonata K. 107](http://wwww.wikidata.org/entity/Q74594966) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+!!! quote "form of creative work" 
+
+	- [sonata](./RtkoMT89.md)
+
+!!! quote "creator" 
+
+	- [Domenico Scarlatti](./PXYCpRXf.md)
+
+??? quote "adapted by" 
+
+	- [Carl Czerny](./jm4QpjVW.md)
+
+	- [Alessandro Longo](./5gAsc3pE.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/6emwUHkk.html" height="800" width="1200" title="6emwUHkk"></iframe>
+
+## Identifiers
+
+---
+
+!!! info "IMSLP ID" 
+
+	[Keyboard Sonata in F major, K.107 (Scarlatti, Domenico)](https://imslp.org/wiki/Keyboard Sonata in F major, K.107 (Scarlatti, Domenico))
+
+!!! info "VIAF ID" 
+
+	[294687841](https://viaf.org/viaf/294687841)
+
+## Cross-references
+
+---
+
+<div class="grid cards" markdown>
+
+-	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
+
+	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>

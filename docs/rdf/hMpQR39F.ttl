@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hMpQR39F a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "public thoroughfare in a built environment like a village or city"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q79007>,
+        "0"^^xsd:string,
+        "hMpQR39F"^^xsd:string ;
+    skos:altLabel "St"^^xsd:string,
+        "road"^^xsd:string,
+        "st."^^xsd:string,
+        "way"^^xsd:string ;
+    skos:prefLabel "street"^^xsd:string .
+

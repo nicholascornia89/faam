@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:37vPLqE4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:QGRAMUu8,
+        faamentity:eSzqVmee,
+        faamentity:hJoKsjEm,
+        faamentity:j3tnVzW5,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CieeeqL8,
+        faamentity:GecAsFfL ;
+    schema1:identifier "16004007"^^xsd:string,
+        "37vPLqE4"^^xsd:string,
+        "BNF-44229251d"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb44229251d"^^schema1:url ;
+    skos:prefLabel "Les Bonnes traditions du pianiste. Deuxième volume Les Bonnes traditions du pianiste. Deuxième volume"^^xsd:string ;
+    skosref:related faamentity:5MMa69Kf,
+        faamentity:BHzSccaL,
+        faamentity:CWKiEvvh,
+        faamentity:GecAsFfL,
+        faamentity:LLpPqfa8,
+        faamentity:PXYCpRXf,
+        faamentity:TZfafBBe,
+        faamentity:YwdYGCWW,
+        faamentity:gWqSeD3z,
+        faamentity:h7iqGs87,
+        faamentity:hwgDMQXJ ;
+    wd:P217 "VM7-2307 (2)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"37vPLqE4-6daa1115-20f9-4465-8807-0ec4962328e0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"37vPLqE4-7a1ce535-8b2a-42e7-b9b0-f93d63f5f9e1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:CieeeqL8 a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+

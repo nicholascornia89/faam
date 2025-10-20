@@ -1,0 +1,244 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SGrwmsQj a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:D6RjeTWv,
+        faamentity:E4rhHet3,
+        faamentity:EgkVbUEo,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:LtW88Gtx,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:ZGsPMhbm,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:NRsZG792,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:AC7hDY3Z,
+        faamentity:BdJHjaCE,
+        faamentity:Gx3B7DJH,
+        faamentity:J9FXU5XV,
+        faamentity:Vjk8Ra9n,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW,
+        faamentity:kNneakGU ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6EMBp4Vk,
+        faamentity:74hb67jd,
+        faamentity:7ahVeGBq,
+        faamentity:8Qa3rC7h,
+        faamentity:DDH7fEFM,
+        faamentity:LQND7DE7,
+        faamentity:ZpAqTJvQ,
+        faamentity:mK2saWSr,
+        faamentity:nHfR4BAi ;
+    schema1:hasPart faamentity:23NqdxGc,
+        faamentity:2ykTQkxo,
+        faamentity:5ZN7sd8U,
+        faamentity:5jepKXzJ,
+        faamentity:6TCzMUmP,
+        faamentity:7FMq5RnT,
+        faamentity:7pFtSRhU,
+        faamentity:7svCPHqp,
+        faamentity:7u7bZ49V,
+        faamentity:7uqNTfuP,
+        faamentity:8WSBRhVB,
+        faamentity:9EsmuS53,
+        faamentity:BEQBuW9Z,
+        faamentity:BccLpmmS,
+        faamentity:CK387PHp,
+        faamentity:Cb666MuT,
+        faamentity:CcHL7gSJ,
+        faamentity:DWL4QT2w,
+        faamentity:FcNvQNuY,
+        faamentity:HMoqgixx,
+        faamentity:Jp5uD2fL,
+        faamentity:LuS7BbiT,
+        faamentity:M6cVH2qJ,
+        faamentity:MUUvZGRM,
+        faamentity:MasvW8PY,
+        faamentity:NnRYZbtJ,
+        faamentity:QqHLFwRa,
+        faamentity:Qz6nenHY,
+        faamentity:REyq4pQk,
+        faamentity:RiKTSfQh,
+        faamentity:SMR762rt,
+        faamentity:Sx6dxcYw,
+        faamentity:TtnUdAfT,
+        faamentity:UbmFbuDj,
+        faamentity:W4FZXWTq,
+        faamentity:W5MiPYGA,
+        faamentity:WCyX9P2T,
+        faamentity:WGP7MRSE,
+        faamentity:X9emBKee,
+        faamentity:XSEpvGLn,
+        faamentity:XjW8zjhJ,
+        faamentity:YgJWEegE,
+        faamentity:Z6MguVen,
+        faamentity:akc4PiMR,
+        faamentity:au8c8Fdf,
+        faamentity:b9KdyoJK,
+        faamentity:bC5kBEDN,
+        faamentity:baRudmvb,
+        faamentity:c8GX24Bh,
+        faamentity:cMnePBC8,
+        faamentity:dTZ3dfG6,
+        faamentity:dv3DgHw5,
+        faamentity:edMLVGj5,
+        faamentity:f9orjwr9,
+        faamentity:fBasUAnF,
+        faamentity:fR4Jj3qH,
+        faamentity:gczqKVc6,
+        faamentity:gmk2WSuD,
+        faamentity:ikthzi7K,
+        faamentity:j8t5rSPg,
+        faamentity:jAJkrrJJ,
+        faamentity:jzvxUGoK ;
+    schema1:identifier "16002678"^^xsd:string,
+        "KCA-KV7617"^^xsd:string,
+        "SGrwmsQj"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6772461/N"^^schema1:url ;
+    skos:prefLabel "ANTHOLOGIE DES MAITRES RELIGIEUX PRIMITIFS DES. . Livre des Motets. 1. Année -1893"^^xsd:string ;
+    skosref:related faamentity:23NqdxGc,
+        faamentity:2ykTQkxo,
+        faamentity:5ZN7sd8U,
+        faamentity:5jepKXzJ,
+        faamentity:6TCzMUmP,
+        faamentity:7FMq5RnT,
+        faamentity:7pFtSRhU,
+        faamentity:7svCPHqp,
+        faamentity:7u7bZ49V,
+        faamentity:7uqNTfuP,
+        faamentity:8WSBRhVB,
+        faamentity:9EsmuS53,
+        faamentity:BEQBuW9Z,
+        faamentity:BccLpmmS,
+        faamentity:CK387PHp,
+        faamentity:Cb666MuT,
+        faamentity:CcHL7gSJ,
+        faamentity:DWL4QT2w,
+        faamentity:FcNvQNuY,
+        faamentity:HMoqgixx,
+        faamentity:Jp5uD2fL,
+        faamentity:LuS7BbiT,
+        faamentity:M6cVH2qJ,
+        faamentity:MUUvZGRM,
+        faamentity:MasvW8PY,
+        faamentity:NnRYZbtJ,
+        faamentity:QqHLFwRa,
+        faamentity:Qz6nenHY,
+        faamentity:REyq4pQk,
+        faamentity:RiKTSfQh,
+        faamentity:SMR762rt,
+        faamentity:Sx6dxcYw,
+        faamentity:TtnUdAfT,
+        faamentity:UbmFbuDj,
+        faamentity:W4FZXWTq,
+        faamentity:W5MiPYGA,
+        faamentity:WCyX9P2T,
+        faamentity:WGP7MRSE,
+        faamentity:X9emBKee,
+        faamentity:XSEpvGLn,
+        faamentity:XjW8zjhJ,
+        faamentity:YgJWEegE,
+        faamentity:Z6MguVen,
+        faamentity:akc4PiMR,
+        faamentity:au8c8Fdf,
+        faamentity:b9KdyoJK,
+        faamentity:bC5kBEDN,
+        faamentity:baRudmvb,
+        faamentity:c8GX24Bh,
+        faamentity:cMnePBC8,
+        faamentity:dTZ3dfG6,
+        faamentity:dv3DgHw5,
+        faamentity:edMLVGj5,
+        faamentity:f9orjwr9,
+        faamentity:fBasUAnF,
+        faamentity:fR4Jj3qH,
+        faamentity:gczqKVc6,
+        faamentity:gmk2WSuD,
+        faamentity:ikthzi7K,
+        faamentity:j8t5rSPg,
+        faamentity:jAJkrrJJ,
+        faamentity:jzvxUGoK ;
+    wd:P217 "KV7617"^^xsd:string ;
+    wd:P839 <https://imslp.org/wiki/Anthologie_des_maîtres_religieux_primitifs_des_XVe,_XVIe_&_XVIIe_siècles_(Bordes,_Charles)> ;
+    wd:P870 faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"SGrwmsQj-127a57e3-2b28-4155-a397-da0527cf3877"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SGrwmsQj-3b9a06b8-2640-4797-83ea-b022c467d3bc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SGrwmsQj-4cfbc75a-1575-4bdb-903c-1665e005ba02"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SGrwmsQj-a22c3114-e9fe-44ff-909f-0a02201af6f5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SGrwmsQj-c8a2d50a-a073-4753-9877-da5389f61dfa"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"SGrwmsQj-da09661b-5907-4938-a92d-f38d7d1930bb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"SGrwmsQj-e27cb9b5-62b3-4d78-ac98-354be5c556f1"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1893"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"SGrwmsQj-e5dc441d-7630-4a34-ae01-57a173be1081"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"SGrwmsQj-f222353e-4b1d-4273-bc9f-a2a9d9f1085b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:6EMBp4Vk a rdf:object .
+
+faamentity:74hb67jd a rdf:object .
+
+faamentity:7ahVeGBq a rdf:object .
+
+faamentity:8Qa3rC7h a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:ZpAqTJvQ a rdf:object .
+
+faamentity:mK2saWSr a rdf:object .
+
+faamentity:nHfR4BAi a rdf:object .
+

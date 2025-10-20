@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:J2JS4FwU a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1567-05-15"^^xsd:string ;
+    schema1:birthPlace faamentity:mqgo3ELz ;
+    schema1:deathDate "1643-11-29"^^xsd:string ;
+    schema1:deathPlace faamentity:CgZzMq22 ;
+    schema1:description "Italian composer, string player, choirmaster, and priest (1567–1643)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q53068>,
+        "15996130"^^xsd:string,
+        "J2JS4FwU"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Claudio Giovanni Antonio Monteverdi"^^xsd:string,
+        "Claudio Monteverde"^^xsd:string,
+        "Claudio Monteverdi"^^xsd:string,
+        "Monteverdi"^^xsd:string ;
+    skos:prefLabel "Claudio Monteverdi"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:FtcQuVXN,
+        faamentity:c7yEmxAf ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44485902 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000259> ;
+    wd:P737 faamentity:DMSLG6R2 ;
+    wd:P839 <https://imslp.org/wiki/Category:Monteverdi,_Claudio> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:DxGATHZF,
+        faamentity:Gmyihe9r,
+        faamentity:HkbL2euD,
+        faamentity:aB6ga3Wq,
+        faamentity:eUa7qYMN,
+        faamentity:kTo2uTWZ,
+        faamentity:oJ9qmRVq .
+

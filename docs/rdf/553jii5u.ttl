@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:553jii5u a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:fcUzVpvQ ;
+    schema1:identifier "16003995"^^xsd:string,
+        "553jii5u"^^xsd:string ;
+    schema1:isBasedOn faamentity:gf7FahV7 ;
+    skos:prefLabel "Fantaisie pour piano et cor ou violon sur des Thêmes de l'Opera d'Otello de Rossini, Op. 63"^^xsd:string ;
+    wd:P7937 faamentity:7AXGCpck,
+        faamentity:DQwB3wUJ,
+        faamentity:PJUnFxn4,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB .
+

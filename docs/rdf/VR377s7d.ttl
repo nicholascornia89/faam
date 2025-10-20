@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VR377s7d a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:LtW88Gtx,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:TRs5bffo,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GSqAPxLN,
+        faamentity:n2KyzS34 ;
+    schema1:hasPart faamentity:eZq8Yy9r ;
+    schema1:identifier "15992720"^^xsd:string,
+        "CBM-TORRMsA9"^^xsd:string,
+        "VR377s7d"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "13. | Concerto. | del | Antonio Vivaldi. | Viol. conc., Viol +11, Viola, e Basso."^^xsd:string ;
+    wd:P217 "TORR. Ms.A.9"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:k59fQ7su .
+
+schema1:contributor a rdf:predicate .
+
+"VR377s7d-407a708b-5393-4904-aa0d-6d37da268750"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:CgZzMq22 .
+
+"VR377s7d-e6d9a397-8ed6-44a6-acb0-23d24e4f245c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:GSqAPxLN a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

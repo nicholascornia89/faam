@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Vu2kcv7w a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1642-09-23"^^xsd:string ;
+    schema1:birthPlace faamentity:4ABPMiGk,
+        faamentity:iU2pomC5 ;
+    schema1:deathDate "1678-11-18"^^xsd:string ;
+    schema1:deathPlace faamentity:iU2pomC5 ;
+    schema1:description "Italian violinist and composer (1642-1678)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q957648>,
+        "15995806"^^xsd:string,
+        "Vu2kcv7w"^^xsd:string ;
+    skos:altLabel "Giovanni Maria Bononcini"^^xsd:string ;
+    skos:prefLabel "Giovanni Maria Bononcini"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:89092372 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004607> ;
+    wd:P737 faamentity:8j3Rxjfp,
+        faamentity:HdRiDhLK ;
+    wd:P839 <https://imslp.org/wiki/Category:Bononcini,_Giovanni_Maria> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:HiywuUEM,
+        faamentity:HkbL2euD .
+

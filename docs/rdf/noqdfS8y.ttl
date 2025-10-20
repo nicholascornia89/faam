@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:noqdfS8y a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "monarchy in Europe (1282–1918)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q153136>,
+        "15998279"^^xsd:string,
+        "noqdfS8y"^^xsd:string ;
+    skos:altLabel "Habsburg Empire"^^xsd:string,
+        "Habsburg monarchy"^^xsd:string,
+        "Monarchia Austriaca"^^xsd:string ;
+    skos:prefLabel "Habsburg monarchy"^^xsd:string .
+

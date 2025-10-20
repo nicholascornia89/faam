@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GrG9ovrp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:E4rhHet3,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:amkJ6EBs,
+        faamentity:iyfjpyT2 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:7AXGCpck,
+        faamentity:Qw4zjHnS,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Ni5ELcfk,
+        faamentity:jWznwcYU ;
+    schema1:hasPart faamentity:mFwNz8F3 ;
+    schema1:identifier "15992748"^^xsd:string,
+        "GrG9ovrp"^^xsd:string,
+        "KCG-000749978"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000749978"^^schema1:url ;
+    skos:prefLabel "Fantaisie Pour Piano et Cor : Sur l'Air Ecossair ; Intercalé dans la dame blanche ; Dédiée à Mademoiselle Cæli Lainé"^^xsd:string ;
+    wd:P217 "V-B-00439(1)-HA"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"GrG9ovrp-87704c0f-1da9-431e-a0fb-1125ba1868a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"GrG9ovrp-ac51ef8c-7f6a-4fb4-81cd-179243a82b55"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:Ni5ELcfk a rdf:object .
+
+faamentity:jWznwcYU a rdf:object .
+

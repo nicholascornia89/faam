@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XS7wpMYC a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9tkKrhbM,
+        faamentity:LBfWd2va ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PNsdjaKx,
+        faamentity:Q9hzqiq3 ;
+    schema1:hasPart faamentity:WSMESTsd ;
+    schema1:identifier "15992734"^^xsd:string,
+        "KCG-000353031"^^xsd:string,
+        "XS7wpMYC"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000353031"^^schema1:url ;
+    skos:prefLabel "Rondoletto brillant et facile : sur l'Aragonaise du Domino noir, musique de F. Auber, arrange pour la flute avec accompagnement de piano"^^xsd:string ;
+    wd:P217 "A1464 (17)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"XS7wpMYC-240dbcfc-a316-43fb-bb60-8090f391e3ca"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"XS7wpMYC-715f47d5-2037-42d2-99f7-79886ee07534"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"XS7wpMYC-ca82740c-623f-4e09-be36-635141bf7c6a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:PNsdjaKx a rdf:object .
+
+faamentity:Q9hzqiq3 a rdf:object .
+

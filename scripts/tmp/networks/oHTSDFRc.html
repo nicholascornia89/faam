@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DJxsF4LE", "label": "Visp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DJxsF4LE.md\u0027\u003eVisp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of the district of Visp in the canton of Valais, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "oHTSDFRc", "label": "Switzerland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oHTSDFRc.md\u0027\u003eSwitzerland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Central Europe\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FtVbBQmi", "label": "Theodor W. Adorno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FtVbBQmi.md\u0027\u003eTheodor W. Adorno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman philosopher, sociologist and theorist (1903\u20131969)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor_W._Adorno.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Ue7wJucs", "label": "Zug", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ue7wJucs.md\u0027\u003eZug\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of the canton of Zug, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "3ruAHmoN", "label": "Willy Burkhard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3ruAHmoN.md\u0027\u003eWilly Burkhard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1900\u20131955)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "erTk6Qaw", "label": "Evilard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./erTk6Qaw.md\u0027\u003eEvilard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the canton of Bern, Switzerland, parts include Magglingen\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "MJgZj7MG", "label": "Zurich", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MJgZj7MG.md\u0027\u003eZurich\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of the canton of Zurich, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "GSD2sZS2", "label": "Lausanne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GSD2sZS2.md\u0027\u003eLausanne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city of the canton of Vaud, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DB24rWGv", "label": "University of Lausanne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DB24rWGv.md\u0027\u003eUniversity of Lausanne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003euniversity located in Lausanne, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EtcgEowC", "label": "Gustave Doret", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EtcgEowC.md\u0027\u003eGustave Doret\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer and conductor (1866-1943)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustave_Doret.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "93XWfcVS", "label": "Jean-Xavier Lef\u00e8vre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./93XWfcVS.md\u0027\u003eJean-Xavier Lef\u00e8vre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss-born French clarinettist (1763-1829)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Xavier_Lef\u00e8vre.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jGe3RKPQ", "label": "Bottmingen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jGe3RKPQ.md\u0027\u003eBottmingen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the canton of Basel-Landschaft, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DpFDFGMR", "label": "Eduard M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DpFDFGMR.md\u0027\u003eEduard M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss organist (1912-1983)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Bxzts6ip", "label": "Aigle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Bxzts6ip.md\u0027\u003eAigle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown and municipality in the canton of Vaud in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CHYcv62R", "label": "Ernest Ansermet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CHYcv62R.md\u0027\u003eErnest Ansermet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss conductor (1883\u20131969)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ErnestAnsermet.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "V3oBfwCr", "label": "Vevey", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./V3oBfwCr.md\u0027\u003eVevey\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and municipality on Lake Geneva, in the canton of Vaud, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "eJe565fW", "label": "Geneva", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eJe565fW.md\u0027\u003eGeneva\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Switzerland and capital of its canton\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BxCTxRNw", "label": "Schola Cantorum Basiliensis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BxCTxRNw.md\u0027\u003eSchola Cantorum Basiliensis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss college of early music, founded in 1933\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "5FxHYswx", "label": "Basel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./5FxHYswx.md\u0027\u003eBasel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity on the Rhine in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TNPjayZT", "label": "Radio Basel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TNPjayZT.md\u0027\u003eRadio Basel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eradio (?) from Basel, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "K8fwsJjW", "label": "Conrad Beck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./K8fwsJjW.md\u0027\u003eConrad Beck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1901-1989)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Conrad_Beck_1961.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7vm6nMLX", "label": "Antoinette Vischer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7vm6nMLX.md\u0027\u003eAntoinette Vischer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss harpsichordist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4U9xMGUe", "label": "Albert Fuchs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4U9xMGUe.md\u0027\u003eAlbert Fuchs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer (1858-1910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FXfyoxgj", "label": "Nyon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FXfyoxgj.md\u0027\u003eNyon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and city in the canton of Vaud in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XUChwogR", "label": "Louis Niedermeyer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XUChwogR.md\u0027\u003eLouis Niedermeyer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer (1802-1861)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Niedermeyer.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NmguLNJU", "label": "Hans Georg N\u00e4geli", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NmguLNJU.md\u0027\u003eHans Georg N\u00e4geli\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans_Georg_N\u00e4geli_(Balder).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "iQ2xoFYP", "label": "Wetzikon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iQ2xoFYP.md\u0027\u003eWetzikon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss municipality and city\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "9AC4GTSY", "label": "Lohn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9AC4GTSY.md\u0027\u003eLohn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the canton of Schaffhausen, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fQixdxrh", "label": "Fribourg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fQixdxrh.md\u0027\u003eFribourg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of the canton of Fribourg in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8fUmsRZu", "label": "University of Fribourg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8fUmsRZu.md\u0027\u003eUniversity of Fribourg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003euniversity in the city of Fribourg, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "F7Pfqgx7", "label": "Sissach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./F7Pfqgx7.md\u0027\u003eSissach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital of the district of Sissach in the canton of Basel-Landschaft in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RxyMn8bd", "label": "Stans", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RxyMn8bd.md\u0027\u003eStans\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in, and capital of, the Swiss canton of Nidwalden\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "j4DJfCC2", "label": "Mathis Lussy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j4DJfCC2.md\u0027\u003eMathis Lussy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss musicologist and organist (1828\u20131910)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NCFq3aXa", "label": "Arthur Honegger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NCFq3aXa.md\u0027\u003eArthur Honegger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1892-1955)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arthur_Honegger_1921.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DYgYnSpY", "label": "Richard Wagner", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DYgYnSpY.md\u0027\u003eRichard Wagner\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1813\u20131883)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/RichardWagner.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FTmkdBnA", "label": "Igor Stravinsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FTmkdBnA.md\u0027\u003eIgor Stravinsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1882\u20131971)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Igor_Stravinsky_LOC_32392u.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jq6qS77b", "label": "Arnold Dolmetsch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jq6qS77b.md\u0027\u003eArnold Dolmetsch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician and instrument maker in England (1858-1940)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QQM2oR6B", "label": "Solduno", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QQM2oR6B.md\u0027\u003eSolduno\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "RirQVUua", "label": "Montreux", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RirQVUua.md\u0027\u003eMontreux\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the canton of Vaud in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TvDT5iVC", "label": "\u00c9mile Jaques-Dalcroze", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TvDT5iVC.md\u0027\u003e\u00c9mile Jaques-Dalcroze\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer, musician and music educator (1865-1950)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile_Jaques_Dalcroze.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ThkYFbhy", "label": "Johann Baptist Singenberger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ThkYFbhy.md\u0027\u003eJohann Baptist Singenberger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer, music teacher, editor and publisher (1848-1924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "7JMmrPi9", "label": "Liestal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7JMmrPi9.md\u0027\u003eLiestal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in, and capital of, the Swiss canton of Basel-Country\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TMx9XERs", "label": "Antoine Dechevrens", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TMx9XERs.md\u0027\u003eAntoine Dechevrens\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "DSPVf4Sg", "label": "Ch\u00eane-Bourg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DSPVf4Sg.md\u0027\u003eCh\u00eane-Bourg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3PE5GLDk", "label": "Mitl\u00f6di", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3PE5GLDk.md\u0027\u003eMitl\u00f6di\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evillage in the municipality of Glarus S\u00fcd in the canton of Glarus, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Su8RABWY", "label": "Klosters", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Su8RABWY.md\u0027\u003eKlosters\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "bqfXFjXm", "label": "Lachen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./bqfXFjXm.md\u0027\u003eLachen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the canton of Schwyz in Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iYVs3nZm", "label": "University of Zurich", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iYVs3nZm.md\u0027\u003eUniversity of Zurich\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in Zurich, Switzerland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ncU66Vrg", "label": "Georges Schonenberger", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ncU66Vrg.md\u0027\u003eGeorges Schonenberger\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic publisher (1807-1856)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YaMUxDWu", "label": "Joachim Raff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YaMUxDWu.md\u0027\u003eJoachim Raff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss composer (1822-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jjraffportrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "DJxsF4LE", "to": "oHTSDFRc", "width": 1}, {"from": "DJxsF4LE", "to": "FtVbBQmi", "width": 1}, {"from": "Ue7wJucs", "to": "oHTSDFRc", "width": 1}, {"from": "3ruAHmoN", "to": "oHTSDFRc", "width": 1}, {"from": "3ruAHmoN", "to": "erTk6Qaw", "width": 1}, {"from": "3ruAHmoN", "to": "MJgZj7MG", "width": 1}, {"from": "GSD2sZS2", "to": "oHTSDFRc", "width": 1}, {"from": "GSD2sZS2", "to": "DB24rWGv", "width": 1}, {"from": "GSD2sZS2", "to": "EtcgEowC", "width": 1}, {"from": "GSD2sZS2", "to": "93XWfcVS", "width": 1}, {"from": "jGe3RKPQ", "to": "oHTSDFRc", "width": 1}, {"from": "jGe3RKPQ", "to": "DpFDFGMR", "width": 1}, {"from": "EtcgEowC", "to": "oHTSDFRc", "width": 1}, {"from": "EtcgEowC", "to": "Bxzts6ip", "width": 1}, {"from": "CHYcv62R", "to": "oHTSDFRc", "width": 1}, {"from": "CHYcv62R", "to": "V3oBfwCr", "width": 1}, {"from": "CHYcv62R", "to": "eJe565fW", "width": 1}, {"from": "CHYcv62R", "to": "DB24rWGv", "width": 1}, {"from": "BxCTxRNw", "to": "oHTSDFRc", "width": 1}, {"from": "5FxHYswx", "to": "oHTSDFRc", "width": 1}, {"from": "5FxHYswx", "to": "TNPjayZT", "width": 1}, {"from": "5FxHYswx", "to": "K8fwsJjW", "width": 1}, {"from": "5FxHYswx", "to": "7vm6nMLX", "width": 1}, {"from": "5FxHYswx", "to": "4U9xMGUe", "width": 1}, {"from": "FXfyoxgj", "to": "oHTSDFRc", "width": 1}, {"from": "FXfyoxgj", "to": "XUChwogR", "width": 1}, {"from": "NmguLNJU", "to": "oHTSDFRc", "width": 1}, {"from": "NmguLNJU", "to": "iQ2xoFYP", "width": 1}, {"from": "NmguLNJU", "to": "MJgZj7MG", "width": 1}, {"from": "9AC4GTSY", "to": "oHTSDFRc", "width": 1}, {"from": "9AC4GTSY", "to": "K8fwsJjW", "width": 1}, {"from": "fQixdxrh", "to": "oHTSDFRc", "width": 1}, {"from": "fQixdxrh", "to": "8fUmsRZu", "width": 1}, {"from": "MJgZj7MG", "to": "oHTSDFRc", "width": 1}, {"from": "F7Pfqgx7", "to": "oHTSDFRc", "width": 1}, {"from": "F7Pfqgx7", "to": "DpFDFGMR", "width": 1}, {"from": "RxyMn8bd", "to": "oHTSDFRc", "width": 1}, {"from": "RxyMn8bd", "to": "j4DJfCC2", "width": 1}, {"from": "K8fwsJjW", "to": "oHTSDFRc", "width": 1}, {"from": "K8fwsJjW", "to": "NCFq3aXa", "width": 1}, {"from": "K8fwsJjW", "to": "TNPjayZT", "width": 1}, {"from": "NCFq3aXa", "to": "oHTSDFRc", "width": 10}, {"from": "iQ2xoFYP", "to": "oHTSDFRc", "width": 1}, {"from": "DYgYnSpY", "to": "oHTSDFRc", "width": 10}, {"from": "FTmkdBnA", "to": "oHTSDFRc", "width": 10}, {"from": "jq6qS77b", "to": "oHTSDFRc", "width": 10}, {"from": "TNPjayZT", "to": "oHTSDFRc", "width": 1}, {"from": "QQM2oR6B", "to": "oHTSDFRc", "width": 1}, {"from": "j4DJfCC2", "to": "oHTSDFRc", "width": 1}, {"from": "j4DJfCC2", "to": "RirQVUua", "width": 1}, {"from": "j4DJfCC2", "to": "TvDT5iVC", "width": 10}, {"from": "ThkYFbhy", "to": "oHTSDFRc", "width": 10}, {"from": "7JMmrPi9", "to": "oHTSDFRc", "width": 1}, {"from": "eJe565fW", "to": "oHTSDFRc", "width": 1}, {"from": "eJe565fW", "to": "TvDT5iVC", "width": 1}, {"from": "eJe565fW", "to": "TMx9XERs", "width": 1}, {"from": "XUChwogR", "to": "oHTSDFRc", "width": 1}, {"from": "oHTSDFRc", "to": "RirQVUua", "width": 1}, {"from": "oHTSDFRc", "to": "Bxzts6ip", "width": 1}, {"from": "oHTSDFRc", "to": "DSPVf4Sg", "width": 1}, {"from": "oHTSDFRc", "to": "V3oBfwCr", "width": 1}, {"from": "oHTSDFRc", "to": "erTk6Qaw", "width": 1}, {"from": "oHTSDFRc", "to": "3PE5GLDk", "width": 1}, {"from": "oHTSDFRc", "to": "Su8RABWY", "width": 1}, {"from": "oHTSDFRc", "to": "bqfXFjXm", "width": 1}, {"from": "oHTSDFRc", "to": "DB24rWGv", "width": 1}, {"from": "oHTSDFRc", "to": "iYVs3nZm", "width": 1}, {"from": "oHTSDFRc", "to": "8fUmsRZu", "width": 1}, {"from": "oHTSDFRc", "to": "TvDT5iVC", "width": 1}, {"from": "oHTSDFRc", "to": "TMx9XERs", "width": 1}, {"from": "oHTSDFRc", "to": "FtVbBQmi", "width": 1}, {"from": "oHTSDFRc", "to": "7vm6nMLX", "width": 1}, {"from": "oHTSDFRc", "to": "ncU66Vrg", "width": 1}, {"from": "oHTSDFRc", "to": "YaMUxDWu", "width": 1}, {"from": "oHTSDFRc", "to": "4U9xMGUe", "width": 1}, {"from": "oHTSDFRc", "to": "DpFDFGMR", "width": 1}, {"from": "oHTSDFRc", "to": "93XWfcVS", "width": 1}, {"from": "bqfXFjXm", "to": "YaMUxDWu", "width": 1}, {"from": "DSPVf4Sg", "to": "TMx9XERs", "width": 1}, {"from": "3PE5GLDk", "to": "ncU66Vrg", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

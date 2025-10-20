@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:k6bieVh7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:K4TocMAK,
+        faamentity:LQE77nqs,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MpcFo7ct,
+        faamentity:PXYCpRXf,
+        faamentity:agWvDDr6 ;
+    schema1:hasPart faamentity:DvJ3bpUT ;
+    schema1:identifier "16004021"^^xsd:string,
+        "BNF-43257976p"^^xsd:string,
+        "k6bieVh7"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb43257976p"^^schema1:url ;
+    skos:prefLabel "Sonata n° 40 (gigue en sol). Revision par Vincent d' Indy"^^xsd:string ;
+    wd:P217 "FOL-VM-1 (207)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"k6bieVh7-55cae00f-c4e8-473a-bc0b-c25a9694c49c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"k6bieVh7-aa555244-c85d-4b0f-bec9-c0c72918a91e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"k6bieVh7-cbd220b6-68ff-482e-a681-f041e38896df"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:agWvDDr6 a rdf:object .
+

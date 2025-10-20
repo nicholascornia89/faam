@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jsocgzie a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:QeqFpJLJ,
+        faamentity:TUdHPWU8,
+        faamentity:bTYqbr5b ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:im53S5Ag ;
+    schema1:identifier "15992343"^^xsd:string,
+        "KCA-030904338792"^^xsd:string,
+        "jsocgzie"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12958873/N"^^schema1:url ;
+    skos:prefLabel "Cours pratique et théorique d'harmonie"^^xsd:string ;
+    wd:P217 "MM-TH-SARLY-courspr-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"jsocgzie-550ed315-5933-461b-b56e-a0797ae5df49"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"jsocgzie-b41615ba-8d76-4e36-83c5-c70aa8c0d631"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:im53S5Ag a rdf:object .
+

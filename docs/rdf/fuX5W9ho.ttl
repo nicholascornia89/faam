@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fuX5W9ho a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:XED8Jehz ;
+    schema1:birthDate "1815-01-01"^^xsd:string ;
+    schema1:deathDate "1880-01-01"^^xsd:string ;
+    schema1:description "French flautist, composer and conductor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q12319158>,
+        "15995996"^^xsd:string,
+        "fuX5W9ho"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean Rémusat"^^xsd:string ;
+    skos:prefLabel "Jean Rémusat"^^xsd:string ;
+    wd:P108 faamentity:5dGBcQ2o,
+        faamentity:GeX36noV ;
+    wd:P1303 faamentity:AdNoqEfD ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:39645772 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30024098> ;
+    wd:P839 <https://imslp.org/wiki/Category:Remusat,_Jean> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:RVTQxuie,
+        faamentity:TDF2knmi .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WeaEEeU5 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "city in the German state of Saxony-Anhalt"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2814>,
+        "31601"^^xsd:string,
+        "WeaEEeU5"^^xsd:string ;
+    schema1:location faamentity:CTNhzr7a ;
+    skos:altLabel "Halle"^^xsd:string,
+        "Halle (Saale)"^^xsd:string,
+        "Halle a. d. Saale"^^xsd:string,
+        "Halle an der Saale"^^xsd:string,
+        "Halle, Saxony-Anhalt"^^xsd:string,
+        "Halle/Saale"^^xsd:string ;
+    skos:prefLabel "Halle"^^xsd:string ;
+    wd:P1566 gn:2911516 .
+

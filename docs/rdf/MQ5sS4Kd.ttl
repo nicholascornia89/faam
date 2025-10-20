@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MQ5sS4Kd a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1604-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:D7zj8y2m ;
+    schema1:deathDate "1688-01-08"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer of the Baroque"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1441040>,
+        "16005186"^^xsd:string,
+        "MQ5sS4Kd"^^xsd:string ;
+    skos:altLabel "Francesco Foggia"^^xsd:string ;
+    skos:prefLabel "Francesco Foggia"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:67681078 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000460> ;
+    wd:P737 faamentity:4KdX6pir,
+        faamentity:5wG4dxFC,
+        faamentity:9zEoHUZY ;
+    wd:P839 <https://imslp.org/wiki/Category:Foggia,_Francesco> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:C3NTYuH8 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Rs5eQCdV ;
+    schema1:birthDate "1714-07-02"^^xsd:string ;
+    schema1:birthPlace faamentity:efBz2b3s ;
+    schema1:deathDate "1787-11-15"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "opera composer (1714–1787)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130759>,
+        "15995954"^^xsd:string,
+        "C3NTYuH8"^^xsd:string ;
+    schema1:nationality faamentity:RM9imfPD,
+        faamentity:jzSuLNvo ;
+    skos:altLabel "Christoph Willibald"^^xsd:string,
+        "Christoph Willibald Gluck"^^xsd:string,
+        "Christoph Willibald Gluck, Ritter von"^^xsd:string,
+        "Christoph Willibald Ritter von Gluck"^^xsd:string,
+        "Christoph Willibald von Gluck"^^xsd:string,
+        "Christoph von Glück"^^xsd:string ;
+    skos:prefLabel "Christoph Willibald von Gluck"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:37101876 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/67338> ;
+    wd:P737 faamentity:mwVnivR7 ;
+    wd:P839 <https://imslp.org/wiki/Category:Gluck,_Christoph_Willibald> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

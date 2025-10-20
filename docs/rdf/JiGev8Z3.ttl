@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JiGev8Z3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:8Au3ocED,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:QfLRrJ2B,
+        faamentity:SRaiiKJr,
+        faamentity:amkJ6EBs,
+        faamentity:eSzqVmee,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:E4rhHet3,
+        faamentity:H9peVKU2,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:TZfafBBe,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:KY2aeeY7 ;
+    schema1:identifier "15992651"^^xsd:string,
+        "JiGev8Z3"^^xsd:string,
+        "KCG-000333278"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333278"^^schema1:url ;
+    skos:prefLabel "Grand Quintetto : pour piano et hautbois, clarinette, cor et basson : Op. 16"^^xsd:string ;
+    wd:P217 "A-864"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JiGev8Z3-3fd23ced-6a30-4106-8124-8872feff753e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"JiGev8Z3-448ad80b-c97e-4658-bda7-d01d4ac048da"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JiGev8Z3-910defdc-5d0f-4142-b492-762bd2ecc1aa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

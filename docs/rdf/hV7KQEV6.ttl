@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hV7KQEV6 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Flemish daily newspaper published by Mediahuis"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1180325>,
+        "16004797"^^xsd:string,
+        "hV7KQEV6"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3,
+        faamentity:LLig8HvV ;
+    skos:altLabel "De Standaard"^^xsd:string,
+        "standaard.be"^^xsd:string ;
+    skos:prefLabel "De Standaard"^^xsd:string .
+

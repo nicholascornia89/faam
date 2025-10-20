@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:A2mPYkh6 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:HKyA3Qzz,
+        faamentity:QeqFpJLJ,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee ;
+    faamprop:score_complexity faamentity:cmQGFaLi ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:TvgVbkP2 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Fg7TKHYg,
+        faamentity:Mv447n3U ;
+    schema1:identifier "15992265"^^xsd:string,
+        "A2mPYkh6"^^xsd:string,
+        "KCA-030902640017"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12979564/N"^^schema1:url ;
+    skos:prefLabel "Offrande: (aquarelle)"^^xsd:string ;
+    wd:P217 "MM-DUBP-DHOED-offrand-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"A2mPYkh6-4a664a00-305c-4379-9078-e63adb6a919a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"A2mPYkh6-77498c22-d783-4c18-8062-9bcead88eb95"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"A2mPYkh6-e61809c8-9e39-4db3-83b9-69b5125a6627"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Fg7TKHYg a rdf:object .
+
+faamentity:Mv447n3U a rdf:object .
+

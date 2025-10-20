@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WyPjHYq7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:4tQBaATq,
+        faamentity:6wpp746x,
+        faamentity:8rovk6Ag,
+        faamentity:LmDaVvmF ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2MgC5TwA ;
+    schema1:identifier "15996304"^^xsd:string,
+        "KCA-030904381131"^^xsd:string,
+        "WyPjHYq7"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:15140138/N"^^schema1:url ;
+    skos:prefLabel "Giaour : mélodie Persane"^^xsd:string ;
+    wd:P217 "MM-OO-DESME-giaour-9"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:9t6BfJ2T,
+        faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:HQVKy2Gm,
+        faamentity:HcmSE474,
+        faamentity:K9mQeF4d,
+        faamentity:MVLRXXFR,
+        faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW,
+        faamentity:WfkJpufF,
+        faamentity:enxN2zip,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"WyPjHYq7-e749ddd3-0780-479e-8bb9-bc197ac7c9d8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2MgC5TwA a rdf:object .
+

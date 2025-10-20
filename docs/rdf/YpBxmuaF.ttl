@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YpBxmuaF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:EXzrp8XT,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:UMravioT,
+        faamentity:bTYqbr5b,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:9yzt9yRS,
+        faamentity:eZ6Y2bh8 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:c3Lv7Pp5 ;
+    schema1:identifier "15992287"^^xsd:string,
+        "KCA-030901779048"^^xsd:string,
+        "YpBxmuaF"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7056340/N"^^schema1:url ;
+    skos:prefLabel "Karel van Gelderland: rol van den hertog"^^xsd:string ;
+    wd:P217 "MM-MS-BENOI-karel-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"YpBxmuaF-137fee69-6eb4-4a48-8064-6be030e52096"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"YpBxmuaF-3e142aeb-2221-4e38-8583-f6d5f03c5768"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

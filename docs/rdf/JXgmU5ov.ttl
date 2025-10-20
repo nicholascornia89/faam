@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JXgmU5ov a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7 ;
+    schema1:birthDate "1875-02-02"^^xsd:string ;
+    schema1:birthPlace faamentity:UvT8FR5N ;
+    schema1:deathDate "1962-01-29"^^xsd:string ;
+    schema1:deathPlace faamentity:fCE3Fxej,
+        faamentity:j3uWLALG ;
+    schema1:description "Austrian violinist and composer (1875-1962)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78517>,
+        "15996109"^^xsd:string,
+        "JXgmU5ov"^^xsd:string ;
+    schema1:nationality faamentity:KWjNoJvm,
+        faamentity:WaVFWWCZ,
+        faamentity:fiWxEeqn ;
+    skos:altLabel "Fritz Kreisler"^^xsd:string ;
+    skos:prefLabel "Fritz Kreisler"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56796717 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/52067> ;
+    wd:P737 faamentity:m7KgLG5o ;
+    wd:P839 <https://imslp.org/wiki/Category:Kreisler,_Fritz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo .
+

@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8gpNYzW2 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:GKShCHKk,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:QyAptNqX ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Q9hzqiq3,
+        faamentity:Xt8m8K6L ;
+    schema1:hasPart faamentity:i9Tg828C ;
+    schema1:identifier "15992735"^^xsd:string,
+        "8gpNYzW2"^^xsd:string,
+        "KCG-000370141"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000370141"^^schema1:url ;
+    skos:prefLabel "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"8gpNYzW2-03e45964-01a2-4929-a653-827c309ca601"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"8gpNYzW2-8c4ceaae-70c7-4db3-b5cb-46322fbf3300"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"8gpNYzW2-fecf3be5-c019-484c-aedb-9cc09030fb37"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Q9hzqiq3 a rdf:object .
+
+faamentity:Xt8m8K6L a rdf:object .
+

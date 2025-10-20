@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5ZTUJVn2 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1630"^^xsd:string ;
+    schema1:birthPlace faamentity:4HMHNgPa ;
+    schema1:deathDate "1688-01-29"^^xsd:string ;
+    schema1:deathPlace faamentity:mRsCycJu ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q320534>,
+        "15995841"^^xsd:string,
+        "5ZTUJVn2"^^xsd:string ;
+    skos:altLabel "Carlo Pallavicino"^^xsd:string,
+        "Pallavicini"^^xsd:string ;
+    skos:prefLabel "Carlo Pallavicino"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79210641 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003864> ;
+    wd:P839 <https://imslp.org/wiki/Category:Pallavicino,_Carlo> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QJhBdvTq,
+        faamentity:ZhptKYF3 .
+

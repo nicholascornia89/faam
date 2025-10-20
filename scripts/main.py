@@ -137,8 +137,8 @@ def data_visualization():
     generate_image_carousel(faam_kb, github_api_repo, repo_name)
 
     # generate pyvis networks
-    # print("Generating graph networks visualizations...")
-    # generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
+    print("Generating graph networks visualizations...")
+    generate_faam_graphs(faam_kb, graph_attributes_type_filename, out_dir)
 
 
 def data_validation():
@@ -287,11 +287,6 @@ def statistics():
 def mkdocs_pages():
     faam_kb = load_latest_JSON(os.path.join(out_dir, "faam_kb"))
 
-    # return basic statistics
-    print("Some statistics...")
-    basic_statistics(faam_kb)
-    annotations_statistics(faam_kb)
-
     print("Generating Markdown pages from data...")
     # Mkdocs
     generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir)
@@ -304,8 +299,8 @@ def mkdocs_pages():
 
 # nodegoat_import()
 # wikidata_SPARQL_enhance()  ## It stall at a certain point...
-faam_kb()
+# faam_kb()
 # data_visualization()
-statistics()
-data_validation()
-# mkdocs_pages()
+# statistics()
+# data_validation()
+mkdocs_pages()

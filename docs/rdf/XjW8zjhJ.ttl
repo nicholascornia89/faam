@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XjW8zjhJ a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:identifier "16002656"^^xsd:string,
+        "XjW8zjhJ"^^xsd:string ;
+    skos:prefLabel "O magnum mysterium"^^xsd:string ;
+    wd:P5202 faamentity:mK2saWSr ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/O_magnum_mysterium_(Victoria,_Tomás_Luis_de)> .
+

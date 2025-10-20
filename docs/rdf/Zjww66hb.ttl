@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Zjww66hb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:atGzytDR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:QHAoKPG8,
+        faamentity:WAQsFi5i,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:C3NTYuH8,
+        faamentity:S63SGbw2 ;
+    schema1:hasPart faamentity:WqjAiCxw ;
+    schema1:identifier "15992755"^^xsd:string,
+        "KCG-000345536"^^xsd:string,
+        "Zjww66hb"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000345536"^^schema1:url ;
+    skos:prefLabel "Tempête d'Iphigénie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrangée pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum"^^xsd:string ;
+    wd:P217 "DS-1516-(8)"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:LoXSg3U3,
+        faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"Zjww66hb-0779d173-6e44-4fd8-ac22-f51580e6b53d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:location faamentity:dtkJhYLf .
+
+"Zjww66hb-ab5e6c63-9c82-401c-9c6f-b2f1c8089813"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:C3NTYuH8 a rdf:object .
+
+faamentity:S63SGbw2 a rdf:object .
+

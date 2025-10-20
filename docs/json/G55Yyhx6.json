@@ -1,0 +1,130 @@
+{
+  "id": "G55Yyhx6",
+  "uuid_num": 27473586318058,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Oxford"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "city in Oxfordshire, England"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Oxford, England"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q34217",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Oxford"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "G55Yyhx6"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "2640729",
+        "base_url": "https://www.geonames.org/",
+        "label": "2640729"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "KmPGztnu",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "5dnsPezu",
+        "type": "item",
+        "label": "Orlando Gibbons",
+        "description": "English composer, virginalist and organist (1583-1625)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Orlando_Gibbons.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "WuKCNtNE",
+        "type": "item",
+        "label": "Oriel College",
+        "description": "college of the University of Oxford"
+      },
+      {
+        "id": "LC9cCP45",
+        "type": "item",
+        "label": "University College, Oxford",
+        "description": "Constituent College of Oxford University"
+      },
+      {
+        "id": "M5vog5yS",
+        "type": "item",
+        "label": "University of Oxford",
+        "description": "collegiate research university in Oxford, England (Est. 1096)"
+      },
+      {
+        "id": "kadw32yr",
+        "type": "item",
+        "label": "Magdalen College",
+        "description": "constituent college of the University of Oxford in England"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "G55Yyhx6.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "G55Yyhx6.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "G55Yyhx6.csv"
+      }
+    ]
+  }
+}

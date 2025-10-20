@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QxFSEUST a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GepDoTXn,
+        faamentity:TWwN9yoM,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:FzuLDZCr,
+        faamentity:X8CowJzi,
+        faamentity:Xt8m8K6L ;
+    schema1:hasPart faamentity:cndk234f ;
+    schema1:identifier "15992746"^^xsd:string,
+        "KCG-000333995"^^xsd:string,
+        "QxFSEUST"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333995"^^schema1:url ;
+    skos:prefLabel "DUO BRILLANT: composé sur les motifs de la Sonnambule de Bellini/par J. Benedict & C. De Bériot;arrangé pour flûte et piano par Tulou. : Voor fluit en piano."^^xsd:string ;
+    wd:P217 "A1461 (8);A1461 (BIS20)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"QxFSEUST-2484c981-8bec-42c8-bb1f-e0d753dae31d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"QxFSEUST-65cfff2e-1e66-42a1-a07b-c52510ef2d51"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"QxFSEUST-6c4003ec-2a22-4a52-9c35-7e12da3c5755"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:FzuLDZCr a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:Xt8m8K6L a rdf:object .
+

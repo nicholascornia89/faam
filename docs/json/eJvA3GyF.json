@@ -1,0 +1,137 @@
+{
+  "id": "eJvA3GyF",
+  "uuid_num": 70956425579731,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "colla parte"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "Musical indication to play another, written-out part, or to an accompanist to look to the main part for guidance on tempo"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "colla parte"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q126950983",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "colla parte"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "eJvA3GyF"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992188"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      },
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "3ywrWJLQ",
+        "type": "item",
+        "label": "Livre des motets (3e année)",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-KV105371.gif"
+        }
+      },
+      {
+        "id": "JHJZeU8t",
+        "type": "item",
+        "label": "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000344649.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "eJvA3GyF.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "eJvA3GyF.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "eJvA3GyF.csv"
+      }
+    ]
+  }
+}

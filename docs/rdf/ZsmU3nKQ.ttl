@@ -1,0 +1,41 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZsmU3nKQ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:TZfafBBe,
+        faamentity:UKFh22Sf ;
+    schema1:identifier "16005440"^^xsd:string,
+        "ORP-20143701p7"^^xsd:string,
+        "ZsmU3nKQ"^^xsd:string ;
+    schema1:url "https://cat.orpheusinstituut.be/cgi-bin/koha/opac-detail.pl?biblionumber=22187"^^schema1:url ;
+    skos:prefLabel "Polonaise"^^xsd:string ;
+    wd:P217 "KTS1 H.11.map.005"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"ZsmU3nKQ-221999b0-885a-443b-8b76-a252de6fd3d3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"ZsmU3nKQ-60546926-06c9-4d65-bfea-da4849a66e74"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "05-1903"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:UKFh22Sf a rdf:object .
+

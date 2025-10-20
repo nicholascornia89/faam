@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7ahVeGBq a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1455"^^xsd:string ;
+    schema1:birthPlace faamentity:FaAPk9NS,
+        faamentity:Ha7SvtCj ;
+    schema1:deathDate "1521-08-27"^^xsd:string ;
+    schema1:deathPlace faamentity:64PNyV5U ;
+    schema1:description "composer of the Renaissance (c. 1450–1521)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q143100>,
+        "15995989"^^xsd:string,
+        "7ahVeGBq"^^xsd:string ;
+    schema1:nationality faamentity:AjMZtbmy,
+        faamentity:BJqUa5Kf ;
+    skos:altLabel "Des Pres, Josquin"^^xsd:string,
+        "Des Préz, Josquin"^^xsd:string,
+        "Iodocus a Prato"^^xsd:string,
+        "Iosquinus Pratensis"^^xsd:string,
+        "Josquin"^^xsd:string,
+        "Josquin Despres"^^xsd:string,
+        "Josquin Desprez"^^xsd:string,
+        "Josquin Lebloitte"^^xsd:string,
+        "Josquin des Prez"^^xsd:string ;
+    skos:prefLabel "Josquin des Prez"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100226284 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/20000367> ;
+    wd:P737 faamentity:5viEvD6v ;
+    wd:P839 <https://imslp.org/wiki/Category:Josquin_Desprez> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

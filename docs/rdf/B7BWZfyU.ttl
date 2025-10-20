@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:B7BWZfyU a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1833-05-07"^^xsd:string ;
+    schema1:birthPlace faamentity:TrVTMFdZ ;
+    schema1:deathDate "1897-04-03"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "German composer (1833–1897)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7294>,
+        "15996147"^^xsd:string,
+        "B7BWZfyU"^^xsd:string ;
+    schema1:nationality faamentity:TrVTMFdZ ;
+    skos:altLabel "Brahms"^^xsd:string,
+        "J. Brahms"^^xsd:string,
+        "Johannes Brahms"^^xsd:string ;
+    skos:prefLabel "Johannes Brahms"^^xsd:string ;
+    wd:P108 faamentity:DRRhn6P7,
+        faamentity:MBCTh4Kb,
+        faamentity:eXihr5eD ;
+    wd:P1303 faamentity:2nFJpnZ8,
+        faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:7573295 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/39914> ;
+    wd:P737 faamentity:WVLULWiW ;
+    wd:P839 <https://imslp.org/wiki/Category:Brahms,_Johannes> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

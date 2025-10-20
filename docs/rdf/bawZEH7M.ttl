@@ -1,0 +1,50 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bawZEH7M a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:GepDoTXn,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:kpGZyoEa ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:GqVyixZo,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:a4zMCgWQ,
+        faamentity:bksidguC ;
+    schema1:identifier "16005042"^^xsd:string,
+        "BNF-42807018w"^^xsd:string,
+        "bawZEH7M"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42807018w"^^schema1:url ;
+    skos:prefLabel "Nouvelle méthode de violoncelle, théorique et pratique, en trois parties, contenant de nombreuses photographies explicatives, des extraits et des cadences des concertos les plus connus, et suivie d'une étude symphonique par l'auteur"^^xsd:string ;
+    wd:P217 "VM8 E-49"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8 .
+
+schema1:contributor a rdf:predicate .
+
+"bawZEH7M-172c8185-75cc-49d2-bec2-36e31ebc545e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1900"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"bawZEH7M-6649ed11-905e-4695-86ff-a8750d2175ee"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:a4zMCgWQ a rdf:object .
+
+faamentity:bksidguC a rdf:object .
+

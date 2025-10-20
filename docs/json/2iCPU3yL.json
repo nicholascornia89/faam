@@ -1,0 +1,134 @@
+{
+  "id": "2iCPU3yL",
+  "uuid_num": 1378101307971,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "sharp sign"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical sign (accidental) raising the pitch of a note by one chromatic semitone (factor 2^(1/12))"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "dièse"
+      },
+      {
+        "type": "string",
+        "value": "diesis"
+      },
+      {
+        "type": "string",
+        "value": "♯"
+      },
+      {
+        "type": "string",
+        "value": "diese"
+      },
+      {
+        "type": "string",
+        "value": "♯-sign"
+      },
+      {
+        "type": "string",
+        "value": "sharp sign"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2542618",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sharp sign"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "2iCPU3yL"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002352"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "8N6k5W5i",
+        "label": "accidental"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2iCPU3yL.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2iCPU3yL.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2iCPU3yL.csv"
+      }
+    ]
+  }
+}

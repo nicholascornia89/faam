@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HX8ujrS4 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:GjurMHUq ;
+    schema1:birthDate "1878-08-01"^^xsd:string,
+        "1878-08-13"^^xsd:string ;
+    schema1:birthPlace faamentity:NbE6d3Kx ;
+    schema1:deathDate "1942-10-11"^^xsd:string ;
+    schema1:deathPlace faamentity:MxdHxGnG ;
+    schema1:description "Russian musician (1878–1942)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2023778>,
+        "0"^^xsd:string,
+        "HX8ujrS4"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM,
+        faamentity:WGfsorKE,
+        faamentity:c4DdDGWx ;
+    skos:altLabel "Leonid Vladimirovich Nikolayev"^^xsd:string ;
+    skos:prefLabel "Leonid Nikolayev"^^xsd:string ;
+    wd:P108 faamentity:VwZmF2Uv ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:8154551 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:5BaW98TL,
+        faamentity:EFwVuC3c,
+        faamentity:V3VhtSwp,
+        faamentity:hUzCSsxA ;
+    wd:P839 <https://imslp.org/wiki/Category:Nikolayev,_Leonid_Vladimirovich> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:bSHypyYG .
+

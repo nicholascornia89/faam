@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VaLifJKc a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:kbd9itZ9 ;
+    schema1:birthDate "1814-08-17"^^xsd:string ;
+    schema1:birthPlace faamentity:mfnsFcRY ;
+    schema1:deathDate "1894-09-20"^^xsd:string ;
+    schema1:deathPlace faamentity:6WHPpjFs ;
+    schema1:description "French classicist and translator (1814–1894)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q18117908>,
+        "16005252"^^xsd:string,
+        "VaLifJKc"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Eugène Talbot"^^xsd:string ;
+    skos:prefLabel "Eugène Talbot"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14777152 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:3u3udDbY,
+        faamentity:4oKtB5xy,
+        faamentity:5aTYuVxp,
+        faamentity:QBx3kSJW,
+        faamentity:jQjsdegi,
+        faamentity:nrDVDBKf .
+

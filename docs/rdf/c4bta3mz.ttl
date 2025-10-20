@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:c4bta3mz a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:7aSYFGEc ;
+    schema1:birthDate "1789-10-18"^^xsd:string ;
+    schema1:birthPlace faamentity:MxnLw4ay ;
+    schema1:deathDate "1872-11-29"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5563995>,
+        "15996089"^^xsd:string,
+        "c4bta3mz"^^xsd:string ;
+    schema1:nationality faamentity:Fkfrx6rD ;
+    skos:altLabel "Giovanni Tadolini"^^xsd:string ;
+    skos:prefLabel "Giovanni Tadolini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:64198504 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/477625> ;
+    wd:P839 <https://imslp.org/wiki/Category:Tadolini,_Giovanni> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:HrJb4zkG,
+        faamentity:L7DPWnnr,
+        faamentity:QBx3kSJW,
+        faamentity:TDF2knmi .
+

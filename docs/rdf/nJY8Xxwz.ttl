@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nJY8Xxwz a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "ensemble of singers"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q131186>,
+        "15990838"^^xsd:string,
+        "nJY8Xxwz"^^xsd:string ;
+    skos:altLabel "Choral"^^xsd:string,
+        "choir"^^xsd:string,
+        "chorale"^^xsd:string,
+        "chorus"^^xsd:string ;
+    skos:prefLabel "choir"^^xsd:string ;
+    wd:P279 faamentity:CJoa47fb,
+        faamentity:fMbhN9U3 ;
+    wd:P31 faamentity:EXxiFmBU .
+

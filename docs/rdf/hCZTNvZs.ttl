@@ -1,0 +1,86 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hCZTNvZs a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:JwqBvu9Z,
+        faamentity:MR3kLpuM,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:kNneakGU ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:9z8RdMRP,
+        faamentity:CGy68nTi,
+        faamentity:X3yMqYb6,
+        faamentity:nPY6863Z ;
+    schema1:identifier "16005655"^^xsd:string,
+        "DPF-202502004"^^xsd:string,
+        "hCZTNvZs"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Missa in honorem Sanctae Lutgardis"^^xsd:string ;
+    skosref:note "Supplementum ad periodicum \"Musica Sacra\", no. 1, martii 1930."^^rdf:HTML ;
+    wd:P217 "ms-1930-01"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"hCZTNvZs-10491685-a036-4f4c-b2fc-c9a814519c04"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"hCZTNvZs-adbebdcd-5917-43ba-9429-7b4c7af61632"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "03-1930"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"hCZTNvZs-c2b8ef52-42a6-4375-9d89-3a725667094e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"hCZTNvZs-ca4aa793-265d-4ec8-ae0e-85e63c3e1473"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"hCZTNvZs-fa62b51d-59a5-4c7a-a016-f29c32124978"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:9z8RdMRP a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+
+faamentity:nPY6863Z a rdf:object .
+

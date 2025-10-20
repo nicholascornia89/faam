@@ -1,0 +1,125 @@
+{
+  "id": "aC7fDAzE",
+  "uuid_num": 62903085353307,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "voice leading"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "decision-making consideration when arranging voices in musical composition"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Contrapuntal motion"
+      },
+      {
+        "type": "string",
+        "value": "voice leading"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2027877",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "voice leading"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "aC7fDAzE"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002130"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "XQ7Dcasr",
+        "label": "musical-structural concept"
+      },
+      {
+        "type": "item",
+        "value": "Mk25KX72",
+        "label": "music theory"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "9QaFAsRL",
+        "label": "scholar (owner)"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "FshUpZtG",
+        "type": "item",
+        "label": "Missa \"tu es Petrus\": sex vocum",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991099181519707356.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aC7fDAzE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aC7fDAzE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aC7fDAzE.csv"
+      }
+    ]
+  }
+}

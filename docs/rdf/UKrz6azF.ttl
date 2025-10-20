@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:UKrz6azF a rdfs:Resource ;
+    faamprop:related_to faamentity:4Jjg5FwX,
+        faamentity:NkfcVjHM ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1815-03-08"^^xsd:string ;
+    schema1:birthPlace faamentity:GB6e29T9 ;
+    schema1:deathDate "1888-02-22"^^xsd:string ;
+    schema1:deathPlace faamentity:V8nKLsFV ;
+    schema1:description "French musician (1815–1888)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q633796>,
+        "16005012"^^xsd:string,
+        "UKrz6azF"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Jean-Delphin Alard"^^xsd:string ;
+    skos:prefLabel "Jean-Delphin Alard"^^xsd:string ;
+    wd:P108 faamentity:mNynReve ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:17490084 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30016267> ;
+    wd:P737 faamentity:9Zw2Drsu,
+        faamentity:koReuX6g ;
+    wd:P839 <https://imslp.org/wiki/Category:Alard,_Jean_Delphin> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:L7DPWnnr .
+

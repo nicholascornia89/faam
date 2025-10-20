@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NeLYGWBM a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "French opera by Daniel-François-Esprit Auber"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5972139>,
+        "0"^^xsd:string,
+        "NeLYGWBM"^^xsd:string ;
+    schema1:isBasedOn faamentity:ZiSme3ZG ;
+    skos:altLabel "Le philtre"^^xsd:string ;
+    skos:prefLabel "Le philtre"^^xsd:string ;
+    wd:P7937 faamentity:7AXGCpck .
+

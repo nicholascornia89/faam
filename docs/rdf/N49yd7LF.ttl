@@ -1,0 +1,76 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N49yd7LF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:iyfjpyT2,
+        faamentity:jLreunkg,
+        faamentity:mkCY9LDD,
+        faamentity:nQn3aXpr ;
+    faamprop:handwritten_annotation faamentity:4bLsvwPs,
+        faamentity:EqtAuzbH,
+        faamentity:Jx8FMpyt,
+        faamentity:aAsRZoVk,
+        faamentity:bTYqbr5b,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:KdGKqPWR,
+        faamentity:T9uNf9Ax,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8jDWaZXx,
+        faamentity:DDH7fEFM,
+        faamentity:fn2MuUnv ;
+    schema1:hasPart faamentity:EKeibArU ;
+    schema1:identifier "15992532"^^xsd:string,
+        "KCA-030902163374"^^xsd:string,
+        "N49yd7LF"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6719077/N"^^schema1:url ;
+    skos:prefLabel "Préludes : pour piano"^^xsd:string ;
+    skosref:related faamentity:EXaTFDir,
+        faamentity:jHJnTqYF,
+        faamentity:mDEpSGUY,
+        faamentity:mGQ2MEug,
+        faamentity:nQn3aXpr ;
+    wd:P217 "UM-TP-GERSH-prelu-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"N49yd7LF-140f1110-49c4-446b-854e-58a939735f37"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"N49yd7LF-2df4fd5a-27c1-4ff0-ad41-b87dd95856f7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"N49yd7LF-a6fc60e9-8bb1-43ac-b3e3-274a0bd32930"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:8jDWaZXx a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:fn2MuUnv a rdf:object .
+

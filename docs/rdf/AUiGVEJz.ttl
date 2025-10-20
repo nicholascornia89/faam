@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AUiGVEJz a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:QeqFpJLJ,
+        faamentity:TLaaNgbw,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:TvgVbkP2 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Rz4AdCV3,
+        faamentity:nPY6863Z ;
+    schema1:hasPart faamentity:KC4gnA6k ;
+    schema1:identifier "15992281"^^xsd:string,
+        "AUiGVEJz"^^xsd:string,
+        "KCA-030902700712"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12858959/N"^^schema1:url ;
+    skos:prefLabel "O Maria die daar staat : lied voor sopraan of tenor"^^xsd:string ;
+    wd:P217 "MM-LEPP-PEETE-omaria-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"AUiGVEJz-7d9276de-2630-4d4e-bb71-495318b6e3eb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"AUiGVEJz-c22e465f-573e-4108-875c-fb82015b7694"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"AUiGVEJz-c88e1e77-d97c-478b-bf32-22dbb410388c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Rz4AdCV3 a rdf:object .
+
+faamentity:nPY6863Z a rdf:object .
+

@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:brP3Q5as a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:NxRMTXgV,
+        faamentity:QyAptNqX,
+        faamentity:eJhxFoas ;
+    faamprop:handwritten_annotation faamentity:QeqFpJLJ,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:YsZjAKhZ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Naw52sHU,
+        faamentity:n3iBdnNB ;
+    schema1:identifier "15992393"^^xsd:string,
+        "KCA-030904711642"^^xsd:string,
+        "brP3Q5as"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6783592/N"^^schema1:url ;
+    skos:prefLabel "Nocturne : pour piano"^^xsd:string ;
+    skosref:note "Second Edition."^^rdf:HTML ;
+    skosref:related faamentity:nPp9pdM8 ;
+    wd:P217 "MM-TP-GILSO-noctu-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"brP3Q5as-0ad33553-89df-41b4-b173-a32a15c8ce7f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"brP3Q5as-9dfa6281-e9e3-4944-ad4d-71acc5c9102a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"brP3Q5as-e965af3c-6e07-4d65-b915-cd1e80ba8684"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Naw52sHU a rdf:object .
+
+faamentity:n3iBdnNB a rdf:object .
+

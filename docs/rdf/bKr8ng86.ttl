@@ -1,0 +1,49 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bKr8ng86 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1712-06-28"^^xsd:string ;
+    schema1:birthPlace faamentity:eJe565fW ;
+    schema1:deathDate "1778-07-02"^^xsd:string ;
+    schema1:deathPlace faamentity:BrGDbQMx ;
+    schema1:description "Genevan philosopher, writer, and composer (1712–1778)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6527>,
+        "16005064"^^xsd:string,
+        "bKr8ng86"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:mNCjG59Z ;
+    skos:altLabel "Citizen of Geneva"^^xsd:string,
+        "Jean-Jacques Rousseau"^^xsd:string ;
+    skos:prefLabel "Jean Jacques Rousseau"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100184045 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/67075> ;
+    wd:P839 <https://imslp.org/wiki/Category:Rousseau,_Jean-Jacques> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:4yt5EE7y,
+        faamentity:5aTYuVxp,
+        faamentity:6pfzESag,
+        faamentity:CaE8K7ZF,
+        faamentity:ELKwPhtK,
+        faamentity:EU8pReRh,
+        faamentity:EfYVMj9T,
+        faamentity:NdvmaeTr,
+        faamentity:SucjbMJQ,
+        faamentity:Tj5k8Dah,
+        faamentity:YrCfZ8vh,
+        faamentity:Z82mUmvc,
+        faamentity:aB6ga3Wq,
+        faamentity:bSHypyYG,
+        faamentity:jRPz5KUj .
+

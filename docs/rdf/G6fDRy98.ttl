@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G6fDRy98 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:k6GNqQ5D,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6iVvX3mY,
+        faamentity:8cEGTiq9,
+        faamentity:GecAsFfL,
+        faamentity:HyU2Z63V ;
+    schema1:hasPart faamentity:MHKmHYhH ;
+    schema1:identifier "16004025"^^xsd:string,
+        "BSB-991076574139707356"^^xsd:string,
+        "G6fDRy98"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00133716"^^schema1:url ;
+    skos:prefLabel "Fantasia chromatica"^^xsd:string ;
+    skosref:note "This piece is part of \"Anthologie classique tirée des oeuvres de Bach, Scarlatti, Händel, Mozart etc. : pour le piano seul ; No. 32\""^^rdf:HTML ;
+    wd:P217 "2 Mus.pr. 8594"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"G6fDRy98-13b037d2-c52c-48ce-90e7-c0a70bd2fa06"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:UvT8FR5N .
+
+"G6fDRy98-353e3001-2c1f-439a-9a4b-00c96fd54612"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:PNeLQZnK .
+
+"G6fDRy98-c5a795c5-7a16-4015-a348-94bcfd97fe01"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"G6fDRy98-d5269b84-dc72-4faa-a073-7419b4c1b3ff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:6iVvX3mY a rdf:object .
+
+faamentity:8cEGTiq9 a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:HyU2Z63V a rdf:object .
+

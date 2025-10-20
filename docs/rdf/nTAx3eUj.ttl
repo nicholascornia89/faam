@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nTAx3eUj a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:HKyA3Qzz,
+        faamentity:QfLRrJ2B,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:2h2SFxjw,
+        faamentity:4Jjg5FwX,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:25bLvjC3,
+        faamentity:giGMGFod ;
+    schema1:identifier "16004383"^^xsd:string,
+        "KCA-KMT175228"^^xsd:string,
+        "nTAx3eUj"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6782893/N"^^schema1:url ;
+    skos:prefLabel "Grand trio pour violon, alto et violoncelle"^^xsd:string ;
+    wd:P217 "KMT"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d .
+
+schema1:contributor a rdf:predicate .
+
+"nTAx3eUj-6558f618-90ad-4a11-9c54-a81055eb1714"^^xsd:string a rdf:Statement .
+
+"nTAx3eUj-d2e0ad94-0e5f-4240-8f2b-0ef2386b4ce3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:25bLvjC3 a rdf:object .
+
+faamentity:giGMGFod a rdf:object .
+

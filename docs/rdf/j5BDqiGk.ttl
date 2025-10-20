@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j5BDqiGk a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:EgkVbUEo,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:amkJ6EBs,
+        faamentity:eJhxFoas,
+        faamentity:eSzqVmee,
+        faamentity:ieqEGEHo,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:hChNthvw ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Mk25KX72,
+        faamentity:NkfcVjHM,
+        faamentity:ZS9h3s2q ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:biAt5GhS ;
+    schema1:identifier "16004109"^^xsd:string,
+        "BNF-428941994"^^xsd:string,
+        "j5BDqiGk"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb428941994"^^schema1:url ;
+    skos:prefLabel "Méthode de chant"^^xsd:string ;
+    skosref:note "Signature by G. Duprez dated 8 May 1838"^^rdf:HTML ;
+    wd:P217 "VM8 A-48"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"j5BDqiGk-e9e8988d-d276-4d0a-b5b7-cea92fecf412"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:biAt5GhS a rdf:object .
+

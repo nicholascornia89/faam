@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FKFezSyT a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:gWqSeD3z ;
+    schema1:description "piano concerto by Carl Maria von Weber"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11331308>,
+        "16002553"^^xsd:string,
+        "FKFezSyT"^^xsd:string ;
+    skos:altLabel "Piano Concerto No. 1"^^xsd:string,
+        "Piano Concerto in C major"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No.1, Op.11"^^xsd:string ;
+    wd:P7937 faamentity:iHeydB2F ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.1_in_C_major,_Op.11_(Weber,_Carl_Maria_von)> .
+

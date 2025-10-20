@@ -1,0 +1,49 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cWBNaHX3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6B7CRduX,
+        faamentity:Gx3B7DJH,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5yDGjqgE,
+        faamentity:n2KyzS34 ;
+    schema1:identifier "15992726"^^xsd:string,
+        "CBM-TORRMsA88"^^xsd:string,
+        "cWBNaHX3"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Douze nouveaux quatuors concertants pour deux Violons, Alto, et Violoncelle I"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.88"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d .
+
+schema1:contributor a rdf:predicate .
+
+"cWBNaHX3-004fe50c-5fd8-40aa-b4ba-a8fa58e9b7d8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"cWBNaHX3-ec6a8797-e1f6-4dde-9aa4-d2797a60999f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:CgZzMq22 .
+
+faamentity:5yDGjqgE a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JHKHS92V a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:AB4X4hGP,
+        faamentity:JwqBvu9Z,
+        faamentity:S8SxfonU,
+        faamentity:UMravioT,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:3eoZBogt,
+        faamentity:7AXGCpck,
+        faamentity:LmDaVvmF ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:LQND7DE7,
+        faamentity:MVSxrEBT,
+        faamentity:WvqsGBqo,
+        faamentity:i2Y2ZK7H ;
+    schema1:hasPart faamentity:9H8zbxcd ;
+    schema1:identifier "15992545"^^xsd:string,
+        "JHKHS92V"^^xsd:string,
+        "KCA-030901708260"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14233329/N"^^schema1:url ;
+    skos:prefLabel "Die verkaufte Braut : komische Oper in drei Akten"^^xsd:string ;
+    wd:P217 "UM-ZP-SMETA-prodana-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JHKHS92V-157fa3fd-0ae3-41cc-ba08-5e66ac50fdc5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"JHKHS92V-43cf9c91-b0d3-41a4-82af-269590a22b7f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"JHKHS92V-6914ac14-7c9c-4524-882e-3893b7af793f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JHKHS92V-72aff018-bb6b-4d0a-893e-2ecb86442546"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:MVSxrEBT a rdf:object .
+
+faamentity:WvqsGBqo a rdf:object .
+
+faamentity:i2Y2ZK7H a rdf:object .
+

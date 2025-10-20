@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mxoUEEAx a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "capital of Moldova"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q21197>,
+        "0"^^xsd:string,
+        "mxoUEEAx"^^xsd:string ;
+    schema1:location <Q217> ;
+    skos:altLabel "Chisinau"^^xsd:string,
+        "Chisnau"^^xsd:string,
+        "Chişinău"^^xsd:string,
+        "Keshenev"^^xsd:string,
+        "Keshinov"^^xsd:string,
+        "Khisinau"^^xsd:string,
+        "Kischinew"^^xsd:string,
+        "Kischiniov"^^xsd:string,
+        "Kiscinev"^^xsd:string,
+        "Kishinef"^^xsd:string,
+        "Kishinev"^^xsd:string,
+        "Kishinëv"^^xsd:string,
+        "Kiszyniów"^^xsd:string,
+        "Kişinev"^^xsd:string,
+        "Kišinìv"^^xsd:string,
+        "Kyshyniv"^^xsd:string ;
+    skos:prefLabel "Chișinău"^^xsd:string ;
+    wd:P1566 gn:618426 .
+

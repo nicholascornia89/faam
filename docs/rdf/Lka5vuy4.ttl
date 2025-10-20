@@ -1,0 +1,60 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Lka5vuy4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:RtkoMT89,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:QE9UrJXo,
+        faamentity:TZfafBBe ;
+    schema1:hasPart faamentity:J6QmeNZJ ;
+    schema1:identifier "15992714"^^xsd:string,
+        "KCA-030901428612"^^xsd:string,
+        "Lka5vuy4"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6759858/N"^^schema1:url ;
+    skos:prefLabel "Sonate : für Klavier und Horn, op. 17"^^xsd:string ;
+    wd:P217 "MM-BH-BEETH-sonat17-4 MM-BH-BEETH-sonat17-4"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"Lka5vuy4-6a945d1a-f62e-4c84-8248-e8e8321efb03"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Lka5vuy4-d5c636e9-712f-4830-b6de-e4fa2a5bbd16"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"Lka5vuy4-f3a0caac-8e44-43e9-b267-28fd655e66f6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+

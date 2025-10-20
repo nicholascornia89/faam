@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TMrEQMjJ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:HfUqmAjf,
+        faamentity:QyAptNqX,
+        faamentity:eSzqVmee ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:AB4X4hGP,
+        faamentity:K4TocMAK,
+        faamentity:PprjdkHE,
+        faamentity:UMravioT,
+        faamentity:aAsRZoVk,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:8eHc2EdM,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NvWjU4r5,
+        faamentity:bDTxxMMK ;
+    schema1:hasPart faamentity:o8oZL9Vx ;
+    schema1:identifier "15992538"^^xsd:string,
+        "KCA-030901456373"^^xsd:string,
+        "TMrEQMjJ"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6754148/N"^^schema1:url ;
+    skos:prefLabel "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward"^^xsd:string ;
+    skosref:related faamentity:3fWwPrfr,
+        faamentity:G4Rzkiwq,
+        faamentity:o8oZL9Vx ;
+    wd:P217 "UM-ZL-GEVAE-recit-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"TMrEQMjJ-718ccf95-0ec0-4939-a626-33f913128302"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"TMrEQMjJ-b8d516ec-924e-4945-89bd-71415a181c40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:NvWjU4r5 a rdf:object .
+
+faamentity:bDTxxMMK a rdf:object .
+

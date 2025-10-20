@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LuS7BbiT a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:6EMBp4Vk ;
+    schema1:identifier "16002670"^^xsd:string,
+        "LuS7BbiT"^^xsd:string ;
+    skos:prefLabel "Christus factus est pro nobis"^^xsd:string ;
+    wd:P5202 faamentity:CzyC8FNQ,
+        faamentity:S5MqiAs8,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Christus_factus_est_pro_nobis_(Anerio,_Felice)> .
+

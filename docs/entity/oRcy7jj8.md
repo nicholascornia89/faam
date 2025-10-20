@@ -1,0 +1,92 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: oRcy7jj8
+
+tags: agent
+ 
+---
+
+
+# Jean-Frédéric Edelmann (oRcy7jj8)
+
+---
+
+## Resources
+
+---
+
+[JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/oRcy7jj8.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/oRcy7jj8.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/oRcy7jj8.csv){.md-button}
+
+<img style="float: left;" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" width="250" height="200">
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label                  | aliases                | description                 | Wikidata QID                                                       |
+    | :-------: | :--------------------: | :--------------------: | :-------------------------: | :----------------------------------------------------------------: |
+    | oRcy7jj8  | Jean-Frédéric Edelmann | Jean-Frederic Edelmann | French composer (1749–1794) | [Jean-Frédéric Edelmann](http://wwww.wikidata.org/entity/Q1684863) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+!!! quote "instance of" 
+
+	- [human](./aJeJBesD.md)
+
+??? quote "instrument" 
+
+	- [piano](./PyGNLcfw.md)
+
+??? quote "occupation" 
+
+	- [composer](./5aTYuVxp.md)
+
+	- [harpsichordist](./hMYL5Z9b.md)
+
+	- [pianist](./T6nAVeGM.md)
+
+	- [music teacher](./L7DPWnnr.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/oRcy7jj8.html" height="800" width="1200" title="oRcy7jj8"></iframe>
+
+## Identifiers
+
+---
+
+!!! info "IMSLP ID" 
+
+	[Category:Edelmann,_Jean-Frédéric](https://imslp.org/wiki/Category:Edelmann,_Jean-Frédéric)
+
+!!! info "VIAF ID" 
+
+	[71584210](https://viaf.org/viaf/71584210)
+
+!!! info "RISM ID" 
+
+	[people/35814](https://rism.online/people/35814)
+
+## Cross-references
+
+---
+
+<div class="grid cards" markdown>
+
+-	__[Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano](./Hyve2CJo.md)__
+
+	![Image](../assets/images/thumbs/ORP-26137450b.gif){align=left width="150" height="150"} 
+
+	
+
+</div>

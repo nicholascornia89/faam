@@ -1,0 +1,88 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CY69q29C a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:DT4vQExr,
+        faamentity:EqtAuzbH,
+        faamentity:TK9UAG2p ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:DEL3dtgx,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:MR3kLpuM,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:RkZNQ7Ju,
+        faamentity:TLaaNgbw,
+        faamentity:TUdHPWU8,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:bTYqbr5b,
+        faamentity:crUkNjhF,
+        faamentity:ePSpfWmF,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:G8QwYiwg,
+        faamentity:VsNqPsbb ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:BacG3qJw,
+        faamentity:DDH7fEFM,
+        faamentity:FTmkdBnA,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:gEMV6Kme ;
+    schema1:identifier "15992521"^^xsd:string,
+        "CY69q29C"^^xsd:string,
+        "KCA-030904721377"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14080076/N"^^schema1:url ;
+    skos:prefLabel "Danses concertantes : for chamber orchestra = Danses concertantes : für Kammerorchester"^^xsd:string ;
+    skosref:related faamentity:7qCCArxX,
+        faamentity:b34o65NL,
+        faamentity:hChNthvw ;
+    wd:P217 "UM-OO-STRAV-dans-1"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"CY69q29C-095d5fb7-5891-4de9-936f-11bd170b7876"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"CY69q29C-4ecd8a3e-56e4-4d05-bbd1-16f8dc610a2c"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "03-02-1942"^^xsd:string ;
+    faamprop:role faamentity:AcFWzeQH ;
+    schema1:location faamentity:mMvimh8v .
+
+"CY69q29C-876c2a6f-f508-4836-9fb2-df3e706a93ea"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1942"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+"CY69q29C-95a7fd35-adce-4754-b862-84622d59133d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"CY69q29C-fc65e7b3-ed47-4fbe-9e83-09315afc4e9e"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "03-02-1942"^^xsd:string ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:mMvimh8v .
+
+faamentity:BacG3qJw a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:FTmkdBnA a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

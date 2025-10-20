@@ -1,0 +1,37 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:imYAqfW8 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Mk25KX72,
+        faamentity:NkfcVjHM,
+        faamentity:awRfkzzU,
+        faamentity:gKMU7J89 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:nXRqon53 ;
+    schema1:identifier "16004299"^^xsd:string,
+        "KCA-030903702279"^^xsd:string,
+        "imYAqfW8"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14139213/N"^^schema1:url ;
+    skos:prefLabel "Anleitung zum Generalbass-Spielen : Harmonie-Übungen am Klavier"^^xsd:string ;
+    wd:P217 "MM-MEUTW-RIEMA-anleitu-1"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt .
+
+schema1:contributor a rdf:predicate .
+
+"imYAqfW8-ae006e1b-e02d-403f-b19f-7a3417a790ff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:nXRqon53 a rdf:object .
+

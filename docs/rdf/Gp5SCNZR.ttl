@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Gp5SCNZR a rdfs:Resource ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:identifier "15992120"^^xsd:string,
+        "Gp5SCNZR"^^xsd:string ;
+    skos:prefLabel "dashed line"^^xsd:string ;
+    wd:P1535 faamentity:6UPEJgTQ,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:QeqFpJLJ ;
+    wd:P31 faamentity:DidEqfmX .
+

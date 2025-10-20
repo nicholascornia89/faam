@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2vqA3xHH a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "building in Florence, Italy"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q19984666>,
+        "0"^^xsd:string,
+        "2vqA3xHH"^^xsd:string ;
+    schema1:location faamentity:fj46nffV ;
+    skos:prefLabel "convent of Scolopi"^^xsd:string .
+

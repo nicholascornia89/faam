@@ -1,0 +1,102 @@
+{
+  "id": "TV7mnbMP",
+  "uuid_num": 49801912030689,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Académie Royale de Musique"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "aliases": [],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2920855",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Académie Royale de Musique"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "TV7mnbMP"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16004733"
+      }
+    ]
+  },
+  "statements": {
+    "place": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "BJqUa5Kf",
+        "label": "France"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "JnHemjk2",
+        "type": "item",
+        "label": "Jean-Féry Rebel",
+        "description": "French Baroque composer and violinist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Ferry_Rebel.jpg"
+        }
+      },
+      {
+        "id": "jyGKpuHY",
+        "type": "item",
+        "label": "André Campra",
+        "description": "French composer and conductor (1660-1744)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Andr%C3%A9_Campra.jpg/585px-Andr%C3%A9_Campra.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TV7mnbMP.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TV7mnbMP.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TV7mnbMP.csv"
+      }
+    ]
+  }
+}

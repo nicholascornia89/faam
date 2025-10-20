@@ -1,0 +1,74 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4mcJukFM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:JwqBvu9Z,
+        faamentity:LtW88Gtx,
+        faamentity:QyAptNqX,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR ;
+    faamprop:handwritten_annotation faamentity:GepDoTXn,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:gKMU7J89 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AV8ufSdP,
+        faamentity:DDH7fEFM,
+        faamentity:RmPLFSc4,
+        faamentity:hEdrUvf9 ;
+    schema1:identifier "16004380"^^xsd:string,
+        "4mcJukFM"^^xsd:string,
+        "KCA-030904920177"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6772302/N"^^schema1:url ;
+    skos:prefLabel "Les chérubins : pour violon et piano"^^xsd:string ;
+    wd:P217 "MM-SV-COUPE-lescher-2"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"4mcJukFM-0eed4057-c887-4b77-a3a5-d36dfe82fa80"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1914"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"4mcJukFM-1a247400-7ea7-4bb2-8b8d-2b323b575b55"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"4mcJukFM-a240d3e3-41d3-4273-96d8-47d3d41690b9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"4mcJukFM-e7a91e99-9087-4a30-ab1f-382ceb44a495"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:AV8ufSdP a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:RmPLFSc4 a rdf:object .
+
+faamentity:hEdrUvf9 a rdf:object .
+

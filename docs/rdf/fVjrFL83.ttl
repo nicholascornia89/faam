@@ -1,0 +1,25 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fVjrFL83 a rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WgWRP5cq ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:identifier "16004273"^^xsd:string,
+        "BNF-42878882w"^^xsd:string,
+        "fVjrFL83"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42878882w"^^schema1:url ;
+    skos:prefLabel "L'Organiste, journal d'orgue expressif, mélodium ou harmonium"^^xsd:string ;
+    wd:P217 "VM7-2332"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+

@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YwdYGCWW a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1752-01-23"^^xsd:string ;
+    schema1:birthPlace faamentity:D7zj8y2m ;
+    schema1:deathDate "1832-03-10"^^xsd:string ;
+    schema1:deathPlace faamentity:HgVUuaP9 ;
+    schema1:description "Italian-born English composer, pianist, pedagogue, conductor, music publisher, editor, and piano manufacturer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q193673>,
+        "15995820"^^xsd:string,
+        "YwdYGCWW"^^xsd:string ;
+    schema1:nationality faamentity:6zGBQwwr ;
+    skos:altLabel "Clementi"^^xsd:string,
+        "Muzio Clementi"^^xsd:string,
+        "Muzio Filippo Vincenzo Francesco Saverio Clementi"^^xsd:string ;
+    skos:prefLabel "Muzio Clementi"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:PyGNLcfw,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:22326882 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/54839> ;
+    wd:P737 faamentity:LabXUgsv ;
+    wd:P839 <https://imslp.org/wiki/Category:Clementi,_Muzio> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:MwhmFC4w,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

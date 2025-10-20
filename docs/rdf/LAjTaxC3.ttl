@@ -1,0 +1,74 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LAjTaxC3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7WfWytMV,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:PPhziStg ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:GecAsFfL,
+        faamentity:WXLXgEpt,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:ZDkwCfjK ;
+    schema1:identifier "15992668"^^xsd:string,
+        "KCA-TP140299"^^xsd:string,
+        "LAjTaxC3"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6787551/N"^^schema1:url ;
+    skos:prefLabel "Capriccio: B dur (abreise)"^^xsd:string ;
+    wd:P217 "TP140299"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LAjTaxC3-168a9bd2-e542-494a-a64a-3c6fb5a02f3e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:bSzLPudk .
+
+"LAjTaxC3-192fbb96-3d70-4638-8740-4e4794649f2a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+"LAjTaxC3-1f558d50-c375-42d7-a7f4-f7b8c1caf474"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"LAjTaxC3-3a79f4dd-ce45-4200-97be-c22d096b8b9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:WXLXgEpt a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

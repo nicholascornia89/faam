@@ -1,0 +1,62 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BwkfLDr4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:93GDD9ND,
+        faamentity:UJ57Ew5y,
+        faamentity:b3QcSGeL,
+        faamentity:eNyFmkHC,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:PPhziStg,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8Qa3rC7h,
+        faamentity:PXYCpRXf,
+        faamentity:jieDZf2J ;
+    schema1:hasPart faamentity:JHg9MPVu,
+        faamentity:e7jMwfQy ;
+    schema1:identifier "15992669"^^xsd:string,
+        "BwkfLDr4"^^xsd:string,
+        "KCA-TP41032"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6735295/N"^^schema1:url ;
+    skos:prefLabel "Pastorale et Capriccio"^^xsd:string ;
+    wd:P217 "TP41032"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"BwkfLDr4-0040555d-091e-4199-9daf-9ea7d82a6735"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"BwkfLDr4-58f4482a-846c-4385-9781-a978c6506a5f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"BwkfLDr4-6ac1b119-09f2-40cd-8b38-8f3ade08935a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:8Qa3rC7h a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:jieDZf2J a rdf:object .
+

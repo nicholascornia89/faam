@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LoUFQ6jY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7TfyuFpZ,
+        faamentity:7XBG3iZJ,
+        faamentity:Cbxx8HUs,
+        faamentity:E4rhHet3,
+        faamentity:amkJ6EBs,
+        faamentity:mMrUGL4h ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:NkfcVjHM,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:66pdprvL,
+        faamentity:DfHHYDni,
+        faamentity:FzuLDZCr ;
+    schema1:hasPart faamentity:JbE9VQs8 ;
+    schema1:identifier "15992745"^^xsd:string,
+        "KCG-000345131"^^xsd:string,
+        "LoUFQ6jY"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000345131"^^schema1:url ;
+    skos:prefLabel "Les délices de l'opéra : rondos, fantaisies, mosaïque et variations sur des thêmes favorits des opéras modernes: pour la flûte avec accompagnement de pianoforte"^^xsd:string ;
+    wd:P217 "A1461 (1-4)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LoUFQ6jY-16e79fd9-3b4d-4dbc-bfb4-90deab02691d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:LHFuBj76 .
+
+"LoUFQ6jY-758b2c17-b406-46b0-83b6-59d8ba5f7372"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LoUFQ6jY-f7c48598-c976-4604-9461-1662a5dc668e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:66pdprvL a rdf:object .
+
+faamentity:DfHHYDni a rdf:object .
+
+faamentity:FzuLDZCr a rdf:object .
+

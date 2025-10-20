@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QtWStRSk a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:DT4vQExr,
+        faamentity:E4rhHet3,
+        faamentity:TK9UAG2p,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz,
+        faamentity:GepDoTXn,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:WiBZjkbR,
+        faamentity:XKwx4gZW ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:FzuLDZCr,
+        faamentity:KW3RZcDp,
+        faamentity:jtE66RbA ;
+    schema1:hasPart faamentity:Tsts8u6R ;
+    schema1:identifier "15992594"^^xsd:string,
+        "KCG-000333898"^^xsd:string,
+        "QtWStRSk"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000333898"^^schema1:url ;
+    skos:prefLabel "Il Pirato : Ouverture à Grand Orchestre de l' Opéra"^^xsd:string ;
+    wd:P217 "II 170"^^xsd:string ;
+    wd:P870 faamentity:FSQxW8Ft,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"QtWStRSk-433637c8-6f99-4d98-968a-3a18358a160f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:G8KijfkK .
+
+"QtWStRSk-74bde906-11c0-43ac-aceb-d25721a786c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+"QtWStRSk-a4899ecd-93b8-4cab-b533-b0a0a2397b19"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"QtWStRSk-ab635cb9-e479-446f-bcdb-575136f953ac"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:FzuLDZCr a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:jtE66RbA a rdf:object .
+

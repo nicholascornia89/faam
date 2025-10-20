@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Q9My2FwW a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:UMravioT,
+        faamentity:aAsRZoVk ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3VXUQ7ER,
+        faamentity:EzW7C9iv,
+        faamentity:i2w6M7XJ ;
+    schema1:hasPart faamentity:5aNkY9Wj ;
+    schema1:identifier "15992274"^^xsd:string,
+        "KCA-030902681235"^^xsd:string,
+        "Q9My2FwW"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13130720/N"^^schema1:url ;
+    skos:prefLabel "Le martyre de Saint Sébastien : mystère en cinq actes"^^xsd:string ;
+    wd:P217 "MM-LEPP-DEBUS-martyre-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"Q9My2FwW-575d4976-eb8c-4813-b2a0-5f6de40bdb20"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"Q9My2FwW-623f2793-fccb-4036-8423-38c261fd0d9a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Q9My2FwW-f7c8aa75-7933-467e-ae96-a7cd251cc669"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+faamentity:3VXUQ7ER a rdf:object .
+
+faamentity:EzW7C9iv a rdf:object .
+
+faamentity:i2w6M7XJ a rdf:object .
+

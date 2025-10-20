@@ -1,0 +1,103 @@
+{
+  "id": "juLNDok7",
+  "uuid_num": 81910959793385,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "custos"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical symbol at the end of a musical staff, analogous in fuction to a catchword"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "custos"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q124518047",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "custos"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "juLNDok7"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992109"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "2kxvrpzm",
+        "label": "pitch"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      },
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "juLNDok7.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "juLNDok7.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "juLNDok7.csv"
+      }
+    ]
+  }
+}

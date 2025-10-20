@@ -1,0 +1,379 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix imslp: <https://imslp.org/wiki/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:S5RFKHbT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:6fQyHcwz,
+        faamentity:8N6k5W5i,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    faamprop:sections """<h1> Volume 1 </h1>
+<ol>
+<li> Missa für 4 Stimmen von Baldassarre Galuppi </li>
+<li> Missa für 4 Stimmen von Antonio Lotti</li>
+<li> Missa für 4 Stimmen von Giovanni Maria Casini</li>
+<li> Missa für 4 Stimmen von Antonio Bernabei</li>
+<li> Missa aeterna Christi munera für 4 Stimmen von Giovanni Pierluigi da Palestrina </li>
+<li> Missa super canta Romano für 4 Stimmen von Piedro Heredia</li>
+<li> Missa für 4 Stimmen von Pompeo Canniciari</li>
+<li> Missa für 4 Stimmen von Giuseppe Antonio Bernabei</li>
+<li> Missa für 4 Stimmen von Giovanni Battista Casali</li>
+</ol>
+
+<h1> Volume 2 </h1>
+<ol>
+<li> Missa O quam gloriosum et regnum für 4 Stimmen von Tom. Ludovico da Vittoria </li>
+<li> Missa für 4 Stimmen von Antonio Lotti</li>
+<li> Missa für 4 Stimmen von Claudio Casciolini</li>
+<li> Missa für 4 Stimmen von Antonio Lotti</li>
+<li> Missa Iste Confessor für 4 Stimmen von Giovanni Pierluigi da Palestrina </li>
+<li> Missa für 4 Stimmen von Antionio Lotti</li>
+<li> Missa Veni Creator Spiritus für 4 Stimmen von Giuseppe Antonio Bernabei</li>
+<li> Missa Papae Marcelli für 6 Stimmen von Giovanni Pierluigi da Palestrina</li>
+<li> Missa pro defunctis für 4 Stimmen von Antonio Lotti. Sactus von Giovanni Battista Pergolese, Postcommunio von Claudio Casciolini</li>
+</ol>
+
+<h1> Volume 3 </h1>
+<ol>
+<li> ...</li>
+</ol>
+
+For a detailed list of pieces per volume consult the <a href="https://imslp.org/wiki/Sammlung_ausgezeichneter_Kompositionen_f%C3%BCr_die_Kirche_(L%C3%BCck%2C_Stephan)">IMSLP</a> and <a href="https://www.cpdl.org/wiki/index.php/Sammlung_ausgezeichneter_Kompositionen_f%C3%BCr_die_Kirche">CPDL</a> pages dedicated to the collection."""^^rdf:HTML ;
+    dcelem:subject faamentity:DrGjSfwU,
+        faamentity:G5dNDMwk,
+        faamentity:Gx3B7DJH,
+        faamentity:J9FXU5XV,
+        faamentity:YJViDXyp,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3KJ4atqX,
+        faamentity:4KdX6pir,
+        faamentity:4qQWxuSP,
+        faamentity:6EMBp4Vk,
+        faamentity:6Gq2W4p4,
+        faamentity:8RjeFw2P,
+        faamentity:BbgfX7DK,
+        faamentity:DvqehxQh,
+        faamentity:EPRWE7g3,
+        faamentity:FEMWybwN,
+        faamentity:K79S8mEL,
+        faamentity:LgaHtMPL,
+        faamentity:MQ5sS4Kd,
+        faamentity:MfQYhhrr,
+        faamentity:Si4Qx3NK,
+        faamentity:VpDWgsTc,
+        faamentity:W6kVE6ND,
+        faamentity:XG9qWxwB,
+        faamentity:Y37RQzq9,
+        faamentity:YnzhaJPS,
+        faamentity:ZpAqTJvQ,
+        faamentity:aZuwHuQs,
+        faamentity:bkF58EUQ,
+        faamentity:bqZrDJot,
+        faamentity:cg3iHFvs,
+        faamentity:g84jRUjK,
+        faamentity:iB5gXbgh,
+        faamentity:jg8Ryw3k,
+        faamentity:kGtx9MnB,
+        faamentity:kkHrN3TP,
+        faamentity:ks3QHkna,
+        faamentity:nHfR4BAi ;
+    schema1:hasPart faamentity:2bLETYjG,
+        faamentity:2xD78iEn,
+        faamentity:35nVnBCU,
+        faamentity:3YmUwHGN,
+        faamentity:3eUecNDz,
+        faamentity:42onKNui,
+        faamentity:4e6fs43A,
+        faamentity:4sQjYn25,
+        faamentity:5PWhsGmk,
+        faamentity:6PNVmBUH,
+        faamentity:6XBM6NoA,
+        faamentity:6oLPZ6pe,
+        faamentity:7F6CpoBs,
+        faamentity:7FMq5RnT,
+        faamentity:7GHrPCit,
+        faamentity:829hPAkG,
+        faamentity:8CLpPAxv,
+        faamentity:8HVkQQMb,
+        faamentity:8rfq9cAc,
+        faamentity:AJRS4PAe,
+        faamentity:BdiVqwaM,
+        faamentity:CLH2BEHe,
+        faamentity:CQo42tFi,
+        faamentity:CmJmH9hC,
+        faamentity:E7it7PXt,
+        faamentity:EUV6pYtk,
+        faamentity:F7HSMpoD,
+        faamentity:FWCZDHV5,
+        faamentity:Fb3QHxEZ,
+        faamentity:FsfRZapC,
+        faamentity:G3QUQqvc,
+        faamentity:GmqvuXX5,
+        faamentity:GzEqiSpE,
+        faamentity:Hxr8FdCo,
+        faamentity:JdzKLnas,
+        faamentity:JwsjWQig,
+        faamentity:KCbGrreW,
+        faamentity:KQzSnrTk,
+        faamentity:KRTdNkha,
+        faamentity:KXZX5V53,
+        faamentity:LKQQYqT8,
+        faamentity:LRzYjepa,
+        faamentity:LS8ftz4m,
+        faamentity:LZGTFkWm,
+        faamentity:LsipgWZf,
+        faamentity:NLgGVEH5,
+        faamentity:NVwzkGDm,
+        faamentity:P2qUeis2,
+        faamentity:PNTKkXdd,
+        faamentity:PjTRnLov,
+        faamentity:Q5qG9kYT,
+        faamentity:QFiQwn8D,
+        faamentity:Qky6Vom5,
+        faamentity:RS6yFNZL,
+        faamentity:Rf5Yq9mQ,
+        faamentity:RiKTSfQh,
+        faamentity:SaccKHSr,
+        faamentity:Swrragvd,
+        faamentity:VN5LZmrJ,
+        faamentity:VcGV8KkN,
+        faamentity:W4FZXWTq,
+        faamentity:W4pno8HF,
+        faamentity:Xz6TXMHk,
+        faamentity:ZDnf5Hfb,
+        faamentity:Zo8kPK9Q,
+        faamentity:Zw8QhAWw,
+        faamentity:Zz6sPTbm,
+        faamentity:aH6DSu6s,
+        faamentity:akc4PiMR,
+        faamentity:b4qAyTwa,
+        faamentity:bF7jyLuq,
+        faamentity:beCN5Qpc,
+        faamentity:bpK4yTvn,
+        faamentity:cBgS5k7s,
+        faamentity:cCUXoXvM,
+        faamentity:cTdVDtMB,
+        faamentity:crNvg4aU,
+        faamentity:dJT3Xnss,
+        faamentity:dVLTWLHB,
+        faamentity:daFNT9Kv,
+        faamentity:db858aSq,
+        faamentity:ePphHZDx,
+        faamentity:f9orjwr9,
+        faamentity:fAJGvoEr,
+        faamentity:fNEsU4iL,
+        faamentity:fNrP42Wr,
+        faamentity:fU4P9Ayk,
+        faamentity:gczqKVc6,
+        faamentity:gmk2WSuD,
+        faamentity:h2b47P3M,
+        faamentity:hMgQEVDn,
+        faamentity:hZnyAahv,
+        faamentity:i4Cnz3Ug,
+        faamentity:iiy7vJgd,
+        faamentity:jAJkrrJJ,
+        faamentity:jPBw3uSS,
+        faamentity:kVXcQMxC,
+        faamentity:kcUo6pcJ,
+        faamentity:msS8qNns,
+        faamentity:npWjfUVu,
+        faamentity:oKHnfLRg ;
+    schema1:identifier "16005033"^^xsd:string,
+        "S5RFKHbT"^^xsd:string,
+        "SML-13885"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910130143405216"^^schema1:url ;
+    skos:prefLabel "Sammlung ausgezeichneter Kompositionen für die Kirche"^^xsd:string ;
+    skosref:related faamentity:2mb4qe86 ;
+    wd:P217 "M2012 .L94"^^xsd:string ;
+    wd:P839 imslp:Sammlung_ausgezeichneter_Kompositionen_f%C3%BCr_die_Kirche_\(L%C3%BCck%2C_Stephan\) ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"S5RFKHbT-0e60a1af-4c4e-4701-9743-8b3206c6a513"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-16cc458d-f57f-428a-b5de-70c1ceca7dc6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-299380be-19c4-4248-92ae-af9eb2d1e1de"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-35157ea4-7a9b-48a2-b1d6-1047b5c4a07a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-411eee01-2b0e-403e-9467-75aa1d9e7137"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-4a2047c0-93bd-42b5-8cb0-c4e80c9f8951"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"S5RFKHbT-4e042d0b-fb74-40d9-8991-cf932dfe42dc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-503dafce-52b9-48cf-97cb-1dd5158d5e10"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-59784683-8ee4-4cff-990b-bcb97e8c15a6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-5efba57c-4495-4bca-a60d-8caf25a6b39b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-64bb9850-d236-4a96-902e-94aba1184ee3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-6e9b530f-a4c9-4272-a043-e5cf7d0d59e2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"S5RFKHbT-748f341e-cb44-44b5-b7aa-4ba7faca0190"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-74afc3d5-4baf-4637-8484-cf5e2aa4926e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-74d99d8b-6638-4984-9c08-015954b53f1c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-96512e2d-c59d-4f54-93be-5263cb69bb1c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-978ab9d3-4525-4874-beff-c6c457ed2ef9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-a7d5450c-8fe7-48ba-8609-14761528714a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-aa2986f9-1554-407e-a47f-ea737adb37ae"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-ab6fb3ba-f816-43e3-aeef-d0dcaf9d0d40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-ac3a4cdc-1d9d-4634-a95f-8a74994be125"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-b22dbfa1-2e55-4947-9ed0-3ff191ac4269"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-b79ea63b-6f15-425e-8cb8-2cb961fe47c0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-be427323-813d-4a1e-996d-8981da12dfd2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-c26781b9-8f4e-42dd-b61b-9c48b25716ba"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-c2eb66ac-18f1-4566-b49e-e0d56a9b27a0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-c6ecd0c1-b175-471c-b75f-a01ca1cc1467"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-cdff48a8-1f60-400f-a1f8-be4dd368348d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-d2cb186d-8ec6-4061-b4c5-9e756c3ca1d8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-d6af1b21-15ce-4970-a9c5-5f506bdd3ce2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-de98d2b4-7c34-42a7-935c-2330c5b0410f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"S5RFKHbT-deead8ad-6be6-4e7b-ad84-12bf4a057147"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:3KJ4atqX a rdf:object .
+
+faamentity:4KdX6pir a rdf:object .
+
+faamentity:4qQWxuSP a rdf:object .
+
+faamentity:6EMBp4Vk a rdf:object .
+
+faamentity:6Gq2W4p4 a rdf:object .
+
+faamentity:8RjeFw2P a rdf:object .
+
+faamentity:BbgfX7DK a rdf:object .
+
+faamentity:DvqehxQh a rdf:object .
+
+faamentity:EPRWE7g3 a rdf:object .
+
+faamentity:FEMWybwN a rdf:object .
+
+faamentity:K79S8mEL a rdf:object .
+
+faamentity:LgaHtMPL a rdf:object .
+
+faamentity:MQ5sS4Kd a rdf:object .
+
+faamentity:MfQYhhrr a rdf:object .
+
+faamentity:Si4Qx3NK a rdf:object .
+
+faamentity:VpDWgsTc a rdf:object .
+
+faamentity:W6kVE6ND a rdf:object .
+
+faamentity:XG9qWxwB a rdf:object .
+
+faamentity:Y37RQzq9 a rdf:object .
+
+faamentity:YnzhaJPS a rdf:object .
+
+faamentity:ZpAqTJvQ a rdf:object .
+
+faamentity:aZuwHuQs a rdf:object .
+
+faamentity:bkF58EUQ a rdf:object .
+
+faamentity:bqZrDJot a rdf:object .
+
+faamentity:cg3iHFvs a rdf:object .
+
+faamentity:g84jRUjK a rdf:object .
+
+faamentity:iB5gXbgh a rdf:object .
+
+faamentity:jg8Ryw3k a rdf:object .
+
+faamentity:kGtx9MnB a rdf:object .
+
+faamentity:kkHrN3TP a rdf:object .
+
+faamentity:ks3QHkna a rdf:object .
+
+faamentity:nHfR4BAi a rdf:object .
+

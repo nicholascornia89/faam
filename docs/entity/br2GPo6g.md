@@ -1,0 +1,93 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: br2GPo6g
+
+tags: manifestation
+ 
+---
+
+
+# Memorare. 3 vocum aequalium, organo ad libitum (br2GPo6g)
+
+---
+
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-editorial_annotations/tree/main/raw-images/DPF-202502036/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/br2GPo6g.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/br2GPo6g.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/br2GPo6g.csv){.md-button}
+
+<img style="float: left;" src="../assets/images/thumbs/DPF-202502036.gif" width="250" height="200">
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | FAAM manifestation ID | title                                          | permalink                | provenance                              |
+    | :-------: | :-------------------: | :--------------------------------------------: | :----------------------: | :-------------------------------------: |
+    | br2GPo6g  | DPF-202502036         | Memorare. 3 vocum aequalium, organo ad libitum | [external URL](LBfWd2va) | [Donation Private Fonds](./HkU9txzL.md) |
+
+## Statements
+
+---
+
+???  "keyword" 
+
+	- [period composition](./Rn2iLGJr.md)
+
+	- [Cecilian Movement](./ZMpsLcpT.md)
+
+	- [liturgical music](./BdJHjaCE.md)
+
+	- [motet](./ik3NwdWW.md)
+
+???  "instrumentation" 
+
+	- [choir](./nJY8Xxwz.md)
+
+	- [voice](./NFAxdnVA.md)
+
+	- [organ](./8cygiHEB.md)
+
+??? abstract "agent" 
+
+    | agent                                                                      | role                             | place                   | date |
+    | :------------------------------------------------------------------------: | :------------------------------: | :---------------------: | :--: |
+    | [Lodewijk de Vocht](./edLpYFer.md)                                         | [composer](./YvQmwaaW.md)        |                         |      |
+    | [Éditions Desclée de Brouwer](./CGy68nTi.md)                               | [publisher](./7tdgMgre.md)       | [Brugge](./QRuTEdwa.md) | 1927 |
+    | [Florian Heyerick](./73rx6srk.md)                                          | [scholar (owner)](./9QaFAsRL.md) |                         |      |
+    | [Musica Sacra: tijdschrift voor kerkzang en gewijde muziek](./X3yMqYb6.md) | [publisher](./7tdgMgre.md)       | [Brugge](./QRuTEdwa.md) |      |
+
+## Annotations
+
+---
+
+???  "editorial annotation" 
+
+	- [metronome mark](./EqtAuzbH.md)
+
+	- [dynamic](./HKyA3Qzz.md)
+
+	- [breath mark](./aAsRZoVk.md)
+
+	- [bar number](./MR3kLpuM.md)
+
+	- [crescendo](./eSzqVmee.md)
+
+	- [decrescendo](./SRaiiKJr.md)
+
+	- [legato](./7XBG3iZJ.md)
+
+	- [ritenuto](./7WfWytMV.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/br2GPo6g.html" height="800" width="1200" title="br2GPo6g"></iframe>
+
+## Digital Score
+
+---
+
+<iframe src="../carousel/br2GPo6g.html" height="800" width="1200" title="br2GPo6g"></iframe>

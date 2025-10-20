@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DWR6Jfpw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:E4rhHet3,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:SRaiiKJr,
+        faamentity:kxAqh9HR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:Mr4ByBuL,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:4HHqPg2E,
+        faamentity:DDH7fEFM,
+        faamentity:GBEySAxU,
+        faamentity:LLpPqfa8 ;
+    schema1:hasPart faamentity:3HZTjert ;
+    schema1:identifier "16005038"^^xsd:string,
+        "BSB-991072273939707356"^^xsd:string,
+        "DWR6Jfpw"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11511365"^^schema1:url ;
+    skos:prefLabel "Concerte für Waldhorn: mit Begleitung d. Orchesters. 2: No. 2, Op. 105: Es-Dur"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 2017.485"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw,
+        faamentity:SRXTUjuW .
+
+schema1:contributor a rdf:predicate .
+
+"DWR6Jfpw-1263f4dc-84e3-42f7-b626-aaf0acf4b276"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"DWR6Jfpw-31240644-6d70-477f-a003-5a03066c0caf"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"DWR6Jfpw-3c4563ba-6f45-43b8-a924-1109a8751dbe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"DWR6Jfpw-d6438e3e-5c36-49cf-b6a1-fe4540ae7922"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:4HHqPg2E a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GBEySAxU a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+

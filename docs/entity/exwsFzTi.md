@@ -1,0 +1,52 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: exwsFzTi
+
+tags: musical_work
+ 
+---
+
+
+# Van den vos Reynaerde (exwsFzTi)
+
+---
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label                 | aliases  | description                                      | Wikidata QID                                                       |
+    | :-------: | :-------------------: | :------: | :----------------------------------------------: | :----------------------------------------------------------------: |
+    | exwsFzTi  | Van den vos Reynaerde | Reinaert | the Middle Dutch version of the story of Reynard | [Van den vos Reynaerde](http://wwww.wikidata.org/entity/Q19310739) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+??? quote "based on" 
+
+	- [](./VSc449tZ.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/exwsFzTi.html" height="800" width="1200" title="exwsFzTi"></iframe>
+
+## Identifiers
+
+---
+
+!!! info "VIAF ID" 
+
+	[183077266](https://viaf.org/viaf/183077266)
+
+## Cross-references
+
+---

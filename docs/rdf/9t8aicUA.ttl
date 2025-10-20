@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9t8aicUA a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:93GDD9ND,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:K4TocMAK,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:m9rNaSAR,
+        faamentity:mMrUGL4h,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NETLpz9B,
+        faamentity:PXYCpRXf,
+        faamentity:VHEan89z ;
+    schema1:hasPart faamentity:JHg9MPVu,
+        faamentity:Quc8drWz,
+        faamentity:VuSjJQzj,
+        faamentity:hwgDMQXJ ;
+    schema1:identifier "16005603"^^xsd:string,
+        "9t8aicUA"^^xsd:string,
+        "KCA-030903514815"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Pièces pour le Clavecin par Domenico Scarlatti"^^xsd:string ;
+    wd:P217 "TP79482"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"9t8aicUA-46bc6278-696d-46fd-9c3b-0dd29da2c84a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"9t8aicUA-f430cd65-d995-4459-a147-6b4d01b915a7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"9t8aicUA-f4624ecf-e494-40ad-abcc-ec3ff18fd7b5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:NETLpz9B a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+

@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5eUMkMxY a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "leader of a group of musicians"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q806349>,
+        "0"^^xsd:string,
+        "5eUMkMxY"^^xsd:string ;
+    skos:altLabel "band leader"^^xsd:string ;
+    skos:prefLabel "bandleader"^^xsd:string .
+

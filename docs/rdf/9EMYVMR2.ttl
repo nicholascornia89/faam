@@ -1,0 +1,67 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9EMYVMR2 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EqtAuzbH,
+        faamentity:HHYqWvTC,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:EqtAuzbH,
+        faamentity:Jx8FMpyt,
+        faamentity:PprjdkHE,
+        faamentity:UJ57Ew5y ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:T9uNf9Ax,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GecAsFfL,
+        faamentity:QEgbnuJC,
+        faamentity:W8EfwtH8,
+        faamentity:mGE5sZ7a ;
+    schema1:hasPart faamentity:dwdaRArz ;
+    schema1:identifier "16004262"^^xsd:string,
+        "9EMYVMR2"^^xsd:string,
+        "BSB-991068972429707356"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11511717"^^schema1:url ;
+    skos:prefLabel "Joh. Seb. Bach's Clavierwerke. 5, Das wohltemperirte Klavier, erster Teil (1722)"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 2017.7841"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"9EMYVMR2-37aaf3cb-df70-4b4f-bdef-fd3eaee3d660"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "08-1883"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:location faamentity:PNeLQZnK .
+
+"9EMYVMR2-51ec7feb-3849-4fb8-97d2-a7aa87a4148d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"9EMYVMR2-c5ab0af3-add6-4e20-a316-e4553613e046"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"9EMYVMR2-cbb6e252-282b-4dd7-b242-14a4d2d45e2b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:QEgbnuJC a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+
+faamentity:mGE5sZ7a a rdf:object .
+

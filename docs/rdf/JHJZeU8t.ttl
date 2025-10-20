@@ -1,0 +1,68 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JHJZeU8t a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:QGRAMUu8,
+        faamentity:QfLRrJ2B,
+        faamentity:QyAptNqX,
+        faamentity:atGzytDR,
+        faamentity:eJvA3GyF,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:PJUnFxn4,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5Ze3Bk9Z,
+        faamentity:PNsdjaKx,
+        faamentity:nu6Thpo8 ;
+    schema1:hasPart faamentity:4Zg3E8qp,
+        faamentity:Fy72RCta ;
+    schema1:identifier "16003994"^^xsd:string,
+        "JHJZeU8t"^^xsd:string,
+        "KCG-000344649"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000344649"^^schema1:url ;
+    skos:prefLabel "Air Varie : pour la flûte, avec accompagnement de piano, sur un motif favori de l'opéra Le mauvais oeil:"^^xsd:string ;
+    wd:P217 "A-1461 (21), A-1461 (BIS8)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JHJZeU8t-0b3ee521-1e6b-48a4-816a-6fe98885a575"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JHJZeU8t-1091ffb9-cffa-4b77-953d-3437d46faf1f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JHJZeU8t-a0fa25b2-3f4c-41b2-bb33-3779213ddf95"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:5Ze3Bk9Z a rdf:object .
+
+faamentity:PNsdjaKx a rdf:object .
+
+faamentity:nu6Thpo8 a rdf:object .
+

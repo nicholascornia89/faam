@@ -1,0 +1,75 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ehEXTmgF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:9tkKrhbM,
+        faamentity:HKyA3Qzz,
+        faamentity:MR3kLpuM,
+        faamentity:QfLRrJ2B,
+        faamentity:QyAptNqX,
+        faamentity:ZGsPMhbm,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mMrUGL4h,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:kNneakGU ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:CGy68nTi,
+        faamentity:HDAdaUKe,
+        faamentity:X3yMqYb6 ;
+    schema1:identifier "16005656"^^xsd:string,
+        "DPF-202502005"^^xsd:string,
+        "ehEXTmgF"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Missa in honorem Christi Regis"^^xsd:string ;
+    wd:P217 "ms-1927-03"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"ehEXTmgF-42c06db8-9c9e-4adc-b8a1-ccf9983f03e3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"ehEXTmgF-470dde79-be5b-45f4-9aab-79ff4ac30efa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"ehEXTmgF-c1d0a657-6ef1-4c52-bb00-24fc854ac02c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"ehEXTmgF-d7cf6127-efb1-4e71-8fbd-397c9fe1d3c9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:HDAdaUKe a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+

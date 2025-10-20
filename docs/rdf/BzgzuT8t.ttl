@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BzgzuT8t a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "microstate in Western Europe"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q235>,
+        "0"^^xsd:string,
+        "BzgzuT8t"^^xsd:string ;
+    schema1:location faamentity:BzgzuT8t ;
+    skos:altLabel "Fort-Hercule"^^xsd:string,
+        "MON"^^xsd:string,
+        "Mùnegu"^^xsd:string,
+        "Principality and Diocese of Monaco"^^xsd:string,
+        "Principality of Monaco"^^xsd:string,
+        "Principato di Monaco"^^xsd:string,
+        "Principatu de Mu̍negu"^^xsd:string,
+        "Principauté de Monaco"^^xsd:string,
+        "Prinçipatu de Mùnegu"^^xsd:string,
+        "mc"^^xsd:string ;
+    skos:prefLabel "Monaco"^^xsd:string ;
+    wd:P1566 gn:2993457 .
+

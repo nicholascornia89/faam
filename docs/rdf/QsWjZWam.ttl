@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:QsWjZWam a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "county seat of Monroe County, New York, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q49218>,
+        "122150"^^xsd:string,
+        "QsWjZWam"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "City of Rochester"^^xsd:string,
+        "Flour City"^^xsd:string,
+        "Flower City"^^xsd:string,
+        "ROC"^^xsd:string,
+        "Roc City"^^xsd:string,
+        "Rochester"^^xsd:string,
+        "Rochester, NY"^^xsd:string,
+        "Rochester, New York"^^xsd:string,
+        "Rochester, USA"^^xsd:string,
+        "The World's Image Centre"^^xsd:string,
+        "Young Lion of the West"^^xsd:string ;
+    skos:prefLabel "Rochester, NY"^^xsd:string ;
+    wd:P1566 gn:5134086 .
+

@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ri3gvZ2t a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "type of organization linked with music"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q32178211>,
+        "15990585"^^xsd:string,
+        "Ri3gvZ2t"^^xsd:string ;
+    skos:altLabel "music organisation"^^xsd:string,
+        "music organization"^^xsd:string,
+        "musical organisation"^^xsd:string,
+        "musical organization"^^xsd:string,
+        "organisation (music)"^^xsd:string,
+        "organisation in music"^^xsd:string,
+        "organization (music)"^^xsd:string,
+        "organization in music"^^xsd:string ;
+    skos:prefLabel "music organization"^^xsd:string .
+

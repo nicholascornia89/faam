@@ -1,0 +1,45 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7gNjY6F7 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7 ;
+    schema1:birthDate "1824-09-04"^^xsd:string ;
+    schema1:birthPlace faamentity:9aVpAKsG ;
+    schema1:deathDate "1896-10-11"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "Austrian composer (1824-1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q81752>,
+        "0"^^xsd:string,
+        "7gNjY6F7"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo,
+        faamentity:WXHANYCp ;
+    skos:altLabel "Josef Anton Bruckner"^^xsd:string,
+        "Joseph Anton Bruckner"^^xsd:string ;
+    skos:prefLabel "Anton Bruckner"^^xsd:string ;
+    wd:P108 faamentity:DRRhn6P7,
+        faamentity:LKYUjWFc ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61731160 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/73272> ;
+    wd:P737 faamentity:2Jym2pJc,
+        faamentity:NxCbN9uq,
+        faamentity:SC9Tasad ;
+    wd:P839 <https://imslp.org/wiki/Category:Weiß,_Johann_Baptist> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:QBx3kSJW,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3 .
+

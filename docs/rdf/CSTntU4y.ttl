@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CSTntU4y a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1773-03-24"^^xsd:string ;
+    schema1:birthPlace faamentity:UAsHfa4y ;
+    schema1:deathDate "1838-01-19"^^xsd:string ;
+    schema1:deathPlace faamentity:dDEiGXXd ;
+    schema1:description "French conductor, composer, cellist and music educator (1773-1838)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3383281>,
+        "15996070"^^xsd:string,
+        "CSTntU4y"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Pierre-Louis Hus-Desforges"^^xsd:string ;
+    skos:prefLabel "Pierre-Louis Hus-Desforges"^^xsd:string ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69195209 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30001589> ;
+    wd:P737 faamentity:kCr22AfX ;
+    wd:P839 <https://imslp.org/wiki/Category:Hus-Desforges,_Pierre_Louis> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi .
+

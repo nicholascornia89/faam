@@ -1,0 +1,75 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LMcShHfY a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:eNyFmkHC,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:TUdHPWU8,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """<ol>
+<li> Petite Marche </li>
+<li>Tanagra </li>
+<li> Prière </li>
+<li> 100 à l’heure </li>
+<li> Tendresse </li>
+<li> Cantilena </li>
+<li> Jadis </li>
+<li> En valsant </li>
+<li> Fini l'école </li>
+<li> Czernyade </li>
+
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:6A3RvFCV,
+        faamentity:KdGKqPWR,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:UnrnLejN,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:9FJ7fneq ;
+    schema1:identifier "15992377"^^xsd:string,
+        "KCA-030901815347"^^xsd:string,
+        "LMcShHfY"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6718473/N"^^schema1:url ;
+    skos:prefLabel "Dix enfantines"^^xsd:string ;
+    wd:P217 "MM-TP-DEBOE-dixenfa-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LMcShHfY-28f64255-8eb2-4559-a7b3-a78cfc2859e2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"LMcShHfY-59980fe5-23a0-4ebd-8009-cef30f127df5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"LMcShHfY-b7d0baaf-188e-40c7-af6c-83eac80a50ed"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:UnrnLejN a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

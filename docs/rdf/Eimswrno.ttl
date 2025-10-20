@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Eimswrno a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:H9peVKU2,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AedSA8fV ;
+    schema1:identifier "15992312"^^xsd:string,
+        "Eimswrno"^^xsd:string,
+        "KCA-030902593638"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13152649/N"^^schema1:url ;
+    skos:prefLabel "Offertoire : orgue ou harmonium"^^xsd:string ;
+    wd:P217 "MM-MS-WAMBA-offerto-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"Eimswrno-91762d75-106a-4bf5-afb2-68daf2c0bf66"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:AedSA8fV a rdf:object .
+

@@ -1,0 +1,69 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JoDhf5R4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:9tkKrhbM,
+        faamentity:GepDoTXn,
+        faamentity:JwqBvu9Z,
+        faamentity:SRaiiKJr,
+        faamentity:TWwN9yoM,
+        faamentity:amkJ6EBs,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:mMrUGL4h ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:GqVyixZo,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:RLBjKxP5,
+        faamentity:X8CowJzi,
+        faamentity:YWvFQ75E,
+        faamentity:iGWTaGKR ;
+    schema1:hasPart faamentity:ibtAhZeL ;
+    schema1:identifier "16005043"^^xsd:string,
+        "BSB-991094740449707356"^^xsd:string,
+        "JoDhf5R4"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00147951"^^schema1:url ;
+    skos:prefLabel "Grande fantaisie sur des motifs de l'opéra Le Barbier de Seville de Rossini : op. 6"^^xsd:string ;
+    wd:P217 "Mus.Schott.Ha 10005-1"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JoDhf5R4-04e5d89b-193c-45fb-8751-09d9fd17fb83"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+"JoDhf5R4-73b92459-76ad-4699-8701-f4059cebb06f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JoDhf5R4-bc236bb5-2624-46f7-ac51-139a9f141b40"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"JoDhf5R4-e30c6954-7172-410f-83fd-b7b361da20e7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:RLBjKxP5 a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:YWvFQ75E a rdf:object .
+
+faamentity:iGWTaGKR a rdf:object .
+

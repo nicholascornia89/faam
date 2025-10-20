@@ -1,0 +1,147 @@
+{
+  "id": "Egi8dQkt",
+  "uuid_num": 24786172487741,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "citation"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "reference to a source"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "reference"
+      },
+      {
+        "type": "string",
+        "value": "bibliographical citation"
+      },
+      {
+        "type": "string",
+        "value": "bibliographical reference"
+      },
+      {
+        "type": "string",
+        "value": "citation"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1713",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "citation"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "Egi8dQkt"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15996298"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "LycxUSRH",
+        "label": "reference"
+      },
+      {
+        "type": "item",
+        "value": "79HoWTaM",
+        "label": ""
+      }
+    ],
+    "instance of": [],
+    "musical parameter": [],
+    "used by": [
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      },
+      {
+        "type": "item",
+        "value": "9QaFAsRL",
+        "label": "scholar (owner)"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "dQdznAa8",
+        "type": "item",
+        "label": "Symphony No. 1, Movement I",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "WML-768157.gif"
+        }
+      },
+      {
+        "id": "Y7Uwiric",
+        "type": "item",
+        "label": "Ancienne musique de luth (XVIe et XVIIe siècles) : adaptée pour l'exécution sur la harpe chromatique",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901267440.gif"
+        }
+      },
+      {
+        "id": "jaKyd57t",
+        "type": "item",
+        "label": "Philippi de Monte. VIII Magnificat",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-39.OP.OMdeMonte23.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "Egi8dQkt.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "Egi8dQkt.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "Egi8dQkt.csv"
+      }
+    ]
+  }
+}

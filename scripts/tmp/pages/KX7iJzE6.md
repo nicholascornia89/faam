@@ -1,0 +1,76 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: KX7iJzE6
+
+tags: musical_work
+ 
+---
+
+
+# Keyboard Sonata in G major, K.14 (KX7iJzE6)
+
+---
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | label                            | aliases                           | description                  | Wikidata QID                                              |
+    | :-------: | :------------------------------: | :-------------------------------: | :--------------------------: | :-------------------------------------------------------: |
+    | KX7iJzE6  | Keyboard Sonata in G major, K.14 | Keyboard Sonata in G major, L.387 | sonata by Domenico Scarlatti | [Sonata K. 14](http://wwww.wikidata.org/entity/Q74594918) |
+
+<br><br><br>
+
+## Statements
+
+---
+
+!!! quote "form of creative work" 
+
+	- [sonata](./RtkoMT89.md)
+
+!!! quote "creator" 
+
+	- [Domenico Scarlatti](./PXYCpRXf.md)
+
+??? quote "adapted by" 
+
+	- [Carl Czerny](./jm4QpjVW.md)
+
+	- [Alessandro Longo](./5gAsc3pE.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/KX7iJzE6.html" height="800" width="1200" title="KX7iJzE6"></iframe>
+
+## Identifiers
+
+---
+
+!!! info "IMSLP ID" 
+
+	[Keyboard Sonata in G major, K.14 (Scarlatti, Domenico)](https://imslp.org/wiki/Keyboard Sonata in G major, K.14 (Scarlatti, Domenico))
+
+!!! info "VIAF ID" 
+
+	[294487978](https://viaf.org/viaf/294487978)
+
+## Cross-references
+
+---
+
+<div class="grid cards" markdown>
+
+-	__[Sämtliche Werke : für d. Pianoforte](./a5s7knGT.md)__
+
+	![Image](../assets/images/thumbs/BSB-991078401649707356.gif){align=left width="150" height="150"} 
+
+	
+
+</div>

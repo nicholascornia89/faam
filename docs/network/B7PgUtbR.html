@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QrZt6tiH", "label": "Keyboard Sonata in D major, K.430", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QrZt6tiH.md\u0027\u003eKeyboard Sonata in D major, K.430\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RtkoMT89", "label": "sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RtkoMT89.md\u0027\u003esonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of musical composition, usually for a solo instrument or a small instrumental ensemble\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "B7PgUtbR", "label": "29 sonatas", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./B7PgUtbR.md\u0027\u003e29 sonatas\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/KCA-030903597976.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "KmgJHDdU", "label": "Keyboard Sonata in B minor, K.377", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./KmgJHDdU.md\u0027\u003eKeyboard Sonata in B minor, K.377\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "2C9Fy8H6", "label": "Heritage Library Royal Conservatoire Antwerp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2C9Fy8H6.md\u0027\u003eHeritage Library Royal Conservatoire Antwerp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic school\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YLuLv5SF", "label": "Keyboard Sonata in G minor, K.4", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YLuLv5SF.md\u0027\u003eKeyboard Sonata in G minor, K.4\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SRaiiKJr", "label": "decrescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRaiiKJr.md\u0027\u003edecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HKyA3Qzz.md\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gb6MiJbD", "label": "ink stamp", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gb6MiJbD.md\u0027\u003eink stamp\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emark printed, impressed, perforated, or embossed on a soft or absorbant material such as paper or wax\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eNyFmkHC", "label": "fingering", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eNyFmkHC.md\u0027\u003efingering\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003echoice of which fingers and hand positions to use when playing certain musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fr2hnQEu", "label": "Keyboard Sonata in D major, K.96", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fr2hnQEu.md\u0027\u003eKeyboard Sonata in D major, K.96\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "C3yy7VKT", "label": "Keyboard Sonata in C major, K.159", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./C3yy7VKT.md\u0027\u003eKeyboard Sonata in C major, K.159\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cPkc4qtx", "label": "Keyboard Sonata in G minor, K.476", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cPkc4qtx.md\u0027\u003eKeyboard Sonata in G minor, K.476\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TYQqGgsx", "label": "Keyboard Sonata in B minor, K.27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TYQqGgsx.md\u0027\u003eKeyboard Sonata in B minor, K.27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BWv8f3xb", "label": "Keyboard Sonata in F-sharp minor, K.25", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BWv8f3xb.md\u0027\u003eKeyboard Sonata in F-sharp minor, K.25\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BhtLighL", "label": "Keyboard Sonata in F minor, K.19", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BhtLighL.md\u0027\u003eKeyboard Sonata in F minor, K.19\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3E7PqLiY", "label": "Keyboard Sonata in F major, K.17", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3E7PqLiY.md\u0027\u003eKeyboard Sonata in F major, K.17\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FELxTbej", "label": "Keyboard Sonata in C minor, K.11", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FELxTbej.md\u0027\u003eKeyboard Sonata in C minor, K.11\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EABhjNSH", "label": "Keyboard Sonata in A minor, K.3", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EABhjNSH.md\u0027\u003eKeyboard Sonata in A minor, K.3\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6VQqp9E6", "label": "Keyboard Sonata in D minor, K.1", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6VQqp9E6.md\u0027\u003eKeyboard Sonata in D minor, K.1\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JHg9MPVu", "label": "Keyboard Sonata in D minor, K.9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JHg9MPVu.md\u0027\u003eKeyboard Sonata in D minor, K.9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eSzqVmee.md\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j3tnVzW5", "label": "diminuendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j3tnVzW5.md\u0027\u003ediminuendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nTx2RkTQ", "label": "trill", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nTx2RkTQ.md\u0027\u003etrill\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament consisting of a rapid alternation between two adjacent notes, usually a semitone or tone apart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mkCY9LDD.md\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UJ57Ew5y", "label": "musical phrasing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UJ57Ew5y.md\u0027\u003emusical phrasing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunit of musical meter that has a complete musical sense of its own\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6fQyHcwz", "label": "accent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6fQyHcwz.md\u0027\u003eaccent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eemphasis placed on a particular musical note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JwqBvu9Z", "label": "fermata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JwqBvu9Z.md\u0027\u003efermata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol of musical notation indicating that the note should be prolonged beyond its normal duration or note value would indicate\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tkKrhbM.md\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7WfWytMV", "label": "ritenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7WfWytMV.md\u0027\u003eritenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindication of tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TLaaNgbw", "label": "chronometry", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TLaaNgbw.md\u0027\u003echronometry\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003especifying measures of time-mesaurement in clear reference units\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Gx3B7DJH.md\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "QrZt6tiH", "to": "RtkoMT89", "width": 1}, {"from": "QrZt6tiH", "to": "B7PgUtbR", "width": 1}, {"from": "KmgJHDdU", "to": "RtkoMT89", "width": 1}, {"from": "KmgJHDdU", "to": "B7PgUtbR", "width": 1}, {"from": "2C9Fy8H6", "to": "B7PgUtbR", "width": 1}, {"from": "YLuLv5SF", "to": "RtkoMT89", "width": 1}, {"from": "YLuLv5SF", "to": "B7PgUtbR", "width": 1}, {"from": "SRaiiKJr", "to": "HKyA3Qzz", "width": 1}, {"from": "SRaiiKJr", "to": "B7PgUtbR", "width": 1}, {"from": "gb6MiJbD", "to": "B7PgUtbR", "width": 1}, {"from": "eNyFmkHC", "to": "B7PgUtbR", "width": 1}, {"from": "RtkoMT89", "to": "fr2hnQEu", "width": 1}, {"from": "RtkoMT89", "to": "C3yy7VKT", "width": 1}, {"from": "RtkoMT89", "to": "cPkc4qtx", "width": 1}, {"from": "RtkoMT89", "to": "TYQqGgsx", "width": 1}, {"from": "RtkoMT89", "to": "BWv8f3xb", "width": 1}, {"from": "RtkoMT89", "to": "BhtLighL", "width": 1}, {"from": "RtkoMT89", "to": "3E7PqLiY", "width": 1}, {"from": "RtkoMT89", "to": "FELxTbej", "width": 1}, {"from": "RtkoMT89", "to": "EABhjNSH", "width": 1}, {"from": "RtkoMT89", "to": "6VQqp9E6", "width": 1}, {"from": "RtkoMT89", "to": "JHg9MPVu", "width": 1}, {"from": "RtkoMT89", "to": "B7PgUtbR", "width": 1}, {"from": "EABhjNSH", "to": "B7PgUtbR", "width": 1}, {"from": "6VQqp9E6", "to": "B7PgUtbR", "width": 1}, {"from": "HKyA3Qzz", "to": "eSzqVmee", "width": 1}, {"from": "HKyA3Qzz", "to": "j3tnVzW5", "width": 1}, {"from": "HKyA3Qzz", "to": "B7PgUtbR", "width": 1}, {"from": "C3yy7VKT", "to": "B7PgUtbR", "width": 1}, {"from": "FELxTbej", "to": "B7PgUtbR", "width": 1}, {"from": "nTx2RkTQ", "to": "B7PgUtbR", "width": 1}, {"from": "B7PgUtbR", "to": "mkCY9LDD", "width": 1}, {"from": "B7PgUtbR", "to": "UJ57Ew5y", "width": 1}, {"from": "B7PgUtbR", "to": "6fQyHcwz", "width": 1}, {"from": "B7PgUtbR", "to": "eSzqVmee", "width": 1}, {"from": "B7PgUtbR", "to": "j3tnVzW5", "width": 1}, {"from": "B7PgUtbR", "to": "JwqBvu9Z", "width": 1}, {"from": "B7PgUtbR", "to": "9tkKrhbM", "width": 1}, {"from": "B7PgUtbR", "to": "7WfWytMV", "width": 1}, {"from": "B7PgUtbR", "to": "TLaaNgbw", "width": 1}, {"from": "B7PgUtbR", "to": "Gx3B7DJH", "width": 1}, {"from": "B7PgUtbR", "to": "PyGNLcfw", "width": 1}, {"from": "B7PgUtbR", "to": "cPkc4qtx", "width": 1}, {"from": "B7PgUtbR", "to": "BhtLighL", "width": 1}, {"from": "B7PgUtbR", "to": "fr2hnQEu", "width": 1}, {"from": "B7PgUtbR", "to": "TYQqGgsx", "width": 1}, {"from": "B7PgUtbR", "to": "BWv8f3xb", "width": 1}, {"from": "B7PgUtbR", "to": "JHg9MPVu", "width": 1}, {"from": "B7PgUtbR", "to": "3E7PqLiY", "width": 1}, {"from": "mkCY9LDD", "to": "7WfWytMV", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

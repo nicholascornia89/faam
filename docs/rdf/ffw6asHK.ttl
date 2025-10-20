@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ffw6asHK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:LBfWd2va,
+        faamentity:QfLRrJ2B,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:hJoKsjEm,
+        faamentity:j3tnVzW5,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:PJUnFxn4,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PNsdjaKx,
+        faamentity:Xt8m8K6L ;
+    schema1:hasPart faamentity:RXvJWGT4 ;
+    schema1:identifier "16004003"^^xsd:string,
+        "KCG-000370144"^^xsd:string,
+        "ffw6asHK"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000370144"^^schema1:url ;
+    skos:prefLabel "Récréations musicales : collection d'airs variés et fantaisies pour la flûte sur des thêmes choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs célèbres"^^xsd:string ;
+    skosref:related faamentity:AdNoqEfD,
+        faamentity:Ao8KGviV,
+        faamentity:FzuLDZCr,
+        faamentity:PyGNLcfw,
+        faamentity:TZfafBBe,
+        faamentity:cdHJrWuJ ;
+    wd:P217 "A1461 (bis2), A1461 (12)"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD .
+
+schema1:contributor a rdf:predicate .
+
+"ffw6asHK-518c6a7c-2967-43ac-9942-cfb96e499794"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"ffw6asHK-67482a57-7167-4ae7-b019-d280a3fd7000"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:PNsdjaKx a rdf:object .
+
+faamentity:Xt8m8K6L a rdf:object .
+

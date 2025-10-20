@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kagA9fDb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:NRsZG792,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:bTYqbr5b ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6A3RvFCV,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:3rt4YEZn,
+        faamentity:DDH7fEFM,
+        faamentity:H9Vpi47r,
+        faamentity:nPY6863Z ;
+    schema1:hasPart faamentity:a2g2Km3k ;
+    schema1:identifier "15992280"^^xsd:string,
+        "KCA-030902700829"^^xsd:string,
+        "kagA9fDb"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12863039/N"^^schema1:url ;
+    skos:prefLabel "Drie Songs"^^xsd:string ;
+    wd:P217 "MM-LEPP-PEETE-drielie-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"kagA9fDb-05ab14dd-afbb-4e94-8466-a294c2ccef48"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"kagA9fDb-5237bb3c-90d4-4625-a479-d325a2a66d5f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"kagA9fDb-678e430a-1a42-404c-b253-44865d0dadf6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"kagA9fDb-67916bf3-ab62-4af0-a7b0-42252598ac90"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:3rt4YEZn a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:H9Vpi47r a rdf:object .
+
+faamentity:nPY6863Z a rdf:object .
+

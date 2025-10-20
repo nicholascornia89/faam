@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:gAnAG4pk a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "opera seria by George Frideric Handel"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q275627>,
+        "15998914"^^xsd:string,
+        "gAnAG4pk"^^xsd:string ;
+    schema1:isBasedOn faamentity:QEoYjgrW ;
+    skos:altLabel "Alcina"^^xsd:string,
+        "HWV 34"^^xsd:string ;
+    skos:prefLabel "Alcina"^^xsd:string ;
+    wd:P214 viaf:175798503 ;
+    wd:P7937 faamentity:7AXGCpck ;
+    wd:P839 <https://imslp.org/wiki/Alcina,_HWV_34_(Handel,_George_Frideric)> .
+

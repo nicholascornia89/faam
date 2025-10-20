@@ -1,0 +1,42 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RhwDsWwR a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7qCCArxX,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:TUdHPWU8,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AedSA8fV ;
+    schema1:identifier "15992306"^^xsd:string,
+        "KCA-030902519450"^^xsd:string,
+        "RhwDsWwR"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13044763/N"^^schema1:url ;
+    skos:prefLabel "In nomine Jesu: baryton"^^xsd:string ;
+    wd:P217 "MM-MS-WAMBA-innomin-1"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:LqkpKZa7 .
+
+schema1:contributor a rdf:predicate .
+
+"RhwDsWwR-51d6dac8-dbd0-4419-8b91-a4c10855aed8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:AedSA8fV a rdf:object .
+

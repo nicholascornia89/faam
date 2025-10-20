@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dF66dPL3 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school in Gloucestershire, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7989500>,
+        "16004737"^^xsd:string,
+        "dF66dPL3"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu,
+        faamentity:MQDdAiDb,
+        faamentity:WJtgze3w ;
+    skos:altLabel "Westonbirt School"^^xsd:string ;
+    skos:prefLabel "Westonbirt School"^^xsd:string .
+

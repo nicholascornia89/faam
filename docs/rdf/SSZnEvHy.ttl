@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SSZnEvHy a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:WmRXBH5x ;
+    schema1:identifier "16002483"^^xsd:string,
+        "SSZnEvHy"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No.4, Op.64"^^xsd:string ;
+    wd:P7937 faamentity:iHeydB2F ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.4,_Op.64_(Moscheles,_Ignaz)> .
+

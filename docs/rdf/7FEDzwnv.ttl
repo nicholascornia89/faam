@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7FEDzwnv a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:NRsZG792,
+        faamentity:aAsRZoVk ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:TvgVbkP2,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:EgdteRr6 ;
+    schema1:identifier "16002632"^^xsd:string,
+        "7FEDzwnv"^^xsd:string,
+        "KCA-030902413019"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12935675/N"^^schema1:url ;
+    skos:prefLabel "Aria uit het Voicespel Isa: voor soprano-stem met klavierbegeleiding"^^xsd:string ;
+    wd:P217 "MM-ZL-BENOI-isa-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"7FEDzwnv-164b6b4e-bd96-4fbc-9fe3-069c723416af"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"7FEDzwnv-1c3ab8d0-5bc4-46f6-a64a-f5b672152cd2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

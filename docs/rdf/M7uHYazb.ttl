@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M7uHYazb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7WfWytMV,
+        faamentity:D6RjeTWv,
+        faamentity:HHYqWvTC,
+        faamentity:HKyA3Qzz,
+        faamentity:MYAXux6m,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:hChNthvw,
+        faamentity:hJoKsjEm,
+        faamentity:j3tnVzW5 ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcterms:provenance faamentity:FqJJaJb7 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:bkF58EUQ,
+        faamentity:n2KyzS34 ;
+    schema1:identifier "15992728"^^xsd:string,
+        "CBM-TORRMsA100"^^xsd:string,
+        "M7uHYazb"^^xsd:string ;
+    schema1:url "https://polovea.sebina.it/SebinaOpac/resource/galuppitempo-di-minuetto-no-26-no19-del-ms-catalogo/VEA01143337?locale=eng"^^schema1:url ;
+    skos:prefLabel "Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)"^^xsd:string ;
+    wd:P217 "TORR. Ms.A.100"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"M7uHYazb-6fc7a8bd-5ef5-4763-98d8-33e0f88fd2e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"M7uHYazb-e1ecbf4f-d953-437c-a038-9238c5cfc762"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"M7uHYazb-f06499ba-566a-4bcf-a8ab-b141e7934229"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:bkF58EUQ a rdf:object .
+
+faamentity:n2KyzS34 a rdf:object .
+

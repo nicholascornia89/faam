@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GsYHbd4y a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "single-reed woodwind instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q9798>,
+        "15990816"^^xsd:string,
+        "GsYHbd4y"^^xsd:string ;
+    skos:altLabel "sax"^^xsd:string,
+        "saxophone"^^xsd:string ;
+    skos:prefLabel "saxophone"^^xsd:string ;
+    wd:P279 faamentity:95zzQnr6,
+        faamentity:hBUT5Cbq,
+        faamentity:ifZHJBYo ;
+    wd:P31 faamentity:BnwWc34X .
+

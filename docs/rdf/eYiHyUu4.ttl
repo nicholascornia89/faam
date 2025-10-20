@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eYiHyUu4 a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "former state in Northeastern Italy (697–1797)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4948>,
+        "16004403"^^xsd:string,
+        "eYiHyUu4"^^xsd:string ;
+    skos:altLabel "Duchy of Venetia"^^xsd:string,
+        "Most Serene Republic of Venice"^^xsd:string,
+        "Republic Venice"^^xsd:string,
+        "Republic of Saint Mark"^^xsd:string,
+        "Republic of St. Mark"^^xsd:string,
+        "Republic of Venezia"^^xsd:string,
+        "Republic of Venice"^^xsd:string,
+        "Repulic of Venice"^^xsd:string,
+        "Serenissima Repubblica di Venezia"^^xsd:string,
+        "Serenìsima Repùblega de Venèsia"^^xsd:string,
+        "The Most Serene Republic of Venice"^^xsd:string,
+        "The Republic of Venice"^^xsd:string,
+        "The Serenissima"^^xsd:string,
+        "Venetian Empire"^^xsd:string,
+        "Venetian Republic"^^xsd:string,
+        "Venezia Republic"^^xsd:string,
+        "Venice"^^xsd:string,
+        "Venice Republic"^^xsd:string ;
+    skos:prefLabel "Republic of Venice"^^xsd:string .
+

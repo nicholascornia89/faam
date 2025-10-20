@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YCjvwqay a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Duke of Saxe-Weimar from 1683–1707"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q61972>,
+        "15991034"^^xsd:string,
+        "YCjvwqay"^^xsd:string ;
+    skos:altLabel "Johann Ernst III, Duke of Saxe-Weimar"^^xsd:string,
+        "John Ernest III"^^xsd:string ;
+    skos:prefLabel "Johann Ernst III, Duke of Saxe-Weimar"^^xsd:string .
+

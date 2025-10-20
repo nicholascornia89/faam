@@ -1,0 +1,14 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3mKop7xs a rdfs:Resource ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:identifier "16004312"^^xsd:string,
+        "3mKop7xs"^^xsd:string ;
+    skos:prefLabel "Alfons Devestele"^^xsd:string .
+

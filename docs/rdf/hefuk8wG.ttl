@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hefuk8wG a rdfs:Resource ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:WtLFQZHs ;
+    schema1:birthDate "1849-02-09"^^xsd:string ;
+    schema1:birthPlace faamentity:VnsRap2q ;
+    schema1:deathDate "1934-09-12"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German piano teacher, composer and music editor (1849-1934)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4401191>,
+        "16005734"^^xsd:string,
+        "hefuk8wG"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:altLabel "Adolf Ruthardt"^^xsd:string ;
+    skos:prefLabel "Adolf Ruthardt"^^xsd:string ;
+    wd:P108 faamentity:PBdH8TpS ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:17490260 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/176068> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ruthardt,_Adolf> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iGWTaGKR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1807-06-06"^^xsd:string ;
+    schema1:birthPlace faamentity:DBDLXJHn ;
+    schema1:deathDate "1866-11-26"^^xsd:string ;
+    schema1:deathPlace faamentity:m8U7ZHMq ;
+    schema1:description "Belgian composer (1807-1866)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q376633>,
+        "15996002"^^xsd:string,
+        "iGWTaGKR"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Adrien François Servais"^^xsd:string,
+        "Adrien-François Servais"^^xsd:string ;
+    skos:prefLabel "Adrien-François Servais"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei ;
+    wd:P1303 faamentity:2nFJpnZ8 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:61734771 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/147751> ;
+    wd:P737 faamentity:UFbwTaUw ;
+    wd:P839 <https://imslp.org/wiki/Category:Servais,_Adrien-François> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:JJEmNCK7,
+        faamentity:L7DPWnnr,
+        faamentity:XWcaJQty .
+

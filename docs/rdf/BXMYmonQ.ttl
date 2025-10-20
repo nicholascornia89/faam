@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BXMYmonQ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:Bt83smaN ;
+    schema1:birthDate "1834-08-31"^^xsd:string ;
+    schema1:birthPlace faamentity:SbKQeeHZ ;
+    schema1:deathDate "1886-01-16"^^xsd:string ;
+    schema1:deathPlace faamentity:CBAqGowo ;
+    schema1:description "Italian composer (1834-1886)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q207390>,
+        "0"^^xsd:string,
+        "BXMYmonQ"^^xsd:string ;
+    schema1:nationality faamentity:F6hZzuTT,
+        faamentity:Fkfrx6rD ;
+    skos:prefLabel "Amilcare Ponchielli"^^xsd:string ;
+    wd:P108 faamentity:Bt83smaN,
+        faamentity:cMxtg4VT ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:10034325 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/1653417> ;
+    wd:P737 faamentity:5yjTbLzv ;
+    wd:P839 <https://imslp.org/wiki/Category:Ponchielli,_Amilcare> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:gPszdmNe .
+

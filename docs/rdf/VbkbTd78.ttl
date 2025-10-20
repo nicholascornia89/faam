@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VbkbTd78 a rdfs:Resource ;
+    faamprop:related_to faamentity:ZS9h3s2q ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q130319994>,
+        "16004118"^^xsd:string,
+        "VbkbTd78"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf,
+        faamentity:fj46nffV ;
+    skos:altLabel "Francesco Chiaramonte"^^xsd:string,
+        "François Chiaramonte"^^xsd:string ;
+    skos:prefLabel "Francesco Chiaramonte"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:L7DPWnnr,
+        faamentity:oJ9qmRVq .
+

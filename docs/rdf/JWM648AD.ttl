@@ -1,0 +1,59 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JWM648AD a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:HKyA3Qzz,
+        faamentity:amkJ6EBs,
+        faamentity:ieqEGEHo,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:67eZKUUR,
+        faamentity:7AXGCpck,
+        faamentity:96Uobb4a ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:25bLvjC3,
+        faamentity:DDH7fEFM,
+        faamentity:Y7stG82h ;
+    schema1:identifier "15992652"^^xsd:string,
+        "JWM648AD"^^xsd:string,
+        "KCG-000742404"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000742404"^^schema1:url ;
+    skos:prefLabel "Le Chalet : Opéra-comique en un acte"^^xsd:string ;
+    skosref:note "Staging instructions written by unknown director or actor."^^rdf:HTML ;
+    wd:P217 "MES-097"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"JWM648AD-0e301e61-4008-4116-98c2-dc333880f318"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"JWM648AD-20946284-3b31-4921-af8d-97a6a985ea20"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"JWM648AD-41448ed2-9004-4d0d-9c6f-e5970aff2387"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:25bLvjC3 a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Y7stG82h a rdf:object .
+

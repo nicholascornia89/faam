@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2zBtFXJZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1838"^^xsd:string ;
+    schema1:description "German publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4948547>,
+        "16002460"^^xsd:string,
+        "2zBtFXJZ"^^xsd:string ;
+    skos:altLabel "Bote & Bock"^^xsd:string ;
+    skos:prefLabel "Bote & Bock"^^xsd:string ;
+    wd:P214 viaf:142830884 ;
+    wd:P31 faamentity:HmGw8E8i ;
+    wd:P839 <https://imslp.org/wiki/Bote_&_Bock> .
+

@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jLreunkg a rdfs:Resource ;
+    faamprop:musical_parameter faamentity:4asnL3fC,
+        faamentity:R9hADWGS ;
+    schema1:Class "annotation_type"^^xsd:string ;
+    schema1:description "articulation"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1542153>,
+        "15992224"^^xsd:string,
+        "jLreunkg"^^xsd:string ;
+    skos:altLabel "Tenuto"^^xsd:string,
+        "tenere"^^xsd:string ;
+    skos:prefLabel "tenuto"^^xsd:string ;
+    wd:P1535 faamentity:AcFWzeQH,
+        faamentity:YvQmwaaW,
+        faamentity:oMERLdSN ;
+    wd:P279 faamentity:93GDD9ND,
+        faamentity:mkCY9LDD ;
+    wd:P31 faamentity:6m3ZbnrF,
+        faamentity:fxtj72S3 .
+

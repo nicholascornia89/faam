@@ -1,0 +1,73 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iFYfBsMq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:8Au3ocED,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:Cbxx8HUs,
+        faamentity:D6RjeTWv,
+        faamentity:DEL3dtgx,
+        faamentity:E4rhHet3,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:c8jBELvt,
+        faamentity:eSzqVmee,
+        faamentity:ieqEGEHo,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:PJUnFxn4,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JR6gFKtX,
+        faamentity:X8CowJzi,
+        faamentity:YWvFQ75E ;
+    schema1:hasPart faamentity:fYMphfsh,
+        faamentity:mmxBtMLz ;
+    schema1:identifier "16004001"^^xsd:string,
+        "KCG-000750008"^^xsd:string,
+        "iFYfBsMq"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000750008"^^schema1:url ;
+    skos:prefLabel "seizième Potpourri : pour Piano et Flute ou Violon"^^xsd:string ;
+    wd:P217 "V-B-00439 (10)-HA"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"iFYfBsMq-4b316c75-ae5e-419f-b5b9-a39d10f3225e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"iFYfBsMq-bf1f96ee-f965-4ab8-afd9-709f896cad02"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"iFYfBsMq-dd96c8df-1d5d-46fd-8586-1f31553d111e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:bSzLPudk .
+
+faamentity:JR6gFKtX a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:YWvFQ75E a rdf:object .
+

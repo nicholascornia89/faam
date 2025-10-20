@@ -1,0 +1,53 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:koReuX6g a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:NkfcVjHM,
+        faamentity:YJViDXyp ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1784-00-00"^^xsd:string,
+        "1784-03-25"^^xsd:string ;
+    schema1:birthPlace faamentity:8cDaepGu ;
+    schema1:deathDate "1871-00-00"^^xsd:string,
+        "1871-03-26"^^xsd:string ;
+    schema1:deathPlace faamentity:4g8XzGFP ;
+    schema1:description "Belgian composer (1784-1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q523581>,
+        "16005741"^^xsd:string,
+        "koReuX6g"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "François Fétis"^^xsd:string,
+        "François-Joseph Fétis"^^xsd:string ;
+    skos:prefLabel "François-Joseph Fétis"^^xsd:string ;
+    wd:P108 faamentity:K4cyR6ei,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:69078568 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/47982> ;
+    wd:P737 faamentity:DE4nnG5T,
+        faamentity:iKVWPQEw ;
+    wd:P839 <https://imslp.org/wiki/Category:Fétis,_François-Joseph> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:ULTyZNnY,
+        faamentity:XWcaJQty,
+        faamentity:YrCfZ8vh,
+        faamentity:avB62pGy,
+        faamentity:bSHypyYG,
+        faamentity:kKY7zLoa .
+

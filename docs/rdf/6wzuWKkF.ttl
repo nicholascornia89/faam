@@ -1,0 +1,82 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6wzuWKkF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:EqtAuzbH,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:4Vi2FEPi,
+        faamentity:EqtAuzbH,
+        faamentity:Jx8FMpyt,
+        faamentity:NRsZG792,
+        faamentity:aAsRZoVk,
+        faamentity:cbi3YyeP,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:bwTDuKBF ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GecAsFfL,
+        faamentity:QE9UrJXo,
+        faamentity:Yikf6B8p,
+        faamentity:hgyCbyUG,
+        faamentity:jm4QpjVW ;
+    schema1:hasPart faamentity:nPUFzXPm ;
+    schema1:identifier "15992664"^^xsd:string,
+        "6wzuWKkF"^^xsd:string,
+        "KCA-030901096443"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6811529/N"^^schema1:url ;
+    skos:prefLabel "Inventionen: Inventios 2 et 3 voix = Inventions in 2 & 3 parts"^^xsd:string ;
+    wd:P217 "TP 50404"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"6wzuWKkF-37c8a8eb-f186-4f16-bbb2-844625be943c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"6wzuWKkF-45942d7b-6882-4bfe-a173-6fd472d50b33"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"6wzuWKkF-4e7fd6ec-aa9e-422a-a89c-5780bba44e5e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"6wzuWKkF-5e784f05-b8f7-4b86-93d6-2b9fe2fe0bbc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"6wzuWKkF-c2bdb0ad-1cf4-4093-b195-0b8e24dcc8db"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"6wzuWKkF-f4e5451a-d32e-418e-8024-12e71d953d61"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:Yikf6B8p a rdf:object .
+
+faamentity:hgyCbyUG a rdf:object .
+
+faamentity:jm4QpjVW a rdf:object .
+

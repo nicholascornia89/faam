@@ -1,0 +1,56 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hd5HkQmN a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j ;
+    faamprop:handwritten_annotation faamentity:Jx8FMpyt,
+        faamentity:QeqFpJLJ,
+        faamentity:bTYqbr5b ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:KEwR4rEs ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:NkfcVjHM,
+        faamentity:TKrPz99q ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:CGy68nTi,
+        faamentity:DDH7fEFM,
+        faamentity:kviYEkoM ;
+    schema1:hasPart faamentity:dwdaRArz ;
+    schema1:identifier "16005005"^^xsd:string,
+        "KCA-030902819462"^^xsd:string,
+        "hd5HkQmN"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6807587/N"^^schema1:url ;
+    skos:prefLabel "Le clavecin bien tempéré de Jean-Sébastien Bach (1685-1750): guide pour les pianistes"^^xsd:string ;
+    wd:P217 "MM-BG-RYELA-claveci-1"^^xsd:string .
+
+schema1:contributor a rdf:predicate .
+
+"hd5HkQmN-3b2ad006-8fde-4200-8305-27c53adf2d76"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"hd5HkQmN-aa7ea763-86b2-48c0-9f40-28dfa788e2c2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"hd5HkQmN-f800f272-b869-4f73-9359-ba4c59e32450"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "05-09-1937"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:location faamentity:bMgaNNnb .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:kviYEkoM a rdf:object .
+

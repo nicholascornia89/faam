@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:haTPbpUy a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD,
+        faamentity:jP8px5zn ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:hcZB9haW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8E5UBj64,
+        faamentity:MBNmXtVc,
+        faamentity:jtE66RbA ;
+    schema1:hasPart faamentity:emZktnEj ;
+    schema1:identifier "15992337"^^xsd:string,
+        "KCA-030901351285"^^xsd:string,
+        "haTPbpUy"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6849733/N"^^schema1:url ;
+    skos:prefLabel "Sérénade andalouse: pour violon et piano, op. 28"^^xsd:string ;
+    wd:P217 "MM-SV-DESAR-seren-2"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"haTPbpUy-0799fe00-933e-440a-8f3b-04069467802b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:PNeLQZnK .
+
+"haTPbpUy-8600dee5-5191-4ef5-90ff-6e012cfd1874"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"haTPbpUy-a62349b0-6f5e-436e-8ce9-78667909c14c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:8E5UBj64 a rdf:object .
+
+faamentity:MBNmXtVc a rdf:object .
+
+faamentity:jtE66RbA a rdf:object .
+

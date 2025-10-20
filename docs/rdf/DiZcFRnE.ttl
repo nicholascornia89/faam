@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DiZcFRnE a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Wikimedia disambiguation page"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q342683>,
+        "15995836"^^xsd:string,
+        "DiZcFRnE"^^xsd:string ;
+    skos:altLabel "John Hawkins"^^xsd:string ;
+    skos:prefLabel "John Hawkins"^^xsd:string ;
+    wd:P31 faamentity:aF2g3cRF .
+

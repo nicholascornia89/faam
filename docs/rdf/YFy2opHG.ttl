@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YFy2opHG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1847-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:X8d6THo4 ;
+    schema1:deathDate "1909-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:VBWoKQTY,
+        faamentity:X8d6THo4 ;
+    schema1:description "Danish flutist, conductor and composer (1847–1909)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q785596>,
+        "16004989"^^xsd:string,
+        "YFy2opHG"^^xsd:string ;
+    schema1:nationality faamentity:BufA9J82 ;
+    skos:altLabel "Carl Joachim Andersen"^^xsd:string,
+        "Joachim Andersen"^^xsd:string,
+        "Karl Joachim Andersen"^^xsd:string ;
+    skos:prefLabel "Joachim Andersen"^^xsd:string ;
+    wd:P1303 faamentity:AdNoqEfD ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:76504978 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Andersen,_Joachim> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:RVTQxuie,
+        faamentity:TDF2knmi .
+

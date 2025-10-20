@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gKVg4asf", "label": "Keyboard Sonata in D major, K.490", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gKVg4asf.md\u0027\u003eKeyboard Sonata in D major, K.490\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RtkoMT89", "label": "sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RtkoMT89.md\u0027\u003esonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of musical composition, usually for a solo instrument or a small instrumental ensemble\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LHqqQNHE", "label": "12 Sonates pour clavecin ou forte-piano compos\u00e9es dans le style du c\u00e9l\u00e8bre Scarlatti... Op. 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LHqqQNHE.md\u0027\u003e12 Sonates pour clavecin ou forte-piano compos\u00e9es dans le style du c\u00e9l\u00e8bre Scarlatti... Op. 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"../assets/images/thumbs/BNF-39782625z.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2jqojKUv", "label": "Keyboard Sonata in E major, K.381", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2jqojKUv.md\u0027\u003eKeyboard Sonata in E major, K.381\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mkCY9LDD.md\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nTx2RkTQ", "label": "trill", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nTx2RkTQ.md\u0027\u003etrill\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament consisting of a rapid alternation between two adjacent notes, usually a semitone or tone apart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "48ukXYmB", "label": "articulation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./48ukXYmB.md\u0027\u003earticulation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical performance technique that affects the transition or continuity on notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j3tnVzW5", "label": "diminuendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j3tnVzW5.md\u0027\u003ediminuendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eSzqVmee.md\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HKyA3Qzz.md\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DEL3dtgx", "label": "sforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEL3dtgx.md\u0027\u003esforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7TfyuFpZ", "label": "turn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7TfyuFpZ.md\u0027\u003eturn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JwqBvu9Z", "label": "fermata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JwqBvu9Z.md\u0027\u003efermata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol of musical notation indicating that the note should be prolonged beyond its normal duration or note value would indicate\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Cbxx8HUs", "label": "cantabile", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Cbxx8HUs.md\u0027\u003ecantabile\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expression\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QfLRrJ2B", "label": "rinforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QfLRrJ2B.md\u0027\u003erinforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tkKrhbM.md\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "PRjsXYR5", "label": "Biblioth\u00e8que Nationale de France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PRjsXYR5.md\u0027\u003eBiblioth\u00e8que Nationale de France\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enational library of France in Paris\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Gx3B7DJH.md\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./WiBZjkbR.md\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YJViDXyp", "label": "musical hoax", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./YJViDXyp.md\u0027\u003emusical hoax\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epiece of music composed by an individual that is intentionally misattributed to someone else\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DrGjSfwU", "label": "forgery", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DrGjSfwU.md\u0027\u003eforgery\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprocess of making, adapting, or imitating objects, statistics, or documents with the intent to deceive\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FDSkv45i", "label": "piano sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./FDSkv45i.md\u0027\u003epiano sonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata written for solo piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./PyGNLcfw.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9Wu9N4Xb", "label": "Keyboard Sonata in F major, K.378", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9Wu9N4Xb.md\u0027\u003eKeyboard Sonata in F major, K.378\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Ex6yAsw4", "label": "Keyboard Sonata in E major, K.380", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Ex6yAsw4.md\u0027\u003eKeyboard Sonata in E major, K.380\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Quc8drWz", "label": "Keyboard Sonata in D major, K.400", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Quc8drWz.md\u0027\u003eKeyboard Sonata in D major, K.400\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TcrPNFji", "label": "Keyboard Sonata in E-flat major, K.475", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TcrPNFji.md\u0027\u003eKeyboard Sonata in E-flat major, K.475\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nDc3DFJk", "label": "Keyboard Sonata in E major, K.206", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nDc3DFJk.md\u0027\u003eKeyboard Sonata in E major, K.206\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SwDJdsgz", "label": "Keyboard Sonata in E major, K.531", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SwDJdsgz.md\u0027\u003eKeyboard Sonata in E major, K.531\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fWidpdNg", "label": "Keyboard Sonata in F minor, K.462", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fWidpdNg.md\u0027\u003eKeyboard Sonata in F minor, K.462\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Yir7h9mG", "label": "Keyboard Sonata in F minor, K.463", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Yir7h9mG.md\u0027\u003eKeyboard Sonata in F minor, K.463\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "gKVg4asf", "to": "RtkoMT89", "width": 1}, {"from": "gKVg4asf", "to": "LHqqQNHE", "width": 1}, {"from": "2jqojKUv", "to": "RtkoMT89", "width": 1}, {"from": "2jqojKUv", "to": "LHqqQNHE", "width": 1}, {"from": "LHqqQNHE", "to": "mkCY9LDD", "width": 1}, {"from": "LHqqQNHE", "to": "nTx2RkTQ", "width": 1}, {"from": "LHqqQNHE", "to": "48ukXYmB", "width": 1}, {"from": "LHqqQNHE", "to": "j3tnVzW5", "width": 1}, {"from": "LHqqQNHE", "to": "eSzqVmee", "width": 1}, {"from": "LHqqQNHE", "to": "HKyA3Qzz", "width": 1}, {"from": "LHqqQNHE", "to": "DEL3dtgx", "width": 1}, {"from": "LHqqQNHE", "to": "7TfyuFpZ", "width": 1}, {"from": "LHqqQNHE", "to": "JwqBvu9Z", "width": 1}, {"from": "LHqqQNHE", "to": "Cbxx8HUs", "width": 1}, {"from": "LHqqQNHE", "to": "QfLRrJ2B", "width": 1}, {"from": "LHqqQNHE", "to": "9tkKrhbM", "width": 1}, {"from": "LHqqQNHE", "to": "PRjsXYR5", "width": 1}, {"from": "LHqqQNHE", "to": "Gx3B7DJH", "width": 1}, {"from": "LHqqQNHE", "to": "RtkoMT89", "width": 1}, {"from": "LHqqQNHE", "to": "WiBZjkbR", "width": 1}, {"from": "LHqqQNHE", "to": "YJViDXyp", "width": 1}, {"from": "LHqqQNHE", "to": "DrGjSfwU", "width": 1}, {"from": "LHqqQNHE", "to": "FDSkv45i", "width": 1}, {"from": "LHqqQNHE", "to": "PyGNLcfw", "width": 1}, {"from": "LHqqQNHE", "to": "9Wu9N4Xb", "width": 1}, {"from": "LHqqQNHE", "to": "Ex6yAsw4", "width": 1}, {"from": "LHqqQNHE", "to": "Quc8drWz", "width": 1}, {"from": "LHqqQNHE", "to": "TcrPNFji", "width": 1}, {"from": "LHqqQNHE", "to": "nDc3DFJk", "width": 1}, {"from": "LHqqQNHE", "to": "SwDJdsgz", "width": 1}, {"from": "LHqqQNHE", "to": "fWidpdNg", "width": 1}, {"from": "LHqqQNHE", "to": "Yir7h9mG", "width": 1}, {"from": "RtkoMT89", "to": "Ex6yAsw4", "width": 1}, {"from": "RtkoMT89", "to": "9Wu9N4Xb", "width": 1}, {"from": "RtkoMT89", "to": "TcrPNFji", "width": 1}, {"from": "RtkoMT89", "to": "Yir7h9mG", "width": 1}, {"from": "RtkoMT89", "to": "fWidpdNg", "width": 1}, {"from": "RtkoMT89", "to": "nDc3DFJk", "width": 1}, {"from": "RtkoMT89", "to": "Quc8drWz", "width": 1}, {"from": "RtkoMT89", "to": "SwDJdsgz", "width": 1}, {"from": "HKyA3Qzz", "to": "DEL3dtgx", "width": 1}, {"from": "HKyA3Qzz", "to": "eSzqVmee", "width": 1}, {"from": "HKyA3Qzz", "to": "j3tnVzW5", "width": 1}, {"from": "QfLRrJ2B", "to": "mkCY9LDD", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

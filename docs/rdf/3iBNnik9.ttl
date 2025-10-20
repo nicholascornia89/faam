@@ -1,0 +1,66 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3iBNnik9 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:AB4X4hGP,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:UJ57Ew5y,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:8N6k5W5i,
+        faamentity:DawBtzdU,
+        faamentity:NRsZG792,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:8eHc2EdM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:X8CowJzi,
+        faamentity:XkmeaM49 ;
+    schema1:identifier "15992435"^^xsd:string,
+        "3iBNnik9"^^xsd:string,
+        "KCA-030902354759"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6793327/N"^^schema1:url ;
+    skos:prefLabel "Ik droomde!"^^xsd:string ;
+    skosref:related faamentity:g2kSyZLB ;
+    wd:P217 "MM-ZL-BENOI-ikdroom-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"3iBNnik9-529fd899-7617-4475-8cc1-7f1b410ed753"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"3iBNnik9-625e6297-b33d-4199-9448-45daa7f0ab46"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"3iBNnik9-c47bdb33-8557-43ff-83a5-efe546824e9d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"3iBNnik9-f223d208-fcd0-4a1a-8a67-549fd0deabca"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:XkmeaM49 a rdf:object .
+

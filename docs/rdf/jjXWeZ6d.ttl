@@ -1,0 +1,69 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jjXWeZ6d a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7TfyuFpZ,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:nTx2RkTQ ;
+    faamprop:handwritten_annotation faamentity:48ukXYmB,
+        faamentity:8N6k5W5i,
+        faamentity:93GDD9ND,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:Jx8FMpyt,
+        faamentity:NRsZG792,
+        faamentity:SRaiiKJr,
+        faamentity:TLaaNgbw,
+        faamentity:TUdHPWU8,
+        faamentity:UJ57Ew5y,
+        faamentity:bTYqbr5b,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:QJBnZkeJ,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:XAGe7nBv,
+        faamentity:kjc6KBeH ;
+    schema1:identifier "15992511"^^xsd:string,
+        "KCA-030901353307"^^xsd:string,
+        "jjXWeZ6d"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6770966/N"^^schema1:url ;
+    skos:prefLabel "Duo I in d-moll : für 2 Clarinetten"^^xsd:string ;
+    skosref:related faamentity:TLaaNgbw ;
+    wd:P217 "UM-BC-CRUSE-duo1-1"^^xsd:string ;
+    wd:P870 faamentity:MVLRXXFR .
+
+schema1:contributor a rdf:predicate .
+
+"jjXWeZ6d-b60375ce-d318-476e-b365-c8e71f9f5a78"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"jjXWeZ6d-c6f9580b-534d-434a-84e6-e064635ec164"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:TrVTMFdZ .
+
+"jjXWeZ6d-cdb7527b-8c7c-4f23-878e-b1f4552ace95"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:XAGe7nBv a rdf:object .
+
+faamentity:kjc6KBeH a rdf:object .
+

@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GjurMHUq a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "higher musical education institution in Moscow"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q215539>,
+        "15991095"^^xsd:string,
+        "GjurMHUq"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6,
+        faamentity:DEbEnXwM,
+        faamentity:MDaUN9xs,
+        faamentity:c4DdDGWx,
+        faamentity:eeLsSgs5,
+        faamentity:gtpMWPv9 ;
+    skos:altLabel "Moscow Conservatory"^^xsd:string,
+        "Moscow Imperial Conservatory"^^xsd:string,
+        "Moscow State Tchaikovsky Conservatory"^^xsd:string,
+        "Moscow Tchaikovsky Conservatory"^^xsd:string,
+        "Tchaikovsky Moscow State Conservatory"^^xsd:string ;
+    skos:prefLabel "Moscow Conservatory"^^xsd:string .
+

@@ -1,0 +1,44 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Kfr836HB a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1803-12-11"^^xsd:string ;
+    schema1:birthPlace faamentity:bwMcFmUs ;
+    schema1:deathDate "1869-03-08"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French composer and conductor (1803–1869)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1151>,
+        "15996066"^^xsd:string,
+        "Kfr836HB"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Hector Berlioz"^^xsd:string ;
+    skos:prefLabel "Hector Berlioz"^^xsd:string ;
+    wd:P1303 faamentity:AdNoqEfD,
+        faamentity:CUtvwUDL,
+        faamentity:GsYHbd4y,
+        faamentity:QE66HesX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71577105 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/13803> ;
+    wd:P737 faamentity:CCXXrNqc,
+        faamentity:SgJFWhdM ;
+    wd:P839 <https://imslp.org/wiki/Category:Berlioz,_Hector> ;
+    schema:hasOccupation faamentity:3Kncf32R,
+        faamentity:5aTYuVxp,
+        faamentity:BPsUV5WT,
+        faamentity:ELKwPhtK,
+        faamentity:NdA6Fzv9,
+        faamentity:TDF2knmi,
+        faamentity:Tj5k8Dah,
+        faamentity:YrCfZ8vh,
+        faamentity:avB62pGy .
+

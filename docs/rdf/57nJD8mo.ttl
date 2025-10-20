@@ -1,0 +1,56 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:57nJD8mo a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1326-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:bymqBWsd ;
+    schema1:deathDate "1389"^^xsd:string ;
+    schema1:deathPlace faamentity:bymqBWsd ;
+    schema1:description "Persian poet and mystic (1325–1389)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6240>,
+        "15996234"^^xsd:string,
+        "57nJD8mo"^^xsd:string ;
+    schema1:nationality faamentity:27yevJkC,
+        faamentity:9hPUH2pK ;
+    skos:altLabel "Anacreon of Persia"^^xsd:string,
+        "Haafiz"^^xsd:string,
+        "Hafez"^^xsd:string,
+        "Hafis"^^xsd:string,
+        "Hafiz"^^xsd:string,
+        "Häfiz"^^xsd:string,
+        "Khafiz"^^xsd:string,
+        "Khāja Shamsu Dīn Muhammad Hāfez-e Shīrāzī"^^xsd:string,
+        "Moḥammed Shams od-Dīn Ḥafeẓ"^^xsd:string,
+        "Moḥammed Šams al-Dīn Ḥafeẓ"^^xsd:string,
+        "Shams al-Dīn Muḥammad Shīrāzī"^^xsd:string,
+        "Shams-ud-Din Mohammed"^^xsd:string,
+        "Shamsoddin Mohammad Hafez-e Shirazi"^^xsd:string,
+        "of Shiraz Šams-al-Din Moḥammad"^^xsd:string,
+        "Ḥāfeẓ"^^xsd:string,
+        "Ḥāfiz"^^xsd:string,
+        "Ḥāfiẓ"^^xsd:string,
+        "Ḥāfiẓ Shīrāzī"^^xsd:string ;
+    skos:prefLabel "Hafez"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:56731778 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30048075> ;
+    wd:P737 <Q11356>,
+        <Q1148049>,
+        <Q172862>,
+        <Q194091>,
+        <Q234908>,
+        <Q368862>,
+        <Q46420> ;
+    wd:P839 <https://imslp.org/wiki/Category:Ḥāfiẓ> ;
+    schema:hasOccupation faamentity:GdmSRzGv,
+        faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio .
+

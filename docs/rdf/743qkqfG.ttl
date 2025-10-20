@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:743qkqfG a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:E4rhHet3,
+        faamentity:QeqFpJLJ,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:96Uobb4a,
+        faamentity:LmDaVvmF,
+        faamentity:MqMSenV3 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:UV4kKxSP,
+        faamentity:XC8Yynik ;
+    schema1:hasPart faamentity:cvNtPTvq ;
+    schema1:identifier "15992474"^^xsd:string,
+        "743qkqfG"^^xsd:string,
+        "KCA-030901706736"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13206947/N"^^schema1:url ;
+    skos:prefLabel "La Mascotte : opéra-comique en 3 actes"^^xsd:string ;
+    skosref:note "The last line before each musical scene are indicated for the piano performer."^^rdf:HTML ;
+    skosref:related faamentity:9TFwhCHq,
+        faamentity:HoH6TbZs ;
+    wd:P217 "MM-ZP-AUDRA-mascott-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"743qkqfG-9a793a35-8faf-4611-b9ca-1d36ecd8c055"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"743qkqfG-a84f9ce3-3e44-49c6-bd56-f940b4ef280a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"743qkqfG-b0de2681-a3a6-4d22-8a19-f873ed329fcc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:UV4kKxSP a rdf:object .
+
+faamentity:XC8Yynik a rdf:object .
+

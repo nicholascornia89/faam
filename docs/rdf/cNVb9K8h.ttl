@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cNVb9K8h a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1553-10-18"^^xsd:string ;
+    schema1:birthPlace faamentity:UN2GwACe ;
+    schema1:deathDate "1599-08-22"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian composer (1553-1599)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q316532>,
+        "15996240"^^xsd:string,
+        "cNVb9K8h"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B,
+        faamentity:eYiHyUu4 ;
+    skos:altLabel "Luca Marenzi"^^xsd:string,
+        "Luca Marenzio"^^xsd:string ;
+    skos:prefLabel "Luca Marenzio"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2656905 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30003955> ;
+    wd:P737 faamentity:5Y8CNfeG ;
+    wd:P839 <https://imslp.org/wiki/Category:Marenzio,_Luca> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

@@ -1,0 +1,135 @@
+{
+  "id": "HQVKy2Gm",
+  "uuid_num": 30094419561385,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "cornet"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical instrument"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "cornet"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q202027",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "cornet"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "musical_instrument"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "HQVKy2Gm"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15990814"
+      }
+    ]
+  },
+  "statements": {
+    "instance of": [
+      {
+        "type": "item",
+        "value": "BnwWc34X",
+        "label": ""
+      }
+    ],
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "E2Sb746q",
+        "label": ""
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "Qb6CzqJH",
+        "type": "item",
+        "label": "30 pièces classiques : pour trompette en b",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902707600.gif"
+        }
+      },
+      {
+        "id": "WyPjHYq7",
+        "type": "item",
+        "label": "Giaour : mélodie Persane",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904381131.gif"
+        }
+      }
+    ],
+    "agent": [
+      {
+        "id": "bCvwLLdh",
+        "type": "item",
+        "label": "Jean-Baptiste Arban",
+        "description": "French cornetist, conductor, composer and pedagogue (1825–1889)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Jean_Baptiste_Arban_Disderi_BNF_Gallica.jpg"
+        }
+      },
+      {
+        "id": "YC8uM4xD",
+        "type": "item",
+        "label": "C. Sauveur",
+        "description": "",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "HQVKy2Gm.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "HQVKy2Gm.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "HQVKy2Gm.csv"
+      }
+    ]
+  }
+}

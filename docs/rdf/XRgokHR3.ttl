@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XRgokHR3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:GfcsqPhn,
+        faamentity:PprjdkHE ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:SvYJwPJH,
+        faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:FTmkdBnA,
+        faamentity:o8A78GYD ;
+    schema1:hasPart faamentity:Z9XqKKPC ;
+    schema1:identifier "15992282"^^xsd:string,
+        "KCA-030902642138"^^xsd:string,
+        "XRgokHR3"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12981801/N"^^schema1:url ;
+    skos:prefLabel "Faun und Schäferin: liedercyklus für Gesang und Klavier, op. 2 = Le faune et la bergère: suite pour chant et piano, opus 2"^^xsd:string ;
+    wd:P217 "MM-LEPP-STRAV-favn-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"XRgokHR3-8eda5cc7-dab7-4823-ab70-55f84cc7b471"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"XRgokHR3-9d15095d-75f2-4994-bef7-3b6ba2d8ec21"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"XRgokHR3-f44e95e7-bd43-4448-be63-517bc9994b44"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:FTmkdBnA a rdf:object .
+
+faamentity:o8A78GYD a rdf:object .
+

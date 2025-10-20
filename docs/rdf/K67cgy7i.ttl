@@ -1,0 +1,72 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:K67cgy7i a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2mb4qe86,
+        faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:9tkKrhbM,
+        faamentity:D6RjeTWv,
+        faamentity:SRaiiKJr,
+        faamentity:TUdHPWU8,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:jLreunkg,
+        faamentity:k6GNqQ5D,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:PPhziStg,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:PXYCpRXf,
+        faamentity:QE9UrJXo,
+        faamentity:jieDZf2J ;
+    schema1:hasPart faamentity:JHg9MPVu ;
+    schema1:identifier "15992670"^^xsd:string,
+        "K67cgy7i"^^xsd:string,
+        "KCA-TP44158"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6735295/N"^^schema1:url ;
+    skos:prefLabel "Pastorale und Capriccio"^^xsd:string ;
+    skosref:note "The sonata has been arrangend in E minor from the original key of D."^^rdf:HTML ;
+    wd:P217 "TP44158"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"K67cgy7i-24021aec-c1bb-4b17-9657-68683706ab38"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"K67cgy7i-41b9f863-789d-4c38-afcf-42731797203f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"K67cgy7i-5957abe4-438d-492a-baa0-659c24a406e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:jieDZf2J a rdf:object .
+

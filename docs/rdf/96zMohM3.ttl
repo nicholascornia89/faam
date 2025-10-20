@@ -1,0 +1,46 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:96zMohM3 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:VwZmF2Uv ;
+    schema1:birthDate "1899-08-28"^^xsd:string ;
+    schema1:birthPlace faamentity:FmBmjpRS ;
+    schema1:deathDate "1970-11-19"^^xsd:string ;
+    schema1:deathPlace faamentity:diUttN86 ;
+    schema1:description "Soviet pianist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q258602>,
+        "0"^^xsd:string,
+        "96zMohM3"^^xsd:string ;
+    schema1:nationality faamentity:DEbEnXwM,
+        faamentity:c4DdDGWx ;
+    skos:altLabel "Maria Veniaminovna Yudina"^^xsd:string,
+        "Mariya Veniaminovna Yudina"^^xsd:string,
+        "Mariya Yudina"^^xsd:string ;
+    skos:prefLabel "Maria Yudina"^^xsd:string ;
+    wd:P108 faamentity:AJGqGYJy,
+        faamentity:GjurMHUq ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:198024 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:8q6XYtqr,
+        faamentity:HHzk4yh3,
+        faamentity:HX8ujrS4,
+        faamentity:VNe4Xzes,
+        faamentity:ZFu3SiZv,
+        faamentity:biyCSdJp,
+        faamentity:brNxETm3,
+        faamentity:jhDovNPr,
+        faamentity:oJyuwdgt ;
+    wd:P839 <https://imslp.org/wiki/Category:Yudina,_Maria> ;
+    schema:hasOccupation faamentity:AKfEoRof,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

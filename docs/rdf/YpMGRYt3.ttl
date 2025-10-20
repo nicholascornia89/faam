@@ -1,0 +1,70 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YpMGRYt3 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:MR3kLpuM,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:atGzytDR,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gaLrAUbu,
+        faamentity:gb6MiJbD,
+        faamentity:hChNthvw ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:Gx3B7DJH,
+        faamentity:Jz7WgRXa,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:9z8RdMRP,
+        faamentity:CGy68nTi,
+        faamentity:GDpGVns7 ;
+    schema1:hasPart faamentity:FayULDdv ;
+    schema1:identifier "15996317"^^xsd:string,
+        "KCG-39.OP.OM.deMonte24"^^xsd:string,
+        "YpMGRYt3"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Philippi de Monte. Motetum \"O bone Jesu\" tripartitum"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"YpMGRYt3-14731b3e-b6f7-49b3-9bdc-8136c342017a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"YpMGRYt3-734b8211-afb2-4c68-aa3d-a691223ee2e3"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1927"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"YpMGRYt3-f559f0aa-4c1d-4ce3-9344-bad3eafea800"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:9z8RdMRP a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:GDpGVns7 a rdf:object .
+

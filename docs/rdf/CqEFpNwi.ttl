@@ -1,0 +1,76 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CqEFpNwi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eJhxFoas,
+        faamentity:eSzqVmee,
+        faamentity:iZiYk6VC,
+        faamentity:kxAqh9HR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """Inhalt.
+<ol>
+<li> Praeludium </li>
+<li> Pastorale</li>
+<li> Intermezzo</li>
+<li> Canon</li>
+<li> Toccata</li>
+<li> Fuge</li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:SvYJwPJH,
+        faamentity:T9uNf9Ax,
+        faamentity:TnbLqDio,
+        faamentity:UuRrGkeE,
+        faamentity:WgWRP5cq,
+        faamentity:YLBjfZTJ ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:QE9UrJXo,
+        faamentity:WXLXgEpt ;
+    schema1:hasPart faamentity:UGdEDHYb ;
+    schema1:identifier "16004131"^^xsd:string,
+        "CqEFpNwi"^^xsd:string,
+        "KCA-030904127690"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14807733/N"^^schema1:url ;
+    skos:prefLabel "Zwölf Stücke : für die Orgel, op. 59"^^xsd:string ;
+    skosref:related faamentity:7qCCArxX,
+        faamentity:eW5udcz6 ;
+    wd:P217 "MM-TO-REGER-stuk59-1/2"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB .
+
+schema1:contributor a rdf:predicate .
+
+"CqEFpNwi-599e615e-f611-4e3e-be40-4f051c54a285"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"CqEFpNwi-c5ec2d47-e031-4517-b027-3fd569fff411"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"CqEFpNwi-e415ffe1-2a05-4318-835c-eceb342e644c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:WXLXgEpt a rdf:object .
+

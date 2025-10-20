@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3JesYteJ a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:93GDD9ND,
+        faamentity:HKyA3Qzz,
+        faamentity:LBfWd2va,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:RtkoMT89 ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:MpcFo7ct,
+        faamentity:PXYCpRXf,
+        faamentity:agWvDDr6 ;
+    schema1:hasPart faamentity:FpHM2oK7 ;
+    schema1:identifier "16004009"^^xsd:string,
+        "3JesYteJ"^^xsd:string,
+        "BNF-43257906h"^^xsd:string ;
+    schema1:url "https://catalogue.bnf.fr/ark:/12148/cb43257906h"^^schema1:url ;
+    skos:prefLabel "Sonate n° 13 (allemande) / Domenico Scarlatti..."^^xsd:string ;
+    wd:P217 "FOL-VM-1 (7)"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"3JesYteJ-060e0794-395f-47c9-b221-e329f146c8d9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"3JesYteJ-65fac209-5005-42d8-9820-a80eeaa90941"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"3JesYteJ-aa8da585-6c5c-4143-90a9-b108eabb6359"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:MpcFo7ct a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:agWvDDr6 a rdf:object .
+

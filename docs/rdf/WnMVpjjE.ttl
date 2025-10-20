@@ -1,0 +1,63 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WnMVpjjE a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:9tkKrhbM,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:LQE77nqs,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eSzqVmee,
+        faamentity:iyfjpyT2 ;
+    faamprop:handwritten_annotation faamentity:bTYqbr5b ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:QsjMFntL,
+        faamentity:Rn2iLGJr,
+        faamentity:YVdQHjKd ;
+    dcterms:provenance faamentity:DwfPL64F ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:GBEySAxU,
+        faamentity:dUpngPy6 ;
+    schema1:identifier "16005039"^^xsd:string,
+        "UTL-31761111345377"^^xsd:string,
+        "WnMVpjjE"^^xsd:string ;
+    schema1:url "https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991107227217206196"^^schema1:url ;
+    skos:prefLabel "Weihnachts-Kantate, für Sopran- und Alt-Solo, weiblichen Chor und Pianoforte. Op. 170"^^xsd:string ;
+    wd:P217 "M2075 .R43 W4"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"WnMVpjjE-2c65466c-85b9-4fd3-834c-f4874ba14cbb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"WnMVpjjE-c1bfb3fa-7374-4cac-9949-81aae2fb7866"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"WnMVpjjE-c8a520cf-761d-41b6-8a98-6f1bc66b074a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:GBEySAxU a rdf:object .
+
+faamentity:dUpngPy6 a rdf:object .
+

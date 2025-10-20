@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KoszR7PU a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:J2JS4FwU ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3413638>,
+        "16002809"^^xsd:string,
+        "KoszR7PU"^^xsd:string ;
+    skos:altLabel "Q3413638"^^xsd:string ;
+    skos:prefLabel "Madrigals, Book 4, SV 75–93"^^xsd:string ;
+    wd:P5202 faamentity:Wm9HGynC ;
+    wd:P7937 faamentity:EHXeMNgG,
+        faamentity:Jz7WgRXa ;
+    wd:P839 <https://imslp.org/wiki/Madrigals,_Book_4,_SV_75–93_(Monteverdi,_Claudio)> .
+

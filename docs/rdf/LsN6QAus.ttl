@@ -1,0 +1,65 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LsN6QAus a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:D6RjeTWv,
+        faamentity:EgkVbUEo,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:LtW88Gtx,
+        faamentity:UJ57Ew5y,
+        faamentity:jP8px5zn,
+        faamentity:kxAqh9HR ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:6wpp746x,
+        faamentity:DrGjSfwU,
+        faamentity:Gx3B7DJH,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:YJViDXyp,
+        faamentity:gKMU7J89 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:JXgmU5ov,
+        faamentity:KqBibisZ,
+        faamentity:X8CowJzi ;
+    schema1:identifier "16005000"^^xsd:string,
+        "KCA-030904920060"^^xsd:string,
+        "LsN6QAus"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6718993/N"^^schema1:url ;
+    skos:prefLabel "La précieuse : für Violine und Klavier"^^xsd:string ;
+    wd:P217 "MM-SV-COUPE-lapreci-4"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LsN6QAus-75a15c50-a770-4301-ab5b-109004bee139"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LsN6QAus-dd2d39fa-7704-4b7b-bac5-be1991ecda41"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LsN6QAus-e029b5c4-135a-4dea-b1ba-9e0ecad0baaa"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1910"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+faamentity:JXgmU5ov a rdf:object .
+
+faamentity:KqBibisZ a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

@@ -1,0 +1,52 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6GsnaiJk a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:DawBtzdU,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:PprjdkHE,
+        faamentity:aAsRZoVk,
+        faamentity:gaLrAUbu,
+        faamentity:jLreunkg ;
+    faamprop:score_complexity faamentity:KxvTqqX5 ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:LmDaVvmF,
+        faamentity:PNUCXvjA,
+        faamentity:eZ6Y2bh8,
+        faamentity:jvLF4xd6 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AedSA8fV,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992313"^^xsd:string,
+        "6GsnaiJk"^^xsd:string,
+        "KCA-030902567517"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:7062538/N"^^schema1:url ;
+    skos:prefLabel "Yolande : lyrische legende"^^xsd:string ;
+    wd:P217 "MM-MS-WAMBA-yolande-3"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"6GsnaiJk-275a795d-17c1-43ea-ad16-197855814554"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"6GsnaiJk-b2435797-bf36-4552-89f2-810a6e5bf523"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:AedSA8fV a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+

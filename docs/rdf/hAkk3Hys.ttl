@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hAkk3Hys a rdfs:Resource ;
+    faamprop:related_to faamentity:DrGjSfwU,
+        faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ,
+        faamentity:9QaFAsRL ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1775-10-21"^^xsd:string ;
+    schema1:birthPlace faamentity:D7zj8y2m ;
+    schema1:deathDate "1844-05-21"^^xsd:string,
+        "1844-08-31"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian priest, music critic and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1225719>,
+        "16005766"^^xsd:string,
+        "hAkk3Hys"^^xsd:string ;
+    skos:altLabel "Abbate Giuseppe Baini"^^xsd:string,
+        "Giuseppe Baini"^^xsd:string ;
+    skos:prefLabel "Giuseppe Baini"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:44496267 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/4166> ;
+    wd:P839 <https://imslp.org/wiki/Category:Baini,_Giuseppe> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:QJhBdvTq,
+        faamentity:R7KKRvQ6,
+        faamentity:YrCfZ8vh,
+        faamentity:egpA6QR2,
+        faamentity:kKY7zLoa .
+

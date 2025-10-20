@@ -1,0 +1,61 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MBjKg4X7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:EqtAuzbH,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:UJ57Ew5y ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:6bssUuuV,
+        faamentity:Th5WvPTu,
+        faamentity:TvgVbkP2 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6UrJ5gwo,
+        faamentity:DDH7fEFM,
+        faamentity:cy2NFhfp ;
+    schema1:hasPart faamentity:SogEdPnX ;
+    schema1:identifier "15992445"^^xsd:string,
+        "KCA-030902357919"^^xsd:string,
+        "MBjKg4X7"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12939634/N"^^schema1:url ;
+    skos:prefLabel "Sérénade de Milenka: pour ténor: (ton original)"^^xsd:string ;
+    skosref:related faamentity:XtjRJ6FC ;
+    wd:P217 "MM-ZL-BLOCK-serenad-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"MBjKg4X7-245ca8c2-4959-4ede-bfd1-3be95273bf68"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"MBjKg4X7-2e0da4e5-b3ec-4959-aa2a-b0271051074b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"MBjKg4X7-b6a8a21c-32be-4a1a-94c0-e1b448e5dd2d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:6UrJ5gwo a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:cy2NFhfp a rdf:object .
+

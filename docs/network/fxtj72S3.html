@@ -1,0 +1,315 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 1200px;
+                 height: 1200px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MYAXux6m", "label": "buff stop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MYAXux6m.md\u0027\u003ebuff stop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estop on harpsichord\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fxtj72S3", "label": "musical notation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./fxtj72S3.md\u0027\u003emusical notation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egraphic writing of musical parameters\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HfUqmAjf", "label": "vibrato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HfUqmAjf.md\u0027\u003evibrato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eregular, pulsating change of pitch in music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "k6GNqQ5D", "label": "arpeggio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./k6GNqQ5D.md\u0027\u003earpeggio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enotes in a chord played in sequence\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "93GDD9ND", "label": "ornament", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./93GDD9ND.md\u0027\u003eornament\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or \"ornament\" that line\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mcTtoyTt", "label": "presto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mcTtoyTt.md\u0027\u003epresto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindication of musical tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mDEpSGUY", "label": "allegro", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mDEpSGUY.md\u0027\u003eallegro\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efast musical tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Cbxx8HUs", "label": "cantabile", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Cbxx8HUs.md\u0027\u003ecantabile\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expression\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D6RjeTWv", "label": "musical expression", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./D6RjeTWv.md\u0027\u003emusical expression\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evarious techniques used in musical performance to convey emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "m9rNaSAR", "label": "rallentando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./m9rNaSAR.md\u0027\u003erallentando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ieqEGEHo", "label": "messa di voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ieqEGEHo.md\u0027\u003emessa di voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSinging technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4AqAfYnf", "label": "da capo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4AqAfYnf.md\u0027\u003eda capo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QGRAMUu8", "label": "repeat sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QGRAMUu8.md\u0027\u003erepeat sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical notation indicating repetition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "hJoKsjEm", "label": "variation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./hJoKsjEm.md\u0027\u003evariation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003espontaneous or deliberate alteration of information sequences or properties\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aZHisV3k", "label": "double appoggiatura", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aZHisV3k.md\u0027\u003edouble appoggiatura\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "J6Z67n8w", "label": "appoggiatura", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./J6Z67n8w.md\u0027\u003eappoggiatura\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical ornament\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "jP8px5zn", "label": "bowing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jP8px5zn.md\u0027\u003ebowing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ea way of producing sound (articulation) on stringed instruments using a bow\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DEL3dtgx", "label": "sforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DEL3dtgx.md\u0027\u003esforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQE77nqs", "label": "release pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LQE77nqs.md\u0027\u003erelease pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BF3ukx2D", "label": "glissando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BF3ukx2D.md\u0027\u003eglissando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eglide from one pitch to another\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7TfyuFpZ", "label": "turn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7TfyuFpZ.md\u0027\u003eturn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iZiYk6VC", "label": "organ stop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iZiYk6VC.md\u0027\u003eorgan stop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epart of a pipe organ\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mMrUGL4h", "label": "ad libitum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mMrUGL4h.md\u0027\u003ead libitum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eLatin expression for \"at one\u0027s pleasure\"\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JXYgRRuc", "label": "musica ficta", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JXYgRRuc.md\u0027\u003emusica ficta\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003erenaissance European music theory term to describe pitches\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "8N6k5W5i", "label": "accidental", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8N6k5W5i.md\u0027\u003eaccidental\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enote whose pitch is not a member of the scale or mode indicated by the most recently applied key signature\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GepDoTXn", "label": "string number (sul X)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GepDoTXn.md\u0027\u003estring number (sul X)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estring or wire that vibrates in a string instrument to produce a musical tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZnCCVfkb", "label": "mordent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZnCCVfkb.md\u0027\u003emordent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament, consisting of a single alternation with the note above or below\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "48ukXYmB", "label": "articulation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./48ukXYmB.md\u0027\u003earticulation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical performance technique that affects the transition or continuity on notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "amkJ6EBs", "label": "cadenza", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./amkJ6EBs.md\u0027\u003ecadenza\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eimprovised or written-out ornamental passage played or sung by a soloist or soloists\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NxRMTXgV", "label": "una corda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NxRMTXgV.md\u0027\u003euna corda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eJhxFoas", "label": "marcato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eJhxFoas.md\u0027\u003emarcato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instruction\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EXzrp8XT", "label": "ossia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EXzrp8XT.md\u0027\u003eossia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mhohuJYG", "label": "cut", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./mhohuJYG.md\u0027\u003ecut\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EWcTRe2g", "label": "sotto voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EWcTRe2g.md\u0027\u003esotto voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eintentionally lowering the volume of one\u0027s voice for emphasis\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2wr4RKXS", "label": "portato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2wr4RKXS.md\u0027\u003eportato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of musical articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QyAptNqX", "label": "ritardando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QyAptNqX.md\u0027\u003eritardando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BCLeS5SR", "label": "con sordina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BCLeS5SR.md\u0027\u003econ sordina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edevice fitted to a musical instrument to alter the sound produced\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QfLRrJ2B", "label": "rinforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QfLRrJ2B.md\u0027\u003erinforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TK9UAG2p", "label": "arco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TK9UAG2p.md\u0027\u003earco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2iCPU3yL", "label": "sharp sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2iCPU3yL.md\u0027\u003esharp sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical sign (accidental) raising the pitch of a note by one chromatic semitone (factor 2^(1/12))\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EqtAuzbH", "label": "metronome mark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EqtAuzbH.md\u0027\u003emetronome mark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical notation indicating the tempo of a piece in a objective manner\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7XBG3iZJ", "label": "legato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7XBG3iZJ.md\u0027\u003elegato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindicates that musical notes are played or sung smoothly and connected\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4Vi2FEPi", "label": "Roman numeral analysis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4Vi2FEPi.md\u0027\u003eRoman numeral analysis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eUse of Roman numeral symbols in the musical analysis of chords\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NxHGZqdj", "label": "natural sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./NxHGZqdj.md\u0027\u003enatural sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical sign (accidental) cancelling previous accidentals returning the frequency of the note to the natural/original value\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aMHPuLSn", "label": "pianissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aMHPuLSn.md\u0027\u003epianissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eterm used in musical notation to indicate a very low degree of sound intensity\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UdAgYAUZ", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UdAgYAUZ.md\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6fQyHcwz", "label": "accent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./6fQyHcwz.md\u0027\u003eaccent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eemphasis placed on a particular musical note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "juLNDok7", "label": "custos", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./juLNDok7.md\u0027\u003ecustos\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol at the end of a musical staff, analogous in fuction to a catchword\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "E4rhHet3", "label": "instrument call", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./E4rhHet3.md\u0027\u003einstrument call\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "AXPMg3hj", "label": "pedal keyboard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./AXPMg3hj.md\u0027\u003epedal keyboard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard played with the feet, usually used for low-pitched notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eNyFmkHC", "label": "fingering", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eNyFmkHC.md\u0027\u003efingering\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003echoice of which fingers and hand positions to use when playing certain musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "3TH8dCwg", "label": "accelerando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./3TH8dCwg.md\u0027\u003eaccelerando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical indication of tempo change\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4bLsvwPs", "label": "clef", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./4bLsvwPs.md\u0027\u003eclef\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol used to indicate the pitch of written notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iyfjpyT2", "label": "octave sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./iyfjpyT2.md\u0027\u003eoctave sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusic symbol referring to a phrase or a section of music to be played one octave higher\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UG4pcEUv", "label": "flat sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./UG4pcEUv.md\u0027\u003eflat sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical sign (accidental) lowering the pitch of a note by one chromatic semitone (factor 2^(1/12))\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ftmHEaq5", "label": "staccatissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ftmHEaq5.md\u0027\u003estaccatissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "8Au3ocED", "label": "staccato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./8Au3ocED.md\u0027\u003estaccato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of musical articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LBfWd2va", "label": "espressivo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LBfWd2va.md\u0027\u003eespressivo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "b3QcSGeL", "label": "leggiero", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./b3QcSGeL.md\u0027\u003eleggiero\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BUfQmokL", "label": "energico", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./BUfQmokL.md\u0027\u003eenergico\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expressive mark\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./9tkKrhbM.md\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EgkVbUEo", "label": "sostenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EgkVbUEo.md\u0027\u003esostenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SRaiiKJr", "label": "decrescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./SRaiiKJr.md\u0027\u003edecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "K4TocMAK", "label": "slur", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./K4TocMAK.md\u0027\u003eslur\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol in musical notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "H9peVKU2", "label": "Rehearsal letter", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./H9peVKU2.md\u0027\u003eRehearsal letter\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZGsPMhbm", "label": "plainchant transcription", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ZGsPMhbm.md\u0027\u003eplainchant transcription\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EXaTFDir", "label": "andante", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./EXaTFDir.md\u0027\u003eandante\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eslow musical tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RkZNQ7Ju", "label": "numeric time signature", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./RkZNQ7Ju.md\u0027\u003enumeric time signature\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003especification of beats in a musical bar or measure\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LUbNb3Vy", "label": "time signature", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./LUbNb3Vy.md\u0027\u003etime signature\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003especification of beats in a musical bar or measure\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HohjWQAt", "label": "Instrument Cue", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./HohjWQAt.md\u0027\u003eInstrument Cue\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Tn4rA5LC", "label": "bar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./Tn4rA5LC.md\u0027\u003ebar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etime unit in rhythmic musical notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MR3kLpuM", "label": "bar number", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./MR3kLpuM.md\u0027\u003ebar number\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nYFUSbbz", "label": "rest measure count", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nYFUSbbz.md\u0027\u003erest measure count\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ePSpfWmF", "label": "figured bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ePSpfWmF.md\u0027\u003efigured bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical notation in which numerals/accidentals show chords to be played in relation to the bass note, used in Baroque music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "55SNFCoc", "label": "chord symbol", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./55SNFCoc.md\u0027\u003echord symbol\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esystem for naming chords\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aAsRZoVk", "label": "breath mark", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./aAsRZoVk.md\u0027\u003ebreath mark\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic symbol\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JwqBvu9Z", "label": "fermata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./JwqBvu9Z.md\u0027\u003efermata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol of musical notation indicating that the note should be prolonged beyond its normal duration or note value would indicate\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nTx2RkTQ", "label": "trill", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nTx2RkTQ.md\u0027\u003etrill\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical ornament consisting of a rapid alternation between two adjacent notes, usually a semitone or tone apart\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nyib7iwk", "label": "fortissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nyib7iwk.md\u0027\u003efortissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical dynamics notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eSzqVmee.md\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j3tnVzW5", "label": "diminuendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./j3tnVzW5.md\u0027\u003ediminuendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "cCCEmXB7", "label": "adagio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./cCCEmXB7.md\u0027\u003eadagio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical tempo indication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eyeEqhAF", "label": "largo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eyeEqhAF.md\u0027\u003elargo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical tempo indication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7WfWytMV", "label": "ritenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./7WfWytMV.md\u0027\u003eritenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindication of tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "c8jBELvt", "label": "stringendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./c8jBELvt.md\u0027\u003estringendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eiUir4tb", "label": "ma non troppo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eiUir4tb.md\u0027\u003ema non troppo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating \"but not too much\"\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "kxAqh9HR", "label": "tempo primo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./kxAqh9HR.md\u0027\u003etempo primo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "jLreunkg", "label": "tenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./jLreunkg.md\u0027\u003etenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003earticulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DT4vQExr", "label": "pizzicato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./DT4vQExr.md\u0027\u003epizzicato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanner of articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TWwN9yoM", "label": "string harmonic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./TWwN9yoM.md\u0027\u003estring harmonic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estring instrument technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GpNEm7nw", "label": "engage pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GpNEm7nw.md\u0027\u003eengage pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ASkufuku", "label": "tre le corde", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./ASkufuku.md\u0027\u003etre le corde\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "CN6C2wfM", "label": "mezzopiano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./CN6C2wfM.md\u0027\u003emezzopiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "oH4DMPyz", "label": "mezzoforte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oH4DMPyz.md\u0027\u003emezzoforte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GKShCHKk", "label": "fortepiano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./GKShCHKk.md\u0027\u003efortepiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian musical term meaning \u0027loud soft\u0027\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gnJkVwmS", "label": "forte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./gnJkVwmS.md\u0027\u003eforte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic dynamic\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "oCWmrh75", "label": "Divisi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./oCWmrh75.md\u0027\u003eDivisi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003einstruction to divide a single section of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eJvA3GyF", "label": "colla parte", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./eJvA3GyF.md\u0027\u003ecolla parte\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical indication to play another, written-out part, or to an accompanist to look to the main part for guidance on tempo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QasJKrSg", "label": "tremolo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./QasJKrSg.md\u0027\u003etremolo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term for rapid repetition of a note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nQn3aXpr", "label": "tempo rubato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./nQn3aXpr.md\u0027\u003etempo rubato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2bp95akZ", "label": "portamento", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./2bp95akZ.md\u0027\u003eportamento\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epitch sliding from one note to another\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "XTCWoPBm", "label": "Volti subito", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027./XTCWoPBm.md\u0027\u003eVolti subito\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edirection to turn the page quickly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "MYAXux6m", "to": "fxtj72S3", "width": 1}, {"from": "HfUqmAjf", "to": "fxtj72S3", "width": 1}, {"from": "k6GNqQ5D", "to": "93GDD9ND", "width": 1}, {"from": "k6GNqQ5D", "to": "fxtj72S3", "width": 1}, {"from": "mcTtoyTt", "to": "fxtj72S3", "width": 1}, {"from": "mDEpSGUY", "to": "fxtj72S3", "width": 1}, {"from": "Cbxx8HUs", "to": "D6RjeTWv", "width": 1}, {"from": "Cbxx8HUs", "to": "fxtj72S3", "width": 1}, {"from": "m9rNaSAR", "to": "fxtj72S3", "width": 1}, {"from": "ieqEGEHo", "to": "fxtj72S3", "width": 1}, {"from": "4AqAfYnf", "to": "QGRAMUu8", "width": 1}, {"from": "4AqAfYnf", "to": "hJoKsjEm", "width": 1}, {"from": "4AqAfYnf", "to": "fxtj72S3", "width": 1}, {"from": "aZHisV3k", "to": "93GDD9ND", "width": 1}, {"from": "aZHisV3k", "to": "J6Z67n8w", "width": 1}, {"from": "aZHisV3k", "to": "fxtj72S3", "width": 1}, {"from": "jP8px5zn", "to": "fxtj72S3", "width": 1}, {"from": "DEL3dtgx", "to": "D6RjeTWv", "width": 1}, {"from": "DEL3dtgx", "to": "fxtj72S3", "width": 1}, {"from": "LQE77nqs", "to": "fxtj72S3", "width": 1}, {"from": "BF3ukx2D", "to": "93GDD9ND", "width": 1}, {"from": "BF3ukx2D", "to": "fxtj72S3", "width": 1}, {"from": "7TfyuFpZ", "to": "93GDD9ND", "width": 1}, {"from": "7TfyuFpZ", "to": "fxtj72S3", "width": 1}, {"from": "iZiYk6VC", "to": "fxtj72S3", "width": 1}, {"from": "mMrUGL4h", "to": "93GDD9ND", "width": 1}, {"from": "mMrUGL4h", "to": "fxtj72S3", "width": 1}, {"from": "JXYgRRuc", "to": "8N6k5W5i", "width": 1}, {"from": "JXYgRRuc", "to": "fxtj72S3", "width": 1}, {"from": "GepDoTXn", "to": "fxtj72S3", "width": 1}, {"from": "ZnCCVfkb", "to": "93GDD9ND", "width": 1}, {"from": "ZnCCVfkb", "to": "48ukXYmB", "width": 1}, {"from": "ZnCCVfkb", "to": "fxtj72S3", "width": 1}, {"from": "amkJ6EBs", "to": "93GDD9ND", "width": 1}, {"from": "amkJ6EBs", "to": "fxtj72S3", "width": 1}, {"from": "NxRMTXgV", "to": "fxtj72S3", "width": 1}, {"from": "eJhxFoas", "to": "fxtj72S3", "width": 1}, {"from": "hJoKsjEm", "to": "EXzrp8XT", "width": 1}, {"from": "hJoKsjEm", "to": "mhohuJYG", "width": 1}, {"from": "hJoKsjEm", "to": "93GDD9ND", "width": 1}, {"from": "hJoKsjEm", "to": "fxtj72S3", "width": 1}, {"from": "hJoKsjEm", "to": "QGRAMUu8", "width": 1}, {"from": "EWcTRe2g", "to": "D6RjeTWv", "width": 1}, {"from": "EWcTRe2g", "to": "fxtj72S3", "width": 1}, {"from": "2wr4RKXS", "to": "48ukXYmB", "width": 1}, {"from": "2wr4RKXS", "to": "D6RjeTWv", "width": 1}, {"from": "2wr4RKXS", "to": "fxtj72S3", "width": 1}, {"from": "QyAptNqX", "to": "fxtj72S3", "width": 1}, {"from": "BCLeS5SR", "to": "fxtj72S3", "width": 1}, {"from": "QfLRrJ2B", "to": "fxtj72S3", "width": 1}, {"from": "TK9UAG2p", "to": "48ukXYmB", "width": 1}, {"from": "TK9UAG2p", "to": "fxtj72S3", "width": 1}, {"from": "2iCPU3yL", "to": "8N6k5W5i", "width": 1}, {"from": "2iCPU3yL", "to": "fxtj72S3", "width": 1}, {"from": "EqtAuzbH", "to": "fxtj72S3", "width": 1}, {"from": "7XBG3iZJ", "to": "fxtj72S3", "width": 1}, {"from": "4Vi2FEPi", "to": "fxtj72S3", "width": 1}, {"from": "NxHGZqdj", "to": "8N6k5W5i", "width": 1}, {"from": "NxHGZqdj", "to": "fxtj72S3", "width": 1}, {"from": "aMHPuLSn", "to": "UdAgYAUZ", "width": 1}, {"from": "aMHPuLSn", "to": "fxtj72S3", "width": 1}, {"from": "6fQyHcwz", "to": "fxtj72S3", "width": 1}, {"from": "juLNDok7", "to": "fxtj72S3", "width": 1}, {"from": "E4rhHet3", "to": "fxtj72S3", "width": 1}, {"from": "AXPMg3hj", "to": "eNyFmkHC", "width": 1}, {"from": "AXPMg3hj", "to": "fxtj72S3", "width": 1}, {"from": "3TH8dCwg", "to": "fxtj72S3", "width": 1}, {"from": "4bLsvwPs", "to": "fxtj72S3", "width": 1}, {"from": "iyfjpyT2", "to": "fxtj72S3", "width": 1}, {"from": "UG4pcEUv", "to": "8N6k5W5i", "width": 1}, {"from": "UG4pcEUv", "to": "fxtj72S3", "width": 1}, {"from": "ftmHEaq5", "to": "8Au3ocED", "width": 1}, {"from": "ftmHEaq5", "to": "fxtj72S3", "width": 1}, {"from": "D6RjeTWv", "to": "LBfWd2va", "width": 1}, {"from": "D6RjeTWv", "to": "b3QcSGeL", "width": 1}, {"from": "D6RjeTWv", "to": "fxtj72S3", "width": 1}, {"from": "D6RjeTWv", "to": "BUfQmokL", "width": 1}, {"from": "D6RjeTWv", "to": "9tkKrhbM", "width": 1}, {"from": "D6RjeTWv", "to": "EgkVbUEo", "width": 1}, {"from": "SRaiiKJr", "to": "fxtj72S3", "width": 1}, {"from": "K4TocMAK", "to": "48ukXYmB", "width": 1}, {"from": "K4TocMAK", "to": "fxtj72S3", "width": 1}, {"from": "H9peVKU2", "to": "fxtj72S3", "width": 1}, {"from": "ZGsPMhbm", "to": "fxtj72S3", "width": 1}, {"from": "EXaTFDir", "to": "fxtj72S3", "width": 1}, {"from": "8N6k5W5i", "to": "fxtj72S3", "width": 1}, {"from": "b3QcSGeL", "to": "fxtj72S3", "width": 1}, {"from": "fxtj72S3", "to": "RkZNQ7Ju", "width": 1}, {"from": "fxtj72S3", "to": "LUbNb3Vy", "width": 1}, {"from": "fxtj72S3", "to": "eNyFmkHC", "width": 1}, {"from": "fxtj72S3", "to": "HohjWQAt", "width": 1}, {"from": "fxtj72S3", "to": "EXzrp8XT", "width": 1}, {"from": "fxtj72S3", "to": "Tn4rA5LC", "width": 1}, {"from": "fxtj72S3", "to": "MR3kLpuM", "width": 1}, {"from": "fxtj72S3", "to": "nYFUSbbz", "width": 1}, {"from": "fxtj72S3", "to": "ePSpfWmF", "width": 1}, {"from": "fxtj72S3", "to": "55SNFCoc", "width": 1}, {"from": "fxtj72S3", "to": "aAsRZoVk", "width": 1}, {"from": "fxtj72S3", "to": "JwqBvu9Z", "width": 1}, {"from": "fxtj72S3", "to": "LBfWd2va", "width": 1}, {"from": "fxtj72S3", "to": "nTx2RkTQ", "width": 1}, {"from": "fxtj72S3", "to": "J6Z67n8w", "width": 1}, {"from": "fxtj72S3", "to": "mhohuJYG", "width": 1}, {"from": "fxtj72S3", "to": "nyib7iwk", "width": 1}, {"from": "fxtj72S3", "to": "eSzqVmee", "width": 1}, {"from": "fxtj72S3", "to": "j3tnVzW5", "width": 1}, {"from": "fxtj72S3", "to": "cCCEmXB7", "width": 1}, {"from": "fxtj72S3", "to": "eyeEqhAF", "width": 1}, {"from": "fxtj72S3", "to": "7WfWytMV", "width": 1}, {"from": "fxtj72S3", "to": "c8jBELvt", "width": 1}, {"from": "fxtj72S3", "to": "eiUir4tb", "width": 1}, {"from": "fxtj72S3", "to": "kxAqh9HR", "width": 1}, {"from": "fxtj72S3", "to": "jLreunkg", "width": 1}, {"from": "fxtj72S3", "to": "DT4vQExr", "width": 1}, {"from": "fxtj72S3", "to": "TWwN9yoM", "width": 1}, {"from": "fxtj72S3", "to": "GpNEm7nw", "width": 1}, {"from": "fxtj72S3", "to": "ASkufuku", "width": 1}, {"from": "fxtj72S3", "to": "UdAgYAUZ", "width": 1}, {"from": "fxtj72S3", "to": "CN6C2wfM", "width": 1}, {"from": "fxtj72S3", "to": "oH4DMPyz", "width": 1}, {"from": "fxtj72S3", "to": "GKShCHKk", "width": 1}, {"from": "fxtj72S3", "to": "gnJkVwmS", "width": 1}, {"from": "fxtj72S3", "to": "48ukXYmB", "width": 1}, {"from": "fxtj72S3", "to": "8Au3ocED", "width": 1}, {"from": "fxtj72S3", "to": "oCWmrh75", "width": 1}, {"from": "fxtj72S3", "to": "eJvA3GyF", "width": 1}, {"from": "fxtj72S3", "to": "QasJKrSg", "width": 1}, {"from": "fxtj72S3", "to": "93GDD9ND", "width": 1}, {"from": "fxtj72S3", "to": "QGRAMUu8", "width": 1}, {"from": "fxtj72S3", "to": "BUfQmokL", "width": 1}, {"from": "fxtj72S3", "to": "9tkKrhbM", "width": 1}, {"from": "fxtj72S3", "to": "nQn3aXpr", "width": 1}, {"from": "fxtj72S3", "to": "2bp95akZ", "width": 1}, {"from": "fxtj72S3", "to": "EgkVbUEo", "width": 1}, {"from": "fxtj72S3", "to": "XTCWoPBm", "width": 1}, {"from": "EgkVbUEo", "to": "48ukXYmB", "width": 1}, {"from": "jLreunkg", "to": "93GDD9ND", "width": 1}, {"from": "gnJkVwmS", "to": "nyib7iwk", "width": 1}, {"from": "gnJkVwmS", "to": "oH4DMPyz", "width": 1}, {"from": "gnJkVwmS", "to": "GKShCHKk", "width": 1}, {"from": "RkZNQ7Ju", "to": "LUbNb3Vy", "width": 1}, {"from": "93GDD9ND", "to": "nTx2RkTQ", "width": 1}, {"from": "93GDD9ND", "to": "J6Z67n8w", "width": 1}, {"from": "93GDD9ND", "to": "QasJKrSg", "width": 1}, {"from": "aAsRZoVk", "to": "48ukXYmB", "width": 1}, {"from": "GKShCHKk", "to": "UdAgYAUZ", "width": 1}, {"from": "48ukXYmB", "to": "DT4vQExr", "width": 1}, {"from": "CN6C2wfM", "to": "UdAgYAUZ", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"gravitationalConstant": -120050}, "minVelocity": 0.75}};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

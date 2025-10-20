@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oMERLdSN a rdfs:Resource ;
+    schema1:Class "role"^^xsd:string ;
+    schema1:description "artist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q713200>,
+        "15990792"^^xsd:string,
+        "oMERLdSN"^^xsd:string ;
+    skos:altLabel "artist"^^xsd:string,
+        "music hall performer"^^xsd:string,
+        "performer"^^xsd:string,
+        "performers"^^xsd:string,
+        "performing artist"^^xsd:string,
+        "scenic artist"^^xsd:string ;
+    skos:prefLabel "performer"^^xsd:string .
+

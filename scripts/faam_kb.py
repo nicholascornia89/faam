@@ -794,8 +794,6 @@ def retrieve_properties_from_wikidata(faam_kb,faam_kb_mapping): # TO BE TESTED
 
 
 
-
-
 # Generate FAAM Knowledge Base JSON from latest Nodegoat export
 def generate_faam_kb(d,nodegoat2faam_kb_filename):
 	count_no_label = 0

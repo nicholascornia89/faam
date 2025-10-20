@@ -1,0 +1,58 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:iLGBQKhK a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:7WfWytMV,
+        faamentity:QGRAMUu8,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR ;
+    faamprop:handwritten_annotation faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:fCPKhUxw ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:bksidguC ;
+    schema1:hasPart faamentity:SdgSSR3n ;
+    schema1:identifier "15992552"^^xsd:string,
+        "KCA-030902415006"^^xsd:string,
+        "iLGBQKhK"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6723317/N"^^schema1:url ;
+    skos:prefLabel "Deux Fantasias Op. 9"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-fanta1-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"iLGBQKhK-4d53d77e-796d-4f85-b507-64ed05501d33"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"iLGBQKhK-d08294b0-231b-4b8a-8804-1d3414647fcc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"iLGBQKhK-f8b04955-df4a-42a3-92aa-e0f7ba9d2837"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:bksidguC a rdf:object .
+

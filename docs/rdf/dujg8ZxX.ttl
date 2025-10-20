@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dujg8ZxX a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:DEL3dtgx,
+        faamentity:HKyA3Qzz,
+        faamentity:LtW88Gtx,
+        faamentity:QyAptNqX,
+        faamentity:SRaiiKJr,
+        faamentity:UJ57Ew5y,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB,
+        faamentity:me6W6HAh ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GecAsFfL,
+        faamentity:W8EfwtH8,
+        faamentity:nXRqon53 ;
+    schema1:hasPart faamentity:JckfwWv8 ;
+    schema1:identifier "15992676"^^xsd:string,
+        "KCA-030902586079"^^xsd:string,
+        "dujg8ZxX"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6725307/N"^^schema1:url ;
+    skos:prefLabel "Klavier-Konzert d moll : mit Begleitung eines zweiten Klaviers"^^xsd:string ;
+    wd:P217 "UM-TP-BACH-con1052-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"dujg8ZxX-3de1c9c2-bb27-4fdf-bdb2-37dd1dc88972"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"dujg8ZxX-a11d772e-1ea3-44fc-8e65-fb414a4dc98a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"dujg8ZxX-e58abb68-46ec-4e57-bfda-ce8b202171ab"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+
+faamentity:nXRqon53 a rdf:object .
+

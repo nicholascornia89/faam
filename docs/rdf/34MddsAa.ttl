@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:34MddsAa a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person specializing in planning and execution of parties, events, exhibitions, meetings, conventions, weddings and other things"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1419997>,
+        "0"^^xsd:string,
+        "34MddsAa"^^xsd:string ;
+    skos:altLabel "convention organizer"^^xsd:string,
+        "event organizer"^^xsd:string,
+        "event planner"^^xsd:string,
+        "event promoter"^^xsd:string,
+        "exhibition organizer"^^xsd:string,
+        "meeting organizer"^^xsd:string,
+        "organiser"^^xsd:string,
+        "organizer"^^xsd:string,
+        "party planner"^^xsd:string,
+        "planner"^^xsd:string ;
+    skos:prefLabel "event producer"^^xsd:string .
+

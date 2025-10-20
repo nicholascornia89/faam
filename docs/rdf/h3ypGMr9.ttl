@@ -1,0 +1,47 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h3ypGMr9 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:GepDoTXn,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:GqVyixZo,
+        faamentity:UM7y2NCo ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:QE9UrJXo,
+        faamentity:XS2SS3Y7 ;
+    schema1:hasPart faamentity:kwAQei8C ;
+    schema1:identifier "15992610"^^xsd:string,
+        "KCG-000735370"^^xsd:string,
+        "h3ypGMr9"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000735370"^^schema1:url ;
+    skos:prefLabel "Trois Trios : d'une Difficulté Progressive pour le Violoncelle, Viola et Violoncelle : Oeuv. 38"^^xsd:string ;
+    wd:P217 "DS-1185"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:K9mQeF4d .
+
+schema1:contributor a rdf:predicate .
+
+"h3ypGMr9-47f37536-df47-4ff1-8707-682370843d89"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"h3ypGMr9-f0421cf2-37fe-4ebd-9892-8c191456b037"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:QE9UrJXo a rdf:object .
+
+faamentity:XS2SS3Y7 a rdf:object .
+

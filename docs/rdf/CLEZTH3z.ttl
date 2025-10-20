@@ -1,0 +1,29 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CLEZTH3z a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1862-07-15"^^xsd:string ;
+    schema1:deathDate "1954-00-00"^^xsd:string ;
+    schema1:description "Belgian composer (1862 - 1954)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q133537215>,
+        "16005646"^^xsd:string,
+        "CLEZTH3z"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "G. van Hulse"^^xsd:string,
+        "Gustaaf Van Hulse"^^xsd:string ;
+    skos:prefLabel "Gustaaf Van Hulse"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

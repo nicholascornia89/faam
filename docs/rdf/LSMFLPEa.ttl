@@ -1,0 +1,54 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LSMFLPEa a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:93GDD9ND,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:RkZNQ7Ju,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:XKwx4gZW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:QnXpBz6u ;
+    schema1:identifier "15992320"^^xsd:string,
+        "KCA-030904175582"^^xsd:string,
+        "LSMFLPEa"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6785124/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: ouverture"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-12"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"LSMFLPEa-38d8f2c5-5274-478a-a030-95ca3e81f603"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"LSMFLPEa-61b6ef48-cf6b-47b7-9d1f-e5cd41cb7629"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

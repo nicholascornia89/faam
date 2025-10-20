@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9csYvxWw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:48ukXYmB,
+        faamentity:7qCCArxX,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GecAsFfL,
+        faamentity:XLmyCS7h ;
+    schema1:hasPart faamentity:jgeid3z2 ;
+    schema1:identifier "15992562"^^xsd:string,
+        "9csYvxWw"^^xsd:string,
+        "KCG-000331957"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331957"^^schema1:url ;
+    skos:prefLabel "Concerto N° 1 : en Ut mineur pour Deux Violons avec accompagnement de quintette et piano ou clavecin"^^xsd:string ;
+    wd:P217 "SEC 4-(1)"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"9csYvxWw-6588f804-3909-45f7-9d23-b218917b574b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"9csYvxWw-a2a40f2a-2a01-4640-8658-271454c51bf0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:XLmyCS7h a rdf:object .
+

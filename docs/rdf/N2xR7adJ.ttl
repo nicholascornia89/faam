@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N2xR7adJ a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who by means of travel searches out new information"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q11900058>,
+        "0"^^xsd:string,
+        "N2xR7adJ"^^xsd:string ;
+    skos:altLabel "discoverer"^^xsd:string ;
+    skos:prefLabel "explorer"^^xsd:string .
+

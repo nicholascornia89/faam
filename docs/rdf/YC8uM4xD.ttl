@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:YC8uM4xD a rdfs:Resource ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:identifier "15996286"^^xsd:string,
+        "YC8uM4xD"^^xsd:string ;
+    skos:prefLabel "C. Sauveur"^^xsd:string ;
+    wd:P1303 faamentity:HQVKy2Gm,
+        faamentity:WVAicT8o ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:SdTsrosX,
+        faamentity:bX2aWAhB .
+

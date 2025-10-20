@@ -1,0 +1,63 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LGixSzgF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2niWvJiL,
+        faamentity:LtW88Gtx,
+        faamentity:TUdHPWU8 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5vn5pemP,
+        faamentity:Gx3B7DJH,
+        faamentity:fsof5n4h,
+        faamentity:gKMU7J89 ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:GecAsFfL,
+        faamentity:LQND7DE7,
+        faamentity:T4UPmCxj ;
+    schema1:hasPart faamentity:X2F6meSX ;
+    schema1:identifier "16004332"^^xsd:string,
+        "BSB-991076581989707356"^^xsd:string,
+        "LGixSzgF"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11134657"^^schema1:url ;
+    skos:prefLabel "Passionsmusik : nach dem Evangelisten Matthäus"^^xsd:string ;
+    wd:P217 "2 Mus.pr. 5769"^^xsd:string ;
+    wd:P870 faamentity:4YzWbco5,
+        faamentity:8cygiHEB,
+        faamentity:K94zCrpZ,
+        faamentity:NFAxdnVA,
+        faamentity:TicDHwYM,
+        faamentity:fTDkNCW3,
+        faamentity:gVFJ3YRC,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"LGixSzgF-07f2fe35-6349-4f3a-9f67-0de3cdbb094a"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1867"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"LGixSzgF-85ac778a-b211-4b0c-98e7-6d6db49d38e6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LGixSzgF-abd35c95-6bc7-40fd-a430-0546567a4fb9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:LQND7DE7 a rdf:object .
+
+faamentity:T4UPmCxj a rdf:object .
+

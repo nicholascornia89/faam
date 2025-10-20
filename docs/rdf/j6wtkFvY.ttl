@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j6wtkFvY a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:PRdn5fC3,
+        faamentity:XGH3sNKk,
+        faamentity:jqYs4mTc,
+        faamentity:mg5miPgR ;
+    schema1:birthDate "1788-01-22"^^xsd:string ;
+    schema1:birthPlace faamentity:bTpHpqc3 ;
+    schema1:deathDate "1824-04-19"^^xsd:string ;
+    schema1:deathPlace faamentity:HXcrezvc ;
+    schema1:description "English Romantic poet and lyricist (1788–1824)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5679>,
+        "16002598"^^xsd:string,
+        "j6wtkFvY"^^xsd:string ;
+    schema1:nationality faamentity:2dtMESSn,
+        faamentity:6zGBQwwr,
+        faamentity:KmPGztnu ;
+    skos:altLabel "George Gordon Byron"^^xsd:string,
+        "George Gordon Byron Lord"^^xsd:string,
+        "George Gordon Byron, 6th Baron Byron"^^xsd:string,
+        "George Gordon Byron, 6th Lord Byron"^^xsd:string,
+        "Lord Byron"^^xsd:string,
+        "Noel Byron"^^xsd:string ;
+    skos:prefLabel "Lord Byron"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:95230688 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/119889> ;
+    wd:P737 faamentity:FHPqfVDg ;
+    wd:P839 <https://imslp.org/wiki/Category:Byron,_George_Gordon> ;
+    schema:hasOccupation faamentity:fKBqCJio .
+

@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:i4AVcH4i a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "King of Prussia (1795–1861)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57180>,
+        "0"^^xsd:string,
+        "i4AVcH4i"^^xsd:string ;
+    skos:altLabel "Frederick William IV"^^xsd:string,
+        "Frederick-William IV."^^xsd:string,
+        "Friedrich Wilhelm IV of Prussia"^^xsd:string,
+        "Friedrich Wilhelm IV."^^xsd:string,
+        "Friedrich Wilhelm Nikolaus Karl"^^xsd:string ;
+    skos:prefLabel "Frederick William IV of Prussia"^^xsd:string .
+

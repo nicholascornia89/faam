@@ -158,7 +158,7 @@ def generate_pages(faam_kb, nodegoat2faam_kb_filename, out_dir):
 	# make a Markdown document for each item of the knowledge base
 
 	for item in faam_kb["items"]:
-		print(f"""Current item: {item["id"]}""")
+		#print(f"""Current item: {item["id"]}""")
 		doc = snakemd.Document()
 		# adding properties
 		doc.add_raw(
@@ -239,11 +239,19 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 										# check if item (hyperlink needed), otherwise only string
 										if statement["type"] == "item":
 											# I am assuming all items have FAAM UUID
-											statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
+											statements_list.append(snakemd.Inline(statement["label"]).link(f"./{statement["value"]}.md"))
 										elif statement["type"] == "externalid":
 											statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["base_url"]}{statement["value"]}"))
+										
+										elif statement["type"] == "url":
+											statements_list.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
+
 										else:
-											statements_list.append(snakemd.Inline(statement["value"]))
+											if len(statement["value"].split("\n")) > 1:
+												for line in statement["value"].split("\n"):
+													statements_list.append(snakemd.Inline(line))
+											else:
+												statements_list.append(snakemd.Inline(statement["value"]))
 
 								# create unordered list. p.s. Tab is fundamental for layout structuring
 								for element in statements_list:
@@ -252,24 +260,29 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 							pass
 
 					elif block["data_format"] == "list":
-						statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
-						if len(statements) > 0:
-							doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
-							statements_list = []
-							for statement in statements:
-								if statement["value"] != "":
-									# check if item (hyperlink needed), otherwise only string
-									if statement["type"] == "item":
-										# I am assuming all items have FAAM UUID
-										statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
-									elif statement["type"] == "externalid":
-										statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement[base_url]}{statement["value"]}"))
-									else:
-										statements_list.append(snakemd.Inline(statement["value"]))
+						try:
+							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
+							if len(statements) > 0:
+								doc.add_raw(f"""{block["collapse"]} {block["icon"]} "{block["label"]}" """)
+								statements_list = []
+								for statement in statements:
+									if statement["value"] != "":
+										# check if item (hyperlink needed), otherwise only string
+										if statement["type"] == "item":
+											# I am assuming all items have FAAM UUID
+											statements_list.append(snakemd.Inline(statement["label"]).link(f"./{statement["value"]}.md"))
+										elif statement["type"] == "externalid":
+											statements_list.append(snakemd.Inline(statement["label"]).link(f"{statement["base_url"]}{statement["value"]}"))
+										elif statement["type"] == "url":
+											statements_list.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
+										else:
+											statements_list.append(snakemd.Inline(statement["value"]))
 
-							# create unordered list. p.s. Tab is fundamental for layout structuring
-							for element in statements_list:
-								doc.add_raw(f"""	- {element}""")
+								# create unordered list. p.s. Tab is fundamental for layout structuring
+								for element in statements_list:
+									doc.add_raw(f"""	- {element}""")
+						except KeyError:
+							pass
 					elif block["data_format"] == "table":
 						headings = []
 						# generate headings case with statement and qualifiers
@@ -280,7 +293,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 									# append qualifiers in `qualifiers` key
 									for qual in element["qualifiers"]:
 										headings.append(qual)
-							print(f"Headings: {headings}")
+							#print(f"Headings: {headings}")
 
 							statements = item[block["content"][0]["category"]][block["content"][0]["property"]]
 							if len(statements) > 0:
@@ -288,19 +301,26 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 
 								# I am assuming uniform length statements!
 								table_raws = []
-								for statement in item[block["content"][0]["category"]][block["content"][0]["property"]]:
+								for statement in statements:
 									raw = []
-									for heading in headings: # assume heading = property and qualifiers key
-										if statement["value"] != "":
-											if statement["type"] == "statement":
-												raw.append(snakemd.Inline(statement["label"]).link(f"{statement["value"]}"))
-												for qual in statement["qualifiers"]:
-													if qual in headings:
+									if statement["value"] != "":
+										if statement["type"] == "statement":
+											raw.append(snakemd.Inline(statement["label"]).link(f"./{statement["value"]}.md"))
+											for qual in statement["qualifiers"]:
+												if qual["property"] in headings:
+													if qual["value"] != "":
 														if qual["type"] == "item":
-															raw.append(snakemd.Inline(qual["label"]).link(f"{qual["value"]}"))
+															raw.append(snakemd.Inline(qual["label"]).link(f"./{qual["value"]}.md"))
+														elif qual["type"] == "url":
+															raw.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
 														else:
 															raw.append(snakemd.Inline(qual["value"]))
+													else:
+														raw.append(snakemd.Inline(qual["value"]))
+									#print(f"Raw: {raw}")
 									table_raws.append(raw)
+									#print(f"Table raws: {table_raws}")
+									#input()
 
 						else: # case with normal items
 							for element in block["content"]:
@@ -321,18 +341,23 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 											# produce empty item
 											current_item = {"type": "string", "value": "", "label": "", "base_url": ""}
 										if current_item["type"] == "item":
-											raw.append(snakemd.Inline(current_item["label"]).link(f"{current_item["value"]}"))
+											raw.append(snakemd.Inline(current_item["label"]).link(f"./{current_item["value"]}.md"))
 
 										elif current_item["type"] == "externalid":
 											if "wikidata.org" in current_item["base_url"]:
 												try:
 													raw.append(snakemd.Inline(current_item["label"]).link(f"""{current_item["base_url"]}{current_item["value"]}"""))
 												except KeyError:
-													print(f"QID without label: {current_item["value"]}")
+													if current_item["value"] != "":
+														print(f"Current item: {item["id"]}")
+														print(f"QID without label: {current_item["value"]}")
 													raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}{current_item["value"]}"""))
 
 											else:
 												raw.append(snakemd.Inline(current_item["value"]).link(f"""{current_item["base_url"]}/{current_item["value"]}"""))
+										
+										elif current_item["type"] == "url":
+											raw.append(snakemd.Inline("external URL").link(f"{statement["value"]}"))
 
 										else: # string and date cases
 											raw.append(snakemd.Inline(current_item["value"]))
@@ -341,7 +366,10 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						# alignment (center)
 						table_align = [snakemd.Table.Align.CENTER for i in range(len(headings))]
 						# append table to document
-						doc.add_table(headings,table_raws,align=table_align,indent=4)
+						try:
+							doc.add_table(headings,table_raws,align=table_align,indent=4)
+						except ValueError:
+							print(f"Inconsistency between raws and header's length. Skip {item["id"]}")
 
 				# cross-references
 				elif block["format"] == "grid":
@@ -351,7 +379,7 @@ tags: {item["metadata"]["object_type"][0]["value"]}\n
 						for reference in item[block["category"]][block["object_type"]]:
 							# add title based on label
 							#doc.add_raw(f"""{snakemd.Inline("")}""")
-							doc.add_raw(f"""-	__[{reference["label"]}]({reference["id"]})__""")
+							doc.add_raw(f"""-	__[{reference["label"]}](./{reference["id"]}.md)__""")
 							#doc.add_raw(f"""{snakemd.Inline("")}""")
 							# add image if exists
 							if "image" in reference.keys():

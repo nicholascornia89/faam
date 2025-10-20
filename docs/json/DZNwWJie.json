@@ -1,0 +1,107 @@
+{
+  "id": "DZNwWJie",
+  "uuid_num": 22579660838739,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Turkey"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "country in West Asia and Southeast Europe"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Türkiye"
+      },
+      {
+        "type": "string",
+        "value": "Republic of Türkiye"
+      },
+      {
+        "type": "string",
+        "value": "Republic of Turkey"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q43",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Turkey"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "country"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "DZNwWJie"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "298795",
+        "base_url": "https://www.geonames.org/",
+        "label": "298795"
+      }
+    ]
+  },
+  "cross-references": {
+    "city": [
+      {
+        "id": "nLUFQGFf",
+        "type": "item",
+        "label": "İzmir",
+        "description": "city in İzmir Province, Turkey"
+      },
+      {
+        "id": "Nrgt9UQz",
+        "type": "item",
+        "label": "Ankara",
+        "description": "capital of Turkey"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "DZNwWJie.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "DZNwWJie.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "DZNwWJie.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EN5xYwbb a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:93GDD9ND,
+        faamentity:mhohuJYG ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:6wpp746x,
+        faamentity:UM7y2NCo,
+        faamentity:YjEwcJzP ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:7GsKtem6 ;
+    schema1:identifier "15992257"^^xsd:string,
+        "EN5xYwbb"^^xsd:string,
+        "KCA-030902839338"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6738627/N"^^schema1:url ;
+    skos:prefLabel "En Ardennes : scène pastorale pour hautbois avec accompagnement de piano"^^xsd:string ;
+    wd:P217 "MM-BO-BONZO-enarden-2"^^xsd:string ;
+    wd:P870 faamentity:HcmSE474,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"EN5xYwbb-9990fc20-3c3d-4475-b836-65b07825e9af"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"EN5xYwbb-b6b6d50c-e5cf-48a2-bbb4-9292d5e79393"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:7GsKtem6 a rdf:object .
+

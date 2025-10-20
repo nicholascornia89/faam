@@ -1,0 +1,85 @@
+---
+
+hide:
+ 
+- title
+
+- toc
+
+title: kagA9fDb
+
+tags: manifestation
+ 
+---
+
+
+# Drie Songs (kagA9fDb)
+
+---
+
+[GitHub images :simple-github:](https://github.com/nicholascornia89/FAAM-dataset/tree/main/raw-images/KCA-030902700829/images/){.md-button} [JSON :material-code-json:](http://nicholascornia89.github.io/faam/json/kagA9fDb.json){.md-button} [RDF Turtle :material-cable-data:](http://nicholascornia89.github.io/faam/rdf/kagA9fDb.ttl){.md-button} [CSV :material-table:](http://nicholascornia89.github.io/faam/csv/kagA9fDb.csv){.md-button}
+
+<img style="float: left;" src="../assets/images/thumbs/KCA-030902700829.gif" width="250" height="200">
+
+!!! abstract "metadata" 
+
+    | FAAM UUID | FAAM manifestation ID | title      | permalink                | provenance                                                    |
+    | :-------: | :-------------------: | :--------: | :----------------------: | :-----------------------------------------------------------: |
+    | kagA9fDb  | KCA-030902700829      | Drie Songs | [external URL](D6RjeTWv) | [Heritage Library Royal Conservatoire Antwerp](./2C9Fy8H6.md) |
+
+## Statements
+
+---
+
+???  "keyword" 
+
+	- [song cycle](./nhyHiCdi.md)
+
+	- [children's music](./6A3RvFCV.md)
+
+???  "instrumentation" 
+
+	- [voice](./NFAxdnVA.md)
+
+	- [piano](./PyGNLcfw.md)
+
+???  "musical work" 
+
+	- [Drie Liederen](./a2g2Km3k.md)
+
+??? abstract "agent" 
+
+    | agent                               | role                        | place                      | date |
+    | :---------------------------------: | :-------------------------: | :------------------------: | :--: |
+    | [Flor Peeters](./nPY6863Z.md)       | [composer](./YvQmwaaW.md)   |                            |      |
+    | [Joannes Reddingius](./3rt4YEZn.md) | [librettist](./eBGrzZAP.md) |                            |      |
+    | [Anonymous](./DDH7fEFM.md)          | [performer](./oMERLdSN.md)  |                            |      |
+    | [De Ring](./H9Vpi47r.md)            | [publisher](./7tdgMgre.md)  | [Antwerpen](./bSzLPudk.md) |      |
+
+## Annotations
+
+---
+
+???  "handwritten annotation" 
+
+	- [bounding](./NRsZG792.md)
+
+	- [pointer](./bTYqbr5b.md)
+
+	- [performance practice](./2qoBxv5j.md)
+
+	- [breath mark](./aAsRZoVk.md)
+
+	- [decrescendo](./SRaiiKJr.md)
+
+## Knowledge graph
+
+---
+
+<iframe src="../network/kagA9fDb.html" height="800" width="1200" title="kagA9fDb"></iframe>
+
+## Digital Score
+
+---
+
+<iframe src="../carousel/kagA9fDb.html" height="800" width="1200" title="kagA9fDb"></iframe>

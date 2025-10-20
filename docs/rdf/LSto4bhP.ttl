@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LSto4bhP a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "private university in New York City"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q49088>,
+        "0"^^xsd:string,
+        "LSto4bhP"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "CU"^^xsd:string,
+        "Columbia"^^xsd:string,
+        "Columbia (university)"^^xsd:string,
+        "Columbia College"^^xsd:string,
+        "Columbia U"^^xsd:string,
+        "Columbia Univ."^^xsd:string,
+        "Columbia University in New York"^^xsd:string,
+        "Columbia University in the City of New York"^^xsd:string,
+        "King's College"^^xsd:string,
+        "King's College of New York"^^xsd:string,
+        "columbia.edu"^^xsd:string ;
+    skos:prefLabel "Columbia University"^^xsd:string .
+

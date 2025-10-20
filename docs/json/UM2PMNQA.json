@@ -1,0 +1,128 @@
+{
+  "id": "UM2PMNQA",
+  "uuid_num": 51479192581679,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Aachen"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "city in North Rhine-Westphalia, Germany"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Oche"
+      },
+      {
+        "type": "string",
+        "value": "Aix-la-Chapelle"
+      },
+      {
+        "type": "string",
+        "value": "Aix la Chapelle"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q1017",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Aachen"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "UM2PMNQA"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "3247449",
+        "base_url": "https://www.geonames.org/",
+        "label": "3247449"
+      },
+      {
+        "type": "externalid",
+        "value": "6553047",
+        "base_url": "https://www.geonames.org/",
+        "label": "6553047"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CTNhzr7a",
+        "label": "Germany"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "9KaZaaso",
+        "type": "item",
+        "label": "Louis Brassin",
+        "description": "Belgian musician (1836-1884)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Louis-Brassin.jpg"
+        }
+      },
+      {
+        "id": "VF38KfkE",
+        "type": "item",
+        "label": "Jakob Quadflieg",
+        "description": "German composer and musicologist",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "UM2PMNQA.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "UM2PMNQA.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "UM2PMNQA.csv"
+      }
+    ]
+  }
+}

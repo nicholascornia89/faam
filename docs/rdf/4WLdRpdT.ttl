@@ -1,0 +1,45 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4WLdRpdT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:ZGsPMhbm ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:AC7hDY3Z,
+        faamentity:BdJHjaCE,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:TozHN3fY ;
+    schema1:identifier "16005697"^^xsd:string,
+        "4WLdRpdT"^^xsd:string,
+        "DPF-202502046"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Toni Communes Officii. Psaumes, Versets, Bededicamus, etc. d'après l'Edition Vaticane. Avec Accompagnement d'Orgue"^^xsd:string ;
+    wd:P217 "not available"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"4WLdRpdT-38b5f3d7-386d-4644-98e7-81f741e1c640"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+"4WLdRpdT-7a884945-9042-42e3-90db-4e001f1c205d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:TozHN3fY a rdf:object .
+

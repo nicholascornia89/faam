@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:a2zG2hoi a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:PprjdkHE,
+        faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC,
+        faamentity:ieqEGEHo ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    faamprop:sections """[h=1]2me Suite[/h]
+<ol>
+<li> Ballade </li>
+<li> Conte </li>
+<li> Ballade </li>
+</ol>"""^^rdf:HTML ;
+    dcelem:subject faamentity:KdGKqPWR,
+        faamentity:kfpMKnYN ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:VHEan89z ;
+    schema1:hasPart faamentity:SLsmnpYr ;
+    schema1:identifier "15992357"^^xsd:string,
+        "KCA-030902146999"^^xsd:string,
+        "a2zG2hoi"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12916126/N"^^schema1:url ;
+    skos:prefLabel "2e suite"^^xsd:string ;
+    wd:P217 "MM-TP-BENOI-conte2-1"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"a2zG2hoi-110de575-8569-4619-8035-72ef0483bc07"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"a2zG2hoi-8037db81-247d-47bc-b71f-92eddf7beebc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"a2zG2hoi-e6a6b8ba-ee1c-4467-8957-bc6781847f20"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+

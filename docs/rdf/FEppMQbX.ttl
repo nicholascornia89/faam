@@ -1,0 +1,91 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:FEppMQbX a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:7WfWytMV,
+        faamentity:DEL3dtgx,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:mkCY9LDD,
+        faamentity:nTx2RkTQ ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:5dnsPezu,
+        faamentity:7aDqcqbB,
+        faamentity:7caZ55Y9,
+        faamentity:7xXPQtWA,
+        faamentity:MUYzJ4yk,
+        faamentity:WEgPqx5q,
+        faamentity:bQY8ZNZS,
+        faamentity:hbk7HPJh ;
+    schema1:identifier "16005049"^^xsd:string,
+        "FEppMQbX"^^xsd:string,
+        "SML-18937"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9912235713405216"^^schema1:url ;
+    skos:prefLabel "Old English composers for the virginals & harpsichord : a collection of preludes, galliards, pavanes, grounds, chaconnes, suites, overtures, sonatas, etc. selected from the works of / William Byrde, John Bull, Orlando Gibbons, John Blow, Henry Purcell and Thomas Augustine Arne ; revised & edited by E. Pauer ; with biographical notices by W. A. Barrett."^^xsd:string ;
+    skosref:related faamentity:HrioxeJc ;
+    wd:P217 "M21 .O3996"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"FEppMQbX-372a27b1-307f-4be4-ad1a-0bcbb5895fe3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FEppMQbX-41afbbec-7c9e-40d4-8406-7c97a852d98a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FEppMQbX-6f6746e6-7caa-4151-9f1b-282acb9ad7c3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FEppMQbX-bbda00a2-dfee-41ce-b010-01a0081d73c6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FEppMQbX-cb924737-96e3-48e2-a302-da9d697e4795"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"FEppMQbX-d9cec501-4738-4574-b220-6a6007c935a2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"FEppMQbX-eab6470e-dbc7-4e9c-aa6c-763abcd1eccb"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1879"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:96rVh94r .
+
+"FEppMQbX-efc0641a-6915-4afc-a408-9613ee980511"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:5dnsPezu a rdf:object .
+
+faamentity:7aDqcqbB a rdf:object .
+
+faamentity:7caZ55Y9 a rdf:object .
+
+faamentity:7xXPQtWA a rdf:object .
+
+faamentity:MUYzJ4yk a rdf:object .
+
+faamentity:WEgPqx5q a rdf:object .
+
+faamentity:bQY8ZNZS a rdf:object .
+
+faamentity:hbk7HPJh a rdf:object .
+

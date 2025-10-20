@@ -1,0 +1,55 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TZfafBBe a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1770-12-16"^^xsd:string ;
+    schema1:birthPlace faamentity:G8KijfkK ;
+    schema1:deathDate "1827-03-26"^^xsd:string ;
+    schema1:deathPlace faamentity:UvT8FR5N ;
+    schema1:description "German composer (1770–1827)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q255>,
+        "15995925"^^xsd:string,
+        "TZfafBBe"^^xsd:string ;
+    schema1:nationality faamentity:G7dz74rm,
+        faamentity:PYaeFADo ;
+    skos:altLabel "L. Bethovenas"^^xsd:string,
+        "L. v. Beethoven"^^xsd:string,
+        "L. van Beethoven"^^xsd:string,
+        "L. van Betkhoven"^^xsd:string,
+        "Louis van Beethoven"^^xsd:string,
+        "Ludvig van Beethoven"^^xsd:string,
+        "Ludwig van Beethoven"^^xsd:string,
+        "Ludwig von Beethoven"^^xsd:string,
+        "Ludwik van Beethoven"^^xsd:string ;
+    skos:prefLabel "Ludwig van Beethoven"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32182557 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/11035> ;
+    wd:P737 faamentity:992QX3HW,
+        faamentity:Jxyv5Spg,
+        faamentity:KrRRRsTZ,
+        faamentity:VQ9LnFAH,
+        faamentity:YwdYGCWW,
+        faamentity:fsb4VmMa,
+        faamentity:jihjgQpH ;
+    wd:P839 <https://imslp.org/wiki/Category:Beethoven,_Ludwig_van> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:D2afoct2,
+        faamentity:L7DPWnnr,
+        faamentity:NdA6Fzv9,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:YrCfZ8vh,
+        faamentity:ZhptKYF3 .
+

@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:G4Rzkiwq a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:UMravioT,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5XHJSUK3,
+        faamentity:7AXGCpck,
+        faamentity:LmDaVvmF,
+        faamentity:fsof5n4h ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:bDTxxMMK ;
+    schema1:hasPart faamentity:o8oZL9Vx ;
+    schema1:identifier "15992539"^^xsd:string,
+        "G4Rzkiwq"^^xsd:string,
+        "KCA-030901456399"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6754148/N"^^schema1:url ;
+    skos:prefLabel "Récit et arioso: chanté par madame Huyghe-Bosman et intercalé dans l'opéra Quentin Durward"^^xsd:string ;
+    skosref:related faamentity:3fWwPrfr,
+        faamentity:TMrEQMjJ,
+        faamentity:o8oZL9Vx ;
+    wd:P217 "UM-ZL-GEVAE-recit-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"G4Rzkiwq-15371eb0-bad3-422e-921e-0d45b00d16ef"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"G4Rzkiwq-916ea6cc-6b0b-4ca6-b90b-3607d1d59580"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:bDTxxMMK a rdf:object .
+

@@ -1,0 +1,68 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EFUgU9L4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:48ukXYmB,
+        faamentity:6fQyHcwz,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:K4TocMAK,
+        faamentity:SRaiiKJr,
+        faamentity:eNyFmkHC,
+        faamentity:eSzqVmee,
+        faamentity:jP8px5zn,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Tf6tmSRP,
+        faamentity:WiBZjkbR,
+        faamentity:gKMU7J89 ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:LCf5gW7Z,
+        faamentity:QyGsVBr2,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:FZuFAync ;
+    schema1:identifier "16005598"^^xsd:string,
+        "EFUgU9L4"^^xsd:string,
+        "KCA-030902751319"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6772264/N"^^schema1:url ;
+    skos:prefLabel "Sonates : pour violon et piano, op. 5"^^xsd:string ;
+    skosref:related faamentity:hUSShLaN,
+        faamentity:mM92yEzz ;
+    wd:P217 "MM-SV-COREL-sonat-1"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV .
+
+schema1:contributor a rdf:predicate .
+
+"EFUgU9L4-7c30f254-64c5-400c-b5b9-f53945f3ab05"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"EFUgU9L4-92f180f5-1926-4e2f-946f-93b7822f1404"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1948"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"EFUgU9L4-fe133979-644e-48f3-bb70-67924718344b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:LCf5gW7Z a rdf:object .
+
+faamentity:QyGsVBr2 a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

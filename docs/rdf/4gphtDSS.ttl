@@ -1,0 +1,67 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4gphtDSS a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:3TH8dCwg,
+        faamentity:7TfyuFpZ,
+        faamentity:EqtAuzbH,
+        faamentity:LBfWd2va,
+        faamentity:amkJ6EBs,
+        faamentity:eJhxFoas,
+        faamentity:mMrUGL4h ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:UM7y2NCo,
+        faamentity:WiBZjkbR,
+        faamentity:YjEwcJzP,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:NTvBj8eb,
+        faamentity:Q9hzqiq3,
+        faamentity:Qpi4vWw7,
+        faamentity:X8CowJzi ;
+    schema1:hasPart faamentity:6UEXnNtj ;
+    schema1:identifier "15992736"^^xsd:string,
+        "4gphtDSS"^^xsd:string,
+        "KCG-000331412"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000331412"^^schema1:url ;
+    skos:prefLabel "Fantaisie : pour la Flûte avec Acc. de Piano ou Quatuor sur des motifs de l'Opéra de Gustave ou le Bal masqué : Opéra: 53"^^xsd:string ;
+    wd:P217 "DS4645"^^xsd:string ;
+    wd:P870 faamentity:AdNoqEfD,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"4gphtDSS-11afb4ad-18e8-4dfa-8a58-11307450fd2a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"4gphtDSS-17749702-e4e4-4fa3-a989-2008ce8f93e7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4gphtDSS-490cf049-d403-47fc-b814-dd370c2dbef4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"4gphtDSS-ecc9b6d2-8a18-435c-95c7-60cdb8025948"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:NTvBj8eb a rdf:object .
+
+faamentity:Q9hzqiq3 a rdf:object .
+
+faamentity:Qpi4vWw7 a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+

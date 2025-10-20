@@ -1,0 +1,65 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:89V9dPXF a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:D6RjeTWv,
+        faamentity:DT4vQExr,
+        faamentity:E4rhHet3,
+        faamentity:EqtAuzbH,
+        faamentity:gb6MiJbD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:6fQyHcwz,
+        faamentity:7qCCArxX,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:H9peVKU2,
+        faamentity:HKyA3Qzz,
+        faamentity:NRsZG792,
+        faamentity:QeqFpJLJ,
+        faamentity:RkZNQ7Ju,
+        faamentity:TUdHPWU8,
+        faamentity:aAsRZoVk,
+        faamentity:crUkNjhF,
+        faamentity:gaLrAUbu,
+        faamentity:jP8px5zn,
+        faamentity:kxAqh9HR,
+        faamentity:m9rNaSAR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:XKwx4gZW ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AgJN7zK2,
+        faamentity:Ta5ni5cL ;
+    schema1:hasPart faamentity:QnXpBz6u ;
+    schema1:identifier "15992318"^^xsd:string,
+        "89V9dPXF"^^xsd:string,
+        "KCA-030904470207"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6785134/N"^^schema1:url ;
+    skos:prefLabel "Charlotte Corday: drame: ouverture"^^xsd:string ;
+    wd:P217 "MM-OO-BENOI-charlot-1"^^xsd:string ;
+    wd:P870 faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"89V9dPXF-5275e2da-db45-4a69-9400-66c974cdf906"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"89V9dPXF-bfdb6984-614e-48d8-a352-5634fdd68dd8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+faamentity:AgJN7zK2 a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+

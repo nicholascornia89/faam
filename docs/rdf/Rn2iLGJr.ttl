@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rn2iLGJr a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "composition based on past musical aesthetics, techniques and genres"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q125620975>,
+        "16002520"^^xsd:string,
+        "Rn2iLGJr"^^xsd:string ;
+    skos:altLabel "period composition"^^xsd:string ;
+    skos:prefLabel "period composition"^^xsd:string .
+

@@ -1,0 +1,72 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:agEGZJpx a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7WfWytMV,
+        faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:kxAqh9HR,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:BdJHjaCE,
+        faamentity:G5dNDMwk,
+        faamentity:Rn2iLGJr,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:7P9nLMH8,
+        faamentity:CGy68nTi,
+        faamentity:X3yMqYb6 ;
+    schema1:identifier "16005702"^^xsd:string,
+        "DPF-202502051"^^xsd:string,
+        "agEGZJpx"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Tota Pulchra Es. Motet en l'honneur de la T.S. Vierge. à 3 voix égales et orgue."^^xsd:string ;
+    skosref:note "Supplément à la Musica Sacra 1909-1910 No. 6."^^rdf:HTML ;
+    wd:P217 "ms-1909-06"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"agEGZJpx-19670a4a-dcb6-4341-ab9b-1b1a3fc47ac0"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1909"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"agEGZJpx-ac154acb-13cf-48bb-93bd-0fc685ab5780"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"agEGZJpx-ad4f798c-fe6d-4d26-8c03-5533ddafddf7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"agEGZJpx-ee3cc373-f7c3-4cb9-a64f-7250c04d4efb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:7P9nLMH8 a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+

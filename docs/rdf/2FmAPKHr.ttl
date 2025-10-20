@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2FmAPKHr a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:8N6k5W5i,
+        faamentity:DawBtzdU,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:QeqFpJLJ,
+        faamentity:SRaiiKJr,
+        faamentity:TLaaNgbw,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu,
+        faamentity:hJoKsjEm,
+        faamentity:ieqEGEHo,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:UM7y2NCo,
+        faamentity:Y5VdxeTi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:8FF7aNKs,
+        faamentity:DDH7fEFM ;
+    schema1:identifier "15992332"^^xsd:string,
+        "2FmAPKHr"^^xsd:string,
+        "KCA-030902813853"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14010171/N"^^schema1:url ;
+    skos:prefLabel "Kammersuite : für Streichorchester oder Streichquartett, op. 69"^^xsd:string ;
+    wd:P217 "MM-OS-UNGER-kammers-19"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:i6ZUL4z4 .
+
+schema1:contributor a rdf:predicate .
+
+"2FmAPKHr-56bd4f03-4263-4d85-8d9d-7b958035aa81"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"2FmAPKHr-bab0b3f3-87b6-4cd9-8f46-a674c509f381"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"2FmAPKHr-dafeaf43-1fc8-438f-9f0c-928aae4486dc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:8FF7aNKs a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
