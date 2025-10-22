@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4asnL3fC", "label": "loudness", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4asnL3fC\u0027\u003eloudness\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esubjective perception of sound pressure\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "atGzytDR", "label": "affect", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/atGzytDR\u0027\u003eaffect\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eexperience of feeling or emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D6RjeTWv", "label": "musical expression", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/D6RjeTWv\u0027\u003emusical expression\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evarious techniques used in musical performance to convey emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HXSqT8WK", "label": "Reinaert de Vos Reinaert de Vos", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HXSqT8WK\u0027\u003eReinaert de Vos Reinaert de Vos\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/LHA-200037.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "a9ifUqK5", "label": "Messe \"Or-sus a coup\": f\u00fcr vier Singstimmen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/a9ifUqK5\u0027\u003eMesse \"Or-sus a coup\": f\u00fcr vier Singstimmen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991077737379707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Dy8pmS8i", "label": "musical concept", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Dy8pmS8i\u0027\u003emusical concept\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of artistic concept\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mDndmG7f", "label": "Sonate F dur : f\u00fcr Pianoforte und Horn, op.17", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mDndmG7f\u0027\u003eSonate F dur : f\u00fcr Pianoforte und Horn, op.17\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904770226.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "UKouFUpF", "label": "Le clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UKouFUpF\u0027\u003eLe clavecin bien temp\u00e9r\u00e9 : pour piano, Livre I\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000549373.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Nutu4Wfn", "label": "Palestrina\u0027s Messe f\u00fcr die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erkl\u00e4renden Einl. vers.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Nutu4Wfn\u0027\u003ePalestrina\u0027s Messe f\u00fcr die Verstorbenen (Missa requiem) : nebst d. Responsorium Libera me. In d. heutigen Schreibweise hrsg. u. mit e. erkl\u00e4renden Einl. vers.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991078131189707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Wau8qFFq", "label": "25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Wau8qFFq\u0027\u003e25. | Concerto | Violino conc., 2 Violini, Viola, e Basso | Del Sig. Vivaldi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/CBM-TORRMsA63.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Zjww66hb", "label": "Temp\u00eate d\u0027Iphig\u00e9nie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrang\u00e9e pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Zjww66hb\u0027\u003eTemp\u00eate d\u0027Iphig\u00e9nie en Tauride : Avec les Airs de Ballet De M. le Chevalier Gluck En Quatuor : Arrang\u00e9e pour le Clavecin, ou le Forte Piano, Avec Accompagnement, de Violon Alto, et Violoncelle, Ad Libitum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000345536.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "SNqvxVFu", "label": "Messe \"Beatus qui intelligit\" f\u00fcr sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SNqvxVFu\u0027\u003eMesse \"Beatus qui intelligit\" f\u00fcr sechs Singstimmen ; nebst der gleichnamigen Motette von Orlandus Lassus\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991077737359707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "X88EQe9Q", "label": "Orfeo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/X88EQe9Q\u0027\u003eOrfeo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901700127.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "YhJ7ctQm", "label": "Impromptu", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YhJ7ctQm\u0027\u003eImpromptu\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904518351.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "oMERLdSN", "label": "performer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oMERLdSN\u0027\u003eperformer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "oWWjskBe", "label": "Intermezzo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oWWjskBe\u0027\u003eIntermezzo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904518088.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "XyK7Eor9", "label": "POTPOURRI", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XyK7Eor9\u0027\u003ePOTPOURRI\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000360390.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "m36wgzSS", "label": "Symphony No. 2, Movement II", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/m36wgzSS\u0027\u003eSymphony No. 2, Movement II\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/WML-768211.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4AMPVsN8", "label": "timbre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4AMPVsN8\u0027\u003etimbre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003equality of a musical note or sound or tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YvQmwaaW\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "AcFWzeQH", "label": "conductor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AcFWzeQH\u0027\u003econductor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who directs a musical group during a performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mW66jj2Y", "label": "Quintette : pour Piano, 2 Violons, Alto \u0026 Violoncelle : Op. 44", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mW66jj2Y\u0027\u003eQuintette : pour Piano, 2 Violons, Alto \u0026 Violoncelle : Op. 44\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000741205.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "6Cxuh5fi", "label": "Das wohltemperierte Klavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6Cxuh5fi\u0027\u003eDas wohltemperierte Klavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901767043.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4MMhcBUy", "label": "Recueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4MMhcBUy\u0027\u003eRecueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 1 (nos 1-7)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-43090486d.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "LmEwcu8w", "label": "Missa \"secunda\": ad quatuor voces inaequales", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LmEwcu8w\u0027\u003eMissa \"secunda\": ad quatuor voces inaequales\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991077342629707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "TJf4MVzx", "label": "Missa Tu es Petrus : f\u00fcr 6stg. gemischten Chor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TJf4MVzx\u0027\u003eMissa Tu es Petrus : f\u00fcr 6stg. gemischten Chor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991062854279707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "cDShRWzG", "label": "Recueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cDShRWzG\u0027\u003eRecueil des morceaux de musique ancienne ex\u00e9cut\u00e9s aux concerts de la Soci\u00e9t\u00e9 de musique vocale religieuse et classique, fond\u00e9e \u00e0 Paris en 1843..., sous la direction de Mr. le Prince de la Moskowa. Vol. 3 (nos 21-32)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-430904883.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Y9bpQE3M", "label": "The well-tempered clavier: 48 preludes and fugues", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Y9bpQE3M\u0027\u003eThe well-tempered clavier: 48 preludes and fugues\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901733573.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Y7Uwiric", "label": "Ancienne musique de luth (XVIe et XVIIe si\u00e8cles) : adapt\u00e9e pour l\u0027ex\u00e9cution sur la harpe chromatique", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Y7Uwiric\u0027\u003eAncienne musique de luth (XVIe et XVIIe si\u00e8cles) : adapt\u00e9e pour l\u0027ex\u00e9cution sur la harpe chromatique\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901267440.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "YpMGRYt3", "label": "Philippi de Monte. Motetum \"O bone Jesu\" tripartitum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YpMGRYt3\u0027\u003ePhilippi de Monte. Motetum \"O bone Jesu\" tripartitum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-39.OP.OM.deMonte24.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "JHJZeU8t", "label": "Air Varie : pour la fl\u00fbte, avec accompagnement de piano, sur un motif favori de l\u0027op\u00e9ra Le mauvais oeil:", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JHJZeU8t\u0027\u003eAir Varie : pour la fl\u00fbte, avec accompagnement de piano, sur un motif favori de l\u0027op\u00e9ra Le mauvais oeil:\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000344649.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "KMXPXePm", "label": "Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KMXPXePm\u0027\u003eQuatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/DPF-202502011.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "4asnL3fC", "to": "atGzytDR", "width": 10}, {"from": "4asnL3fC", "to": "D6RjeTWv", "width": 10}, {"from": "HXSqT8WK", "to": "atGzytDR", "width": 10}, {"from": "a9ifUqK5", "to": "atGzytDR", "width": 10}, {"from": "Dy8pmS8i", "to": "atGzytDR", "width": 10}, {"from": "mDndmG7f", "to": "atGzytDR", "width": 10}, {"from": "UKouFUpF", "to": "atGzytDR", "width": 10}, {"from": "Nutu4Wfn", "to": "atGzytDR", "width": 10}, {"from": "Wau8qFFq", "to": "atGzytDR", "width": 10}, {"from": "Zjww66hb", "to": "D6RjeTWv", "width": 10}, {"from": "Zjww66hb", "to": "atGzytDR", "width": 10}, {"from": "SNqvxVFu", "to": "D6RjeTWv", "width": 10}, {"from": "SNqvxVFu", "to": "atGzytDR", "width": 10}, {"from": "X88EQe9Q", "to": "atGzytDR", "width": 10}, {"from": "YhJ7ctQm", "to": "atGzytDR", "width": 10}, {"from": "YhJ7ctQm", "to": "D6RjeTWv", "width": 10}, {"from": "oMERLdSN", "to": "atGzytDR", "width": 10}, {"from": "oMERLdSN", "to": "D6RjeTWv", "width": 10}, {"from": "oWWjskBe", "to": "atGzytDR", "width": 10}, {"from": "XyK7Eor9", "to": "atGzytDR", "width": 10}, {"from": "XyK7Eor9", "to": "D6RjeTWv", "width": 10}, {"from": "m36wgzSS", "to": "atGzytDR", "width": 10}, {"from": "atGzytDR", "to": "D6RjeTWv", "width": 10}, {"from": "atGzytDR", "to": "4AMPVsN8", "width": 10}, {"from": "atGzytDR", "to": "YvQmwaaW", "width": 10}, {"from": "atGzytDR", "to": "AcFWzeQH", "width": 10}, {"from": "atGzytDR", "to": "mW66jj2Y", "width": 10}, {"from": "atGzytDR", "to": "6Cxuh5fi", "width": 10}, {"from": "atGzytDR", "to": "4MMhcBUy", "width": 10}, {"from": "atGzytDR", "to": "LmEwcu8w", "width": 10}, {"from": "atGzytDR", "to": "TJf4MVzx", "width": 10}, {"from": "atGzytDR", "to": "cDShRWzG", "width": 10}, {"from": "atGzytDR", "to": "Y9bpQE3M", "width": 10}, {"from": "atGzytDR", "to": "Y7Uwiric", "width": 10}, {"from": "atGzytDR", "to": "YpMGRYt3", "width": 10}, {"from": "atGzytDR", "to": "JHJZeU8t", "width": 10}, {"from": "atGzytDR", "to": "KMXPXePm", "width": 10}, {"from": "4AMPVsN8", "to": "D6RjeTWv", "width": 10}, {"from": "D6RjeTWv", "to": "YvQmwaaW", "width": 10}, {"from": "D6RjeTWv", "to": "AcFWzeQH", "width": 10}, {"from": "D6RjeTWv", "to": "JHJZeU8t", "width": 10}, {"from": "D6RjeTWv", "to": "KMXPXePm", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

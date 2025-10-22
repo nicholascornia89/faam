@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "3MHhcrj2", "label": "Pierre-Louis Dietsch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3MHhcrj2\u0027\u003ePierre-Louis Dietsch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and conductor (1808\u20131865)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre-Louis_Dietsch_-_engraving_after_a_photo_by_Franck_-_Gallica.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "h2b47P3M", "label": "Ave Maria", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/h2b47P3M\u0027\u003eAve Maria\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic forgery by Pierre-Louis Dietsch attributed to Jacques Arcadelt\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "TDF2knmi", "label": "conductor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TDF2knmi\u0027\u003econductor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who directs a musical group during a performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "5aTYuVxp", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5aTYuVxp\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ku2dT5kg\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BJqUa5Kf", "label": "France", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BJqUa5Kf\u0027\u003eFrance\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "7xsg3NGS", "label": "Dijon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7xsg3NGS\u0027\u003eDijon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecommune in C\u00f4te-d\u0027Or, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dtkJhYLf", "label": "Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dtkJhYLf\u0027\u003eParis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital city and largest city of France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "i6ZUL4z4", "label": "double bass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/i6ZUL4z4\u0027\u003edouble bass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacoustic stringed instrument of the violin family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gMpSya7p", "label": "Alexandre-\u00c9tienne Choron", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gMpSya7p\u0027\u003eAlexandre-\u00c9tienne Choron\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1771-1834)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexandre-\u00c9tienne_Choron.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SgJFWhdM", "label": "Anton Reicha", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SgJFWhdM\u0027\u003eAnton Reicha\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech-born French composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Reicha_(portrait_attributed_to_Eleonore_Anne_Steuben).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RRZ5NMaw", "label": "Marie-Pierre Ch\u00e9ni\u00e9", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RRZ5NMaw\u0027\u003eMarie-Pierre Ch\u00e9ni\u00e9\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1773-1832)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mNynReve", "label": "Conservatoire de Paris", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mNynReve\u0027\u003eConservatoire de Paris\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic and dance school in Paris, France\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "YvQmwaaW", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YvQmwaaW\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "", "label": "", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "3MHhcrj2", "to": "h2b47P3M", "width": 1}, {"from": "3MHhcrj2", "to": "aJeJBesD", "width": 10}, {"from": "3MHhcrj2", "to": "TDF2knmi", "width": 1}, {"from": "3MHhcrj2", "to": "5aTYuVxp", "width": 1}, {"from": "3MHhcrj2", "to": "ku2dT5kg", "width": 10}, {"from": "3MHhcrj2", "to": "BJqUa5Kf", "width": 1}, {"from": "3MHhcrj2", "to": "7xsg3NGS", "width": 1}, {"from": "3MHhcrj2", "to": "dtkJhYLf", "width": 1}, {"from": "3MHhcrj2", "to": "i6ZUL4z4", "width": 1}, {"from": "3MHhcrj2", "to": "gMpSya7p", "width": 1}, {"from": "3MHhcrj2", "to": "SgJFWhdM", "width": 1}, {"from": "3MHhcrj2", "to": "RRZ5NMaw", "width": 1}, {"from": "3MHhcrj2", "to": "mNynReve", "width": 1}, {"from": "3MHhcrj2", "to": "YvQmwaaW", "width": 5}, {"from": "3MHhcrj2", "to": "", "width": 1}, {"from": "", "to": "SgJFWhdM", "width": 1}, {"from": "", "to": "gMpSya7p", "width": 5}, {"from": "", "to": "mNynReve", "width": 1}, {"from": "YvQmwaaW", "to": "SgJFWhdM", "width": 1}, {"from": "7xsg3NGS", "to": "BJqUa5Kf", "width": 1}, {"from": "gMpSya7p", "to": "aJeJBesD", "width": 10}, {"from": "gMpSya7p", "to": "ku2dT5kg", "width": 10}, {"from": "gMpSya7p", "to": "BJqUa5Kf", "width": 1}, {"from": "gMpSya7p", "to": "dtkJhYLf", "width": 1}, {"from": "aJeJBesD", "to": "SgJFWhdM", "width": 1}, {"from": "aJeJBesD", "to": "RRZ5NMaw", "width": 1}, {"from": "BJqUa5Kf", "to": "dtkJhYLf", "width": 1}, {"from": "BJqUa5Kf", "to": "mNynReve", "width": 1}, {"from": "BJqUa5Kf", "to": "SgJFWhdM", "width": 1}, {"from": "BJqUa5Kf", "to": "RRZ5NMaw", "width": 1}, {"from": "SgJFWhdM", "to": "5aTYuVxp", "width": 1}, {"from": "SgJFWhdM", "to": "ku2dT5kg", "width": 1}, {"from": "SgJFWhdM", "to": "dtkJhYLf", "width": 1}, {"from": "SgJFWhdM", "to": "mNynReve", "width": 1}, {"from": "i6ZUL4z4", "to": "RRZ5NMaw", "width": 1}, {"from": "mNynReve", "to": "RRZ5NMaw", "width": 1}, {"from": "mNynReve", "to": "dtkJhYLf", "width": 1}, {"from": "RRZ5NMaw", "to": "5aTYuVxp", "width": 1}, {"from": "RRZ5NMaw", "to": "ku2dT5kg", "width": 1}, {"from": "RRZ5NMaw", "to": "dtkJhYLf", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

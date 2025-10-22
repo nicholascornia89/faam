@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hEdrUvf9", "label": "Fran\u00e7ois Couperin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hEdrUvf9\u0027\u003eFran\u00e7ois Couperin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench Baroque composer, organist and harpsichordist (1668\u20131733)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran\u00e7ois_Couperin.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "hMYL5Z9b", "label": "harpsichordist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hMYL5Z9b\u0027\u003eharpsichordist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who plays the harpsichord\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KqBibisZ", "label": "Louis Couperin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KqBibisZ\u0027\u003eLouis Couperin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench Baroque composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kj9NbWjb", "label": "Jacques Champion de Chambonni\u00e8res", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kj9NbWjb\u0027\u003eJacques Champion de Chambonni\u00e8res\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and harpsichordist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8tdvhwo3", "label": "Paul Brunold", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8tdvhwo3\u0027\u003ePaul Brunold\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "P7Ctb5h9", "label": "Jean-Philippe Rameau", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/P7Ctb5h9\u0027\u003eJean-Philippe Rameau\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and music theorist (1683\u20131764)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Attribu\u00e9_\u00e0_Joseph_Aved,_Portrait_de_Jean-Philippe_Rameau_(vers_1728)_-_001.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oRcy7jj8", "label": "Jean-Fr\u00e9d\u00e9ric Edelmann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oRcy7jj8\u0027\u003eJean-Fr\u00e9d\u00e9ric Edelmann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1749\u20131794)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dZVktTWg", "label": "Carl Philipp Emanuel Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dZVktTWg\u0027\u003eCarl Philipp Emanuel Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1714\u20131788)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carl_Philipp_Emanuel_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GecAsFfL", "label": "Johann Sebastian Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GecAsFfL\u0027\u003eJohann Sebastian Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer (1685\u20131750)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Sebastian_Bach.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NydN9SPX", "label": "Vincenzo Manfredini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NydN9SPX\u0027\u003eVincenzo Manfredini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "b2nGBPKP", "label": "Violet Gordon-Woodhouse", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/b2nGBPKP\u0027\u003eViolet Gordon-Woodhouse\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish harpsichordist and clavichordist (1872\u20131948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Jxa3pa39", "label": "Pietro Alessandro Guglielmi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Jxa3pa39\u0027\u003ePietro Alessandro Guglielmi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian opera composer (1728\u20131804)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pietro_Alessandro_Guglielmi.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZqXui2DM", "label": "Bernardo Pasquini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZqXui2DM\u0027\u003eBernardo Pasquini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian Baroque composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernardo_Pasquini.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "BHzSccaL", "label": "George Frideric Handel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BHzSccaL\u0027\u003eGeorge Frideric Handel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman-British Baroque composer (1685\u20131759)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Frideric_Handel_by_Balthasar_Denner.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ANygk75M", "label": "Wanda Landowska", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ANygk75M\u0027\u003eWanda Landowska\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e(1879-1959) Polish-French harpsichordist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/7/78/Wanda_Landowska_%281879-1959%29_portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7vm6nMLX", "label": "Antoinette Vischer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7vm6nMLX\u0027\u003eAntoinette Vischer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss harpsichordist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Qj6RwzVa", "label": "Aim\u00e9e Van de Wiele", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Qj6RwzVa\u0027\u003eAim\u00e9e Van de Wiele\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer, musicologist and music educator (1907\u20131991)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NNhNaQpF", "label": "Charles-Henri Plantade", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NNhNaQpF\u0027\u003eCharles-Henri Plantade\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Henri_Plantade_1806.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bQY8ZNZS", "label": "John Bull", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bQY8ZNZS\u0027\u003eJohn Bull\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer, musician and organ builder\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Bull_(composer).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EzfSNmgD", "label": "Nicolas Leb\u00e8gue", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EzfSNmgD\u0027\u003eNicolas Leb\u00e8gue\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench organist, harpsichordist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "o7WPMz42", "label": "Giovanni Battista Pescetti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/o7WPMz42\u0027\u003eGiovanni Battista Pescetti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7uucaRLU", "label": "Robert Thurston Dart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7uucaRLU\u0027\u003eRobert Thurston Dart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musicologist (1921\u20131971)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ThurstonDart1961.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "47t87JpM", "label": "Girolamo Frescobaldi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/47t87JpM\u0027\u003eGirolamo Frescobaldi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1583\u20131643)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Girolamo_Frescobaldi_(1583-1643),_engraving_by_Claude_Mellan_(1619).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XudjntwM", "label": "Luzzasco Luzzaschi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XudjntwM\u0027\u003eLuzzasco Luzzaschi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer and organist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jq6qS77b", "label": "Arnold Dolmetsch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jq6qS77b\u0027\u003eArnold Dolmetsch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician and instrument maker in England (1858-1940)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Arnold_Dolmetsch.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JnHemjk2", "label": "Jean-F\u00e9ry Rebel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JnHemjk2\u0027\u003eJean-F\u00e9ry Rebel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench Baroque composer and violinist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean_Ferry_Rebel.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iwTGMidi", "label": "Giovanni Battista Lampugnani", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iwTGMidi\u0027\u003eGiovanni Battista Lampugnani\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1708-1788)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ePnALoCw", "label": "Johann Schobert", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ePnALoCw\u0027\u003eJohann Schobert\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_schobert.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hGP7rLvZ", "label": "Michel Richard Delalande", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hGP7rLvZ\u0027\u003eMichel Richard Delalande\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Michel_Richard_Delalande_engraving_BNF_Gallica.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hmD8cQGZ", "label": "Elisabeth Chojnacka", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hmD8cQGZ\u0027\u003eElisabeth Chojnacka\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePolish harpsichordist (1939\u20132017)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Elisabeth_CHOJNACKA_1972.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CQvP5Hos", "label": "Carl David Stegmann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CQvP5Hos\u0027\u003eCarl David Stegmann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman opera singer, harpsichordist, conductor and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "52Wbu2Fo", "label": "Charles Burney", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/52Wbu2Fo\u0027\u003eCharles Burney\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish music historian (1726-1814)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Burney.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7LbS5df2", "label": "Gustav Leonhardt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7LbS5df2\u0027\u003eGustav Leonhardt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch keyboard player, conductor, musicologist, teacher and editor (1928\u20132012)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav_Leonhardt,_2008_(cropped).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Jy8ns9kr", "label": "Ton Koopman", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Jy8ns9kr\u0027\u003eTon Koopman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eDutch conductor, organist and harpsichordist, born 2 October 1944\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3f/Tonkoopman.jpeg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PXYCpRXf", "label": "Domenico Scarlatti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PXYCpRXf\u0027\u003eDomenico Scarlatti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer, son of Alessandro Scarlatti\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Retrato_de_Domenico_Scarlatti.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NhNGr5zu", "label": "Giovanni Picchi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NhNGr5zu\u0027\u003eGiovanni Picchi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Picchi_Nobilt\u00e0_di_Dame.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KzqrgycL", "label": "Alessandro Scarlatti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KzqrgycL\u0027\u003eAlessandro Scarlatti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alessandro_Scarlatti.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MYtfBLe2", "label": "Attilio Ariosti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MYtfBLe2\u0027\u003eAttilio Ariosti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Attilius_Ariosti.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "biGnSXZs", "label": "Vincenzo Lavigna", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/biGnSXZs\u0027\u003eVincenzo Lavigna\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "hEdrUvf9", "to": "hMYL5Z9b", "width": 10}, {"from": "KqBibisZ", "to": "hMYL5Z9b", "width": 10}, {"from": "KqBibisZ", "to": "kj9NbWjb", "width": 10}, {"from": "8tdvhwo3", "to": "hMYL5Z9b", "width": 10}, {"from": "P7Ctb5h9", "to": "hMYL5Z9b", "width": 10}, {"from": "oRcy7jj8", "to": "hMYL5Z9b", "width": 10}, {"from": "dZVktTWg", "to": "hMYL5Z9b", "width": 10}, {"from": "dZVktTWg", "to": "GecAsFfL", "width": 10}, {"from": "NydN9SPX", "to": "hMYL5Z9b", "width": 10}, {"from": "b2nGBPKP", "to": "hMYL5Z9b", "width": 10}, {"from": "Jxa3pa39", "to": "hMYL5Z9b", "width": 10}, {"from": "ZqXui2DM", "to": "hMYL5Z9b", "width": 10}, {"from": "BHzSccaL", "to": "hMYL5Z9b", "width": 10}, {"from": "ANygk75M", "to": "hMYL5Z9b", "width": 10}, {"from": "ANygk75M", "to": "7vm6nMLX", "width": 10}, {"from": "ANygk75M", "to": "Qj6RwzVa", "width": 10}, {"from": "NNhNaQpF", "to": "hMYL5Z9b", "width": 10}, {"from": "bQY8ZNZS", "to": "hMYL5Z9b", "width": 10}, {"from": "EzfSNmgD", "to": "hMYL5Z9b", "width": 10}, {"from": "EzfSNmgD", "to": "kj9NbWjb", "width": 10}, {"from": "o7WPMz42", "to": "hMYL5Z9b", "width": 10}, {"from": "7uucaRLU", "to": "hMYL5Z9b", "width": 10}, {"from": "47t87JpM", "to": "hMYL5Z9b", "width": 10}, {"from": "47t87JpM", "to": "XudjntwM", "width": 10}, {"from": "jq6qS77b", "to": "hMYL5Z9b", "width": 10}, {"from": "JnHemjk2", "to": "hMYL5Z9b", "width": 10}, {"from": "iwTGMidi", "to": "hMYL5Z9b", "width": 10}, {"from": "ePnALoCw", "to": "hMYL5Z9b", "width": 10}, {"from": "hMYL5Z9b", "to": "hGP7rLvZ", "width": 10}, {"from": "hMYL5Z9b", "to": "GecAsFfL", "width": 10}, {"from": "hMYL5Z9b", "to": "hmD8cQGZ", "width": 10}, {"from": "hMYL5Z9b", "to": "CQvP5Hos", "width": 10}, {"from": "hMYL5Z9b", "to": "52Wbu2Fo", "width": 10}, {"from": "hMYL5Z9b", "to": "7LbS5df2", "width": 10}, {"from": "hMYL5Z9b", "to": "Jy8ns9kr", "width": 10}, {"from": "hMYL5Z9b", "to": "PXYCpRXf", "width": 10}, {"from": "hMYL5Z9b", "to": "NhNGr5zu", "width": 10}, {"from": "hMYL5Z9b", "to": "7vm6nMLX", "width": 10}, {"from": "hMYL5Z9b", "to": "KzqrgycL", "width": 10}, {"from": "hMYL5Z9b", "to": "MYtfBLe2", "width": 10}, {"from": "hMYL5Z9b", "to": "Qj6RwzVa", "width": 10}, {"from": "hMYL5Z9b", "to": "XudjntwM", "width": 10}, {"from": "hMYL5Z9b", "to": "biGnSXZs", "width": 10}, {"from": "hMYL5Z9b", "to": "kj9NbWjb", "width": 10}, {"from": "Jy8ns9kr", "to": "7LbS5df2", "width": 10}, {"from": "hmD8cQGZ", "to": "Qj6RwzVa", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

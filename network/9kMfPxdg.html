@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "TDF2knmi", "label": "conductor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TDF2knmi\u0027\u003econductor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who directs a musical group during a performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9kMfPxdg", "label": "Louis Spohr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9kMfPxdg\u0027\u003eLouis Spohr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer, violinist and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig_Spohr_portrait.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NdggfNk9", "label": "Ferdinand David", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NdggfNk9\u0027\u003eFerdinand David\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1810-1873)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ferdinand_david.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aJeJBesD", "label": "human", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aJeJBesD\u0027\u003ehuman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany single member of Homo sapiens, unique extant species of the genus Homo\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "L7DPWnnr", "label": "music teacher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/L7DPWnnr\u0027\u003emusic teacher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eacademic title\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "9CVVGZdo", "label": "violinist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9CVVGZdo\u0027\u003eviolinist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the violin\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "5aTYuVxp", "label": "composer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5aTYuVxp\u0027\u003ecomposer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who is an author of music in any form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ku2dT5kg", "label": "male", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ku2dT5kg\u0027\u003emale\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eto be used in \"sex or gender\" (P21) to indicate that the human subject is a male or \"semantic gender\" (P10339) to indicate that a word refers to a male person\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "G8tgNnWV", "label": "violin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/G8tgNnWV\u0027\u003eviolin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ebowed string instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FRvAKw75", "label": "Moritz Hauptmann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FRvAKw75\u0027\u003eMoritz Hauptmann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman music theorist, teacher and composer (1792\u20131868)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Moritz_Hauptmann.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VaVtojpJ", "label": "Henry Holmes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VaVtojpJ\u0027\u003eHenry Holmes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish violinist and composer (1839\u20131905)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_and_Alfred_Holmes.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HJeQijVf", "label": "Franz Eck", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HJeQijVf\u0027\u003eFranz Eck\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman violinist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dEs5J8i5", "label": "Charles Louis Maucourt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dEs5J8i5\u0027\u003eCharles Louis Maucourt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FM4yWajx", "label": "Bernhard Molique", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FM4yWajx\u0027\u003eBernhard Molique\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman violinist and composer (1802-1869)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Molique_passport.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "bX2aWAhB", "label": "musician", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bX2aWAhB\u0027\u003emusician\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who composes, conducts or performs music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "322brsk4", "label": "Kassel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/322brsk4\u0027\u003eKassel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Hesse, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "KBtiJzBc", "label": "Brunswick", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KBtiJzBc\u0027\u003eBrunswick\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Lower Saxony, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "49CMncTw", "label": "musicologist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/49CMncTw\u0027\u003emusicologist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who studies music as a branch of knowledge or field of research as distinct from composition or performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Cvc2GLdL", "label": "Duchy of Brunswick", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Cvc2GLdL\u0027\u003eDuchy of Brunswick\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehistorical German state (1815\u20131918)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "TDF2knmi", "to": "9kMfPxdg", "width": 1}, {"from": "TDF2knmi", "to": "NdggfNk9", "width": 1}, {"from": "NdggfNk9", "to": "aJeJBesD", "width": 1}, {"from": "NdggfNk9", "to": "L7DPWnnr", "width": 1}, {"from": "NdggfNk9", "to": "9CVVGZdo", "width": 1}, {"from": "NdggfNk9", "to": "5aTYuVxp", "width": 1}, {"from": "NdggfNk9", "to": "ku2dT5kg", "width": 1}, {"from": "NdggfNk9", "to": "G8tgNnWV", "width": 1}, {"from": "NdggfNk9", "to": "9kMfPxdg", "width": 1}, {"from": "NdggfNk9", "to": "FRvAKw75", "width": 1}, {"from": "9CVVGZdo", "to": "9kMfPxdg", "width": 1}, {"from": "9CVVGZdo", "to": "VaVtojpJ", "width": 1}, {"from": "9CVVGZdo", "to": "HJeQijVf", "width": 1}, {"from": "9CVVGZdo", "to": "dEs5J8i5", "width": 1}, {"from": "G8tgNnWV", "to": "FRvAKw75", "width": 1}, {"from": "G8tgNnWV", "to": "9kMfPxdg", "width": 1}, {"from": "G8tgNnWV", "to": "VaVtojpJ", "width": 1}, {"from": "G8tgNnWV", "to": "HJeQijVf", "width": 1}, {"from": "G8tgNnWV", "to": "dEs5J8i5", "width": 1}, {"from": "G8tgNnWV", "to": "FM4yWajx", "width": 1}, {"from": "FRvAKw75", "to": "aJeJBesD", "width": 1}, {"from": "FRvAKw75", "to": "L7DPWnnr", "width": 1}, {"from": "FRvAKw75", "to": "5aTYuVxp", "width": 1}, {"from": "FRvAKw75", "to": "ku2dT5kg", "width": 1}, {"from": "FRvAKw75", "to": "9kMfPxdg", "width": 1}, {"from": "bX2aWAhB", "to": "9kMfPxdg", "width": 1}, {"from": "ku2dT5kg", "to": "9kMfPxdg", "width": 1}, {"from": "ku2dT5kg", "to": "VaVtojpJ", "width": 1}, {"from": "ku2dT5kg", "to": "HJeQijVf", "width": 10}, {"from": "ku2dT5kg", "to": "dEs5J8i5", "width": 10}, {"from": "ku2dT5kg", "to": "FM4yWajx", "width": 10}, {"from": "322brsk4", "to": "9kMfPxdg", "width": 1}, {"from": "FM4yWajx", "to": "aJeJBesD", "width": 10}, {"from": "FM4yWajx", "to": "5aTYuVxp", "width": 1}, {"from": "FM4yWajx", "to": "9kMfPxdg", "width": 1}, {"from": "dEs5J8i5", "to": "9kMfPxdg", "width": 1}, {"from": "dEs5J8i5", "to": "aJeJBesD", "width": 10}, {"from": "dEs5J8i5", "to": "5aTYuVxp", "width": 1}, {"from": "dEs5J8i5", "to": "KBtiJzBc", "width": 1}, {"from": "9kMfPxdg", "to": "aJeJBesD", "width": 1}, {"from": "9kMfPxdg", "to": "5aTYuVxp", "width": 1}, {"from": "9kMfPxdg", "to": "49CMncTw", "width": 1}, {"from": "9kMfPxdg", "to": "L7DPWnnr", "width": 1}, {"from": "9kMfPxdg", "to": "Cvc2GLdL", "width": 1}, {"from": "9kMfPxdg", "to": "KBtiJzBc", "width": 1}, {"from": "9kMfPxdg", "to": "HJeQijVf", "width": 1}, {"from": "9kMfPxdg", "to": "VaVtojpJ", "width": 1}, {"from": "5aTYuVxp", "to": "VaVtojpJ", "width": 1}, {"from": "HJeQijVf", "to": "aJeJBesD", "width": 10}, {"from": "aJeJBesD", "to": "VaVtojpJ", "width": 1}, {"from": "VaVtojpJ", "to": "L7DPWnnr", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

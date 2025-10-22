@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "UEwpgitR", "label": "Capricio", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UEwpgitR\u0027\u003eCapricio\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902419677.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MVLRXXFR", "label": "clarinet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MVLRXXFR\u0027\u003eclarinet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eany unspecified or undetermined member of the clarinet family\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "N3ryqoyK", "label": "Sinfonietta, op. 48", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/N3ryqoyK\u0027\u003eSinfonietta, op. 48\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904487201.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "dCgg2RXo", "label": "Sinfonietta, op. 48", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dCgg2RXo\u0027\u003eSinfonietta, op. 48\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904487235.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "47FS2CxH", "label": "Sinfonietta, op. 48", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/47FS2CxH\u0027\u003eSinfonietta, op. 48\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904487243.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "E9MUDjwc", "label": "Concertstuk: harmonie-fanfare", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/E9MUDjwc\u0027\u003eConcertstuk: harmonie-fanfare\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901410586.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2BArFkGf", "label": "Pr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2BArFkGf\u0027\u003ePr\u00e9lude et meneuet : Extraits du Capitaine Fracasse Transcrits pour Fl\u00fbte, Hautbois, Clarinette, Cor et Basson\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000735722.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "XUEtAHJM", "label": "ALCESTE /opera in 5 bedrijven op tekst-van, Calzabigi alleen Ie bedri.lf Air Divinit\u00e9s du Styx parti.i en 2.2.1.5.0./\u00f42.2.2./2.0.5./0. handschrift (kopie)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XUEtAHJM\u0027\u003eALCESTE /opera in 5 bedrijven op tekst-van, Calzabigi alleen Ie bedri.lf Air Divinit\u00e9s du Styx parti.i en 2.2.1.5.0./\u00f42.2.2./2.0.5./0. handschrift (kopie)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000346605.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "jjXWeZ6d", "label": "Duo I in d-moll : f\u00fcr 2 Clarinetten", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jjXWeZ6d\u0027\u003eDuo I in d-moll : f\u00fcr 2 Clarinetten\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901353307.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gKnXRfpa", "label": "Anton\u00edn Liehmann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gKnXRfpa\u0027\u003eAnton\u00edn Liehmann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech composer and organist (1808\u20131879)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton\u00edn_Liehmann.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9w96fD4i", "label": "Jacques-Jules Bouffil", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9w96fD4i\u0027\u003eJacques-Jules Bouffil\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bRqanxMx", "label": "Jacques Charles Duvernoy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bRqanxMx\u0027\u003eJacques Charles Duvernoy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, clarinetist and music educator\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Duvernoy.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "gxpPQPeh", "label": "Concertante : pour Hautbois, Cor et Basson avec Orchestre (Deux Violons, Alto, Violoncelle et Contrebasse; une Fl\u00fbte et deux Clarinettes)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gxpPQPeh\u0027\u003eConcertante : pour Hautbois, Cor et Basson avec Orchestre (Deux Violons, Alto, Violoncelle et Contrebasse; une Fl\u00fbte et deux Clarinettes)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000357124.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Pb3iQSY7", "label": "single clarinets with cylindrical bore, with fingerholes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Pb3iQSY7\u0027\u003esingle clarinets with cylindrical bore, with fingerholes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kjc6KBeH", "label": "Bernhard Crusell", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kjc6KBeH\u0027\u003eBernhard Crusell\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwedish-Finnish clarinetist, composer and translator (1775\u20131838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "93XWfcVS", "label": "Jean-Xavier Lef\u00e8vre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/93XWfcVS\u0027\u003eJean-Xavier Lef\u00e8vre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwiss-born French clarinettist (1763-1829)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jean-Xavier_Lef\u00e8vre.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kypLEwJs", "label": "Franz Tausch", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kypLEwJs\u0027\u003eFranz Tausch\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclarinetist and composer (1762-1817)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "WyPjHYq7", "label": "Giaour : m\u00e9lodie Persane", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WyPjHYq7\u0027\u003eGiaour : m\u00e9lodie Persane\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904381131.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "FeRTAUvm", "label": "Bernhard Crusell", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FeRTAUvm\u0027\u003eBernhard Crusell\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSwedish-Finnish clarinetist, composer and translator (1775\u20131838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Henrik_Crusell_1826.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NTvBj8eb", "label": "Eug\u00e8ne Walckiers", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NTvBj8eb\u0027\u003eEug\u00e8ne Walckiers\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer (1793\u20131866)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Eug\u00e8ne_Walckiers.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "UqeeR5k9", "label": "Septet in C \"Militaire\" Oeuvre 114 : voor piano, Flute, Clarinet, trompet, Violin, cello en DoubleBass", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UqeeR5k9\u0027\u003eSeptet in C \"Militaire\" Oeuvre 114 : voor piano, Flute, Clarinet, trompet, Violin, cello en DoubleBass\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000350286.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MxgVgHsR", "label": "Mich\u00e8l Yost", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MxgVgHsR\u0027\u003eMich\u00e8l Yost\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench clarinetist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Js8pCRJz", "label": "Concerto N\u00b0 1 in e : voor piano enOrchestra : Opus 11.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Js8pCRJz\u0027\u003eConcerto N\u00b0 1 in e : voor piano enOrchestra : Opus 11.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000339398.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "AQHXQNZM", "label": "Quatri\u00e8me Solo Pour le Cor : avec Accompt d\u0027Orchestre ou de Piano : OEuvre IIe", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AQHXQNZM\u0027\u003eQuatri\u00e8me Solo Pour le Cor : avec Accompt d\u0027Orchestre ou de Piano : OEuvre IIe\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000345310.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BnwWc34X", "label": "type of musical instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BnwWc34X\u0027\u003etype of musical instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eWikidata metaclass\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "jR8uTqhp", "label": "transposing instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jR8uTqhp\u0027\u003etransposing instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003einstrument for which music is conventionally written transposed to a different pitch\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HZhgZ5r7", "label": "Friedrich Berr", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HZhgZ5r7\u0027\u003eFriedrich Berr\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman clarinettist, bassoonist and composer (1794\u20131838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fr_Berr.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "aEThfZXq", "label": "Trois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aEThfZXq\u0027\u003eTrois Grands Trios Concertants : Pour Trois Clarinettes le Dernier pour Clarinettes en Ut, Si b et La : 1 [-3] Livre Op. 12\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000336431.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DKrwNAM8", "label": "Jacques-Jules Bouffil", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DKrwNAM8\u0027\u003eJacques-Jules Bouffil\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Pxfujc36", "label": "Ouverture : pour deux Violons, Alto, Violoncelle, Basse, deux Fl\u00fbtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Pxfujc36\u0027\u003eOuverture : pour deux Violons, Alto, Violoncelle, Basse, deux Fl\u00fbtes, deux haubois, deux Clarinettes, deux Cors, deux Trompettes, deux Bassons et Timballe : OEuvre 43.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000333241.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3Jefp8WF", "label": "Trois Trios : Pour Trois Clarinettes : Op\u00e9ra 8", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3Jefp8WF\u0027\u003eTrois Trios : Pour Trois Clarinettes : Op\u00e9ra 8\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000336430.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4bA7mJfo", "label": "[Convoluut]", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4bA7mJfo\u0027\u003e[Convoluut]\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902645172.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dSq7JTyF", "label": "family of musical instruments", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dSq7JTyF\u0027\u003efamily of musical instruments\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egrouping of different but related types of instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "mqY7JfsT", "label": "Quintetto : pour Fl\u00fbte, Hautbois, Clarinette, Cor \u0026 Basson : Oeuvre 88 n\u00b0 6 : Nota: A d\u00e9faut de hautbois, cette Partie peut s\u0027\u00e9x\u00e9cuter par une fl\u00fbte avec la Patte en Ut.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mqY7JfsT\u0027\u003eQuintetto : pour Fl\u00fbte, Hautbois, Clarinette, Cor \u0026 Basson : Oeuvre 88 n\u00b0 6 : Nota: A d\u00e9faut de hautbois, cette Partie peut s\u0027\u00e9x\u00e9cuter par une fl\u00fbte avec la Patte en Ut.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000363772.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HsBKvvFf", "label": "Iwan M\u00fcller", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HsBKvvFf\u0027\u003eIwan M\u00fcller\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian musician and composer (1786-1854)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iwan_M\u00fcller.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "VAZngWmF", "label": "Het hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VAZngWmF\u0027\u003eHet hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902610788.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "UEwpgitR", "to": "MVLRXXFR", "width": 10}, {"from": "N3ryqoyK", "to": "dCgg2RXo", "width": 1}, {"from": "N3ryqoyK", "to": "47FS2CxH", "width": 1}, {"from": "N3ryqoyK", "to": "MVLRXXFR", "width": 10}, {"from": "E9MUDjwc", "to": "MVLRXXFR", "width": 10}, {"from": "2BArFkGf", "to": "MVLRXXFR", "width": 10}, {"from": "XUEtAHJM", "to": "MVLRXXFR", "width": 10}, {"from": "jjXWeZ6d", "to": "MVLRXXFR", "width": 10}, {"from": "gKnXRfpa", "to": "MVLRXXFR", "width": 10}, {"from": "9w96fD4i", "to": "MVLRXXFR", "width": 10}, {"from": "9w96fD4i", "to": "bRqanxMx", "width": 1}, {"from": "gxpPQPeh", "to": "MVLRXXFR", "width": 10}, {"from": "Pb3iQSY7", "to": "MVLRXXFR", "width": 10}, {"from": "kjc6KBeH", "to": "MVLRXXFR", "width": 10}, {"from": "kjc6KBeH", "to": "93XWfcVS", "width": 1}, {"from": "kjc6KBeH", "to": "kypLEwJs", "width": 1}, {"from": "WyPjHYq7", "to": "MVLRXXFR", "width": 10}, {"from": "FeRTAUvm", "to": "MVLRXXFR", "width": 10}, {"from": "FeRTAUvm", "to": "93XWfcVS", "width": 1}, {"from": "FeRTAUvm", "to": "kypLEwJs", "width": 1}, {"from": "NTvBj8eb", "to": "MVLRXXFR", "width": 10}, {"from": "47FS2CxH", "to": "dCgg2RXo", "width": 1}, {"from": "47FS2CxH", "to": "47FS2CxH", "width": 1}, {"from": "47FS2CxH", "to": "MVLRXXFR", "width": 10}, {"from": "UqeeR5k9", "to": "MVLRXXFR", "width": 10}, {"from": "93XWfcVS", "to": "MVLRXXFR", "width": 10}, {"from": "93XWfcVS", "to": "MxgVgHsR", "width": 10}, {"from": "Js8pCRJz", "to": "MVLRXXFR", "width": 10}, {"from": "AQHXQNZM", "to": "MVLRXXFR", "width": 10}, {"from": "BnwWc34X", "to": "MVLRXXFR", "width": 10}, {"from": "jR8uTqhp", "to": "MVLRXXFR", "width": 10}, {"from": "HZhgZ5r7", "to": "MVLRXXFR", "width": 10}, {"from": "HZhgZ5r7", "to": "aEThfZXq", "width": 10}, {"from": "bRqanxMx", "to": "DKrwNAM8", "width": 1}, {"from": "bRqanxMx", "to": "MVLRXXFR", "width": 10}, {"from": "MxgVgHsR", "to": "MVLRXXFR", "width": 10}, {"from": "Pxfujc36", "to": "MVLRXXFR", "width": 10}, {"from": "aEThfZXq", "to": "MVLRXXFR", "width": 10}, {"from": "dCgg2RXo", "to": "dCgg2RXo", "width": 1}, {"from": "dCgg2RXo", "to": "MVLRXXFR", "width": 10}, {"from": "kypLEwJs", "to": "MVLRXXFR", "width": 10}, {"from": "3Jefp8WF", "to": "MVLRXXFR", "width": 10}, {"from": "DKrwNAM8", "to": "MVLRXXFR", "width": 10}, {"from": "4bA7mJfo", "to": "MVLRXXFR", "width": 10}, {"from": "dSq7JTyF", "to": "MVLRXXFR", "width": 10}, {"from": "mqY7JfsT", "to": "MVLRXXFR", "width": 10}, {"from": "MVLRXXFR", "to": "HsBKvvFf", "width": 10}, {"from": "MVLRXXFR", "to": "VAZngWmF", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

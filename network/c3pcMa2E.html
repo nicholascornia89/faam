@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WGwyxeMv", "label": "Keyboard Sonata in E major, K.28", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WGwyxeMv\u0027\u003eKeyboard Sonata in E major, K.28\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "RtkoMT89", "label": "sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RtkoMT89\u0027\u003esonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of musical composition, usually for a solo instrument or a small instrumental ensemble\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "c3pcMa2E", "label": "Les Clavecinistes de 1637 a\u0300 1790 : en trois volumes musique / [e\u0301dite\u0301 par] Ame\u0301de\u0301e Me\u0301reaux.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c3pcMa2E\u0027\u003eLes Clavecinistes de 1637 a\u0300 1790 : en trois volumes musique / [e\u0301dite\u0301 par] Ame\u0301de\u0301e Me\u0301reaux.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/SML-18890.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PyGNLcfw\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "bxP58X9M", "label": "Keyboard Sonata in B-flat major, K.190", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bxP58X9M\u0027\u003eKeyboard Sonata in B-flat major, K.190\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "SzVumnmW", "label": "Sibley Music Library", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SzVumnmW\u0027\u003eSibley Music Library\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican music library of the Eastman School of Music, Rochester, NY\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "XdKEQUBK", "label": "Keyboard Sonata in D major, K.23", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XdKEQUBK\u0027\u003eKeyboard Sonata in D major, K.23\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fDGifj2B", "label": "Keyboard Sonata in A minor, K.54", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fDGifj2B\u0027\u003eKeyboard Sonata in A minor, K.54\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Em6zN9bY", "label": "Keyboard Sonata in F minor, K.69", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Em6zN9bY\u0027\u003eKeyboard Sonata in F minor, K.69\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "P6KNC7Pm", "label": "Keyboard Sonata in D minor, K.434", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/P6KNC7Pm\u0027\u003eKeyboard Sonata in D minor, K.434\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "hr9hGvFv", "label": "Keyboard Sonata in C major, K.423", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hr9hGvFv\u0027\u003eKeyboard Sonata in C major, K.423\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EiKxgscr", "label": "Keyboard Sonata in A major, K.24", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EiKxgscr\u0027\u003eKeyboard Sonata in A major, K.24\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZkJvqtYL", "label": "Keyboard Sonata in C-sharp minor, K.246", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZkJvqtYL\u0027\u003eKeyboard Sonata in C-sharp minor, K.246\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "5desSPih", "label": "Keyboard Sonata in D major, K.299", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5desSPih\u0027\u003eKeyboard Sonata in D major, K.299\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4ANJyJ6E", "label": "Keyboard Sonata in F major, K.446", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4ANJyJ6E\u0027\u003eKeyboard Sonata in F major, K.446\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "C3yy7VKT", "label": "Keyboard Sonata in C major, K.159", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/C3yy7VKT\u0027\u003eKeyboard Sonata in C major, K.159\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aihk265Z", "label": "Keyboard Sonata in C major, K.398", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aihk265Z\u0027\u003eKeyboard Sonata in C major, K.398\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dZrCKNXM", "label": "Keyboard Sonata in A major, K.429", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dZrCKNXM\u0027\u003eKeyboard Sonata in A major, K.429\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eJ86N3UF", "label": "Keyboard Sonata in E-flat major, K.474", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eJ86N3UF\u0027\u003eKeyboard Sonata in E-flat major, K.474\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Vk8JV7ow", "label": "Keyboard Sonata in A major, K.26", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Vk8JV7ow\u0027\u003eKeyboard Sonata in A major, K.26\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BpqErbq5", "label": "Keyboard Sonata in G minor, K.179", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BpqErbq5\u0027\u003eKeyboard Sonata in G minor, K.179\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata by Domenico Scarlatti\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "FDSkv45i", "label": "piano sonata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FDSkv45i\u0027\u003epiano sonata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esonata written for solo piano\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Gx3B7DJH\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "WiBZjkbR", "label": "arrangement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WiBZjkbR\u0027\u003earrangement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical composition in altered form\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "WGwyxeMv", "to": "RtkoMT89", "width": 1}, {"from": "WGwyxeMv", "to": "c3pcMa2E", "width": 1}, {"from": "PyGNLcfw", "to": "c3pcMa2E", "width": 1}, {"from": "bxP58X9M", "to": "RtkoMT89", "width": 1}, {"from": "bxP58X9M", "to": "c3pcMa2E", "width": 1}, {"from": "SzVumnmW", "to": "c3pcMa2E", "width": 1}, {"from": "XdKEQUBK", "to": "RtkoMT89", "width": 1}, {"from": "XdKEQUBK", "to": "c3pcMa2E", "width": 1}, {"from": "fDGifj2B", "to": "RtkoMT89", "width": 1}, {"from": "fDGifj2B", "to": "c3pcMa2E", "width": 1}, {"from": "RtkoMT89", "to": "Em6zN9bY", "width": 1}, {"from": "RtkoMT89", "to": "P6KNC7Pm", "width": 1}, {"from": "RtkoMT89", "to": "hr9hGvFv", "width": 1}, {"from": "RtkoMT89", "to": "EiKxgscr", "width": 1}, {"from": "RtkoMT89", "to": "ZkJvqtYL", "width": 1}, {"from": "RtkoMT89", "to": "5desSPih", "width": 1}, {"from": "RtkoMT89", "to": "4ANJyJ6E", "width": 1}, {"from": "RtkoMT89", "to": "C3yy7VKT", "width": 1}, {"from": "RtkoMT89", "to": "aihk265Z", "width": 1}, {"from": "RtkoMT89", "to": "dZrCKNXM", "width": 1}, {"from": "RtkoMT89", "to": "eJ86N3UF", "width": 1}, {"from": "RtkoMT89", "to": "Vk8JV7ow", "width": 1}, {"from": "RtkoMT89", "to": "BpqErbq5", "width": 1}, {"from": "RtkoMT89", "to": "c3pcMa2E", "width": 1}, {"from": "dZrCKNXM", "to": "c3pcMa2E", "width": 1}, {"from": "hr9hGvFv", "to": "c3pcMa2E", "width": 1}, {"from": "FDSkv45i", "to": "c3pcMa2E", "width": 1}, {"from": "Gx3B7DJH", "to": "c3pcMa2E", "width": 1}, {"from": "5desSPih", "to": "c3pcMa2E", "width": 1}, {"from": "Em6zN9bY", "to": "c3pcMa2E", "width": 1}, {"from": "c3pcMa2E", "to": "WiBZjkbR", "width": 1}, {"from": "c3pcMa2E", "to": "aihk265Z", "width": 1}, {"from": "c3pcMa2E", "to": "4ANJyJ6E", "width": 1}, {"from": "c3pcMa2E", "to": "C3yy7VKT", "width": 1}, {"from": "c3pcMa2E", "to": "BpqErbq5", "width": 1}, {"from": "c3pcMa2E", "to": "ZkJvqtYL", "width": 1}, {"from": "c3pcMa2E", "to": "eJ86N3UF", "width": 1}, {"from": "c3pcMa2E", "to": "EiKxgscr", "width": 1}, {"from": "c3pcMa2E", "to": "Vk8JV7ow", "width": 1}, {"from": "c3pcMa2E", "to": "P6KNC7Pm", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

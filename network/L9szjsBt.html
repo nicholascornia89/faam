@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Jg3RV97U", "label": "12 petits pr\u00e9ludes : pour piano \u00e0 2 mains = 12 kleine preluden : voor piano met 2 handen", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Jg3RV97U\u0027\u003e12 petits pr\u00e9ludes : pour piano \u00e0 2 mains = 12 kleine preluden : voor piano met 2 handen\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030903238001.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "L9szjsBt", "label": "keyboard instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/L9szjsBt\u0027\u003ekeyboard instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eclass of musical instrument which is played using a musical keyboard\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "NSvvf3ok", "label": "The ornamentations in Joh. Seb. Bach\u0027s pianoforte-works : studies and elucidations", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NSvvf3ok\u0027\u003eThe ornamentations in Joh. Seb. Bach\u0027s pianoforte-works : studies and elucidations\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902664280.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyGNLcfw", "label": "piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PyGNLcfw\u0027\u003epiano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "6wzuWKkF", "label": "Inventionen: Inventios 2 et 3 voix = Inventions in 2 \u0026 3 parts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6wzuWKkF\u0027\u003eInventionen: Inventios 2 et 3 voix = Inventions in 2 \u0026 3 parts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901096443.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "hm7SbQfi", "label": "Die Kunst der Fuge = The art of fugue = L\u0027 art de la fugue", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hm7SbQfi\u0027\u003eDie Kunst der Fuge = The art of fugue = L\u0027 art de la fugue\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901352994.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "aaeLdTWS", "label": "Wohltemperirtes Clavier: the forty-eight preludes \u0026 fugues", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aaeLdTWS\u0027\u003eWohltemperirtes Clavier: the forty-eight preludes \u0026 fugues\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902190062.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Y9bpQE3M", "label": "The well-tempered clavier: 48 preludes and fugues", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Y9bpQE3M\u0027\u003eThe well-tempered clavier: 48 preludes and fugues\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901733573.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "FMUnrC8w", "label": "Le Clavecin bien temp\u00e9r\u00e9 ou Pr\u00e9ludes et fugues, 1\u00e8re partie. Dans tous les tons et demi-tons sur les modes majeurs et mineurs", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FMUnrC8w\u0027\u003eLe Clavecin bien temp\u00e9r\u00e9 ou Pr\u00e9ludes et fugues, 1\u00e8re partie. Dans tous les tons et demi-tons sur les modes majeurs et mineurs\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/ORP-20140416.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "9EMYVMR2", "label": "Joh. Seb. Bach\u0027s Clavierwerke. 5, Das wohltemperirte Klavier, erster Teil (1722)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9EMYVMR2\u0027\u003eJoh. Seb. Bach\u0027s Clavierwerke. 5, Das wohltemperirte Klavier, erster Teil (1722)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991068972429707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "hvsDvgaL", "label": "Joh. Seb. Bach\u0027s Clavierwerke. Sechster Band, Das wohltemperirte Klavier : zweiter Teil (1744)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hvsDvgaL\u0027\u003eJoh. Seb. Bach\u0027s Clavierwerke. Sechster Band, Das wohltemperirte Klavier : zweiter Teil (1744)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991075149939707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "c8HCuQ68", "label": "Partimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c8HCuQ68\u0027\u003ePartimenti ossia Basso numerato opera completa di Fedele Fenaroli, per uso degli alunni del Regal Conservatorio di Napoli a Niccola Zingarelli, maestro di S. Pietro in Roma, direttore del medesimo conservatorio dall\u0027editore dedicata\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-42984522m.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "cq9RrJ9Y", "label": "3 fantaisies pour dessus de viole (viole d\u0027amour, ou violon ou fl\u00fbte) avec clavecin ou piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cq9RrJ9Y\u0027\u003e3 fantaisies pour dessus de viole (viole d\u0027amour, ou violon ou fl\u00fbte) avec clavecin ou piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904920086.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "Zaq8UQVx", "label": "Le clavecin bien temp\u00e9r\u00e9 = Das wohltemperirte Clavier = The welltempered clavichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Zaq8UQVx\u0027\u003eLe clavecin bien temp\u00e9r\u00e9 = Das wohltemperirte Clavier = The welltempered clavichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-03090507942.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "HrioxeJc", "label": "Popular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HrioxeJc\u0027\u003ePopular pieces : from the works of old French composers / selected, arranged for the pianoforte and revised by E. Pauer.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/SML-18839.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "E2Sb746q", "label": "musical instrument", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/E2Sb746q\u0027\u003emusical instrument\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edevice created or adapted to make musical sounds\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9tZzpwmB", "label": "clavichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9tZzpwmB\u0027\u003eclavichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estringed keyboard musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hbk7HPJh", "label": "Thomas Arne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hbk7HPJh\u0027\u003eThomas Arne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e18th-century British composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Thomas_Augustine_Arne.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "gqk5YWT2", "label": "Cours complet d\u0027harmonie", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gqk5YWT2\u0027\u003eCours complet d\u0027harmonie\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902962303.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3DRpRYCp", "label": "Couperin\u0027s Werke / Teil 2 / hrsg. von Johannes Brahms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3DRpRYCp\u0027\u003eCouperin\u0027s Werke / Teil 2 / hrsg. von Johannes Brahms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/SUH-819290521.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Q8MBQBw7", "label": "harpsichord", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Q8MBQBw7\u0027\u003eharpsichord\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplucked-string keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8cygiHEB", "label": "organ", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8cygiHEB\u0027\u003eorgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4mkChNN8", "label": "Couperin\u0027s Werke / Teil 1 / hrsg. von Johannes Brahms", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4mkChNN8\u0027\u003eCouperin\u0027s Werke / Teil 1 / hrsg. von Johannes Brahms\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/SUH-819290386.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dSq7JTyF", "label": "family of musical instruments", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dSq7JTyF\u0027\u003efamily of musical instruments\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egrouping of different but related types of instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "CE5D3kgY", "label": "Cours pratique et th\u00e9orique d\u0027harmonie", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CE5D3kgY\u0027\u003eCours pratique et th\u00e9orique d\u0027harmonie\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902508966.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "jn82yUTV", "label": "Thorough-Bass Made Easy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jn82yUTV\u0027\u003eThorough-Bass Made Easy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/ORP-20145655.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "kbianApm", "label": "Katechismus des Generalbass-Spiels \u3008Harmonie-\u00dcbungen am Klavier\u3009 von Hugo Riemann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kbianApm\u0027\u003eKatechismus des Generalbass-Spiels \u3008Harmonie-\u00dcbungen am Klavier\u3009 von Hugo Riemann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BSB-991131830199707356.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "imYAqfW8", "label": "Anleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/imYAqfW8\u0027\u003eAnleitung zum Generalbass-Spielen : Harmonie-\u00dcbungen am Klavier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030903702279.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "Jg3RV97U", "to": "L9szjsBt", "width": 10}, {"from": "NSvvf3ok", "to": "PyGNLcfw", "width": 10}, {"from": "NSvvf3ok", "to": "L9szjsBt", "width": 10}, {"from": "PyGNLcfw", "to": "L9szjsBt", "width": 10}, {"from": "PyGNLcfw", "to": "6wzuWKkF", "width": 10}, {"from": "PyGNLcfw", "to": "hm7SbQfi", "width": 10}, {"from": "PyGNLcfw", "to": "aaeLdTWS", "width": 10}, {"from": "PyGNLcfw", "to": "Y9bpQE3M", "width": 10}, {"from": "PyGNLcfw", "to": "FMUnrC8w", "width": 10}, {"from": "PyGNLcfw", "to": "9EMYVMR2", "width": 10}, {"from": "PyGNLcfw", "to": "hvsDvgaL", "width": 10}, {"from": "PyGNLcfw", "to": "c8HCuQ68", "width": 10}, {"from": "PyGNLcfw", "to": "cq9RrJ9Y", "width": 10}, {"from": "PyGNLcfw", "to": "Zaq8UQVx", "width": 10}, {"from": "PyGNLcfw", "to": "HrioxeJc", "width": 10}, {"from": "aaeLdTWS", "to": "L9szjsBt", "width": 10}, {"from": "9EMYVMR2", "to": "L9szjsBt", "width": 10}, {"from": "E2Sb746q", "to": "L9szjsBt", "width": 10}, {"from": "E2Sb746q", "to": "9tZzpwmB", "width": 10}, {"from": "c8HCuQ68", "to": "L9szjsBt", "width": 10}, {"from": "hbk7HPJh", "to": "L9szjsBt", "width": 10}, {"from": "hvsDvgaL", "to": "L9szjsBt", "width": 10}, {"from": "gqk5YWT2", "to": "L9szjsBt", "width": 10}, {"from": "3DRpRYCp", "to": "L9szjsBt", "width": 10}, {"from": "3DRpRYCp", "to": "Q8MBQBw7", "width": 10}, {"from": "HrioxeJc", "to": "L9szjsBt", "width": 10}, {"from": "8cygiHEB", "to": "L9szjsBt", "width": 10}, {"from": "cq9RrJ9Y", "to": "L9szjsBt", "width": 10}, {"from": "cq9RrJ9Y", "to": "Q8MBQBw7", "width": 10}, {"from": "9tZzpwmB", "to": "L9szjsBt", "width": 10}, {"from": "Y9bpQE3M", "to": "L9szjsBt", "width": 10}, {"from": "Q8MBQBw7", "to": "L9szjsBt", "width": 10}, {"from": "Q8MBQBw7", "to": "4mkChNN8", "width": 10}, {"from": "L9szjsBt", "to": "dSq7JTyF", "width": 10}, {"from": "L9szjsBt", "to": "CE5D3kgY", "width": 10}, {"from": "L9szjsBt", "to": "6wzuWKkF", "width": 10}, {"from": "L9szjsBt", "to": "hm7SbQfi", "width": 10}, {"from": "L9szjsBt", "to": "FMUnrC8w", "width": 10}, {"from": "L9szjsBt", "to": "4mkChNN8", "width": 10}, {"from": "L9szjsBt", "to": "jn82yUTV", "width": 10}, {"from": "L9szjsBt", "to": "kbianApm", "width": 10}, {"from": "L9szjsBt", "to": "imYAqfW8", "width": 10}, {"from": "L9szjsBt", "to": "Zaq8UQVx", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

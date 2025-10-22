@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "UEvwnbkz", "label": "The First Saint-Petersburg Gymnasium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UEvwnbkz\u0027\u003eThe First Saint-Petersburg Gymnasium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3iEGZFo6", "label": "Russia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3iEGZFo6\u0027\u003eRussia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in Eastern Europe and Northern Asia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eqc4UJfy", "label": "Modest Petrovich Mussorgsky", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eqc4UJfy\u0027\u003eModest Petrovich Mussorgsky\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1839\u20131881)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/3/3d/Modest_Musorgskiy_1876_%28cropped%29.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "e4bM5vcc", "label": "Karevo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/e4bM5vcc\u0027\u003eKarevo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehuman settlement in Kunyinsky District, Pskov Oblast, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "AJ9DsBeF", "label": "Pskov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AJ9DsBeF\u0027\u003ePskov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and administrative center of Pskov Oblast in northwestern Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "ZpwbPoZj", "label": "Saint Petersburg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZpwbPoZj\u0027\u003eSaint Petersburg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efederal city and former capital of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "S49pP2jV", "label": "Nikolaevskaya Cavalry School", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/S49pP2jV\u0027\u003eNikolaevskaya Cavalry School\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emilitary school and cultural heritage site in Saint Petersburg, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "84sdmiWW", "label": "Saint Peter\u0027s School", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/84sdmiWW\u0027\u003eSaint Peter\u0027s School\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esecondary school in Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "exESX6CY", "label": "Vladimir", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/exESX6CY\u0027\u003eVladimir\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in the center of European Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "C47ucAZB", "label": "Lyubensk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/C47ucAZB\u0027\u003eLyubensk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eVillage\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DyTsrwPC", "label": "Nikolai Rimsky-Korsakov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DyTsrwPC\u0027\u003eNikolai Rimsky-Korsakov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer (1844\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolai_A._Rimsky-Korsakov.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "atPgtkXM", "label": "The Second Saint Petersburg Gymnasium", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/atPgtkXM\u0027\u003eThe Second Saint Petersburg Gymnasium\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egymnasium school in Saint Petersburg, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jZ54gutD", "label": "Mikhail Glinka", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jZ54gutD\u0027\u003eMikhail Glinka\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/e/e8/Glinka_1856.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "8S4Aou9U", "label": "Novospasskoye", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8S4Aou9U\u0027\u003eNovospasskoye\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evillage in Smolensk Oblast, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "cPw73oYR", "label": "Smolensk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cPw73oYR\u0027\u003eSmolensk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and administrative center of Smolensk Oblast in central Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "J3nRMGnQ", "label": "Votkinsk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/J3nRMGnQ\u0027\u003eVotkinsk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "k4AcFQqP", "label": "Saint Petersburg Court Capella", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/k4AcFQqP\u0027\u003eSaint Petersburg Court Capella\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian professional musical institution since 1479\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VjdWmWeW", "label": "Anton Rubinstein", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VjdWmWeW\u0027\u003eAnton Rubinstein\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian pianist, composer and conductor (1829\u20131894)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton_Rubinstein_by_J_Ganz.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "BqcksJYr", "label": "Petergof", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BqcksJYr\u0027\u003ePetergof\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VwZmF2Uv", "label": "Saint Petersburg Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VwZmF2Uv\u0027\u003eSaint Petersburg Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic school in Saint Petersburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7rEtykNP", "label": "Saint Petersburg State University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7rEtykNP\u0027\u003eSaint Petersburg State University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian federal state-owned higher education institution\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "emGQiTDV", "label": "Baltiysk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/emGQiTDV\u0027\u003eBaltiysk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in Baltiysky District of Kaliningrad Oblast\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "diUttN86", "label": "Moscow", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/diUttN86\u0027\u003eMoscow\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital and most populous city of Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jKNbNHV9", "label": "Zelenogorsk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jKNbNHV9\u0027\u003eZelenogorsk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipal town in Kurortny District of the federal city of St. Petersburg, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "j2gE8Lb4", "label": "Nizhny Novgorod", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j2gE8Lb4\u0027\u003eNizhny Novgorod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of the Nizhny Novgorod Oblast and the Volga Federal District in central Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "AJGqGYJy", "label": "Gnessin Russian Academy of Music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AJGqGYJy\u0027\u003eGnessin Russian Academy of Music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econservatory in Moscow, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "2AvU6t2f", "label": "Kislovodsk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2AvU6t2f\u0027\u003eKislovodsk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003espa city in Stavropol Krai in North Caucasus, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FmBmjpRS", "label": "Nevel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FmBmjpRS\u0027\u003eNevel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown and administrative center of Nevelsky District of Pskov Oblast in northwestern Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "MDaUN9xs", "label": "Presnensky District", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MDaUN9xs\u0027\u003ePresnensky District\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edistrict of Central Administrative Okrug of the federal city of Moscow, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GjurMHUq", "label": "Moscow Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GjurMHUq\u0027\u003eMoscow Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehigher musical education institution in Moscow\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "irBjecZE", "label": "Mikhailovskaya Military Artillery Academy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/irBjecZE\u0027\u003eMikhailovskaya Military Artillery Academy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emilitary academy\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PGnoaY2D", "label": "First Pavlov State Medical University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PGnoaY2D\u0027\u003eFirst Pavlov State Medical University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian university\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KLcqFTj4", "label": "Vasily Bessel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KLcqFTj4\u0027\u003eVasily Bessel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian publisher (1843\u20131907)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ez5MUfiE", "label": "C\u00e9sar Cui", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ez5MUfiE\u0027\u003eC\u00e9sar Cui\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer and army officer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cui_CuiIP_Frontispiece_600.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YesoVYT6", "label": "Tsentralny District", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YesoVYT6\u0027\u003eTsentralny District\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eadministrative territorial entity of Saint Petersburg\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mKcoWQVS", "label": "Moscow State University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mKcoWQVS\u0027\u003eMoscow State University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epublic research university in Moscow, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "dcKXdCgq", "label": "Dyudkovo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dcKXdCgq\u0027\u003eDyudkovo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePreviously was a village near Zvenigorod, since 2003 is a part (district) of Zvenigorod\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "8E5UBj64", "label": "Issay Barmas", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8E5UBj64\u0027\u003eIssay Barmas\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian-German violinist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/5/50/Issay_Barmas.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6Y3ZcTkG", "label": "Kazan Federal University", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6Y3ZcTkG\u0027\u003eKazan Federal University\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian university\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2hnWXN4U", "label": "Imperial Alexander Lyceum", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2hnWXN4U\u0027\u003eImperial Alexander Lyceum\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3A39Uk3S", "label": "Volokolamsk", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3A39Uk3S\u0027\u003eVolokolamsk\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown and administrative center of Volokolamsky District of Moscow Oblast in central Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QTnY36vY", "label": "Tikhvin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QTnY36vY\u0027\u003eTikhvin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and administrative center of Tikhvinsky District of Leningrad Oblast in northwestern Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "UVXp6EbH", "label": "Lomonosov", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UVXp6EbH\u0027\u003eLomonosov\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etown in Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fStBz5Sq", "label": "Boris de Schl\u00f6zer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fStBz5Sq\u0027\u003eBoris de Schl\u00f6zer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian Translator (1881\u20131969)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/47/Boris_de_Schl%C3%B6zer_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "M5W2ty6e", "label": "Veliky Novgorod", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/M5W2ty6e\u0027\u003eVeliky Novgorod\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Novgorod Oblast, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "hEcx5kVB", "label": "Ishcherskaya", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hEcx5kVB\u0027\u003eIshcherskaya\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehuman settlement in Naursky District, Chechen Republic, Russia\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "UEvwnbkz", "to": "3iEGZFo6", "width": 1}, {"from": "eqc4UJfy", "to": "3iEGZFo6", "width": 1}, {"from": "eqc4UJfy", "to": "e4bM5vcc", "width": 1}, {"from": "eqc4UJfy", "to": "AJ9DsBeF", "width": 1}, {"from": "eqc4UJfy", "to": "ZpwbPoZj", "width": 1}, {"from": "eqc4UJfy", "to": "S49pP2jV", "width": 1}, {"from": "eqc4UJfy", "to": "84sdmiWW", "width": 1}, {"from": "exESX6CY", "to": "3iEGZFo6", "width": 1}, {"from": "C47ucAZB", "to": "3iEGZFo6", "width": 1}, {"from": "C47ucAZB", "to": "DyTsrwPC", "width": 1}, {"from": "atPgtkXM", "to": "ZpwbPoZj", "width": 1}, {"from": "atPgtkXM", "to": "3iEGZFo6", "width": 1}, {"from": "jZ54gutD", "to": "3iEGZFo6", "width": 1}, {"from": "jZ54gutD", "to": "8S4Aou9U", "width": 1}, {"from": "jZ54gutD", "to": "cPw73oYR", "width": 1}, {"from": "jZ54gutD", "to": "ZpwbPoZj", "width": 1}, {"from": "J3nRMGnQ", "to": "3iEGZFo6", "width": 1}, {"from": "8S4Aou9U", "to": "3iEGZFo6", "width": 1}, {"from": "k4AcFQqP", "to": "3iEGZFo6", "width": 1}, {"from": "VjdWmWeW", "to": "3iEGZFo6", "width": 1}, {"from": "VjdWmWeW", "to": "BqcksJYr", "width": 1}, {"from": "VjdWmWeW", "to": "ZpwbPoZj", "width": 1}, {"from": "VjdWmWeW", "to": "VwZmF2Uv", "width": 1}, {"from": "7rEtykNP", "to": "ZpwbPoZj", "width": 1}, {"from": "7rEtykNP", "to": "3iEGZFo6", "width": 1}, {"from": "emGQiTDV", "to": "3iEGZFo6", "width": 1}, {"from": "diUttN86", "to": "3iEGZFo6", "width": 1}, {"from": "jKNbNHV9", "to": "3iEGZFo6", "width": 1}, {"from": "j2gE8Lb4", "to": "3iEGZFo6", "width": 1}, {"from": "AJGqGYJy", "to": "3iEGZFo6", "width": 1}, {"from": "2AvU6t2f", "to": "3iEGZFo6", "width": 1}, {"from": "FmBmjpRS", "to": "3iEGZFo6", "width": 1}, {"from": "MDaUN9xs", "to": "3iEGZFo6", "width": 1}, {"from": "MDaUN9xs", "to": "GjurMHUq", "width": 1}, {"from": "ZpwbPoZj", "to": "3iEGZFo6", "width": 1}, {"from": "ZpwbPoZj", "to": "S49pP2jV", "width": 1}, {"from": "ZpwbPoZj", "to": "irBjecZE", "width": 1}, {"from": "ZpwbPoZj", "to": "VwZmF2Uv", "width": 1}, {"from": "ZpwbPoZj", "to": "PGnoaY2D", "width": 1}, {"from": "ZpwbPoZj", "to": "KLcqFTj4", "width": 1}, {"from": "ZpwbPoZj", "to": "ez5MUfiE", "width": 1}, {"from": "AJ9DsBeF", "to": "3iEGZFo6", "width": 1}, {"from": "YesoVYT6", "to": "3iEGZFo6", "width": 1}, {"from": "YesoVYT6", "to": "84sdmiWW", "width": 1}, {"from": "mKcoWQVS", "to": "3iEGZFo6", "width": 1}, {"from": "S49pP2jV", "to": "3iEGZFo6", "width": 1}, {"from": "KLcqFTj4", "to": "3iEGZFo6", "width": 1}, {"from": "KLcqFTj4", "to": "VwZmF2Uv", "width": 1}, {"from": "irBjecZE", "to": "3iEGZFo6", "width": 1}, {"from": "irBjecZE", "to": "ez5MUfiE", "width": 1}, {"from": "VwZmF2Uv", "to": "3iEGZFo6", "width": 1}, {"from": "VwZmF2Uv", "to": "DyTsrwPC", "width": 1}, {"from": "dcKXdCgq", "to": "3iEGZFo6", "width": 1}, {"from": "8E5UBj64", "to": "3iEGZFo6", "width": 10}, {"from": "BqcksJYr", "to": "3iEGZFo6", "width": 1}, {"from": "GjurMHUq", "to": "3iEGZFo6", "width": 1}, {"from": "6Y3ZcTkG", "to": "3iEGZFo6", "width": 1}, {"from": "2hnWXN4U", "to": "3iEGZFo6", "width": 1}, {"from": "84sdmiWW", "to": "3iEGZFo6", "width": 1}, {"from": "3A39Uk3S", "to": "3iEGZFo6", "width": 1}, {"from": "DyTsrwPC", "to": "3iEGZFo6", "width": 1}, {"from": "DyTsrwPC", "to": "QTnY36vY", "width": 1}, {"from": "UVXp6EbH", "to": "3iEGZFo6", "width": 1}, {"from": "QTnY36vY", "to": "3iEGZFo6", "width": 1}, {"from": "ez5MUfiE", "to": "3iEGZFo6", "width": 1}, {"from": "fStBz5Sq", "to": "3iEGZFo6", "width": 10}, {"from": "e4bM5vcc", "to": "3iEGZFo6", "width": 1}, {"from": "M5W2ty6e", "to": "3iEGZFo6", "width": 1}, {"from": "hEcx5kVB", "to": "3iEGZFo6", "width": 1}, {"from": "3iEGZFo6", "to": "cPw73oYR", "width": 1}, {"from": "3iEGZFo6", "to": "PGnoaY2D", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

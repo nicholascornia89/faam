@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "aEzb7pgQ", "label": "Popule meus, IGP 76", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aEzb7pgQ\u0027\u003ePopule meus, IGP 76\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emotet by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ik3NwdWW", "label": "motet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ik3NwdWW\u0027\u003emotet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eone of the most important forms of polyphonic music from about 1220 to 1750\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BdJHjaCE", "label": "liturgical music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BdJHjaCE\u0027\u003eliturgical music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic practiced during worship processes in various religions\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "iFkRR5rr", "label": "La Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iFkRR5rr\u0027\u003eLa Musica Che si Canta Annualmente nelle Funzioni della Settimana Santa, nella Cappella Pontificia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/SLD-512657440.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mkCY9LDD", "label": "tempo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mkCY9LDD\u0027\u003etempo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical concept indicating to the speed of interpretation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eyeEqhAF", "label": "largo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eyeEqhAF\u0027\u003elargo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical tempo indication\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "n8Jsg8rS", "label": "Miserere, IGA 2", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/n8Jsg8rS\u0027\u003eMiserere, IGA 2\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSetting of Psalm 51 by Gregorio Allegri\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4cGZC6bC", "label": "Stabat Mater, IGP 90", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4cGZC6bC\u0027\u003eStabat Mater, IGP 90\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposition by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "biERyymK", "label": "Fratres ego enim accepi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/biERyymK\u0027\u003eFratres ego enim accepi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emotet by Giovanni Pierluigi da Palestrina\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "JXYgRRuc", "label": "musica ficta", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JXYgRRuc\u0027\u003emusica ficta\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003erenaissance European music theory term to describe pitches\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "8N6k5W5i", "label": "accidental", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8N6k5W5i\u0027\u003eaccidental\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003enote whose pitch is not a member of the scale or mode indicated by the most recently applied key signature\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "SRaiiKJr", "label": "decrescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SRaiiKJr\u0027\u003edecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HKyA3Qzz", "label": "dynamic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HKyA3Qzz\u0027\u003edynamic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evolume of a sound or note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NFAxdnVA", "label": "voice", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NFAxdnVA\u0027\u003evoice\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehuman voice as musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "FcNNEYgX", "label": "Saxon State Library", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FcNNEYgX\u0027\u003eSaxon State Library\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eState Library of Saxony, Germany\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Jz7WgRXa", "label": "polyphony", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Jz7WgRXa\u0027\u003epolyphony\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic with multiple, independent melody lines performed simultaneously\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eSzqVmee", "label": "crescendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eSzqVmee\u0027\u003ecrescendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term indicating a gradual increase in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ZMpsLcpT", "label": "Cecilian Movement", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZMpsLcpT\u0027\u003eCecilian Movement\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emovement for church music reform\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Gx3B7DJH", "label": "early music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Gx3B7DJH\u0027\u003eearly music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusic from the Middle Ages, Renaissance, and Baroque\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "gaLrAUbu", "label": "deletion", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gaLrAUbu\u0027\u003edeletion\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ieqEGEHo", "label": "messa di voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ieqEGEHo\u0027\u003emessa di voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSinging technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "J9FXU5XV", "label": "Venetian polychoral style", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/J9FXU5XV\u0027\u003eVenetian polychoral style\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003etype of music of the late Renaissance and early Baroque eras which involved spatially separate choirs singing in alternation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "j3tnVzW5", "label": "diminuendo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j3tnVzW5\u0027\u003ediminuendo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eMusical term indicating a gradual decrease in dynamic strength\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UMravioT", "label": "alternative lyrics", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UMravioT\u0027\u003ealternative lyrics\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "XodFa392", "label": "Miserere", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XodFa392\u0027\u003eMiserere\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emotet by Tommaso Bai\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nJY8Xxwz", "label": "choir", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nJY8Xxwz\u0027\u003echoir\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eensemble of singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mhohuJYG", "label": "cut", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mhohuJYG\u0027\u003ecut\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "YVdQHjKd", "label": "choral music", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YVdQHjKd\u0027\u003echoral music\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evocal music which is sung by a choir; musical form and vocal music genre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7UGJWsQF", "label": "Marian hymn", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7UGJWsQF\u0027\u003eMarian hymn\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ea theatrical work that uses ballet dancing (not a genre)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "aEzb7pgQ", "to": "ik3NwdWW", "width": 1}, {"from": "aEzb7pgQ", "to": "BdJHjaCE", "width": 1}, {"from": "aEzb7pgQ", "to": "iFkRR5rr", "width": 1}, {"from": "mkCY9LDD", "to": "eyeEqhAF", "width": 1}, {"from": "mkCY9LDD", "to": "iFkRR5rr", "width": 1}, {"from": "BdJHjaCE", "to": "n8Jsg8rS", "width": 1}, {"from": "BdJHjaCE", "to": "4cGZC6bC", "width": 1}, {"from": "BdJHjaCE", "to": "biERyymK", "width": 1}, {"from": "BdJHjaCE", "to": "iFkRR5rr", "width": 1}, {"from": "JXYgRRuc", "to": "8N6k5W5i", "width": 1}, {"from": "JXYgRRuc", "to": "iFkRR5rr", "width": 1}, {"from": "SRaiiKJr", "to": "HKyA3Qzz", "width": 1}, {"from": "SRaiiKJr", "to": "iFkRR5rr", "width": 1}, {"from": "NFAxdnVA", "to": "iFkRR5rr", "width": 1}, {"from": "FcNNEYgX", "to": "iFkRR5rr", "width": 1}, {"from": "Jz7WgRXa", "to": "iFkRR5rr", "width": 1}, {"from": "n8Jsg8rS", "to": "ik3NwdWW", "width": 1}, {"from": "n8Jsg8rS", "to": "iFkRR5rr", "width": 1}, {"from": "ik3NwdWW", "to": "4cGZC6bC", "width": 1}, {"from": "ik3NwdWW", "to": "biERyymK", "width": 1}, {"from": "ik3NwdWW", "to": "iFkRR5rr", "width": 1}, {"from": "eSzqVmee", "to": "HKyA3Qzz", "width": 1}, {"from": "eSzqVmee", "to": "iFkRR5rr", "width": 1}, {"from": "ZMpsLcpT", "to": "iFkRR5rr", "width": 1}, {"from": "8N6k5W5i", "to": "iFkRR5rr", "width": 1}, {"from": "Gx3B7DJH", "to": "iFkRR5rr", "width": 1}, {"from": "gaLrAUbu", "to": "iFkRR5rr", "width": 1}, {"from": "ieqEGEHo", "to": "iFkRR5rr", "width": 1}, {"from": "J9FXU5XV", "to": "iFkRR5rr", "width": 1}, {"from": "j3tnVzW5", "to": "HKyA3Qzz", "width": 1}, {"from": "j3tnVzW5", "to": "iFkRR5rr", "width": 1}, {"from": "biERyymK", "to": "iFkRR5rr", "width": 1}, {"from": "UMravioT", "to": "iFkRR5rr", "width": 1}, {"from": "HKyA3Qzz", "to": "iFkRR5rr", "width": 1}, {"from": "XodFa392", "to": "iFkRR5rr", "width": 1}, {"from": "nJY8Xxwz", "to": "iFkRR5rr", "width": 1}, {"from": "iFkRR5rr", "to": "eyeEqhAF", "width": 1}, {"from": "iFkRR5rr", "to": "mhohuJYG", "width": 1}, {"from": "iFkRR5rr", "to": "YVdQHjKd", "width": 1}, {"from": "iFkRR5rr", "to": "7UGJWsQF", "width": 1}, {"from": "iFkRR5rr", "to": "4cGZC6bC", "width": 1}, {"from": "4cGZC6bC", "to": "7UGJWsQF", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

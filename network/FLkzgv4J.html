@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MBNmXtVc", "label": "Pablo de Sarasate", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MBNmXtVc\u0027\u003ePablo de Sarasate\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish violinist and composer (1844\u20131908)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pablo_de_Sarasate_1906.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FLkzgv4J", "label": "Spain", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FLkzgv4J\u0027\u003eSpain\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecountry in southwestern Europe with territories in Africa\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "cEMe8RPA", "label": "Pamplona", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/cEMe8RPA\u0027\u003ePamplona\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Spain, capital of Navarre and main municipality of the historical Kingdom of Navarre\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gbDG4zke", "label": "Francisco Guerrero", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gbDG4zke\u0027\u003eFrancisco Guerrero\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer of the Renaissance\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Libro_de...memorables_varones,_1886_\"Francisco_Guerrero\"._(3816814223).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "YaKLJ7tE", "label": "Seville", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YaKLJ7tE\u0027\u003eSeville\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality of Andalusia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "koZRWEgi", "label": "Bernardino de Ribera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/koZRWEgi\u0027\u003eBernardino de Ribera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "oERWTVNi", "label": "X\u00e0tiva", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oERWTVNi\u0027\u003eX\u00e0tiva\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehuman settlement in Valencia Province, Valencian Community, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CxSjPRJx", "label": "Toledo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CxSjPRJx\u0027\u003eToledo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in central Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "eb7u4xWh", "label": "Ignacio Prieto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eb7u4xWh\u0027\u003eIgnacio Prieto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer and organist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "kryfaPmL", "label": "Gij\u00f3n", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kryfaPmL\u0027\u003eGij\u00f3n\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Asturias, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "aF8DdEwS", "label": "Alcal\u00e1 de Henares", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aF8DdEwS\u0027\u003eAlcal\u00e1 de Henares\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity of Spain in the Community of Madrid\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "fjWSFqSh", "label": "Tortosa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fjWSFqSh\u0027\u003eTortosa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality of Tarragona, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kXNArq5N", "label": "Felip Pedrell", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kXNArq5N\u0027\u003eFelip Pedrell\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCatalan composer, teacher and musicologist (1841\u20131922)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felipe_Pedrell_01.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#97c2fc", "font": {"color": "#f8f7f4"}, "id": "22Qm9haJ", "label": "22Qm9haJ", "shape": "dot", "size": 10}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fApHxzGr", "label": "Pedro Fern\u00e1ndez de Castilleja", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fApHxzGr\u0027\u003ePedro Fern\u00e1ndez de Castilleja\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ALdLC4cv", "label": "Crist\u00f3bal de Morales", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ALdLC4cv\u0027\u003eCrist\u00f3bal de Morales\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Retrato_de_Crist\u00f3bal_de_Morales.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "XeLw3PHa", "label": "Castilleja de la Cuesta", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XeLw3PHa\u0027\u003eCastilleja de la Cuesta\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality of Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aML9Y4Xf", "label": "Manuel Garc\u00eda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aML9Y4Xf\u0027\u003eManuel Garc\u00eda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish opera singer, composer and impresario (1775-1832)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Manuel_Garcia_as_Otello_in_Paris_from_Gallica.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gKY5NR5M", "label": "Francisco de Pe\u00f1alosa", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gKY5NR5M\u0027\u003eFrancisco de Pe\u00f1alosa\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer (1470-1528)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3sHwdtpk", "label": "Girona", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3sHwdtpk\u0027\u003eGirona\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital city of the Province of Girona, Catalonia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XvhjzvcS", "label": "Josep Pons", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XvhjzvcS\u0027\u003eJosep Pons\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer (1770-1818)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "UtNGkV6s", "label": "Marchena", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UtNGkV6s\u0027\u003eMarchena\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality of Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "H2w2eF7A", "label": "Juan Navarro Hispalensis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/H2w2eF7A\u0027\u003eJuan Navarro Hispalensis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "3PbKbx4o", "label": "Ontinyent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3PbKbx4o\u0027\u003eOntinyent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Valencia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "jwWs2UgB", "label": "Jos\u00e9 Melchor Gomis", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jwWs2UgB\u0027\u003eJos\u00e9 Melchor Gomis\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer (1791-1836)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jose_Melchor_Gomis.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "kaDD9e3a", "label": "Madrid", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kaDD9e3a\u0027\u003eMadrid\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital of Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "coBYSJoh", "label": "Province of Granada", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/coBYSJoh\u0027\u003eProvince of Granada\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eprovince of Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Hy6Yxd2K", "label": "Puigcerd\u00e0", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Hy6Yxd2K\u0027\u003ePuigcerd\u00e0\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in the province of Girona, Catalonia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "QxhBm7SM", "label": "Linares", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QxhBm7SM\u0027\u003eLinares\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality of Ja\u00e9n, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "jvFHbkUT", "label": "Barcelona", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jvFHbkUT\u0027\u003eBarcelona\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in Catalonia, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "NXDYdjm8", "label": "C\u00e1diz", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NXDYdjm8\u0027\u003eC\u00e1diz\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital city of the province of C\u00e1diz, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "FigjqUbp", "label": "\u00c1vila", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/FigjqUbp\u0027\u003e\u00c1vila\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Castile and Le\u00f3n, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "kNa9W8vR", "label": "Villarreal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kNa9W8vR\u0027\u003eVillarreal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity in the province of Castell\u00f3n, in the Valencian Community, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "C9kkrDiw", "label": "Valencia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/C9kkrDiw\u0027\u003eValencia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality in Spain, capital city of the Valencian Community\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "mfhsPNfN", "label": "Talavera de la Reina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mfhsPNfN\u0027\u003eTalavera de la Reina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecity and municipality in Toledo, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "T8QSS2Ab", "label": "Palencia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/T8QSS2Ab\u0027\u003ePalencia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emunicipality and capital city of the province of Palencia, Castile and Le\u00f3n, Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "deJ56hKz", "label": "Real Conservatorio Superior de M\u00fasica de Granada", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/deJ56hKz\u0027\u003eReal Conservatorio Superior de M\u00fasica de Granada\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eReal Conservatorio Superior de M\u00fasica de Granada\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4qkTmvrk", "label": "Madrid Royal Conservatory", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4qkTmvrk\u0027\u003eMadrid Royal Conservatory\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "GnkzLFgd", "label": "Biblioteca Nacional de Espa\u00f1a", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GnkzLFgd\u0027\u003eBiblioteca Nacional de Espa\u00f1a\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003elibrary in Spain\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZD78QBo6", "label": "Denis Granado", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZD78QBo6\u0027\u003eDenis Granado\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer and guitarist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "n9XVoQC2", "label": "Francesco Piermarini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/n9XVoQC2\u0027\u003eFrancesco Piermarini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JAaw4r23", "label": "Francisco T\u00e1rrega", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JAaw4r23\u0027\u003eFrancisco T\u00e1rrega\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish composer and classical guitarist (1852-1909)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisco_tarrega_retrato.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "oFku4NNZ", "label": "Jos\u00e9 Trag\u00f3", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oFku4NNZ\u0027\u003eJos\u00e9 Trag\u00f3\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish pianist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jos\u00e9_Trag\u00f3.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SN5baita", "label": "Enrique Broca", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SN5baita\u0027\u003eEnrique Broca\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish author\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "btwYwVv8", "label": "Santiago Riera", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/btwYwVv8\u0027\u003eSantiago Riera\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eSpanish musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Santiago_Riera.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "MBNmXtVc", "to": "FLkzgv4J", "width": 1}, {"from": "MBNmXtVc", "to": "cEMe8RPA", "width": 1}, {"from": "gbDG4zke", "to": "FLkzgv4J", "width": 1}, {"from": "gbDG4zke", "to": "YaKLJ7tE", "width": 1}, {"from": "koZRWEgi", "to": "FLkzgv4J", "width": 1}, {"from": "koZRWEgi", "to": "oERWTVNi", "width": 1}, {"from": "koZRWEgi", "to": "CxSjPRJx", "width": 1}, {"from": "eb7u4xWh", "to": "FLkzgv4J", "width": 1}, {"from": "eb7u4xWh", "to": "kryfaPmL", "width": 1}, {"from": "eb7u4xWh", "to": "aF8DdEwS", "width": 1}, {"from": "fjWSFqSh", "to": "FLkzgv4J", "width": 1}, {"from": "fjWSFqSh", "to": "kXNArq5N", "width": 1}, {"from": "22Qm9haJ", "to": "FLkzgv4J", "width": 10}, {"from": "fApHxzGr", "to": "ALdLC4cv", "width": 1}, {"from": "fApHxzGr", "to": "FLkzgv4J", "width": 1}, {"from": "fApHxzGr", "to": "XeLw3PHa", "width": 1}, {"from": "fApHxzGr", "to": "YaKLJ7tE", "width": 1}, {"from": "YaKLJ7tE", "to": "FLkzgv4J", "width": 1}, {"from": "YaKLJ7tE", "to": "aML9Y4Xf", "width": 1}, {"from": "YaKLJ7tE", "to": "ALdLC4cv", "width": 1}, {"from": "YaKLJ7tE", "to": "gKY5NR5M", "width": 1}, {"from": "aML9Y4Xf", "to": "FLkzgv4J", "width": 1}, {"from": "3sHwdtpk", "to": "FLkzgv4J", "width": 1}, {"from": "3sHwdtpk", "to": "XvhjzvcS", "width": 1}, {"from": "ALdLC4cv", "to": "FLkzgv4J", "width": 1}, {"from": "ALdLC4cv", "to": "UtNGkV6s", "width": 1}, {"from": "ALdLC4cv", "to": "gKY5NR5M", "width": 1}, {"from": "ALdLC4cv", "to": "H2w2eF7A", "width": 1}, {"from": "3PbKbx4o", "to": "FLkzgv4J", "width": 1}, {"from": "3PbKbx4o", "to": "jwWs2UgB", "width": 1}, {"from": "kryfaPmL", "to": "FLkzgv4J", "width": 1}, {"from": "FLkzgv4J", "to": "kaDD9e3a", "width": 1}, {"from": "FLkzgv4J", "to": "coBYSJoh", "width": 1}, {"from": "FLkzgv4J", "to": "aF8DdEwS", "width": 1}, {"from": "FLkzgv4J", "to": "cEMe8RPA", "width": 1}, {"from": "FLkzgv4J", "to": "Hy6Yxd2K", "width": 1}, {"from": "FLkzgv4J", "to": "QxhBm7SM", "width": 1}, {"from": "FLkzgv4J", "to": "jvFHbkUT", "width": 1}, {"from": "FLkzgv4J", "to": "NXDYdjm8", "width": 1}, {"from": "FLkzgv4J", "to": "UtNGkV6s", "width": 1}, {"from": "FLkzgv4J", "to": "FigjqUbp", "width": 1}, {"from": "FLkzgv4J", "to": "kNa9W8vR", "width": 1}, {"from": "FLkzgv4J", "to": "C9kkrDiw", "width": 1}, {"from": "FLkzgv4J", "to": "XeLw3PHa", "width": 1}, {"from": "FLkzgv4J", "to": "mfhsPNfN", "width": 1}, {"from": "FLkzgv4J", "to": "T8QSS2Ab", "width": 1}, {"from": "FLkzgv4J", "to": "oERWTVNi", "width": 1}, {"from": "FLkzgv4J", "to": "CxSjPRJx", "width": 1}, {"from": "FLkzgv4J", "to": "deJ56hKz", "width": 1}, {"from": "FLkzgv4J", "to": "4qkTmvrk", "width": 1}, {"from": "FLkzgv4J", "to": "GnkzLFgd", "width": 1}, {"from": "FLkzgv4J", "to": "ZD78QBo6", "width": 1}, {"from": "FLkzgv4J", "to": "jwWs2UgB", "width": 1}, {"from": "FLkzgv4J", "to": "n9XVoQC2", "width": 1}, {"from": "FLkzgv4J", "to": "JAaw4r23", "width": 1}, {"from": "FLkzgv4J", "to": "oFku4NNZ", "width": 1}, {"from": "FLkzgv4J", "to": "kXNArq5N", "width": 1}, {"from": "FLkzgv4J", "to": "SN5baita", "width": 10}, {"from": "FLkzgv4J", "to": "XvhjzvcS", "width": 1}, {"from": "FLkzgv4J", "to": "gKY5NR5M", "width": 1}, {"from": "FLkzgv4J", "to": "H2w2eF7A", "width": 1}, {"from": "FLkzgv4J", "to": "btwYwVv8", "width": 1}, {"from": "jwWs2UgB", "to": "XvhjzvcS", "width": 1}, {"from": "4qkTmvrk", "to": "kaDD9e3a", "width": 1}, {"from": "4qkTmvrk", "to": "ZD78QBo6", "width": 1}, {"from": "4qkTmvrk", "to": "n9XVoQC2", "width": 1}, {"from": "4qkTmvrk", "to": "JAaw4r23", "width": 1}, {"from": "4qkTmvrk", "to": "oFku4NNZ", "width": 1}, {"from": "T8QSS2Ab", "to": "H2w2eF7A", "width": 1}, {"from": "btwYwVv8", "to": "jvFHbkUT", "width": 1}, {"from": "jvFHbkUT", "to": "JAaw4r23", "width": 1}, {"from": "jvFHbkUT", "to": "kXNArq5N", "width": 1}, {"from": "kaDD9e3a", "to": "GnkzLFgd", "width": 1}, {"from": "kaDD9e3a", "to": "oFku4NNZ", "width": 1}, {"from": "kNa9W8vR", "to": "JAaw4r23", "width": 1}, {"from": "H2w2eF7A", "to": "UtNGkV6s", "width": 1}, {"from": "gKY5NR5M", "to": "mfhsPNfN", "width": 1}, {"from": "coBYSJoh", "to": "deJ56hKz", "width": 1}, {"from": "XvhjzvcS", "to": "C9kkrDiw", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Sjw2pJu9", "label": "Ernest Gillet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Sjw2pJu9\u0027\u003eErnest Gillet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician and composer (1856-1940)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "JJEmNCK7", "label": "cellist", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JJEmNCK7\u0027\u003ecellist\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusician who plays the cello\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EUtRFBeV", "label": "Johann Konrad Schlick", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EUtRFBeV\u0027\u003eJohann Konrad Schlick\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "XS2SS3Y7", "label": "Bernhard Romberg", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/XS2SS3Y7\u0027\u003eBernhard Romberg\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bernhard_Romberg.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "B37kcT5B", "label": "Paul Gr\u00fcmmer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/B37kcT5B\u0027\u003ePaul Gr\u00fcmmer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1879-1965)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul_Gr\u00fcmmer.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aWsBkMZ6", "label": "Nikolaus Harnoncourt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aWsBkMZ6\u0027\u003eNikolaus Harnoncourt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAustrian conductor (1929\u20132016)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nikolaus_Harnoncourt_(1980).jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "3KAmatqN", "label": "Salvatore Lanzetti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3KAmatqN\u0027\u003eSalvatore Lanzetti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian cello player and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QSZVEcCs", "label": "Alexander Borodin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QSZVEcCs\u0027\u003eAlexander Borodin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eRussian composer, doctor and chemist (1833\u20131887)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Borodin.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "aQfbT97p", "label": "Georg Goltermann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/aQfbT97p\u0027\u003eGeorg Goltermann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist, conductor, and composer (1824\u20131898)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RGdExgFa", "label": "Joseph Menter", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RGdExgFa\u0027\u003eJoseph Menter\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist and music educator (1808-1856)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Menter_Litho.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6CJAA9n5", "label": "Julien Closset", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6CJAA9n5\u0027\u003eJulien Closset\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer and cellist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "c45EE2BL", "label": "Adam Liszt", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/c45EE2BL\u0027\u003eAdam Liszt\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003efather of Franz Liszt\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adam_Liszt.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NnHKaK9g", "label": "Charles Baudiot", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NnHKaK9g\u0027\u003eCharles Baudiot\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench cellist, composer and music educator\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "HqrR2CSY", "label": "Jean-Baptiste-Aim\u00e9 Joseph Janson", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HqrR2CSY\u0027\u003eJean-Baptiste-Aim\u00e9 Joseph Janson\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer, cellist and music educator (1742-1803)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "fc4uvVCJ", "label": "Louis-Pierre Norblin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fc4uvVCJ\u0027\u003eLouis-Pierre Norblin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench cellist and music teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Louis_Pierre_Martin_Norblin_by_Julien_L\u00e9opold_Boilly.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hXVVRcWL", "label": "L\u00e9a Fauquel", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hXVVRcWL\u0027\u003eL\u00e9a Fauquel\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "NNhNaQpF", "label": "Charles-Henri Plantade", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NNhNaQpF\u0027\u003eCharles-Henri Plantade\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles-Henri_Plantade_1806.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iSNyEoZS", "label": "Petronio Franceschini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iSNyEoZS\u0027\u003ePetronio Franceschini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1651-1680)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iGWTaGKR", "label": "Adrien-Fran\u00e7ois Servais", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iGWTaGKR\u0027\u003eAdrien-Fran\u00e7ois Servais\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer (1807-1866)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Servais_Adrien.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KeExYuiF", "label": "Josef Reicha", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KeExYuiF\u0027\u003eJosef Reicha\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eCzech composer and violoncellist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kCr22AfX", "label": "Beno\u00eet Tranquille Berbiguier", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kCr22AfX\u0027\u003eBeno\u00eet Tranquille Berbiguier\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait_of_Benoit_Tranquille_Berbiguier,_composer_(1782-1835)_-_Archivio_Storico_Ricordi_ICON010658.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CSTntU4y", "label": "Pierre-Louis Hus-Desforges", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CSTntU4y\u0027\u003ePierre-Louis Hus-Desforges\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench conductor, composer, cellist and music educator (1773-1838)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Pierre-Louis_Hus-Desforges.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nWt9kEyw", "label": "Alfredo Piatti", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nWt9kEyw\u0027\u003eAlfredo Piatti\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian cellist (1822-1901)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alfredo_Piatti_(before_1901)_-_Archivio_storico_Ricordi_FOTO001575.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "iX5H3tTM", "label": "Auguste Franchomme", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iX5H3tTM\u0027\u003eAuguste Franchomme\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench musician (1808-1884)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste_Franchomme.png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "TuQsEjAR", "label": "Jean-Henri Levasseur", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TuQsEjAR\u0027\u003eJean-Henri Levasseur\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench cellist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "i6L4LNLH", "label": "Nicola Francesco Haym", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/i6L4LNLH\u0027\u003eNicola Francesco Haym\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer and musician (1678-1729)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prova_di_un\u0027opera.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PyZVTJJW", "label": "Charles Lebouc", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PyZVTJJW\u0027\u003eCharles Lebouc\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench cellist (1822-1893)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Lebouc.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LFJgDfLj", "label": "Jef Alpaerts", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LFJgDfLj\u0027\u003eJef Alpaerts\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian cellist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RLBjKxP5", "label": "Hugo Becker", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RLBjKxP5\u0027\u003eHugo Becker\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist and composer (1863\u20131941)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hugo_Becker_BNF.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Lvp6G9Z3", "label": "Joseph Hollman", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Lvp6G9Z3\u0027\u003eJoseph Hollman\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench-Dutch composer and cellist (1852\u20131926)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph_Hollman_2_December_1897.JPG\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "QGLAMynm", "label": "David Popper", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QGLAMynm\u0027\u003eDavid Popper\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBohemian cellist and composer (1843\u20131913)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/David_Popper_ca._1860.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "DVfZGTfW", "label": "Friedrich Gr\u00fctzmacher", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DVfZGTfW\u0027\u003eFriedrich Gr\u00fctzmacher\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician (1832-1903)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FriedrichGr\u00fctzmacher.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4XYe8Utf", "label": "Robert Hausmann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4XYe8Utf\u0027\u003eRobert Hausmann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman musician\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Robert_Hausmann.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "agWvDDr6", "label": "Vincent d\u0027Indy", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/agWvDDr6\u0027\u003eVincent d\u0027Indy\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench composer and teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/8/8a/Vincent_d%27Indy_1914.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "bcZAc7AZ", "label": "Felice Blangini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/bcZAc7AZ\u0027\u003eFelice Blangini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1781-1841)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Felice_Blangini_1820.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "69mWufpb", "label": "Friedrich Dotzauer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/69mWufpb\u0027\u003eFriedrich Dotzauer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich_Dotzauer.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mKS3bq3i", "label": "James Cervetto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mKS3bq3i\u0027\u003eJames Cervetto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish cellist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GbqX2j2Y", "label": "Cesare A. Casella", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GbqX2j2Y\u0027\u003eCesare A. Casella\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomposer, cellist (1822-1886)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "WbCeeNZe", "label": "Gaetano Agazzi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WbCeeNZe\u0027\u003eGaetano Agazzi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "GUoz686r", "label": "Giovanni Bononcini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GUoz686r\u0027\u003eGiovanni Bononcini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer (1670\u20131747)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Buononcini.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "F3VbzW4A", "label": "Luigi Boccherini", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/F3VbzW4A\u0027\u003eLuigi Boccherini\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer and cellist (1743\u20131805)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/LBoccherini.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "RmPLFSc4", "label": "Joseph Salmon", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/RmPLFSc4\u0027\u003eJoseph Salmon\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eFrench cellist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph-Salmon.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "JAJecPWc", "label": "Julien Closset", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JAJecPWc\u0027\u003eJulien Closset\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBelgian composer and cellist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "dFEMxp4r", "label": "Emil Hegar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dFEMxp4r\u0027\u003eEmil Hegar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e(1843-1921)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emil_Hegar.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CSRR6e6p", "label": "M\u00e1ty\u00e1s Seiber", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CSRR6e6p\u0027\u003eM\u00e1ty\u00e1s Seiber\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish-Hungarian composer (1905\u20131960)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/M\u00e1ty\u00e1s_Seiber.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PmQmiLgv", "label": "Karl Drexler", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PmQmiLgv\u0027\u003eKarl Drexler\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman cellist and music educator (1800-1873)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ymv4KcHV", "label": "Giovanni Battista Costanzi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ymv4KcHV\u0027\u003eGiovanni Battista Costanzi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ku6jtjDm", "label": "Henri Geul", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ku6jtjDm\u0027\u003eHenri Geul\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "Sjw2pJu9", "to": "JJEmNCK7", "width": 10}, {"from": "EUtRFBeV", "to": "XS2SS3Y7", "width": 10}, {"from": "EUtRFBeV", "to": "JJEmNCK7", "width": 10}, {"from": "B37kcT5B", "to": "aWsBkMZ6", "width": 10}, {"from": "B37kcT5B", "to": "JJEmNCK7", "width": 10}, {"from": "3KAmatqN", "to": "JJEmNCK7", "width": 10}, {"from": "QSZVEcCs", "to": "JJEmNCK7", "width": 10}, {"from": "aQfbT97p", "to": "JJEmNCK7", "width": 10}, {"from": "aQfbT97p", "to": "RGdExgFa", "width": 10}, {"from": "6CJAA9n5", "to": "JJEmNCK7", "width": 10}, {"from": "c45EE2BL", "to": "JJEmNCK7", "width": 10}, {"from": "NnHKaK9g", "to": "JJEmNCK7", "width": 10}, {"from": "NnHKaK9g", "to": "HqrR2CSY", "width": 10}, {"from": "NnHKaK9g", "to": "fc4uvVCJ", "width": 10}, {"from": "hXVVRcWL", "to": "JJEmNCK7", "width": 10}, {"from": "NNhNaQpF", "to": "JJEmNCK7", "width": 10}, {"from": "iSNyEoZS", "to": "JJEmNCK7", "width": 10}, {"from": "XS2SS3Y7", "to": "JJEmNCK7", "width": 10}, {"from": "iGWTaGKR", "to": "JJEmNCK7", "width": 10}, {"from": "KeExYuiF", "to": "JJEmNCK7", "width": 10}, {"from": "kCr22AfX", "to": "CSTntU4y", "width": 10}, {"from": "kCr22AfX", "to": "JJEmNCK7", "width": 10}, {"from": "nWt9kEyw", "to": "JJEmNCK7", "width": 10}, {"from": "HqrR2CSY", "to": "JJEmNCK7", "width": 10}, {"from": "iX5H3tTM", "to": "JJEmNCK7", "width": 10}, {"from": "iX5H3tTM", "to": "fc4uvVCJ", "width": 10}, {"from": "iX5H3tTM", "to": "TuQsEjAR", "width": 10}, {"from": "i6L4LNLH", "to": "JJEmNCK7", "width": 10}, {"from": "PyZVTJJW", "to": "JJEmNCK7", "width": 10}, {"from": "JJEmNCK7", "to": "LFJgDfLj", "width": 10}, {"from": "JJEmNCK7", "to": "RLBjKxP5", "width": 10}, {"from": "JJEmNCK7", "to": "Lvp6G9Z3", "width": 10}, {"from": "JJEmNCK7", "to": "QGLAMynm", "width": 10}, {"from": "JJEmNCK7", "to": "CSTntU4y", "width": 10}, {"from": "JJEmNCK7", "to": "DVfZGTfW", "width": 10}, {"from": "JJEmNCK7", "to": "4XYe8Utf", "width": 10}, {"from": "JJEmNCK7", "to": "agWvDDr6", "width": 10}, {"from": "JJEmNCK7", "to": "aWsBkMZ6", "width": 10}, {"from": "JJEmNCK7", "to": "bcZAc7AZ", "width": 10}, {"from": "JJEmNCK7", "to": "69mWufpb", "width": 10}, {"from": "JJEmNCK7", "to": "mKS3bq3i", "width": 10}, {"from": "JJEmNCK7", "to": "GbqX2j2Y", "width": 10}, {"from": "JJEmNCK7", "to": "WbCeeNZe", "width": 10}, {"from": "JJEmNCK7", "to": "GUoz686r", "width": 10}, {"from": "JJEmNCK7", "to": "F3VbzW4A", "width": 10}, {"from": "JJEmNCK7", "to": "RmPLFSc4", "width": 10}, {"from": "JJEmNCK7", "to": "JAJecPWc", "width": 10}, {"from": "JJEmNCK7", "to": "dFEMxp4r", "width": 10}, {"from": "JJEmNCK7", "to": "CSRR6e6p", "width": 10}, {"from": "JJEmNCK7", "to": "PmQmiLgv", "width": 10}, {"from": "JJEmNCK7", "to": "fc4uvVCJ", "width": 10}, {"from": "JJEmNCK7", "to": "TuQsEjAR", "width": 10}, {"from": "JJEmNCK7", "to": "RGdExgFa", "width": 10}, {"from": "JJEmNCK7", "to": "Ymv4KcHV", "width": 10}, {"from": "JJEmNCK7", "to": "ku6jtjDm", "width": 10}, {"from": "DVfZGTfW", "to": "PmQmiLgv", "width": 10}, {"from": "DVfZGTfW", "to": "dFEMxp4r", "width": 10}, {"from": "PmQmiLgv", "to": "69mWufpb", "width": 10}, {"from": "F3VbzW4A", "to": "Ymv4KcHV", "width": 10}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

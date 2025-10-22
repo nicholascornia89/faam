@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "9JyELHrv", "label": "Henry Cooke", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9JyELHrv\u0027\u003eHenry Cooke\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "6zGBQwwr", "label": "United Kingdom of Great Britain and Ireland", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6zGBQwwr\u0027\u003eUnited Kingdom of Great Britain and Ireland\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ehistorical sovereign state (1801\u20131922)\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "SYbjS86Z", "label": "George Clement Martin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/SYbjS86Z\u0027\u003eGeorge Clement Martin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish organist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/George_Clement_Martin_001.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KBQKrrwD", "label": "William Barclay Squire", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KBQKrrwD\u0027\u003eWilliam Barclay Squire\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musicologist, librarian and librettist (1855-1927)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/4/49/William_Barclay_Squire.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2DP7oN7d", "label": "James Turle", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2DP7oN7d\u0027\u003eJames Turle\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish organist and composer (1802-1882)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Vk44zu9x", "label": "Walter Cecil Macfarren", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Vk44zu9x\u0027\u003eWalter Cecil Macfarren\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish pianist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walter_Cecil_Macfarren_001.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Ne3VPM3y", "label": "Orlando Morgan", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Ne3VPM3y\u0027\u003eOrlando Morgan\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish music teacher, composer and musicologist\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "CEjchGw4", "label": "Maria Anfossi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CEjchGw4\u0027\u003eMaria Anfossi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian singer and music teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kZFAxAsw", "label": "Joseph Edgar Boehm", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kZFAxAsw\u0027\u003eJoseph Edgar Boehm\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish sculptor (1834-1890)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carte_de_Visite_of_Joseph_Edgar_Boehm,_1860s.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Vp4ucERe", "label": "Thomas Dunhill", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Vp4ucERe\u0027\u003eThomas Dunhill\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "CryiACKA", "label": "Hampstead", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/CryiACKA\u0027\u003eHampstead\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003earea of north London, England\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "b2nGBPKP", "label": "Violet Gordon-Woodhouse", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/b2nGBPKP\u0027\u003eViolet Gordon-Woodhouse\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish harpsichordist and clavichordist (1872\u20131948)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/00/Violet_Gordon_Woodhouse_circa_1900.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "hyoESW3C", "label": "Edward Elgar", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hyoESW3C\u0027\u003eEdward Elgar\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer (1857-1934)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edward_Elgar_1857_-_1934.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "kbQANhqN", "label": "Adolf Pollitzer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/kbQANhqN\u0027\u003eAdolf Pollitzer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eHungarian musician (1832\u20131900)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolf_Pollitzer_(1832\u20131900).png\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "M6KEUnk9", "label": "Johann Baptist Cramer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/M6KEUnk9\u0027\u003eJohann Baptist Cramer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musician (1771-1858)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann_Baptist_Cramer_by_William_Sharp.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "YwdYGCWW", "label": "Muzio Clementi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/YwdYGCWW\u0027\u003eMuzio Clementi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eItalian-born English composer, pianist, pedagogue, conductor, music publisher, editor, and piano manufacturer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Muzio_Clementi.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "MHUvQ8mn", "label": "George Alexander Osborne", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MHUvQ8mn\u0027\u003eGeorge Alexander Osborne\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eIrish pianist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Osborne,GeorgeAlexander_A.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "nYekuDLk", "label": "Charles Steggall", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nYekuDLk\u0027\u003eCharles Steggall\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish hymn writer and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Steggall.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "j6wtkFvY", "label": "Lord Byron", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/j6wtkFvY\u0027\u003eLord Byron\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish Romantic poet and lyricist (1788\u20131824)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Byron_1813_by_Phillips.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "7uucaRLU", "label": "Robert Thurston Dart", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7uucaRLU\u0027\u003eRobert Thurston Dart\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish musicologist (1921\u20131971)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/ThurstonDart1961.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "LgSx2Az3", "label": "Felix Borowski", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LgSx2Az3\u0027\u003eFelix Borowski\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eAmerican composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Prince_of_Wales_(on_front)_Felix_Borowski_(on_back),_Treasury_Dept._(.)_Committee_LCCN2016824636.tif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "n3c9iRG3", "label": "R. G. Collingwood", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/n3c9iRG3\u0027\u003eR. G. Collingwood\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish historian and philosopher (1889\u20131943)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Robin_G._Collingwood.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "4aFMAhXz", "label": "Albert Bernhard Bach", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4aFMAhXz\u0027\u003eAlbert Bernhard Bach\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman singing teacher\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6SnvdCsi", "label": "Edward Francis Rimbault", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6SnvdCsi\u0027\u003eEdward Francis Rimbault\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish musicologist, composer, organist and book collector (1816\u20131876)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "52Wbu2Fo", "label": "Charles Burney", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/52Wbu2Fo\u0027\u003eCharles Burney\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish music historian (1726-1814)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Burney.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "Dwap6GR3", "label": "Leopold Stokowski", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Dwap6GR3\u0027\u003eLeopold Stokowski\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish-born American conductor (1882\u20131977)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Leopold_Stokowski_LOC_26447u.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "ZqNc4R6J", "label": "Walford Davies", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZqNc4R6J\u0027\u003eWalford Davies\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer (1869\u20131941)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walford_Davies_001.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "2MedQ7S4", "label": "Charles Villiers Stanford", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2MedQ7S4\u0027\u003eCharles Villiers Stanford\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eIrish composer, music teacher, and conductor (1852\u20131924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charles_Villiers_Stanford_c1894bw.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "APcZWn33", "label": "Henry Litolff", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/APcZWn33\u0027\u003eHenry Litolff\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ePiano virtuoso, composer and music publisher (1818-1891)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henri_litolff_2.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "mKS3bq3i", "label": "James Cervetto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mKS3bq3i\u0027\u003eJames Cervetto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish cellist and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "6mW6mAX7", "label": "Julius Benedict", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6mW6mAX7\u0027\u003eJulius Benedict\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eGerman-born composer and conductor\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sir_Julius_Benedict.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "PZppXDuP", "label": "Isidore de Lara", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/PZppXDuP\u0027\u003eIsidore de Lara\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer and singer (1858\u20131935)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Isidore_de_Lara.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "X3xyZezw", "label": "Pelham Humfrey", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/X3xyZezw\u0027\u003ePelham Humfrey\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "EF7znGqJ", "label": "Frederick Bridge", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EF7znGqJ\u0027\u003eFrederick Bridge\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish organist, composer, teacher and writer (1844\u20131924)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/John_Frederick_Bridge_Vanity_Fair_14_April_1904.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#8b9a66", "font": {"color": "#f8f7f4"}, "id": "Wp8uNnxw", "label": "Dublin", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Wp8uNnxw\u0027\u003eDublin\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecapital and largest city of Ireland\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "KpakAMdR", "label": "Gustav Holst", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KpakAMdR\u0027\u003eGustav Holst\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eBritish composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/https://upload.wikimedia.org/wikipedia/commons/0/01/Gustav_Holst.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "gGDDnuWi", "label": "Alfred Moffat", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gGDDnuWi\u0027\u003eAlfred Moffat\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eScottish musician and composer\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d49d33", "font": {"color": "#f8f7f4"}, "id": "VaVtojpJ", "label": "Henry Holmes", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VaVtojpJ\u0027\u003eHenry Holmes\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eEnglish violinist and composer (1839\u20131905)\u003c/p\u003e\u003cimg src=\"https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Henry_and_Alfred_Holmes.jpg\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "9JyELHrv", "to": "6zGBQwwr", "width": 10}, {"from": "SYbjS86Z", "to": "6zGBQwwr", "width": 10}, {"from": "KBQKrrwD", "to": "6zGBQwwr", "width": 10}, {"from": "2DP7oN7d", "to": "6zGBQwwr", "width": 10}, {"from": "2DP7oN7d", "to": "Vk44zu9x", "width": 1}, {"from": "Ne3VPM3y", "to": "6zGBQwwr", "width": 10}, {"from": "CEjchGw4", "to": "6zGBQwwr", "width": 10}, {"from": "kZFAxAsw", "to": "6zGBQwwr", "width": 10}, {"from": "Vp4ucERe", "to": "6zGBQwwr", "width": 1}, {"from": "Vp4ucERe", "to": "CryiACKA", "width": 1}, {"from": "b2nGBPKP", "to": "6zGBQwwr", "width": 10}, {"from": "hyoESW3C", "to": "6zGBQwwr", "width": 10}, {"from": "hyoESW3C", "to": "kbQANhqN", "width": 10}, {"from": "M6KEUnk9", "to": "6zGBQwwr", "width": 10}, {"from": "M6KEUnk9", "to": "YwdYGCWW", "width": 1}, {"from": "MHUvQ8mn", "to": "6zGBQwwr", "width": 10}, {"from": "nYekuDLk", "to": "6zGBQwwr", "width": 10}, {"from": "kbQANhqN", "to": "6zGBQwwr", "width": 10}, {"from": "j6wtkFvY", "to": "6zGBQwwr", "width": 10}, {"from": "7uucaRLU", "to": "6zGBQwwr", "width": 10}, {"from": "LgSx2Az3", "to": "6zGBQwwr", "width": 10}, {"from": "CryiACKA", "to": "6zGBQwwr", "width": 1}, {"from": "n3c9iRG3", "to": "6zGBQwwr", "width": 10}, {"from": "4aFMAhXz", "to": "6zGBQwwr", "width": 10}, {"from": "6SnvdCsi", "to": "6zGBQwwr", "width": 10}, {"from": "52Wbu2Fo", "to": "6zGBQwwr", "width": 10}, {"from": "Dwap6GR3", "to": "6zGBQwwr", "width": 10}, {"from": "Dwap6GR3", "to": "ZqNc4R6J", "width": 1}, {"from": "Dwap6GR3", "to": "2MedQ7S4", "width": 1}, {"from": "APcZWn33", "to": "6zGBQwwr", "width": 10}, {"from": "mKS3bq3i", "to": "6zGBQwwr", "width": 10}, {"from": "6mW6mAX7", "to": "6zGBQwwr", "width": 10}, {"from": "YwdYGCWW", "to": "6zGBQwwr", "width": 10}, {"from": "PZppXDuP", "to": "6zGBQwwr", "width": 10}, {"from": "X3xyZezw", "to": "6zGBQwwr", "width": 10}, {"from": "EF7znGqJ", "to": "6zGBQwwr", "width": 10}, {"from": "6zGBQwwr", "to": "Wp8uNnxw", "width": 1}, {"from": "6zGBQwwr", "to": "KpakAMdR", "width": 10}, {"from": "6zGBQwwr", "to": "gGDDnuWi", "width": 10}, {"from": "6zGBQwwr", "to": "Vk44zu9x", "width": 10}, {"from": "6zGBQwwr", "to": "2MedQ7S4", "width": 1}, {"from": "6zGBQwwr", "to": "ZqNc4R6J", "width": 10}, {"from": "6zGBQwwr", "to": "VaVtojpJ", "width": 10}, {"from": "2MedQ7S4", "to": "KpakAMdR", "width": 1}, {"from": "2MedQ7S4", "to": "Wp8uNnxw", "width": 1}, {"from": "2MedQ7S4", "to": "ZqNc4R6J", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4AqAfYnf", "label": "da capo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4AqAfYnf\u0027\u003eda capo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "QGRAMUu8", "label": "repeat sign", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/QGRAMUu8\u0027\u003erepeat sign\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical notation indicating repetition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "hJoKsjEm", "label": "variation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/hJoKsjEm\u0027\u003evariation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003espontaneous or deliberate alteration of information sequences or properties\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "fxtj72S3", "label": "musical notation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/fxtj72S3\u0027\u003emusical notation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egraphic writing of musical parameters\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "R9hADWGS", "label": "duration", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/R9hADWGS\u0027\u003eduration\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003easpect of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "oMERLdSN", "label": "performer", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oMERLdSN\u0027\u003eperformer\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eartist who participates in performing arts in front of an audience: actors, comedians, dancers, magicians, circus artists, musicians, singers\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "V6P9ruNu", "label": "Variations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/V6P9ruNu\u0027\u003eVariations Concertantes et Faciles : pour piano et [violon]: op. 18/ par J. Ghys\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000353033.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "93GDD9ND", "label": "ornament", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/93GDD9ND\u0027\u003eornament\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or \"ornament\" that line\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "ZpNHCYZh", "label": "Quatrie\u00e8me Concerto : pour Piano Forte Avec Accompagnement d\u0027Orchestre : OEuvre 64", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ZpNHCYZh\u0027\u003eQuatrie\u00e8me Concerto : pour Piano Forte Avec Accompagnement d\u0027Orchestre : OEuvre 64\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000359471.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "mhohuJYG", "label": "cut", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/mhohuJYG\u0027\u003ecut\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TUdHPWU8", "label": "alternative melody", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TUdHPWU8\u0027\u003ealternative melody\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4DUXUR2w", "label": "ECRIN DES JEUNES FLUTISTES: trois airs vari\u00e9s sur des motifs de Donizetti, Mercadante, Bellini, pour fl\u00fbte et piano/par Berbiguier [et A. Min\u00e9 ?].", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4DUXUR2w\u0027\u003eECRIN DES JEUNES FLUTISTES: trois airs vari\u00e9s sur des motifs de Donizetti, Mercadante, Bellini, pour fl\u00fbte et piano/par Berbiguier [et A. Min\u00e9 ?].\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000334244.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EXzrp8XT", "label": "ossia", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EXzrp8XT\u0027\u003eossia\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#fffef6", "font": {"color": "#f8f7f4"}, "id": "AcFWzeQH", "label": "conductor", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AcFWzeQH\u0027\u003econductor\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eperson who directs a musical group during a performance\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "20"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "NgZPcrXW", "label": "Het piknikje", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NgZPcrXW\u0027\u003eHet piknikje\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902137303.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "VYJpRxFp", "label": "Convoluut Dubar B319", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VYJpRxFp\u0027\u003eConvoluut Dubar B319\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902518940.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "U6hfCHhw", "label": "Poissons d\u0027or", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/U6hfCHhw\u0027\u003ePoissons d\u0027or\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030904680359.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "GQu52k9o", "label": "(Preludio) circa 1740", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GQu52k9o\u0027\u003e(Preludio) circa 1740\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/CBM-TORRMsA106.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "WJoMSgs5", "label": "L\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/WJoMSgs5\u0027\u003eL\u0027Angelus : Fantaisie : pour La Fl\u00fbte avec Accompagnement de deux Violons, Alto, Basse, deux Clarinettes, deux Cors oblig\u00e9s et deux Bassons, (ou du Piano Forte) : Op. 46.\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000370115.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "nduQSaHV", "label": "Chacone grave", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nduQSaHV\u0027\u003eChacone grave\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902707238.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6m3ZbnrF", "label": "musical technique", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6m3ZbnrF\u0027\u003emusical technique\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003egroup of techniques relating to the composing, production or performance of music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "37vPLqE4", "label": "Les Bonnes traditions du pianiste. Deuxi\u00e8me volume Les Bonnes traditions du pianiste. Deuxi\u00e8me volume", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/37vPLqE4\u0027\u003eLes Bonnes traditions du pianiste. Deuxi\u00e8me volume Les Bonnes traditions du pianiste. Deuxi\u00e8me volume\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-44229251d.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "8EEgmM8Z", "label": "Six ecossaises", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8EEgmM8Z\u0027\u003eSix ecossaises\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030903994140.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "3gePn5t7", "label": "Rondo du Hussard de Felsheim : Vari\u00e9 pour le Cor avec accompagnement de Piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/3gePn5t7\u0027\u003eRondo du Hussard de Felsheim : Vari\u00e9 pour le Cor avec accompagnement de Piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000750004.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UMravioT", "label": "alternative lyrics", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UMravioT\u0027\u003ealternative lyrics\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Uo8E6KtE", "label": "add measure", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Uo8E6KtE\u0027\u003eadd measure\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "gj3mCA9G", "label": "Kinder cantate", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gj3mCA9G\u0027\u003eKinder cantate\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902605721.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "JrarmXTr", "label": "Ouverture : in H moll", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/JrarmXTr\u0027\u003eOuverture : in H moll\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000749031.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "ffw6asHK", "label": "R\u00e9cr\u00e9ations musicales : collection d\u0027airs vari\u00e9s et fantaisies pour la fl\u00fbte sur des th\u00eames choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs c\u00e9l\u00e8bres", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ffw6asHK\u0027\u003eR\u00e9cr\u00e9ations musicales : collection d\u0027airs vari\u00e9s et fantaisies pour la fl\u00fbte sur des th\u00eames choisis parmi les plus beaux airs nationaux et les motifs favoris des compositeurs c\u00e9l\u00e8bres\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000370144.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2h4QWJrH", "label": "Sonates pour piano et violon / L. van Beethoven ; nouvelle \u00e9dition compl\u00e8te par Carl Reinecke ; la partie de violon arrang\u00e9e par Friedrich Hermann", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2h4QWJrH\u0027\u003eSonates pour piano et violon / L. van Beethoven ; nouvelle \u00e9dition compl\u00e8te par Carl Reinecke ; la partie de violon arrang\u00e9e par Friedrich Hermann\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/BNF-42599226w.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "5gGAtrRR", "label": "Marlborough - Op. 42", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/5gGAtrRR\u0027\u003eMarlborough - Op. 42\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/ORP-20143702p4.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "gfoR5t3Y", "label": "Fantaisie : pour Piano \u0026 Fl\u00fbte oblig\u00e9e : Sur la Romance de Charles de France dite Les Chevaliers de la Fid\u00e9lit\u00e9 : Op: 78", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/gfoR5t3Y\u0027\u003eFantaisie : pour Piano \u0026 Fl\u00fbte oblig\u00e9e : Sur la Romance de Charles de France dite Les Chevaliers de la Fid\u00e9lit\u00e9 : Op: 78\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000334248.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "VAZngWmF", "label": "Het hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/VAZngWmF\u0027\u003eHet hemelbed : ballet . Halewijn : pianouitreksel . Blaaskwintet\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902610788.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "2FmAPKHr", "label": "Kammersuite : f\u00fcr Streichorchester oder Streichquartett, op. 69", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2FmAPKHr\u0027\u003eKammersuite : f\u00fcr Streichorchester oder Streichquartett, op. 69\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030902813853.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "4SusBbRS", "label": "Cinqui\u00e8me Solo : pour le Cor avec Accompagnement de Grand Orchestre ou de Forte piano : Oeuv. 12", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4SusBbRS\u0027\u003eCinqui\u00e8me Solo : pour le Cor avec Accompagnement de Grand Orchestre ou de Forte piano : Oeuv. 12\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000345311.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "KvqygJch", "label": "Messe Notre-Dame a quatre voix de Giullaume de Machault", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/KvqygJch\u0027\u003eMesse Notre-Dame a quatre voix de Giullaume de Machault\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCA-030901356052.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "M7uHYazb", "label": "Galuppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/M7uHYazb\u0027\u003eGaluppi-Tempo di Minuetto | N.o 26 (N.o19 del ms Catalogo)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/CBM-TORRMsA100.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "GgSG9VB4", "label": "Garde \u00e0 vous : Variations : Pour la Fl\u00fbte sur un Motif de la fianc\u00e9e avec accompagnement de deux Violons Alto et Basse ou Piano", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GgSG9VB4\u0027\u003eGarde \u00e0 vous : Variations : Pour la Fl\u00fbte sur un Motif de la fianc\u00e9e avec accompagnement de deux Violons Alto et Basse ou Piano\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000331402.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}, {"color": "#d63a19", "font": {"color": "#f8f7f4"}, "id": "afK7awRY", "label": "Vive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/afK7awRY\u0027\u003eVive Henri 4! : Air vari\u00e9 pour le Violon avec Accompagnement de Premier et Second Violons, Alto, Basse, Fl\u00fbte, Hautbois, Clarinettes, Cors, Bassons, Trombone et Timballes : Oeuv. 27\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cimg src=\"https://nicholascornia89.github.io/faam/KCG-000332412.gif\" width=\"250\" height=\"200\"\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "50"}]);
+                  edges = new vis.DataSet([{"from": "4AqAfYnf", "to": "QGRAMUu8", "width": 10}, {"from": "4AqAfYnf", "to": "hJoKsjEm", "width": 10}, {"from": "4AqAfYnf", "to": "fxtj72S3", "width": 10}, {"from": "4AqAfYnf", "to": "R9hADWGS", "width": 10}, {"from": "4AqAfYnf", "to": "oMERLdSN", "width": 10}, {"from": "V6P9ruNu", "to": "hJoKsjEm", "width": 10}, {"from": "V6P9ruNu", "to": "93GDD9ND", "width": 1}, {"from": "V6P9ruNu", "to": "QGRAMUu8", "width": 10}, {"from": "ZpNHCYZh", "to": "mhohuJYG", "width": 1}, {"from": "ZpNHCYZh", "to": "hJoKsjEm", "width": 1}, {"from": "ZpNHCYZh", "to": "TUdHPWU8", "width": 1}, {"from": "4DUXUR2w", "to": "hJoKsjEm", "width": 10}, {"from": "EXzrp8XT", "to": "hJoKsjEm", "width": 1}, {"from": "EXzrp8XT", "to": "fxtj72S3", "width": 1}, {"from": "EXzrp8XT", "to": "R9hADWGS", "width": 1}, {"from": "EXzrp8XT", "to": "AcFWzeQH", "width": 1}, {"from": "EXzrp8XT", "to": "oMERLdSN", "width": 1}, {"from": "EXzrp8XT", "to": "NgZPcrXW", "width": 1}, {"from": "EXzrp8XT", "to": "VYJpRxFp", "width": 1}, {"from": "EXzrp8XT", "to": "U6hfCHhw", "width": 1}, {"from": "GQu52k9o", "to": "hJoKsjEm", "width": 10}, {"from": "WJoMSgs5", "to": "hJoKsjEm", "width": 10}, {"from": "NgZPcrXW", "to": "hJoKsjEm", "width": 1}, {"from": "nduQSaHV", "to": "93GDD9ND", "width": 10}, {"from": "nduQSaHV", "to": "mhohuJYG", "width": 1}, {"from": "nduQSaHV", "to": "hJoKsjEm", "width": 1}, {"from": "6m3ZbnrF", "to": "hJoKsjEm", "width": 10}, {"from": "6m3ZbnrF", "to": "93GDD9ND", "width": 1}, {"from": "37vPLqE4", "to": "QGRAMUu8", "width": 10}, {"from": "37vPLqE4", "to": "hJoKsjEm", "width": 10}, {"from": "8EEgmM8Z", "to": "93GDD9ND", "width": 10}, {"from": "8EEgmM8Z", "to": "hJoKsjEm", "width": 1}, {"from": "8EEgmM8Z", "to": "TUdHPWU8", "width": 1}, {"from": "3gePn5t7", "to": "hJoKsjEm", "width": 10}, {"from": "oMERLdSN", "to": "TUdHPWU8", "width": 1}, {"from": "oMERLdSN", "to": "UMravioT", "width": 1}, {"from": "oMERLdSN", "to": "Uo8E6KtE", "width": 1}, {"from": "oMERLdSN", "to": "hJoKsjEm", "width": 1}, {"from": "oMERLdSN", "to": "93GDD9ND", "width": 1}, {"from": "R9hADWGS", "to": "TUdHPWU8", "width": 1}, {"from": "R9hADWGS", "to": "mhohuJYG", "width": 1}, {"from": "R9hADWGS", "to": "Uo8E6KtE", "width": 1}, {"from": "R9hADWGS", "to": "hJoKsjEm", "width": 1}, {"from": "R9hADWGS", "to": "93GDD9ND", "width": 1}, {"from": "R9hADWGS", "to": "QGRAMUu8", "width": 10}, {"from": "gj3mCA9G", "to": "hJoKsjEm", "width": 1}, {"from": "gj3mCA9G", "to": "UMravioT", "width": 1}, {"from": "TUdHPWU8", "to": "hJoKsjEm", "width": 1}, {"from": "TUdHPWU8", "to": "AcFWzeQH", "width": 1}, {"from": "TUdHPWU8", "to": "JrarmXTr", "width": 1}, {"from": "TUdHPWU8", "to": "U6hfCHhw", "width": 1}, {"from": "U6hfCHhw", "to": "hJoKsjEm", "width": 1}, {"from": "ffw6asHK", "to": "93GDD9ND", "width": 1}, {"from": "ffw6asHK", "to": "hJoKsjEm", "width": 10}, {"from": "2h4QWJrH", "to": "hJoKsjEm", "width": 10}, {"from": "5gGAtrRR", "to": "hJoKsjEm", "width": 10}, {"from": "Uo8E6KtE", "to": "hJoKsjEm", "width": 1}, {"from": "Uo8E6KtE", "to": "AcFWzeQH", "width": 1}, {"from": "fxtj72S3", "to": "mhohuJYG", "width": 1}, {"from": "fxtj72S3", "to": "hJoKsjEm", "width": 1}, {"from": "fxtj72S3", "to": "93GDD9ND", "width": 1}, {"from": "fxtj72S3", "to": "QGRAMUu8", "width": 10}, {"from": "gfoR5t3Y", "to": "93GDD9ND", "width": 10}, {"from": "gfoR5t3Y", "to": "hJoKsjEm", "width": 10}, {"from": "hJoKsjEm", "to": "UMravioT", "width": 1}, {"from": "hJoKsjEm", "to": "mhohuJYG", "width": 1}, {"from": "hJoKsjEm", "to": "93GDD9ND", "width": 10}, {"from": "hJoKsjEm", "to": "AcFWzeQH", "width": 1}, {"from": "hJoKsjEm", "to": "QGRAMUu8", "width": 10}, {"from": "hJoKsjEm", "to": "VAZngWmF", "width": 1}, {"from": "hJoKsjEm", "to": "2FmAPKHr", "width": 10}, {"from": "hJoKsjEm", "to": "VYJpRxFp", "width": 1}, {"from": "hJoKsjEm", "to": "4SusBbRS", "width": 10}, {"from": "hJoKsjEm", "to": "JrarmXTr", "width": 1}, {"from": "hJoKsjEm", "to": "KvqygJch", "width": 10}, {"from": "hJoKsjEm", "to": "M7uHYazb", "width": 10}, {"from": "hJoKsjEm", "to": "GgSG9VB4", "width": 10}, {"from": "hJoKsjEm", "to": "afK7awRY", "width": 10}, {"from": "JrarmXTr", "to": "93GDD9ND", "width": 10}, {"from": "JrarmXTr", "to": "QGRAMUu8", "width": 10}, {"from": "JrarmXTr", "to": "mhohuJYG", "width": 1}, {"from": "VYJpRxFp", "to": "93GDD9ND", "width": 10}, {"from": "93GDD9ND", "to": "4SusBbRS", "width": 10}, {"from": "AcFWzeQH", "to": "mhohuJYG", "width": 1}, {"from": "VAZngWmF", "to": "mhohuJYG", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1200px;
+                 height: 1200px;
+                 background-color: #1C1A19;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ASkufuku", "label": "tre le corde", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ASkufuku\u0027\u003etre le corde\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "dcpEysXL", "label": "musical instrument part", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/dcpEysXL\u0027\u003emusical instrument part\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ecomponent used in the construction of a musical instrument\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4AMPVsN8", "label": "timbre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4AMPVsN8\u0027\u003etimbre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003equality of a musical note or sound or tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BCLeS5SR", "label": "con sordina", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BCLeS5SR\u0027\u003econ sordina\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003edevice fitted to a musical instrument to alter the sound produced\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "AXPMg3hj", "label": "pedal keyboard", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/AXPMg3hj\u0027\u003epedal keyboard\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical keyboard played with the feet, usually used for low-pitched notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eNyFmkHC", "label": "fingering", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eNyFmkHC\u0027\u003efingering\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003echoice of which fingers and hand positions to use when playing certain musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TK9UAG2p", "label": "arco", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TK9UAG2p\u0027\u003earco\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "jP8px5zn", "label": "bowing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/jP8px5zn\u0027\u003ebowing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ea way of producing sound (articulation) on stringed instruments using a bow\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GpNEm7nw", "label": "engage pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GpNEm7nw\u0027\u003eengage pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "NxRMTXgV", "label": "una corda", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/NxRMTXgV\u0027\u003euna corda\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LQE77nqs", "label": "release pedal", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LQE77nqs\u0027\u003erelease pedal\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical symbol indicating the player to put the sustain pedal down\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GepDoTXn", "label": "string number (sul X)", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GepDoTXn\u0027\u003estring number (sul X)\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estring or wire that vibrates in a string instrument to produce a musical tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "iZiYk6VC", "label": "organ stop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/iZiYk6VC\u0027\u003eorgan stop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003epart of a pipe organ\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MYAXux6m", "label": "buff stop", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MYAXux6m\u0027\u003ebuff stop\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estop on harpsichord\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "HfUqmAjf", "label": "vibrato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/HfUqmAjf\u0027\u003evibrato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eregular, pulsating change of pitch in music\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "E4rhHet3", "label": "instrument call", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/E4rhHet3\u0027\u003einstrument call\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "M87Wsvhe", "label": "instrumentation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/M87Wsvhe\u0027\u003einstrumentation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eparticular combination of musical instruments employed in a composition\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "K4TocMAK", "label": "slur", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/K4TocMAK\u0027\u003eslur\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003esymbol in musical notation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "48ukXYmB", "label": "articulation", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/48ukXYmB\u0027\u003earticulation\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical performance technique that affects the transition or continuity on notes\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "LBfWd2va", "label": "espressivo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/LBfWd2va\u0027\u003eespressivo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "D6RjeTWv", "label": "musical expression", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/D6RjeTWv\u0027\u003emusical expression\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003evarious techniques used in musical performance to convey emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EWcTRe2g", "label": "sotto voce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EWcTRe2g\u0027\u003esotto voce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eintentionally lowering the volume of one\u0027s voice for emphasis\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "eJhxFoas", "label": "marcato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/eJhxFoas\u0027\u003emarcato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical instruction\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "Cbxx8HUs", "label": "cantabile", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/Cbxx8HUs\u0027\u003ecantabile\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expression\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UJ57Ew5y", "label": "musical phrasing", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UJ57Ew5y\u0027\u003emusical phrasing\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eunit of musical meter that has a complete musical sense of its own\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2niWvJiL", "label": "instrument substitution", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2niWvJiL\u0027\u003einstrument substitution\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "2wr4RKXS", "label": "portato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/2wr4RKXS\u0027\u003eportato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of musical articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "7XBG3iZJ", "label": "legato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/7XBG3iZJ\u0027\u003elegato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eindicates that musical notes are played or sung smoothly and connected\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "EgkVbUEo", "label": "sostenuto", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/EgkVbUEo\u0027\u003esostenuto\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "nATnZoRn", "label": "timbre", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/nATnZoRn\u0027\u003etimbre\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003equality of a musical note or sound or tone\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DEL3dtgx", "label": "sforzando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DEL3dtgx\u0027\u003esforzando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical term\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "TWwN9yoM", "label": "string harmonic", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/TWwN9yoM\u0027\u003estring harmonic\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003estring instrument technique\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "8Au3ocED", "label": "staccato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/8Au3ocED\u0027\u003estaccato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eform of musical articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "ftmHEaq5", "label": "staccatissimo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/ftmHEaq5\u0027\u003estaccatissimo\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "GfcsqPhn", "label": "transliteration", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/GfcsqPhn\u0027\u003etransliteration\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003econversion of a text from one script to another\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BUfQmokL", "label": "energico", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BUfQmokL\u0027\u003eenergico\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emusical expressive mark\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "atGzytDR", "label": "affect", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/atGzytDR\u0027\u003eaffect\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eexperience of feeling or emotion\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "4Z2Q29EE", "label": "echo", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/4Z2Q29EE\u0027\u003eecho\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003ereflection of sound that arrives at the listener with a delay after the direct sound\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "b3QcSGeL", "label": "leggiero", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/b3QcSGeL\u0027\u003eleggiero\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "BF3ukx2D", "label": "glissando", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/BF3ukx2D\u0027\u003eglissando\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eglide from one pitch to another\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "UMravioT", "label": "alternative lyrics", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/UMravioT\u0027\u003ealternative lyrics\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "DT4vQExr", "label": "pizzicato", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/DT4vQExr\u0027\u003epizzicato\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003emanner of articulation\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "6fQyHcwz", "label": "accent", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/6fQyHcwz\u0027\u003eaccent\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eemphasis placed on a particular musical note\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "MDf8Dzi3", "label": "instrument reconstruction", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/MDf8Dzi3\u0027\u003einstrument reconstruction\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "oCWmrh75", "label": "Divisi", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/oCWmrh75\u0027\u003eDivisi\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003einstruction to divide a single section of musical instruments\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}, {"color": "#017cb1", "font": {"color": "#f8f7f4"}, "id": "9tkKrhbM", "label": "dolce", "shape": "dot", "size": 10, "title": "\n\t\t\t\u003cbody\u003e\n\t\t\t\u003ch3\u003e \u003ca href=\u0027https://nicholascornia89.github.io/faam/entity/9tkKrhbM\u0027\u003edolce\u003c/a\u003e\u003c/h3\u003e\n\t\t\t\u003cp\u003eplay sweetly\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\n\t\t\t\u003c/body\u003e\n\t\t\t", "value": "100"}]);
+                  edges = new vis.DataSet([{"from": "ASkufuku", "to": "dcpEysXL", "width": 1}, {"from": "ASkufuku", "to": "4AMPVsN8", "width": 1}, {"from": "dcpEysXL", "to": "BCLeS5SR", "width": 1}, {"from": "dcpEysXL", "to": "AXPMg3hj", "width": 1}, {"from": "dcpEysXL", "to": "eNyFmkHC", "width": 1}, {"from": "dcpEysXL", "to": "TK9UAG2p", "width": 1}, {"from": "dcpEysXL", "to": "jP8px5zn", "width": 1}, {"from": "dcpEysXL", "to": "GpNEm7nw", "width": 1}, {"from": "dcpEysXL", "to": "NxRMTXgV", "width": 1}, {"from": "dcpEysXL", "to": "LQE77nqs", "width": 1}, {"from": "dcpEysXL", "to": "GepDoTXn", "width": 1}, {"from": "dcpEysXL", "to": "iZiYk6VC", "width": 1}, {"from": "dcpEysXL", "to": "MYAXux6m", "width": 1}, {"from": "dcpEysXL", "to": "4AMPVsN8", "width": 1}, {"from": "HfUqmAjf", "to": "4AMPVsN8", "width": 1}, {"from": "E4rhHet3", "to": "M87Wsvhe", "width": 1}, {"from": "E4rhHet3", "to": "4AMPVsN8", "width": 1}, {"from": "LQE77nqs", "to": "4AMPVsN8", "width": 1}, {"from": "K4TocMAK", "to": "48ukXYmB", "width": 1}, {"from": "K4TocMAK", "to": "4AMPVsN8", "width": 1}, {"from": "LBfWd2va", "to": "D6RjeTWv", "width": 1}, {"from": "LBfWd2va", "to": "4AMPVsN8", "width": 1}, {"from": "GpNEm7nw", "to": "4AMPVsN8", "width": 1}, {"from": "EWcTRe2g", "to": "D6RjeTWv", "width": 1}, {"from": "EWcTRe2g", "to": "4AMPVsN8", "width": 1}, {"from": "eJhxFoas", "to": "4AMPVsN8", "width": 1}, {"from": "TK9UAG2p", "to": "48ukXYmB", "width": 1}, {"from": "TK9UAG2p", "to": "4AMPVsN8", "width": 1}, {"from": "Cbxx8HUs", "to": "D6RjeTWv", "width": 1}, {"from": "Cbxx8HUs", "to": "UJ57Ew5y", "width": 1}, {"from": "Cbxx8HUs", "to": "4AMPVsN8", "width": 1}, {"from": "2niWvJiL", "to": "M87Wsvhe", "width": 1}, {"from": "2niWvJiL", "to": "4AMPVsN8", "width": 1}, {"from": "jP8px5zn", "to": "4AMPVsN8", "width": 1}, {"from": "UJ57Ew5y", "to": "2wr4RKXS", "width": 1}, {"from": "UJ57Ew5y", "to": "7XBG3iZJ", "width": 1}, {"from": "UJ57Ew5y", "to": "4AMPVsN8", "width": 1}, {"from": "UJ57Ew5y", "to": "EgkVbUEo", "width": 1}, {"from": "nATnZoRn", "to": "4AMPVsN8", "width": 1}, {"from": "DEL3dtgx", "to": "D6RjeTWv", "width": 1}, {"from": "DEL3dtgx", "to": "4AMPVsN8", "width": 1}, {"from": "TWwN9yoM", "to": "4AMPVsN8", "width": 1}, {"from": "AXPMg3hj", "to": "eNyFmkHC", "width": 1}, {"from": "AXPMg3hj", "to": "4AMPVsN8", "width": 1}, {"from": "2wr4RKXS", "to": "48ukXYmB", "width": 1}, {"from": "2wr4RKXS", "to": "D6RjeTWv", "width": 1}, {"from": "2wr4RKXS", "to": "4AMPVsN8", "width": 1}, {"from": "MYAXux6m", "to": "4AMPVsN8", "width": 1}, {"from": "8Au3ocED", "to": "4AMPVsN8", "width": 1}, {"from": "8Au3ocED", "to": "ftmHEaq5", "width": 1}, {"from": "7XBG3iZJ", "to": "4AMPVsN8", "width": 1}, {"from": "GfcsqPhn", "to": "4AMPVsN8", "width": 1}, {"from": "BUfQmokL", "to": "D6RjeTWv", "width": 1}, {"from": "BUfQmokL", "to": "4AMPVsN8", "width": 1}, {"from": "ftmHEaq5", "to": "4AMPVsN8", "width": 1}, {"from": "atGzytDR", "to": "D6RjeTWv", "width": 1}, {"from": "atGzytDR", "to": "4AMPVsN8", "width": 1}, {"from": "iZiYk6VC", "to": "4AMPVsN8", "width": 1}, {"from": "4AMPVsN8", "to": "BCLeS5SR", "width": 1}, {"from": "4AMPVsN8", "to": "eNyFmkHC", "width": 1}, {"from": "4AMPVsN8", "to": "4Z2Q29EE", "width": 1}, {"from": "4AMPVsN8", "to": "b3QcSGeL", "width": 1}, {"from": "4AMPVsN8", "to": "BF3ukx2D", "width": 1}, {"from": "4AMPVsN8", "to": "UMravioT", "width": 1}, {"from": "4AMPVsN8", "to": "DT4vQExr", "width": 1}, {"from": "4AMPVsN8", "to": "NxRMTXgV", "width": 1}, {"from": "4AMPVsN8", "to": "48ukXYmB", "width": 1}, {"from": "4AMPVsN8", "to": "6fQyHcwz", "width": 1}, {"from": "4AMPVsN8", "to": "MDf8Dzi3", "width": 1}, {"from": "4AMPVsN8", "to": "oCWmrh75", "width": 1}, {"from": "4AMPVsN8", "to": "M87Wsvhe", "width": 1}, {"from": "4AMPVsN8", "to": "GepDoTXn", "width": 1}, {"from": "4AMPVsN8", "to": "D6RjeTWv", "width": 1}, {"from": "4AMPVsN8", "to": "9tkKrhbM", "width": 1}, {"from": "4AMPVsN8", "to": "EgkVbUEo", "width": 1}, {"from": "D6RjeTWv", "to": "b3QcSGeL", "width": 1}, {"from": "D6RjeTWv", "to": "9tkKrhbM", "width": 1}, {"from": "D6RjeTWv", "to": "EgkVbUEo", "width": 1}, {"from": "DT4vQExr", "to": "48ukXYmB", "width": 1}, {"from": "MDf8Dzi3", "to": "M87Wsvhe", "width": 1}, {"from": "oCWmrh75", "to": "M87Wsvhe", "width": 1}, {"from": "EgkVbUEo", "to": "48ukXYmB", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": false}, "edges": {"color": {"inherit": false}, "smooth": false}, "nodes": {"font": {"size": 14, "align": "center", "face": "sans"}}, "physics": {"forceAtlas2Based": {"gravitationalConstant": -200000000000000, "springLength": 10, "springConstant": 0.001, "avoidOverlap": 1.0, "damping": 0}, "maxVelocity": 1, "minVelocity": 0.25}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
