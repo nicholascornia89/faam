@@ -1,0 +1,118 @@
+{
+  "id": "TiHP2Aim",
+  "uuid_num": 50253542304976,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Shrewsbury"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "county town of Shropshire, England"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Shrewsbury, Shropshire"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q201970",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Shrewsbury"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "TiHP2Aim"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "2637891",
+        "base_url": "https://www.geonames.org/",
+        "label": "2637891"
+      },
+      {
+        "type": "externalid",
+        "value": "7297115",
+        "base_url": "https://www.geonames.org/",
+        "label": "7297115"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "2dtMESSn",
+        "label": "Kingdom of Great Britain"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "52Wbu2Fo",
+        "type": "item",
+        "label": "Charles Burney",
+        "description": "English music historian (1726-1814)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles_Burney.jpg"
+        }
+      }
+    ],
+    "music_organization": [
+      {
+        "id": "HjnRRmop",
+        "type": "item",
+        "label": "Shrewsbury School",
+        "description": "school in Shropshire, UK"
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TiHP2Aim.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TiHP2Aim.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TiHP2Aim.csv"
+      }
+    ]
+  }
+}

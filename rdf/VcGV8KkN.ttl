@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VcGV8KkN a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:identifier "16002765"^^xsd:string,
+        "VcGV8KkN"^^xsd:string ;
+    schema1:isBasedOn faamentity:f9orjwr9 ;
+    skos:prefLabel "Missa O quam gloriosum est regnum"^^xsd:string ;
+    wd:P5202 faamentity:Y37RQzq9,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:BdJHjaCE,
+        faamentity:WWYhpBVq,
+        faamentity:kNneakGU ;
+    wd:P839 <https://imslp.org/wiki/Missa_O_quam_gloriosum_(Victoria,_Tomás_Luis_de)> .
+

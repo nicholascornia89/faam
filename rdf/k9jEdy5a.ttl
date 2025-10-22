@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:k9jEdy5a a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "prince-archbishopric in Central Europe between 1328–1803"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q701614>,
+        "16004428"^^xsd:string,
+        "k9jEdy5a"^^xsd:string ;
+    skos:altLabel "Archdiocese of Salzburg"^^xsd:string,
+        "Fürsterzbistum Salzburg"^^xsd:string,
+        "Prince-Archbishopric of Salzburg"^^xsd:string ;
+    skos:prefLabel "Prince-Archbishopric of Salzburg"^^xsd:string .
+

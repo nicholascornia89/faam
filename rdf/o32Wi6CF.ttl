@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:o32Wi6CF a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1718-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:Wk99hCAF ;
+    schema1:deathDate "1811-04-21"^^xsd:string ;
+    schema1:deathPlace faamentity:Fv7guzCB ;
+    schema1:description "Italian tenor and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q105949053>,
+        "15995880"^^xsd:string,
+        "o32Wi6CF"^^xsd:string ;
+    skos:altLabel "Giovanni Battista Zingone"^^xsd:string,
+        "Giovanni Battista Zingoni"^^xsd:string ;
+    skos:prefLabel "Giovanni Battista Zingoni"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:281803131 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004723> ;
+    wd:P839 <https://imslp.org/wiki/Category:Zingoni,_Giovanni_Battista> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:oJ9qmRVq .
+

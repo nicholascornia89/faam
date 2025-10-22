@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WMycfanV a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "country in southwestern Europe with territories in Africa"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q29>,
+        "15998696"^^xsd:string,
+        "WMycfanV"^^xsd:string ;
+    skos:altLabel "Kingdom of Spain"^^xsd:string,
+        "Spain"^^xsd:string ;
+    skos:prefLabel "Spain"^^xsd:string ;
+    wd:P1566 gn:2510769 .
+

@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5bi6fc4k a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:2qoBxv5j,
+        faamentity:48ukXYmB,
+        faamentity:D6RjeTWv,
+        faamentity:EqtAuzbH,
+        faamentity:TWwN9yoM,
+        faamentity:eNyFmkHC,
+        faamentity:ieqEGEHo,
+        faamentity:iyfjpyT2,
+        faamentity:jP8px5zn,
+        faamentity:k6GNqQ5D ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:Fs2ZbaMQ,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:PRjsXYR5 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:Qpi4vWw7,
+        faamentity:SfdhwsSz ;
+    schema1:hasPart faamentity:YNiRD9tH ;
+    schema1:identifier "16004319"^^xsd:string,
+        "5bi6fc4k"^^xsd:string,
+        "BNF-42846644p"^^xsd:string ;
+    schema1:url "http://catalogue.bnf.fr/ark:/12148/cb42846644p"^^schema1:url ;
+    skos:prefLabel "Six études brillantes pour le violon avec accompagnement de piano ad libitum, op. 17"^^xsd:string ;
+    wd:P217 "VM8 C-29"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"5bi6fc4k-0665e4a1-a9ad-40a2-91d4-8f10f01598e8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"5bi6fc4k-40a733b0-784e-49e6-a4d2-962dd2da17e5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:Qpi4vWw7 a rdf:object .
+
+faamentity:SfdhwsSz a rdf:object .
+

@@ -1,0 +1,17 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SD6SqrRC a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "polyphonic form of secular vocal music from the 15th and 16th centuries"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1062328>,
+        "16004067"^^xsd:string,
+        "SD6SqrRC"^^xsd:string ;
+    skos:altLabel "chanson"^^xsd:string,
+        "polyphonic chanson"^^xsd:string,
+        "polyphonic chansons"^^xsd:string ;
+    skos:prefLabel "chanson"^^xsd:string .
+

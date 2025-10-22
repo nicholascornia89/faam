@@ -1,0 +1,50 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7YSFtSr4 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:5CuESLMk,
+        faamentity:8rovk6Ag,
+        faamentity:T8imwPYo,
+        faamentity:fsof5n4h ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:SLJQN3cG ;
+    schema1:identifier "15992620"^^xsd:string,
+        "7YSFtSr4"^^xsd:string,
+        "KCG-000337150"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000337150"^^schema1:url ;
+    skos:prefLabel "Fantaisie en Trio : Sur un Air Espagnol : Composée pour Piano haut-bois & Basson"^^xsd:string ;
+    wd:P217 "II 1071"^^xsd:string ;
+    wd:P870 faamentity:9t6BfJ2T,
+        faamentity:HcmSE474,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"7YSFtSr4-94cf27d3-c7b5-48a4-be4d-64f2c2b306c4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"7YSFtSr4-bd591974-7d9e-47ec-8173-903fb53d90ee"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:SLJQN3cG a rdf:object .
+

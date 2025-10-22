@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:h7GA7wL7 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:KzqrgycL ;
+    schema1:description "madrigal attributed to Alessandro Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124316713>,
+        "16002027"^^xsd:string,
+        "h7GA7wL7"^^xsd:string ;
+    skos:altLabel "Cor mio deh non languire"^^xsd:string ;
+    skos:prefLabel "Cor mio deh non languire"^^xsd:string ;
+    wd:P5202 faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:EHXeMNgG .
+

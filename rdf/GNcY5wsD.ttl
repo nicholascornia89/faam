@@ -1,0 +1,16 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GNcY5wsD a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "music high school"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q368820>,
+        "0"^^xsd:string,
+        "GNcY5wsD"^^xsd:string ;
+    schema1:location faamentity:fj46nffV,
+        faamentity:mSVELu4H ;
+    skos:prefLabel "San Pietro a Majella Conservatory of Music"^^xsd:string .
+

@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Pcbbgxfw a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:BpM59WrA,
+        faamentity:mNynReve ;
+    schema1:birthDate "1883-12-22"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1965-11-06"^^xsd:string ;
+    schema1:deathPlace faamentity:j3uWLALG ;
+    schema1:description "French composer (1883-1965)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57247>,
+        "15996111"^^xsd:string,
+        "Pcbbgxfw"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Edgar Varèse"^^xsd:string,
+        "Edgard Varese"^^xsd:string,
+        "Edgard Varèse"^^xsd:string,
+        "Edgard Victor Achille Charles Varèse"^^xsd:string,
+        "Varèse"^^xsd:string ;
+    skos:prefLabel "Edgard Varèse"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59271121 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30015668> ;
+    wd:P737 faamentity:6fVTPTja,
+        faamentity:BiMpVQUM,
+        faamentity:agWvDDr6 ;
+    wd:P839 <https://imslp.org/wiki/Category:Varèse,_Edgard> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:TDF2knmi .
+

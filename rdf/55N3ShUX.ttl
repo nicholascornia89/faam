@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:55N3ShUX a rdfs:Resource ;
+    faamprop:related_to faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1812-10-13"^^xsd:string ;
+    schema1:birthPlace faamentity:VuwGJdma ;
+    schema1:deathDate "1891-10-09"^^xsd:string ;
+    schema1:deathPlace faamentity:VuwGJdma ;
+    schema1:description "Belgian composer (1812-1891)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q30306860>,
+        "16005775"^^xsd:string,
+        "55N3ShUX"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "I. Eykens"^^xsd:string,
+        "Jean Simon Eykens"^^xsd:string ;
+    skos:prefLabel "Jean Simon Eykens"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:305465461 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30019051> ;
+    wd:P839 <https://imslp.org/wiki/Category:Eykens,_J.> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

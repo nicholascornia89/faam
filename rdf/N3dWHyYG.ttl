@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:N3dWHyYG a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1869-10-24"^^xsd:string ;
+    schema1:birthPlace faamentity:AiJUxaJd ;
+    schema1:deathDate "1936-05-22"^^xsd:string ;
+    schema1:description "German theologian and musician"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q61479771>,
+        "16005079"^^xsd:string,
+        "N3dWHyYG"^^xsd:string ;
+    skos:altLabel "Bäuerle, Hermann"^^xsd:string,
+        "Hermann Bäuerle"^^xsd:string ;
+    skos:prefLabel "Hermann Bäuerle"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:18337287 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/265844> ;
+    wd:P839 <https://imslp.org/wiki/Category:Bäuerle,_Hermann> ;
+    schema:hasOccupation faamentity:44m57Ax2,
+        faamentity:GSNsghRd,
+        faamentity:bSHypyYG,
+        faamentity:kdzVcbUL .
+

@@ -1,0 +1,167 @@
+{
+  "id": "GKShCHKk",
+  "uuid_num": 27966458703018,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "fortepiano"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "Italian musical term meaning 'loud soft'"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Fortepiano"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2192323",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Fortepiano"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "GKShCHKk"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992202"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "HKyA3Qzz",
+        "label": "dynamic"
+      },
+      {
+        "type": "item",
+        "value": "gnJkVwmS",
+        "label": "forte"
+      },
+      {
+        "type": "item",
+        "value": "UdAgYAUZ",
+        "label": "piano"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "SQVug9ib",
+        "type": "item",
+        "label": "Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSB-991062688259707356.gif"
+        }
+      },
+      {
+        "id": "WUWzhNxd",
+        "type": "item",
+        "label": "Grand Quintetto : pour Deux Violons, deux Altos et Violoncelle : Oeuvre 70",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000735262.gif"
+        }
+      },
+      {
+        "id": "8gpNYzW2",
+        "type": "item",
+        "label": "La Muette de Portici : Fantaisie : voor fluit met begeleiding van piano : Opus ?",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000370141.gif"
+        }
+      },
+      {
+        "id": "JuAQYsFX",
+        "type": "item",
+        "label": "Douze melodies italiennes : pour la flûte, avec accompagnement de piano: divisées en trois suites",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000334547.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "GKShCHKk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "GKShCHKk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "GKShCHKk.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "4Z2Q29EE",
+  "uuid_num": 4973217106566,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "echo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "reflection of sound that arrives at the listener with a delay after the direct sound"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "echo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q182767",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "echo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "4Z2Q29EE"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992155"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "cbyFHdDB",
+        "label": ""
+      },
+      {
+        "type": "item",
+        "value": "G57AFsLJ",
+        "label": ""
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      },
+      {
+        "type": "item",
+        "value": "QAugiyuY",
+        "label": "aspect of sound"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4AMPVsN8",
+        "label": "timbre"
+      },
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "oMERLdSN",
+        "label": "performer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "KMXPXePm",
+        "type": "item",
+        "label": "Quatuor motetta ad laudes Vesperatinas. Duabis vocius comitante organo",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502011.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "4Z2Q29EE.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "4Z2Q29EE.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "4Z2Q29EE.csv"
+      }
+    ]
+  }
+}

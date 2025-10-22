@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DbwZi636 a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "school in Kent, UK"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15235569>,
+        "16004805"^^xsd:string,
+        "DbwZi636"^^xsd:string ;
+    schema1:location faamentity:JTE6ft4o,
+        faamentity:KmPGztnu ;
+    skos:altLabel "Kent College (Canterbury)"^^xsd:string,
+        "Kent College, Canterbury"^^xsd:string ;
+    skos:prefLabel "Kent College (Canterbury)"^^xsd:string .
+

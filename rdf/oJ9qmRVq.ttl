@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oJ9qmRVq a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person singing for a listening audience"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q177220>,
+        "15990888"^^xsd:string,
+        "oJ9qmRVq"^^xsd:string ;
+    skos:altLabel "singer"^^xsd:string,
+        "songster"^^xsd:string,
+        "songstress"^^xsd:string,
+        "vocalist"^^xsd:string ;
+    skos:prefLabel "singer"^^xsd:string .
+

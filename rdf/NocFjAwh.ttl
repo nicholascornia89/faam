@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NocFjAwh a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:identifier "16002727"^^xsd:string,
+        "NocFjAwh"^^xsd:string ;
+    skos:prefLabel "Ecce quomodo moritur justus, IGP 19"^^xsd:string ;
+    wd:P5202 faamentity:8DHf9Yua,
+        faamentity:S5MqiAs8,
+        faamentity:jZ5Za9W2,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:BRFWyvXx,
+        faamentity:YJViDXyp,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Ecce,_quomodo_moritur_(Palestrina,_Giovanni_Pierluigi_da)> .
+

@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VZbaoske a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1891-03-13"^^xsd:string ;
+    schema1:birthPlace faamentity:CziiZSde ;
+    schema1:deathDate "1983-08-14"^^xsd:string ;
+    schema1:deathPlace faamentity:CziiZSde ;
+    schema1:description "Canadian musician (1891-1983)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2023310>,
+        "0"^^xsd:string,
+        "VZbaoske"^^xsd:string ;
+    schema1:nationality faamentity:cLTo9Vvg ;
+    skos:altLabel "Omer Letourneau"^^xsd:string ;
+    skos:prefLabel "Omer Létourneau"^^xsd:string ;
+    wd:P108 faamentity:LQirCjAD ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:79200608 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:2VRsSiFS,
+        faamentity:5Dh2cbYz,
+        faamentity:5rZmZPuR,
+        faamentity:CWqhNLeg,
+        faamentity:YbVtaBnQ,
+        faamentity:ihoN4CLP ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:MwhmFC4w,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi .
+

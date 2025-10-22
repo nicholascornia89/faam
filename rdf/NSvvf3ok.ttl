@@ -1,0 +1,56 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NSvvf3ok a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:FYtu6ya8 ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Kh6vL8eh,
+        faamentity:NkfcVjHM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2yHpmJQV,
+        faamentity:GecAsFfL,
+        faamentity:RatUUATc,
+        faamentity:W8EfwtH8 ;
+    schema1:identifier "15992702"^^xsd:string,
+        "KCA-030902664280"^^xsd:string,
+        "NSvvf3ok"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:13164807/N"^^schema1:url ;
+    skos:prefLabel "The ornamentations in Joh. Seb. Bach's pianoforte-works : studies and elucidations"^^xsd:string ;
+    wd:P217 "MM-ES-EHRLI-ornamen-1"^^xsd:string ;
+    wd:P870 faamentity:L9szjsBt,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"NSvvf3ok-48e42ceb-b024-407c-8c07-f45ca1cba7ec"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"NSvvf3ok-8aabb580-e93f-4df7-8bb5-7730cd41a278"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NSvvf3ok-8f365957-b08f-4ef4-9bf2-522d00a0a03b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"NSvvf3ok-902a8b68-f9e2-4c8b-b292-ecb7684ccff8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL .
+
+faamentity:2yHpmJQV a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:RatUUATc a rdf:object .
+
+faamentity:W8EfwtH8 a rdf:object .
+

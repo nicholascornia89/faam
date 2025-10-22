@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9U8LuxuX a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "Roeselare, West Flanders, Belgium"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1867263>,
+        "16004743"^^xsd:string,
+        "9U8LuxuX"^^xsd:string ;
+    schema1:location faamentity:GnLR7wCv,
+        faamentity:KgyiaBt3 ;
+    skos:altLabel "Klein Seminarie"^^xsd:string,
+        "Klein Seminarie Roeselare"^^xsd:string ;
+    skos:prefLabel "Klein Seminarie Roeselare"^^xsd:string .
+

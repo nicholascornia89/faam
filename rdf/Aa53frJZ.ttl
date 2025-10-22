@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Aa53frJZ a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "ceremonial county of England, United Kingdom"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q23298>,
+        "0"^^xsd:string,
+        "Aa53frJZ"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "County of Kent"^^xsd:string,
+        "Kent, England"^^xsd:string ;
+    skos:prefLabel "Kent"^^xsd:string ;
+    wd:P1566 gn:11609038 .
+

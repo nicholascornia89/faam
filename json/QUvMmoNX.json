@@ -1,0 +1,107 @@
+{
+  "id": "QUvMmoNX",
+  "uuid_num": 43930949140376,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Bavarian State Opera"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "opera company in Munich, Germany"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Bavarian State Opera"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q681931",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Bavarian State Opera"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "QUvMmoNX"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15991024"
+      }
+    ]
+  },
+  "statements": {
+    "place": [],
+    "country": [
+      {
+        "type": "item",
+        "value": "CTNhzr7a",
+        "label": "Germany"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ftRRiWWs",
+        "type": "item",
+        "label": "Felix Mottl",
+        "description": "Austrian conductor and composer (1856-1911)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Felix_Mottl.jpg"
+        }
+      },
+      {
+        "id": "JHuMhXTJ",
+        "type": "item",
+        "label": "Franz Lachner",
+        "description": "German composer and conductor (1803-1890)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Franz_Lachner.jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "QUvMmoNX.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "QUvMmoNX.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "QUvMmoNX.csv"
+      }
+    ]
+  }
+}

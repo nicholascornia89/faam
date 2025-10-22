@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fcb7732q a rdfs:Resource ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:X3H7fQfB ;
+    schema1:birthDate "1886-05-07"^^xsd:string ;
+    schema1:birthPlace faamentity:T363SwX4 ;
+    schema1:deathDate "1966-08-31"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French musicologist (1886-1966)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2861912>,
+        "16002465"^^xsd:string,
+        "fcb7732q"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Armand Machabey"^^xsd:string,
+        "Armand Machabey older"^^xsd:string,
+        "Armand Machabey senior"^^xsd:string ;
+    skos:prefLabel "Armand Machabey"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:106969241 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:DDbKfxqu ;
+    schema:hasOccupation faamentity:49CMncTw .
+

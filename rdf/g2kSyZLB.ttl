@@ -1,0 +1,71 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:g2kSyZLB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:AB4X4hGP,
+        faamentity:D6RjeTWv,
+        faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:UJ57Ew5y,
+        faamentity:mkCY9LDD ;
+    faamprop:handwritten_annotation faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:8eHc2EdM ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2gUssDxo,
+        faamentity:DDH7fEFM,
+        faamentity:Ta5ni5cL,
+        faamentity:VHEan89z,
+        faamentity:XkmeaM49 ;
+    schema1:identifier "15992436"^^xsd:string,
+        "KCA-030902354767"^^xsd:string,
+        "g2kSyZLB"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6793327/N"^^schema1:url ;
+    skos:prefLabel "Ik droomde!"^^xsd:string ;
+    skosref:related faamentity:2gUssDxo,
+        faamentity:3iBNnik9 ;
+    wd:P217 "MM-ZL-BENOI-ikdroom-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA .
+
+schema1:contributor a rdf:predicate .
+
+"g2kSyZLB-3b452ebb-f008-4e83-bb8b-8b94830cd813"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4g8XzGFP .
+
+"g2kSyZLB-445b72f5-b50d-4ba3-8f57-58a77d712bbb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"g2kSyZLB-60244489-7632-4e97-b13b-827065462dbd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:bSzLPudk .
+
+"g2kSyZLB-842bcca1-1be5-4db6-a7d2-305523e29db1"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"g2kSyZLB-cddf171b-6263-4081-b7bb-388ebe91d9fe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:Ta5ni5cL a rdf:object .
+
+faamentity:VHEan89z a rdf:object .
+
+faamentity:XkmeaM49 a rdf:object .
+
+faamentity:2gUssDxo a rdf:object .
+

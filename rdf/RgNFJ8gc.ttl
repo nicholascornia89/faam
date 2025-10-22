@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RgNFJ8gc a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "teacher in primary and secondary education"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2251335>,
+        "0"^^xsd:string,
+        "RgNFJ8gc"^^xsd:string ;
+    skos:altLabel "schoolteacher"^^xsd:string ;
+    skos:prefLabel "school teacher"^^xsd:string .
+

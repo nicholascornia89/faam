@@ -1,0 +1,13 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Fc9L8AxL a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q5267136>,
+        "16004802"^^xsd:string,
+        "Fc9L8AxL"^^xsd:string ;
+    skos:prefLabel "Maatschappij tot Bevordering der Toonkunst"^^xsd:string .
+

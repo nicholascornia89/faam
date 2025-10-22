@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:heM2NKfu a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "Persian poet and mystic (1325–1389)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6240>,
+        "16002513"^^xsd:string,
+        "heM2NKfu"^^xsd:string ;
+    skos:altLabel "Anacreon of Persia"^^xsd:string,
+        "Haafiz"^^xsd:string,
+        "Hafez"^^xsd:string,
+        "Hafis"^^xsd:string,
+        "Hafiz"^^xsd:string,
+        "Häfiz"^^xsd:string,
+        "Khafiz"^^xsd:string,
+        "Khāja Shamsu Dīn Muhammad Hāfez-e Shīrāzī"^^xsd:string,
+        "Moḥammed Shams od-Dīn Ḥafeẓ"^^xsd:string,
+        "Moḥammed Šams al-Dīn Ḥafeẓ"^^xsd:string,
+        "Shams al-Dīn Muḥammad Shīrāzī"^^xsd:string,
+        "Shams-ud-Din Mohammed"^^xsd:string,
+        "Shamsoddin Mohammad Hafez-e Shirazi"^^xsd:string,
+        "of Shiraz Šams-al-Din Moḥammad"^^xsd:string,
+        "Ḥāfeẓ"^^xsd:string,
+        "Ḥāfiz"^^xsd:string,
+        "Ḥāfiẓ"^^xsd:string,
+        "Ḥāfiẓ Shīrāzī"^^xsd:string ;
+    skos:prefLabel "Hafez"^^xsd:string .
+

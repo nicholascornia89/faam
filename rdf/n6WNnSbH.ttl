@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:n6WNnSbH a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "consolidated city and county in California, United States"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q62>,
+        "0"^^xsd:string,
+        "n6WNnSbH"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn ;
+    skos:altLabel "Baghdad by the Bay"^^xsd:string,
+        "City and County of San Francisco"^^xsd:string,
+        "Frisco"^^xsd:string,
+        "Paris of the West"^^xsd:string,
+        "SF"^^xsd:string,
+        "SFO"^^xsd:string,
+        "San Fran"^^xsd:string,
+        "San Francisco County"^^xsd:string,
+        "San Francisco County, California"^^xsd:string,
+        "San Francisco, CA"^^xsd:string,
+        "San Francisco, Calif."^^xsd:string,
+        "San Francisco, California"^^xsd:string,
+        "The City by the Bay"^^xsd:string,
+        "The Golden City"^^xsd:string ;
+    skos:prefLabel "San Francisco"^^xsd:string ;
+    wd:P1566 gn:5391959,
+        gn:7174368 .
+

@@ -1,0 +1,157 @@
+{
+  "id": "mDEpSGUY",
+  "uuid_num": 84445563499398,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "allegro"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "fast musical tempo"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "allegro"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2081524",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "allegro"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "mDEpSGUY"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992209"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "mkCY9LDD",
+        "label": "tempo"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "R9hADWGS",
+        "label": "duration"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "mGQ2MEug",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030901836749.gif"
+        }
+      },
+      {
+        "id": "N49yd7LF",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030902163374.gif"
+        }
+      },
+      {
+        "id": "jHJnTqYF",
+        "type": "item",
+        "label": "Préludes : pour piano",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030903755269.gif"
+        }
+      },
+      {
+        "id": "TzHesCxL",
+        "type": "item",
+        "label": "Zwölf Etüden",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCA-030904702880.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "mDEpSGUY.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "mDEpSGUY.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "mDEpSGUY.csv"
+      }
+    ]
+  }
+}

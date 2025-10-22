@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2wKWtDR4 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:G4nW25gS ;
+    schema1:birthDate "1763-06-14"^^xsd:string ;
+    schema1:birthPlace faamentity:V2CsbQLf ;
+    schema1:deathDate "1845-12-02"^^xsd:string ;
+    schema1:deathPlace faamentity:gjVYGcEQ ;
+    schema1:description "German composer (1763–1845)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q373770>,
+        "0"^^xsd:string,
+        "2wKWtDR4"^^xsd:string ;
+    schema1:nationality faamentity:ksU5GpVW ;
+    skos:altLabel "Giovanni Simone Mayr"^^xsd:string ;
+    skos:prefLabel "Johann Simon Mayr"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54185531 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/98061> ;
+    wd:P839 <https://imslp.org/wiki/Category:Mayr,_Giovanni_Simone> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

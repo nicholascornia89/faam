@@ -1,0 +1,65 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:PoJBawN7 a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:EXzrp8XT,
+        faamentity:GepDoTXn,
+        faamentity:HHYqWvTC,
+        faamentity:TLaaNgbw,
+        faamentity:eNyFmkHC ;
+    faamprop:handwritten_annotation faamentity:MR3kLpuM,
+        faamentity:eNyFmkHC,
+        faamentity:gb6MiJbD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcelem:subject faamentity:PJUnFxn4,
+        faamentity:WSAseG4G,
+        faamentity:gdZjhzFU ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6Y4mMmBh,
+        faamentity:6zMfY2ZT,
+        faamentity:DDH7fEFM,
+        faamentity:QYsgspze ;
+    schema1:identifier "15992527"^^xsd:string,
+        "KCA-030904176952"^^xsd:string,
+        "PoJBawN7"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:6714308/N"^^schema1:url ;
+    skos:prefLabel "Variations sur les \"Folies d'Espagne\", op. 45"^^xsd:string ;
+    wd:P217 "UM-TGI-GIULI-varia45-1"^^xsd:string ;
+    wd:P870 faamentity:7RKddazD .
+
+schema1:contributor a rdf:predicate .
+
+"PoJBawN7-7c92c8b9-311e-4957-b6de-61060a04e02d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"PoJBawN7-921a3d05-3111-48f0-b992-606731cf12a7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"PoJBawN7-a7ddf9fa-486c-4ff7-ae27-cd261bcb45a4"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"PoJBawN7-aafe7a4e-c26d-4816-b3f1-47bfa653d896"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1976"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:6Y4mMmBh a rdf:object .
+
+faamentity:6zMfY2ZT a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:QYsgspze a rdf:object .
+

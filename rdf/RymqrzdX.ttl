@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:RymqrzdX a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1858-01-21"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf ;
+    schema1:deathDate "1937-03-18"^^xsd:string ;
+    schema1:deathPlace faamentity:LkjqCmKC ;
+    schema1:description "French composer (1858-1937)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q467452>,
+        "16005340"^^xsd:string,
+        "RymqrzdX"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Melanie Bonis"^^xsd:string,
+        "Mél Bonis"^^xsd:string,
+        "Mélanie Bonis"^^xsd:string ;
+    skos:prefLabel "Mélanie Bonis"^^xsd:string ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:116814298 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/50041643> ;
+    wd:P737 faamentity:GsCCwH8o,
+        faamentity:LSsGLeBh,
+        faamentity:NHz6sSN9,
+        faamentity:gYLkYPva,
+        faamentity:iY78UHRF ;
+    wd:P839 <https://imslp.org/wiki/Category:Bonis,_Mel> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

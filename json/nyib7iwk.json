@@ -1,0 +1,122 @@
+{
+  "id": "nyib7iwk",
+  "uuid_num": 87926211388488,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "fortissimo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "musical dynamics notation"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "ff"
+      },
+      {
+        "type": "string",
+        "value": "𝆑𝆑"
+      },
+      {
+        "type": "string",
+        "value": "fortissimo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q3748790",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "fortissimo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "nyib7iwk"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992194"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "gnJkVwmS",
+        "label": "forte"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "nyib7iwk.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "nyib7iwk.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "nyib7iwk.csv"
+      }
+    ]
+  }
+}

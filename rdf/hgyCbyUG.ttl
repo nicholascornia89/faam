@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:hgyCbyUG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1805-12-10"^^xsd:string ;
+    schema1:deathDate "1889-02-04"^^xsd:string ;
+    schema1:description "born:1805|died:1889|; Roitzsch, F. A. (Friedrich August), 1805-1889; Roitzsch, F.A. (Ferdinand August), 1808-1889; Roitzsch, F.A.; Roitzsch, Ferdinand, 1805-1889; Roitzsch, Ferdinand"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q59627908>,
+        "15996009"^^xsd:string,
+        "hgyCbyUG"^^xsd:string ;
+    skos:altLabel "F. A. Roitzsch"^^xsd:string,
+        "Friedrich August Roitzsch"^^xsd:string ;
+    skos:prefLabel "Friedrich August Roitzsch"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:24867087 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/60538> ;
+    wd:P839 <https://imslp.org/wiki/Category:Roitzsch,_Friedrich_August> ;
+    schema:hasOccupation faamentity:c5ZKjhf7,
+        faamentity:jQjsdegi .
+

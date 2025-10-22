@@ -1,0 +1,87 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosref: <http://www.w3.org/2009/08/skos-reference/skos.html#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TqmirwYM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:6fQyHcwz,
+        faamentity:7XBG3iZJ,
+        faamentity:9tkKrhbM,
+        faamentity:EWcTRe2g,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:UJ57Ew5y,
+        faamentity:aAsRZoVk,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:G5dNDMwk,
+        faamentity:Rn2iLGJr,
+        faamentity:WgWRP5cq,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT ;
+    dcterms:provenance faamentity:HkU9txzL ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:73rx6srk,
+        faamentity:CGy68nTi,
+        faamentity:UJq8vYVd,
+        faamentity:X3yMqYb6,
+        faamentity:h7iqGs87,
+        faamentity:kRmWfEhE ;
+    schema1:hasPart faamentity:aXQt4E74 ;
+    schema1:identifier "16005696"^^xsd:string,
+        "DPF-202502045"^^xsd:string,
+        "TqmirwYM"^^xsd:string ;
+    schema1:url "not available"^^schema1:url ;
+    skos:prefLabel "Supplément à la Musica sacra, 1886-87 N.8"^^xsd:string ;
+    skosref:note "Supplément à la Musica Sacra 1886-1887 No. 8."^^rdf:HTML ;
+    wd:P217 "ms-1886-08"^^xsd:string ;
+    wd:P870 faamentity:8cygiHEB,
+        faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"TqmirwYM-06040d30-808d-49da-8d81-142970ce2655"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"TqmirwYM-13e0544c-a781-47f0-83cf-11dcb5b2ed7f"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1886"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"TqmirwYM-adbbe021-0fb3-461e-ac2e-c65b219dfcff"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"TqmirwYM-b2d8791f-66b6-4325-8102-d1d30c17a43f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"TqmirwYM-d4cfee72-4df7-4aaf-8181-74c5a1d84529"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:QRuTEdwa .
+
+"TqmirwYM-d6821eba-98bd-463f-8d60-409b2885e824"^^xsd:string a rdf:Statement .
+
+faamentity:73rx6srk a rdf:object .
+
+faamentity:CGy68nTi a rdf:object .
+
+faamentity:UJq8vYVd a rdf:object .
+
+faamentity:X3yMqYb6 a rdf:object .
+
+faamentity:h7iqGs87 a rdf:object .
+
+faamentity:kRmWfEhE a rdf:object .
+

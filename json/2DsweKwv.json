@@ -1,0 +1,143 @@
+{
+  "id": "2DsweKwv",
+  "uuid_num": 407310023839,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Berlin State Library"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "state library and heritage institution in Germany"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "Staatsbibliothek zu Berlin"
+      },
+      {
+        "type": "string",
+        "value": "staatsbibliothek-berlin.de"
+      },
+      {
+        "type": "string",
+        "value": "Berlin State Library"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q170109",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Berlin State Library"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "holding_institution"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "2DsweKwv"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16004196"
+      }
+    ],
+    "abbreviation": [
+      {
+        "type": "string",
+        "value": "BSL"
+      }
+    ]
+  },
+  "statements": {
+    "website": [
+      {
+        "type": "url",
+        "value": "https://staatsbibliothek-berlin.de/en/"
+      },
+      {
+        "type": "url",
+        "value": "https://stabikat.de/Search?lng=en"
+      }
+    ],
+    "copyright": [
+      {
+        "type": "string",
+        "value": "© Berlin State Library"
+      }
+    ],
+    "place": [
+      {
+        "type": "item",
+        "value": "PNeLQZnK",
+        "label": "Berlin"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CTNhzr7a",
+        "label": "Germany"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "bXcP482A",
+        "type": "item",
+        "label": "Das System der großen Gesangschule des Bernacchi von Bologna : nebst klassischen, bisher ungedruckten Singübungen von Meistern aus derselben Schule",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-848545451.gif"
+        }
+      },
+      {
+        "id": "GcrjFznX",
+        "type": "item",
+        "label": "Suite (Menuett, Gavotte, Siciliano und Gigue) für Violine allein : op. 43",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "BSL-1677119489.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "2DsweKwv.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "2DsweKwv.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "2DsweKwv.csv"
+      }
+    ]
+  }
+}

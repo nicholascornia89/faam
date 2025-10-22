@@ -1,0 +1,103 @@
+{
+  "id": "TevRCpsV",
+  "uuid_num": 50138642209980,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Église Saint-François-de-Sales de Lyon"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "church located in Rhône, in France"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q3581464",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Église Saint-François-de-Sales de Lyon"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "music_organization"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "TevRCpsV"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "place": [
+      {
+        "type": "item",
+        "value": "HepeVksP",
+        "label": ""
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "BJqUa5Kf",
+        "label": "France"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "BiMpVQUM",
+        "type": "item",
+        "label": "Charles-Marie Widor",
+        "description": "French organist and composer (1844–1937)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": "Charles-Marie_Widor_(2).jpg"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "TevRCpsV.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "TevRCpsV.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "TevRCpsV.csv"
+      }
+    ]
+  }
+}

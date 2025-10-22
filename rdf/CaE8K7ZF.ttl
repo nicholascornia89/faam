@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:CaE8K7ZF a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "person who writes plays"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q214917>,
+        "15990873"^^xsd:string,
+        "CaE8K7ZF"^^xsd:string ;
+    skos:altLabel "dramatist"^^xsd:string,
+        "playwright"^^xsd:string,
+        "playwrite"^^xsd:string,
+        "scriptwriter"^^xsd:string ;
+    skos:prefLabel "playwright"^^xsd:string .
+

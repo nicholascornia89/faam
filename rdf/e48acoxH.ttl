@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:e48acoxH a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1860-10-08"^^xsd:string ;
+    schema1:birthPlace faamentity:jDhrg8SX ;
+    schema1:deathDate "1944-03-20"^^xsd:string ;
+    schema1:deathPlace faamentity:TrVTMFdZ ;
+    schema1:description "German composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q315824>,
+        "16005090"^^xsd:string,
+        "e48acoxH"^^xsd:string ;
+    schema1:nationality faamentity:HhczfENG,
+        faamentity:LKYcvgWo ;
+    skos:altLabel "Felix Woyrsch"^^xsd:string ;
+    skos:prefLabel "Felix Woyrsch"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51956310 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/143499> ;
+    wd:P839 <https://imslp.org/wiki/Category:Woyrsch,_Felix> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:R7KKRvQ6,
+        faamentity:TDF2knmi .
+

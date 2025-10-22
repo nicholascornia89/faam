@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XvhjzvcS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1768-00-00"^^xsd:string,
+        "1768-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:3sHwdtpk ;
+    schema1:deathDate "1818-01-01"^^xsd:string,
+        "1818-08-12"^^xsd:string ;
+    schema1:deathPlace faamentity:C9kkrDiw ;
+    schema1:description "Spanish composer (1770-1818)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q20004719>,
+        "0"^^xsd:string,
+        "XvhjzvcS"^^xsd:string ;
+    schema1:nationality faamentity:FLkzgv4J ;
+    skos:altLabel "José Pons"^^xsd:string ;
+    skos:prefLabel "Josep Pons"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:43013098 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002563> ;
+    wd:P737 faamentity:DsW6s4uL,
+        faamentity:RhJu8Rh4,
+        faamentity:Z9YEJBoz ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:QJhBdvTq,
+        faamentity:ZhptKYF3 .
+

@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Z56GR4x7 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q74594872>,
+        "16003926"^^xsd:string,
+        "Z56GR4x7"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in A major, L.395"^^xsd:string,
+        "Sonata K. 533"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in A major, K.533"^^xsd:string ;
+    wd:P214 viaf:292542457 ;
+    wd:P5202 faamentity:5gAsc3pE,
+        faamentity:LoNNNoeu,
+        faamentity:agWvDDr6,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_A_major,_K.533_(Scarlatti,_Domenico)> .
+

@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eBizXjKN a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:description "Czech composer and organist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q768095>,
+        "0"^^xsd:string,
+        "eBizXjKN"^^xsd:string ;
+    skos:altLabel "Jan Antonin Kozeluch"^^xsd:string,
+        "Jan Antonin Kozeluh"^^xsd:string ;
+    skos:prefLabel "Jan Antonín Koželuh"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:51875773 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30001767> ;
+    wd:P839 <https://imslp.org/wiki/Category:Kozeluch,_Jan_Antonín> .
+

@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M9UFSqcc a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:description "epic poem by the Italian poet Torquato Tasso first published in 1581; tells a mythified account of the First Crusade in which Christian knights led by Godfrey of Bouillon battle to take Jerusalem"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1053313>,
+        "16002536"^^xsd:string,
+        "M9UFSqcc"^^xsd:string ;
+    skos:altLabel "Jerusalem Delivered"^^xsd:string,
+        "La Gerusalemme liberata"^^xsd:string ;
+    skos:prefLabel "La Gerusalemme liberata"^^xsd:string ;
+    wd:P214 viaf:174220843 ;
+    wd:P7937 faamentity:ioTVtkmN .
+

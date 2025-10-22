@@ -1,0 +1,165 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SQVug9ib a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:8N6k5W5i,
+        faamentity:HKyA3Qzz,
+        faamentity:JXYgRRuc,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:j3tnVzW5 ;
+    faamprop:handwritten_annotation faamentity:GKShCHKk,
+        faamentity:HKyA3Qzz,
+        faamentity:SRaiiKJr,
+        faamentity:eSzqVmee,
+        faamentity:gaLrAUbu ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:Gx3B7DJH,
+        faamentity:Jz7WgRXa,
+        faamentity:YVdQHjKd,
+        faamentity:ZMpsLcpT,
+        faamentity:ik3NwdWW ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:6EMBp4Vk,
+        faamentity:74hb67jd,
+        faamentity:8RjeFw2P,
+        faamentity:AHLXh73G,
+        faamentity:BGgBiHmg,
+        faamentity:D2krz5vb,
+        faamentity:DDH7fEFM,
+        faamentity:FjfxRXzo,
+        faamentity:GxbQ9Cdj,
+        faamentity:K79S8mEL,
+        faamentity:MfQYhhrr,
+        faamentity:UWqEBAcB,
+        faamentity:YnzhaJPS,
+        faamentity:ZpAqTJvQ,
+        faamentity:aRavxXV3,
+        faamentity:cNVb9K8h,
+        faamentity:g4BVigYv,
+        faamentity:nHfR4BAi ;
+    schema1:hasPart faamentity:2kaart4L,
+        faamentity:7C5hWiKN,
+        faamentity:FBqGkvnx,
+        faamentity:QFiQwn8D,
+        faamentity:WerApZ2T,
+        faamentity:dkfsA6P6,
+        faamentity:iYuvmKsd ;
+    schema1:identifier "15992787"^^xsd:string,
+        "BSB-991062688259707356"^^xsd:string,
+        "SQVug9ib"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb11309928"^^schema1:url ;
+    skos:prefLabel "Musica divina: sive thesaurus concentuum selectissimorum omni cultui divino totius anni juxta ritum sanctae ecclesiae catholicae inservientium: ab excellentissimis superioris aevi musicis numeris harmonicis compositorum. 2,3: Liber motettorum, Sectio III"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 2013.5232"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:nJY8Xxwz .
+
+schema1:contributor a rdf:predicate .
+
+"SQVug9ib-20671dd3-cbbc-44cb-8e1e-bfef6921078b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-2c8da1eb-de61-43d9-b0d9-4b0969a8d29e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-32c1c3c4-90b3-4240-b868-56d78e0ef61c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-36f411ff-067a-4d06-83f3-ca4fdd47c040"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-3b1ae040-5495-4d61-bf29-dc54c0794caa"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-3e2d562a-8e9a-4801-a566-c215eb69bafe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-4bb93856-2b4c-4672-951b-4601d3d336b3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-4ebd0034-b8ea-4dde-b4b8-185af0b11120"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-57181d45-1e3a-4373-8ac7-f37270f77afc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-5ab86786-5ea3-4445-8c70-a6ddb79236be"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-73d1a961-b373-4dfd-b7a9-384265c18f7d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-7fc0d0f1-6d22-49be-bb68-183aa0c541df"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1855"^^xsd:string ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"SQVug9ib-828b0697-9f5a-4099-9f01-bc8590e4c05a"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-89f1e722-ee0d-4421-a8cb-b7b7b05a3d98"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-97086030-5a22-494d-9784-389e1ea0fe54"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"SQVug9ib-a09fae07-120e-46d4-b0e6-f3109d170dbd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-a1cca57d-961e-4058-b559-2d102edef21f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-e06cd6b9-1267-4bc4-9b89-3baae9a8dbc5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"SQVug9ib-eccce307-d1e4-403b-8679-227e8b737828"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1855"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre .
+
+faamentity:6EMBp4Vk a rdf:object .
+
+faamentity:74hb67jd a rdf:object .
+
+faamentity:8RjeFw2P a rdf:object .
+
+faamentity:AHLXh73G a rdf:object .
+
+faamentity:BGgBiHmg a rdf:object .
+
+faamentity:D2krz5vb a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:FjfxRXzo a rdf:object .
+
+faamentity:GxbQ9Cdj a rdf:object .
+
+faamentity:K79S8mEL a rdf:object .
+
+faamentity:MfQYhhrr a rdf:object .
+
+faamentity:UWqEBAcB a rdf:object .
+
+faamentity:YnzhaJPS a rdf:object .
+
+faamentity:ZpAqTJvQ a rdf:object .
+
+faamentity:aRavxXV3 a rdf:object .
+
+faamentity:cNVb9K8h a rdf:object .
+
+faamentity:g4BVigYv a rdf:object .
+
+faamentity:nHfR4BAi a rdf:object .
+

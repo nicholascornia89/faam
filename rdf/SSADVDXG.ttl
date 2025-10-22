@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:SSADVDXG a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1697-06-11"^^xsd:string ;
+    schema1:birthPlace faamentity:XsemBD2v ;
+    schema1:deathDate "1780-01-10"^^xsd:string,
+        "1780-01-16"^^xsd:string ;
+    schema1:deathPlace faamentity:fdBRs3SB ;
+    schema1:description "Italian composer, organist and music theorist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1395790>,
+        "0"^^xsd:string,
+        "SSADVDXG"^^xsd:string ;
+    skos:altLabel "Vallotti"^^xsd:string ;
+    skos:prefLabel "Francesco Antonio Vallotti"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:ARCBiyhQ ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14779408 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/1678967> ;
+    wd:P737 faamentity:4qQWxuSP ;
+    wd:P839 <https://imslp.org/wiki/Category:Vallotti,_Francesco_Antonio> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:ZhptKYF3,
+        faamentity:bX2aWAhB .
+

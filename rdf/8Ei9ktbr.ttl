@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8Ei9ktbr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1828-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:6KPGTuk7 ;
+    schema1:deathDate "1896-01-01"^^xsd:string ;
+    schema1:description "American composer (1828–1896)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1065373>,
+        "0"^^xsd:string,
+        "8Ei9ktbr"^^xsd:string ;
+    schema1:nationality faamentity:fiWxEeqn ;
+    skos:prefLabel "Charles Lucien Lambert"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:27333145 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Lambert_I,_Lucien> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

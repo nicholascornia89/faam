@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ePnALoCw a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1720-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:JkmFBH8W ;
+    schema1:deathDate "1767-08-28"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "German composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q550279>,
+        "0"^^xsd:string,
+        "ePnALoCw"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:prefLabel "Johann Schobert"^^xsd:string ;
+    wd:P1303 faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:14936769 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Schobert,_Johann> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:hMYL5Z9b .
+

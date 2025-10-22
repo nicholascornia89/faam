@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6V4cnEUi a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1802-09-17"^^xsd:string,
+        "1802-09-18"^^xsd:string ;
+    schema1:birthPlace faamentity:ich5QbC6 ;
+    schema1:deathDate "1874-04-25"^^xsd:string ;
+    schema1:deathPlace faamentity:Pqaewj9f ;
+    schema1:description "French musicologist, pianist, and composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4749606>,
+        "16005146"^^xsd:string,
+        "6V4cnEUi"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Amedee Mereaux"^^xsd:string,
+        "Amedée Meseaux"^^xsd:string,
+        "Amédée Méreaux"^^xsd:string,
+        "Jean-Amédée Lefroid de Méreaux"^^xsd:string ;
+    skos:prefLabel "Amédée Méreaux"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:2606837 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30022791> ;
+    wd:P839 <https://imslp.org/wiki/Category:Méreaux,_Jean-Amédée_Lefroid_de> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM,
+        faamentity:ZhptKYF3 .
+

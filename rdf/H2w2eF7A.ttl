@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:H2w2eF7A a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1530-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:UtNGkV6s ;
+    schema1:deathDate "1580-09-25"^^xsd:string ;
+    schema1:deathPlace faamentity:T8QSS2Ab ;
+    schema1:description "Spanish composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q6300593>,
+        "0"^^xsd:string,
+        "H2w2eF7A"^^xsd:string ;
+    schema1:nationality faamentity:FLkzgv4J ;
+    skos:altLabel "Juan Navarro"^^xsd:string,
+        "Juan Navarro of Seville"^^xsd:string ;
+    skos:prefLabel "Juan Navarro Hispalensis"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32189816,
+        viaf:32799675 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30002320> ;
+    wd:P737 faamentity:ALdLC4cv,
+        faamentity:YCnf9Mra ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

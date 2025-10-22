@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JbE9VQs8 a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:DfHHYDni ;
+    schema1:identifier "16002548"^^xsd:string,
+        "JbE9VQs8"^^xsd:string ;
+    schema1:isBasedOn faamentity:4HcCfRqP,
+        faamentity:4QR6T5Rn,
+        faamentity:5W5fYAtn,
+        faamentity:BANfSXhe,
+        faamentity:BDxKsCxB,
+        faamentity:DURydnF6,
+        faamentity:Gy7etqb5,
+        faamentity:HBHobTC5,
+        faamentity:JyGMKbcz,
+        faamentity:NNM2FLqz,
+        faamentity:UQwBXvMJ,
+        faamentity:V7chkbvP,
+        faamentity:a6KdnuEg,
+        faamentity:cndk234f,
+        faamentity:eoBS6Wh2,
+        faamentity:f3UjbHXn,
+        faamentity:fKc63RzQ,
+        faamentity:gDD2rjHG,
+        faamentity:hieLsgz7 ;
+    skos:prefLabel "Les Délices de l'Opéra"^^xsd:string ;
+    wd:P7937 faamentity:NkfcVjHM,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    wd:P839 <https://imslp.org/wiki/Les_Délices_de_l'Opéra_(Fürstenau,_Anton_Bernhard)> .
+

@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7caZ55Y9 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1538-00-00"^^xsd:string,
+        "1543-00-00"^^xsd:string ;
+    schema1:birthPlace faamentity:96rVh94r,
+        faamentity:DdDPTcrP ;
+    schema1:deathDate "1623-00-00"^^xsd:string,
+        "1623-07-04"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r,
+        faamentity:cSBUDXaw ;
+    schema1:description "English composer (ca. 1540-1623)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q208375>,
+        "16005052"^^xsd:string,
+        "7caZ55Y9"^^xsd:string ;
+    schema1:nationality faamentity:KmPGztnu,
+        faamentity:cR66R5HF ;
+    skos:altLabel "William Bird"^^xsd:string,
+        "William Byrd"^^xsd:string ;
+    skos:prefLabel "William Byrd"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:112781480 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/119881> ;
+    wd:P737 faamentity:UBQ27YAg,
+        faamentity:ewzbdtrz ;
+    wd:P839 <https://imslp.org/wiki/Category:Byrd,_William> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

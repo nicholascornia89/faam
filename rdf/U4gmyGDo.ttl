@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:U4gmyGDo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:8rovk6Ag,
+        faamentity:WAQsFi5i,
+        faamentity:WiBZjkbR,
+        faamentity:XKwx4gZW,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DknDehba,
+        faamentity:X8CowJzi,
+        faamentity:ZrMahh8K ;
+    schema1:hasPart faamentity:nWQpamMY ;
+    schema1:identifier "15992750"^^xsd:string,
+        "KCG-000340932"^^xsd:string,
+        "U4gmyGDo"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000340932"^^schema1:url ;
+    skos:prefLabel "D'Azémia : Ouverture : Arrangée Pour le Clavecin ou Forte-Piano, Avec Accompagnement de Violon ad libitum"^^xsd:string ;
+    wd:P217 "DS-1516-(9)"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:LoXSg3U3,
+        faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"U4gmyGDo-6519040c-72ea-4c38-ad1b-3a8807635803"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"U4gmyGDo-6631fc82-1adb-4fdd-a8e5-b9b2df24b27b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"U4gmyGDo-eefbea6b-9796-4df1-a1e8-dd40bdce6a74"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DknDehba a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:ZrMahh8K a rdf:object .
+

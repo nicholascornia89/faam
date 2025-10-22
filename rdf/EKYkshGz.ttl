@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:EKYkshGz a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:PXYCpRXf ;
+    schema1:description "sonata by Domenico Scarlatti"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q78246024>,
+        "16003918"^^xsd:string,
+        "EKYkshGz"^^xsd:string ;
+    skos:altLabel "Keyboard Sonata in F major, L.188"^^xsd:string,
+        "Sonata K. 525"^^xsd:string ;
+    skos:prefLabel "Keyboard Sonata in F major, K.525"^^xsd:string ;
+    wd:P5202 faamentity:5VzqwoVR,
+        faamentity:5gAsc3pE,
+        faamentity:AaF6WQEA,
+        faamentity:LoNNNoeu,
+        faamentity:Vp4ucERe,
+        faamentity:jm4QpjVW ;
+    wd:P7937 faamentity:RtkoMT89 ;
+    wd:P839 <https://imslp.org/wiki/Keyboard_Sonata_in_F_major,_K.525_(Scarlatti,_Domenico)> .
+

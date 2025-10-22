@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:aZuwHuQs a rdfs:Resource ;
+    faamprop:related_to faamentity:DrGjSfwU,
+        faamentity:Gx3B7DJH,
+        faamentity:YJViDXyp,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1698-03-12"^^xsd:string,
+        "1700-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22 ;
+    schema1:deathDate "1757-01-01"^^xsd:string,
+        "1757-05-14"^^xsd:string ;
+    schema1:deathPlace faamentity:eJmMkrYF ;
+    schema1:description "Italian composer (1698-1757)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3635361>,
+        "16005113"^^xsd:string,
+        "aZuwHuQs"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Bartolomeo Cordans"^^xsd:string,
+        "Menegali (?)"^^xsd:string ;
+    skos:prefLabel "Bartolomeo Cordans"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:39643369 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30000731> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

@@ -1,0 +1,54 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GMzf2weB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:GpNEm7nw,
+        faamentity:LQE77nqs,
+        faamentity:eNyFmkHC ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:X8NxipyB,
+        faamentity:iHeydB2F ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:KW3RZcDp,
+        faamentity:QcnHx5uP ;
+    schema1:identifier "15992634"^^xsd:string,
+        "GMzf2weB"^^xsd:string,
+        "KCG-000349238"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000349238"^^schema1:url ;
+    skos:prefLabel "Grand Concerto : pour le Piano Forte avec Accompagnement d'Orchestre : Opéra 34."^^xsd:string ;
+    wd:P217 "II9780"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"GMzf2weB-85546fce-a6f0-4966-a84f-c871820c2cfb"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+"GMzf2weB-bf077186-a0dd-4fe4-9749-bff2fed139ac"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"GMzf2weB-e0b1cf6c-386b-4149-ad26-134cd5e2b255"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "10-01-1858"^^xsd:string ;
+    faamprop:role faamentity:9QaFAsRL ;
+    schema1:location faamentity:AYShtw7v .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:KW3RZcDp a rdf:object .
+
+faamentity:QcnHx5uP a rdf:object .
+

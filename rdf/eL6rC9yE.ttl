@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:eL6rC9yE a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1886-09-10"^^xsd:string ;
+    schema1:birthPlace faamentity:22Qm9haJ ;
+    schema1:deathDate "1980-11-15"^^xsd:string ;
+    schema1:deathPlace faamentity:jvFHbkUT ;
+    schema1:description "Catalan classical guitarist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q957563>,
+        "15996114"^^xsd:string,
+        "eL6rC9yE"^^xsd:string ;
+    schema1:nationality faamentity:WMycfanV ;
+    skos:altLabel "Emilio Pujol"^^xsd:string ;
+    skos:prefLabel "Emilio Pujol"^^xsd:string ;
+    wd:P108 faamentity:HcTKrVvo ;
+    wd:P1303 faamentity:7RKddazD,
+        faamentity:jEHMuHtj ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:120156228 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/40006530> ;
+    wd:P737 faamentity:JAaw4r23 ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:4rgowLtK,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:XWcaJQty .
+

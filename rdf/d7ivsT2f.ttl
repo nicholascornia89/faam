@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:d7ivsT2f a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "consists of two schools, the American Conservatory and the School of Fine Arts at Fontainebleau"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q470082>,
+        "0"^^xsd:string,
+        "d7ivsT2f"^^xsd:string ;
+    schema1:location faamentity:BJqUa5Kf ;
+    skos:altLabel "Conservatoire américain de Fontainebleau"^^xsd:string,
+        "Les Écoles d'art américaines de Fontainebleau"^^xsd:string,
+        "Écoles des Beaux Arts"^^xsd:string ;
+    skos:prefLabel "Fontainebleau Schools"^^xsd:string .
+

@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:S5MqiAs8 a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:89jLoa5o ;
+    schema1:birthDate "1883-10-11"^^xsd:string ;
+    schema1:birthPlace faamentity:ZsURQGSW ;
+    schema1:deathDate "1961-02-06"^^xsd:string ;
+    schema1:description "American conductor (1883-1961)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q633492>,
+        "16002667"^^xsd:string,
+        "S5MqiAs8"^^xsd:string ;
+    schema1:nationality faamentity:fiWxEeqn ;
+    skos:altLabel "Archibald Thompson Davison"^^xsd:string ;
+    skos:prefLabel "Archibald Thompson Davison"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:34450152 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30027403> ;
+    wd:P839 <https://imslp.org/wiki/Category:Davison,_Archibald_Thompson> ;
+    schema:hasOccupation faamentity:TDF2knmi,
+        faamentity:jQjsdegi .
+

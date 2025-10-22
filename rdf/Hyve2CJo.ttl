@@ -1,0 +1,64 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Hyve2CJo a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:QasJKrSg,
+        faamentity:XTCWoPBm ;
+    faamprop:handwritten_annotation faamentity:TUdHPWU8 ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:7AXGCpck,
+        faamentity:QHAoKPG8,
+        faamentity:WiBZjkbR,
+        faamentity:XKwx4gZW,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:U7DY6oXy ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:C3NTYuH8,
+        faamentity:DDH7fEFM,
+        faamentity:WDGAMwvd,
+        faamentity:oRcy7jj8 ;
+    schema1:hasPart faamentity:WqjAiCxw ;
+    schema1:identifier "15992754"^^xsd:string,
+        "Hyve2CJo"^^xsd:string,
+        "ORP-26137450b"^^xsd:string ;
+    schema1:url "https://koha.orpheusinstituut.be/cgi-bin/koha/catalogue/detail.pl?biblionumber=4163&searchid=scs_1698052310107"^^schema1:url ;
+    skos:prefLabel "Ouverture d'Iphigenie [en Aulide] : Arrangée pour clavecin ou forte-piano"^^xsd:string ;
+    wd:P217 "KTS1 C1.40 26E22b"^^xsd:string ;
+    wd:P870 faamentity:LoXSg3U3,
+        faamentity:Q8MBQBw7 .
+
+schema1:contributor a rdf:predicate .
+
+"Hyve2CJo-87a27add-aade-434b-aa65-804e4d738d9e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"Hyve2CJo-990a5389-2029-4fed-a3c7-95784573c71b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"Hyve2CJo-d4ae7715-cb27-485d-a229-20beb6e69173"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+"Hyve2CJo-ee5bf690-2b96-487d-b106-5ba2f62b4aa8"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:C3NTYuH8 a rdf:object .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:WDGAMwvd a rdf:object .
+
+faamentity:oRcy7jj8 a rdf:object .
+

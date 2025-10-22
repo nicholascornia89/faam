@@ -1,0 +1,104 @@
+{
+  "id": "cveTsJSK",
+  "uuid_num": 68271863967413,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "Duisburg"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "city in North Rhine-Westphalia, Germany"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q2100",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "Duisburg"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "city"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "cveTsJSK"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "0"
+      }
+    ]
+  },
+  "statements": {
+    "GeoNames ID": [
+      {
+        "type": "externalid",
+        "value": "3231901",
+        "base_url": "https://www.geonames.org/",
+        "label": "3231901"
+      }
+    ],
+    "country": [
+      {
+        "type": "item",
+        "value": "CTNhzr7a",
+        "label": "Germany"
+      }
+    ]
+  },
+  "cross-references": {
+    "agent": [
+      {
+        "id": "ZJkKECSt",
+        "type": "item",
+        "label": "Ernst Pepping",
+        "description": "German composer (1901–1981)",
+        "image": {
+          "base_url": "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/",
+          "value": ""
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "cveTsJSK.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "cveTsJSK.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "cveTsJSK.csv"
+      }
+    ]
+  }
+}

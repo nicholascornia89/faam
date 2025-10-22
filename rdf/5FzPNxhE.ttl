@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:5FzPNxhE a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:KW3RZcDp,
+        faamentity:ewExNxxw ;
+    schema1:birthDate "1866-12-09"^^xsd:string ;
+    schema1:deathDate "1964-08-10"^^xsd:string ;
+    schema1:description "sacristan, teacher, organist, composer, poet and politician from Belgium (1866-1964)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4423628>,
+        "16005638"^^xsd:string,
+        "5FzPNxhE"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Remi Ghesquiere"^^xsd:string,
+        "Remy Ghesquiere"^^xsd:string ;
+    skos:prefLabel "Remi Ghesquiere"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:286896964 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:7gohDEi3,
+        faamentity:9BVfruYM,
+        faamentity:RgNFJ8gc,
+        faamentity:ZhptKYF3,
+        faamentity:fKBqCJio .
+

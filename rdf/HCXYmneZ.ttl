@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:HCXYmneZ a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "institution of higher education in Freiburg, Germany"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q650345>,
+        "15991078"^^xsd:string,
+        "HCXYmneZ"^^xsd:string ;
+    schema1:location faamentity:4FTHYaGf,
+        faamentity:CTNhzr7a ;
+    skos:altLabel "Hochschule für Musik Freiburg"^^xsd:string,
+        "University of Music Freiburg"^^xsd:string ;
+    skos:prefLabel "Hochschule für Musik Freiburg"^^xsd:string .
+

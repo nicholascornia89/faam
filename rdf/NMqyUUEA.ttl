@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NMqyUUEA a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:PBdH8TpS ;
+    schema1:birthDate "1829-08-21"^^xsd:string ;
+    schema1:birthPlace faamentity:TrVTMFdZ ;
+    schema1:deathDate "1907-02-24"^^xsd:string ;
+    schema1:deathPlace faamentity:96rVh94r ;
+    schema1:description "German composer, conductor and pianist"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q320046>,
+        "16002468"^^xsd:string,
+        "NMqyUUEA"^^xsd:string ;
+    schema1:nationality faamentity:TrVTMFdZ ;
+    skos:altLabel "Otto Goldschmidt"^^xsd:string,
+        "Otto Moritz David Goldschmidt"^^xsd:string ;
+    skos:prefLabel "Otto Goldschmidt"^^xsd:string ;
+    wd:P108 faamentity:EVBcTsBB ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:107639675 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/76321> ;
+    wd:P839 <https://imslp.org/wiki/Category:Goldschmidt,_Otto> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:T6nAVeGM .
+

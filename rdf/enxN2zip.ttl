@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:enxN2zip a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "unpitched percussion instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q190172>,
+        "15990849"^^xsd:string,
+        "enxN2zip"^^xsd:string ;
+    skos:altLabel "cymbal"^^xsd:string,
+        "cymbals"^^xsd:string ;
+    skos:prefLabel "cymbal"^^xsd:string ;
+    wd:P279 faamentity:E2Sb746q ;
+    wd:P31 faamentity:dSq7JTyF .
+

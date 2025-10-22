@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BqciCWRq a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1799-02-24"^^xsd:string ;
+    schema1:birthPlace faamentity:bkXhkVyZ ;
+    schema1:deathDate "1858-04-12"^^xsd:string ;
+    schema1:deathPlace faamentity:PNeLQZnK ;
+    schema1:description "German musicologist (1799–1858)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q62376>,
+        "0"^^xsd:string,
+        "BqciCWRq"^^xsd:string ;
+    schema1:nationality faamentity:TrVTMFdZ ;
+    skos:altLabel "Samuel Dehn"^^xsd:string ;
+    skos:prefLabel "Siegfried Wilhelm Dehn"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:39642649 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/5559> ;
+    wd:P737 faamentity:Qh8asCFa,
+        faamentity:R3bzCURm ;
+    wd:P839 <https://imslp.org/wiki/Category:Dehn,_Siegfried_Wilhelm> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:HkbL2euD,
+        faamentity:avB62pGy,
+        faamentity:bX2aWAhB .
+

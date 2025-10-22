@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6L9tixhA a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1557"^^xsd:string ;
+    schema1:birthPlace faamentity:CgZzMq22 ;
+    schema1:deathDate "1612-08-12"^^xsd:string ;
+    schema1:deathPlace faamentity:CgZzMq22 ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q34624>,
+        "15996200"^^xsd:string,
+        "6L9tixhA"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Giovanni Gabrieli"^^xsd:string ;
+    skos:prefLabel "Giovanni Gabrieli"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:37101750 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30001186> ;
+    wd:P737 faamentity:K79S8mEL,
+        faamentity:kkHrN3TP ;
+    wd:P839 <https://imslp.org/wiki/Category:Gabrieli,_Giovanni> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

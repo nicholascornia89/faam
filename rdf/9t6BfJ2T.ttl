@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9t6BfJ2T a rdfs:Resource ;
+    schema1:Class "musical_instrument"^^xsd:string ;
+    schema1:description "woodwind instrument"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q159998>,
+        "15990824"^^xsd:string,
+        "9t6BfJ2T"^^xsd:string ;
+    skos:altLabel "bassoon"^^xsd:string,
+        "fagot"^^xsd:string ;
+    skos:prefLabel "bassoon"^^xsd:string ;
+    wd:P279 faamentity:YiTagG2p,
+        faamentity:hBUT5Cbq,
+        faamentity:kXMFGbS8 ;
+    wd:P31 faamentity:BnwWc34X .
+

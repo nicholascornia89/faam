@@ -1,0 +1,37 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:icZbBdJS a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:6CsHj57Q ;
+    schema1:birthDate "1692-04-08"^^xsd:string ;
+    schema1:birthPlace faamentity:gKVyBatn ;
+    schema1:deathDate "1770-02-26"^^xsd:string ;
+    schema1:deathPlace faamentity:bD59eiup,
+        faamentity:fdBRs3SB ;
+    schema1:description "Italian composer and violinist (1692-1770)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q108555>,
+        "15995895"^^xsd:string,
+        "icZbBdJS"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Giuseppe Tartini"^^xsd:string ;
+    skos:prefLabel "Giuseppe Tartini"^^xsd:string ;
+    wd:P1303 faamentity:G8tgNnWV ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66653168 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/162506> ;
+    wd:P737 faamentity:KHABNytv ;
+    wd:P839 <https://imslp.org/wiki/Category:Tartini,_Giuseppe> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr .
+

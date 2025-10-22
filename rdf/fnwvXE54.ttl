@@ -1,0 +1,42 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fnwvXE54 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:P5SkNTZx,
+        faamentity:X3H7fQfB ;
+    schema1:birthDate "1506-02-00"^^xsd:string,
+        "1506-02-01"^^xsd:string ;
+    schema1:birthPlace faamentity:QPMQsN25 ;
+    schema1:deathDate "1582-09-28"^^xsd:string,
+        "1582-09-29"^^xsd:string ;
+    schema1:deathPlace faamentity:neyfxrfu ;
+    schema1:description "Scottish historian and humanist scholar; (1506-1582)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q715169>,
+        "0"^^xsd:string,
+        "fnwvXE54"^^xsd:string ;
+    schema1:nationality faamentity:S72kemb9 ;
+    skos:altLabel "Seòras Bochanan"^^xsd:string ;
+    skos:prefLabel "George Buchanan"^^xsd:string ;
+    wd:P108 faamentity:P5SkNTZx,
+        faamentity:fjdADgJc ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:105874857 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30026136> ;
+    wd:P737 faamentity:iYvVho7R ;
+    schema:hasOccupation faamentity:4oKtB5xy,
+        faamentity:6pfzESag,
+        faamentity:CaE8K7ZF,
+        faamentity:Ln6fxh2R,
+        faamentity:QXjRD4uh,
+        faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio,
+        faamentity:nrDVDBKf .
+

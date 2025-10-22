@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WerApZ2T a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:cNVb9K8h ;
+    schema1:identifier "16002422"^^xsd:string,
+        "WerApZ2T"^^xsd:string ;
+    skos:prefLabel "Nativitas gloriosae Virginis Mariae"^^xsd:string ;
+    wd:P5202 faamentity:g4BVigYv ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:BdJHjaCE,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Nativitas_gloriosae_Virginis_Mariae_(Marenzio,_Luca)> .
+

@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:DpFDFGMR a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1912-10-12"^^xsd:string ;
+    schema1:birthPlace faamentity:F7Pfqgx7 ;
+    schema1:deathDate "1983-05-16"^^xsd:string ;
+    schema1:deathPlace faamentity:jGe3RKPQ ;
+    schema1:description "Swiss organist (1912-1983)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1289392>,
+        "0"^^xsd:string,
+        "DpFDFGMR"^^xsd:string ;
+    schema1:nationality faamentity:oHTSDFRc ;
+    skos:altLabel "Eduard Mueller"^^xsd:string ;
+    skos:prefLabel "Eduard Müller"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:100987119 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:8ceb4FT8,
+        faamentity:RJXnqg6j ;
+    schema:hasOccupation faamentity:XWcaJQty,
+        faamentity:ZhptKYF3 .
+

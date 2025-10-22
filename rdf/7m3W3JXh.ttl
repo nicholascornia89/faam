@@ -1,0 +1,25 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7m3W3JXh a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "public university in the Netherlands"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q156598>,
+        "15991065"^^xsd:string,
+        "7m3W3JXh"^^xsd:string ;
+    schema1:location faamentity:BWX2VNz4,
+        faamentity:iA5dSjTz ;
+    skos:altLabel "Leiden Univ."^^xsd:string,
+        "Leiden University"^^xsd:string,
+        "Leyden University"^^xsd:string,
+        "Rijksuniversiteit Leiden"^^xsd:string,
+        "Rijksuniversiteit te Leiden"^^xsd:string,
+        "Universiteit Leiden"^^xsd:string,
+        "University of Leiden"^^xsd:string,
+        "University of Leyden"^^xsd:string,
+        "universiteitleiden.nl"^^xsd:string ;
+    skos:prefLabel "Leiden University"^^xsd:string .
+

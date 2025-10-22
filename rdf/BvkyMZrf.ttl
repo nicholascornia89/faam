@@ -1,0 +1,31 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BvkyMZrf a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1868-07-17"^^xsd:string ;
+    schema1:deathDate "1944-10-09"^^xsd:string ;
+    schema1:description "Belgian composer (1868 - 1944)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q60056037>,
+        "15996264"^^xsd:string,
+        "BvkyMZrf"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Theo Charlier"^^xsd:string,
+        "Theophile Noel Charlier"^^xsd:string,
+        "Théo Charlier"^^xsd:string ;
+    skos:prefLabel "Théo Charlier"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12728334 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:jpLKcz4B ;
+    wd:P839 <https://imslp.org/wiki/Category:Charlier,_Théo> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:SdTsrosX,
+        faamentity:TDF2knmi .
+

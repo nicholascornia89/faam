@@ -1,0 +1,57 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:LerwzdwB a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:AB4X4hGP,
+        faamentity:HKyA3Qzz ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:nhyHiCdi ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:DyTsrwPC,
+        faamentity:KLcqFTj4,
+        faamentity:eqc4UJfy ;
+    schema1:hasPart faamentity:KLwzvJCC ;
+    schema1:identifier "15992277"^^xsd:string,
+        "KCA-030902642195"^^xsd:string,
+        "LerwzdwB"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12981585/N"^^schema1:url ;
+    skos:prefLabel "Le chef d'armée = Il condotierro"^^xsd:string ;
+    wd:P217 "MM-LEPP-MOESS-chefdar-1"^^xsd:string ;
+    wd:P870 faamentity:NFAxdnVA,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"LerwzdwB-64401d65-8a60-4df0-894d-1e0d912848d3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:eBGrzZAP .
+
+"LerwzdwB-b2cb5c66-adc4-4a05-ad0a-187573833dda"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LerwzdwB-e24af201-5632-40f9-95bf-eeda1540f68d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"LerwzdwB-ee83370e-a10d-4a8d-b757-21a3a8b17a4c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:dtkJhYLf .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:DyTsrwPC a rdf:object .
+
+faamentity:KLcqFTj4 a rdf:object .
+
+faamentity:eqc4UJfy a rdf:object .
+

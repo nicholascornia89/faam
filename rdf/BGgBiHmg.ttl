@@ -1,0 +1,33 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:BGgBiHmg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1579-03-25"^^xsd:string ;
+    schema1:birthPlace faamentity:D7zj8y2m ;
+    schema1:deathDate "1645-06-08"^^xsd:string ;
+    schema1:deathPlace faamentity:D7zj8y2m ;
+    schema1:description "Italian painter, playwright and musician (1579-1645)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3766896>,
+        "15996248"^^xsd:string,
+        "BGgBiHmg"^^xsd:string ;
+    schema1:nationality faamentity:Bk3pdD3B ;
+    skos:altLabel "Giovanni Bricci"^^xsd:string,
+        "Giovanni Briccio"^^xsd:string ;
+    skos:prefLabel "Giovanni Briccio"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:261390821 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30018340> ;
+    wd:P839 <https://imslp.org/wiki/Category:Briccio,_Giovanni> ;
+    schema:hasOccupation faamentity:CaE8K7ZF,
+        faamentity:YrCfZ8vh,
+        faamentity:bX2aWAhB,
+        faamentity:mGWMWMfo .
+

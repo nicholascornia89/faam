@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kZ9cSBEr a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1803"^^xsd:string ;
+    schema1:birthPlace faamentity:AYShtw7v ;
+    schema1:deathDate "1869"^^xsd:string ;
+    schema1:deathPlace faamentity:4g8XzGFP ;
+    schema1:description "Belgian poet and translator"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q122730890>,
+        "16004144"^^xsd:string,
+        "kZ9cSBEr"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Victor Guillaume Antoine Hanssens"^^xsd:string,
+        "Victor Hanssens"^^xsd:string ;
+    skos:prefLabel "Victor Guillaume Antoine Hanssens"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:fKBqCJio .
+

@@ -1,0 +1,30 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9WShvTNc a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "state of the Holy Roman Empire (1085–1803)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q22880>,
+        "0"^^xsd:string,
+        "9WShvTNc"^^xsd:string ;
+    skos:altLabel "Bavarian Palatinate"^^xsd:string,
+        "County Palatinate of the Rhine"^^xsd:string,
+        "County Palatine of Lotharingia"^^xsd:string,
+        "County Palatine of the Rhine"^^xsd:string,
+        "Electorate Palatinate"^^xsd:string,
+        "Electorate of Palatinate"^^xsd:string,
+        "Electorate of the Palatinate"^^xsd:string,
+        "Electorate of the Palatine"^^xsd:string,
+        "Electorate the Palatinate"^^xsd:string,
+        "Kurfürstentum von der Pfalz"^^xsd:string,
+        "Kurpfalz"^^xsd:string,
+        "Palatinate of the Rhine"^^xsd:string,
+        "Palatinate of the rhein"^^xsd:string,
+        "Palatine Electorate"^^xsd:string,
+        "Pfalzgrafschaft bei Rhein"^^xsd:string,
+        "Rhenish County Palatine"^^xsd:string ;
+    skos:prefLabel "Electoral Palatinate"^^xsd:string .
+

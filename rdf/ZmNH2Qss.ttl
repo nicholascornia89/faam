@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZmNH2Qss a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1853-03-11"^^xsd:string ;
+    schema1:birthPlace faamentity:nSKgHevT ;
+    schema1:description "Belgian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124349815>,
+        "15996233"^^xsd:string,
+        "ZmNH2Qss"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Alphonse Antoine Neufcour"^^xsd:string ;
+    skos:prefLabel "Alphonse Antoine Neufcour"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

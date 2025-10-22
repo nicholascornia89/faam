@@ -1,0 +1,58 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9o9xj5Gw a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:GpNEm7nw,
+        faamentity:LQE77nqs ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:4Jjg5FwX,
+        faamentity:Gx3B7DJH,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:KkB2M6Gx ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2LiJbewP,
+        faamentity:JHe3MCgS,
+        faamentity:LLpPqfa8 ;
+    schema1:hasPart faamentity:P6UciQe2 ;
+    schema1:identifier "16004327"^^xsd:string,
+        "9o9xj5Gw"^^xsd:string,
+        "BSB-991078005629707356"^^xsd:string ;
+    schema1:url "https://mdz-nbn-resolving.de/details:bsb00110156"^^schema1:url ;
+    skos:prefLabel "Concert in D-dur : für d. Violine ; KV 218 ; op. 121"^^xsd:string ;
+    wd:P217 "4 Mus.pr. 5954"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"9o9xj5Gw-9dea6014-48d6-42d5-9fe3-2ed2e9fafb5d"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1865"^^xsd:string ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:4GU7NjmQ .
+
+"9o9xj5Gw-a87ea1c4-3eb2-4648-8a06-fc9aecd60b3e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"9o9xj5Gw-ab0d239b-c5e5-46ab-8f97-d557d721580b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:2LiJbewP a rdf:object .
+
+faamentity:JHe3MCgS a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+

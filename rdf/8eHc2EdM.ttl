@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8eHc2EdM a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "musical composition for voice(s)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q7366>,
+        "15990595"^^xsd:string,
+        "8eHc2EdM"^^xsd:string ;
+    skos:altLabel "piece of vocal music"^^xsd:string,
+        "pieces of vocal music"^^xsd:string,
+        "song"^^xsd:string,
+        "songs"^^xsd:string,
+        "vocal piece"^^xsd:string,
+        "vocal pieces"^^xsd:string ;
+    skos:prefLabel "song"^^xsd:string .
+

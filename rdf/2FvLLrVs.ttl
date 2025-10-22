@@ -1,0 +1,32 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2FvLLrVs a rdfs:Resource ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei,
+        faamentity:SGA8i9nK ;
+    schema1:birthDate "1929-04-11"^^xsd:string ;
+    schema1:birthPlace faamentity:VuwGJdma ;
+    schema1:description "Belgian conductor"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2300301>,
+        "16004028"^^xsd:string,
+        "2FvLLrVs"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Frits Celis"^^xsd:string ;
+    skos:prefLabel "Frits Celis"^^xsd:string ;
+    wd:P1303 faamentity:C7WiTTAH ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:101046198 ;
+    wd:P31 faamentity:aJeJBesD ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi,
+        faamentity:UczAjTSk .
+

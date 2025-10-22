@@ -1,0 +1,114 @@
+{
+  "id": "aMHPuLSn",
+  "uuid_num": 63217608841520,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "pianissimo"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "term used in musical notation to indicate a very low degree of sound intensity"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "pianissimo"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q953127",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "pianissimo"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "aMHPuLSn"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "15992196"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "UdAgYAUZ",
+        "label": "piano"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      },
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "6UPEJgTQ",
+        "label": "editor"
+      }
+    ]
+  },
+  "cross-references": {},
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "aMHPuLSn.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "aMHPuLSn.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "aMHPuLSn.csv"
+      }
+    ]
+  }
+}

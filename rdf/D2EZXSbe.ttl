@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:D2EZXSbe a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:Mvde8e4F ;
+    schema1:description "motet by Giovanni Matteo Asola"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q124315662>,
+        "16002017"^^xsd:string,
+        "D2EZXSbe"^^xsd:string ;
+    skos:altLabel "Pange lingua"^^xsd:string ;
+    skos:prefLabel "Pange lingua"^^xsd:string ;
+    wd:P5202 faamentity:PiHf7TsH ;
+    wd:P7937 faamentity:ik3NwdWW .
+

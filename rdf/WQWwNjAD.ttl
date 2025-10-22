@@ -1,0 +1,24 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:WQWwNjAD a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "orchestral suite by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q55827272>,
+        "16004350"^^xsd:string,
+        "WQWwNjAD"^^xsd:string ;
+    skos:altLabel "Orchestral Suite No. 3"^^xsd:string,
+        "Orchestral Suite No. 3 in D Major, BWV 1068"^^xsd:string,
+        "Orchestral Suite No. 3 in D major"^^xsd:string,
+        "Suite No. 3"^^xsd:string,
+        "Suite No. 3 in D major"^^xsd:string ;
+    skos:prefLabel "Orchestral Suite No.3 in D major, BWV 1068"^^xsd:string ;
+    wd:P5202 faamentity:2LiJbewP ;
+    wd:P7937 faamentity:Y5VdxeTi ;
+    wd:P839 <https://imslp.org/wiki/Orchestral_Suite_No.3_in_D_major,_BWV_1068_(Bach,_Johann_Sebastian)> .
+

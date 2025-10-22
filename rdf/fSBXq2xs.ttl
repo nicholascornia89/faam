@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:fSBXq2xs a rdfs:Resource ;
+    faamprop:related_to faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1804-03-09"^^xsd:string ;
+    schema1:birthPlace faamentity:dtkJhYLf,
+        faamentity:m8HbBvBb ;
+    schema1:deathDate "1868-06-17"^^xsd:string ;
+    schema1:deathPlace faamentity:dtkJhYLf ;
+    schema1:description "French musician and publisher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q50333026>,
+        "16003988"^^xsd:string,
+        "fSBXq2xs"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Alphonse Leduc"^^xsd:string ;
+    skos:prefLabel "Alphonse Leduc"^^xsd:string ;
+    wd:P1303 faamentity:AdNoqEfD ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:59289373 ;
+    wd:P31 faamentity:HmGw8E8i,
+        faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30072043> ;
+    wd:P737 faamentity:SgJFWhdM,
+        faamentity:jjZYuf95 ;
+    wd:P839 <https://imslp.org/wiki/Category:Leduc,_Alphonse> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:MwhmFC4w,
+        faamentity:bX2aWAhB .
+

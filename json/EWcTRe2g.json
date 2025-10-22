@@ -1,0 +1,147 @@
+{
+  "id": "EWcTRe2g",
+  "uuid_num": 24439796247692,
+  "metadata": {
+    "label": [
+      {
+        "type": "string",
+        "value": "sotto voce"
+      }
+    ],
+    "description": [
+      {
+        "type": "string",
+        "value": "intentionally lowering the volume of one's voice for emphasis"
+      }
+    ],
+    "aliases": [
+      {
+        "type": "string",
+        "value": "sotto voce"
+      }
+    ],
+    "qid": [
+      {
+        "type": "externalid",
+        "value": "Q7564035",
+        "base_url": "http://wwww.wikidata.org/entity/",
+        "label": "sotto voce"
+      }
+    ],
+    "object_type": [
+      {
+        "type": "schema",
+        "value": "annotation_type"
+      }
+    ],
+    "id": [
+      {
+        "type": "id",
+        "value": "EWcTRe2g"
+      }
+    ],
+    "nodegoat_id": [
+      {
+        "type": "id",
+        "value": "16002639"
+      }
+    ]
+  },
+  "statements": {
+    "subclass of": [
+      {
+        "type": "item",
+        "value": "HKyA3Qzz",
+        "label": "dynamic"
+      },
+      {
+        "type": "item",
+        "value": "D6RjeTWv",
+        "label": "musical expression"
+      }
+    ],
+    "instance of": [
+      {
+        "type": "item",
+        "value": "6m3ZbnrF",
+        "label": "musical technique"
+      },
+      {
+        "type": "item",
+        "value": "fxtj72S3",
+        "label": "musical notation"
+      }
+    ],
+    "musical parameter": [
+      {
+        "type": "item",
+        "value": "4AMPVsN8",
+        "label": "timbre"
+      },
+      {
+        "type": "item",
+        "value": "4asnL3fC",
+        "label": "loudness"
+      }
+    ],
+    "used by": [
+      {
+        "type": "item",
+        "value": "AcFWzeQH",
+        "label": "conductor"
+      },
+      {
+        "type": "item",
+        "value": "YvQmwaaW",
+        "label": "composer"
+      }
+    ]
+  },
+  "cross-references": {
+    "manifestation": [
+      {
+        "id": "o84GQDuG",
+        "type": "item",
+        "label": "Charles VI : opera in 5 bedrijven",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "KCG-000348150.gif"
+        }
+      },
+      {
+        "id": "TqmirwYM",
+        "type": "item",
+        "label": "Supplément à la Musica sacra, 1886-87 N.8",
+        "description": "",
+        "thumb": {
+          "base_url": "../assets/images/thumbs/",
+          "value": "DPF-202502045.gif"
+        }
+      }
+    ]
+  },
+  "resources": {
+    "JSON": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/json/",
+        "value": "EWcTRe2g.json"
+      }
+    ],
+    "RDF": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/rdf/",
+        "value": "EWcTRe2g.ttl"
+      }
+    ],
+    "CSV": [
+      {
+        "type": "url",
+        "base_url": "http://nicholascornia89.github.io/faam/csv/",
+        "value": "EWcTRe2g.csv"
+      }
+    ]
+  }
+}

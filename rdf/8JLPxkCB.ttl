@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:8JLPxkCB a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1824-01-22"^^xsd:string ;
+    schema1:birthPlace faamentity:2uRxtWe8 ;
+    schema1:deathDate "1865-01-23"^^xsd:string,
+        "1865-11-22"^^xsd:string,
+        "1865-11-23"^^xsd:string ;
+    schema1:deathPlace faamentity:iR3nZ9nb ;
+    schema1:description "Czech composer, pedagogue, and music critic (1824–1865)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1705143>,
+        "0"^^xsd:string,
+        "8JLPxkCB"^^xsd:string ;
+    skos:altLabel "Josef Leopold Zvonar"^^xsd:string ;
+    skos:prefLabel "Josef Leopold Zvonař"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:45088131 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30009092> ;
+    wd:P737 faamentity:aA54mNAC ;
+    wd:P839 <https://imslp.org/wiki/Category:Zvonař,_Josef_Leopold> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:QBx3kSJW,
+        faamentity:YrCfZ8vh .
+

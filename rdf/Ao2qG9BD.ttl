@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Ao2qG9BD a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1714-09-10"^^xsd:string ;
+    schema1:birthPlace faamentity:Z2dxktag ;
+    schema1:deathDate "1774-08-25"^^xsd:string ;
+    schema1:deathPlace faamentity:mSVELu4H ;
+    schema1:description "Italian composer (1714–1774)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q312891>,
+        "15996133"^^xsd:string,
+        "Ao2qG9BD"^^xsd:string ;
+    schema1:nationality faamentity:ZxQvWKbx ;
+    skos:altLabel "Niccolo Jommelli"^^xsd:string,
+        "Niccolò Jommelli"^^xsd:string,
+        "Nicola Jacomelli"^^xsd:string,
+        "Nicolò Jommelli"^^xsd:string ;
+    skos:prefLabel "Niccolò Jommelli"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:66652159 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/118329> ;
+    wd:P737 faamentity:Eudbv49j,
+        faamentity:YhdECY6i,
+        faamentity:ZZJDssmU,
+        faamentity:f6SUUPFd,
+        faamentity:kMPwaVZk ;
+    wd:P839 <https://imslp.org/wiki/Category:Jommelli,_Niccolò> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp .
+

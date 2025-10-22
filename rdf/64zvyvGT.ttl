@@ -1,0 +1,21 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:64zvyvGT a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "college in New York City"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1760438>,
+        "15991081"^^xsd:string,
+        "64zvyvGT"^^xsd:string ;
+    schema1:location faamentity:fiWxEeqn,
+        faamentity:nNvoMs8T ;
+    skos:altLabel "CUNY Queens College"^^xsd:string,
+        "Queens"^^xsd:string,
+        "Queens College"^^xsd:string,
+        "Queens College, City University of New York"^^xsd:string,
+        "qc.cuny.edu"^^xsd:string ;
+    skos:prefLabel "Queens College"^^xsd:string .
+

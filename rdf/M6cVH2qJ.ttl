@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:M6cVH2qJ a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:ZpAqTJvQ ;
+    schema1:identifier "16002715"^^xsd:string,
+        "M6cVH2qJ"^^xsd:string ;
+    skos:prefLabel "Missa pro defunctis"^^xsd:string ;
+    wd:P5202 faamentity:mK2saWSr ;
+    wd:P7937 faamentity:PDsiZFvp,
+        faamentity:kNneakGU ;
+    wd:P839 <https://imslp.org/wiki/Missa_pro_defunctis_(Victoria,_Tomás_Luis_de)> .
+

@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jEedCePC a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:NCABARog ;
+    schema1:birthDate "1862-11-04"^^xsd:string ;
+    schema1:birthPlace faamentity:fyZmfFU9 ;
+    schema1:deathDate "1940-09-22"^^xsd:string ;
+    schema1:deathPlace faamentity:Q8KpiYwX ;
+    schema1:description "(1862–1940 classical pianist, piano teacher"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q375024>,
+        "0"^^xsd:string,
+        "jEedCePC"^^xsd:string ;
+    schema1:nationality faamentity:3U7ywGMJ ;
+    skos:altLabel "Istvan Thoman"^^xsd:string ;
+    skos:prefLabel "István Thomán"^^xsd:string ;
+    wd:P108 faamentity:NCABARog ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:164766088 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:6iVvX3mY ;
+    wd:P839 <https://imslp.org/wiki/Category:Thomán,_István> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:AKfEoRof,
+        faamentity:L7DPWnnr .
+

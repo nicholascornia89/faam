@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:4SK7RMSL a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:identifier "16004132"^^xsd:string,
+        "4SK7RMSL"^^xsd:string ;
+    skos:prefLabel "La vèr l'aurora, che si dolce l'aura"^^xsd:string ;
+    wd:P5202 faamentity:HznvzWQP,
+        faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:EHXeMNgG ;
+    wd:P839 <https://imslp.org/wiki/La_vèr_l'aurora,_che_si_dolce_l'aura_(Palestrina,_Giovanni_Pierluigi_da)> .
+

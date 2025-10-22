@@ -1,0 +1,55 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oQb73oWT a rdf:subject,
+        rdfs:Resource ;
+    faamprop:editorial_annotation faamentity:gb6MiJbD ;
+    faamprop:handwritten_annotation faamentity:2qoBxv5j,
+        faamentity:7XBG3iZJ,
+        faamentity:EqtAuzbH,
+        faamentity:HKyA3Qzz,
+        faamentity:TUdHPWU8,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR ;
+    dcelem:subject faamentity:X8NxipyB ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:LLpPqfa8,
+        faamentity:o8A78GYD ;
+    schema1:identifier "15992339"^^xsd:string,
+        "KCA-030902809604"^^xsd:string,
+        "oQb73oWT"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:14001255/N"^^schema1:url ;
+    skos:prefLabel "Violin concerto : G major, KV 216 = Concierto para violin: sol mayor, KV 216"^^xsd:string ;
+    wd:P217 "MM-SV-MOZAR-conc216-1"^^xsd:string ;
+    wd:P870 faamentity:G8tgNnWV,
+        faamentity:fTDkNCW3 .
+
+schema1:contributor a rdf:predicate .
+
+"oQb73oWT-13a65cd5-a6b8-4270-93c9-c1d06933a1a9"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:96rVh94r .
+
+"oQb73oWT-5fb4b47e-6cd0-4054-9394-1cfe9d3cfa7f"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:AcFWzeQH .
+
+"oQb73oWT-d7d50281-fa32-4c59-ac90-c37d3258d549"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+
+faamentity:o8A78GYD a rdf:object .
+

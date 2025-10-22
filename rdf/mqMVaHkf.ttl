@@ -1,0 +1,41 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:mqMVaHkf a rdfs:Resource ;
+    faamprop:related_to faamentity:Rn2iLGJr ;
+    faamprop:role faamentity:6UPEJgTQ,
+        faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1824-12-24"^^xsd:string ;
+    schema1:birthPlace faamentity:g9oYkZyL ;
+    schema1:deathDate "1874-10-26"^^xsd:string ;
+    schema1:deathPlace faamentity:g9oYkZyL ;
+    schema1:description "German composer (1824–1874)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q57257>,
+        "16005727"^^xsd:string,
+        "mqMVaHkf"^^xsd:string ;
+    schema1:nationality faamentity:PmtZUgL2 ;
+    skos:altLabel "Carl August Peter Cornelius"^^xsd:string,
+        "Peter Cornelius"^^xsd:string ;
+    skos:prefLabel "Peter Cornelius"^^xsd:string ;
+    wd:P108 faamentity:BeHvaLZh ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:284144783062335772098 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/68604> ;
+    wd:P737 faamentity:BqciCWRq ;
+    wd:P839 <https://imslp.org/wiki/Category:Cornelius,_Peter> ;
+    schema:hasOccupation faamentity:4oKtB5xy,
+        faamentity:5aTYuVxp,
+        faamentity:ELKwPhtK,
+        faamentity:XWcaJQty,
+        faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio .
+

@@ -1,0 +1,28 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:oLvSN7VZ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1650"^^xsd:string ;
+    schema1:birthPlace faamentity:fj46nffV ;
+    schema1:deathDate "1750"^^xsd:string ;
+    schema1:deathPlace faamentity:MxnLw4ay ;
+    schema1:description "Italian composer"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q15407614>,
+        "15995823"^^xsd:string,
+        "oLvSN7VZ"^^xsd:string ;
+    skos:altLabel "Gaetano Boni"^^xsd:string,
+        "Pietro Giuseppe Gaetano Boni"^^xsd:string ;
+    skos:prefLabel "Gaetano Boni"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 <https://viaf.org/viaf/9,88E+34> ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30004862> ;
+    wd:P839 <https://imslp.org/wiki/Category:Boni,_Pietro_Giuseppe_Gaetano> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

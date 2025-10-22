@@ -1,0 +1,72 @@
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/7.1.3/> .
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:dN53uMzn a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7XBG3iZJ,
+        faamentity:HKyA3Qzz,
+        faamentity:JwqBvu9Z,
+        faamentity:NRsZG792,
+        faamentity:PprjdkHE,
+        faamentity:aAsRZoVk,
+        faamentity:eNyFmkHC,
+        faamentity:gaLrAUbu,
+        faamentity:mhohuJYG,
+        faamentity:mkCY9LDD ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:XyayZhMR,
+        faamentity:guXbuHaq ;
+    dcelem:subject faamentity:L3JmRWH5,
+        faamentity:LmDaVvmF,
+        faamentity:WiBZjkbR,
+        faamentity:mGvrzsgB ;
+    dcterms:provenance faamentity:7jH33jwQ ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:DDH7fEFM,
+        faamentity:RLBjKxP5,
+        faamentity:X8CowJzi,
+        faamentity:iGWTaGKR ;
+    schema1:hasPart faamentity:T9cZ3z5f ;
+    schema1:identifier "15992648"^^xsd:string,
+        "KCG-000741173"^^xsd:string,
+        "dN53uMzn"^^xsd:string ;
+    schema1:url "https://catalogus.hogent.be/catalog/hog01:000741173"^^schema1:url ;
+    skos:prefLabel "Morceau de Concert : Op. 14"^^xsd:string ;
+    wd:P217 "V-G-00386-RW"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8,
+        faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"dN53uMzn-02221147-0d1c-4eb8-bdab-edf04d41d7ad"^^xsd:string a rdf:Statement ;
+    crm:P4_has_time-span "1830"^^xsd:string ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"dN53uMzn-0573a894-23c7-47c1-810a-05f34fee54d6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN ;
+    schema1:location faamentity:AYShtw7v .
+
+"dN53uMzn-06350533-1729-4aba-94f3-c100cbc0f16d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+"dN53uMzn-7c1269d2-363d-41d1-a0ae-b204a94067ad"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre ;
+    schema1:location faamentity:g9oYkZyL .
+
+faamentity:DDH7fEFM a rdf:object .
+
+faamentity:RLBjKxP5 a rdf:object .
+
+faamentity:X8CowJzi a rdf:object .
+
+faamentity:iGWTaGKR a rdf:object .
+

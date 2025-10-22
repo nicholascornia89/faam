@@ -1,0 +1,243 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VYJpRxFp a rdf:subject,
+        rdfs:Resource ;
+    faamprop:handwritten_annotation faamentity:7qCCArxX,
+        faamentity:93GDD9ND,
+        faamentity:EXzrp8XT,
+        faamentity:HKyA3Qzz,
+        faamentity:eNyFmkHC,
+        faamentity:hJoKsjEm,
+        faamentity:jP8px5zn ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:guXbuHaq ;
+    dcterms:provenance faamentity:2C9Fy8H6 ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:2TucE7F9,
+        faamentity:2xdjPXtz,
+        faamentity:5F6uGb6k,
+        faamentity:5MMa69Kf,
+        faamentity:5PuKvYa3,
+        faamentity:7FTvdvo6,
+        faamentity:8EpC6dQ6,
+        faamentity:9UFKY99S,
+        faamentity:BHzSccaL,
+        faamentity:C3NTYuH8,
+        faamentity:CWKiEvvh,
+        faamentity:GbqX2j2Y,
+        faamentity:GecAsFfL,
+        faamentity:GsCCwH8o,
+        faamentity:KChV7zcZ,
+        faamentity:LLpPqfa8,
+        faamentity:Lvp6G9Z3,
+        faamentity:QGLAMynm,
+        faamentity:TZfafBBe,
+        faamentity:WMMn7pt6,
+        faamentity:WT5t4PfA,
+        faamentity:ez5MUfiE,
+        faamentity:g3BAmejW,
+        faamentity:gGDDnuWi,
+        faamentity:gwmSxNpA,
+        faamentity:hXVVRcWL,
+        faamentity:iY78UHRF,
+        faamentity:icZbBdJS,
+        faamentity:mqpTBfp2,
+        faamentity:myeBxemb ;
+    schema1:hasPart faamentity:4TfTjHb7,
+        faamentity:4TujQub5,
+        faamentity:4cAAHECR,
+        faamentity:62naNRmC,
+        faamentity:6byr5oG6,
+        faamentity:86NdzWvY,
+        faamentity:Ai5WMYpD,
+        faamentity:DsBYytCm,
+        faamentity:DwruefQK,
+        faamentity:E9VnhwMt,
+        faamentity:HXSw9Yya,
+        faamentity:L3FsJMEq,
+        faamentity:NxDTB2Xy,
+        faamentity:QSdFGdpv,
+        faamentity:ShXcjx3S,
+        faamentity:TW9BVMNB,
+        faamentity:UiwS67vV,
+        faamentity:WeGMsLoN,
+        faamentity:XcKft2Rw,
+        faamentity:Z9hmnAn7,
+        faamentity:ZJut946q,
+        faamentity:ZeKPzwZ5,
+        faamentity:aQCPiS8X,
+        faamentity:bT2cMQaT,
+        faamentity:exyTTsgG,
+        faamentity:gazEhtuX,
+        faamentity:iv7gLUFk,
+        faamentity:iztUXi9W,
+        faamentity:jvPp2PgH,
+        faamentity:ka26Qjy5 ;
+    schema1:identifier "15992551"^^xsd:string,
+        "KCA-030902518940"^^xsd:string,
+        "VYJpRxFp"^^xsd:string ;
+    schema1:url "https://anet.be/record/opacdkvc/c:lvd:12971837/N"^^schema1:url ;
+    skos:prefLabel "Convoluut Dubar B319"^^xsd:string ;
+    wd:P217 "MM-DUBP-FAURE-berce-1"^^xsd:string ;
+    wd:P870 faamentity:2nFJpnZ8 .
+
+schema1:contributor a rdf:predicate .
+
+"VYJpRxFp-03f4b7a3-6a3b-45ca-9071-4a6a99004262"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-12421b2f-9481-4d45-97b7-dd4aeb7cd632"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-21a4ea9c-b2a8-4843-a427-da75d564aa1b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-258a7a63-9605-4f97-a5d5-e9e5b47cf8a5"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-28ddc99d-c252-48f6-b34e-8d4edbe33d55"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-3a66289b-9c00-45cd-ac4e-a6226f3b5d06"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-3b70b158-9331-4484-bb79-38b0c3838046"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-40b7b625-aa96-4355-9dc9-1b8f0a898fb6"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-47ee9901-4f29-4401-8596-2d9fa3eabb56"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-6dedab3d-dfea-4d63-bc61-d92f98279355"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-737991f1-a2db-4593-9a91-d32809c7338e"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-76c32d9b-ffbd-4c15-a9dc-713f19314119"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-8926746f-ee12-4494-9756-9077d12ae5da"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-9376af93-58f6-4bbc-816e-1f5517100794"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-95e6049a-cc64-4d89-9b39-02326ca8e816"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-9882530a-0ea7-46cb-96ad-8528aea05cf3"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-9f983129-88e7-4d01-8fa2-764fa67a6af7"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-a696c2ed-2b6b-4ad7-b323-c1a267ab8a13"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-a9dbf23b-f1be-41e5-afc8-71f0d8797563"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:oMERLdSN .
+
+"VYJpRxFp-abea1aab-3e78-46cc-8f0f-5ff1a281dccc"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-b7566b52-e268-47c9-8686-1d5beb104e0b"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-bc67e7e8-656c-4c64-af2d-1218701cdacd"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-c2187cfd-4e9f-4864-8b1f-3ec569857f94"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-cb1a1646-93bc-4a31-98dd-df23f6b1349d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-cb620e53-5d56-4831-91c1-f49effd0726d"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-ce76d0d8-a2f5-4f62-a7ce-0f0b54d84336"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-d48b3cd1-23d6-4052-9d6d-2e597a970278"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-dc4da0cb-0cf8-4728-b1ba-00d18c6d4164"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-de087b57-47ac-4803-9368-085ecd5eca5c"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"VYJpRxFp-f3c76496-be8a-467a-b894-3a4ae3975bd2"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+faamentity:2TucE7F9 a rdf:object .
+
+faamentity:2xdjPXtz a rdf:object .
+
+faamentity:5F6uGb6k a rdf:object .
+
+faamentity:5MMa69Kf a rdf:object .
+
+faamentity:5PuKvYa3 a rdf:object .
+
+faamentity:7FTvdvo6 a rdf:object .
+
+faamentity:8EpC6dQ6 a rdf:object .
+
+faamentity:9UFKY99S a rdf:object .
+
+faamentity:BHzSccaL a rdf:object .
+
+faamentity:C3NTYuH8 a rdf:object .
+
+faamentity:CWKiEvvh a rdf:object .
+
+faamentity:GbqX2j2Y a rdf:object .
+
+faamentity:GecAsFfL a rdf:object .
+
+faamentity:GsCCwH8o a rdf:object .
+
+faamentity:KChV7zcZ a rdf:object .
+
+faamentity:LLpPqfa8 a rdf:object .
+
+faamentity:Lvp6G9Z3 a rdf:object .
+
+faamentity:QGLAMynm a rdf:object .
+
+faamentity:TZfafBBe a rdf:object .
+
+faamentity:WMMn7pt6 a rdf:object .
+
+faamentity:WT5t4PfA a rdf:object .
+
+faamentity:ez5MUfiE a rdf:object .
+
+faamentity:g3BAmejW a rdf:object .
+
+faamentity:gGDDnuWi a rdf:object .
+
+faamentity:gwmSxNpA a rdf:object .
+
+faamentity:hXVVRcWL a rdf:object .
+
+faamentity:iY78UHRF a rdf:object .
+
+faamentity:icZbBdJS a rdf:object .
+
+faamentity:mqpTBfp2 a rdf:object .
+
+faamentity:myeBxemb a rdf:object .
+

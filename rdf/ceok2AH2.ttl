@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix gn: <https://www.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ceok2AH2 a rdfs:Resource ;
+    schema1:Class "city"^^xsd:string ;
+    schema1:description "council area of Scotland"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q62274582>,
+        "0"^^xsd:string,
+        "ceok2AH2"^^xsd:string ;
+    schema1:location faamentity:KmPGztnu ;
+    skos:altLabel "Aberdeen"^^xsd:string,
+        "Aberdeen district"^^xsd:string,
+        "City of Aberdeen"^^xsd:string,
+        "City of Aberdeen district"^^xsd:string ;
+    skos:prefLabel "Aberdeen City"^^xsd:string ;
+    wd:P1566 gn:3333224 .
+

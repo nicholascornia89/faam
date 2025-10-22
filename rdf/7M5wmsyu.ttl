@@ -1,0 +1,40 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:7M5wmsyu a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:SGA8i9nK ;
+    schema1:birthDate "1919-01-01"^^xsd:string ;
+    schema1:birthPlace faamentity:LkrSG9qd ;
+    schema1:deathDate "2012-01-01"^^xsd:string ;
+    schema1:deathPlace faamentity:RnTdUMFY ;
+    schema1:description "Belgian composer and flute player, 1919–2012"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110083546>,
+        "15996261"^^xsd:string,
+        "7M5wmsyu"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "August Verbesselt"^^xsd:string ;
+    skos:prefLabel "August Verbesselt"^^xsd:string ;
+    wd:P108 faamentity:SGA8i9nK,
+        faamentity:adScJJTL ;
+    wd:P1303 faamentity:E2dDDzdk,
+        faamentity:LMnKWZg2,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:37184262 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:9JxDrbSP,
+        faamentity:9dCiGXXo,
+        faamentity:CSRR6e6p,
+        faamentity:NSpsStC4,
+        faamentity:U2NEfkwu,
+        faamentity:im53S5Ag ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:RVTQxuie .
+

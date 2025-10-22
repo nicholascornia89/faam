@@ -1,0 +1,43 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MUYzJ4yk a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:HyZpWxUp ;
+    schema1:birthDate "1659-09-10"^^xsd:string ;
+    schema1:birthPlace faamentity:7jcLcbUX ;
+    schema1:deathDate "1695-11-21"^^xsd:string ;
+    schema1:deathPlace faamentity:7jcLcbUX ;
+    schema1:description "English composer (1659–1695)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q9695>,
+        "16005055"^^xsd:string,
+        "MUYzJ4yk"^^xsd:string ;
+    schema1:nationality faamentity:cR66R5HF ;
+    skos:altLabel "Henry Purcell"^^xsd:string ;
+    skos:prefLabel "Henry Purcell"^^xsd:string ;
+    wd:P1303 faamentity:ARCBiyhQ,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:5118737 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/33668> ;
+    wd:P737 faamentity:9JyELHrv,
+        faamentity:WEgPqx5q,
+        faamentity:X3xyZezw,
+        faamentity:o3dvxRnn ;
+    wd:P839 <https://imslp.org/wiki/Category:Purcell,_Henry> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:ZhptKYF3,
+        faamentity:bUujp3hi .
+

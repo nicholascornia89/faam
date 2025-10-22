@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:daiXuwkJ a rdfs:Resource ;
+    schema1:Class "holding_institution"^^xsd:string ;
+    schema1:copyrightNotice "© Letterenhuis Antwerp"^^xsd:string ;
+    schema1:description "Belgian non-profit organization located in Antwerp"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3813695>,
+        "15992246"^^xsd:string,
+        "daiXuwkJ"^^xsd:string ;
+    schema1:location faamentity:KgyiaBt3,
+        faamentity:bSzLPudk ;
+    schema1:url "https://anet.be/desktop/letterenhuis"^^schema1:url,
+        "https://letterenhuis.be/"^^schema1:url ;
+    skos:altLabel "Letterenhuis"^^xsd:string ;
+    skos:prefLabel "AMVC-Letterenhuis"^^xsd:string ;
+    wd:P1813 "LHA"^^xsd:string .
+

@@ -1,0 +1,38 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9z8RdMRP a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH,
+        faamentity:ZMpsLcpT ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DiNi3Zdu ;
+    schema1:birthDate "1883-03-21"^^xsd:string ;
+    schema1:birthPlace faamentity:QJDipFiF ;
+    schema1:deathDate "1953-06-29"^^xsd:string ;
+    schema1:deathPlace faamentity:EALEFbtT ;
+    schema1:description "Belgian musicologist, composer, and expert on religious music (1883–1953)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q329443>,
+        "15996314"^^xsd:string,
+        "9z8RdMRP"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Jules Van Nuffel"^^xsd:string,
+        "Julius Van Nuffel"^^xsd:string ;
+    skos:prefLabel "Jules Van Nuffel"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:19872677 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30030182> ;
+    wd:P839 <https://imslp.org/wiki/Category:Nuffel,_Jules_van> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:eUa7qYMN,
+        faamentity:me4GX7oo .
+

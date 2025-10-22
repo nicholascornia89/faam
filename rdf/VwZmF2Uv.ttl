@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:VwZmF2Uv a rdfs:Resource ;
+    schema1:Class "music_organization"^^xsd:string ;
+    schema1:description "music school in Saint Petersburg"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q178416>,
+        "15991094"^^xsd:string,
+        "VwZmF2Uv"^^xsd:string ;
+    schema1:location faamentity:3iEGZFo6,
+        faamentity:DEbEnXwM,
+        faamentity:ZpwbPoZj,
+        faamentity:c4DdDGWx ;
+    skos:altLabel "Leningrad Conservatory"^^xsd:string,
+        "N. A. Rimsky-Korsakov Saint Petersburg State Conservatory"^^xsd:string,
+        "Rimsky-Korsakov Saint Petersburg State Conservatory"^^xsd:string,
+        "Saint Petersburg Conservatory"^^xsd:string,
+        "Saint Petersburg State Conservatory named after N.A. Rimsky-Korsakov"^^xsd:string ;
+    skos:prefLabel "Saint Petersburg Conservatory"^^xsd:string .
+

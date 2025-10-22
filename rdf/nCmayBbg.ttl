@@ -1,0 +1,47 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:nCmayBbg a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:mNynReve ;
+    schema1:birthDate "1887-09-16"^^xsd:string ;
+    schema1:birthPlace faamentity:D4xdfGtX,
+        faamentity:dtkJhYLf ;
+    schema1:deathDate "1979-10-22"^^xsd:string ;
+    schema1:deathPlace faamentity:D4xdfGtX ;
+    schema1:description "French musician, conductor, and teacher (1887-1979)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q140619>,
+        "0"^^xsd:string,
+        "nCmayBbg"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:prefLabel "Nadia Boulanger"^^xsd:string ;
+    wd:P108 faamentity:d7ivsT2f,
+        faamentity:mNynReve ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:KsQFUkWz ;
+    wd:P214 viaf:61731139 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30042847> ;
+    wd:P737 faamentity:BiMpVQUM,
+        faamentity:GsCCwH8o,
+        faamentity:Ucu6hfrE,
+        faamentity:WUZ8VDyK,
+        faamentity:WrJhnq2h,
+        faamentity:YbVtaBnQ ;
+    wd:P839 <https://imslp.org/wiki/Category:Boulanger,_Nadia> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:HkbL2euD,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty,
+        faamentity:ZhptKYF3,
+        faamentity:bSHypyYG .
+

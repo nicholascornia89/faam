@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Qz4v465T a rdfs:Resource ;
+    schema1:Class "keyword"^^xsd:string ;
+    schema1:description "numerical symbol used in combinations to represent numbers in positional numeral systems"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q82990>,
+        "15992123"^^xsd:string,
+        "Qz4v465T"^^xsd:string ;
+    skos:altLabel "digit"^^xsd:string,
+        "digits"^^xsd:string,
+        "numeric character"^^xsd:string,
+        "numerical character"^^xsd:string,
+        "numerical digit"^^xsd:string,
+        "numerical digits"^^xsd:string ;
+    skos:prefLabel "numerical digit"^^xsd:string .
+

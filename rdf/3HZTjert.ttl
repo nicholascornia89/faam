@@ -1,0 +1,23 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:3HZTjert a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:LLpPqfa8 ;
+    schema1:description "concerto for French horn and orchestra by W. A. Mozart"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2738098>,
+        "16005021"^^xsd:string,
+        "3HZTjert"^^xsd:string ;
+    skos:altLabel "Horn Concerto No. 2"^^xsd:string,
+        "Horn Concerto No. 2 in E-flat Major, K. 417"^^xsd:string,
+        "Horn Concerto No. 2 in E-flat major"^^xsd:string ;
+    skos:prefLabel "Horn Concerto No.2 K 417"^^xsd:string ;
+    wd:P5202 faamentity:GBEySAxU ;
+    wd:P7937 faamentity:Mr4ByBuL,
+        faamentity:X8NxipyB ;
+    wd:P839 <https://imslp.org/wiki/Horn_Concerto_in_E-flat_major,_K.417_(Mozart,_Wolfgang_Amadeus)> .
+

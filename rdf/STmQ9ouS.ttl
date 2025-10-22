@@ -1,0 +1,26 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:STmQ9ouS a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:8EpC6dQ6 ;
+    schema1:description "piano concerto by Frédéric Chopin"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q162884>,
+        "16002471"^^xsd:string,
+        "STmQ9ouS"^^xsd:string ;
+    skos:altLabel "Chopin piano concerto no. 1"^^xsd:string,
+        "Concerto for Piano and Orchestra no. 1 in E minor, op. 11"^^xsd:string,
+        "Piano Concerto No. 1"^^xsd:string,
+        "Piano Concerto in E minor"^^xsd:string,
+        "Piano Concerto, Op. 11"^^xsd:string ;
+    skos:prefLabel "Piano Concerto No.1, Op.11"^^xsd:string ;
+    wd:P214 viaf:213966104,
+        viaf:8752151474842700490000 ;
+    wd:P7937 faamentity:iHeydB2F ;
+    wd:P839 <https://imslp.org/wiki/Piano_Concerto_No.1,_Op.11_(Chopin,_Frédéric)> .
+

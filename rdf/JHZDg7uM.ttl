@@ -1,0 +1,51 @@
+@prefix dcelem: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:JHZDg7uM a rdf:subject,
+        rdfs:Resource ;
+    faamprop:score_complexity faamentity:WJHHh56W ;
+    faamprop:score_format faamentity:ZQLNVHnN ;
+    dcelem:subject faamentity:FDSkv45i,
+        faamentity:Gx3B7DJH,
+        faamentity:MbASmHy9,
+        faamentity:RtkoMT89,
+        faamentity:WiBZjkbR ;
+    dcterms:provenance faamentity:SzVumnmW ;
+    schema1:Class "manifestation"^^xsd:string ;
+    schema1:contributor faamentity:AaF6WQEA,
+        faamentity:PXYCpRXf,
+        faamentity:WvqsGBqo ;
+    schema1:hasPart faamentity:Ap6aFBd2 ;
+    schema1:identifier "16005158"^^xsd:string,
+        "JHZDg7uM"^^xsd:string,
+        "SML-11727"^^xsd:string ;
+    schema1:url "https://rochester.primo.exlibrisgroup.com/permalink/01ROCH_INST/300o2r/alma9910336433405216"^^schema1:url ;
+    skos:prefLabel "Klassische Klavierwerke aus Hans von Bülow's Concertprogrammen = Classical pianoforte pieces from the concertprogrammes of Hans von Bülow / revidirt und mit genauen Fingersatz- und Vortragsbezeichnungen herausgegeben von Hans von Bülow."^^xsd:string ;
+    wd:P217 "M21 .B92"^^xsd:string ;
+    wd:P870 faamentity:PyGNLcfw .
+
+schema1:contributor a rdf:predicate .
+
+"JHZDg7uM-0064b09d-7e14-4602-afb8-8dcc4e05e108"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:YvQmwaaW .
+
+"JHZDg7uM-1adcc3f3-cfab-4491-982a-4264923dc9e0"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:7tdgMgre .
+
+"JHZDg7uM-e6f50e36-a20a-4e3a-9884-679077afeabe"^^xsd:string a rdf:Statement ;
+    faamprop:role faamentity:6UPEJgTQ .
+
+faamentity:AaF6WQEA a rdf:object .
+
+faamentity:PXYCpRXf a rdf:object .
+
+faamentity:WvqsGBqo a rdf:object .
+

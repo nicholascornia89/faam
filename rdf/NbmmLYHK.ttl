@@ -1,0 +1,20 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:NbmmLYHK a rdfs:Resource ;
+    schema1:Class "country"^^xsd:string ;
+    schema1:description "empire of Napoleon I of France, from 1804 to 1815"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q71084>,
+        "15997630"^^xsd:string,
+        "NbmmLYHK"^^xsd:string ;
+    skos:altLabel "First French Empire"^^xsd:string,
+        "French Empire"^^xsd:string,
+        "French First Empire"^^xsd:string,
+        "Greater French Empire"^^xsd:string,
+        "Napoleonic Empire"^^xsd:string,
+        "Napoleonic France"^^xsd:string ;
+    skos:prefLabel "First French Empire"^^xsd:string .
+

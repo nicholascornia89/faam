@@ -1,0 +1,19 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:TtnUdAfT a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:identifier "16002673"^^xsd:string,
+        "TtnUdAfT"^^xsd:string ;
+    skos:prefLabel "Sicut ovis ad occisionem, IGP 747"^^xsd:string ;
+    wd:P5202 faamentity:HznvzWQP,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:YJViDXyp,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Sicut_ovis_ad_occisionem_(Palestrina,_Giovanni_Pierluigi_da)> .
+

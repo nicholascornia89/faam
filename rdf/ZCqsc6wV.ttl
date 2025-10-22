@@ -1,0 +1,27 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ZCqsc6wV a rdfs:Resource ;
+    faamprop:related_to faamentity:Gx3B7DJH ;
+    faamprop:role faamentity:6UPEJgTQ ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1879-01-01"^^xsd:string,
+        "1879-10-07"^^xsd:string ;
+    schema1:deathDate "1955-01-01"^^xsd:string ;
+    schema1:description "7 October 1879 — 1955"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q110222852>,
+        "16005768"^^xsd:string,
+        "ZCqsc6wV"^^xsd:string ;
+    skos:altLabel "Fernand Pollain"^^xsd:string ;
+    skos:prefLabel "Fernand Pollain"^^xsd:string ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:42104594 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Pollain,_Fernand> .
+

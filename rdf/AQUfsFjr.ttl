@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:AQUfsFjr a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:iAgWDvZu ;
+    schema1:birthDate "1831-06-10"^^xsd:string ;
+    schema1:birthPlace faamentity:iR3nZ9nb ;
+    schema1:deathDate "1898-01-22"^^xsd:string,
+        "1898-01-23"^^xsd:string ;
+    schema1:deathPlace faamentity:hvszrDaH ;
+    schema1:description "Austrian composer and music teacher (1831-1898)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q4274784>,
+        "0"^^xsd:string,
+        "AQUfsFjr"^^xsd:string ;
+    schema1:nationality faamentity:PYaeFADo,
+        faamentity:WXHANYCp ;
+    skos:altLabel "W. A. Rémy"^^xsd:string ;
+    skos:prefLabel "Wilhelm Mayer"^^xsd:string ;
+    wd:P108 faamentity:9MHE74xB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:170182141 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/30018079> ;
+    wd:P737 faamentity:aA54mNAC ;
+    wd:P839 <https://imslp.org/wiki/Category:Mayer,_Wilhelm> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:838aaUAe,
+        faamentity:L7DPWnnr .
+

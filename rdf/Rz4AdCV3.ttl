@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:Rz4AdCV3 a rdfs:Resource ;
+    faamprop:role faamentity:eBGrzZAP ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:9U8LuxuX,
+        faamentity:neFktRRX ;
+    schema1:birthDate "1830-05-01"^^xsd:string ;
+    schema1:birthPlace faamentity:QRuTEdwa ;
+    schema1:deathDate "1899-11-27"^^xsd:string ;
+    schema1:deathPlace faamentity:QRuTEdwa ;
+    schema1:description "Belgian poet, journalist, teacher, monastery director and priest (1830–1899)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q336977>,
+        "15996289"^^xsd:string,
+        "Rz4AdCV3"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Guido Gezelle"^^xsd:string ;
+    skos:prefLabel "Guido Gezelle"^^xsd:string ;
+    wd:P108 faamentity:9U8LuxuX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:71428001 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/62006> ;
+    wd:P737 faamentity:3HuQsR4z,
+        faamentity:9UrXcvts,
+        faamentity:WFtzHq9o,
+        faamentity:i6yQPw7F ;
+    wd:P839 <https://imslp.org/wiki/Category:Gezelle,_Guido> ;
+    schema:hasOccupation faamentity:YrCfZ8vh,
+        faamentity:fKBqCJio .
+

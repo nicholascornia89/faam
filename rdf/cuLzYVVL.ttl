@@ -1,0 +1,24 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:cuLzYVVL a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:jihjgQpH ;
+    schema1:description "composition by Joseph Haydn"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q3819875>,
+        "16004082"^^xsd:string,
+        "cuLzYVVL"^^xsd:string ;
+    skos:altLabel "Stabat Mater"^^xsd:string ;
+    skos:prefLabel "Stabat Mater, Hob.XXa:1"^^xsd:string ;
+    wd:P2000 cpdl:Stabat_Mater_\(Joseph_Haydn\) ;
+    wd:P214 viaf:174157610 ;
+    wd:P5202 faamentity:jZ5Za9W2 ;
+    wd:P7937 faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Stabat_Mater,_Hob.XXa:1_(Haydn,_Joseph)> .
+

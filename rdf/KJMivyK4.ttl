@@ -1,0 +1,39 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:KJMivyK4 a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:4YwrEKVY,
+        faamentity:AdtLRLuK,
+        faamentity:fLYUtmf5 ;
+    schema1:birthDate "1934-10-30"^^xsd:string ;
+    schema1:birthPlace faamentity:d5Z68PVs ;
+    schema1:deathDate "2014-08-13"^^xsd:string ;
+    schema1:deathPlace faamentity:d5Z68PVs ;
+    schema1:description "Dutch conductor, recorder player and baroque flautist (1934–2014)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q711810>,
+        "15996161"^^xsd:string,
+        "KJMivyK4"^^xsd:string ;
+    schema1:nationality faamentity:mV38LJ7u ;
+    skos:altLabel "Frans Brüggen"^^xsd:string ;
+    skos:prefLabel "Frans Brüggen"^^xsd:string ;
+    wd:P108 faamentity:AdtLRLuK,
+        faamentity:H5vuG5rM ;
+    wd:P1303 faamentity:LMnKWZg2,
+        faamentity:ktU2xaGm ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:84194973 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P737 faamentity:BNsehx5m ;
+    wd:P839 <https://imslp.org/wiki/Category:Brüggen,_Frans> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:L7DPWnnr,
+        faamentity:TDF2knmi,
+        faamentity:XWcaJQty .
+

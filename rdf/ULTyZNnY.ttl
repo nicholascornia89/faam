@@ -1,0 +1,15 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:ULTyZNnY a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "court appointment; director of music at a royal court"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1002228>,
+        "0"^^xsd:string,
+        "ULTyZNnY"^^xsd:string ;
+    skos:altLabel "director of music"^^xsd:string ;
+    skos:prefLabel "court chapel master"^^xsd:string .
+

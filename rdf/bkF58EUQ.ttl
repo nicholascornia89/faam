@@ -1,0 +1,36 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:bkF58EUQ a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1706-10-18"^^xsd:string ;
+    schema1:birthPlace faamentity:4gRyjpMr ;
+    schema1:deathDate "1785-01-03"^^xsd:string ;
+    schema1:deathPlace faamentity:CgZzMq22 ;
+    schema1:description "Italian composer (1706-1785)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q208338>,
+        "15995817"^^xsd:string,
+        "bkF58EUQ"^^xsd:string ;
+    schema1:nationality faamentity:eYiHyUu4 ;
+    skos:altLabel "Baldassare Galuppi"^^xsd:string,
+        "Baldassarre, detto il Buranello Galuppi"^^xsd:string,
+        "Buranello"^^xsd:string ;
+    skos:prefLabel "Baldassare Galuppi"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:22327261 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/41444> ;
+    wd:P737 faamentity:SnTwYr4w,
+        faamentity:kGtx9MnB ;
+    wd:P839 <https://imslp.org/wiki/Category:Galuppi,_Baldassare> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3 .
+

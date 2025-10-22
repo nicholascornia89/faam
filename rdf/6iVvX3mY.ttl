@@ -1,0 +1,64 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:6iVvX3mY a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:DRRhn6P7 ;
+    schema1:birthDate "1811-10-22"^^xsd:string ;
+    schema1:birthPlace faamentity:KGTpvHk8 ;
+    schema1:deathDate "1886-07-31"^^xsd:string ;
+    schema1:deathPlace faamentity:FugMPbQk ;
+    schema1:description "Hungarian romantic composer and virtuoso pianist (1811–1886)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q41309>,
+        "15996061"^^xsd:string,
+        "6iVvX3mY"^^xsd:string ;
+    schema1:nationality faamentity:J6QhzGCy,
+        faamentity:PYaeFADo,
+        faamentity:WaVFWWCZ ;
+    skos:altLabel "Abbé Franz Liszt"^^xsd:string,
+        "Abbé Liszt"^^xsd:string,
+        "F. Lists"^^xsd:string,
+        "F. Liszt"^^xsd:string,
+        "Ferenc List"^^xsd:string,
+        "Ferenc Liszt"^^xsd:string,
+        "Ferencz Liszt"^^xsd:string,
+        "Francesco Liszt"^^xsd:string,
+        "Franciscus List"^^xsd:string,
+        "Franciszek Liszt"^^xsd:string,
+        "Frant︠s︡ List"^^xsd:string,
+        "Franz List"^^xsd:string,
+        "Franz Liszt"^^xsd:string,
+        "Franz Von Liszt"^^xsd:string,
+        "Franz von Liszt"^^xsd:string,
+        "François Liszt"^^xsd:string,
+        "Liszt Ferencz"^^xsd:string,
+        "Liszt-Brugnoli"^^xsd:string ;
+    skos:prefLabel "Franz Liszt"^^xsd:string ;
+    wd:P108 faamentity:NCABARog ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:64199483 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/107196> ;
+    wd:P737 faamentity:SgJFWhdM,
+        faamentity:VQ9LnFAH,
+        faamentity:c45EE2BL,
+        faamentity:hDZWUwZz,
+        faamentity:jm4QpjVW ;
+    wd:P839 <https://imslp.org/wiki/Category:Liszt,_Franz> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:NdA6Fzv9,
+        faamentity:T6nAVeGM,
+        faamentity:TDF2knmi,
+        faamentity:YrCfZ8vh,
+        faamentity:aB6ga3Wq,
+        faamentity:eUa7qYMN .
+

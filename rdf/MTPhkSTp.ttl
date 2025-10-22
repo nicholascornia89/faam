@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:MTPhkSTp a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1873-09-09"^^xsd:string ;
+    schema1:birthPlace faamentity:ndwv66mQ ;
+    schema1:deathDate "1945-01-12"^^xsd:string ;
+    schema1:deathPlace faamentity:4bvag8U3 ;
+    schema1:description "German musicologist (1873-1945)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q91581>,
+        "0"^^xsd:string,
+        "MTPhkSTp"^^xsd:string ;
+    schema1:nationality faamentity:CTNhzr7a ;
+    skos:prefLabel "Theodor Kroyer"^^xsd:string ;
+    wd:P108 faamentity:8hu8F7Zd,
+        faamentity:Yr3wwkgS,
+        faamentity:fAbjif4V,
+        faamentity:o3myxgaX ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:42106898 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/56365> ;
+    wd:P737 faamentity:SZPVNBar,
+        faamentity:ksHYqUsH ;
+    wd:P839 <https://imslp.org/wiki/Category:Kroyer,_Theodor> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:XWcaJQty .
+

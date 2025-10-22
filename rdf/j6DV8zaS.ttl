@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:j6DV8zaS a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:K4cyR6ei ;
+    schema1:birthDate "1830-08-11"^^xsd:string ;
+    schema1:birthPlace faamentity:bSzLPudk ;
+    schema1:deathDate "1901-03-03"^^xsd:string ;
+    schema1:deathPlace faamentity:bSzLPudk ;
+    schema1:description "Belgian organist and composer (1830–1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q2327733>,
+        "16002796"^^xsd:string,
+        "j6DV8zaS"^^xsd:string ;
+    schema1:nationality faamentity:KgyiaBt3 ;
+    skos:altLabel "Joseph Callaerts"^^xsd:string ;
+    skos:prefLabel "Joseph Callaerts"^^xsd:string ;
+    wd:P108 faamentity:SGA8i9nK ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:32333757 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P839 <https://imslp.org/wiki/Category:Callaerts,_Joseph> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:ZhptKYF3 .
+

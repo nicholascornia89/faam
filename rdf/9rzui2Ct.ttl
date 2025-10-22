@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:9rzui2Ct a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:YWvFQ75E ;
+    schema1:description "opera by Gioacchino Rossini"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q777578>,
+        "15999104"^^xsd:string,
+        "9rzui2Ct"^^xsd:string ;
+    schema1:isBasedOn faamentity:M9UFSqcc ;
+    skos:altLabel "Armida"^^xsd:string ;
+    skos:prefLabel "Armida"^^xsd:string ;
+    wd:P214 viaf:175836259 ;
+    wd:P5202 faamentity:SfdhwsSz ;
+    wd:P7937 faamentity:7AXGCpck .
+

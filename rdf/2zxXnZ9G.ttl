@@ -1,0 +1,18 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:2zxXnZ9G a rdfs:Resource ;
+    schema1:Class "occupation"^^xsd:string ;
+    schema1:description "musician who plays the double bass"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1214796>,
+        "0"^^xsd:string,
+        "2zxXnZ9G"^^xsd:string ;
+    skos:altLabel "contrabassist"^^xsd:string,
+        "double bass player"^^xsd:string,
+        "double bassist"^^xsd:string,
+        "string bass player"^^xsd:string ;
+    skos:prefLabel "double-bassist"^^xsd:string .
+

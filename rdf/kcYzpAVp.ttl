@@ -1,0 +1,22 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:kcYzpAVp a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:GecAsFfL ;
+    schema1:description "church cantata by Johann Sebastian Bach"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q250776>,
+        "16004346"^^xsd:string,
+        "kcYzpAVp"^^xsd:string ;
+    skos:altLabel "Schwingt freudig euch empor, BWV 36"^^xsd:string ;
+    skos:prefLabel "Schwingt freudig euch empor, BWV 36"^^xsd:string ;
+    wd:P214 viaf:184268105 ;
+    wd:P5202 faamentity:T4UPmCxj ;
+    wd:P7937 faamentity:QELJUJBf ;
+    wd:P839 <https://imslp.org/wiki/Schwingt_freudig_euch_empor,_BWV_36_(Bach,_Johann_Sebastian)> .
+

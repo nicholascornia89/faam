@@ -1,0 +1,34 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:jieDZf2J a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:birthDate "1841-11-04"^^xsd:string ;
+    schema1:birthPlace faamentity:44272D3z ;
+    schema1:deathDate "1871-07-17"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "Polish pianist (1841–1871)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q636941>,
+        "15996019"^^xsd:string,
+        "jieDZf2J"^^xsd:string ;
+    schema1:nationality faamentity:C9YPHAFh ;
+    skos:altLabel "Carl Tausig"^^xsd:string,
+        "Karl Tausig"^^xsd:string ;
+    skos:prefLabel "Carl Tausig"^^xsd:string ;
+    wd:P1303 faamentity:PyGNLcfw ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:7575608 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/125619> ;
+    wd:P737 faamentity:6iVvX3mY ;
+    wd:P839 <https://imslp.org/wiki/Category:Tausig,_Carl> ;
+    schema:hasOccupation faamentity:5aTYuVxp,
+        faamentity:L7DPWnnr,
+        faamentity:T6nAVeGM .
+

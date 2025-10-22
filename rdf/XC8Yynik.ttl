@@ -1,0 +1,35 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix faamprop: <http://nicholascornia89.github.io/faam/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:XC8Yynik a rdfs:Resource ;
+    faamprop:role faamentity:YvQmwaaW ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:VZD5QpBx ;
+    schema1:birthDate "1840-04-12"^^xsd:string ;
+    schema1:birthPlace faamentity:bbhvKkZo ;
+    schema1:deathDate "1901-08-17"^^xsd:string ;
+    schema1:deathPlace faamentity:cpU3CLq9 ;
+    schema1:description "French composer (1840–1901)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q952983>,
+        "16002461"^^xsd:string,
+        "XC8Yynik"^^xsd:string ;
+    schema1:nationality faamentity:BJqUa5Kf ;
+    skos:altLabel "Achille Edmond Audran"^^xsd:string,
+        "Edmond Audran"^^xsd:string ;
+    skos:prefLabel "Edmond Audran"^^xsd:string ;
+    wd:P1303 faamentity:8cygiHEB ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:54365379 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/325213> ;
+    wd:P737 faamentity:NjFENZnt ;
+    wd:P839 <https://imslp.org/wiki/Category:Audran,_Edmond> ;
+    schema:hasOccupation faamentity:5aTYuVxp .
+

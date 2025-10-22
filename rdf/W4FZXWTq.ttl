@@ -1,0 +1,22 @@
+@prefix cpdl: <https://www.cpdl.org/wiki/index.php/> .
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:W4FZXWTq a rdfs:Resource ;
+    schema1:Class "musical_work"^^xsd:string ;
+    schema1:creator faamentity:nHfR4BAi ;
+    schema1:identifier "16002100"^^xsd:string,
+        "W4FZXWTq"^^xsd:string ;
+    skos:prefLabel "Veni sponsa Christi, IGP 101"^^xsd:string ;
+    wd:P2000 cpdl:Veni_sponsa_Christi_\(Giovanni_Pierluigi_da_Palestrina\) ;
+    wd:P5202 faamentity:Y37RQzq9,
+        faamentity:ivLCrpn3,
+        faamentity:mK2saWSr ;
+    wd:P7937 faamentity:7UGJWsQF,
+        faamentity:ik3NwdWW ;
+    wd:P839 <https://imslp.org/wiki/Veni_sponsa_Christi_(Palestrina,_Giovanni_Pierluigi_da)> .
+

@@ -1,0 +1,62 @@
+@prefix faamentity: <http://nicholascornia89.github.io/faam/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix viaf: <https://viaf.org/viaf/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+faamentity:GecAsFfL a rdfs:Resource ;
+    schema1:Class "agent"^^xsd:string ;
+    schema1:alumniOf faamentity:WUohWj4H ;
+    schema1:birthDate "1685-03-21"^^xsd:string ;
+    schema1:birthPlace faamentity:9tUNpEZc ;
+    schema1:deathDate "1750-07-28"^^xsd:string ;
+    schema1:deathPlace faamentity:4GU7NjmQ ;
+    schema1:description "German composer (1685–1750)"^^xsd:string ;
+    schema1:identifier <http://wwww.wikidata.org/entity/Q1339>,
+        "15996220"^^xsd:string,
+        "GecAsFfL"^^xsd:string ;
+    schema1:nationality faamentity:3XCRxG4o,
+        faamentity:CTNhzr7a,
+        faamentity:bXZtPe5G ;
+    skos:altLabel "Bach"^^xsd:string,
+        "J S Bach"^^xsd:string,
+        "J. S. Bach"^^xsd:string,
+        "J.S. Bach"^^xsd:string,
+        "Johann Sebastian Bach"^^xsd:string ;
+    skos:prefLabel "Johann Sebastian Bach"^^xsd:string ;
+    wd:P108 faamentity:9G4CjNNd,
+        faamentity:LoHjhGG5,
+        faamentity:TigmA9vK,
+        faamentity:YCjvwqay,
+        faamentity:f8kuMrZc,
+        faamentity:n4Nm6KPa ;
+    wd:P1303 faamentity:8cygiHEB,
+        faamentity:G8tgNnWV,
+        faamentity:K9mQeF4d,
+        faamentity:Q8MBQBw7 ;
+    wd:P21 faamentity:ku2dT5kg ;
+    wd:P214 viaf:12304462 ;
+    wd:P31 faamentity:aJeJBesD ;
+    wd:P5504 <https://rism.online/people/2539> ;
+    wd:P737 faamentity:6x4DceVp,
+        faamentity:8mBATjSW,
+        faamentity:BtEgXN5y,
+        faamentity:LZEG3pgN,
+        faamentity:NcsUmtLU ;
+    wd:P839 <https://imslp.org/wiki/Category:Bach,_Johann_Sebastian> ;
+    schema:hasOccupation faamentity:49CMncTw,
+        faamentity:5aTYuVxp,
+        faamentity:9CVVGZdo,
+        faamentity:AxAVvEqV,
+        faamentity:L7DPWnnr,
+        faamentity:NdA6Fzv9,
+        faamentity:R7KKRvQ6,
+        faamentity:RgNFJ8gc,
+        faamentity:TDF2knmi,
+        faamentity:ZhptKYF3,
+        faamentity:hMYL5Z9b,
+        faamentity:nuEgp7qK .
+
