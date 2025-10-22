@@ -112,12 +112,6 @@
              
 
              
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
-             
 
              
              /* position absolute is important and the container has to be relative or absolute as well. */
@@ -160,8 +154,6 @@
               </div>
             </div>
         
-        
-            <div id="config"></div>
         
 
         <script type="text/javascript">
@@ -210,10 +202,6 @@
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);
